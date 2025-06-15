@@ -1,8 +1,197 @@
 <!DOCTYPE html>
-<html>
-<head><title>antonnie.dev</title></head>
-<body>
-  <h1>Welcome to antonnie.dev</h1>
-  <a href="/padlockpuzzle">Go to Padlock Puzzle</a>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>antonnie.dev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+        background: linear-gradient(
+          120deg,
+          #e0e7ff 0%,
+          #f7fafc 50%,
+          #c7d2fe 100%
+        );
+        color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header {
+        margin-top: 48px;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      .hero {
+        margin-bottom: 32px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 18px;
+        box-shadow: 0 2px 16px rgba(45, 127, 249, 0.06);
+        padding: 32px 28px 18px 28px;
+        max-width: 520px;
+        width: 100%;
+      }
+      .hero h1 {
+        font-size: 2.7rem;
+        color: #2d7ff9;
+        margin-bottom: 0.2em;
+        letter-spacing: 1px;
+      }
+      .hero p {
+        color: #444;
+        font-size: 1.18em;
+        margin: 0.5em 0 0 0;
+      }
+      .projects-list {
+        width: 100%;
+        max-width: 520px;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+        padding: 32px 24px;
+        margin-bottom: 40px;
+      }
+      .projects-list h2 {
+        font-size: 1.3rem;
+        color: #2d7ff9;
+        margin-bottom: 1em;
+        letter-spacing: 0.5px;
+      }
+      .project-item {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 18px 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      .project-item:last-child {
+        border-bottom: none;
+      }
+      .project-logo {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: #f0f6ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 8px rgba(45, 127, 249, 0.08);
+      }
+      .project-logo img {
+        max-width: 38px;
+        max-height: 38px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+      .project-info {
+        flex: 1;
+      }
+      .project-title {
+        font-size: 1.2rem;
+        color: #2d7ff9;
+        margin: 0 0 0.2em 0;
+        font-weight: 600;
+      }
+      .project-desc {
+        font-size: 1em;
+        color: #444;
+        margin: 0;
+      }
+      .project-link {
+        color: #2d7ff9;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+        margin-left: 1em;
+        border: 1px solid #2d7ff9;
+        border-radius: 6px;
+        padding: 6px 16px;
+        background: #f0f6ff;
+      }
+      .project-link:hover {
+        color: #fff;
+        background: #2d7ff9;
+        border-color: #2d7ff9;
+        text-decoration: none;
+      }
+      footer {
+        margin-top: auto;
+        padding: 24px 0 16px 0;
+        width: 100%;
+        text-align: center;
+        color: #888;
+        font-size: 1em;
+      }
+      .support-link {
+        color: #2d7ff9;
+        text-decoration: none;
+        margin-left: 0.3em;
+      }
+      .support-link:hover {
+        text-decoration: underline;
+        color: #174ea6;
+      }
+      @media (max-width: 600px) {
+        .hero,
+        .projects-list {
+          padding: 18px 4vw;
+        }
+        .hero h1 {
+          font-size: 2rem;
+        }
+        .projects-list h2 {
+          font-size: 1.1rem;
+        }
+        .project-item {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.5em;
+        }
+        .project-link {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <h1>antonnie.dev</h1>
+        <p>
+          Welcome! Here you'll find a growing collection of projects, tools, and
+          games.<br />
+          Need help?
+          <a class="support-link" href="mailto:antonnie.dev@gmail.com"
+            >Contact Support</a
+          >
+        </p>
+      </div>
+    </header>
+    <div class="projects-list">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <div class="project-logo">
+          <img src="logo/logo.png" alt="Padlock Puzzle Logo" />
+        </div>
+        <div class="project-info">
+          <div class="project-title">Padlock Puzzle</div>
+          <div class="project-desc">
+            A fun and challenging logic puzzle game for all ages.
+          </div>
+        </div>
+        <a class="project-link" href="padlockpuzzle/">Open</a>
+      </div>
+      <!-- Add more project-item blocks here for future projects -->
+    </div>
+    <footer>
+      &copy; 2025 antonnie.dev &mdash; For support, email
+      <a class="support-link" href="mailto:antonnie.dev@gmail.com"
+        >antonnie.dev@gmail.com</a
+      >
+    </footer>
+  </body>
 </html>
