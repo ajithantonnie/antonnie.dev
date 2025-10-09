@@ -2,161 +2,984 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Padlock Puzzle - Brain Teaser Game - Privacy Policy</title>
+    <title>Padlock Puzzle - Brain Teaser Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Privacy Policy for Padlock Puzzle - Brain Teaser Game."
+    <meta name="description" content="Padlock Puzzle - Brain Teaser Game." />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <style>
-      body {
-        min-height: 100vh;
+      /* Base Styles */
+      :root {
+        --primary: #2c3e50;
+        --secondary: #3498db;
+        --accent: #e74c3c;
+        --light: #ecf0f1;
+        --dark: #2c3e50;
+        --gray: #95a5a6;
+        --text: #333;
+        --text-light: #7f8c8d;
+        --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        --transition: all 0.3s ease;
+      }
+
+      * {
         margin: 0;
         padding: 0;
-        font-family: "Segoe UI", "Roboto", Arial, sans-serif;
-        color: #222;
-        /* Visually appealing animated gradient background */
-        background: linear-gradient(
-          120deg,
-          #e0e7ff 0%,
-          #f7fafc 50%,
-          #c7d2fe 100%
-        );
-        background-size: 200% 200%;
-        animation: gradientMove 8s ease-in-out infinite;
+        box-sizing: border-box;
       }
-      @keyframes gradientMove {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
+
+      html {
+        scroll-behavior: smooth;
       }
-      main {
-        max-width: 600px;
-        margin: 40px auto;
-        background: #fff;
-        border-radius: 16px;
-        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
-        padding: 32px 24px;
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+        background-color: #f9f9f9;
       }
-      h1 {
-        text-align: center;
-        font-size: 2.5rem;
-        margin-bottom: 0.5em;
-        color: #2d7ff9;
-        letter-spacing: 1px;
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
       }
-      h2 {
-        color: #2d7ff9;
-        margin-top: 2em;
-        font-size: 1.3rem;
-        display: flex;
-        align-items: center;
-        gap: 0.5em;
-      }
-      ul {
-        padding-left: 1.2em;
-        margin: 1em 0;
-      }
-      li {
-        margin-bottom: 0.7em;
-        font-size: 1.05em;
-      }
+
       section {
-        margin-bottom: 2em;
+        padding: 80px 0;
       }
-      a {
-        color: #2d7ff9;
-        text-decoration: none;
-        transition: color 0.2s;
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin-bottom: 20px;
+        color: var(--primary);
       }
-      a:hover {
-        text-decoration: underline;
-        color: #174ea6;
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
       }
-      .contact {
-        background: #f0f6ff;
-        border-radius: 8px;
-        padding: 1em;
+
+      h2 {
+        font-size: 2.5rem;
         text-align: center;
-        font-size: 1.1em;
+        margin-bottom: 50px;
+        position: relative;
       }
-      .logo-container {
+
+      h2::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background-color: var(--secondary);
+      }
+
+      p {
+        margin-bottom: 15px;
+        color: var(--text-light);
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: var(--secondary);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #2980b9;
+        transform: translateY(-3px);
+        box-shadow: var(--shadow);
+      }
+
+      .btn-outline {
+        background-color: transparent;
+        border: 2px solid var(--secondary);
+        color: var(--secondary);
+      }
+
+      .btn-outline:hover {
+        background-color: var(--secondary);
+        color: white;
+      }
+
+      /* Header Styles */
+      header {
+        background-color: white;
+        box-shadow: var(--shadow);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+      }
+
+      .logo {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--primary);
+        text-decoration: none;
+      }
+
+      .logo span {
+        color: var(--secondary);
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+      }
+
+      .nav-links li {
+        margin-left: 30px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 500;
+        transition: var(--transition);
+      }
+
+      .nav-links a:hover {
+        color: var(--secondary);
+      }
+
+      .mobile-menu {
+        display: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--primary);
+        transition: var(--transition);
+      }
+
+      .mobile-menu:hover {
+        color: var(--secondary);
+      }
+
+      /* Hero Section */
+      .hero {
+        background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
+        color: white;
+        padding: 150px 0 100px;
+        text-align: center;
+      }
+
+      .hero h1 {
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        color: var(--light);
+        max-width: 700px;
+        margin: 0 auto 30px;
+        font-size: 1.2rem;
+      }
+
+      .hero-btns {
         display: flex;
         justify-content: center;
+        gap: 15px;
+        margin-top: 30px;
+      }
+
+      .hero .btn {
+        background-color: var(--secondary);
+      }
+
+      .hero .btn-outline {
+        border-color: white;
+        color: white;
+      }
+
+      .hero .btn-outline:hover {
+        background-color: white;
+        color: var(--primary);
+      }
+
+      /* Game Features Section */
+      .game-features {
+        background-color: white;
+      }
+
+      .features-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+      }
+
+      .feature-card {
+        flex: 1;
+        min-width: 250px;
+        max-width: 350px;
+        background-color: #f8fafc;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+      }
+
+      .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .feature-icon {
+        font-size: 2.5rem;
+        color: var(--secondary);
+        margin-bottom: 20px;
+      }
+
+      .feature-card h3 {
+        margin-bottom: 15px;
+        color: var(--primary);
+      }
+
+      /* Legal Section */
+      .legal {
+        background-color: #f5f7fa;
+      }
+
+      .legal-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+
+      .legal-card {
+        flex: 1;
+        min-width: 250px;
+        max-width: 350px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+      }
+
+      .legal-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .legal-icon {
+        font-size: 2.5rem;
+        color: var(--primary);
+        margin-bottom: 20px;
+      }
+
+      .legal-card h3 {
+        margin-bottom: 15px;
+      }
+
+      /* Contact Section */
+      .contact {
+        background-color: var(--primary);
+        color: white;
+      }
+
+      .contact h2 {
+        color: white;
+      }
+
+      .contact h2::after {
+        background-color: white;
+      }
+
+      .contact p {
+        color: var(--light);
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto 50px;
+      }
+
+      .contact-container {
+        display: flex;
+        gap: 50px;
+      }
+
+      .contact-info {
+        flex: 1;
+      }
+
+      .contact-item {
+        display: flex;
         align-items: center;
-        margin: 0 auto 1.5em auto;
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        background: #f0f6ff;
-        box-shadow: 0 4px 16px rgba(45, 127, 249, 0.1);
+        margin-bottom: 25px;
       }
-      .logo-container img {
-        max-width: 80px;
-        max-height: 80px;
+
+      .contact-icon {
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.1);
         border-radius: 50%;
-        object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
       }
-      @media (max-width: 700px) {
-        main {
-          padding: 16px 4vw;
+
+      .contact-form {
+        flex: 1;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-control {
+        width: 100%;
+        padding: 12px 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        color: white;
+        font-family: inherit;
+      }
+
+      .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      textarea.form-control {
+        min-height: 150px;
+        resize: vertical;
+      }
+
+      .contact .btn {
+        background-color: white;
+        color: var(--primary);
+      }
+
+      .contact .btn:hover {
+        background-color: var(--secondary);
+        color: white;
+      }
+
+      .form-status {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: 600;
+        display: none;
+      }
+
+      .form-status.success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        display: block;
+      }
+
+      .form-status.error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+        display: block;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #1a252f;
+        color: white;
+        padding: 50px 0 20px;
+      }
+
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+
+      .footer-logo {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 30px;
+      }
+
+      .footer-links-column h4 {
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      .footer-links-column ul {
+        list-style: none;
+      }
+
+      .footer-links-column li {
+        margin-bottom: 10px;
+      }
+
+      .footer-links-column a {
+        color: var(--gray);
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .footer-links-column a:hover {
+        color: white;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+      }
+
+      .social-link {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+      }
+
+      .social-link:hover {
+        background-color: var(--secondary);
+        transform: translateY(-3px);
+      }
+
+      .copyright {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: var(--gray);
+        font-size: 0.9rem;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 992px) {
+        .contact-container {
+          flex-direction: column;
         }
+
+        .footer-content {
+          flex-direction: column;
+          gap: 30px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .nav-links {
+          position: fixed;
+          top: 70px;
+          left: 0;
+          width: 100%;
+          background-color: white;
+          flex-direction: column;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+          padding: 20px 0;
+          z-index: 999;
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(-20px);
+          transition: all 0.3s ease;
+        }
+
+        .nav-links.active {
+          display: flex;
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+
+        .nav-links li {
+          margin: 0;
+          text-align: center;
+          padding: 10px 0;
+          border-bottom: 1px solid #f0f0f0;
+        }
+
+        .nav-links li:last-child {
+          border-bottom: none;
+        }
+
+        .nav-links a {
+          display: block;
+          padding: 15px 20px;
+          font-size: 1.1rem;
+          transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+          background-color: var(--light);
+          color: var(--secondary);
+        }
+
+        .mobile-menu {
+          display: block;
+        }
+
         h1 {
+          font-size: 2.5rem;
+        }
+
+        h2 {
           font-size: 2rem;
+        }
+
+        .hero-btns {
+          flex-direction: column;
+          align-items: center;
         }
       }
     </style>
   </head>
   <body>
-    <main>
-      <div class="logo-container">
-        <img src="../logo/logo.png" alt="Padlock Puzzle Logo" />
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="../index.html" class="logo">antonnie.dev</a>
+          <ul class="nav-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#featured-app">Featured App</a></li>
+            <li><a href="../index.html#projects">Projects</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+          <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
       </div>
-      <h1>Padlock Puzzle - Brain Teaser Game</h1>
-      <section>
-        <h2>Welcome to Padlock Puzzle - Brain Teaser !</h2>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div
+          style="display: flex; justify-content: center; margin-bottom: 30px"
+        >
+          <div
+            style="
+              width: 150px;
+              height: 150px;
+              border-radius: 50%;
+              background: rgba(255, 255, 255, 0.2);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <img
+              src="../logo/logo.png"
+              alt="Padlock Puzzle Logo"
+              style="
+                max-width: 120px;
+                max-height: 120px;
+                border-radius: 50%;
+                object-fit: contain;
+              "
+            />
+          </div>
+        </div>
+        <h1>Padlock Puzzle - Brain Teaser Game</h1>
         <p>
-          <strong>Padlock Puzzle</strong> is a fun and challenging puzzle game
-          for all ages.<br />
           Solve padlock puzzles, collect gems, and enjoy brain-teasing fun at
           your own pace!
         </p>
-      </section>
-      <section>
-        <h2>🔐 Game Features</h2>
-        <ul>
-          <li>Unique 3-digit lock puzzles with logic-based hints</li>
-          <li>Clean and minimal design for focused gameplay</li>
-          <li>Earn and spend gems to reveal digits</li>
-          <li>Light ads to keep the game free</li>
-          <li>Suitable for all age groups</li>
-        </ul>
-      </section>
-      <section>
-        <h2>📜 Legal</h2>
-        <ul>
-          <li><a href="privacy/">Privacy Policy</a></li>
-          <li><a href="terms/">Terms and Conditions</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>📩 Contact Us</h2>
-        <div class="contact">
-          Have questions or need help?<br />
-          Email:
-          <strong
-            ><a href="mailto:antonnie.dev@gmail.com"
-              >antonnie.dev@gmail.com</a
-            ></strong
+        <div class="hero-btns">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.antonnie.padlock_puzzle"
+            class="btn"
+            target="_blank"
+            >Download Now</a
           >
+          <a href="#features" class="btn btn-outline">Learn More</a>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+
+    <!-- Game Features Section -->
+    <section id="features" class="game-features">
+      <div class="container">
+        <h2>Game Features</h2>
+        <div class="features-container">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <h3>Unique 3-Digit Puzzles</h3>
+            <p>
+              Solve challenging 3-digit lock puzzles with logic-based hints that
+              test your problem-solving skills.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-gem"></i>
+            </div>
+            <h3>Collect Gems</h3>
+            <p>
+              Earn and spend gems to reveal digits and unlock new levels as you
+              progress through the game.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Clean Design</h3>
+            <p>
+              Enjoy a clean and minimal interface designed for focused gameplay
+              without distractions.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>For All Ages</h3>
+            <p>
+              Suitable for players of all age groups with adjustable difficulty
+              levels to match your skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Legal Section -->
+    <section id="legal" class="legal">
+      <div class="container">
+        <h2>Legal Information</h2>
+        <div class="legal-container">
+          <div class="legal-card">
+            <div class="legal-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Privacy Policy</h3>
+            <p>
+              Learn how we protect your data and respect your privacy while
+              using our app.
+            </p>
+            <a href="privacy/" class="btn" style="margin-top: 15px"
+              >View Policy</a
+            >
+          </div>
+
+          <div class="legal-card">
+            <div class="legal-icon">
+              <i class="fas fa-file-contract"></i>
+            </div>
+            <h3>Terms & Conditions</h3>
+            <p>
+              Read our terms of service and understand your rights and
+              responsibilities.
+            </p>
+            <a href="terms/" class="btn" style="margin-top: 15px">View Terms</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>
+          Have questions or need help with Padlock Puzzle? Feel free to reach
+          out!
+        </p>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>antonnie.dev@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Kerala, India</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div>
+                <h4>App Support</h4>
+                <p>Get help with game issues and feature requests</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/ajithantonnie17"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/an_tonn.ie/"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-control"
+                  placeholder="Subject"
+                  value="Padlock Puzzle Support"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-control"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" id="submitBtn" class="btn">
+                Send Message
+              </button>
+              <div id="formStatus" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <div class="footer-logo">Padlock Puzzle</div>
+            <p>A challenging brain teaser game by antonnie.dev</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-links-column">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#legal">Legal</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links-column">
+              <h4>Resources</h4>
+              <ul>
+                <li><a href="privacy/">Privacy Policy</a></li>
+                <li><a href="terms/">Terms & Conditions</a></li>
+                <li>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.antonnie.padlock_puzzle"
+                    target="_blank"
+                    >Google Play</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-links-column">
+              <h4>Connect</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ajithantonnie17"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/an_tonn.ie/">Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>
+            &copy; 2025 Padlock Puzzle by antonnie.dev. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile Menu Toggle
+      document
+        .querySelector(".mobile-menu")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+        });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: "smooth",
+            });
+
+            // Close mobile menu if open
+            document.querySelector(".nav-links").classList.remove("active");
+          }
+        });
+      });
+
+      // EmailJS Integration for Contact Form
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialize EmailJS with your public key
+        emailjs.init("xdRpHhUaGknIe4fXG"); // Replace with your actual EmailJS public key
+
+        const contactForm = document.getElementById("contactForm");
+        const submitBtn = document.getElementById("submitBtn");
+        const formStatus = document.getElementById("formStatus");
+
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const subject = document.getElementById("subject").value;
+          const message = document.getElementById("message").value;
+
+          // Disable submit button and show loading state
+          submitBtn.disabled = true;
+          submitBtn.innerHTML =
+            '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+          // Prepare email parameters
+          const templateParams = {
+            from_name: name,
+            from_email: email,
+            subject: subject || "Padlock Puzzle Support Request",
+            message: message,
+            to_email: "antonnie.dev@gmail.com", // Your email address
+            // Additional common template variables
+            user_name: name,
+            user_email: email,
+            user_message: message,
+            reply_to: email,
+          };
+
+          // Send email using EmailJS
+          emailjs
+            .send("service_cmtfkfy", "template_adt0ywe", templateParams)
+            .then(
+              function (response) {
+                // Success message
+                formStatus.textContent =
+                  "Thank you! Your message has been sent successfully.";
+                formStatus.className = "form-status success";
+                contactForm.reset();
+              },
+              function (error) {
+                // Error message
+                formStatus.textContent =
+                  "Sorry, there was an error sending your message. Please try again later.";
+                formStatus.className = "form-status error";
+                console.error("EmailJS Error:", error);
+              }
+            )
+            .finally(function () {
+              // Re-enable submit button
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = "Send Message";
+            });
+        });
+      });
+    </script>
+
+    <!-- EmailJS SDK (required for EmailJS functionality) -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
   </body>
 </html>
