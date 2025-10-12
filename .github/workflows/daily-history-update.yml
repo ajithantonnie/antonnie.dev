@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'history/history-automate.py'
+      - 'history/history-automation.py'
       - '.github/workflows/daily-history-update.yml'
 
 # Add permissions for the GITHUB_TOKEN
@@ -19,6 +19,7 @@ permissions:
 jobs:
   update-history:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
     - name: Checkout repository
@@ -47,18 +48,43 @@ jobs:
       working-directory: ./history
       run: |
         echo "🕐 Running history automation at $(date)"
-        python history-automate.py
+        echo "📂 Current directory: $(pwd)"
+        echo "� Python version: $(python --version)"
+        echo "�📋 Files before script execution:"
+        ls -la
+        echo "🚀 Starting history automation..."
         
+        # Check if the script file exists
+        if [ ! -f "history-automation.py" ]; then
+          echo "❌ Error: history-automation.py not found!"
+          exit 1
+        fi
+        
+        # Run the script with error handling
+        if python history-automation.py; then
+          echo "✅ Script executed successfully!"
+        else
+          echo "❌ Script execution failed!"
+          exit 1
+        fi
+        
+        echo "📋 Files after script execution:"
+        ls -la
+
     - name: Check for changes
       id: verify-changed-files
       run: |
+        echo "🔍 Checking for file changes..."
+        git status --porcelain
         if [ -n "$(git status --porcelain)" ]; then
           echo "changed=true" >> $GITHUB_OUTPUT
-          echo "Files changed:"
+          echo "📝 Files changed:"
           git status --porcelain
+          echo "📊 Detailed changes:"
+          git diff --name-status
         else
           echo "changed=false" >> $GITHUB_OUTPUT
-          echo "No changes detected"
+          echo "✅ No changes detected - files are up to date"
         fi
 
     - name: Commit and push changes

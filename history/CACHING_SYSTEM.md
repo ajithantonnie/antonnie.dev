@@ -35,7 +35,7 @@ Day 365 (Oct 12, 2026):
 
 ### 💾 **Cache Statistics Tracking:**
 
-Use `python history-automate.py --stats` to see:
+Use `python ai-scrape.py --stats` to see:
 - Total dates cached
 - Dates by year  
 - Cache age information
@@ -53,13 +53,13 @@ Use `python history-automate.py --stats` to see:
 
 ```bash
 # Build up your cache over time
-python history-automate.py --month 1 --day 1    # New Year
-python history-automate.py --month 8 --day 15    # Independence Day  
-python history-automate.py --month 12 --day 25  # Christmas
-python history-automate.py                       # Today
+python ai-scrape.py --month 1 --day 1    # New Year
+python ai-scrape.py --month 8 --day 15    # Independence Day  
+python ai-scrape.py --month 12 --day 25  # Christmas
+python ai-scrape.py                       # Today
 
 # Check your cache
-python history-automate.py --stats
+python ai-scrape.py --stats
 
 # Next year, only requested dates get updated
 # All other dates remain cached from previous year

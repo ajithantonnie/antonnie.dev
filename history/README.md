@@ -17,7 +17,7 @@ An SEO-optimized interactive historical timeline designed to rank highly in sear
 ### Generate Timeline
 ```bash
 # Generate today's timeline
-python history-automate.py
+python ai-scrape.py
 
 # Or use batch file (Windows)
 .\generate_timeline.bat
@@ -26,10 +26,10 @@ python history-automate.py
 ### Build Complete Database (Optional)
 ```bash
 # Fetch all 366 dates (takes ~5 minutes)
-python history-automate.py --fetch-all
+python ai-scrape.py --fetch-all
 
 # Check cache statistics
-python history-automate.py --stats
+python ai-scrape.py --stats
 ```
 
 ## 📁 **Files to Upload**
@@ -45,21 +45,6 @@ For hosting on antonnie.dev, upload these files:
 - 🎯 **Era Filtering** - Ancient, Medieval, Modern, Contemporary
 - ⚡ **Fast Loading** - Smart caching system
 - 🌐 **SEO Optimized** - Meta tags and structured data
-
-## 🤖 **Automated Daily Updates**
-
-This timeline is automatically updated daily at **12:00 AM IST** using GitHub Actions:
-
-- **Automatic Execution**: The `history-automate.py` script runs daily
-- **Smart Caching**: Only fetches new data when needed
-- **Auto-Commit**: Changes are automatically committed to the repository
-- **Manual Trigger**: Can be manually triggered from GitHub Actions tab
-
-### Manual Trigger
-You can manually trigger the update by:
-1. Going to the "Actions" tab in your GitHub repository
-2. Selecting "Daily History Timeline Update"
-3. Clicking "Run workflow"
 
 ## 📊 **Current Status**
 
