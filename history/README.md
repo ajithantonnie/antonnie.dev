@@ -35,7 +35,7 @@ python history-automate.py --stats
 ## 📁 **Files to Upload**
 
 For hosting on antonnie.dev, upload these files:
-- `historical_timeline.html` (main page)
+- `index.html` (main page)
 - `on_this_day_data.json` (cached data)
 
 ## 🎨 **Features**

@@ -52,7 +52,7 @@ git push origin main
 1. Script runs automatically
 2. Fetches fresh historical data for today's date
 3. Updates `on_this_day_data.json` cache
-4. Generates new `historical_timeline.html`
+4. Generates new `index.html`
 5. Commits changes with descriptive message
 6. Your website gets fresh content automatically!
 

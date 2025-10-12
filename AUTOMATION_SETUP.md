@@ -65,7 +65,7 @@ python history-automate.py
 
 ### What Gets Updated
 - `on_this_day_data.json` - Cached historical data
-- `historical_timeline.html` - Generated HTML page
+- `index.html` - Generated HTML page
 - Automatic commit with IST timestamp
 
 ## 🚨 Troubleshooting

@@ -1530,7 +1530,7 @@ def main():
     # Generate HTML page for today
     html_page = generate_html_page()
     if html_page:
-        filename = "historical_timeline.html"
+        filename = "index.html"
         with open(filename, "w", encoding="utf-8") as f:
             f.write(html_page)
         

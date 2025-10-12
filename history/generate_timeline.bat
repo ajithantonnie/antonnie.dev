@@ -22,7 +22,7 @@ if "%1"=="" (
     C:/Users/SHADOW/AppData/Local/Programs/Python/Python313/python.exe history-automate.py
     echo.
     echo Opening timeline in browser...
-    start historical_timeline.html
+    start index.html
 ) else (
     echo Usage: generate_timeline.bat
     echo       generate_timeline.bat stats
@@ -32,7 +32,7 @@ if "%1"=="" (
     C:/Users/SHADOW/AppData/Local/Programs/Python/Python313/python.exe history-automate.py
     echo.
     echo Opening timeline in browser...
-    start historical_timeline.html
+    start index.html
 )
 
 pause
