@@ -11,6 +11,11 @@ on:
       - 'history/history-automate.py'
       - '.github/workflows/daily-history-update.yml'
 
+# Add permissions for the GITHUB_TOKEN
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   update-history:
     runs-on: ubuntu-latest
@@ -21,6 +26,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
+        persist-credentials: true
 
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
@@ -66,7 +72,7 @@ jobs:
         - Generated new HTML timeline
         
         Automated by GitHub Actions 🤖"
-        git push
+        git push origin main
 
     - name: Display summary
       run: |
