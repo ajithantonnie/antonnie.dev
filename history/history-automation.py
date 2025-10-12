@@ -656,19 +656,44 @@ def generate_html_page():
 
         .mobile-menu-btn {{
             display: none;
-            background: none;
-            border: none;
+            background: var(--surface);
+            border: 1px solid var(--border-primary);
             color: var(--text-primary);
             font-size: 1.5rem;
             cursor: pointer;
-            padding: var(--space-sm);
+            padding: var(--space-md);
             border-radius: var(--radius-md);
             transition: all var(--animation-normal) ease;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1001;
         }}
 
-        .mobile-menu-btn:hover {{
-            background: var(--surface);
-            transform: scale(1.1);
+        .mobile-menu-btn:hover,
+        .mobile-menu-btn:focus {{
+            background: var(--surface-elevated);
+            transform: scale(1.05);
+            box-shadow: var(--shadow-md);
+            outline: none;
+        }}
+
+        .mobile-menu-btn:active {{
+            transform: scale(0.95);
+        }}
+
+        /* Enhanced mobile navigation styles */
+        @media (max-width: 768px) {{
+            .mobile-menu-btn {{
+                display: flex;
+            }}
+            
+            .nav-links {{
+                transform: translateX(100%);
+            }}
         }}
 
         /* Hero section with animated background */
@@ -1099,6 +1124,12 @@ def generate_html_page():
             position: relative;
             overflow: hidden;
             white-space: nowrap;
+            min-height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
         }}
 
         .era-filter-btn::before {{
@@ -1122,6 +1153,16 @@ def generate_html_page():
 
         .era-filter-btn:hover::before {{
             left: 0;
+        }}
+
+        .era-filter-btn:focus {{
+            outline: 2px solid var(--accent-primary);
+            outline-offset: 2px;
+            color: var(--text-primary);
+        }}
+
+        .era-filter-btn:active {{
+            transform: translateY(0) scale(0.95);
         }}
 
         .era-filter-btn.active {{
@@ -1244,6 +1285,20 @@ def generate_html_page():
         }}
 
         /* Responsive Design */
+        @media (max-width: 1200px) {{
+            .container {{
+                padding: 0 var(--space-lg);
+            }}
+            
+            .hero-title {{
+                font-size: clamp(2rem, 6vw, 4rem);
+            }}
+            
+            .section-title {{
+                font-size: clamp(1.8rem, 5vw, 3rem);
+            }}
+        }}
+
         @media (max-width: 1024px) {{
             .container {{
                 padding: 0 var(--space-lg);
@@ -1260,6 +1315,16 @@ def generate_html_page():
             .timeline-marker {{
                 left: 1.1rem;
             }}
+            
+            .era-filters {{
+                padding: var(--space-md);
+                gap: var(--space-xs);
+            }}
+            
+            .era-filter-btn {{
+                padding: var(--space-xs) var(--space-md);
+                font-size: 0.85rem;
+            }}
         }}
 
         @media (max-width: 768px) {{
@@ -1272,32 +1337,143 @@ def generate_html_page():
             }}
             
             .hero {{
-                min-height: 90vh;
-                padding: var(--space-xl) 0;
+                min-height: 80vh;
+                padding: var(--space-lg) 0;
+            }}
+            
+            .hero-content {{
+                padding: var(--space-lg) 0;
+            }}
+            
+            .hero-title {{
+                font-size: clamp(1.8rem, 7vw, 3.5rem);
+                margin-bottom: var(--space-md);
+            }}
+            
+            .hero-subtitle {{
+                font-size: clamp(1rem, 3vw, 1.2rem);
+                margin-bottom: var(--space-xl);
+            }}
+            
+            .hero-badge {{
+                font-size: 0.8rem;
+                padding: var(--space-xs) var(--space-md);
+                margin-bottom: var(--space-lg);
+            }}
+            
+            .cta-button {{
+                font-size: 1rem;
+                padding: var(--space-sm) var(--space-lg);
+                margin-bottom: var(--space-xl);
             }}
             
             .stats-grid {{
                 grid-template-columns: repeat(2, 1fr);
-                gap: var(--space-lg);
+                gap: var(--space-md);
+                margin-top: var(--space-xl);
+            }}
+            
+            .stat-card {{
+                padding: var(--space-md);
+            }}
+            
+            .stat-number {{
+                font-size: clamp(1.5rem, 6vw, 2.5rem);
+            }}
+            
+            .stat-label {{
+                font-size: 0.8rem;
+            }}
+            
+            .section-header {{
+                margin-bottom: var(--space-xl);
+            }}
+            
+            .section-title {{
+                font-size: clamp(1.5rem, 6vw, 2.5rem);
+                margin-bottom: var(--space-md);
+            }}
+            
+            .section-subtitle {{
+                font-size: clamp(0.9rem, 3vw, 1.1rem);
             }}
             
             .timeline::before {{
-                left: 1.5rem;
+                left: 1.2rem;
+                width: 2px;
             }}
             
             .timeline-item {{
-                padding-left: 3.5rem;
+                padding-left: 3rem;
                 margin-bottom: var(--space-xl);
             }}
             
             .timeline-marker {{
-                left: 0.6rem;
-                width: 1.5rem;
-                height: 1.5rem;
+                left: 0.5rem;
+                width: 1.4rem;
+                height: 1.4rem;
+                border-width: 3px;
             }}
             
             .timeline-content {{
-                padding: var(--space-lg);
+                padding: var(--space-md);
+            }}
+            
+            .timeline-year {{
+                font-size: 0.8rem;
+                padding: var(--space-xs) var(--space-md);
+                margin-bottom: var(--space-md);
+                flex-direction: column;
+                align-items: flex-start;
+                gap: var(--space-xs);
+            }}
+            
+            .era-badge {{
+                font-size: 0.75rem;
+                padding: 0.2rem 0.6rem;
+                margin-top: var(--space-xs);
+            }}
+            
+            .timeline-title {{
+                font-size: 1.1rem;
+                margin-bottom: var(--space-sm);
+                line-height: 1.3;
+            }}
+            
+            .timeline-text {{
+                font-size: 1rem;
+                line-height: 1.6;
+                margin-bottom: var(--space-md);
+            }}
+            
+            .timeline-link {{
+                font-size: 0.9rem;
+                padding: var(--space-xs) var(--space-sm);
+            }}
+            
+            .era-filters {{
+                margin: var(--space-xl) 0;
+                padding: var(--space-sm);
+                gap: var(--space-xs);
+                flex-wrap: wrap;
+            }}
+            
+            .era-filter-btn {{
+                padding: var(--space-xs) var(--space-sm);
+                font-size: 0.8rem;
+                margin: var(--space-xs) 0;
+                white-space: nowrap;
+                flex-shrink: 0;
+            }}
+            
+            .era-count {{
+                font-size: 0.75rem;
+                padding: 0.1rem 0.4rem;
+                margin-left: var(--space-xs);
+            }}
+            
+            .footer {{
+                padding: var(--space-xl) 0 var(--space-lg);
             }}
             
             .footer-links {{
@@ -1308,16 +1484,202 @@ def generate_html_page():
 
         @media (max-width: 480px) {{
             .container {{
-                padding: 0 var(--space-md);
+                padding: 0 var(--space-sm);
+            }}
+            
+            .hero {{
+                min-height: 70vh;
+                padding: var(--space-md) 0;
+            }}
+            
+            .hero-content {{
+                padding: var(--space-md) 0;
+            }}
+            
+            .hero-title {{
+                font-size: clamp(1.5rem, 8vw, 2.8rem);
+                margin-bottom: var(--space-sm);
+            }}
+            
+            .hero-subtitle {{
+                font-size: clamp(0.9rem, 4vw, 1.1rem);
+                margin-bottom: var(--space-lg);
+            }}
+            
+            .hero-badge {{
+                font-size: 0.75rem;
+                padding: var(--space-xs) var(--space-sm);
+                margin-bottom: var(--space-md);
+            }}
+            
+            .cta-button {{
+                font-size: 0.9rem;
+                padding: var(--space-sm) var(--space-md);
+                margin-bottom: var(--space-lg);
             }}
             
             .stats-grid {{
                 grid-template-columns: 1fr;
-                gap: var(--space-md);
+                gap: var(--space-sm);
+                margin-top: var(--space-lg);
             }}
             
-            .hero-content {{
-                padding: var(--space-xl) 0;
+            .stat-card {{
+                padding: var(--space-sm);
+            }}
+            
+            .stat-number {{
+                font-size: clamp(1.2rem, 8vw, 2rem);
+            }}
+            
+            .stat-label {{
+                font-size: 0.75rem;
+            }}
+            
+            .section-header {{
+                margin-bottom: var(--space-lg);
+            }}
+            
+            .section-title {{
+                font-size: clamp(1.3rem, 7vw, 2rem);
+                margin-bottom: var(--space-sm);
+            }}
+            
+            .section-subtitle {{
+                font-size: clamp(0.85rem, 4vw, 1rem);
+            }}
+            
+            .timeline::before {{
+                left: 1rem;
+                width: 2px;
+            }}
+            
+            .timeline-item {{
+                padding-left: 2.5rem;
+                margin-bottom: var(--space-lg);
+            }}
+            
+            .timeline-marker {{
+                left: 0.3rem;
+                width: 1.2rem;
+                height: 1.2rem;
+                border-width: 2px;
+            }}
+            
+            .timeline-content {{
+                padding: var(--space-sm);
+                border-radius: var(--radius-md);
+            }}
+            
+            .timeline-year {{
+                font-size: 0.75rem;
+                padding: var(--space-xs) var(--space-sm);
+                margin-bottom: var(--space-sm);
+            }}
+            
+            .era-badge {{
+                font-size: 0.7rem;
+                padding: 0.15rem 0.5rem;
+            }}
+            
+            .timeline-title {{
+                font-size: 1rem;
+                margin-bottom: var(--space-xs);
+                line-height: 1.3;
+            }}
+            
+            .timeline-text {{
+                font-size: 0.9rem;
+                line-height: 1.5;
+                margin-bottom: var(--space-sm);
+            }}
+            
+            .timeline-link {{
+                font-size: 0.85rem;
+                padding: var(--space-xs) var(--space-sm);
+            }}
+            
+            .era-filters {{
+                margin: var(--space-lg) 0;
+                padding: var(--space-xs);
+                gap: 0.25rem;
+                border-radius: var(--radius-md);
+            }}
+            
+            .era-filter-btn {{
+                padding: 0.35rem 0.6rem;
+                font-size: 0.75rem;
+                margin: 0.15rem;
+                border-radius: 0.75rem;
+                min-width: auto;
+            }}
+            
+            .era-count {{
+                font-size: 0.7rem;
+                padding: 0.05rem 0.3rem;
+                margin-left: 0.25rem;
+                min-width: 1.2rem;
+            }}
+            
+            .header {{
+                padding: var(--space-sm) 0;
+            }}
+            
+            .logo {{
+                font-size: 1.3rem;
+            }}
+            
+            .mobile-menu-btn {{
+                font-size: 1.2rem;
+                padding: var(--space-xs);
+            }}
+            
+            .footer {{
+                padding: var(--space-lg) 0 var(--space-md);
+            }}
+            
+            .footer-text {{
+                font-size: 0.8rem;
+                line-height: 1.5;
+            }}
+        }}
+
+        @media (max-width: 360px) {{
+            .container {{
+                padding: 0 var(--space-xs);
+            }}
+            
+            .hero-title {{
+                font-size: clamp(1.2rem, 9vw, 2.2rem);
+            }}
+            
+            .timeline-item {{
+                padding-left: 2rem;
+            }}
+            
+            .timeline-marker {{
+                left: 0.2rem;
+                width: 1rem;
+                height: 1rem;
+            }}
+            
+            .timeline::before {{
+                left: 0.7rem;
+            }}
+            
+            .era-filters {{
+                padding: 0.25rem;
+            }}
+            
+            .era-filter-btn {{
+                padding: 0.25rem 0.5rem;
+                font-size: 0.7rem;
+                margin: 0.1rem;
+            }}
+            
+            .era-count {{
+                font-size: 0.65rem;
+                padding: 0.02rem 0.25rem;
             }}
         }}
 
@@ -1601,24 +1963,135 @@ def generate_html_page():
                 lastScrollTop = scrollTop;
             }});
 
-            // Mobile menu toggle
+            // Enhanced Mobile menu toggle with improved UX
             const mobileMenuBtn = document.getElementById('mobileMenuBtn');
             const navLinks = document.getElementById('navLinks');
+            let isMenuOpen = false;
             
             if (mobileMenuBtn && navLinks) {{
-                mobileMenuBtn.addEventListener('click', function() {{
-                    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-                    navLinks.style.position = 'absolute';
-                    navLinks.style.top = '100%';
-                    navLinks.style.left = '0';
-                    navLinks.style.right = '0';
-                    navLinks.style.background = 'var(--bg-glass)';
-                    navLinks.style.backdropFilter = 'blur(20px)';
-                    navLinks.style.flexDirection = 'column';
-                    navLinks.style.padding = 'var(--space-lg)';
-                    navLinks.style.borderTop = '1px solid var(--border-primary)';
+                // Create overlay for mobile menu
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0, 0, 0, 0.5);
+                    backdrop-filter: blur(5px);
+                    z-index: 999;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all 0.3s ease;
+                `;
+                document.body.appendChild(overlay);
+                
+                function toggleMenu() {{
+                    isMenuOpen = !isMenuOpen;
+                    
+                    if (isMenuOpen) {{
+                        // Open menu
+                        navLinks.style.cssText = `
+                            display: flex !important;
+                            position: fixed;
+                            top: 0;
+                            right: 0;
+                            height: 100vh;
+                            width: 280px;
+                            background: var(--bg-glass);
+                            backdrop-filter: blur(20px) saturate(180%);
+                            flex-direction: column;
+                            padding: var(--space-3xl) var(--space-xl) var(--space-xl);
+                            border-left: 1px solid var(--border-primary);
+                            z-index: 1000;
+                            transform: translateX(0);
+                            transition: transform 0.3s ease;
+                            box-shadow: var(--shadow-xl);
+                        `;
+                        
+                        overlay.style.opacity = '1';
+                        overlay.style.visibility = 'visible';
+                        document.body.style.overflow = 'hidden';
+                        mobileMenuBtn.innerHTML = '✕';
+                        mobileMenuBtn.setAttribute('aria-expanded', 'true');
+                        mobileMenuBtn.setAttribute('aria-label', 'Close mobile menu');
+                    }} else {{
+                        // Close menu
+                        navLinks.style.transform = 'translateX(100%)';
+                        overlay.style.opacity = '0';
+                        overlay.style.visibility = 'hidden';
+                        document.body.style.overflow = '';
+                        mobileMenuBtn.innerHTML = '☰';
+                        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                        mobileMenuBtn.setAttribute('aria-label', 'Open mobile menu');
+                        
+                        setTimeout(() => {{
+                            navLinks.style.display = 'none';
+                        }}, 300);
+                    }}
+                }}
+                
+                mobileMenuBtn.addEventListener('click', toggleMenu);
+                
+                // Close menu when clicking overlay
+                overlay.addEventListener('click', toggleMenu);
+                
+                // Close menu when clicking nav links
+                navLinks.addEventListener('click', function(e) {{
+                    if (e.target.classList.contains('nav-link')) {{
+                        toggleMenu();
+                    }}
+                }});
+                
+                // Close menu on escape key
+                document.addEventListener('keydown', function(e) {{
+                    if (e.key === 'Escape' && isMenuOpen) {{
+                        toggleMenu();
+                    }}
+                }});
+                
+                // Handle window resize
+                window.addEventListener('resize', function() {{
+                    if (window.innerWidth > 768 && isMenuOpen) {{
+                        toggleMenu();
+                    }}
                 }});
             }}
+            
+            // Touch and swipe support for mobile interactions
+            let touchStartY = 0;
+            let touchStartX = 0;
+            
+            document.addEventListener('touchstart', function(e) {{
+                touchStartY = e.touches[0].clientY;
+                touchStartX = e.touches[0].clientX;
+            }}, {{ passive: true }});
+            
+            document.addEventListener('touchmove', function(e) {{
+                if (isMenuOpen) {{
+                    const touchY = e.touches[0].clientY;
+                    const touchX = e.touches[0].clientX;
+                    const diffY = touchStartY - touchY;
+                    const diffX = touchStartX - touchX;
+                    
+                    // Swipe right to close menu
+                    if (diffX < -50 && Math.abs(diffY) < 100) {{
+                        toggleMenu();
+                    }}
+                }}
+            }}, {{ passive: true }});
+            
+            // Improve touch scrolling on mobile
+            let isScrolling = false;
+            document.addEventListener('touchmove', function() {{
+                isScrolling = true;
+            }}, {{ passive: true }});
+            
+            document.addEventListener('touchend', function() {{
+                setTimeout(() => {{
+                    isScrolling = false;
+                }}, 100);
+            }}, {{ passive: true }});
 
             // Smooth scrolling for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(link => {{
