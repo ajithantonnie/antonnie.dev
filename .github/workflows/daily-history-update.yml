@@ -1,0 +1,79 @@
+name: Daily History Timeline Update
+
+on:
+  schedule:
+    # Run daily at 12:00 AM IST (18:30 UTC - IST is UTC+5:30)
+    - cron: '30 18 * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [ main ]
+    paths:
+      - 'history/history-automate.py'
+      - '.github/workflows/daily-history-update.yml'
+
+jobs:
+  update-history:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Configure git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Run history automation script
+      working-directory: ./history
+      run: |
+        echo "🕐 Running history automation at $(date)"
+        python history-automate.py
+        
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "Files changed:"
+          git status --porcelain
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes detected"
+        fi
+
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git add history/
+        git commit -m "🗓️ Daily history update for $(date -d '+5 hours 30 minutes' +'%B %d, %Y') IST
+        
+        - Updated historical timeline data
+        - Refreshed on-this-day events
+        - Generated new HTML timeline
+        
+        Automated by GitHub Actions 🤖"
+        git push
+
+    - name: Display summary
+      run: |
+        echo "✅ Daily history update completed successfully!"
+        echo "📅 Current IST time: $(date -d '+5 hours 30 minutes' +'%Y-%m-%d %H:%M:%S IST')"
+        if [ "${{ steps.verify-changed-files.outputs.changed }}" == "true" ]; then
+          echo "📝 Changes were committed and pushed"
+        else
+          echo "📝 No changes needed - data was already up to date"
+        fi
