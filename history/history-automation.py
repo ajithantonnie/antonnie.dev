@@ -149,18 +149,299 @@ def generate_html_page():
     
     event_count = len(events)
     
+    # SEO-optimized keywords and descriptions
+    current_year = now.year
+    month_name = now.strftime("%B")
+    day_ordinal = now.strftime("%d").lstrip("0") + ("th" if 4 <= int(now.strftime("%d")) <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(int(now.strftime("%d")) % 10, "th"))
+    
+    # Generate rich keywords from events
+    event_keywords = []
+    for event in events[:10]:  # Top 10 events for keywords
+        year = event.get("year", "")
+        text = event.get("text", "")
+        if year and text:
+            # Extract key terms from event text
+            words = text.lower().split()
+            important_words = [w for w in words if len(w) > 4 and w not in ['that', 'this', 'with', 'from', 'were', 'when', 'what', 'they', 'have', 'been', 'said', 'will', 'would', 'could', 'should']][:3]
+            if important_words:
+                event_keywords.extend(important_words)
+    
+    unique_keywords = list(dict.fromkeys(event_keywords))[:15]  # Remove duplicates, keep top 15
+    keywords_str = f"history, historical events, {date_str}, {month_name} {day_ordinal}, today in history, on this day, historical timeline, {current_year}, world history, historical facts, " + ", ".join(unique_keywords)
+    
+    # Create rich description
+    historical_periods = []
+    for event in events[:5]:
+        year = event.get("year", "")
+        if year and str(year).lstrip('-').isdigit():
+            year_int = int(year)
+            if year_int < 0:
+                historical_periods.append("Ancient times")
+            elif year_int < 500:
+                historical_periods.append("Classical antiquity")
+            elif year_int < 1500:
+                historical_periods.append("Medieval period")
+            elif year_int < 1800:
+                historical_periods.append("Early modern era")
+            elif year_int < 1900:
+                historical_periods.append("19th century")
+            elif year_int < 2000:
+                historical_periods.append("20th century")
+            else:
+                historical_periods.append("Modern era")
+    
+    unique_periods = list(dict.fromkeys(historical_periods))
+    periods_text = ", ".join(unique_periods[:3]) if unique_periods else "various historical periods"
+    
+    seo_description = f"Explore {event_count} fascinating historical events that occurred on {date_str} throughout history. Discover significant moments from {periods_text} that shaped our world. Updated daily with comprehensive historical timeline and detailed event information."
+    
+    # Canonical URL
+    canonical_url = f"https://antonnie.dev/history/"
+    
     html_content = f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia • {date_str} • Today in History</title>
-    <meta name="description" content="Discover {event_count} remarkable historical events that happened on {date_str} throughout history.">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Historical Events on {date_str} | Today in History | antonnie.dev</title>
+    <meta name="title" content="Historical Events on {date_str} | Today in History | antonnie.dev">
+    <meta name="description" content="{seo_description}">
+    <meta name="keywords" content="{keywords_str}">
+    <meta name="author" content="Antonnie">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{canonical_url}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{canonical_url}">
+    <meta property="og:title" content="Historical Events on {date_str} | Today in History">
+    <meta property="og:description" content="{seo_description}">
+    <meta property="og:image" content="https://antonnie.dev/history/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Historical Timeline for {date_str}">
+    <meta property="og:site_name" content="antonnie.dev">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="https://antonnie.dev">
+    <meta property="article:published_time" content="{now.isoformat()}">
+    <meta property="article:modified_time" content="{now.isoformat()}">
+    <meta property="article:section" content="History">
+    <meta property="article:tag" content="History">
+    <meta property="article:tag" content="Timeline">
+    <meta property="article:tag" content="{date_str}">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{canonical_url}">
+    <meta name="twitter:title" content="Historical Events on {date_str} | Today in History">
+    <meta name="twitter:description" content="{seo_description}">
+    <meta name="twitter:image" content="https://antonnie.dev/history/twitter-card.png">
+    <meta name="twitter:image:alt" content="Historical Timeline for {date_str}">
+    <meta name="twitter:creator" content="@antonnie_dev">
+    <meta name="twitter:site" content="@antonnie_dev">
+    
+    <!-- Additional SEO Meta -->
     <meta name="theme-color" content="#4f46e5">
+    <meta name="msapplication-TileColor" content="#4f46e5">
+    <meta name="application-name" content="Historia - Today in History">
+    <meta name="apple-mobile-web-app-title" content="Historia">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Language and geographic targeting -->
+    <meta name="language" content="en">
+    <meta name="geo.region" content="Global">
+    <meta name="geo.placename" content="Worldwide">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="1 day">
+    
+    <!-- Verification tags for search engines -->
+    <meta name="google-site-verification" content="">
+    <meta name="msvalidate.01" content="">
+    
+    <!-- Social media optimization -->
+    <meta property="fb:app_id" content="">
+    <meta name="pinterest-rich-pin" content="true">
+    
+    <!-- Performance hints -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Content security and cache control -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://api.wikimedia.org;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="https://antonnie.dev/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://antonnie.dev/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://antonnie.dev/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://antonnie.dev/apple-touch-icon.png">
+    <link rel="manifest" href="https://antonnie.dev/site.webmanifest">
+    
+    <!-- Performance optimizations -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://wikipedia.org">
+    <link rel="dns-prefetch" href="https://api.wikimedia.org">
+    
+    <!-- Critical CSS - fonts loaded with display=swap for better performance -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Non-critical CSS loaded with media attribute to prevent render blocking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></noscript>
+    
+    <!-- JSON-LD Structured Data for Rich Snippets -->
+    <script type="application/ld+json">
+    {{
+        "@context": "https://schema.org",
+        "@graph": [
+            {{
+                "@type": "WebSite",
+                "@id": "https://antonnie.dev/#website",
+                "url": "https://antonnie.dev/",
+                "name": "antonnie.dev",
+                "description": "Personal website and portfolio of Antonnie - Full Stack Developer and History Enthusiast",
+                "publisher": {{
+                    "@id": "https://antonnie.dev/#person"
+                }},
+                "potentialAction": [
+                    {{
+                        "@type": "SearchAction",
+                        "target": {{
+                            "@type": "EntryPoint",
+                            "urlTemplate": "https://antonnie.dev/search?q={{search_term_string}}"
+                        }},
+                        "query-input": "required name=search_term_string"
+                    }}
+                ]
+            }},
+            {{
+                "@type": "WebPage",
+                "@id": "{canonical_url}#webpage",
+                "url": "{canonical_url}",
+                "name": "Historical Events on {date_str} | Today in History",
+                "isPartOf": {{
+                    "@id": "https://antonnie.dev/#website"
+                }},
+                "about": {{
+                    "@id": "{canonical_url}#article"
+                }},
+                "datePublished": "{now.isoformat()}",
+                "dateModified": "{now.isoformat()}",
+                "description": "{seo_description}",
+                "breadcrumb": {{
+                    "@id": "{canonical_url}#breadcrumb"
+                }},
+                "inLanguage": "en-US",
+                "potentialAction": [
+                    {{
+                        "@type": "ReadAction",
+                        "target": ["{canonical_url}"]
+                    }}
+                ]
+            }},
+            {{
+                "@type": "Article",
+                "@id": "{canonical_url}#article",
+                "isPartOf": {{
+                    "@id": "{canonical_url}#webpage"
+                }},
+                "author": {{
+                    "@id": "https://antonnie.dev/#person"
+                }},
+                "headline": "Historical Events on {date_str} | Today in History",
+                "datePublished": "{now.isoformat()}",
+                "dateModified": "{now.isoformat()}",
+                "mainEntityOfPage": {{
+                    "@id": "{canonical_url}#webpage"
+                }},
+                "wordCount": "{event_count * 25}",
+                "commentCount": 0,
+                "publisher": {{
+                    "@id": "https://antonnie.dev/#person"
+                }},
+                "image": {{
+                    "@type": "ImageObject",
+                    "@id": "https://antonnie.dev/history/og-image.png",
+                    "url": "https://antonnie.dev/history/og-image.png",
+                    "contentUrl": "https://antonnie.dev/history/og-image.png",
+                    "width": 1200,
+                    "height": 630,
+                    "caption": "Historical Timeline for {date_str}"
+                }},
+                "keywords": "{keywords_str}",
+                "articleSection": "History",
+                "inLanguage": "en-US",
+                "about": [
+                    {{
+                        "@type": "Thing",
+                        "name": "History",
+                        "description": "Historical events and timeline"
+                    }},
+                    {{
+                        "@type": "Thing", 
+                        "name": "{date_str}",
+                        "description": "Historical events on {date_str}"
+                    }}
+                ]
+            }},
+            {{
+                "@type": "Person",
+                "@id": "https://antonnie.dev/#person",
+                "name": "Antonnie",
+                "url": "https://antonnie.dev/",
+                "image": {{
+                    "@type": "ImageObject",
+                    "@id": "https://antonnie.dev/avatar.jpg",
+                    "url": "https://antonnie.dev/avatar.jpg",
+                    "caption": "Antonnie - Full Stack Developer"
+                }},
+                "description": "Full Stack Developer and History Enthusiast",
+                "sameAs": [
+                    "https://github.com/ajithantonnie",
+                    "https://linkedin.com/in/antonnie"
+                ]
+            }},
+            {{
+                "@type": "BreadcrumbList",
+                "@id": "{canonical_url}#breadcrumb",
+                "itemListElement": [
+                    {{
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://antonnie.dev/"
+                    }},
+                    {{
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "History",
+                        "item": "{canonical_url}"
+                    }},
+                    {{
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "{date_str}",
+                        "item": "{canonical_url}"
+                    }}
+                ]
+            }}
+        ]
+    }}
+    </script>
+    
     <style>
         :root {{
             /* Dark Mode Colors */
@@ -721,12 +1002,43 @@ def generate_html_page():
             white-space: nowrap;
         }}
 
+        .timeline-title {{
+            color: var(--text-primary);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+            line-height: 1.4;
+            font-family: 'Playfair Display', serif;
+        }}
+
         .timeline-text {{
             color: var(--text-primary);
             font-size: 1.1rem;
             line-height: 1.7;
             margin-bottom: var(--space-lg);
             font-weight: 400;
+        }}
+
+        .timeline-footer {{
+            margin-top: var(--space-md);
+        }}
+
+        .sr-only {{
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }}
+
+        .copyright {{
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: var(--space-sm);
         }}
 
         .timeline-link {{
@@ -1062,19 +1374,23 @@ def generate_html_page():
         </div>
     </header>
 
-    <section class="hero" id="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    Today in History
-                </div>
-                <h1 class="hero-title">What Happened on {date_str}?</h1>
-                <p class="hero-subtitle">
-                    Journey through time and discover the {event_count} remarkable events that shaped our world on this extraordinary day throughout history.
-                </p>
-                <a href="#timeline" class="cta-button">
-                    Explore Timeline
-                </a>
+    <main role="main">
+        <section class="hero" id="hero" itemscope itemtype="https://schema.org/Article">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge" role="banner">
+                        <time datetime="{now.strftime('%Y-%m-%d')}">Today in History - {date_str}, {current_year}</time>
+                    </div>
+                    <h1 class="hero-title" itemprop="headline">Historical Events on {date_str}: {event_count} Remarkable Moments in History</h1>
+                    <p class="hero-subtitle" itemprop="description">
+                        Discover the fascinating historical events that occurred on {date_str} throughout history. Explore {event_count} significant moments from {periods_text} that shaped our world, from ancient civilizations to modern times. Updated daily with comprehensive details and historical context.
+                    </p>
+                    <nav role="navigation" aria-label="Page navigation">
+                        <a href="#timeline" class="cta-button" aria-describedby="hero-description">
+                            Explore Historical Timeline
+                        </a>
+                    </nav>
+                    <p id="hero-description" class="sr-only">Navigate to the detailed historical timeline showing all {event_count} events that happened on {date_str}</p>
                 
                 <div class="stats-grid" id="stats">
                     <div class="stat-card">
@@ -1094,22 +1410,24 @@ def generate_html_page():
         </div>
     </section>
 
-    <section class="timeline-section" id="timeline">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Historical Timeline</h2>
-                <p class="section-subtitle">
-                    Traverse the corridors of time and explore the pivotal moments that occurred on {date_str}. Each event represents a thread in the grand tapestry of human history.
-                </p>
-            </div>
+        <section class="timeline-section" id="timeline" itemscope itemtype="https://schema.org/ItemList">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title" itemprop="name">Complete Historical Timeline for {date_str}</h2>
+                    <p class="section-subtitle" itemprop="description">
+                        Explore the comprehensive chronological timeline of {event_count} significant historical events that occurred on {date_str}. From ancient civilizations to modern history, discover how this date has been pivotal throughout human civilization across multiple centuries and cultures.
+                    </p>
+                    <meta itemprop="numberOfItems" content="{event_count}">
+                </header>
 
-            <div class="era-filters" id="eraFilters">
-                <button class="era-filter-btn active" data-era="all">
-                    All Events <span class="era-count" id="count-all">{event_count}</span>
-                </button>
-            </div>
+                <nav class="era-filters" id="eraFilters" role="navigation" aria-label="Filter events by historical era">
+                    <button class="era-filter-btn active" data-era="all" aria-pressed="true" aria-describedby="filter-description">
+                        All Events <span class="era-count" id="count-all">{event_count}</span>
+                    </button>
+                </nav>
+                <p id="filter-description" class="sr-only">Filter historical events by time period to focus on specific eras</p>
 
-            <div class="timeline">
+                <div class="timeline" role="main" aria-label="Historical events timeline" itemscope itemtype="https://schema.org/ItemList">
 """
 
     # Calculate centuries span and era counts
@@ -1152,7 +1470,7 @@ def generate_html_page():
     
     # Generate era filter buttons
     era_buttons = ""
-    era_order = ["Modern", "20th Century", "19th Century", "Early Modern", "Medieval", "Ancient", "BCE","Unknown"]
+    era_order = ["Modern", "20th Century", "19th Century", "Early Modern", "Medieval", "Ancient", "BCE", "Unknown"]
     for era in era_order:
         if era in era_counts:
             era_buttons += f'''
@@ -1162,8 +1480,8 @@ def generate_html_page():
     
     # Add era buttons to HTML
     html_content = html_content.replace(
-        '</button>\n            </div>',
-        f'</button>{era_buttons}\n            </div>'
+        '</button>\n                </nav>',
+        f'</button>{era_buttons}\n                </nav>'
     )
 
     # Add timeline events with enhanced styling
@@ -1200,35 +1518,65 @@ def generate_html_page():
             era = "Unknown"
         
         era_class = era.lower().replace(' ', '-')
+        
+        # Extract event title from text (first sentence or up to 100 chars)
+        event_title = text.split('.')[0][:100] + ("..." if len(text.split('.')[0]) > 100 else "")
+        
+        # Clean text for meta description
+        clean_text = text.replace('"', '&quot;').replace("'", "&#39;")
+        
         html_content += f"""
-                <div class="timeline-item" data-era="{era_class}" style="animation-delay: {i * 0.05}s;">
-                    <div class="timeline-marker" title="{era} Era"></div>
+                <article class="timeline-item" data-era="{era_class}" style="animation-delay: {i * 0.05}s;" 
+                         itemscope itemtype="https://schema.org/HistoricalEvent" itemprop="itemListElement">
+                    <div class="timeline-marker" title="{era} Era" role="img" aria-label="Timeline marker for {era} era"></div>
                     <div class="timeline-content">
-                        <div class="timeline-year">{year} <span class="era-badge">{era}</span></div>
-                        <p class="timeline-text">{text}</p>
-                        <a href="{wiki_link}" target="_blank" class="timeline-link" rel="noopener noreferrer">
-                            Learn More
-                        </a>
+                        <header class="timeline-year">
+                            <time datetime="{year}" itemprop="startDate">{year}</time> 
+                            <span class="era-badge" itemprop="temporalCoverage">{era}</span>
+                        </header>
+                        <h3 class="timeline-title" itemprop="name">{event_title}</h3>
+                        <p class="timeline-text" itemprop="description">{clean_text}</p>
+                        <footer class="timeline-footer">
+                            <a href="{wiki_link}" target="_blank" class="timeline-link" rel="noopener noreferrer" 
+                               itemprop="url" aria-label="Read more about {event_title} on Wikipedia">
+                                Read Full Article
+                            </a>
+                        </footer>
+                        <meta itemprop="location" content="Global">
+                        <meta itemprop="category" content="Historical Event">
                     </div>
-                </div>
+                </article>
         """
 
     html_content += f"""
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-links">
-                    <a href="https://wikipedia.org" target="_blank" class="footer-link" rel="noopener noreferrer">Wikipedia</a>
-                    <a href="https://antonnie.dev" target="_blank" class="footer-link" rel="noopener noreferrer">antonnie.dev</a>
-                    <a href="#hero" class="footer-link">Back to Top</a>
-                </div>
-                <div class="footer-text">
-                    <p>Historical data sourced from Wikipedia API • Last updated: {now.strftime("%Y-%m-%d %H:%M UTC")}</p>
-                    <p>Discover more fascinating projects at <strong>antonnie.dev</strong></p>
+                <nav class="footer-links" role="navigation" aria-label="Footer navigation">
+                    <a href="https://wikipedia.org" target="_blank" class="footer-link" rel="noopener noreferrer" 
+                       aria-label="Visit Wikipedia - Data source">Wikipedia API</a>
+                    <a href="https://antonnie.dev" target="_blank" class="footer-link" rel="noopener noreferrer"
+                       aria-label="Visit antonnie.dev homepage">antonnie.dev</a>
+                    <a href="#hero" class="footer-link" aria-label="Return to top of page">Back to Top</a>
+                </nav>
+                <div class="footer-text" itemscope itemtype="https://schema.org/Organization">
+                    <p>
+                        <span itemprop="description">Historical data sourced from Wikipedia API</span> • 
+                        Last updated: <time datetime="{now.isoformat()}">{now.strftime("%Y-%m-%d %H:%M UTC")}</time> •
+                        <span itemprop="name">Historia by antonnie.dev</span>
+                    </p>
+                    <p>
+                        Part of <strong><a href="https://antonnie.dev" itemprop="url">antonnie.dev</a></strong> - 
+                        Exploring technology, history, and human stories through interactive experiences.
+                    </p>
+                    <p class="copyright">
+                        © {current_year} antonnie.dev. Historical content via Wikipedia under Creative Commons licensing.
+                    </p>
                 </div>
             </div>
         </div>
@@ -1648,6 +1996,85 @@ def is_first_run():
     # Consider it first run if we have fewer than 50 dates cached
     return len(cached_data) < 50
 
+def generate_sitemap():
+    """Generate XML sitemap for SEO"""
+    now = datetime.datetime.now(datetime.UTC)
+    sitemap_content = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Main history page -->
+    <url>
+        <loc>https://antonnie.dev/history/</loc>
+        <lastmod>{now.strftime("%Y-%m-%d")}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+    </url>
+    
+    <!-- Today's specific date -->
+    <url>
+        <loc>https://antonnie.dev/history/#{now.strftime("%m-%d")}</loc>
+        <lastmod>{now.strftime("%Y-%m-%d")}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+    
+</urlset>'''
+    
+    try:
+        with open("sitemap.xml", "w", encoding="utf-8") as f:
+            f.write(sitemap_content)
+        print("🗺️ Generated sitemap.xml")
+        return True
+    except:
+        print("❌ Failed to generate sitemap")
+        return False
+
+def generate_robots_txt():
+    """Generate robots.txt for SEO"""
+    robots_content = '''User-agent: *
+Allow: /
+Allow: /history/
+Allow: /history/index.html
+Allow: /history/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://antonnie.dev/history/sitemap.xml
+Sitemap: https://antonnie.dev/sitemap.xml
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+'''
+    
+    try:
+        with open("robots.txt", "w", encoding="utf-8") as f:
+            f.write(robots_content)
+        print("🤖 Generated robots.txt")
+        return True
+    except:
+        print("❌ Failed to generate robots.txt")
+        return False
+
 def main():
     """Main function to handle command line arguments and generate timeline"""
     import sys
@@ -1687,18 +2114,36 @@ def main():
         with open(filename, "w", encoding="utf-8") as f:
             f.write(html_page)
         
-        print(f"✨ Timeline generated for today: {filename}")
+        # Generate SEO files
+        print("\n🔍 Generating SEO optimization files...")
+        generate_sitemap()
+        generate_robots_txt()
+        
+        print(f"\n✨ Timeline generated for today: {filename}")
         print("🎨 Features:")
+        print("   • Comprehensive SEO optimization")
+        print("   • Structured data (JSON-LD) for rich snippets")
+        print("   • Semantic HTML5 with microdata")
+        print("   • Open Graph and Twitter Card support")
+        print("   • XML sitemap generation")
+        print("   • Optimized meta tags and descriptions")
         print("   • Cached data storage (JSON file)")
         print("   • Beautiful glass morphism design")
         print("   • Interactive timeline with animations")
         print("   • Era-based filtering system")
         print("   • Responsive mobile-friendly layout")
-        print("   • Optimized loading and filtering")
+        print("   • ARIA accessibility features")
         print("\n📖 Usage:")
-        print("   python ai-scrape.py           # Generate for today")
-        print("   python ai-scrape.py --stats   # Show cache statistics")
-        print("   python ai-scrape.py --fetch-all  # Fetch all 366 dates")
+        print("   python history-automation.py           # Generate for today")
+        print("   python history-automation.py --stats   # Show cache statistics")
+        print("   python history-automation.py --fetch-all  # Fetch all 366 dates")
+        print("\n🚀 SEO Optimization Level: MAXIMUM")
+        print("   • Title optimization with keywords")
+        print("   • Rich meta descriptions")
+        print("   • Structured data for search engines")
+        print("   • Semantic HTML markup")
+        print("   • Performance optimizations")
+        print("   • Mobile-first responsive design")
     else:
         print("❌ Failed to fetch data from Wikipedia API")
 
