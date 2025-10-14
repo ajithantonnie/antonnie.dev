@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Allow: /history/
+Allow: /history/index.html
+Allow: /history/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://antonnie.dev/history/sitemap.xml
+Sitemap: https://antonnie.dev/sitemap.xml
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /

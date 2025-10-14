@@ -29,82 +29,77 @@ def save_cached_data(data):
         return False
 
 def cleanup_old_cache():
-    """Remove cached data only if it's extremely old (2+ years) to preserve historical data"""
+    """Clean up old cache data - only keeps current date data"""
     cached_data = load_cached_data()
     if not cached_data:
+        print("📊 No cached data found")
         return
     
-    # Only remove data older than 2 years to preserve most historical data
-    cutoff_date = get_ist_now() - datetime.timedelta(days=730)  # 2 years
-    cleaned_data = {}
-    removed_count = 0
+    current_ist = get_ist_now()
     
-    for date_key, entry in cached_data.items():
-        keep_entry = True
-        
-        if 'fetched_date' in entry:
-            try:
-                fetched_date = datetime.datetime.fromisoformat(entry['fetched_date'])
-                if fetched_date < cutoff_date:
-                    keep_entry = False
-                    removed_count += 1
-            except:
-                # Keep entry if we can't parse the date
-                pass
-        
-        if keep_entry:
-            cleaned_data[date_key] = entry
-    
-    if removed_count > 0:
-        save_cached_data(cleaned_data)
-        print(f"🧹 Cleaned up {removed_count} entries older than 2 years")
-        print(f"📊 Preserved {len(cleaned_data)} date entries in cache")
+    # Check if cached data is for today and still fresh
+    if 'fetched_date' in cached_data and 'date_key' in cached_data:
+        try:
+            fetched_date = datetime.datetime.fromisoformat(cached_data['fetched_date'])
+            current_date_key = f"{current_ist.month:02d}-{current_ist.day:02d}"
+            
+            # If cache is not for today or is older than 24 hours, clear it
+            if (cached_data['date_key'] != current_date_key or 
+                (current_ist - fetched_date).total_seconds() > 86400):
+                # Clear old cache
+                if os.path.exists(DATA_FILE):
+                    os.remove(DATA_FILE)
+                print(f"🧹 Cleared old cache data")
+            else:
+                print(f"📊 Cache is current for today ({current_date_key})")
+        except:
+            # If we can't parse the date, clear the cache
+            if os.path.exists(DATA_FILE):
+                os.remove(DATA_FILE)  
+            print(f"🧹 Cleared corrupted cache data")
     else:
-        print(f"📊 Cache contains {len(cached_data)} date entries (no cleanup needed)")
+        print(f"📊 Cache structure is outdated, will be refreshed")
 
 def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
-    """Fetch events for a specific date, with smart caching that preserves all dates"""
+    """Fetch events for a specific date, with caching only for current date"""
     if mm is None or dd is None:
         now = get_ist_now()
         mm = now.month
         dd = now.day
     
     date_key = f"{mm:02d}-{dd:02d}"
+    current_ist = get_ist_now()
+    current_date_key = f"{current_ist.month:02d}-{current_ist.day:02d}"
     
-    # Load cached data
-    cached_data = load_cached_data()
-    
-    # Check if we should update this date's data
+    # Only load cached data if we're fetching today's date
+    cached_data = {}
     should_fetch_new = force_update
     
-    if date_key in cached_data:
-        if 'fetched_date' in cached_data[date_key]:
+    if date_key == current_date_key:
+        cached_data = load_cached_data()
+        
+        if 'data' in cached_data and 'fetched_date' in cached_data:
             try:
-                fetched_date = datetime.datetime.fromisoformat(cached_data[date_key]['fetched_date'])
-                current_time = get_ist_now()
+                fetched_date = datetime.datetime.fromisoformat(cached_data['fetched_date'])
                 
-                # Check if data is from a previous year - if so, update it
-                if fetched_date.year < current_time.year:
+                # Check if data is from a previous day or year - if so, update it
+                if (fetched_date.date() < current_ist.date() or 
+                    (current_ist - fetched_date).total_seconds() > 86400):  # 24 hours
                     should_fetch_new = True
-                    print(f"🔄 Updating {mm:02d}-{dd:02d} data from {fetched_date.year} to {current_time.year}")
-                
-                # If it's the same year, check if it's been more than 24 hours
-                elif (current_time - fetched_date).total_seconds() > 86400:  # 24 hours
-                    should_fetch_new = True
-                    print(f"� Refreshing {mm:02d}-{dd:02d} data (last updated: {fetched_date.strftime('%Y-%m-%d %H:%M')})")
-                
+                    print(f"🔄 Refreshing today's data (last updated: {fetched_date.strftime('%Y-%m-%d %H:%M IST')})")
                 else:
-                    print(f"�📁 Using cached data for {mm:02d}-{dd:02d} (fetched: {fetched_date.strftime('%Y-%m-%d %H:%M')})")
-                    return cached_data[date_key]['data']
+                    print(f"📁 Using cached data for today (fetched: {fetched_date.strftime('%Y-%m-%d %H:%M IST')})")
+                    return cached_data['data']
             except:
                 # If we can't parse the date, fetch new data
                 should_fetch_new = True
         else:
-            # No fetched_date field, update the data
+            # No cached data
             should_fetch_new = True
     else:
-        # No cached data for this date
+        # Not today's date, always fetch fresh data
         should_fetch_new = True
+        print(f"🌐 Fetching data for {mm:02d}-{dd:02d} (not caching non-current dates)")
     
     if should_fetch_new:
         # Fetch new data from API
@@ -115,28 +110,28 @@ def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
         if resp.status_code == 200:
             data = resp.json()
             
-            # Update only this date's data (preserve all other dates)
-            cached_data[date_key] = {
-                'data': data,
-                'fetched_date': get_ist_now().isoformat(),
-                'updated_from_year': cached_data.get(date_key, {}).get('fetched_date', 'new')
-            }
-            
-            # Save updated cache (preserves all existing dates)
-            if save_cached_data(cached_data):
-                print(f"💾 Data updated for {mm:02d}-{dd:02d} (total cached dates: {len(cached_data)})")
+            # Only save to cache if this is today's date
+            if date_key == current_date_key:
+                cache_data = {
+                    'data': data,
+                    'fetched_date': get_ist_now().isoformat(),
+                    'date_key': date_key
+                }
+                
+                # Save only current date data
+                if save_cached_data(cache_data):
+                    print(f"💾 Today's data saved to cache")
             
             return data
         else:
             print(f"❌ API request failed with status: {resp.status_code}")
     
-    # If API fails or we don't need to fetch, try to return cached data if available
-    if date_key in cached_data:
-        print(f"⚠️ Using cached data for {mm:02d}-{dd:02d}")
-        return cached_data[date_key]['data']
+    # If API fails and we have cached data for today, use it
+    if date_key == current_date_key and 'data' in cached_data:
+        print(f"⚠️ Using cached data for today")
+        return cached_data['data']
     
     return None
-
 def generate_html_page():
     """Generate a cutting-edge modern HTML page with advanced responsive design"""
     # Use IST timezone (UTC+5:30) instead of UTC
@@ -697,7 +692,19 @@ def generate_html_page():
             }}
             
             .nav-links {{
+                display: none;
                 transform: translateX(100%);
+            }}
+        }}
+        
+        @media (min-width: 769px) {{
+            .nav-links {{
+                display: flex !important;
+                transform: none !important;
+            }}
+            
+            .mobile-menu-btn {{
+                display: none;
             }}
         }}
 
@@ -1926,7 +1933,7 @@ def generate_html_page():
             <div class="footer-content">
                 <nav class="footer-links" role="navigation" aria-label="Footer navigation">
                     <a href="https://wikipedia.org" target="_blank" class="footer-link" rel="noopener noreferrer" 
-                       aria-label="Visit Wikipedia - Data source">Wikipedia API</a>
+                       aria-label="Visit Wikipedia - Data source">Wikipedia</a>
                     <a href="https://antonnie.dev" target="_blank" class="footer-link" rel="noopener noreferrer"
                        aria-label="Visit antonnie.dev homepage">antonnie.dev</a>
                     <a href="#hero" class="footer-link" aria-label="Return to top of page">Back to Top</a>
@@ -2041,9 +2048,9 @@ def generate_html_page():
                 // Close menu when clicking overlay
                 overlay.addEventListener('click', toggleMenu);
                 
-                // Close menu when clicking nav links
+                // Close menu when clicking nav links (only on mobile)
                 navLinks.addEventListener('click', function(e) {{
-                    if (e.target.classList.contains('nav-link')) {{
+                    if (e.target.classList.contains('nav-link') && window.innerWidth <= 768 && isMenuOpen) {{
                         toggleMenu();
                     }}
                 }});
@@ -2286,193 +2293,62 @@ def generate_html_page():
     return html_content
 
 def show_cache_stats():
-    """Display cache statistics"""
+    """Display statistics about cached data (current date only)"""
     cached_data = load_cached_data()
     if not cached_data:
         print("📊 No cached data found")
         return
     
-    current_year = get_ist_now().year
-    stats = {
-        'current_year': 0,
-        'previous_years': 0,
-        'total_dates': len(cached_data),
-        'initial_fetch': 0,
-        'updated_entries': 0
-    }
-    
-    year_counts = {}
-    
-    for date_key, entry in cached_data.items():
-        if 'fetched_date' in entry:
-            try:
-                fetched_date = datetime.datetime.fromisoformat(entry['fetched_date'])
-                year = fetched_date.year
-                year_counts[year] = year_counts.get(year, 0) + 1
-                
-                if year == current_year:
-                    stats['current_year'] += 1
-                else:
-                    stats['previous_years'] += 1
-                    
-                # Track initial fetch vs updates
-                if entry.get('initial_fetch', False):
-                    stats['initial_fetch'] += 1
-                else:
-                    stats['updated_entries'] += 1
-                    
-            except:
-                pass
-    
-    completion_percentage = (stats['total_dates'] / 366) * 100
+    current_ist = get_ist_now()
+    current_date_key = f"{current_ist.month:02d}-{current_ist.day:02d}"
     
     print("📊 Cache Statistics:")
-    print(f"   • Total dates cached: {stats['total_dates']}/366 ({completion_percentage:.1f}% complete)")
-    print(f"   • Current year ({current_year}): {stats['current_year']} dates")
-    print(f"   • Previous years: {stats['previous_years']} dates")
-    print(f"   • Initial fetches: {stats['initial_fetch']} dates")
-    print(f"   • Updated entries: {stats['updated_entries']} dates")
+    print("=" * 50)
     
-    if completion_percentage < 100:
-        remaining = 366 - stats['total_dates']
-        print(f"   • Remaining to fetch: {remaining} dates")
-    
-    if year_counts:
-        print("   • By year:")
-        for year in sorted(year_counts.keys(), reverse=True):
-            print(f"     - {year}: {year_counts[year]} dates")
+    if 'fetched_date' in cached_data and 'date_key' in cached_data:
+        try:
+            fetched_date = datetime.datetime.fromisoformat(cached_data['fetched_date'])
+            cached_date_key = cached_data['date_key']
             
-    # Show database size
+            print(f"📅 Cached Date: {cached_date_key}")
+            print(f"🕐 Last Updated: {fetched_date.strftime('%Y-%m-%d %H:%M IST')}")
+            print(f"⏰ Cache Age: {(current_ist - fetched_date).total_seconds() / 3600:.1f} hours")
+            
+            if cached_date_key == current_date_key:
+                print("✅ Cache is for today's date")
+                if (current_ist - fetched_date).total_seconds() < 86400:
+                    print("✅ Cache is fresh (< 24 hours)")
+                else:
+                    print("⚠️ Cache is stale (> 24 hours)")
+            else:
+                print(f"⚠️ Cache is for different date (today: {current_date_key})")
+            
+            if 'data' in cached_data and 'events' in cached_data['data']:
+                event_count = len(cached_data['data']['events'])
+                print(f"📚 Events in Cache: {event_count}")
+            
+        except Exception as e:
+            print(f"❌ Error reading cache: {e}")
+    else:
+        print("⚠️ Cache format is outdated")
+    
+    # Show cache file size
     try:
-        import os
         if os.path.exists(DATA_FILE):
-            size_mb = os.path.getsize(DATA_FILE) / (1024 * 1024)
-            print(f"   • Database size: {size_mb:.1f} MB")
+            size_kb = os.path.getsize(DATA_FILE) / 1024
+            print(f"💾 Cache file size: {size_kb:.1f} KB")
     except:
         pass
 
 def fetch_all_dates(retry_failed=True):
-    """Fetch data for all 366 possible dates (including Feb 29) on first run"""
-    import calendar
-    import time
-    
-    print("🌐 Fetching data for all dates...")
-    print("⏰ This will take a few minutes but creates a complete database...")
-    
-    cached_data = load_cached_data()
-    total_dates = 0
-    fetched_count = 0
-    failed_dates = []
-    
-    # Days in each month (including leap year Feb 29)
-    days_in_month = {
-        1: 31, 2: 29, 3: 31, 4: 30, 5: 31, 6: 30,
-        7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31
-    }
-    
-    def fetch_single_date(month, day, attempt=1):
-        """Fetch data for a single date with retry logic"""
-        date_key = f"{month:02d}-{day:02d}"
-        url = f"https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/all/{month:02d}/{day:02d}"
-        
-        try:
-            resp = requests.get(url, headers={"User-Agent":"HistoryTimeline/2.0"}, timeout=15)
-            
-            if resp.status_code == 200:
-                data = resp.json()
-                cached_data[date_key] = {
-                    'data': data,
-                    'fetched_date': get_ist_now().isoformat(),
-                    'initial_fetch': True,
-                    'attempt': attempt
-                }
-                return True, "✅"
-            else:
-                return False, f"❌ (HTTP {resp.status_code})"
-                
-        except requests.exceptions.Timeout:
-            return False, "❌ (Timeout)"
-        except requests.exceptions.ConnectionError:
-            return False, "❌ (Connection Error)"
-        except Exception as e:
-            error_msg = str(e)[:30].replace('\n', ' ')
-            return False, f"❌ (Error: {error_msg}...)"
-    
-    # First pass: fetch all dates
-    for month in range(1, 13):
-        for day in range(1, days_in_month[month] + 1):
-            date_key = f"{month:02d}-{day:02d}"
-            total_dates += 1
-            
-            # Skip if already cached successfully
-            if date_key in cached_data and 'data' in cached_data[date_key]:
-                print(f"📅 {date_key}... ({total_dates}/366) 📁 (cached)")
-                fetched_count += 1
-                continue
-            
-            print(f"📅 Fetching {date_key}... ({total_dates}/366) ", end="")
-            
-            success, status = fetch_single_date(month, day)
-            print(status)
-            
-            if success:
-                fetched_count += 1
-            else:
-                failed_dates.append((month, day, status))
-            
-            # Save progress every 20 dates to prevent data loss
-            if total_dates % 20 == 0:
-                save_cached_data(cached_data)
-                success_rate = (fetched_count / total_dates) * 100
-                print(f"💾 Progress saved... ({fetched_count}/{total_dates} = {success_rate:.1f}% success)")
-                
-            # Small delay to be respectful to Wikipedia's servers
-            time.sleep(0.3)
-    
-    # Retry failed dates if requested
-    if retry_failed and failed_dates:
-        print(f"\n🔄 Retrying {len(failed_dates)} failed dates...")
-        retry_success = 0
-        
-        for month, day, original_error in failed_dates[:]:
-            date_key = f"{month:02d}-{day:02d}"
-            print(f"🔄 Retry {date_key}... ", end="")
-            
-            success, status = fetch_single_date(month, day, attempt=2)
-            print(status)
-            
-            if success:
-                retry_success += 1
-                fetched_count += 1
-                failed_dates.remove((month, day, original_error))
-            
-            time.sleep(0.5)  # Longer delay for retries
-    
-    # Final save
-    if save_cached_data(cached_data):
-        print(f"\n🎉 Complete! Successfully fetched {fetched_count}/{total_dates} dates")
-        success_rate = (fetched_count / total_dates) * 100
-        print(f"� Success rate: {success_rate:.1f}%")
-        print(f"💾 Database saved to {DATA_FILE}")
-        
-        if failed_dates:
-            print(f"\n⚠️  {len(failed_dates)} dates still failed:")
-            for month, day, error in failed_dates[:10]:  # Show first 10 failures
-                print(f"   • {month:02d}-{day:02d}: {error}")
-            if len(failed_dates) > 10:
-                print(f"   • ... and {len(failed_dates) - 10} more")
-            print("💡 You can run --fetch-all again to retry failed dates")
-        else:
-            print("🎉 All dates fetched successfully!")
-            
-    else:
-        print("❌ Failed to save database")
+    """Deprecated: This function is no longer used. Cache now only stores current date data."""
+    print("ℹ️ Note: fetch_all_dates is deprecated.")
+    print("📅 The cache now only stores data for the current date.")
+    print("� Use the script normally - it will fetch today's data automatically.")
 
 def is_first_run():
-    """Check if this is the first run (no cache file or very few entries)"""
-    cached_data = load_cached_data()
-    # Consider it first run if we have fewer than 50 dates cached
-    return len(cached_data) < 50
+    """Check if this is the first run (no cache file exists)"""
+    return not os.path.exists(DATA_FILE)
 
 def generate_sitemap():
     """Generate XML sitemap for SEO"""
