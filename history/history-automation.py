@@ -135,7 +135,8 @@ def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
 
 def generate_html_page():
     """Generate a cutting-edge modern HTML page with advanced responsive design"""
-    now = datetime.datetime.now(datetime.UTC)
+    # Use IST timezone (UTC+5:30) instead of UTC
+    now = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=5, minutes=30)
     mm, dd = now.month, now.day
     date_str = now.strftime("%B %d")
     
