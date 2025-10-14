@@ -5,6 +5,10 @@ import os
 # File to store cached events data
 DATA_FILE = "on_this_day_data.json"
 
+def get_ist_now():
+    """Get current time in IST (UTC+5:30)"""
+    return datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=5, minutes=30)
+
 def load_cached_data():
     """Load cached events data from JSON file"""
     if os.path.exists(DATA_FILE):
@@ -31,7 +35,7 @@ def cleanup_old_cache():
         return
     
     # Only remove data older than 2 years to preserve most historical data
-    cutoff_date = datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=730)  # 2 years
+    cutoff_date = get_ist_now() - datetime.timedelta(days=730)  # 2 years
     cleaned_data = {}
     removed_count = 0
     
@@ -61,7 +65,7 @@ def cleanup_old_cache():
 def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
     """Fetch events for a specific date, with smart caching that preserves all dates"""
     if mm is None or dd is None:
-        now = datetime.datetime.now(datetime.UTC)
+        now = get_ist_now()
         mm = now.month
         dd = now.day
     
@@ -77,7 +81,7 @@ def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
         if 'fetched_date' in cached_data[date_key]:
             try:
                 fetched_date = datetime.datetime.fromisoformat(cached_data[date_key]['fetched_date'])
-                current_time = datetime.datetime.now(datetime.UTC)
+                current_time = get_ist_now()
                 
                 # Check if data is from a previous year - if so, update it
                 if fetched_date.year < current_time.year:
@@ -114,7 +118,7 @@ def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
             # Update only this date's data (preserve all other dates)
             cached_data[date_key] = {
                 'data': data,
-                'fetched_date': datetime.datetime.now(datetime.UTC).isoformat(),
+                'fetched_date': get_ist_now().isoformat(),
                 'updated_from_year': cached_data.get(date_key, {}).get('fetched_date', 'new')
             }
             
@@ -136,7 +140,7 @@ def fetch_on_this_day(lang="en", mm=None, dd=None, force_update=False):
 def generate_html_page():
     """Generate a cutting-edge modern HTML page with advanced responsive design"""
     # Use IST timezone (UTC+5:30) instead of UTC
-    now = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=5, minutes=30)
+    now = get_ist_now()
     mm, dd = now.month, now.day
     date_str = now.strftime("%B %d")
     
@@ -1930,7 +1934,7 @@ def generate_html_page():
                 <div class="footer-text" itemscope itemtype="https://schema.org/Organization">
                     <p>
                         <span itemprop="description">Historical data sourced from Wikipedia API</span> • 
-                        Last updated: <time datetime="{now.isoformat()}">{now.strftime("%Y-%m-%d %H:%M UTC")}</time> •
+                        Last updated: <time datetime="{now.isoformat()}">{now.strftime("%Y-%m-%d %H:%M IST")}</time> •
                         <span itemprop="name">Historia by antonnie.dev</span>
                     </p>
                     <p>
@@ -2288,7 +2292,7 @@ def show_cache_stats():
         print("📊 No cached data found")
         return
     
-    current_year = datetime.datetime.now(datetime.UTC).year
+    current_year = get_ist_now().year
     stats = {
         'current_year': 0,
         'previous_years': 0,
@@ -2378,7 +2382,7 @@ def fetch_all_dates(retry_failed=True):
                 data = resp.json()
                 cached_data[date_key] = {
                     'data': data,
-                    'fetched_date': datetime.datetime.now(datetime.UTC).isoformat(),
+                    'fetched_date': get_ist_now().isoformat(),
                     'initial_fetch': True,
                     'attempt': attempt
                 }
@@ -2472,7 +2476,7 @@ def is_first_run():
 
 def generate_sitemap():
     """Generate XML sitemap for SEO"""
-    now = datetime.datetime.now(datetime.UTC)
+    now = get_ist_now()
     sitemap_content = f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
