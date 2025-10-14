@@ -1934,7 +1934,7 @@ def generate_html_page():
                 <nav class="footer-links" role="navigation" aria-label="Footer navigation">
                     <a href="https://wikipedia.org" target="_blank" class="footer-link" rel="noopener noreferrer" 
                        aria-label="Visit Wikipedia - Data source">Wikipedia</a>
-                    <a href="https://antonnie.dev" target="_blank" class="footer-link" rel="noopener noreferrer"
+                    <a href="https://antonnie.dev" class="footer-link" rel="noopener noreferrer"
                        aria-label="Visit antonnie.dev homepage">antonnie.dev</a>
                     <a href="#hero" class="footer-link" aria-label="Return to top of page">Back to Top</a>
                 </nav>
