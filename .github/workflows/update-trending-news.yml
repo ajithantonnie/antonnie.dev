@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 * * * *'  # Every hour at the top of the hour
   workflow_dispatch:  # Allow manual triggering for testing
+  push:
+    branches: [ main ]
+    paths:
+      - 'trending/scripts/**'
+      - '.github/workflows/update-trending-news.yml'
 
 permissions:
   contents: write
@@ -32,11 +37,25 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y python3-dev build-essential
         
+    - name: Debug environment
+      run: |
+        echo "🐍 Python version: $(python --version)"
+        echo "📁 Current directory: $(pwd)"
+        echo "📂 Directory contents:"
+        ls -la
+        echo "📝 Files in trending/scripts:"
+        ls -la trending/scripts/
+        echo "🔧 Environment variables:"
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        echo "PYTHONPATH: $PYTHONPATH"
+        
     - name: Install Python dependencies
       working-directory: ./trending/scripts
       run: |
+        echo "📦 Installing Python dependencies..."
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        echo "✅ Dependencies installed successfully"
         
     - name: Cache AI models and data
       uses: actions/cache@v4
@@ -61,8 +80,13 @@ jobs:
         PYTHONPATH: ${{ github.workspace }}/trending/scripts
       run: |
         echo "🚀 Starting trending news generation at $(date)"
-        python news_generator.py
+        echo "📁 Working directory: $(pwd)"
+        echo "📄 Checking if news_generator.py exists:"
+        ls -la news_generator.py
+        echo "🐍 Running Python script..."
+        python news_generator.py 2>&1 | tee generator_output.log
         echo "✅ Trending news generation completed at $(date)"
+        echo "📋 Script output saved to generator_output.log"
         
     - name: Check for changes
       id: changes
