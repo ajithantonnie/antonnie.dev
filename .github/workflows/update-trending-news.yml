@@ -76,15 +76,6 @@ jobs:
         echo "🐍 Running lightweight Python script..."
         python news_generator_lightweight.py 2>&1 | tee generator_output.log
         echo "✅ Trending news generation completed at $(date)"
-      run: |
-        echo "🚀 Starting trending news generation at $(date)"
-        echo "📁 Working directory: $(pwd)"
-        echo "📄 Checking if news_generator.py exists:"
-        ls -la news_generator.py
-        echo "🐍 Running Python script..."
-        python news_generator.py 2>&1 | tee generator_output.log
-        echo "✅ Trending news generation completed at $(date)"
-        echo "📋 Script output saved to generator_output.log"
         
     - name: Check for changes
       id: changes
