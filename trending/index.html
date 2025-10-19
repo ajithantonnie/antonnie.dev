@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Reporter - AI-Powered News Platform</title>
+    <meta
+      name="description"
+      content="Stay informed with AI-curated trending news articles updated hourly. Modern news platform delivering the latest stories with intelligent automation."
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <a href="./" class="logo">Daily Reporter</a>
+        <div class="nav-links">
+          <span class="live-indicator"
+            ><span class="pulse-dot"></span>Live Updates</span
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Daily Reporter</h1>
+        <p>
+          Your intelligent news companion, delivering curated trending stories
+          with AI-powered insights. Fresh updates every hour from trusted
+          sources worldwide.
+        </p>
+        <div class="post-meta">
+          <span
+            >⚡ Last updated: <time id="last-updated">Loading...</time></span
+          >
+        </div>
+      </section>
+
+      <section id="latest-posts">
+            <article class="post-preview">
+                <div class="post-content">
+                    <h2><a href="./posts/bangladesh-garment-exporters-fear-1bn-losses-after_20251019_2306.html">Bangladesh garment exporters fear $1bn losses after huge airport fire</a></h2>
+                    <p class="post-summary">Latest updates on bangladesh garment exporters fear $1bn losses after huge airport fire. Click to read the full report.</p>
+                    <div class="post-meta">
+                        <span class="post-date">0 minutes ago</span>
+                        <span class="post-sources">Sources: Multiple sources</span>
+                        <span class="search-volume">🔥 Trending</span>
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <a href="./posts/bangladesh-garment-exporters-fear-1bn-losses-after_20251019_2306.html" class="read-more">Read Full Article</a>
+                </div>
+            </article>
+            <article class="post-preview">
+                <div class="post-content">
+                    <h2><a href="./posts/israel-strikes-gaza-halts-aid-as-both-sides-claim-_20251019_2306.html">Israel strikes Gaza, halts aid as both sides claim the other breached truce</a></h2>
+                    <p class="post-summary">Latest updates on israel strikes gaza, halts aid as both sides claim the other breached truce. Click to read the full report.</p>
+                    <div class="post-meta">
+                        <span class="post-date">0 minutes ago</span>
+                        <span class="post-sources">Sources: Multiple sources</span>
+                        <span class="search-volume">🔥 Trending</span>
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <a href="./posts/israel-strikes-gaza-halts-aid-as-both-sides-claim-_20251019_2306.html" class="read-more">Read Full Article</a>
+                </div>
+            </article>
+            <article class="post-preview">
+                <div class="post-content">
+                    <h2><a href="./posts/yemens-houthis-detain-20-un-staff-in-latest-raid_20251019_2306.html">Yemen’s Houthis detain 20 UN staff in latest raid</a></h2>
+                    <p class="post-summary">Latest updates on yemen’s houthis detain 20 un staff in latest raid. Click to read the full report.</p>
+                    <div class="post-meta">
+                        <span class="post-date">0 minutes ago</span>
+                        <span class="post-sources">Sources: Multiple sources</span>
+                        <span class="search-volume">🔥 Trending</span>
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <a href="./posts/yemens-houthis-detain-20-un-staff-in-latest-raid_20251019_2306.html" class="read-more">Read Full Article</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2025 Daily Reporter. AI-powered news platform delivering
+          intelligent insights.
+        </p>
+        <p>Updated hourly • Powered by advanced AI technology</p>
+      </div>
+    </footer>
+
+    <script>
+      // Update last updated time
+      document.getElementById("last-updated").textContent =
+        new Date().toLocaleString();
+
+      // Simple loading state management
+      setTimeout(() => {
+        const loading = document.querySelector(".loading");
+        if (
+          loading &&
+          document.querySelectorAll(".post-preview").length === 0
+        ) {
+          loading.innerHTML =
+            "<p>No articles available yet. Check back soon!</p>";
+        }
+      }, 3000);
+    </script>
+  </body>
+</html>
