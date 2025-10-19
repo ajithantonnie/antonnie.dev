@@ -52,21 +52,11 @@ jobs:
     - name: Install Python dependencies
       working-directory: ./trending/scripts
       run: |
-        echo "📦 Installing Python dependencies..."
+        echo "📦 Installing lightweight Python dependencies..."
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install requests beautifulsoup4 feedparser python-dateutil lxml
         echo "✅ Dependencies installed successfully"
         
-    - name: Cache AI models and data
-      uses: actions/cache@v4
-      with:
-        path: |
-          ~/.cache/huggingface
-          ~/.cache/torch
-        key: ${{ runner.os }}-ai-models-${{ hashFiles('trending/scripts/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-ai-models-
-          
     - name: Configure git
       run: |
         git config --global user.name 'github-actions[bot]'
@@ -74,10 +64,18 @@ jobs:
           
     - name: Run trending news generator
       working-directory: ./trending/scripts
+      timeout-minutes: 10
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        HF_HOME: ~/.cache/huggingface
         PYTHONPATH: ${{ github.workspace }}/trending/scripts
+      run: |
+        echo "🚀 Starting lightweight trending news generation at $(date)"
+        echo "📁 Working directory: $(pwd)"
+        echo "📄 Checking if news_generator_lightweight.py exists:"
+        ls -la news_generator_lightweight.py
+        echo "🐍 Running lightweight Python script..."
+        python news_generator_lightweight.py 2>&1 | tee generator_output.log
+        echo "✅ Trending news generation completed at $(date)"
       run: |
         echo "🚀 Starting trending news generation at $(date)"
         echo "📁 Working directory: $(pwd)"
