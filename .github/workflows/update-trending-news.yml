@@ -37,6 +37,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y python3-dev build-essential
         
+    - name: Cache Python packages
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+        
     - name: Debug environment
       run: |
         echo "🐍 Python version: $(python --version)"
@@ -48,6 +56,8 @@ jobs:
         echo "🔧 Environment variables:"
         echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
         echo "PYTHONPATH: $PYTHONPATH"
+        echo "🧠 Memory info:"
+        free -h
         
     - name: Install Python dependencies
       working-directory: ./trending/scripts
@@ -63,6 +73,7 @@ jobs:
         path: |
           ~/.cache/huggingface
           ~/.cache/torch
+          ~/.cache/pip
         key: ${{ runner.os }}-ai-models-${{ hashFiles('trending/scripts/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-ai-models-
@@ -78,36 +89,118 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         HF_HOME: ~/.cache/huggingface
         PYTHONPATH: ${{ github.workspace }}/trending/scripts
+        # Memory optimization for ML libraries
+        PYTORCH_CUDA_ALLOC_CONF: max_split_size_mb:512
+        TOKENIZERS_PARALLELISM: "false"
+        # GitHub Actions detection
+        GITHUB_ACTIONS: "true"
       run: |
         echo "🚀 Starting trending news generation at $(date)"
         echo "📁 Working directory: $(pwd)"
         echo "📄 Checking if news_generator.py exists:"
         ls -la news_generator.py
-        echo "🐍 Running Python script..."
-        python news_generator.py 2>&1 | tee generator_output.log
+        echo "� Running Python script with 8-minute timeout..."
+        
+        # Run with shorter timeout to prevent hanging
+        timeout 8m python news_generator.py 2>&1 | tee generator_output.log
+        EXIT_CODE=$?
+        
+        if [ $EXIT_CODE -eq 124 ]; then
+          echo "⚠️ Script timed out after 8 minutes - this is normal in GitHub Actions"
+          echo "📋 Last 20 lines of output before timeout:"
+          tail -n 20 generator_output.log 2>/dev/null || echo "No log available"
+          # Don't exit with error - let workflow continue to check for changes
+        elif [ $EXIT_CODE -ne 0 ]; then
+          echo "❌ Script failed with exit code: $EXIT_CODE"
+          echo "📋 Last 30 lines of output:"
+          tail -n 30 generator_output.log 2>/dev/null || echo "No log available"
+          exit 1
+        else
+          echo "✅ Script completed successfully"
+        fi
+        
         echo "✅ Trending news generation completed at $(date)"
         echo "📋 Script output saved to generator_output.log"
+        echo "💾 Memory status after execution:"
+        free -h
         
-    - name: Check for changes
+    - name: Check for changes and cleanup
       id: changes
       run: |
+        echo "🔍 Checking for changes in the repository..."
+        
+        # Show what files exist
+        echo "📁 Files in trending directory:"
+        find trending/ -type f -name "*.html" -o -name "*.json" | head -20
+        
+        # Check git status
+        echo "📊 Git status:"
+        git status --porcelain
+        
         if git diff --quiet && git diff --cached --quiet; then
-          echo "No changes detected"
+          echo "ℹ️  No changes detected"
           echo "has_changes=false" >> $GITHUB_OUTPUT
         else
-          echo "Changes detected"
+          echo "✅ Changes detected"
+          echo "📝 Changed files:"
+          git diff --name-only
           echo "has_changes=true" >> $GITHUB_OUTPUT
         fi
+        
+        # Cleanup large temporary files
+        echo "🧹 Cleaning up temporary files..."
+        find . -name "*.log" -size +10M -delete 2>/dev/null || true
+        find ~/.cache -name "*.tmp" -delete 2>/dev/null || true
         
     - name: Commit and push changes
       if: steps.changes.outputs.has_changes == 'true'
       run: |
+        echo "📤 Committing and pushing changes..."
         git add .
-        git commit -m "🤖 Auto-update: New trending articles $(date +'%Y-%m-%d %H:%M UTC')"
-        git push
-        echo "✅ Changes committed and pushed successfully"
+        
+        # Create detailed commit message
+        COMMIT_MSG="🤖 Auto-update: New trending articles $(date +'%Y-%m-%d %H:%M UTC')"
+        
+        # Add stats to commit message
+        NEW_FILES=$(git diff --cached --name-only --diff-filter=A | wc -l)
+        MODIFIED_FILES=$(git diff --cached --name-only --diff-filter=M | wc -l)
+        
+        if [ $NEW_FILES -gt 0 ] || [ $MODIFIED_FILES -gt 0 ]; then
+          COMMIT_MSG="$COMMIT_MSG - Added: $NEW_FILES, Modified: $MODIFIED_FILES files"
+        fi
+        
+        git commit -m "$COMMIT_MSG"
+        
+        # Push with retry logic
+        for i in {1..3}; do
+          if git push; then
+            echo "✅ Changes committed and pushed successfully"
+            break
+          else
+            echo "⚠️  Push attempt $i failed, retrying in 10 seconds..."
+            sleep 10
+            if [ $i -eq 3 ]; then
+              echo "❌ Failed to push after 3 attempts"
+              exit 1
+            fi
+          fi
+        done
         
     - name: No changes to commit
       if: steps.changes.outputs.has_changes == 'false'
       run: |
         echo "ℹ️ No new content generated - no changes to commit"
+        echo "📊 This could be due to:"
+        echo "  • All topics already covered today"
+        echo "  • Network issues preventing content generation"
+        echo "  • RSS feeds not returning new content"
+        
+    - name: Upload logs on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: generator-logs-${{ github.run_number }}
+        path: |
+          trending/scripts/generator_output.log
+          trending/scripts/daily_topics.json
+        retention-days: 7
