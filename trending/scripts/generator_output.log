@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 9 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: 300 people tell BBC of police misogyny and racism after undercover investigation
+  Added: Focus of grooming inquiry 'will not change', home secretary insists
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Anti-malaria funding cuts could lead to ‘deadliest resurgence ever’, study warns
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: AI models misrepresent news events nearly half the time, study says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China accuses Australia of covering up South China Sea airspace incursion
+Added expanded search topic: AI models misrepresent news events nearly half the time, study says
+Added expanded search topic: China accuses Australia of covering up South China Sea airspace incursion
+Saved 12 topics for 2025-10-22
+Returning 3 unique trending topics:
+  1. 300 people tell BBC of police misogyny and racism after undercover investigation (from BBC News)
+  2. AI models misrepresent news events nearly half the time, study says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. China accuses Australia of covering up South China Sea airspace incursion (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: 300 people tell BBC of police misogyny and racism after undercover investigation
+Searching Google for: 300 people tell BBC of police misogyny and racism after undercover investigation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D300%252Bpeople%252Btell%252BBBC%252Bof%252Bpolice%252Bmisogyny%252Band%252Bracism%252Bafter%252Bundercover%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IXEGKvW4ccGIjC29PIq9jBUpv-qnUGTi39MbWOi862m8-s3Q8_46hF_a6iQ5Lgr73pzSQo1NEzhEH4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: 300-people-tell-bbc-of-police-misogyny-and-racism-_20251022_0527.html
+✓ Created comprehensive article: 300-people-tell-bbc-of-police-misogyny-and-racism-_20251022_0527.html
+
+Processing trending topic: AI models misrepresent news events nearly half the time, study says
+Searching Google for: AI models misrepresent news events nearly half the time, study says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAI%252Bmodels%252Bmisrepresent%252Bnews%252Bevents%252Bnearly%252Bhalf%252Bthe%252Btime%252C%252Bstudy%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IXEGLLW4ccGIjBrRnVlL2AxTAKiwD8pPCSJ_Zsav73A_MjQ45AZUvhhu98y41FEyu4pyxG4XFeBLaEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ai-models-misrepresent-news-events-nearly-half-the_20251022_0527.html
+✓ Created comprehensive article: ai-models-misrepresent-news-events-nearly-half-the_20251022_0527.html
+
+Processing trending topic: China accuses Australia of covering up South China Sea airspace incursion
+Searching Google for: China accuses Australia of covering up South China Sea airspace incursion
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Baccuses%252BAustralia%252Bof%252Bcovering%252Bup%252BSouth%252BChina%252BSea%252Bairspace%252Bincursion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IXEGLjW4ccGIjByAxf4TxIw4W_zpv3hpDfyntNtP345YnY0KW9areHWE14YMKUQgcPGceiZuMpofJQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: china-accuses-australia-of-covering-up-south-china_20251022_0527.html
+✓ Created comprehensive article: china-accuses-australia-of-covering-up-south-china_20251022_0527.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • 300 people tell BBC of police misogyny and racism after undercover investigation
+     Sources: bbc.com, cnn.com, reuters.com
+   • AI models misrepresent news events nearly half the time, study says
+     Sources: bbc.com, cnn.com, reuters.com
+   • China accuses Australia of covering up South China Sea airspace incursion
+     Sources: bbc.com, cnn.com, reuters.com
