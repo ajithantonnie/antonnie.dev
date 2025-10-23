@@ -1,0 +1,62 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 0 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Trump says Putin talks 'don't go anywhere' as he imposes new sanctions
+  Added: Child abuse expert pulls out of grooming inquiry over political 'point scoring'
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Cuban man deported from US to Eswatini goes on hunger strike in prison
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2025-10-23
+Returning 3 unique trending topics:
+  1. Trump says Putin talks 'don't go anywhere' as he imposes new sanctions (from BBC News)
+  2. Child abuse expert pulls out of grooming inquiry over political 'point scoring' (from BBC News)
+  3. Cuban man deported from US to Eswatini goes on hunger strike in prison (from The Guardian)
+
+Processing trending topic: Trump says Putin talks 'don't go anywhere' as he imposes new sanctions
+Searching Google for: Trump says Putin talks 'don't go anywhere' as he imposes new sanctions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BPutin%252Btalks%252B%2527don%2527t%252Bgo%252Banywhere%2527%252Bas%252Bhe%252Bimposes%252Bnew%252Bsanctions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-EGNiJ5scGIjCl2ix_8DWrH2_wMbuRvA6Wef_6jZA-pSQ9Dik-ffj320I8YT8jCKZwh9xbwQfayOAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-says-putin-talks-dont-go-anywhere-as-he-impo_20251023_0129.html
+✓ Created comprehensive article: trump-says-putin-talks-dont-go-anywhere-as-he-impo_20251023_0129.html
+
+Processing trending topic: Child abuse expert pulls out of grooming inquiry over political 'point scoring'
+Searching Google for: Child abuse expert pulls out of grooming inquiry over political 'point scoring'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChild%252Babuse%252Bexpert%252Bpulls%252Bout%252Bof%252Bgrooming%252Binquiry%252Bover%252Bpolitical%252B%2527point%252Bscoring%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-EGO2J5scGIjD4G56Bkk3SDCyFiJX_Cte3gWmnmMGNUq9oR3P4iZ_hTHy0Uyi_NLSQJnZa2SnmphIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: child-abuse-expert-pulls-out-of-grooming-inquiry-o_20251023_0129.html
+✓ Created comprehensive article: child-abuse-expert-pulls-out-of-grooming-inquiry-o_20251023_0129.html
+
+Processing trending topic: Cuban man deported from US to Eswatini goes on hunger strike in prison
+Searching Google for: Cuban man deported from US to Eswatini goes on hunger strike in prison
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuban%252Bman%252Bdeported%252Bfrom%252BUS%252Bto%252BEswatini%252Bgoes%252Bon%252Bhunger%252Bstrike%252Bin%252Bprison%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-EGPSJ5scGIjBA6B1Az112XtN8F9oKoRFXgOyLHWuU_LFNu8PuwnM90nCh_AWmDo8NJTorCVfeb4wyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: cuban-man-deported-from-us-to-eswatini-goes-on-hun_20251023_0129.html
+✓ Created comprehensive article: cuban-man-deported-from-us-to-eswatini-goes-on-hun_20251023_0129.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Trump says Putin talks 'don't go anywhere' as he imposes new sanctions
+     Sources: bbc.com, cnn.com, reuters.com
+   • Child abuse expert pulls out of grooming inquiry over political 'point scoring'
+     Sources: bbc.com, cnn.com, reuters.com
+   • Cuban man deported from US to Eswatini goes on hunger strike in prison
+     Sources: bbc.com, cnn.com, reuters.com
