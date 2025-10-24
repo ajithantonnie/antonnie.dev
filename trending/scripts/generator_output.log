@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 42 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Plaid wins by-election as Labour loses 100-year grip on Caerphilly
+  Added: Sheffield Wednesday, one of England's oldest football clubs, placed in administration
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Two dead and dozens arrested amid Cameroon election crackdown
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rubio: Gaza security force must include nations Israel ‘comfortable with’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Four killed as man detonates explosive device at Ukraine train station
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Returning to Gaza City, a family finds bulldozed graves and little hope
+Added expanded search topic: Rubio: Gaza security force must include nations Israel ‘comfortable with’
+Added expanded search topic: Four killed as man detonates explosive device at Ukraine train station
+Added expanded search topic: Returning to Gaza City, a family finds bulldozed graves and little hope
+Saved 45 topics for 2025-10-24
+Returning 3 unique trending topics:
+  1. Rubio: Gaza security force must include nations Israel ‘comfortable with’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Four killed as man detonates explosive device at Ukraine train station (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Returning to Gaza City, a family finds bulldozed graves and little hope (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Rubio: Gaza security force must include nations Israel ‘comfortable with’
+Searching Google for: Rubio: Gaza security force must include nations Israel ‘comfortable with’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%253A%252BGaza%252Bsecurity%252Bforce%252Bmust%252Binclude%252Bnations%252BIsrael%252B%25E2%2580%2598comfortable%252Bwith%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mXGKqz7scGIjDVLqbwk1p7KJP1Kd55XBmWfCLyfwsomu5SPEnNfjATMJotKsqGjSDzPZN2KsdUugsyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: rubio-gaza-security-force-must-include-nations-isr_20251024_1522.html
+✓ Created comprehensive article: rubio-gaza-security-force-must-include-nations-isr_20251024_1522.html
+
+Processing trending topic: Four killed as man detonates explosive device at Ukraine train station
+Searching Google for: Four killed as man detonates explosive device at Ukraine train station
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFour%252Bkilled%252Bas%252Bman%252Bdetonates%252Bexplosive%252Bdevice%252Bat%252BUkraine%252Btrain%252Bstation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mXGLGz7scGIjCBTxC8kxp8MrH_Cg7OXEVuZ9b9z6pZftPP-lzIfY6_JBC88C_Gh9LFAmdlNjSkH6EyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: four-killed-as-man-detonates-explosive-device-at-u_20251024_1522.html
+✓ Created comprehensive article: four-killed-as-man-detonates-explosive-device-at-u_20251024_1522.html
+
+Processing trending topic: Returning to Gaza City, a family finds bulldozed graves and little hope
+Searching Google for: Returning to Gaza City, a family finds bulldozed graves and little hope
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReturning%252Bto%252BGaza%252BCity%252C%252Ba%252Bfamily%252Bfinds%252Bbulldozed%252Bgraves%252Band%252Blittle%252Bhope%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mXGLiz7scGIjCfDDrtebUTF9J0vdd3iFeLZRcLg46t_bIz24Ho8MhhtqQpcHy94Ey2MTj8f8jC2jkyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: returning-to-gaza-city-a-family-finds-bulldozed-gr_20251024_1522.html
+✓ Created comprehensive article: returning-to-gaza-city-a-family-finds-bulldozed-gr_20251024_1522.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Rubio: Gaza security force must include nations Israel ‘comfortable with’
+     Sources: bbc.com, cnn.com, reuters.com
+   • Four killed as man detonates explosive device at Ukraine train station
+     Sources: bbc.com, cnn.com, reuters.com
+   • Returning to Gaza City, a family finds bulldozed graves and little hope
+     Sources: bbc.com, cnn.com, reuters.com
