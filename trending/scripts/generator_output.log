@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 42 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: 'I am not done' - Kamala Harris tells BBC she may run for president again
+  Added: Lucy Powell elected Labour's deputy leader
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Turkey likely to be excluded from Gaza stabilisation force after Israeli objection
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zohran Mamdani condemns Islamophobic attacks in NYC mayoral race
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Early voting begins in NYC mayor’s race with Mamdani ahead in polls
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: El-Fasher: Siege, starvation and a media blackout
+Added expanded search topic: Zohran Mamdani condemns Islamophobic attacks in NYC mayoral race
+Added expanded search topic: Early voting begins in NYC mayor’s race with Mamdani ahead in polls
+Added expanded search topic: El-Fasher: Siege, starvation and a media blackout
+Saved 45 topics for 2025-10-25
+Returning 3 unique trending topics:
+  1. Zohran Mamdani condemns Islamophobic attacks in NYC mayoral race (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Early voting begins in NYC mayor’s race with Mamdani ahead in polls (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. El-Fasher: Siege, starvation and a media blackout (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Zohran Mamdani condemns Islamophobic attacks in NYC mayoral race
+Searching Google for: Zohran Mamdani condemns Islamophobic attacks in NYC mayoral race
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZohran%252BMamdani%252Bcondemns%252BIslamophobic%252Battacks%252Bin%252BNYC%252Bmayoral%252Brace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OBjGP_U88cGIjB15vG2C0Rrue549bReCLCiN03BIXxDmzg62SKut0sSMAMZFWL5ttJ00wJOnNRTpK0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: zohran-mamdani-condemns-islamophobic-attacks-in-ny_20251025_1519.html
+✓ Created comprehensive article: zohran-mamdani-condemns-islamophobic-attacks-in-ny_20251025_1519.html
+
+Processing trending topic: Early voting begins in NYC mayor’s race with Mamdani ahead in polls
+Searching Google for: Early voting begins in NYC mayor’s race with Mamdani ahead in polls
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEarly%252Bvoting%252Bbegins%252Bin%252BNYC%252Bmayor%25E2%2580%2599s%252Brace%252Bwith%252BMamdani%252Bahead%252Bin%252Bpolls%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OBjGIbV88cGIjAEwRABvtXJsRLp7U5jTCfKkuMVHKMUK2A75eCYmtXJPsPTc0fJcTFwz1qrtFut_mkyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: early-voting-begins-in-nyc-mayors-race-with-mamdan_20251025_1519.html
+✓ Created comprehensive article: early-voting-begins-in-nyc-mayors-race-with-mamdan_20251025_1519.html
+
+Processing trending topic: El-Fasher: Siege, starvation and a media blackout
+Searching Google for: El-Fasher: Siege, starvation and a media blackout
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEl-Fasher%253A%252BSiege%252C%252Bstarvation%252Band%252Ba%252Bmedia%252Bblackout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OBjGI3V88cGIjCx_jlyPsdSpa0Rucn8tJfKG6JzeGtz02lNB_3UTanQnkWhLN_Qzqtk55GQdVj8r-0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: el-fasher-siege-starvation-and-a-media-blackout_20251025_1519.html
+✓ Created comprehensive article: el-fasher-siege-starvation-and-a-media-blackout_20251025_1519.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Zohran Mamdani condemns Islamophobic attacks in NYC mayoral race
+     Sources: bbc.com, cnn.com, reuters.com
+   • Early voting begins in NYC mayor’s race with Mamdani ahead in polls
+     Sources: bbc.com, cnn.com, reuters.com
+   • El-Fasher: Siege, starvation and a media blackout
+     Sources: bbc.com, cnn.com, reuters.com
