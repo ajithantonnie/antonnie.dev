@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 3 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Epping migrant sex offender will be deported 'this week', says Justice Secretary Lammy
+  Added: Inside Syria's jail for IS suspects as officials say attacks by group are rising
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Turkey likely to be excluded from Gaza stabilisation force after Israeli objection
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US, China hail progress in trade talks as Trump and Xi set to weigh deal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: F1 Mexico City: Norris wins GP to take world championship lead from Piastri
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Milei’s party wins high-stakes Argentina elections, early results show
+Added expanded search topic: US, China hail progress in trade talks as Trump and Xi set to weigh deal
+Added expanded search topic: F1 Mexico City: Norris wins GP to take world championship lead from Piastri
+Added expanded search topic: Milei’s party wins high-stakes Argentina elections, early results show
+Saved 6 topics for 2025-10-27
+Returning 3 unique trending topics:
+  1. US, China hail progress in trade talks as Trump and Xi set to weigh deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. F1 Mexico City: Norris wins GP to take world championship lead from Piastri (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Milei’s party wins high-stakes Argentina elections, early results show (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US, China hail progress in trade talks as Trump and Xi set to weigh deal
+Searching Google for: US, China hail progress in trade talks as Trump and Xi set to weigh deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252C%252BChina%252Bhail%252Bprogress%252Bin%252Btrade%252Btalks%252Bas%252BTrump%252Band%252BXi%252Bset%252Bto%252Bweigh%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J_kGNTK-8cGIjBzN3mt3HG4xTmoFVX3uAdjuvkxyc7wGN_KUKuBK-AgkuwBGP_5k7_xPNitYqniQNEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-china-hail-progress-in-trade-talks-as-trump-and_20251027_0322.html
+✓ Created comprehensive article: us-china-hail-progress-in-trade-talks-as-trump-and_20251027_0322.html
+
+Processing trending topic: F1 Mexico City: Norris wins GP to take world championship lead from Piastri
+Searching Google for: F1 Mexico City: Norris wins GP to take world championship lead from Piastri
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DF1%252BMexico%252BCity%253A%252BNorris%252Bwins%252BGP%252Bto%252Btake%252Bworld%252Bchampionship%252Blead%252Bfrom%252BPiastri%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J_kGNzK-8cGIjDRshqi_ooawmfOtM8i5OxAX_HBpWLVbq723XTdrxcn6xAO_HlNjQaCElHCmF81fPEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: f1-mexico-city-norris-wins-gp-to-take-world-champi_20251027_0322.html
+✓ Created comprehensive article: f1-mexico-city-norris-wins-gp-to-take-world-champi_20251027_0322.html
+
+Processing trending topic: Milei’s party wins high-stakes Argentina elections, early results show
+Searching Google for: Milei’s party wins high-stakes Argentina elections, early results show
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMilei%25E2%2580%2599s%252Bparty%252Bwins%252Bhigh-stakes%252BArgentina%252Belections%252C%252Bearly%252Bresults%252Bshow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J_kGOLK-8cGIjAQ_YeiFl9XL5VrwYaBcZaqGWyXIQusr9Mw8AcPkiq4BnZKoIfdy9XpU3vl2NH_5lYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: mileis-party-wins-high-stakes-argentina-elections-_20251027_0322.html
+✓ Created comprehensive article: mileis-party-wins-high-stakes-argentina-elections-_20251027_0322.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US, China hail progress in trade talks as Trump and Xi set to weigh deal
+     Sources: bbc.com, cnn.com, reuters.com
+   • F1 Mexico City: Norris wins GP to take world championship lead from Piastri
+     Sources: bbc.com, cnn.com, reuters.com
+   • Milei’s party wins high-stakes Argentina elections, early results show
+     Sources: bbc.com, cnn.com, reuters.com
