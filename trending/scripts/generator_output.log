@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Migrant sex offender given £500 after threat to disrupt deportation
+  Added: Two suspects partially admit involvement in Louvre heist, prosecutor says
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Violent protests erupt as Tanzanian president nears election victory
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chipmaker Nvidia hits $5 trillion valuation
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Massacre in el-Fasher: What’s happening in Sudan right now?
+Added expanded search topic: Chipmaker Nvidia hits $5 trillion valuation
+Added expanded search topic: Massacre in el-Fasher: What’s happening in Sudan right now?
+Saved 48 topics for 2025-10-29
+Returning 3 unique trending topics:
+  1. Two suspects partially admit involvement in Louvre heist, prosecutor says (from BBC News)
+  2. Chipmaker Nvidia hits $5 trillion valuation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Massacre in el-Fasher: What’s happening in Sudan right now? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Two suspects partially admit involvement in Louvre heist, prosecutor says
+Searching Google for: Two suspects partially admit involvement in Louvre heist, prosecutor says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bsuspects%252Bpartially%252Badmit%252Binvolvement%252Bin%252BLouvre%252Bheist%252C%252Bprosecutor%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYjGPGaicgGIjB3Dig9V7AvEfQMhaQhI3qJpHkU27yYrsILxURtg9Z7AEXYRpyYKVN7-f3q5HuiLGwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: two-suspects-partially-admit-involvement-in-louvre_20251029_1723.html
+✓ Created comprehensive article: two-suspects-partially-admit-involvement-in-louvre_20251029_1723.html
+
+Processing trending topic: Chipmaker Nvidia hits $5 trillion valuation
+Searching Google for: Chipmaker Nvidia hits $5 trillion valuation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChipmaker%252BNvidia%252Bhits%252B%25245%252Btrillion%252Bvaluation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYjGPeaicgGIjClnvtlXw9q0zf6FSEKmTuUWXt9bjbFJ-YaD_Jye47tPgjUc66eyA2dPderHLBVLAYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: chipmaker-nvidia-hits-5-trillion-valuation_20251029_1723.html
+✓ Created comprehensive article: chipmaker-nvidia-hits-5-trillion-valuation_20251029_1723.html
+
+Processing trending topic: Massacre in el-Fasher: What’s happening in Sudan right now?
+Searching Google for: Massacre in el-Fasher: What’s happening in Sudan right now?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMassacre%252Bin%252Bel-Fasher%253A%252BWhat%25E2%2580%2599s%252Bhappening%252Bin%252BSudan%252Bright%252Bnow%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYjGP6aicgGIjDrLu6ZmdxVHX_m0bgjCytZGieOhydEvU2KTPgS0boyicVi7lrxXlCQciuqGVa0OCIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: massacre-in-el-fasher-whats-happening-in-sudan-rig_20251029_1723.html
+✓ Created comprehensive article: massacre-in-el-fasher-whats-happening-in-sudan-rig_20251029_1723.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Two suspects partially admit involvement in Louvre heist, prosecutor says
+     Sources: bbc.com, cnn.com, reuters.com
+   • Chipmaker Nvidia hits $5 trillion valuation
+     Sources: bbc.com, cnn.com, reuters.com
+   • Massacre in el-Fasher: What’s happening in Sudan right now?
+     Sources: bbc.com, cnn.com, reuters.com
