@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 9 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Andrew stripped of 'prince' title and will move out of Royal Lodge
+  Added: Is this finally rock bottom for Mr Andrew Mountbatten Windsor?
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Egypt’s vast $1bn museum to open in Cairo after two-decade build
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran condemns Trump’s call to resume US nuclear testing
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After yet more atrocities in Sudan, what will end the conflict?
+Added expanded search topic: Iran condemns Trump’s call to resume US nuclear testing
+Added expanded search topic: After yet more atrocities in Sudan, what will end the conflict?
+Saved 12 topics for 2025-10-31
+Returning 3 unique trending topics:
+  1. Egypt’s vast $1bn museum to open in Cairo after two-decade build (from The Guardian)
+  2. Iran condemns Trump’s call to resume US nuclear testing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. After yet more atrocities in Sudan, what will end the conflict? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Egypt’s vast $1bn museum to open in Cairo after two-decade build
+Searching Google for: Egypt’s vast $1bn museum to open in Cairo after two-decade build
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%25E2%2580%2599s%252Bvast%252B%25241bn%252Bmuseum%252Bto%252Bopen%252Bin%252BCairo%252Bafter%252Btwo-decade%252Bbuild%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PEGIiPkcgGIjAbjOsCwbMU0WvSBSBS1hY3piV3pTbfP1VxU2_GJvgEEAJr02qcfW7ipP7whkajhTEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: egypts-vast-1bn-museum-to-open-in-cairo-after-two-_20251031_0522.html
+✓ Created comprehensive article: egypts-vast-1bn-museum-to-open-in-cairo-after-two-_20251031_0522.html
+
+Processing trending topic: Iran condemns Trump’s call to resume US nuclear testing
+Searching Google for: Iran condemns Trump’s call to resume US nuclear testing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bcondemns%252BTrump%25E2%2580%2599s%252Bcall%252Bto%252Bresume%252BUS%252Bnuclear%252Btesting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PEGI-PkcgGIjDrn4nM7h3FJCs8aUlMzOWN2yskuAnY5dqhaQ4LhtoI30HFAO0jqmtOdNc8vep_cTAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: iran-condemns-trumps-call-to-resume-us-nuclear-tes_20251031_0522.html
+✓ Created comprehensive article: iran-condemns-trumps-call-to-resume-us-nuclear-tes_20251031_0522.html
+
+Processing trending topic: After yet more atrocities in Sudan, what will end the conflict?
+Searching Google for: After yet more atrocities in Sudan, what will end the conflict?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252Byet%252Bmore%252Batrocities%252Bin%252BSudan%252C%252Bwhat%252Bwill%252Bend%252Bthe%252Bconflict%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PEGJWPkcgGIjAJGzQXlfYgY7Oh26HRftdNcuxx3P8hMB3ssPMEmw20-zsza6y492p9C7kNn2Ef4ewyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: after-yet-more-atrocities-in-sudan-what-will-end-t_20251031_0522.html
+✓ Created comprehensive article: after-yet-more-atrocities-in-sudan-what-will-end-t_20251031_0522.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Egypt’s vast $1bn museum to open in Cairo after two-decade build
+     Sources: bbc.com, cnn.com, reuters.com
+   • Iran condemns Trump’s call to resume US nuclear testing
+     Sources: bbc.com, cnn.com, reuters.com
+   • After yet more atrocities in Sudan, what will end the conflict?
+     Sources: bbc.com, cnn.com, reuters.com
