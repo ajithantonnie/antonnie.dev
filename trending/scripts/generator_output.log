@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 27 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Is this finally rock bottom for Mr Andrew Mountbatten Windsor?
+  Added: Why did Andrew lose his titles and where will he live?
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Sudan’s brutal civil war – what has happened in El Fasher?
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After the Floods: Saving Spain’s Turtles
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fact check: Do ICE officers really have ‘federal immunity’ in the US?
+Added expanded search topic: After the Floods: Saving Spain’s Turtles
+Added expanded search topic: Fact check: Do ICE officers really have ‘federal immunity’ in the US?
+Saved 30 topics for 2025-10-31
+Returning 3 unique trending topics:
+  1. Sudan’s brutal civil war – what has happened in El Fasher? (from The Guardian)
+  2. After the Floods: Saving Spain’s Turtles (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Fact check: Do ICE officers really have ‘federal immunity’ in the US? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Sudan’s brutal civil war – what has happened in El Fasher?
+Searching Google for: Sudan’s brutal civil war – what has happened in El Fasher?
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=Sudan%E2%80%99s%2Bbrutal%2Bcivil%2Bwar%2B%E2%80%93%2Bwhat%2Bhas%2Bhappened%2Bin%2BEl%2BFasher%3F&num=5&hl=en&start=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f516ce52910>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: sudans-brutal-civil-war-what-has-happened-in-el-fa_20251031_1120.html
+✓ Created comprehensive article: sudans-brutal-civil-war-what-has-happened-in-el-fa_20251031_1120.html
+
+Processing trending topic: After the Floods: Saving Spain’s Turtles
+Searching Google for: After the Floods: Saving Spain’s Turtles
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252Bthe%252BFloods%253A%252BSaving%252BSpain%25E2%2580%2599s%252BTurtles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNyGKO3ksgGIjB2_4grBl8Ay2Ls1uWOsUfC71i4gZUUFSisUkUL2vMBxZ8ONNvkTlx3ArXmAFqbIz4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: after-the-floods-saving-spains-turtles_20251031_1121.html
+✓ Created comprehensive article: after-the-floods-saving-spains-turtles_20251031_1121.html
+
+Processing trending topic: Fact check: Do ICE officers really have ‘federal immunity’ in the US?
+Searching Google for: Fact check: Do ICE officers really have ‘federal immunity’ in the US?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFact%252Bcheck%253A%252BDo%252BICE%252Bofficers%252Breally%252Bhave%252B%25E2%2580%2598federal%252Bimmunity%25E2%2580%2599%252Bin%252Bthe%252BUS%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNyGKm3ksgGIjAWiv2ZLVtzZ0ciLS34ZW6kNP-ieY3V52Rej03DXYZ6LuUlSaMOluu18JY3CdkI_BAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: fact-check-do-ice-officers-really-have-federal-imm_20251031_1121.html
+✓ Created comprehensive article: fact-check-do-ice-officers-really-have-federal-imm_20251031_1121.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Sudan’s brutal civil war – what has happened in El Fasher?
+     Sources: bbc.com, cnn.com, reuters.com
+   • After the Floods: Saving Spain’s Turtles
+     Sources: bbc.com, cnn.com, reuters.com
+   • Fact check: Do ICE officers really have ‘federal immunity’ in the US?
+     Sources: bbc.com, cnn.com, reuters.com
