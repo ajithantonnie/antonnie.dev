@@ -581,11 +581,11 @@
             PM the previous day
           </li>
           <li>
-            <strong>Warnings:</strong> 3 "Yes" but didn't attend in a month =
+            <strong>Warnings:</strong> 5 "Yes" but didn't attend in a month =
             Removal
           </li>
           <li>
-            <strong>Inactivity:</strong> 5 consecutive "No" without valid reason
+            <strong>Inactivity:</strong> 10 "No" without valid reason in a month
             = Removal
           </li>
           <li>
@@ -594,7 +594,9 @@
           </li>
           <li>
             <strong>Host Updates:</strong> Host can update actual attendance
-            before 10 AM
+            before 10 AM. If a player forgets to mark "No" with reason and host
+            updates to "Yes" the next day, a warning is given. Removal after 5
+            such warnings.
           </li>
         </ul>
       </div>
@@ -674,7 +676,7 @@
               </p>
               <p>
                 <strong>Time Restriction:</strong> Updates must be made before
-                10:00 AM on the day of the session.
+                11:59 PM IST on the day of the session.
               </p>
             </div>
             <div id="host-form-message"></div>
@@ -713,7 +715,11 @@
                   <option value="No">No, did not attend</option>
                 </select>
               </div>
-              <button type="submit" class="btn-secondary">
+              <button
+                type="submit"
+                onclick="testConnection()"
+                class="btn-secondary"
+              >
                 Update Attendance
               </button>
             </form>
@@ -1669,46 +1675,78 @@
         const hour = now.getHours();
         const minute = now.getMinutes();
 
-        // Show cutoff warning if after 10:30 PM
-        if (hour >= 22 && minute >= 30) {
+        // Block window: 10:30pm to 9am next day
+        let isClosed = false;
+        if (hour > 22 || (hour === 22 && minute >= 30) || hour < 9) {
+          isClosed = true;
+        }
+        if (isClosed) {
           document.getElementById("cutoff-warning").style.display = "block";
           document.getElementById("playerAttendanceForm").style.opacity = "0.6";
           document.querySelector(
             "#playerAttendanceForm button"
           ).disabled = true;
+        } else {
+          document.getElementById("cutoff-warning").style.display = "none";
+          document.getElementById("playerAttendanceForm").style.opacity = "1";
+          document.querySelector(
+            "#playerAttendanceForm button"
+          ).disabled = false;
         }
+        return isClosed;
       }
 
       async function submitPlayerForm() {
-        const playerName = document.getElementById("playerName").value;
+        // Block submission if window is closed
+        if (checkCutoffTime()) {
+          showMessage(
+            "player-form-message",
+            "Attendance window is closed (10:30pm to 9am). Please try again after 9am.",
+            "error"
+          );
+          return;
+        }
+        const playerSelect = document.getElementById("playerName");
+        const playerValue = playerSelect.value;
+        let playerName = "";
+        let playerEmail = "";
+        if (playerValue && playerValue.includes("|")) {
+          const parts = playerValue.split("|");
+          playerName = parts[0].trim();
+          playerEmail = parts[1] ? parts[1].trim().toLowerCase() : "";
+        } else {
+          playerName = playerValue;
+        }
         const availability = document.getElementById("availability").value;
         const reason = document.getElementById("reason").value;
 
         // Show loading message
         showMessage("player-form-message", "Submitting...", "info");
 
-        // Submit to Google Apps Script
-        const result = await submitToGoogleSheets("submitPlayer", {
-          playerName: playerName,
-          availability: availability,
-          reason: reason,
-        });
+        try {
+          const result = await submitToGoogleSheets("submitPlayer", {
+            playerName: playerName,
+            playerEmail: playerEmail,
+            availability: availability,
+            reason: reason,
+          });
 
-        if (result.success) {
-          // Show success message
-          showMessage("player-form-message", result.message, "success");
-
-          // Reload data from sheets
-          await loadDataFromSheets();
-        } else {
-          showMessage("player-form-message", result.message, "error");
+          if (result.success) {
+            showMessage("player-form-message", result.message, "success");
+            await loadDataFromSheets();
+          } else {
+            showMessage("player-form-message", result.message, "error");
+          }
+        } catch (error) {
+          showMessage(
+            "player-form-message",
+            "Error submitting attendance: " + error,
+            "error"
+          );
         }
 
-        // Reset form
         document.getElementById("playerAttendanceForm").reset();
         document.getElementById("reasonGroup").style.display = "none";
-
-        // Update UI
         updatePlayerStatus();
         updateAttendanceTable();
       }
@@ -1731,38 +1769,45 @@
         // Show loading message
         showMessage("host-form-message", "Updating attendance...", "info");
 
+        let result = null;
         try {
-          // Hash the password before sending
-          const hashedPassword = await hashPassword(hostPassword);
-
-          // Submit to Google Apps Script with hashed password
-          const result = await submitToGoogleSheets("submitHost", {
-            hostName: hostName,
-            passwordHash: hashedPassword,
-            playerName: playerName,
+          // Parse hostName and playerName to get name and email
+          let hostNameVal = hostName;
+          let hostEmailVal = "";
+          if (hostName && hostName.includes("|")) {
+            const parts = hostName.split("|");
+            hostNameVal = parts[0].trim();
+            hostEmailVal = parts[1] ? parts[1].trim().toLowerCase() : "";
+          }
+          let playerNameVal = playerName;
+          let playerEmailVal = "";
+          if (playerName && playerName.includes("|")) {
+            const parts = playerName.split("|");
+            playerNameVal = parts[0].trim();
+            playerEmailVal = parts[1] ? parts[1].trim().toLowerCase() : "";
+          }
+          const hostPasswordHash = await hashPassword(hostPassword);
+          result = await submitToGoogleSheets("submitHost", {
+            hostName: hostNameVal,
+            hostEmail: hostEmailVal,
+            hostPasswordHash: hostPasswordHash,
+            playerName: playerNameVal,
+            playerEmail: playerEmailVal,
             attended: attended,
           });
         } catch (error) {
-          console.error("Host form submission error:", error);
-          showMessage(
-            "host-form-message",
-            "Failed to update attendance. Please try again.",
-            "error"
-          );
+          showMessage("host-form-message", "Error: " + error, "error");
           return;
         }
 
-        if (result.success) {
-          // Show success message
+        if (result && result.success) {
           showMessage("host-form-message", result.message, "success");
-
-          // Reset form
           document.getElementById("hostAttendanceForm").reset();
-
-          // Reload data from sheets
           await loadDataFromSheets();
-        } else {
+        } else if (result && result.message) {
           showMessage("host-form-message", result.message, "error");
+        } else {
+          showMessage("host-form-message", "Unknown error occurred.", "error");
         }
       }
 
