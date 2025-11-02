@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 30 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: 'Run, there's a guy stabbing everyone' - eyewitnesses describe attack
+  Added: What we know about stabbings on Doncaster to London train
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Week in pictures: From Israeli strikes in Gaza to floods in Vietnam
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukrainian children among victims of deadly Russian missile attacks
+Added expanded search topic: Week in pictures: From Israeli strikes in Gaza to floods in Vietnam
+Added expanded search topic: Ukrainian children among victims of deadly Russian missile attacks
+Saved 33 topics for 2025-11-02
+Returning 3 unique trending topics:
+  1. He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr... (from The Guardian)
+  2. Week in pictures: From Israeli strikes in Gaza to floods in Vietnam (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ukrainian children among victims of deadly Russian missile attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+Searching Google for: He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHe%252Btold%252Bthe%252Bworld%252Bwhat%252Bwas%252Bhappening%252Bin%252BEl%252BFasher.%252BThen%252Bthey%252Bsought%252Bhim%252Bout.%252BHow%252BSudan%252Blost%252B%25E2%2580%2598a%252Btr...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i30GOefncgGIjCzo75rrKNdsRCg5XAw7G06zddCIsLKaYb8TjBfl04oE1B8Kox5XrPcQ5wiOumKG84yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: he-told-the-world-what-was-happening-in-el-fasher-_20251102_1234.html
+✓ Created comprehensive article: he-told-the-world-what-was-happening-in-el-fasher-_20251102_1234.html
+
+Processing trending topic: Week in pictures: From Israeli strikes in Gaza to floods in Vietnam
+Searching Google for: Week in pictures: From Israeli strikes in Gaza to floods in Vietnam
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeek%252Bin%252Bpictures%253A%252BFrom%252BIsraeli%252Bstrikes%252Bin%252BGaza%252Bto%252Bfloods%252Bin%252BVietnam%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i30GO6fncgGIjDap3zkEYqB9d8_-eYwkz6IEosh14f28mDlnZtmzI4Z8FaCwpD-KBFUBTnL572BMX4yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: week-in-pictures-from-israeli-strikes-in-gaza-to-f_20251102_1234.html
+✓ Created comprehensive article: week-in-pictures-from-israeli-strikes-in-gaza-to-f_20251102_1234.html
+
+Processing trending topic: Ukrainian children among victims of deadly Russian missile attacks
+Searching Google for: Ukrainian children among victims of deadly Russian missile attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkrainian%252Bchildren%252Bamong%252Bvictims%252Bof%252Bdeadly%252BRussian%252Bmissile%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i30GPSfncgGIjB_uHux7G7_k1mJRGd3EaSA21I2ETffN_cX5jIg3YX3kE3dvi6H60hC6V-gUeIvsUIyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ukrainian-children-among-victims-of-deadly-russian_20251102_1235.html
+✓ Created comprehensive article: ukrainian-children-among-victims-of-deadly-russian_20251102_1235.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+     Sources: bbc.com, cnn.com, reuters.com
+   • Week in pictures: From Israeli strikes in Gaza to floods in Vietnam
+     Sources: bbc.com, cnn.com, reuters.com
+   • Ukrainian children among victims of deadly Russian missile attacks
+     Sources: bbc.com, cnn.com, reuters.com
