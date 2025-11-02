@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 39 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: What we know about stabbings on Doncaster to London train
+  Added: Train stabbing witnesses describe bloodied seats and people arming themselves with bottle
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How labour unions in Europe can help end Israel’s genocide in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hamas rejects US accusation it looted aid trucks in Gaza
+Added expanded search topic: How labour unions in Europe can help end Israel’s genocide in Gaza
+Added expanded search topic: Hamas rejects US accusation it looted aid trucks in Gaza
+Saved 42 topics for 2025-11-02
+Returning 3 unique trending topics:
+  1. Train stabbing witnesses describe bloodied seats and people arming themselves with bottle (from BBC News)
+  2. How labour unions in Europe can help end Israel’s genocide in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Hamas rejects US accusation it looted aid trucks in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Train stabbing witnesses describe bloodied seats and people arming themselves with bottle
+Searching Google for: Train stabbing witnesses describe bloodied seats and people arming themselves with bottle
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrain%252Bstabbing%252Bwitnesses%252Bdescribe%252Bbloodied%252Bseats%252Band%252Bpeople%252Barming%252Bthemselves%252Bwith%252Bbottle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt3kGNPvncgGIjAe1i6Zq2GomqGTpHUsJbQhv56yxgXgiQoGLxbCTQ8jZb6juZYrw1SgxMajSE45KhUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: train-stabbing-witnesses-describe-bloodied-seats-a_20251102_1525.html
+✓ Created comprehensive article: train-stabbing-witnesses-describe-bloodied-seats-a_20251102_1525.html
+
+Processing trending topic: How labour unions in Europe can help end Israel’s genocide in Gaza
+Searching Google for: How labour unions in Europe can help end Israel’s genocide in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Blabour%252Bunions%252Bin%252BEurope%252Bcan%252Bhelp%252Bend%252BIsrael%25E2%2580%2599s%252Bgenocide%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt3kGNrvncgGIjDAZmlyHXm0L2WK0aaTnHi5q2AQCSXZaGIhi61WxBNtEGOYeBB_8ZVB1SRKD-uGGcwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: how-labour-unions-in-europe-can-help-end-israels-g_20251102_1525.html
+✓ Created comprehensive article: how-labour-unions-in-europe-can-help-end-israels-g_20251102_1525.html
+
+Processing trending topic: Hamas rejects US accusation it looted aid trucks in Gaza
+Searching Google for: Hamas rejects US accusation it looted aid trucks in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamas%252Brejects%252BUS%252Baccusation%252Bit%252Blooted%252Baid%252Btrucks%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt3kGODvncgGIjCnVFeWkBrValqMBC4OVfY7SQmzGuf_RgutsOMhGjBjd-Bsjl9YCVPO6vkVMNnhpOUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: hamas-rejects-us-accusation-it-looted-aid-trucks-i_20251102_1525.html
+✓ Created comprehensive article: hamas-rejects-us-accusation-it-looted-aid-trucks-i_20251102_1525.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Train stabbing witnesses describe bloodied seats and people arming themselves with bottle
+     Sources: bbc.com, cnn.com, reuters.com
+   • How labour unions in Europe can help end Israel’s genocide in Gaza
+     Sources: bbc.com, cnn.com, reuters.com
+   • Hamas rejects US accusation it looted aid trucks in Gaza
+     Sources: bbc.com, cnn.com, reuters.com
