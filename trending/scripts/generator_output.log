@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 15 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Fleeing man shouted 'someone's got a knife', eyewitness tells BBC
+  Added: What we know about stabbings on Doncaster to London train
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: How al-Qaida-linked jihadist group JNIM is bringing Mali to its knees
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: India vs Australia – ICC Women’s World Cup final 2025
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Live: Hamas continues search for captives’ remains as Israel blocks aid
+Added expanded search topic: LIVE: India vs Australia – ICC Women’s World Cup final 2025
+Added expanded search topic: Live: Hamas continues search for captives’ remains as Israel blocks aid
+Saved 18 topics for 2025-11-02
+Returning 3 unique trending topics:
+  1. What we know about stabbings on Doncaster to London train (from BBC News)
+  2. LIVE: India vs Australia – ICC Women’s World Cup final 2025 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Live: Hamas continues search for captives’ remains as Israel blocks aid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: What we know about stabbings on Doncaster to London train
+Searching Google for: What we know about stabbings on Doncaster to London train
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252Bstabbings%252Bon%252BDoncaster%252Bto%252BLondon%252Btrain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodF0xGPiNnMgGIjB_-ArXOpm4J5rFlFWbMPWex8jykTTkDKgOPkCL4qCKalLQSHE2kIzFQnEl5WLRLhMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: what-we-know-about-stabbings-on-doncaster-to-londo_20251102_0723.html
+✓ Created comprehensive article: what-we-know-about-stabbings-on-doncaster-to-londo_20251102_0723.html
+
+Processing trending topic: LIVE: India vs Australia – ICC Women’s World Cup final 2025
+Searching Google for: LIVE: India vs Australia – ICC Women’s World Cup final 2025
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BIndia%252Bvs%252BAustralia%252B%25E2%2580%2593%252BICC%252BWomen%25E2%2580%2599s%252BWorld%252BCup%252Bfinal%252B2025%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodF0xGP-NnMgGIjCxG_uDEIl-vtx3VC3qMAZY2WB7wnnQXyCChhgDa7eCjc6Qhu8xvlMGAI9ozqVR1DEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: live-india-vs-australia-icc-womens-world-cup-final_20251102_0723.html
+✓ Created comprehensive article: live-india-vs-australia-icc-womens-world-cup-final_20251102_0723.html
+
+Processing trending topic: Live: Hamas continues search for captives’ remains as Israel blocks aid
+Searching Google for: Live: Hamas continues search for captives’ remains as Israel blocks aid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLive%253A%252BHamas%252Bcontinues%252Bsearch%252Bfor%252Bcaptives%25E2%2580%2599%252Bremains%252Bas%252BIsrael%252Bblocks%252Baid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodF0xGIWOnMgGIjCxICftLcjGdkhDMEwfQcE34BmIhpworPYGBjbEpAMO_lBeoY69kEYvCo0pGlfnvckyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: live-hamas-continues-search-for-captives-remains-a_20251102_0723.html
+✓ Created comprehensive article: live-hamas-continues-search-for-captives-remains-a_20251102_0723.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • What we know about stabbings on Doncaster to London train
+     Sources: bbc.com, cnn.com, reuters.com
+   • LIVE: India vs Australia – ICC Women’s World Cup final 2025
+     Sources: bbc.com, cnn.com, reuters.com
+   • Live: Hamas continues search for captives’ remains as Israel blocks aid
+     Sources: bbc.com, cnn.com, reuters.com
