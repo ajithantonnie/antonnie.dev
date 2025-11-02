@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 60 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: What we know about stabbings on Doncaster to London train
+  Added: 'No help, no food, no water': Hurricane-hit Jamaican towns desperately wait for aid
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Colombia’s ELN rebels face US drug threats amid push for peace talks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians face hunger, cold and loss amid ongoing Israeli siege on Gaza
+  Found from World News - Breaking international news and headlines | Sky News: Israel says remains of three more hostages handed over
+Added expanded search topic: Colombia’s ELN rebels face US drug threats amid push for peace talks
+Added expanded search topic: Palestinians face hunger, cold and loss amid ongoing Israeli siege on Gaza
+Added expanded search topic: Israel says remains of three more hostages handed over
+Saved 63 topics for 2025-11-02
+Returning 3 unique trending topics:
+  1. Colombia’s ELN rebels face US drug threats amid push for peace talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Palestinians face hunger, cold and loss amid ongoing Israeli siege on Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel says remains of three more hostages handed over (from World News - Breaking international news and headlines | Sky News)
+
+Processing trending topic: Colombia’s ELN rebels face US drug threats amid push for peace talks
+Searching Google for: Colombia’s ELN rebels face US drug threats amid push for peace talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DColombia%25E2%2580%2599s%252BELN%252Brebels%252Bface%252BUS%252Bdrug%252Bthreats%252Bamid%252Bpush%252Bfor%252Bpeace%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J4zGNqxn8gGIjBBvVO7NHmH6AgIGOfNLqQ5keQiv8AgusXCLOnLFAiRrd1E-u90M_Njc6NFuorPJ_gyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: colombias-eln-rebels-face-us-drug-threats-amid-pus_20251102_2219.html
+✓ Created comprehensive article: colombias-eln-rebels-face-us-drug-threats-amid-pus_20251102_2219.html
+
+Processing trending topic: Palestinians face hunger, cold and loss amid ongoing Israeli siege on Gaza
+Searching Google for: Palestinians face hunger, cold and loss amid ongoing Israeli siege on Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Bface%252Bhunger%252C%252Bcold%252Band%252Bloss%252Bamid%252Bongoing%252BIsraeli%252Bsiege%252Bon%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J4zGOGxn8gGIjAJVpmiNXs05TPXtyRzugOIWxXkIzRXY4MN76Bq_npF8gyg54NkxRG3nbg36QpCyrcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: palestinians-face-hunger-cold-and-loss-amid-ongoin_20251102_2219.html
+✓ Created comprehensive article: palestinians-face-hunger-cold-and-loss-amid-ongoin_20251102_2219.html
+
+Processing trending topic: Israel says remains of three more hostages handed over
+Searching Google for: Israel says remains of three more hostages handed over
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bsays%252Bremains%252Bof%252Bthree%252Bmore%252Bhostages%252Bhanded%252Bover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J4zGOexn8gGIjACcSNPQn6cuBFB8BAMOv0ZYbi0TSFSqO1COdswwSkzbyklOB5Zw6Vg2LVG_9pxyJoyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: israel-says-remains-of-three-more-hostages-handed-_20251102_2219.html
+✓ Created comprehensive article: israel-says-remains-of-three-more-hostages-handed-_20251102_2219.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Colombia’s ELN rebels face US drug threats amid push for peace talks
+     Sources: bbc.com, cnn.com, reuters.com
+   • Palestinians face hunger, cold and loss amid ongoing Israeli siege on Gaza
+     Sources: bbc.com, cnn.com, reuters.com
+   • Israel says remains of three more hostages handed over
+     Sources: bbc.com, cnn.com, reuters.com
