@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 24 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: What do we know about the man charged over Cambridgeshire train stabbing?
+  Added: I'm the luckiest man alive, but also suffering, says Air India crash sole survivor
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: He told the world what was happening in El Fasher. Then they sought him out. How Sudan lost ‘a tr...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cuba: Health Under Sanction
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran ‘not in hurry’ to resume nuclear talks with US
+Added expanded search topic: Cuba: Health Under Sanction
+Added expanded search topic: Iran ‘not in hurry’ to resume nuclear talks with US
+Saved 27 topics for 2025-11-03
+Returning 3 unique trending topics:
+  1. What do we know about the man charged over Cambridgeshire train stabbing? (from BBC News)
+  2. Cuba: Health Under Sanction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran ‘not in hurry’ to resume nuclear talks with US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: What do we know about the man charged over Cambridgeshire train stabbing?
+Searching Google for: What do we know about the man charged over Cambridgeshire train stabbing?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bdo%252Bwe%252Bknow%252Babout%252Bthe%252Bman%252Bcharged%252Bover%252BCambridgeshire%252Btrain%252Bstabbing%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSTnGOSFosgGIjCadk2yJR6VIgpMmjpXCEVeNYaVzInpzq9vjiZIAw5VnZudw5ImyqMpa-zHTyhBG3syBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: what-do-we-know-about-the-man-charged-over-cambrid_20251103_1024.html
+✓ Created comprehensive article: what-do-we-know-about-the-man-charged-over-cambrid_20251103_1024.html
+
+Processing trending topic: Cuba: Health Under Sanction
+Searching Google for: Cuba: Health Under Sanction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuba%253A%252BHealth%252BUnder%252BSanction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSTnGOuFosgGIjDOPGxn73fUcqzLmWvX3I1bFNdk2pLbvqy9v3NqAHuBKQ5jTYlQJqEClemnu_RZd6oyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: cuba-health-under-sanction_20251103_1024.html
+✓ Created comprehensive article: cuba-health-under-sanction_20251103_1024.html
+
+Processing trending topic: Iran ‘not in hurry’ to resume nuclear talks with US
+Searching Google for: Iran ‘not in hurry’ to resume nuclear talks with US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252B%25E2%2580%2598not%252Bin%252Bhurry%25E2%2580%2599%252Bto%252Bresume%252Bnuclear%252Btalks%252Bwith%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSTnGPGFosgGIjDqSu7oPV7Mj07KTOcZQ4h-P6sZOPRAtTH5BcpwJidVhVk8O4O2UaSVSXfDegy4-G4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: iran-not-in-hurry-to-resume-nuclear-talks-with-us_20251103_1024.html
+✓ Created comprehensive article: iran-not-in-hurry-to-resume-nuclear-talks-with-us_20251103_1024.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • What do we know about the man charged over Cambridgeshire train stabbing?
+     Sources: bbc.com, cnn.com, reuters.com
+   • Cuba: Health Under Sanction
+     Sources: bbc.com, cnn.com, reuters.com
+   • Iran ‘not in hurry’ to resume nuclear talks with US
+     Sources: bbc.com, cnn.com, reuters.com
