@@ -326,8 +326,16 @@
         text-decoration: line-through;
       }
 
+      .attendance-table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 15px 0;
+      }
+
       .attendance-table {
         width: 100%;
+        min-width: 600px;
         border-collapse: collapse;
       }
 
@@ -336,11 +344,15 @@
         padding: 12px 15px;
         text-align: left;
         border-bottom: 1px solid #ddd;
+        white-space: nowrap;
       }
 
       .attendance-table th {
         background-color: #f5f5f5;
         font-weight: 600;
+        position: sticky;
+        top: 0;
+        z-index: 10;
       }
 
       .attendance-table tr:hover {
@@ -1095,7 +1107,7 @@
               <label for="filterDate">Filter by Date</label>
               <input type="date" id="filterDate" />
             </div>
-            <div id="attendance-table-container">
+            <div class="attendance-table-wrapper">
               <table class="attendance-table">
                 <thead>
                   <tr>
