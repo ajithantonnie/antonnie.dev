@@ -8,7 +8,7 @@
 
 ### Step 1: Prepare Google Sheets
 1. Create a new Google Sheet or open your existing sheet
-2. Copy the Sheet ID from the URL (the part after `/d/` and before `/edit`)
+2. Copy the Sheet ID from the URL (the part after `/d/` and before `/edit`)sendAttendanceReminder
    - Example: `https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE/edit`
 3. The system will automatically create three required sheets:
    - **Attendance** (with columns: Date, Name, Email, Availability, Reason, Attended, Warning Count, Missed Days, AutoRemove)
@@ -36,7 +36,7 @@
    - Click "Run"
    - This sets up automatic daily tasks and scheduled triggers:
      - **dailySetup**: Creates daily attendance entries at 8:00 AM IST
-     - **sendAttendanceReminder**: Reminds players who haven't updated at 9:00 PM IST
+     - **sendAttendanceReminder**: Reminds players who haven't updated at 8:00 PM IST
      - **markMissingPlayersAsNo**: Auto-marks missing players as "No" at 10:30 PM IST
      - **sendAvailabilitySummaryEmail**: Sends final player list at 10:30 PM IST
      - **autoSetAttendedToAvailability**: Sets attendance based on availability at 12:01 AM IST
@@ -392,7 +392,7 @@ Edit these sections in `Code.gs`:
 
 ### Changing Email Content
 Edit these functions in `Code.gs`:
-- `sendAttendanceReminder()` - 9 PM reminder email
+- `sendAttendanceReminder()` - 8 PM reminder email
 - `sendAvailabilitySummaryEmail()` - 10:30 PM summary email
 - `sendCelebrationIfFourAvailable()` - 4-player celebration email
 

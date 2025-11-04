@@ -2,6 +2,8 @@
 // This ensures all time-based triggers run according to IST
 const TIMEZONE = 'Asia/Kolkata';
 
+const TOEMAIL = "ajithantonnie17@gmail.com";
+
 // Send daily attendance reminder ONLY to players who haven't updated for tomorrow
 function sendAttendanceReminder() {
   var players = getPlayersList();
@@ -167,7 +169,7 @@ function checkWarningsAndInactivity() {
         sheet.getRange(i + 1, autoRemoveIdx + 1).setValue("Remove");
         Logger.log(`Player ${name} marked for removal due to 5 warnings`);
         MailApp.sendEmail({
-          to: "ajithantonnie17@gmail.com",
+          to: TOEMAIL,
           subject: `Badminton Club: Player Removal Alert`,
           body: `Player ${name} has received 5 warnings (marked 'Yes' but did not attend) and should be removed.`
         });
@@ -206,7 +208,7 @@ function checkWarningsAndInactivity() {
         sheet.getRange(todayRecord.rowIndex, autoRemoveIdx + 1).setValue("Remove");
         Logger.log(`Player ${name} marked for removal due to more than 15 missed days in a month`);
         MailApp.sendEmail({
-          to: "ajithantonnie17@gmail.com",
+          to: TOEMAIL,
           subject: `Badminton Club: Player Removal Alert`,
           body: `Player ${name} has more than 15 missed days in this month and should be removed.`
         });
@@ -237,7 +239,7 @@ function checkWarningsAndInactivity() {
         sheet.getRange(latestRecord.rowIndex, autoRemoveIdx + 1).setValue("Remove");
         Logger.log(`Player ${name} marked for removal due to 10 'No' without valid reason in a month`);
         MailApp.sendEmail({
-          to: "ajithantonnie17@gmail.com",
+          to: TOEMAIL,
           subject: `Badminton Club: Player Removal Alert`,
           body: `Player ${name} has marked 'No' 10 times without valid reason in this month and should be removed.`
         });
@@ -1148,10 +1150,10 @@ function setupTriggers() {
     .inTimezone(TIMEZONE)
     .create();
 
-  // sendAttendanceReminder at 9pm IST
+  // sendAttendanceReminder at 8pm IST
   ScriptApp.newTrigger('sendAttendanceReminder')
     .timeBased()
-    .atHour(21)
+    .atHour(20)
     .everyDays(1)
     .inTimezone(TIMEZONE)
     .create();
