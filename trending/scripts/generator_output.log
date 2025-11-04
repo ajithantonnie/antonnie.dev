@@ -1,0 +1,66 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Train hero who saved passengers during attack named
+  Added: Train-attack accused linked to other knife incidents
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Teenager taken to Ghana away from UK ‘gang culture’ to stay for now, court rules
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Police clash with pro-Palestinian protesters at Sydney defence expo
+Added expanded search topic: Police clash with pro-Palestinian protesters at Sydney defence expo
+Saved 48 topics for 2025-11-04
+Returning 3 unique trending topics:
+  1. Train-attack accused linked to other knife incidents (from BBC News)
+  2. Teenager taken to Ghana away from UK ‘gang culture’ to stay for now, court rules (from The Guardian)
+  3. Police clash with pro-Palestinian protesters at Sydney defence expo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Train-attack accused linked to other knife incidents
+Searching Google for: Train-attack accused linked to other knife incidents
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrain-attack%252Baccused%252Blinked%252Bto%252Bother%252Bknife%252Bincidents%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ilGKbqqMgGIjCUt_7G3TQ2Q7ngyu-3O-FGH2UoaBkhDAFq8pUGkdGP7yhwq8hGClJF4leIXcDhgVgyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: train-attack-accused-linked-to-other-knife-inciden_20251104_1717.html
+✓ Created comprehensive article: train-attack-accused-linked-to-other-knife-inciden_20251104_1717.html
+
+Processing trending topic: Teenager taken to Ghana away from UK ‘gang culture’ to stay for now, court rules
+Searching Google for: Teenager taken to Ghana away from UK ‘gang culture’ to stay for now, court rules
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTeenager%252Btaken%252Bto%252BGhana%252Baway%252Bfrom%252BUK%252B%25E2%2580%2598gang%252Bculture%25E2%2580%2599%252Bto%252Bstay%252Bfor%252Bnow%252C%252Bcourt%252Brules%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ilGK7qqMgGIjAADAmZYL3_sjd1n-orWQJAjeL6HAEaMNe8M3yioUu9qE_pihIl_YlR4XtyNRcXIfEyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: teenager-taken-to-ghana-away-from-uk-gang-culture-_20251104_1717.html
+✓ Created comprehensive article: teenager-taken-to-ghana-away-from-uk-gang-culture-_20251104_1717.html
+
+Processing trending topic: Police clash with pro-Palestinian protesters at Sydney defence expo
+Searching Google for: Police clash with pro-Palestinian protesters at Sydney defence expo
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bclash%252Bwith%252Bpro-Palestinian%252Bprotesters%252Bat%252BSydney%252Bdefence%252Bexpo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ilGLTqqMgGIjCdlUrZEk163jFOzURrqNN9UZVAM7qmfEpFbvHU4saHxujBLpRE2vfpTilnDkoK1fMyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: police-clash-with-pro-palestinian-protesters-at-sy_20251104_1717.html
+✓ Created comprehensive article: police-clash-with-pro-palestinian-protesters-at-sy_20251104_1717.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Train-attack accused linked to other knife incidents
+     Sources: bbc.com, cnn.com, reuters.com
+   • Teenager taken to Ghana away from UK ‘gang culture’ to stay for now, court rules
+     Sources: bbc.com, cnn.com, reuters.com
+   • Police clash with pro-Palestinian protesters at Sydney defence expo
+     Sources: bbc.com, cnn.com, reuters.com
