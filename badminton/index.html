@@ -172,6 +172,12 @@
         text-align: center;
         transition: transform 0.2s;
         border-left: 4px solid var(--primary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100px;
+        height: 100%;
       }
 
       .host-card:hover {
@@ -182,6 +188,9 @@
         font-weight: 600;
         margin-bottom: 5px;
         color: var(--primary);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 100%;
       }
 
       .host-role {
@@ -191,6 +200,7 @@
         padding: 4px 8px;
         border-radius: 12px;
         display: inline-block;
+        white-space: nowrap;
       }
 
       .management-section {
@@ -278,6 +288,32 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 15px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        grid-auto-rows: 1fr;
+      }
+
+      /* Scrollable wrapper for player lists on mobile */
+      .card-body {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* Scroll hint for mobile */
+      .scrollable-hint {
+        display: none;
+        text-align: center;
+        color: #666;
+        font-size: 0.85rem;
+        padding: 5px 0;
+        margin-top: 5px;
+        font-style: italic;
+      }
+
+      @media (max-width: 768px) {
+        .scrollable-hint {
+          display: block;
+        }
       }
 
       .player-card {
@@ -287,6 +323,12 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
         transition: transform 0.2s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 120px;
+        height: 100%;
       }
 
       .player-card:hover {
@@ -296,6 +338,9 @@
       .player-name {
         font-weight: 600;
         margin-bottom: 10px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 100%;
       }
 
       .player-status {
@@ -538,8 +583,28 @@
       }
 
       @media (max-width: 768px) {
+        .container {
+          padding: 10px;
+        }
+
         .player-list {
-          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+          gap: 10px;
+          grid-auto-rows: 1fr;
+        }
+
+        .player-card,
+        .host-card {
+          min-width: 140px;
+          min-height: 100px;
+        }
+
+        .player-card {
+          padding: 12px;
+        }
+
+        .host-card {
+          padding: 12px;
         }
 
         .tabs {
@@ -593,7 +658,8 @@
             PM the previous day
           </li>
           <li>
-            <strong>Warnings:</strong> 5 "Yes" but didn't attend in a month =
+            <strong>Warnings:</strong> If you mark "Yes" for availability but
+            don't attend, you'll receive a warning. 5 warnings in a month =
             Removal
           </li>
           <li>
@@ -606,9 +672,8 @@
           </li>
           <li>
             <strong>Host Updates:</strong> Host can update actual attendance
-            before 10 AM. If a player marks "Yes" for availability but the host
-            updates attendance to "No" the next day (did not attend), a warning
-            is given. Removal after 5 such warnings.
+            before 11:59 PM on the session day. Automated attendance tracking
+            runs daily at 12:01 AM.
           </li>
         </ul>
       </div>
@@ -619,6 +684,7 @@
           <div id="hosts-display" class="player-list">
             <!-- Host cards will be populated by JavaScript -->
           </div>
+          <div class="scrollable-hint">← Swipe to see all →</div>
         </div>
       </div>
 
@@ -1106,6 +1172,10 @@
             <div class="form-group">
               <label for="filterDate">Filter by Date</label>
               <input type="date" id="filterDate" />
+              <small
+                id="filterDateInfo"
+                style="display: block; margin-top: 5px; color: #666"
+              ></small>
             </div>
             <div class="attendance-table-wrapper">
               <table class="attendance-table">
@@ -1125,6 +1195,7 @@
                 </tbody>
               </table>
             </div>
+            <div class="scrollable-hint">← Swipe to see all columns →</div>
           </div>
         </div>
       </div>
@@ -1137,6 +1208,7 @@
             <div id="player-status-container" class="player-list">
               <!-- Player cards will be populated by JavaScript -->
             </div>
+            <div class="scrollable-hint">← Swipe to see all →</div>
           </div>
         </div>
       </div>
@@ -1935,24 +2007,110 @@
 
       function updateAttendanceTable() {
         const tableBody = document.getElementById("attendance-table-body");
-        const filterPlayer = document.getElementById("filterPlayer").value;
+        const filterPlayerValue = document.getElementById("filterPlayer").value;
         const filterDate = document.getElementById("filterDate").value;
+        const filterDateInfo = document.getElementById("filterDateInfo");
+
+        // Display filter info
+        if (filterDate) {
+          const dateObj = new Date(filterDate + "T00:00:00");
+          const displayDate = dateObj.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+          });
+          filterDateInfo.textContent = `Filtering by: ${displayDate} (${filterDate})`;
+          filterDateInfo.style.color = "#2e7d32";
+        } else {
+          filterDateInfo.textContent = "";
+        }
 
         // Clear table
         tableBody.innerHTML = "";
 
+        // Debug: Log all unique dates in the data
+        if (filterDate) {
+          const uniqueDates = [
+            ...new Set(attendanceData.map((r) => r.date)),
+          ].sort();
+          console.log("All dates in database:", uniqueDates);
+        }
+
         // Filter data
         let filteredData = [...attendanceData];
 
-        if (filterPlayer) {
+        // Filter by player
+        if (filterPlayerValue) {
+          // Extract player name from "name|email" format if present
+          let filterPlayerName = filterPlayerValue;
+          if (filterPlayerValue.includes("|")) {
+            filterPlayerName = filterPlayerValue.split("|")[0].trim();
+          }
           filteredData = filteredData.filter(
-            (record) => record.player === filterPlayer
+            (record) => record.player === filterPlayerName
           );
         }
 
+        // Filter by date
         if (filterDate) {
-          filteredData = filteredData.filter(
-            (record) => record.date === filterDate
+          console.log("Filter date selected:", filterDate);
+          filteredData = filteredData.filter((record) => {
+            const recordDate = record.date;
+            if (!recordDate) return false;
+
+            // Convert the record date to IST and extract yyyy-MM-dd
+            let recordDateStr = "";
+
+            if (typeof recordDate === "string") {
+              // Parse the date and convert to IST timezone
+              const dateObj = new Date(recordDate);
+
+              // Convert to IST (UTC + 5:30)
+              const istOffset = 5.5 * 60 * 60 * 1000; // 5.5 hours in milliseconds
+              const istDate = new Date(dateObj.getTime() + istOffset);
+
+              // Extract yyyy-MM-dd from IST date
+              const year = istDate.getUTCFullYear();
+              const month = String(istDate.getUTCMonth() + 1).padStart(2, "0");
+              const day = String(istDate.getUTCDate()).padStart(2, "0");
+              recordDateStr = `${year}-${month}-${day}`;
+            } else if (recordDate instanceof Date) {
+              // If it's a Date object, convert to IST yyyy-MM-dd
+              const istOffset = 5.5 * 60 * 60 * 1000;
+              const istDate = new Date(recordDate.getTime() + istOffset);
+              const year = istDate.getUTCFullYear();
+              const month = String(istDate.getUTCMonth() + 1).padStart(2, "0");
+              const day = String(istDate.getUTCDate()).padStart(2, "0");
+              recordDateStr = `${year}-${month}-${day}`;
+            } else {
+              // Try to parse it as a date
+              try {
+                const dateObj = new Date(recordDate);
+                if (!isNaN(dateObj.getTime())) {
+                  const istOffset = 5.5 * 60 * 60 * 1000;
+                  const istDate = new Date(dateObj.getTime() + istOffset);
+                  const year = istDate.getUTCFullYear();
+                  const month = String(istDate.getUTCMonth() + 1).padStart(
+                    2,
+                    "0"
+                  );
+                  const day = String(istDate.getUTCDate()).padStart(2, "0");
+                  recordDateStr = `${year}-${month}-${day}`;
+                }
+              } catch (e) {
+                return false;
+              }
+            }
+
+            console.log(
+              `Comparing record date: ${recordDateStr} with filter: ${filterDate}, match: ${
+                recordDateStr === filterDate
+              }`
+            );
+            return recordDateStr === filterDate;
+          });
+          console.log(
+            `Filtered ${filteredData.length} records for date ${filterDate}`
           );
         }
 
@@ -1968,13 +2126,41 @@
           filteredData.forEach((record) => {
             const row = document.createElement("tr");
 
-            // Format date for display
+            // Format date for display - convert UTC to IST
+            let formattedDate;
+            console.log(
+              "Raw record.date:",
+              record.date,
+              "Type:",
+              typeof record.date
+            );
+
+            // Parse the date and convert to IST
             const dateObj = new Date(record.date);
-            const formattedDate = dateObj.toLocaleDateString("en-US", {
+
+            // Convert to IST (UTC + 5:30)
+            const istOffset = 5.5 * 60 * 60 * 1000; // 5.5 hours in milliseconds
+            const istDate = new Date(dateObj.getTime() + istOffset);
+
+            // Format the IST date
+            const year = istDate.getUTCFullYear();
+            const month = istDate.getUTCMonth(); // 0-indexed
+            const day = istDate.getUTCDate();
+
+            // Create a date object for formatting (in local timezone)
+            const displayDate = new Date(year, month, day);
+            formattedDate = displayDate.toLocaleDateString("en-US", {
               year: "numeric",
               month: "short",
               day: "numeric",
             });
+
+            console.log(
+              "IST Date:",
+              `${year}-${month + 1}-${day}`,
+              "Formatted:",
+              formattedDate
+            );
 
             row.innerHTML = `
             <td>${formattedDate}</td>
