@@ -4,18 +4,23 @@ const TIMEZONE = 'Asia/Kolkata';
 
 const TOEMAIL = "ajithantonnie17@gmail.com";
 
+// Configuration - Update these with your actual IDs/URLs
+const SHEET_ID = '1yoqVoIMuFlcgm0gvNmu7fOXwyt1tHlyi-GVXn5xMweI';
+
 // Send daily attendance reminder ONLY to players who haven't updated for tomorrow
 function sendAttendanceReminder() {
   var players = getPlayersList();
   if (players.length === 0) return;
-  var link = "page link";
-  var subject = "Badminton Club: Please update your attendance for tomorrow";
-
+  var link = "www.antonnie.dev/badminton";
+  
   // Get tomorrow's date in IST
   var now = new Date();
   var tomorrow = new Date(now.getTime());
   tomorrow.setDate(tomorrow.getDate() + 1);
   var tomorrowStr = Utilities.formatDate(tomorrow, TIMEZONE, 'yyyy-MM-dd');
+  var tomorrowDisplay = Utilities.formatDate(tomorrow, TIMEZONE, 'EEEE, MMMM d, yyyy');
+  
+  var subject = "Badminton Club: Please update your attendance for " + tomorrowDisplay;
 
   // Get attendance sheet data
   var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
@@ -28,7 +33,15 @@ function sendAttendanceReminder() {
   // Find players who have NOT updated for tomorrow
   var updatedEmails = [];
   for (var i = 1; i < data.length; i++) {
-    if (data[i][dateIdx] === tomorrowStr && data[i][emailIdx]) {
+    // Format date for comparison (handles both Date objects and strings)
+    var rowDate = '';
+    try {
+      rowDate = Utilities.formatDate(new Date(data[i][dateIdx]), TIMEZONE, 'yyyy-MM-dd');
+    } catch (e) {
+      rowDate = String(data[i][dateIdx]).trim();
+    }
+    
+    if (rowDate === tomorrowStr && data[i][emailIdx]) {
       updatedEmails.push(String(data[i][emailIdx]).trim().toLowerCase());
     }
   }
@@ -37,7 +50,7 @@ function sendAttendanceReminder() {
     if (player.email && player.name) {
       var playerEmail = String(player.email).trim().toLowerCase();
       if (!updatedEmails.includes(playerEmail)) {
-        var body = `Dear ${player.name},\n\nPlease update your attendance for tomorrow using the following link:\n${link}\n\nThank you!`;
+        var body = `Dear ${player.name},\n\nPlease update your attendance for ${tomorrowDisplay} using the following link:\n${link}\n\nThank you!`;
         MailApp.sendEmail({
           to: player.email,
           subject: subject,
@@ -47,43 +60,79 @@ function sendAttendanceReminder() {
     }
   });
 }
-// Configuration - Update these with your actual IDs/URLs
-const SHEET_ID = '1yoqVoIMuFlcgm0gvNmu7fOXwyt1tHlyi-GVXn5xMweI';
 
 // Main function to set up daily entries
 function dailySetup() {
-  const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
-  const players = getPlayersList();
-  // Get today's date in IST
-  const now = new Date();
-  const today = Utilities.formatDate(now, TIMEZONE, 'yyyy-MM-dd');
-  
-  // Check if today's date already exists
-  const dates = sheet.getRange("A2:A").getValues().flat();
-  if (dates.includes(today)) {
-    Logger.log(`Date ${today} already exists in sheet. Skipping.`);
-    return;
-  }
-  
-  // Clean up tracking properties for yesterday (since we're setting up for new day)
-  cleanupOldTrackingProperties();
-  
-  // Create new rows for today
-  // players is array of {name, email}
-  // Always use formatted date string for each row
-  // Set 'Attended' to match 'Availability' (default 'Yes' if available, else 'No')
-  // If you want to allow marking 'Yes' for availability, set both to 'Yes' by default
-  const rows = players.map(p => [today, p.name, p.email, "Yes", "", "Yes", 0, 0, ""]);
-  const lastRow = sheet.getLastRow();
-  // Update headers if needed
-  const headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
-  if (!headers.includes("Email")) {
-    sheet.insertColumnAfter(2);
-    sheet.getRange(1, 3).setValue("Email");
-  }
-  sheet.getRange(lastRow + 1, 1, rows.length, 9).setValues(rows);
+  try {
+    Logger.log('dailySetup: Starting execution');
+    
+    const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
+    if (!sheet) {
+      Logger.log('Error: Attendance sheet not found');
+      return;
+    }
+    
+    const players = getPlayersList();
+    Logger.log('dailySetup: Found ' + players.length + ' players');
+    
+    // Get today's date in IST
+    const now = new Date();
+    const today = Utilities.formatDate(now, TIMEZONE, 'yyyy-MM-dd');
+    Logger.log('dailySetup: Setting up for date: ' + today);
+    
+    // Check if today's date already exists
+    const dates = sheet.getRange("A2:A").getValues().flat();
+    let dateExists = false;
+    for (let i = 0; i < dates.length; i++) {
+      if (dates[i]) {
+        try {
+          const dateStr = Utilities.formatDate(new Date(dates[i]), TIMEZONE, 'yyyy-MM-dd');
+          if (dateStr === today) {
+            dateExists = true;
+            break;
+          }
+        } catch (e) {
+          // If it's already a string, compare directly
+          if (String(dates[i]).trim() === today) {
+            dateExists = true;
+            break;
+          }
+        }
+      }
+    }
+    if (dateExists) {
+      Logger.log(`Date ${today} already exists in sheet. Skipping.`);
+      return;
+    }
+    
+    // Clean up tracking properties for yesterday (since we're setting up for new day)
+    cleanupOldTrackingProperties();
+    
+    // Create new rows for today
+    // players is array of {name, email}
+    // Always use formatted date string for each row
+    // Set 'Attended' to match 'Availability' (default 'Yes' if available, else 'No')
+    // If you want to allow marking 'Yes' for availability, set both to 'Yes' by default
+    const rows = players.map(p => [today, p.name, p.email, "Yes", "", "Yes", 0, 0, ""]);
+    const lastRow = sheet.getLastRow();
+    // Update headers if needed
+    const headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+    if (!headers.includes("Email")) {
+      sheet.insertColumnAfter(2);
+      sheet.getRange(1, 3).setValue("Email");
+    }
+    sheet.getRange(lastRow + 1, 1, rows.length, 9).setValues(rows);
 
-  Logger.log(`Added ${rows.length} rows for date: ${today}`);
+    Logger.log(`dailySetup: Successfully added ${rows.length} rows for date: ${today}`);
+  } catch (error) {
+    Logger.log('Error in dailySetup: ' + error.toString());
+    // Send error notification to admin
+    MailApp.sendEmail({
+      to: TOEMAIL,
+      subject: 'Badminton System: dailySetup Error',
+      body: 'Error occurred in dailySetup function:\n\n' + error.toString() + '\n\nStack trace:\n' + error.stack
+    });
+  }
 }
 
 // Helper function to cleanup old tracking properties
@@ -256,6 +305,8 @@ function sendAvailabilitySummaryEmail() {
   var tomorrow = new Date(now.getTime());
   tomorrow.setDate(tomorrow.getDate() + 1);
   var tomorrowStr = Utilities.formatDate(tomorrow, TIMEZONE, 'yyyy-MM-dd');
+  var tomorrowDisplay = Utilities.formatDate(tomorrow, TIMEZONE, 'EEEE, MMMM d, yyyy');
+  
   var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
   var data = sheet.getDataRange().getValues();
   var headers = data[0];
@@ -264,25 +315,33 @@ function sendAvailabilitySummaryEmail() {
   var availIdx = headers.indexOf("Availability");
   var yesNames = [];
   for (var i = 1; i < data.length; i++) {
-    if (data[i][dateIdx] === tomorrowStr && data[i][availIdx] === "Yes") {
+    // Format date for comparison (handles both Date objects and strings)
+    var rowDate = '';
+    try {
+      rowDate = Utilities.formatDate(new Date(data[i][dateIdx]), TIMEZONE, 'yyyy-MM-dd');
+    } catch (e) {
+      rowDate = String(data[i][dateIdx]).trim();
+    }
+    
+    if (rowDate === tomorrowStr && data[i][availIdx] === "Yes") {
       yesNames.push(data[i][nameIdx]);
     }
   }
   
-  var subject = "Badminton Club: Tomorrow's Confirmed Players (" + yesNames.length + " players)";
-  var body = "Final update for tomorrow's badminton session:\n\n";
+  var subject = "Badminton Club: " + tomorrowDisplay + " - " + yesNames.length + " Players Confirmed";
+  var body = "Final update for badminton session on " + tomorrowDisplay + ":\n\n";
   body += "Total confirmed players: " + yesNames.length + "\n\n";
   
   if (yesNames.length > 0) {
-    body += "Players who have marked 'Yes' for tomorrow:\n";
+    body += "Players who have marked 'Yes':\n";
     yesNames.forEach(function(name, index) {
       body += (index + 1) + ". " + name + "\n";
     });
   } else {
-    body += "No players have confirmed for tomorrow.\n";
+    body += "No players have confirmed yet.\n";
   }
   
-  body += "\n---\nThis is the final confirmation for tomorrow's session at 10:30 PM IST.";
+  body += "\n---\nThis is the final confirmation for " + tomorrowDisplay + " at 10:30 PM IST.";
   
   players.forEach(player => {
     if (player.email) {
@@ -301,6 +360,8 @@ function sendCelebrationIfFourAvailable() {
   var tomorrow = new Date(now.getTime());
   tomorrow.setDate(tomorrow.getDate() + 1);
   var tomorrowStr = Utilities.formatDate(tomorrow, TIMEZONE, 'yyyy-MM-dd');
+  var tomorrowDisplay = Utilities.formatDate(tomorrow, TIMEZONE, 'EEEE, MMMM d, yyyy');
+  
   var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
   var data = sheet.getDataRange().getValues();
   var headers = data[0];
@@ -311,7 +372,15 @@ function sendCelebrationIfFourAvailable() {
   var yesPlayers = [];
   
   for (var i = 1; i < data.length; i++) {
-    if (data[i][dateIdx] === tomorrowStr && data[i][availIdx] === "Yes") {
+    // Format date for comparison (handles both Date objects and strings)
+    var rowDate = '';
+    try {
+      rowDate = Utilities.formatDate(new Date(data[i][dateIdx]), TIMEZONE, 'yyyy-MM-dd');
+    } catch (e) {
+      rowDate = String(data[i][dateIdx]).trim();
+    }
+    
+    if (rowDate === tomorrowStr && data[i][availIdx] === "Yes") {
       yesPlayers.push({ name: data[i][nameIdx], email: data[i][emailIdx] });
     }
   }
@@ -333,8 +402,8 @@ function sendCelebrationIfFourAvailable() {
   // Case 1: Exactly 4 players confirmed (send celebration if not sent yet)
   if (currentCount === 4 && !celebrationSent) {
     var names = currentNames.join(", ");
-    var subject = "🎉 Hurray! 4 members have confirmed for tomorrow";
-    var body = `Congratulations! Game on tomorrow! 🏸\n\nThe following 4 members have marked 'Yes' for tomorrow:\n`;
+    var subject = "🎉 Hurray! 4 members confirmed for " + tomorrowDisplay;
+    var body = `Congratulations! Game on ${tomorrowDisplay}! 🏸\n\nThe following 4 members have marked 'Yes':\n`;
     currentNames.forEach(function(name, index) {
       body += (index + 1) + ". " + name + "\n";
     });
@@ -355,7 +424,7 @@ function sendCelebrationIfFourAvailable() {
     scriptProperties.setProperty(lastCountKey, '4');
     scriptProperties.setProperty(lastNamesKey, currentNames.join(','));
     
-    Logger.log('Celebration email sent to 4 confirmed players');
+    Logger.log('Celebration email sent to 4 confirmed players for ' + tomorrowDisplay);
   }
   // Case 2: Count dropped from 4 to 3 or less (someone opted out)
   else if (lastCount >= 4 && currentCount === 3) {
@@ -363,8 +432,8 @@ function sendCelebrationIfFourAvailable() {
     var optedOut = lastNames.filter(name => !currentNames.includes(name));
     
     if (optedOut.length > 0) {
-      var subject = "⚠️ Update: Player opted out - Only 3 confirmed now";
-      var body = `Update on tomorrow's badminton session:\n\n`;
+      var subject = "⚠️ Update: Player opted out - Only 3 confirmed for " + tomorrowDisplay;
+      var body = `Update on badminton session for ${tomorrowDisplay}:\n\n`;
       body += optedOut[0] + " has opted out.\n\n";
       body += "Currently confirmed players (3):\n";
       currentNames.forEach(function(name, index) {
@@ -384,7 +453,7 @@ function sendCelebrationIfFourAvailable() {
         }
       });
       
-      Logger.log('Opt-out notification sent: ' + optedOut[0] + ' dropped out, now only 3 players');
+      Logger.log('Opt-out notification sent for ' + tomorrowDisplay + ': ' + optedOut[0] + ' dropped out, now only 3 players');
     }
     
     // Update tracking
@@ -531,6 +600,7 @@ function submitPlayerAttendance(playerName, playerEmail, availability, reason, p
   const tomorrow = new Date(now.getTime());
   tomorrow.setDate(tomorrow.getDate() + 1);
   const tomorrowStr = Utilities.formatDate(tomorrow, TIMEZONE, 'yyyy-MM-dd');
+  const tomorrowDisplay = Utilities.formatDate(tomorrow, TIMEZONE, 'EEEE, MMMM d, yyyy');
 
   // Get player from Players sheet for password verification
   const players = getPlayersList();
@@ -600,7 +670,7 @@ function submitPlayerAttendance(playerName, playerEmail, availability, reason, p
       if (attendIdx >= 0) {
         sheet.getRange(i + 1, attendIdx + 1).setValue('');
       }
-      Logger.log(`Updated availability for ${playerName} (${playerEmail}) for ${tomorrowStr}: ${availability}`);
+      Logger.log(`Updated availability for ${playerName} (${playerEmail}) for ${tomorrowDisplay} (${tomorrowStr}): ${availability}`);
       
       // Trigger celebration check after player update
       try {
@@ -609,7 +679,7 @@ function submitPlayerAttendance(playerName, playerEmail, availability, reason, p
         Logger.log('Warning: Could not trigger celebration check: ' + e.toString());
       }
       
-      return { success: true, message: 'Availability updated successfully' };
+      return { success: true, message: 'Availability updated successfully for ' + tomorrowDisplay };
     }
   }
 
@@ -635,7 +705,7 @@ function submitPlayerAttendance(playerName, playerEmail, availability, reason, p
     Logger.log('Warning: Could not trigger celebration check: ' + e.toString());
   }
   
-  return { success: true, message: 'Availability submitted successfully' };
+  return { success: true, message: 'Availability submitted successfully for ' + tomorrowDisplay };
 }
 
 // Helper function to submit host attendance
@@ -669,6 +739,7 @@ function submitHostAttendance(hostName, hostEmail, hostPasswordHash, playerName,
 
   // Get today's date in IST
   const today = Utilities.formatDate(now, TIMEZONE, 'yyyy-MM-dd');
+  const todayDisplay = Utilities.formatDate(now, TIMEZONE, 'EEEE, MMMM d, yyyy');
 
   // Find the record for player (match both name and email, ignore case and extra spaces)
   const targetName = playerName ? String(playerName).trim() : '';
@@ -705,7 +776,7 @@ function submitHostAttendance(hostName, hostEmail, hostPasswordHash, playerName,
         newWarnings = currentWarnings + 1;
         sheet.getRange(i + 1, warnIdx + 1).setValue(newWarnings);
         warningGiven = true;
-        Logger.log(`Warning given: Player ${rowName} marked 'Yes' but did not attend. Warning count: ${newWarnings}`);
+        Logger.log(`Warning given: Player ${rowName} marked 'Yes' but did not attend on ${todayDisplay}. Warning count: ${newWarnings}`);
       }
       
       // Send warning email if warning was given
@@ -713,7 +784,7 @@ function submitHostAttendance(hostName, hostEmail, hostPasswordHash, playerName,
         MailApp.sendEmail({
           to: rowEmail,
           subject: `Badminton Club: Warning Received`,
-          body: `Dear ${rowName},\n\nYou have received a warning for marking 'Yes' for availability but not attending. Total warnings: ${newWarnings}.\n\nPlease ensure you attend if you mark 'Yes', or mark 'No' with a reason if you cannot attend.`
+          body: `Dear ${rowName},\n\nYou have received a warning for marking 'Yes' for availability but not attending on ${todayDisplay}. Total warnings: ${newWarnings}.\n\nPlease ensure you attend if you mark 'Yes', or mark 'No' with a reason if you cannot attend.`
         });
       }
       
@@ -730,14 +801,14 @@ function submitHostAttendance(hostName, hostEmail, hostPasswordHash, playerName,
         }
       }
 
-      Logger.log(`Attendance updated for player: ${rowName} (${rowEmail}) on ${formattedRowDate}`);
-      return { success: true, message: `Attendance updated successfully by ${host.name} (${host.role})` };
+      Logger.log(`Attendance updated for player: ${rowName} (${rowEmail}) on ${todayDisplay}`);
+      return { success: true, message: `Attendance updated successfully for ${todayDisplay} by ${host.name} (${host.role})` };
     }
   }
   if (!found) {
     Logger.log('Record not found for today. Searched for: date="' + today + '", name="' + targetName + '", email="' + targetEmail + '"');
   }
-  return { success: false, message: 'Record not found for today' };
+  return { success: false, message: 'Record not found for ' + todayDisplay };
 }
 
 // Authentication functions
@@ -1197,47 +1268,85 @@ function setupTriggers() {
 
 // At 10:30pm IST, mark missing players as 'No' for tomorrow
 function markMissingPlayersAsNo() {
-  var players = getPlayersList();
-  if (players.length === 0) return;
-  var now = new Date();
-  var tomorrow = new Date(now.getTime());
-  tomorrow.setDate(tomorrow.getDate() + 1);
-  var tomorrowStr = Utilities.formatDate(tomorrow, TIMEZONE, 'yyyy-MM-dd');
-  var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
-  var data = sheet.getDataRange().getValues();
-  var headers = data[0];
-  var dateIdx = headers.indexOf("Date");
-  var nameIdx = headers.indexOf("Name");
-  var emailIdx = headers.indexOf("Email");
-
-  // Find emails already updated for tomorrow
-  var updatedEmails = [];
-  for (var i = 1; i < data.length; i++) {
-    if (data[i][dateIdx] === tomorrowStr && data[i][emailIdx]) {
-      updatedEmails.push(String(data[i][emailIdx]).trim().toLowerCase());
+  try {
+    var players = getPlayersList();
+    if (players.length === 0) {
+      Logger.log('No players found in system');
+      return;
     }
-  }
+    
+    var now = new Date();
+    var tomorrow = new Date(now.getTime());
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    var tomorrowStr = Utilities.formatDate(tomorrow, TIMEZONE, 'yyyy-MM-dd');
+    var tomorrowDisplay = Utilities.formatDate(tomorrow, TIMEZONE, 'EEEE, MMMM d, yyyy');
+    
+    Logger.log('markMissingPlayersAsNo: Processing for ' + tomorrowDisplay + ' (' + tomorrowStr + ')');
+    
+    var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Attendance');
+    if (!sheet) {
+      Logger.log('Error: Attendance sheet not found');
+      return;
+    }
+    
+    var data = sheet.getDataRange().getValues();
+    var headers = data[0];
+    var dateIdx = headers.indexOf("Date");
+    var nameIdx = headers.indexOf("Name");
+    var emailIdx = headers.indexOf("Email");
 
-  // For each player not updated, add a row with 'No' for tomorrow
-  players.forEach(function(player) {
-    if (player.email && player.name) {
-      var playerEmail = String(player.email).trim().toLowerCase();
-      if (!updatedEmails.includes(playerEmail)) {
-        var newRow = [
-          tomorrowStr,
-          player.name,
-          player.email,
-          "No",
-          "", // Reason
-          "", // Attended
-          0,   // Warning Count
-          0,   // Missed Days
-          ""  // AutoRemove
-        ];
-        sheet.appendRow(newRow);
+    // Find emails already updated for tomorrow
+    var updatedEmails = [];
+    for (var i = 1; i < data.length; i++) {
+      // Format date for comparison (handles both Date objects and strings)
+      var rowDate = '';
+      try {
+        rowDate = Utilities.formatDate(new Date(data[i][dateIdx]), TIMEZONE, 'yyyy-MM-dd');
+      } catch (e) {
+        rowDate = String(data[i][dateIdx]).trim();
+      }
+      
+      if (rowDate === tomorrowStr && data[i][emailIdx]) {
+        updatedEmails.push(String(data[i][emailIdx]).trim().toLowerCase());
       }
     }
-  });
+
+    Logger.log('Players already updated for ' + tomorrowDisplay + ': ' + updatedEmails.length);
+
+    // For each player not updated, add a row with 'No' for tomorrow
+    var addedCount = 0;
+    players.forEach(function(player) {
+      if (player.email && player.name) {
+        var playerEmail = String(player.email).trim().toLowerCase();
+        if (!updatedEmails.includes(playerEmail)) {
+          var newRow = [
+            tomorrowStr,
+            player.name,
+            player.email,
+            "No",
+            "", // Reason
+            "", // Attended
+            0,   // Warning Count
+            0,   // Missed Days
+            ""  // AutoRemove
+          ];
+          sheet.appendRow(newRow);
+          addedCount++;
+          Logger.log('Added "No" entry for player: ' + player.name + ' on ' + tomorrowDisplay);
+        }
+      }
+    });
+    
+    Logger.log('markMissingPlayersAsNo: Added ' + addedCount + ' missing player entries for ' + tomorrowDisplay);
+  } catch (error) {
+    Logger.log('Error in markMissingPlayersAsNo: ' + error.toString());
+    // Send error notification to admin
+    MailApp.sendEmail({
+      to: TOEMAIL,
+      subject: 'Badminton System: markMissingPlayersAsNo Error',
+      body: 'Error occurred in markMissingPlayersAsNo function:\n\n' + error.toString() + '\n\nStack trace:\n' + error.stack
+    });
+  }
 }
 
 // Function to initialize sheets with headers (run this once manually)
