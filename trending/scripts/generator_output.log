@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 18 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Elon Musk's $1tn pay deal approved by Tesla shareholders
+  Added: McDonald's to introduce sexual harassment training after BBC uncovered abuse of staff
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: UK rejected atrocity prevention plans for Sudan despite warning of possible genocide
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza’s UNRWA schools are classrooms by day, displacement shelters at night
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump expects int’l stabilisation force to be on ground in Gaza ‘very soon’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why are scientists rushing to study a comet from deep space?
+Added expanded search topic: Gaza’s UNRWA schools are classrooms by day, displacement shelters at night
+Added expanded search topic: Trump expects int’l stabilisation force to be on ground in Gaza ‘very soon’
+Added expanded search topic: Why are scientists rushing to study a comet from deep space?
+Saved 21 topics for 2025-11-07
+Returning 3 unique trending topics:
+  1. Gaza’s UNRWA schools are classrooms by day, displacement shelters at night (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump expects int’l stabilisation force to be on ground in Gaza ‘very soon’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why are scientists rushing to study a comet from deep space? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Gaza’s UNRWA schools are classrooms by day, displacement shelters at night
+Searching Google for: Gaza’s UNRWA schools are classrooms by day, displacement shelters at night
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%25E2%2580%2599s%252BUNRWA%252Bschools%252Bare%252Bclassrooms%252Bby%252Bday%252C%252Bdisplacement%252Bshelters%252Bat%252Bnight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i81GJjbtsgGIjDJ31i7nEUh8eAsYMShY1nMM9oQ7Pdq_sTiGOxGWj4t7WcAbZKScMnlsOsnBy7W-EIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: gazas-unrwa-schools-are-classrooms-by-day-displace_20251107_0828.html
+✓ Created comprehensive article: gazas-unrwa-schools-are-classrooms-by-day-displace_20251107_0828.html
+
+Processing trending topic: Trump expects int’l stabilisation force to be on ground in Gaza ‘very soon’
+Searching Google for: Trump expects int’l stabilisation force to be on ground in Gaza ‘very soon’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bexpects%252Bint%25E2%2580%2599l%252Bstabilisation%252Bforce%252Bto%252Bbe%252Bon%252Bground%252Bin%252BGaza%252B%25E2%2580%2598very%252Bsoon%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i81GJ_btsgGIjA4tWRE81SmmnSG0izibrVlgNOLVOCX5Ykm98BRbukZDUkyflUuNMOzQPOU0x57LkcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-expects-intl-stabilisation-force-to-be-on-gr_20251107_0828.html
+✓ Created comprehensive article: trump-expects-intl-stabilisation-force-to-be-on-gr_20251107_0828.html
+
+Processing trending topic: Why are scientists rushing to study a comet from deep space?
+Searching Google for: Why are scientists rushing to study a comet from deep space?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bare%252Bscientists%252Brushing%252Bto%252Bstudy%252Ba%252Bcomet%252Bfrom%252Bdeep%252Bspace%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i81GKXbtsgGIjBfxn7-T_f6CSgEHq13fY2Zn8Ygj2UMzC7cxcLtiDZ93XdaPDzcoRphdS-QYIVTvpoyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: why-are-scientists-rushing-to-study-a-comet-from-d_20251107_0828.html
+✓ Created comprehensive article: why-are-scientists-rushing-to-study-a-comet-from-d_20251107_0828.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Gaza’s UNRWA schools are classrooms by day, displacement shelters at night
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump expects int’l stabilisation force to be on ground in Gaza ‘very soon’
+     Sources: bbc.com, cnn.com, reuters.com
+   • Why are scientists rushing to study a comet from deep space?
+     Sources: bbc.com, cnn.com, reuters.com
