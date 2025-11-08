@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: At least four prisoners freed in error still at large, BBC told
+  Added: Trump gives Hungary one-year exemption from Russian energy sanctions
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Trump says US will boycott G20 summit in South Africa, citing treatment of white farmers
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tunisian opposition figures join hunger strike to support jailed politician
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India is world’s second-largest shrimp producer. That is now under threat
+  Found from World News - Breaking international news and headlines | Sky News: Putin's right-hand man made him look weak - it may have cost him his seat at Kremlin's top table
+Added expanded search topic: Tunisian opposition figures join hunger strike to support jailed politician
+Added expanded search topic: India is world’s second-largest shrimp producer. That is now under threat
+Added expanded search topic: Putin's right-hand man made him look weak - it may have cost him his seat at Kremlin's top table
+Saved 15 topics for 2025-11-08
+Returning 3 unique trending topics:
+  1. Tunisian opposition figures join hunger strike to support jailed politician (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. India is world’s second-largest shrimp producer. That is now under threat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Putin's right-hand man made him look weak - it may have cost him his seat at Kremlin's top table (from World News - Breaking international news and headlines | Sky News)
+
+Processing trending topic: Tunisian opposition figures join hunger strike to support jailed politician
+Searching Google for: Tunisian opposition figures join hunger strike to support jailed politician
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTunisian%252Bopposition%252Bfigures%252Bjoin%252Bhunger%252Bstrike%252Bto%252Bsupport%252Bjailed%252Bpolitician%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGb2GM7Fu8gGIjAOuRWlegOvUzpGt6YFpxTy_rfu9fLj0WtYGkb7ROCCpbfVWADzONFGvzc8XCkvWUsyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: tunisian-opposition-figures-join-hunger-strike-to-_20251108_0627.html
+✓ Created comprehensive article: tunisian-opposition-figures-join-hunger-strike-to-_20251108_0627.html
+
+Processing trending topic: India is world’s second-largest shrimp producer. That is now under threat
+Searching Google for: India is world’s second-largest shrimp producer. That is now under threat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bis%252Bworld%25E2%2580%2599s%252Bsecond-largest%252Bshrimp%252Bproducer.%252BThat%252Bis%252Bnow%252Bunder%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGb2GNXFu8gGIjBUtk7_wjmlox2Jm79wr6e7OSiMPDKbqEBC6XnRu1I8iJV7Q_YIp_XVx_iqUcCzmDcyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: india-is-worlds-second-largest-shrimp-producer-tha_20251108_0627.html
+✓ Created comprehensive article: india-is-worlds-second-largest-shrimp-producer-tha_20251108_0627.html
+
+Processing trending topic: Putin's right-hand man made him look weak - it may have cost him his seat at Kremlin's top table
+Searching Google for: Putin's right-hand man made him look weak - it may have cost him his seat at Kremlin's top table
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%2527s%252Bright-hand%252Bman%252Bmade%252Bhim%252Blook%252Bweak%252B-%252Bit%252Bmay%252Bhave%252Bcost%252Bhim%252Bhis%252Bseat%252Bat%252BKremlin%2527s%252Btop%252Btable%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGb2GNvFu8gGIjC3afTdHi-kVIRPr4vtLTpD0vTZ2ECj_W-y0IEna-brdDEzmxyc-VZJqe4T4LYSYpYyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: putins-right-hand-man-made-him-look-weak-it-may-ha_20251108_0627.html
+✓ Created comprehensive article: putins-right-hand-man-made-him-look-weak-it-may-ha_20251108_0627.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Tunisian opposition figures join hunger strike to support jailed politician
+     Sources: bbc.com, cnn.com, reuters.com
+   • India is world’s second-largest shrimp producer. That is now under threat
+     Sources: bbc.com, cnn.com, reuters.com
+   • Putin's right-hand man made him look weak - it may have cost him his seat at Kremlin's top table
+     Sources: bbc.com, cnn.com, reuters.com
