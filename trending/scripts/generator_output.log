@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 15 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: King to lead two-minute silence at Remembrance Sunday service
+  Added: Experts say flu season could be worst for a decade
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Tanzania police arrest opposition party official after deadly election protests
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands of US flights cancelled, delayed as government shutdown continues
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Death toll in Gaza tops 69,000; Hamas retrieves body of Israeli soldier
+Added expanded search topic: Thousands of US flights cancelled, delayed as government shutdown continues
+Added expanded search topic: Death toll in Gaza tops 69,000; Hamas retrieves body of Israeli soldier
+Saved 18 topics for 2025-11-09
+Returning 3 unique trending topics:
+  1. King to lead two-minute silence at Remembrance Sunday service (from BBC News)
+  2. Thousands of US flights cancelled, delayed as government shutdown continues (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Death toll in Gaza tops 69,000; Hamas retrieves body of Israeli soldier (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: King to lead two-minute silence at Remembrance Sunday service
+Searching Google for: King to lead two-minute silence at Remembrance Sunday service
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252Bto%252Blead%252Btwo-minute%252Bsilence%252Bat%252BRemembrance%252BSunday%252Bservice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_iGJOBwcgGIjAKczghmC945B6OdsbdsBPhWRcpV7d1VLNf8AskcuN0eNky0-HsdpVSm16XjJrjcFcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: king-to-lead-two-minute-silence-at-remembrance-sun_20251109_0719.html
+✓ Created comprehensive article: king-to-lead-two-minute-silence-at-remembrance-sun_20251109_0719.html
+
+Processing trending topic: Thousands of US flights cancelled, delayed as government shutdown continues
+Searching Google for: Thousands of US flights cancelled, delayed as government shutdown continues
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bof%252BUS%252Bflights%252Bcancelled%252C%252Bdelayed%252Bas%252Bgovernment%252Bshutdown%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_iGJqBwcgGIjAEBtkvKHwiwGehYSQaT_h9g-DRCfWXCjfW5dpea2yNd7Gtx5rskunXMqYiY53Y8EIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: thousands-of-us-flights-cancelled-delayed-as-gover_20251109_0719.html
+✓ Created comprehensive article: thousands-of-us-flights-cancelled-delayed-as-gover_20251109_0719.html
+
+Processing trending topic: Death toll in Gaza tops 69,000; Hamas retrieves body of Israeli soldier
+Searching Google for: Death toll in Gaza tops 69,000; Hamas retrieves body of Israeli soldier
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeath%252Btoll%252Bin%252BGaza%252Btops%252B69%252C000%253B%252BHamas%252Bretrieves%252Bbody%252Bof%252BIsraeli%252Bsoldier%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_iGKCBwcgGIjDTTfwTkAmvzScW7su4yBmdKM95bzfwbpO9InhugLTcLsIPOGzz64gEeco__76b_WQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: death-toll-in-gaza-tops-69000-hamas-retrieves-body_20251109_0720.html
+✓ Created comprehensive article: death-toll-in-gaza-tops-69000-hamas-retrieves-body_20251109_0720.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • King to lead two-minute silence at Remembrance Sunday service
+     Sources: bbc.com, cnn.com, reuters.com
+   • Thousands of US flights cancelled, delayed as government shutdown continues
+     Sources: bbc.com, cnn.com, reuters.com
+   • Death toll in Gaza tops 69,000; Hamas retrieves body of Israeli soldier
+     Sources: bbc.com, cnn.com, reuters.com
