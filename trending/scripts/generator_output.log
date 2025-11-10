@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Second migrant sent to France returns to the UK
+  Added: Former French president Sarkozy released from prison after three weeks
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Protesters target major new Nigerian museum embroiled in looted artefacts row
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US claims it hit two boats ‘carrying narcotics’ in Pacific, killing six
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Millions endure power cuts in Ukraine as Russia strikes more energy sites
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump pardons Giuliani, others accused of trying to overturn 2020 defeat
+Added expanded search topic: US claims it hit two boats ‘carrying narcotics’ in Pacific, killing six
+Added expanded search topic: Millions endure power cuts in Ukraine as Russia strikes more energy sites
+Added expanded search topic: Trump pardons Giuliani, others accused of trying to overturn 2020 defeat
+Saved 48 topics for 2025-11-10
+Returning 3 unique trending topics:
+  1. US claims it hit two boats ‘carrying narcotics’ in Pacific, killing six (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Millions endure power cuts in Ukraine as Russia strikes more energy sites (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump pardons Giuliani, others accused of trying to overturn 2020 defeat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US claims it hit two boats ‘carrying narcotics’ in Pacific, killing six
+Searching Google for: US claims it hit two boats ‘carrying narcotics’ in Pacific, killing six
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bclaims%252Bit%252Bhit%252Btwo%252Bboats%252B%25E2%2580%2598carrying%252Bnarcotics%25E2%2580%2599%252Bin%252BPacific%252C%252Bkilling%252Bsix%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb1GMe9yMgGIjARnsm1oybkmxEuJ-bsxWXsXbw61MVo-wBZiwwO6sLBmkBlCCudOFN4z5v4VVGD09AyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-claims-it-hit-two-boats-carrying-narcotics-in-p_20251110_1720.html
+✓ Created comprehensive article: us-claims-it-hit-two-boats-carrying-narcotics-in-p_20251110_1720.html
+
+Processing trending topic: Millions endure power cuts in Ukraine as Russia strikes more energy sites
+Searching Google for: Millions endure power cuts in Ukraine as Russia strikes more energy sites
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMillions%252Bendure%252Bpower%252Bcuts%252Bin%252BUkraine%252Bas%252BRussia%252Bstrikes%252Bmore%252Benergy%252Bsites%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb1GM69yMgGIjCDQ50KR91yXkDV9II8REef9mOWPSUAJ306rNkQTQ3C0xUJoh4a0CYuSWgCwGi1pCMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: millions-endure-power-cuts-in-ukraine-as-russia-st_20251110_1720.html
+✓ Created comprehensive article: millions-endure-power-cuts-in-ukraine-as-russia-st_20251110_1720.html
+
+Processing trending topic: Trump pardons Giuliani, others accused of trying to overturn 2020 defeat
+Searching Google for: Trump pardons Giuliani, others accused of trying to overturn 2020 defeat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bpardons%252BGiuliani%252C%252Bothers%252Baccused%252Bof%252Btrying%252Bto%252Boverturn%252B2020%252Bdefeat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb1GNW9yMgGIjDtRRXtFunWAR8Wo9Bw0jSGtxV41PrT3hsbvHIz3qZc7Jf41rM3-FPuQjuSRey_0TwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-pardons-giuliani-others-accused-of-trying-to_20251110_1720.html
+✓ Created comprehensive article: trump-pardons-giuliani-others-accused-of-trying-to_20251110_1720.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US claims it hit two boats ‘carrying narcotics’ in Pacific, killing six
+     Sources: bbc.com, cnn.com, reuters.com
+   • Millions endure power cuts in Ukraine as Russia strikes more energy sites
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump pardons Giuliani, others accused of trying to overturn 2020 defeat
+     Sources: bbc.com, cnn.com, reuters.com
