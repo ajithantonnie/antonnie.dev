@@ -1,0 +1,66 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 18 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: UK unemployment rate rises to 5% as jobs market weakens
+  Added: Katie Razzall: Robust leadership needed to steer BBC through crisis
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Violent reprisals after DRC whistleblowers discover profiteering in protected land
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video: Heavy rains flood COP30 conference entrances
+Added expanded search topic: Video: Heavy rains flood COP30 conference entrances
+Saved 21 topics for 2025-11-11
+Returning 3 unique trending topics:
+  1. UK unemployment rate rises to 5% as jobs market weakens (from BBC News)
+  2. Violent reprisals after DRC whistleblowers discover profiteering in protected land (from The Guardian)
+  3. Video: Heavy rains flood COP30 conference entrances (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: UK unemployment rate rises to 5% as jobs market weakens
+Searching Google for: UK unemployment rate rises to 5% as jobs market weakens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bunemployment%252Brate%252Brises%252Bto%252B5%2525%252Bas%252Bjobs%252Bmarket%252Bweakens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OgUGKDny8gGIjAEkNFad2nbi8Wc_7dhHEOAiULWt_CUfA-m0MHp2VYAYhpmQ6RO1Rc1_1uDI6sWZF4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: uk-unemployment-rate-rises-to-5-as-jobs-market-wea_20251111_0828.html
+✓ Created comprehensive article: uk-unemployment-rate-rises-to-5-as-jobs-market-wea_20251111_0828.html
+
+Processing trending topic: Violent reprisals after DRC whistleblowers discover profiteering in protected land
+Searching Google for: Violent reprisals after DRC whistleblowers discover profiteering in protected land
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DViolent%252Breprisals%252Bafter%252BDRC%252Bwhistleblowers%252Bdiscover%252Bprofiteering%252Bin%252Bprotected%252Bland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OgUGKbny8gGIjCHGPHG1dM1I50zT5OwaXFVM4UE0CM8za9qdAFWk419d3XQGMtZQWb6KjwlNRUoD0AyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: violent-reprisals-after-drc-whistleblowers-discove_20251111_0828.html
+✓ Created comprehensive article: violent-reprisals-after-drc-whistleblowers-discove_20251111_0828.html
+
+Processing trending topic: Video: Heavy rains flood COP30 conference entrances
+Searching Google for: Video: Heavy rains flood COP30 conference entrances
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%253A%252BHeavy%252Brains%252Bflood%252BCOP30%252Bconference%252Bentrances%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OgUGK3ny8gGIjBN15zyD6wPJ1itkEBk3Cvi851rj1APHyoRpYQYhjOZemHqqS0GM-e9DHtXR-ltNDQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: video-heavy-rains-flood-cop30-conference-entrances_20251111_0828.html
+✓ Created comprehensive article: video-heavy-rains-flood-cop30-conference-entrances_20251111_0828.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • UK unemployment rate rises to 5% as jobs market weakens
+     Sources: bbc.com, cnn.com, reuters.com
+   • Violent reprisals after DRC whistleblowers discover profiteering in protected land
+     Sources: bbc.com, cnn.com, reuters.com
+   • Video: Heavy rains flood COP30 conference entrances
+     Sources: bbc.com, cnn.com, reuters.com
