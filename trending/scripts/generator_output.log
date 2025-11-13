@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 21 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: I can't take any more of this, Andrew told Epstein, released emails show
+  Added: What emails in the Epstein document release say about Donald Trump
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: ‘Utter hypocrisy’: tobacco firm lobbied against rules in Africa that are law in UK
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New review urges UK to repatriate Shamima Begum, others from Syria
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tuberculosis kills 1.23 million people last year, WHO says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can Trump dole out $2,000 tariff dividends, direct healthcare payments?
+Added expanded search topic: New review urges UK to repatriate Shamima Begum, others from Syria
+Added expanded search topic: Tuberculosis kills 1.23 million people last year, WHO says
+Added expanded search topic: Can Trump dole out $2,000 tariff dividends, direct healthcare payments?
+Saved 24 topics for 2025-11-13
+Returning 3 unique trending topics:
+  1. New review urges UK to repatriate Shamima Begum, others from Syria (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Tuberculosis kills 1.23 million people last year, WHO says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Can Trump dole out $2,000 tariff dividends, direct healthcare payments? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: New review urges UK to repatriate Shamima Begum, others from Syria
+Searching Google for: New review urges UK to repatriate Shamima Begum, others from Syria
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252Breview%252Burges%252BUK%252Bto%252Brepatriate%252BShamima%252BBegum%252C%252Bothers%252Bfrom%252BSyria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16kGMrH1sgGIjCn_jinXmeELav9MbGIVbs68k8xW6jKUxMUOy-psvctb8WeCfha2zi5OR3fy2c1U2IyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: new-review-urges-uk-to-repatriate-shamima-begum-ot_20251113_0924.html
+✓ Created comprehensive article: new-review-urges-uk-to-repatriate-shamima-begum-ot_20251113_0924.html
+
+Processing trending topic: Tuberculosis kills 1.23 million people last year, WHO says
+Searching Google for: Tuberculosis kills 1.23 million people last year, WHO says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTuberculosis%252Bkills%252B1.23%252Bmillion%252Bpeople%252Blast%252Byear%252C%252BWHO%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16kGNHH1sgGIjCTpHpHO1B3BLeYl6dLHCGzrl2cWs-9RIWfP6dESHdmy6y0ZyIhA3ddqQ1JmsgjiJAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: tuberculosis-kills-123-million-people-last-year-wh_20251113_0924.html
+✓ Created comprehensive article: tuberculosis-kills-123-million-people-last-year-wh_20251113_0924.html
+
+Processing trending topic: Can Trump dole out $2,000 tariff dividends, direct healthcare payments?
+Searching Google for: Can Trump dole out $2,000 tariff dividends, direct healthcare payments?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252BTrump%252Bdole%252Bout%252B%25242%252C000%252Btariff%252Bdividends%252C%252Bdirect%252Bhealthcare%252Bpayments%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16kGNfH1sgGIjC0bpsYf6J3ICgXd0BLYm3mb4nyxTEp3HzzhrSTPoTBXiDZPHhQVSNjtDJd7z9G12YyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: can-trump-dole-out-2000-tariff-dividends-direct-he_20251113_0924.html
+✓ Created comprehensive article: can-trump-dole-out-2000-tariff-dividends-direct-he_20251113_0924.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • New review urges UK to repatriate Shamima Begum, others from Syria
+     Sources: bbc.com, cnn.com, reuters.com
+   • Tuberculosis kills 1.23 million people last year, WHO says
+     Sources: bbc.com, cnn.com, reuters.com
+   • Can Trump dole out $2,000 tariff dividends, direct healthcare payments?
+     Sources: bbc.com, cnn.com, reuters.com
