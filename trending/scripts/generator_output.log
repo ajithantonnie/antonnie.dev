@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 36 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Council visited wrong home to check on Sara Sharif the day before her murder
+  Added: Epstein email says Andrew had photo taken with Virginia Giuffre
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: State-sanctioned fuel smuggling cost Libya $20bn over three years – report
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan is the “largest displacement crisis in the world”
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump wants to recreate the British mandate in Palestine
+Added expanded search topic: Sudan is the “largest displacement crisis in the world”
+Added expanded search topic: Trump wants to recreate the British mandate in Palestine
+Saved 39 topics for 2025-11-13
+Returning 3 unique trending topics:
+  1. State-sanctioned fuel smuggling cost Libya $20bn over three years – report (from The Guardian)
+  2. Sudan is the “largest displacement crisis in the world” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump wants to recreate the British mandate in Palestine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: State-sanctioned fuel smuggling cost Libya $20bn over three years – report
+Searching Google for: State-sanctioned fuel smuggling cost Libya $20bn over three years – report
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: state-sanctioned-fuel-smuggling-cost-libya-20bn-ov_20251113_1424.html
+✓ Created comprehensive article: state-sanctioned-fuel-smuggling-cost-libya-20bn-ov_20251113_1424.html
+
+Processing trending topic: Sudan is the “largest displacement crisis in the world”
+Searching Google for: Sudan is the “largest displacement crisis in the world”
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: sudan-is-the-largest-displacement-crisis-in-the-wo_20251113_1424.html
+✓ Created comprehensive article: sudan-is-the-largest-displacement-crisis-in-the-wo_20251113_1424.html
+
+Processing trending topic: Trump wants to recreate the British mandate in Palestine
+Searching Google for: Trump wants to recreate the British mandate in Palestine
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-wants-to-recreate-the-british-mandate-in-pal_20251113_1425.html
+✓ Created comprehensive article: trump-wants-to-recreate-the-british-mandate-in-pal_20251113_1425.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • State-sanctioned fuel smuggling cost Libya $20bn over three years – report
+     Sources: bbc.com, cnn.com, reuters.com
+   • Sudan is the “largest displacement crisis in the world”
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump wants to recreate the British mandate in Palestine
+     Sources: bbc.com, cnn.com, reuters.com
