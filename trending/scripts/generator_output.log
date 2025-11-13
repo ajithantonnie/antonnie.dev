@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 54 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Starmer's chief of staff McSweeney not leaving role over briefing war, BBC told
+  Added: How Sara Sharif was failed multiple times before she was murdered
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: State-sanctioned fuel smuggling cost Libya $20bn over three years – report
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France marks 10 years since Paris attacks upended country
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Italy’s PM Meloni determined to continue sending migrants to Albania
+Added expanded search topic: France marks 10 years since Paris attacks upended country
+Added expanded search topic: Italy’s PM Meloni determined to continue sending migrants to Albania
+Saved 57 topics for 2025-11-13
+Returning 3 unique trending topics:
+  1. How Sara Sharif was failed multiple times before she was murdered (from BBC News)
+  2. France marks 10 years since Paris attacks upended country (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Italy’s PM Meloni determined to continue sending migrants to Albania (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: How Sara Sharif was failed multiple times before she was murdered
+Searching Google for: How Sara Sharif was failed multiple times before she was murdered
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: how-sara-sharif-was-failed-multiple-times-before-s_20251113_2024.html
+✓ Created comprehensive article: how-sara-sharif-was-failed-multiple-times-before-s_20251113_2024.html
+
+Processing trending topic: France marks 10 years since Paris attacks upended country
+Searching Google for: France marks 10 years since Paris attacks upended country
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: france-marks-10-years-since-paris-attacks-upended-_20251113_2024.html
+✓ Created comprehensive article: france-marks-10-years-since-paris-attacks-upended-_20251113_2024.html
+
+Processing trending topic: Italy’s PM Meloni determined to continue sending migrants to Albania
+Searching Google for: Italy’s PM Meloni determined to continue sending migrants to Albania
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DItaly%25E2%2580%2599s%252BPM%252BMeloni%252Bdetermined%252Bto%252Bcontinue%252Bsending%252Bmigrants%252Bto%252BAlbania%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK65cGGLf92MgGIjBCTuSNjbaNRWkJxo6q8uMyUdxeZXZEGrEwWselyHIRndDIApHr2c5ohXZj9SaV1XsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: italys-pm-meloni-determined-to-continue-sending-mi_20251113_2025.html
+✓ Created comprehensive article: italys-pm-meloni-determined-to-continue-sending-mi_20251113_2025.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • How Sara Sharif was failed multiple times before she was murdered
+     Sources: bbc.com, cnn.com, reuters.com
+   • France marks 10 years since Paris attacks upended country
+     Sources: bbc.com, cnn.com, reuters.com
+   • Italy’s PM Meloni determined to continue sending migrants to Albania
+     Sources: bbc.com, cnn.com, reuters.com
