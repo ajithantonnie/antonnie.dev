@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 24 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Reeves decides against raising income tax rates
+  Added: BBC apologises to Trump over Panorama edit but refuses to pay compensation
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: State-sanctioned fuel smuggling cost Libya $20bn over three years – report
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jack Della Maddalena backs himself to beat UFC ‘legend’ Islam Makhachev
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UNRWA slams Israel for crippling Gaza efforts, aid woefully short of needs
+Added expanded search topic: Jack Della Maddalena backs himself to beat UFC ‘legend’ Islam Makhachev
+Added expanded search topic: UNRWA slams Israel for crippling Gaza efforts, aid woefully short of needs
+Saved 27 topics for 2025-11-14
+Returning 3 unique trending topics:
+  1. Reeves decides against raising income tax rates (from BBC News)
+  2. Jack Della Maddalena backs himself to beat UFC ‘legend’ Islam Makhachev (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UNRWA slams Israel for crippling Gaza efforts, aid woefully short of needs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Reeves decides against raising income tax rates
+Searching Google for: Reeves decides against raising income tax rates
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReeves%252Bdecides%252Bagainst%252Braising%252Bincome%252Btax%252Brates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnXYGNCG3MgGIjAo9uJcKwQUIAmZMLc1R9k4e1qwPYwKRGHW7oWE-vp-7XGrkMxWYCgXUWyGS8C2k08yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: reeves-decides-against-raising-income-tax-rates_20251114_1024.html
+✓ Created comprehensive article: reeves-decides-against-raising-income-tax-rates_20251114_1024.html
+
+Processing trending topic: Jack Della Maddalena backs himself to beat UFC ‘legend’ Islam Makhachev
+Searching Google for: Jack Della Maddalena backs himself to beat UFC ‘legend’ Islam Makhachev
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJack%252BDella%252BMaddalena%252Bbacks%252Bhimself%252Bto%252Bbeat%252BUFC%252B%25E2%2580%2598legend%25E2%2580%2599%252BIslam%252BMakhachev%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnXYGNeG3MgGIjCOndVRnfsu6-7n6f5ApTGzU109hcKvEDAHhJ-LSI4NQh1CCI-HFHkC7jMNcofovekyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: jack-della-maddalena-backs-himself-to-beat-ufc-leg_20251114_1024.html
+✓ Created comprehensive article: jack-della-maddalena-backs-himself-to-beat-ufc-leg_20251114_1024.html
+
+Processing trending topic: UNRWA slams Israel for crippling Gaza efforts, aid woefully short of needs
+Searching Google for: UNRWA slams Israel for crippling Gaza efforts, aid woefully short of needs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUNRWA%252Bslams%252BIsrael%252Bfor%252Bcrippling%252BGaza%252Befforts%252C%252Baid%252Bwoefully%252Bshort%252Bof%252Bneeds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnXYGN2G3MgGIjAJAzHVhUYIoHXTRWiw3rMJlsPomkUt5JuAYi6wSW0D-2RMkXdIwoVkziJpV8No5l4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: unrwa-slams-israel-for-crippling-gaza-efforts-aid-_20251114_1024.html
+✓ Created comprehensive article: unrwa-slams-israel-for-crippling-gaza-efforts-aid-_20251114_1024.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Reeves decides against raising income tax rates
+     Sources: bbc.com, cnn.com, reuters.com
+   • Jack Della Maddalena backs himself to beat UFC ‘legend’ Islam Makhachev
+     Sources: bbc.com, cnn.com, reuters.com
+   • UNRWA slams Israel for crippling Gaza efforts, aid woefully short of needs
+     Sources: bbc.com, cnn.com, reuters.com
