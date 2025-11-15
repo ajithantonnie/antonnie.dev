@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Trump says he will take legal action against BBC after apology
+  Added: UK set to limit refugees to temporary stays
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: UK warned that 15% cut to health fund will force ‘impossible choices’ on Africa
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US confirms four people killed in 20th strike on vessel in the Caribbean
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nine killed in blast at police station in Indian-administered Kashmir
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Eduardo Bolsonaro, son of Brazil’s ex-president, to face obstruction charge
+Added expanded search topic: US confirms four people killed in 20th strike on vessel in the Caribbean
+Added expanded search topic: Nine killed in blast at police station in Indian-administered Kashmir
+Added expanded search topic: Eduardo Bolsonaro, son of Brazil’s ex-president, to face obstruction charge
+Saved 15 topics for 2025-11-15
+Returning 3 unique trending topics:
+  1. US confirms four people killed in 20th strike on vessel in the Caribbean (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Nine killed in blast at police station in Indian-administered Kashmir (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Eduardo Bolsonaro, son of Brazil’s ex-president, to face obstruction charge (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US confirms four people killed in 20th strike on vessel in the Caribbean
+Searching Google for: US confirms four people killed in 20th strike on vessel in the Caribbean
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bconfirms%252Bfour%252Bpeople%252Bkilled%252Bin%252B20th%252Bstrike%252Bon%252Bvessel%252Bin%252Bthe%252BCaribbean%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzAGKm74MgGIjCWxEmIvi_u3wJGn65ca7VnXDCdDYJ4DOzHE_3DEbFjVrRirCl3VZHQfYzZuU2W-ZsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-confirms-four-people-killed-in-20th-strike-on-v_20251115_0629.html
+✓ Created comprehensive article: us-confirms-four-people-killed-in-20th-strike-on-v_20251115_0629.html
+
+Processing trending topic: Nine killed in blast at police station in Indian-administered Kashmir
+Searching Google for: Nine killed in blast at police station in Indian-administered Kashmir
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNine%252Bkilled%252Bin%252Bblast%252Bat%252Bpolice%252Bstation%252Bin%252BIndian-administered%252BKashmir%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzAGK-74MgGIjAoFMQLb3aSsbTsVK2920SU3959h6EmeNFbjwf0tWjGD5Zlyd-wdDUnbWKCJu_IC34yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: nine-killed-in-blast-at-police-station-in-indian-a_20251115_0629.html
+✓ Created comprehensive article: nine-killed-in-blast-at-police-station-in-indian-a_20251115_0629.html
+
+Processing trending topic: Eduardo Bolsonaro, son of Brazil’s ex-president, to face obstruction charge
+Searching Google for: Eduardo Bolsonaro, son of Brazil’s ex-president, to face obstruction charge
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEduardo%252BBolsonaro%252C%252Bson%252Bof%252BBrazil%25E2%2580%2599s%252Bex-president%252C%252Bto%252Bface%252Bobstruction%252Bcharge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzAGLW74MgGIjCu16H1CAHHPQnDMFRM1ob2HbqePAi8YiwTSPBxiPX3Ev5u5nM1zKri2WFc-NZ3QR8yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: eduardo-bolsonaro-son-of-brazils-ex-president-to-f_20251115_0629.html
+✓ Created comprehensive article: eduardo-bolsonaro-son-of-brazils-ex-president-to-f_20251115_0629.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US confirms four people killed in 20th strike on vessel in the Caribbean
+     Sources: bbc.com, cnn.com, reuters.com
+   • Nine killed in blast at police station in Indian-administered Kashmir
+     Sources: bbc.com, cnn.com, reuters.com
+   • Eduardo Bolsonaro, son of Brazil’s ex-president, to face obstruction charge
+     Sources: bbc.com, cnn.com, reuters.com
