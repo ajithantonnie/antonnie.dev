@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 15 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Refugees to face 20-year wait to settle permanently under asylum reforms
+  Added: Thousands protest against government in Mexico as clashes leave 120 injured
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Ethiopia confirms outbreak of deadly Marburg virus
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Makhachev dominates Della Maddalena to win UFC welterweight belt
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chinese Coast Guard vessels sail through Japan-administered Senkaku Islands
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UFC 322 updates: Makhachev beats Della Maddalena to take welterweight crown
+Added expanded search topic: Makhachev dominates Della Maddalena to win UFC welterweight belt
+Added expanded search topic: Chinese Coast Guard vessels sail through Japan-administered Senkaku Islands
+Added expanded search topic: UFC 322 updates: Makhachev beats Della Maddalena to take welterweight crown
+Saved 18 topics for 2025-11-16
+Returning 3 unique trending topics:
+  1. Makhachev dominates Della Maddalena to win UFC welterweight belt (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Chinese Coast Guard vessels sail through Japan-administered Senkaku Islands (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UFC 322 updates: Makhachev beats Della Maddalena to take welterweight crown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Makhachev dominates Della Maddalena to win UFC welterweight belt
+Searching Google for: Makhachev dominates Della Maddalena to win UFC welterweight belt
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMakhachev%252Bdominates%252BDella%252BMaddalena%252Bto%252Bwin%252BUFC%252Bwelterweight%252Bbelt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrJ0AGKf25cgGIjAPUDicLkcQ7HIomQfkoRHaiNy0qKXqLfSwo49TV4RgiUST6HeaMMK8VEvqLTQOBLUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: makhachev-dominates-della-maddalena-to-win-ufc-wel_20251116_0720.html
+✓ Created comprehensive article: makhachev-dominates-della-maddalena-to-win-ufc-wel_20251116_0720.html
+
+Processing trending topic: Chinese Coast Guard vessels sail through Japan-administered Senkaku Islands
+Searching Google for: Chinese Coast Guard vessels sail through Japan-administered Senkaku Islands
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChinese%252BCoast%252BGuard%252Bvessels%252Bsail%252Bthrough%252BJapan-administered%252BSenkaku%252BIslands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrJ0AGK325cgGIjAl0V4U3pLkdwKjQRWzxSsNkkDi7sDhRBkRufiCvZujkflXKrr6lGFM2ZxT6_A0RigyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: chinese-coast-guard-vessels-sail-through-japan-adm_20251116_0720.html
+✓ Created comprehensive article: chinese-coast-guard-vessels-sail-through-japan-adm_20251116_0720.html
+
+Processing trending topic: UFC 322 updates: Makhachev beats Della Maddalena to take welterweight crown
+Searching Google for: UFC 322 updates: Makhachev beats Della Maddalena to take welterweight crown
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUFC%252B322%252Bupdates%253A%252BMakhachev%252Bbeats%252BDella%252BMaddalena%252Bto%252Btake%252Bwelterweight%252Bcrown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrJ0AGLP25cgGIjAcFsafwGzBSfxEEolr0-2pQECOso2Ef5sp1EoslLTFBiNpVK56L0FkHtq0atjg75syBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ufc-322-updates-makhachev-beats-della-maddalena-to_20251116_0720.html
+✓ Created comprehensive article: ufc-322-updates-makhachev-beats-della-maddalena-to_20251116_0720.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Makhachev dominates Della Maddalena to win UFC welterweight belt
+     Sources: bbc.com, cnn.com, reuters.com
+   • Chinese Coast Guard vessels sail through Japan-administered Senkaku Islands
+     Sources: bbc.com, cnn.com, reuters.com
+   • UFC 322 updates: Makhachev beats Della Maddalena to take welterweight crown
+     Sources: bbc.com, cnn.com, reuters.com
