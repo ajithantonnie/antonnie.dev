@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Trump calls on House Republicans to vote to release Epstein files
+  Added: Fast-track deportations to be announced as part of asylum reforms
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Ethiopia confirms outbreak of deadly Marburg virus
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Russian attack kills 3 in Kharkiv; Ukraine’s Zelenskyy to meet Macron
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chile heads to a presidential run-off between Jara and Kast
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: DR Congo shock Nigeria on penalties to win African World Cup playoffs
+Added expanded search topic: LIVE: Russian attack kills 3 in Kharkiv; Ukraine’s Zelenskyy to meet Macron
+Added expanded search topic: Chile heads to a presidential run-off between Jara and Kast
+Added expanded search topic: DR Congo shock Nigeria on penalties to win African World Cup playoffs
+Saved 15 topics for 2025-11-17
+Returning 3 unique trending topics:
+  1. LIVE: Russian attack kills 3 in Kharkiv; Ukraine’s Zelenskyy to meet Macron (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Chile heads to a presidential run-off between Jara and Kast (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. DR Congo shock Nigeria on penalties to win African World Cup playoffs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: LIVE: Russian attack kills 3 in Kharkiv; Ukraine’s Zelenskyy to meet Macron
+Searching Google for: LIVE: Russian attack kills 3 in Kharkiv; Ukraine’s Zelenskyy to meet Macron
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BRussian%252Battack%252Bkills%252B3%252Bin%252BKharkiv%253B%252BUkraine%25E2%2580%2599s%252BZelenskyy%252Bto%252Bmeet%252BMacron%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LCiGI6D68gGIjAua2rkjsVOu26ylb4ImtPzj37KBtTFrG00KoYulKwh5U-UhY0wrJZlcRYuvq-txi8yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: live-russian-attack-kills-3-in-kharkiv-ukraines-ze_20251117_0632.html
+✓ Created comprehensive article: live-russian-attack-kills-3-in-kharkiv-ukraines-ze_20251117_0632.html
+
+Processing trending topic: Chile heads to a presidential run-off between Jara and Kast
+Searching Google for: Chile heads to a presidential run-off between Jara and Kast
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChile%252Bheads%252Bto%252Ba%252Bpresidential%252Brun-off%252Bbetween%252BJara%252Band%252BKast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LCiGJSD68gGIjC7Q462pc6dmG-zGVZnnvbp3XidboxlHnpni9uRCp7S1925IvVyY53tujVKFt718hsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: chile-heads-to-a-presidential-run-off-between-jara_20251117_0632.html
+✓ Created comprehensive article: chile-heads-to-a-presidential-run-off-between-jara_20251117_0632.html
+
+Processing trending topic: DR Congo shock Nigeria on penalties to win African World Cup playoffs
+Searching Google for: DR Congo shock Nigeria on penalties to win African World Cup playoffs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDR%252BCongo%252Bshock%252BNigeria%252Bon%252Bpenalties%252Bto%252Bwin%252BAfrican%252BWorld%252BCup%252Bplayoffs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LCiGJqD68gGIjB7xSRft6-e-CtvDfgiUPG2AVs8LlTqEqMaHvZxOL_qCn7RvCx-bnvLOnS5YOVIWt8yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: dr-congo-shock-nigeria-on-penalties-to-win-african_20251117_0633.html
+✓ Created comprehensive article: dr-congo-shock-nigeria-on-penalties-to-win-african_20251117_0633.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • LIVE: Russian attack kills 3 in Kharkiv; Ukraine’s Zelenskyy to meet Macron
+     Sources: bbc.com, cnn.com, reuters.com
+   • Chile heads to a presidential run-off between Jara and Kast
+     Sources: bbc.com, cnn.com, reuters.com
+   • DR Congo shock Nigeria on penalties to win African World Cup playoffs
+     Sources: bbc.com, cnn.com, reuters.com
