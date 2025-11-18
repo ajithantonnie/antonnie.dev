@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 27 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Google boss warns 'no company is going to be immune' if AI bubble bursts
+  Added: Don't blindly trust what AI tells you, says Google's Sundar Pichai
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: The Congo basin may be the world’s most important rainforest – why is it the least researched?
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Charlotte’s Web: What’s happening with North Carolina immigration raids?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nestle accused of risking baby health in Africa
+Added expanded search topic: Charlotte’s Web: What’s happening with North Carolina immigration raids?
+Added expanded search topic: Nestle accused of risking baby health in Africa
+Saved 30 topics for 2025-11-18
+Returning 3 unique trending topics:
+  1. The Congo basin may be the world’s most important rainforest – why is it the least researched? (from The Guardian)
+  2. Charlotte’s Web: What’s happening with North Carolina immigration raids? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Nestle accused of risking baby health in Africa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: The Congo basin may be the world’s most important rainforest – why is it the least researched?
+Searching Google for: The Congo basin may be the world’s most important rainforest – why is it the least researched?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BCongo%252Bbasin%252Bmay%252Bbe%252Bthe%252Bworld%25E2%2580%2599s%252Bmost%252Bimportant%252Brainforest%252B%25E2%2580%2593%252Bwhy%252Bis%252Bit%252Bthe%252Bleast%252Bresearched%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7iGISt8cgGIjDKZbanis1cX-lVVpmtz4NnOG_KgVy1P1Kro24wx9A04n59K6CK3rh7yaARt1RycVsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: the-congo-basin-may-be-the-worlds-most-important-r_20251118_1120.html
+✓ Created comprehensive article: the-congo-basin-may-be-the-worlds-most-important-r_20251118_1120.html
+
+Processing trending topic: Charlotte’s Web: What’s happening with North Carolina immigration raids?
+Searching Google for: Charlotte’s Web: What’s happening with North Carolina immigration raids?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCharlotte%25E2%2580%2599s%252BWeb%253A%252BWhat%25E2%2580%2599s%252Bhappening%252Bwith%252BNorth%252BCarolina%252Bimmigration%252Braids%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7iGIut8cgGIjApClNQyvRJZW84q7T3s_f2ra46a_vF7LK9MUaU3cYhqVVOtMxBOksFSMxF5ft7VDIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: charlottes-web-whats-happening-with-north-carolina_20251118_1120.html
+✓ Created comprehensive article: charlottes-web-whats-happening-with-north-carolina_20251118_1120.html
+
+Processing trending topic: Nestle accused of risking baby health in Africa
+Searching Google for: Nestle accused of risking baby health in Africa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNestle%252Baccused%252Bof%252Brisking%252Bbaby%252Bhealth%252Bin%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7iGJKt8cgGIjC98xlyY8VAP6v-ynwiAjuk5dK15gvz1gLX46m36Dh_R8xmLOQKgYQ6YO6o3apGa50yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: nestle-accused-of-risking-baby-health-in-africa_20251118_1120.html
+✓ Created comprehensive article: nestle-accused-of-risking-baby-health-in-africa_20251118_1120.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • The Congo basin may be the world’s most important rainforest – why is it the least researched?
+     Sources: bbc.com, cnn.com, reuters.com
+   • Charlotte’s Web: What’s happening with North Carolina immigration raids?
+     Sources: bbc.com, cnn.com, reuters.com
+   • Nestle accused of risking baby health in Africa
+     Sources: bbc.com, cnn.com, reuters.com
