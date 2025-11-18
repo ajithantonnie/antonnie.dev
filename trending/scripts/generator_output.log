@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 15 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Google boss warns 'no company is going to be immune' if AI bubble bursts
+  Added: Don't blindly trust what AI tells you, says Google's Sundar Pichai
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Nestlé accused of ’risking health of babies for profit’ over added sugar in cereals sold in Afric...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Germany, Netherlands qualify for World Cup 2026 on last day
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US may strike Mexican drug cartels next, after boat attacks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why India likely won’t return Hasina to face Bangladesh death penalty
+Added expanded search topic: Germany, Netherlands qualify for World Cup 2026 on last day
+Added expanded search topic: Trump says US may strike Mexican drug cartels next, after boat attacks
+Added expanded search topic: Why India likely won’t return Hasina to face Bangladesh death penalty
+Saved 18 topics for 2025-11-18
+Returning 3 unique trending topics:
+  1. Germany, Netherlands qualify for World Cup 2026 on last day (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump says US may strike Mexican drug cartels next, after boat attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why India likely won’t return Hasina to face Bangladesh death penalty (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Germany, Netherlands qualify for World Cup 2026 on last day
+Searching Google for: Germany, Netherlands qualify for World Cup 2026 on last day
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGermany%252C%252BNetherlands%252Bqualify%252Bfor%252BWorld%252BCup%252B2026%252Bon%252Blast%252Bday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHXyGIm98MgGIjDHKkXDbMn70WYRFsxrQDU1ebP-uRYTzP5noc-dRZLVw64eeP6OYSJmopqVuutvzfUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: germany-netherlands-qualify-for-world-cup-2026-on-_20251118_0721.html
+✓ Created comprehensive article: germany-netherlands-qualify-for-world-cup-2026-on-_20251118_0721.html
+
+Processing trending topic: Trump says US may strike Mexican drug cartels next, after boat attacks
+Searching Google for: Trump says US may strike Mexican drug cartels next, after boat attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bmay%252Bstrike%252BMexican%252Bdrug%252Bcartels%252Bnext%252C%252Bafter%252Bboat%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHXyGJC98MgGIjA_At5AtYgk4r0kpidUso_FLDdrUfWX5XzrJxrSfnHWmEDUUnNV3s5iCIUlhRcY2FkyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-says-us-may-strike-mexican-drug-cartels-next_20251118_0721.html
+✓ Created comprehensive article: trump-says-us-may-strike-mexican-drug-cartels-next_20251118_0721.html
+
+Processing trending topic: Why India likely won’t return Hasina to face Bangladesh death penalty
+Searching Google for: Why India likely won’t return Hasina to face Bangladesh death penalty
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BIndia%252Blikely%252Bwon%25E2%2580%2599t%252Breturn%252BHasina%252Bto%252Bface%252BBangladesh%252Bdeath%252Bpenalty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHXyGJa98MgGIjAF3kcfXSNzzPi00clLCEU0AnXq9Q89cQ6Ca0SdZlYMZLWPUPUyPX7Atvc7cKYBodMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: why-india-likely-wont-return-hasina-to-face-bangla_20251118_0722.html
+✓ Created comprehensive article: why-india-likely-wont-return-hasina-to-face-bangla_20251118_0722.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Germany, Netherlands qualify for World Cup 2026 on last day
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump says US may strike Mexican drug cartels next, after boat attacks
+     Sources: bbc.com, cnn.com, reuters.com
+   • Why India likely won’t return Hasina to face Bangladesh death penalty
+     Sources: bbc.com, cnn.com, reuters.com
