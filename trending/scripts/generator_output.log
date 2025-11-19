@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 60 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Russian spy ship pointed lasers at RAF pilots tracking it, says defence secretary
+  Added: US military officials in Ukraine for talks on ending war
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: New drug could be a breakthrough in treatment for killer TB, trial suggests
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump pledges ‘cooperation and coordination’ to end Sudan’s civil war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why has number of people facing hunger doubled since 2019?
+Added expanded search topic: Trump pledges ‘cooperation and coordination’ to end Sudan’s civil war
+Added expanded search topic: Why has number of people facing hunger doubled since 2019?
+Saved 63 topics for 2025-11-19
+Returning 3 unique trending topics:
+  1. US military officials in Ukraine for talks on ending war (from BBC News)
+  2. Trump pledges ‘cooperation and coordination’ to end Sudan’s civil war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why has number of people facing hunger doubled since 2019? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US military officials in Ukraine for talks on ending war
+Searching Google for: US military officials in Ukraine for talks on ending war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmilitary%252Bofficials%252Bin%252BUkraine%252Bfor%252Btalks%252Bon%252Bending%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYcbyGNeF-cgGIjCQRHb6yzZSzSfMXCAwtHNfsEcsoWPnJb-wq3S7d1Gu5W_312lgUAqv6FbqY71HnHMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-military-officials-in-ukraine-for-talks-on-endi_20251119_2221.html
+✓ Created comprehensive article: us-military-officials-in-ukraine-for-talks-on-endi_20251119_2221.html
+
+Processing trending topic: Trump pledges ‘cooperation and coordination’ to end Sudan’s civil war
+Searching Google for: Trump pledges ‘cooperation and coordination’ to end Sudan’s civil war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bpledges%252B%25E2%2580%2598cooperation%252Band%252Bcoordination%25E2%2580%2599%252Bto%252Bend%252BSudan%25E2%2580%2599s%252Bcivil%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYcbyGN6F-cgGIjC1eWOb4oOeQY9JhNILHFJWTKowWJX4K76iDARmNZbE9hYyT_EmDHT9DPwTJRgpYIYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-pledges-cooperation-and-coordination-to-end-_20251119_2221.html
+✓ Created comprehensive article: trump-pledges-cooperation-and-coordination-to-end-_20251119_2221.html
+
+Processing trending topic: Why has number of people facing hunger doubled since 2019?
+Searching Google for: Why has number of people facing hunger doubled since 2019?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhas%252Bnumber%252Bof%252Bpeople%252Bfacing%252Bhunger%252Bdoubled%252Bsince%252B2019%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYcbyGOSF-cgGIjAFl0U6H54vs0ZbdpamV6cczrwtg4wi94JLNvJmwvugPEKtHmHbkKoOOXNxp91QnnwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: why-has-number-of-people-facing-hunger-doubled-sin_20251119_2221.html
+✓ Created comprehensive article: why-has-number-of-people-facing-hunger-doubled-sin_20251119_2221.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US military officials in Ukraine for talks on ending war
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump pledges ‘cooperation and coordination’ to end Sudan’s civil war
+     Sources: bbc.com, cnn.com, reuters.com
+   • Why has number of people facing hunger doubled since 2019?
+     Sources: bbc.com, cnn.com, reuters.com
