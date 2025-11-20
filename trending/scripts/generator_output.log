@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 51 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Lockdown could have been avoided and other key findings from Covid inquiry
+  Added: Zelensky to speak with Trump after US proposes Russia-Ukraine peace plan
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: US in talks to attend G20 summit after initial boycott, South Africa says
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US tariffs cast shadow over Nuevo Leon’s steel industry in Mexico
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least 41 dead as heavy rain, flooding and landslides hit central Vietnam
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mamdani says he will ‘stand up for New Yorkers’ in Trump meeting
+Added expanded search topic: US tariffs cast shadow over Nuevo Leon’s steel industry in Mexico
+Added expanded search topic: At least 41 dead as heavy rain, flooding and landslides hit central Vietnam
+Added expanded search topic: Mamdani says he will ‘stand up for New Yorkers’ in Trump meeting
+Saved 54 topics for 2025-11-20
+Returning 3 unique trending topics:
+  1. US tariffs cast shadow over Nuevo Leon’s steel industry in Mexico (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. At least 41 dead as heavy rain, flooding and landslides hit central Vietnam (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mamdani says he will ‘stand up for New Yorkers’ in Trump meeting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US tariffs cast shadow over Nuevo Leon’s steel industry in Mexico
+Searching Google for: US tariffs cast shadow over Nuevo Leon’s steel industry in Mexico
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Btariffs%252Bcast%252Bshadow%252Bover%252BNuevo%252BLeon%25E2%2580%2599s%252Bsteel%252Bindustry%252Bin%252BMexico%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNN3GJjU_cgGIjDoGa-Yjik4sVLFM4va2Xr2j8UnuLOxkuDtcYKgWXvWWuCvSnzt13umzEFCkOgOyhsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-tariffs-cast-shadow-over-nuevo-leons-steel-indu_20251120_1921.html
+✓ Created comprehensive article: us-tariffs-cast-shadow-over-nuevo-leons-steel-indu_20251120_1921.html
+
+Processing trending topic: At least 41 dead as heavy rain, flooding and landslides hit central Vietnam
+Searching Google for: At least 41 dead as heavy rain, flooding and landslides hit central Vietnam
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B41%252Bdead%252Bas%252Bheavy%252Brain%252C%252Bflooding%252Band%252Blandslides%252Bhit%252Bcentral%252BVietnam%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNN3GJ7U_cgGIjCo6QLc1ObGd5n7UacPQWZmLntJInqaeZu4WScSNv-3NurrjcL1x8OE-VVdkwjYBucyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: at-least-41-dead-as-heavy-rain-flooding-and-landsl_20251120_1921.html
+✓ Created comprehensive article: at-least-41-dead-as-heavy-rain-flooding-and-landsl_20251120_1921.html
+
+Processing trending topic: Mamdani says he will ‘stand up for New Yorkers’ in Trump meeting
+Searching Google for: Mamdani says he will ‘stand up for New Yorkers’ in Trump meeting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMamdani%252Bsays%252Bhe%252Bwill%252B%25E2%2580%2598stand%252Bup%252Bfor%252BNew%252BYorkers%25E2%2580%2599%252Bin%252BTrump%252Bmeeting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNN3GKTU_cgGIjA-pNRi3W0iaV9LZsXrcoBH1xTSCDE4gp4MlUv_MtPR4WmdxZi7jZ2Mb18hBa9ecc0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: mamdani-says-he-will-stand-up-for-new-yorkers-in-t_20251120_1921.html
+✓ Created comprehensive article: mamdani-says-he-will-stand-up-for-new-yorkers-in-t_20251120_1921.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US tariffs cast shadow over Nuevo Leon’s steel industry in Mexico
+     Sources: bbc.com, cnn.com, reuters.com
+   • At least 41 dead as heavy rain, flooding and landslides hit central Vietnam
+     Sources: bbc.com, cnn.com, reuters.com
+   • Mamdani says he will ‘stand up for New Yorkers’ in Trump meeting
+     Sources: bbc.com, cnn.com, reuters.com
