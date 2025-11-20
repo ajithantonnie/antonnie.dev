@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 24 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Trump signs bill ordering US justice department to release Epstein files
+  Added: The private notes and secret documents that tell the inside story of the UK's Covid response
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: New drug could be a breakthrough in treatment for killer TB, trial suggests
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: EU says any peace plan must consult Ukraine, Europe, doubts Russian intent
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kenyan lake flood displaces thousands, ruins homes and schools
+Added expanded search topic: EU says any peace plan must consult Ukraine, Europe, doubts Russian intent
+Added expanded search topic: Kenyan lake flood displaces thousands, ruins homes and schools
+Saved 27 topics for 2025-11-20
+Returning 3 unique trending topics:
+  1. Trump signs bill ordering US justice department to release Epstein files (from BBC News)
+  2. EU says any peace plan must consult Ukraine, Europe, doubts Russian intent (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Kenyan lake flood displaces thousands, ruins homes and schools (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Trump signs bill ordering US justice department to release Epstein files
+Searching Google for: Trump signs bill ordering US justice department to release Epstein files
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsigns%252Bbill%252Bordering%252BUS%252Bjustice%252Bdepartment%252Bto%252Brelease%252BEpstein%252Bfiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MlDGLPY-8gGIjA7HrZwneYbJkGRWrciar400TE-oTM6H2Jsj962lURv7HkQ1zmq8MgyVyDzxuYR33oyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-signs-bill-ordering-us-justice-department-to_20251120_1023.html
+✓ Created comprehensive article: trump-signs-bill-ordering-us-justice-department-to_20251120_1023.html
+
+Processing trending topic: EU says any peace plan must consult Ukraine, Europe, doubts Russian intent
+Searching Google for: EU says any peace plan must consult Ukraine, Europe, doubts Russian intent
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bsays%252Bany%252Bpeace%252Bplan%252Bmust%252Bconsult%252BUkraine%252C%252BEurope%252C%252Bdoubts%252BRussian%252Bintent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MlDGLrY-8gGIjAVtoIxlQrPFvRDGXkMMi7ta5iPx1DdIE2wyBZYT0l7n1Zhy__4etmMNHMg3dxVdaUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: eu-says-any-peace-plan-must-consult-ukraine-europe_20251120_1023.html
+✓ Created comprehensive article: eu-says-any-peace-plan-must-consult-ukraine-europe_20251120_1023.html
+
+Processing trending topic: Kenyan lake flood displaces thousands, ruins homes and schools
+Searching Google for: Kenyan lake flood displaces thousands, ruins homes and schools
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenyan%252Blake%252Bflood%252Bdisplaces%252Bthousands%252C%252Bruins%252Bhomes%252Band%252Bschools%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MlDGMDY-8gGIjBRvD-2Tqz3K15kxprQHrZkPLE1syl_cyHRC5g_jBsZM8SzXZ0-Z9RyQFd97gyGwyAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: kenyan-lake-flood-displaces-thousands-ruins-homes-_20251120_1024.html
+✓ Created comprehensive article: kenyan-lake-flood-displaces-thousands-ruins-homes-_20251120_1024.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Trump signs bill ordering US justice department to release Epstein files
+     Sources: bbc.com, cnn.com, reuters.com
+   • EU says any peace plan must consult Ukraine, Europe, doubts Russian intent
+     Sources: bbc.com, cnn.com, reuters.com
+   • Kenyan lake flood displaces thousands, ruins homes and schools
+     Sources: bbc.com, cnn.com, reuters.com
