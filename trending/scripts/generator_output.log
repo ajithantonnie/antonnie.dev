@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 24 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Boy with rare condition amazes doctors after world-first gene therapy
+  Added: What can nervous businesses expect from the Budget?
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Cyril Ramaphosa closes G20 summit after US boycott and handover row
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US plan to stop Ukraine war is “not reasonable”
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan army chief rejects truce proposal citing UAE role
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Attack in Pakistan’s Peshawar: What we know about victims, attackers
+Added expanded search topic: US plan to stop Ukraine war is “not reasonable”
+Added expanded search topic: Sudan army chief rejects truce proposal citing UAE role
+Added expanded search topic: Attack in Pakistan’s Peshawar: What we know about victims, attackers
+Saved 27 topics for 2025-11-24
+Returning 3 unique trending topics:
+  1. US plan to stop Ukraine war is “not reasonable” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sudan army chief rejects truce proposal citing UAE role (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Attack in Pakistan’s Peshawar: What we know about victims, attackers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US plan to stop Ukraine war is “not reasonable”
+Searching Google for: US plan to stop Ukraine war is “not reasonable”
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bplan%252Bto%252Bstop%252BUkraine%252Bwar%252Bis%252B%25E2%2580%259Cnot%252Breasonable%25E2%2580%259D%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcHGObkkMkGIjDJdAXJd9dKR9eXoPYfO6QuEFSbwmUXbwNHQVVRmBQIRZKU-EHhlDArrtmBL2f1GYQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-plan-to-stop-ukraine-war-is-not-reasonable_20251124_1024.html
+✓ Created comprehensive article: us-plan-to-stop-ukraine-war-is-not-reasonable_20251124_1024.html
+
+Processing trending topic: Sudan army chief rejects truce proposal citing UAE role
+Searching Google for: Sudan army chief rejects truce proposal citing UAE role
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%252Barmy%252Bchief%252Brejects%252Btruce%252Bproposal%252Bciting%252BUAE%252Brole%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcHGO3kkMkGIjDq3T6WiP7tM7G9JSp7TyZJAMPR_SONZRyIMDZVuUN2aYbR7RVxrPb8b_vEnbu3eLoyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: sudan-army-chief-rejects-truce-proposal-citing-uae_20251124_1024.html
+✓ Created comprehensive article: sudan-army-chief-rejects-truce-proposal-citing-uae_20251124_1024.html
+
+Processing trending topic: Attack in Pakistan’s Peshawar: What we know about victims, attackers
+Searching Google for: Attack in Pakistan’s Peshawar: What we know about victims, attackers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttack%252Bin%252BPakistan%25E2%2580%2599s%252BPeshawar%253A%252BWhat%252Bwe%252Bknow%252Babout%252Bvictims%252C%252Battackers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcHGPPkkMkGIjDRb7iZ98j4ug3ygmddVUNH45YU8WQs5Xb3Y34dM8FrmLXxan_OdBK-H5lsUHF1i04yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: attack-in-pakistans-peshawar-what-we-know-about-vi_20251124_1024.html
+✓ Created comprehensive article: attack-in-pakistans-peshawar-what-we-know-about-vi_20251124_1024.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US plan to stop Ukraine war is “not reasonable”
+     Sources: bbc.com, cnn.com, reuters.com
+   • Sudan army chief rejects truce proposal citing UAE role
+     Sources: bbc.com, cnn.com, reuters.com
+   • Attack in Pakistan’s Peshawar: What we know about victims, attackers
+     Sources: bbc.com, cnn.com, reuters.com
