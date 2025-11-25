@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 3 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: BBC chairman vows to stay to 'fix' problems
+  Added: BBC chairman survives MPs' questions – but crisis at corporation is not over
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: UK rejects Nigerian request to deport former politican jailed for organ trafficking
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Taliban says Pakistan bombed Afghanistan, killing nine children and a woman
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,370
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump orders blacklisting Muslim Brotherhood branches as ‘terrorist’ groups
+Added expanded search topic: Taliban says Pakistan bombed Afghanistan, killing nine children and a woman
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,370
+Added expanded search topic: Trump orders blacklisting Muslim Brotherhood branches as ‘terrorist’ groups
+Saved 6 topics for 2025-11-25
+Returning 3 unique trending topics:
+  1. Taliban says Pakistan bombed Afghanistan, killing nine children and a woman (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,370 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump orders blacklisting Muslim Brotherhood branches as ‘terrorist’ groups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Taliban says Pakistan bombed Afghanistan, killing nine children and a woman
+Searching Google for: Taliban says Pakistan bombed Afghanistan, killing nine children and a woman
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTaliban%252Bsays%252BPakistan%252Bbombed%252BAfghanistan%252C%252Bkilling%252Bnine%252Bchildren%252Band%252Ba%252Bwoman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqUEGLK_lMkGIjCyNbr7KtoeS8lu0GEEX5s-tMeW3K3Of8anpSu5MQzJJw-c_IMnM0FM-HjRZtYPqpgyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: taliban-says-pakistan-bombed-afghanistan-killing-n_20251125_0317.html
+✓ Created comprehensive article: taliban-says-pakistan-bombed-afghanistan-killing-n_20251125_0317.html
+
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,370
+Searching Google for: Russia-Ukraine war: List of key events, day 1,370
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C370%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqUEGLq_lMkGIjB4jteiyhzQfccvl2k5Uz4SQ44tiq3QQeORltmGgDJGDx6nhRz1enSVYpWv35bZXHYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1370_20251125_0317.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1370_20251125_0317.html
+
+Processing trending topic: Trump orders blacklisting Muslim Brotherhood branches as ‘terrorist’ groups
+Searching Google for: Trump orders blacklisting Muslim Brotherhood branches as ‘terrorist’ groups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Borders%252Bblacklisting%252BMuslim%252BBrotherhood%252Bbranches%252Bas%252B%25E2%2580%2598terrorist%25E2%2580%2599%252Bgroups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqUEGMC_lMkGIjA8tbrVQ8JKWOqPugVgebfcOXIPHrbAY5s_PwsTgpStAHpRxEGA1dCSLk3six0qAZUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-orders-blacklisting-muslim-brotherhood-branc_20251125_0317.html
+✓ Created comprehensive article: trump-orders-blacklisting-muslim-brotherhood-branc_20251125_0317.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Taliban says Pakistan bombed Afghanistan, killing nine children and a woman
+     Sources: bbc.com, cnn.com, reuters.com
+   • Russia-Ukraine war: List of key events, day 1,370
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump orders blacklisting Muslim Brotherhood branches as ‘terrorist’ groups
+     Sources: bbc.com, cnn.com, reuters.com
