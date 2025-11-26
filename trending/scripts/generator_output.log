@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 6 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Chris Mason: Reeves will be hoping the Budget buys her some time
+  Added: Tax rises, benefits and minimum wage. What could be in today's Budget?
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Nigerian schoolgirls rescued after mass abduction in Kebbi
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Italy adds ‘femicide’ to the criminal code to curb violence against women
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Zealand mother jailed for life over ‘suitcase murders’ of her children
+Added expanded search topic: Italy adds ‘femicide’ to the criminal code to curb violence against women
+Added expanded search topic: New Zealand mother jailed for life over ‘suitcase murders’ of her children
+Saved 9 topics for 2025-11-26
+Returning 3 unique trending topics:
+  1. Tax rises, benefits and minimum wage. What could be in today's Budget? (from BBC News)
+  2. Italy adds ‘femicide’ to the criminal code to curb violence against women (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. New Zealand mother jailed for life over ‘suitcase murders’ of her children (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Tax rises, benefits and minimum wage. What could be in today's Budget?
+Searching Google for: Tax rises, benefits and minimum wage. What could be in today's Budget?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTax%252Brises%252C%252Bbenefits%252Band%252Bminimum%252Bwage.%252BWhat%252Bcould%252Bbe%252Bin%252Btoday%2527s%252BBudget%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw09UkGMKDmskGIjA9iliprFdH_jYwE4qqAgR9q9wjHNAc5M15357mEng41lLubfXBgpYTq6Gd_LfC234yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: tax-rises-benefits-and-minimum-wage-what-could-be-_20251126_0427.html
+✓ Created comprehensive article: tax-rises-benefits-and-minimum-wage-what-could-be-_20251126_0427.html
+
+Processing trending topic: Italy adds ‘femicide’ to the criminal code to curb violence against women
+Searching Google for: Italy adds ‘femicide’ to the criminal code to curb violence against women
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DItaly%252Badds%252B%25E2%2580%2598femicide%25E2%2580%2599%252Bto%252Bthe%252Bcriminal%252Bcode%252Bto%252Bcurb%252Bviolence%252Bagainst%252Bwomen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw09UkGMmDmskGIjBEnfuTKAk1QN5Knylhh0ZsMXkaoUQAVWVmgi7ntNzVge2XJ4jND-U4cyZXw_Q18k8yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: italy-adds-femicide-to-the-criminal-code-to-curb-v_20251126_0427.html
+✓ Created comprehensive article: italy-adds-femicide-to-the-criminal-code-to-curb-v_20251126_0427.html
+
+Processing trending topic: New Zealand mother jailed for life over ‘suitcase murders’ of her children
+Searching Google for: New Zealand mother jailed for life over ‘suitcase murders’ of her children
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BZealand%252Bmother%252Bjailed%252Bfor%252Blife%252Bover%252B%25E2%2580%2598suitcase%252Bmurders%25E2%2580%2599%252Bof%252Bher%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw09UkGM-DmskGIjAgrr5AvGLNh4898JFNuUY2_Ko3an-dn0B9SoNprErAycjRwF9Da9SzAh2PLRgEFMwyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: new-zealand-mother-jailed-for-life-over-suitcase-m_20251126_0428.html
+✓ Created comprehensive article: new-zealand-mother-jailed-for-life-over-suitcase-m_20251126_0428.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Tax rises, benefits and minimum wage. What could be in today's Budget?
+     Sources: bbc.com, cnn.com, reuters.com
+   • Italy adds ‘femicide’ to the criminal code to curb violence against women
+     Sources: bbc.com, cnn.com, reuters.com
+   • New Zealand mother jailed for life over ‘suitcase murders’ of her children
+     Sources: bbc.com, cnn.com, reuters.com
