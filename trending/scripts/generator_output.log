@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Isas, cars and pensions: How the Budget affects you
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Guinea-Bissau military takes ‘total control’ amid election chaos
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US group sues Apple over DR Congo conflict minerals
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China blocks ByteDance from Nvidia chip use: Report
-Added expanded search topic: US group sues Apple over DR Congo conflict minerals
-Added expanded search topic: China blocks ByteDance from Nvidia chip use: Report
-Saved 51 topics for 2025-11-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Five key takeaways from the UK’s tax-and-spending budget
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Georgia judge drops election interference case against Trump
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US ranchers whiplashed by Trump’s beef policies
+Added expanded search topic: Five key takeaways from the UK’s tax-and-spending budget
+Added expanded search topic: Georgia judge drops election interference case against Trump
+Added expanded search topic: US ranchers whiplashed by Trump’s beef policies
+Saved 54 topics for 2025-11-26
 Returning 3 unique trending topics:
-  1. Guinea-Bissau military takes ‘total control’ amid election chaos (from The Guardian)
-  2. US group sues Apple over DR Congo conflict minerals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. China blocks ByteDance from Nvidia chip use: Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Five key takeaways from the UK’s tax-and-spending budget (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Georgia judge drops election interference case against Trump (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US ranchers whiplashed by Trump’s beef policies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Guinea-Bissau military takes ‘total control’ amid election chaos
-Searching Google for: Guinea-Bissau military takes ‘total control’ amid election chaos
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGuinea-Bissau%252Bmilitary%252Btakes%252B%25E2%2580%2598total%252Bcontrol%25E2%2580%2599%252Bamid%252Belection%252Bchaos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCFGMeMnckGIjBGYnKE7sF6A7M3D67bRoJ35D0O2BS5HCO3bSOwguMryn9eVAqky8Ubf_9YN0aDvs4yAnJSWgFD
+Processing trending topic: Five key takeaways from the UK’s tax-and-spending budget
+Searching Google for: Five key takeaways from the UK’s tax-and-spending budget
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: guinea-bissau-military-takes-total-control-amid-el_20251126_1826.html
-✓ Created comprehensive article: guinea-bissau-military-takes-total-control-amid-el_20251126_1826.html
+Successfully created file: five-key-takeaways-from-the-uks-tax-and-spending-b_20251126_1917.html
+✓ Created comprehensive article: five-key-takeaways-from-the-uks-tax-and-spending-b_20251126_1917.html
 
-Processing trending topic: US group sues Apple over DR Congo conflict minerals
-Searching Google for: US group sues Apple over DR Congo conflict minerals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bgroup%252Bsues%252BApple%252Bover%252BDR%252BCongo%252Bconflict%252Bminerals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCFGM6MnckGIjDL8Icq2eUEoPUqz1cFJKvM2cj6YP_24xNcchjNEQwIniF1ztEXYBB46A0GhwzhC78yAnJSWgFD
+Processing trending topic: Georgia judge drops election interference case against Trump
+Searching Google for: Georgia judge drops election interference case against Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGeorgia%252Bjudge%252Bdrops%252Belection%252Binterference%252Bcase%252Bagainst%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ6WGIylnckGIjDASlL81NnpZRRPkn_lrB-WdU1lVs_r9eBh3iefSyB85GxAZNslZosZ89pu-BTKwRkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-group-sues-apple-over-dr-congo-conflict-mineral_20251126_1826.html
-✓ Created comprehensive article: us-group-sues-apple-over-dr-congo-conflict-mineral_20251126_1826.html
+Successfully created file: georgia-judge-drops-election-interference-case-aga_20251126_1918.html
+✓ Created comprehensive article: georgia-judge-drops-election-interference-case-aga_20251126_1918.html
 
-Processing trending topic: China blocks ByteDance from Nvidia chip use: Report
-Searching Google for: China blocks ByteDance from Nvidia chip use: Report
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bblocks%252BByteDance%252Bfrom%252BNvidia%252Bchip%252Buse%253A%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCFGNWMnckGIjCHKWGoQBHkj35qcnRWHCxx1dV14oGW5sHNqXkh8nlZ9-tX8oJ7CxgQwsEwLdSUnocyAnJSWgFD
+Processing trending topic: US ranchers whiplashed by Trump’s beef policies
+Searching Google for: US ranchers whiplashed by Trump’s beef policies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Branchers%252Bwhiplashed%252Bby%252BTrump%25E2%2580%2599s%252Bbeef%252Bpolicies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ6WGJKlnckGIjBipQFXaBoDxRoxLvHkLtZx08AvS6f0wOSkejxYn3D_2ZmnzeX9f9Wywv7-Ow1bdacyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: china-blocks-bytedance-from-nvidia-chip-use-report_20251126_1826.html
-✓ Created comprehensive article: china-blocks-bytedance-from-nvidia-chip-use-report_20251126_1826.html
+Successfully created file: us-ranchers-whiplashed-by-trumps-beef-policies_20251126_1918.html
+✓ Created comprehensive article: us-ranchers-whiplashed-by-trumps-beef-policies_20251126_1918.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Guinea-Bissau military takes ‘total control’ amid election chaos
+   • Five key takeaways from the UK’s tax-and-spending budget
      Sources: bbc.com, cnn.com, reuters.com
-   • US group sues Apple over DR Congo conflict minerals
+   • Georgia judge drops election interference case against Trump
      Sources: bbc.com, cnn.com, reuters.com
-   • China blocks ByteDance from Nvidia chip use: Report
+   • US ranchers whiplashed by Trump’s beef policies
      Sources: bbc.com, cnn.com, reuters.com
