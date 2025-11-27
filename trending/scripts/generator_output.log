@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 60 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Labour drops plan to give workers protection from unfair dismissal from first day in a job
+  Added: Households face 'dismal' rise in spending power, says IFS, as Starmer defends Budget
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Guinea-Bissau military takes ‘total control’ amid election chaos
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Real uncertainty’: What to know about the Honduran presidential election
+  Found from World News - Breaking international news and headlines | Sky News: Horror in Hong Kong: Residents reel from its worst disaster in modern history
+  Found from World News - Breaking international news and headlines | Sky News: At least 83 dead and hundreds missing as police make arrests over Hong Kong fire
+Added expanded search topic: ‘Real uncertainty’: What to know about the Honduran presidential election
+Added expanded search topic: Horror in Hong Kong: Residents reel from its worst disaster in modern history
+Added expanded search topic: At least 83 dead and hundreds missing as police make arrests over Hong Kong fire
+Saved 63 topics for 2025-11-27
+Returning 3 unique trending topics:
+  1. ‘Real uncertainty’: What to know about the Honduran presidential election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Horror in Hong Kong: Residents reel from its worst disaster in modern history (from World News - Breaking international news and headlines | Sky News)
+  3. At least 83 dead and hundreds missing as police make arrests over Hong Kong fire (from World News - Breaking international news and headlines | Sky News)
+
+Processing trending topic: ‘Real uncertainty’: What to know about the Honduran presidential election
+Searching Google for: ‘Real uncertainty’: What to know about the Honduran presidential election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Real%252Buncertainty%25E2%2580%2599%253A%252BWhat%252Bto%252Bknow%252Babout%252Bthe%252BHonduran%252Bpresidential%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU7GQAGKKdo8kGIjCiLywUBXMbo90FZy9_KQ9TZcyOzXKaRMfVsjkPx2jL3SpBa5jIuLguUuiNXMBnvVMyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: real-uncertainty-what-to-know-about-the-honduran-p_20251127_2220.html
+✓ Created comprehensive article: real-uncertainty-what-to-know-about-the-honduran-p_20251127_2220.html
+
+Processing trending topic: Horror in Hong Kong: Residents reel from its worst disaster in modern history
+Searching Google for: Horror in Hong Kong: Residents reel from its worst disaster in modern history
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHorror%252Bin%252BHong%252BKong%253A%252BResidents%252Breel%252Bfrom%252Bits%252Bworst%252Bdisaster%252Bin%252Bmodern%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU7GQAGKmdo8kGIjBhrW-_xZNXHzkmfFfQ3uNe68_1hRnIHC62EaXHx3YdQPiW0Wf1G7Vq1p16SDHHvwMyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: horror-in-hong-kong-residents-reel-from-its-worst-_20251127_2220.html
+✓ Created comprehensive article: horror-in-hong-kong-residents-reel-from-its-worst-_20251127_2220.html
+
+Processing trending topic: At least 83 dead and hundreds missing as police make arrests over Hong Kong fire
+Searching Google for: At least 83 dead and hundreds missing as police make arrests over Hong Kong fire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B83%252Bdead%252Band%252Bhundreds%252Bmissing%252Bas%252Bpolice%252Bmake%252Barrests%252Bover%252BHong%252BKong%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU7GQAGK-do8kGIjBLfjeXtbZmBJn1ombNdEHH21FonLqb405feIB5tbwO9xkht-YpMal-2QnzRyAonvoyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: at-least-83-dead-and-hundreds-missing-as-police-ma_20251127_2220.html
+✓ Created comprehensive article: at-least-83-dead-and-hundreds-missing-as-police-ma_20251127_2220.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • ‘Real uncertainty’: What to know about the Honduran presidential election
+     Sources: bbc.com, cnn.com, reuters.com
+   • Horror in Hong Kong: Residents reel from its worst disaster in modern history
+     Sources: bbc.com, cnn.com, reuters.com
+   • At least 83 dead and hundreds missing as police make arrests over Hong Kong fire
+     Sources: bbc.com, cnn.com, reuters.com
