@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 9 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Millions to pay more in tax as Reeves says Budget is tackling cost of living
+  Added: Faisal Islam: The real reason Reeves is making you pay more tax
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Guinea-Bissau military takes ‘total control’ amid election chaos
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hong Kong high-rise fire live: Blaze kills at least 44, hundreds missing
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: PSV trounce Liverpool as Arsenal topple Bayern while PSG and Real also win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump yanks G20 invitation from South Africa over false genocide claims
+Added expanded search topic: Hong Kong high-rise fire live: Blaze kills at least 44, hundreds missing
+Added expanded search topic: PSV trounce Liverpool as Arsenal topple Bayern while PSG and Real also win
+Added expanded search topic: Trump yanks G20 invitation from South Africa over false genocide claims
+Saved 12 topics for 2025-11-27
+Returning 3 unique trending topics:
+  1. Hong Kong high-rise fire live: Blaze kills at least 44, hundreds missing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. PSV trounce Liverpool as Arsenal topple Bayern while PSG and Real also win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump yanks G20 invitation from South Africa over false genocide claims (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Hong Kong high-rise fire live: Blaze kills at least 44, hundreds missing
+Searching Google for: Hong Kong high-rise fire live: Blaze kills at least 44, hundreds missing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHong%252BKong%252Bhigh-rise%252Bfire%252Blive%253A%252BBlaze%252Bkills%252Bat%252Bleast%252B44%252C%252Bhundreds%252Bmissing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyybxGJzAn8kGIjBQXx1vOERyZ19oj80YXwXv7mCdG7j6_t4k9FzRcrQLOs1babzheixJp-G-NLIx83cyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: hong-kong-high-rise-fire-live-blaze-kills-at-least_20251127_0522.html
+✓ Created comprehensive article: hong-kong-high-rise-fire-live-blaze-kills-at-least_20251127_0522.html
+
+Processing trending topic: PSV trounce Liverpool as Arsenal topple Bayern while PSG and Real also win
+Searching Google for: PSV trounce Liverpool as Arsenal topple Bayern while PSG and Real also win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPSV%252Btrounce%252BLiverpool%252Bas%252BArsenal%252Btopple%252BBayern%252Bwhile%252BPSG%252Band%252BReal%252Balso%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyybxGKTAn8kGIjDl3894is78HdEefGp2AyzOBwCLtet-MGcv_zY1HjFe0b0oBz_2TPJY5aCngmQjs6UyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: psv-trounce-liverpool-as-arsenal-topple-bayern-whi_20251127_0522.html
+✓ Created comprehensive article: psv-trounce-liverpool-as-arsenal-topple-bayern-whi_20251127_0522.html
+
+Processing trending topic: Trump yanks G20 invitation from South Africa over false genocide claims
+Searching Google for: Trump yanks G20 invitation from South Africa over false genocide claims
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Byanks%252BG20%252Binvitation%252Bfrom%252BSouth%252BAfrica%252Bover%252Bfalse%252Bgenocide%252Bclaims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyybxGKrAn8kGIjAW-cECncDidEGL6X4oP3LWUtrvkgpundxn3pus6DcVwg3ZGO5ytNEufo51wpFJRIMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-yanks-g20-invitation-from-south-africa-over-_20251127_0522.html
+✓ Created comprehensive article: trump-yanks-g20-invitation-from-south-africa-over-_20251127_0522.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Hong Kong high-rise fire live: Blaze kills at least 44, hundreds missing
+     Sources: bbc.com, cnn.com, reuters.com
+   • PSV trounce Liverpool as Arsenal topple Bayern while PSG and Real also win
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump yanks G20 invitation from South Africa over false genocide claims
+     Sources: bbc.com, cnn.com, reuters.com
