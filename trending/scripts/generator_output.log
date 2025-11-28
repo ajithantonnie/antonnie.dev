@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 6 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Labour drops plan to give workers protection from unfair dismissal from first day in a job
+  Added: Households face 'dismal' rise in spending power, says IFS, as Starmer defends Budget
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Guinea-Bissau military takes ‘total control’ amid election chaos
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jordan demands Russia stop recruiting citizens after two killed in fighting
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US will stop Venezuelan drug trafficking ‘by land’ soon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Real uncertainty’: What to know about Honduras’ presidential election
+Added expanded search topic: Jordan demands Russia stop recruiting citizens after two killed in fighting
+Added expanded search topic: Trump says US will stop Venezuelan drug trafficking ‘by land’ soon
+Added expanded search topic: ‘Real uncertainty’: What to know about Honduras’ presidential election
+Saved 9 topics for 2025-11-28
+Returning 3 unique trending topics:
+  1. Jordan demands Russia stop recruiting citizens after two killed in fighting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump says US will stop Venezuelan drug trafficking ‘by land’ soon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘Real uncertainty’: What to know about Honduras’ presidential election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Jordan demands Russia stop recruiting citizens after two killed in fighting
+Searching Google for: Jordan demands Russia stop recruiting citizens after two killed in fighting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJordan%252Bdemands%252BRussia%252Bstop%252Brecruiting%252Bcitizens%252Bafter%252Btwo%252Bkilled%252Bin%252Bfighting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U80GLfIpMkGIjBzRRpPsNPL4jXJwmfwf9uw93LYYwG_6jA6Zl8Wdlf_Kxm1hBgovQxgRDyL0qAXrqEyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: jordan-demands-russia-stop-recruiting-citizens-aft_20251128_0425.html
+✓ Created comprehensive article: jordan-demands-russia-stop-recruiting-citizens-aft_20251128_0425.html
+
+Processing trending topic: Trump says US will stop Venezuelan drug trafficking ‘by land’ soon
+Searching Google for: Trump says US will stop Venezuelan drug trafficking ‘by land’ soon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bwill%252Bstop%252BVenezuelan%252Bdrug%252Btrafficking%252B%25E2%2580%2598by%252Bland%25E2%2580%2599%252Bsoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U80GL3IpMkGIjDacojwH-NTllB5e7IqP8P_Gf96yUBgoJI1V75vKyxQSiCLEXAXWEruNQRX8aAjPd8yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-says-us-will-stop-venezuelan-drug-traffickin_20251128_0425.html
+✓ Created comprehensive article: trump-says-us-will-stop-venezuelan-drug-traffickin_20251128_0425.html
+
+Processing trending topic: ‘Real uncertainty’: What to know about Honduras’ presidential election
+Searching Google for: ‘Real uncertainty’: What to know about Honduras’ presidential election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Real%252Buncertainty%25E2%2580%2599%253A%252BWhat%252Bto%252Bknow%252Babout%252BHonduras%25E2%2580%2599%252Bpresidential%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U80GMTIpMkGIjDxyblqBIvnK_E5_k6-ybRCZjJ6_V_PPgfTf-lVC7KJkub8z61_1Y1S6OR1SbPi3vgyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: real-uncertainty-what-to-know-about-honduras-presi_20251128_0425.html
+✓ Created comprehensive article: real-uncertainty-what-to-know-about-honduras-presi_20251128_0425.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Jordan demands Russia stop recruiting citizens after two killed in fighting
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump says US will stop Venezuelan drug trafficking ‘by land’ soon
+     Sources: bbc.com, cnn.com, reuters.com
+   • ‘Real uncertainty’: What to know about Honduras’ presidential election
+     Sources: bbc.com, cnn.com, reuters.com
