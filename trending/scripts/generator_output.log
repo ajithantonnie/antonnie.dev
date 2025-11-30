@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 3 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Sir Tom Stoppard, playwright famed for his wit and depth, dies at 88
+  Added: Venezuela calls Trump airspace closure warning 'colonialist threat'
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Jacob Zuma’s daughter resigns amid claims South Africans tricked to fight for Russia
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh’s Khaleda Zia hospitalised in ‘very critical’ condition
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,375
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Flamengo beat Palmeiras to win Copa Libertadores title
+Added expanded search topic: Bangladesh’s Khaleda Zia hospitalised in ‘very critical’ condition
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,375
+Added expanded search topic: Flamengo beat Palmeiras to win Copa Libertadores title
+Saved 6 topics for 2025-11-30
+Returning 3 unique trending topics:
+  1. Bangladesh’s Khaleda Zia hospitalised in ‘very critical’ condition (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,375 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Flamengo beat Palmeiras to win Copa Libertadores title (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Bangladesh’s Khaleda Zia hospitalised in ‘very critical’ condition
+Searching Google for: Bangladesh’s Khaleda Zia hospitalised in ‘very critical’ condition
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladesh%25E2%2580%2599s%252BKhaleda%252BZia%252Bhospitalised%252Bin%252B%25E2%2580%2598very%252Bcritical%25E2%2580%2599%252Bcondition%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8iGIL0rskGIjCL0I9k9cqPILR-fb6hMeo2YnKf8wd0SXRJ1zgUDGA8B4Cz_65l7VpURoySQOuidTkyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: bangladeshs-khaleda-zia-hospitalised-in-very-criti_20251130_0329.html
+✓ Created comprehensive article: bangladeshs-khaleda-zia-hospitalised-in-very-criti_20251130_0329.html
+
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,375
+Searching Google for: Russia-Ukraine war: List of key events, day 1,375
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C375%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8iGIn0rskGIjBoF5N3_WEKzacquv0nCTla_e10QALRJDw9MiGONoAz4zaieJ50jeYxbcDT_D3TeGwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1375_20251130_0329.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1375_20251130_0329.html
+
+Processing trending topic: Flamengo beat Palmeiras to win Copa Libertadores title
+Searching Google for: Flamengo beat Palmeiras to win Copa Libertadores title
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlamengo%252Bbeat%252BPalmeiras%252Bto%252Bwin%252BCopa%252BLibertadores%252Btitle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8iGI_0rskGIjA1fph5btNxUdnEuXhD6BrV_Mgl6pK2Z4tQqpUZhpfck2exiIWkWryI6P5nVbfaOTEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: flamengo-beat-palmeiras-to-win-copa-libertadores-t_20251130_0329.html
+✓ Created comprehensive article: flamengo-beat-palmeiras-to-win-copa-libertadores-t_20251130_0329.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Bangladesh’s Khaleda Zia hospitalised in ‘very critical’ condition
+     Sources: bbc.com, cnn.com, reuters.com
+   • Russia-Ukraine war: List of key events, day 1,375
+     Sources: bbc.com, cnn.com, reuters.com
+   • Flamengo beat Palmeiras to win Copa Libertadores title
+     Sources: bbc.com, cnn.com, reuters.com
