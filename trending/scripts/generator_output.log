@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Starmer to back Budget after Reeves accused of misleading public
+  Added: Venezuela calls Trump airspace closure warning 'colonialist threat'
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Jacob Zuma’s daughter resigns amid claims South Africans tricked to fight for Russia
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands rally in Philippines, demanding Marcos resign over graft scandal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Israeli jets target southern Gaza; raids reported in West Bank
+  Found from World News - Breaking international news and headlines | Sky News: Venezuela hits out at 'colonial threat' after Trump 'closes' its airspace
+Added expanded search topic: Thousands rally in Philippines, demanding Marcos resign over graft scandal
+Added expanded search topic: LIVE: Israeli jets target southern Gaza; raids reported in West Bank
+Added expanded search topic: Venezuela hits out at 'colonial threat' after Trump 'closes' its airspace
+Saved 15 topics for 2025-11-30
+Returning 3 unique trending topics:
+  1. Thousands rally in Philippines, demanding Marcos resign over graft scandal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. LIVE: Israeli jets target southern Gaza; raids reported in West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Venezuela hits out at 'colonial threat' after Trump 'closes' its airspace (from World News - Breaking international news and headlines | Sky News)
+
+Processing trending topic: Thousands rally in Philippines, demanding Marcos resign over graft scandal
+Searching Google for: Thousands rally in Philippines, demanding Marcos resign over graft scandal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Brally%252Bin%252BPhilippines%252C%252Bdemanding%252BMarcos%252Bresign%252Bover%252Bgraft%252Bscandal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnbyGKvJr8kGIjBsmkB_dhdB9hdWus-pY_0vcVTgwTpxi6TikoQYRRmPA8cL8CRbB__A78HDnP5reVcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: thousands-rally-in-philippines-demanding-marcos-re_20251130_0631.html
+✓ Created comprehensive article: thousands-rally-in-philippines-demanding-marcos-re_20251130_0631.html
+
+Processing trending topic: LIVE: Israeli jets target southern Gaza; raids reported in West Bank
+Searching Google for: LIVE: Israeli jets target southern Gaza; raids reported in West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BIsraeli%252Bjets%252Btarget%252Bsouthern%252BGaza%253B%252Braids%252Breported%252Bin%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnbyGLLJr8kGIjD-088JI-DOEQI8-oZ_DgrZWtPJn8xBEsxD0xFN088I4637alMg5w204SZG3dRGD6AyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: live-israeli-jets-target-southern-gaza-raids-repor_20251130_0631.html
+✓ Created comprehensive article: live-israeli-jets-target-southern-gaza-raids-repor_20251130_0631.html
+
+Processing trending topic: Venezuela hits out at 'colonial threat' after Trump 'closes' its airspace
+Searching Google for: Venezuela hits out at 'colonial threat' after Trump 'closes' its airspace
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%252Bhits%252Bout%252Bat%252B%2527colonial%252Bthreat%2527%252Bafter%252BTrump%252B%2527closes%2527%252Bits%252Bairspace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnbyGLnJr8kGIjAMZscrBhy1pppB7txBazBHL44LHaj4slUXNB_Ol5PJqaioT56C9F7Hbxsi8H58QwEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: venezuela-hits-out-at-colonial-threat-after-trump-_20251130_0631.html
+✓ Created comprehensive article: venezuela-hits-out-at-colonial-threat-after-trump-_20251130_0631.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Thousands rally in Philippines, demanding Marcos resign over graft scandal
+     Sources: bbc.com, cnn.com, reuters.com
+   • LIVE: Israeli jets target southern Gaza; raids reported in West Bank
+     Sources: bbc.com, cnn.com, reuters.com
+   • Venezuela hits out at 'colonial threat' after Trump 'closes' its airspace
+     Sources: bbc.com, cnn.com, reuters.com
