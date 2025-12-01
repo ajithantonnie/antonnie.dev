@@ -1,0 +1,66 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 39 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Chris Mason: Why, in my judgement, Reeves was misleading on one specific point
+  Added: There is a global shortage of obesity jabs, says WHO
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India orders phone makers to pre-install state-owned web safety app: Report
+Added expanded search topic: India orders phone makers to pre-install state-owned web safety app: Report
+Saved 42 topics for 2025-12-01
+Returning 3 unique trending topics:
+  1. There is a global shortage of obesity jabs, says WHO (from BBC News)
+  2. Five South Africans in court over alleged recruitment for Russia’s war in Ukraine (from The Guardian)
+  3. India orders phone makers to pre-install state-owned web safety app: Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: There is a global shortage of obesity jabs, says WHO
+Searching Google for: There is a global shortage of obesity jabs, says WHO
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: there-is-a-global-shortage-of-obesity-jabs-says-wh_20251201_1529.html
+✓ Created comprehensive article: there-is-a-global-shortage-of-obesity-jabs-says-wh_20251201_1529.html
+
+Processing trending topic: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine
+Searching Google for: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252BSouth%252BAfricans%252Bin%252Bcourt%252Bover%252Balleged%252Brecruitment%252Bfor%252BRussia%25E2%2580%2599s%252Bwar%252Bin%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEoGIzptskGIjDxPv9Je6pkLDTs8m22bO6aGd9lnstrD05dhz__v4LYVA7_mlp8KdKossARiDr8wF0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: five-south-africans-in-court-over-alleged-recruitm_20251201_1530.html
+✓ Created comprehensive article: five-south-africans-in-court-over-alleged-recruitm_20251201_1530.html
+
+Processing trending topic: India orders phone makers to pre-install state-owned web safety app: Report
+Searching Google for: India orders phone makers to pre-install state-owned web safety app: Report
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Borders%252Bphone%252Bmakers%252Bto%252Bpre-install%252Bstate-owned%252Bweb%252Bsafety%252Bapp%253A%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEoGJPptskGIjD8UFhZAUImzp0rq1qEm1TJ74PnAKZ4RalZxzAwuDNdM7FMcj5EmQLb0iFoeN-cIdgyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: india-orders-phone-makers-to-pre-install-state-own_20251201_1530.html
+✓ Created comprehensive article: india-orders-phone-makers-to-pre-install-state-own_20251201_1530.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • There is a global shortage of obesity jabs, says WHO
+     Sources: bbc.com, cnn.com, reuters.com
+   • Five South Africans in court over alleged recruitment for Russia’s war in Ukraine
+     Sources: bbc.com, cnn.com, reuters.com
+   • India orders phone makers to pre-install state-owned web safety app: Report
+     Sources: bbc.com, cnn.com, reuters.com
