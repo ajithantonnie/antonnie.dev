@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 36 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Jury trials scrapped for crimes with sentences of less than three years
+  Added: Quarter of police forces lack basic policies on sexual offences, Sarah Everard inquiry finds
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel targeted Al Shifa Hospital “the same way” as military systems
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s boat bombings: How the US has long used ‘double-tap’ strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan’s paramilitary RSF claims control of key city of Babnusa
+Added expanded search topic: Israel targeted Al Shifa Hospital “the same way” as military systems
+Added expanded search topic: Trump’s boat bombings: How the US has long used ‘double-tap’ strikes
+Added expanded search topic: Sudan’s paramilitary RSF claims control of key city of Babnusa
+Saved 39 topics for 2025-12-02
+Returning 3 unique trending topics:
+  1. Israel targeted Al Shifa Hospital “the same way” as military systems (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump’s boat bombings: How the US has long used ‘double-tap’ strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Sudan’s paramilitary RSF claims control of key city of Babnusa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Israel targeted Al Shifa Hospital “the same way” as military systems
+Searching Google for: Israel targeted Al Shifa Hospital “the same way” as military systems
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Btargeted%252BAl%252BShifa%252BHospital%252B%25E2%2580%259Cthe%252Bsame%252Bway%25E2%2580%259D%252Bas%252Bmilitary%252Bsystems%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVTGJHtu8kGIjD0cIcDe8IBX0p4NXYxpsOKu-VZUyA168y1r8ERB4JBATrsofAx4ORH0TfHHwQE1pwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: israel-targeted-al-shifa-hospital-the-same-way-as-_20251202_1424.html
+✓ Created comprehensive article: israel-targeted-al-shifa-hospital-the-same-way-as-_20251202_1424.html
+
+Processing trending topic: Trump’s boat bombings: How the US has long used ‘double-tap’ strikes
+Searching Google for: Trump’s boat bombings: How the US has long used ‘double-tap’ strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Bboat%252Bbombings%253A%252BHow%252Bthe%252BUS%252Bhas%252Blong%252Bused%252B%25E2%2580%2598double-tap%25E2%2580%2599%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVTGJjtu8kGIjAEH5ntF-fflXenQiFxqPjJ3GVOGqLPPqXCVXn5EQ8KZLpfGo_LYFYmxY4in2MEmUwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trumps-boat-bombings-how-the-us-has-long-used-doub_20251202_1424.html
+✓ Created comprehensive article: trumps-boat-bombings-how-the-us-has-long-used-doub_20251202_1424.html
+
+Processing trending topic: Sudan’s paramilitary RSF claims control of key city of Babnusa
+Searching Google for: Sudan’s paramilitary RSF claims control of key city of Babnusa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%25E2%2580%2599s%252Bparamilitary%252BRSF%252Bclaims%252Bcontrol%252Bof%252Bkey%252Bcity%252Bof%252BBabnusa%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVTGJ_tu8kGIjAqTEEd-lvbbLjTvAN67eF8zQH-L6_uHfrvTy7dIv1M1RxAi9JNdz3LwNsTqeGp38UyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: sudans-paramilitary-rsf-claims-control-of-key-city_20251202_1424.html
+✓ Created comprehensive article: sudans-paramilitary-rsf-claims-control-of-key-city_20251202_1424.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Israel targeted Al Shifa Hospital “the same way” as military systems
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump’s boat bombings: How the US has long used ‘double-tap’ strikes
+     Sources: bbc.com, cnn.com, reuters.com
+   • Sudan’s paramilitary RSF claims control of key city of Babnusa
+     Sources: bbc.com, cnn.com, reuters.com
