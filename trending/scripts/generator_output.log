@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 60 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Ukrainians in war-ravaged Donbas weigh prospects of peace deal
+  Added: 'We will never get justice,' say Hillsborough families as report finds fundamental police failures
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Report finds widespread police failings over UK’s Hillsborough disaster
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Politician Ayachi Hammami latest arrest in Tunisia opposition crackdown
+Added expanded search topic: Report finds widespread police failings over UK’s Hillsborough disaster
+Added expanded search topic: Politician Ayachi Hammami latest arrest in Tunisia opposition crackdown
+Saved 63 topics for 2025-12-02
+Returning 3 unique trending topics:
+  1. Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community (from The Guardian)
+  2. Report finds widespread police failings over UK’s Hillsborough disaster (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Politician Ayachi Hammami latest arrest in Tunisia opposition crackdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community
+Searching Google for: Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-calls-somali-immigrants-garbage-as-us-report_20251202_2226.html
+✓ Created comprehensive article: trump-calls-somali-immigrants-garbage-as-us-report_20251202_2226.html
+
+Processing trending topic: Report finds widespread police failings over UK’s Hillsborough disaster
+Searching Google for: Report finds widespread police failings over UK’s Hillsborough disaster
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReport%252Bfinds%252Bwidespread%252Bpolice%252Bfailings%252Bover%252BUK%25E2%2580%2599s%252BHillsborough%252Bdisaster%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CEGMbPvckGIjBNFDRxuQ_2OshUTCPWXATis-71WhaKteQ7rCWy2eQ-MU-Z5WedMP1-Vy97WmoMp-cyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: report-finds-widespread-police-failings-over-uks-h_20251202_2227.html
+✓ Created comprehensive article: report-finds-widespread-police-failings-over-uks-h_20251202_2227.html
+
+Processing trending topic: Politician Ayachi Hammami latest arrest in Tunisia opposition crackdown
+Searching Google for: Politician Ayachi Hammami latest arrest in Tunisia opposition crackdown
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolitician%252BAyachi%252BHammami%252Blatest%252Barrest%252Bin%252BTunisia%252Bopposition%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CEGMzPvckGIjC4-depFZvpL1FvwptKmNFBol_6BqrmuRNfG4hcZQMp7PkiCcJaWmVuQKmivLD0P3EyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: politician-ayachi-hammami-latest-arrest-in-tunisia_20251202_2227.html
+✓ Created comprehensive article: politician-ayachi-hammami-latest-arrest-in-tunisia_20251202_2227.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community
+     Sources: bbc.com, cnn.com, reuters.com
+   • Report finds widespread police failings over UK’s Hillsborough disaster
+     Sources: bbc.com, cnn.com, reuters.com
+   • Politician Ayachi Hammami latest arrest in Tunisia opposition crackdown
+     Sources: bbc.com, cnn.com, reuters.com
