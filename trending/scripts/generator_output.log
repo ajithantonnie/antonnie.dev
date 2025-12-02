@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 27 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Twelve more prisoners released in error, with two still missing, says Lammy
+  Added: Faisal Islam: OBR head's resignation leaves potential landmines for Reeves
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war live: Trump’s envoy Witkoff to meet Putin
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan army refutes claim that RSF has seized key city of Babnusa
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Glenn Maxwell withdraws from IPL 2026 auctions
+Added expanded search topic: Russia-Ukraine war live: Trump’s envoy Witkoff to meet Putin
+Added expanded search topic: Sudan army refutes claim that RSF has seized key city of Babnusa
+Added expanded search topic: Glenn Maxwell withdraws from IPL 2026 auctions
+Saved 30 topics for 2025-12-02
+Returning 3 unique trending topics:
+  1. Russia-Ukraine war live: Trump’s envoy Witkoff to meet Putin (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sudan army refutes claim that RSF has seized key city of Babnusa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Glenn Maxwell withdraws from IPL 2026 auctions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Russia-Ukraine war live: Trump’s envoy Witkoff to meet Putin
+Searching Google for: Russia-Ukraine war live: Trump’s envoy Witkoff to meet Putin
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%252Blive%253A%252BTrump%25E2%2580%2599s%252Benvoy%252BWitkoff%252Bto%252Bmeet%252BPutin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1izYGOCXu8kGIjA6hhrJSdq9Zur-OVZDj943emlWWShKPM-ifzHMl9kG1gKMl2VXxRgWVIepJwpwExgyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: russia-ukraine-war-live-trumps-envoy-witkoff-to-me_20251202_1122.html
+✓ Created comprehensive article: russia-ukraine-war-live-trumps-envoy-witkoff-to-me_20251202_1122.html
+
+Processing trending topic: Sudan army refutes claim that RSF has seized key city of Babnusa
+Searching Google for: Sudan army refutes claim that RSF has seized key city of Babnusa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%252Barmy%252Brefutes%252Bclaim%252Bthat%252BRSF%252Bhas%252Bseized%252Bkey%252Bcity%252Bof%252BBabnusa%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1izYGOeXu8kGIjB52IJ52JBjltwY6y9QM1-wxdByVZnF73jRS_Kss2iraKbOAj0L3xjW4J-LD2qXVagyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: sudan-army-refutes-claim-that-rsf-has-seized-key-c_20251202_1122.html
+✓ Created comprehensive article: sudan-army-refutes-claim-that-rsf-has-seized-key-c_20251202_1122.html
+
+Processing trending topic: Glenn Maxwell withdraws from IPL 2026 auctions
+Searching Google for: Glenn Maxwell withdraws from IPL 2026 auctions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGlenn%252BMaxwell%252Bwithdraws%252Bfrom%252BIPL%252B2026%252Bauctions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1izYGO2Xu8kGIjA__t9LDhEOa-KJix1fnuR8QkhY8lKSNNK0QkYC_BannX6yVmHSGeAf4joL5GVS4c0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: glenn-maxwell-withdraws-from-ipl-2026-auctions_20251202_1122.html
+✓ Created comprehensive article: glenn-maxwell-withdraws-from-ipl-2026-auctions_20251202_1122.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Russia-Ukraine war live: Trump’s envoy Witkoff to meet Putin
+     Sources: bbc.com, cnn.com, reuters.com
+   • Sudan army refutes claim that RSF has seized key city of Babnusa
+     Sources: bbc.com, cnn.com, reuters.com
+   • Glenn Maxwell withdraws from IPL 2026 auctions
+     Sources: bbc.com, cnn.com, reuters.com
