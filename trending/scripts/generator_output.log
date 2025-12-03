@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Kremlin signals no Ukraine breakthrough after Putin talks with US
+  Added: Ukrainians in war-ravaged Donbas weigh prospects of peace deal
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Israeli forces kill 357 Palestinians in 50 days of ceasefire in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sabrina Carpenter condemns ‘evil’ use of her music in White House video
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Africa’s oldest leaders are governing the world’s youngest populations
+Added expanded search topic: LIVE: Israeli forces kill 357 Palestinians in 50 days of ceasefire in Gaza
+Added expanded search topic: Sabrina Carpenter condemns ‘evil’ use of her music in White House video
+Added expanded search topic: Africa’s oldest leaders are governing the world’s youngest populations
+Saved 15 topics for 2025-12-03
+Returning 3 unique trending topics:
+  1. LIVE: Israeli forces kill 357 Palestinians in 50 days of ceasefire in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sabrina Carpenter condemns ‘evil’ use of her music in White House video (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Africa’s oldest leaders are governing the world’s youngest populations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: LIVE: Israeli forces kill 357 Palestinians in 50 days of ceasefire in Gaza
+Searching Google for: LIVE: Israeli forces kill 357 Palestinians in 50 days of ceasefire in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BIsraeli%252Bforces%252Bkill%252B357%252BPalestinians%252Bin%252B50%252Bdays%252Bof%252Bceasefire%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGMVGKyzv8kGIjC95pz2ZJQSAhOdh9W9VX3B3wKDtfCJE-DaPiKBxHEt6gNwgWpaRaMVXO9KR1mgnh0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: live-israeli-forces-kill-357-palestinians-in-50-da_20251203_0633.html
+✓ Created comprehensive article: live-israeli-forces-kill-357-palestinians-in-50-da_20251203_0633.html
+
+Processing trending topic: Sabrina Carpenter condemns ‘evil’ use of her music in White House video
+Searching Google for: Sabrina Carpenter condemns ‘evil’ use of her music in White House video
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSabrina%252BCarpenter%252Bcondemns%252B%25E2%2580%2598evil%25E2%2580%2599%252Buse%252Bof%252Bher%252Bmusic%252Bin%252BWhite%252BHouse%252Bvideo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGMVGLOzv8kGIjBKtg0aJA3v96-gWIYb6IhI-OE-Jqmi4yh5AGWl2aS_dtkAU5i6OvY3sNHZP-0PB3QyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: sabrina-carpenter-condemns-evil-use-of-her-music-i_20251203_0633.html
+✓ Created comprehensive article: sabrina-carpenter-condemns-evil-use-of-her-music-i_20251203_0633.html
+
+Processing trending topic: Africa’s oldest leaders are governing the world’s youngest populations
+Searching Google for: Africa’s oldest leaders are governing the world’s youngest populations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfrica%25E2%2580%2599s%252Boldest%252Bleaders%252Bare%252Bgoverning%252Bthe%252Bworld%25E2%2580%2599s%252Byoungest%252Bpopulations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGMVGLqzv8kGIjDnZOfHnlXtYUkgTDi92AcZIOjQwnelAO8Xl3zvFI1uyjmIMhdV-LUoO5CBqyUg3p0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: africas-oldest-leaders-are-governing-the-worlds-yo_20251203_0633.html
+✓ Created comprehensive article: africas-oldest-leaders-are-governing-the-worlds-yo_20251203_0633.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • LIVE: Israeli forces kill 357 Palestinians in 50 days of ceasefire in Gaza
+     Sources: bbc.com, cnn.com, reuters.com
+   • Sabrina Carpenter condemns ‘evil’ use of her music in White House video
+     Sources: bbc.com, cnn.com, reuters.com
+   • Africa’s oldest leaders are governing the world’s youngest populations
+     Sources: bbc.com, cnn.com, reuters.com
