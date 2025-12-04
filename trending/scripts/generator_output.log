@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 27 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Streeting orders review into rising demand for mental health and ADHD services
+  Added: Household bills will rise to fund £28bn investment in energy network
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: US and EU critical minerals project could displace thousands in DR Congo – report
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Putin says Russia ready to take Ukraine’s eastern Donbas region ‘by force’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The age of unipolar diplomacy is coming to an end
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Letters From A Palestinian Prisoner
+Added expanded search topic: Putin says Russia ready to take Ukraine’s eastern Donbas region ‘by force’
+Added expanded search topic: The age of unipolar diplomacy is coming to an end
+Added expanded search topic: Letters From A Palestinian Prisoner
+Saved 30 topics for 2025-12-04
+Returning 3 unique trending topics:
+  1. Putin says Russia ready to take Ukraine’s eastern Donbas region ‘by force’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. The age of unipolar diplomacy is coming to an end (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Letters From A Palestinian Prisoner (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Putin says Russia ready to take Ukraine’s eastern Donbas region ‘by force’
+Searching Google for: Putin says Russia ready to take Ukraine’s eastern Donbas region ‘by force’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%252Bsays%252BRussia%252Bready%252Bto%252Btake%252BUkraine%25E2%2580%2599s%252Beastern%252BDonbas%252Bregion%252B%25E2%2580%2598by%252Bforce%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-tXGNTdxckGIjDtzEIAK2w_AKfMglOV4RWB4iJdseeBOVpuZk1cwG5zYJIYaPAAzjWY-VqfSsIJKeQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: putin-says-russia-ready-to-take-ukraines-eastern-d_20251204_1122.html
+✓ Created comprehensive article: putin-says-russia-ready-to-take-ukraines-eastern-d_20251204_1122.html
+
+Processing trending topic: The age of unipolar diplomacy is coming to an end
+Searching Google for: The age of unipolar diplomacy is coming to an end
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bage%252Bof%252Bunipolar%252Bdiplomacy%252Bis%252Bcoming%252Bto%252Ban%252Bend%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-tXGNvdxckGIjDhIBbg8ZTH682ssJG3sBULtNCE5vrLBuQ3ElTqLEEpQ9GaMp6RvpaTnduTos2R4esyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: the-age-of-unipolar-diplomacy-is-coming-to-an-end_20251204_1122.html
+✓ Created comprehensive article: the-age-of-unipolar-diplomacy-is-coming-to-an-end_20251204_1122.html
+
+Processing trending topic: Letters From A Palestinian Prisoner
+Searching Google for: Letters From A Palestinian Prisoner
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLetters%252BFrom%252BA%252BPalestinian%252BPrisoner%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-tXGOHdxckGIjBYUuGHLCeyoPVlmVbeqodaUD82JeZJmNmcm0nxXaEDxAfuOGyNTyeD9VgNAPt_BScyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: letters-from-a-palestinian-prisoner_20251204_1122.html
+✓ Created comprehensive article: letters-from-a-palestinian-prisoner_20251204_1122.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Putin says Russia ready to take Ukraine’s eastern Donbas region ‘by force’
+     Sources: bbc.com, cnn.com, reuters.com
+   • The age of unipolar diplomacy is coming to an end
+     Sources: bbc.com, cnn.com, reuters.com
+   • Letters From A Palestinian Prisoner
+     Sources: bbc.com, cnn.com, reuters.com
