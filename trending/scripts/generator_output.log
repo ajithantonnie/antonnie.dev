@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Flu cases at record high for time of year as NHS warns of 'unprecedented' outbreak
+  Added: Streeting orders review into rising demand for mental health and ADHD services
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: US and EU critical minerals project could displace thousands in DRC – report
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN warns Sudan’s Kordofan faces mass atrocities as fighting spreads
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Netanyahu will win again, because in Israel, ‘there is none like him’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Stalled Moscow talks collide with Zelenskyy’s corruption crisis
+Added expanded search topic: UN warns Sudan’s Kordofan faces mass atrocities as fighting spreads
+Added expanded search topic: Netanyahu will win again, because in Israel, ‘there is none like him’
+Added expanded search topic: Stalled Moscow talks collide with Zelenskyy’s corruption crisis
+Saved 48 topics for 2025-12-04
+Returning 3 unique trending topics:
+  1. UN warns Sudan’s Kordofan faces mass atrocities as fighting spreads (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Netanyahu will win again, because in Israel, ‘there is none like him’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Stalled Moscow talks collide with Zelenskyy’s corruption crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: UN warns Sudan’s Kordofan faces mass atrocities as fighting spreads
+Searching Google for: UN warns Sudan’s Kordofan faces mass atrocities as fighting spreads
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: un-warns-sudans-kordofan-faces-mass-atrocities-as-_20251204_1725.html
+✓ Created comprehensive article: un-warns-sudans-kordofan-faces-mass-atrocities-as-_20251204_1725.html
+
+Processing trending topic: Netanyahu will win again, because in Israel, ‘there is none like him’
+Searching Google for: Netanyahu will win again, because in Israel, ‘there is none like him’
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: netanyahu-will-win-again-because-in-israel-there-i_20251204_1725.html
+✓ Created comprehensive article: netanyahu-will-win-again-because-in-israel-there-i_20251204_1725.html
+
+Processing trending topic: Stalled Moscow talks collide with Zelenskyy’s corruption crisis
+Searching Google for: Stalled Moscow talks collide with Zelenskyy’s corruption crisis
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: stalled-moscow-talks-collide-with-zelenskyys-corru_20251204_1726.html
+✓ Created comprehensive article: stalled-moscow-talks-collide-with-zelenskyys-corru_20251204_1726.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • UN warns Sudan’s Kordofan faces mass atrocities as fighting spreads
+     Sources: bbc.com, cnn.com, reuters.com
+   • Netanyahu will win again, because in Israel, ‘there is none like him’
+     Sources: bbc.com, cnn.com, reuters.com
+   • Stalled Moscow talks collide with Zelenskyy’s corruption crisis
+     Sources: bbc.com, cnn.com, reuters.com
