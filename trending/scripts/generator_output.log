@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Netflix to buy Warner Bros film and streaming businesses for $72bn
+  Added: Germany votes to bring in voluntary military service programme for 18-year-olds
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: RSF massacres left Sudanese city ‘a slaughterhouse’, satellite images show
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Crowds gather in Hama, Syria, to celebrate one year of liberation
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel awaits return of final captive from Gaza amid fragile peace deal
+Added expanded search topic: Crowds gather in Hama, Syria, to celebrate one year of liberation
+Added expanded search topic: Israel awaits return of final captive from Gaza amid fragile peace deal
+Saved 48 topics for 2025-12-05
+Returning 3 unique trending topics:
+  1. Germany votes to bring in voluntary military service programme for 18-year-olds (from BBC News)
+  2. Crowds gather in Hama, Syria, to celebrate one year of liberation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel awaits return of final captive from Gaza amid fragile peace deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Germany votes to bring in voluntary military service programme for 18-year-olds
+Searching Google for: Germany votes to bring in voluntary military service programme for 18-year-olds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGermany%252Bvotes%252Bto%252Bbring%252Bin%252Bvoluntary%252Bmilitary%252Bservice%252Bprogramme%252Bfor%252B18-year-olds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwxGISpzMkGIjBUeGg6g_ViNZuR1eIziQfdai4FoWDlgZMiJW3WuoeSHUpUgfobBLef4xpqUryveBcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: germany-votes-to-bring-in-voluntary-military-servi_20251205_1721.html
+✓ Created comprehensive article: germany-votes-to-bring-in-voluntary-military-servi_20251205_1721.html
+
+Processing trending topic: Crowds gather in Hama, Syria, to celebrate one year of liberation
+Searching Google for: Crowds gather in Hama, Syria, to celebrate one year of liberation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCrowds%252Bgather%252Bin%252BHama%252C%252BSyria%252C%252Bto%252Bcelebrate%252Bone%252Byear%252Bof%252Bliberation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwxGIupzMkGIjA34MmA1MqytSB2Uz0QUOKRrkNJEchJVufHjjR8W8YM6bDwTLm46RUChLAjTbomuKIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: crowds-gather-in-hama-syria-to-celebrate-one-year-_20251205_1721.html
+✓ Created comprehensive article: crowds-gather-in-hama-syria-to-celebrate-one-year-_20251205_1721.html
+
+Processing trending topic: Israel awaits return of final captive from Gaza amid fragile peace deal
+Searching Google for: Israel awaits return of final captive from Gaza amid fragile peace deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bawaits%252Breturn%252Bof%252Bfinal%252Bcaptive%252Bfrom%252BGaza%252Bamid%252Bfragile%252Bpeace%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwxGJGpzMkGIjDlKxQv0nCCdvefV91o5rg0vaz3DC7GrNhhwLLKuPFl7TSTyGqY3b7P4ewqy9AoFwwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: israel-awaits-return-of-final-captive-from-gaza-am_20251205_1721.html
+✓ Created comprehensive article: israel-awaits-return-of-final-captive-from-gaza-am_20251205_1721.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Germany votes to bring in voluntary military service programme for 18-year-olds
+     Sources: bbc.com, cnn.com, reuters.com
+   • Crowds gather in Hama, Syria, to celebrate one year of liberation
+     Sources: bbc.com, cnn.com, reuters.com
+   • Israel awaits return of final captive from Gaza amid fragile peace deal
+     Sources: bbc.com, cnn.com, reuters.com
