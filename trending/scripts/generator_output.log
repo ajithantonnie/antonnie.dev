@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 18 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Driving-test touts offer instructors £250 kickbacks so they can bulk-book tests
+  Added: England start World Cup against Croatia, Scotland to face Brazil
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: People flee DR Congo fighting one day after peace deal signed in Washington
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Heavy rains hamper recovery as death toll from floods in Asia exceeds 1,750
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands protest in Berlin against new German military conscription bill
+Added expanded search topic: IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine
+Added expanded search topic: Heavy rains hamper recovery as death toll from floods in Asia exceeds 1,750
+Added expanded search topic: Thousands protest in Berlin against new German military conscription bill
+Saved 21 topics for 2025-12-06
+Returning 3 unique trending topics:
+  1. IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Heavy rains hamper recovery as death toll from floods in Asia exceeds 1,750 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Thousands protest in Berlin against new German military conscription bill (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine
+Searching Google for: IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIAEA%252Bflags%252Bdamage%252Bto%252BChornobyl%252Bnuclear%252Bplant%25E2%2580%2599s%252Bprotective%252Bshield%252Bin%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YzhGLLRz8kGIjDEeyWoMOPk0XJKMOnXuv0BEXm_QSjgQp9JJZQlqV4GAsWpheeveeI-nF4spLQoN10yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: iaea-flags-damage-to-chornobyl-nuclear-plants-prot_20251206_0826.html
+✓ Created comprehensive article: iaea-flags-damage-to-chornobyl-nuclear-plants-prot_20251206_0826.html
+
+Processing trending topic: Heavy rains hamper recovery as death toll from floods in Asia exceeds 1,750
+Searching Google for: Heavy rains hamper recovery as death toll from floods in Asia exceeds 1,750
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHeavy%252Brains%252Bhamper%252Brecovery%252Bas%252Bdeath%252Btoll%252Bfrom%252Bfloods%252Bin%252BAsia%252Bexceeds%252B1%252C750%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YzhGLnRz8kGIjA3QknTf4CumvrnJgrG2FofpIyOQPQZ2Zd4LxqE6I0puM-pRCBj2Fg0Tf1EvD-jjCgyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: heavy-rains-hamper-recovery-as-death-toll-from-flo_20251206_0826.html
+✓ Created comprehensive article: heavy-rains-hamper-recovery-as-death-toll-from-flo_20251206_0826.html
+
+Processing trending topic: Thousands protest in Berlin against new German military conscription bill
+Searching Google for: Thousands protest in Berlin against new German military conscription bill
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bprotest%252Bin%252BBerlin%252Bagainst%252Bnew%252BGerman%252Bmilitary%252Bconscription%252Bbill%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YzhGMDRz8kGIjBtwQf7YoyfeLguViGJ36FsdWYXeoGFbKXggX9tKyIgcbMFnFHLbuwY7qFa7dK_oPsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: thousands-protest-in-berlin-against-new-german-mil_20251206_0826.html
+✓ Created comprehensive article: thousands-protest-in-berlin-against-new-german-mil_20251206_0826.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • IAEA flags damage to Chornobyl nuclear plant’s protective shield in Ukraine
+     Sources: bbc.com, cnn.com, reuters.com
+   • Heavy rains hamper recovery as death toll from floods in Asia exceeds 1,750
+     Sources: bbc.com, cnn.com, reuters.com
+   • Thousands protest in Berlin against new German military conscription bill
+     Sources: bbc.com, cnn.com, reuters.com
