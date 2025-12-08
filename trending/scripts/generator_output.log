@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 33 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Joey Barton given suspended jail sentence over 'grossly offensive' social media posts
+  Added: Storm Bram named with severe weather warnings for damaging winds and heavy rain
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Ancient Egyptian pleasure boat found by archaeologists off Alexandria coast
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syria’s Prison of Secrets: The Search for Sednaya’s Missing
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will Trump’s new security doctrine boost the rise of far right in Europe?
+Added expanded search topic: Syria’s Prison of Secrets: The Search for Sednaya’s Missing
+Added expanded search topic: Will Trump’s new security doctrine boost the rise of far right in Europe?
+Saved 36 topics for 2025-12-08
+Returning 3 unique trending topics:
+  1. Joey Barton given suspended jail sentence over 'grossly offensive' social media posts (from BBC News)
+  2. Syria’s Prison of Secrets: The Search for Sednaya’s Missing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Will Trump’s new security doctrine boost the rise of far right in Europe? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Joey Barton given suspended jail sentence over 'grossly offensive' social media posts
+Searching Google for: Joey Barton given suspended jail sentence over 'grossly offensive' social media posts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJoey%252BBarton%252Bgiven%252Bsuspended%252Bjail%252Bsentence%252Bover%252B%2527grossly%252Boffensive%2527%252Bsocial%252Bmedia%252Bposts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEiGPqo28kGIjCpaIkiKIzdVkEoxGLoxOG1Aan0lHs-i8PO7RzMK80os8NjIRgu9orlgZr1LUlT5_kyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: joey-barton-given-suspended-jail-sentence-over-gro_20251208_1337.html
+✓ Created comprehensive article: joey-barton-given-suspended-jail-sentence-over-gro_20251208_1337.html
+
+Processing trending topic: Syria’s Prison of Secrets: The Search for Sednaya’s Missing
+Searching Google for: Syria’s Prison of Secrets: The Search for Sednaya’s Missing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyria%25E2%2580%2599s%252BPrison%252Bof%252BSecrets%253A%252BThe%252BSearch%252Bfor%252BSednaya%25E2%2580%2599s%252BMissing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEiGIKp28kGIjAx8-pLLIee3BxDuWcYy9C8C40I9zyRB-e3O0c_xijzQqtKX31FYhlYhtwGdCQPAa4yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: syrias-prison-of-secrets-the-search-for-sednayas-m_20251208_1337.html
+✓ Created comprehensive article: syrias-prison-of-secrets-the-search-for-sednayas-m_20251208_1337.html
+
+Processing trending topic: Will Trump’s new security doctrine boost the rise of far right in Europe?
+Searching Google for: Will Trump’s new security doctrine boost the rise of far right in Europe?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BTrump%25E2%2580%2599s%252Bnew%252Bsecurity%252Bdoctrine%252Bboost%252Bthe%252Brise%252Bof%252Bfar%252Bright%252Bin%252BEurope%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEiGIip28kGIjBAmcUxwjupkX1H994wXpM-xV_8fiAdnq-UCrP9nlgcCc86N2maqvQc7N7zcfhBBeQyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: will-trumps-new-security-doctrine-boost-the-rise-o_20251208_1337.html
+✓ Created comprehensive article: will-trumps-new-security-doctrine-boost-the-rise-o_20251208_1337.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Joey Barton given suspended jail sentence over 'grossly offensive' social media posts
+     Sources: bbc.com, cnn.com, reuters.com
+   • Syria’s Prison of Secrets: The Search for Sednaya’s Missing
+     Sources: bbc.com, cnn.com, reuters.com
+   • Will Trump’s new security doctrine boost the rise of far right in Europe?
+     Sources: bbc.com, cnn.com, reuters.com
