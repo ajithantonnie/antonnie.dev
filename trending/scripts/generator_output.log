@@ -1,0 +1,62 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 0 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Partial victory for nurse in NHS trans changing room row
+  Added: Why Sandie Peggie ruling could lead to big changes for employers
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2025-12-09
+Returning 3 unique trending topics:
+  1. Partial victory for nurse in NHS trans changing room row (from BBC News)
+  2. Why Sandie Peggie ruling could lead to big changes for employers (from BBC News)
+  3. False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president (from The Guardian)
+
+Processing trending topic: Partial victory for nurse in NHS trans changing room row
+Searching Google for: Partial victory for nurse in NHS trans changing room row
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPartial%252Bvictory%252Bfor%252Bnurse%252Bin%252BNHS%252Btrans%252Bchanging%252Broom%252Brow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUiGJ723ckGIjBglL3ZCMO4JOeQq-yliJ1t5U8vRHi7RYWPlr2pgCX4J0PO51w5hh5R0zyA9eZ2d1UyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: partial-victory-for-nurse-in-nhs-trans-changing-ro_20251209_0128.html
+✓ Created comprehensive article: partial-victory-for-nurse-in-nhs-trans-changing-ro_20251209_0128.html
+
+Processing trending topic: Why Sandie Peggie ruling could lead to big changes for employers
+Searching Google for: Why Sandie Peggie ruling could lead to big changes for employers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BSandie%252BPeggie%252Bruling%252Bcould%252Blead%252Bto%252Bbig%252Bchanges%252Bfor%252Bemployers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUiGKX23ckGIjAtTXYQtKAWN_JYxEupQ68f1q1a_0dnAU1BUVadvnkh6qeLY5bg7affOyJ1aR2Tx9EyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: why-sandie-peggie-ruling-could-lead-to-big-changes_20251209_0128.html
+✓ Created comprehensive article: why-sandie-peggie-ruling-could-lead-to-big-changes_20251209_0128.html
+
+Processing trending topic: False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
+Searching Google for: False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFalse%252Bclaims%252BAfrikaners%252Bare%252Bpersecuted%252Bthreaten%252BSouth%252BAfrica%25E2%2580%2599s%252Bsovereignty%252C%252Bsays%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUiGKv23ckGIjCNH3D3uABQJlMguAjOOtAICIinwuiL_Emd61CYAhKAhr7HDtYa4m-FiYvwCUxQCvkyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: false-claims-afrikaners-are-persecuted-threaten-so_20251209_0128.html
+✓ Created comprehensive article: false-claims-afrikaners-are-persecuted-threaten-so_20251209_0128.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Partial victory for nurse in NHS trans changing room row
+     Sources: bbc.com, cnn.com, reuters.com
+   • Why Sandie Peggie ruling could lead to big changes for employers
+     Sources: bbc.com, cnn.com, reuters.com
+   • False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
+     Sources: bbc.com, cnn.com, reuters.com
