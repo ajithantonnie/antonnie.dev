@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 15 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Maternity care failings 'much worse' than anticipated, says head of national review
+  Added: Pioneering new treatment reverses incurable blood cancer in some patients
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: False claims Afrikaners are persecuted threaten South Africa’s sovereignty, says president
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Woman linked to Trump Press Secretary Leavitt freed by immigration agency
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US court orders Trump admin to restore Rumeysa Ozturk’s student status
+Added expanded search topic: Woman linked to Trump Press Secretary Leavitt freed by immigration agency
+Added expanded search topic: US court orders Trump admin to restore Rumeysa Ozturk’s student status
+Saved 18 topics for 2025-12-09
+Returning 3 unique trending topics:
+  1. Pioneering new treatment reverses incurable blood cancer in some patients (from BBC News)
+  2. Woman linked to Trump Press Secretary Leavitt freed by immigration agency (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US court orders Trump admin to restore Rumeysa Ozturk’s student status (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Pioneering new treatment reverses incurable blood cancer in some patients
+Searching Google for: Pioneering new treatment reverses incurable blood cancer in some patients
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPioneering%252Bnew%252Btreatment%252Breverses%252Bincurable%252Bblood%252Bcancer%252Bin%252Bsome%252Bpatients%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lh1pGLWd38kGIjAkjg544DEmNFb8BXyuVh5ZrJWrmXQ4hID5jR8q__4Xt2BsQt_IPg8VoN7Y6vSnKTwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: pioneering-new-treatment-reverses-incurable-blood-_20251209_0724.html
+✓ Created comprehensive article: pioneering-new-treatment-reverses-incurable-blood-_20251209_0724.html
+
+Processing trending topic: Woman linked to Trump Press Secretary Leavitt freed by immigration agency
+Searching Google for: Woman linked to Trump Press Secretary Leavitt freed by immigration agency
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWoman%252Blinked%252Bto%252BTrump%252BPress%252BSecretary%252BLeavitt%252Bfreed%252Bby%252Bimmigration%252Bagency%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lh1pGLyd38kGIjCysN9fZLR-fnRMKlKe0IWaAxg1X3rVff9yQm9Wrf5szMUib9pm-b7qiwqurL_DdX0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: woman-linked-to-trump-press-secretary-leavitt-free_20251209_0724.html
+✓ Created comprehensive article: woman-linked-to-trump-press-secretary-leavitt-free_20251209_0724.html
+
+Processing trending topic: US court orders Trump admin to restore Rumeysa Ozturk’s student status
+Searching Google for: US court orders Trump admin to restore Rumeysa Ozturk’s student status
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcourt%252Borders%252BTrump%252Badmin%252Bto%252Brestore%252BRumeysa%252BOzturk%25E2%2580%2599s%252Bstudent%252Bstatus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lh1pGMKd38kGIjCbK0wKHoU0vlnRx5tx8wAKkZ520lz0nP1Y0yakqDHR2WseHSPOzdZ9f2sVaNyrKrUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-court-orders-trump-admin-to-restore-rumeysa-ozt_20251209_0724.html
+✓ Created comprehensive article: us-court-orders-trump-admin-to-restore-rumeysa-ozt_20251209_0724.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Pioneering new treatment reverses incurable blood cancer in some patients
+     Sources: bbc.com, cnn.com, reuters.com
+   • Woman linked to Trump Press Secretary Leavitt freed by immigration agency
+     Sources: bbc.com, cnn.com, reuters.com
+   • US court orders Trump admin to restore Rumeysa Ozturk’s student status
+     Sources: bbc.com, cnn.com, reuters.com
