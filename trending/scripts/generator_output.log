@@ -1,0 +1,62 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 0 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Watch: Video shows US military seizing oil tanker off Venezuela coast
+  Added: British paratrooper killed in Ukraine 'lived life of courage'
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2025-12-11
+Returning 3 unique trending topics:
+  1. Watch: Video shows US military seizing oil tanker off Venezuela coast (from BBC News)
+  2. British paratrooper killed in Ukraine 'lived life of courage' (from BBC News)
+  3. Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing (from The Guardian)
+
+Processing trending topic: Watch: Video shows US military seizing oil tanker off Venezuela coast
+Searching Google for: Watch: Video shows US military seizing oil tanker off Venezuela coast
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BVideo%252Bshows%252BUS%252Bmilitary%252Bseizing%252Boil%252Btanker%252Boff%252BVenezuela%252Bcoast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS1yGN6_6MkGIjCJAmNNCmwj39jU2nyYnZ_5Xxz6fis-Zw8fH6CdTdtR8CNAFjJm5OmMdXBeqi4D5s8yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: watch-video-shows-us-military-seizing-oil-tanker-o_20251211_0135.html
+✓ Created comprehensive article: watch-video-shows-us-military-seizing-oil-tanker-o_20251211_0135.html
+
+Processing trending topic: British paratrooper killed in Ukraine 'lived life of courage'
+Searching Google for: British paratrooper killed in Ukraine 'lived life of courage'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bparatrooper%252Bkilled%252Bin%252BUkraine%252B%2527lived%252Blife%252Bof%252Bcourage%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS1yGOW_6MkGIjBJCheFOdNfFIz4VYLns7HbeylhhB4z24X1RCPDHVTwk0A0T9otdV_Q1un72MFnVykyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: british-paratrooper-killed-in-ukraine-lived-life-o_20251211_0135.html
+✓ Created comprehensive article: british-paratrooper-killed-in-ukraine-lived-life-o_20251211_0135.html
+
+Processing trending topic: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
+Searching Google for: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurkina%252BFaso%252Breleases%252B11%252BNigerian%252Btroops%252Bafter%252B%25E2%2580%2598unauthorised%25E2%2580%2599%252Bplane%252Blanding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS1yGOu_6MkGIjAlE06EOEMKZJfdqupG9X2V6xHOR8RQRk3lg_zZ8VnbCzEBy1k1FzGZaYwjOZdCU08yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: burkina-faso-releases-11-nigerian-troops-after-una_20251211_0135.html
+✓ Created comprehensive article: burkina-faso-releases-11-nigerian-troops-after-una_20251211_0135.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Watch: Video shows US military seizing oil tanker off Venezuela coast
+     Sources: bbc.com, cnn.com, reuters.com
+   • British paratrooper killed in Ukraine 'lived life of courage'
+     Sources: bbc.com, cnn.com, reuters.com
+   • Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
+     Sources: bbc.com, cnn.com, reuters.com
