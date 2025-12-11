@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 18 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: US seizes oil tanker off Venezuela as Caracas condemns 'act of piracy'
+  Added: Venezuelan Nobel winner emerges to collect prize in Oslo after months in hiding
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Sudan army to secure critical Heglig oilfield in Sudan war spillover
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nobel Peace Prize winner Machado greets supporters in Oslo
+Added expanded search topic: South Sudan army to secure critical Heglig oilfield in Sudan war spillover
+Added expanded search topic: Nobel Peace Prize winner Machado greets supporters in Oslo
+Saved 21 topics for 2025-12-11
+Returning 3 unique trending topics:
+  1. US seizes oil tanker off Venezuela as Caracas condemns 'act of piracy' (from BBC News)
+  2. South Sudan army to secure critical Heglig oilfield in Sudan war spillover (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Nobel Peace Prize winner Machado greets supporters in Oslo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: US seizes oil tanker off Venezuela as Caracas condemns 'act of piracy'
+Searching Google for: US seizes oil tanker off Venezuela as Caracas condemns 'act of piracy'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bseizes%252Boil%252Btanker%252Boff%252BVenezuela%252Bas%252BCaracas%252Bcondemns%252B%2527act%252Bof%252Bpiracy%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IyjGOmC6skGIjAL9Hvbb3Vt6coMjbYvJi2S8JgGRlAqE-xeXSOnrlhrDFgQTDgJ7uYRsiA7hG9L9-4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-seizes-oil-tanker-off-venezuela-as-caracas-cond_20251211_0831.html
+✓ Created comprehensive article: us-seizes-oil-tanker-off-venezuela-as-caracas-cond_20251211_0831.html
+
+Processing trending topic: South Sudan army to secure critical Heglig oilfield in Sudan war spillover
+Searching Google for: South Sudan army to secure critical Heglig oilfield in Sudan war spillover
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BSudan%252Barmy%252Bto%252Bsecure%252Bcritical%252BHeglig%252Boilfield%252Bin%252BSudan%252Bwar%252Bspillover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IyjGPCC6skGIjB4Ke7Qy6HTmhNn-H5jZjeJ5oZe5BmQqRd41Crlt6iUO71t-M00NtCK4HZW3sLpkq4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: south-sudan-army-to-secure-critical-heglig-oilfiel_20251211_0831.html
+✓ Created comprehensive article: south-sudan-army-to-secure-critical-heglig-oilfiel_20251211_0831.html
+
+Processing trending topic: Nobel Peace Prize winner Machado greets supporters in Oslo
+Searching Google for: Nobel Peace Prize winner Machado greets supporters in Oslo
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNobel%252BPeace%252BPrize%252Bwinner%252BMachado%252Bgreets%252Bsupporters%252Bin%252BOslo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IyjGPaC6skGIjBL4h2jolpRpBswmFQwo_ySMfc48DxB4Raswus5gFzGDjsY2ihmjNuw48YbU0ZYVrYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: nobel-peace-prize-winner-machado-greets-supporters_20251211_0831.html
+✓ Created comprehensive article: nobel-peace-prize-winner-machado-greets-supporters_20251211_0831.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • US seizes oil tanker off Venezuela as Caracas condemns 'act of piracy'
+     Sources: bbc.com, cnn.com, reuters.com
+   • South Sudan army to secure critical Heglig oilfield in Sudan war spillover
+     Sources: bbc.com, cnn.com, reuters.com
+   • Nobel Peace Prize winner Machado greets supporters in Oslo
+     Sources: bbc.com, cnn.com, reuters.com
