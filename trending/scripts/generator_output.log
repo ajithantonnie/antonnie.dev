@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 21 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Flu surge a challenge for NHS 'unlike any' since pandemic, Streeting says
+  Added: UK economy shrank unexpectedly by 0.1% in October
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Fate of 11 Nigerian troops unclear after ‘unauthorised’ plane landing in Burkina Faso
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: At least 10 people die in Gaza in past 24 hours amid storm
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rights group accuses RSF of systematic sexual violence in Sudan’s civil war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Verdict in Hong Kong media tycoon Jimmy Lai’s trial due next week
+Added expanded search topic: LIVE: At least 10 people die in Gaza in past 24 hours amid storm
+Added expanded search topic: Rights group accuses RSF of systematic sexual violence in Sudan’s civil war
+Added expanded search topic: Verdict in Hong Kong media tycoon Jimmy Lai’s trial due next week
+Saved 24 topics for 2025-12-12
+Returning 3 unique trending topics:
+  1. LIVE: At least 10 people die in Gaza in past 24 hours amid storm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Rights group accuses RSF of systematic sexual violence in Sudan’s civil war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Verdict in Hong Kong media tycoon Jimmy Lai’s trial due next week (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: LIVE: At least 10 people die in Gaza in past 24 hours amid storm
+Searching Google for: LIVE: At least 10 people die in Gaza in past 24 hours amid storm
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BAt%252Bleast%252B10%252Bpeople%252Bdie%252Bin%252BGaza%252Bin%252Bpast%252B24%252Bhours%252Bamid%252Bstorm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jdBGOG_78kGIjAQ7LFp1bjsg8KSsuoQYbTNIr72CCoS3S8cVh3PAPn-sEc-jEsv8EuFC6SWwwqkQjcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: live-at-least-10-people-die-in-gaza-in-past-24-hou_20251212_0927.html
+✓ Created comprehensive article: live-at-least-10-people-die-in-gaza-in-past-24-hou_20251212_0927.html
+
+Processing trending topic: Rights group accuses RSF of systematic sexual violence in Sudan’s civil war
+Searching Google for: Rights group accuses RSF of systematic sexual violence in Sudan’s civil war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRights%252Bgroup%252Baccuses%252BRSF%252Bof%252Bsystematic%252Bsexual%252Bviolence%252Bin%252BSudan%25E2%2580%2599s%252Bcivil%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jdBGOi_78kGIjBzvJGrrizExc9AAdiUHJUr6ZEM8cSYRPj-IZ-_fx2gMlVcjubSipwe8EH23bz2ir4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: rights-group-accuses-rsf-of-systematic-sexual-viol_20251212_0927.html
+✓ Created comprehensive article: rights-group-accuses-rsf-of-systematic-sexual-viol_20251212_0927.html
+
+Processing trending topic: Verdict in Hong Kong media tycoon Jimmy Lai’s trial due next week
+Searching Google for: Verdict in Hong Kong media tycoon Jimmy Lai’s trial due next week
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVerdict%252Bin%252BHong%252BKong%252Bmedia%252Btycoon%252BJimmy%252BLai%25E2%2580%2599s%252Btrial%252Bdue%252Bnext%252Bweek%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jdBGO-_78kGIjCqNF4Wo_I7f_tSHEC5oxqe-v3D7eWuOYz0bNMKufpjUDyXvn9I801yoUnl8WcVFd0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: verdict-in-hong-kong-media-tycoon-jimmy-lais-trial_20251212_0927.html
+✓ Created comprehensive article: verdict-in-hong-kong-media-tycoon-jimmy-lais-trial_20251212_0927.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • LIVE: At least 10 people die in Gaza in past 24 hours amid storm
+     Sources: bbc.com, cnn.com, reuters.com
+   • Rights group accuses RSF of systematic sexual violence in Sudan’s civil war
+     Sources: bbc.com, cnn.com, reuters.com
+   • Verdict in Hong Kong media tycoon Jimmy Lai’s trial due next week
+     Sources: bbc.com, cnn.com, reuters.com
