@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 3 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: King 'deeply touched' by reaction to cancer TV message, says Palace
+  Added: 2025 was a crazy year in politics. But 2026 could be wild
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Drone strike on UN facility in war-torn Sudan leaves six peacekeepers dead
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,389
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brown University reports two dead, nine injured in US school shooting
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,389
+Added expanded search topic: Brown University reports two dead, nine injured in US school shooting
+Saved 6 topics for 2025-12-14
+Returning 3 unique trending topics:
+  1. King 'deeply touched' by reaction to cancer TV message, says Palace (from BBC News)
+  2. Russia-Ukraine war: List of key events, day 1,389 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Brown University reports two dead, nine injured in US school shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: King 'deeply touched' by reaction to cancer TV message, says Palace
+Searching Google for: King 'deeply touched' by reaction to cancer TV message, says Palace
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252B%2527deeply%252Btouched%2527%252Bby%252Breaction%252Bto%252Bcancer%252BTV%252Bmessage%252C%252Bsays%252BPalace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGPDe-MkGIjDxof8-9Nkw0Ap_DZq50uz35ZqkcELto9TI12OTIL5JXRV6IU75ppUdEfvjAg8jqjIyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: king-deeply-touched-by-reaction-to-cancer-tv-messa_20251214_0331.html
+✓ Created comprehensive article: king-deeply-touched-by-reaction-to-cancer-tv-messa_20251214_0331.html
+
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,389
+Searching Google for: Russia-Ukraine war: List of key events, day 1,389
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C389%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGPbe-MkGIjDZp_2Ol67r92P_WSd1XzsjftmIxEOYTkI490jXfTivENzx5XuNoPAm-0XP71Rp9fsyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1389_20251214_0331.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1389_20251214_0331.html
+
+Processing trending topic: Brown University reports two dead, nine injured in US school shooting
+Searching Google for: Brown University reports two dead, nine injured in US school shooting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrown%252BUniversity%252Breports%252Btwo%252Bdead%252C%252Bnine%252Binjured%252Bin%252BUS%252Bschool%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGP3e-MkGIjAaY2M6fBD7wjTa1bJM2SS3KAbPZRaeBM15AjinL3Q-u-jyllShTmev4NsGcoB3M2syAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: brown-university-reports-two-dead-nine-injured-in-_20251214_0331.html
+✓ Created comprehensive article: brown-university-reports-two-dead-nine-injured-in-_20251214_0331.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • King 'deeply touched' by reaction to cancer TV message, says Palace
+     Sources: bbc.com, cnn.com, reuters.com
+   • Russia-Ukraine war: List of key events, day 1,389
+     Sources: bbc.com, cnn.com, reuters.com
+   • Brown University reports two dead, nine injured in US school shooting
+     Sources: bbc.com, cnn.com, reuters.com
