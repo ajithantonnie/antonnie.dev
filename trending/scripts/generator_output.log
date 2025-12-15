@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 36 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: A 10-year-old, two rabbis and a Holocaust survivor - who are the victims?
+  Added: Resident doctors vote to go ahead with strike in England as hospitals battle flu wave
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Ghanaian students at UK universities face deportation amid funding crisis
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tracking Sudan’s humanitarian crisis: By the numbers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lionel Messi makes appearance in Delhi as footballer ends India tour
+Added expanded search topic: Tracking Sudan’s humanitarian crisis: By the numbers
+Added expanded search topic: Lionel Messi makes appearance in Delhi as footballer ends India tour
+Saved 39 topics for 2025-12-15
+Returning 3 unique trending topics:
+  1. Resident doctors vote to go ahead with strike in England as hospitals battle flu wave (from BBC News)
+  2. Tracking Sudan’s humanitarian crisis: By the numbers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lionel Messi makes appearance in Delhi as footballer ends India tour (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Resident doctors vote to go ahead with strike in England as hospitals battle flu wave
+Searching Google for: Resident doctors vote to go ahead with strike in England as hospitals battle flu wave
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DResident%252Bdoctors%252Bvote%252Bto%252Bgo%252Bahead%252Bwith%252Bstrike%252Bin%252BEngland%252Bas%252Bhospitals%252Bbattle%252Bflu%252Bwave%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1eyGMW1gMoGIjDLMTixN5QiGQ2oHR3H5_FhXpmmLiDeQ8TrLm2BH-zElHuJjWQSTcqMOR7ivTyI1FQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: resident-doctors-vote-to-go-ahead-with-strike-in-e_20251215_1427.html
+✓ Created comprehensive article: resident-doctors-vote-to-go-ahead-with-strike-in-e_20251215_1427.html
+
+Processing trending topic: Tracking Sudan’s humanitarian crisis: By the numbers
+Searching Google for: Tracking Sudan’s humanitarian crisis: By the numbers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTracking%252BSudan%25E2%2580%2599s%252Bhumanitarian%252Bcrisis%253A%252BBy%252Bthe%252Bnumbers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1eyGMy1gMoGIjDx9-AuzakH8q3C8C73FQxAE7Ywr4rZmwuaUAyzGCAQIvlHfW7EESSqZtejlJCEbSIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: tracking-sudans-humanitarian-crisis-by-the-numbers_20251215_1427.html
+✓ Created comprehensive article: tracking-sudans-humanitarian-crisis-by-the-numbers_20251215_1427.html
+
+Processing trending topic: Lionel Messi makes appearance in Delhi as footballer ends India tour
+Searching Google for: Lionel Messi makes appearance in Delhi as footballer ends India tour
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLionel%252BMessi%252Bmakes%252Bappearance%252Bin%252BDelhi%252Bas%252Bfootballer%252Bends%252BIndia%252Btour%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1eyGNO1gMoGIjCBUU7GaifhhScfAYwdulu3yRz2NvoRyL4MGXQ_AZ79GUIrdAajhXbWe-HObLvc-jkyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: lionel-messi-makes-appearance-in-delhi-as-football_20251215_1427.html
+✓ Created comprehensive article: lionel-messi-makes-appearance-in-delhi-as-football_20251215_1427.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Resident doctors vote to go ahead with strike in England as hospitals battle flu wave
+     Sources: bbc.com, cnn.com, reuters.com
+   • Tracking Sudan’s humanitarian crisis: By the numbers
+     Sources: bbc.com, cnn.com, reuters.com
+   • Lionel Messi makes appearance in Delhi as footballer ends India tour
+     Sources: bbc.com, cnn.com, reuters.com
