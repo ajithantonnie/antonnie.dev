@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Liverpool parade attacker Paul Doyle sentenced to 21 years and 6 months in prison
+  Added: I stopped Paul Doyle from ploughing car into more Liverpool fans - but I'm not a hero
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Five key moments in the assault on the rights of women and girls in 2025
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine Action hunger strikers risk dying in UK Prisons, say lawyers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yale report unveils RSF attempt to cover up Sudan atrocities, mass burials
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s foreign minister says strikes won’t stop nuclear programme
+Added expanded search topic: Palestine Action hunger strikers risk dying in UK Prisons, say lawyers
+Added expanded search topic: Yale report unveils RSF attempt to cover up Sudan atrocities, mass burials
+Added expanded search topic: Iran’s foreign minister says strikes won’t stop nuclear programme
+Saved 48 topics for 2025-12-16
+Returning 3 unique trending topics:
+  1. Palestine Action hunger strikers risk dying in UK Prisons, say lawyers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Yale report unveils RSF attempt to cover up Sudan atrocities, mass burials (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran’s foreign minister says strikes won’t stop nuclear programme (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Palestine Action hunger strikers risk dying in UK Prisons, say lawyers
+Searching Google for: Palestine Action hunger strikers risk dying in UK Prisons, say lawyers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252BAction%252Bhunger%252Bstrikers%252Brisk%252Bdying%252Bin%252BUK%252BPrisons%252C%252Bsay%252Blawyers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKZDGK-shsoGIjC4nMo4JC4stqqpyfhImG4U0XmbqrpeLmI-XR5fDGJSxbvSo0LBvglAjwSR04cePeAyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: palestine-action-hunger-strikers-risk-dying-in-uk-_20251216_1726.html
+✓ Created comprehensive article: palestine-action-hunger-strikers-risk-dying-in-uk-_20251216_1726.html
+
+Processing trending topic: Yale report unveils RSF attempt to cover up Sudan atrocities, mass burials
+Searching Google for: Yale report unveils RSF attempt to cover up Sudan atrocities, mass burials
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYale%252Breport%252Bunveils%252BRSF%252Battempt%252Bto%252Bcover%252Bup%252BSudan%252Batrocities%252C%252Bmass%252Bburials%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKZDGLashsoGIjAK7vLEvTwpUAwAaupr4c_GQki7ljdP1hpz0bt1_kb-r3O1YSSUpygwR4XsOlJcYSoyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: yale-report-unveils-rsf-attempt-to-cover-up-sudan-_20251216_1726.html
+✓ Created comprehensive article: yale-report-unveils-rsf-attempt-to-cover-up-sudan-_20251216_1726.html
+
+Processing trending topic: Iran’s foreign minister says strikes won’t stop nuclear programme
+Searching Google for: Iran’s foreign minister says strikes won’t stop nuclear programme
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Bforeign%252Bminister%252Bsays%252Bstrikes%252Bwon%25E2%2580%2599t%252Bstop%252Bnuclear%252Bprogramme%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKZDGLyshsoGIjC5Mpuna8fS0peibJtoMilhpta3eJCY9OD5hh7lnQMbBBX8jkF1J6mpAU19TMnitbQyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: irans-foreign-minister-says-strikes-wont-stop-nucl_20251216_1726.html
+✓ Created comprehensive article: irans-foreign-minister-says-strikes-wont-stop-nucl_20251216_1726.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Palestine Action hunger strikers risk dying in UK Prisons, say lawyers
+     Sources: bbc.com, cnn.com, reuters.com
+   • Yale report unveils RSF attempt to cover up Sudan atrocities, mass burials
+     Sources: bbc.com, cnn.com, reuters.com
+   • Iran’s foreign minister says strikes won’t stop nuclear programme
+     Sources: bbc.com, cnn.com, reuters.com
