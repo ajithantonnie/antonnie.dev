@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Boy, 15, charged with murder of girl, 9
+  Added: Boy, 15, charged with murder of girl, 9, as police name victim
   Added: Lower clothing and food prices help inflation fall by more than expected
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel to advance plans for 9,000 houses in occupied East Jerusalem
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why tech billionaires are quietly bankrolling Europe’s far-right
-Added expanded search topic: Israel to advance plans for 9,000 houses in occupied East Jerusalem
-Added expanded search topic: Why tech billionaires are quietly bankrolling Europe’s far-right
-Saved 27 topics for 2025-12-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Africa to deport Kenyans involved in US-Afrikaner refugee scheme
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nigeria must not become America’s next battlefield
+Added expanded search topic: South Africa to deport Kenyans involved in US-Afrikaner refugee scheme
+Added expanded search topic: Nigeria must not become America’s next battlefield
+Saved 30 topics for 2025-12-17
 Returning 3 unique trending topics:
-  1. Boy, 15, charged with murder of girl, 9 (from BBC News)
-  2. Israel to advance plans for 9,000 houses in occupied East Jerusalem (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Why tech billionaires are quietly bankrolling Europe’s far-right (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Boy, 15, charged with murder of girl, 9, as police name victim (from BBC News)
+  2. South Africa to deport Kenyans involved in US-Afrikaner refugee scheme (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Nigeria must not become America’s next battlefield (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Boy, 15, charged with murder of girl, 9
-Searching Google for: Boy, 15, charged with murder of girl, 9
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoy%252C%252B15%252C%252Bcharged%252Bwith%252Bmurder%252Bof%252Bgirl%252C%252B9%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt3lGL-KisoGIjCqF2z2ujAb36goCRSFM7-jUAqQpTTtHAOxKEWrL2WaKB8vpLr76g9jiDRpfqajz8oyBmpjbmRyUloBQw
+Processing trending topic: Boy, 15, charged with murder of girl, 9, as police name victim
+Searching Google for: Boy, 15, charged with murder of girl, 9, as police name victim
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoy%252C%252B15%252C%252Bcharged%252Bwith%252Bmurder%252Bof%252Bgirl%252C%252B9%252C%252Bas%252Bpolice%252Bname%252Bvictim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMQ6wGOmkisoGIjBJGMdunk-XbGtd45V6-cjdgFaZFjhKkwG5GmOfLHrbuYcPONSzGF3f9deefCIdmYQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: boy-15-charged-with-murder-of-girl-9_20251217_1026.html
-✓ Created comprehensive article: boy-15-charged-with-murder-of-girl-9_20251217_1026.html
+Successfully created file: boy-15-charged-with-murder-of-girl-9-as-police-nam_20251217_1122.html
+✓ Created comprehensive article: boy-15-charged-with-murder-of-girl-9-as-police-nam_20251217_1122.html
 
-Processing trending topic: Israel to advance plans for 9,000 houses in occupied East Jerusalem
-Searching Google for: Israel to advance plans for 9,000 houses in occupied East Jerusalem
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bto%252Badvance%252Bplans%252Bfor%252B9%252C000%252Bhouses%252Bin%252Boccupied%252BEast%252BJerusalem%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt3lGMaKisoGIjCN4dp3aMC-Ul2Sger1tfvREpALg25fW1pEX0OWcYASpJZuXrkbfAXsxcvuoMmzoP8yBmpjbmRyUloBQw
+Processing trending topic: South Africa to deport Kenyans involved in US-Afrikaner refugee scheme
+Searching Google for: South Africa to deport Kenyans involved in US-Afrikaner refugee scheme
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrica%252Bto%252Bdeport%252BKenyans%252Binvolved%252Bin%252BUS-Afrikaner%252Brefugee%252Bscheme%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMQ6wGO-kisoGIjA19_r-2-cChsLToqVPJOG_Gzq3FN6nfTiLJKJAP88lpIOGpgjWt4rO8CWoWAXk-XUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-to-advance-plans-for-9000-houses-in-occupie_20251217_1026.html
-✓ Created comprehensive article: israel-to-advance-plans-for-9000-houses-in-occupie_20251217_1026.html
+Successfully created file: south-africa-to-deport-kenyans-involved-in-us-afri_20251217_1122.html
+✓ Created comprehensive article: south-africa-to-deport-kenyans-involved-in-us-afri_20251217_1122.html
 
-Processing trending topic: Why tech billionaires are quietly bankrolling Europe’s far-right
-Searching Google for: Why tech billionaires are quietly bankrolling Europe’s far-right
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Btech%252Bbillionaires%252Bare%252Bquietly%252Bbankrolling%252BEurope%25E2%2580%2599s%252Bfar-right%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt3lGMyKisoGIjBt4nkh2KG5hSr8qW26RkvpcYX5pcKiyoNlxbAu-O5mTqB1K-WgbGR7KyKd0khFjywyBmpjbmRyUloBQw
+Processing trending topic: Nigeria must not become America’s next battlefield
+Searching Google for: Nigeria must not become America’s next battlefield
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Bmust%252Bnot%252Bbecome%252BAmerica%25E2%2580%2599s%252Bnext%252Bbattlefield%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMQ6wGPakisoGIjBJD7GCrId3d1hGhpilRLhtmdPiH4fV4O5OcZ74LOGnEgNDJwdzCAADIPKiOtIdEpAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-tech-billionaires-are-quietly-bankrolling-euro_20251217_1026.html
-✓ Created comprehensive article: why-tech-billionaires-are-quietly-bankrolling-euro_20251217_1026.html
+Successfully created file: nigeria-must-not-become-americas-next-battlefield_20251217_1122.html
+✓ Created comprehensive article: nigeria-must-not-become-americas-next-battlefield_20251217_1122.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Boy, 15, charged with murder of girl, 9
+   • Boy, 15, charged with murder of girl, 9, as police name victim
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel to advance plans for 9,000 houses in occupied East Jerusalem
+   • South Africa to deport Kenyans involved in US-Afrikaner refugee scheme
      Sources: bbc.com, cnn.com, reuters.com
-   • Why tech billionaires are quietly bankrolling Europe’s far-right
+   • Nigeria must not become America’s next battlefield
      Sources: bbc.com, cnn.com, reuters.com
