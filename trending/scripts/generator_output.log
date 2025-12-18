@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Teachers to be trained to spot early signs of misogyny in boys
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Morocco accused of ‘horrific’ abuse of detained gen Z protesters
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US approves $11bn in arms sales to Taiwan in deal likely to anger China
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Updates: Trump promises ‘economic boom’ in 2026, touts immigration record
-Added expanded search topic: US approves $11bn in arms sales to Taiwan in deal likely to anger China
-Added expanded search topic: Updates: Trump promises ‘economic boom’ in 2026, touts immigration record
-Saved 15 topics for 2025-12-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why the Arab Spring was never a failure
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Arab Spring hasn’t ended, and Arab regimes know it
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Academy Awards, YouTube sign deal to livestream Oscars from 2029
+Added expanded search topic: Why the Arab Spring was never a failure
+Added expanded search topic: The Arab Spring hasn’t ended, and Arab regimes know it
+Added expanded search topic: Academy Awards, YouTube sign deal to livestream Oscars from 2029
+Saved 18 topics for 2025-12-18
 Returning 3 unique trending topics:
-  1. Morocco accused of ‘horrific’ abuse of detained gen Z protesters (from The Guardian)
-  2. US approves $11bn in arms sales to Taiwan in deal likely to anger China (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Updates: Trump promises ‘economic boom’ in 2026, touts immigration record (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Why the Arab Spring was never a failure (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. The Arab Spring hasn’t ended, and Arab regimes know it (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Academy Awards, YouTube sign deal to livestream Oscars from 2029 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Morocco accused of ‘horrific’ abuse of detained gen Z protesters
-Searching Google for: Morocco accused of ‘horrific’ abuse of detained gen Z protesters
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMorocco%252Baccused%252Bof%252B%25E2%2580%2598horrific%25E2%2580%2599%252Babuse%252Bof%252Bdetained%252Bgen%252BZ%252Bprotesters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoAGKTBjsoGIjBGQFz92pS-j_eFOrv7_ftXoi3r7vEfXQ0ufa6gfd4bivr4MAs1vyjgGAmp67J1xxcyBmpjbmRyUloBQw
+Processing trending topic: Why the Arab Spring was never a failure
+Searching Google for: Why the Arab Spring was never a failure
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bthe%252BArab%252BSpring%252Bwas%252Bnever%252Ba%252Bfailure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBPAGObYjsoGIjAPw3zPNas4Ts7Cr24Rz3c8b9u1gJQi8dEPAViIWocesuzafS0s5UFpz_VuJrzfMJ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: morocco-accused-of-horrific-abuse-of-detained-gen-_20251218_0635.html
-✓ Created comprehensive article: morocco-accused-of-horrific-abuse-of-detained-gen-_20251218_0635.html
+Successfully created file: why-the-arab-spring-was-never-a-failure_20251218_0725.html
+✓ Created comprehensive article: why-the-arab-spring-was-never-a-failure_20251218_0725.html
 
-Processing trending topic: US approves $11bn in arms sales to Taiwan in deal likely to anger China
-Searching Google for: US approves $11bn in arms sales to Taiwan in deal likely to anger China
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bapproves%252B%252411bn%252Bin%252Barms%252Bsales%252Bto%252BTaiwan%252Bin%252Bdeal%252Blikely%252Bto%252Banger%252BChina%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoAGKvBjsoGIjDo1bQoTcYhQhWfRj_h_KtMU0FrDgZCSPYNKGDftwmk2Upg3AXcabWzpliWOMPKNOAyBmpjbmRyUloBQw
+Processing trending topic: The Arab Spring hasn’t ended, and Arab regimes know it
+Searching Google for: The Arab Spring hasn’t ended, and Arab regimes know it
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BArab%252BSpring%252Bhasn%25E2%2580%2599t%252Bended%252C%252Band%252BArab%252Bregimes%252Bknow%252Bit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBPAGO3YjsoGIjC5xUq-tJvCwnQfXEn5SDMd5GxTWhby-eEkN4Fa1b4E8oQ2AyB0qhjzNPPJN18KuvcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-approves-11bn-in-arms-sales-to-taiwan-in-deal-l_20251218_0635.html
-✓ Created comprehensive article: us-approves-11bn-in-arms-sales-to-taiwan-in-deal-l_20251218_0635.html
+Successfully created file: the-arab-spring-hasnt-ended-and-arab-regimes-know-_20251218_0725.html
+✓ Created comprehensive article: the-arab-spring-hasnt-ended-and-arab-regimes-know-_20251218_0725.html
 
-Processing trending topic: Updates: Trump promises ‘economic boom’ in 2026, touts immigration record
-Searching Google for: s: Trump promises ‘economic boom’ in 2026, touts immigration record
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Ds%253A%252BTrump%252Bpromises%252B%25E2%2580%2598economic%252Bboom%25E2%2580%2599%252Bin%252B2026%252C%252Btouts%252Bimmigration%252Brecord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoAGLHBjsoGIjBEM5m1_0pqi2v412WRJg1SBIXjfWoC9vPc8SopXjsyJi0TtdrZCtvUsUmmhRQjz-YyBmpjbmRyUloBQw
+Processing trending topic: Academy Awards, YouTube sign deal to livestream Oscars from 2029
+Searching Google for: Academy Awards, YouTube sign deal to livestream Oscars from 2029
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAcademy%252BAwards%252C%252BYouTube%252Bsign%252Bdeal%252Bto%252Blivestream%252BOscars%252Bfrom%252B2029%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBPAGPTYjsoGIjDNU4EgYSEHtA-AbJFzaLkWcvLy8b_pcHzuD936cMEMRNSLtFSZ5vNI4jyZG_h_c1gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: updates-trump-promises-economic-boom-in-2026-touts_20251218_0635.html
-✓ Created comprehensive article: updates-trump-promises-economic-boom-in-2026-touts_20251218_0635.html
+Successfully created file: academy-awards-youtube-sign-deal-to-livestream-osc_20251218_0725.html
+✓ Created comprehensive article: academy-awards-youtube-sign-deal-to-livestream-osc_20251218_0725.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Morocco accused of ‘horrific’ abuse of detained gen Z protesters
+   • Why the Arab Spring was never a failure
      Sources: bbc.com, cnn.com, reuters.com
-   • US approves $11bn in arms sales to Taiwan in deal likely to anger China
+   • The Arab Spring hasn’t ended, and Arab regimes know it
      Sources: bbc.com, cnn.com, reuters.com
-   • Updates: Trump promises ‘economic boom’ in 2026, touts immigration record
+   • Academy Awards, YouTube sign deal to livestream Oscars from 2029
      Sources: bbc.com, cnn.com, reuters.com
