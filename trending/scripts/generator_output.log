@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Government data stolen in hack, minister confirms
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Colombian mercenaries in Sudan ‘recruited by UK-registered firms’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US to host Qatari, Turkish and Egyptian officials for Gaza ceasefire talks
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Julian Assange files complaint against Nobel Foundation over Machado prize
-Added expanded search topic: US to host Qatari, Turkish and Egyptian officials for Gaza ceasefire talks
-Added expanded search topic: Julian Assange files complaint against Nobel Foundation over Machado prize
-Saved 24 topics for 2025-12-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Age of Water: How radioactivity is costing lives in a Mexican town
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza’s tech workers code from rubble as Israel’s war destroys digital life
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How much is US support for Israel costing Donald Trump?
+Added expanded search topic: The Age of Water: How radioactivity is costing lives in a Mexican town
+Added expanded search topic: Gaza’s tech workers code from rubble as Israel’s war destroys digital life
+Added expanded search topic: How much is US support for Israel costing Donald Trump?
+Saved 27 topics for 2025-12-19
 Returning 3 unique trending topics:
-  1. £100 contactless card limit to be lifted (from BBC News)
-  2. US to host Qatari, Turkish and Egyptian officials for Gaza ceasefire talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Julian Assange files complaint against Nobel Foundation over Machado prize (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. The Age of Water: How radioactivity is costing lives in a Mexican town (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Gaza’s tech workers code from rubble as Israel’s war destroys digital life (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How much is US support for Israel costing Donald Trump? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: £100 contactless card limit to be lifted
-Searching Google for: £100 contactless card limit to be lifted
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25C2%25A3100%252Bcontactless%252Bcard%252Blimit%252Bto%252Bbe%252Blifted%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DqVGOG0lMoGIjD0H1HJ5CW37D7nueXWsQLgdiSRhki0ulufKLfmqsPFAh25RGCpzpEqDONxY-PEP6oyBmpjbmRyUloBQw
+Processing trending topic: The Age of Water: How radioactivity is costing lives in a Mexican town
+Searching Google for: The Age of Water: How radioactivity is costing lives in a Mexican town
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BAge%252Bof%252BWater%253A%252BHow%252Bradioactivity%252Bis%252Bcosting%252Blives%252Bin%252Ba%252BMexican%252Btown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsrFGIPQlMoGIjD-tBPNNb2_CRV9gAaTMNGxK2qPfa868r-a_mMalpnbQSwdytKX3TxiedwYA5GfooUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 100-contactless-card-limit-to-be-lifted_20251219_0927.html
-✓ Created comprehensive article: 100-contactless-card-limit-to-be-lifted_20251219_0927.html
+Successfully created file: the-age-of-water-how-radioactivity-is-costing-live_20251219_1025.html
+✓ Created comprehensive article: the-age-of-water-how-radioactivity-is-costing-live_20251219_1025.html
 
-Processing trending topic: US to host Qatari, Turkish and Egyptian officials for Gaza ceasefire talks
-Searching Google for: US to host Qatari, Turkish and Egyptian officials for Gaza ceasefire talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bto%252Bhost%252BQatari%252C%252BTurkish%252Band%252BEgyptian%252Bofficials%252Bfor%252BGaza%252Bceasefire%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DqVGOi0lMoGIjAkcQ1hyxVoqKIMcKYsSmesvDVhsaknNVrxvXBS1zaU7_Jwgb3VPhxu-MUGj5OrnH0yBmpjbmRyUloBQw
+Processing trending topic: Gaza’s tech workers code from rubble as Israel’s war destroys digital life
+Searching Google for: Gaza’s tech workers code from rubble as Israel’s war destroys digital life
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%25E2%2580%2599s%252Btech%252Bworkers%252Bcode%252Bfrom%252Brubble%252Bas%252BIsrael%25E2%2580%2599s%252Bwar%252Bdestroys%252Bdigital%252Blife%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsrFGIrQlMoGIjDj372L9LrMPYo-pkszwDQpvGVfWU7y5GjZq8_6jeqmvFsAHhMMrGNUyAZBptkFGTIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-to-host-qatari-turkish-and-egyptian-officials-f_20251219_0927.html
-✓ Created comprehensive article: us-to-host-qatari-turkish-and-egyptian-officials-f_20251219_0927.html
+Successfully created file: gazas-tech-workers-code-from-rubble-as-israels-war_20251219_1025.html
+✓ Created comprehensive article: gazas-tech-workers-code-from-rubble-as-israels-war_20251219_1025.html
 
-Processing trending topic: Julian Assange files complaint against Nobel Foundation over Machado prize
-Searching Google for: Julian Assange files complaint against Nobel Foundation over Machado prize
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJulian%252BAssange%252Bfiles%252Bcomplaint%252Bagainst%252BNobel%252BFoundation%252Bover%252BMachado%252Bprize%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DqVGO60lMoGIjCennH6knTsls19N79EwpbN-5veYy1jCm90-IdcQaXb-gZjfyP6ddJTnxVlHSkAfN8yBmpjbmRyUloBQw
+Processing trending topic: How much is US support for Israel costing Donald Trump?
+Searching Google for: How much is US support for Israel costing Donald Trump?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bmuch%252Bis%252BUS%252Bsupport%252Bfor%252BIsrael%252Bcosting%252BDonald%252BTrump%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsrFGJHQlMoGIjCJ5RvrmfFTAcg8eQhvC6ZMZ7hWcQnbqWF391xg_xAdflExwM9BwxR0exYrHTeJtOAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: julian-assange-files-complaint-against-nobel-found_20251219_0927.html
-✓ Created comprehensive article: julian-assange-files-complaint-against-nobel-found_20251219_0927.html
+Successfully created file: how-much-is-us-support-for-israel-costing-donald-t_20251219_1025.html
+✓ Created comprehensive article: how-much-is-us-support-for-israel-costing-donald-t_20251219_1025.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • £100 contactless card limit to be lifted
+   • The Age of Water: How radioactivity is costing lives in a Mexican town
      Sources: bbc.com, cnn.com, reuters.com
-   • US to host Qatari, Turkish and Egyptian officials for Gaza ceasefire talks
+   • Gaza’s tech workers code from rubble as Israel’s war destroys digital life
      Sources: bbc.com, cnn.com, reuters.com
-   • Julian Assange files complaint against Nobel Foundation over Machado prize
+   • How much is US support for Israel costing Donald Trump?
      Sources: bbc.com, cnn.com, reuters.com
