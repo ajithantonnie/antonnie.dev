@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Putin vows no more wars if West treats Russia with respect
@@ -8,59 +8,61 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Colombian mercenaries in Sudan ‘recruited by UK-registered firms’
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Three killed in Taipei stabbing, smoke bomb attack
-Added expanded search topic: Three killed in Taipei stabbing, smoke bomb attack
-Saved 45 topics for 2025-12-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hadi’s killing “chilling turning point” for Bangladesh
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel, Lebanon officials meet as pressure mounts to disarm Hezbollah
+Added expanded search topic: Hadi’s killing “chilling turning point” for Bangladesh
+Added expanded search topic: Israel, Lebanon officials meet as pressure mounts to disarm Hezbollah
+Saved 48 topics for 2025-12-19
 Returning 3 unique trending topics:
-  1. Putin vows no more wars if West treats Russia with respect (from BBC News)
-  2. Family of stabbed girl say 'our hearts are broken' (from BBC News)
-  3. Three killed in Taipei stabbing, smoke bomb attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ (from The Guardian)
+  2. Hadi’s killing “chilling turning point” for Bangladesh (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel, Lebanon officials meet as pressure mounts to disarm Hezbollah (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Putin vows no more wars if West treats Russia with respect
-Searching Google for: Putin vows no more wars if West treats Russia with respect
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%252Bvows%252Bno%252Bmore%252Bwars%252Bif%252BWest%252Btreats%252BRussia%252Bwith%252Brespect%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjYlGI76lcoGIjCILI-yXpKiiZmBs-eVou1lsK3L6VgZva5VIcXNCddkKe2nOZMq1vg_gEoTQMW_ZgMyBmpjbmRyUloBQw
+Processing trending topic: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+Searching Google for: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bplan%252Bfor%252B%25241.6m%252Bhepatitis%252BB%252Bvaccine%252Bstudy%252Bin%252BAfrica%252Bcalled%252B%25E2%2580%2598highly%252Bunethical%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfv2GNSTlsoGIjBJ64RU2ekSqY8h2EY-fQD8n4-cjhr9wMLO4GHemC7Lx4PV7np_bLWywo2dsec64XEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: putin-vows-no-more-wars-if-west-treats-russia-with_20251219_1628.html
-✓ Created comprehensive article: putin-vows-no-more-wars-if-west-treats-russia-with_20251219_1628.html
+Successfully created file: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251219_1722.html
+✓ Created comprehensive article: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251219_1722.html
 
-Processing trending topic: Family of stabbed girl say 'our hearts are broken'
-Searching Google for: Family of stabbed girl say 'our hearts are broken'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamily%252Bof%252Bstabbed%252Bgirl%252Bsay%252B%2527our%252Bhearts%252Bare%252Bbroken%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjYlGJX6lcoGIjCm2Dgr4zcgkQ3J1fdXcPKO97bRmePtAmFqziA77yekakNwLDHcPdtA7IPARIoznEMyBmpjbmRyUloBQw
+Processing trending topic: Hadi’s killing “chilling turning point” for Bangladesh
+Searching Google for: Hadi’s killing “chilling turning point” for Bangladesh
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHadi%25E2%2580%2599s%252Bkilling%252B%25E2%2580%259Cchilling%252Bturning%252Bpoint%25E2%2580%259D%252Bfor%252BBangladesh%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfv2GNuTlsoGIjDnBv_Xyt4RcUsdRd2yeGz6KYhzuBZrzd0eZ_H-RuU3acLAQFHsDF5a0Jj3R-Zy4LoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: family-of-stabbed-girl-say-our-hearts-are-broken_20251219_1628.html
-✓ Created comprehensive article: family-of-stabbed-girl-say-our-hearts-are-broken_20251219_1628.html
+Successfully created file: hadis-killing-chilling-turning-point-for-banglades_20251219_1722.html
+✓ Created comprehensive article: hadis-killing-chilling-turning-point-for-banglades_20251219_1722.html
 
-Processing trending topic: Three killed in Taipei stabbing, smoke bomb attack
-Searching Google for: Three killed in Taipei stabbing, smoke bomb attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bkilled%252Bin%252BTaipei%252Bstabbing%252C%252Bsmoke%252Bbomb%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjYlGJz6lcoGIjCSHN3dBUH0YtbqJfkn20QIwdMmvHAysYJ09gbnMfaJMtc6Y9YV6dLhtz4u9uHyjB0yBmpjbmRyUloBQw
+Processing trending topic: Israel, Lebanon officials meet as pressure mounts to disarm Hezbollah
+Searching Google for: Israel, Lebanon officials meet as pressure mounts to disarm Hezbollah
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252C%252BLebanon%252Bofficials%252Bmeet%252Bas%252Bpressure%252Bmounts%252Bto%252Bdisarm%252BHezbollah%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfv2GOGTlsoGIjCHCK5mcn588rYrVZz90NfYdm_Ro48DrDXNnrDrVOhqR3gnJww_HxoWuLbgLR_6oUIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-killed-in-taipei-stabbing-smoke-bomb-attack_20251219_1628.html
-✓ Created comprehensive article: three-killed-in-taipei-stabbing-smoke-bomb-attack_20251219_1628.html
+Successfully created file: israel-lebanon-officials-meet-as-pressure-mounts-t_20251219_1722.html
+✓ Created comprehensive article: israel-lebanon-officials-meet-as-pressure-mounts-t_20251219_1722.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Putin vows no more wars if West treats Russia with respect
+   • US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
      Sources: bbc.com, cnn.com, reuters.com
-   • Family of stabbed girl say 'our hearts are broken'
+   • Hadi’s killing “chilling turning point” for Bangladesh
      Sources: bbc.com, cnn.com, reuters.com
-   • Three killed in Taipei stabbing, smoke bomb attack
+   • Israel, Lebanon officials meet as pressure mounts to disarm Hezbollah
      Sources: bbc.com, cnn.com, reuters.com
