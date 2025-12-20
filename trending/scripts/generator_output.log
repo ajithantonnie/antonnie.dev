@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 63 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: David Walliams denies inappropriate behaviour after publisher drops him
@@ -9,60 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Musk wins US appeal to restore 2018 Tesla pay package
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Justice Department begins releasing government Epstein files
-Added expanded search topic: Musk wins US appeal to restore 2018 Tesla pay package
-Added expanded search topic: US Justice Department begins releasing government Epstein files
-Saved 66 topics for 2025-12-19
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2025-12-20
 Returning 3 unique trending topics:
-  1. US carries out 'massive' strike against IS in Syria (from BBC News)
-  2. Musk wins US appeal to restore 2018 Tesla pay package (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US Justice Department begins releasing government Epstein files (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. David Walliams denies inappropriate behaviour after publisher drops him (from BBC News)
+  2. US carries out 'massive' strike against IS in Syria (from BBC News)
+  3. US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ (from The Guardian)
+
+Processing trending topic: David Walliams denies inappropriate behaviour after publisher drops him
+Searching Google for: David Walliams denies inappropriate behaviour after publisher drops him
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDavid%252BWalliams%252Bdenies%252Binappropriate%252Bbehaviour%252Bafter%252Bpublisher%252Bdrops%252Bhim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNXzGOv2l8oGIjDrV_zauMRKuBHf8VZ6eQbuy-T67aIViy3imYCMvZSt3QF-beAHVyuJPjuJqXlT6XMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: david-walliams-denies-inappropriate-behaviour-afte_20251220_0127.html
+✓ Created comprehensive article: david-walliams-denies-inappropriate-behaviour-afte_20251220_0127.html
 
 Processing trending topic: US carries out 'massive' strike against IS in Syria
 Searching Google for: US carries out 'massive' strike against IS in Syria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcarries%252Bout%252B%2527massive%2527%252Bstrike%252Bagainst%252BIS%252Bin%252BSyria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVwGPe7l8oGIjBFoFz2OuvjEVsrr3yAIYJxLih4QmUkFjabS-RkRCbaZpF9KkVkaQ6n5tiQjjiZIxoyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcarries%252Bout%252B%2527massive%2527%252Bstrike%252Bagainst%252BIS%252Bin%252BSyria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNXzGPH2l8oGIjAywaqsZ-Yx_7RaLmljBwij6kLV3v8-YI8hfqqGKEnOaIcNSp7mH0SJd6lWGc_nUY4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-carries-out-massive-strike-against-is-in-syria_20251219_2321.html
-✓ Created comprehensive article: us-carries-out-massive-strike-against-is-in-syria_20251219_2321.html
+Successfully created file: us-carries-out-massive-strike-against-is-in-syria_20251220_0127.html
+✓ Created comprehensive article: us-carries-out-massive-strike-against-is-in-syria_20251220_0127.html
 
-Processing trending topic: Musk wins US appeal to restore 2018 Tesla pay package
-Searching Google for: Musk wins US appeal to restore 2018 Tesla pay package
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMusk%252Bwins%252BUS%252Bappeal%252Bto%252Brestore%252B2018%252BTesla%252Bpay%252Bpackage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVwGP67l8oGIjAlAj28v9mqJ5eH5v5uFCkG5dCW7E6rWUB7Qf-lCGj0utgrkBuHIedWb6MyOTJu2GoyBmpjbmRyUloBQw
+Processing trending topic: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+Searching Google for: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bplan%252Bfor%252B%25241.6m%252Bhepatitis%252BB%252Bvaccine%252Bstudy%252Bin%252BAfrica%252Bcalled%252B%25E2%2580%2598highly%252Bunethical%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNXzGPj2l8oGIjAkhKytdNZDYyWWCYyH14ll2j4BdLqxfSNBXusKcZ8rWIT-iIfdkqKnjS39_MDydf0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: musk-wins-us-appeal-to-restore-2018-tesla-pay-pack_20251219_2321.html
-✓ Created comprehensive article: musk-wins-us-appeal-to-restore-2018-tesla-pay-pack_20251219_2321.html
-
-Processing trending topic: US Justice Department begins releasing government Epstein files
-Searching Google for: US Justice Department begins releasing government Epstein files
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BJustice%252BDepartment%252Bbegins%252Breleasing%252Bgovernment%252BEpstein%252Bfiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVwGIW8l8oGIjBUoTQG_dD9qUWGmXZ_hUUDHqjfu66gqKUZKU_UUFfDyjC-7X_Lv2o_bQR4ivpyeO8yBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-justice-department-begins-releasing-government-_20251219_2321.html
-✓ Created comprehensive article: us-justice-department-begins-releasing-government-_20251219_2321.html
+Successfully created file: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251220_0127.html
+✓ Created comprehensive article: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251220_0127.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • David Walliams denies inappropriate behaviour after publisher drops him
+     Sources: bbc.com, cnn.com, reuters.com
    • US carries out 'massive' strike against IS in Syria
      Sources: bbc.com, cnn.com, reuters.com
-   • Musk wins US appeal to restore 2018 Tesla pay package
-     Sources: bbc.com, cnn.com, reuters.com
-   • US Justice Department begins releasing government Epstein files
+   • US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
      Sources: bbc.com, cnn.com, reuters.com
