@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Who and what are in the Epstein files?
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Netanyahu finally announces October 7 inquiry: Why are Israelis furious?
-  Found from World News - Breaking international news and headlines | Sky News: Trapped journalists rescued after mob sets fire to Bangladesh newspaper offices
-Added expanded search topic: Netanyahu finally announces October 7 inquiry: Why are Israelis furious?
-Added expanded search topic: Trapped journalists rescued after mob sets fire to Bangladesh newspaper offices
-Saved 24 topics for 2025-12-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran executes man accused of spying for Israel’s Mossad: State media
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Uruguay’s FM on US claims to police Latin America and rising tensions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Islamic University of Gaza resumes classes on site amid Israeli destruction
+Added expanded search topic: Iran executes man accused of spying for Israel’s Mossad: State media
+Added expanded search topic: Uruguay’s FM on US claims to police Latin America and rising tensions
+Added expanded search topic: Islamic University of Gaza resumes classes on site amid Israeli destruction
+Saved 27 topics for 2025-12-20
 Returning 3 unique trending topics:
-  1. Who and what are in the Epstein files? (from BBC News)
-  2. Netanyahu finally announces October 7 inquiry: Why are Israelis furious? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trapped journalists rescued after mob sets fire to Bangladesh newspaper offices (from World News - Breaking international news and headlines | Sky News)
+  1. Iran executes man accused of spying for Israel’s Mossad: State media (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Uruguay’s FM on US claims to police Latin America and rising tensions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Islamic University of Gaza resumes classes on site amid Israeli destruction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Who and what are in the Epstein files?
-Searching Google for: Who and what are in the Epstein files?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Band%252Bwhat%252Bare%252Bin%252Bthe%252BEpstein%252Bfiles%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOiGNzVmcoGIjCRay5DD-vh-TChlevWcDbuyaicgc9cJt5_LQ4KrzdVu1LP0Zs-Pv2e0Sw4xJXu-6gyBmpjbmRyUloBQw
+Processing trending topic: Iran executes man accused of spying for Israel’s Mossad: State media
+Searching Google for: Iran executes man accused of spying for Israel’s Mossad: State media
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bexecutes%252Bman%252Baccused%252Bof%252Bspying%252Bfor%252BIsrael%25E2%2580%2599s%252BMossad%253A%252BState%252Bmedia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbDGLHxmcoGIjCQlb92FHtg82x6WSuCijDr1ftwnJCAz1N-95IE_0YrsPIEps2sGU9tV3YEZcwJINMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-and-what-are-in-the-epstein-files_20251220_0922.html
-✓ Created comprehensive article: who-and-what-are-in-the-epstein-files_20251220_0922.html
+Successfully created file: iran-executes-man-accused-of-spying-for-israels-mo_20251220_1021.html
+✓ Created comprehensive article: iran-executes-man-accused-of-spying-for-israels-mo_20251220_1021.html
 
-Processing trending topic: Netanyahu finally announces October 7 inquiry: Why are Israelis furious?
-Searching Google for: Netanyahu finally announces October 7 inquiry: Why are Israelis furious?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNetanyahu%252Bfinally%252Bannounces%252BOctober%252B7%252Binquiry%253A%252BWhy%252Bare%252BIsraelis%252Bfurious%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOiGOTVmcoGIjC3wqfcbINDrAsbtpq_DVIH57lAb_un3GQbDjq1o5qM4rrm1-FUkhe0fdVCspqRvugyBmpjbmRyUloBQw
+Processing trending topic: Uruguay’s FM on US claims to police Latin America and rising tensions
+Searching Google for: Uruguay’s FM on US claims to police Latin America and rising tensions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUruguay%25E2%2580%2599s%252BFM%252Bon%252BUS%252Bclaims%252Bto%252Bpolice%252BLatin%252BAmerica%252Band%252Brising%252Btensions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbDGLjxmcoGIjA-ue9lbNynm2_X-abHXCj5Jgtqwi4yi_GxEdnsODccWOmkip-oRb8nrZ-SFwMU2bMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: netanyahu-finally-announces-october-7-inquiry-why-_20251220_0922.html
-✓ Created comprehensive article: netanyahu-finally-announces-october-7-inquiry-why-_20251220_0922.html
+Successfully created file: uruguays-fm-on-us-claims-to-police-latin-america-a_20251220_1021.html
+✓ Created comprehensive article: uruguays-fm-on-us-claims-to-police-latin-america-a_20251220_1021.html
 
-Processing trending topic: Trapped journalists rescued after mob sets fire to Bangladesh newspaper offices
-Searching Google for: Trapped journalists rescued after mob sets fire to Bangladesh newspaper offices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrapped%252Bjournalists%252Brescued%252Bafter%252Bmob%252Bsets%252Bfire%252Bto%252BBangladesh%252Bnewspaper%252Boffices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOiGOrVmcoGIjA6vsiZPAGy0QHT224xlYUN-aRf9fdBLF0nLaxQaspzfCvLRX9rEfojbEe66jQENqwyBmpjbmRyUloBQw
+Processing trending topic: Islamic University of Gaza resumes classes on site amid Israeli destruction
+Searching Google for: Islamic University of Gaza resumes classes on site amid Israeli destruction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIslamic%252BUniversity%252Bof%252BGaza%252Bresumes%252Bclasses%252Bon%252Bsite%252Bamid%252BIsraeli%252Bdestruction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbDGL7xmcoGIjAuj4-lc8k8IpVZloCmQss5IK70_vI2bzQpFfhWYpShVfxFUcdv4QNfQg4Juce-nssyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trapped-journalists-rescued-after-mob-sets-fire-to_20251220_0922.html
-✓ Created comprehensive article: trapped-journalists-rescued-after-mob-sets-fire-to_20251220_0922.html
+Successfully created file: islamic-university-of-gaza-resumes-classes-on-site_20251220_1021.html
+✓ Created comprehensive article: islamic-university-of-gaza-resumes-classes-on-site_20251220_1021.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Who and what are in the Epstein files?
+   • Iran executes man accused of spying for Israel’s Mossad: State media
      Sources: bbc.com, cnn.com, reuters.com
-   • Netanyahu finally announces October 7 inquiry: Why are Israelis furious?
+   • Uruguay’s FM on US claims to police Latin America and rising tensions
      Sources: bbc.com, cnn.com, reuters.com
-   • Trapped journalists rescued after mob sets fire to Bangladesh newspaper offices
+   • Islamic University of Gaza resumes classes on site amid Israeli destruction
      Sources: bbc.com, cnn.com, reuters.com
