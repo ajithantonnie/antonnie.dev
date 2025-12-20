@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: David Walliams denies inappropriate behaviour after publisher drops him
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-20
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Villareal vs Barcelona: La Liga – teams, start, lineups, kickoff
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,395
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump government suspends visa lottery linked to Brown University suspect
+Added expanded search topic: Villareal vs Barcelona: La Liga – teams, start, lineups, kickoff
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,395
+Added expanded search topic: Trump government suspends visa lottery linked to Brown University suspect
+Saved 6 topics for 2025-12-20
 Returning 3 unique trending topics:
-  1. David Walliams denies inappropriate behaviour after publisher drops him (from BBC News)
-  2. US carries out 'massive' strike against IS in Syria (from BBC News)
-  3. US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ (from The Guardian)
+  1. Villareal vs Barcelona: La Liga – teams, start, lineups, kickoff (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,395 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump government suspends visa lottery linked to Brown University suspect (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: David Walliams denies inappropriate behaviour after publisher drops him
-Searching Google for: David Walliams denies inappropriate behaviour after publisher drops him
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDavid%252BWalliams%252Bdenies%252Binappropriate%252Bbehaviour%252Bafter%252Bpublisher%252Bdrops%252Bhim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNXzGOv2l8oGIjDrV_zauMRKuBHf8VZ6eQbuy-T67aIViy3imYCMvZSt3QF-beAHVyuJPjuJqXlT6XMyBmpjbmRyUloBQw
+Processing trending topic: Villareal vs Barcelona: La Liga – teams, start, lineups, kickoff
+Searching Google for: Villareal vs Barcelona: La Liga – teams, start, lineups, kickoff
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVillareal%252Bvs%252BBarcelona%253A%252BLa%252BLiga%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252C%252Blineups%252C%252Bkickoff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NC0GNuqmMoGIjDSfom7WapNlYEhHHhAQVMAR-XI9Hen87neqzhX8lomO8auOlbJT5OunMdlTzK1-VsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: david-walliams-denies-inappropriate-behaviour-afte_20251220_0127.html
-✓ Created comprehensive article: david-walliams-denies-inappropriate-behaviour-afte_20251220_0127.html
+Successfully created file: villareal-vs-barcelona-la-liga-teams-start-lineups_20251220_0317.html
+✓ Created comprehensive article: villareal-vs-barcelona-la-liga-teams-start-lineups_20251220_0317.html
 
-Processing trending topic: US carries out 'massive' strike against IS in Syria
-Searching Google for: US carries out 'massive' strike against IS in Syria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcarries%252Bout%252B%2527massive%2527%252Bstrike%252Bagainst%252BIS%252Bin%252BSyria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNXzGPH2l8oGIjAywaqsZ-Yx_7RaLmljBwij6kLV3v8-YI8hfqqGKEnOaIcNSp7mH0SJd6lWGc_nUY4yBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,395
+Searching Google for: Russia-Ukraine war: List of key events, day 1,395
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C395%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NC0GOKqmMoGIjBGNNH2PZbLqkyOXHzvsuUbA4SQ5ULpEVxRLN2RfYP9vwIIQWB4gkkEDauwaPMJPtcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-carries-out-massive-strike-against-is-in-syria_20251220_0127.html
-✓ Created comprehensive article: us-carries-out-massive-strike-against-is-in-syria_20251220_0127.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1395_20251220_0317.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1395_20251220_0317.html
 
-Processing trending topic: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Searching Google for: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bplan%252Bfor%252B%25241.6m%252Bhepatitis%252BB%252Bvaccine%252Bstudy%252Bin%252BAfrica%252Bcalled%252B%25E2%2580%2598highly%252Bunethical%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNXzGPj2l8oGIjAkhKytdNZDYyWWCYyH14ll2j4BdLqxfSNBXusKcZ8rWIT-iIfdkqKnjS39_MDydf0yBmpjbmRyUloBQw
+Processing trending topic: Trump government suspends visa lottery linked to Brown University suspect
+Searching Google for: Trump government suspends visa lottery linked to Brown University suspect
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bgovernment%252Bsuspends%252Bvisa%252Blottery%252Blinked%252Bto%252BBrown%252BUniversity%252Bsuspect%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NC0GOmqmMoGIjDKiPfBWxRPplAiU3KPSqy0P-oj4moTYNhO6sYJ0_anB_sh4YSBX7qgMLVJIDPk8jwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251220_0127.html
-✓ Created comprehensive article: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251220_0127.html
+Successfully created file: trump-government-suspends-visa-lottery-linked-to-b_20251220_0318.html
+✓ Created comprehensive article: trump-government-suspends-visa-lottery-linked-to-b_20251220_0318.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • David Walliams denies inappropriate behaviour after publisher drops him
+   • Villareal vs Barcelona: La Liga – teams, start, lineups, kickoff
      Sources: bbc.com, cnn.com, reuters.com
-   • US carries out 'massive' strike against IS in Syria
+   • Russia-Ukraine war: List of key events, day 1,395
      Sources: bbc.com, cnn.com, reuters.com
-   • US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+   • Trump government suspends visa lottery linked to Brown University suspect
      Sources: bbc.com, cnn.com, reuters.com
