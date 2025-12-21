@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Minute's silence held to remember Bondi Beach attack victims
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian family left homeless after house collapses in storm-hit Gaza
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war may “grind on for another 12 to 18 months”
-Added expanded search topic: Palestinian family left homeless after house collapses in storm-hit Gaza
-Added expanded search topic: Russia-Ukraine war may “grind on for another 12 to 18 months”
-Saved 33 topics for 2025-12-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel kills two Palestinians, including 16 year-old, in West Bank
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Manhunt under way in South Africa after mass shooting in Johannesburg
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians attending wedding killed in Israeli attack on Gaza school
+Added expanded search topic: Israel kills two Palestinians, including 16 year-old, in West Bank
+Added expanded search topic: Manhunt under way in South Africa after mass shooting in Johannesburg
+Added expanded search topic: Palestinians attending wedding killed in Israeli attack on Gaza school
+Saved 36 topics for 2025-12-21
 Returning 3 unique trending topics:
-  1. Minute's silence held to remember Bondi Beach attack victims (from BBC News)
-  2. Palestinian family left homeless after house collapses in storm-hit Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Russia-Ukraine war may “grind on for another 12 to 18 months” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel kills two Palestinians, including 16 year-old, in West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Manhunt under way in South Africa after mass shooting in Johannesburg (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Palestinians attending wedding killed in Israeli attack on Gaza school (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Minute's silence held to remember Bondi Beach attack victims
-Searching Google for: Minute's silence held to remember Bondi Beach attack victims
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMinute%2527s%252Bsilence%252Bheld%252Bto%252Bremember%252BBondi%252BBeach%252Battack%252Bvictims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst526GJPVn8oGIjBQCy_tx-faPRt5FEMFt_JNaJGZP3PARXxe_219yNeBeSSXeq_ckonXaUw0TQTlsrQyBmpjbmRyUloBQw
+Processing trending topic: Israel kills two Palestinians, including 16 year-old, in West Bank
+Searching Google for: Israel kills two Palestinians, including 16 year-old, in West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bkills%252Btwo%252BPalestinians%252C%252Bincluding%252B16%252Byear-old%252C%252Bin%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFMjGIftn8oGIjAQ3qAVpPq5uULZwi9YkYsVnVvJRth6ZzcrNTcCnd7yQKvdHBO9GiygirEwUom4LCEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: minutes-silence-held-to-remember-bondi-beach-attac_20251221_1239.html
-✓ Created comprehensive article: minutes-silence-held-to-remember-bondi-beach-attac_20251221_1239.html
+Successfully created file: israel-kills-two-palestinians-including-16-year-ol_20251221_1330.html
+✓ Created comprehensive article: israel-kills-two-palestinians-including-16-year-ol_20251221_1330.html
 
-Processing trending topic: Palestinian family left homeless after house collapses in storm-hit Gaza
-Searching Google for: Palestinian family left homeless after house collapses in storm-hit Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Bfamily%252Bleft%252Bhomeless%252Bafter%252Bhouse%252Bcollapses%252Bin%252Bstorm-hit%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst526GJrVn8oGIjCmc4g4dgKH4V7d_3l12p4oazNrZ-iIWSuEonRBvQpvjsUVqB4QHgnmnVpOu5-81eQyBmpjbmRyUloBQw
+Processing trending topic: Manhunt under way in South Africa after mass shooting in Johannesburg
+Searching Google for: Manhunt under way in South Africa after mass shooting in Johannesburg
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DManhunt%252Bunder%252Bway%252Bin%252BSouth%252BAfrica%252Bafter%252Bmass%252Bshooting%252Bin%252BJohannesburg%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFMjGI_tn8oGIjDeFQX2L6NKnK90voR151_zH8Xw1MeHssLfC-eSzhjXkErwwX1WxaAq_fdGUGCz_xMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestinian-family-left-homeless-after-house-colla_20251221_1239.html
-✓ Created comprehensive article: palestinian-family-left-homeless-after-house-colla_20251221_1239.html
+Successfully created file: manhunt-under-way-in-south-africa-after-mass-shoot_20251221_1330.html
+✓ Created comprehensive article: manhunt-under-way-in-south-africa-after-mass-shoot_20251221_1330.html
 
-Processing trending topic: Russia-Ukraine war may “grind on for another 12 to 18 months”
-Searching Google for: Russia-Ukraine war may “grind on for another 12 to 18 months”
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%252Bmay%252B%25E2%2580%259Cgrind%252Bon%252Bfor%252Banother%252B12%252Bto%252B18%252Bmonths%25E2%2580%259D%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst526GKHVn8oGIjC8lo-rpqqGyumCaZJDxYxrE50lRa0KDoF0NUd0FPwtGahjIsMEcqABDAP7-wI5Aw4yBmpjbmRyUloBQw
+Processing trending topic: Palestinians attending wedding killed in Israeli attack on Gaza school
+Searching Google for: Palestinians attending wedding killed in Israeli attack on Gaza school
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Battending%252Bwedding%252Bkilled%252Bin%252BIsraeli%252Battack%252Bon%252BGaza%252Bschool%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFMjGJXtn8oGIjBxtnYGsbke7xqlM4q5NmI0yTgsLM2UbPKQEob8dj3fZHxUnQ5XgyetWcaS3BHUG8UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-war-may-grind-on-for-another-12-to-_20251221_1240.html
-✓ Created comprehensive article: russia-ukraine-war-may-grind-on-for-another-12-to-_20251221_1240.html
+Successfully created file: palestinians-attending-wedding-killed-in-israeli-a_20251221_1331.html
+✓ Created comprehensive article: palestinians-attending-wedding-killed-in-israeli-a_20251221_1331.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Minute's silence held to remember Bondi Beach attack victims
+   • Israel kills two Palestinians, including 16 year-old, in West Bank
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestinian family left homeless after house collapses in storm-hit Gaza
+   • Manhunt under way in South Africa after mass shooting in Johannesburg
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia-Ukraine war may “grind on for another 12 to 18 months”
+   • Palestinians attending wedding killed in Israeli attack on Gaza school
      Sources: bbc.com, cnn.com, reuters.com
