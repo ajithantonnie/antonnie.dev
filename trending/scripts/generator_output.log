@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Survivors 'nervous and sceptical' about release of remaining Epstein files
+  Added: US seizes second oil tanker off Venezuela's coast
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Africa shooting live: At least nine people killed near Johannesburg
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera launches new integrative AI model, ‘The Core’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least nine people killed in shooting at South Africa tavern
+Added expanded search topic: South Africa shooting live: At least nine people killed near Johannesburg
+Added expanded search topic: Al Jazeera launches new integrative AI model, ‘The Core’
+Added expanded search topic: At least nine people killed in shooting at South Africa tavern
+Saved 15 topics for 2025-12-21
+Returning 3 unique trending topics:
+  1. South Africa shooting live: At least nine people killed near Johannesburg (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Al Jazeera launches new integrative AI model, ‘The Core’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. At least nine people killed in shooting at South Africa tavern (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: South Africa shooting live: At least nine people killed near Johannesburg
+Searching Google for: South Africa shooting live: At least nine people killed near Johannesburg
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrica%252Bshooting%252Blive%253A%252BAt%252Bleast%252Bnine%252Bpeople%252Bkilled%252Bnear%252BJohannesburg%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8yGLaonsoGIjAkKnnIsClpRwQPVSBLRwaJcPOhMQh4PZ4QqovtK2cYjOumia3Yyh5KYwOTTB_XyFsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: south-africa-shooting-live-at-least-nine-people-ki_20251221_0631.html
+✓ Created comprehensive article: south-africa-shooting-live-at-least-nine-people-ki_20251221_0631.html
+
+Processing trending topic: Al Jazeera launches new integrative AI model, ‘The Core’
+Searching Google for: Al Jazeera launches new integrative AI model, ‘The Core’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Blaunches%252Bnew%252Bintegrative%252BAI%252Bmodel%252C%252B%25E2%2580%2598The%252BCore%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8yGL2onsoGIjAnvUPHrYqaw6XE-MSuIxE09HQvGl7npZb3upAr47zNeSeyRjAJ5rmB5cU8FcHmMnQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: al-jazeera-launches-new-integrative-ai-model-the-c_20251221_0631.html
+✓ Created comprehensive article: al-jazeera-launches-new-integrative-ai-model-the-c_20251221_0631.html
+
+Processing trending topic: At least nine people killed in shooting at South Africa tavern
+Searching Google for: At least nine people killed in shooting at South Africa tavern
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252Bnine%252Bpeople%252Bkilled%252Bin%252Bshooting%252Bat%252BSouth%252BAfrica%252Btavern%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8yGMOonsoGIjBpTp5njYXeG3CVsU2F1PW3d8bkY_d3R0tiT20ZlQoYrXthG-Of-FkXKuHEpH9HbKwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: at-least-nine-people-killed-in-shooting-at-south-a_20251221_0631.html
+✓ Created comprehensive article: at-least-nine-people-killed-in-shooting-at-south-a_20251221_0631.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • South Africa shooting live: At least nine people killed near Johannesburg
+     Sources: bbc.com, cnn.com, reuters.com
+   • Al Jazeera launches new integrative AI model, ‘The Core’
+     Sources: bbc.com, cnn.com, reuters.com
+   • At least nine people killed in shooting at South Africa tavern
+     Sources: bbc.com, cnn.com, reuters.com
