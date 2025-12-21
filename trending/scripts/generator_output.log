@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Survivors 'nervous and sceptical' about release of remaining Epstein files
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-21
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,396
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US, Egypt, Qatar, Turkiye urge restraint in Gaza as Israeli attacks continue
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Me Too movement in the age of Trump and Epstein
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,396
+Added expanded search topic: US, Egypt, Qatar, Turkiye urge restraint in Gaza as Israeli attacks continue
+Added expanded search topic: The Me Too movement in the age of Trump and Epstein
+Saved 6 topics for 2025-12-21
 Returning 3 unique trending topics:
-  1. Survivors 'nervous and sceptical' about release of remaining Epstein files (from BBC News)
-  2. Why British Jews are experiencing their biggest change in 60 years (from BBC News)
-  3. US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ (from The Guardian)
+  1. Russia-Ukraine war: List of key events, day 1,396 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US, Egypt, Qatar, Turkiye urge restraint in Gaza as Israeli attacks continue (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. The Me Too movement in the age of Trump and Epstein (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Survivors 'nervous and sceptical' about release of remaining Epstein files
-Searching Google for: Survivors 'nervous and sceptical' about release of remaining Epstein files
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurvivors%252B%2527nervous%252Band%252Bsceptical%2527%252Babout%252Brelease%252Bof%252Bremaining%252BEpstein%252Bfiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTqAGLeincoGIjDS7qM557vw9lF5da2MVYlgZe5zyHINWlAKp1HMdOv4xIA3Z3QGObex4Jadd3v6p8MyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,396
+Searching Google for: Russia-Ukraine war: List of key events, day 1,396
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C396%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTsDGNbUncoGIjAlkI9f-8S1jn6GVS-LJVdZfjlluMDnIgGecyVWgjexK9LBSlJnca1hVirnpKCBQG8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: survivors-nervous-and-sceptical-about-release-of-r_20251221_0145.html
-✓ Created comprehensive article: survivors-nervous-and-sceptical-about-release-of-r_20251221_0145.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1396_20251221_0332.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1396_20251221_0332.html
 
-Processing trending topic: Why British Jews are experiencing their biggest change in 60 years
-Searching Google for: Why British Jews are experiencing their biggest change in 60 years
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BBritish%252BJews%252Bare%252Bexperiencing%252Btheir%252Bbiggest%252Bchange%252Bin%252B60%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTqAGL6incoGIjAUX9ioP8zPXvclcmXggBkkx0dU7DwTTygcufZ-OCQv03fuUOIAAEuto8kG8PhVmmEyBmpjbmRyUloBQw
+Processing trending topic: US, Egypt, Qatar, Turkiye urge restraint in Gaza as Israeli attacks continue
+Searching Google for: US, Egypt, Qatar, Turkiye urge restraint in Gaza as Israeli attacks continue
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252C%252BEgypt%252C%252BQatar%252C%252BTurkiye%252Burge%252Brestraint%252Bin%252BGaza%252Bas%252BIsraeli%252Battacks%252Bcontinue%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTsDGN3UncoGIjB7EVhMeWXqun3zPpdJK_9wsMOQ98dTl8kzU1S9YhZ_PYVeBsmlaO9BEBAItDBAv8QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-british-jews-are-experiencing-their-biggest-ch_20251221_0145.html
-✓ Created comprehensive article: why-british-jews-are-experiencing-their-biggest-ch_20251221_0145.html
+Successfully created file: us-egypt-qatar-turkiye-urge-restraint-in-gaza-as-i_20251221_0332.html
+✓ Created comprehensive article: us-egypt-qatar-turkiye-urge-restraint-in-gaza-as-i_20251221_0332.html
 
-Processing trending topic: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Searching Google for: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bplan%252Bfor%252B%25241.6m%252Bhepatitis%252BB%252Bvaccine%252Bstudy%252Bin%252BAfrica%252Bcalled%252B%25E2%2580%2598highly%252Bunethical%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTqAGMSincoGIjDYM4NOJNVX5wIDfMPFoW_AYuqL0RgteqXLMxkjuDKQfPexDRaKM3ZKMi3ni0rWMsMyBmpjbmRyUloBQw
+Processing trending topic: The Me Too movement in the age of Trump and Epstein
+Searching Google for: The Me Too movement in the age of Trump and Epstein
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BMe%252BToo%252Bmovement%252Bin%252Bthe%252Bage%252Bof%252BTrump%252Band%252BEpstein%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTsDGOPUncoGIjCQeKI8WIIZHObvDvjdIDIHs2I9C9BVpVwR9JXRY3c2fa_g_aO4v04mtG-Z9OdtghkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251221_0145.html
-✓ Created comprehensive article: us-plan-for-16m-hepatitis-b-vaccine-study-in-afric_20251221_0145.html
+Successfully created file: the-me-too-movement-in-the-age-of-trump-and-epstei_20251221_0332.html
+✓ Created comprehensive article: the-me-too-movement-in-the-age-of-trump-and-epstei_20251221_0332.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Survivors 'nervous and sceptical' about release of remaining Epstein files
+   • Russia-Ukraine war: List of key events, day 1,396
      Sources: bbc.com, cnn.com, reuters.com
-   • Why British Jews are experiencing their biggest change in 60 years
+   • US, Egypt, Qatar, Turkiye urge restraint in Gaza as Israeli attacks continue
      Sources: bbc.com, cnn.com, reuters.com
-   • US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’
+   • The Me Too movement in the age of Trump and Epstein
      Sources: bbc.com, cnn.com, reuters.com
