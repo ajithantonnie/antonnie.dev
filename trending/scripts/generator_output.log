@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Driving Home for Christmas singer Chris Rea dies aged 74
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Freed Nigerian schoolchildren to be reunited with families
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can diplomacy end the conflict between Thailand and Cambodia?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump pauses more offshore wind projects citing national security concerns
-Added expanded search topic: Can diplomacy end the conflict between Thailand and Cambodia?
-Added expanded search topic: Trump pauses more offshore wind projects citing national security concerns
-Saved 54 topics for 2025-12-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Displacement camp running out of supplies for people fleeing Sudan’s war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan’s Darfur grapples with severe measles outbreak amid ongoing violence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turning Point USA held its AmericaFest conference. Here’s what happened
+Added expanded search topic: Displacement camp running out of supplies for people fleeing Sudan’s war
+Added expanded search topic: Sudan’s Darfur grapples with severe measles outbreak amid ongoing violence
+Added expanded search topic: Turning Point USA held its AmericaFest conference. Here’s what happened
+Saved 57 topics for 2025-12-22
 Returning 3 unique trending topics:
-  1. Driving Home for Christmas singer Chris Rea dies aged 74 (from BBC News)
-  2. Can diplomacy end the conflict between Thailand and Cambodia? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump pauses more offshore wind projects citing national security concerns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Displacement camp running out of supplies for people fleeing Sudan’s war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sudan’s Darfur grapples with severe measles outbreak amid ongoing violence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Turning Point USA held its AmericaFest conference. Here’s what happened (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Driving Home for Christmas singer Chris Rea dies aged 74
-Searching Google for: Driving Home for Christmas singer Chris Rea dies aged 74
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDriving%252BHome%252Bfor%252BChristmas%252Bsinger%252BChris%252BRea%252Bdies%252Baged%252B74%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNiGI-0psoGIjAwNHQk-B9jL3V_1oMfLiyRObBpz6ZT1cLcVXvC5INHcgtQ4QSMlAehz7YiqHPXIDwyBmpjbmRyUloBQw
+Processing trending topic: Displacement camp running out of supplies for people fleeing Sudan’s war
+Searching Google for: Displacement camp running out of supplies for people fleeing Sudan’s war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDisplacement%252Bcamp%252Brunning%252Bout%252Bof%252Bsupplies%252Bfor%252Bpeople%252Bfleeing%252BSudan%25E2%2580%2599s%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb0GITSpsoGIjCzsv5nDe0AjuFqJ1UHwdhDd5l1Q3y-LRdpeK1TLRBI6dTdxydaUdfPd5wCvn8xPx0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: driving-home-for-christmas-singer-chris-rea-dies-a_20251222_1920.html
-✓ Created comprehensive article: driving-home-for-christmas-singer-chris-rea-dies-a_20251222_1920.html
+Successfully created file: displacement-camp-running-out-of-supplies-for-peop_20251222_2024.html
+✓ Created comprehensive article: displacement-camp-running-out-of-supplies-for-peop_20251222_2024.html
 
-Processing trending topic: Can diplomacy end the conflict between Thailand and Cambodia?
-Searching Google for: Can diplomacy end the conflict between Thailand and Cambodia?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Bdiplomacy%252Bend%252Bthe%252Bconflict%252Bbetween%252BThailand%252Band%252BCambodia%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNiGJa0psoGIjAxUPqy8qJ4r9lSlqHIhv8xdwxDvNQESlfT4gDo7TeTvGJmGqIBhigNfwv4OI4OzjQyBmpjbmRyUloBQw
+Processing trending topic: Sudan’s Darfur grapples with severe measles outbreak amid ongoing violence
+Searching Google for: Sudan’s Darfur grapples with severe measles outbreak amid ongoing violence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%25E2%2580%2599s%252BDarfur%252Bgrapples%252Bwith%252Bsevere%252Bmeasles%252Boutbreak%252Bamid%252Bongoing%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb0GIvSpsoGIjATZrBG0Jz6QymLKcSnUuBHtE2UD4QFa-1ZXZa9AVr-hJBgLqv1lJWeTbHfh0PUyKYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: can-diplomacy-end-the-conflict-between-thailand-an_20251222_1920.html
-✓ Created comprehensive article: can-diplomacy-end-the-conflict-between-thailand-an_20251222_1920.html
+Successfully created file: sudans-darfur-grapples-with-severe-measles-outbrea_20251222_2024.html
+✓ Created comprehensive article: sudans-darfur-grapples-with-severe-measles-outbrea_20251222_2024.html
 
-Processing trending topic: Trump pauses more offshore wind projects citing national security concerns
-Searching Google for: Trump pauses more offshore wind projects citing national security concerns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bpauses%252Bmore%252Boffshore%252Bwind%252Bprojects%252Bciting%252Bnational%252Bsecurity%252Bconcerns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNiGJy0psoGIjAHB7nsNMgPxaWoz95KwuMIBq7JF0f8lkedFxWIGiL4_1TdGnbfnEmFahy8-9ZFIQ8yBmpjbmRyUloBQw
+Processing trending topic: Turning Point USA held its AmericaFest conference. Here’s what happened
+Searching Google for: Turning Point USA held its AmericaFest conference. Here’s what happened
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurning%252BPoint%252BUSA%252Bheld%252Bits%252BAmericaFest%252Bconference.%252BHere%25E2%2580%2599s%252Bwhat%252Bhappened%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb0GJHSpsoGIjAFanxkE5fWwcPYGh_RogpJMNagX4URSHp_ot8axrTunYXKH8fpMp-OX8xP7IIDNx4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-pauses-more-offshore-wind-projects-citing-na_20251222_1921.html
-✓ Created comprehensive article: trump-pauses-more-offshore-wind-projects-citing-na_20251222_1921.html
+Successfully created file: turning-point-usa-held-its-americafest-conference-_20251222_2024.html
+✓ Created comprehensive article: turning-point-usa-held-its-americafest-conference-_20251222_2024.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Driving Home for Christmas singer Chris Rea dies aged 74
+   • Displacement camp running out of supplies for people fleeing Sudan’s war
      Sources: bbc.com, cnn.com, reuters.com
-   • Can diplomacy end the conflict between Thailand and Cambodia?
+   • Sudan’s Darfur grapples with severe measles outbreak amid ongoing violence
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump pauses more offshore wind projects citing national security concerns
+   • Turning Point USA held its AmericaFest conference. Here’s what happened
      Sources: bbc.com, cnn.com, reuters.com
