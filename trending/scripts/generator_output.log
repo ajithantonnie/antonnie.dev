@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Puppy farm ban promised by animal welfare strategy
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Another 130 kidnapped schoolchildren released in Nigeria
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two Palestine Action hunger strikers in UK prisons admitted to hospital
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New clashes erupt on Thai-Cambodia border as ASEAN convenes peace talks
-Added expanded search topic: Two Palestine Action hunger strikers in UK prisons admitted to hospital
-Added expanded search topic: New clashes erupt on Thai-Cambodia border as ASEAN convenes peace talks
-Saved 9 topics for 2025-12-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Malaysian court rejects Najib’s bid to serve sentence under house arrest
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Alarming’ medicine shortages in Gaza amid Israeli restrictions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How volatile is the political situation in Bangladesh?
+Added expanded search topic: Malaysian court rejects Najib’s bid to serve sentence under house arrest
+Added expanded search topic: ‘Alarming’ medicine shortages in Gaza amid Israeli restrictions
+Added expanded search topic: How volatile is the political situation in Bangladesh?
+Saved 12 topics for 2025-12-22
 Returning 3 unique trending topics:
-  1. Puppy farm ban promised by animal welfare strategy (from BBC News)
-  2. Two Palestine Action hunger strikers in UK prisons admitted to hospital (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. New clashes erupt on Thai-Cambodia border as ASEAN convenes peace talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Malaysian court rejects Najib’s bid to serve sentence under house arrest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Alarming’ medicine shortages in Gaza amid Israeli restrictions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How volatile is the political situation in Bangladesh? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Puppy farm ban promised by animal welfare strategy
-Searching Google for: Puppy farm ban promised by animal welfare strategy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPuppy%252Bfarm%252Bban%252Bpromised%252Bby%252Banimal%252Bwelfare%252Bstrategy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGdDGJ-Yo8oGIjASKa1tFwzxQmXueQsvSPHcM5WdM54Fg5oOrMIJQE0dsWDsEu6gPq6snxXlTiC0PRUyBmpjbmRyUloBQw
+Processing trending topic: Malaysian court rejects Najib’s bid to serve sentence under house arrest
+Searching Google for: Malaysian court rejects Najib’s bid to serve sentence under house arrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMalaysian%252Bcourt%252Brejects%252BNajib%25E2%2580%2599s%252Bbid%252Bto%252Bserve%252Bsentence%252Bunder%252Bhouse%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DzGKuto8oGIjB9n1ImxtCyrM9iJzekSGN4MNauvG4VR6aPgcJDRD82AccfAmwF2AHDQOXSRhELX84yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: puppy-farm-ban-promised-by-animal-welfare-strategy_20251222_0442.html
-✓ Created comprehensive article: puppy-farm-ban-promised-by-animal-welfare-strategy_20251222_0442.html
+Successfully created file: malaysian-court-rejects-najibs-bid-to-serve-senten_20251222_0527.html
+✓ Created comprehensive article: malaysian-court-rejects-najibs-bid-to-serve-senten_20251222_0527.html
 
-Processing trending topic: Two Palestine Action hunger strikers in UK prisons admitted to hospital
-Searching Google for: Two Palestine Action hunger strikers in UK prisons admitted to hospital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BPalestine%252BAction%252Bhunger%252Bstrikers%252Bin%252BUK%252Bprisons%252Badmitted%252Bto%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGdDGKaYo8oGIjAQ1dqmkyMyCwEuMkOZG_hpsfm16DtWV9k5WtgqaeYLGERhcZiH0t51SqLpJpTHFYIyBmpjbmRyUloBQw
+Processing trending topic: ‘Alarming’ medicine shortages in Gaza amid Israeli restrictions
+Searching Google for: ‘Alarming’ medicine shortages in Gaza amid Israeli restrictions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Alarming%25E2%2580%2599%252Bmedicine%252Bshortages%252Bin%252BGaza%252Bamid%252BIsraeli%252Brestrictions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DzGLOto8oGIjCp3VZ1ZFb39I4jjWwwIJN0NDKKInWq8QcPvjPooYQkFE0OeACJRA8N-x58mzcY-WMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-palestine-action-hunger-strikers-in-uk-prisons_20251222_0442.html
-✓ Created comprehensive article: two-palestine-action-hunger-strikers-in-uk-prisons_20251222_0442.html
+Successfully created file: alarming-medicine-shortages-in-gaza-amid-israeli-r_20251222_0527.html
+✓ Created comprehensive article: alarming-medicine-shortages-in-gaza-amid-israeli-r_20251222_0527.html
 
-Processing trending topic: New clashes erupt on Thai-Cambodia border as ASEAN convenes peace talks
-Searching Google for: New clashes erupt on Thai-Cambodia border as ASEAN convenes peace talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252Bclashes%252Berupt%252Bon%252BThai-Cambodia%252Bborder%252Bas%252BASEAN%252Bconvenes%252Bpeace%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGdDGK2Yo8oGIjBXNjM7SB4t9yZQ-pJxNs-pz7MF_3zxIhtQaNh4j-GEx0arZzSsz8GHZR7EYyqJ5EUyBmpjbmRyUloBQw
+Processing trending topic: How volatile is the political situation in Bangladesh?
+Searching Google for: How volatile is the political situation in Bangladesh?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bvolatile%252Bis%252Bthe%252Bpolitical%252Bsituation%252Bin%252BBangladesh%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DzGLmto8oGIjDB0fH7fn5W0PrACTltr9lakeUUUFmNrcf50IyHwtwEIuokp4QZ7ejWM4ewO8N8SkAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-clashes-erupt-on-thai-cambodia-border-as-asean_20251222_0442.html
-✓ Created comprehensive article: new-clashes-erupt-on-thai-cambodia-border-as-asean_20251222_0442.html
+Successfully created file: how-volatile-is-the-political-situation-in-banglad_20251222_0527.html
+✓ Created comprehensive article: how-volatile-is-the-political-situation-in-banglad_20251222_0527.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Puppy farm ban promised by animal welfare strategy
+   • Malaysian court rejects Najib’s bid to serve sentence under house arrest
      Sources: bbc.com, cnn.com, reuters.com
-   • Two Palestine Action hunger strikers in UK prisons admitted to hospital
+   • ‘Alarming’ medicine shortages in Gaza amid Israeli restrictions
      Sources: bbc.com, cnn.com, reuters.com
-   • New clashes erupt on Thai-Cambodia border as ASEAN convenes peace talks
+   • How volatile is the political situation in Bangladesh?
      Sources: bbc.com, cnn.com, reuters.com
