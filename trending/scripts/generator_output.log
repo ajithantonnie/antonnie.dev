@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US pursuing third oil tanker linked to Venezuela, official says
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Another 130 kidnapped schoolchildren released in Nigeria
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-22
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Malaysia court rejects Najib’s bid to serve sentence under house arrest
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Morocco seal AFCON win against Comoros in 2025 opener
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,397
+Added expanded search topic: Malaysia court rejects Najib’s bid to serve sentence under house arrest
+Added expanded search topic: Morocco seal AFCON win against Comoros in 2025 opener
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,397
+Saved 6 topics for 2025-12-22
 Returning 3 unique trending topics:
-  1. US pursuing third oil tanker linked to Venezuela, official says (from BBC News)
-  2. Why the railways often seem to be in such chaos over Christmas (from BBC News)
-  3. Another 130 kidnapped schoolchildren released in Nigeria (from The Guardian)
+  1. Malaysia court rejects Najib’s bid to serve sentence under house arrest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Morocco seal AFCON win against Comoros in 2025 opener (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,397 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US pursuing third oil tanker linked to Venezuela, official says
-Searching Google for: US pursuing third oil tanker linked to Venezuela, official says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bpursuing%252Bthird%252Boil%252Btanker%252Blinked%252Bto%252BVenezuela%252C%252Bofficial%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdAGN3EosoGIjAvO-BJnkXRUkhAzFyOw_9fL1r2qSYzFQvSw-h_YbhJpu-nJvYqASCfRfNjzDfybh0yBmpjbmRyUloBQw
+Processing trending topic: Malaysia court rejects Najib’s bid to serve sentence under house arrest
+Searching Google for: Malaysia court rejects Najib’s bid to serve sentence under house arrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMalaysia%252Bcourt%252Brejects%252BNajib%25E2%2580%2599s%252Bbid%252Bto%252Bserve%252Bsentence%252Bunder%252Bhouse%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mXGNj9osoGIjCOkyiey5jMtIf1yBqd_eXF7Nv26ttTzmJb-508KBzFx1a4Cavpe6zvLa1nBNwvSEMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-pursuing-third-oil-tanker-linked-to-venezuela-o_20251222_0144.html
-✓ Created comprehensive article: us-pursuing-third-oil-tanker-linked-to-venezuela-o_20251222_0144.html
+Successfully created file: malaysia-court-rejects-najibs-bid-to-serve-sentenc_20251222_0345.html
+✓ Created comprehensive article: malaysia-court-rejects-najibs-bid-to-serve-sentenc_20251222_0345.html
 
-Processing trending topic: Why the railways often seem to be in such chaos over Christmas
-Searching Google for: Why the railways often seem to be in such chaos over Christmas
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bthe%252Brailways%252Boften%252Bseem%252Bto%252Bbe%252Bin%252Bsuch%252Bchaos%252Bover%252BChristmas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdAGOXEosoGIjA7WBg4m89JPY9f6Jwh0N6a-oLlyXlnOaiFsDCt_aLIkkA-jKetaw3oPQ5neNNFL0YyBmpjbmRyUloBQw
+Processing trending topic: Morocco seal AFCON win against Comoros in 2025 opener
+Searching Google for: Morocco seal AFCON win against Comoros in 2025 opener
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMorocco%252Bseal%252BAFCON%252Bwin%252Bagainst%252BComoros%252Bin%252B2025%252Bopener%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mXGOT9osoGIjD5nglypu-_HJuI39__g_lEgHMNDI-_Mw5JWgbh-SaGaOSepSYu1t55Fc5-a0fDptUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-the-railways-often-seem-to-be-in-such-chaos-ov_20251222_0144.html
-✓ Created comprehensive article: why-the-railways-often-seem-to-be-in-such-chaos-ov_20251222_0144.html
+Successfully created file: morocco-seal-afcon-win-against-comoros-in-2025-ope_20251222_0345.html
+✓ Created comprehensive article: morocco-seal-afcon-win-against-comoros-in-2025-ope_20251222_0345.html
 
-Processing trending topic: Another 130 kidnapped schoolchildren released in Nigeria
-Searching Google for: Another 130 kidnapped schoolchildren released in Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnother%252B130%252Bkidnapped%252Bschoolchildren%252Breleased%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdAGOvEosoGIjBvXWQ8qG987ZyA7Unm69RNOa3j9JkQa2gtZrglSKrS3sOB9a_iOptvzZEO1vMxQkgyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,397
+Searching Google for: Russia-Ukraine war: List of key events, day 1,397
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C397%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mXGOv9osoGIjD5ehm95pT1bkbgPESUMg2eUFrihjt-uIxzbK-Un-4tW94FlUuhhtS4w3Uy7UCOoZkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: another-130-kidnapped-schoolchildren-released-in-n_20251222_0144.html
-✓ Created comprehensive article: another-130-kidnapped-schoolchildren-released-in-n_20251222_0144.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1397_20251222_0345.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1397_20251222_0345.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US pursuing third oil tanker linked to Venezuela, official says
+   • Malaysia court rejects Najib’s bid to serve sentence under house arrest
      Sources: bbc.com, cnn.com, reuters.com
-   • Why the railways often seem to be in such chaos over Christmas
+   • Morocco seal AFCON win against Comoros in 2025 opener
      Sources: bbc.com, cnn.com, reuters.com
-   • Another 130 kidnapped schoolchildren released in Nigeria
+   • Russia-Ukraine war: List of key events, day 1,397
      Sources: bbc.com, cnn.com, reuters.com
