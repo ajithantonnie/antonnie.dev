@@ -1,66 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Alleged Bondi gunmen threw 'tennis ball bomb', new documents say
-  Added: Puppy farm ban promised in plans to improve animal welfare
+  Added: Bondi gunmen threw explosives at start of attack and practised shooting weeks before, police allege
+  Added: Why the railways often seem to be in such chaos over Christmas
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Another 130 kidnapped schoolchildren released in Nigeria
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Thailand, Cambodia resume border clashes before talks
-Added expanded search topic: LIVE: Thailand, Cambodia resume border clashes before talks
-Saved 15 topics for 2025-12-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says talks with Russia, Ukraine in Miami ‘constructive, productive’
+Added expanded search topic: Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough?
+Added expanded search topic: US says talks with Russia, Ukraine in Miami ‘constructive, productive’
+Saved 18 topics for 2025-12-22
 Returning 3 unique trending topics:
-  1. Alleged Bondi gunmen threw 'tennis ball bomb', new documents say (from BBC News)
-  2. Puppy farm ban promised in plans to improve animal welfare (from BBC News)
-  3. LIVE: Thailand, Cambodia resume border clashes before talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bondi gunmen threw explosives at start of attack and practised shooting weeks before, police allege (from BBC News)
+  2. Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US says talks with Russia, Ukraine in Miami ‘constructive, productive’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Alleged Bondi gunmen threw 'tennis ball bomb', new documents say
-Searching Google for: Alleged Bondi gunmen threw 'tennis ball bomb', new documents say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAlleged%252BBondi%252Bgunmen%252Bthrew%252B%2527tennis%252Bball%252Bbomb%2527%252C%252Bnew%252Bdocuments%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07Y82GOvNo8oGIjA-ysMEVnr6HCxiGKaGBdJ-bITXbhbObJZoU3MdRgF-uHDmQ6TKPgqJfrp55fCkY40yBmpjbmRyUloBQw
+Processing trending topic: Bondi gunmen threw explosives at start of attack and practised shooting weeks before, police allege
+Searching Google for: Bondi gunmen threw explosives at start of attack and practised shooting weeks before, police allege
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBondi%252Bgunmen%252Bthrew%252Bexplosives%252Bat%252Bstart%252Bof%252Battack%252Band%252Bpractised%252Bshooting%252Bweeks%252Bbefore%252C%252Bpolice%252Ballege%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhDGKPlo8oGIjBXAQ2jHfCHssRA8VC-Ud_Mk0jDeOsPNN1auXx0GqKUN6CD_494yPNxHXPNtWmZxpkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: alleged-bondi-gunmen-threw-tennis-ball-bomb-new-do_20251222_0636.html
-✓ Created comprehensive article: alleged-bondi-gunmen-threw-tennis-ball-bomb-new-do_20251222_0636.html
+Successfully created file: bondi-gunmen-threw-explosives-at-start-of-attack-a_20251222_0726.html
+✓ Created comprehensive article: bondi-gunmen-threw-explosives-at-start-of-attack-a_20251222_0726.html
 
-Processing trending topic: Puppy farm ban promised in plans to improve animal welfare
-Searching Google for: Puppy farm ban promised in plans to improve animal welfare
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPuppy%252Bfarm%252Bban%252Bpromised%252Bin%252Bplans%252Bto%252Bimprove%252Banimal%252Bwelfare%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07Y82GPHNo8oGIjCox6owBKK0ykJTBRymA2t4yx4BS19Ijzrr2bXCACfwsFtGsAgn2WcemY_4MWtc7sUyBmpjbmRyUloBQw
+Processing trending topic: Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough?
+Searching Google for: Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudanese%252Bbloc%252Bdeclares%252BNairobi%252Broadmap%252C%252Bbut%252Bis%252Bit%252Ba%252Bcivilian%252Bbreakthrough%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhDGKrlo8oGIjCiKQdbt8ovjPY_KUwkZq1fyQxVHTu1R75IP1m4X4P6-TJIWzZGKt9BSPSj290IzYoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: puppy-farm-ban-promised-in-plans-to-improve-animal_20251222_0636.html
-✓ Created comprehensive article: puppy-farm-ban-promised-in-plans-to-improve-animal_20251222_0636.html
+Successfully created file: sudanese-bloc-declares-nairobi-roadmap-but-is-it-a_20251222_0726.html
+✓ Created comprehensive article: sudanese-bloc-declares-nairobi-roadmap-but-is-it-a_20251222_0726.html
 
-Processing trending topic: LIVE: Thailand, Cambodia resume border clashes before talks
-Searching Google for: LIVE: Thailand, Cambodia resume border clashes before talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BThailand%252C%252BCambodia%252Bresume%252Bborder%252Bclashes%252Bbefore%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07Y82GPfNo8oGIjCEb5Qk7YcjEg5okGK5kmFXcjGOR2QEB_8VB0Ya_0kbDGYPBqITPwzAelw_oJ9GuxEyBmpjbmRyUloBQw
+Processing trending topic: US says talks with Russia, Ukraine in Miami ‘constructive, productive’
+Searching Google for: US says talks with Russia, Ukraine in Miami ‘constructive, productive’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Btalks%252Bwith%252BRussia%252C%252BUkraine%252Bin%252BMiami%252B%25E2%2580%2598constructive%252C%252Bproductive%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhDGLDlo8oGIjCxrT1Y_PksO8scx3TLDZccPrbdMciwfVUhzS2er0u2Cved4NGuGNBNGYRVS-ds5HsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-thailand-cambodia-resume-border-clashes-befor_20251222_0636.html
-✓ Created comprehensive article: live-thailand-cambodia-resume-border-clashes-befor_20251222_0636.html
+Successfully created file: us-says-talks-with-russia-ukraine-in-miami-constru_20251222_0726.html
+✓ Created comprehensive article: us-says-talks-with-russia-ukraine-in-miami-constru_20251222_0726.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Alleged Bondi gunmen threw 'tennis ball bomb', new documents say
+   • Bondi gunmen threw explosives at start of attack and practised shooting weeks before, police allege
      Sources: bbc.com, cnn.com, reuters.com
-   • Puppy farm ban promised in plans to improve animal welfare
+   • Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough?
      Sources: bbc.com, cnn.com, reuters.com
-   • LIVE: Thailand, Cambodia resume border clashes before talks
+   • US says talks with Russia, Ukraine in Miami ‘constructive, productive’
      Sources: bbc.com, cnn.com, reuters.com
