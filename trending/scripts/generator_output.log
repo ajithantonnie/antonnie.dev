@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Bondi gunmen 'meticulously' planned attack for months, police allege
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Freed Nigerian schoolchildren to be reunited with families
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Denmark to summon US ambassador following Greenland envoy appointment
-Added expanded search topic: Denmark to summon US ambassador following Greenland envoy appointment
-Saved 33 topics for 2025-12-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Seizing ships as leverage: US vs Houthis
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s Christmas gifts
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Voices of Gaza: The Great Omari Mosque’s 2,000‑year history lies in ruins
+Added expanded search topic: Seizing ships as leverage: US vs Houthis
+Added expanded search topic: Trump’s Christmas gifts
+Added expanded search topic: Voices of Gaza: The Great Omari Mosque’s 2,000‑year history lies in ruins
+Saved 36 topics for 2025-12-22
 Returning 3 unique trending topics:
-  1. Canal boats swallowed by suspected sinkhole as major incident declared (from BBC News)
-  2. Freed Nigerian schoolchildren to be reunited with families (from The Guardian)
-  3. Denmark to summon US ambassador following Greenland envoy appointment (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Seizing ships as leverage: US vs Houthis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump’s Christmas gifts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Voices of Gaza: The Great Omari Mosque’s 2,000‑year history lies in ruins (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Canal boats swallowed by suspected sinkhole as major incident declared
-Searching Google for: Canal boats swallowed by suspected sinkhole as major incident declared
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanal%252Bboats%252Bswallowed%252Bby%252Bsuspected%252Bsinkhole%252Bas%252Bmajor%252Bincident%252Bdeclared%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1s0GNz5pMoGIjCLlfYU1jccjSBeoQcfV7wWMVXyVdHrH_vSbz3C4QGaKn7yMlk2Zmv9l-BvbrQt4YgyBmpjbmRyUloBQw
+Processing trending topic: Seizing ships as leverage: US vs Houthis
+Searching Google for: Seizing ships as leverage: US vs Houthis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeizing%252Bships%252Bas%252Bleverage%253A%252BUS%252Bvs%252BHouthis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_kGOaSpcoGIjAbmurPLBZWdxssafA8Fssb7SosfVmhTpENxlS1Cs1N1eBa9GujDhdTD2Z-JCstUVgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: canal-boats-swallowed-by-suspected-sinkhole-as-maj_20251222_1243.html
-✓ Created comprehensive article: canal-boats-swallowed-by-suspected-sinkhole-as-maj_20251222_1243.html
+Successfully created file: seizing-ships-as-leverage-us-vs-houthis_20251222_1336.html
+✓ Created comprehensive article: seizing-ships-as-leverage-us-vs-houthis_20251222_1336.html
 
-Processing trending topic: Freed Nigerian schoolchildren to be reunited with families
-Searching Google for: Freed Nigerian schoolchildren to be reunited with families
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFreed%252BNigerian%252Bschoolchildren%252Bto%252Bbe%252Breunited%252Bwith%252Bfamilies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1s0GOP5pMoGIjAmdywe7keMLk2sVXFrzjJiqCdalF_5lTObl32wGUk2I6JEn2LI1UlmiD95LMjdTvUyBmpjbmRyUloBQw
+Processing trending topic: Trump’s Christmas gifts
+Searching Google for: Trump’s Christmas gifts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252BChristmas%252Bgifts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_kGO2SpcoGIjDZafkffbjk28OL1dRKJxsSwANwmmZTCLZZW12lnuIYPbG4UakaYPEIt7YzDP9yyXwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: freed-nigerian-schoolchildren-to-be-reunited-with-_20251222_1243.html
-✓ Created comprehensive article: freed-nigerian-schoolchildren-to-be-reunited-with-_20251222_1243.html
+Successfully created file: trumps-christmas-gifts_20251222_1336.html
+✓ Created comprehensive article: trumps-christmas-gifts_20251222_1336.html
 
-Processing trending topic: Denmark to summon US ambassador following Greenland envoy appointment
-Searching Google for: Denmark to summon US ambassador following Greenland envoy appointment
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDenmark%252Bto%252Bsummon%252BUS%252Bambassador%252Bfollowing%252BGreenland%252Benvoy%252Bappointment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1s0GOn5pMoGIjCE0CplQ5CPI0t2aTIjkLnDG1EVGhIO4kUw_7v74lRI1OAhUh8RWKZBaVi46X_ShWEyBmpjbmRyUloBQw
+Processing trending topic: Voices of Gaza: The Great Omari Mosque’s 2,000‑year history lies in ruins
+Searching Google for: Voices of Gaza: The Great Omari Mosque’s 2,000‑year history lies in ruins
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVoices%252Bof%252BGaza%253A%252BThe%252BGreat%252BOmari%252BMosque%25E2%2580%2599s%252B2%252C000%25E2%2580%2591year%252Bhistory%252Blies%252Bin%252Bruins%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_kGPSSpcoGIjDiQ9AFgjcAqZfZrRpPQgt68Oqn_ZWnYLvmFmhcjdsggooBauR1r6-KJctR5QuqadgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: denmark-to-summon-us-ambassador-following-greenlan_20251222_1243.html
-✓ Created comprehensive article: denmark-to-summon-us-ambassador-following-greenlan_20251222_1243.html
+Successfully created file: voices-of-gaza-the-great-omari-mosques-2000year-hi_20251222_1336.html
+✓ Created comprehensive article: voices-of-gaza-the-great-omari-mosques-2000year-hi_20251222_1336.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Canal boats swallowed by suspected sinkhole as major incident declared
+   • Seizing ships as leverage: US vs Houthis
      Sources: bbc.com, cnn.com, reuters.com
-   • Freed Nigerian schoolchildren to be reunited with families
+   • Trump’s Christmas gifts
      Sources: bbc.com, cnn.com, reuters.com
-   • Denmark to summon US ambassador following Greenland envoy appointment
+   • Voices of Gaza: The Great Omari Mosque’s 2,000‑year history lies in ruins
      Sources: bbc.com, cnn.com, reuters.com
