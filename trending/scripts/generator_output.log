@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Bondi gunmen 'meticulously' planned attack for months, police allege
-  Added: Why the railways often seem to be in such chaos over Christmas
+  Added: Russian general killed by car bomb in Moscow, officials say
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian general killed in car bombing in Moscow
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 2025 in Gaza: 12 months, 12 pictures
-Added expanded search topic: Russian general killed in car bombing in Moscow
-Added expanded search topic: 2025 in Gaza: 12 months, 12 pictures
-Saved 27 topics for 2025-12-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australian PM apologises over Bondi attack, calls for tougher hate laws
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli arms firms make record profits of the back of Gaza war
+Added expanded search topic: Australian PM apologises over Bondi attack, calls for tougher hate laws
+Added expanded search topic: Israeli arms firms make record profits of the back of Gaza war
+Saved 30 topics for 2025-12-22
 Returning 3 unique trending topics:
-  1. Bondi gunmen 'meticulously' planned attack for months, police allege (from BBC News)
-  2. Russian general killed in car bombing in Moscow (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. 2025 in Gaza: 12 months, 12 pictures (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russian general killed by car bomb in Moscow, officials say (from BBC News)
+  2. Australian PM apologises over Bondi attack, calls for tougher hate laws (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli arms firms make record profits of the back of Gaza war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Bondi gunmen 'meticulously' planned attack for months, police allege
-Searching Google for: Bondi gunmen 'meticulously' planned attack for months, police allege
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBondi%252Bgunmen%252B%2527meticulously%2527%252Bplanned%252Battack%252Bfor%252Bmonths%252C%252Bpolice%252Ballege%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoKGIS5pMoGIjD1GDHTgzngsztyC2wM9NBryXlNckV6nZ8sODX_dw18qvliJKrr6_1NzVWwm3LM2qYyBmpjbmRyUloBQw
+Processing trending topic: Russian general killed by car bomb in Moscow, officials say
+Searching Google for: Russian general killed by car bomb in Moscow, officials say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bgeneral%252Bkilled%252Bby%252Bcar%252Bbomb%252Bin%252BMoscow%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqXlGJrTpMoGIjBnEvY2OIaNEDnnTLdMiLy1QmtfD56J30XYEoz50PBYvOm7z8dluv29JhiRjnkw5o8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bondi-gunmen-meticulously-planned-attack-for-month_20251222_1025.html
-✓ Created comprehensive article: bondi-gunmen-meticulously-planned-attack-for-month_20251222_1025.html
+Successfully created file: russian-general-killed-by-car-bomb-in-moscow-offic_20251222_1121.html
+✓ Created comprehensive article: russian-general-killed-by-car-bomb-in-moscow-offic_20251222_1121.html
 
-Processing trending topic: Russian general killed in car bombing in Moscow
-Searching Google for: Russian general killed in car bombing in Moscow
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bgeneral%252Bkilled%252Bin%252Bcar%252Bbombing%252Bin%252BMoscow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoKGIq5pMoGIjDBkjSxLCnH3pfPVYRJqUjDQVmke_XPf6McveH-H5yDOm63HAB0GGPp2801YcTgCFgyBmpjbmRyUloBQw
+Processing trending topic: Australian PM apologises over Bondi attack, calls for tougher hate laws
+Searching Google for: Australian PM apologises over Bondi attack, calls for tougher hate laws
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralian%252BPM%252Bapologises%252Bover%252BBondi%252Battack%252C%252Bcalls%252Bfor%252Btougher%252Bhate%252Blaws%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqXlGKHTpMoGIjAyC7luE93PzfFmnJJkBDoiHm9c54wnlMgXS1h9qV77FLnzQ3AM3dk63m9-0oemrSEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russian-general-killed-in-car-bombing-in-moscow_20251222_1025.html
-✓ Created comprehensive article: russian-general-killed-in-car-bombing-in-moscow_20251222_1025.html
+Successfully created file: australian-pm-apologises-over-bondi-attack-calls-f_20251222_1121.html
+✓ Created comprehensive article: australian-pm-apologises-over-bondi-attack-calls-f_20251222_1121.html
 
-Processing trending topic: 2025 in Gaza: 12 months, 12 pictures
-Searching Google for: 2025 in Gaza: 12 months, 12 pictures
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D2025%252Bin%252BGaza%253A%252B12%252Bmonths%252C%252B12%252Bpictures%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoKGJG5pMoGIjBrAoTNzIp5DGe9gxOYsvFKXI0BzX1mK2raGyTdq4lRowfsQcVWXXA6v4eICGGcO8QyBmpjbmRyUloBQw
+Processing trending topic: Israeli arms firms make record profits of the back of Gaza war
+Searching Google for: Israeli arms firms make record profits of the back of Gaza war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Barms%252Bfirms%252Bmake%252Brecord%252Bprofits%252Bof%252Bthe%252Bback%252Bof%252BGaza%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqXlGKfTpMoGIjB_8iGELo8SC17W9xA7j13D3Uc5UT6A12-dvPBgWBVSsdDgGw8KgqXVhfGk9HMHDeIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 2025-in-gaza-12-months-12-pictures_20251222_1025.html
-✓ Created comprehensive article: 2025-in-gaza-12-months-12-pictures_20251222_1025.html
+Successfully created file: israeli-arms-firms-make-record-profits-of-the-back_20251222_1121.html
+✓ Created comprehensive article: israeli-arms-firms-make-record-profits-of-the-back_20251222_1121.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bondi gunmen 'meticulously' planned attack for months, police allege
+   • Russian general killed by car bomb in Moscow, officials say
      Sources: bbc.com, cnn.com, reuters.com
-   • Russian general killed in car bombing in Moscow
+   • Australian PM apologises over Bondi attack, calls for tougher hate laws
      Sources: bbc.com, cnn.com, reuters.com
-   • 2025 in Gaza: 12 months, 12 pictures
+   • Israeli arms firms make record profits of the back of Gaza war
      Sources: bbc.com, cnn.com, reuters.com
