@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 2025 likely to be UK's hottest on record, says Met Office
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Freed Nigerian schoolchildren to be reunited with families
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-23
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump warns Maduro not to ‘play tough’ as Russia, China back Venezuela
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel kills two Palestinians in Gaza City as ceasefire violations mount
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Foster scores late goal as South Africa defeat Angola in their AFCON opener
+Added expanded search topic: Trump warns Maduro not to ‘play tough’ as Russia, China back Venezuela
+Added expanded search topic: Israel kills two Palestinians in Gaza City as ceasefire violations mount
+Added expanded search topic: Foster scores late goal as South Africa defeat Angola in their AFCON opener
+Saved 6 topics for 2025-12-23
 Returning 3 unique trending topics:
-  1. 2025 likely to be UK's hottest on record, says Met Office (from BBC News)
-  2. Trump says US 'has to have' Greenland after naming special envoy (from BBC News)
-  3. Freed Nigerian schoolchildren to be reunited with families (from The Guardian)
+  1. Trump warns Maduro not to ‘play tough’ as Russia, China back Venezuela (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israel kills two Palestinians in Gaza City as ceasefire violations mount (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Foster scores late goal as South Africa defeat Angola in their AFCON opener (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 2025 likely to be UK's hottest on record, says Met Office
-Searching Google for: 2025 likely to be UK's hottest on record, says Met Office
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D2025%252Blikely%252Bto%252Bbe%252BUK%2527s%252Bhottest%252Bon%252Brecord%252C%252Bsays%252BMet%252BOffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPoGPjhp8oGIjBafrDCiFAcR4JvJ7PApFkjqd6qdksIXUP_tVPLxbL2iPCn0HuAWPyNATtZtLT4qSUyBmpjbmRyUloBQw
+Processing trending topic: Trump warns Maduro not to ‘play tough’ as Russia, China back Venezuela
+Searching Google for: Trump warns Maduro not to ‘play tough’ as Russia, China back Venezuela
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwarns%252BMaduro%252Bnot%252Bto%252B%25E2%2580%2598play%252Btough%25E2%2580%2599%252Bas%252BRussia%252C%252BChina%252Bback%252BVenezuela%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUcyGPCYqMoGIjDBy126Jd5pLnYO00RHfmMgii42nZ38DtyeFhIpPYEvMqu4Bh2moN4PS8aNSTFO1J8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 2025-likely-to-be-uks-hottest-on-record-says-met-o_20251223_0131.html
-✓ Created comprehensive article: 2025-likely-to-be-uks-hottest-on-record-says-met-o_20251223_0131.html
+Successfully created file: trump-warns-maduro-not-to-play-tough-as-russia-chi_20251223_0328.html
+✓ Created comprehensive article: trump-warns-maduro-not-to-play-tough-as-russia-chi_20251223_0328.html
 
-Processing trending topic: Trump says US 'has to have' Greenland after naming special envoy
-Searching Google for: Trump says US 'has to have' Greenland after naming special envoy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252B%2527has%252Bto%252Bhave%2527%252BGreenland%252Bafter%252Bnaming%252Bspecial%252Benvoy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPoGP_hp8oGIjCU40OcT13Uttc0l5aea9N8fFQ99Zk5nP38BtdngIwuyTx1AFkLfgjN3FqhBtfa3bcyBmpjbmRyUloBQw
+Processing trending topic: Israel kills two Palestinians in Gaza City as ceasefire violations mount
+Searching Google for: Israel kills two Palestinians in Gaza City as ceasefire violations mount
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bkills%252Btwo%252BPalestinians%252Bin%252BGaza%252BCity%252Bas%252Bceasefire%252Bviolations%252Bmount%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUcyGPiYqMoGIjCn-xdXJNnO4k9s81oisCQ0cHWdiy-SszjulH0uqXa5qnE9zeeAcgdU4lwuz7XpsOEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-has-to-have-greenland-after-naming-s_20251223_0131.html
-✓ Created comprehensive article: trump-says-us-has-to-have-greenland-after-naming-s_20251223_0131.html
+Successfully created file: israel-kills-two-palestinians-in-gaza-city-as-ceas_20251223_0329.html
+✓ Created comprehensive article: israel-kills-two-palestinians-in-gaza-city-as-ceas_20251223_0329.html
 
-Processing trending topic: Freed Nigerian schoolchildren to be reunited with families
-Searching Google for: Freed Nigerian schoolchildren to be reunited with families
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFreed%252BNigerian%252Bschoolchildren%252Bto%252Bbe%252Breunited%252Bwith%252Bfamilies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPoGIXip8oGIjAGUXfU-33N5oknY-GT095rcvX9CXRN3uCEUnah1WaYCU0HeKKUTlQ9T-V2AFmgXZcyBmpjbmRyUloBQw
+Processing trending topic: Foster scores late goal as South Africa defeat Angola in their AFCON opener
+Searching Google for: Foster scores late goal as South Africa defeat Angola in their AFCON opener
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFoster%252Bscores%252Blate%252Bgoal%252Bas%252BSouth%252BAfrica%252Bdefeat%252BAngola%252Bin%252Btheir%252BAFCON%252Bopener%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUcyGP6YqMoGIjDyfYatQOxmmIxlWiTKdD2Rb9M0ViI-J9Zg2FCuzRz-8qrQE8bXJwRMUloPQN0-NE8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: freed-nigerian-schoolchildren-to-be-reunited-with-_20251223_0131.html
-✓ Created comprehensive article: freed-nigerian-schoolchildren-to-be-reunited-with-_20251223_0131.html
+Successfully created file: foster-scores-late-goal-as-south-africa-defeat-ang_20251223_0329.html
+✓ Created comprehensive article: foster-scores-late-goal-as-south-africa-defeat-ang_20251223_0329.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 2025 likely to be UK's hottest on record, says Met Office
+   • Trump warns Maduro not to ‘play tough’ as Russia, China back Venezuela
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says US 'has to have' Greenland after naming special envoy
+   • Israel kills two Palestinians in Gaza City as ceasefire violations mount
      Sources: bbc.com, cnn.com, reuters.com
-   • Freed Nigerian schoolchildren to be reunited with families
+   • Foster scores late goal as South Africa defeat Angola in their AFCON opener
      Sources: bbc.com, cnn.com, reuters.com
