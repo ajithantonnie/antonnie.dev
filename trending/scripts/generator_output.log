@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 2025 likely to be UK's hottest on record, says Met Office
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Freed Nigerian schoolchildren to be reunited with families
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can you locate the biggest stories from 2025?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US wants to sell GM soya and corn to India, farmers wary
-Added expanded search topic: Can you locate the biggest stories from 2025?
-Added expanded search topic: US wants to sell GM soya and corn to India, farmers wary
-Saved 12 topics for 2025-12-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We have nothing’: Endless pain for displaced civilians fleeing Sudan war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexican Navy plane crashes off US coast, killing five
+Added expanded search topic: Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo
+Added expanded search topic: ‘We have nothing’: Endless pain for displaced civilians fleeing Sudan war
+Added expanded search topic: Mexican Navy plane crashes off US coast, killing five
+Saved 15 topics for 2025-12-23
 Returning 3 unique trending topics:
-  1. Our son can't come home for Christmas after insulation mould took over (from BBC News)
-  2. Can you locate the biggest stories from 2025? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US wants to sell GM soya and corn to India, farmers wary (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘We have nothing’: Endless pain for displaced civilians fleeing Sudan war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexican Navy plane crashes off US coast, killing five (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Our son can't come home for Christmas after insulation mould took over
-Searching Google for: Our son can't come home for Christmas after insulation mould took over
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOur%252Bson%252Bcan%2527t%252Bcome%252Bhome%252Bfor%252BChristmas%252Bafter%252Binsulation%252Bmould%252Btook%252Bover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GIPQqMoGIjD6OOw-jlHVM3OrR-6LMr_iitbvvBIroYs7JhsPKm1vKL9PvHREw-LMLECxqJdWShcyBmpjbmRyUloBQw
+Processing trending topic: Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo
+Searching Google for: Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Barmy%252C%252BKurdish-led%252BSDF%252Bagree%252Bto%252Bstop%252Bdeadly%252Bfighting%252Bin%252BAleppo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KljGKTwqMoGIjA2dZHZisLA5uQKLd0GHSsONFQQSCgWIYgem7Pz8eIUnI-NT8KlKaITkGMwGDzejY4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: our-son-cant-come-home-for-christmas-after-insulat_20251223_0526.html
-✓ Created comprehensive article: our-son-cant-come-home-for-christmas-after-insulat_20251223_0526.html
+Successfully created file: syrian-army-kurdish-led-sdf-agree-to-stop-deadly-f_20251223_0635.html
+✓ Created comprehensive article: syrian-army-kurdish-led-sdf-agree-to-stop-deadly-f_20251223_0635.html
 
-Processing trending topic: Can you locate the biggest stories from 2025?
-Searching Google for: Can you locate the biggest stories from 2025?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Byou%252Blocate%252Bthe%252Bbiggest%252Bstories%252Bfrom%252B2025%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GIrQqMoGIjBT-7JkOgr4eZUGLEtRrp5-FgvD2YKW7cvHIfnDxFIqW3lZd6piz7Vuv3EOMYzhTkoyBmpjbmRyUloBQw
+Processing trending topic: ‘We have nothing’: Endless pain for displaced civilians fleeing Sudan war
+Searching Google for: ‘We have nothing’: Endless pain for displaced civilians fleeing Sudan war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bhave%252Bnothing%25E2%2580%2599%253A%252BEndless%252Bpain%252Bfor%252Bdisplaced%252Bcivilians%252Bfleeing%252BSudan%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KljGKvwqMoGIjCS1oxFdcWsQykef7A_mPYxDOPaT3IFlLbL12A_Q39IoWFwhgZgA_VZGowplP9SErcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: can-you-locate-the-biggest-stories-from-2025_20251223_0526.html
-✓ Created comprehensive article: can-you-locate-the-biggest-stories-from-2025_20251223_0526.html
+Successfully created file: we-have-nothing-endless-pain-for-displaced-civilia_20251223_0635.html
+✓ Created comprehensive article: we-have-nothing-endless-pain-for-displaced-civilia_20251223_0635.html
 
-Processing trending topic: US wants to sell GM soya and corn to India, farmers wary
-Searching Google for: US wants to sell GM soya and corn to India, farmers wary
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bwants%252Bto%252Bsell%252BGM%252Bsoya%252Band%252Bcorn%252Bto%252BIndia%252C%252Bfarmers%252Bwary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GJDQqMoGIjAHbXGVQTzAzD2a_FZsbzaQRpo88jtmTs6yy3VUvr3vwf7Cxo-nOognxS2hJWnbh8IyBmpjbmRyUloBQw
+Processing trending topic: Mexican Navy plane crashes off US coast, killing five
+Searching Google for: Mexican Navy plane crashes off US coast, killing five
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexican%252BNavy%252Bplane%252Bcrashes%252Boff%252BUS%252Bcoast%252C%252Bkilling%252Bfive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KljGLHwqMoGIjDBMpCZs6SFNOgJpuCZanNQb7RsyyEBZ0LRNwy2MGuf1UlzCs5TBq3_v6r6RxrCRaAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-wants-to-sell-gm-soya-and-corn-to-india-farmers_20251223_0526.html
-✓ Created comprehensive article: us-wants-to-sell-gm-soya-and-corn-to-india-farmers_20251223_0526.html
+Successfully created file: mexican-navy-plane-crashes-off-us-coast-killing-fi_20251223_0635.html
+✓ Created comprehensive article: mexican-navy-plane-crashes-off-us-coast-killing-fi_20251223_0635.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Our son can't come home for Christmas after insulation mould took over
+   • Syrian army, Kurdish-led SDF agree to stop deadly fighting in Aleppo
      Sources: bbc.com, cnn.com, reuters.com
-   • Can you locate the biggest stories from 2025?
+   • ‘We have nothing’: Endless pain for displaced civilians fleeing Sudan war
      Sources: bbc.com, cnn.com, reuters.com
-   • US wants to sell GM soya and corn to India, farmers wary
+   • Mexican Navy plane crashes off US coast, killing five
      Sources: bbc.com, cnn.com, reuters.com
