@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 9 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Officials discover a million more documents potentially related to Epstein case
+  Added: Tess Daly and Claudia Winkleman to present Strictly for last time
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Algeria passes law declaring French colonisation a crime
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Majority of Russians expect Ukraine war to end in 2026, state survey finds
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Explosion rocks crowded mosque in Nigeria, killing at least five
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump-backed conservative Nasry Asfura wins Honduras election: Authorities
+Added expanded search topic: Majority of Russians expect Ukraine war to end in 2026, state survey finds
+Added expanded search topic: Explosion rocks crowded mosque in Nigeria, killing at least five
+Added expanded search topic: Trump-backed conservative Nasry Asfura wins Honduras election: Authorities
+Saved 12 topics for 2025-12-25
+Returning 3 unique trending topics:
+  1. Majority of Russians expect Ukraine war to end in 2026, state survey finds (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Explosion rocks crowded mosque in Nigeria, killing at least five (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump-backed conservative Nasry Asfura wins Honduras election: Authorities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Majority of Russians expect Ukraine war to end in 2026, state survey finds
+Searching Google for: Majority of Russians expect Ukraine war to end in 2026, state survey finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMajority%252Bof%252BRussians%252Bexpect%252BUkraine%252Bwar%252Bto%252Bend%252Bin%252B2026%252C%252Bstate%252Bsurvey%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuUGKuWs8oGIjC5M7jEYydP7_E6qPHRvodBrUx9mHm7QFAoxv1zAEkYHH2pl66klSRIaoRmoEUutooyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: majority-of-russians-expect-ukraine-war-to-end-in-_20251225_0527.html
+✓ Created comprehensive article: majority-of-russians-expect-ukraine-war-to-end-in-_20251225_0527.html
+
+Processing trending topic: Explosion rocks crowded mosque in Nigeria, killing at least five
+Searching Google for: Explosion rocks crowded mosque in Nigeria, killing at least five
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DExplosion%252Brocks%252Bcrowded%252Bmosque%252Bin%252BNigeria%252C%252Bkilling%252Bat%252Bleast%252Bfive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuUGLKWs8oGIjDzycGt4rnWYGEXJI4fYPwwcCN-NElXJTshvwz7QvVqaa-PCiu6peDqXlD_TYNOP9MyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: explosion-rocks-crowded-mosque-in-nigeria-killing-_20251225_0527.html
+✓ Created comprehensive article: explosion-rocks-crowded-mosque-in-nigeria-killing-_20251225_0527.html
+
+Processing trending topic: Trump-backed conservative Nasry Asfura wins Honduras election: Authorities
+Searching Google for: Trump-backed conservative Nasry Asfura wins Honduras election: Authorities
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump-backed%252Bconservative%252BNasry%252BAsfura%252Bwins%252BHonduras%252Belection%253A%252BAuthorities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuUGLmWs8oGIjCsURkH39k5FtfaGe2wZeuzUxY3ITRnc9XJvLDT9YjEz52Uke5VWEdGwwcuDNxe-yAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-backed-conservative-nasry-asfura-wins-hondur_20251225_0527.html
+✓ Created comprehensive article: trump-backed-conservative-nasry-asfura-wins-hondur_20251225_0527.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Majority of Russians expect Ukraine war to end in 2026, state survey finds
+     Sources: bbc.com, cnn.com, reuters.com
+   • Explosion rocks crowded mosque in Nigeria, killing at least five
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump-backed conservative Nasry Asfura wins Honduras election: Authorities
+     Sources: bbc.com, cnn.com, reuters.com
