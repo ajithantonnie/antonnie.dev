@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Royal Family greet crowds after Christmas Day service
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds of thousands newly displaced as Islamic State insurgency expands in Mozambique
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pope Leo laments suffering of Gaza Palestinians in first Christmas sermon
-Added expanded search topic: Pope Leo laments suffering of Gaza Palestinians in first Christmas sermon
-Saved 33 topics for 2025-12-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France must “pay for crimes committed” against Algeria
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine accepts demilitarised zone to end Russia war, but do DMZs work?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indonesians hold Christmas mass at flood-devastated area
+Added expanded search topic: France must “pay for crimes committed” against Algeria
+Added expanded search topic: Ukraine accepts demilitarised zone to end Russia war, but do DMZs work?
+Added expanded search topic: Indonesians hold Christmas mass at flood-devastated area
+Saved 36 topics for 2025-12-25
 Returning 3 unique trending topics:
-  1. Royal Family greet crowds after Christmas Day service (from BBC News)
-  2. Pope Leo urges 'courage' to end Ukraine war in first Christmas address (from BBC News)
-  3. Pope Leo laments suffering of Gaza Palestinians in first Christmas sermon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. France must “pay for crimes committed” against Algeria (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ukraine accepts demilitarised zone to end Russia war, but do DMZs work? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Indonesians hold Christmas mass at flood-devastated area (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Royal Family greet crowds after Christmas Day service
-Searching Google for: Royal Family greet crowds after Christmas Day service
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BFamily%252Bgreet%252Bcrowds%252Bafter%252BChristmas%252BDay%252Bservice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D0AGMfitMoGIjDoukzFIIgRTtn-pCQ2KSXbV7ig9VKAsULPCf76AMEkTEufHq7afZvBCT3xml34kyEyBmpjbmRyUloBQw
+Processing trending topic: France must “pay for crimes committed” against Algeria
+Searching Google for: France must “pay for crimes committed” against Algeria
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Bmust%252B%25E2%2580%259Cpay%252Bfor%252Bcrimes%252Bcommitted%25E2%2580%259D%252Bagainst%252BAlgeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWAGLv6tMoGIjDbVFUcKGCp0I0cRXRQ-JhuyKjAabsELvQB5SrP3mVSLYYdNYfZkKdslCL5LL7STlUyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: royal-family-greet-crowds-after-christmas-day-serv_20251225_1242.html
-✓ Created comprehensive article: royal-family-greet-crowds-after-christmas-day-serv_20251225_1242.html
+Successfully created file: france-must-pay-for-crimes-committed-against-alger_20251225_1333.html
+✓ Created comprehensive article: france-must-pay-for-crimes-committed-against-alger_20251225_1333.html
 
-Processing trending topic: Pope Leo urges 'courage' to end Ukraine war in first Christmas address
-Searching Google for: Pope Leo urges 'courage' to end Ukraine war in first Christmas address
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPope%252BLeo%252Burges%252B%2527courage%2527%252Bto%252Bend%252BUkraine%252Bwar%252Bin%252Bfirst%252BChristmas%252Baddress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D0AGM7itMoGIjCF5vvybH3HIktjxK2S8NErhpAZOkMECjpBmynlv3IlKK8Y9VOH0ae_BkrUpxO4pO0yBmpjbmRyUloBQw
+Processing trending topic: Ukraine accepts demilitarised zone to end Russia war, but do DMZs work?
+Searching Google for: Ukraine accepts demilitarised zone to end Russia war, but do DMZs work?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Baccepts%252Bdemilitarised%252Bzone%252Bto%252Bend%252BRussia%252Bwar%252C%252Bbut%252Bdo%252BDMZs%252Bwork%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWAGML6tMoGIjB3RkOVpN7MI0i4N7Z-rfdO-G6fxe_T5A6k3IftBzpca-XBwOUNNMPDzLqfgwHj5kgyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pope-leo-urges-courage-to-end-ukraine-war-in-first_20251225_1242.html
-✓ Created comprehensive article: pope-leo-urges-courage-to-end-ukraine-war-in-first_20251225_1242.html
+Successfully created file: ukraine-accepts-demilitarised-zone-to-end-russia-w_20251225_1333.html
+✓ Created comprehensive article: ukraine-accepts-demilitarised-zone-to-end-russia-w_20251225_1333.html
 
-Processing trending topic: Pope Leo laments suffering of Gaza Palestinians in first Christmas sermon
-Searching Google for: Pope Leo laments suffering of Gaza Palestinians in first Christmas sermon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPope%252BLeo%252Blaments%252Bsuffering%252Bof%252BGaza%252BPalestinians%252Bin%252Bfirst%252BChristmas%252Bsermon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D0AGNXitMoGIjB3HH3_xqw5aDhKkYNZwfgC6fTOaroaty22p5_g-pJgge6rlSuc8wfUsSxBvRWYZCQyBmpjbmRyUloBQw
+Processing trending topic: Indonesians hold Christmas mass at flood-devastated area
+Searching Google for: Indonesians hold Christmas mass at flood-devastated area
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndonesians%252Bhold%252BChristmas%252Bmass%252Bat%252Bflood-devastated%252Barea%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWAGMj6tMoGIjD1UUp7nI5pXJZsFOSUmceb5GsvXRxBxkfJWJcGwp0nLpI9Rp_732YfeuZ3rJ1vIsIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pope-leo-laments-suffering-of-gaza-palestinians-in_20251225_1243.html
-✓ Created comprehensive article: pope-leo-laments-suffering-of-gaza-palestinians-in_20251225_1243.html
+Successfully created file: indonesians-hold-christmas-mass-at-flood-devastate_20251225_1334.html
+✓ Created comprehensive article: indonesians-hold-christmas-mass-at-flood-devastate_20251225_1334.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Royal Family greet crowds after Christmas Day service
+   • France must “pay for crimes committed” against Algeria
      Sources: bbc.com, cnn.com, reuters.com
-   • Pope Leo urges 'courage' to end Ukraine war in first Christmas address
+   • Ukraine accepts demilitarised zone to end Russia war, but do DMZs work?
      Sources: bbc.com, cnn.com, reuters.com
-   • Pope Leo laments suffering of Gaza Palestinians in first Christmas sermon
+   • Indonesians hold Christmas mass at flood-devastated area
      Sources: bbc.com, cnn.com, reuters.com
