@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US launches deadly strikes against Islamic State in Nigeria, says Trump
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US carries out strikes on Nigeria targeting Islamic State militants, Trump says
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea’s Kim Jong Un pushes more missile production as ‘war deterrent’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US releases missile launch video after northwest Nigeria strike
-Added expanded search topic: North Korea’s Kim Jong Un pushes more missile production as ‘war deterrent’
-Added expanded search topic: US releases missile launch video after northwest Nigeria strike
-Saved 18 topics for 2025-12-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Nigeria confirms US strikes on ISIL targets in its northwest
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Court finds Malaysia’s former PM Najib Razak guilty of abuse of power
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settler runs over Palestinian man praying near Ramallah
+Added expanded search topic: LIVE: Nigeria confirms US strikes on ISIL targets in its northwest
+Added expanded search topic: Court finds Malaysia’s former PM Najib Razak guilty of abuse of power
+Added expanded search topic: Israeli settler runs over Palestinian man praying near Ramallah
+Saved 21 topics for 2025-12-26
 Returning 3 unique trending topics:
-  1. I'm watching brain surgery to see if Alzheimer's can ever be cured (from BBC News)
-  2. North Korea’s Kim Jong Un pushes more missile production as ‘war deterrent’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US releases missile launch video after northwest Nigeria strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. LIVE: Nigeria confirms US strikes on ISIL targets in its northwest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Court finds Malaysia’s former PM Najib Razak guilty of abuse of power (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli settler runs over Palestinian man praying near Ramallah (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: I'm watching brain surgery to see if Alzheimer's can ever be cured
-Searching Google for: I'm watching brain surgery to see if Alzheimer's can ever be cured
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%2527m%252Bwatching%252Bbrain%252Bsurgery%252Bto%252Bsee%252Bif%252BAlzheimer%2527s%252Bcan%252Bever%252Bbe%252Bcured%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoRxkGI7wuMoGIjD1JWp-4pBfeKykEiT0cHPU-RugIhRTx-Fo70oCnwhMEUEdgtPaqVbLSkG0X6Jp7TUyBmpjbmRyUloBQw
+Processing trending topic: LIVE: Nigeria confirms US strikes on ISIL targets in its northwest
+Searching Google for: LIVE: Nigeria confirms US strikes on ISIL targets in its northwest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BNigeria%252Bconfirms%252BUS%252Bstrikes%252Bon%252BISIL%252Btargets%252Bin%252Bits%252Bnorthwest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUc0GPGOucoGIjAr_qCEbf8lAuLnQh5LyI88TJ7BhVMQueXoqFEsntgqksOrmf5L1mymjeES5O7LIsUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: im-watching-brain-surgery-to-see-if-alzheimers-can_20251226_0724.html
-✓ Created comprehensive article: im-watching-brain-surgery-to-see-if-alzheimers-can_20251226_0724.html
+Successfully created file: live-nigeria-confirms-us-strikes-on-isil-targets-i_20251226_0829.html
+✓ Created comprehensive article: live-nigeria-confirms-us-strikes-on-isil-targets-i_20251226_0829.html
 
-Processing trending topic: North Korea’s Kim Jong Un pushes more missile production as ‘war deterrent’
-Searching Google for: North Korea’s Kim Jong Un pushes more missile production as ‘war deterrent’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%25E2%2580%2599s%252BKim%252BJong%252BUn%252Bpushes%252Bmore%252Bmissile%252Bproduction%252Bas%252B%25E2%2580%2598war%252Bdeterrent%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoRxkGJXwuMoGIjCou1bIEhno8Ti-rHxgn_EieLM3PiXYH8r0pDW3ULIbaWq_nmiTisdeSPOMFjcxR1oyBmpjbmRyUloBQw
+Processing trending topic: Court finds Malaysia’s former PM Najib Razak guilty of abuse of power
+Searching Google for: Court finds Malaysia’s former PM Najib Razak guilty of abuse of power
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCourt%252Bfinds%252BMalaysia%25E2%2580%2599s%252Bformer%252BPM%252BNajib%252BRazak%252Bguilty%252Bof%252Babuse%252Bof%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUc0GPiOucoGIjDSyfmk4_9wkszxAOJlJR6IFeLCV_FpwjJGSdogd2kPSAf-s2le6vghAIfDI23kFBsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: north-koreas-kim-jong-un-pushes-more-missile-produ_20251226_0724.html
-✓ Created comprehensive article: north-koreas-kim-jong-un-pushes-more-missile-produ_20251226_0724.html
+Successfully created file: court-finds-malaysias-former-pm-najib-razak-guilty_20251226_0829.html
+✓ Created comprehensive article: court-finds-malaysias-former-pm-najib-razak-guilty_20251226_0829.html
 
-Processing trending topic: US releases missile launch video after northwest Nigeria strike
-Searching Google for: US releases missile launch video after northwest Nigeria strike
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Breleases%252Bmissile%252Blaunch%252Bvideo%252Bafter%252Bnorthwest%252BNigeria%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoRxkGJzwuMoGIjDDqMtxAXt53eJe1Io3rIr_ukjjCklGyenkwmyJXSSn_0mGaCIcoLhGQK-PaYqd-QQyBmpjbmRyUloBQw
+Processing trending topic: Israeli settler runs over Palestinian man praying near Ramallah
+Searching Google for: Israeli settler runs over Palestinian man praying near Ramallah
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettler%252Bruns%252Bover%252BPalestinian%252Bman%252Bpraying%252Bnear%252BRamallah%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUc0GP-OucoGIjD-ZYvCtjnxBumI-KKTLMTZ1Q2V85VSljQ05Le248mlsoPIGcvLYMKK8qjffeb_FfkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-releases-missile-launch-video-after-northwest-n_20251226_0724.html
-✓ Created comprehensive article: us-releases-missile-launch-video-after-northwest-n_20251226_0724.html
+Successfully created file: israeli-settler-runs-over-palestinian-man-praying-_20251226_0829.html
+✓ Created comprehensive article: israeli-settler-runs-over-palestinian-man-praying-_20251226_0829.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • I'm watching brain surgery to see if Alzheimer's can ever be cured
+   • LIVE: Nigeria confirms US strikes on ISIL targets in its northwest
      Sources: bbc.com, cnn.com, reuters.com
-   • North Korea’s Kim Jong Un pushes more missile production as ‘war deterrent’
+   • Court finds Malaysia’s former PM Najib Razak guilty of abuse of power
      Sources: bbc.com, cnn.com, reuters.com
-   • US releases missile launch video after northwest Nigeria strike
+   • Israeli settler runs over Palestinian man praying near Ramallah
      Sources: bbc.com, cnn.com, reuters.com
