@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US launches deadly strikes against Islamic State in Nigeria, says Trump
+  Added: US launches strikes against Islamic State in Nigeria
   Added: Search called off for two swimmers missing at sea
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US air strikes in Nigeria “very much welcome” although late
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will the Russia-Ukraine war end in 2026?
-Added expanded search topic: US air strikes in Nigeria “very much welcome” although late
-Added expanded search topic: Will the Russia-Ukraine war end in 2026?
-Saved 24 topics for 2025-12-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nigeria vs Tunisia: AFCON 2025 – team news, start time and lineups
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Taiwan’s opposition launches ‘symbolic’ campaign to impeach president
+Added expanded search topic: Nigeria vs Tunisia: AFCON 2025 – team news, start time and lineups
+Added expanded search topic: Taiwan’s opposition launches ‘symbolic’ campaign to impeach president
+Saved 27 topics for 2025-12-26
 Returning 3 unique trending topics:
-  1. Search called off for two swimmers missing at sea (from BBC News)
-  2. US air strikes in Nigeria “very much welcome” although late (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Will the Russia-Ukraine war end in 2026? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US launches strikes against Islamic State in Nigeria (from BBC News)
+  2. Nigeria vs Tunisia: AFCON 2025 – team news, start time and lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Taiwan’s opposition launches ‘symbolic’ campaign to impeach president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Search called off for two swimmers missing at sea
-Searching Google for: Search called off for two swimmers missing at sea
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSearch%252Bcalled%252Boff%252Bfor%252Btwo%252Bswimmers%252Bmissing%252Bat%252Bsea%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnchGMGoucoGIjD-v9dT3w6E-csrC-lW3KjLYyqEHkoCA-W5Sb8MASzAPXEDDoJdtHXAZrYaeYDRpvsyBmpjbmRyUloBQw
+Processing trending topic: US launches strikes against Islamic State in Nigeria
+Searching Google for: US launches strikes against Islamic State in Nigeria
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blaunches%252Bstrikes%252Bagainst%252BIslamic%252BState%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06i2xGOTEucoGIjB4Ij0KTq3GP3jNZuMsvlJPxJGysXx_Q_DJLucgN0cm00Jr01sU2W5ms5SIhcvyW1wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: search-called-off-for-two-swimmers-missing-at-sea_20251226_0924.html
-✓ Created comprehensive article: search-called-off-for-two-swimmers-missing-at-sea_20251226_0924.html
+Successfully created file: us-launches-strikes-against-islamic-state-in-niger_20251226_1024.html
+✓ Created comprehensive article: us-launches-strikes-against-islamic-state-in-niger_20251226_1024.html
 
-Processing trending topic: US air strikes in Nigeria “very much welcome” although late
-Searching Google for: US air strikes in Nigeria “very much welcome” although late
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bair%252Bstrikes%252Bin%252BNigeria%252B%25E2%2580%259Cvery%252Bmuch%252Bwelcome%25E2%2580%259D%252Balthough%252Blate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnchGMioucoGIjC5C3sSRGitesLE8kouC78G-suU8Q21HXx7TaK7p_Grc8RujnoXM06Ri4PPEazZmNIyBmpjbmRyUloBQw
+Processing trending topic: Nigeria vs Tunisia: AFCON 2025 – team news, start time and lineups
+Searching Google for: Nigeria vs Tunisia: AFCON 2025 – team news, start time and lineups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Bvs%252BTunisia%253A%252BAFCON%252B2025%252B%25E2%2580%2593%252Bteam%252Bnews%252C%252Bstart%252Btime%252Band%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06i2xGOvEucoGIjD9vQjZbTAD-uHeREADO-04XwiYET5R23-ZHJ5ZT-enXRHXPOCL_m6ppYHVtBdhNjIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-air-strikes-in-nigeria-very-much-welcome-althou_20251226_0924.html
-✓ Created comprehensive article: us-air-strikes-in-nigeria-very-much-welcome-althou_20251226_0924.html
+Successfully created file: nigeria-vs-tunisia-afcon-2025-team-news-start-time_20251226_1024.html
+✓ Created comprehensive article: nigeria-vs-tunisia-afcon-2025-team-news-start-time_20251226_1024.html
 
-Processing trending topic: Will the Russia-Ukraine war end in 2026?
-Searching Google for: Will the Russia-Ukraine war end in 2026?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Bthe%252BRussia-Ukraine%252Bwar%252Bend%252Bin%252B2026%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnchGM6oucoGIjBfl8S8N5B01Mf07-ECYWIWLe6izIAYTE4VWs1aqCdZsP8I5qJJsb-e1vwGwvAKgNkyBmpjbmRyUloBQw
+Processing trending topic: Taiwan’s opposition launches ‘symbolic’ campaign to impeach president
+Searching Google for: Taiwan’s opposition launches ‘symbolic’ campaign to impeach president
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTaiwan%25E2%2580%2599s%252Bopposition%252Blaunches%252B%25E2%2580%2598symbolic%25E2%2580%2599%252Bcampaign%252Bto%252Bimpeach%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06i2xGPHEucoGIjAJiSlt3oQVjsiK9m_WI6Q2ZyA4kEsNRQUwql6l-nRca8UpxHZOPDCaEQLPM1VnPVwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-the-russia-ukraine-war-end-in-2026_20251226_0924.html
-✓ Created comprehensive article: will-the-russia-ukraine-war-end-in-2026_20251226_0924.html
+Successfully created file: taiwans-opposition-launches-symbolic-campaign-to-i_20251226_1024.html
+✓ Created comprehensive article: taiwans-opposition-launches-symbolic-campaign-to-i_20251226_1024.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Search called off for two swimmers missing at sea
+   • US launches strikes against Islamic State in Nigeria
      Sources: bbc.com, cnn.com, reuters.com
-   • US air strikes in Nigeria “very much welcome” although late
+   • Nigeria vs Tunisia: AFCON 2025 – team news, start time and lineups
      Sources: bbc.com, cnn.com, reuters.com
-   • Will the Russia-Ukraine war end in 2026?
+   • Taiwan’s opposition launches ‘symbolic’ campaign to impeach president
      Sources: bbc.com, cnn.com, reuters.com
