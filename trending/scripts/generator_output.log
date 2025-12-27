@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Zelensky plans to meet Trump on Sunday for talks on ending Russian war
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Israel becomes first country to recognise Somaliland as sovereign state
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Over 1,500 flights cancelled as winter storm Devin hits US holiday travel
-Added expanded search topic: Over 1,500 flights cancelled as winter storm Devin hits US holiday travel
-Saved 6 topics for 2025-12-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia using Belarus territory to bypass Ukraine’s defences, says Zelenskyy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: N Korea, Russia bound in ‘blood’ of war, Kim tells Putin in New Year note
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,402
+Added expanded search topic: Russia using Belarus territory to bypass Ukraine’s defences, says Zelenskyy
+Added expanded search topic: N Korea, Russia bound in ‘blood’ of war, Kim tells Putin in New Year note
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,402
+Saved 9 topics for 2025-12-27
 Returning 3 unique trending topics:
-  1. Her husband's kidnapping became Malaysia's biggest mystery. Then came a stunning confession (from BBC News)
-  2. Israel becomes first country to recognise Somaliland as sovereign state (from The Guardian)
-  3. Over 1,500 flights cancelled as winter storm Devin hits US holiday travel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia using Belarus territory to bypass Ukraine’s defences, says Zelenskyy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. N Korea, Russia bound in ‘blood’ of war, Kim tells Putin in New Year note (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,402 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Her husband's kidnapping became Malaysia's biggest mystery. Then came a stunning confession
-Searching Google for: Her husband's kidnapping became Malaysia's biggest mystery. Then came a stunning confession
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHer%252Bhusband%2527s%252Bkidnapping%252Bbecame%252BMalaysia%2527s%252Bbiggest%252Bmystery.%252BThen%252Bcame%252Ba%252Bstunning%252Bconfession%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rduRGLyjvcoGIjBNDeO8gMH5rolW7uDcJrhYYNFkFPYVUbGI3Sj-dbEf_kx8yGv0dCVcuJ1rcZlg5uAyAnJSWgFD
+Processing trending topic: Russia using Belarus territory to bypass Ukraine’s defences, says Zelenskyy
+Searching Google for: Russia using Belarus territory to bypass Ukraine’s defences, says Zelenskyy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Busing%252BBelarus%252Bterritory%252Bto%252Bbypass%252BUkraine%25E2%2580%2599s%252Bdefences%252C%252Bsays%252BZelenskyy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jWzGNPDvcoGIjAyYXBhd0RJGLWwtR1a1WBj3JSfdrcKZ3L08OH1klRDcTTZ8KAyJISJuRGRwRrVeBcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: her-husbands-kidnapping-became-malaysias-biggest-m_20251227_0325.html
-✓ Created comprehensive article: her-husbands-kidnapping-became-malaysias-biggest-m_20251227_0325.html
+Successfully created file: russia-using-belarus-territory-to-bypass-ukraines-_20251227_0434.html
+✓ Created comprehensive article: russia-using-belarus-territory-to-bypass-ukraines-_20251227_0434.html
 
-Processing trending topic: Israel becomes first country to recognise Somaliland as sovereign state
-Searching Google for: Israel becomes first country to recognise Somaliland as sovereign state
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bbecomes%252Bfirst%252Bcountry%252Bto%252Brecognise%252BSomaliland%252Bas%252Bsovereign%252Bstate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rduRGMOjvcoGIjDABxMHuOL7KIj6sgkyo5mF5AF8y5W28CAym00QH22x4Qgx50M6frt2wQkeeXSdxoIyAnJSWgFD
+Processing trending topic: N Korea, Russia bound in ‘blood’ of war, Kim tells Putin in New Year note
+Searching Google for: N Korea, Russia bound in ‘blood’ of war, Kim tells Putin in New Year note
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DN%252BKorea%252C%252BRussia%252Bbound%252Bin%252B%25E2%2580%2598blood%25E2%2580%2599%252Bof%252Bwar%252C%252BKim%252Btells%252BPutin%252Bin%252BNew%252BYear%252Bnote%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jWzGNvDvcoGIjDY__V6Dcl2ZbwRgwAjUYkvubvvco4VWElQgwJIGnsDNXjA9YZi5ks-7GflorURqJcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-becomes-first-country-to-recognise-somalila_20251227_0325.html
-✓ Created comprehensive article: israel-becomes-first-country-to-recognise-somalila_20251227_0325.html
+Successfully created file: n-korea-russia-bound-in-blood-of-war-kim-tells-put_20251227_0434.html
+✓ Created comprehensive article: n-korea-russia-bound-in-blood-of-war-kim-tells-put_20251227_0434.html
 
-Processing trending topic: Over 1,500 flights cancelled as winter storm Devin hits US holiday travel
-Searching Google for: Over 1,500 flights cancelled as winter storm Devin hits US holiday travel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOver%252B1%252C500%252Bflights%252Bcancelled%252Bas%252Bwinter%252Bstorm%252BDevin%252Bhits%252BUS%252Bholiday%252Btravel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rduRGMqjvcoGIjAL6L7SGMmbba8jEvGxUi8iF-mvZOZcAv23y7fgDHegkOHL7MmFVEz8aggr4KiiguEyAnJSWgFD
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,402
+Searching Google for: Russia-Ukraine war: List of key events, day 1,402
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C402%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jWzGOHDvcoGIjCiU7vZNFsx6RRnAwrGRnwHr-UTUBBnzc_P7bop-dEuIFrKYRTWcXSiyf59HmZsqioyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: over-1500-flights-cancelled-as-winter-storm-devin-_20251227_0326.html
-✓ Created comprehensive article: over-1500-flights-cancelled-as-winter-storm-devin-_20251227_0326.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1402_20251227_0434.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1402_20251227_0434.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Her husband's kidnapping became Malaysia's biggest mystery. Then came a stunning confession
+   • Russia using Belarus territory to bypass Ukraine’s defences, says Zelenskyy
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel becomes first country to recognise Somaliland as sovereign state
+   • N Korea, Russia bound in ‘blood’ of war, Kim tells Putin in New Year note
      Sources: bbc.com, cnn.com, reuters.com
-   • Over 1,500 flights cancelled as winter storm Devin hits US holiday travel
+   • Russia-Ukraine war: List of key events, day 1,402
      Sources: bbc.com, cnn.com, reuters.com
