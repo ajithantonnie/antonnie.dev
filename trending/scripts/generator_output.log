@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 54 topics
+Already used today: 57 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Opposition anger as Guinea’s junta leader is frontrunner to be elected president
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Do Donald Trump’s strikes in Nigeria serve any purpose?
-  Found from World News - Breaking international news and headlines | Sky News: Ukraine peace talks: What are the major issues remaining as Zelenskyy prepares to meet Trump?
-Added expanded search topic: Do Donald Trump’s strikes in Nigeria serve any purpose?
-Added expanded search topic: Ukraine peace talks: What are the major issues remaining as Zelenskyy prepares to meet Trump?
-Saved 57 topics for 2025-12-27
+  Found from World News - Breaking international news and headlines | Sky News: At least 15 killed in Guatemala as bus falls into ravine
+  Found from Tech News - Latest Technology and Gadget News | Sky News: Why Trump administration is so annoyed with Europe's online rules
+  Found from Tech News - Latest Technology and Gadget News | Sky News: Why UK is in 'extraordinary times' over its climate
+Added expanded search topic: At least 15 killed in Guatemala as bus falls into ravine
+Added expanded search topic: Why Trump administration is so annoyed with Europe's online rules
+Added expanded search topic: Why UK is in 'extraordinary times' over its climate
+Saved 60 topics for 2025-12-27
 Returning 3 unique trending topics:
-  1. Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says (from BBC News)
-  2. Do Donald Trump’s strikes in Nigeria serve any purpose? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Ukraine peace talks: What are the major issues remaining as Zelenskyy prepares to meet Trump? (from World News - Breaking international news and headlines | Sky News)
+  1. At least 15 killed in Guatemala as bus falls into ravine (from World News - Breaking international news and headlines | Sky News)
+  2. Why Trump administration is so annoyed with Europe's online rules (from Tech News - Latest Technology and Gadget News | Sky News)
+  3. Why UK is in 'extraordinary times' over its climate (from Tech News - Latest Technology and Gadget News | Sky News)
 
-Processing trending topic: Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
-Searching Google for: Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttack%252Bon%252BKyiv%252Bshows%252B%2527Russia%252Bdoesn%2527t%252Bwant%252Bpeace%2527%252C%252BZelensky%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7AGNKAwcoGIjCxL3xXub_DW6bMUr2_J0cblKHzXWUAnKtRHnC-tSxhOjrGGRwhhWof6sP_qkOtKRUyBmpjbmRyUloBQw
+Processing trending topic: At least 15 killed in Guatemala as bus falls into ravine
+Searching Google for: At least 15 killed in Guatemala as bus falls into ravine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B15%252Bkilled%252Bin%252BGuatemala%252Bas%252Bbus%252Bfalls%252Binto%252Bravine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhPkGK-bwcoGIjAPqqPuYlO6aQ9y9zUfNTu85DklzzTuVyc6LU_AoPm-qCSqHTiTVdLwCR-Dp9ZG_jUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attack-on-kyiv-shows-russia-doesnt-want-peace-zele_20251227_2023.html
-✓ Created comprehensive article: attack-on-kyiv-shows-russia-doesnt-want-peace-zele_20251227_2023.html
+Successfully created file: at-least-15-killed-in-guatemala-as-bus-falls-into-_20251227_2120.html
+✓ Created comprehensive article: at-least-15-killed-in-guatemala-as-bus-falls-into-_20251227_2120.html
 
-Processing trending topic: Do Donald Trump’s strikes in Nigeria serve any purpose?
-Searching Google for: Do Donald Trump’s strikes in Nigeria serve any purpose?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDo%252BDonald%252BTrump%25E2%2580%2599s%252Bstrikes%252Bin%252BNigeria%252Bserve%252Bany%252Bpurpose%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7AGNmAwcoGIjAvSjEP9c9IW5yybDAN0LT4sVRcWPW5ROIo0vShb0Bo87H80-6qviCQ-O2yVZHa1qcyBmpjbmRyUloBQw
+Processing trending topic: Why Trump administration is so annoyed with Europe's online rules
+Searching Google for: Why Trump administration is so annoyed with Europe's online rules
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BTrump%252Badministration%252Bis%252Bso%252Bannoyed%252Bwith%252BEurope%2527s%252Bonline%252Brules%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhPkGLebwcoGIjDRs7UicaAHHuQd3LYtWhZgdH-BpP2g01ZLSUSZ4teFiM-2PdlUEy3XGLDHp28f1FMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: do-donald-trumps-strikes-in-nigeria-serve-any-purp_20251227_2023.html
-✓ Created comprehensive article: do-donald-trumps-strikes-in-nigeria-serve-any-purp_20251227_2023.html
+Successfully created file: why-trump-administration-is-so-annoyed-with-europe_20251227_2120.html
+✓ Created comprehensive article: why-trump-administration-is-so-annoyed-with-europe_20251227_2120.html
 
-Processing trending topic: Ukraine peace talks: What are the major issues remaining as Zelenskyy prepares to meet Trump?
-Searching Google for: Ukraine peace talks: What are the major issues remaining as Zelenskyy prepares to meet Trump?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bpeace%252Btalks%253A%252BWhat%252Bare%252Bthe%252Bmajor%252Bissues%252Bremaining%252Bas%252BZelenskyy%252Bprepares%252Bto%252Bmeet%252BTrump%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7AGOCAwcoGIjDdt-exjXjyuiWcc02-FUxNq0Wyc98yEEUOPubpaBngB6upDYI1zbO6KlLkFkVSo_UyBmpjbmRyUloBQw
+Processing trending topic: Why UK is in 'extraordinary times' over its climate
+Searching Google for: Why UK is in 'extraordinary times' over its climate
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BUK%252Bis%252Bin%252B%2527extraordinary%252Btimes%2527%252Bover%252Bits%252Bclimate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhPkGL2bwcoGIjB0bRzKX-8uWdCDQB5vx8uT4XVxTPF5cOcLl88sSoQCaJlQjvz7n_S1Bt1aCB6ng1syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ukraine-peace-talks-what-are-the-major-issues-rema_20251227_2024.html
-✓ Created comprehensive article: ukraine-peace-talks-what-are-the-major-issues-rema_20251227_2024.html
+Successfully created file: why-uk-is-in-extraordinary-times-over-its-climate_20251227_2121.html
+✓ Created comprehensive article: why-uk-is-in-extraordinary-times-over-its-climate_20251227_2121.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
+   • At least 15 killed in Guatemala as bus falls into ravine
      Sources: bbc.com, cnn.com, reuters.com
-   • Do Donald Trump’s strikes in Nigeria serve any purpose?
+   • Why Trump administration is so annoyed with Europe's online rules
      Sources: bbc.com, cnn.com, reuters.com
-   • Ukraine peace talks: What are the major issues remaining as Zelenskyy prepares to meet Trump?
+   • Why UK is in 'extraordinary times' over its climate
      Sources: bbc.com, cnn.com, reuters.com
