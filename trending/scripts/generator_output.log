@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The blonde bombshell who revolutionised cinema in the 1950s
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Central African Republic goes to polls as president seeks third term
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syria protests live: Deadly clashes erupt as hundreds demonstrate
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video: What do Rohingya refugees think about Myanmar’s election?
-Added expanded search topic: Syria protests live: Deadly clashes erupt as hundreds demonstrate
-Added expanded search topic: Video: What do Rohingya refugees think about Myanmar’s election?
-Saved 39 topics for 2025-12-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Javad Zarif: Main threat to the Middle East is Israel, not Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Protests turn deadly during demonstration in Syrian city of Latakia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Niger’s military rulers order ‘general mobilisation’ against armed groups
+Added expanded search topic: Javad Zarif: Main threat to the Middle East is Israel, not Iran
+Added expanded search topic: Protests turn deadly during demonstration in Syrian city of Latakia
+Added expanded search topic: Niger’s military rulers order ‘general mobilisation’ against armed groups
+Saved 42 topics for 2025-12-28
 Returning 3 unique trending topics:
-  1. Egyptian dissident should be deported from UK, Tories say (from BBC News)
-  2. Syria protests live: Deadly clashes erupt as hundreds demonstrate (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Video: What do Rohingya refugees think about Myanmar’s election? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Javad Zarif: Main threat to the Middle East is Israel, not Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Protests turn deadly during demonstration in Syrian city of Latakia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Niger’s military rulers order ‘general mobilisation’ against armed groups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Egyptian dissident should be deported from UK, Tories say
-Searching Google for: Egyptian dissident should be deported from UK, Tories say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgyptian%252Bdissident%252Bshould%252Bbe%252Bdeported%252Bfrom%252BUK%252C%252BTories%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIrIGK76xMoGIjDp_r8e--YysTaoHcyoLVmDw8chkpNGD-TGEfQ1KMAvmcf4IwOan7B-fO8JaAufWVQyBmpjbmRyUloBQw
+Processing trending topic: Javad Zarif: Main threat to the Middle East is Israel, not Iran
+Searching Google for: Javad Zarif: Main threat to the Middle East is Israel, not Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJavad%252BZarif%253A%252BMain%252Bthreat%252Bto%252Bthe%252BMiddle%252BEast%252Bis%252BIsrael%252C%252Bnot%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbgGKuWxcoGIjAxApiGlBwgwf4ZNQmleKFWQ3piajcOo0LMvUgcTBT2UnFCVaDYGOSUlkyf0mlAmRMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egyptian-dissident-should-be-deported-from-uk-tori_20251228_1422.html
-✓ Created comprehensive article: egyptian-dissident-should-be-deported-from-uk-tori_20251228_1422.html
+Successfully created file: javad-zarif-main-threat-to-the-middle-east-is-isra_20251228_1522.html
+✓ Created comprehensive article: javad-zarif-main-threat-to-the-middle-east-is-isra_20251228_1522.html
 
-Processing trending topic: Syria protests live: Deadly clashes erupt as hundreds demonstrate
-Searching Google for: Syria protests live: Deadly clashes erupt as hundreds demonstrate
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyria%252Bprotests%252Blive%253A%252BDeadly%252Bclashes%252Berupt%252Bas%252Bhundreds%252Bdemonstrate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIrIGLT6xMoGIjA99E3B_2JZRfzJVeC6RBMu9bd8mlGKhIUkozqt_dxa_yU3yVgrITo040km09PyzK4yBmpjbmRyUloBQw
+Processing trending topic: Protests turn deadly during demonstration in Syrian city of Latakia
+Searching Google for: Protests turn deadly during demonstration in Syrian city of Latakia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DProtests%252Bturn%252Bdeadly%252Bduring%252Bdemonstration%252Bin%252BSyrian%252Bcity%252Bof%252BLatakia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbgGLKWxcoGIjA34njdqt_oCFnv_t6c0OfSKy_I5TkZ9lrqU6A0BDW3wLxsV6nYVlWS05JJ1LKiNRcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: syria-protests-live-deadly-clashes-erupt-as-hundre_20251228_1422.html
-✓ Created comprehensive article: syria-protests-live-deadly-clashes-erupt-as-hundre_20251228_1422.html
+Successfully created file: protests-turn-deadly-during-demonstration-in-syria_20251228_1522.html
+✓ Created comprehensive article: protests-turn-deadly-during-demonstration-in-syria_20251228_1522.html
 
-Processing trending topic: Video: What do Rohingya refugees think about Myanmar’s election?
-Searching Google for: Video: What do Rohingya refugees think about Myanmar’s election?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%253A%252BWhat%252Bdo%252BRohingya%252Brefugees%252Bthink%252Babout%252BMyanmar%25E2%2580%2599s%252Belection%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIrIGLv6xMoGIjAh2ccEEoZ4OUAW8bdEk5yLITE9DPOEKpu_EN1e5MIg8XEUSKrVtYS1-YQhIWy0OhcyBmpjbmRyUloBQw
+Processing trending topic: Niger’s military rulers order ‘general mobilisation’ against armed groups
+Searching Google for: Niger’s military rulers order ‘general mobilisation’ against armed groups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNiger%25E2%2580%2599s%252Bmilitary%252Brulers%252Border%252B%25E2%2580%2598general%252Bmobilisation%25E2%2580%2599%252Bagainst%252Barmed%252Bgroups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbgGLiWxcoGIjB8Gri4TIw18TirYNvEquWGss9vPeVEu1ZabwqXrCVMo3rQcTtyBJPkwCPvWQ13LIEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-what-do-rohingya-refugees-think-about-myanma_20251228_1422.html
-✓ Created comprehensive article: video-what-do-rohingya-refugees-think-about-myanma_20251228_1422.html
+Successfully created file: nigers-military-rulers-order-general-mobilisation-_20251228_1522.html
+✓ Created comprehensive article: nigers-military-rulers-order-general-mobilisation-_20251228_1522.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Egyptian dissident should be deported from UK, Tories say
+   • Javad Zarif: Main threat to the Middle East is Israel, not Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Syria protests live: Deadly clashes erupt as hundreds demonstrate
+   • Protests turn deadly during demonstration in Syrian city of Latakia
      Sources: bbc.com, cnn.com, reuters.com
-   • Video: What do Rohingya refugees think about Myanmar’s election?
+   • Niger’s military rulers order ‘general mobilisation’ against armed groups
      Sources: bbc.com, cnn.com, reuters.com
