@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 63 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: French cinema actress Brigitte Bardot dies aged 91
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Central African Republic goes to polls as president seeks third term
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from World News - Breaking international news and headlines | Sky News: Thailand and Cambodia sign ceasefire agreement after weeks of intense fighting
-  Found from Tech News - Latest Technology and Gadget News | Sky News: The lab trying to plug gaps in our knowledge to protect the astronauts of the future
-Added expanded search topic: Thailand and Cambodia sign ceasefire agreement after weeks of intense fighting
-Added expanded search topic: The lab trying to plug gaps in our knowledge to protect the astronauts of the future
-Saved 63 topics for 2025-12-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Any Israeli presence in Somaliland will be a ‘target’: Houthi leader
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mozambique win first ever AFCON game, while Algeria reach last 16
+  Found from Tech News - Latest Technology and Gadget News | Sky News: Why Trump administration is so annoyed with Europe's online rules
+Added expanded search topic: Any Israeli presence in Somaliland will be a ‘target’: Houthi leader
+Added expanded search topic: Mozambique win first ever AFCON game, while Algeria reach last 16
+Added expanded search topic: Why Trump administration is so annoyed with Europe's online rules
+Saved 66 topics for 2025-12-28
 Returning 3 unique trending topics:
-  1. Late shopper rush drives Boxing Day sales traffic (from BBC News)
-  2. Thailand and Cambodia sign ceasefire agreement after weeks of intense fighting (from World News - Breaking international news and headlines | Sky News)
-  3. The lab trying to plug gaps in our knowledge to protect the astronauts of the future (from Tech News - Latest Technology and Gadget News | Sky News)
+  1. Any Israeli presence in Somaliland will be a ‘target’: Houthi leader (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Mozambique win first ever AFCON game, while Algeria reach last 16 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why Trump administration is so annoyed with Europe's online rules (from Tech News - Latest Technology and Gadget News | Sky News)
 
-Processing trending topic: Late shopper rush drives Boxing Day sales traffic
-Searching Google for: Late shopper rush drives Boxing Day sales traffic
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLate%252Bshopper%252Brush%252Bdrives%252BBoxing%252BDay%252Bsales%252Btraffic%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvyGKPbxsoGIjDMKDZLsVppe5_Qz_4fXVJ8S7THi0Prtwoz7S7PeLE5AWAcrLaDp3-UUC92pwrrATkyBmpjbmRyUloBQw
+Processing trending topic: Any Israeli presence in Somaliland will be a ‘target’: Houthi leader
+Searching Google for: Any Israeli presence in Somaliland will be a ‘target’: Houthi leader
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAny%252BIsraeli%252Bpresence%252Bin%252BSomaliland%252Bwill%252Bbe%252Ba%252B%25E2%2580%2598target%25E2%2580%2599%253A%252BHouthi%252Bleader%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUXjZSGP_2xsoGIjDOd0Z-RDQ1s5O31iLdycXgJjPZIdu2URiQGOCx3ZETiT8ITonMNqwbchwTBw-7w38yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: late-shopper-rush-drives-boxing-day-sales-traffic_20251228_2222.html
-✓ Created comprehensive article: late-shopper-rush-drives-boxing-day-sales-traffic_20251228_2222.html
+Successfully created file: any-israeli-presence-in-somaliland-will-be-a-targe_20251228_2321.html
+✓ Created comprehensive article: any-israeli-presence-in-somaliland-will-be-a-targe_20251228_2321.html
 
-Processing trending topic: Thailand and Cambodia sign ceasefire agreement after weeks of intense fighting
-Searching Google for: Thailand and Cambodia sign ceasefire agreement after weeks of intense fighting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThailand%252Band%252BCambodia%252Bsign%252Bceasefire%252Bagreement%252Bafter%252Bweeks%252Bof%252Bintense%252Bfighting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvyGKrbxsoGIjALEipIB_cZi7FFUFoBWFiuIfcAXgOAg48LngY68U7Wumw-4F8EKUiFJWX6g6faxcQyBmpjbmRyUloBQw
+Processing trending topic: Mozambique win first ever AFCON game, while Algeria reach last 16
+Searching Google for: Mozambique win first ever AFCON game, while Algeria reach last 16
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMozambique%252Bwin%252Bfirst%252Bever%252BAFCON%252Bgame%252C%252Bwhile%252BAlgeria%252Breach%252Blast%252B16%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUXjZSGIb3xsoGIjAQp59E5m0gVpXL_esEEAWrsvktlo_rhPwGxvGFdbR4UqFlvtcp4IjuCoZ6U3zQI7IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thailand-and-cambodia-sign-ceasefire-agreement-aft_20251228_2222.html
-✓ Created comprehensive article: thailand-and-cambodia-sign-ceasefire-agreement-aft_20251228_2222.html
+Successfully created file: mozambique-win-first-ever-afcon-game-while-algeria_20251228_2321.html
+✓ Created comprehensive article: mozambique-win-first-ever-afcon-game-while-algeria_20251228_2321.html
 
-Processing trending topic: The lab trying to plug gaps in our knowledge to protect the astronauts of the future
-Searching Google for: The lab trying to plug gaps in our knowledge to protect the astronauts of the future
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Blab%252Btrying%252Bto%252Bplug%252Bgaps%252Bin%252Bour%252Bknowledge%252Bto%252Bprotect%252Bthe%252Bastronauts%252Bof%252Bthe%252Bfuture%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvyGLHbxsoGIjBGum0-YuhgeO8_o8X-5k_N1lgHgyjFp_MKeLqwfQJITQc03nCLOoszesxbftVNju4yBmpjbmRyUloBQw
+Processing trending topic: Why Trump administration is so annoyed with Europe's online rules
+Searching Google for: Why Trump administration is so annoyed with Europe's online rules
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BTrump%252Badministration%252Bis%252Bso%252Bannoyed%252Bwith%252BEurope%2527s%252Bonline%252Brules%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUXjZSGIz3xsoGIjDD0hK_fVY_QRHydEm-CtIcm8briST4kdCGVE4ohiOT2NKRNx89cDwh467FeXU3F2YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-lab-trying-to-plug-gaps-in-our-knowledge-to-pr_20251228_2222.html
-✓ Created comprehensive article: the-lab-trying-to-plug-gaps-in-our-knowledge-to-pr_20251228_2222.html
+Successfully created file: why-trump-administration-is-so-annoyed-with-europe_20251228_2321.html
+✓ Created comprehensive article: why-trump-administration-is-so-annoyed-with-europe_20251228_2321.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Late shopper rush drives Boxing Day sales traffic
+   • Any Israeli presence in Somaliland will be a ‘target’: Houthi leader
      Sources: bbc.com, cnn.com, reuters.com
-   • Thailand and Cambodia sign ceasefire agreement after weeks of intense fighting
+   • Mozambique win first ever AFCON game, while Algeria reach last 16
      Sources: bbc.com, cnn.com, reuters.com
-   • The lab trying to plug gaps in our knowledge to protect the astronauts of the future
+   • Why Trump administration is so annoyed with Europe's online rules
      Sources: bbc.com, cnn.com, reuters.com
