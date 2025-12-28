@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Opposition anger as Guinea’s junta leader is frontrunner to be elected president
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-28
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Polls open in Myanmar as military holds first election since 2021 coup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,403
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians suffer flooded tents and debris as cold and rain lash Gaza
+Added expanded search topic: Polls open in Myanmar as military holds first election since 2021 coup
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,403
+Added expanded search topic: Palestinians suffer flooded tents and debris as cold and rain lash Gaza
+Saved 6 topics for 2025-12-28
 Returning 3 unique trending topics:
-  1. Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says (from BBC News)
-  2. UK restricts DR Congo visas over migrant return policy (from BBC News)
-  3. Opposition anger as Guinea’s junta leader is frontrunner to be elected president (from The Guardian)
+  1. Polls open in Myanmar as military holds first election since 2021 coup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,403 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Palestinians suffer flooded tents and debris as cold and rain lash Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
-Searching Google for: Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttack%252Bon%252BKyiv%252Bshows%252B%2527Russia%252Bdoesn%2527t%252Bwant%252Bpeace%2527%252C%252BZelensky%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFwGKeZwsoGIjB0UOh5tssfjBzwCjCXH0jCOVM7_lZwfFm9PBpOYxO6SPdL8MK4jw6ZONpoGSYhtmsyBmpjbmRyUloBQw
+Processing trending topic: Polls open in Myanmar as military holds first election since 2021 coup
+Searching Google for: Polls open in Myanmar as military holds first election since 2021 coup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolls%252Bopen%252Bin%252BMyanmar%252Bas%252Bmilitary%252Bholds%252Bfirst%252Belection%252Bsince%252B2021%252Bcoup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KQSGJfSwsoGIjDtIdoV82KX1jY49M_urhWDUf0aKhqBZMV075cFmha4ogzCGrdermGP1lVxZPAbAn4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attack-on-kyiv-shows-russia-doesnt-want-peace-zele_20251228_0149.html
-✓ Created comprehensive article: attack-on-kyiv-shows-russia-doesnt-want-peace-zele_20251228_0149.html
+Successfully created file: polls-open-in-myanmar-as-military-holds-first-elec_20251228_0350.html
+✓ Created comprehensive article: polls-open-in-myanmar-as-military-holds-first-elec_20251228_0350.html
 
-Processing trending topic: UK restricts DR Congo visas over migrant return policy
-Searching Google for: UK restricts DR Congo visas over migrant return policy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Brestricts%252BDR%252BCongo%252Bvisas%252Bover%252Bmigrant%252Breturn%252Bpolicy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFwGK6ZwsoGIjBvmqSuU5lIXDhxGSgZucAvNRbdRb2_wmTnLZotMaiwAXGhfGVJyWQai343hCF4D_AyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,403
+Searching Google for: Russia-Ukraine war: List of key events, day 1,403
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C403%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KQSGJ_SwsoGIjCphW0sgrVYagePSonhezOLzZUvICU68wUJe9hFRrLTfaeR8KUavlc6wEME_buACi4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-restricts-dr-congo-visas-over-migrant-return-po_20251228_0149.html
-✓ Created comprehensive article: uk-restricts-dr-congo-visas-over-migrant-return-po_20251228_0149.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1403_20251228_0350.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1403_20251228_0350.html
 
-Processing trending topic: Opposition anger as Guinea’s junta leader is frontrunner to be elected president
-Searching Google for: Opposition anger as Guinea’s junta leader is frontrunner to be elected president
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpposition%252Banger%252Bas%252BGuinea%25E2%2580%2599s%252Bjunta%252Bleader%252Bis%252Bfrontrunner%252Bto%252Bbe%252Belected%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFwGLSZwsoGIjBxXGpxP77yjLxsqO6_iuyliBx2I1RuLiQcd7n_xjWL6IHdo-9t2W0XXIPlTjFSyncyBmpjbmRyUloBQw
+Processing trending topic: Palestinians suffer flooded tents and debris as cold and rain lash Gaza
+Searching Google for: Palestinians suffer flooded tents and debris as cold and rain lash Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Bsuffer%252Bflooded%252Btents%252Band%252Bdebris%252Bas%252Bcold%252Band%252Brain%252Blash%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KQSGKXSwsoGIjA7Y5TcjJlivdSwkFPZLxkp9NOoADP6WAHkayYV80NCnbYmut2-XkZJIj0yK9tVnrAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: opposition-anger-as-guineas-junta-leader-is-frontr_20251228_0149.html
-✓ Created comprehensive article: opposition-anger-as-guineas-junta-leader-is-frontr_20251228_0149.html
+Successfully created file: palestinians-suffer-flooded-tents-and-debris-as-co_20251228_0351.html
+✓ Created comprehensive article: palestinians-suffer-flooded-tents-and-debris-as-co_20251228_0351.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Attack on Kyiv shows 'Russia doesn't want peace', Zelensky says
+   • Polls open in Myanmar as military holds first election since 2021 coup
      Sources: bbc.com, cnn.com, reuters.com
-   • UK restricts DR Congo visas over migrant return policy
+   • Russia-Ukraine war: List of key events, day 1,403
      Sources: bbc.com, cnn.com, reuters.com
-   • Opposition anger as Guinea’s junta leader is frontrunner to be elected president
+   • Palestinians suffer flooded tents and debris as cold and rain lash Gaza
      Sources: bbc.com, cnn.com, reuters.com
