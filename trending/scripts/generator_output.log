@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Trump says progress made in Ukraine talks but 'thorny issues' remain
   Added: Trump and Zelensky appear more upbeat - but show little evidence that peace is near
-  Added: French cinema actress Brigitte Bardot dies aged 91
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Central African Republic goes to polls as president seeks third term
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-29
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China to stage drills around Taiwan in ‘stern warning’ to external forces
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,404
+Added expanded search topic: China to stage drills around Taiwan in ‘stern warning’ to external forces
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,404
+Saved 6 topics for 2025-12-29
 Returning 3 unique trending topics:
-  1. Trump and Zelensky appear more upbeat - but show little evidence that peace is near (from BBC News)
-  2. French cinema actress Brigitte Bardot dies aged 91 (from BBC News)
-  3. Central African Republic goes to polls as president seeks third term (from The Guardian)
+  1. Trump says progress made in Ukraine talks but 'thorny issues' remain (from BBC News)
+  2. China to stage drills around Taiwan in ‘stern warning’ to external forces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,404 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump and Zelensky appear more upbeat - but show little evidence that peace is near
-Searching Google for: Trump and Zelensky appear more upbeat - but show little evidence that peace is near
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Band%252BZelensky%252Bappear%252Bmore%252Bupbeat%252B-%252Bbut%252Bshow%252Blittle%252Bevidence%252Bthat%252Bpeace%252Bis%252Bnear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoGGJ68x8oGIjA9uUINVIvVE8UyRhoU6mPbaOQj2kVi7Wi7dE6NERAJ5IFExK7KbGP7RocsIM_4yZIyBmpjbmRyUloBQw
+Processing trending topic: Trump says progress made in Ukraine talks but 'thorny issues' remain
+Searching Google for: Trump says progress made in Ukraine talks but 'thorny issues' remain
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bprogress%252Bmade%252Bin%252BUkraine%252Btalks%252Bbut%252B%2527thorny%252Bissues%2527%252Bremain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKICGOf1x8oGIjDX7FdENjpIeuRZnTKlhYH8IDNoFioudIzSftnWe6neFdQLibyVe1W6wGvKdFwK7doyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-and-zelensky-appear-more-upbeat-but-show-lit_20251229_0149.html
-✓ Created comprehensive article: trump-and-zelensky-appear-more-upbeat-but-show-lit_20251229_0149.html
+Successfully created file: trump-says-progress-made-in-ukraine-talks-but-thor_20251229_0352.html
+✓ Created comprehensive article: trump-says-progress-made-in-ukraine-talks-but-thor_20251229_0352.html
 
-Processing trending topic: French cinema actress Brigitte Bardot dies aged 91
-Searching Google for: French cinema actress Brigitte Bardot dies aged 91
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bcinema%252Bactress%252BBrigitte%252BBardot%252Bdies%252Baged%252B91%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoGGKW8x8oGIjBx5UUhsyduVppZayftJmJzXYK8b1CFoiH8NzWVXH3MIl4Vo6pAVmm8_hZZhhSAwFYyBmpjbmRyUloBQw
+Processing trending topic: China to stage drills around Taiwan in ‘stern warning’ to external forces
+Searching Google for: China to stage drills around Taiwan in ‘stern warning’ to external forces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bto%252Bstage%252Bdrills%252Baround%252BTaiwan%252Bin%252B%25E2%2580%2598stern%252Bwarning%25E2%2580%2599%252Bto%252Bexternal%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKICGO71x8oGIjCJs2b0qLitP65z4olzptGHZQna1KVOLmZINWElksLIfYFukOFoWpD_dzXcf5yLyI4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: french-cinema-actress-brigitte-bardot-dies-aged-91_20251229_0149.html
-✓ Created comprehensive article: french-cinema-actress-brigitte-bardot-dies-aged-91_20251229_0149.html
+Successfully created file: china-to-stage-drills-around-taiwan-in-stern-warni_20251229_0352.html
+✓ Created comprehensive article: china-to-stage-drills-around-taiwan-in-stern-warni_20251229_0352.html
 
-Processing trending topic: Central African Republic goes to polls as president seeks third term
-Searching Google for: Central African Republic goes to polls as president seeks third term
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCentral%252BAfrican%252BRepublic%252Bgoes%252Bto%252Bpolls%252Bas%252Bpresident%252Bseeks%252Bthird%252Bterm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoGGKu8x8oGIjBi8l3eXAhn5Qes7Xir6AgMtSs-N_zju2DD5q4WNH200TWNvp3vgfC-MBE3jom9_MoyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,404
+Searching Google for: Russia-Ukraine war: List of key events, day 1,404
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C404%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKICGPX1x8oGIjCTFoQOsScRwdH_X1tqv6tsfRjyOO7XQO0KLF41iLKRekydeQNRP69VX6-z_CjGU2gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: central-african-republic-goes-to-polls-as-presiden_20251229_0149.html
-✓ Created comprehensive article: central-african-republic-goes-to-polls-as-presiden_20251229_0149.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1404_20251229_0352.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1404_20251229_0352.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump and Zelensky appear more upbeat - but show little evidence that peace is near
+   • Trump says progress made in Ukraine talks but 'thorny issues' remain
      Sources: bbc.com, cnn.com, reuters.com
-   • French cinema actress Brigitte Bardot dies aged 91
+   • China to stage drills around Taiwan in ‘stern warning’ to external forces
      Sources: bbc.com, cnn.com, reuters.com
-   • Central African Republic goes to polls as president seeks third term
+   • Russia-Ukraine war: List of key events, day 1,404
      Sources: bbc.com, cnn.com, reuters.com
