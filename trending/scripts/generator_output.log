@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says progress made in Ukraine talks but 'thorny issues' remain
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Central African Republic goes to polls as president seeks third term
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Train derails in southern Mexico, killing 13 and injuring dozens
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea’s Kim oversees test launch of long-range cruise missiles
-Added expanded search topic: Train derails in southern Mexico, killing 13 and injuring dozens
-Added expanded search topic: North Korea’s Kim oversees test launch of long-range cruise missiles
-Saved 9 topics for 2025-12-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: All the countries Israel attacked in 2025: Animated map
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fire at Indonesia retirement home kills 16 people
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China launches drills around Taiwan in ‘stern warning’ to external forces
+Added expanded search topic: All the countries Israel attacked in 2025: Animated map
+Added expanded search topic: Fire at Indonesia retirement home kills 16 people
+Added expanded search topic: China launches drills around Taiwan in ‘stern warning’ to external forces
+Saved 12 topics for 2025-12-29
 Returning 3 unique trending topics:
-  1. Trump and Zelensky appear more upbeat - but show little evidence that peace is near for Ukraine (from BBC News)
-  2. Train derails in southern Mexico, killing 13 and injuring dozens (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. North Korea’s Kim oversees test launch of long-range cruise missiles (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. All the countries Israel attacked in 2025: Animated map (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Fire at Indonesia retirement home kills 16 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. China launches drills around Taiwan in ‘stern warning’ to external forces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump and Zelensky appear more upbeat - but show little evidence that peace is near for Ukraine
-Searching Google for: Trump and Zelensky appear more upbeat - but show little evidence that peace is near for Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Band%252BZelensky%252Bappear%252Bmore%252Bupbeat%252B-%252Bbut%252Bshow%252Blittle%252Bevidence%252Bthat%252Bpeace%252Bis%252Bnear%252Bfor%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jdEGLCRyMoGIjC3lJyL44uapV30T4jssaVNBlpWw4Qd_G7z8NqiopI7mH5AEOAaisT_De2kUs9GnpwyBmpjbmRyUloBQw
+Processing trending topic: All the countries Israel attacked in 2025: Animated map
+Searching Google for: All the countries Israel attacked in 2025: Animated map
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAll%252Bthe%252Bcountries%252BIsrael%252Battacked%252Bin%252B2025%253A%252BAnimated%252Bmap%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNP0GKSkyMoGIjAx1i6H9K9RZslfWYJ8VDfECAiKhZs7HSkkEz7j24C8U3gBYfprFjkfUp27sZe__osyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-and-zelensky-appear-more-upbeat-but-show-lit_20251229_0451.html
-✓ Created comprehensive article: trump-and-zelensky-appear-more-upbeat-but-show-lit_20251229_0451.html
+Successfully created file: all-the-countries-israel-attacked-in-2025-animated_20251229_0531.html
+✓ Created comprehensive article: all-the-countries-israel-attacked-in-2025-animated_20251229_0531.html
 
-Processing trending topic: Train derails in southern Mexico, killing 13 and injuring dozens
-Searching Google for: Train derails in southern Mexico, killing 13 and injuring dozens
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrain%252Bderails%252Bin%252Bsouthern%252BMexico%252C%252Bkilling%252B13%252Band%252Binjuring%252Bdozens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jdEGLeRyMoGIjBKCV5ZG54ainjqA1bW12mpHaRIopAYsbIi9AKz9_hh5xZ-z1ZQFpxOzlh2DhQ6oSkyBmpjbmRyUloBQw
+Processing trending topic: Fire at Indonesia retirement home kills 16 people
+Searching Google for: Fire at Indonesia retirement home kills 16 people
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFire%252Bat%252BIndonesia%252Bretirement%252Bhome%252Bkills%252B16%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNP0GKqkyMoGIjDuOXM6IrQoe7COX44iL2TxQSNUJ7qqrlY5ZyMMk6yTVzM1YwBaN1tQnw9iNDXA1lEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: train-derails-in-southern-mexico-killing-13-and-in_20251229_0451.html
-✓ Created comprehensive article: train-derails-in-southern-mexico-killing-13-and-in_20251229_0451.html
+Successfully created file: fire-at-indonesia-retirement-home-kills-16-people_20251229_0531.html
+✓ Created comprehensive article: fire-at-indonesia-retirement-home-kills-16-people_20251229_0531.html
 
-Processing trending topic: North Korea’s Kim oversees test launch of long-range cruise missiles
-Searching Google for: North Korea’s Kim oversees test launch of long-range cruise missiles
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%25E2%2580%2599s%252BKim%252Boversees%252Btest%252Blaunch%252Bof%252Blong-range%252Bcruise%252Bmissiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jdEGL6RyMoGIjBoArQRmJVAOH76BT_ezrqYY1mDY-MZofXXJ2ooi2v9_lOvbCJ9gJ4Y-HHTjjkSVLUyBmpjbmRyUloBQw
+Processing trending topic: China launches drills around Taiwan in ‘stern warning’ to external forces
+Searching Google for: China launches drills around Taiwan in ‘stern warning’ to external forces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Blaunches%252Bdrills%252Baround%252BTaiwan%252Bin%252B%25E2%2580%2598stern%252Bwarning%25E2%2580%2599%252Bto%252Bexternal%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNP0GLCkyMoGIjCUdlHFxFCbuFQlUj0J4nALN_X6VSO97t-IjfYn62HxtZ-iCnuD8-tJmDCypX6B3pUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: north-koreas-kim-oversees-test-launch-of-long-rang_20251229_0451.html
-✓ Created comprehensive article: north-koreas-kim-oversees-test-launch-of-long-rang_20251229_0451.html
+Successfully created file: china-launches-drills-around-taiwan-in-stern-warni_20251229_0531.html
+✓ Created comprehensive article: china-launches-drills-around-taiwan-in-stern-warni_20251229_0531.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump and Zelensky appear more upbeat - but show little evidence that peace is near for Ukraine
+   • All the countries Israel attacked in 2025: Animated map
      Sources: bbc.com, cnn.com, reuters.com
-   • Train derails in southern Mexico, killing 13 and injuring dozens
+   • Fire at Indonesia retirement home kills 16 people
      Sources: bbc.com, cnn.com, reuters.com
-   • North Korea’s Kim oversees test launch of long-range cruise missiles
+   • China launches drills around Taiwan in ‘stern warning’ to external forces
      Sources: bbc.com, cnn.com, reuters.com
