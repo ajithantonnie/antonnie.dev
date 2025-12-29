@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US offered Ukraine 15-year security guarantee, Zelensky says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua injured in car crash in Nigeria that killed two people
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 2025: Trump’s year of ’emergency’, ‘invasion’ and ‘narcoterrorism’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan
-Added expanded search topic: 2025: Trump’s year of ’emergency’, ‘invasion’ and ‘narcoterrorism’
-Added expanded search topic: Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan
-Saved 42 topics for 2025-12-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly protests and clashes in Syria – what happened and what’s next?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukrainian soldiers target Russian drones with rifles
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Iraqi parliament holds first session, elects speaker
+Added expanded search topic: Deadly protests and clashes in Syria – what happened and what’s next?
+Added expanded search topic: Ukrainian soldiers target Russian drones with rifles
+Added expanded search topic: New Iraqi parliament holds first session, elects speaker
+Saved 45 topics for 2025-12-29
 Returning 3 unique trending topics:
-  1. Hospitals warned end-of-life care crisis threatening treatment (from BBC News)
-  2. 2025: Trump’s year of ’emergency’, ‘invasion’ and ‘narcoterrorism’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Deadly protests and clashes in Syria – what happened and what’s next? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ukrainian soldiers target Russian drones with rifles (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. New Iraqi parliament holds first session, elects speaker (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Hospitals warned end-of-life care crisis threatening treatment
-Searching Google for: Hospitals warned end-of-life care crisis threatening treatment
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHospitals%252Bwarned%252Bend-of-life%252Bcare%252Bcrisis%252Bthreatening%252Btreatment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSajGKO6ysoGIjCC1DF_f8ZzAIVfXkFtCj967JenTbkEq3uqiB0xeQlP5cQ7fFfeCrJkv0mc3BsIvyIyBmpjbmRyUloBQw
+Processing trending topic: Deadly protests and clashes in Syria – what happened and what’s next?
+Searching Google for: Deadly protests and clashes in Syria – what happened and what’s next?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252Bprotests%252Band%252Bclashes%252Bin%252BSyria%252B%25E2%2580%2593%252Bwhat%252Bhappened%252Band%252Bwhat%25E2%2580%2599s%252Bnext%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ6GIXYysoGIjA7gZ3N1DdNFf4gVb5bYGmJj0tvS7F4NnFvsRBru5Bic0Xzpl3rZFimmOtPtKSvrigyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hospitals-warned-end-of-life-care-crisis-threateni_20251229_1524.html
-✓ Created comprehensive article: hospitals-warned-end-of-life-care-crisis-threateni_20251229_1524.html
+Successfully created file: deadly-protests-and-clashes-in-syria-what-happened_20251229_1627.html
+✓ Created comprehensive article: deadly-protests-and-clashes-in-syria-what-happened_20251229_1627.html
 
-Processing trending topic: 2025: Trump’s year of ’emergency’, ‘invasion’ and ‘narcoterrorism’
-Searching Google for: 2025: Trump’s year of ’emergency’, ‘invasion’ and ‘narcoterrorism’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D2025%253A%252BTrump%25E2%2580%2599s%252Byear%252Bof%252B%25E2%2580%2599emergency%25E2%2580%2599%252C%252B%25E2%2580%2598invasion%25E2%2580%2599%252Band%252B%25E2%2580%2598narcoterrorism%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSajGKm6ysoGIjDQ1YCx0p-W7Kmt1N_mWtOPnyNiIV8j_2lTQFFbBKWoduMHM51iLT7aPtEU7oYv_ocyBmpjbmRyUloBQw
+Processing trending topic: Ukrainian soldiers target Russian drones with rifles
+Searching Google for: Ukrainian soldiers target Russian drones with rifles
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkrainian%252Bsoldiers%252Btarget%252BRussian%252Bdrones%252Bwith%252Brifles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ6GIzYysoGIjDaHfxzN2DMWFB6kMwfdmgZw5x6vjYtoCVB4mypUGviKd1vSYeDPkmO-03ehLrcL4wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 2025-trumps-year-of-emergency-invasion-and-narcote_20251229_1524.html
-✓ Created comprehensive article: 2025-trumps-year-of-emergency-invasion-and-narcote_20251229_1524.html
+Successfully created file: ukrainian-soldiers-target-russian-drones-with-rifl_20251229_1628.html
+✓ Created comprehensive article: ukrainian-soldiers-target-russian-drones-with-rifl_20251229_1628.html
 
-Processing trending topic: Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan
-Searching Google for: Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThailand%252C%252BCambodia%252Bagree%252Bto%252Bbuild%252Bon%252Bceasefire%252Bin%252Btalks%252Bin%252BChina%25E2%2580%2599s%252BYunnan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSajGLC6ysoGIjDRTJ5ycydllPKxPphYjIYQvN8GnwxxLQQNjn9uRy2cvQ6DBR5NTx0GSKB89xD2sFcyBmpjbmRyUloBQw
+Processing trending topic: New Iraqi parliament holds first session, elects speaker
+Searching Google for: New Iraqi parliament holds first session, elects speaker
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BIraqi%252Bparliament%252Bholds%252Bfirst%252Bsession%252C%252Belects%252Bspeaker%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ6GJLYysoGIjCpGtH8ULbENDs3ZolVlgX0ImKFny5Fk7WmTPGw_pOO5P3D0gtXJ393JgjYwh41imYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thailand-cambodia-agree-to-build-on-ceasefire-in-t_20251229_1524.html
-✓ Created comprehensive article: thailand-cambodia-agree-to-build-on-ceasefire-in-t_20251229_1524.html
+Successfully created file: new-iraqi-parliament-holds-first-session-elects-sp_20251229_1628.html
+✓ Created comprehensive article: new-iraqi-parliament-holds-first-session-elects-sp_20251229_1628.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Hospitals warned end-of-life care crisis threatening treatment
+   • Deadly protests and clashes in Syria – what happened and what’s next?
      Sources: bbc.com, cnn.com, reuters.com
-   • 2025: Trump’s year of ’emergency’, ‘invasion’ and ‘narcoterrorism’
+   • Ukrainian soldiers target Russian drones with rifles
      Sources: bbc.com, cnn.com, reuters.com
-   • Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan
+   • New Iraqi parliament holds first session, elects speaker
      Sources: bbc.com, cnn.com, reuters.com
