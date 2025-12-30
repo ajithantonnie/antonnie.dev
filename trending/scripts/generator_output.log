@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Eurostar warns of ongoing delays after services resume, as thousands travel for New Year
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nigeria beat Uganda 3-1 to head into AFCON last 16 with perfect record
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How has Trump’s second term transformed the US Justice Department in 2025?
-Added expanded search topic: Nigeria beat Uganda 3-1 to head into AFCON last 16 with perfect record
-Added expanded search topic: How has Trump’s second term transformed the US Justice Department in 2025?
-Saved 54 topics for 2025-12-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian authorities impose curfew in Latakia as violence surges
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Arsenal vs Aston Villa – Premier League
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Judge blocks Trump effort to strip South Sudan deportation protections
+Added expanded search topic: Syrian authorities impose curfew in Latakia as violence surges
+Added expanded search topic: LIVE: Arsenal vs Aston Villa – Premier League
+Added expanded search topic: Judge blocks Trump effort to strip South Sudan deportation protections
+Saved 57 topics for 2025-12-30
 Returning 3 unique trending topics:
-  1. Eurostar warns of ongoing delays after services resume, as thousands travel for New Year (from BBC News)
-  2. Nigeria beat Uganda 3-1 to head into AFCON last 16 with perfect record (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. How has Trump’s second term transformed the US Justice Department in 2025? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Syrian authorities impose curfew in Latakia as violence surges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. LIVE: Arsenal vs Aston Villa – Premier League (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Judge blocks Trump effort to strip South Sudan deportation protections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Eurostar warns of ongoing delays after services resume, as thousands travel for New Year
-Searching Google for: Eurostar warns of ongoing delays after services resume, as thousands travel for New Year
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEurostar%252Bwarns%252Bof%252Bongoing%252Bdelays%252Bafter%252Bservices%252Bresume%252C%252Bas%252Bthousands%252Btravel%252Bfor%252BNew%252BYear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7EGMnL0MoGIjArfVDLMHMaSdfaCTgdaD5ARVRJxVpjLsIvoBfc4_ESYRjLMDuAKCB0QHafXmNvJ3gyBmpjbmRyUloBQw
+Processing trending topic: Syrian authorities impose curfew in Latakia as violence surges
+Searching Google for: Syrian authorities impose curfew in Latakia as violence surges
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Bauthorities%252Bimpose%252Bcurfew%252Bin%252BLatakia%252Bas%252Bviolence%252Bsurges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2nGOnq0MoGIjBynQJe7gCabkfOWKeTFLJQOKvsMJ6jWP6wrbPGeqejS5OSRK0iwvmJsy3FgWCLRTcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eurostar-warns-of-ongoing-delays-after-services-re_20251230_1919.html
-✓ Created comprehensive article: eurostar-warns-of-ongoing-delays-after-services-re_20251230_1919.html
+Successfully created file: syrian-authorities-impose-curfew-in-latakia-as-vio_20251230_2026.html
+✓ Created comprehensive article: syrian-authorities-impose-curfew-in-latakia-as-vio_20251230_2026.html
 
-Processing trending topic: Nigeria beat Uganda 3-1 to head into AFCON last 16 with perfect record
-Searching Google for: Nigeria beat Uganda 3-1 to head into AFCON last 16 with perfect record
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Bbeat%252BUganda%252B3-1%252Bto%252Bhead%252Binto%252BAFCON%252Blast%252B16%252Bwith%252Bperfect%252Brecord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7EGNDL0MoGIjDJU8UGtif21aUUflEN91xV7sqnUID-qAKV2rLF5fG4IHjRqD4RRwY9U3CrE3EFHgsyBmpjbmRyUloBQw
+Processing trending topic: LIVE: Arsenal vs Aston Villa – Premier League
+Searching Google for: LIVE: Arsenal vs Aston Villa – Premier League
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BArsenal%252Bvs%252BAston%252BVilla%252B%25E2%2580%2593%252BPremier%252BLeague%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2nGPDq0MoGIjBx23ekIl4AeFTgJ5jFg14XtN1FWyL9PeOc6MHcAUj_uZvtBtex0CsR6Id7Wc7TaqsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nigeria-beat-uganda-3-1-to-head-into-afcon-last-16_20251230_1919.html
-✓ Created comprehensive article: nigeria-beat-uganda-3-1-to-head-into-afcon-last-16_20251230_1919.html
+Successfully created file: live-arsenal-vs-aston-villa-premier-league_20251230_2026.html
+✓ Created comprehensive article: live-arsenal-vs-aston-villa-premier-league_20251230_2026.html
 
-Processing trending topic: How has Trump’s second term transformed the US Justice Department in 2025?
-Searching Google for: How has Trump’s second term transformed the US Justice Department in 2025?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bhas%252BTrump%25E2%2580%2599s%252Bsecond%252Bterm%252Btransformed%252Bthe%252BUS%252BJustice%252BDepartment%252Bin%252B2025%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7EGNbL0MoGIjDXppoicGmWx1YQ_NVpgsGrwqZqmbBKfhT_QGG1rdUj2Q6T0c-4GvKaPLADgXHhNGEyBmpjbmRyUloBQw
+Processing trending topic: Judge blocks Trump effort to strip South Sudan deportation protections
+Searching Google for: Judge blocks Trump effort to strip South Sudan deportation protections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJudge%252Bblocks%252BTrump%252Beffort%252Bto%252Bstrip%252BSouth%252BSudan%252Bdeportation%252Bprotections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2nGPbq0MoGIjA8GCL-8mEpnYe1fKvmFTX3D7ZxZedQ5FF4A4imhmS9o1YXhWIWeG-opCpqBz8ZyjEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-has-trumps-second-term-transformed-the-us-just_20251230_1919.html
-✓ Created comprehensive article: how-has-trumps-second-term-transformed-the-us-just_20251230_1919.html
+Successfully created file: judge-blocks-trump-effort-to-strip-south-sudan-dep_20251230_2026.html
+✓ Created comprehensive article: judge-blocks-trump-effort-to-strip-south-sudan-dep_20251230_2026.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Eurostar warns of ongoing delays after services resume, as thousands travel for New Year
+   • Syrian authorities impose curfew in Latakia as violence surges
      Sources: bbc.com, cnn.com, reuters.com
-   • Nigeria beat Uganda 3-1 to head into AFCON last 16 with perfect record
+   • LIVE: Arsenal vs Aston Villa – Premier League
      Sources: bbc.com, cnn.com, reuters.com
-   • How has Trump’s second term transformed the US Justice Department in 2025?
+   • Judge blocks Trump effort to strip South Sudan deportation protections
      Sources: bbc.com, cnn.com, reuters.com
