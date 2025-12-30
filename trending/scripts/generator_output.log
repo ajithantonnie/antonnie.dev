@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s camp confirm two of his close friends died in car crash
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-30
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump claims attack on a dock in Venezuela; US strikes kill two in Pacific
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Families of Bondi victims demand probe into anti-Semitism in Australia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Khaleda Zia, Bangladesh’s first woman PM: A life of power and resistance
+Added expanded search topic: Trump claims attack on a dock in Venezuela; US strikes kill two in Pacific
+Added expanded search topic: Families of Bondi victims demand probe into anti-Semitism in Australia
+Added expanded search topic: Khaleda Zia, Bangladesh’s first woman PM: A life of power and resistance
+Saved 6 topics for 2025-12-30
 Returning 3 unique trending topics:
-  1. Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours (from BBC News)
-  2. Ice skating duo Torvill and Dean recognised in honours list (from BBC News)
-  3. Anthony Joshua’s camp confirm two of his close friends died in car crash (from The Guardian)
+  1. Trump claims attack on a dock in Venezuela; US strikes kill two in Pacific (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Families of Bondi victims demand probe into anti-Semitism in Australia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Khaleda Zia, Bangladesh’s first woman PM: A life of power and resistance (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours
-Searching Google for: Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIdris%252BElba%252Bknighted%252Bas%252BSarina%252BWiegman%252Band%252BLionesses%252Blead%252BNew%252BYear%252BHonours%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OCpGOXWzMoGIjCWHG7yTEoB0pCw4H6TKCsTWdJTJh9YOcUg2_UdWDqUi3Ax3c8N-plxWW0pf_Je9EsyBmpjbmRyUloBQw
+Processing trending topic: Trump claims attack on a dock in Venezuela; US strikes kill two in Pacific
+Searching Google for: Trump claims attack on a dock in Venezuela; US strikes kill two in Pacific
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bclaims%252Battack%252Bon%252Ba%252Bdock%252Bin%252BVenezuela%253B%252BUS%252Bstrikes%252Bkill%252Btwo%252Bin%252BPacific%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_c2GOeOzcoGIjCGFHcccEWTlwg7ffkXkPZjkJterFv61Kur48yg4i548-x5skAPWZP58Neu2K2b2DIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: idris-elba-knighted-as-sarina-wiegman-and-lionesse_20251230_0131.html
-✓ Created comprehensive article: idris-elba-knighted-as-sarina-wiegman-and-lionesse_20251230_0131.html
+Successfully created file: trump-claims-attack-on-a-dock-in-venezuela-us-stri_20251230_0330.html
+✓ Created comprehensive article: trump-claims-attack-on-a-dock-in-venezuela-us-stri_20251230_0330.html
 
-Processing trending topic: Ice skating duo Torvill and Dean recognised in honours list
-Searching Google for: Ice skating duo Torvill and Dean recognised in honours list
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIce%252Bskating%252Bduo%252BTorvill%252Band%252BDean%252Brecognised%252Bin%252Bhonours%252Blist%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OCpGOzWzMoGIjCtsDblu0djD0KD6mXWulD7BfTlNffgxVz9Nq6kPUK4pv0j_Le7k4EXvdi_LYrmxg4yBmpjbmRyUloBQw
+Processing trending topic: Families of Bondi victims demand probe into anti-Semitism in Australia
+Searching Google for: Families of Bondi victims demand probe into anti-Semitism in Australia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamilies%252Bof%252BBondi%252Bvictims%252Bdemand%252Bprobe%252Binto%252Banti-Semitism%252Bin%252BAustralia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_c2GO6OzcoGIjCKqiswt4bANmkYoms-kw03lhbzgXHOLG1foSxnP4VLlOefD0e_NMnOozdzL2XytrAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ice-skating-duo-torvill-and-dean-recognised-in-hon_20251230_0131.html
-✓ Created comprehensive article: ice-skating-duo-torvill-and-dean-recognised-in-hon_20251230_0131.html
+Successfully created file: families-of-bondi-victims-demand-probe-into-anti-s_20251230_0330.html
+✓ Created comprehensive article: families-of-bondi-victims-demand-probe-into-anti-s_20251230_0330.html
 
-Processing trending topic: Anthony Joshua’s camp confirm two of his close friends died in car crash
-Searching Google for: Anthony Joshua’s camp confirm two of his close friends died in car crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnthony%252BJoshua%25E2%2580%2599s%252Bcamp%252Bconfirm%252Btwo%252Bof%252Bhis%252Bclose%252Bfriends%252Bdied%252Bin%252Bcar%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OCpGPLWzMoGIjD3SrflSHfyGocGEYTF3O4YQtrYO4Ou5i9-9R-20HCZDSE3iuqy_VuIOIKjFjZ6XRYyBmpjbmRyUloBQw
+Processing trending topic: Khaleda Zia, Bangladesh’s first woman PM: A life of power and resistance
+Searching Google for: Khaleda Zia, Bangladesh’s first woman PM: A life of power and resistance
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKhaleda%252BZia%252C%252BBangladesh%25E2%2580%2599s%252Bfirst%252Bwoman%252BPM%253A%252BA%252Blife%252Bof%252Bpower%252Band%252Bresistance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_c2GPSOzcoGIjCku4W5BfOcDSr-PGdGAXQmAUvR7YRghKnhUng9wmk9d2EQ8JgCyYJ1SgVfo75dI5syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthony-joshuas-camp-confirm-two-of-his-close-frie_20251230_0131.html
-✓ Created comprehensive article: anthony-joshuas-camp-confirm-two-of-his-close-frie_20251230_0131.html
+Successfully created file: khaleda-zia-bangladeshs-first-woman-pm-a-life-of-p_20251230_0331.html
+✓ Created comprehensive article: khaleda-zia-bangladeshs-first-woman-pm-a-life-of-p_20251230_0331.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours
+   • Trump claims attack on a dock in Venezuela; US strikes kill two in Pacific
      Sources: bbc.com, cnn.com, reuters.com
-   • Ice skating duo Torvill and Dean recognised in honours list
+   • Families of Bondi victims demand probe into anti-Semitism in Australia
      Sources: bbc.com, cnn.com, reuters.com
-   • Anthony Joshua’s camp confirm two of his close friends died in car crash
+   • Khaleda Zia, Bangladesh’s first woman PM: A life of power and resistance
      Sources: bbc.com, cnn.com, reuters.com
