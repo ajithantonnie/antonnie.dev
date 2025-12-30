@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s camp confirm two of his close friends died in car crash
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,405
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China kicks off second day of military drills around Taiwan
-Added expanded search topic: Russia-Ukraine war: List of key events, day 1,405
-Added expanded search topic: China kicks off second day of military drills around Taiwan
-Saved 9 topics for 2025-12-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN Security Council members condemn Israel’s recognition of Somaliland
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh former Prime Minister Khaleda Zia dies, aged 80
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Five key takeaways from Trump-Netanyahu meeting in Florida
+Added expanded search topic: UN Security Council members condemn Israel’s recognition of Somaliland
+Added expanded search topic: Bangladesh former Prime Minister Khaleda Zia dies, aged 80
+Added expanded search topic: Five key takeaways from Trump-Netanyahu meeting in Florida
+Saved 12 topics for 2025-12-30
 Returning 3 unique trending topics:
-  1. Ice skating duo Torvill and Dean to receive damehood and knighthood (from BBC News)
-  2. Russia-Ukraine war: List of key events, day 1,405 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. China kicks off second day of military drills around Taiwan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UN Security Council members condemn Israel’s recognition of Somaliland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Bangladesh former Prime Minister Khaleda Zia dies, aged 80 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Five key takeaways from Trump-Netanyahu meeting in Florida (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Ice skating duo Torvill and Dean to receive damehood and knighthood
-Searching Google for: Ice skating duo Torvill and Dean to receive damehood and knighthood
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIce%252Bskating%252Bduo%252BTorvill%252Band%252BDean%252Bto%252Breceive%252Bdamehood%252Band%252Bknighthood%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R1kGKmwzcoGIjDVRXpaxN6e3Qtj3xpWMCLpROZh8gdh5FlZV1X7Wjf2dBLc0KDXBynWPof6Nd1r2DwyBmpjbmRyUloBQw
+Processing trending topic: UN Security Council members condemn Israel’s recognition of Somaliland
+Searching Google for: UN Security Council members condemn Israel’s recognition of Somaliland
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252BSecurity%252BCouncil%252Bmembers%252Bcondemn%252BIsrael%25E2%2580%2599s%252Brecognition%252Bof%252BSomaliland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RllGKvFzcoGIjBTP7XxoCrRJl9aHixD5vflkWqEIXaYCaby9LNDYmlrmJJ_Zt-SdVpjhr3SyA-uLfEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ice-skating-duo-torvill-and-dean-to-receive-dameho_20251230_0442.html
-✓ Created comprehensive article: ice-skating-duo-torvill-and-dean-to-receive-dameho_20251230_0442.html
+Successfully created file: un-security-council-members-condemn-israels-recogn_20251230_0527.html
+✓ Created comprehensive article: un-security-council-members-condemn-israels-recogn_20251230_0527.html
 
-Processing trending topic: Russia-Ukraine war: List of key events, day 1,405
-Searching Google for: Russia-Ukraine war: List of key events, day 1,405
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C405%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R1kGLCwzcoGIjAOIdv6jbIOXbI5BR1IWm5s-hFwsVAm8m-T1iF1YGLYb6ROpJZpF_c4DHwJ5Oyuq1AyBmpjbmRyUloBQw
+Processing trending topic: Bangladesh former Prime Minister Khaleda Zia dies, aged 80
+Searching Google for: Bangladesh former Prime Minister Khaleda Zia dies, aged 80
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladesh%252Bformer%252BPrime%252BMinister%252BKhaleda%252BZia%252Bdies%252C%252Baged%252B80%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RllGLHFzcoGIjAg8j9NHN8LCAjb_NfU9m02mLopSwCt_yS0cUUPiQzTxjd_MBRO1f_OtXaGPR1FcxYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-war-list-of-key-events-day-1405_20251230_0442.html
-✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1405_20251230_0442.html
+Successfully created file: bangladesh-former-prime-minister-khaleda-zia-dies-_20251230_0527.html
+✓ Created comprehensive article: bangladesh-former-prime-minister-khaleda-zia-dies-_20251230_0527.html
 
-Processing trending topic: China kicks off second day of military drills around Taiwan
-Searching Google for: China kicks off second day of military drills around Taiwan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bkicks%252Boff%252Bsecond%252Bday%252Bof%252Bmilitary%252Bdrills%252Baround%252BTaiwan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R1kGLewzcoGIjDKGY1UttRdtlFOKYQ49MzVWJNd4ohhjLblJ8A-UHkUWWYDoAmaBUJneVVP1jkqVAYyBmpjbmRyUloBQw
+Processing trending topic: Five key takeaways from Trump-Netanyahu meeting in Florida
+Searching Google for: Five key takeaways from Trump-Netanyahu meeting in Florida
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Bkey%252Btakeaways%252Bfrom%252BTrump-Netanyahu%252Bmeeting%252Bin%252BFlorida%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RllGLfFzcoGIjCUUoSmaPpq4DgdWTIZzPeGiZ8R3DYcfJxsg4efou60R_MRW7wvJ95DpRrFsw8JFaQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: china-kicks-off-second-day-of-military-drills-arou_20251230_0442.html
-✓ Created comprehensive article: china-kicks-off-second-day-of-military-drills-arou_20251230_0442.html
+Successfully created file: five-key-takeaways-from-trump-netanyahu-meeting-in_20251230_0527.html
+✓ Created comprehensive article: five-key-takeaways-from-trump-netanyahu-meeting-in_20251230_0527.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ice skating duo Torvill and Dean to receive damehood and knighthood
+   • UN Security Council members condemn Israel’s recognition of Somaliland
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia-Ukraine war: List of key events, day 1,405
+   • Bangladesh former Prime Minister Khaleda Zia dies, aged 80
      Sources: bbc.com, cnn.com, reuters.com
-   • China kicks off second day of military drills around Taiwan
+   • Five key takeaways from Trump-Netanyahu meeting in Florida
      Sources: bbc.com, cnn.com, reuters.com
