@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 63 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK gears up for new year celebrations as thousands gather in London
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Guinea’s junta chief elected president after opposition boycott
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ivory Coast fight back against Gabon to top AFCON group ahead of Cameroon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What is behind the Saudi-UAE rupture in Yemen?
-Added expanded search topic: Ivory Coast fight back against Gabon to top AFCON group ahead of Cameroon
-Added expanded search topic: What is behind the Saudi-UAE rupture in Yemen?
-Saved 63 topics for 2025-12-31
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Year’s Eve celebrations as the world welcomes 2026
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says ‘removing’ National Guard from Chicago, Los Angeles and Portland
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US imposes more sanctions on tankers transporting Venezuelan oil
+Added expanded search topic: New Year’s Eve celebrations as the world welcomes 2026
+Added expanded search topic: Trump says ‘removing’ National Guard from Chicago, Los Angeles and Portland
+Added expanded search topic: US imposes more sanctions on tankers transporting Venezuelan oil
+Saved 66 topics for 2025-12-31
 Returning 3 unique trending topics:
-  1. UK gears up for new year celebrations as thousands gather in London (from BBC News)
-  2. Ivory Coast fight back against Gabon to top AFCON group ahead of Cameroon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What is behind the Saudi-UAE rupture in Yemen? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. New Year’s Eve celebrations as the world welcomes 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump says ‘removing’ National Guard from Chicago, Los Angeles and Portland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US imposes more sanctions on tankers transporting Venezuelan oil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK gears up for new year celebrations as thousands gather in London
-Searching Google for: UK gears up for new year celebrations as thousands gather in London
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bgears%252Bup%252Bfor%252Bnew%252Byear%252Bcelebrations%252Bas%252Bthousands%252Bgather%252Bin%252BLondon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGSwGLbE1soGIjC-dVDNZqg5EmCN5J-5nmnzud7MWfWCtgQbNCWgUvi0IQFOdBo_L9cAyua1SuCrn4cyBmpjbmRyUloBQw
+Processing trending topic: New Year’s Eve celebrations as the world welcomes 2026
+Searching Google for: New Year’s Eve celebrations as the world welcomes 2026
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BYear%25E2%2580%2599s%252BEve%252Bcelebrations%252Bas%252Bthe%252Bworld%252Bwelcomes%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqcUGIrg1soGIjBVp-w_nxcEC96bqdf0ViVEZX_scGcUnEtEpYLBSaAy2dppdpU-x8nIXjdbIO_Yle4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-gears-up-for-new-year-celebrations-as-thousands_20251231_2222.html
-✓ Created comprehensive article: uk-gears-up-for-new-year-celebrations-as-thousands_20251231_2222.html
+Successfully created file: new-years-eve-celebrations-as-the-world-welcomes-2_20251231_2321.html
+✓ Created comprehensive article: new-years-eve-celebrations-as-the-world-welcomes-2_20251231_2321.html
 
-Processing trending topic: Ivory Coast fight back against Gabon to top AFCON group ahead of Cameroon
-Searching Google for: Ivory Coast fight back against Gabon to top AFCON group ahead of Cameroon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIvory%252BCoast%252Bfight%252Bback%252Bagainst%252BGabon%252Bto%252Btop%252BAFCON%252Bgroup%252Bahead%252Bof%252BCameroon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGSwGL7E1soGIjAMo6dpUQhGLGdr7eyVvtDGTd_y6vRRQ5VERHx69Wk-nbc9HpaFNMB1UsfV5exDzF8yBmpjbmRyUloBQw
+Processing trending topic: Trump says ‘removing’ National Guard from Chicago, Los Angeles and Portland
+Searching Google for: Trump says ‘removing’ National Guard from Chicago, Los Angeles and Portland
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252B%25E2%2580%2598removing%25E2%2580%2599%252BNational%252BGuard%252Bfrom%252BChicago%252C%252BLos%252BAngeles%252Band%252BPortland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqcUGJLg1soGIjBBF0TJTS8xlAQLdDCB0UF8U2k3NJxbW5LDL7gaK_GQk3Mct1NnekuoSqRzgDMUhVwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ivory-coast-fight-back-against-gabon-to-top-afcon-_20251231_2222.html
-✓ Created comprehensive article: ivory-coast-fight-back-against-gabon-to-top-afcon-_20251231_2222.html
+Successfully created file: trump-says-removing-national-guard-from-chicago-lo_20251231_2321.html
+✓ Created comprehensive article: trump-says-removing-national-guard-from-chicago-lo_20251231_2321.html
 
-Processing trending topic: What is behind the Saudi-UAE rupture in Yemen?
-Searching Google for: What is behind the Saudi-UAE rupture in Yemen?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bis%252Bbehind%252Bthe%252BSaudi-UAE%252Brupture%252Bin%252BYemen%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGSwGMTE1soGIjC5DeptqcpT-fFt99gUkSu7IclyQ_0Mnkb_gAF9oXSsWAaTWpFRIoR5m-6kYq89OIwyBmpjbmRyUloBQw
+Processing trending topic: US imposes more sanctions on tankers transporting Venezuelan oil
+Searching Google for: US imposes more sanctions on tankers transporting Venezuelan oil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bimposes%252Bmore%252Bsanctions%252Bon%252Btankers%252Btransporting%252BVenezuelan%252Boil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqcUGJjg1soGIjC-U_LnTFP2Ke0RK-El7N8muOuiIbcKenD8aNVEBPUT0OmG4dLKe8ttLyWtVY59HUYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-is-behind-the-saudi-uae-rupture-in-yemen_20251231_2223.html
-✓ Created comprehensive article: what-is-behind-the-saudi-uae-rupture-in-yemen_20251231_2223.html
+Successfully created file: us-imposes-more-sanctions-on-tankers-transporting-_20251231_2322.html
+✓ Created comprehensive article: us-imposes-more-sanctions-on-tankers-transporting-_20251231_2322.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK gears up for new year celebrations as thousands gather in London
+   • New Year’s Eve celebrations as the world welcomes 2026
      Sources: bbc.com, cnn.com, reuters.com
-   • Ivory Coast fight back against Gabon to top AFCON group ahead of Cameroon
+   • Trump says ‘removing’ National Guard from Chicago, Los Angeles and Portland
      Sources: bbc.com, cnn.com, reuters.com
-   • What is behind the Saudi-UAE rupture in Yemen?
+   • US imposes more sanctions on tankers transporting Venezuelan oil
      Sources: bbc.com, cnn.com, reuters.com
