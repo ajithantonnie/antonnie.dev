@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Work continues to fix Eurostar and Eurotunnel issue after thousands hit by travel chaos
+  Added: Passengers stuck on Eurostar trains overnight as delays continue
   Added: Chris Mason: Why 2026 is Keir Starmer's make or break year
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2025-12-31
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Disney to pay $10m over alleged breaches of US child privacy laws
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UAE to pull forces out of Yemen after calls for withdrawal, Saudi strike
+Added expanded search topic: Disney to pay $10m over alleged breaches of US child privacy laws
+Added expanded search topic: UAE to pull forces out of Yemen after calls for withdrawal, Saudi strike
+Saved 6 topics for 2025-12-31
 Returning 3 unique trending topics:
-  1. Work continues to fix Eurostar and Eurotunnel issue after thousands hit by travel chaos (from BBC News)
-  2. Chris Mason: Why 2026 is Keir Starmer's make or break year (from BBC News)
-  3. Tensions between Saudis and Emiratis over future of Yemen reach boiling point (from The Guardian)
+  1. Passengers stuck on Eurostar trains overnight as delays continue (from BBC News)
+  2. Disney to pay $10m over alleged breaches of US child privacy laws (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UAE to pull forces out of Yemen after calls for withdrawal, Saudi strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Work continues to fix Eurostar and Eurotunnel issue after thousands hit by travel chaos
-Searching Google for: Work continues to fix Eurostar and Eurotunnel issue after thousands hit by travel chaos
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWork%252Bcontinues%252Bto%252Bfix%252BEurostar%252Band%252BEurotunnel%252Bissue%252Bafter%252Bthousands%252Bhit%252Bby%252Btravel%252Bchaos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHzhGMn60coGIjAOqb7tPZkyPVXe7odHQ2sQKP1tGlQKVtqU029dpZws899PZEtzVpAGlkc7RkbRWFkyBmpjbmRyUloBQw
+Processing trending topic: Passengers stuck on Eurostar trains overnight as delays continue
+Searching Google for: Passengers stuck on Eurostar trains overnight as delays continue
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPassengers%252Bstuck%252Bon%252BEurostar%252Btrains%252Bovernight%252Bas%252Bdelays%252Bcontinue%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IYqGI2x0soGIjDZjbepNWxndhBOEokTTgg5eUOQZbCL4wJdsuWzTsJtIpZ7_LgLg_EkEAgCvOuUSLoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: work-continues-to-fix-eurostar-and-eurotunnel-issu_20251231_0133.html
-✓ Created comprehensive article: work-continues-to-fix-eurostar-and-eurotunnel-issu_20251231_0133.html
+Successfully created file: passengers-stuck-on-eurostar-trains-overnight-as-d_20251231_0329.html
+✓ Created comprehensive article: passengers-stuck-on-eurostar-trains-overnight-as-d_20251231_0329.html
 
-Processing trending topic: Chris Mason: Why 2026 is Keir Starmer's make or break year
-Searching Google for: Chris Mason: Why 2026 is Keir Starmer's make or break year
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BWhy%252B2026%252Bis%252BKeir%252BStarmer%2527s%252Bmake%252Bor%252Bbreak%252Byear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHzhGNH60coGIjBGGMubwfF9sVgCBgeQ2cMuplsFTCdKEXDD3RBOmbYl9Y6PmFAXZPJPtOKGCIf-eM0yBmpjbmRyUloBQw
+Processing trending topic: Disney to pay $10m over alleged breaches of US child privacy laws
+Searching Google for: Disney to pay $10m over alleged breaches of US child privacy laws
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDisney%252Bto%252Bpay%252B%252410m%252Bover%252Balleged%252Bbreaches%252Bof%252BUS%252Bchild%252Bprivacy%252Blaws%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IYqGJSx0soGIjDFF2n1bH1fAepFhDXlRvRipqTNShRn2NUvOCZ4-QgnSiDtprTXq_HdHhyHy_bjluQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-why-2026-is-keir-starmers-make-or-brea_20251231_0133.html
-✓ Created comprehensive article: chris-mason-why-2026-is-keir-starmers-make-or-brea_20251231_0133.html
+Successfully created file: disney-to-pay-10m-over-alleged-breaches-of-us-chil_20251231_0329.html
+✓ Created comprehensive article: disney-to-pay-10m-over-alleged-breaches-of-us-chil_20251231_0329.html
 
-Processing trending topic: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
-Searching Google for: Tensions between Saudis and Emiratis over future of Yemen reach boiling point
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTensions%252Bbetween%252BSaudis%252Band%252BEmiratis%252Bover%252Bfuture%252Bof%252BYemen%252Breach%252Bboiling%252Bpoint%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHzhGNf60coGIjBcrSmfca_CFnWiLHgPisv0UvVJGUpuaEWAM9NrMngi9MLuugc3YtZx1Y4UcqhRkBIyBmpjbmRyUloBQw
+Processing trending topic: UAE to pull forces out of Yemen after calls for withdrawal, Saudi strike
+Searching Google for: UAE to pull forces out of Yemen after calls for withdrawal, Saudi strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUAE%252Bto%252Bpull%252Bforces%252Bout%252Bof%252BYemen%252Bafter%252Bcalls%252Bfor%252Bwithdrawal%252C%252BSaudi%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IYqGJqx0soGIjDLRkGQh4AbvXdB19cfXs8WLZ_xSIfNXLC_HzMhjRKhhqWEkZ1ou8bpZTJn9sXEPEsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tensions-between-saudis-and-emiratis-over-future-o_20251231_0133.html
-✓ Created comprehensive article: tensions-between-saudis-and-emiratis-over-future-o_20251231_0133.html
+Successfully created file: uae-to-pull-forces-out-of-yemen-after-calls-for-wi_20251231_0329.html
+✓ Created comprehensive article: uae-to-pull-forces-out-of-yemen-after-calls-for-wi_20251231_0329.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Work continues to fix Eurostar and Eurotunnel issue after thousands hit by travel chaos
+   • Passengers stuck on Eurostar trains overnight as delays continue
      Sources: bbc.com, cnn.com, reuters.com
-   • Chris Mason: Why 2026 is Keir Starmer's make or break year
+   • Disney to pay $10m over alleged breaches of US child privacy laws
      Sources: bbc.com, cnn.com, reuters.com
-   • Tensions between Saudis and Emiratis over future of Yemen reach boiling point
+   • UAE to pull forces out of Yemen after calls for withdrawal, Saudi strike
      Sources: bbc.com, cnn.com, reuters.com
