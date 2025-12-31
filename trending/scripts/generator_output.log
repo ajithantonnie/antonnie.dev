@@ -1,0 +1,70 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 45 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: UK prepares for New Year celebrations as cold weather warnings issued
+  Added: Nurse 'lucky to be alive' after crowbar attack at hospital
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Guinea’s junta chief elected president after opposition boycott
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A marriage of three: Will Mali, Niger, Burkina Faso bloc reshape the Sahel?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Four reasons why Benjamin Netanyahu may not want a Gaza ceasefire to hold
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026?
+Added expanded search topic: A marriage of three: Will Mali, Niger, Burkina Faso bloc reshape the Sahel?
+Added expanded search topic: Four reasons why Benjamin Netanyahu may not want a Gaza ceasefire to hold
+Added expanded search topic: How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026?
+Saved 48 topics for 2025-12-31
+Returning 3 unique trending topics:
+  1. A marriage of three: Will Mali, Niger, Burkina Faso bloc reshape the Sahel? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Four reasons why Benjamin Netanyahu may not want a Gaza ceasefire to hold (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: A marriage of three: Will Mali, Niger, Burkina Faso bloc reshape the Sahel?
+Searching Google for: A marriage of three: Will Mali, Niger, Burkina Faso bloc reshape the Sahel?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bmarriage%252Bof%252Bthree%253A%252BWill%252BMali%252C%252BNiger%252C%252BBurkina%252BFaso%252Bbloc%252Breshape%252Bthe%252BSahel%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KETGPC21coGIjCPz_UAjorrbBN8JeayMTFy_ubXFD5zyVm0u3astFOM-sxQWNcrPP305Z3I1lmoWAMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: a-marriage-of-three-will-mali-niger-burkina-faso-b_20251231_1720.html
+✓ Created comprehensive article: a-marriage-of-three-will-mali-niger-burkina-faso-b_20251231_1720.html
+
+Processing trending topic: Four reasons why Benjamin Netanyahu may not want a Gaza ceasefire to hold
+Searching Google for: Four reasons why Benjamin Netanyahu may not want a Gaza ceasefire to hold
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFour%252Breasons%252Bwhy%252BBenjamin%252BNetanyahu%252Bmay%252Bnot%252Bwant%252Ba%252BGaza%252Bceasefire%252Bto%252Bhold%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KETGPe21coGIjB0URH40G-yJvtjZt0WBOEHEvHDOuCHeXlo0GAwa3UHN_Ui1bYwssWEe_Ucjf1isH4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: four-reasons-why-benjamin-netanyahu-may-not-want-a_20251231_1720.html
+✓ Created comprehensive article: four-reasons-why-benjamin-netanyahu-may-not-want-a_20251231_1720.html
+
+Processing trending topic: How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026?
+Searching Google for: How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bis%252BTrump%25E2%2580%2599s%252BBig%252BBeautiful%252BBill%252Bchanging%252BUS%252Btaxes%252Band%252Bhealthcare%252Bin%252B2026%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KETGP221coGIjC51navJHWgebDwgxSlCiHHe2at9voM9eC_Kr0qSink-wQl43C3_8g1w4DyF4vBfqoyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: how-is-trumps-big-beautiful-bill-changing-us-taxes_20251231_1721.html
+✓ Created comprehensive article: how-is-trumps-big-beautiful-bill-changing-us-taxes_20251231_1721.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • A marriage of three: Will Mali, Niger, Burkina Faso bloc reshape the Sahel?
+     Sources: bbc.com, cnn.com, reuters.com
+   • Four reasons why Benjamin Netanyahu may not want a Gaza ceasefire to hold
+     Sources: bbc.com, cnn.com, reuters.com
+   • How is Trump’s Big Beautiful Bill changing US taxes and healthcare in 2026?
+     Sources: bbc.com, cnn.com, reuters.com
