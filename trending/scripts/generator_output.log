@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK prepares for New Year celebrations as cold weather warnings issued
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Guinea’s junta chief elected president after opposition boycott
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How Donald Trump launched a new push to amass US government data in 2025
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: This is how the GHF weaponised food aid in Gaza
-Added expanded search topic: How Donald Trump launched a new push to amass US government data in 2025
-Added expanded search topic: This is how the GHF weaponised food aid in Gaza
-Saved 39 topics for 2025-12-31
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saudi-UAE fallout and its impact on Yemen’s recognised government
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Putin says Russia believes it will win in Ukraine in New Year’s Eve address
+  Found from World News - Breaking international news and headlines | Sky News: Finland police seize vessel suspected of damaging Baltic Sea cable
+Added expanded search topic: Saudi-UAE fallout and its impact on Yemen’s recognised government
+Added expanded search topic: Putin says Russia believes it will win in Ukraine in New Year’s Eve address
+Added expanded search topic: Finland police seize vessel suspected of damaging Baltic Sea cable
+Saved 42 topics for 2025-12-31
 Returning 3 unique trending topics:
-  1. UK prepares for New Year celebrations as cold weather warnings issued (from BBC News)
-  2. How Donald Trump launched a new push to amass US government data in 2025 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. This is how the GHF weaponised food aid in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Saudi-UAE fallout and its impact on Yemen’s recognised government (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Putin says Russia believes it will win in Ukraine in New Year’s Eve address (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Finland police seize vessel suspected of damaging Baltic Sea cable (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: UK prepares for New Year celebrations as cold weather warnings issued
-Searching Google for: UK prepares for New Year celebrations as cold weather warnings issued
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bprepares%252Bfor%252BNew%252BYear%252Bcelebrations%252Bas%252Bcold%252Bweather%252Bwarnings%252Bissued%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D72GMzj1MoGIjDLUQqBQozTRyp21mG8k36FJ4hZXQnaQulPDCXI-gSmAJq61srbKc84OQD_zCYbWroyBmpjbmRyUloBQw
+Processing trending topic: Saudi-UAE fallout and its impact on Yemen’s recognised government
+Searching Google for: Saudi-UAE fallout and its impact on Yemen’s recognised government
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi-UAE%252Bfallout%252Band%252Bits%252Bimpact%252Bon%252BYemen%25E2%2580%2599s%252Brecognised%252Bgovernment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc4GNL_1MoGIjDzBn6NuC9kT2tH3sKM5YmFnFlONE2dhV2xDvhJ3zbTiyxpDXcaxJx2gRp5Xy0Ycn8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-prepares-for-new-year-celebrations-as-cold-weat_20251231_1423.html
-✓ Created comprehensive article: uk-prepares-for-new-year-celebrations-as-cold-weat_20251231_1423.html
+Successfully created file: saudi-uae-fallout-and-its-impact-on-yemens-recogni_20251231_1523.html
+✓ Created comprehensive article: saudi-uae-fallout-and-its-impact-on-yemens-recogni_20251231_1523.html
 
-Processing trending topic: How Donald Trump launched a new push to amass US government data in 2025
-Searching Google for: How Donald Trump launched a new push to amass US government data in 2025
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BDonald%252BTrump%252Blaunched%252Ba%252Bnew%252Bpush%252Bto%252Bamass%252BUS%252Bgovernment%252Bdata%252Bin%252B2025%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D72GNPj1MoGIjBAFDGRd92ZKULwHmObOiXh2uUJASSspGr-m2ESdkuQIuQBEoV2nBJUFt6EYe6V2fkyBmpjbmRyUloBQw
+Processing trending topic: Putin says Russia believes it will win in Ukraine in New Year’s Eve address
+Searching Google for: Putin says Russia believes it will win in Ukraine in New Year’s Eve address
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%252Bsays%252BRussia%252Bbelieves%252Bit%252Bwill%252Bwin%252Bin%252BUkraine%252Bin%252BNew%252BYear%25E2%2580%2599s%252BEve%252Baddress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc4GNj_1MoGIjB3dYivUwBcmK0neadauNFPEQqj_bMZmouUX2aX29bCh4tlZl3LXu2TJsqKnAfvDKIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-donald-trump-launched-a-new-push-to-amass-us-g_20251231_1423.html
-✓ Created comprehensive article: how-donald-trump-launched-a-new-push-to-amass-us-g_20251231_1423.html
+Successfully created file: putin-says-russia-believes-it-will-win-in-ukraine-_20251231_1523.html
+✓ Created comprehensive article: putin-says-russia-believes-it-will-win-in-ukraine-_20251231_1523.html
 
-Processing trending topic: This is how the GHF weaponised food aid in Gaza
-Searching Google for: This is how the GHF weaponised food aid in Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThis%252Bis%252Bhow%252Bthe%252BGHF%252Bweaponised%252Bfood%252Baid%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D72GNnj1MoGIjDHjdZzSUFtijeW12qwKnWF_VOFw4WYyl9mIhxN0ZSspHbCH0jxbJUPuYMBz4fDoj0yBmpjbmRyUloBQw
+Processing trending topic: Finland police seize vessel suspected of damaging Baltic Sea cable
+Searching Google for: Finland police seize vessel suspected of damaging Baltic Sea cable
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFinland%252Bpolice%252Bseize%252Bvessel%252Bsuspected%252Bof%252Bdamaging%252BBaltic%252BSea%252Bcable%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc4GN__1MoGIjCmgLD6pV9Dld_-GWnzr31fo-dpTS8GJ9j-fKXAlPkeqL4Y32VYvmOEv_SLaAOkucoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: this-is-how-the-ghf-weaponised-food-aid-in-gaza_20251231_1423.html
-✓ Created comprehensive article: this-is-how-the-ghf-weaponised-food-aid-in-gaza_20251231_1423.html
+Successfully created file: finland-police-seize-vessel-suspected-of-damaging-_20251231_1523.html
+✓ Created comprehensive article: finland-police-seize-vessel-suspected-of-damaging-_20251231_1523.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK prepares for New Year celebrations as cold weather warnings issued
+   • Saudi-UAE fallout and its impact on Yemen’s recognised government
      Sources: bbc.com, cnn.com, reuters.com
-   • How Donald Trump launched a new push to amass US government data in 2025
+   • Putin says Russia believes it will win in Ukraine in New Year’s Eve address
      Sources: bbc.com, cnn.com, reuters.com
-   • This is how the GHF weaponised food aid in Gaza
+   • Finland police seize vessel suspected of damaging Baltic Sea cable
      Sources: bbc.com, cnn.com, reuters.com
