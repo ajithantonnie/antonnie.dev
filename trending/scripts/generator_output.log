@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: BBC reports from the scene of Swiss resort bar fire
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Guinea’s junta chief elected president after opposition boycott
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Search for survivors after US military strike on alleged drug convoy
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine was the deadliest place to be a journalist in 2025: Media union
-Added expanded search topic: Search for survivors after US military strike on alleged drug convoy
-Added expanded search topic: Palestine was the deadliest place to be a journalist in 2025: Media union
-Saved 27 topics for 2026-01-01
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel looking to reopen Rafah crossing after US pressure: Israeli media
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Photos: Thousands march in Turkiye in support of Gaza on New Year’s Day
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yemen’s separatist STC refuses to withdraw from provinces near Saudi Arabia
+Added expanded search topic: Israel looking to reopen Rafah crossing after US pressure: Israeli media
+Added expanded search topic: Photos: Thousands march in Turkiye in support of Gaza on New Year’s Day
+Added expanded search topic: Yemen’s separatist STC refuses to withdraw from provinces near Saudi Arabia
+Saved 30 topics for 2026-01-01
 Returning 3 unique trending topics:
-  1. BBC reports from the scene of Swiss resort bar fire (from BBC News)
-  2. Search for survivors after US military strike on alleged drug convoy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Palestine was the deadliest place to be a journalist in 2025: Media union (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel looking to reopen Rafah crossing after US pressure: Israeli media (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Photos: Thousands march in Turkiye in support of Gaza on New Year’s Day (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Yemen’s separatist STC refuses to withdraw from provinces near Saudi Arabia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: BBC reports from the scene of Swiss resort bar fire
-Searching Google for: BBC reports from the scene of Swiss resort bar fire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBBC%252Breports%252Bfrom%252Bthe%252Bscene%252Bof%252BSwiss%252Bresort%252Bbar%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JmSGO6W2coGIjBZSSP7FPYnE-wpXbjhc5U04oPVCWXF-we7yrMiWsv_TuVNFU6UPOgxtZ3U7HHiDZEyBmpjbmRyUloBQw
+Processing trending topic: Israel looking to reopen Rafah crossing after US pressure: Israeli media
+Searching Google for: Israel looking to reopen Rafah crossing after US pressure: Israeli media
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Blooking%252Bto%252Breopen%252BRafah%252Bcrossing%252Bafter%252BUS%252Bpressure%253A%252BIsraeli%252Bmedia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyybyGI-x2coGIjC0NZVFbLUefLKBFL03DKH7VyXHeqjZN5d0bl3FasnSvP2R-Umb77z4nU69A18FQlYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bbc-reports-from-the-scene-of-swiss-resort-bar-fir_20260101_1024.html
-✓ Created comprehensive article: bbc-reports-from-the-scene-of-swiss-resort-bar-fir_20260101_1024.html
+Successfully created file: israel-looking-to-reopen-rafah-crossing-after-us-p_20260101_1120.html
+✓ Created comprehensive article: israel-looking-to-reopen-rafah-crossing-after-us-p_20260101_1120.html
 
-Processing trending topic: Search for survivors after US military strike on alleged drug convoy
-Searching Google for: Search for survivors after US military strike on alleged drug convoy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSearch%252Bfor%252Bsurvivors%252Bafter%252BUS%252Bmilitary%252Bstrike%252Bon%252Balleged%252Bdrug%252Bconvoy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JmSGPaW2coGIjBR8fl_3_SiQcj4NmUbUboiznNao_rv0Jm4ImX2Cz4abJ9oF7ZliaNl23Qk04YKhnwyBmpjbmRyUloBQw
+Processing trending topic: Photos: Thousands march in Turkiye in support of Gaza on New Year’s Day
+Searching Google for: Photos: Thousands march in Turkiye in support of Gaza on New Year’s Day
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPhotos%253A%252BThousands%252Bmarch%252Bin%252BTurkiye%252Bin%252Bsupport%252Bof%252BGaza%252Bon%252BNew%252BYear%25E2%2580%2599s%252BDay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyybyGJax2coGIjAeuxSRlwNghjP2jvxGny3zxedFt8yo841UV5a6FL9hDToC8LA0KEptxtHhuvDP89MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: search-for-survivors-after-us-military-strike-on-a_20260101_1024.html
-✓ Created comprehensive article: search-for-survivors-after-us-military-strike-on-a_20260101_1024.html
+Successfully created file: photos-thousands-march-in-turkiye-in-support-of-ga_20260101_1120.html
+✓ Created comprehensive article: photos-thousands-march-in-turkiye-in-support-of-ga_20260101_1120.html
 
-Processing trending topic: Palestine was the deadliest place to be a journalist in 2025: Media union
-Searching Google for: Palestine was the deadliest place to be a journalist in 2025: Media union
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252Bwas%252Bthe%252Bdeadliest%252Bplace%252Bto%252Bbe%252Ba%252Bjournalist%252Bin%252B2025%253A%252BMedia%252Bunion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JmSGPyW2coGIjDBilX2LLUAdvxhtRU2-CNJtAc1KFGddUDTpMAzA-lk8Tl0KHOWs2fEWfJQ60qHMMYyBmpjbmRyUloBQw
+Processing trending topic: Yemen’s separatist STC refuses to withdraw from provinces near Saudi Arabia
+Searching Google for: Yemen’s separatist STC refuses to withdraw from provinces near Saudi Arabia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYemen%25E2%2580%2599s%252Bseparatist%252BSTC%252Brefuses%252Bto%252Bwithdraw%252Bfrom%252Bprovinces%252Bnear%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyybyGJyx2coGIjCK5l-LqBGyZne00cgnUcrlc4juZ3dPmq7oOmMc0sxan_Irn7m74_3QqKBKjfzwGfgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestine-was-the-deadliest-place-to-be-a-journali_20260101_1025.html
-✓ Created comprehensive article: palestine-was-the-deadliest-place-to-be-a-journali_20260101_1025.html
+Successfully created file: yemens-separatist-stc-refuses-to-withdraw-from-pro_20260101_1121.html
+✓ Created comprehensive article: yemens-separatist-stc-refuses-to-withdraw-from-pro_20260101_1121.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • BBC reports from the scene of Swiss resort bar fire
+   • Israel looking to reopen Rafah crossing after US pressure: Israeli media
      Sources: bbc.com, cnn.com, reuters.com
-   • Search for survivors after US military strike on alleged drug convoy
+   • Photos: Thousands march in Turkiye in support of Gaza on New Year’s Day
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestine was the deadliest place to be a journalist in 2025: Media union
+   • Yemen’s separatist STC refuses to withdraw from provinces near Saudi Arabia
      Sources: bbc.com, cnn.com, reuters.com
