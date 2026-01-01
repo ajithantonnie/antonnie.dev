@@ -1,0 +1,66 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 63 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Around 40 dead in Swiss ski resort bar fire, police say
+  Added: 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Cremation pyre in Africa thought to be world’s oldest containing adult remains
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill Palestinian child as Gaza humanitarian crisis deepens
+Added expanded search topic: Israeli forces kill Palestinian child as Gaza humanitarian crisis deepens
+Saved 66 topics for 2026-01-01
+Returning 3 unique trending topics:
+  1. Around 40 dead in Swiss ski resort bar fire, police say (from BBC News)
+  2. 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno (from BBC News)
+  3. Israeli forces kill Palestinian child as Gaza humanitarian crisis deepens (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Around 40 dead in Swiss ski resort bar fire, police say
+Searching Google for: Around 40 dead in Swiss ski resort bar fire, police say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAround%252B40%252Bdead%252Bin%252BSwiss%252Bski%252Bresort%252Bbar%252Bfire%252C%252Bpolice%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHfzGNmD3MoGIjDwr49we3gTgEj0CRf9XhYl3cRU9iCc4KWiX4KQu7xNSa5rQqsEbdxdfeMyIaxKugIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: around-40-dead-in-swiss-ski-resort-bar-fire-police_20260101_2323.html
+✓ Created comprehensive article: around-40-dead-in-swiss-ski-resort-bar-fire-police_20260101_2323.html
+
+Processing trending topic: 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
+Searching Google for: 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527I%252Bhid%252Bfrom%252Ba%252Bwall%252Bof%252Bheat%2527%253A%252BEyewitnesses%252Bdescribe%252Bescape%252Bfrom%252BSwiss%252Bbar%252Binferno%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHfzGOGD3MoGIjD9SF_7UsG9Y22mSkLsFi7WF5ViHSICoOGttRar78RhIA8O_ygIY-eaaDsJtYDMZ1kyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: i-hid-from-a-wall-of-heat-eyewitnesses-describe-es_20260101_2323.html
+✓ Created comprehensive article: i-hid-from-a-wall-of-heat-eyewitnesses-describe-es_20260101_2323.html
+
+Processing trending topic: Israeli forces kill Palestinian child as Gaza humanitarian crisis deepens
+Searching Google for: Israeli forces kill Palestinian child as Gaza humanitarian crisis deepens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bkill%252BPalestinian%252Bchild%252Bas%252BGaza%252Bhumanitarian%252Bcrisis%252Bdeepens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHfzGOeD3MoGIjDfgsqZOWa-t67rVWCEbLiovGORJavROjH_hsJ5FUH3cKyN9zeDpNvfGGQQkzsyeKsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: israeli-forces-kill-palestinian-child-as-gaza-huma_20260101_2323.html
+✓ Created comprehensive article: israeli-forces-kill-palestinian-child-as-gaza-huma_20260101_2323.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Around 40 dead in Swiss ski resort bar fire, police say
+     Sources: bbc.com, cnn.com, reuters.com
+   • 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
+     Sources: bbc.com, cnn.com, reuters.com
+   • Israeli forces kill Palestinian child as Gaza humanitarian crisis deepens
+     Sources: bbc.com, cnn.com, reuters.com
