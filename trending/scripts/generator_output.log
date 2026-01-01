@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Anthony Joshua discharged from hospital after Nigeria car crash
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Guinea’s junta chief elected president after opposition boycott
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-01
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We’re not scared’: Life in Taiwan goes on amid major Chinese war games
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,407
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US kills five in attack on alleged drug boats, searches for survivors
+Added expanded search topic: ‘We’re not scared’: Life in Taiwan goes on amid major Chinese war games
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,407
+Added expanded search topic: US kills five in attack on alleged drug boats, searches for survivors
+Saved 6 topics for 2026-01-01
 Returning 3 unique trending topics:
-  1. Anthony Joshua discharged from hospital after Nigeria car crash (from BBC News)
-  2. How the 'postcode lottery' of parenting really impacts young children (from BBC News)
-  3. Guinea’s junta chief elected president after opposition boycott (from The Guardian)
+  1. ‘We’re not scared’: Life in Taiwan goes on amid major Chinese war games (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,407 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US kills five in attack on alleged drug boats, searches for survivors (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Anthony Joshua discharged from hospital after Nigeria car crash
-Searching Google for: Anthony Joshua discharged from hospital after Nigeria car crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnthony%252BJoshua%252Bdischarged%252Bfrom%252Bhospital%252Bafter%252BNigeria%252Bcar%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttVFGPel18oGIjDtRAylYEcj48EwNzFgm_58iu_uba_lwpMR8CeVSpMXbmSspadHuAfy_A8qG8FvUVMyBmpjbmRyUloBQw
+Processing trending topic: ‘We’re not scared’: Life in Taiwan goes on amid major Chinese war games
+Searching Google for: ‘We’re not scared’: Life in Taiwan goes on amid major Chinese war games
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%25E2%2580%2599re%252Bnot%252Bscared%25E2%2580%2599%253A%252BLife%252Bin%252BTaiwan%252Bgoes%252Bon%252Bamid%252Bmajor%252BChinese%252Bwar%252Bgames%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8hGI_f18oGIjDFLUhTO7Pe6Nkw4Yd3U0fdWhPbfKG2HegIU4vsMKgD89N8TZzVHdf8dI9ehsclaq0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthony-joshua-discharged-from-hospital-after-nige_20260101_0150.html
-✓ Created comprehensive article: anthony-joshua-discharged-from-hospital-after-nige_20260101_0150.html
+Successfully created file: were-not-scared-life-in-taiwan-goes-on-amid-major-_20260101_0352.html
+✓ Created comprehensive article: were-not-scared-life-in-taiwan-goes-on-amid-major-_20260101_0352.html
 
-Processing trending topic: How the 'postcode lottery' of parenting really impacts young children
-Searching Google for: How the 'postcode lottery' of parenting really impacts young children
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bthe%252B%2527postcode%252Blottery%2527%252Bof%252Bparenting%252Breally%252Bimpacts%252Byoung%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttVFGP-l18oGIjAGtUZuWwiOAMAqJpx6yXhLqX1mgllNB9X_igPdIpu6mRHxD9tuKlj3VPjd39Kz7tQyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,407
+Searching Google for: Russia-Ukraine war: List of key events, day 1,407
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C407%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8hGJbf18oGIjDKjY6A92TCWkqUK09XJf7acnwSVu8UTcRokD_pViNnBOM8eH0qrqRtDxAnwk-ohmYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-the-postcode-lottery-of-parenting-really-impac_20260101_0150.html
-✓ Created comprehensive article: how-the-postcode-lottery-of-parenting-really-impac_20260101_0150.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1407_20260101_0352.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1407_20260101_0352.html
 
-Processing trending topic: Guinea’s junta chief elected president after opposition boycott
-Searching Google for: Guinea’s junta chief elected president after opposition boycott
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGuinea%25E2%2580%2599s%252Bjunta%252Bchief%252Belected%252Bpresident%252Bafter%252Bopposition%252Bboycott%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttVFGIWm18oGIjBz0HZGluF5NoAdfi0EJuFlbGghC3RM9gJKA7uQ1Zbn67ICrV_SufuyGvYjr8d7urQyBmpjbmRyUloBQw
+Processing trending topic: US kills five in attack on alleged drug boats, searches for survivors
+Searching Google for: US kills five in attack on alleged drug boats, searches for survivors
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bkills%252Bfive%252Bin%252Battack%252Bon%252Balleged%252Bdrug%252Bboats%252C%252Bsearches%252Bfor%252Bsurvivors%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8hGJzf18oGIjDSfAzQT2fTmNVzGRq88-YmEl36_Ti8YwLXHbIFVuKWkX61PgdWXBgjS2BaVkZT-xYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: guineas-junta-chief-elected-president-after-opposi_20260101_0151.html
-✓ Created comprehensive article: guineas-junta-chief-elected-president-after-opposi_20260101_0151.html
+Successfully created file: us-kills-five-in-attack-on-alleged-drug-boats-sear_20260101_0353.html
+✓ Created comprehensive article: us-kills-five-in-attack-on-alleged-drug-boats-sear_20260101_0353.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Anthony Joshua discharged from hospital after Nigeria car crash
+   • ‘We’re not scared’: Life in Taiwan goes on amid major Chinese war games
      Sources: bbc.com, cnn.com, reuters.com
-   • How the 'postcode lottery' of parenting really impacts young children
+   • Russia-Ukraine war: List of key events, day 1,407
      Sources: bbc.com, cnn.com, reuters.com
-   • Guinea’s junta chief elected president after opposition boycott
+   • US kills five in attack on alleged drug boats, searches for survivors
      Sources: bbc.com, cnn.com, reuters.com
