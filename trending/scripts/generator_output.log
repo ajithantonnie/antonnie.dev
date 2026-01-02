@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Around 40 dead in Swiss ski resort bar fire, police say
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Cremation pyre in Africa thought to be world’s oldest containing adult remains
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-02
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We will not wait’: Mamdani kicks off housing plans after inaugural party
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turkmenistan legalises crypto mining and exchanges in shift for economy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least 17 dead as heavy rains trigger flash floods in Afghanistan
+Added expanded search topic: ‘We will not wait’: Mamdani kicks off housing plans after inaugural party
+Added expanded search topic: Turkmenistan legalises crypto mining and exchanges in shift for economy
+Added expanded search topic: At least 17 dead as heavy rains trigger flash floods in Afghanistan
+Saved 6 topics for 2026-01-02
 Returning 3 unique trending topics:
-  1. Around 40 dead in Swiss ski resort bar fire, police say (from BBC News)
-  2. 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno (from BBC News)
-  3. Cremation pyre in Africa thought to be world’s oldest containing adult remains (from The Guardian)
+  1. ‘We will not wait’: Mamdani kicks off housing plans after inaugural party (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Turkmenistan legalises crypto mining and exchanges in shift for economy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. At least 17 dead as heavy rains trigger flash floods in Afghanistan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Around 40 dead in Swiss ski resort bar fire, police say
-Searching Google for: Around 40 dead in Swiss ski resort bar fire, police say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAround%252B40%252Bdead%252Bin%252BSwiss%252Bski%252Bresort%252Bbar%252Bfire%252C%252Bpolice%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFzGPnE3MoGIjDwg6yZDZ5RGtG9xryfNwjRfTmdV52gVmytLW49_zr6rYlR8XGynsaqx33GqmegoDIyBmpjbmRyUloBQw
+Processing trending topic: ‘We will not wait’: Mamdani kicks off housing plans after inaugural party
+Searching Google for: ‘We will not wait’: Mamdani kicks off housing plans after inaugural party
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bwill%252Bnot%252Bwait%25E2%2580%2599%253A%252BMamdani%252Bkicks%252Boff%252Bhousing%252Bplans%252Bafter%252Binaugural%252Bparty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUv4GPT43MoGIjCiEYVgCSw1LgK_XbRmvm99sfiCWrmhQtZJq8ya8ctQsuem8ZQUVlLyy286sAKFsH4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: around-40-dead-in-swiss-ski-resort-bar-fire-police_20260102_0142.html
-✓ Created comprehensive article: around-40-dead-in-swiss-ski-resort-bar-fire-police_20260102_0142.html
+Successfully created file: we-will-not-wait-mamdani-kicks-off-housing-plans-a_20260102_0333.html
+✓ Created comprehensive article: we-will-not-wait-mamdani-kicks-off-housing-plans-a_20260102_0333.html
 
-Processing trending topic: 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
-Searching Google for: 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527I%252Bhid%252Bfrom%252Ba%252Bwall%252Bof%252Bheat%2527%253A%252BEyewitnesses%252Bdescribe%252Bescape%252Bfrom%252BSwiss%252Bbar%252Binferno%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFzGIHF3MoGIjDe1_JcYNtroUidtnkg-N5PgzGMIpLkR7F6paxKILYlrbbTLsrZdLq9U-NazPng7LMyBmpjbmRyUloBQw
+Processing trending topic: Turkmenistan legalises crypto mining and exchanges in shift for economy
+Searching Google for: Turkmenistan legalises crypto mining and exchanges in shift for economy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurkmenistan%252Blegalises%252Bcrypto%252Bmining%252Band%252Bexchanges%252Bin%252Bshift%252Bfor%252Beconomy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUv4GPv43MoGIjD-hi3dq9zU5wIk7whHQVlw3NECbA1_Mda_yBeGxqX3Bz15stlOJ0miuCeSxrjnZVcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-hid-from-a-wall-of-heat-eyewitnesses-describe-es_20260102_0142.html
-✓ Created comprehensive article: i-hid-from-a-wall-of-heat-eyewitnesses-describe-es_20260102_0142.html
+Successfully created file: turkmenistan-legalises-crypto-mining-and-exchanges_20260102_0333.html
+✓ Created comprehensive article: turkmenistan-legalises-crypto-mining-and-exchanges_20260102_0333.html
 
-Processing trending topic: Cremation pyre in Africa thought to be world’s oldest containing adult remains
-Searching Google for: Cremation pyre in Africa thought to be world’s oldest containing adult remains
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCremation%252Bpyre%252Bin%252BAfrica%252Bthought%252Bto%252Bbe%252Bworld%25E2%2580%2599s%252Boldest%252Bcontaining%252Badult%252Bremains%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFzGIfF3MoGIjB60XkDVRBDyKj-QikROEE_MhtKx-PQoG0RUDW5F2KQOgwpiiFL-lEV_M91n5phqBgyBmpjbmRyUloBQw
+Processing trending topic: At least 17 dead as heavy rains trigger flash floods in Afghanistan
+Searching Google for: At least 17 dead as heavy rains trigger flash floods in Afghanistan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B17%252Bdead%252Bas%252Bheavy%252Brains%252Btrigger%252Bflash%252Bfloods%252Bin%252BAfghanistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUv4GIL53MoGIjA4gRVpXH4bc6F8MCNg7-W5nW9Ts6NJriSeVifUL0TxNkKQDtT67h9N_h0vLRrQ_c0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cremation-pyre-in-africa-thought-to-be-worlds-olde_20260102_0142.html
-✓ Created comprehensive article: cremation-pyre-in-africa-thought-to-be-worlds-olde_20260102_0142.html
+Successfully created file: at-least-17-dead-as-heavy-rains-trigger-flash-floo_20260102_0333.html
+✓ Created comprehensive article: at-least-17-dead-as-heavy-rains-trigger-flash-floo_20260102_0333.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Around 40 dead in Swiss ski resort bar fire, police say
+   • ‘We will not wait’: Mamdani kicks off housing plans after inaugural party
      Sources: bbc.com, cnn.com, reuters.com
-   • 'I hid from a wall of heat': Eyewitnesses describe escape from Swiss bar inferno
+   • Turkmenistan legalises crypto mining and exchanges in shift for economy
      Sources: bbc.com, cnn.com, reuters.com
-   • Cremation pyre in Africa thought to be world’s oldest containing adult remains
+   • At least 17 dead as heavy rains trigger flash floods in Afghanistan
      Sources: bbc.com, cnn.com, reuters.com
