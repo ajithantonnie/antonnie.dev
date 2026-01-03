@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Living a nightmare': Families of teens missing after ski resort fire desperate for news
@@ -13,58 +13,58 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tesla loses place as world’s top electric vehicle seller to China’s BYD
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How fragile is the US healthcare system?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US judge orders DC pipe bomb suspect to remain in custody ahead of trial
-Added expanded search topic: Tesla loses place as world’s top electric vehicle seller to China’s BYD
-Added expanded search topic: How fragile is the US healthcare system?
-Added expanded search topic: US judge orders DC pipe bomb suspect to remain in custody ahead of trial
-Saved 9 topics for 2026-01-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Coast Guard suspends search for survivors of Pacific boat strike
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine advocates praise NYC’s Mamdani for revoking pro-Israel decrees
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Carolina measles outbreak grows to 185 cases amid vaccination worries
+Added expanded search topic: US Coast Guard suspends search for survivors of Pacific boat strike
+Added expanded search topic: Palestine advocates praise NYC’s Mamdani for revoking pro-Israel decrees
+Added expanded search topic: South Carolina measles outbreak grows to 185 cases amid vaccination worries
+Saved 12 topics for 2026-01-03
 Returning 3 unique trending topics:
-  1. Tesla loses place as world’s top electric vehicle seller to China’s BYD (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. How fragile is the US healthcare system? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US judge orders DC pipe bomb suspect to remain in custody ahead of trial (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US Coast Guard suspends search for survivors of Pacific boat strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Palestine advocates praise NYC’s Mamdani for revoking pro-Israel decrees (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. South Carolina measles outbreak grows to 185 cases amid vaccination worries (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Tesla loses place as world’s top electric vehicle seller to China’s BYD
-Searching Google for: Tesla loses place as world’s top electric vehicle seller to China’s BYD
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTesla%252Bloses%252Bplace%252Bas%252Bworld%25E2%2580%2599s%252Btop%252Belectric%252Bvehicle%252Bseller%252Bto%252BChina%25E2%2580%2599s%252BBYD%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9Z4GPq44soGIjDevjQ4iGs5jV1OdH9t-QsaoHLVpNxqrYFqmsQGLdwjdPp6c6c9MKOyEDllWEKW2xoyBmpjbmRyUloBQw
+Processing trending topic: US Coast Guard suspends search for survivors of Pacific boat strike
+Searching Google for: US Coast Guard suspends search for survivors of Pacific boat strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BCoast%252BGuard%252Bsuspends%252Bsearch%252Bfor%252Bsurvivors%252Bof%252BPacific%252Bboat%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LFyGNjP4soGIjC5D6GNbqSID4o7_txKUqGB4MrlYGhH5WDXS2mj0LunFQE_hmkBIm8BSoBTR5kZ9akyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tesla-loses-place-as-worlds-top-electric-vehicle-s_20260103_0435.html
-✓ Created comprehensive article: tesla-loses-place-as-worlds-top-electric-vehicle-s_20260103_0435.html
+Successfully created file: us-coast-guard-suspends-search-for-survivors-of-pa_20260103_0523.html
+✓ Created comprehensive article: us-coast-guard-suspends-search-for-survivors-of-pa_20260103_0523.html
 
-Processing trending topic: How fragile is the US healthcare system?
-Searching Google for: How fragile is the US healthcare system?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bfragile%252Bis%252Bthe%252BUS%252Bhealthcare%252Bsystem%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9Z4GIG54soGIjDLribgVFohpmvSUPF4BvpASXIRzovFpph685ykv3RzZZiQgYp_DHgjTqgMjA1vRcMyBmpjbmRyUloBQw
+Processing trending topic: Palestine advocates praise NYC’s Mamdani for revoking pro-Israel decrees
+Searching Google for: Palestine advocates praise NYC’s Mamdani for revoking pro-Israel decrees
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252Badvocates%252Bpraise%252BNYC%25E2%2580%2599s%252BMamdani%252Bfor%252Brevoking%252Bpro-Israel%252Bdecrees%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LFyGN_P4soGIjCUPuiPByKy720dUC4xVzqUnThpexAB8rdAckEb102yonunD-bEXMK5qOiikaFs43wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-fragile-is-the-us-healthcare-system_20260103_0435.html
-✓ Created comprehensive article: how-fragile-is-the-us-healthcare-system_20260103_0435.html
+Successfully created file: palestine-advocates-praise-nycs-mamdani-for-revoki_20260103_0523.html
+✓ Created comprehensive article: palestine-advocates-praise-nycs-mamdani-for-revoki_20260103_0523.html
 
-Processing trending topic: US judge orders DC pipe bomb suspect to remain in custody ahead of trial
-Searching Google for: US judge orders DC pipe bomb suspect to remain in custody ahead of trial
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjudge%252Borders%252BDC%252Bpipe%252Bbomb%252Bsuspect%252Bto%252Bremain%252Bin%252Bcustody%252Bahead%252Bof%252Btrial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9Z4GIe54soGIjC70uYKRXfK5Ai-LhQHZl_2V4Blz3PN_zKof1-l92wRct6wtADPtRI1Ac_7TA9N48cyBmpjbmRyUloBQw
+Processing trending topic: South Carolina measles outbreak grows to 185 cases amid vaccination worries
+Searching Google for: South Carolina measles outbreak grows to 185 cases amid vaccination worries
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BCarolina%252Bmeasles%252Boutbreak%252Bgrows%252Bto%252B185%252Bcases%252Bamid%252Bvaccination%252Bworries%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LFyGOXP4soGIjCIl0svWlqwvYB2j3sz4vfljamoF2V1cMwQlo_lNVap9QApDj7Q5upnDFzw2Lm_UBEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-judge-orders-dc-pipe-bomb-suspect-to-remain-in-_20260103_0435.html
-✓ Created comprehensive article: us-judge-orders-dc-pipe-bomb-suspect-to-remain-in-_20260103_0435.html
+Successfully created file: south-carolina-measles-outbreak-grows-to-185-cases_20260103_0523.html
+✓ Created comprehensive article: south-carolina-measles-outbreak-grows-to-185-cases_20260103_0523.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tesla loses place as world’s top electric vehicle seller to China’s BYD
+   • US Coast Guard suspends search for survivors of Pacific boat strike
      Sources: bbc.com, cnn.com, reuters.com
-   • How fragile is the US healthcare system?
+   • Palestine advocates praise NYC’s Mamdani for revoking pro-Israel decrees
      Sources: bbc.com, cnn.com, reuters.com
-   • US judge orders DC pipe bomb suspect to remain in custody ahead of trial
+   • South Carolina measles outbreak grows to 185 cases amid vaccination worries
      Sources: bbc.com, cnn.com, reuters.com
