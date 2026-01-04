@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says US will 'run' Venezuela and 'fix oil infrastructure'
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-04
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Republicans back Trump on Venezuela amid faint MAGA dissent
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fact-checking Trump following US ‘capture’ of Venezuela’s Maduro
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela temporarily closes border with Brazil following US strike
+Added expanded search topic: US Republicans back Trump on Venezuela amid faint MAGA dissent
+Added expanded search topic: Fact-checking Trump following US ‘capture’ of Venezuela’s Maduro
+Added expanded search topic: Venezuela temporarily closes border with Brazil following US strike
+Saved 6 topics for 2026-01-04
 Returning 3 unique trending topics:
-  1. Trump says US will 'run' Venezuela and 'fix oil infrastructure' (from BBC News)
-  2. Spies, drones and blowtorches: How the US captured Maduro (from BBC News)
-  3. Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria (from The Guardian)
+  1. US Republicans back Trump on Venezuela amid faint MAGA dissent (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Fact-checking Trump following US ‘capture’ of Venezuela’s Maduro (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Venezuela temporarily closes border with Brazil following US strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says US will 'run' Venezuela and 'fix oil infrastructure'
-Searching Google for: Trump says US will 'run' Venezuela and 'fix oil infrastructure'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bwill%252B%2527run%2527%252BVenezuela%252Band%252B%2527fix%252Boil%252Binfrastructure%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUuVGPeO58oGIjAffcf5W91YMNEW4t18aomO_a_UsqUXfAx9GlscCT9Scj_vWI0KSdPXHQSjiqdRk6oyBmpjbmRyUloBQw
+Processing trending topic: US Republicans back Trump on Venezuela amid faint MAGA dissent
+Searching Google for: US Republicans back Trump on Venezuela amid faint MAGA dissent
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BRepublicans%252Bback%252BTrump%252Bon%252BVenezuela%252Bamid%252Bfaint%252BMAGA%252Bdissent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCNyGOrI58oGIjDPXGwye-KZZlywFjuVU0WqLcCkxagNyd4ucHK0thu_79H-Kp9lwZ2hGU7V5KoxygQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-will-run-venezuela-and-fix-oil-infra_20260104_0150.html
-✓ Created comprehensive article: trump-says-us-will-run-venezuela-and-fix-oil-infra_20260104_0150.html
+Successfully created file: us-republicans-back-trump-on-venezuela-amid-faint-_20260104_0354.html
+✓ Created comprehensive article: us-republicans-back-trump-on-venezuela-amid-faint-_20260104_0354.html
 
-Processing trending topic: Spies, drones and blowtorches: How the US captured Maduro
-Searching Google for: Spies, drones and blowtorches: How the US captured Maduro
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpies%252C%252Bdrones%252Band%252Bblowtorches%253A%252BHow%252Bthe%252BUS%252Bcaptured%252BMaduro%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUuVGP6O58oGIjDKe-LIebj3X5xjvGdkld-1sOm2aNsi_Ww4COsba6_hKxZhQ-qkX9HdfYT0QcjHk68yBmpjbmRyUloBQw
+Processing trending topic: Fact-checking Trump following US ‘capture’ of Venezuela’s Maduro
+Searching Google for: Fact-checking Trump following US ‘capture’ of Venezuela’s Maduro
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFact-checking%252BTrump%252Bfollowing%252BUS%252B%25E2%2580%2598capture%25E2%2580%2599%252Bof%252BVenezuela%25E2%2580%2599s%252BMaduro%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCNyGPLI58oGIjBylTjjhqDaH663s01WZi9Zokze1l8gVqesP-LGmSCalJPVW-69AIzVpYkvowHF6QoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spies-drones-and-blowtorches-how-the-us-captured-m_20260104_0150.html
-✓ Created comprehensive article: spies-drones-and-blowtorches-how-the-us-captured-m_20260104_0150.html
+Successfully created file: fact-checking-trump-following-us-capture-of-venezu_20260104_0354.html
+✓ Created comprehensive article: fact-checking-trump-following-us-capture-of-venezu_20260104_0354.html
 
-Processing trending topic: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Searching Google for: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnthony%252BJoshua%25E2%2580%2599s%252Bdriver%252Bcharged%252Bwith%252Bdangerous%252Bdriving%252Bafter%252Bfatal%252Bcrash%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUuVGIWP58oGIjCWULXYT-D1xYMNEzmKhMMWUoPOA95iBFJlBDUqPFye_DFLIFc5OdaUeznHQt9rMOAyBmpjbmRyUloBQw
+Processing trending topic: Venezuela temporarily closes border with Brazil following US strike
+Searching Google for: Venezuela temporarily closes border with Brazil following US strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%252Btemporarily%252Bcloses%252Bborder%252Bwith%252BBrazil%252Bfollowing%252BUS%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCNyGPjI58oGIjDwt81slvo37l5RE7Rwze4FuEhxaRq8jf_NLE_4q22xfU_1-jYc5H-3kx6uVukHSPAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthony-joshuas-driver-charged-with-dangerous-driv_20260104_0151.html
-✓ Created comprehensive article: anthony-joshuas-driver-charged-with-dangerous-driv_20260104_0151.html
+Successfully created file: venezuela-temporarily-closes-border-with-brazil-fo_20260104_0354.html
+✓ Created comprehensive article: venezuela-temporarily-closes-border-with-brazil-fo_20260104_0354.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says US will 'run' Venezuela and 'fix oil infrastructure'
+   • US Republicans back Trump on Venezuela amid faint MAGA dissent
      Sources: bbc.com, cnn.com, reuters.com
-   • Spies, drones and blowtorches: How the US captured Maduro
+   • Fact-checking Trump following US ‘capture’ of Venezuela’s Maduro
      Sources: bbc.com, cnn.com, reuters.com
-   • Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
+   • Venezuela temporarily closes border with Brazil following US strike
      Sources: bbc.com, cnn.com, reuters.com
