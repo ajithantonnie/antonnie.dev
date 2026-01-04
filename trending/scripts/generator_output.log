@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Who's in charge of Venezuela and what happens next?
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who is Venezuelan Vice President Delcy Rodriguez, now leading the country?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Swiss police identify 16 more bodies after deadly New Year’s Eve bar fire
-Added expanded search topic: Who is Venezuelan Vice President Delcy Rodriguez, now leading the country?
-Added expanded search topic: Swiss police identify 16 more bodies after deadly New Year’s Eve bar fire
-Saved 33 topics for 2026-01-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sporadic protests in Tehran as clashes reported in Iran’s west
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Longtime Al Jazeera anchor and journalist Jamil Azar passes away
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: We just witnessed power kidnapping the law
+Added expanded search topic: Sporadic protests in Tehran as clashes reported in Iran’s west
+Added expanded search topic: Longtime Al Jazeera anchor and journalist Jamil Azar passes away
+Added expanded search topic: We just witnessed power kidnapping the law
+Saved 36 topics for 2026-01-04
 Returning 3 unique trending topics:
-  1. Who's in charge of Venezuela and what happens next? (from BBC News)
-  2. Who is Venezuelan Vice President Delcy Rodriguez, now leading the country? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Swiss police identify 16 more bodies after deadly New Year’s Eve bar fire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Sporadic protests in Tehran as clashes reported in Iran’s west (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Longtime Al Jazeera anchor and journalist Jamil Azar passes away (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. We just witnessed power kidnapping the law (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Who's in charge of Venezuela and what happens next?
-Searching Google for: Who's in charge of Venezuela and what happens next?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%2527s%252Bin%252Bcharge%252Bof%252BVenezuela%252Band%252Bwhat%252Bhappens%252Bnext%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGRGO2_6coGIjBf-T9dIemr0xhc0GvJ58BDh1HbQABFTpHrxR8zqr6X7zAu_e2KXziMCTvSGaHXCoIyBmpjbmRyUloBQw
+Processing trending topic: Sporadic protests in Tehran as clashes reported in Iran’s west
+Searching Google for: Sporadic protests in Tehran as clashes reported in Iran’s west
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSporadic%252Bprotests%252Bin%252BTehran%252Bas%252Bclashes%252Breported%252Bin%252BIran%25E2%2580%2599s%252Bwest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OCjGOLX6coGIjB_XFKSoCXGCjJcFukLdSlg2iOpkv00Ie9SjbhVL8EVdr6PGBrgfmCaG4WJD1WxeB4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whos-in-charge-of-venezuela-and-what-happens-next_20260104_1241.html
-✓ Created comprehensive article: whos-in-charge-of-venezuela-and-what-happens-next_20260104_1241.html
+Successfully created file: sporadic-protests-in-tehran-as-clashes-reported-in_20260104_1332.html
+✓ Created comprehensive article: sporadic-protests-in-tehran-as-clashes-reported-in_20260104_1332.html
 
-Processing trending topic: Who is Venezuelan Vice President Delcy Rodriguez, now leading the country?
-Searching Google for: Who is Venezuelan Vice President Delcy Rodriguez, now leading the country?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BVenezuelan%252BVice%252BPresident%252BDelcy%252BRodriguez%252C%252Bnow%252Bleading%252Bthe%252Bcountry%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGRGPS_6coGIjDrxr_G6azdnEhLb9JBBkrcN_GF1221DVNegFFoJJdXnoElPsBlHwFhaeY2lpQkJ0oyBmpjbmRyUloBQw
+Processing trending topic: Longtime Al Jazeera anchor and journalist Jamil Azar passes away
+Searching Google for: Longtime Al Jazeera anchor and journalist Jamil Azar passes away
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLongtime%252BAl%252BJazeera%252Banchor%252Band%252Bjournalist%252BJamil%252BAzar%252Bpasses%252Baway%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OCjGOnX6coGIjDGBSrCzqYNmhk66nkeLaqS-dwOUf6s03w9065gM-0QS_-pAYGofXZnrq_W1MV-uwkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-is-venezuelan-vice-president-delcy-rodriguez-n_20260104_1241.html
-✓ Created comprehensive article: who-is-venezuelan-vice-president-delcy-rodriguez-n_20260104_1241.html
+Successfully created file: longtime-al-jazeera-anchor-and-journalist-jamil-az_20260104_1332.html
+✓ Created comprehensive article: longtime-al-jazeera-anchor-and-journalist-jamil-az_20260104_1332.html
 
-Processing trending topic: Swiss police identify 16 more bodies after deadly New Year’s Eve bar fire
-Searching Google for: Swiss police identify 16 more bodies after deadly New Year’s Eve bar fire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSwiss%252Bpolice%252Bidentify%252B16%252Bmore%252Bbodies%252Bafter%252Bdeadly%252BNew%252BYear%25E2%2580%2599s%252BEve%252Bbar%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGRGPq_6coGIjCmHyvNvX4aLSL9NGtFurfTshU9_G5274zgZ_FeU-dd9zE_hAcIGQqIScVC_M38GusyBmpjbmRyUloBQw
+Processing trending topic: We just witnessed power kidnapping the law
+Searching Google for: We just witnessed power kidnapping the law
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWe%252Bjust%252Bwitnessed%252Bpower%252Bkidnapping%252Bthe%252Blaw%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OCjGO_X6coGIjCk3YqHBClOfwsdCUZBSS6DnDj8JfE3e_27S_kbH_TlO7-EwO4w2fpo-vF3Fcir2usyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: swiss-police-identify-16-more-bodies-after-deadly-_20260104_1241.html
-✓ Created comprehensive article: swiss-police-identify-16-more-bodies-after-deadly-_20260104_1241.html
+Successfully created file: we-just-witnessed-power-kidnapping-the-law_20260104_1332.html
+✓ Created comprehensive article: we-just-witnessed-power-kidnapping-the-law_20260104_1332.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Who's in charge of Venezuela and what happens next?
+   • Sporadic protests in Tehran as clashes reported in Iran’s west
      Sources: bbc.com, cnn.com, reuters.com
-   • Who is Venezuelan Vice President Delcy Rodriguez, now leading the country?
+   • Longtime Al Jazeera anchor and journalist Jamil Azar passes away
      Sources: bbc.com, cnn.com, reuters.com
-   • Swiss police identify 16 more bodies after deadly New Year’s Eve bar fire
+   • We just witnessed power kidnapping the law
      Sources: bbc.com, cnn.com, reuters.com
