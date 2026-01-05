@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Danish PM tells Trump to stop 'threats' against Greenland
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump spurns Kremlin’s Putin residence attack claim, Russia kills 2 in Kyiv
-Added expanded search topic: Trump spurns Kremlin’s Putin residence attack claim, Russia kills 2 in Kyiv
-Saved 18 topics for 2026-01-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Yemeni crisis: More complexity and many repercussions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who is Cilia Flores, Venezuela’s ‘first combatant’?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuelan interim leader tones down criticism, ready to ‘work with the US’
+Added expanded search topic: The Yemeni crisis: More complexity and many repercussions
+Added expanded search topic: Who is Cilia Flores, Venezuela’s ‘first combatant’?
+Added expanded search topic: Venezuelan interim leader tones down criticism, ready to ‘work with the US’
+Saved 21 topics for 2026-01-05
 Returning 3 unique trending topics:
-  1. Danish PM tells Trump to stop 'threats' against Greenland (from BBC News)
-  2. Teen girl educated in UK confirmed to have died in Swiss bar fire (from BBC News)
-  3. Trump spurns Kremlin’s Putin residence attack claim, Russia kills 2 in Kyiv (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. The Yemeni crisis: More complexity and many repercussions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Who is Cilia Flores, Venezuela’s ‘first combatant’? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Venezuelan interim leader tones down criticism, ready to ‘work with the US’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Danish PM tells Trump to stop 'threats' against Greenland
-Searching Google for: Danish PM tells Trump to stop 'threats' against Greenland
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDanish%252BPM%252Btells%252BTrump%252Bto%252Bstop%252B%2527threats%2527%252Bagainst%252BGreenland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9-4GMTR7coGIjAVMYrc0IbquK-S_fA44Y--bN5rpBI8zGNHZ5JIv2biPBFyJt6tDnoVhx7YN2xOyb4yBmpjbmRyUloBQw
+Processing trending topic: The Yemeni crisis: More complexity and many repercussions
+Searching Google for: The Yemeni crisis: More complexity and many repercussions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BYemeni%252Bcrisis%253A%252BMore%252Bcomplexity%252Band%252Bmany%252Brepercussions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MlHGKfv7coGIjBrqNbxDNmHIGBFoqPW5rnpWDRtfegMRLctg1HwQ4VTTFYk1PxHygPcg2KLORKlFa4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: danish-pm-tells-trump-to-stop-threats-against-gree_20260105_0731.html
-✓ Created comprehensive article: danish-pm-tells-trump-to-stop-threats-against-gree_20260105_0731.html
+Successfully created file: the-yemeni-crisis-more-complexity-and-many-repercu_20260105_0834.html
+✓ Created comprehensive article: the-yemeni-crisis-more-complexity-and-many-repercu_20260105_0834.html
 
-Processing trending topic: Teen girl educated in UK confirmed to have died in Swiss bar fire
-Searching Google for: Teen girl educated in UK confirmed to have died in Swiss bar fire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTeen%252Bgirl%252Beducated%252Bin%252BUK%252Bconfirmed%252Bto%252Bhave%252Bdied%252Bin%252BSwiss%252Bbar%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9-4GMzR7coGIjDGI6kUd_-K0Wg2FE9tH86U2D-HWRCuS6rRDV_fzBxOOy0A9hFAYXhQL2b-M0FAXx4yBmpjbmRyUloBQw
+Processing trending topic: Who is Cilia Flores, Venezuela’s ‘first combatant’?
+Searching Google for: Who is Cilia Flores, Venezuela’s ‘first combatant’?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BCilia%252BFlores%252C%252BVenezuela%25E2%2580%2599s%252B%25E2%2580%2598first%252Bcombatant%25E2%2580%2599%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MlHGK7v7coGIjC7pu154CEvBRtUs-HxvqD0mn2PrF8vJY3yATm2p11zZl1czowJ_rISPHlOeaL8DK0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: teen-girl-educated-in-uk-confirmed-to-have-died-in_20260105_0731.html
-✓ Created comprehensive article: teen-girl-educated-in-uk-confirmed-to-have-died-in_20260105_0731.html
+Successfully created file: who-is-cilia-flores-venezuelas-first-combatant_20260105_0834.html
+✓ Created comprehensive article: who-is-cilia-flores-venezuelas-first-combatant_20260105_0834.html
 
-Processing trending topic: Trump spurns Kremlin’s Putin residence attack claim, Russia kills 2 in Kyiv
-Searching Google for: Trump spurns Kremlin’s Putin residence attack claim, Russia kills 2 in Kyiv
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bspurns%252BKremlin%25E2%2580%2599s%252BPutin%252Bresidence%252Battack%252Bclaim%252C%252BRussia%252Bkills%252B2%252Bin%252BKyiv%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9-4GNLR7coGIjBkp_PfsnZtILCBGa15HRkrUXFTpHWMSNmmBOyjSDQtegoEtDIccSdYI-S0lTdDL0syBmpjbmRyUloBQw
+Processing trending topic: Venezuelan interim leader tones down criticism, ready to ‘work with the US’
+Searching Google for: Venezuelan interim leader tones down criticism, ready to ‘work with the US’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuelan%252Binterim%252Bleader%252Btones%252Bdown%252Bcriticism%252C%252Bready%252Bto%252B%25E2%2580%2598work%252Bwith%252Bthe%252BUS%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MlHGLTv7coGIjAk-Hu5SAgeNzEKjTcgM0gOfvVqTl7fQDpDJ9BdwhflmwWyGRCCWLigw4jOHZsuPF4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-spurns-kremlins-putin-residence-attack-claim_20260105_0731.html
-✓ Created comprehensive article: trump-spurns-kremlins-putin-residence-attack-claim_20260105_0731.html
+Successfully created file: venezuelan-interim-leader-tones-down-criticism-rea_20260105_0835.html
+✓ Created comprehensive article: venezuelan-interim-leader-tones-down-criticism-rea_20260105_0835.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Danish PM tells Trump to stop 'threats' against Greenland
+   • The Yemeni crisis: More complexity and many repercussions
      Sources: bbc.com, cnn.com, reuters.com
-   • Teen girl educated in UK confirmed to have died in Swiss bar fire
+   • Who is Cilia Flores, Venezuela’s ‘first combatant’?
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump spurns Kremlin’s Putin residence attack claim, Russia kills 2 in Kyiv
+   • Venezuelan interim leader tones down criticism, ready to ‘work with the US’
      Sources: bbc.com, cnn.com, reuters.com
