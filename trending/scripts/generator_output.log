@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US discussing options to acquire Greenland, including use of military, White House says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How strong are Latin America’s military forces, as they face US threats?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
-Added expanded search topic: How strong are Latin America’s military forces, as they face US threats?
-Added expanded search topic: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
-Saved 9 topics for 2026-01-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saudi-led coalition strikes Yemen, says STC leader al-Zubaidi has fled
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says military ‘always an option’ in Greenland as Europe rejects threats
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says Venezuela to hand over up to 50 million barrels of oil to US
+Added expanded search topic: Saudi-led coalition strikes Yemen, says STC leader al-Zubaidi has fled
+Added expanded search topic: US says military ‘always an option’ in Greenland as Europe rejects threats
+Added expanded search topic: Trump says Venezuela to hand over up to 50 million barrels of oil to US
+Saved 12 topics for 2026-01-07
 Returning 3 unique trending topics:
-  1. UK and France to send troops to Ukraine if peace deal agreed (from BBC News)
-  2. How strong are Latin America’s military forces, as they face US threats? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli forces kill two in Lebanon, ahead of truce monitors meeting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Saudi-led coalition strikes Yemen, says STC leader al-Zubaidi has fled (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US says military ‘always an option’ in Greenland as Europe rejects threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump says Venezuela to hand over up to 50 million barrels of oil to US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK and France to send troops to Ukraine if peace deal agreed
-Searching Google for: UK and France to send troops to Ukraine if peace deal agreed
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Band%252BFrance%252Bto%252Bsend%252Btroops%252Bto%252BUkraine%252Bif%252Bpeace%252Bdeal%252Bagreed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_dCGM_I98oGIjDvmnAnzXadgL7_2WVm9cHyeiqp2Ld8dUgITjr7C6pgrmT-cgkeCpIX3GWxuprcORIyBmpjbmRyUloBQw
+Processing trending topic: Saudi-led coalition strikes Yemen, says STC leader al-Zubaidi has fled
+Searching Google for: Saudi-led coalition strikes Yemen, says STC leader al-Zubaidi has fled
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi-led%252Bcoalition%252Bstrikes%252BYemen%252C%252Bsays%252BSTC%252Bleader%252Bal-Zubaidi%252Bhas%252Bfled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTsFGPrd98oGIjCUwl9iT_O8m7ebw_Q8A07TUWoJPwn4-ANIBpDbrAKmiH6xgLLgQODSdXT99VjQs1MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-and-france-to-send-troops-to-ukraine-if-peace-d_20260107_0443.html
-✓ Created comprehensive article: uk-and-france-to-send-troops-to-ukraine-if-peace-d_20260107_0443.html
+Successfully created file: saudi-led-coalition-strikes-yemen-says-stc-leader-_20260107_0528.html
+✓ Created comprehensive article: saudi-led-coalition-strikes-yemen-says-stc-leader-_20260107_0528.html
 
-Processing trending topic: How strong are Latin America’s military forces, as they face US threats?
-Searching Google for: How strong are Latin America’s military forces, as they face US threats?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bstrong%252Bare%252BLatin%252BAmerica%25E2%2580%2599s%252Bmilitary%252Bforces%252C%252Bas%252Bthey%252Bface%252BUS%252Bthreats%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_dCGNbI98oGIjDu87AuW0f61pX31kwaUCv2aV-d5oDygvgjORZrrFeDNKjWsYCLfTjy7R-r0I4g8V8yBmpjbmRyUloBQw
+Processing trending topic: US says military ‘always an option’ in Greenland as Europe rejects threats
+Searching Google for: US says military ‘always an option’ in Greenland as Europe rejects threats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Bmilitary%252B%25E2%2580%2598always%252Ban%252Boption%25E2%2580%2599%252Bin%252BGreenland%252Bas%252BEurope%252Brejects%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTsFGIHe98oGIjBTie8Uy6KiXyLi7F9zpg98YBv_ki62oPcEP9zU7WqYjiiGQUAcTjV5L62jP5TuGdYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-strong-are-latin-americas-military-forces-as-t_20260107_0443.html
-✓ Created comprehensive article: how-strong-are-latin-americas-military-forces-as-t_20260107_0443.html
+Successfully created file: us-says-military-always-an-option-in-greenland-as-_20260107_0528.html
+✓ Created comprehensive article: us-says-military-always-an-option-in-greenland-as-_20260107_0528.html
 
-Processing trending topic: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
-Searching Google for: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bkill%252Btwo%252Bin%252BLebanon%252C%252Bahead%252Bof%252Btruce%252Bmonitors%252Bmeeting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_dCGN3I98oGIjC0_1IWcfOejEHMC36oM3-csa_540PWTWBP6TAWG4Ecal0tTX74nyuqTogY_5gqwrcyBmpjbmRyUloBQw
+Processing trending topic: Trump says Venezuela to hand over up to 50 million barrels of oil to US
+Searching Google for: Trump says Venezuela to hand over up to 50 million barrels of oil to US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BVenezuela%252Bto%252Bhand%252Bover%252Bup%252Bto%252B50%252Bmillion%252Bbarrels%252Bof%252Boil%252Bto%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTsFGIje98oGIjDWJFXPt8i6znLm1juOy5mOFmWuLOwBwkQJCsXLr9V_Pt-VZFr8yF9VXGbzrpSYDvQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-forces-kill-two-in-lebanon-ahead-of-truce-_20260107_0443.html
-✓ Created comprehensive article: israeli-forces-kill-two-in-lebanon-ahead-of-truce-_20260107_0443.html
+Successfully created file: trump-says-venezuela-to-hand-over-up-to-50-million_20260107_0528.html
+✓ Created comprehensive article: trump-says-venezuela-to-hand-over-up-to-50-million_20260107_0528.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK and France to send troops to Ukraine if peace deal agreed
+   • Saudi-led coalition strikes Yemen, says STC leader al-Zubaidi has fled
      Sources: bbc.com, cnn.com, reuters.com
-   • How strong are Latin America’s military forces, as they face US threats?
+   • US says military ‘always an option’ in Greenland as Europe rejects threats
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli forces kill two in Lebanon, ahead of truce monitors meeting
+   • Trump says Venezuela to hand over up to 50 million barrels of oil to US
      Sources: bbc.com, cnn.com, reuters.com
