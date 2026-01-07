@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US discussing options to acquire Greenland, including use of military, White House says
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-07
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fact-checking Trump on promised US oil company investment in Venezuela
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,413
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s attacks on Venezuela put Mexico on edge
+Added expanded search topic: Fact-checking Trump on promised US oil company investment in Venezuela
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,413
+Added expanded search topic: Trump’s attacks on Venezuela put Mexico on edge
+Saved 6 topics for 2026-01-07
 Returning 3 unique trending topics:
-  1. US discussing options to acquire Greenland, including use of military, White House says (from BBC News)
-  2. The painful questions for Nato and the EU as Trump threatens Greenland (from BBC News)
-  3. Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria (from The Guardian)
+  1. Fact-checking Trump on promised US oil company investment in Venezuela (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,413 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump’s attacks on Venezuela put Mexico on edge (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US discussing options to acquire Greenland, including use of military, White House says
-Searching Google for: US discussing options to acquire Greenland, including use of military, White House says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdiscussing%252Boptions%252Bto%252Bacquire%252BGreenland%252C%252Bincluding%252Buse%252Bof%252Bmilitary%252C%252BWhite%252BHouse%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodF06GPrv9soGIjDtSb1CPkkrDM2NW7lRlZD4CCHNF39V0YMCXbDOiIPOBJ3fJbx6yrrdFjKi3vGg02syBmpjbmRyUloBQw
+Processing trending topic: Fact-checking Trump on promised US oil company investment in Venezuela
+Searching Google for: Fact-checking Trump on promised US oil company investment in Venezuela
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFact-checking%252BTrump%252Bon%252Bpromised%252BUS%252Boil%252Bcompany%252Binvestment%252Bin%252BVenezuela%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-llGLCn98oGIjAJeMM2rjbM4FT01Nszgl8N0AZuSkkhqSKiX955LdtaeRt7WAnpivLq0w2a1mXDKiYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-discussing-options-to-acquire-greenland-includi_20260107_0133.html
-✓ Created comprehensive article: us-discussing-options-to-acquire-greenland-includi_20260107_0133.html
+Successfully created file: fact-checking-trump-on-promised-us-oil-company-inv_20260107_0332.html
+✓ Created comprehensive article: fact-checking-trump-on-promised-us-oil-company-inv_20260107_0332.html
 
-Processing trending topic: The painful questions for Nato and the EU as Trump threatens Greenland
-Searching Google for: The painful questions for Nato and the EU as Trump threatens Greenland
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bpainful%252Bquestions%252Bfor%252BNato%252Band%252Bthe%252BEU%252Bas%252BTrump%252Bthreatens%252BGreenland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodF06GIHw9soGIjCjoWIP7dcvelJ57OOdl_sMd4QIEM8hdCKi7R2WLwhuNoY8L4nmRCoJ6LAWng88OloyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,413
+Searching Google for: Russia-Ukraine war: List of key events, day 1,413
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C413%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-llGLen98oGIjADd0v6XXlEi_pKrBY-H7YZ639mdPYS5pZYrHqL2mikdaxqwx6UAmChZcWlW2LvfUUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-painful-questions-for-nato-and-the-eu-as-trump_20260107_0133.html
-✓ Created comprehensive article: the-painful-questions-for-nato-and-the-eu-as-trump_20260107_0133.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1413_20260107_0332.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1413_20260107_0332.html
 
-Processing trending topic: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Searching Google for: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnthony%252BJoshua%25E2%2580%2599s%252Bdriver%252Bcharged%252Bwith%252Bdangerous%252Bdriving%252Bafter%252Bfatal%252Bcrash%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodF06GIfw9soGIjDM-F0-LEPsMKgZ4LWNUbdYh88Td3qkf2DiKT2hZYjvl5IBwkgrlhPBX2O2JtCt8RwyBmpjbmRyUloBQw
+Processing trending topic: Trump’s attacks on Venezuela put Mexico on edge
+Searching Google for: Trump’s attacks on Venezuela put Mexico on edge
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Battacks%252Bon%252BVenezuela%252Bput%252BMexico%252Bon%252Bedge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-llGL2n98oGIjDs375RNtYSW-CHTG63zShNnb6i0Wfqs0uOulp0JntmKoTwzGuivhnX_8TDyP10MbsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthony-joshuas-driver-charged-with-dangerous-driv_20260107_0134.html
-✓ Created comprehensive article: anthony-joshuas-driver-charged-with-dangerous-driv_20260107_0134.html
+Successfully created file: trumps-attacks-on-venezuela-put-mexico-on-edge_20260107_0332.html
+✓ Created comprehensive article: trumps-attacks-on-venezuela-put-mexico-on-edge_20260107_0332.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US discussing options to acquire Greenland, including use of military, White House says
+   • Fact-checking Trump on promised US oil company investment in Venezuela
      Sources: bbc.com, cnn.com, reuters.com
-   • The painful questions for Nato and the EU as Trump threatens Greenland
+   • Russia-Ukraine war: List of key events, day 1,413
      Sources: bbc.com, cnn.com, reuters.com
-   • Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
+   • Trump’s attacks on Venezuela put Mexico on edge
      Sources: bbc.com, cnn.com, reuters.com
