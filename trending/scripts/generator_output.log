@@ -1,70 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US discussing options to acquire Greenland, including use of military, White House says
-  Added: The painful questions for Nato and the EU as Trump threatens Greenland
+  Added: UK and France to send troops to Ukraine if peace deal agreed
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fact-checking Trump on promised US oil company investment in Venezuela
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,413
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s attacks on Venezuela put Mexico on edge
-Added expanded search topic: Fact-checking Trump on promised US oil company investment in Venezuela
-Added expanded search topic: Russia-Ukraine war: List of key events, day 1,413
-Added expanded search topic: Trump’s attacks on Venezuela put Mexico on edge
-Saved 6 topics for 2026-01-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How strong are Latin America’s military forces, as they face US threats?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
+Added expanded search topic: How strong are Latin America’s military forces, as they face US threats?
+Added expanded search topic: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
+Saved 9 topics for 2026-01-07
 Returning 3 unique trending topics:
-  1. Fact-checking Trump on promised US oil company investment in Venezuela (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Russia-Ukraine war: List of key events, day 1,413 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump’s attacks on Venezuela put Mexico on edge (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK and France to send troops to Ukraine if peace deal agreed (from BBC News)
+  2. How strong are Latin America’s military forces, as they face US threats? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli forces kill two in Lebanon, ahead of truce monitors meeting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Fact-checking Trump on promised US oil company investment in Venezuela
-Searching Google for: Fact-checking Trump on promised US oil company investment in Venezuela
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFact-checking%252BTrump%252Bon%252Bpromised%252BUS%252Boil%252Bcompany%252Binvestment%252Bin%252BVenezuela%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-llGLCn98oGIjAJeMM2rjbM4FT01Nszgl8N0AZuSkkhqSKiX955LdtaeRt7WAnpivLq0w2a1mXDKiYyBmpjbmRyUloBQw
+Processing trending topic: UK and France to send troops to Ukraine if peace deal agreed
+Searching Google for: UK and France to send troops to Ukraine if peace deal agreed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Band%252BFrance%252Bto%252Bsend%252Btroops%252Bto%252BUkraine%252Bif%252Bpeace%252Bdeal%252Bagreed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_dCGM_I98oGIjDvmnAnzXadgL7_2WVm9cHyeiqp2Ld8dUgITjr7C6pgrmT-cgkeCpIX3GWxuprcORIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fact-checking-trump-on-promised-us-oil-company-inv_20260107_0332.html
-✓ Created comprehensive article: fact-checking-trump-on-promised-us-oil-company-inv_20260107_0332.html
+Successfully created file: uk-and-france-to-send-troops-to-ukraine-if-peace-d_20260107_0443.html
+✓ Created comprehensive article: uk-and-france-to-send-troops-to-ukraine-if-peace-d_20260107_0443.html
 
-Processing trending topic: Russia-Ukraine war: List of key events, day 1,413
-Searching Google for: Russia-Ukraine war: List of key events, day 1,413
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C413%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-llGLen98oGIjADd0v6XXlEi_pKrBY-H7YZ639mdPYS5pZYrHqL2mikdaxqwx6UAmChZcWlW2LvfUUyBmpjbmRyUloBQw
+Processing trending topic: How strong are Latin America’s military forces, as they face US threats?
+Searching Google for: How strong are Latin America’s military forces, as they face US threats?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bstrong%252Bare%252BLatin%252BAmerica%25E2%2580%2599s%252Bmilitary%252Bforces%252C%252Bas%252Bthey%252Bface%252BUS%252Bthreats%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_dCGNbI98oGIjDu87AuW0f61pX31kwaUCv2aV-d5oDygvgjORZrrFeDNKjWsYCLfTjy7R-r0I4g8V8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-war-list-of-key-events-day-1413_20260107_0332.html
-✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1413_20260107_0332.html
+Successfully created file: how-strong-are-latin-americas-military-forces-as-t_20260107_0443.html
+✓ Created comprehensive article: how-strong-are-latin-americas-military-forces-as-t_20260107_0443.html
 
-Processing trending topic: Trump’s attacks on Venezuela put Mexico on edge
-Searching Google for: Trump’s attacks on Venezuela put Mexico on edge
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Battacks%252Bon%252BVenezuela%252Bput%252BMexico%252Bon%252Bedge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-llGL2n98oGIjDs375RNtYSW-CHTG63zShNnb6i0Wfqs0uOulp0JntmKoTwzGuivhnX_8TDyP10MbsyBmpjbmRyUloBQw
+Processing trending topic: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
+Searching Google for: Israeli forces kill two in Lebanon, ahead of truce monitors meeting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bkill%252Btwo%252Bin%252BLebanon%252C%252Bahead%252Bof%252Btruce%252Bmonitors%252Bmeeting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_dCGN3I98oGIjC0_1IWcfOejEHMC36oM3-csa_540PWTWBP6TAWG4Ecal0tTX74nyuqTogY_5gqwrcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-attacks-on-venezuela-put-mexico-on-edge_20260107_0332.html
-✓ Created comprehensive article: trumps-attacks-on-venezuela-put-mexico-on-edge_20260107_0332.html
+Successfully created file: israeli-forces-kill-two-in-lebanon-ahead-of-truce-_20260107_0443.html
+✓ Created comprehensive article: israeli-forces-kill-two-in-lebanon-ahead-of-truce-_20260107_0443.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Fact-checking Trump on promised US oil company investment in Venezuela
+   • UK and France to send troops to Ukraine if peace deal agreed
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia-Ukraine war: List of key events, day 1,413
+   • How strong are Latin America’s military forces, as they face US threats?
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump’s attacks on Venezuela put Mexico on edge
+   • Israeli forces kill two in Lebanon, ahead of truce monitors meeting
      Sources: bbc.com, cnn.com, reuters.com
