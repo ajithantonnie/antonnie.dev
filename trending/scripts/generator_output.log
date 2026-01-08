@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: US immigration agent fatally shoots woman in Minneapolis, officials say
   Added: Watch: Police chief describes how Minneapolis shooting unfolded
-  Added: UK armed forces helped US seizure of tanker, says MoD
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-08
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela’s economy plunged into uncertainty after Maduro abduction
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump threatens US defence firms over executive pay, slow production
+Added expanded search topic: Venezuela’s economy plunged into uncertainty after Maduro abduction
+Added expanded search topic: Trump threatens US defence firms over executive pay, slow production
+Saved 6 topics for 2026-01-08
 Returning 3 unique trending topics:
-  1. Watch: Police chief describes how Minneapolis shooting unfolded (from BBC News)
-  2. UK armed forces helped US seizure of tanker, says MoD (from BBC News)
-  3. Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria (from The Guardian)
+  1. US immigration agent fatally shoots woman in Minneapolis, officials say (from BBC News)
+  2. Venezuela’s economy plunged into uncertainty after Maduro abduction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump threatens US defence firms over executive pay, slow production (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: Police chief describes how Minneapolis shooting unfolded
-Searching Google for: Watch: Police chief describes how Minneapolis shooting unfolded
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BPolice%252Bchief%252Bdescribes%252Bhow%252BMinneapolis%252Bshooting%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLUGMmX_MoGIjDnJcM3NLZQWuSyZkP9AS5K9-t_xgR1pRdDl3rXEfVtWRce953c1A9fGVhY-cs68nMyBmpjbmRyUloBQw
+Processing trending topic: US immigration agent fatally shoots woman in Minneapolis, officials say
+Searching Google for: US immigration agent fatally shoots woman in Minneapolis, officials say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bimmigration%252Bagent%252Bfatally%252Bshoots%252Bwoman%252Bin%252BMinneapolis%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS9yGJvK_MoGIjBsQDrFDUN-6eeT-nXgFsyzc0sq8m1RPhj-VrXWGEh9j64NW3S2wcUNI3e-eAZcYlMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-police-chief-describes-how-minneapolis-shoot_20260108_0143.html
-✓ Created comprehensive article: watch-police-chief-describes-how-minneapolis-shoot_20260108_0143.html
+Successfully created file: us-immigration-agent-fatally-shoots-woman-in-minne_20260108_0331.html
+✓ Created comprehensive article: us-immigration-agent-fatally-shoots-woman-in-minne_20260108_0331.html
 
-Processing trending topic: UK armed forces helped US seizure of tanker, says MoD
-Searching Google for: UK armed forces helped US seizure of tanker, says MoD
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Barmed%252Bforces%252Bhelped%252BUS%252Bseizure%252Bof%252Btanker%252C%252Bsays%252BMoD%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLUGNCX_MoGIjDjxiRNalptNtf2mxsQ6EoQ5wl8RqGEfhfL6hGc-Jz71LL9F0E63wmgD5nGnDvgOrwyBmpjbmRyUloBQw
+Processing trending topic: Venezuela’s economy plunged into uncertainty after Maduro abduction
+Searching Google for: Venezuela’s economy plunged into uncertainty after Maduro abduction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%25E2%2580%2599s%252Beconomy%252Bplunged%252Binto%252Buncertainty%252Bafter%252BMaduro%252Babduction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS9yGKLK_MoGIjDPp4JJPFPwBylHYf9GgYqWuXJh8YgY12r8GL_wQ_GhK3-VkA9rryN08FEJxlrl-nEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-armed-forces-helped-us-seizure-of-tanker-says-m_20260108_0143.html
-✓ Created comprehensive article: uk-armed-forces-helped-us-seizure-of-tanker-says-m_20260108_0143.html
+Successfully created file: venezuelas-economy-plunged-into-uncertainty-after-_20260108_0331.html
+✓ Created comprehensive article: venezuelas-economy-plunged-into-uncertainty-after-_20260108_0331.html
 
-Processing trending topic: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Searching Google for: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnthony%252BJoshua%25E2%2580%2599s%252Bdriver%252Bcharged%252Bwith%252Bdangerous%252Bdriving%252Bafter%252Bfatal%252Bcrash%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLUGNeX_MoGIjCSBCWWiBE8SwujPOorzSuWzkOsptrg0i_vNWUV_ZhhQPdeW6-nYDdcKSj-ubm7ig0yBmpjbmRyUloBQw
+Processing trending topic: Trump threatens US defence firms over executive pay, slow production
+Searching Google for: Trump threatens US defence firms over executive pay, slow production
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252BUS%252Bdefence%252Bfirms%252Bover%252Bexecutive%252Bpay%252C%252Bslow%252Bproduction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS9yGKjK_MoGIjD4qGIPf3IshAad2iC4Ovhf7BOAuPr-iLHl1xgxvejVCPat4okxlxZ30hTBCL_oZHcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthony-joshuas-driver-charged-with-dangerous-driv_20260108_0143.html
-✓ Created comprehensive article: anthony-joshuas-driver-charged-with-dangerous-driv_20260108_0143.html
+Successfully created file: trump-threatens-us-defence-firms-over-executive-pa_20260108_0331.html
+✓ Created comprehensive article: trump-threatens-us-defence-firms-over-executive-pa_20260108_0331.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: Police chief describes how Minneapolis shooting unfolded
+   • US immigration agent fatally shoots woman in Minneapolis, officials say
      Sources: bbc.com, cnn.com, reuters.com
-   • UK armed forces helped US seizure of tanker, says MoD
+   • Venezuela’s economy plunged into uncertainty after Maduro abduction
      Sources: bbc.com, cnn.com, reuters.com
-   • Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria
+   • Trump threatens US defence firms over executive pay, slow production
      Sources: bbc.com, cnn.com, reuters.com
