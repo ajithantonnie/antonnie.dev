@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US immigration agent fatally shoots woman in Minneapolis
-  Added: Video shows moment US immigration agent fatally shoots woman
+  Added: Video shows moment shooting happened
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia beat England in Sydney Test to seal 4-1 Ashes triumph
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: US to dictate decisions to Venezuela, control oil sales ‘indefinitely
-Added expanded search topic: Australia beat England in Sydney Test to seal 4-1 Ashes triumph
-Added expanded search topic: LIVE: US to dictate decisions to Venezuela, control oil sales ‘indefinitely
-Saved 24 topics for 2026-01-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine Action hunger strikers near death ‘intent’ on continuing protests
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon army says phase one of disarming non-state groups in south complete
+Added expanded search topic: Palestine Action hunger strikers near death ‘intent’ on continuing protests
+Added expanded search topic: Lebanon army says phase one of disarming non-state groups in south complete
+Saved 27 topics for 2026-01-08
 Returning 3 unique trending topics:
-  1. Video shows moment US immigration agent fatally shoots woman (from BBC News)
-  2. Australia beat England in Sydney Test to seal 4-1 Ashes triumph (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. LIVE: US to dictate decisions to Venezuela, control oil sales ‘indefinitely (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Video shows moment shooting happened (from BBC News)
+  2. Palestine Action hunger strikers near death ‘intent’ on continuing protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lebanon army says phase one of disarming non-state groups in south complete (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Video shows moment US immigration agent fatally shoots woman
-Searching Google for: Video shows moment US immigration agent fatally shoots woman
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bmoment%252BUS%252Bimmigration%252Bagent%252Bfatally%252Bshoots%252Bwoman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGRUGLTy_coGIjCI07Ewlt5dJOrVB74GNHPe0BxTg0SrpYKf9oP_VXgLMkJunA1ayHbN6qlvcYZR5DAyBmpjbmRyUloBQw
+Processing trending topic: Video shows moment shooting happened
+Searching Google for: Video shows moment shooting happened
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bmoment%252Bshooting%252Bhappened%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCVDGPuM_soGIjDsrwcX5Hplf6MSyNZSrpYxJIcg04b87WKf_Xz_m1kUiTY3vwqnsNzJTJecAMhV1iMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-shows-moment-us-immigration-agent-fatally-sh_20260108_0930.html
-✓ Created comprehensive article: video-shows-moment-us-immigration-agent-fatally-sh_20260108_0930.html
+Successfully created file: video-shows-moment-shooting-happened_20260108_1027.html
+✓ Created comprehensive article: video-shows-moment-shooting-happened_20260108_1027.html
 
-Processing trending topic: Australia beat England in Sydney Test to seal 4-1 Ashes triumph
-Searching Google for: Australia beat England in Sydney Test to seal 4-1 Ashes triumph
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bbeat%252BEngland%252Bin%252BSydney%252BTest%252Bto%252Bseal%252B4-1%252BAshes%252Btriumph%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGRUGLvy_coGIjC4quKd5V7MwDKB74aShuhJ90VeYJ-CkEFp0cB_av93twM15Y9fPzNLpXNedkcCx7IyBmpjbmRyUloBQw
+Processing trending topic: Palestine Action hunger strikers near death ‘intent’ on continuing protests
+Searching Google for: Palestine Action hunger strikers near death ‘intent’ on continuing protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252BAction%252Bhunger%252Bstrikers%252Bnear%252Bdeath%252B%25E2%2580%2598intent%25E2%2580%2599%252Bon%252Bcontinuing%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCVDGIKN_soGIjDI553giHK5zOQvmVtJvEkRjE3r6e0VdGWHwAUMCQ8aFvQyZyoRXrgoZAYy_twKUzYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: australia-beat-england-in-sydney-test-to-seal-4-1-_20260108_0930.html
-✓ Created comprehensive article: australia-beat-england-in-sydney-test-to-seal-4-1-_20260108_0930.html
+Successfully created file: palestine-action-hunger-strikers-near-death-intent_20260108_1027.html
+✓ Created comprehensive article: palestine-action-hunger-strikers-near-death-intent_20260108_1027.html
 
-Processing trending topic: LIVE: US to dictate decisions to Venezuela, control oil sales ‘indefinitely
-Searching Google for: LIVE: US to dictate decisions to Venezuela, control oil sales ‘indefinitely
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BUS%252Bto%252Bdictate%252Bdecisions%252Bto%252BVenezuela%252C%252Bcontrol%252Boil%252Bsales%252B%25E2%2580%2598indefinitely%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGRUGMHy_coGIjBLbKyAbZsnYDTmolCEvtEjknLYc-mCcYGsQW2k7x_TP1PPi8xuoBeMFKZiWX5r690yBmpjbmRyUloBQw
+Processing trending topic: Lebanon army says phase one of disarming non-state groups in south complete
+Searching Google for: Lebanon army says phase one of disarming non-state groups in south complete
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%252Barmy%252Bsays%252Bphase%252Bone%252Bof%252Bdisarming%252Bnon-state%252Bgroups%252Bin%252Bsouth%252Bcomplete%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCVDGIiN_soGIjAZwN_tkE9GIIMNuec-CkoazYA0Ojm2EVGx2-CoSjPp_6jwErjThaCBAGKIyCgiiZoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-us-to-dictate-decisions-to-venezuela-control-_20260108_0930.html
-✓ Created comprehensive article: live-us-to-dictate-decisions-to-venezuela-control-_20260108_0930.html
+Successfully created file: lebanon-army-says-phase-one-of-disarming-non-state_20260108_1027.html
+✓ Created comprehensive article: lebanon-army-says-phase-one-of-disarming-non-state_20260108_1027.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Video shows moment US immigration agent fatally shoots woman
+   • Video shows moment shooting happened
      Sources: bbc.com, cnn.com, reuters.com
-   • Australia beat England in Sydney Test to seal 4-1 Ashes triumph
+   • Palestine Action hunger strikers near death ‘intent’ on continuing protests
      Sources: bbc.com, cnn.com, reuters.com
-   • LIVE: US to dictate decisions to Venezuela, control oil sales ‘indefinitely
+   • Lebanon army says phase one of disarming non-state groups in south complete
      Sources: bbc.com, cnn.com, reuters.com
