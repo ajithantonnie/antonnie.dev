@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US immigration agent fatally shoots woman in Minneapolis
-  Added: Watch: Police chief describes how Minneapolis shooting unfolded
+  Added: Storm Goretti heads to UK bringing more snow, ice and wind
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump backs bill to sanction China, India over Russian oil, US senator says
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,414
-Added expanded search topic: Trump backs bill to sanction China, India over Russian oil, US senator says
-Added expanded search topic: Russia-Ukraine war: List of key events, day 1,414
-Saved 12 topics for 2026-01-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What resources does Venezuela have — apart from the world’s most oil?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump invites Colombia’s Petro to White House after threats
+Added expanded search topic: What resources does Venezuela have — apart from the world’s most oil?
+Added expanded search topic: Trump invites Colombia’s Petro to White House after threats
+Saved 15 topics for 2026-01-08
 Returning 3 unique trending topics:
-  1. Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria (from The Guardian)
-  2. Trump backs bill to sanction China, India over Russian oil, US senator says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Russia-Ukraine war: List of key events, day 1,414 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Storm Goretti heads to UK bringing more snow, ice and wind (from BBC News)
+  2. What resources does Venezuela have — apart from the world’s most oil? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump invites Colombia’s Petro to White House after threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
-Searching Google for: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bweeks%252Bon%252C%252Bquestions%252Blinger%252Bover%252Btargeting%252Band%252Bimpact%252Bof%252BUS%252Bairstrikes%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTriGJyA_coGIjBkRcIzWgWj6jvJlXQVxPPrDY3K4zqnO6d2C4oxr5SWaQIPizPe75l5sBKSq1GTStcyBmpjbmRyUloBQw
+Processing trending topic: Storm Goretti heads to UK bringing more snow, ice and wind
+Searching Google for: Storm Goretti heads to UK bringing more snow, ice and wind
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BGoretti%252Bheads%252Bto%252BUK%252Bbringing%252Bmore%252Bsnow%252C%252Bice%252Band%252Bwind%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9xGM2g_coGIjAMuRVT8BqcXiEgcLncIkHfpHS0T4S10Ehzb8i20lJuc66jy5l0P906VbXa5ZMSvdkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-weeks-on-questions-linger-over-targeting-and-i_20260108_0526.html
-✓ Created comprehensive article: two-weeks-on-questions-linger-over-targeting-and-i_20260108_0526.html
+Successfully created file: storm-goretti-heads-to-uk-bringing-more-snow-ice-a_20260108_0636.html
+✓ Created comprehensive article: storm-goretti-heads-to-uk-bringing-more-snow-ice-a_20260108_0636.html
 
-Processing trending topic: Trump backs bill to sanction China, India over Russian oil, US senator says
-Searching Google for: Trump backs bill to sanction China, India over Russian oil, US senator says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bbacks%252Bbill%252Bto%252Bsanction%252BChina%252C%252BIndia%252Bover%252BRussian%252Boil%252C%252BUS%252Bsenator%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTriGKOA_coGIjDW3gz6SAG4BD43yoKYhfUWiYUKYosmOZjsdVuhhJBnJ2t3a4CqY_omBW2pVvWW_EoyBmpjbmRyUloBQw
+Processing trending topic: What resources does Venezuela have — apart from the world’s most oil?
+Searching Google for: What resources does Venezuela have — apart from the world’s most oil?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bresources%252Bdoes%252BVenezuela%252Bhave%252B%25E2%2580%2594%252Bapart%252Bfrom%252Bthe%252Bworld%25E2%2580%2599s%252Bmost%252Boil%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9xGNSg_coGIjCPmxUQLn6cZAxnFu8PCPLnUF9qXDnp7TD-nxk6HxWY77wYsC6-Tn5nfa1fXHUm5eEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-backs-bill-to-sanction-china-india-over-russ_20260108_0527.html
-✓ Created comprehensive article: trump-backs-bill-to-sanction-china-india-over-russ_20260108_0527.html
+Successfully created file: what-resources-does-venezuela-have-apart-from-the-_20260108_0636.html
+✓ Created comprehensive article: what-resources-does-venezuela-have-apart-from-the-_20260108_0636.html
 
-Processing trending topic: Russia-Ukraine war: List of key events, day 1,414
-Searching Google for: Russia-Ukraine war: List of key events, day 1,414
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C414%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTriGKmA_coGIjDZzX82FeKRDGhTKiKqyp4Kh2L8xrQdkpdtsyCVM85yN-Vl-KdpD8WzDSgcLjW06P4yBmpjbmRyUloBQw
+Processing trending topic: Trump invites Colombia’s Petro to White House after threats
+Searching Google for: Trump invites Colombia’s Petro to White House after threats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Binvites%252BColombia%25E2%2580%2599s%252BPetro%252Bto%252BWhite%252BHouse%252Bafter%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9xGNug_coGIjAwvR55hWowpdorFA1OaAurE1V3YMysNAU1H5JcA5R_GFPIFdCerTxwq6RKI8JUj_UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-war-list-of-key-events-day-1414_20260108_0527.html
-✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1414_20260108_0527.html
+Successfully created file: trump-invites-colombias-petro-to-white-house-after_20260108_0636.html
+✓ Created comprehensive article: trump-invites-colombias-petro-to-white-house-after_20260108_0636.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
+   • Storm Goretti heads to UK bringing more snow, ice and wind
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump backs bill to sanction China, India over Russian oil, US senator says
+   • What resources does Venezuela have — apart from the world’s most oil?
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia-Ukraine war: List of key events, day 1,414
+   • Trump invites Colombia’s Petro to White House after threats
      Sources: bbc.com, cnn.com, reuters.com
