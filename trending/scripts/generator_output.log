@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Who was Renee Nicole Good, the woman killed by ICE?
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reporter takes cover as shots ring out in Aleppo
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Witnesses film ICE killing of US citizen in Minneapolis
-Added expanded search topic: Al Jazeera reporter takes cover as shots ring out in Aleppo
-Added expanded search topic: Witnesses film ICE killing of US citizen in Minneapolis
-Saved 39 topics for 2026-01-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK hunger strikers face “risk of irreversible harm”
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Harrowing testimonies of sexual assault in Sudan brought to light
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is the US unlocking Venezuela’s oil wealth or exploiting it?
+Added expanded search topic: UK hunger strikers face “risk of irreversible harm”
+Added expanded search topic: Harrowing testimonies of sexual assault in Sudan brought to light
+Added expanded search topic: Is the US unlocking Venezuela’s oil wealth or exploiting it?
+Saved 42 topics for 2026-01-08
 Returning 3 unique trending topics:
-  1. Eyewitness video shows how deadly shooting unfolded, second by second (from BBC News)
-  2. Al Jazeera reporter takes cover as shots ring out in Aleppo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Witnesses film ICE killing of US citizen in Minneapolis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK hunger strikers face “risk of irreversible harm” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Harrowing testimonies of sexual assault in Sudan brought to light (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Is the US unlocking Venezuela’s oil wealth or exploiting it? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Eyewitness video shows how deadly shooting unfolded, second by second
-Searching Google for: Eyewitness video shows how deadly shooting unfolded, second by second
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEyewitness%252Bvideo%252Bshows%252Bhow%252Bdeadly%252Bshooting%252Bunfolded%252C%252Bsecond%252Bby%252Bsecond%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGMn-_soGIjC8S_oSnC1fnBGt1iWth5fgXYMJUlZl33abIe2Z5w8DCtIjfIUrVYh9E-Ur4C8Kpx8yBmpjbmRyUloBQw
+Processing trending topic: UK hunger strikers face “risk of irreversible harm”
+Searching Google for: UK hunger strikers face “risk of irreversible harm”
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bhunger%252Bstrikers%252Bface%252B%25E2%2580%259Crisk%252Bof%252Birreversible%252Bharm%25E2%2580%259D%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHdUGOOa_8oGIjA266hr6DWxgvJN9QdUBWxqWnoVp_uhTXFDxPfB06hCh5An4UOHVBXKrIQP9gHY68AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eyewitness-video-shows-how-deadly-shooting-unfolde_20260108_1429.html
-✓ Created comprehensive article: eyewitness-video-shows-how-deadly-shooting-unfolde_20260108_1429.html
+Successfully created file: uk-hunger-strikers-face-risk-of-irreversible-harm_20260108_1529.html
+✓ Created comprehensive article: uk-hunger-strikers-face-risk-of-irreversible-harm_20260108_1529.html
 
-Processing trending topic: Al Jazeera reporter takes cover as shots ring out in Aleppo
-Searching Google for: Al Jazeera reporter takes cover as shots ring out in Aleppo
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breporter%252Btakes%252Bcover%252Bas%252Bshots%252Bring%252Bout%252Bin%252BAleppo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGNH-_soGIjAP2f1OVbOC5Zc-b6r5O4-v5KCDdmiacpyogNtb54WkMLt3wrLyensHpxW-QZj8iBkyBmpjbmRyUloBQw
+Processing trending topic: Harrowing testimonies of sexual assault in Sudan brought to light
+Searching Google for: Harrowing testimonies of sexual assault in Sudan brought to light
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHarrowing%252Btestimonies%252Bof%252Bsexual%252Bassault%252Bin%252BSudan%252Bbrought%252Bto%252Blight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHdUGOua_8oGIjCciINmJZtfUhA4uzAB1cX_abIiBymotv_w-oFAYW4jpssOZf2Qnw3KBzMr-lh9yF0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-jazeera-reporter-takes-cover-as-shots-ring-out-_20260108_1429.html
-✓ Created comprehensive article: al-jazeera-reporter-takes-cover-as-shots-ring-out-_20260108_1429.html
+Successfully created file: harrowing-testimonies-of-sexual-assault-in-sudan-b_20260108_1529.html
+✓ Created comprehensive article: harrowing-testimonies-of-sexual-assault-in-sudan-b_20260108_1529.html
 
-Processing trending topic: Witnesses film ICE killing of US citizen in Minneapolis
-Searching Google for: Witnesses film ICE killing of US citizen in Minneapolis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWitnesses%252Bfilm%252BICE%252Bkilling%252Bof%252BUS%252Bcitizen%252Bin%252BMinneapolis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGNf-_soGIjCmxRYKZxPKyf-vRx0YjLhxY3WIi9EUukmmPJTFsif1NA4OHkePLMj81AvvHdO9lSgyBmpjbmRyUloBQw
+Processing trending topic: Is the US unlocking Venezuela’s oil wealth or exploiting it?
+Searching Google for: Is the US unlocking Venezuela’s oil wealth or exploiting it?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bthe%252BUS%252Bunlocking%252BVenezuela%25E2%2580%2599s%252Boil%252Bwealth%252Bor%252Bexploiting%252Bit%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHdUGPGa_8oGIjCA3vaLmk9QBM15p2WG3hn48FJqSKl0VfnHhDb5km2apEOrjwmhXYtyvQ1Wamy4ZuIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: witnesses-film-ice-killing-of-us-citizen-in-minnea_20260108_1429.html
-✓ Created comprehensive article: witnesses-film-ice-killing-of-us-citizen-in-minnea_20260108_1429.html
+Successfully created file: is-the-us-unlocking-venezuelas-oil-wealth-or-explo_20260108_1529.html
+✓ Created comprehensive article: is-the-us-unlocking-venezuelas-oil-wealth-or-explo_20260108_1529.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Eyewitness video shows how deadly shooting unfolded, second by second
+   • UK hunger strikers face “risk of irreversible harm”
      Sources: bbc.com, cnn.com, reuters.com
-   • Al Jazeera reporter takes cover as shots ring out in Aleppo
+   • Harrowing testimonies of sexual assault in Sudan brought to light
      Sources: bbc.com, cnn.com, reuters.com
-   • Witnesses film ICE killing of US citizen in Minneapolis
+   • Is the US unlocking Venezuela’s oil wealth or exploiting it?
      Sources: bbc.com, cnn.com, reuters.com
