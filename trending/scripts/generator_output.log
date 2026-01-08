@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US immigration agent fatally shoots woman in Minneapolis
-  Added: Storm Goretti heads to UK bringing more snow, ice and wind
+  Added: Watch: Police chief describes how shooting unfolded
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What resources does Venezuela have — apart from the world’s most oil?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump invites Colombia’s Petro to White House after threats
-Added expanded search topic: What resources does Venezuela have — apart from the world’s most oil?
-Added expanded search topic: Trump invites Colombia’s Petro to White House after threats
-Saved 15 topics for 2026-01-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Here’s why Trump wants Venezuela’s oil
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon’s mission to complete disarmament plan of Hezbollah
+Added expanded search topic: Here’s why Trump wants Venezuela’s oil
+Added expanded search topic: Lebanon’s mission to complete disarmament plan of Hezbollah
+Saved 18 topics for 2026-01-08
 Returning 3 unique trending topics:
-  1. Storm Goretti heads to UK bringing more snow, ice and wind (from BBC News)
-  2. What resources does Venezuela have — apart from the world’s most oil? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump invites Colombia’s Petro to White House after threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Watch: Police chief describes how shooting unfolded (from BBC News)
+  2. Here’s why Trump wants Venezuela’s oil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lebanon’s mission to complete disarmament plan of Hezbollah (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Storm Goretti heads to UK bringing more snow, ice and wind
-Searching Google for: Storm Goretti heads to UK bringing more snow, ice and wind
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BGoretti%252Bheads%252Bto%252BUK%252Bbringing%252Bmore%252Bsnow%252C%252Bice%252Band%252Bwind%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9xGM2g_coGIjAMuRVT8BqcXiEgcLncIkHfpHS0T4S10Ehzb8i20lJuc66jy5l0P906VbXa5ZMSvdkyBmpjbmRyUloBQw
+Processing trending topic: Watch: Police chief describes how shooting unfolded
+Searching Google for: Watch: Police chief describes how shooting unfolded
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BPolice%252Bchief%252Bdescribes%252Bhow%252Bshooting%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw_jGKS4_coGIjDSIuOo4aG2wDe9awuSyoGP7QU0HSeObJ_t1sq3NoDQ8GlxZ9T-XkPnU8Fibj_aAu8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: storm-goretti-heads-to-uk-bringing-more-snow-ice-a_20260108_0636.html
-✓ Created comprehensive article: storm-goretti-heads-to-uk-bringing-more-snow-ice-a_20260108_0636.html
+Successfully created file: watch-police-chief-describes-how-shooting-unfolded_20260108_0726.html
+✓ Created comprehensive article: watch-police-chief-describes-how-shooting-unfolded_20260108_0726.html
 
-Processing trending topic: What resources does Venezuela have — apart from the world’s most oil?
-Searching Google for: What resources does Venezuela have — apart from the world’s most oil?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bresources%252Bdoes%252BVenezuela%252Bhave%252B%25E2%2580%2594%252Bapart%252Bfrom%252Bthe%252Bworld%25E2%2580%2599s%252Bmost%252Boil%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9xGNSg_coGIjCPmxUQLn6cZAxnFu8PCPLnUF9qXDnp7TD-nxk6HxWY77wYsC6-Tn5nfa1fXHUm5eEyBmpjbmRyUloBQw
+Processing trending topic: Here’s why Trump wants Venezuela’s oil
+Searching Google for: Here’s why Trump wants Venezuela’s oil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHere%25E2%2580%2599s%252Bwhy%252BTrump%252Bwants%252BVenezuela%25E2%2580%2599s%252Boil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw_jGKu4_coGIjBAwHwflxnke1VzPdAZJDyiOzlZ8OJXpwcGPRfVaEF0sgxcCKZULJ5gLaakS6ssKGYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-resources-does-venezuela-have-apart-from-the-_20260108_0636.html
-✓ Created comprehensive article: what-resources-does-venezuela-have-apart-from-the-_20260108_0636.html
+Successfully created file: heres-why-trump-wants-venezuelas-oil_20260108_0726.html
+✓ Created comprehensive article: heres-why-trump-wants-venezuelas-oil_20260108_0726.html
 
-Processing trending topic: Trump invites Colombia’s Petro to White House after threats
-Searching Google for: Trump invites Colombia’s Petro to White House after threats
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Binvites%252BColombia%25E2%2580%2599s%252BPetro%252Bto%252BWhite%252BHouse%252Bafter%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9xGNug_coGIjAwvR55hWowpdorFA1OaAurE1V3YMysNAU1H5JcA5R_GFPIFdCerTxwq6RKI8JUj_UyBmpjbmRyUloBQw
+Processing trending topic: Lebanon’s mission to complete disarmament plan of Hezbollah
+Searching Google for: Lebanon’s mission to complete disarmament plan of Hezbollah
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%25E2%2580%2599s%252Bmission%252Bto%252Bcomplete%252Bdisarmament%252Bplan%252Bof%252BHezbollah%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw_jGLK4_coGIjD6u0p3SmwdiqsHGHOTIhxrjMfDV9sccvrJPtg63lodcVNpGQifdaeGX97T7QiYSBMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-invites-colombias-petro-to-white-house-after_20260108_0636.html
-✓ Created comprehensive article: trump-invites-colombias-petro-to-white-house-after_20260108_0636.html
+Successfully created file: lebanons-mission-to-complete-disarmament-plan-of-h_20260108_0726.html
+✓ Created comprehensive article: lebanons-mission-to-complete-disarmament-plan-of-h_20260108_0726.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Storm Goretti heads to UK bringing more snow, ice and wind
+   • Watch: Police chief describes how shooting unfolded
      Sources: bbc.com, cnn.com, reuters.com
-   • What resources does Venezuela have — apart from the world’s most oil?
+   • Here’s why Trump wants Venezuela’s oil
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump invites Colombia’s Petro to White House after threats
+   • Lebanon’s mission to complete disarmament plan of Hezbollah
      Sources: bbc.com, cnn.com, reuters.com
