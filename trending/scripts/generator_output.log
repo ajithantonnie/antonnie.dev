@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 63 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iran leader says anti-government protesters are vandals trying to please Trump
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is the US quitting international organisations?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Diaz scores again as Morocco edge out Cameroon in AFCON 2025 quarterfinal
-Added expanded search topic: Why is the US quitting international organisations?
-Added expanded search topic: Diaz scores again as Morocco edge out Cameroon in AFCON 2025 quarterfinal
-Saved 63 topics for 2026-01-09
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Petro says Colombia cooperating with US ‘despite insults, threats’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Greenland should ‘take the lead’ in talks with US, foreign minister says
+  Found from World News - Breaking international news and headlines | Sky News: Death penalty threat as Iran's supreme leader says protesters 'ruining' country to please Trump
+Added expanded search topic: Petro says Colombia cooperating with US ‘despite insults, threats’
+Added expanded search topic: Greenland should ‘take the lead’ in talks with US, foreign minister says
+Added expanded search topic: Death penalty threat as Iran's supreme leader says protesters 'ruining' country to please Trump
+Saved 66 topics for 2026-01-09
 Returning 3 unique trending topics:
-  1. Iran leader says anti-government protesters are vandals trying to please Trump (from BBC News)
-  2. Why is the US quitting international organisations? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Diaz scores again as Morocco edge out Cameroon in AFCON 2025 quarterfinal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Petro says Colombia cooperating with US ‘despite insults, threats’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Greenland should ‘take the lead’ in talks with US, foreign minister says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Death penalty threat as Iran's supreme leader says protesters 'ruining' country to please Trump (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Iran leader says anti-government protesters are vandals trying to please Trump
-Searching Google for: Iran leader says anti-government protesters are vandals trying to please Trump
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bleader%252Bsays%252Banti-government%252Bprotesters%252Bare%252Bvandals%252Btrying%252Bto%252Bplease%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsMkGNb_hcsGIjAQuDDw9kRG67uppoQuJvjeBppWztROskwkqjUDLCi5JA-Ei0ANKITOdlKoea6UCwEyAnJSWgFD
+Processing trending topic: Petro says Colombia cooperating with US ‘despite insults, threats’
+Searching Google for: Petro says Colombia cooperating with US ‘despite insults, threats’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPetro%252Bsays%252BColombia%252Bcooperating%252Bwith%252BUS%252B%25E2%2580%2598despite%252Binsults%252C%252Bthreats%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSazGMibhssGIjC_JzXPVLV9L3bOiWzeXDU--PKW6Jj63KdZPsOJgmZcz6s8lAGU1V-w-05JQnP2fl8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-leader-says-anti-government-protesters-are-va_20260109_2223.html
-✓ Created comprehensive article: iran-leader-says-anti-government-protesters-are-va_20260109_2223.html
+Successfully created file: petro-says-colombia-cooperating-with-us-despite-in_20260109_2322.html
+✓ Created comprehensive article: petro-says-colombia-cooperating-with-us-despite-in_20260109_2322.html
 
-Processing trending topic: Why is the US quitting international organisations?
-Searching Google for: Why is the US quitting international organisations?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252Bthe%252BUS%252Bquitting%252Binternational%252Borganisations%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsMkGN3_hcsGIjC6gl4Wke2qwoDZnCwF16aFcguIZT3hPGWHTLgyIBNhk_uGbSkUsvQHMMTgnLKIIiAyAnJSWgFD
+Processing trending topic: Greenland should ‘take the lead’ in talks with US, foreign minister says
+Searching Google for: Greenland should ‘take the lead’ in talks with US, foreign minister says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGreenland%252Bshould%252B%25E2%2580%2598take%252Bthe%252Blead%25E2%2580%2599%252Bin%252Btalks%252Bwith%252BUS%252C%252Bforeign%252Bminister%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSazGNCbhssGIjBsZsTlJLTvsTLzFnqyip0f_IJYO7SouEm7jYafb_n7OBE2y_z8LG10snXcs31RETEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-is-the-us-quitting-international-organisations_20260109_2223.html
-✓ Created comprehensive article: why-is-the-us-quitting-international-organisations_20260109_2223.html
+Successfully created file: greenland-should-take-the-lead-in-talks-with-us-fo_20260109_2323.html
+✓ Created comprehensive article: greenland-should-take-the-lead-in-talks-with-us-fo_20260109_2323.html
 
-Processing trending topic: Diaz scores again as Morocco edge out Cameroon in AFCON 2025 quarterfinal
-Searching Google for: Diaz scores again as Morocco edge out Cameroon in AFCON 2025 quarterfinal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDiaz%252Bscores%252Bagain%252Bas%252BMorocco%252Bedge%252Bout%252BCameroon%252Bin%252BAFCON%252B2025%252Bquarterfinal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsMkGOP_hcsGIjDLw1dZqHxIj3h2Gjv_rlc7aJxwBJXaM8cu6hdCDtPFr_CMawg2HqdGHQ9zVEXEcuoyAnJSWgFD
+Processing trending topic: Death penalty threat as Iran's supreme leader says protesters 'ruining' country to please Trump
+Searching Google for: Death penalty threat as Iran's supreme leader says protesters 'ruining' country to please Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeath%252Bpenalty%252Bthreat%252Bas%252BIran%2527s%252Bsupreme%252Bleader%252Bsays%252Bprotesters%252B%2527ruining%2527%252Bcountry%252Bto%252Bplease%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSazGNabhssGIjB8lvWj0CHE7KGUnJP2f60K9jUdQzPO8yyDQ25Yg1Zf0v6CEOb1zj0sYmCKKn-OUNgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: diaz-scores-again-as-morocco-edge-out-cameroon-in-_20260109_2223.html
-✓ Created comprehensive article: diaz-scores-again-as-morocco-edge-out-cameroon-in-_20260109_2223.html
+Successfully created file: death-penalty-threat-as-irans-supreme-leader-says-_20260109_2323.html
+✓ Created comprehensive article: death-penalty-threat-as-irans-supreme-leader-says-_20260109_2323.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iran leader says anti-government protesters are vandals trying to please Trump
+   • Petro says Colombia cooperating with US ‘despite insults, threats’
      Sources: bbc.com, cnn.com, reuters.com
-   • Why is the US quitting international organisations?
+   • Greenland should ‘take the lead’ in talks with US, foreign minister says
      Sources: bbc.com, cnn.com, reuters.com
-   • Diaz scores again as Morocco edge out Cameroon in AFCON 2025 quarterfinal
+   • Death penalty threat as Iran's supreme leader says protesters 'ruining' country to please Trump
      Sources: bbc.com, cnn.com, reuters.com
