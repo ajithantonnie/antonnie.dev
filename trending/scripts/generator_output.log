@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Storm Goretti brings 99mph winds and snow as 65,000 properties lose power
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-09
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says he doesn’t need international law amid aggressive US policies
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two wounded in a shooting with US federal agents in Portland, Oregon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Peace’ on paper, but catastrophe continues on the ground in Gaza
+Added expanded search topic: Trump says he doesn’t need international law amid aggressive US policies
+Added expanded search topic: Two wounded in a shooting with US federal agents in Portland, Oregon
+Added expanded search topic: ‘Peace’ on paper, but catastrophe continues on the ground in Gaza
+Saved 6 topics for 2026-01-09
 Returning 3 unique trending topics:
-  1. Storm Goretti brings 99mph winds and snow as 65,000 properties lose power (from BBC News)
-  2. Minnesota officials say FBI blocked their access to ICE shooting probe (from BBC News)
-  3. Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria (from The Guardian)
+  1. Trump says he doesn’t need international law amid aggressive US policies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Two wounded in a shooting with US federal agents in Portland, Oregon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘Peace’ on paper, but catastrophe continues on the ground in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Storm Goretti brings 99mph winds and snow as 65,000 properties lose power
-Searching Google for: Storm Goretti brings 99mph winds and snow as 65,000 properties lose power
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BGoretti%252Bbrings%252B99mph%252Bwinds%252Band%252Bsnow%252Bas%252B65%252C000%252Bproperties%252Blose%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTwUGKu6gcsGIjBz0GS7YqdNJZ7sVdhcZvVI9uQxXOrDKqk5VHDzfCIHjoiaXS9QMCwn5qDbr74wAAIyBmpjbmRyUloBQw
+Processing trending topic: Trump says he doesn’t need international law amid aggressive US policies
+Searching Google for: Trump says he doesn’t need international law amid aggressive US policies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bdoesn%25E2%2580%2599t%252Bneed%252Binternational%252Blaw%252Bamid%252Baggressive%252BUS%252Bpolicies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzLGP7tgcsGIjCVPy0o7rN7lmzvsdV_l2tCAYuy9bnry51qNqhrW-rb8_oxryTM0FmOiufQyfarFucyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: storm-goretti-brings-99mph-winds-and-snow-as-65000_20260109_0143.html
-✓ Created comprehensive article: storm-goretti-brings-99mph-winds-and-snow-as-65000_20260109_0143.html
+Successfully created file: trump-says-he-doesnt-need-international-law-amid-a_20260109_0333.html
+✓ Created comprehensive article: trump-says-he-doesnt-need-international-law-amid-a_20260109_0333.html
 
-Processing trending topic: Minnesota officials say FBI blocked their access to ICE shooting probe
-Searching Google for: Minnesota officials say FBI blocked their access to ICE shooting probe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMinnesota%252Bofficials%252Bsay%252BFBI%252Bblocked%252Btheir%252Baccess%252Bto%252BICE%252Bshooting%252Bprobe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTwUGLW6gcsGIjDqVBGqJfB5S0_1PAHX40MgUE6hE9Yt5LnD-maT3H0XwbNASwurwWTjSYF3YQYBKksyBmpjbmRyUloBQw
+Processing trending topic: Two wounded in a shooting with US federal agents in Portland, Oregon
+Searching Google for: Two wounded in a shooting with US federal agents in Portland, Oregon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bwounded%252Bin%252Ba%252Bshooting%252Bwith%252BUS%252Bfederal%252Bagents%252Bin%252BPortland%252C%252BOregon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzLGIXugcsGIjBED3Mi6Tn62ft37lVeK5DBhq8nYc-YSnRNxoyLUd-pnXJu-zLkcEqDgkESgIemIRUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: minnesota-officials-say-fbi-blocked-their-access-t_20260109_0143.html
-✓ Created comprehensive article: minnesota-officials-say-fbi-blocked-their-access-t_20260109_0143.html
+Successfully created file: two-wounded-in-a-shooting-with-us-federal-agents-i_20260109_0333.html
+✓ Created comprehensive article: two-wounded-in-a-shooting-with-us-federal-agents-i_20260109_0333.html
 
-Processing trending topic: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
-Searching Google for: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bweeks%252Bon%252C%252Bquestions%252Blinger%252Bover%252Btargeting%252Band%252Bimpact%252Bof%252BUS%252Bairstrikes%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTwUGLu6gcsGIjD8SZH9VTacGUE6opemcqHCKdHT73uzK1FYv5K2DnFb_8yeGA3ZjxMXP7LTn-cBLnQyBmpjbmRyUloBQw
+Processing trending topic: ‘Peace’ on paper, but catastrophe continues on the ground in Gaza
+Searching Google for: ‘Peace’ on paper, but catastrophe continues on the ground in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Peace%25E2%2580%2599%252Bon%252Bpaper%252C%252Bbut%252Bcatastrophe%252Bcontinues%252Bon%252Bthe%252Bground%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzLGIvugcsGIjDdadeVGHmX1bftRiABlA4u_r_xw20pqZdrGWg7huMrI21PUgv5er3F-Le5uA54oKcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-weeks-on-questions-linger-over-targeting-and-i_20260109_0143.html
-✓ Created comprehensive article: two-weeks-on-questions-linger-over-targeting-and-i_20260109_0143.html
+Successfully created file: peace-on-paper-but-catastrophe-continues-on-the-gr_20260109_0333.html
+✓ Created comprehensive article: peace-on-paper-but-catastrophe-continues-on-the-gr_20260109_0333.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Storm Goretti brings 99mph winds and snow as 65,000 properties lose power
+   • Trump says he doesn’t need international law amid aggressive US policies
      Sources: bbc.com, cnn.com, reuters.com
-   • Minnesota officials say FBI blocked their access to ICE shooting probe
+   • Two wounded in a shooting with US federal agents in Portland, Oregon
      Sources: bbc.com, cnn.com, reuters.com
-   • Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria
+   • ‘Peace’ on paper, but catastrophe continues on the ground in Gaza
      Sources: bbc.com, cnn.com, reuters.com
