@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iran medics describe overwhelmed hospitals as protests continue
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from World News - Breaking international news and headlines | Sky News: Trump says US will act on Greenland 'whether they like it or not'
-  Found from World News - Breaking international news and headlines | Sky News: 'State of disaster' declared as Australia battles bushfires during extreme heatwave
-Added expanded search topic: Trump says US will act on Greenland 'whether they like it or not'
-Added expanded search topic: 'State of disaster' declared as Australia battles bushfires during extreme heatwave
-Saved 27 topics for 2026-01-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s army pledges to defend national interests after US backs protesters
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Abandoned Myanmar town shows problem of election in wartime
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Death toll in Philippines landfill collapse hits 4, dozens still trapped
+Added expanded search topic: Iran’s army pledges to defend national interests after US backs protesters
+Added expanded search topic: Abandoned Myanmar town shows problem of election in wartime
+Added expanded search topic: Death toll in Philippines landfill collapse hits 4, dozens still trapped
+Saved 30 topics for 2026-01-10
 Returning 3 unique trending topics:
-  1. Iran medics describe overwhelmed hospitals as protests continue (from BBC News)
-  2. Trump says US will act on Greenland 'whether they like it or not' (from World News - Breaking international news and headlines | Sky News)
-  3. 'State of disaster' declared as Australia battles bushfires during extreme heatwave (from World News - Breaking international news and headlines | Sky News)
+  1. Iran’s army pledges to defend national interests after US backs protesters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Abandoned Myanmar town shows problem of election in wartime (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Death toll in Philippines landfill collapse hits 4, dozens still trapped (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iran medics describe overwhelmed hospitals as protests continue
-Searching Google for: Iran medics describe overwhelmed hospitals as protests continue
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bmedics%252Bdescribe%252Boverwhelmed%252Bhospitals%252Bas%252Bprotests%252Bcontinue%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raOCGJ_RiMsGIjARMsCRPigydTeMm_wmEV6OHCQ5yzHhT3KAR8gNi9EcnqJaEy1BzmheJ9j7Hc0jP94yBmpjbmRyUloBQw
+Processing trending topic: Iran’s army pledges to defend national interests after US backs protesters
+Searching Google for: Iran’s army pledges to defend national interests after US backs protesters
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Barmy%252Bpledges%252Bto%252Bdefend%252Bnational%252Binterests%252Bafter%252BUS%252Bbacks%252Bprotesters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNIxGJDsiMsGIjCJNogd4QvKb5lEeKjzCaqzkiJtxtc9Uxp740GHinIEcrWqTl_klJGlZzrmSjYhIXwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-medics-describe-overwhelmed-hospitals-as-prot_20260110_1023.html
-✓ Created comprehensive article: iran-medics-describe-overwhelmed-hospitals-as-prot_20260110_1023.html
+Successfully created file: irans-army-pledges-to-defend-national-interests-af_20260110_1120.html
+✓ Created comprehensive article: irans-army-pledges-to-defend-national-interests-af_20260110_1120.html
 
-Processing trending topic: Trump says US will act on Greenland 'whether they like it or not'
-Searching Google for: Trump says US will act on Greenland 'whether they like it or not'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bwill%252Bact%252Bon%252BGreenland%252B%2527whether%252Bthey%252Blike%252Bit%252Bor%252Bnot%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raOCGKfRiMsGIjD7AWB0r2aHdrU0cTFReHp9RX_Y3-LMIFPCnNGpBZpdG7JyW1NtU4_Wa9Qx-iA_cw8yBmpjbmRyUloBQw
+Processing trending topic: Abandoned Myanmar town shows problem of election in wartime
+Searching Google for: Abandoned Myanmar town shows problem of election in wartime
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAbandoned%252BMyanmar%252Btown%252Bshows%252Bproblem%252Bof%252Belection%252Bin%252Bwartime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNIxGJfsiMsGIjB4UZnzEBmd5P4vRrAP_t4VIiUHCIbVPp3dqiuoBiDeO3Ttu56My3CXAkooSzAWoUYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-will-act-on-greenland-whether-they-l_20260110_1023.html
-✓ Created comprehensive article: trump-says-us-will-act-on-greenland-whether-they-l_20260110_1023.html
+Successfully created file: abandoned-myanmar-town-shows-problem-of-election-i_20260110_1120.html
+✓ Created comprehensive article: abandoned-myanmar-town-shows-problem-of-election-i_20260110_1120.html
 
-Processing trending topic: 'State of disaster' declared as Australia battles bushfires during extreme heatwave
-Searching Google for: 'State of disaster' declared as Australia battles bushfires during extreme heatwave
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527State%252Bof%252Bdisaster%2527%252Bdeclared%252Bas%252BAustralia%252Bbattles%252Bbushfires%252Bduring%252Bextreme%252Bheatwave%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raOCGK3RiMsGIjBDjspkqZ7JsIgp538g3V5YxpkHjzKnySU0cjxhVMqTfdeLKTseHngsS0oqJ2PPTN8yBmpjbmRyUloBQw
+Processing trending topic: Death toll in Philippines landfill collapse hits 4, dozens still trapped
+Searching Google for: Death toll in Philippines landfill collapse hits 4, dozens still trapped
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeath%252Btoll%252Bin%252BPhilippines%252Blandfill%252Bcollapse%252Bhits%252B4%252C%252Bdozens%252Bstill%252Btrapped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNIxGJ3siMsGIjCg6qD2bW_8Dizqo4EXO13oYOFiP7Zy8Hapu7-ubJtuTrox_PbgWeWcgSCovJuk4ugyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: state-of-disaster-declared-as-australia-battles-bu_20260110_1023.html
-✓ Created comprehensive article: state-of-disaster-declared-as-australia-battles-bu_20260110_1023.html
+Successfully created file: death-toll-in-philippines-landfill-collapse-hits-4_20260110_1121.html
+✓ Created comprehensive article: death-toll-in-philippines-landfill-collapse-hits-4_20260110_1121.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iran medics describe overwhelmed hospitals as protests continue
+   • Iran’s army pledges to defend national interests after US backs protesters
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says US will act on Greenland 'whether they like it or not'
+   • Abandoned Myanmar town shows problem of election in wartime
      Sources: bbc.com, cnn.com, reuters.com
-   • 'State of disaster' declared as Australia battles bushfires during extreme heatwave
+   • Death toll in Philippines landfill collapse hits 4, dozens still trapped
      Sources: bbc.com, cnn.com, reuters.com
