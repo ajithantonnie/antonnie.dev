@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 57 topics
+Already used today: 60 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injure...
-  Added: Dozens arrested and one police officer injured in Minneapolis protests
+  Added: US military strikes Islamic State group targets in Syria, officials say
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We have to stand up’: ICE killing in Minneapolis sparks protests across US
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yemeni gov’t says southern areas ‘recaptured’ from separatist STC
-Added expanded search topic: ‘We have to stand up’: ICE killing in Minneapolis sparks protests across US
-Added expanded search topic: Yemeni gov’t says southern areas ‘recaptured’ from separatist STC
-Saved 60 topics for 2026-01-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Barcelona vs Real Madrid: Supercopa final 2026 – El Clasico, teams, start
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Colombia’s Petro on US threats and whether he fears Maduro’s fate
+Added expanded search topic: Barcelona vs Real Madrid: Supercopa final 2026 – El Clasico, teams, start
+Added expanded search topic: Colombia’s Petro on US threats and whether he fears Maduro’s fate
+Saved 63 topics for 2026-01-10
 Returning 3 unique trending topics:
-  1. Dozens arrested and one police officer injured in Minneapolis protests (from BBC News)
-  2. ‘We have to stand up’: ICE killing in Minneapolis sparks protests across US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Yemeni gov’t says southern areas ‘recaptured’ from separatist STC (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US military strikes Islamic State group targets in Syria, officials say (from BBC News)
+  2. Barcelona vs Real Madrid: Supercopa final 2026 – El Clasico, teams, start (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Colombia’s Petro on US threats and whether he fears Maduro’s fate (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dozens arrested and one police officer injured in Minneapolis protests
-Searching Google for: Dozens arrested and one police officer injured in Minneapolis protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Barrested%252Band%252Bone%252Bpolice%252Bofficer%252Binjured%252Bin%252BMinneapolis%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNIxGOOFi8sGIjCb_HSL79uILDJtaa8XKRW5PGrc98cePBI7qnQEU50SB_ScC8oe0JkAIp9x_f7RuQMyBmpjbmRyUloBQw
+Processing trending topic: US military strikes Islamic State group targets in Syria, officials say
+Searching Google for: US military strikes Islamic State group targets in Syria, officials say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmilitary%252Bstrikes%252BIslamic%252BState%252Bgroup%252Btargets%252Bin%252BSyria%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RlgGK6ii8sGIjB83HfBtt2jmQ5X2vG-pElbo6b-lTW7-QOU_2VF9x-udxamvKLFZYCE1TtC8T_3neIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dozens-arrested-and-one-police-officer-injured-in-_20260110_2121.html
-✓ Created comprehensive article: dozens-arrested-and-one-police-officer-injured-in-_20260110_2121.html
+Successfully created file: us-military-strikes-islamic-state-group-targets-in_20260110_2222.html
+✓ Created comprehensive article: us-military-strikes-islamic-state-group-targets-in_20260110_2222.html
 
-Processing trending topic: ‘We have to stand up’: ICE killing in Minneapolis sparks protests across US
-Searching Google for: ‘We have to stand up’: ICE killing in Minneapolis sparks protests across US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bhave%252Bto%252Bstand%252Bup%25E2%2580%2599%253A%252BICE%252Bkilling%252Bin%252BMinneapolis%252Bsparks%252Bprotests%252Bacross%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNIxGOqFi8sGIjBvQnphg1Mt_BrAAljpA8f5P5K5U8-r4aEK96zOE5huBWqXnWzN_-BQ-NVpccYrDNYyBmpjbmRyUloBQw
+Processing trending topic: Barcelona vs Real Madrid: Supercopa final 2026 – El Clasico, teams, start
+Searching Google for: Barcelona vs Real Madrid: Supercopa final 2026 – El Clasico, teams, start
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBarcelona%252Bvs%252BReal%252BMadrid%253A%252BSupercopa%252Bfinal%252B2026%252B%25E2%2580%2593%252BEl%252BClasico%252C%252Bteams%252C%252Bstart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RlgGLiii8sGIjCH7uQS1Luuvv7TtLY5lFNIeBs2db8VIykssqlFeGpLxrDY0otkIc2Eb1hUCILb5EUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-have-to-stand-up-ice-killing-in-minneapolis-spa_20260110_2121.html
-✓ Created comprehensive article: we-have-to-stand-up-ice-killing-in-minneapolis-spa_20260110_2121.html
+Successfully created file: barcelona-vs-real-madrid-supercopa-final-2026-el-c_20260110_2222.html
+✓ Created comprehensive article: barcelona-vs-real-madrid-supercopa-final-2026-el-c_20260110_2222.html
 
-Processing trending topic: Yemeni gov’t says southern areas ‘recaptured’ from separatist STC
-Searching Google for: Yemeni gov’t says southern areas ‘recaptured’ from separatist STC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYemeni%252Bgov%25E2%2580%2599t%252Bsays%252Bsouthern%252Bareas%252B%25E2%2580%2598recaptured%25E2%2580%2599%252Bfrom%252Bseparatist%252BSTC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNIxGPGFi8sGIjAZLuwJuP4wy11lbmATrixLlKvWdovtGId-2v_UoWiEEvRT2YrdDrGjcJtnxh3jR58yBmpjbmRyUloBQw
+Processing trending topic: Colombia’s Petro on US threats and whether he fears Maduro’s fate
+Searching Google for: Colombia’s Petro on US threats and whether he fears Maduro’s fate
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DColombia%25E2%2580%2599s%252BPetro%252Bon%252BUS%252Bthreats%252Band%252Bwhether%252Bhe%252Bfears%252BMaduro%25E2%2580%2599s%252Bfate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RlgGL-ii8sGIjBrgBH2NDMSAUkCDr-O48c1DpDpyLd9geN1dOuCAbFegrCH-ps6hnzSBeXfBH-jTv4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: yemeni-govt-says-southern-areas-recaptured-from-se_20260110_2121.html
-✓ Created comprehensive article: yemeni-govt-says-southern-areas-recaptured-from-se_20260110_2121.html
+Successfully created file: colombias-petro-on-us-threats-and-whether-he-fears_20260110_2222.html
+✓ Created comprehensive article: colombias-petro-on-us-threats-and-whether-he-fears_20260110_2222.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dozens arrested and one police officer injured in Minneapolis protests
+   • US military strikes Islamic State group targets in Syria, officials say
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘We have to stand up’: ICE killing in Minneapolis sparks protests across US
+   • Barcelona vs Real Madrid: Supercopa final 2026 – El Clasico, teams, start
      Sources: bbc.com, cnn.com, reuters.com
-   • Yemeni gov’t says southern areas ‘recaptured’ from separatist STC
+   • Colombia’s Petro on US threats and whether he fears Maduro’s fate
      Sources: bbc.com, cnn.com, reuters.com
