@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says US needs to 'own' Greenland to prevent Russia and China from taking it
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-10
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump promises oil executives ‘total safety’ if they invest in Venezuela
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian army ramps up Aleppo strikes against Kurdish fighters
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is the US quitting international organisations?
+Added expanded search topic: Trump promises oil executives ‘total safety’ if they invest in Venezuela
+Added expanded search topic: Syrian army ramps up Aleppo strikes against Kurdish fighters
+Added expanded search topic: Why is the US quitting international organisations?
+Saved 6 topics for 2026-01-10
 Returning 3 unique trending topics:
-  1. Trump says US needs to 'own' Greenland to prevent Russia and China from taking it (from BBC News)
-  2. Iran leader says protesters are vandals trying to please Trump (from BBC News)
-  3. Attempt to overturn the Gambia’s ban on FGM heard by supreme court (from The Guardian)
+  1. Trump promises oil executives ‘total safety’ if they invest in Venezuela (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Syrian army ramps up Aleppo strikes against Kurdish fighters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why is the US quitting international organisations? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says US needs to 'own' Greenland to prevent Russia and China from taking it
-Searching Google for: Trump says US needs to 'own' Greenland to prevent Russia and China from taking it
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bneeds%252Bto%252B%2527own%2527%252BGreenland%252Bto%252Bprevent%252BRussia%252Band%252BChina%252Bfrom%252Btaking%252Bit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rduVGPrXhssGIjAAJknBL0QK7Gzsj8XntUuJsGvN2HmIr06mZT9DyRdQNx7WE7fJOhuw2z-PcYsah_cyBmpjbmRyUloBQw
+Processing trending topic: Trump promises oil executives ‘total safety’ if they invest in Venezuela
+Searching Google for: Trump promises oil executives ‘total safety’ if they invest in Venezuela
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bpromises%252Boil%252Bexecutives%252B%25E2%2580%2598total%252Bsafety%25E2%2580%2599%252Bif%252Bthey%252Binvest%252Bin%252BVenezuela%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oS3iGOSNh8sGIjBvlVfAZYIbKhedj4lMqNvAVb4TmsOx-ZJwgH8yT_lMUq2pyJCvP4TXIzU_m3ilfzsyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-needs-to-own-greenland-to-prevent-ru_20260110_0131.html
-✓ Created comprehensive article: trump-says-us-needs-to-own-greenland-to-prevent-ru_20260110_0131.html
+Successfully created file: trump-promises-oil-executives-total-safety-if-they_20260110_0326.html
+✓ Created comprehensive article: trump-promises-oil-executives-total-safety-if-they_20260110_0326.html
 
-Processing trending topic: Iran leader says protesters are vandals trying to please Trump
-Searching Google for: Iran leader says protesters are vandals trying to please Trump
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bleader%252Bsays%252Bprotesters%252Bare%252Bvandals%252Btrying%252Bto%252Bplease%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rduVGILYhssGIjDqyfJSZ4hEB7gLuHZXrin54IZ0geOf8PRWHJ2kS-LuQL-nrMspaJv4BGLVY7V-WE4yBmpjbmRyUloBQw
+Processing trending topic: Syrian army ramps up Aleppo strikes against Kurdish fighters
+Searching Google for: Syrian army ramps up Aleppo strikes against Kurdish fighters
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Barmy%252Bramps%252Bup%252BAleppo%252Bstrikes%252Bagainst%252BKurdish%252Bfighters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oS3iGOyNh8sGIjDwTOMEeOcSaDfEURXvgXE3lHQ-0G0dTrBaDbjsu-UnIyK2Gl79KX8uT0Nkama9b2IyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-leader-says-protesters-are-vandals-trying-to-_20260110_0131.html
-✓ Created comprehensive article: iran-leader-says-protesters-are-vandals-trying-to-_20260110_0131.html
+Successfully created file: syrian-army-ramps-up-aleppo-strikes-against-kurdis_20260110_0326.html
+✓ Created comprehensive article: syrian-army-ramps-up-aleppo-strikes-against-kurdis_20260110_0326.html
 
-Processing trending topic: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Searching Google for: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttempt%252Bto%252Boverturn%252Bthe%252BGambia%25E2%2580%2599s%252Bban%252Bon%252BFGM%252Bheard%252Bby%252Bsupreme%252Bcourt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rduVGIjYhssGIjBH0zhdQyS-FpPx8fZR9WMRsRWMlgf1MPa4MzhCJj7Ni9qrwpdVLA4AxKoQxgMey-UyBmpjbmRyUloBQw
+Processing trending topic: Why is the US quitting international organisations?
+Searching Google for: Why is the US quitting international organisations?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252Bthe%252BUS%252Bquitting%252Binternational%252Borganisations%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oS3iGPONh8sGIjC1jPxWZEBHNVsEdh19-TGnP5rzWIa4cwaM6M0-_9CGDnRvQm5iGT3HWDF8WbTw3VIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attempt-to-overturn-the-gambias-ban-on-fgm-heard-b_20260110_0131.html
-✓ Created comprehensive article: attempt-to-overturn-the-gambias-ban-on-fgm-heard-b_20260110_0131.html
+Successfully created file: why-is-the-us-quitting-international-organisations_20260110_0326.html
+✓ Created comprehensive article: why-is-the-us-quitting-international-organisations_20260110_0326.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says US needs to 'own' Greenland to prevent Russia and China from taking it
+   • Trump promises oil executives ‘total safety’ if they invest in Venezuela
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran leader says protesters are vandals trying to please Trump
+   • Syrian army ramps up Aleppo strikes against Kurdish fighters
      Sources: bbc.com, cnn.com, reuters.com
-   • Attempt to overturn the Gambia’s ban on FGM heard by supreme court
+   • Why is the US quitting international organisations?
      Sources: bbc.com, cnn.com, reuters.com
