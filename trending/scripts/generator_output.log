@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iran warns it will retaliate if US attacks as protesters defy crackdown
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hunger strike for 70 days: How the body breaks down without food
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan announces government’s return to Khartoum from wartime capital
-Added expanded search topic: Hunger strike for 70 days: How the body breaks down without food
-Added expanded search topic: Sudan announces government’s return to Khartoum from wartime capital
-Saved 42 topics for 2026-01-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Barcelona vs Real Madrid: El Clasico Supercopa final
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran protests live: Tehran says it will hit back at US, Israel if attacked
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: “Europe has to look after its security and cannot rely on America”
+Added expanded search topic: LIVE: Barcelona vs Real Madrid: El Clasico Supercopa final
+Added expanded search topic: Iran protests live: Tehran says it will hit back at US, Israel if attacked
+Added expanded search topic: “Europe has to look after its security and cannot rely on America”
+Saved 45 topics for 2026-01-11
 Returning 3 unique trending topics:
-  1. Trump tells Cuba to 'make a deal, before it is too late' (from BBC News)
-  2. Hunger strike for 70 days: How the body breaks down without food (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Sudan announces government’s return to Khartoum from wartime capital (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. LIVE: Barcelona vs Real Madrid: El Clasico Supercopa final (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran protests live: Tehran says it will hit back at US, Israel if attacked (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. “Europe has to look after its security and cannot rely on America” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump tells Cuba to 'make a deal, before it is too late'
-Searching Google for: Trump tells Cuba to 'make a deal, before it is too late'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btells%252BCuba%252Bto%252B%2527make%252Ba%252Bdeal%252C%252Bbefore%252Bit%252Bis%252Btoo%252Blate%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33TGMmAj8sGIjBjVWQ-BH8d34kzKo8lLaox8A_9fYd5AIncRtOT8aDJoIMihxxJUktZTiihSXrJJf0yBmpjbmRyUloBQw
+Processing trending topic: LIVE: Barcelona vs Real Madrid: El Clasico Supercopa final
+Searching Google for: LIVE: Barcelona vs Real Madrid: El Clasico Supercopa final
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BBarcelona%252Bvs%252BReal%252BMadrid%253A%252BEl%252BClasico%252BSupercopa%252Bfinal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDgGKCej8sGIjBv8kE74SJFlT1Gajr581RfrzryoH5iP9xNFurT8WFiQpPRRizUJRCWnTLz9hOBUe0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-tells-cuba-to-make-a-deal-before-it-is-too-l_20260111_1522.html
-✓ Created comprehensive article: trump-tells-cuba-to-make-a-deal-before-it-is-too-l_20260111_1522.html
+Successfully created file: live-barcelona-vs-real-madrid-el-clasico-supercopa_20260111_1626.html
+✓ Created comprehensive article: live-barcelona-vs-real-madrid-el-clasico-supercopa_20260111_1626.html
 
-Processing trending topic: Hunger strike for 70 days: How the body breaks down without food
-Searching Google for: Hunger strike for 70 days: How the body breaks down without food
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHunger%252Bstrike%252Bfor%252B70%252Bdays%253A%252BHow%252Bthe%252Bbody%252Bbreaks%252Bdown%252Bwithout%252Bfood%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33TGNGAj8sGIjCDQhVDtlD2dk1a7AAjbDaUO-uSfimMlYwyERDgEjOnc_IKqrhBpQze4pzvCVxwpzoyBmpjbmRyUloBQw
+Processing trending topic: Iran protests live: Tehran says it will hit back at US, Israel if attacked
+Searching Google for: Iran protests live: Tehran says it will hit back at US, Israel if attacked
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bprotests%252Blive%253A%252BTehran%252Bsays%252Bit%252Bwill%252Bhit%252Bback%252Bat%252BUS%252C%252BIsrael%252Bif%252Battacked%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDgGKeej8sGIjCQmTq6jrNklj4fJks-DzfIaiYG-ctVGwEwiZa9mYBHicQq4QvvNT8Amu7buZ5W_mAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hunger-strike-for-70-days-how-the-body-breaks-down_20260111_1523.html
-✓ Created comprehensive article: hunger-strike-for-70-days-how-the-body-breaks-down_20260111_1523.html
+Successfully created file: iran-protests-live-tehran-says-it-will-hit-back-at_20260111_1626.html
+✓ Created comprehensive article: iran-protests-live-tehran-says-it-will-hit-back-at_20260111_1626.html
 
-Processing trending topic: Sudan announces government’s return to Khartoum from wartime capital
-Searching Google for: Sudan announces government’s return to Khartoum from wartime capital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%252Bannounces%252Bgovernment%25E2%2580%2599s%252Breturn%252Bto%252BKhartoum%252Bfrom%252Bwartime%252Bcapital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33TGNeAj8sGIjA8-i_1aKkGMbpCBCJix9vCYTgxK2EzWM9jWVXjBMS4KpcSb_df5PXzktATNeAnOiQyBmpjbmRyUloBQw
+Processing trending topic: “Europe has to look after its security and cannot rely on America”
+Searching Google for: “Europe has to look after its security and cannot rely on America”
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%259CEurope%252Bhas%252Bto%252Blook%252Bafter%252Bits%252Bsecurity%252Band%252Bcannot%252Brely%252Bon%252BAmerica%25E2%2580%259D%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDgGK2ej8sGIjDeGcPijKYb-EslL4N4zOuqGG34ZXzE1F3CRwMMOT5MlZAmlyI9evvjYKavo4eYYPgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sudan-announces-governments-return-to-khartoum-fro_20260111_1523.html
-✓ Created comprehensive article: sudan-announces-governments-return-to-khartoum-fro_20260111_1523.html
+Successfully created file: europe-has-to-look-after-its-security-and-cannot-r_20260111_1626.html
+✓ Created comprehensive article: europe-has-to-look-after-its-security-and-cannot-r_20260111_1626.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump tells Cuba to 'make a deal, before it is too late'
+   • LIVE: Barcelona vs Real Madrid: El Clasico Supercopa final
      Sources: bbc.com, cnn.com, reuters.com
-   • Hunger strike for 70 days: How the body breaks down without food
+   • Iran protests live: Tehran says it will hit back at US, Israel if attacked
      Sources: bbc.com, cnn.com, reuters.com
-   • Sudan announces government’s return to Khartoum from wartime capital
+   • “Europe has to look after its security and cannot rely on America”
      Sources: bbc.com, cnn.com, reuters.com
