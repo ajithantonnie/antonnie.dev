@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 63 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iran warns it will retaliate if US attacks, as hundreds killed in protests
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Barcelona beat Real Madrid in El Clasico to retain Spanish Super Cup
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Barcelona defeats Real Madrid 3-2 – El Clasico Supercopa final 2026
-Added expanded search topic: Barcelona beat Real Madrid in El Clasico to retain Spanish Super Cup
-Added expanded search topic: LIVE: Barcelona defeats Real Madrid 3-2 – El Clasico Supercopa final 2026
-Saved 63 topics for 2026-01-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Barcelona vs Real Madrid 3-2: El Clasico Supercopa final – as it happened
+  Found from World News - Breaking international news and headlines | Sky News: Woman shot dead in head as body bags show emerging picture of Iranian crackdown
+  Found from World News - Breaking international news and headlines | Sky News: Nobel Institute responds to claims Machado could give Peace Prize to Trump
+Added expanded search topic: Barcelona vs Real Madrid 3-2: El Clasico Supercopa final – as it happened
+Added expanded search topic: Woman shot dead in head as body bags show emerging picture of Iranian crackdown
+Added expanded search topic: Nobel Institute responds to claims Machado could give Peace Prize to Trump
+Saved 66 topics for 2026-01-11
 Returning 3 unique trending topics:
-  1. Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case (from BBC News)
-  2. Barcelona beat Real Madrid in El Clasico to retain Spanish Super Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. LIVE: Barcelona defeats Real Madrid 3-2 – El Clasico Supercopa final 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Barcelona vs Real Madrid 3-2: El Clasico Supercopa final – as it happened (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Woman shot dead in head as body bags show emerging picture of Iranian crackdown (from World News - Breaking international news and headlines | Sky News)
+  3. Nobel Institute responds to claims Machado could give Peace Prize to Trump (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case
-Searching Google for: Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGuantanamo%252Bdetainee%252Bpaid%252B%2527substantial%2527%252Bcompensation%252Bby%252BUK%252Bto%252Bsettle%252Btorture%252Bcomplicity%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUtDGK7FkMsGIjBtzCMOYejGzCohqZLfneZi_Zp2zmg_rRpr8LvsOZ39RI_ZlbTwlHgDs9fS_Bwr86AyBmpjbmRyUloBQw
+Processing trending topic: Barcelona vs Real Madrid 3-2: El Clasico Supercopa final – as it happened
+Searching Google for: Barcelona vs Real Madrid 3-2: El Clasico Supercopa final – as it happened
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBarcelona%252Bvs%252BReal%252BMadrid%252B3-2%253A%252BEl%252BClasico%252BSupercopa%252Bfinal%252B%25E2%2580%2593%252Bas%252Bit%252Bhappened%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ijFGMfhkMsGIjBfEIOjl-G-n6ITXCG6pauQQDjYo0R1E8rG_3u6xCWUhvqVWay_KS-ZCEJZp2VHd7EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: guantanamo-detainee-paid-substantial-compensation-_20260111_2222.html
-✓ Created comprehensive article: guantanamo-detainee-paid-substantial-compensation-_20260111_2222.html
+Successfully created file: barcelona-vs-real-madrid-3-2-el-clasico-supercopa-_20260111_2322.html
+✓ Created comprehensive article: barcelona-vs-real-madrid-3-2-el-clasico-supercopa-_20260111_2322.html
 
-Processing trending topic: Barcelona beat Real Madrid in El Clasico to retain Spanish Super Cup
-Searching Google for: Barcelona beat Real Madrid in El Clasico to retain Spanish Super Cup
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBarcelona%252Bbeat%252BReal%252BMadrid%252Bin%252BEl%252BClasico%252Bto%252Bretain%252BSpanish%252BSuper%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUtDGLXFkMsGIjAortaoYpwemfIMbEgzFPvlP4zg1tCnBXyWLtnrVvH9fKoauvG7CZ-fjR6QSl9PKvIyBmpjbmRyUloBQw
+Processing trending topic: Woman shot dead in head as body bags show emerging picture of Iranian crackdown
+Searching Google for: Woman shot dead in head as body bags show emerging picture of Iranian crackdown
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWoman%252Bshot%252Bdead%252Bin%252Bhead%252Bas%252Bbody%252Bbags%252Bshow%252Bemerging%252Bpicture%252Bof%252BIranian%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ijFGM7hkMsGIjBdmCSPmfhWmybLzoZD3xYE1rnULIJxyLQpeikNcxkx2ocGir1e1TO2Llznppw-0iIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: barcelona-beat-real-madrid-in-el-clasico-to-retain_20260111_2222.html
-✓ Created comprehensive article: barcelona-beat-real-madrid-in-el-clasico-to-retain_20260111_2222.html
+Successfully created file: woman-shot-dead-in-head-as-body-bags-show-emerging_20260111_2322.html
+✓ Created comprehensive article: woman-shot-dead-in-head-as-body-bags-show-emerging_20260111_2322.html
 
-Processing trending topic: LIVE: Barcelona defeats Real Madrid 3-2 – El Clasico Supercopa final 2026
-Searching Google for: LIVE: Barcelona defeats Real Madrid 3-2 – El Clasico Supercopa final 2026
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BBarcelona%252Bdefeats%252BReal%252BMadrid%252B3-2%252B%25E2%2580%2593%252BEl%252BClasico%252BSupercopa%252Bfinal%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUtDGLzFkMsGIjA3sFUT5JExteFKMKBT-Iaps17NDZRVrc3bsKUSepPiPIwd_2mtWeKhjPFW7nEBnHEyBmpjbmRyUloBQw
+Processing trending topic: Nobel Institute responds to claims Machado could give Peace Prize to Trump
+Searching Google for: Nobel Institute responds to claims Machado could give Peace Prize to Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNobel%252BInstitute%252Bresponds%252Bto%252Bclaims%252BMachado%252Bcould%252Bgive%252BPeace%252BPrize%252Bto%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ijFGNThkMsGIjC20i-ryigMQR0M2Xeongu9AHBIwgwkQ6ez7YtO-0Z-VoT1y8dH3jfvZwxhePSasB0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-barcelona-defeats-real-madrid-3-2-el-clasico-_20260111_2222.html
-✓ Created comprehensive article: live-barcelona-defeats-real-madrid-3-2-el-clasico-_20260111_2222.html
+Successfully created file: nobel-institute-responds-to-claims-machado-could-g_20260111_2323.html
+✓ Created comprehensive article: nobel-institute-responds-to-claims-machado-could-g_20260111_2323.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case
+   • Barcelona vs Real Madrid 3-2: El Clasico Supercopa final – as it happened
      Sources: bbc.com, cnn.com, reuters.com
-   • Barcelona beat Real Madrid in El Clasico to retain Spanish Super Cup
+   • Woman shot dead in head as body bags show emerging picture of Iranian crackdown
      Sources: bbc.com, cnn.com, reuters.com
-   • LIVE: Barcelona defeats Real Madrid 3-2 – El Clasico Supercopa final 2026
+   • Nobel Institute responds to claims Machado could give Peace Prize to Trump
      Sources: bbc.com, cnn.com, reuters.com
