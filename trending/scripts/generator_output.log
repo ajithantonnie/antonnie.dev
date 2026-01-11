@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injure...
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-11
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,417
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US launches ‘large-scale’ attacks against ISIL in Syria after deadly ambush
+Added expanded search topic: Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,417
+Added expanded search topic: US launches ‘large-scale’ attacks against ISIL in Syria after deadly ambush
+Saved 6 topics for 2026-01-11
 Returning 3 unique trending topics:
-  1. 'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injure... (from BBC News)
-  2. US military strikes Islamic State group targets in Syria, officials say (from BBC News)
-  3. Attempt to overturn the Gambia’s ban on FGM heard by supreme court (from The Guardian)
+  1. Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,417 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US launches ‘large-scale’ attacks against ISIL in Syria after deadly ambush (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injure...
-Searching Google for: 'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injure...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527There%252Bwasn%2527t%252Beven%252Btime%252Bfor%252BCPR%2527%253A%252BIran%252Bmedics%252Bdescribe%252Bhospitals%252Boverwhelmed%252Bwith%252Bdead%252Band%252Binjure...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MjgGKGEjMsGIjCO4gXupZesGA5_7jaDWdzJ5OZBRNTmPyrl-PaFRnQpUXmzAG3ozhLw2cDtVWJoT1oyBmpjbmRyUloBQw
+Processing trending topic: Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes
+Searching Google for: Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLast%252BKurdish-led%252BSDF%252Bfighters%252Bleave%252BSyria%25E2%2580%2599s%252BAleppo%252Bafter%252Bdays%252Bof%252Bclashes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrAZDGPK8jMsGIjAFVn128qn9mih86OUVfxuh1aKrhqYFmWGcPFcVWLpBC4W-TemMdpZ03E_YPVAwUW8yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: there-wasnt-even-time-for-cpr-iran-medics-describe_20260111_0151.html
-✓ Created comprehensive article: there-wasnt-even-time-for-cpr-iran-medics-describe_20260111_0151.html
+Successfully created file: last-kurdish-led-sdf-fighters-leave-syrias-aleppo-_20260111_0352.html
+✓ Created comprehensive article: last-kurdish-led-sdf-fighters-leave-syrias-aleppo-_20260111_0352.html
 
-Processing trending topic: US military strikes Islamic State group targets in Syria, officials say
-Searching Google for: US military strikes Islamic State group targets in Syria, officials say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmilitary%252Bstrikes%252BIslamic%252BState%252Bgroup%252Btargets%252Bin%252BSyria%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MjgGKiEjMsGIjDw3BFVnv5QTNZyALjW3S0kfFIRZuKT6gzurs1CRKJ8zQ0wbwn1IAbN5V95UzXHXPAyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,417
+Searching Google for: Russia-Ukraine war: List of key events, day 1,417
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C417%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrAZDGPm8jMsGIjDMq1zRSll9MdCqwx7m9HCr4wJgAfHMgJAw81FW8tMR8cVO7h0Ip0cbhKNolq3zgmAyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-military-strikes-islamic-state-group-targets-in_20260111_0151.html
-✓ Created comprehensive article: us-military-strikes-islamic-state-group-targets-in_20260111_0151.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1417_20260111_0352.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1417_20260111_0352.html
 
-Processing trending topic: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Searching Google for: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttempt%252Bto%252Boverturn%252Bthe%252BGambia%25E2%2580%2599s%252Bban%252Bon%252BFGM%252Bheard%252Bby%252Bsupreme%252Bcourt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MjgGK6EjMsGIjDZLh2_w3_zC5T3iY8OQuAo66_CmvX8b2XylZYVoSZm--yyIy1l8IfFZj8UuJTRz-wyBmpjbmRyUloBQw
+Processing trending topic: US launches ‘large-scale’ attacks against ISIL in Syria after deadly ambush
+Searching Google for: US launches ‘large-scale’ attacks against ISIL in Syria after deadly ambush
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blaunches%252B%25E2%2580%2598large-scale%25E2%2580%2599%252Battacks%252Bagainst%252BISIL%252Bin%252BSyria%252Bafter%252Bdeadly%252Bambush%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrAZDGIC9jMsGIjDyI0SntUKvLHkmUqTtwDUVvnFQA4jlO17XN3wlEY-aXGtyTBbEBt1Ry1B5ei55ZNMyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attempt-to-overturn-the-gambias-ban-on-fgm-heard-b_20260111_0151.html
-✓ Created comprehensive article: attempt-to-overturn-the-gambias-ban-on-fgm-heard-b_20260111_0151.html
+Successfully created file: us-launches-large-scale-attacks-against-isil-in-sy_20260111_0352.html
+✓ Created comprehensive article: us-launches-large-scale-attacks-against-isil-in-sy_20260111_0352.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injure...
+   • Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes
      Sources: bbc.com, cnn.com, reuters.com
-   • US military strikes Islamic State group targets in Syria, officials say
+   • Russia-Ukraine war: List of key events, day 1,417
      Sources: bbc.com, cnn.com, reuters.com
-   • Attempt to overturn the Gambia’s ban on FGM heard by supreme court
+   • US launches ‘large-scale’ attacks against ISIL in Syria after deadly ambush
      Sources: bbc.com, cnn.com, reuters.com
