@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iran warns it will retaliate if US attacks, as hundreds killed in protests
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-12
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,418
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US military considering ‘very strong options’ for Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Denmark’s PM says Greenland showdown at ‘decisive moment’
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,418
+Added expanded search topic: Trump says US military considering ‘very strong options’ for Iran
+Added expanded search topic: Denmark’s PM says Greenland showdown at ‘decisive moment’
+Saved 6 topics for 2026-01-12
 Returning 3 unique trending topics:
-  1. Iran warns it will retaliate if US attacks, as hundreds killed in protests (from BBC News)
-  2. US justice department opens criminal probe into Fed chair Jerome Powell (from BBC News)
-  3. Attempt to overturn the Gambia’s ban on FGM heard by supreme court (from The Guardian)
+  1. Russia-Ukraine war: List of key events, day 1,418 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump says US military considering ‘very strong options’ for Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Denmark’s PM says Greenland showdown at ‘decisive moment’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iran warns it will retaliate if US attacks, as hundreds killed in protests
-Searching Google for: Iran warns it will retaliate if US attacks, as hundreds killed in protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwarns%252Bit%252Bwill%252Bretaliate%252Bif%252BUS%252Battacks%252C%252Bas%252Bhundreds%252Bkilled%252Bin%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNF1GNilkcsGIjDiFPTYOADbzRu-kkJOSjMrP-NzqF66EoyO65jGLMkFGL5t1pEo8tN0rvc9xn3HaYQyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,418
+Searching Google for: Russia-Ukraine war: List of key events, day 1,418
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C418%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuTGPHfkcsGIjBMnwBOpQiDP5Mdg2NsRZ4nW5BgIeqOl7AwXyWob7rv9S3wUm4JYwrGI9Mr8TsNtj4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-warns-it-will-retaliate-if-us-attacks-as-hund_20260112_0148.html
-✓ Created comprehensive article: iran-warns-it-will-retaliate-if-us-attacks-as-hund_20260112_0148.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1418_20260112_0352.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1418_20260112_0352.html
 
-Processing trending topic: US justice department opens criminal probe into Fed chair Jerome Powell
-Searching Google for: US justice department opens criminal probe into Fed chair Jerome Powell
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjustice%252Bdepartment%252Bopens%252Bcriminal%252Bprobe%252Binto%252BFed%252Bchair%252BJerome%252BPowell%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNF1GN-lkcsGIjAK0T4yubPIEECmHDBWHzDgZHqXOC7gXmZVVMx-e99-e2dJ4js20eMfdz24Lxsq544yBmpjbmRyUloBQw
+Processing trending topic: Trump says US military considering ‘very strong options’ for Iran
+Searching Google for: Trump says US military considering ‘very strong options’ for Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bmilitary%252Bconsidering%252B%25E2%2580%2598very%252Bstrong%252Boptions%25E2%2580%2599%252Bfor%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuTGPjfkcsGIjDb866GXBqm8ZtMGF26h6TRevDQBZZzLNz_k7hcA_DxMvL2Tb63iHq7E4Cm6X7HZBsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-justice-department-opens-criminal-probe-into-fe_20260112_0148.html
-✓ Created comprehensive article: us-justice-department-opens-criminal-probe-into-fe_20260112_0148.html
+Successfully created file: trump-says-us-military-considering-very-strong-opt_20260112_0352.html
+✓ Created comprehensive article: trump-says-us-military-considering-very-strong-opt_20260112_0352.html
 
-Processing trending topic: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Searching Google for: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttempt%252Bto%252Boverturn%252Bthe%252BGambia%25E2%2580%2599s%252Bban%252Bon%252BFGM%252Bheard%252Bby%252Bsupreme%252Bcourt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNF1GOWlkcsGIjD325Tifgp4_sxLZvzSm6SIGjvUFWprvxJsNkE3QLdF3z45u05QCg8fOUyi2BREGTYyBmpjbmRyUloBQw
+Processing trending topic: Denmark’s PM says Greenland showdown at ‘decisive moment’
+Searching Google for: Denmark’s PM says Greenland showdown at ‘decisive moment’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDenmark%25E2%2580%2599s%252BPM%252Bsays%252BGreenland%252Bshowdown%252Bat%252B%25E2%2580%2598decisive%252Bmoment%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuTGP_fkcsGIjD8c4vStD7uUtysEEiDuA7rsW2kGMjk_IijvJW31way6HVQzFuq_XTxh8BIDLb_F4UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attempt-to-overturn-the-gambias-ban-on-fgm-heard-b_20260112_0148.html
-✓ Created comprehensive article: attempt-to-overturn-the-gambias-ban-on-fgm-heard-b_20260112_0148.html
+Successfully created file: denmarks-pm-says-greenland-showdown-at-decisive-mo_20260112_0352.html
+✓ Created comprehensive article: denmarks-pm-says-greenland-showdown-at-decisive-mo_20260112_0352.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iran warns it will retaliate if US attacks, as hundreds killed in protests
+   • Russia-Ukraine war: List of key events, day 1,418
      Sources: bbc.com, cnn.com, reuters.com
-   • US justice department opens criminal probe into Fed chair Jerome Powell
+   • Trump says US military considering ‘very strong options’ for Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Attempt to overturn the Gambia’s ban on FGM heard by supreme court
+   • Denmark’s PM says Greenland showdown at ‘decisive moment’
      Sources: bbc.com, cnn.com, reuters.com
