@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Revolutionary eye injection saved my sight, says first-ever patient
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Attempt to overturn the Gambia’s ban on FGM heard by supreme court
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Integration of armed factions remains one of Syria’s biggest challenges
-Added expanded search topic: Integration of armed factions remains one of Syria’s biggest challenges
-Saved 18 topics for 2026-01-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s FM says protests became ‘bloody’ to give Trump intervention excuse
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump warns of “very strong options” amid Iran unrest
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who is Reza Pahlavi? The exiled prince urging Iranians to ‘seize cities’
+Added expanded search topic: Iran’s FM says protests became ‘bloody’ to give Trump intervention excuse
+Added expanded search topic: Trump warns of “very strong options” amid Iran unrest
+Added expanded search topic: Who is Reza Pahlavi? The exiled prince urging Iranians to ‘seize cities’
+Saved 21 topics for 2026-01-12
 Returning 3 unique trending topics:
-  1. Revolutionary eye injection saved my sight, says first-ever patient (from BBC News)
-  2. Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case (from BBC News)
-  3. Integration of armed factions remains one of Syria’s biggest challenges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iran’s FM says protests became ‘bloody’ to give Trump intervention excuse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump warns of “very strong options” amid Iran unrest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Who is Reza Pahlavi? The exiled prince urging Iranians to ‘seize cities’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Revolutionary eye injection saved my sight, says first-ever patient
-Searching Google for: Revolutionary eye injection saved my sight, says first-ever patient
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRevolutionary%252Beye%252Binjection%252Bsaved%252Bmy%252Bsight%252C%252Bsays%252Bfirst-ever%252Bpatient%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_PFGInGkssGIjBxQcBt1WM_UoDcb1-3XAF0ZGCaQe_dT1SUeK3xZqVwe9kaFbZUoIZVR4UtWFne-SsyBmpjbmRyUloBQw
+Processing trending topic: Iran’s FM says protests became ‘bloody’ to give Trump intervention excuse
+Searching Google for: Iran’s FM says protests became ‘bloody’ to give Trump intervention excuse
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252BFM%252Bsays%252Bprotests%252Bbecame%252B%25E2%2580%2598bloody%25E2%2580%2599%252Bto%252Bgive%252BTrump%252Bintervention%252Bexcuse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_SkGJTkkssGIjBcNgIjkcFP6dRuqGsI5qxlNfZ49Ir4hyUDSdgK5D_zsdiASeAcPAf4OflVC240qnkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: revolutionary-eye-injection-saved-my-sight-says-fi_20260112_0730.html
-✓ Created comprehensive article: revolutionary-eye-injection-saved-my-sight-says-fi_20260112_0730.html
+Successfully created file: irans-fm-says-protests-became-bloody-to-give-trump_20260112_0834.html
+✓ Created comprehensive article: irans-fm-says-protests-became-bloody-to-give-trump_20260112_0834.html
 
-Processing trending topic: Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case
-Searching Google for: Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGuantanamo%252Bdetainee%252Bpaid%252B%2527substantial%2527%252Bcompensation%252Bby%252BUK%252Bto%252Bsettle%252Btorture%252Bcomplicity%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_PFGJDGkssGIjAwVHImUHGLCC3LvAuXGgVmytC0V6zEuQELxneju_1e7VbaXrUSuHCs64fH62oFuU0yBmpjbmRyUloBQw
+Processing trending topic: Trump warns of “very strong options” amid Iran unrest
+Searching Google for: Trump warns of “very strong options” amid Iran unrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwarns%252Bof%252B%25E2%2580%259Cvery%252Bstrong%252Boptions%25E2%2580%259D%252Bamid%252BIran%252Bunrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_SkGJrkkssGIjBqJhmDFrPzmWmJ2SduJTNlOLl50fP9PXaOLdwPyNhPAaD4D4l659zoectOUZWdTBMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: guantanamo-detainee-paid-substantial-compensation-_20260112_0730.html
-✓ Created comprehensive article: guantanamo-detainee-paid-substantial-compensation-_20260112_0730.html
+Successfully created file: trump-warns-of-very-strong-options-amid-iran-unres_20260112_0834.html
+✓ Created comprehensive article: trump-warns-of-very-strong-options-amid-iran-unres_20260112_0834.html
 
-Processing trending topic: Integration of armed factions remains one of Syria’s biggest challenges
-Searching Google for: Integration of armed factions remains one of Syria’s biggest challenges
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIntegration%252Bof%252Barmed%252Bfactions%252Bremains%252Bone%252Bof%252BSyria%25E2%2580%2599s%252Bbiggest%252Bchallenges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_PFGJbGkssGIjB7aFVcOFtyKZ0TEPL15A5C5Aw55p_lc3jCjQxaCInzjNK2mQxi-7keniQ-E-jr70kyBmpjbmRyUloBQw
+Processing trending topic: Who is Reza Pahlavi? The exiled prince urging Iranians to ‘seize cities’
+Searching Google for: Who is Reza Pahlavi? The exiled prince urging Iranians to ‘seize cities’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BReza%252BPahlavi%253F%252BThe%252Bexiled%252Bprince%252Burging%252BIranians%252Bto%252B%25E2%2580%2598seize%252Bcities%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_SkGKDkkssGIjBZAqAlkhbZwAIxGIg9zcfkRKAHjBvIg_69CbQCPJopKq62I79guYs0nhPhjb3Bz5IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: integration-of-armed-factions-remains-one-of-syria_20260112_0730.html
-✓ Created comprehensive article: integration-of-armed-factions-remains-one-of-syria_20260112_0730.html
+Successfully created file: who-is-reza-pahlavi-the-exiled-prince-urging-irani_20260112_0834.html
+✓ Created comprehensive article: who-is-reza-pahlavi-the-exiled-prince-urging-irani_20260112_0834.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Revolutionary eye injection saved my sight, says first-ever patient
+   • Iran’s FM says protests became ‘bloody’ to give Trump intervention excuse
      Sources: bbc.com, cnn.com, reuters.com
-   • Guantanamo detainee paid 'substantial' compensation by UK to settle torture complicity case
+   • Trump warns of “very strong options” amid Iran unrest
      Sources: bbc.com, cnn.com, reuters.com
-   • Integration of armed factions remains one of Syria’s biggest challenges
+   • Who is Reza Pahlavi? The exiled prince urging Iranians to ‘seize cities’
      Sources: bbc.com, cnn.com, reuters.com
