@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 33 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Greenlanders brace for summit that could shape the Arctic's future - and their own
+  Added: Trump vows 'very strong action' if Iran executes protesters
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Trump administration ends temporary protected status for Somalis in US
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia turning occupied Donbas into ‘huge military base to frighten Europe’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s neo-con turn on Iran
+Added expanded search topic: Russia turning occupied Donbas into ‘huge military base to frighten Europe’
+Added expanded search topic: Trump’s neo-con turn on Iran
+Saved 36 topics for 2026-01-14
+Returning 3 unique trending topics:
+  1. Greenlanders brace for summit that could shape the Arctic's future - and their own (from BBC News)
+  2. Russia turning occupied Donbas into ‘huge military base to frighten Europe’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump’s neo-con turn on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Greenlanders brace for summit that could shape the Arctic's future - and their own
+Searching Google for: Greenlanders brace for summit that could shape the Arctic's future - and their own
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGreenlanders%252Bbrace%252Bfor%252Bsummit%252Bthat%252Bcould%252Bshape%252Bthe%252BArctic%2527s%252Bfuture%252B-%252Band%252Btheir%252Bown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OESGOy6nssGIjC8yjQix6-R69SMWH14GgNS2wJT1cRn4aKn1k7-KxT1m42MUZXuVeBot3y1O5PZBDcyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: greenlanders-brace-for-summit-that-could-shape-the_20260114_1343.html
+✓ Created comprehensive article: greenlanders-brace-for-summit-that-could-shape-the_20260114_1343.html
+
+Processing trending topic: Russia turning occupied Donbas into ‘huge military base to frighten Europe’
+Searching Google for: Russia turning occupied Donbas into ‘huge military base to frighten Europe’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bturning%252Boccupied%252BDonbas%252Binto%252B%25E2%2580%2598huge%252Bmilitary%252Bbase%252Bto%252Bfrighten%252BEurope%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OESGPO6nssGIjDxthsq23HLNZdB1_jBP4CTiYKZXpuQ0eyeC08z8XUHEeDFidP7a5BEClpepMZJejIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: russia-turning-occupied-donbas-into-huge-military-_20260114_1343.html
+✓ Created comprehensive article: russia-turning-occupied-donbas-into-huge-military-_20260114_1343.html
+
+Processing trending topic: Trump’s neo-con turn on Iran
+Searching Google for: Trump’s neo-con turn on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Bneo-con%252Bturn%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OESGPm6nssGIjDJ8Fufu0HtYDZ0bFikMtzhZmozFBZx2w_G-EFB_vWMh34gPgp2XT8WKa2bsqCF3dAyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trumps-neo-con-turn-on-iran_20260114_1343.html
+✓ Created comprehensive article: trumps-neo-con-turn-on-iran_20260114_1343.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Greenlanders brace for summit that could shape the Arctic's future - and their own
+     Sources: bbc.com, cnn.com, reuters.com
+   • Russia turning occupied Donbas into ‘huge military base to frighten Europe’
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump’s neo-con turn on Iran
+     Sources: bbc.com, cnn.com, reuters.com
