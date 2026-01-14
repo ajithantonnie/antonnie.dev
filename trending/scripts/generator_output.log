@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More than 2,000 people reported killed at Iran protests as Trump says 'help is on its way'
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump administration ends temporary protected status for Somalis in US
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-14
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US senators introduce bill to stop Trump seizing Greenland
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran protests LIVE: Tehran says Trump encouraging political destabilisation
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Unsung US civil rights pioneer Claudette Colvin dies, aged 86
+Added expanded search topic: US senators introduce bill to stop Trump seizing Greenland
+Added expanded search topic: Iran protests LIVE: Tehran says Trump encouraging political destabilisation
+Added expanded search topic: Unsung US civil rights pioneer Claudette Colvin dies, aged 86
+Saved 6 topics for 2026-01-14
 Returning 3 unique trending topics:
-  1. More than 2,000 people reported killed at Iran protests as Trump says 'help is on its way' (from BBC News)
-  2. Bowen: Authoritarian regimes die gradually then suddenly, but Iran is not there yet (from BBC News)
-  3. Trump administration ends temporary protected status for Somalis in US (from The Guardian)
+  1. US senators introduce bill to stop Trump seizing Greenland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran protests LIVE: Tehran says Trump encouraging political destabilisation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Unsung US civil rights pioneer Claudette Colvin dies, aged 86 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: More than 2,000 people reported killed at Iran protests as Trump says 'help is on its way'
-Searching Google for: More than 2,000 people reported killed at Iran protests as Trump says 'help is on its way'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B2%252C000%252Bpeople%252Breported%252Bkilled%252Bat%252BIran%252Bprotests%252Bas%252BTrump%252Bsays%252B%2527help%252Bis%252Bon%252Bits%252Bway%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqUCGOHqm8sGIjCEmS8T36ds8djKJ-eFfOJbCcOkNl2xWV8E95p32ekVqNk4wE9iO5zn31mMmHjv9nsyBmpjbmRyUloBQw
+Processing trending topic: US senators introduce bill to stop Trump seizing Greenland
+Searching Google for: US senators introduce bill to stop Trump seizing Greenland
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsenators%252Bintroduce%252Bbill%252Bto%252Bstop%252BTrump%252Bseizing%252BGreenland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCFGISlnMsGIjBfPG4ZAbdkmuJAyzqeIrGa0jmCvXkZNn7kWglSvpvy_PA-J-R4d4KO2q17LPJ47P0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-2000-people-reported-killed-at-iran-prot_20260114_0146.html
-✓ Created comprehensive article: more-than-2000-people-reported-killed-at-iran-prot_20260114_0146.html
+Successfully created file: us-senators-introduce-bill-to-stop-trump-seizing-g_20260114_0350.html
+✓ Created comprehensive article: us-senators-introduce-bill-to-stop-trump-seizing-g_20260114_0350.html
 
-Processing trending topic: Bowen: Authoritarian regimes die gradually then suddenly, but Iran is not there yet
-Searching Google for: Bowen: Authoritarian regimes die gradually then suddenly, but Iran is not there yet
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBowen%253A%252BAuthoritarian%252Bregimes%252Bdie%252Bgradually%252Bthen%252Bsuddenly%252C%252Bbut%252BIran%252Bis%252Bnot%252Bthere%252Byet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqUCGOrqm8sGIjCS_MS_9Ua3f2EXdpferaCNaFyZBMxOb4Fe45HcHKQRUICq3wCbRoZtpL6mR3wTEq0yBmpjbmRyUloBQw
+Processing trending topic: Iran protests LIVE: Tehran says Trump encouraging political destabilisation
+Searching Google for: Iran protests LIVE: Tehran says Trump encouraging political destabilisation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bprotests%252BLIVE%253A%252BTehran%252Bsays%252BTrump%252Bencouraging%252Bpolitical%252Bdestabilisation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCFGIulnMsGIjBoAUyvDN4n50aP6E7Os6i7SjhWImZtAP9sbcwxx2gKwmQzN_OQ2ld9v6nEHlBfxbMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bowen-authoritarian-regimes-die-gradually-then-sud_20260114_0146.html
-✓ Created comprehensive article: bowen-authoritarian-regimes-die-gradually-then-sud_20260114_0146.html
+Successfully created file: iran-protests-live-tehran-says-trump-encouraging-p_20260114_0350.html
+✓ Created comprehensive article: iran-protests-live-tehran-says-trump-encouraging-p_20260114_0350.html
 
-Processing trending topic: Trump administration ends temporary protected status for Somalis in US
-Searching Google for: Trump administration ends temporary protected status for Somalis in US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bends%252Btemporary%252Bprotected%252Bstatus%252Bfor%252BSomalis%252Bin%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqUCGPHqm8sGIjAdJAHDiW4bWCQXL3ts0Q_wjXrn3Ms2LhvDjsYN9FWr23D4oCTfHHXtMK2sqQDabYUyBmpjbmRyUloBQw
+Processing trending topic: Unsung US civil rights pioneer Claudette Colvin dies, aged 86
+Searching Google for: Unsung US civil rights pioneer Claudette Colvin dies, aged 86
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnsung%252BUS%252Bcivil%252Brights%252Bpioneer%252BClaudette%252BColvin%252Bdies%252C%252Baged%252B86%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCFGJGlnMsGIjDDiXDlF8YwTWw_RApoL4rx4Ndc7eH1l76Wj5ovfIBvREKlY34KUS5A1WdtWyyv664yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-administration-ends-temporary-protected-stat_20260114_0146.html
-✓ Created comprehensive article: trump-administration-ends-temporary-protected-stat_20260114_0146.html
+Successfully created file: unsung-us-civil-rights-pioneer-claudette-colvin-di_20260114_0350.html
+✓ Created comprehensive article: unsung-us-civil-rights-pioneer-claudette-colvin-di_20260114_0350.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • More than 2,000 people reported killed at Iran protests as Trump says 'help is on its way'
+   • US senators introduce bill to stop Trump seizing Greenland
      Sources: bbc.com, cnn.com, reuters.com
-   • Bowen: Authoritarian regimes die gradually then suddenly, but Iran is not there yet
+   • Iran protests LIVE: Tehran says Trump encouraging political destabilisation
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump administration ends temporary protected status for Somalis in US
+   • Unsung US civil rights pioneer Claudette Colvin dies, aged 86
      Sources: bbc.com, cnn.com, reuters.com
