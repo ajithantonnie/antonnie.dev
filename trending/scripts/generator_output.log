@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 33 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Henry Zeffman: A huge moment for the future of the British right
+  Added: Millions of people to see their local council elections delayed
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Voting in Uganda’s general election delayed by technical and logistical issues
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Banana republics are making a comeback in Latin America
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video: AI toys in spotlight amid concerns over child safety
+Added expanded search topic: Banana republics are making a comeback in Latin America
+Added expanded search topic: Video: AI toys in spotlight amid concerns over child safety
+Saved 36 topics for 2026-01-15
+Returning 3 unique trending topics:
+  1. Henry Zeffman: A huge moment for the future of the British right (from BBC News)
+  2. Banana republics are making a comeback in Latin America (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Video: AI toys in spotlight amid concerns over child safety (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Henry Zeffman: A huge moment for the future of the British right
+Searching Google for: Henry Zeffman: A huge moment for the future of the British right
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHenry%252BZeffman%253A%252BA%252Bhuge%252Bmoment%252Bfor%252Bthe%252Bfuture%252Bof%252Bthe%252BBritish%252Bright%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_1GLDdo8sGIjCpLFyO0qAk_3vCBhVMOD2R1vmHCsVja6qSjepDalkYaFrVeyYv_5MsMyejmMOZCBsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: henry-zeffman-a-huge-moment-for-the-future-of-the-_20260115_1342.html
+✓ Created comprehensive article: henry-zeffman-a-huge-moment-for-the-future-of-the-_20260115_1342.html
+
+Processing trending topic: Banana republics are making a comeback in Latin America
+Searching Google for: Banana republics are making a comeback in Latin America
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBanana%252Brepublics%252Bare%252Bmaking%252Ba%252Bcomeback%252Bin%252BLatin%252BAmerica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_1GLfdo8sGIjCHQWsW_2VPqlYuGPUMGqDYhpiGlyEwhVNXQpms3uwyFdDaFEApJzkSNnbrenEv-_IyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: banana-republics-are-making-a-comeback-in-latin-am_20260115_1342.html
+✓ Created comprehensive article: banana-republics-are-making-a-comeback-in-latin-am_20260115_1342.html
+
+Processing trending topic: Video: AI toys in spotlight amid concerns over child safety
+Searching Google for: Video: AI toys in spotlight amid concerns over child safety
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%253A%252BAI%252Btoys%252Bin%252Bspotlight%252Bamid%252Bconcerns%252Bover%252Bchild%252Bsafety%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_1GL3do8sGIjCGdJjZ0V_qiwL94-kyNVJ1VLrvF1lOKgJljVNOHh_dSB29ndwXQO6V9ln_5o8vKwUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: video-ai-toys-in-spotlight-amid-concerns-over-chil_20260115_1342.html
+✓ Created comprehensive article: video-ai-toys-in-spotlight-amid-concerns-over-chil_20260115_1342.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Henry Zeffman: A huge moment for the future of the British right
+     Sources: bbc.com, cnn.com, reuters.com
+   • Banana republics are making a comeback in Latin America
+     Sources: bbc.com, cnn.com, reuters.com
+   • Video: AI toys in spotlight amid concerns over child safety
+     Sources: bbc.com, cnn.com, reuters.com
