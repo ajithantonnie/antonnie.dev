@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Henry Zeffman: A huge moment for the future of the British right
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Voting in Uganda’s general election delayed by technical and logistical issues
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Banana republics are making a comeback in Latin America
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video: AI toys in spotlight amid concerns over child safety
-Added expanded search topic: Banana republics are making a comeback in Latin America
-Added expanded search topic: Video: AI toys in spotlight amid concerns over child safety
-Saved 36 topics for 2026-01-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: European troops arrive in Greenland as talks with US hit wall over future
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s behind anti-US chants, from Iran to South America
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine targets the ships Russia uses to beat US sanctions on its oil
+Added expanded search topic: European troops arrive in Greenland as talks with US hit wall over future
+Added expanded search topic: What’s behind anti-US chants, from Iran to South America
+Added expanded search topic: Ukraine targets the ships Russia uses to beat US sanctions on its oil
+Saved 39 topics for 2026-01-15
 Returning 3 unique trending topics:
-  1. Henry Zeffman: A huge moment for the future of the British right (from BBC News)
-  2. Banana republics are making a comeback in Latin America (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Video: AI toys in spotlight amid concerns over child safety (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. European troops arrive in Greenland as talks with US hit wall over future (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. What’s behind anti-US chants, from Iran to South America (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ukraine targets the ships Russia uses to beat US sanctions on its oil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Henry Zeffman: A huge moment for the future of the British right
-Searching Google for: Henry Zeffman: A huge moment for the future of the British right
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHenry%252BZeffman%253A%252BA%252Bhuge%252Bmoment%252Bfor%252Bthe%252Bfuture%252Bof%252Bthe%252BBritish%252Bright%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_1GLDdo8sGIjCpLFyO0qAk_3vCBhVMOD2R1vmHCsVja6qSjepDalkYaFrVeyYv_5MsMyejmMOZCBsyBmpjbmRyUloBQw
+Processing trending topic: European troops arrive in Greenland as talks with US hit wall over future
+Searching Google for: European troops arrive in Greenland as talks with US hit wall over future
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEuropean%252Btroops%252Barrive%252Bin%252BGreenland%252Bas%252Btalks%252Bwith%252BUS%252Bhit%252Bwall%252Bover%252Bfuture%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTjkGPryo8sGIjB7ajb5s23g0YPdWbK4O-XxI6XurhCeChFKVAxtXCjkK7DxPuJ1fYucEtIEh4XLvzQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: henry-zeffman-a-huge-moment-for-the-future-of-the-_20260115_1342.html
-✓ Created comprehensive article: henry-zeffman-a-huge-moment-for-the-future-of-the-_20260115_1342.html
+Successfully created file: european-troops-arrive-in-greenland-as-talks-with-_20260115_1428.html
+✓ Created comprehensive article: european-troops-arrive-in-greenland-as-talks-with-_20260115_1428.html
 
-Processing trending topic: Banana republics are making a comeback in Latin America
-Searching Google for: Banana republics are making a comeback in Latin America
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBanana%252Brepublics%252Bare%252Bmaking%252Ba%252Bcomeback%252Bin%252BLatin%252BAmerica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_1GLfdo8sGIjCHQWsW_2VPqlYuGPUMGqDYhpiGlyEwhVNXQpms3uwyFdDaFEApJzkSNnbrenEv-_IyBmpjbmRyUloBQw
+Processing trending topic: What’s behind anti-US chants, from Iran to South America
+Searching Google for: What’s behind anti-US chants, from Iran to South America
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bbehind%252Banti-US%252Bchants%252C%252Bfrom%252BIran%252Bto%252BSouth%252BAmerica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTjkGIDzo8sGIjBEKL0HLxJG7WOEmmSrA5twtnoJX42_twr8WTbjY-sPh8FYCXmIhE3ObvsdYgMKUxAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: banana-republics-are-making-a-comeback-in-latin-am_20260115_1342.html
-✓ Created comprehensive article: banana-republics-are-making-a-comeback-in-latin-am_20260115_1342.html
+Successfully created file: whats-behind-anti-us-chants-from-iran-to-south-ame_20260115_1428.html
+✓ Created comprehensive article: whats-behind-anti-us-chants-from-iran-to-south-ame_20260115_1428.html
 
-Processing trending topic: Video: AI toys in spotlight amid concerns over child safety
-Searching Google for: Video: AI toys in spotlight amid concerns over child safety
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%253A%252BAI%252Btoys%252Bin%252Bspotlight%252Bamid%252Bconcerns%252Bover%252Bchild%252Bsafety%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_1GL3do8sGIjCGdJjZ0V_qiwL94-kyNVJ1VLrvF1lOKgJljVNOHh_dSB29ndwXQO6V9ln_5o8vKwUyBmpjbmRyUloBQw
+Processing trending topic: Ukraine targets the ships Russia uses to beat US sanctions on its oil
+Searching Google for: Ukraine targets the ships Russia uses to beat US sanctions on its oil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Btargets%252Bthe%252Bships%252BRussia%252Buses%252Bto%252Bbeat%252BUS%252Bsanctions%252Bon%252Bits%252Boil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTjkGIbzo8sGIjAGSJNxh-LH3Da-fThTA0UVw1cYidsBpjadHhQ9aXmWIhcQbZ_T-C9FenJFzZdp6TIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-ai-toys-in-spotlight-amid-concerns-over-chil_20260115_1342.html
-✓ Created comprehensive article: video-ai-toys-in-spotlight-amid-concerns-over-chil_20260115_1342.html
+Successfully created file: ukraine-targets-the-ships-russia-uses-to-beat-us-s_20260115_1428.html
+✓ Created comprehensive article: ukraine-targets-the-ships-russia-uses-to-beat-us-s_20260115_1428.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Henry Zeffman: A huge moment for the future of the British right
+   • European troops arrive in Greenland as talks with US hit wall over future
      Sources: bbc.com, cnn.com, reuters.com
-   • Banana republics are making a comeback in Latin America
+   • What’s behind anti-US chants, from Iran to South America
      Sources: bbc.com, cnn.com, reuters.com
-   • Video: AI toys in spotlight amid concerns over child safety
+   • Ukraine targets the ships Russia uses to beat US sanctions on its oil
      Sources: bbc.com, cnn.com, reuters.com
