@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Twenty one English councils ask for election delays
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ugandans to vote in election expected to extend Museveni’s four-decade rule
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘I hope they show humanity’: Greenlanders fear Trump’s desire for minerals
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran reopens airspace after closure to most flights amid US attack threats
-Added expanded search topic: ‘I hope they show humanity’: Greenlanders fear Trump’s desire for minerals
-Added expanded search topic: Iran reopens airspace after closure to most flights amid US attack threats
-Saved 15 topics for 2026-01-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian army tells civilians to evacuate new front with SDF east of Aleppo
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says ‘we’ve been told killing has stopped’ in Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australian writers’ festival apologises to Palestinian author after boycott
+Added expanded search topic: Syrian army tells civilians to evacuate new front with SDF east of Aleppo
+Added expanded search topic: Trump says ‘we’ve been told killing has stopped’ in Iran
+Added expanded search topic: Australian writers’ festival apologises to Palestinian author after boycott
+Saved 18 topics for 2026-01-15
 Returning 3 unique trending topics:
-  1. Rift at top of the Taliban: BBC reveals clash of wills behind internet shutdown (from BBC News)
-  2. ‘I hope they show humanity’: Greenlanders fear Trump’s desire for minerals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran reopens airspace after closure to most flights amid US attack threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Syrian army tells civilians to evacuate new front with SDF east of Aleppo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump says ‘we’ve been told killing has stopped’ in Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Australian writers’ festival apologises to Palestinian author after boycott (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Rift at top of the Taliban: BBC reveals clash of wills behind internet shutdown
-Searching Google for: Rift at top of the Taliban: BBC reveals clash of wills behind internet shutdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRift%252Bat%252Btop%252Bof%252Bthe%252BTaliban%253A%252BBBC%252Breveals%252Bclash%252Bof%252Bwills%252Bbehind%252Binternet%252Bshutdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGziGLGVossGIjA4VcY-jI1RFUlASSloln3e8gfUa1_2qSry36v3TNJeNsPL16UAPNjW3S1p0LeEr80yBmpjbmRyUloBQw
+Processing trending topic: Syrian army tells civilians to evacuate new front with SDF east of Aleppo
+Searching Google for: Syrian army tells civilians to evacuate new front with SDF east of Aleppo
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Barmy%252Btells%252Bcivilians%252Bto%252Bevacuate%252Bnew%252Bfront%252Bwith%252BSDF%252Beast%252Bof%252BAleppo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbiGLGuossGIjDjZ8Rh-lHOoiK5NhlFIlTzeeaSdwuhLgFby2EuFPuTMm94qH4IEv2syb5WbrU17xoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rift-at-top-of-the-taliban-bbc-reveals-clash-of-wi_20260115_0635.html
-✓ Created comprehensive article: rift-at-top-of-the-taliban-bbc-reveals-clash-of-wi_20260115_0635.html
+Successfully created file: syrian-army-tells-civilians-to-evacuate-new-front-_20260115_0728.html
+✓ Created comprehensive article: syrian-army-tells-civilians-to-evacuate-new-front-_20260115_0728.html
 
-Processing trending topic: ‘I hope they show humanity’: Greenlanders fear Trump’s desire for minerals
-Searching Google for: ‘I hope they show humanity’: Greenlanders fear Trump’s desire for minerals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598I%252Bhope%252Bthey%252Bshow%252Bhumanity%25E2%2580%2599%253A%252BGreenlanders%252Bfear%252BTrump%25E2%2580%2599s%252Bdesire%252Bfor%252Bminerals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGziGLiVossGIjAGI2c06OJRfjWjSFqbwMBE6lAd747QLXlPhhMdHJGboISha-kobmBVHKWgxABtvfMyBmpjbmRyUloBQw
+Processing trending topic: Trump says ‘we’ve been told killing has stopped’ in Iran
+Searching Google for: Trump says ‘we’ve been told killing has stopped’ in Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252B%25E2%2580%2598we%25E2%2580%2599ve%252Bbeen%252Btold%252Bkilling%252Bhas%252Bstopped%25E2%2580%2599%252Bin%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbiGLiuossGIjCblJxXNCDBATFa9ZjUr-5UXJY0_jFom4-yCVzeg7vNONpqdyrO-KOpcyasJXmAex4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-hope-they-show-humanity-greenlanders-fear-trumps_20260115_0635.html
-✓ Created comprehensive article: i-hope-they-show-humanity-greenlanders-fear-trumps_20260115_0635.html
+Successfully created file: trump-says-weve-been-told-killing-has-stopped-in-i_20260115_0729.html
+✓ Created comprehensive article: trump-says-weve-been-told-killing-has-stopped-in-i_20260115_0729.html
 
-Processing trending topic: Iran reopens airspace after closure to most flights amid US attack threats
-Searching Google for: Iran reopens airspace after closure to most flights amid US attack threats
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Breopens%252Bairspace%252Bafter%252Bclosure%252Bto%252Bmost%252Bflights%252Bamid%252BUS%252Battack%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGziGL-VossGIjBd3YJI66uvUxZkLTIfj8-9m5pt1fEyTfZFIBSnX646_CUuwKZen6MyoD_YDo-q2WEyBmpjbmRyUloBQw
+Processing trending topic: Australian writers’ festival apologises to Palestinian author after boycott
+Searching Google for: Australian writers’ festival apologises to Palestinian author after boycott
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralian%252Bwriters%25E2%2580%2599%252Bfestival%252Bapologises%252Bto%252BPalestinian%252Bauthor%252Bafter%252Bboycott%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbiGL6uossGIjDw3iWCYlIEBi_T7tR_3CW1HmheWSMItVhCPGQEQcuclNNqN-2A0VLlsCQ4Ay83jGkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-reopens-airspace-after-closure-to-most-flight_20260115_0635.html
-✓ Created comprehensive article: iran-reopens-airspace-after-closure-to-most-flight_20260115_0635.html
+Successfully created file: australian-writers-festival-apologises-to-palestin_20260115_0729.html
+✓ Created comprehensive article: australian-writers-festival-apologises-to-palestin_20260115_0729.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Rift at top of the Taliban: BBC reveals clash of wills behind internet shutdown
+   • Syrian army tells civilians to evacuate new front with SDF east of Aleppo
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘I hope they show humanity’: Greenlanders fear Trump’s desire for minerals
+   • Trump says ‘we’ve been told killing has stopped’ in Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran reopens airspace after closure to most flights amid US attack threats
+   • Australian writers’ festival apologises to Palestinian author after boycott
      Sources: bbc.com, cnn.com, reuters.com
