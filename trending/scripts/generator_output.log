@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Denmark warns of 'fundamental disagreement' after White House talks on Greenland
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump administration ends temporary protected status for Somalis in US
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-15
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela’s Rodriguez vows release of more prisoners, holds call with Trump
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada’s Mark Carney seeks reset on pivotal trip to China
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Senate defeats war powers resolution designed to rein in Trump
+Added expanded search topic: Venezuela’s Rodriguez vows release of more prisoners, holds call with Trump
+Added expanded search topic: Canada’s Mark Carney seeks reset on pivotal trip to China
+Added expanded search topic: US Senate defeats war powers resolution designed to rein in Trump
+Saved 6 topics for 2026-01-15
 Returning 3 unique trending topics:
-  1. Denmark warns of 'fundamental disagreement' after White House talks on Greenland (from BBC News)
-  2. US and UK pulling some personnel from Qatar base as US considers Iran action (from BBC News)
-  3. Trump administration ends temporary protected status for Somalis in US (from The Guardian)
+  1. Venezuela’s Rodriguez vows release of more prisoners, holds call with Trump (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Canada’s Mark Carney seeks reset on pivotal trip to China (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US Senate defeats war powers resolution designed to rein in Trump (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Denmark warns of 'fundamental disagreement' after White House talks on Greenland
-Searching Google for: Denmark warns of 'fundamental disagreement' after White House talks on Greenland
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDenmark%252Bwarns%252Bof%252B%2527fundamental%252Bdisagreement%2527%252Bafter%252BWhite%252BHouse%252Btalks%252Bon%252BGreenland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKHEGJCIocsGIjCTYAijett782V4-Akr88WafF_AGqZjlYjA_rWnOdgg1_cYRVFIkgmAg4murRpEBpQyBmpjbmRyUloBQw
+Processing trending topic: Venezuela’s Rodriguez vows release of more prisoners, holds call with Trump
+Searching Google for: Venezuela’s Rodriguez vows release of more prisoners, holds call with Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%25E2%2580%2599s%252BRodriguez%252Bvows%252Brelease%252Bof%252Bmore%252Bprisoners%252C%252Bholds%252Bcall%252Bwith%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxhGM7FocsGIjDXwKG8W1Na1jb0rvm6SPTDrDwIVn5cJSGOFPrctaE6jNKo0utPk4jTxodRo1T0pIgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: denmark-warns-of-fundamental-disagreement-after-wh_20260115_0134.html
-✓ Created comprehensive article: denmark-warns-of-fundamental-disagreement-after-wh_20260115_0134.html
+Successfully created file: venezuelas-rodriguez-vows-release-of-more-prisoner_20260115_0345.html
+✓ Created comprehensive article: venezuelas-rodriguez-vows-release-of-more-prisoner_20260115_0345.html
 
-Processing trending topic: US and UK pulling some personnel from Qatar base as US considers Iran action
-Searching Google for: US and UK pulling some personnel from Qatar base as US considers Iran action
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BUK%252Bpulling%252Bsome%252Bpersonnel%252Bfrom%252BQatar%252Bbase%252Bas%252BUS%252Bconsiders%252BIran%252Baction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKHEGJeIocsGIjBGMEqaeEcWA8rJi1e5ofeDBfYrbHU39xgEqmvSli29csXmTIqK-wn-dy3zEAbOTE8yBmpjbmRyUloBQw
+Processing trending topic: Canada’s Mark Carney seeks reset on pivotal trip to China
+Searching Google for: Canada’s Mark Carney seeks reset on pivotal trip to China
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%25E2%2580%2599s%252BMark%252BCarney%252Bseeks%252Breset%252Bon%252Bpivotal%252Btrip%252Bto%252BChina%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxhGNXFocsGIjBrc3vP0zCNonWqz8NbzpA43-JaQP_CctSYGBYp7BfdG1LGjZCUAQkvx9dTWKQrYwYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-and-uk-pulling-some-personnel-from-qatar-base-a_20260115_0134.html
-✓ Created comprehensive article: us-and-uk-pulling-some-personnel-from-qatar-base-a_20260115_0134.html
+Successfully created file: canadas-mark-carney-seeks-reset-on-pivotal-trip-to_20260115_0345.html
+✓ Created comprehensive article: canadas-mark-carney-seeks-reset-on-pivotal-trip-to_20260115_0345.html
 
-Processing trending topic: Trump administration ends temporary protected status for Somalis in US
-Searching Google for: Trump administration ends temporary protected status for Somalis in US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bends%252Btemporary%252Bprotected%252Bstatus%252Bfor%252BSomalis%252Bin%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKHEGJ6IocsGIjA6Q_9FEmwDz_DWy9eOffYbDyPxgB4HXI2ObSW-Xo_ArhJd112ntHhFriit_oyl5DwyBmpjbmRyUloBQw
+Processing trending topic: US Senate defeats war powers resolution designed to rein in Trump
+Searching Google for: US Senate defeats war powers resolution designed to rein in Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BSenate%252Bdefeats%252Bwar%252Bpowers%252Bresolution%252Bdesigned%252Bto%252Brein%252Bin%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxhGNvFocsGIjCjhbItpnY9LNC04fd9uHCNRG0g3PjCKxZvguIbMGr-UeixWU9M1vMa_O4ZYaY5mycyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-administration-ends-temporary-protected-stat_20260115_0134.html
-✓ Created comprehensive article: trump-administration-ends-temporary-protected-stat_20260115_0134.html
+Successfully created file: us-senate-defeats-war-powers-resolution-designed-t_20260115_0345.html
+✓ Created comprehensive article: us-senate-defeats-war-powers-resolution-designed-t_20260115_0345.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Denmark warns of 'fundamental disagreement' after White House talks on Greenland
+   • Venezuela’s Rodriguez vows release of more prisoners, holds call with Trump
      Sources: bbc.com, cnn.com, reuters.com
-   • US and UK pulling some personnel from Qatar base as US considers Iran action
+   • Canada’s Mark Carney seeks reset on pivotal trip to China
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump administration ends temporary protected status for Somalis in US
+   • US Senate defeats war powers resolution designed to rein in Trump
      Sources: bbc.com, cnn.com, reuters.com
