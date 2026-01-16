@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Venezuelan Nobel Peace Prize winner presents her medal to Trump
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
-Added expanded search topic: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
-Added expanded search topic: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
-Saved 12 topics for 2026-01-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Korea court finds disgraced ex-president guilty in martial law case
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian swimmer Sarah Mardini cleared by Greek court over migrant rescues
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saudi to Sudan: Can Pakistan expand military footprint across Arab world?
+Added expanded search topic: South Korea court finds disgraced ex-president guilty in martial law case
+Added expanded search topic: Syrian swimmer Sarah Mardini cleared by Greek court over migrant rescues
+Added expanded search topic: Saudi to Sudan: Can Pakistan expand military footprint across Arab world?
+Saved 15 topics for 2026-01-16
 Returning 3 unique trending topics:
-  1. Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies (from The Guardian)
-  2. S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. South Korea court finds disgraced ex-president guilty in martial law case (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Syrian swimmer Sarah Mardini cleared by Greek court over migrant rescues (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Saudi to Sudan: Can Pakistan expand military footprint across Arab world? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
-Searching Google for: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCloth%252Bwraps%252Btreated%252Bwith%252B%25E2%2580%2598dirt%252Bcheap%25E2%2580%2599%252Binsecticide%252Bcut%252Bmalaria%252Bcases%252Bin%252Bbabies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_UZGNOYp8sGIjA1bxhZcuybIUe-YzniS1Zx9WFYgubhwKAmfcJDLWMvyFsXRolVrw9X2bLcUD7umqUyBmpjbmRyUloBQw
+Processing trending topic: South Korea court finds disgraced ex-president guilty in martial law case
+Searching Google for: South Korea court finds disgraced ex-president guilty in martial law case
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BKorea%252Bcourt%252Bfinds%252Bdisgraced%252Bex-president%252Bguilty%252Bin%252Bmartial%252Blaw%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mwGOu4p8sGIjDVySpjZwUj2Ft3twt30TRLwnY54FXP6Ak6lLgyFQpkvqdQ7mCIKKxblcityly10FEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cloth-wraps-treated-with-dirt-cheap-insecticide-cu_20260116_0527.html
-✓ Created comprehensive article: cloth-wraps-treated-with-dirt-cheap-insecticide-cu_20260116_0527.html
+Successfully created file: south-korea-court-finds-disgraced-ex-president-gui_20260116_0636.html
+✓ Created comprehensive article: south-korea-court-finds-disgraced-ex-president-gui_20260116_0636.html
 
-Processing trending topic: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
-Searching Google for: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DS%252BKorean%252Bfirefighters%252Btackle%252Bhuge%252Bblaze%252Bin%252Blast%252Bof%252BSeoul%25E2%2580%2599s%252B%25E2%2580%2598shanty%252Btowns%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_UZGNuYp8sGIjB6FkC_g1jSV1Yz8xTj75iIe7Use0w3SnyVCXQQQP_7FaFOTXdousOyB5Y1soc0CTQyBmpjbmRyUloBQw
+Processing trending topic: Syrian swimmer Sarah Mardini cleared by Greek court over migrant rescues
+Searching Google for: Syrian swimmer Sarah Mardini cleared by Greek court over migrant rescues
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Bswimmer%252BSarah%252BMardini%252Bcleared%252Bby%252BGreek%252Bcourt%252Bover%252Bmigrant%252Brescues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mwGPK4p8sGIjDXUZJ4c_Ily3Wb5WKlmqgv8k1zZP4irHkOzgkJf1EMTzVbmbXNDWfgkRxDOIsHJR4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: s-korean-firefighters-tackle-huge-blaze-in-last-of_20260116_0527.html
-✓ Created comprehensive article: s-korean-firefighters-tackle-huge-blaze-in-last-of_20260116_0527.html
+Successfully created file: syrian-swimmer-sarah-mardini-cleared-by-greek-cour_20260116_0636.html
+✓ Created comprehensive article: syrian-swimmer-sarah-mardini-cleared-by-greek-cour_20260116_0636.html
 
-Processing trending topic: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
-Searching Google for: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bkills%252B10%252Bin%252BGaza%252Bas%252BUS%252Bdeclares%252Bphase%252Btwo%252Bof%252Bceasefire%252Bdeal%252Blaunched%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_UZGOGYp8sGIjAKDCGok5ZHSSxN8vGpWzd0GfxzGjk-rRkaF0Fyu34H5IwM_0ZprEue322RXUz9er4yBmpjbmRyUloBQw
+Processing trending topic: Saudi to Sudan: Can Pakistan expand military footprint across Arab world?
+Searching Google for: Saudi to Sudan: Can Pakistan expand military footprint across Arab world?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi%252Bto%252BSudan%253A%252BCan%252BPakistan%252Bexpand%252Bmilitary%252Bfootprint%252Bacross%252BArab%252Bworld%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mwGPm4p8sGIjAg6v4eTTGjnk5R0i_zhIoUbe2IfLnB7Rlez8Guh6wEk8lotvIdca6Rr91Sz65zd-syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-kills-10-in-gaza-as-us-declares-phase-two-o_20260116_0528.html
-✓ Created comprehensive article: israel-kills-10-in-gaza-as-us-declares-phase-two-o_20260116_0528.html
+Successfully created file: saudi-to-sudan-can-pakistan-expand-military-footpr_20260116_0636.html
+✓ Created comprehensive article: saudi-to-sudan-can-pakistan-expand-military-footpr_20260116_0636.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
+   • South Korea court finds disgraced ex-president guilty in martial law case
      Sources: bbc.com, cnn.com, reuters.com
-   • S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
+   • Syrian swimmer Sarah Mardini cleared by Greek court over migrant rescues
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
+   • Saudi to Sudan: Can Pakistan expand military footprint across Arab world?
      Sources: bbc.com, cnn.com, reuters.com
