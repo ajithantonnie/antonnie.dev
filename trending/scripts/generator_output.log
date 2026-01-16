@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Venezuelan Nobel Peace Prize winner presents her medal to Trump
@@ -8,59 +8,61 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Controversial US study on hepatitis B vaccines in Africa is cancelled
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US seizes sixth tanker as Venezuela’s interim leader vows oil sector reform
-Added expanded search topic: US seizes sixth tanker as Venezuela’s interim leader vows oil sector reform
-Saved 9 topics for 2026-01-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
+Added expanded search topic: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
+Added expanded search topic: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
+Saved 12 topics for 2026-01-16
 Returning 3 unique trending topics:
-  1. Venezuelan Nobel Peace Prize winner presents her medal to Trump (from BBC News)
-  2. Conservatives 'broke' the country says Jenrick as he defects to Reform (from BBC News)
-  3. US seizes sixth tanker as Venezuela’s interim leader vows oil sector reform (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies (from The Guardian)
+  2. S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Venezuelan Nobel Peace Prize winner presents her medal to Trump
-Searching Google for: Venezuelan Nobel Peace Prize winner presents her medal to Trump
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuelan%252BNobel%252BPeace%252BPrize%252Bwinner%252Bpresents%252Bher%252Bmedal%252Bto%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyhGL-Ep8sGIjC91mpzzelmBZzguMbvhvLDlEi7sOKI0uNhRGQ2UCcCtOSy3u4j6dJdh0jHDZ5XeEoyBmpjbmRyUloBQw
+Processing trending topic: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
+Searching Google for: Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCloth%252Bwraps%252Btreated%252Bwith%252B%25E2%2580%2598dirt%252Bcheap%25E2%2580%2599%252Binsecticide%252Bcut%252Bmalaria%252Bcases%252Bin%252Bbabies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_UZGNOYp8sGIjA1bxhZcuybIUe-YzniS1Zx9WFYgubhwKAmfcJDLWMvyFsXRolVrw9X2bLcUD7umqUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: venezuelan-nobel-peace-prize-winner-presents-her-m_20260116_0444.html
-✓ Created comprehensive article: venezuelan-nobel-peace-prize-winner-presents-her-m_20260116_0444.html
+Successfully created file: cloth-wraps-treated-with-dirt-cheap-insecticide-cu_20260116_0527.html
+✓ Created comprehensive article: cloth-wraps-treated-with-dirt-cheap-insecticide-cu_20260116_0527.html
 
-Processing trending topic: Conservatives 'broke' the country says Jenrick as he defects to Reform
-Searching Google for: Conservatives 'broke' the country says Jenrick as he defects to Reform
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DConservatives%252B%2527broke%2527%252Bthe%252Bcountry%252Bsays%252BJenrick%252Bas%252Bhe%252Bdefects%252Bto%252BReform%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyhGMaEp8sGIjBACIqvCNv26izCJyT7rMYM5ZLN8Hd3cH1Szyxx6x9bnvctUr90gf2_5rrP-A8xo_IyBmpjbmRyUloBQw
+Processing trending topic: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
+Searching Google for: S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DS%252BKorean%252Bfirefighters%252Btackle%252Bhuge%252Bblaze%252Bin%252Blast%252Bof%252BSeoul%25E2%2580%2599s%252B%25E2%2580%2598shanty%252Btowns%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_UZGNuYp8sGIjB6FkC_g1jSV1Yz8xTj75iIe7Use0w3SnyVCXQQQP_7FaFOTXdousOyB5Y1soc0CTQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: conservatives-broke-the-country-says-jenrick-as-he_20260116_0444.html
-✓ Created comprehensive article: conservatives-broke-the-country-says-jenrick-as-he_20260116_0444.html
+Successfully created file: s-korean-firefighters-tackle-huge-blaze-in-last-of_20260116_0527.html
+✓ Created comprehensive article: s-korean-firefighters-tackle-huge-blaze-in-last-of_20260116_0527.html
 
-Processing trending topic: US seizes sixth tanker as Venezuela’s interim leader vows oil sector reform
-Searching Google for: US seizes sixth tanker as Venezuela’s interim leader vows oil sector reform
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bseizes%252Bsixth%252Btanker%252Bas%252BVenezuela%25E2%2580%2599s%252Binterim%252Bleader%252Bvows%252Boil%252Bsector%252Breform%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyhGM2Ep8sGIjCfPsCAph_UAeNvLEpIzDO-e-Fo-BNTEns_W9CF65UxST9Aei-WhbVTkcYhx4NSEnkyBmpjbmRyUloBQw
+Processing trending topic: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
+Searching Google for: Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bkills%252B10%252Bin%252BGaza%252Bas%252BUS%252Bdeclares%252Bphase%252Btwo%252Bof%252Bceasefire%252Bdeal%252Blaunched%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoT_UZGOGYp8sGIjAKDCGok5ZHSSxN8vGpWzd0GfxzGjk-rRkaF0Fyu34H5IwM_0ZprEue322RXUz9er4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-seizes-sixth-tanker-as-venezuelas-interim-leade_20260116_0445.html
-✓ Created comprehensive article: us-seizes-sixth-tanker-as-venezuelas-interim-leade_20260116_0445.html
+Successfully created file: israel-kills-10-in-gaza-as-us-declares-phase-two-o_20260116_0528.html
+✓ Created comprehensive article: israel-kills-10-in-gaza-as-us-declares-phase-two-o_20260116_0528.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Venezuelan Nobel Peace Prize winner presents her medal to Trump
+   • Cloth wraps treated with ‘dirt cheap’ insecticide cut malaria cases in babies
      Sources: bbc.com, cnn.com, reuters.com
-   • Conservatives 'broke' the country says Jenrick as he defects to Reform
+   • S Korean firefighters tackle huge blaze in last of Seoul’s ‘shanty towns’
      Sources: bbc.com, cnn.com, reuters.com
-   • US seizes sixth tanker as Venezuela’s interim leader vows oil sector reform
+   • Israel kills 10 in Gaza as US declares phase two of ceasefire deal launched
      Sources: bbc.com, cnn.com, reuters.com
