@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Jenrick defects to Reform UK after being sacked by Tories
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Controversial US study on hepatitis B vaccines in Africa is cancelled
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-16
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN Security Council holds emergency meeting on deadly protests in Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump welcomes Venezuela’s Maria Corina Machado in closed-door meeting
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,422
+Added expanded search topic: UN Security Council holds emergency meeting on deadly protests in Iran
+Added expanded search topic: Trump welcomes Venezuela’s Maria Corina Machado in closed-door meeting
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,422
+Saved 6 topics for 2026-01-16
 Returning 3 unique trending topics:
-  1. Jenrick defects to Reform UK after being sacked by Tories (from BBC News)
-  2. 'We'd been on high alert' - How Jenrick's dramatic defection unfolded (from BBC News)
-  3. Controversial US study on hepatitis B vaccines in Africa is cancelled (from The Guardian)
+  1. UN Security Council holds emergency meeting on deadly protests in Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump welcomes Venezuela’s Maria Corina Machado in closed-door meeting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,422 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Jenrick defects to Reform UK after being sacked by Tories
-Searching Google for: Jenrick defects to Reform UK after being sacked by Tories
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJenrick%252Bdefects%252Bto%252BReform%252BUK%252Bafter%252Bbeing%252Bsacked%252Bby%252BTories%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGPqvpssGIjCfTP_ITkwGICYcwu7b59eLT_1SedKq1gCmZjzwOAozvCfC6dN1Xm_TbU-a9Cp226wyBmpjbmRyUloBQw
+Processing trending topic: UN Security Council holds emergency meeting on deadly protests in Iran
+Searching Google for: UN Security Council holds emergency meeting on deadly protests in Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252BSecurity%252BCouncil%252Bholds%252Bemergency%252Bmeeting%252Bon%252Bdeadly%252Bprotests%252Bin%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTrhGK3ipssGIjDZoGJaxnvG9GMfW8HqzlCKC4bFgOrR4YF3EioAsdwNIyoq6AXW0NXzjjn4WEkdnjIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jenrick-defects-to-reform-uk-after-being-sacked-by_20260116_0144.html
-✓ Created comprehensive article: jenrick-defects-to-reform-uk-after-being-sacked-by_20260116_0144.html
+Successfully created file: un-security-council-holds-emergency-meeting-on-dea_20260116_0332.html
+✓ Created comprehensive article: un-security-council-holds-emergency-meeting-on-dea_20260116_0332.html
 
-Processing trending topic: 'We'd been on high alert' - How Jenrick's dramatic defection unfolded
-Searching Google for: 'We'd been on high alert' - How Jenrick's dramatic defection unfolded
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527We%2527d%252Bbeen%252Bon%252Bhigh%252Balert%2527%252B-%252BHow%252BJenrick%2527s%252Bdramatic%252Bdefection%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGIGwpssGIjAhmqdFPoHL8hPCKbm4p3Nm_8dZtJugSLksNsgF04zhQAZRVilZQbLQnXzcRyl7bpkyBmpjbmRyUloBQw
+Processing trending topic: Trump welcomes Venezuela’s Maria Corina Machado in closed-door meeting
+Searching Google for: Trump welcomes Venezuela’s Maria Corina Machado in closed-door meeting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwelcomes%252BVenezuela%25E2%2580%2599s%252BMaria%252BCorina%252BMachado%252Bin%252Bclosed-door%252Bmeeting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTrhGLTipssGIjBogAjL4QDgp_BnkKDREjIaB3xTd2-8YBPY_bCizqD_1L0iJhLyoTexJzbxbO5OdecyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: wed-been-on-high-alert-how-jenricks-dramatic-defec_20260116_0144.html
-✓ Created comprehensive article: wed-been-on-high-alert-how-jenricks-dramatic-defec_20260116_0144.html
+Successfully created file: trump-welcomes-venezuelas-maria-corina-machado-in-_20260116_0332.html
+✓ Created comprehensive article: trump-welcomes-venezuelas-maria-corina-machado-in-_20260116_0332.html
 
-Processing trending topic: Controversial US study on hepatitis B vaccines in Africa is cancelled
-Searching Google for: Controversial US study on hepatitis B vaccines in Africa is cancelled
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DControversial%252BUS%252Bstudy%252Bon%252Bhepatitis%252BB%252Bvaccines%252Bin%252BAfrica%252Bis%252Bcancelled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGIewpssGIjBQfSYRcWj0v1R1RQQBQsErkaN7SY0Zs2SYlbrSGOnM-6Sucboezb8mOLsbt6qXp6wyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,422
+Searching Google for: Russia-Ukraine war: List of key events, day 1,422
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C422%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTrhGLripssGIjDUIEZvkrxbLAb36O4g6wJ_ngF5QTwqvJuTs87aHT8k8fdUL0q__Fvm-t9WLkkMDRwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: controversial-us-study-on-hepatitis-b-vaccines-in-_20260116_0144.html
-✓ Created comprehensive article: controversial-us-study-on-hepatitis-b-vaccines-in-_20260116_0144.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1422_20260116_0332.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1422_20260116_0332.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Jenrick defects to Reform UK after being sacked by Tories
+   • UN Security Council holds emergency meeting on deadly protests in Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • 'We'd been on high alert' - How Jenrick's dramatic defection unfolded
+   • Trump welcomes Venezuela’s Maria Corina Machado in closed-door meeting
      Sources: bbc.com, cnn.com, reuters.com
-   • Controversial US study on hepatitis B vaccines in Africa is cancelled
+   • Russia-Ukraine war: List of key events, day 1,422
      Sources: bbc.com, cnn.com, reuters.com
