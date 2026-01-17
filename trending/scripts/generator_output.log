@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Protests in Greenland and Denmark against US plans
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 51 topics for 2026-01-17
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s pushing Canada and China closer?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian army takes control of Deir Hafer, Maskana under agreement
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zelenskyy demands faster energy imports as Ukraine reels from power outages
+Added expanded search topic: What’s pushing Canada and China closer?
+Added expanded search topic: Syrian army takes control of Deir Hafer, Maskana under agreement
+Added expanded search topic: Zelenskyy demands faster energy imports as Ukraine reels from power outages
+Saved 54 topics for 2026-01-17
 Returning 3 unique trending topics:
-  1. Protests in Greenland and Denmark against US plans (from BBC News)
-  2. Molly Russell's dad says under-16 social media ban would be wrong (from BBC News)
-  3. Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’ (from The Guardian)
+  1. What’s pushing Canada and China closer? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Syrian army takes control of Deir Hafer, Maskana under agreement (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Zelenskyy demands faster energy imports as Ukraine reels from power outages (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Protests in Greenland and Denmark against US plans
-Searching Google for: Protests in Greenland and Denmark against US plans
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DProtests%252Bin%252BGreenland%252Band%252BDenmark%252Bagainst%252BUS%252Bplans%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8xGKWqr8sGIjCkKOmIsJTkvRbFDmyU35xTNgAo0ECRqCiYS--Q_CJOCPQZKW5bGMeEUO7QcVIlRrYyBmpjbmRyUloBQw
+Processing trending topic: What’s pushing Canada and China closer?
+Searching Google for: What’s pushing Canada and China closer?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bpushing%252BCanada%252Band%252BChina%252Bcloser%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKCiGIzBr8sGIjD35jozUWop9kIqeq6LgRvKMyNSUulKQejZeR4eaxAfWmqKV4KI92ilKMWIeU-p7QcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: protests-in-greenland-and-denmark-against-us-plans_20260117_1830.html
-✓ Created comprehensive article: protests-in-greenland-and-denmark-against-us-plans_20260117_1830.html
+Successfully created file: whats-pushing-canada-and-china-closer_20260117_1918.html
+✓ Created comprehensive article: whats-pushing-canada-and-china-closer_20260117_1918.html
 
-Processing trending topic: Molly Russell's dad says under-16 social media ban would be wrong
-Searching Google for: Molly Russell's dad says under-16 social media ban would be wrong
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMolly%252BRussell%2527s%252Bdad%252Bsays%252Bunder-16%252Bsocial%252Bmedia%252Bban%252Bwould%252Bbe%252Bwrong%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8xGKyqr8sGIjDMSHrOi1BEHdwwfTAoMLvsG7fMUCX0icXf34j4amCKlmNvjD7UChy1tZN_ZpgKtJQyBmpjbmRyUloBQw
+Processing trending topic: Syrian army takes control of Deir Hafer, Maskana under agreement
+Searching Google for: Syrian army takes control of Deir Hafer, Maskana under agreement
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Barmy%252Btakes%252Bcontrol%252Bof%252BDeir%252BHafer%252C%252BMaskana%252Bunder%252Bagreement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKCiGJTBr8sGIjAT9RdrcRDsxXqQdakiQI9qOLSTZpUomp1P6v8tOC05dSrB16RcbTkn6tT9cAr-7BEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: molly-russells-dad-says-under-16-social-media-ban-_20260117_1830.html
-✓ Created comprehensive article: molly-russells-dad-says-under-16-social-media-ban-_20260117_1830.html
+Successfully created file: syrian-army-takes-control-of-deir-hafer-maskana-un_20260117_1918.html
+✓ Created comprehensive article: syrian-army-takes-control-of-deir-hafer-maskana-un_20260117_1918.html
 
-Processing trending topic: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Searching Google for: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYoweri%252BMuseveni%252Bwins%252BUgandan%252Belection%252Bas%252Bopponent%252Bcondemns%252B%25E2%2580%2598fake%252Bresult%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8xGLKqr8sGIjBgCwSUO-wONQeiJJzAnKb9oubBwQbeLWykequRBlXk9E5b98-5PCoYW0Wge1dgZTwyBmpjbmRyUloBQw
+Processing trending topic: Zelenskyy demands faster energy imports as Ukraine reels from power outages
+Searching Google for: Zelenskyy demands faster energy imports as Ukraine reels from power outages
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelenskyy%252Bdemands%252Bfaster%252Benergy%252Bimports%252Bas%252BUkraine%252Breels%252Bfrom%252Bpower%252Boutages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKCiGJrBr8sGIjBfKErZfRhFpfINiMPpFCl6nBweIwtpRwuK8qRwppGJHp1cwRIqEyL_cD6qFcrju_kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: yoweri-museveni-wins-ugandan-election-as-opponent-_20260117_1830.html
-✓ Created comprehensive article: yoweri-museveni-wins-ugandan-election-as-opponent-_20260117_1830.html
+Successfully created file: zelenskyy-demands-faster-energy-imports-as-ukraine_20260117_1918.html
+✓ Created comprehensive article: zelenskyy-demands-faster-energy-imports-as-ukraine_20260117_1918.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Protests in Greenland and Denmark against US plans
+   • What’s pushing Canada and China closer?
      Sources: bbc.com, cnn.com, reuters.com
-   • Molly Russell's dad says under-16 social media ban would be wrong
+   • Syrian army takes control of Deir Hafer, Maskana under agreement
      Sources: bbc.com, cnn.com, reuters.com
-   • Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
+   • Zelenskyy demands faster energy imports as Ukraine reels from power outages
      Sources: bbc.com, cnn.com, reuters.com
