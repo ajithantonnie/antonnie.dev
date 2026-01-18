@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
-  Added: Molly Russell's dad says under-16 social media ban would be wrong
+  Added: Faisal Islam: Trump's Greenland threats to allies are without parallel
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-18
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Military leader Doumbouya sworn in as Guinea’s president
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
+Added expanded search topic: Military leader Doumbouya sworn in as Guinea’s president
+Added expanded search topic: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
+Saved 6 topics for 2026-01-18
 Returning 3 unique trending topics:
-  1. Starmer and European leaders criticise Trump plan to apply tariffs over Greenland (from BBC News)
-  2. Molly Russell's dad says under-16 social media ban would be wrong (from BBC News)
-  3. Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’ (from The Guardian)
+  1. Faisal Islam: Trump's Greenland threats to allies are without parallel (from BBC News)
+  2. Military leader Doumbouya sworn in as Guinea’s president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
-Searching Google for: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
-Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=Starmer%2Band%2BEuropean%2Bleaders%2Bcriticise%2BTrump%2Bplan%2Bto%2Bapply%2Btariffs%2Bover%2BGreenland&num=5&hl=en&start=0
+Processing trending topic: Faisal Islam: Trump's Greenland threats to allies are without parallel
+Searching Google for: Faisal Islam: Trump's Greenland threats to allies are without parallel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFaisal%252BIslam%253A%252BTrump%2527s%252BGreenland%252Bthreats%252Bto%252Ballies%252Bare%252Bwithout%252Bparallel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZ4GKKxscsGIjCNwemRF6K4RdUs3QrA58PA-RhRjs_E7oqIV4sgOnmyHpKPY_G0F7Lt0DTth6-npCQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-and-european-leaders-criticise-trump-plan-_20260118_0149.html
-✓ Created comprehensive article: starmer-and-european-leaders-criticise-trump-plan-_20260118_0149.html
+Successfully created file: faisal-islam-trumps-greenland-threats-to-allies-ar_20260118_0351.html
+✓ Created comprehensive article: faisal-islam-trumps-greenland-threats-to-allies-ar_20260118_0351.html
 
-Processing trending topic: Molly Russell's dad says under-16 social media ban would be wrong
-Searching Google for: Molly Russell's dad says under-16 social media ban would be wrong
-Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=Molly%2BRussell%27s%2Bdad%2Bsays%2Bunder-16%2Bsocial%2Bmedia%2Bban%2Bwould%2Bbe%2Bwrong&num=5&hl=en&start=0
+Processing trending topic: Military leader Doumbouya sworn in as Guinea’s president
+Searching Google for: Military leader Doumbouya sworn in as Guinea’s president
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMilitary%252Bleader%252BDoumbouya%252Bsworn%252Bin%252Bas%252BGuinea%25E2%2580%2599s%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZ4GKmxscsGIjBO4STlj5hP_rS9UgfbpmfUinB60q9jf7L-tlBunIpU0jgbti6R_KGNe6VsUvwISSkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: molly-russells-dad-says-under-16-social-media-ban-_20260118_0149.html
-✓ Created comprehensive article: molly-russells-dad-says-under-16-social-media-ban-_20260118_0149.html
+Successfully created file: military-leader-doumbouya-sworn-in-as-guineas-pres_20260118_0351.html
+✓ Created comprehensive article: military-leader-doumbouya-sworn-in-as-guineas-pres_20260118_0351.html
 
-Processing trending topic: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Searching Google for: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=Yoweri%2BMuseveni%2Bwins%2BUgandan%2Belection%2Bas%2Bopponent%2Bcondemns%2B%E2%80%98fake%2Bresult%E2%80%99&num=5&hl=en&start=0
+Processing trending topic: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
+Searching Google for: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252B%25E2%2580%2598board%252Bof%252Bpeace%25E2%2580%2599%252Bappears%252Bto%252Bseek%252Bwider%252Bmandate%252Bbeyond%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZ4GK-xscsGIjCJijayyfFWt2aivRn1O_P_Dx_JpQuEMZodh7VYgK3oQsusrvJ1vyTuO1RLDmxT1XgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: yoweri-museveni-wins-ugandan-election-as-opponent-_20260118_0149.html
-✓ Created comprehensive article: yoweri-museveni-wins-ugandan-election-as-opponent-_20260118_0149.html
+Successfully created file: trumps-board-of-peace-appears-to-seek-wider-mandat_20260118_0351.html
+✓ Created comprehensive article: trumps-board-of-peace-appears-to-seek-wider-mandat_20260118_0351.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
+   • Faisal Islam: Trump's Greenland threats to allies are without parallel
      Sources: bbc.com, cnn.com, reuters.com
-   • Molly Russell's dad says under-16 social media ban would be wrong
+   • Military leader Doumbouya sworn in as Guinea’s president
      Sources: bbc.com, cnn.com, reuters.com
-   • Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
+   • Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
      Sources: bbc.com, cnn.com, reuters.com
