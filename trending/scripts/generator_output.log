@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Military leader Doumbouya sworn in as Guinea’s president
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
-Added expanded search topic: Military leader Doumbouya sworn in as Guinea’s president
-Added expanded search topic: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
-Saved 6 topics for 2026-01-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Guatemala prisoners take workers hostages in riots across three facilities
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,424
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says it killed al-Qaeda-affiliated leader tied to deadly Syria ambush
+Added expanded search topic: Guatemala prisoners take workers hostages in riots across three facilities
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,424
+Added expanded search topic: US says it killed al-Qaeda-affiliated leader tied to deadly Syria ambush
+Saved 9 topics for 2026-01-18
 Returning 3 unique trending topics:
-  1. Faisal Islam: Trump's Greenland threats to allies are without parallel (from BBC News)
-  2. Military leader Doumbouya sworn in as Guinea’s president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Guatemala prisoners take workers hostages in riots across three facilities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,424 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US says it killed al-Qaeda-affiliated leader tied to deadly Syria ambush (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Faisal Islam: Trump's Greenland threats to allies are without parallel
-Searching Google for: Faisal Islam: Trump's Greenland threats to allies are without parallel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFaisal%252BIslam%253A%252BTrump%2527s%252BGreenland%252Bthreats%252Bto%252Ballies%252Bare%252Bwithout%252Bparallel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZ4GKKxscsGIjCNwemRF6K4RdUs3QrA58PA-RhRjs_E7oqIV4sgOnmyHpKPY_G0F7Lt0DTth6-npCQyBmpjbmRyUloBQw
+Processing trending topic: Guatemala prisoners take workers hostages in riots across three facilities
+Searching Google for: Guatemala prisoners take workers hostages in riots across three facilities
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGuatemala%252Bprisoners%252Btake%252Bworkers%252Bhostages%252Bin%252Briots%252Bacross%252Bthree%252Bfacilities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGL_KscsGIjDcWP9LEk6WbtRXvznIuyctJz3lNCJpbZ54PyUPmIGkNHABZ-_LC4Z-nckpHPAI5OQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: faisal-islam-trumps-greenland-threats-to-allies-ar_20260118_0351.html
-✓ Created comprehensive article: faisal-islam-trumps-greenland-threats-to-allies-ar_20260118_0351.html
+Successfully created file: guatemala-prisoners-take-workers-hostages-in-riots_20260118_0444.html
+✓ Created comprehensive article: guatemala-prisoners-take-workers-hostages-in-riots_20260118_0444.html
 
-Processing trending topic: Military leader Doumbouya sworn in as Guinea’s president
-Searching Google for: Military leader Doumbouya sworn in as Guinea’s president
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMilitary%252Bleader%252BDoumbouya%252Bsworn%252Bin%252Bas%252BGuinea%25E2%2580%2599s%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZ4GKmxscsGIjBO4STlj5hP_rS9UgfbpmfUinB60q9jf7L-tlBunIpU0jgbti6R_KGNe6VsUvwISSkyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,424
+Searching Google for: Russia-Ukraine war: List of key events, day 1,424
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C424%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGMbKscsGIjAOvyI12IHupN3Mg8oevllXDL73nEKXZ0hvq7OmFOARy-VZpOXPKyzKpFZijcUjYjwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: military-leader-doumbouya-sworn-in-as-guineas-pres_20260118_0351.html
-✓ Created comprehensive article: military-leader-doumbouya-sworn-in-as-guineas-pres_20260118_0351.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1424_20260118_0444.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1424_20260118_0444.html
 
-Processing trending topic: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
-Searching Google for: Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252B%25E2%2580%2598board%252Bof%252Bpeace%25E2%2580%2599%252Bappears%252Bto%252Bseek%252Bwider%252Bmandate%252Bbeyond%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZ4GK-xscsGIjCJijayyfFWt2aivRn1O_P_Dx_JpQuEMZodh7VYgK3oQsusrvJ1vyTuO1RLDmxT1XgyBmpjbmRyUloBQw
+Processing trending topic: US says it killed al-Qaeda-affiliated leader tied to deadly Syria ambush
+Searching Google for: US says it killed al-Qaeda-affiliated leader tied to deadly Syria ambush
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Bit%252Bkilled%252Bal-Qaeda-affiliated%252Bleader%252Btied%252Bto%252Bdeadly%252BSyria%252Bambush%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGM3KscsGIjDAlV--rxEex5ntYljO8fxzSd4DCHXf8I-1Uw7rVL5JKC6GyX12O6gVshD1o19vTQMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-board-of-peace-appears-to-seek-wider-mandat_20260118_0351.html
-✓ Created comprehensive article: trumps-board-of-peace-appears-to-seek-wider-mandat_20260118_0351.html
+Successfully created file: us-says-it-killed-al-qaeda-affiliated-leader-tied-_20260118_0445.html
+✓ Created comprehensive article: us-says-it-killed-al-qaeda-affiliated-leader-tied-_20260118_0445.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Faisal Islam: Trump's Greenland threats to allies are without parallel
+   • Guatemala prisoners take workers hostages in riots across three facilities
      Sources: bbc.com, cnn.com, reuters.com
-   • Military leader Doumbouya sworn in as Guinea’s president
+   • Russia-Ukraine war: List of key events, day 1,424
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump’s ‘board of peace’ appears to seek wider mandate beyond Gaza
+   • US says it killed al-Qaeda-affiliated leader tied to deadly Syria ambush
      Sources: bbc.com, cnn.com, reuters.com
