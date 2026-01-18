@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Greenland's people must decide its future, says Nandy
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Just like Venezuela, Iran, too, is expendable for Russia
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reports from Greenland’s capital as thousands protest US threats
-Added expanded search topic: Just like Venezuela, Iran, too, is expendable for Russia
-Added expanded search topic: Al Jazeera reports from Greenland’s capital as thousands protest US threats
-Saved 30 topics for 2026-01-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Voters in Portugal electing new president, could be far-right winner
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli attacks wound civilians across Gaza in latest ceasefire violations
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian government forces seize strategic town in Raqqa as SDF retreats
+Added expanded search topic: Voters in Portugal electing new president, could be far-right winner
+Added expanded search topic: Israeli attacks wound civilians across Gaza in latest ceasefire violations
+Added expanded search topic: Syrian government forces seize strategic town in Raqqa as SDF retreats
+Saved 33 topics for 2026-01-18
 Returning 3 unique trending topics:
-  1. Greenland's people must decide its future, says Nandy (from BBC News)
-  2. Just like Venezuela, Iran, too, is expendable for Russia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Al Jazeera reports from Greenland’s capital as thousands protest US threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Voters in Portugal electing new president, could be far-right winner (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli attacks wound civilians across Gaza in latest ceasefire violations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Syrian government forces seize strategic town in Raqqa as SDF retreats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Greenland's people must decide its future, says Nandy
-Searching Google for: Greenland's people must decide its future, says Nandy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGreenland%2527s%252Bpeople%252Bmust%252Bdecide%252Bits%252Bfuture%252C%252Bsays%252BNandy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK3xGLWDs8sGIjDXUmtugeqaKmdYexq-ZcxJ0iseN-VpPoCH9OnaVoHJAqc8FiDytymUH-1TKjN3ksQyAnJSWgFD
+Processing trending topic: Voters in Portugal electing new president, could be far-right winner
+Searching Google for: Voters in Portugal electing new president, could be far-right winner
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVoters%252Bin%252BPortugal%252Belecting%252Bnew%252Bpresident%252C%252Bcould%252Bbe%252Bfar-right%252Bwinner%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6BGNqps8sGIjAUi3AK0dlVUoqWs7YWQ4pJmaOL2d4bdrdi8dGcJIa4gD0S00AHFkJTA7eOnfrc5KMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: greenlands-people-must-decide-its-future-says-nand_20260118_1119.html
-✓ Created comprehensive article: greenlands-people-must-decide-its-future-says-nand_20260118_1119.html
+Successfully created file: voters-in-portugal-electing-new-president-could-be_20260118_1241.html
+✓ Created comprehensive article: voters-in-portugal-electing-new-president-could-be_20260118_1241.html
 
-Processing trending topic: Just like Venezuela, Iran, too, is expendable for Russia
-Searching Google for: Just like Venezuela, Iran, too, is expendable for Russia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJust%252Blike%252BVenezuela%252C%252BIran%252C%252Btoo%252C%252Bis%252Bexpendable%252Bfor%252BRussia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK3xGLuDs8sGIjD7Ep08UUF53MfO5E8ijChNqZMvNdESGHO-0UUjKoeVebhquxEcvqQjeLwGs943HagyAnJSWgFD
+Processing trending topic: Israeli attacks wound civilians across Gaza in latest ceasefire violations
+Searching Google for: Israeli attacks wound civilians across Gaza in latest ceasefire violations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Battacks%252Bwound%252Bcivilians%252Bacross%252BGaza%252Bin%252Blatest%252Bceasefire%252Bviolations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6BGOGps8sGIjB3LyXvQzGe0vngYmOHtCPYlO821xuicGbiAeqfVLW9fHmemre4cg75kLvg3OXrRo4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: just-like-venezuela-iran-too-is-expendable-for-rus_20260118_1119.html
-✓ Created comprehensive article: just-like-venezuela-iran-too-is-expendable-for-rus_20260118_1119.html
+Successfully created file: israeli-attacks-wound-civilians-across-gaza-in-lat_20260118_1241.html
+✓ Created comprehensive article: israeli-attacks-wound-civilians-across-gaza-in-lat_20260118_1241.html
 
-Processing trending topic: Al Jazeera reports from Greenland’s capital as thousands protest US threats
-Searching Google for: Al Jazeera reports from Greenland’s capital as thousands protest US threats
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breports%252Bfrom%252BGreenland%25E2%2580%2599s%252Bcapital%252Bas%252Bthousands%252Bprotest%252BUS%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK3xGMKDs8sGIjBGw1ijPbLT04G2UsabGNgNoH-n_Q9rHbI48a9cJsS4DSm90xhnRhVVrZK7wCVuu54yAnJSWgFD
+Processing trending topic: Syrian government forces seize strategic town in Raqqa as SDF retreats
+Searching Google for: Syrian government forces seize strategic town in Raqqa as SDF retreats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Bgovernment%252Bforces%252Bseize%252Bstrategic%252Btown%252Bin%252BRaqqa%252Bas%252BSDF%252Bretreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6BGOeps8sGIjByfaUs6z2ASDaniA0autBqusqLzKAqd0fSWuZKbv6oVA5t4qzyC-WRPJ9RyZxCUlIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-jazeera-reports-from-greenlands-capital-as-thou_20260118_1119.html
-✓ Created comprehensive article: al-jazeera-reports-from-greenlands-capital-as-thou_20260118_1119.html
+Successfully created file: syrian-government-forces-seize-strategic-town-in-r_20260118_1241.html
+✓ Created comprehensive article: syrian-government-forces-seize-strategic-town-in-r_20260118_1241.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Greenland's people must decide its future, says Nandy
+   • Voters in Portugal electing new president, could be far-right winner
      Sources: bbc.com, cnn.com, reuters.com
-   • Just like Venezuela, Iran, too, is expendable for Russia
+   • Israeli attacks wound civilians across Gaza in latest ceasefire violations
      Sources: bbc.com, cnn.com, reuters.com
-   • Al Jazeera reports from Greenland’s capital as thousands protest US threats
+   • Syrian government forces seize strategic town in Raqqa as SDF retreats
      Sources: bbc.com, cnn.com, reuters.com
