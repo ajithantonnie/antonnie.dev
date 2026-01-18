@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: A deadly fire swept through a nightclub in just 90 seconds. I got out
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Week in pictures: From anti-Trump protests in Greenland to Uganda elections
-Added expanded search topic: Week in pictures: From anti-Trump protests in Greenland to Uganda elections
-Saved 24 topics for 2026-01-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two killed, dozens wounded in large Russian drone attacks across Ukraine
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least six killed in Pakistan as fire rips through Karachi shopping mall
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands march in Greenland against Trump’s threats to take it over
+Added expanded search topic: Two killed, dozens wounded in large Russian drone attacks across Ukraine
+Added expanded search topic: At least six killed in Pakistan as fire rips through Karachi shopping mall
+Added expanded search topic: Thousands march in Greenland against Trump’s threats to take it over
+Saved 27 topics for 2026-01-18
 Returning 3 unique trending topics:
-  1. A deadly fire swept through a nightclub in just 90 seconds. I got out (from BBC News)
-  2. Harry's war with the press is back in court. But this time it's different (from BBC News)
-  3. Week in pictures: From anti-Trump protests in Greenland to Uganda elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Two killed, dozens wounded in large Russian drone attacks across Ukraine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. At least six killed in Pakistan as fire rips through Karachi shopping mall (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Thousands march in Greenland against Trump’s threats to take it over (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: A deadly fire swept through a nightclub in just 90 seconds. I got out
-Searching Google for: A deadly fire swept through a nightclub in just 90 seconds. I got out
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bdeadly%252Bfire%252Bswept%252Bthrough%252Ba%252Bnightclub%252Bin%252Bjust%252B90%252Bseconds.%252BI%252Bgot%252Bout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnbCGN_MsssGIjDj-bDY-Ib8i2Igv76SlrFrqdlm33thfFCaFF4dYm6h_fF-oq-lgqP2EP8uN52iBo0yAnJSWgFD
+Processing trending topic: Two killed, dozens wounded in large Russian drone attacks across Ukraine
+Searching Google for: Two killed, dozens wounded in large Russian drone attacks across Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bkilled%252C%252Bdozens%252Bwounded%252Bin%252Blarge%252BRussian%252Bdrone%252Battacks%252Bacross%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN95QGO3osssGIjC61OlM6wCRTnPwTUR6QIDolSbSzXpd5ABqjVQYZRBcaxktHlgE4SbUC6m15WN-k1YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-deadly-fire-swept-through-a-nightclub-in-just-90_20260118_0922.html
-✓ Created comprehensive article: a-deadly-fire-swept-through-a-nightclub-in-just-90_20260118_0922.html
+Successfully created file: two-killed-dozens-wounded-in-large-russian-drone-a_20260118_1022.html
+✓ Created comprehensive article: two-killed-dozens-wounded-in-large-russian-drone-a_20260118_1022.html
 
-Processing trending topic: Harry's war with the press is back in court. But this time it's different
-Searching Google for: Harry's war with the press is back in court. But this time it's different
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHarry%2527s%252Bwar%252Bwith%252Bthe%252Bpress%252Bis%252Bback%252Bin%252Bcourt.%252BBut%252Bthis%252Btime%252Bit%2527s%252Bdifferent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnbCGOXMsssGIjBnJo56jSOpaJOWIOg-m3C1PqvliL0X6hZ9OTu0GORgQ25nsUuDjAEGTdKtOxP_o34yAnJSWgFD
+Processing trending topic: At least six killed in Pakistan as fire rips through Karachi shopping mall
+Searching Google for: At least six killed in Pakistan as fire rips through Karachi shopping mall
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252Bsix%252Bkilled%252Bin%252BPakistan%252Bas%252Bfire%252Brips%252Bthrough%252BKarachi%252Bshopping%252Bmall%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN95QGPTosssGIjCFPKykQdpuIZz9rd065OzolIhPZsOhXwXrSV0OEhPnwPLKAClWhAwQAL7O_oC6uYUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: harrys-war-with-the-press-is-back-in-court-but-thi_20260118_0922.html
-✓ Created comprehensive article: harrys-war-with-the-press-is-back-in-court-but-thi_20260118_0922.html
+Successfully created file: at-least-six-killed-in-pakistan-as-fire-rips-throu_20260118_1022.html
+✓ Created comprehensive article: at-least-six-killed-in-pakistan-as-fire-rips-throu_20260118_1022.html
 
-Processing trending topic: Week in pictures: From anti-Trump protests in Greenland to Uganda elections
-Searching Google for: Week in pictures: From anti-Trump protests in Greenland to Uganda elections
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeek%252Bin%252Bpictures%253A%252BFrom%252Banti-Trump%252Bprotests%252Bin%252BGreenland%252Bto%252BUganda%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssnbCGOvMsssGIjBq5ifAjQBJJu0tRsQkxXN3Z9wWeGfARfEM_BkqUZfqDIIGX8syVJmS0751qY8M00gyAnJSWgFD
+Processing trending topic: Thousands march in Greenland against Trump’s threats to take it over
+Searching Google for: Thousands march in Greenland against Trump’s threats to take it over
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bmarch%252Bin%252BGreenland%252Bagainst%252BTrump%25E2%2580%2599s%252Bthreats%252Bto%252Btake%252Bit%252Bover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN95QGProsssGIjCjSsJ-5ZJjq1R6DQ-UgfDEumMtznYc2xkO25EtpLj7FxCxo-xt5eVVSZa17Yl6RLoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: week-in-pictures-from-anti-trump-protests-in-green_20260118_0922.html
-✓ Created comprehensive article: week-in-pictures-from-anti-trump-protests-in-green_20260118_0922.html
+Successfully created file: thousands-march-in-greenland-against-trumps-threat_20260118_1022.html
+✓ Created comprehensive article: thousands-march-in-greenland-against-trumps-threat_20260118_1022.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • A deadly fire swept through a nightclub in just 90 seconds. I got out
+   • Two killed, dozens wounded in large Russian drone attacks across Ukraine
      Sources: bbc.com, cnn.com, reuters.com
-   • Harry's war with the press is back in court. But this time it's different
+   • At least six killed in Pakistan as fire rips through Karachi shopping mall
      Sources: bbc.com, cnn.com, reuters.com
-   • Week in pictures: From anti-Trump protests in Greenland to Uganda elections
+   • Thousands march in Greenland against Trump’s threats to take it over
      Sources: bbc.com, cnn.com, reuters.com
