@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 63 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
@@ -9,52 +9,46 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from World News - Breaking international news and headlines | Sky News: Backlash after Trump threatens tariffs over Greenland purchase
-  Found from World News - Breaking international news and headlines | Sky News: Sir Tony Blair 'honoured' to be part of Trump's efforts to rebuild Gaza
-Added expanded search topic: Backlash after Trump threatens tariffs over Greenland purchase
-Added expanded search topic: Sir Tony Blair 'honoured' to be part of Trump's efforts to rebuild Gaza
-Saved 66 topics for 2026-01-17
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-01-18
 Returning 3 unique trending topics:
   1. Starmer and European leaders criticise Trump plan to apply tariffs over Greenland (from BBC News)
-  2. Backlash after Trump threatens tariffs over Greenland purchase (from World News - Breaking international news and headlines | Sky News)
-  3. Sir Tony Blair 'honoured' to be part of Trump's efforts to rebuild Gaza (from World News - Breaking international news and headlines | Sky News)
+  2. Molly Russell's dad says under-16 social media ban would be wrong (from BBC News)
+  3. Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’ (from The Guardian)
 
 Processing trending topic: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
 Searching Google for: Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Band%252BEuropean%252Bleaders%252Bcriticise%252BTrump%252Bplan%252Bto%252Bapply%252Btariffs%252Bover%252BGreenland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGOyysMsGIjBt-6dNt56Dbnql5CnzlL3ZlZ9N1d1qcBdVt-r0y0BedFCQsmqpv0BL5Uk3EHxYMcIyBmpjbmRyUloBQw
+Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=Starmer%2Band%2BEuropean%2Bleaders%2Bcriticise%2BTrump%2Bplan%2Bto%2Bapply%2Btariffs%2Bover%2BGreenland&num=5&hl=en&start=0
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-and-european-leaders-criticise-trump-plan-_20260117_2321.html
-✓ Created comprehensive article: starmer-and-european-leaders-criticise-trump-plan-_20260117_2321.html
+Successfully created file: starmer-and-european-leaders-criticise-trump-plan-_20260118_0149.html
+✓ Created comprehensive article: starmer-and-european-leaders-criticise-trump-plan-_20260118_0149.html
 
-Processing trending topic: Backlash after Trump threatens tariffs over Greenland purchase
-Searching Google for: Backlash after Trump threatens tariffs over Greenland purchase
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBacklash%252Bafter%252BTrump%252Bthreatens%252Btariffs%252Bover%252BGreenland%252Bpurchase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGPOysMsGIjAJkdWxw6C4V5LJInB5Lrc8Hm7ybwSOOuDtPor_qKnSqg4tdLi3xkNQo9MPfIl5rA4yBmpjbmRyUloBQw
+Processing trending topic: Molly Russell's dad says under-16 social media ban would be wrong
+Searching Google for: Molly Russell's dad says under-16 social media ban would be wrong
+Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=Molly%2BRussell%27s%2Bdad%2Bsays%2Bunder-16%2Bsocial%2Bmedia%2Bban%2Bwould%2Bbe%2Bwrong&num=5&hl=en&start=0
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: backlash-after-trump-threatens-tariffs-over-greenl_20260117_2321.html
-✓ Created comprehensive article: backlash-after-trump-threatens-tariffs-over-greenl_20260117_2321.html
+Successfully created file: molly-russells-dad-says-under-16-social-media-ban-_20260118_0149.html
+✓ Created comprehensive article: molly-russells-dad-says-under-16-social-media-ban-_20260118_0149.html
 
-Processing trending topic: Sir Tony Blair 'honoured' to be part of Trump's efforts to rebuild Gaza
-Searching Google for: Sir Tony Blair 'honoured' to be part of Trump's efforts to rebuild Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSir%252BTony%252BBlair%252B%2527honoured%2527%252Bto%252Bbe%252Bpart%252Bof%252BTrump%2527s%252Befforts%252Bto%252Brebuild%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGPqysMsGIjDBSn_d5mlPWjc86XPETAOR3xAtRSntF5W9LX8QApcwdfDjS7ocFO7cU5SG3XzKWS8yBmpjbmRyUloBQw
+Processing trending topic: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
+Searching Google for: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
+Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=Yoweri%2BMuseveni%2Bwins%2BUgandan%2Belection%2Bas%2Bopponent%2Bcondemns%2B%E2%80%98fake%2Bresult%E2%80%99&num=5&hl=en&start=0
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sir-tony-blair-honoured-to-be-part-of-trumps-effor_20260117_2321.html
-✓ Created comprehensive article: sir-tony-blair-honoured-to-be-part-of-trumps-effor_20260117_2321.html
+Successfully created file: yoweri-museveni-wins-ugandan-election-as-opponent-_20260118_0149.html
+✓ Created comprehensive article: yoweri-museveni-wins-ugandan-election-as-opponent-_20260118_0149.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
@@ -62,7 +56,7 @@ Successfully created file: sir-tony-blair-honoured-to-be-part-of-trumps-effor_20
 📊 Summary: Generated 3 articles with:
    • Starmer and European leaders criticise Trump plan to apply tariffs over Greenland
      Sources: bbc.com, cnn.com, reuters.com
-   • Backlash after Trump threatens tariffs over Greenland purchase
+   • Molly Russell's dad says under-16 social media ban would be wrong
      Sources: bbc.com, cnn.com, reuters.com
-   • Sir Tony Blair 'honoured' to be part of Trump's efforts to rebuild Gaza
+   • Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’
      Sources: bbc.com, cnn.com, reuters.com
