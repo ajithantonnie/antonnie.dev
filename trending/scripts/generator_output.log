@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: High-speed train collision in Spain kills at least 39
-  Added: Andrew Rosindell quits Tories and defects to Reform UK
+  Added: High-speed train crash in Spain kills at least 39
+  Added: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,54 +13,54 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: From Uganda to Cameroon, how Africa’s ‘leaders for life’ stay in power
-Added expanded search topic: From Uganda to Cameroon, how Africa’s ‘leaders for life’ stay in power
-Saved 18 topics for 2026-01-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Death toll in Karachi mall fire rises to at least 14 in Pakistan
+Added expanded search topic: Death toll in Karachi mall fire rises to at least 14 in Pakistan
+Saved 21 topics for 2026-01-19
 Returning 3 unique trending topics:
-  1. High-speed train collision in Spain kills at least 39 (from BBC News)
-  2. Andrew Rosindell quits Tories and defects to Reform UK (from BBC News)
-  3. From Uganda to Cameroon, how Africa’s ‘leaders for life’ stay in power (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. High-speed train crash in Spain kills at least 39 (from BBC News)
+  2. 'Credit-score company encouraged me to borrow again when I was nearly debt-free' (from BBC News)
+  3. Death toll in Karachi mall fire rises to at least 14 in Pakistan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: High-speed train collision in Spain kills at least 39
-Searching Google for: High-speed train collision in Spain kills at least 39
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHigh-speed%252Btrain%252Bcollision%252Bin%252BSpain%252Bkills%252Bat%252Bleast%252B39%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTrjGNC7t8sGIjDEC7RxuBRmGniA_SE4tBsILXqPFSoVjGFeYvmTzypRfRxf2FzJ5rkfZPe1B_0ji7AyBmpjbmRyUloBQw
+Processing trending topic: High-speed train crash in Spain kills at least 39
+Searching Google for: High-speed train crash in Spain kills at least 39
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHigh-speed%252Btrain%252Bcrash%252Bin%252BSpain%252Bkills%252Bat%252Bleast%252B39%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8GGJLZt8sGIjBniUzlePpQ0yohTGCbgcbu5YD-46KMlhzvfAECS7-ZYUWVvjdNd_vuIwrQueUvzF0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: high-speed-train-collision-in-spain-kills-at-least_20260119_0731.html
-✓ Created comprehensive article: high-speed-train-collision-in-spain-kills-at-least_20260119_0731.html
+Successfully created file: high-speed-train-crash-in-spain-kills-at-least-39_20260119_0834.html
+✓ Created comprehensive article: high-speed-train-crash-in-spain-kills-at-least-39_20260119_0834.html
 
-Processing trending topic: Andrew Rosindell quits Tories and defects to Reform UK
-Searching Google for: Andrew Rosindell quits Tories and defects to Reform UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252BRosindell%252Bquits%252BTories%252Band%252Bdefects%252Bto%252BReform%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTrjGNe7t8sGIjC17Fwf9o1RlQavmGA5XM4vBr8tQkDsVt9_tAeEMWq_9ydOFIDIwbAH1PCB7UvKECgyBmpjbmRyUloBQw
+Processing trending topic: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
+Searching Google for: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Credit-score%252Bcompany%252Bencouraged%252Bme%252Bto%252Bborrow%252Bagain%252Bwhen%252BI%252Bwas%252Bnearly%252Bdebt-free%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8GGJrZt8sGIjDV3RpUZs-BxQJU9IuayzXSEZ20DcTAuWKDeM8J2nJsVv7bcBgFsBcwZztr5Yzt16YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-rosindell-quits-tories-and-defects-to-refor_20260119_0731.html
-✓ Created comprehensive article: andrew-rosindell-quits-tories-and-defects-to-refor_20260119_0731.html
+Successfully created file: credit-score-company-encouraged-me-to-borrow-again_20260119_0834.html
+✓ Created comprehensive article: credit-score-company-encouraged-me-to-borrow-again_20260119_0834.html
 
-Processing trending topic: From Uganda to Cameroon, how Africa’s ‘leaders for life’ stay in power
-Searching Google for: From Uganda to Cameroon, how Africa’s ‘leaders for life’ stay in power
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrom%252BUganda%252Bto%252BCameroon%252C%252Bhow%252BAfrica%25E2%2580%2599s%252B%25E2%2580%2598leaders%252Bfor%252Blife%25E2%2580%2599%252Bstay%252Bin%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoTrjGN27t8sGIjCA8XJBjhqXEJ4bzjeEwLcRmRo5ouHA5aUQlbWaS5_QzS0tH1372hIpujIm2I-a4SIyBmpjbmRyUloBQw
+Processing trending topic: Death toll in Karachi mall fire rises to at least 14 in Pakistan
+Searching Google for: Death toll in Karachi mall fire rises to at least 14 in Pakistan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeath%252Btoll%252Bin%252BKarachi%252Bmall%252Bfire%252Brises%252Bto%252Bat%252Bleast%252B14%252Bin%252BPakistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8GGKDZt8sGIjAXNVGnUe0_O1ubqqMLfGZUFA1fyu8d3cZUj0nImrn8Srro9vPEXFxY69tiBTpbKWQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: from-uganda-to-cameroon-how-africas-leaders-for-li_20260119_0731.html
-✓ Created comprehensive article: from-uganda-to-cameroon-how-africas-leaders-for-li_20260119_0731.html
+Successfully created file: death-toll-in-karachi-mall-fire-rises-to-at-least-_20260119_0834.html
+✓ Created comprehensive article: death-toll-in-karachi-mall-fire-rises-to-at-least-_20260119_0834.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • High-speed train collision in Spain kills at least 39
+   • High-speed train crash in Spain kills at least 39
      Sources: bbc.com, cnn.com, reuters.com
-   • Andrew Rosindell quits Tories and defects to Reform UK
+   • 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
      Sources: bbc.com, cnn.com, reuters.com
-   • From Uganda to Cameroon, how Africa’s ‘leaders for life’ stay in power
+   • Death toll in Karachi mall fire rises to at least 14 in Pakistan
      Sources: bbc.com, cnn.com, reuters.com
