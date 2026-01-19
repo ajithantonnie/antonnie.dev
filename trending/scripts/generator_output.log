@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Japan’s PM Takaichi will dissolve parliament, call snap election
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is Germany trying to build ‘Europe’s strongest conventional army’?
-Added expanded search topic: Japan’s PM Takaichi will dissolve parliament, call snap election
-Added expanded search topic: Why is Germany trying to build ‘Europe’s strongest conventional army’?
-Saved 24 topics for 2026-01-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New storm to hit Gaza, piling on suffering for thousands of displaced
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Narrative war: Who killed thousands during Iran’s nationwide protests?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chile declares ‘state of catastrophe’ as wildfires kill at least 18
+Added expanded search topic: New storm to hit Gaza, piling on suffering for thousands of displaced
+Added expanded search topic: Narrative war: Who killed thousands during Iran’s nationwide protests?
+Added expanded search topic: Chile declares ‘state of catastrophe’ as wildfires kill at least 18
+Saved 27 topics for 2026-01-19
 Returning 3 unique trending topics:
-  1. US believes its power matters more than international law, UN chief tells BBC (from BBC News)
-  2. Japan’s PM Takaichi will dissolve parliament, call snap election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Why is Germany trying to build ‘Europe’s strongest conventional army’? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. New storm to hit Gaza, piling on suffering for thousands of displaced (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Narrative war: Who killed thousands during Iran’s nationwide protests? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Chile declares ‘state of catastrophe’ as wildfires kill at least 18 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US believes its power matters more than international law, UN chief tells BBC
-Searching Google for: US believes its power matters more than international law, UN chief tells BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bbelieves%252Bits%252Bpower%252Bmatters%252Bmore%252Bthan%252Binternational%252Blaw%252C%252BUN%252Bchief%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxoGMP2t8sGIjDywIhlAhBfIMEjaXtWwbr-dWZNGCUXY6Cc9b0s9k1QVXOfcynxVVfE_1eo2bAvhOMyBmpjbmRyUloBQw
+Processing trending topic: New storm to hit Gaza, piling on suffering for thousands of displaced
+Searching Google for: New storm to hit Gaza, piling on suffering for thousands of displaced
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252Bstorm%252Bto%252Bhit%252BGaza%252C%252Bpiling%252Bon%252Bsuffering%252Bfor%252Bthousands%252Bof%252Bdisplaced%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG6zGNePuMsGIjBHTAtyfqIJOjiCPPe_O-gkVaUTih08c_iJLpKBuScRZI58cqbBERjFReMjKIoPwucyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-believes-its-power-matters-more-than-internatio_20260119_0937.html
-✓ Created comprehensive article: us-believes-its-power-matters-more-than-internatio_20260119_0937.html
+Successfully created file: new-storm-to-hit-gaza-piling-on-suffering-for-thou_20260119_1030.html
+✓ Created comprehensive article: new-storm-to-hit-gaza-piling-on-suffering-for-thou_20260119_1030.html
 
-Processing trending topic: Japan’s PM Takaichi will dissolve parliament, call snap election
-Searching Google for: Japan’s PM Takaichi will dissolve parliament, call snap election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJapan%25E2%2580%2599s%252BPM%252BTakaichi%252Bwill%252Bdissolve%252Bparliament%252C%252Bcall%252Bsnap%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxoGMr2t8sGIjCB58FsSJXbB3rP9SAidHRiNgZjz_gq9LMofVowKSIzNmeha7xIc_iUlG_swYOGPUUyBmpjbmRyUloBQw
+Processing trending topic: Narrative war: Who killed thousands during Iran’s nationwide protests?
+Searching Google for: Narrative war: Who killed thousands during Iran’s nationwide protests?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNarrative%252Bwar%253A%252BWho%252Bkilled%252Bthousands%252Bduring%252BIran%25E2%2580%2599s%252Bnationwide%252Bprotests%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG6zGN6PuMsGIjAnwXShwFyJLSysqeM14kAdXsJixuc0QCLiRKWU0fBFIduTEANP6QxX57asNr4YncAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: japans-pm-takaichi-will-dissolve-parliament-call-s_20260119_0937.html
-✓ Created comprehensive article: japans-pm-takaichi-will-dissolve-parliament-call-s_20260119_0937.html
+Successfully created file: narrative-war-who-killed-thousands-during-irans-na_20260119_1030.html
+✓ Created comprehensive article: narrative-war-who-killed-thousands-during-irans-na_20260119_1030.html
 
-Processing trending topic: Why is Germany trying to build ‘Europe’s strongest conventional army’?
-Searching Google for: Why is Germany trying to build ‘Europe’s strongest conventional army’?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BGermany%252Btrying%252Bto%252Bbuild%252B%25E2%2580%2598Europe%25E2%2580%2599s%252Bstrongest%252Bconventional%252Barmy%25E2%2580%2599%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxoGND2t8sGIjAw7vS1bLJZVL0hfp3Uvg7-vREURZBoNDed9gbQl8GsqbL7k3HW0ILIYeSrvYHMdyoyBmpjbmRyUloBQw
+Processing trending topic: Chile declares ‘state of catastrophe’ as wildfires kill at least 18
+Searching Google for: Chile declares ‘state of catastrophe’ as wildfires kill at least 18
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChile%252Bdeclares%252B%25E2%2580%2598state%252Bof%252Bcatastrophe%25E2%2580%2599%252Bas%252Bwildfires%252Bkill%252Bat%252Bleast%252B18%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG6zGOSPuMsGIjC1IFMWQNcfKaVmy2-XA1afTnR3C5sLLCup895bx1Zbc_WTyIPEf244eQCn0EYcPbIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-is-germany-trying-to-build-europes-strongest-c_20260119_0937.html
-✓ Created comprehensive article: why-is-germany-trying-to-build-europes-strongest-c_20260119_0937.html
+Successfully created file: chile-declares-state-of-catastrophe-as-wildfires-k_20260119_1031.html
+✓ Created comprehensive article: chile-declares-state-of-catastrophe-as-wildfires-k_20260119_1031.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US believes its power matters more than international law, UN chief tells BBC
+   • New storm to hit Gaza, piling on suffering for thousands of displaced
      Sources: bbc.com, cnn.com, reuters.com
-   • Japan’s PM Takaichi will dissolve parliament, call snap election
+   • Narrative war: Who killed thousands during Iran’s nationwide protests?
      Sources: bbc.com, cnn.com, reuters.com
-   • Why is Germany trying to build ‘Europe’s strongest conventional army’?
+   • Chile declares ‘state of catastrophe’ as wildfires kill at least 18
      Sources: bbc.com, cnn.com, reuters.com
