@@ -1,66 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: High-speed train crash in Spain kills at least 39
   Added: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
+  Added: US believes its power matters more than international law, UN chief tells BBC
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Death toll in Karachi mall fire rises to at least 14 in Pakistan
-Added expanded search topic: Death toll in Karachi mall fire rises to at least 14 in Pakistan
-Saved 21 topics for 2026-01-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Japan’s PM Takaichi will dissolve parliament, call snap election
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is Germany trying to build ‘Europe’s strongest conventional army’?
+Added expanded search topic: Japan’s PM Takaichi will dissolve parliament, call snap election
+Added expanded search topic: Why is Germany trying to build ‘Europe’s strongest conventional army’?
+Saved 24 topics for 2026-01-19
 Returning 3 unique trending topics:
-  1. High-speed train crash in Spain kills at least 39 (from BBC News)
-  2. 'Credit-score company encouraged me to borrow again when I was nearly debt-free' (from BBC News)
-  3. Death toll in Karachi mall fire rises to at least 14 in Pakistan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US believes its power matters more than international law, UN chief tells BBC (from BBC News)
+  2. Japan’s PM Takaichi will dissolve parliament, call snap election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why is Germany trying to build ‘Europe’s strongest conventional army’? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: High-speed train crash in Spain kills at least 39
-Searching Google for: High-speed train crash in Spain kills at least 39
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHigh-speed%252Btrain%252Bcrash%252Bin%252BSpain%252Bkills%252Bat%252Bleast%252B39%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8GGJLZt8sGIjBniUzlePpQ0yohTGCbgcbu5YD-46KMlhzvfAECS7-ZYUWVvjdNd_vuIwrQueUvzF0yBmpjbmRyUloBQw
+Processing trending topic: US believes its power matters more than international law, UN chief tells BBC
+Searching Google for: US believes its power matters more than international law, UN chief tells BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bbelieves%252Bits%252Bpower%252Bmatters%252Bmore%252Bthan%252Binternational%252Blaw%252C%252BUN%252Bchief%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxoGMP2t8sGIjDywIhlAhBfIMEjaXtWwbr-dWZNGCUXY6Cc9b0s9k1QVXOfcynxVVfE_1eo2bAvhOMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: high-speed-train-crash-in-spain-kills-at-least-39_20260119_0834.html
-✓ Created comprehensive article: high-speed-train-crash-in-spain-kills-at-least-39_20260119_0834.html
+Successfully created file: us-believes-its-power-matters-more-than-internatio_20260119_0937.html
+✓ Created comprehensive article: us-believes-its-power-matters-more-than-internatio_20260119_0937.html
 
-Processing trending topic: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
-Searching Google for: 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Credit-score%252Bcompany%252Bencouraged%252Bme%252Bto%252Bborrow%252Bagain%252Bwhen%252BI%252Bwas%252Bnearly%252Bdebt-free%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8GGJrZt8sGIjDV3RpUZs-BxQJU9IuayzXSEZ20DcTAuWKDeM8J2nJsVv7bcBgFsBcwZztr5Yzt16YyBmpjbmRyUloBQw
+Processing trending topic: Japan’s PM Takaichi will dissolve parliament, call snap election
+Searching Google for: Japan’s PM Takaichi will dissolve parliament, call snap election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJapan%25E2%2580%2599s%252BPM%252BTakaichi%252Bwill%252Bdissolve%252Bparliament%252C%252Bcall%252Bsnap%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxoGMr2t8sGIjCB58FsSJXbB3rP9SAidHRiNgZjz_gq9LMofVowKSIzNmeha7xIc_iUlG_swYOGPUUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: credit-score-company-encouraged-me-to-borrow-again_20260119_0834.html
-✓ Created comprehensive article: credit-score-company-encouraged-me-to-borrow-again_20260119_0834.html
+Successfully created file: japans-pm-takaichi-will-dissolve-parliament-call-s_20260119_0937.html
+✓ Created comprehensive article: japans-pm-takaichi-will-dissolve-parliament-call-s_20260119_0937.html
 
-Processing trending topic: Death toll in Karachi mall fire rises to at least 14 in Pakistan
-Searching Google for: Death toll in Karachi mall fire rises to at least 14 in Pakistan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeath%252Btoll%252Bin%252BKarachi%252Bmall%252Bfire%252Brises%252Bto%252Bat%252Bleast%252B14%252Bin%252BPakistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8GGKDZt8sGIjAXNVGnUe0_O1ubqqMLfGZUFA1fyu8d3cZUj0nImrn8Srro9vPEXFxY69tiBTpbKWQyBmpjbmRyUloBQw
+Processing trending topic: Why is Germany trying to build ‘Europe’s strongest conventional army’?
+Searching Google for: Why is Germany trying to build ‘Europe’s strongest conventional army’?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BGermany%252Btrying%252Bto%252Bbuild%252B%25E2%2580%2598Europe%25E2%2580%2599s%252Bstrongest%252Bconventional%252Barmy%25E2%2580%2599%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxoGND2t8sGIjAw7vS1bLJZVL0hfp3Uvg7-vREURZBoNDed9gbQl8GsqbL7k3HW0ILIYeSrvYHMdyoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: death-toll-in-karachi-mall-fire-rises-to-at-least-_20260119_0834.html
-✓ Created comprehensive article: death-toll-in-karachi-mall-fire-rises-to-at-least-_20260119_0834.html
+Successfully created file: why-is-germany-trying-to-build-europes-strongest-c_20260119_0937.html
+✓ Created comprehensive article: why-is-germany-trying-to-build-europes-strongest-c_20260119_0937.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • High-speed train crash in Spain kills at least 39
+   • US believes its power matters more than international law, UN chief tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Credit-score company encouraged me to borrow again when I was nearly debt-free'
+   • Japan’s PM Takaichi will dissolve parliament, call snap election
      Sources: bbc.com, cnn.com, reuters.com
-   • Death toll in Karachi mall fire rises to at least 14 in Pakistan
+   • Why is Germany trying to build ‘Europe’s strongest conventional army’?
      Sources: bbc.com, cnn.com, reuters.com
