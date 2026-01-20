@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK defends Chagos deal after Trump calls it 'act of great stupidity'
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Museveni’s son threatens Bobi Wine after Uganda election
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Doha hosts maritime defence exhibition amid rising regional tensions
-Added expanded search topic: Museveni’s son threatens Bobi Wine after Uganda election
-Added expanded search topic: Doha hosts maritime defence exhibition amid rising regional tensions
-Saved 51 topics for 2026-01-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How winter is making Gaza’s humanitarian crisis worse
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK approves Chinese embassy in London despite fears over security, protests
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli withdrawal from Gaza a top priority, Qatari PM says
+Added expanded search topic: How winter is making Gaza’s humanitarian crisis worse
+Added expanded search topic: UK approves Chinese embassy in London despite fears over security, protests
+Added expanded search topic: Israeli withdrawal from Gaza a top priority, Qatari PM says
+Saved 54 topics for 2026-01-20
 Returning 3 unique trending topics:
-  1. Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts (from The Guardian)
-  2. Museveni’s son threatens Bobi Wine after Uganda election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Doha hosts maritime defence exhibition amid rising regional tensions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. How winter is making Gaza’s humanitarian crisis worse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. UK approves Chinese embassy in London despite fears over security, protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli withdrawal from Gaza a top priority, Qatari PM says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Searching Google for: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHead%252Bof%252BUS%252BAfrica%252Bbureau%252Burges%252Bstaff%252Bto%252Bhighlight%252BUS%252B%25E2%2580%2598generosity%25E2%2580%2599%252Bdespite%252Baid%252Bcuts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGXHGOqXv8sGIjA3vq__TX6ZVDc0JhaeH3rft4bjshRDnybdcLPti4ZRaTleq6ryc7DPPmQ2_A45yjEyBmpjbmRyUloBQw
+Processing trending topic: How winter is making Gaza’s humanitarian crisis worse
+Searching Google for: How winter is making Gaza’s humanitarian crisis worse
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bwinter%252Bis%252Bmaking%252BGaza%25E2%2580%2599s%252Bhumanitarian%252Bcrisis%252Bworse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq39iGOnEv8sGIjB_YiMUR4JUglIPMDl2FJWD6GrcW6bwxFxxGStFe-PBRplIHnURdXYuZsqN73VbNnQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: head-of-us-africa-bureau-urges-staff-to-highlight-_20260120_1839.html
-✓ Created comprehensive article: head-of-us-africa-bureau-urges-staff-to-highlight-_20260120_1839.html
+Successfully created file: how-winter-is-making-gazas-humanitarian-crisis-wor_20260120_2015.html
+✓ Created comprehensive article: how-winter-is-making-gazas-humanitarian-crisis-wor_20260120_2015.html
 
-Processing trending topic: Museveni’s son threatens Bobi Wine after Uganda election
-Searching Google for: Museveni’s son threatens Bobi Wine after Uganda election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMuseveni%25E2%2580%2599s%252Bson%252Bthreatens%252BBobi%252BWine%252Bafter%252BUganda%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGXHGPGXv8sGIjBTpaw24oRrDEe1PirmyEOd4DyrFB1zm0R3OQCpQcLssqYG-Ixwx4jZ19uIzXNlqqYyBmpjbmRyUloBQw
+Processing trending topic: UK approves Chinese embassy in London despite fears over security, protests
+Searching Google for: UK approves Chinese embassy in London despite fears over security, protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bapproves%252BChinese%252Bembassy%252Bin%252BLondon%252Bdespite%252Bfears%252Bover%252Bsecurity%252C%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq39iGPHEv8sGIjAIfk9UGbji8gT8-QiOF7J9amK5hO88QUQmSpLACaBJrKZ7AA164NBoQujHEezEEWQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: musevenis-son-threatens-bobi-wine-after-uganda-ele_20260120_1839.html
-✓ Created comprehensive article: musevenis-son-threatens-bobi-wine-after-uganda-ele_20260120_1839.html
+Successfully created file: uk-approves-chinese-embassy-in-london-despite-fear_20260120_2015.html
+✓ Created comprehensive article: uk-approves-chinese-embassy-in-london-despite-fear_20260120_2015.html
 
-Processing trending topic: Doha hosts maritime defence exhibition amid rising regional tensions
-Searching Google for: Doha hosts maritime defence exhibition amid rising regional tensions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDoha%252Bhosts%252Bmaritime%252Bdefence%252Bexhibition%252Bamid%252Brising%252Bregional%252Btensions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGXHGPeXv8sGIjD2Po6OBGf6MesP4RWm4wFqnYJ7gHvPi583ifsw8hnrzW-m1MbLNLeEbfU_gAXyx3AyBmpjbmRyUloBQw
+Processing trending topic: Israeli withdrawal from Gaza a top priority, Qatari PM says
+Searching Google for: Israeli withdrawal from Gaza a top priority, Qatari PM says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bwithdrawal%252Bfrom%252BGaza%252Ba%252Btop%252Bpriority%252C%252BQatari%252BPM%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq39iGPfEv8sGIjC4lGoEgZkMpkx3AiuFvHff2X4ibqoWcL4dUuBqC4yK7dHHsukJdAnrO2QBrLaFOngyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: doha-hosts-maritime-defence-exhibition-amid-rising_20260120_1839.html
-✓ Created comprehensive article: doha-hosts-maritime-defence-exhibition-amid-rising_20260120_1839.html
+Successfully created file: israeli-withdrawal-from-gaza-a-top-priority-qatari_20260120_2015.html
+✓ Created comprehensive article: israeli-withdrawal-from-gaza-a-top-priority-qatari_20260120_2015.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+   • How winter is making Gaza’s humanitarian crisis worse
      Sources: bbc.com, cnn.com, reuters.com
-   • Museveni’s son threatens Bobi Wine after Uganda election
+   • UK approves Chinese embassy in London despite fears over security, protests
      Sources: bbc.com, cnn.com, reuters.com
-   • Doha hosts maritime defence exhibition amid rising regional tensions
+   • Israeli withdrawal from Gaza a top priority, Qatari PM says
      Sources: bbc.com, cnn.com, reuters.com
