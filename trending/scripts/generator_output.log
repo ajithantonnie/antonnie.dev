@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says he will '100%' carry out Greenland tariffs threat, as EU vows to protect its interests
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-20
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Denmark sends more troops to Greenland amid tensions with Trump
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK to consider Australia-style ban on social media for children
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than 100 vehicle pile-up leaves US motorists stranded in snowstorm
+Added expanded search topic: Denmark sends more troops to Greenland amid tensions with Trump
+Added expanded search topic: UK to consider Australia-style ban on social media for children
+Added expanded search topic: More than 100 vehicle pile-up leaves US motorists stranded in snowstorm
+Saved 6 topics for 2026-01-20
 Returning 3 unique trending topics:
-  1. Trump says he will '100%' carry out Greenland tariffs threat, as EU vows to protect its interests (from BBC News)
-  2. Confronted over Greenland, Europe is ditching its softly-softly approach to Trump (from BBC News)
-  3. ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam (from The Guardian)
+  1. Denmark sends more troops to Greenland amid tensions with Trump (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. UK to consider Australia-style ban on social media for children (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. More than 100 vehicle pile-up leaves US motorists stranded in snowstorm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says he will '100%' carry out Greenland tariffs threat, as EU vows to protect its interests
-Searching Google for: Trump says he will '100%' carry out Greenland tariffs threat, as EU vows to protect its interests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bwill%252B%2527100%2525%2527%252Bcarry%252Bout%252BGreenland%252Btariffs%252Bthreat%252C%252Bas%252BEU%252Bvows%252Bto%252Bprotect%252Bits%252Binterests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WkGJq8u8sGIjBxXF90FnIr74Xc-CGpzGY3Cq-zxrqA5S4_QJoUVi4H3pLdBmvP0IJ06G4UKbVXroAyBmpjbmRyUloBQw
+Processing trending topic: Denmark sends more troops to Greenland amid tensions with Trump
+Searching Google for: Denmark sends more troops to Greenland amid tensions with Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDenmark%252Bsends%252Bmore%252Btroops%252Bto%252BGreenland%252Bamid%252Btensions%252Bwith%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgUGKf1u8sGIjChxg5rvJW9u40tdNxz8XoSZEO4-Ti24qoNrNorNXdiaIVd4h_e-TW-zu285h_WZiIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-he-will-100-carry-out-greenland-tariffs_20260120_0145.html
-✓ Created comprehensive article: trump-says-he-will-100-carry-out-greenland-tariffs_20260120_0145.html
+Successfully created file: denmark-sends-more-troops-to-greenland-amid-tensio_20260120_0346.html
+✓ Created comprehensive article: denmark-sends-more-troops-to-greenland-amid-tensio_20260120_0346.html
 
-Processing trending topic: Confronted over Greenland, Europe is ditching its softly-softly approach to Trump
-Searching Google for: Confronted over Greenland, Europe is ditching its softly-softly approach to Trump
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DConfronted%252Bover%252BGreenland%252C%252BEurope%252Bis%252Bditching%252Bits%252Bsoftly-softly%252Bapproach%252Bto%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WkGKG8u8sGIjBgPixJCWziv_7kgNVUeYxy-TDA7jZoAOi_acPBBmg4nNDSNMNsAb8KwpzZrckJYIcyBmpjbmRyUloBQw
+Processing trending topic: UK to consider Australia-style ban on social media for children
+Searching Google for: UK to consider Australia-style ban on social media for children
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bto%252Bconsider%252BAustralia-style%252Bban%252Bon%252Bsocial%252Bmedia%252Bfor%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgUGK_1u8sGIjBnFiGq-z4azXe2Nj8hfi8c-pewGG2kyXepQ60sZaf8EEf3P_d6rv_73HgLThPzC2IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: confronted-over-greenland-europe-is-ditching-its-s_20260120_0145.html
-✓ Created comprehensive article: confronted-over-greenland-europe-is-ditching-its-s_20260120_0145.html
+Successfully created file: uk-to-consider-australia-style-ban-on-social-media_20260120_0346.html
+✓ Created comprehensive article: uk-to-consider-australia-style-ban-on-social-media_20260120_0346.html
 
-Processing trending topic: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
-Searching Google for: ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Brazen%25E2%2580%2599%252Bpolitical%252Binfluence%252Bof%252Brich%252Blaid%252Bbare%252Bas%252Bwealth%252Bof%252Bbillionaires%252Breaches%252B%252418.3tn%252C%252Bsays%252BOxfam%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WkGKe8u8sGIjDPKaHbd2itBQ0KlvV2Q0E7L_KgiSqmYu8l3L8UHSSUgec1ckhESEdgrkJdXnhwr5gyBmpjbmRyUloBQw
+Processing trending topic: More than 100 vehicle pile-up leaves US motorists stranded in snowstorm
+Searching Google for: More than 100 vehicle pile-up leaves US motorists stranded in snowstorm
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B100%252Bvehicle%252Bpile-up%252Bleaves%252BUS%252Bmotorists%252Bstranded%252Bin%252Bsnowstorm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgUGLX1u8sGIjAhpbdbwSPu1YIadRzPG-qXj4I78cmcJ0SicmCAAMVq8HeCAXxjYcNN1j7AqGuQuNIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: brazen-political-influence-of-rich-laid-bare-as-we_20260120_0145.html
-✓ Created comprehensive article: brazen-political-influence-of-rich-laid-bare-as-we_20260120_0145.html
+Successfully created file: more-than-100-vehicle-pile-up-leaves-us-motorists-_20260120_0347.html
+✓ Created comprehensive article: more-than-100-vehicle-pile-up-leaves-us-motorists-_20260120_0347.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says he will '100%' carry out Greenland tariffs threat, as EU vows to protect its interests
+   • Denmark sends more troops to Greenland amid tensions with Trump
      Sources: bbc.com, cnn.com, reuters.com
-   • Confronted over Greenland, Europe is ditching its softly-softly approach to Trump
+   • UK to consider Australia-style ban on social media for children
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Brazen’ political influence of rich laid bare as wealth of billionaires reaches $18.3tn, says Oxfam
+   • More than 100 vehicle pile-up leaves US motorists stranded in snowstorm
      Sources: bbc.com, cnn.com, reuters.com
