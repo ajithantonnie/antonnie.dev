@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Trump doubles down on Greenland threats, saying there is 'no going back'
   Added: Lyse Doucet: Trump is shaking the world order more than any president since WW2
-  Added: Driver killed in Spain train crash days after high-speed collision
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-21
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What is Bangladesh’s Jamaat-e-Islami party? Could it lead the country next?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Stock markets plunge as Trump ramps up tensions over Greenland
+Added expanded search topic: What is Bangladesh’s Jamaat-e-Islami party? Could it lead the country next?
+Added expanded search topic: Stock markets plunge as Trump ramps up tensions over Greenland
+Saved 6 topics for 2026-01-21
 Returning 3 unique trending topics:
-  1. Lyse Doucet: Trump is shaking the world order more than any president since WW2 (from BBC News)
-  2. Driver killed in Spain train crash days after high-speed collision (from BBC News)
-  3. Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts (from The Guardian)
+  1. Trump doubles down on Greenland threats, saying there is 'no going back' (from BBC News)
+  2. What is Bangladesh’s Jamaat-e-Islami party? Could it lead the country next? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Stock markets plunge as Trump ramps up tensions over Greenland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Lyse Doucet: Trump is shaking the world order more than any president since WW2
-Searching Google for: Lyse Doucet: Trump is shaking the world order more than any president since WW2
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLyse%252BDoucet%253A%252BTrump%252Bis%252Bshaking%252Bthe%252Bworld%252Border%252Bmore%252Bthan%252Bany%252Bpresident%252Bsince%252BWW2%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9wGOrfwMsGIjDCvwwuZxtikoUGCvq1Tvx3AAH5zIR7dDcHRLj7F3w2uzUcsBuhiP96U2F0IwTX0JoyBmpjbmRyUloBQw
+Processing trending topic: Trump doubles down on Greenland threats, saying there is 'no going back'
+Searching Google for: Trump doubles down on Greenland threats, saying there is 'no going back'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bdoubles%252Bdown%252Bon%252BGreenland%252Bthreats%252C%252Bsaying%252Bthere%252Bis%252B%2527no%252Bgoing%252Bback%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04UmgGLyYwcsGIjBWGUKMRF9e4vU-8luUyRefKfrgQGJukTTWQytUL6kcouq4wSOzJoGsAl4VVq4xAg4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lyse-doucet-trump-is-shaking-the-world-order-more-_20260121_0146.html
-✓ Created comprehensive article: lyse-doucet-trump-is-shaking-the-world-order-more-_20260121_0146.html
+Successfully created file: trump-doubles-down-on-greenland-threats-saying-the_20260121_0347.html
+✓ Created comprehensive article: trump-doubles-down-on-greenland-threats-saying-the_20260121_0347.html
 
-Processing trending topic: Driver killed in Spain train crash days after high-speed collision
-Searching Google for: Driver killed in Spain train crash days after high-speed collision
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDriver%252Bkilled%252Bin%252BSpain%252Btrain%252Bcrash%252Bdays%252Bafter%252Bhigh-speed%252Bcollision%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9wGPLfwMsGIjANR4c5RFA9F1MMbDXI6cSRAfpN2IXuCw0t-wJKufrv_NB1v6bZI0lUWOrl5X_zCqsyBmpjbmRyUloBQw
+Processing trending topic: What is Bangladesh’s Jamaat-e-Islami party? Could it lead the country next?
+Searching Google for: What is Bangladesh’s Jamaat-e-Islami party? Could it lead the country next?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bis%252BBangladesh%25E2%2580%2599s%252BJamaat-e-Islami%252Bparty%253F%252BCould%252Bit%252Blead%252Bthe%252Bcountry%252Bnext%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04UmgGMOYwcsGIjAI7ey9-kyW_NtxEcaCv_4I--vPdvg-KwnEyuWQ9gVeaTvS8zpsDUNJg_nbZUI-GWEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: driver-killed-in-spain-train-crash-days-after-high_20260121_0146.html
-✓ Created comprehensive article: driver-killed-in-spain-train-crash-days-after-high_20260121_0146.html
+Successfully created file: what-is-bangladeshs-jamaat-e-islami-party-could-it_20260121_0347.html
+✓ Created comprehensive article: what-is-bangladeshs-jamaat-e-islami-party-could-it_20260121_0347.html
 
-Processing trending topic: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Searching Google for: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHead%252Bof%252BUS%252BAfrica%252Bbureau%252Burges%252Bstaff%252Bto%252Bhighlight%252BUS%252B%25E2%2580%2598generosity%25E2%2580%2599%252Bdespite%252Baid%252Bcuts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ9wGPjfwMsGIjCUsR2USRAmMyWFR65LRR-2xNHH4k7cH5dlnG6kGYMzDkrNOidZ5mDD-pv0npzUkRoyBmpjbmRyUloBQw
+Processing trending topic: Stock markets plunge as Trump ramps up tensions over Greenland
+Searching Google for: Stock markets plunge as Trump ramps up tensions over Greenland
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStock%252Bmarkets%252Bplunge%252Bas%252BTrump%252Bramps%252Bup%252Btensions%252Bover%252BGreenland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04UmgGMmYwcsGIjCZXo66edA-yyaZpnltuApNk-4thkgERwXVfGHZyiMlWHZDUD9vA8Dmh3VFEBHAKaUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: head-of-us-africa-bureau-urges-staff-to-highlight-_20260121_0146.html
-✓ Created comprehensive article: head-of-us-africa-bureau-urges-staff-to-highlight-_20260121_0146.html
+Successfully created file: stock-markets-plunge-as-trump-ramps-up-tensions-ov_20260121_0347.html
+✓ Created comprehensive article: stock-markets-plunge-as-trump-ramps-up-tensions-ov_20260121_0347.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Lyse Doucet: Trump is shaking the world order more than any president since WW2
+   • Trump doubles down on Greenland threats, saying there is 'no going back'
      Sources: bbc.com, cnn.com, reuters.com
-   • Driver killed in Spain train crash days after high-speed collision
+   • What is Bangladesh’s Jamaat-e-Islami party? Could it lead the country next?
      Sources: bbc.com, cnn.com, reuters.com
-   • Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+   • Stock markets plunge as Trump ramps up tensions over Greenland
      Sources: bbc.com, cnn.com, reuters.com
