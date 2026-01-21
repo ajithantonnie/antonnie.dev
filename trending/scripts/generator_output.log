@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: What sort of welcome will Trump get at Davos?
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian forces makes gains against SDF: What it means for country’s Kurds
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Live: Israel launches strikes as Netanyahu joins Gaza ‘board of peace’
-Added expanded search topic: Syrian forces makes gains against SDF: What it means for country’s Kurds
-Added expanded search topic: Live: Israel launches strikes as Netanyahu joins Gaza ‘board of peace’
-Saved 27 topics for 2026-01-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US allies unite against Trump’s threats to take over Greenland at Davos
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian forces make gains against SDF: What it means for country’s Kurds
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Luka Doncic records triple-double as Lakers rally past Nuggets
+Added expanded search topic: US allies unite against Trump’s threats to take over Greenland at Davos
+Added expanded search topic: Syrian forces make gains against SDF: What it means for country’s Kurds
+Added expanded search topic: Luka Doncic records triple-double as Lakers rally past Nuggets
+Saved 30 topics for 2026-01-21
 Returning 3 unique trending topics:
-  1. Watch: What sort of welcome will Trump get at Davos? (from BBC News)
-  2. Syrian forces makes gains against SDF: What it means for country’s Kurds (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Live: Israel launches strikes as Netanyahu joins Gaza ‘board of peace’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US allies unite against Trump’s threats to take over Greenland at Davos (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Syrian forces make gains against SDF: What it means for country’s Kurds (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Luka Doncic records triple-double as Lakers rally past Nuggets (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: What sort of welcome will Trump get at Davos?
-Searching Google for: Watch: What sort of welcome will Trump get at Davos?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BWhat%252Bsort%252Bof%252Bwelcome%252Bwill%252BTrump%252Bget%252Bat%252BDavos%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IY0GM3VwssGIjCFXAjB9JjZ78tenm43I8ycopucl6Ch0koeA9IOdKhnTwbTKABhnq3Rgu9wZ-_BmhkyBmpjbmRyUloBQw
+Processing trending topic: US allies unite against Trump’s threats to take over Greenland at Davos
+Searching Google for: US allies unite against Trump’s threats to take over Greenland at Davos
+Google search failed: 502 Server Error: Bad Gateway for url: https://www.google.com/search?q=US%2Ballies%2Bunite%2Bagainst%2BTrump%E2%80%99s%2Bthreats%2Bto%2Btake%2Bover%2BGreenland%2Bat%2BDavos&num=5&hl=en&start=0
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-what-sort-of-welcome-will-trump-get-at-davos_20260121_1030.html
-✓ Created comprehensive article: watch-what-sort-of-welcome-will-trump-get-at-davos_20260121_1030.html
+Successfully created file: us-allies-unite-against-trumps-threats-to-take-ove_20260121_1126.html
+✓ Created comprehensive article: us-allies-unite-against-trumps-threats-to-take-ove_20260121_1126.html
 
-Processing trending topic: Syrian forces makes gains against SDF: What it means for country’s Kurds
-Searching Google for: Syrian forces makes gains against SDF: What it means for country’s Kurds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Bforces%252Bmakes%252Bgains%252Bagainst%252BSDF%253A%252BWhat%252Bit%252Bmeans%252Bfor%252Bcountry%25E2%2580%2599s%252BKurds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IY0GNTVwssGIjCUyxkfyItAh81JULG1rCZd6Y9rj34UqEMA1GUA6BOkZc3Zvq22BcsyyL7U6gcOvHgyBmpjbmRyUloBQw
+Processing trending topic: Syrian forces make gains against SDF: What it means for country’s Kurds
+Searching Google for: Syrian forces make gains against SDF: What it means for country’s Kurds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Bforces%252Bmake%252Bgains%252Bagainst%252BSDF%253A%252BWhat%252Bit%252Bmeans%252Bfor%252Bcountry%25E2%2580%2599s%252BKurds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmSGKzwwssGIjC6oUtM3mHmdWp0yWY6VlPHhKa5MdgS2q752aqUshOGRAe3yKElV1zyCyjfHsXLiKcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: syrian-forces-makes-gains-against-sdf-what-it-mean_20260121_1030.html
-✓ Created comprehensive article: syrian-forces-makes-gains-against-sdf-what-it-mean_20260121_1030.html
+Successfully created file: syrian-forces-make-gains-against-sdf-what-it-means_20260121_1127.html
+✓ Created comprehensive article: syrian-forces-make-gains-against-sdf-what-it-means_20260121_1127.html
 
-Processing trending topic: Live: Israel launches strikes as Netanyahu joins Gaza ‘board of peace’
-Searching Google for: Live: Israel launches strikes as Netanyahu joins Gaza ‘board of peace’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLive%253A%252BIsrael%252Blaunches%252Bstrikes%252Bas%252BNetanyahu%252Bjoins%252BGaza%252B%25E2%2580%2598board%252Bof%252Bpeace%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IY0GNvVwssGIjDlnxsGSKJ7ddttKPWYjpevArw0Q2C5hglTY5EoilQY0beh03W5DWTiXo9g1QDMy2AyBmpjbmRyUloBQw
+Processing trending topic: Luka Doncic records triple-double as Lakers rally past Nuggets
+Searching Google for: Luka Doncic records triple-double as Lakers rally past Nuggets
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLuka%252BDoncic%252Brecords%252Btriple-double%252Bas%252BLakers%252Brally%252Bpast%252BNuggets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmSGLLwwssGIjATmjRLvMY2-fzwo-V1uwZBEAvJSuslzYe4VK0FK_R0qi5nXcAJdqksEOm9yzXQdb8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-israel-launches-strikes-as-netanyahu-joins-ga_20260121_1030.html
-✓ Created comprehensive article: live-israel-launches-strikes-as-netanyahu-joins-ga_20260121_1030.html
+Successfully created file: luka-doncic-records-triple-double-as-lakers-rally-_20260121_1127.html
+✓ Created comprehensive article: luka-doncic-records-triple-double-as-lakers-rally-_20260121_1127.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: What sort of welcome will Trump get at Davos?
+   • US allies unite against Trump’s threats to take over Greenland at Davos
      Sources: bbc.com, cnn.com, reuters.com
-   • Syrian forces makes gains against SDF: What it means for country’s Kurds
+   • Syrian forces make gains against SDF: What it means for country’s Kurds
      Sources: bbc.com, cnn.com, reuters.com
-   • Live: Israel launches strikes as Netanyahu joins Gaza ‘board of peace’
+   • Luka Doncic records triple-double as Lakers rally past Nuggets
      Sources: bbc.com, cnn.com, reuters.com
