@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 42 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: UK holds off joining Trump's Board of Peace over Putin concerns
+  Added: Vampire film Sinners breaks Oscar nominations record
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Flooding causes widespread damage across southern Africa
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who got the most nods? The complete list of 2026 Oscar nominations
+Added expanded search topic: Flooding causes widespread damage across southern Africa
+Added expanded search topic: Who got the most nods? The complete list of 2026 Oscar nominations
+Saved 45 topics for 2026-01-22
+Returning 3 unique trending topics:
+  1. Vampire film Sinners breaks Oscar nominations record (from BBC News)
+  2. Flooding causes widespread damage across southern Africa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Who got the most nods? The complete list of 2026 Oscar nominations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Vampire film Sinners breaks Oscar nominations record
+Searching Google for: Vampire film Sinners breaks Oscar nominations record
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVampire%252Bfilm%252BSinners%252Bbreaks%252BOscar%252Bnominations%252Brecord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1sBGMikycsGIjDlUyEuaf6dXc4yKQnx0fW1IPC3lrCll6cXoA3sv2ICWbkuNeIa0MB7y9TPSxsHR4syBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: vampire-film-sinners-breaks-oscar-nominations-reco_20260122_1637.html
+✓ Created comprehensive article: vampire-film-sinners-breaks-oscar-nominations-reco_20260122_1637.html
+
+Processing trending topic: Flooding causes widespread damage across southern Africa
+Searching Google for: Flooding causes widespread damage across southern Africa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlooding%252Bcauses%252Bwidespread%252Bdamage%252Bacross%252Bsouthern%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1sBGM6kycsGIjAPTlgjP4sX6AQ6AuX_s9cDZwrQK1vyR56Og45vhnpXi9JBNYhbCtWoHbO86nJc0k4yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: flooding-causes-widespread-damage-across-southern-_20260122_1637.html
+✓ Created comprehensive article: flooding-causes-widespread-damage-across-southern-_20260122_1637.html
+
+Processing trending topic: Who got the most nods? The complete list of 2026 Oscar nominations
+Searching Google for: Who got the most nods? The complete list of 2026 Oscar nominations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bgot%252Bthe%252Bmost%252Bnods%253F%252BThe%252Bcomplete%252Blist%252Bof%252B2026%252BOscar%252Bnominations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1sBGNWkycsGIjBsSNSCqbUNJ-yeWXMdSDxX6ohvRgANFrvynrVvUbLzX95OPLNBng2mDAF5DuPf2FsyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: who-got-the-most-nods-the-complete-list-of-2026-os_20260122_1637.html
+✓ Created comprehensive article: who-got-the-most-nods-the-complete-list-of-2026-os_20260122_1637.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Vampire film Sinners breaks Oscar nominations record
+     Sources: bbc.com, cnn.com, reuters.com
+   • Flooding causes widespread damage across southern Africa
+     Sources: bbc.com, cnn.com, reuters.com
+   • Who got the most nods? The complete list of 2026 Oscar nominations
+     Sources: bbc.com, cnn.com, reuters.com
