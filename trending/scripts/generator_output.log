@@ -1,0 +1,62 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 0 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
+  Added: Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-01-22
+Returning 3 unique trending topics:
+  1. Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat (from BBC News)
+  2. Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer (from BBC News)
+  3. Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts (from The Guardian)
+
+Processing trending topic: Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
+Searching Google for: Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252B%2527framework%252Bof%252Ba%252Bfuture%252Bdeal%2527%252Bdiscussed%252Bon%252BGreenland%252Bas%252Bhe%252Bbacks%252Boff%252Btariffs%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQ2GP-CxssGIjCAGJKFv7DW41TR2wt7VforuQU48IbkD9JXS5MT2LiRLgEfH41Tj3tEHuNn__PqMksyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-says-framework-of-a-future-deal-discussed-on_20260122_0146.html
+✓ Created comprehensive article: trump-says-framework-of-a-future-deal-discussed-on_20260122_0146.html
+
+Processing trending topic: Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
+Searching Google for: Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BLatest%252Btwist%252Bin%252BTrump%252Bdiplomacy%252Bbrings%252Brelief%252Bfor%252BStarmer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQ2GIaDxssGIjCazbjzT50a6OppPF6T5GEal4p24ycO2ykVb4-S1u9tBJClbRVukZjdePDEhnnyKygyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: chris-mason-latest-twist-in-trump-diplomacy-brings_20260122_0146.html
+✓ Created comprehensive article: chris-mason-latest-twist-in-trump-diplomacy-brings_20260122_0146.html
+
+Processing trending topic: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+Searching Google for: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHead%252Bof%252BUS%252BAfrica%252Bbureau%252Burges%252Bstaff%252Bto%252Bhighlight%252BUS%252B%25E2%2580%2598generosity%25E2%2580%2599%252Bdespite%252Baid%252Bcuts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQ2GI2DxssGIjARq6gZPFSDhNKRnwyQbZmcFoNnSjXEdqpvHn73faLEKMjp4OB4ngXA0tQcY2ZkxvgyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: head-of-us-africa-bureau-urges-staff-to-highlight-_20260122_0146.html
+✓ Created comprehensive article: head-of-us-africa-bureau-urges-staff-to-highlight-_20260122_0146.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
+     Sources: bbc.com, cnn.com, reuters.com
+   • Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
+     Sources: bbc.com, cnn.com, reuters.com
+   • Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+     Sources: bbc.com, cnn.com, reuters.com
