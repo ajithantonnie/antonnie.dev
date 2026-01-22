@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-22
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World’s oldest cave art discovered in Indonesia’s Muna island
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel bombs four Syria-Lebanon border crossings; kills 2 in south Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Catch of the day’: Trump launches new ICE immigration crackdown in Maine
+Added expanded search topic: World’s oldest cave art discovered in Indonesia’s Muna island
+Added expanded search topic: Israel bombs four Syria-Lebanon border crossings; kills 2 in south Lebanon
+Added expanded search topic: ‘Catch of the day’: Trump launches new ICE immigration crackdown in Maine
+Saved 6 topics for 2026-01-22
 Returning 3 unique trending topics:
-  1. Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat (from BBC News)
-  2. Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer (from BBC News)
-  3. Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts (from The Guardian)
+  1. World’s oldest cave art discovered in Indonesia’s Muna island (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israel bombs four Syria-Lebanon border crossings; kills 2 in south Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘Catch of the day’: Trump launches new ICE immigration crackdown in Maine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
-Searching Google for: Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252B%2527framework%252Bof%252Ba%252Bfuture%252Bdeal%2527%252Bdiscussed%252Bon%252BGreenland%252Bas%252Bhe%252Bbacks%252Boff%252Btariffs%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQ2GP-CxssGIjCAGJKFv7DW41TR2wt7VforuQU48IbkD9JXS5MT2LiRLgEfH41Tj3tEHuNn__PqMksyBmpjbmRyUloBQw
+Processing trending topic: World’s oldest cave art discovered in Indonesia’s Muna island
+Searching Google for: World’s oldest cave art discovered in Indonesia’s Muna island
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%25E2%2580%2599s%252Boldest%252Bcave%252Bart%252Bdiscovered%252Bin%252BIndonesia%25E2%2580%2599s%252BMuna%252Bisland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE44eVGPC8xssGIjC8nhgXkA3NwK9EW7ejWDNwWnU3mttuW-KMNGkO34FkBx2bTTr_wFvyyrtdgW6HKagyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-framework-of-a-future-deal-discussed-on_20260122_0146.html
-✓ Created comprehensive article: trump-says-framework-of-a-future-deal-discussed-on_20260122_0146.html
+Successfully created file: worlds-oldest-cave-art-discovered-in-indonesias-mu_20260122_0350.html
+✓ Created comprehensive article: worlds-oldest-cave-art-discovered-in-indonesias-mu_20260122_0350.html
 
-Processing trending topic: Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
-Searching Google for: Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BLatest%252Btwist%252Bin%252BTrump%252Bdiplomacy%252Bbrings%252Brelief%252Bfor%252BStarmer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQ2GIaDxssGIjCazbjzT50a6OppPF6T5GEal4p24ycO2ykVb4-S1u9tBJClbRVukZjdePDEhnnyKygyBmpjbmRyUloBQw
+Processing trending topic: Israel bombs four Syria-Lebanon border crossings; kills 2 in south Lebanon
+Searching Google for: Israel bombs four Syria-Lebanon border crossings; kills 2 in south Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bbombs%252Bfour%252BSyria-Lebanon%252Bborder%252Bcrossings%253B%252Bkills%252B2%252Bin%252Bsouth%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE44eVGPe8xssGIjAKn5xePlBYNBXKzpBAN703xUPvW3fmJeLb_JQb2Pp4aGgtwR4d_OsYec1hQRj4CNEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-latest-twist-in-trump-diplomacy-brings_20260122_0146.html
-✓ Created comprehensive article: chris-mason-latest-twist-in-trump-diplomacy-brings_20260122_0146.html
+Successfully created file: israel-bombs-four-syria-lebanon-border-crossings-k_20260122_0350.html
+✓ Created comprehensive article: israel-bombs-four-syria-lebanon-border-crossings-k_20260122_0350.html
 
-Processing trending topic: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Searching Google for: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHead%252Bof%252BUS%252BAfrica%252Bbureau%252Burges%252Bstaff%252Bto%252Bhighlight%252BUS%252B%25E2%2580%2598generosity%25E2%2580%2599%252Bdespite%252Baid%252Bcuts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQ2GI2DxssGIjARq6gZPFSDhNKRnwyQbZmcFoNnSjXEdqpvHn73faLEKMjp4OB4ngXA0tQcY2ZkxvgyBmpjbmRyUloBQw
+Processing trending topic: ‘Catch of the day’: Trump launches new ICE immigration crackdown in Maine
+Searching Google for: ‘Catch of the day’: Trump launches new ICE immigration crackdown in Maine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Catch%252Bof%252Bthe%252Bday%25E2%2580%2599%253A%252BTrump%252Blaunches%252Bnew%252BICE%252Bimmigration%252Bcrackdown%252Bin%252BMaine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE44eVGP28xssGIjCgjxvzReUbmObuJRQGEJFun62xh1YNcUsGQqUaAJ7AZLVQ0nbBzMXlvgJ7wTRKYFAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: head-of-us-africa-bureau-urges-staff-to-highlight-_20260122_0146.html
-✓ Created comprehensive article: head-of-us-africa-bureau-urges-staff-to-highlight-_20260122_0146.html
+Successfully created file: catch-of-the-day-trump-launches-new-ice-immigratio_20260122_0350.html
+✓ Created comprehensive article: catch-of-the-day-trump-launches-new-ice-immigratio_20260122_0350.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat
+   • World’s oldest cave art discovered in Indonesia’s Muna island
      Sources: bbc.com, cnn.com, reuters.com
-   • Chris Mason: Latest twist in Trump diplomacy brings relief for Starmer
+   • Israel bombs four Syria-Lebanon border crossings; kills 2 in south Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts
+   • ‘Catch of the day’: Trump launches new ICE immigration crackdown in Maine
      Sources: bbc.com, cnn.com, reuters.com
