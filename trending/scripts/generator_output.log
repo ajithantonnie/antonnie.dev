@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'It's all about the land': Zelensky says Ukraine to talk to US and Russia
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-23
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US still ‘watching Iran‘ as ‘massive’ fleet heads to Gulf region
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Did the US give Greenland back to Denmark? Trump omits history at Davos
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US officers detain 5-year-old boy as Minnesota immigration raids continue
+Added expanded search topic: Trump says US still ‘watching Iran‘ as ‘massive’ fleet heads to Gulf region
+Added expanded search topic: Did the US give Greenland back to Denmark? Trump omits history at Davos
+Added expanded search topic: US officers detain 5-year-old boy as Minnesota immigration raids continue
+Saved 6 topics for 2026-01-23
 Returning 3 unique trending topics:
-  1. 'It's all about the land': Zelensky says Ukraine to talk to US and Russia (from BBC News)
-  2. Could Trump's bid to become peacemaker-in-chief sideline the struggling UN? (from BBC News)
-  3. ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work (from The Guardian)
+  1. Trump says US still ‘watching Iran‘ as ‘massive’ fleet heads to Gulf region (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Did the US give Greenland back to Denmark? Trump omits history at Davos (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US officers detain 5-year-old boy as Minnesota immigration raids continue (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'It's all about the land': Zelensky says Ukraine to talk to US and Russia
-Searching Google for: 'It's all about the land': Zelensky says Ukraine to talk to US and Russia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527It%2527s%252Ball%252Babout%252Bthe%252Bland%2527%253A%252BZelensky%252Bsays%252BUkraine%252Bto%252Btalk%252Bto%252BUS%252Band%252BRussia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMiGKOly8sGIjDZFxV8lDocBVxA5Ax5MZ_R-iG3q0VaLjJ_rNrUaiRlu1nW1mrJMj_ozCvkdFr-ieQyBmpjbmRyUloBQw
+Processing trending topic: Trump says US still ‘watching Iran‘ as ‘massive’ fleet heads to Gulf region
+Searching Google for: Trump says US still ‘watching Iran‘ as ‘massive’ fleet heads to Gulf region
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bstill%252B%25E2%2580%2598watching%252BIran%25E2%2580%2598%252Bas%252B%25E2%2580%2598massive%25E2%2580%2599%252Bfleet%252Bheads%252Bto%252BGulf%252Bregion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvBGNfdy8sGIjCpdC0Dp-4NkIOGye0rook4mO6Gh4B2TY5MHi0OFQvjz0kZs85DqGnd3mROnAOZjukyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-all-about-the-land-zelensky-says-ukraine-to-ta_20260123_0145.html
-✓ Created comprehensive article: its-all-about-the-land-zelensky-says-ukraine-to-ta_20260123_0145.html
+Successfully created file: trump-says-us-still-watching-iran-as-massive-fleet_20260123_0345.html
+✓ Created comprehensive article: trump-says-us-still-watching-iran-as-massive-fleet_20260123_0345.html
 
-Processing trending topic: Could Trump's bid to become peacemaker-in-chief sideline the struggling UN?
-Searching Google for: Could Trump's bid to become peacemaker-in-chief sideline the struggling UN?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252BTrump%2527s%252Bbid%252Bto%252Bbecome%252Bpeacemaker-in-chief%252Bsideline%252Bthe%252Bstruggling%252BUN%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMiGKqly8sGIjBjmZ7YOS1nOlxbdyi9mkJBATUS8trbCYJJJ8IhmYm1hIPfDXoyHMUBIAcbRSOXYWkyBmpjbmRyUloBQw
+Processing trending topic: Did the US give Greenland back to Denmark? Trump omits history at Davos
+Searching Google for: Did the US give Greenland back to Denmark? Trump omits history at Davos
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDid%252Bthe%252BUS%252Bgive%252BGreenland%252Bback%252Bto%252BDenmark%253F%252BTrump%252Bomits%252Bhistory%252Bat%252BDavos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvBGN_dy8sGIjAEYYSjPntKgbyIUeAeAqPQxFLvwJI-Alp8tVokqmFUZE-LqSKuZphHaGcxvoqPMLgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-trumps-bid-to-become-peacemaker-in-chief-sid_20260123_0145.html
-✓ Created comprehensive article: could-trumps-bid-to-become-peacemaker-in-chief-sid_20260123_0145.html
+Successfully created file: did-the-us-give-greenland-back-to-denmark-trump-om_20260123_0345.html
+✓ Created comprehensive article: did-the-us-give-greenland-back-to-denmark-trump-om_20260123_0345.html
 
-Processing trending topic: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
-Searching Google for: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DActionAid%252Bto%252Brethink%252Bchild%252Bsponsorship%252Bas%252Bpart%252Bof%252Bplan%252Bto%252B%25E2%2580%2598decolonise%25E2%2580%2599%252Bits%252Bwork%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMiGLGly8sGIjCR9MQ7qRsEe9uWtt9gRnfusbBfaDbAGzQMp2Y-2YcwZ0HoIiXYMoz0D4dl96PuYVcyBmpjbmRyUloBQw
+Processing trending topic: US officers detain 5-year-old boy as Minnesota immigration raids continue
+Searching Google for: US officers detain 5-year-old boy as Minnesota immigration raids continue
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bofficers%252Bdetain%252B5-year-old%252Bboy%252Bas%252BMinnesota%252Bimmigration%252Braids%252Bcontinue%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvBGObdy8sGIjCo9mo-n-cEjvoz4nRMyr1N8AY1jAHhseHtVTTbIlN2myN8u-av8rk4PM6CH4EXv8MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: actionaid-to-rethink-child-sponsorship-as-part-of-_20260123_0145.html
-✓ Created comprehensive article: actionaid-to-rethink-child-sponsorship-as-part-of-_20260123_0145.html
+Successfully created file: us-officers-detain-5-year-old-boy-as-minnesota-imm_20260123_0345.html
+✓ Created comprehensive article: us-officers-detain-5-year-old-boy-as-minnesota-imm_20260123_0345.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'It's all about the land': Zelensky says Ukraine to talk to US and Russia
+   • Trump says US still ‘watching Iran‘ as ‘massive’ fleet heads to Gulf region
      Sources: bbc.com, cnn.com, reuters.com
-   • Could Trump's bid to become peacemaker-in-chief sideline the struggling UN?
+   • Did the US give Greenland back to Denmark? Trump omits history at Davos
      Sources: bbc.com, cnn.com, reuters.com
-   • ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work
+   • US officers detain 5-year-old boy as Minnesota immigration raids continue
      Sources: bbc.com, cnn.com, reuters.com
