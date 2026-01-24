@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Ukraine condemns 'brutal' Russian strikes ahead of second day of peace talks
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Over 8,000 flights cancelled as major winter storm bears down across US
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands in Minneapolis brave bitter cold to protest ICE crackdown
-Added expanded search topic: Over 8,000 flights cancelled as major winter storm bears down across US
-Added expanded search topic: Thousands in Minneapolis brave bitter cold to protest ICE crackdown
-Saved 24 topics for 2026-01-24
+  Found from World News - Breaking international news and headlines | Sky News: China no longer America's top defence priority, Pentagon says
+  Found from World News - Breaking international news and headlines | Sky News: Boy, 12, dies after shark attack in Sydney Harbour
+  Found from World News - Breaking international news and headlines | Sky News: 'Sacrifices deserve respect': Prince Harry joins PM in criticising Trump's NATO troops remark
+Added expanded search topic: China no longer America's top defence priority, Pentagon says
+Added expanded search topic: Boy, 12, dies after shark attack in Sydney Harbour
+Added expanded search topic: 'Sacrifices deserve respect': Prince Harry joins PM in criticising Trump's NATO troops remark
+Saved 27 topics for 2026-01-24
 Returning 3 unique trending topics:
-  1. Ukraine condemns 'brutal' Russian strikes ahead of second day of peace talks (from BBC News)
-  2. Over 8,000 flights cancelled as major winter storm bears down across US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Thousands in Minneapolis brave bitter cold to protest ICE crackdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. China no longer America's top defence priority, Pentagon says (from World News - Breaking international news and headlines | Sky News)
+  2. Boy, 12, dies after shark attack in Sydney Harbour (from World News - Breaking international news and headlines | Sky News)
+  3. 'Sacrifices deserve respect': Prince Harry joins PM in criticising Trump's NATO troops remark (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Ukraine condemns 'brutal' Russian strikes ahead of second day of peace talks
-Searching Google for: Ukraine condemns 'brutal' Russian strikes ahead of second day of peace talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bcondemns%252B%2527brutal%2527%252BRussian%252Bstrikes%252Bahead%252Bof%252Bsecond%252Bday%252Bof%252Bpeace%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHywGKOf0ssGIjCUSP-X7zf2DOrO4OZHalVGmKzmsg-565c1QU36PXGGme_LI1A-TQI3VN3syANRaT4yBmpjbmRyUloBQw
+Processing trending topic: China no longer America's top defence priority, Pentagon says
+Searching Google for: China no longer America's top defence priority, Pentagon says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bno%252Blonger%252BAmerica%2527s%252Btop%252Bdefence%252Bpriority%252C%252BPentagon%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGLO70ssGIjD4lgoJeUM5qI3tUU3XMXPn13yg8Pooc3A1SYe0LFKRfoWhGyIqL4b3pXeaWAwRydIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ukraine-condemns-brutal-russian-strikes-ahead-of-s_20260124_0923.html
-✓ Created comprehensive article: ukraine-condemns-brutal-russian-strikes-ahead-of-s_20260124_0923.html
+Successfully created file: china-no-longer-americas-top-defence-priority-pent_20260124_1023.html
+✓ Created comprehensive article: china-no-longer-americas-top-defence-priority-pent_20260124_1023.html
 
-Processing trending topic: Over 8,000 flights cancelled as major winter storm bears down across US
-Searching Google for: Over 8,000 flights cancelled as major winter storm bears down across US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOver%252B8%252C000%252Bflights%252Bcancelled%252Bas%252Bmajor%252Bwinter%252Bstorm%252Bbears%252Bdown%252Bacross%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHywGKqf0ssGIjDhLm8TnEfQT6USMCnCpx-_owMBBUKG-Y7zom8LlAZY8t9mm9LWjaXZGx8mAidi6NMyBmpjbmRyUloBQw
+Processing trending topic: Boy, 12, dies after shark attack in Sydney Harbour
+Searching Google for: Boy, 12, dies after shark attack in Sydney Harbour
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoy%252C%252B12%252C%252Bdies%252Bafter%252Bshark%252Battack%252Bin%252BSydney%252BHarbour%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGLq70ssGIjAn6gFhnC6mV9kGWipvAqJBLOBm_6NMu6rWfpunP3dh_-j6Mbo38B8E6Z7I2n1jVwUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: over-8000-flights-cancelled-as-major-winter-storm-_20260124_0923.html
-✓ Created comprehensive article: over-8000-flights-cancelled-as-major-winter-storm-_20260124_0923.html
+Successfully created file: boy-12-dies-after-shark-attack-in-sydney-harbour_20260124_1023.html
+✓ Created comprehensive article: boy-12-dies-after-shark-attack-in-sydney-harbour_20260124_1023.html
 
-Processing trending topic: Thousands in Minneapolis brave bitter cold to protest ICE crackdown
-Searching Google for: Thousands in Minneapolis brave bitter cold to protest ICE crackdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bin%252BMinneapolis%252Bbrave%252Bbitter%252Bcold%252Bto%252Bprotest%252BICE%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHywGLCf0ssGIjAWOfc5G8vm-PTz1dqqMOUnHDZU78IqMpBOort-no9xFh3oqgNBli2wVqTW9Dfu_2YyBmpjbmRyUloBQw
+Processing trending topic: 'Sacrifices deserve respect': Prince Harry joins PM in criticising Trump's NATO troops remark
+Searching Google for: 'Sacrifices deserve respect': Prince Harry joins PM in criticising Trump's NATO troops remark
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Sacrifices%252Bdeserve%252Brespect%2527%253A%252BPrince%252BHarry%252Bjoins%252BPM%252Bin%252Bcriticising%252BTrump%2527s%252BNATO%252Btroops%252Bremark%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGMC70ssGIjBPju3aknjdmq81mP_7WMmBoKnN5DiSL4H1hafXE5ecne2MBxfdzIUzP30vt293EIcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-in-minneapolis-brave-bitter-cold-to-prot_20260124_0924.html
-✓ Created comprehensive article: thousands-in-minneapolis-brave-bitter-cold-to-prot_20260124_0924.html
+Successfully created file: sacrifices-deserve-respect-prince-harry-joins-pm-i_20260124_1024.html
+✓ Created comprehensive article: sacrifices-deserve-respect-prince-harry-joins-pm-i_20260124_1024.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ukraine condemns 'brutal' Russian strikes ahead of second day of peace talks
+   • China no longer America's top defence priority, Pentagon says
      Sources: bbc.com, cnn.com, reuters.com
-   • Over 8,000 flights cancelled as major winter storm bears down across US
+   • Boy, 12, dies after shark attack in Sydney Harbour
      Sources: bbc.com, cnn.com, reuters.com
-   • Thousands in Minneapolis brave bitter cold to protest ICE crackdown
+   • 'Sacrifices deserve respect': Prince Harry joins PM in criticising Trump's NATO troops remark
      Sources: bbc.com, cnn.com, reuters.com
