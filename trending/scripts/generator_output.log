@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-24
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian ‘shadow fleet’ tanker diverted to French port by naval forces
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,430
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: In US ally Thailand, feelings of betrayal after Trump’s visa freeze
+Added expanded search topic: Russian ‘shadow fleet’ tanker diverted to French port by naval forces
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,430
+Added expanded search topic: In US ally Thailand, feelings of betrayal after Trump’s visa freeze
+Saved 6 topics for 2026-01-24
 Returning 3 unique trending topics:
-  1. Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments (from BBC News)
-  2. 'Trump should apologise': Anger of veterans and relatives (from BBC News)
-  3. ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended (from The Guardian)
+  1. Russian ‘shadow fleet’ tanker diverted to French port by naval forces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,430 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. In US ally Thailand, feelings of betrayal after Trump’s visa freeze (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments
-Searching Google for: Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHarry%252Bsays%252Bsacrifices%252Bby%252BNato%252Btroops%252Bin%252BAfghanistan%252Bdeserve%252B%2527respect%2527%252Bafter%252BTrump%252Bcomments%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mAGOXB0MsGIjDtodz5ttGsNyU3QbUYEVr5PgCvG1qbfjmdLXEWp6186smrmP_aKk-xYfbKD_Aqh4MyAnJSWgFD
+Processing trending topic: Russian ‘shadow fleet’ tanker diverted to French port by naval forces
+Searching Google for: Russian ‘shadow fleet’ tanker diverted to French port by naval forces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252B%25E2%2580%2598shadow%252Bfleet%25E2%2580%2599%252Btanker%252Bdiverted%252Bto%252BFrench%252Bport%252Bby%252Bnaval%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUikGKP50MsGIjCkuLI9IUVlpH_MRYSqYsDcQDD3HLROB-9W88g35hYJ9xAL3-XTAP7z1Rj-cTcnSYUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: harry-says-sacrifices-by-nato-troops-in-afghanista_20260124_0131.html
-✓ Created comprehensive article: harry-says-sacrifices-by-nato-troops-in-afghanista_20260124_0131.html
+Successfully created file: russian-shadow-fleet-tanker-diverted-to-french-por_20260124_0329.html
+✓ Created comprehensive article: russian-shadow-fleet-tanker-diverted-to-french-por_20260124_0329.html
 
-Processing trending topic: 'Trump should apologise': Anger of veterans and relatives
-Searching Google for: 'Trump should apologise': Anger of veterans and relatives
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Trump%252Bshould%252Bapologise%2527%253A%252BAnger%252Bof%252Bveterans%252Band%252Brelatives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mAGO7B0MsGIjCGvJbRPLSL9CtLn9SSi79WU8F2HAkwJ0cn8x-UF-b563Cs2-qKGVr3jicOVU3LFooyAnJSWgFD
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,430
+Searching Google for: Russia-Ukraine war: List of key events, day 1,430
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C430%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUikGKr50MsGIjBPxN7YBXV4I0yy0G_UVfwxswAe3Gy3ydpG1kn1sa2CMGFEtzxdfmFOVnfVJrEI5bYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-should-apologise-anger-of-veterans-and-relat_20260124_0131.html
-✓ Created comprehensive article: trump-should-apologise-anger-of-veterans-and-relat_20260124_0131.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1430_20260124_0329.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1430_20260124_0329.html
 
-Processing trending topic: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Searching Google for: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598It%25E2%2580%2599s%252Bthe%252Bsovereignty%252Bof%252Bthe%252Bcountry%25E2%2580%2599%253A%252BGuinea-Bissau%252Bsays%252BUS%252Bvaccine%252Bstudy%252Bsuspended%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mAGPTB0MsGIjD2GsBICEt9Q3E-GoeS6-AWjZO9ZL8_rgUghNSQzFbR98JnIk-8BxuVAq-F-Q8SMHwyAnJSWgFD
+Processing trending topic: In US ally Thailand, feelings of betrayal after Trump’s visa freeze
+Searching Google for: In US ally Thailand, feelings of betrayal after Trump’s visa freeze
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIn%252BUS%252Bally%252BThailand%252C%252Bfeelings%252Bof%252Bbetrayal%252Bafter%252BTrump%25E2%2580%2599s%252Bvisa%252Bfreeze%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUikGLH50MsGIjD1yn0jVeZxCKg8y3Zw7Tmp-BEDwkJvsPch6AwyjvAOUs4JOQIBA2cIQ_Td74fS38wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-the-sovereignty-of-the-country-guinea-bissau-s_20260124_0131.html
-✓ Created comprehensive article: its-the-sovereignty-of-the-country-guinea-bissau-s_20260124_0131.html
+Successfully created file: in-us-ally-thailand-feelings-of-betrayal-after-tru_20260124_0329.html
+✓ Created comprehensive article: in-us-ally-thailand-feelings-of-betrayal-after-tru_20260124_0329.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments
+   • Russian ‘shadow fleet’ tanker diverted to French port by naval forces
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Trump should apologise': Anger of veterans and relatives
+   • Russia-Ukraine war: List of key events, day 1,430
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
+   • In US ally Thailand, feelings of betrayal after Trump’s visa freeze
      Sources: bbc.com, cnn.com, reuters.com
