@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 54 topics
+Already used today: 57 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Andy Burnham seeks permission to stand in by-election to become MP
@@ -13,58 +13,58 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli drone strike kills two children collecting firewood in Gaza
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syria truce with Kurdish-led forces expires amid uncertainty over renewal
-  Found from World News - Breaking international news and headlines | Sky News: 'Barbaric' attack during Ukraine peace talks as Zelenskyy says negotiations could resume next week
-Added expanded search topic: Israeli drone strike kills two children collecting firewood in Gaza
-Added expanded search topic: Syria truce with Kurdish-led forces expires amid uncertainty over renewal
-Added expanded search topic: 'Barbaric' attack during Ukraine peace talks as Zelenskyy says negotiations could resume next week
-Saved 57 topics for 2026-01-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ceasefire between Syrian army and Kurdish-led forces extended for 15 days
+  Found from World News - Breaking international news and headlines | Sky News: 'Barbaric' attack during Ukraine peace talks - but 'unexpected chemistry' raises hopes
+  Found from World News - Breaking international news and headlines | Sky News: Trump praises 'very brave' UK troops after fury over Afghanistan remarks
+Added expanded search topic: Ceasefire between Syrian army and Kurdish-led forces extended for 15 days
+Added expanded search topic: 'Barbaric' attack during Ukraine peace talks - but 'unexpected chemistry' raises hopes
+Added expanded search topic: Trump praises 'very brave' UK troops after fury over Afghanistan remarks
+Saved 60 topics for 2026-01-24
 Returning 3 unique trending topics:
-  1. Israeli drone strike kills two children collecting firewood in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Syria truce with Kurdish-led forces expires amid uncertainty over renewal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. 'Barbaric' attack during Ukraine peace talks as Zelenskyy says negotiations could resume next week (from World News - Breaking international news and headlines | Sky News)
+  1. Ceasefire between Syrian army and Kurdish-led forces extended for 15 days (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. 'Barbaric' attack during Ukraine peace talks - but 'unexpected chemistry' raises hopes (from World News - Breaking international news and headlines | Sky News)
+  3. Trump praises 'very brave' UK troops after fury over Afghanistan remarks (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Israeli drone strike kills two children collecting firewood in Gaza
-Searching Google for: Israeli drone strike kills two children collecting firewood in Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bdrone%252Bstrike%252Bkills%252Btwo%252Bchildren%252Bcollecting%252Bfirewood%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QvTGMrV1MsGIjCC0mL1zcR-h-L5zbKeCu8Ju_r7fmoKNVTzsXL2wRAxmqmTh_WqiK6cMqrd6PJEWj0yBmpjbmRyUloBQw
+Processing trending topic: Ceasefire between Syrian army and Kurdish-led forces extended for 15 days
+Searching Google for: Ceasefire between Syrian army and Kurdish-led forces extended for 15 days
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCeasefire%252Bbetween%252BSyrian%252Barmy%252Band%252BKurdish-led%252Bforces%252Bextended%252Bfor%252B15%252Bdays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGNbv1MsGIjDJnVRzwvRzbkUH35W3yvIg51jedgk6AHKWdS_rLp-PE3LkGzO9ZnD171d1FTc6ry4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-drone-strike-kills-two-children-collecting_20260124_2025.html
-✓ Created comprehensive article: israeli-drone-strike-kills-two-children-collecting_20260124_2025.html
+Successfully created file: ceasefire-between-syrian-army-and-kurdish-led-forc_20260124_2121.html
+✓ Created comprehensive article: ceasefire-between-syrian-army-and-kurdish-led-forc_20260124_2121.html
 
-Processing trending topic: Syria truce with Kurdish-led forces expires amid uncertainty over renewal
-Searching Google for: Syria truce with Kurdish-led forces expires amid uncertainty over renewal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyria%252Btruce%252Bwith%252BKurdish-led%252Bforces%252Bexpires%252Bamid%252Buncertainty%252Bover%252Brenewal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QvTGNHV1MsGIjC0lH9qCdKyTATUDoDAhLzT58da2YXwqJTshAD0FdrRgRMmtSFu2Fx74DHe-ILJF48yBmpjbmRyUloBQw
+Processing trending topic: 'Barbaric' attack during Ukraine peace talks - but 'unexpected chemistry' raises hopes
+Searching Google for: 'Barbaric' attack during Ukraine peace talks - but 'unexpected chemistry' raises hopes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Barbaric%2527%252Battack%252Bduring%252BUkraine%252Bpeace%252Btalks%252B-%252Bbut%252B%2527unexpected%252Bchemistry%2527%252Braises%252Bhopes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGN3v1MsGIjBmYaryNe-7Tc9tUxJhQfGwBwqv_IXWSd9tYoy0iuF2qkClYqKKx5cHBThL7cGqZMoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: syria-truce-with-kurdish-led-forces-expires-amid-u_20260124_2025.html
-✓ Created comprehensive article: syria-truce-with-kurdish-led-forces-expires-amid-u_20260124_2025.html
+Successfully created file: barbaric-attack-during-ukraine-peace-talks-but-une_20260124_2121.html
+✓ Created comprehensive article: barbaric-attack-during-ukraine-peace-talks-but-une_20260124_2121.html
 
-Processing trending topic: 'Barbaric' attack during Ukraine peace talks as Zelenskyy says negotiations could resume next week
-Searching Google for: 'Barbaric' attack during Ukraine peace talks as Zelenskyy says negotiations could resume next week
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Barbaric%2527%252Battack%252Bduring%252BUkraine%252Bpeace%252Btalks%252Bas%252BZelenskyy%252Bsays%252Bnegotiations%252Bcould%252Bresume%252Bnext%252Bweek%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QvTGNfV1MsGIjAplJm5TQ8nxldCqhJAVCKVZKOH-5zkX7JFAa_kJilp82sHEj64jJZkq1LQpI0ET1AyBmpjbmRyUloBQw
+Processing trending topic: Trump praises 'very brave' UK troops after fury over Afghanistan remarks
+Searching Google for: Trump praises 'very brave' UK troops after fury over Afghanistan remarks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bpraises%252B%2527very%252Bbrave%2527%252BUK%252Btroops%252Bafter%252Bfury%252Bover%252BAfghanistan%252Bremarks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGOTv1MsGIjDWWIFBkbs8mMbaG7AgLGr77tPFXSO_HTBq-mJHftWqv9A2a2nTGw8EhTFFxT1_eBYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: barbaric-attack-during-ukraine-peace-talks-as-zele_20260124_2026.html
-✓ Created comprehensive article: barbaric-attack-during-ukraine-peace-talks-as-zele_20260124_2026.html
+Successfully created file: trump-praises-very-brave-uk-troops-after-fury-over_20260124_2121.html
+✓ Created comprehensive article: trump-praises-very-brave-uk-troops-after-fury-over_20260124_2121.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israeli drone strike kills two children collecting firewood in Gaza
+   • Ceasefire between Syrian army and Kurdish-led forces extended for 15 days
      Sources: bbc.com, cnn.com, reuters.com
-   • Syria truce with Kurdish-led forces expires amid uncertainty over renewal
+   • 'Barbaric' attack during Ukraine peace talks - but 'unexpected chemistry' raises hopes
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Barbaric' attack during Ukraine peace talks as Zelenskyy says negotiations could resume next week
+   • Trump praises 'very brave' UK troops after fury over Afghanistan remarks
      Sources: bbc.com, cnn.com, reuters.com
