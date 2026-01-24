@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two days of peace talks end as Russia continues Ukraine attacks
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran rejects UN rights resolution condemning protest killings
-Added expanded search topic: Iran rejects UN rights resolution condemning protest killings
-Saved 45 topics for 2026-01-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Villarreal vs Real Madrid – La Liga
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US federal agents shoot another person in Minneapolis: Governor
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump threatens 100 percent tariff on Canada over China deal
+Added expanded search topic: LIVE: Villarreal vs Real Madrid – La Liga
+Added expanded search topic: US federal agents shoot another person in Minneapolis: Governor
+Added expanded search topic: Trump threatens 100 percent tariff on Canada over China deal
+Saved 48 topics for 2026-01-24
 Returning 3 unique trending topics:
-  1. Two days of peace talks end as Russia continues Ukraine attacks (from BBC News)
-  2. Trump threatens Canada with 100% tariffs over China trade deal (from BBC News)
-  3. Iran rejects UN rights resolution condemning protest killings (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. LIVE: Villarreal vs Real Madrid – La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US federal agents shoot another person in Minneapolis: Governor (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump threatens 100 percent tariff on Canada over China deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two days of peace talks end as Russia continues Ukraine attacks
-Searching Google for: Two days of peace talks end as Russia continues Ukraine attacks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bdays%252Bof%252Bpeace%252Btalks%252Bend%252Bas%252BRussia%252Bcontinues%252BUkraine%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG9DGLXl08sGIjB3iCi8lHVcuocIujDHkl-zbiOfutfUNMqNyvvoiV5OZnhMuUYgNhUCVYitwMp9DhQyBmpjbmRyUloBQw
+Processing trending topic: LIVE: Villarreal vs Real Madrid – La Liga
+Searching Google for: LIVE: Villarreal vs Real Madrid – La Liga
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BVillarreal%252Bvs%252BReal%252BMadrid%252B%25E2%2580%2593%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19nBGO_-08sGIjBNYiwILuiTUZdqPhQ7RreL7KjTrc0ahCpEqKAqsmBRygmoEyhaci7FnzSV8NClrugyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-days-of-peace-talks-end-as-russia-continues-uk_20260124_1626.html
-✓ Created comprehensive article: two-days-of-peace-talks-end-as-russia-continues-uk_20260124_1626.html
+Successfully created file: live-villarreal-vs-real-madrid-la-liga_20260124_1720.html
+✓ Created comprehensive article: live-villarreal-vs-real-madrid-la-liga_20260124_1720.html
 
-Processing trending topic: Trump threatens Canada with 100% tariffs over China trade deal
-Searching Google for: Trump threatens Canada with 100% tariffs over China trade deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252BCanada%252Bwith%252B100%2525%252Btariffs%252Bover%252BChina%252Btrade%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG9DGL3l08sGIjA2HNYEW9MAm4gVAGRrcfExgOP6mjhi8lHwjqPDmu0MN7dXX-hZv0GFuHbEfMzhmDsyBmpjbmRyUloBQw
+Processing trending topic: US federal agents shoot another person in Minneapolis: Governor
+Searching Google for: US federal agents shoot another person in Minneapolis: Governor
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bfederal%252Bagents%252Bshoot%252Banother%252Bperson%252Bin%252BMinneapolis%253A%252BGovernor%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19nBGPb-08sGIjCrwwB1UGzyQzto1PxSbKbdxffhSQnDE1et_Ty_oBZVIAetJ08V9CMIWJLqCttREGgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-threatens-canada-with-100-tariffs-over-china_20260124_1626.html
-✓ Created comprehensive article: trump-threatens-canada-with-100-tariffs-over-china_20260124_1626.html
+Successfully created file: us-federal-agents-shoot-another-person-in-minneapo_20260124_1720.html
+✓ Created comprehensive article: us-federal-agents-shoot-another-person-in-minneapo_20260124_1720.html
 
-Processing trending topic: Iran rejects UN rights resolution condemning protest killings
-Searching Google for: Iran rejects UN rights resolution condemning protest killings
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Brejects%252BUN%252Brights%252Bresolution%252Bcondemning%252Bprotest%252Bkillings%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG9DGMPl08sGIjBeLLCs2aQjPpNY9LqmS8QhSDBgf5710sGHBhSYlpcpW71y5sWyVyA6HCsjW_sB58IyBmpjbmRyUloBQw
+Processing trending topic: Trump threatens 100 percent tariff on Canada over China deal
+Searching Google for: Trump threatens 100 percent tariff on Canada over China deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252B100%252Bpercent%252Btariff%252Bon%252BCanada%252Bover%252BChina%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19nBGP3-08sGIjAQQtOrpRGoWHeysHxkIMZ3NMAv9fQKdwXUzysiFaWnEyirnGJ5R6QanZ593UTTOQsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-rejects-un-rights-resolution-condemning-prote_20260124_1626.html
-✓ Created comprehensive article: iran-rejects-un-rights-resolution-condemning-prote_20260124_1626.html
+Successfully created file: trump-threatens-100-percent-tariff-on-canada-over-_20260124_1721.html
+✓ Created comprehensive article: trump-threatens-100-percent-tariff-on-canada-over-_20260124_1721.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two days of peace talks end as Russia continues Ukraine attacks
+   • LIVE: Villarreal vs Real Madrid – La Liga
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump threatens Canada with 100% tariffs over China trade deal
+   • US federal agents shoot another person in Minneapolis: Governor
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran rejects UN rights resolution condemning protest killings
+   • Trump threatens 100 percent tariff on Canada over China deal
      Sources: bbc.com, cnn.com, reuters.com
