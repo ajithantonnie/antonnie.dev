@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Video shows moments around fatal shooting in Minneapolis
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-25
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,431
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,431
+Added expanded search topic: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
+Added expanded search topic: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
+Saved 6 topics for 2026-01-25
 Returning 3 unique trending topics:
-  1. Video shows moments around fatal shooting in Minneapolis (from BBC News)
-  2. Andy Burnham seeks permission to stand in by-election to become MP (from BBC News)
-  3. ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended (from The Guardian)
+  1. Russia-Ukraine war: List of key events, day 1,431 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump lavishes praise on UK troops amid anger over his Afghanistan claims (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Video shows moments around fatal shooting in Minneapolis
-Searching Google for: Video shows moments around fatal shooting in Minneapolis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bmoments%252Baround%252Bfatal%252Bshooting%252Bin%252BMinneapolis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNGGNTv1csGIjDUrWpKW5Zrep4D51H9cmugFv64zFuvX78UTuETZiMNGvdyF1PDQZnWFnA9UmARFjMyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,431
+Searching Google for: Russia-Ukraine war: List of key events, day 1,431
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C431%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGJKp1ssGIjCAFDy5TnJuLywJR6uVJKNwUVsLv8-x_acQVMVgt2CSheMfoYqZV_ywTEpWIA3GSZAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-shows-moments-around-fatal-shooting-in-minne_20260125_0154.html
-✓ Created comprehensive article: video-shows-moments-around-fatal-shooting-in-minne_20260125_0154.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1431_20260125_0357.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1431_20260125_0357.html
 
-Processing trending topic: Andy Burnham seeks permission to stand in by-election to become MP
-Searching Google for: Andy Burnham seeks permission to stand in by-election to become MP
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndy%252BBurnham%252Bseeks%252Bpermission%252Bto%252Bstand%252Bin%252Bby-election%252Bto%252Bbecome%252BMP%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNGGNvv1csGIjC9s_ZSNH3rVWeUZ3rY1OLxbhvMwA-0vUGLNUiACPEyR4eurcyf2L8nQJ4BXwV0uugyBmpjbmRyUloBQw
+Processing trending topic: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
+Searching Google for: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Blavishes%252Bpraise%252Bon%252BUK%252Btroops%252Bamid%252Banger%252Bover%252Bhis%252BAfghanistan%252Bclaims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGJmp1ssGIjBkI4jYRvbdtsdxpsBl5d7xhKuxTmYJv6BoWh68rjWk3ePhOKN0LDgBhODRxrZ1diIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andy-burnham-seeks-permission-to-stand-in-by-elect_20260125_0154.html
-✓ Created comprehensive article: andy-burnham-seeks-permission-to-stand-in-by-elect_20260125_0154.html
+Successfully created file: trump-lavishes-praise-on-uk-troops-amid-anger-over_20260125_0357.html
+✓ Created comprehensive article: trump-lavishes-praise-on-uk-troops-amid-anger-over_20260125_0357.html
 
-Processing trending topic: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Searching Google for: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598It%25E2%2580%2599s%252Bthe%252Bsovereignty%252Bof%252Bthe%252Bcountry%25E2%2580%2599%253A%252BGuinea-Bissau%252Bsays%252BUS%252Bvaccine%252Bstudy%252Bsuspended%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNGGOHv1csGIjAw_A6fSFes0tN31MM3rivCCg1niJMNgvJeUqkiF53111Zw8t23K6v0SpaMw_Fl_mgyBmpjbmRyUloBQw
+Processing trending topic: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
+Searching Google for: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMbappe%25E2%2580%2599s%252Bbrace%252Bat%252BVillarreal%252Bsends%252BReal%252BMadrid%252Bto%252Btop%252Bof%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGKCp1ssGIjDSx1Kagx_vqDqMtgDQ0rNdUhMq7vqAwPadhroMih8hgdMXf8FKn41o9krsqtq-QoAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-the-sovereignty-of-the-country-guinea-bissau-s_20260125_0154.html
-✓ Created comprehensive article: its-the-sovereignty-of-the-country-guinea-bissau-s_20260125_0154.html
+Successfully created file: mbappes-brace-at-villarreal-sends-real-madrid-to-t_20260125_0357.html
+✓ Created comprehensive article: mbappes-brace-at-villarreal-sends-real-madrid-to-t_20260125_0357.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Video shows moments around fatal shooting in Minneapolis
+   • Russia-Ukraine war: List of key events, day 1,431
      Sources: bbc.com, cnn.com, reuters.com
-   • Andy Burnham seeks permission to stand in by-election to become MP
+   • Trump lavishes praise on UK troops amid anger over his Afghanistan claims
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
+   • Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
      Sources: bbc.com, cnn.com, reuters.com
