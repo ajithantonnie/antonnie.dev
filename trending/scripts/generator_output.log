@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Video shows moments around fatal shooting in Minneapolis
@@ -13,58 +13,58 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,431
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
-Added expanded search topic: Russia-Ukraine war: List of key events, day 1,431
-Added expanded search topic: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
-Added expanded search topic: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
-Saved 6 topics for 2026-01-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Myanmar holds final election round, military-backed party set to win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arsenal vs Manchester United: Premier League – teams, start, lineups
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will TikTok deal satisfy security concerns in US?
+Added expanded search topic: Myanmar holds final election round, military-backed party set to win
+Added expanded search topic: Arsenal vs Manchester United: Premier League – teams, start, lineups
+Added expanded search topic: Will TikTok deal satisfy security concerns in US?
+Saved 9 topics for 2026-01-25
 Returning 3 unique trending topics:
-  1. Russia-Ukraine war: List of key events, day 1,431 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Trump lavishes praise on UK troops amid anger over his Afghanistan claims (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Myanmar holds final election round, military-backed party set to win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Arsenal vs Manchester United: Premier League – teams, start, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Will TikTok deal satisfy security concerns in US? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia-Ukraine war: List of key events, day 1,431
-Searching Google for: Russia-Ukraine war: List of key events, day 1,431
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C431%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGJKp1ssGIjCAFDy5TnJuLywJR6uVJKNwUVsLv8-x_acQVMVgt2CSheMfoYqZV_ywTEpWIA3GSZAyBmpjbmRyUloBQw
+Processing trending topic: Myanmar holds final election round, military-backed party set to win
+Searching Google for: Myanmar holds final election round, military-backed party set to win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMyanmar%252Bholds%252Bfinal%252Belection%252Bround%252C%252Bmilitary-backed%252Bparty%252Bset%252Bto%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq37TGL_E1ssGIjDaUWY9wDD4ScJ2lrhNHa3zw38hVYsNoVaASkNL76w44cCR8GaP6U-GZ3xo2eNpMzYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-war-list-of-key-events-day-1431_20260125_0357.html
-✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1431_20260125_0357.html
+Successfully created file: myanmar-holds-final-election-round-military-backed_20260125_0455.html
+✓ Created comprehensive article: myanmar-holds-final-election-round-military-backed_20260125_0455.html
 
-Processing trending topic: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
-Searching Google for: Trump lavishes praise on UK troops amid anger over his Afghanistan claims
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Blavishes%252Bpraise%252Bon%252BUK%252Btroops%252Bamid%252Banger%252Bover%252Bhis%252BAfghanistan%252Bclaims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGJmp1ssGIjBkI4jYRvbdtsdxpsBl5d7xhKuxTmYJv6BoWh68rjWk3ePhOKN0LDgBhODRxrZ1diIyBmpjbmRyUloBQw
+Processing trending topic: Arsenal vs Manchester United: Premier League – teams, start, lineups
+Searching Google for: Arsenal vs Manchester United: Premier League – teams, start, lineups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArsenal%252Bvs%252BManchester%252BUnited%253A%252BPremier%252BLeague%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq37TGMjE1ssGIjB7L1yccu7gbfZ-yPrpM6WhIF1ZvoaQYGUu6UIsV8m2086_RNviNdSylX86Z1INDxoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-lavishes-praise-on-uk-troops-amid-anger-over_20260125_0357.html
-✓ Created comprehensive article: trump-lavishes-praise-on-uk-troops-amid-anger-over_20260125_0357.html
+Successfully created file: arsenal-vs-manchester-united-premier-league-teams-_20260125_0455.html
+✓ Created comprehensive article: arsenal-vs-manchester-united-premier-league-teams-_20260125_0455.html
 
-Processing trending topic: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
-Searching Google for: Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMbappe%25E2%2580%2599s%252Bbrace%252Bat%252BVillarreal%252Bsends%252BReal%252BMadrid%252Bto%252Btop%252Bof%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGKCp1ssGIjDSx1Kagx_vqDqMtgDQ0rNdUhMq7vqAwPadhroMih8hgdMXf8FKn41o9krsqtq-QoAyBmpjbmRyUloBQw
+Processing trending topic: Will TikTok deal satisfy security concerns in US?
+Searching Google for: Will TikTok deal satisfy security concerns in US?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BTikTok%252Bdeal%252Bsatisfy%252Bsecurity%252Bconcerns%252Bin%252BUS%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq37TGM_E1ssGIjD8a3mU7p_vHLuAKgILTrSTVFcOuytm7LzmWDcHvmIVuBf11g4DWTNY_JkLt0miDFEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mbappes-brace-at-villarreal-sends-real-madrid-to-t_20260125_0357.html
-✓ Created comprehensive article: mbappes-brace-at-villarreal-sends-real-madrid-to-t_20260125_0357.html
+Successfully created file: will-tiktok-deal-satisfy-security-concerns-in-us_20260125_0455.html
+✓ Created comprehensive article: will-tiktok-deal-satisfy-security-concerns-in-us_20260125_0455.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia-Ukraine war: List of key events, day 1,431
+   • Myanmar holds final election round, military-backed party set to win
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump lavishes praise on UK troops amid anger over his Afghanistan claims
+   • Arsenal vs Manchester United: Premier League – teams, start, lineups
      Sources: bbc.com, cnn.com, reuters.com
-   • Mbappe’s brace at Villarreal sends Real Madrid to top of La Liga
+   • Will TikTok deal satisfy security concerns in US?
      Sources: bbc.com, cnn.com, reuters.com
