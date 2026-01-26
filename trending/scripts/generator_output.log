@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Analysing the Minneapolis shooting frame by frame
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-26
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,432
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ferry carrying over 350 people sinks in Philippines, killing at least 15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Minnesota Gov Walz demands Trump remove border agents after nurse killed
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,432
+Added expanded search topic: Ferry carrying over 350 people sinks in Philippines, killing at least 15
+Added expanded search topic: Minnesota Gov Walz demands Trump remove border agents after nurse killed
+Saved 6 topics for 2026-01-26
 Returning 3 unique trending topics:
-  1. Analysing the Minneapolis shooting frame by frame (from BBC News)
-  2. Andy Burnham 'disappointed' after bid to become MP blocked (from BBC News)
-  3. ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended (from The Guardian)
+  1. Russia-Ukraine war: List of key events, day 1,432 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ferry carrying over 350 people sinks in Philippines, killing at least 15 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Minnesota Gov Walz demands Trump remove border agents after nurse killed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Analysing the Minneapolis shooting frame by frame
-Searching Google for: Analysing the Minneapolis shooting frame by frame
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysing%252Bthe%252BMinneapolis%252Bshooting%252Bframe%252Bby%252Bframe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H9TGL2R28sGIjAmTrVceYJsQmXlLHY1-eigNRUvdxoUTRrtE_vLkaq_FqtVgOTiPEW2-MIN7yUYIawyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,432
+Searching Google for: Russia-Ukraine war: List of key events, day 1,432
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C432%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fjGObO28sGIjBgmKEM8kVwB0eHuJC5NDws7-DytMf8Bm0F3sHY8sSV1gFUl7sLYdxs68Cho_mFrPUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: analysing-the-minneapolis-shooting-frame-by-frame_20260126_0152.html
-✓ Created comprehensive article: analysing-the-minneapolis-shooting-frame-by-frame_20260126_0152.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1432_20260126_0402.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1432_20260126_0402.html
 
-Processing trending topic: Andy Burnham 'disappointed' after bid to become MP blocked
-Searching Google for: Andy Burnham 'disappointed' after bid to become MP blocked
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndy%252BBurnham%252B%2527disappointed%2527%252Bafter%252Bbid%252Bto%252Bbecome%252BMP%252Bblocked%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H9TGMqR28sGIjBzV7vNzdXm-hlLqv6R3oNNdHy85CoNWPm_hyvm3mAxFKRrJtbOC0jw01tBGvgDFOAyBmpjbmRyUloBQw
+Processing trending topic: Ferry carrying over 350 people sinks in Philippines, killing at least 15
+Searching Google for: Ferry carrying over 350 people sinks in Philippines, killing at least 15
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFerry%252Bcarrying%252Bover%252B350%252Bpeople%252Bsinks%252Bin%252BPhilippines%252C%252Bkilling%252Bat%252Bleast%252B15%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fjGO_O28sGIjCt1rrDQyaxpgACVFIXERYLOcpfA0LlLd7Tijy52wUkbpdpNDpHwBjiO3_BuX4ZUegyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andy-burnham-disappointed-after-bid-to-become-mp-b_20260126_0152.html
-✓ Created comprehensive article: andy-burnham-disappointed-after-bid-to-become-mp-b_20260126_0152.html
+Successfully created file: ferry-carrying-over-350-people-sinks-in-philippine_20260126_0402.html
+✓ Created comprehensive article: ferry-carrying-over-350-people-sinks-in-philippine_20260126_0402.html
 
-Processing trending topic: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Searching Google for: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598It%25E2%2580%2599s%252Bthe%252Bsovereignty%252Bof%252Bthe%252Bcountry%25E2%2580%2599%253A%252BGuinea-Bissau%252Bsays%252BUS%252Bvaccine%252Bstudy%252Bsuspended%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H9TGNCR28sGIjBbtSLuLQhrjgwFXYDvZWIcRTaq84oojggXZ8Xj6EuimmIZ6zpWebToP0uuXoXp2O0yBmpjbmRyUloBQw
+Processing trending topic: Minnesota Gov Walz demands Trump remove border agents after nurse killed
+Searching Google for: Minnesota Gov Walz demands Trump remove border agents after nurse killed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMinnesota%252BGov%252BWalz%252Bdemands%252BTrump%252Bremove%252Bborder%252Bagents%252Bafter%252Bnurse%252Bkilled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fjGPbO28sGIjCSVwAl3vpZGwT8ors75nFSK1EamxHeJXWqSih9uhi3RIO4ArN6hXj-fm_ijlmYtnQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-the-sovereignty-of-the-country-guinea-bissau-s_20260126_0152.html
-✓ Created comprehensive article: its-the-sovereignty-of-the-country-guinea-bissau-s_20260126_0152.html
+Successfully created file: minnesota-gov-walz-demands-trump-remove-border-age_20260126_0403.html
+✓ Created comprehensive article: minnesota-gov-walz-demands-trump-remove-border-age_20260126_0403.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Analysing the Minneapolis shooting frame by frame
+   • Russia-Ukraine war: List of key events, day 1,432
      Sources: bbc.com, cnn.com, reuters.com
-   • Andy Burnham 'disappointed' after bid to become MP blocked
+   • Ferry carrying over 350 people sinks in Philippines, killing at least 15
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended
+   • Minnesota Gov Walz demands Trump remove border agents after nurse killed
      Sources: bbc.com, cnn.com, reuters.com
