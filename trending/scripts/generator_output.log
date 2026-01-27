@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Ground rents to be capped at £250 a year for leaseholders
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India, EU agree on ‘mother of all’ trade deals
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Minnesota candidate bows out over Republican response to Pretti shooting
-Added expanded search topic: India, EU agree on ‘mother of all’ trade deals
-Added expanded search topic: Minnesota candidate bows out over Republican response to Pretti shooting
-Saved 24 topics for 2026-01-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ICE agents from US set to help with security at Winter Olympics in Italy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Frustration and despair’ in Gaza despite recovery of last Israeli body
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladeshis seeking jobs in Russia forced to join war on Ukraine: Report
+Added expanded search topic: ICE agents from US set to help with security at Winter Olympics in Italy
+Added expanded search topic: ‘Frustration and despair’ in Gaza despite recovery of last Israeli body
+Added expanded search topic: Bangladeshis seeking jobs in Russia forced to join war on Ukraine: Report
+Saved 27 topics for 2026-01-27
 Returning 3 unique trending topics:
-  1. Tearful Carol Kirkwood announces she will leave BBC (from BBC News)
-  2. India, EU agree on ‘mother of all’ trade deals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Minnesota candidate bows out over Republican response to Pretti shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. ICE agents from US set to help with security at Winter Olympics in Italy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Frustration and despair’ in Gaza despite recovery of last Israeli body (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Bangladeshis seeking jobs in Russia forced to join war on Ukraine: Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Tearful Carol Kirkwood announces she will leave BBC
-Searching Google for: Tearful Carol Kirkwood announces she will leave BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTearful%252BCarol%252BKirkwood%252Bannounces%252Bshe%252Bwill%252Bleave%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UzGNWN4ssGIjB2gGvCwo8HnTa7KyAJ6RxivFhZYoEdGPDqwxe5luWaw5tXAypxDx4oQlkNfZOZjvQyAnJSWgFD
+Processing trending topic: ICE agents from US set to help with security at Winter Olympics in Italy
+Searching Google for: ICE agents from US set to help with security at Winter Olympics in Italy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DICE%252Bagents%252Bfrom%252BUS%252Bset%252Bto%252Bhelp%252Bwith%252Bsecurity%252Bat%252BWinter%252BOlympics%252Bin%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pdVGJGn4ssGIjDXsY8WciodhF-ifD6suNy67zxzo0rg8vDDEwzTyBMW46Zv5E9pd5FUcx2d9M46JTcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tearful-carol-kirkwood-announces-she-will-leave-bb_20260127_0935.html
-✓ Created comprehensive article: tearful-carol-kirkwood-announces-she-will-leave-bb_20260127_0935.html
+Successfully created file: ice-agents-from-us-set-to-help-with-security-at-wi_20260127_1029.html
+✓ Created comprehensive article: ice-agents-from-us-set-to-help-with-security-at-wi_20260127_1029.html
 
-Processing trending topic: India, EU agree on ‘mother of all’ trade deals
-Searching Google for: India, EU agree on ‘mother of all’ trade deals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252C%252BEU%252Bagree%252Bon%252B%25E2%2580%2598mother%252Bof%252Ball%25E2%2580%2599%252Btrade%252Bdeals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UzGNuN4ssGIjDHxy8ZZAYHnchLlqwlGQMZBSEOPf09ZxEEuIpSzelCJrprPlN-Iz8kR-KtODvVRqMyAnJSWgFD
+Processing trending topic: ‘Frustration and despair’ in Gaza despite recovery of last Israeli body
+Searching Google for: ‘Frustration and despair’ in Gaza despite recovery of last Israeli body
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Frustration%252Band%252Bdespair%25E2%2580%2599%252Bin%252BGaza%252Bdespite%252Brecovery%252Bof%252Blast%252BIsraeli%252Bbody%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pdVGJin4ssGIjAfFe_qhiG94qhuFDdb3lcyavLwLC1vDoijoMtBYkxesbjp9l7xbuzDJY_zFfWRYTYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: india-eu-agree-on-mother-of-all-trade-deals_20260127_0935.html
-✓ Created comprehensive article: india-eu-agree-on-mother-of-all-trade-deals_20260127_0935.html
+Successfully created file: frustration-and-despair-in-gaza-despite-recovery-o_20260127_1029.html
+✓ Created comprehensive article: frustration-and-despair-in-gaza-despite-recovery-o_20260127_1029.html
 
-Processing trending topic: Minnesota candidate bows out over Republican response to Pretti shooting
-Searching Google for: Minnesota candidate bows out over Republican response to Pretti shooting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMinnesota%252Bcandidate%252Bbows%252Bout%252Bover%252BRepublican%252Bresponse%252Bto%252BPretti%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UzGOKN4ssGIjD-vFfW-HnBE80YVgWj38Fsv-mzDixpZOkAE4aP43Il7_-HPA9w9zG6eHz5fSzCoYMyAnJSWgFD
+Processing trending topic: Bangladeshis seeking jobs in Russia forced to join war on Ukraine: Report
+Searching Google for: Bangladeshis seeking jobs in Russia forced to join war on Ukraine: Report
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladeshis%252Bseeking%252Bjobs%252Bin%252BRussia%252Bforced%252Bto%252Bjoin%252Bwar%252Bon%252BUkraine%253A%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pdVGJ-n4ssGIjAHO-nhPjH9RVNcZI1wFiQwr0Zp99jPQsvN3mY45Pe9JdCAP1Hq_mj_anMdGTwN5-syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: minnesota-candidate-bows-out-over-republican-respo_20260127_0935.html
-✓ Created comprehensive article: minnesota-candidate-bows-out-over-republican-respo_20260127_0935.html
+Successfully created file: bangladeshis-seeking-jobs-in-russia-forced-to-join_20260127_1029.html
+✓ Created comprehensive article: bangladeshis-seeking-jobs-in-russia-forced-to-join_20260127_1029.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tearful Carol Kirkwood announces she will leave BBC
+   • ICE agents from US set to help with security at Winter Olympics in Italy
      Sources: bbc.com, cnn.com, reuters.com
-   • India, EU agree on ‘mother of all’ trade deals
+   • ‘Frustration and despair’ in Gaza despite recovery of last Israeli body
      Sources: bbc.com, cnn.com, reuters.com
-   • Minnesota candidate bows out over Republican response to Pretti shooting
+   • Bangladeshis seeking jobs in Russia forced to join war on Ukraine: Report
      Sources: bbc.com, cnn.com, reuters.com
