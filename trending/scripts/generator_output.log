@@ -1,68 +1,66 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 63 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Storm Chandra brings disruption and road closures across UK
-  Added: Pubs given support package after business rates backlash
+  Added: Prime minister flies to China for three-day visit
+  Added: Storm Chandra brings heavy rain, flooding and travel disruption to UK
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Benfica’s Jose to kill Real with love, says Madrid boss ‘like his child’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indonesia’s Flood Catastrophe | The Full Report
-Added expanded search topic: Benfica’s Jose to kill Real with love, says Madrid boss ‘like his child’
-Added expanded search topic: Indonesia’s Flood Catastrophe | The Full Report
-Saved 63 topics for 2026-01-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US will end support for Iraq if al-Maliki reinstated as PM
+Added expanded search topic: Trump says US will end support for Iraq if al-Maliki reinstated as PM
+Saved 66 topics for 2026-01-27
 Returning 3 unique trending topics:
-  1. Storm Chandra brings disruption and road closures across UK (from BBC News)
-  2. Benfica’s Jose to kill Real with love, says Madrid boss ‘like his child’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Indonesia’s Flood Catastrophe | The Full Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Prime minister flies to China for three-day visit (from BBC News)
+  2. Storm Chandra brings heavy rain, flooding and travel disruption to UK (from BBC News)
+  3. Trump says US will end support for Iraq if al-Maliki reinstated as PM (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Storm Chandra brings disruption and road closures across UK
-Searching Google for: Storm Chandra brings disruption and road closures across UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BChandra%252Bbrings%252Bdisruption%252Band%252Broad%252Bclosures%252Bacross%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IblGNb25MsGIjCWlmUt8FKQ7TT7itjf3qeBS0qjQK9sOHN-JSsjwgNxu5C_9wjUgP4u6LKq08bRFaQyBmpjbmRyUloBQw
+Processing trending topic: Prime minister flies to China for three-day visit
+Searching Google for: Prime minister flies to China for three-day visit
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: storm-chandra-brings-disruption-and-road-closures-_20260127_2225.html
-✓ Created comprehensive article: storm-chandra-brings-disruption-and-road-closures-_20260127_2225.html
+Successfully created file: prime-minister-flies-to-china-for-three-day-visit_20260127_2324.html
+✓ Created comprehensive article: prime-minister-flies-to-china-for-three-day-visit_20260127_2324.html
 
-Processing trending topic: Benfica’s Jose to kill Real with love, says Madrid boss ‘like his child’
-Searching Google for: Benfica’s Jose to kill Real with love, says Madrid boss ‘like his child’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBenfica%25E2%2580%2599s%252BJose%252Bto%252Bkill%252BReal%252Bwith%252Blove%252C%252Bsays%252BMadrid%252Bboss%252B%25E2%2580%2598like%252Bhis%252Bchild%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IblGN725MsGIjAjB5T0eyxBSIcXKEWrwn3fLyy2djIM2pZUVbgagylAg3YZ_8TCo84B6tTngfQrM1UyBmpjbmRyUloBQw
+Processing trending topic: Storm Chandra brings heavy rain, flooding and travel disruption to UK
+Searching Google for: Storm Chandra brings heavy rain, flooding and travel disruption to UK
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BChandra%252Bbrings%252Bheavy%252Brain%252C%252Bflooding%252Band%252Btravel%252Bdisruption%252Bto%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sHGNKS5csGIjAJz192BD73_9gTVfb5p1kFYhVfJpoVq19sBsUrWb8elo0TVIyhLJ_SpuCbaO_sbHgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: benficas-jose-to-kill-real-with-love-says-madrid-b_20260127_2225.html
-✓ Created comprehensive article: benficas-jose-to-kill-real-with-love-says-madrid-b_20260127_2225.html
+Successfully created file: storm-chandra-brings-heavy-rain-flooding-and-trave_20260127_2325.html
+✓ Created comprehensive article: storm-chandra-brings-heavy-rain-flooding-and-trave_20260127_2325.html
 
-Processing trending topic: Indonesia’s Flood Catastrophe | The Full Report
-Searching Google for: Indonesia’s Flood Catastrophe | The Full Report
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndonesia%25E2%2580%2599s%252BFlood%252BCatastrophe%252B%257C%252BThe%252BFull%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IblGOT25MsGIjD-82Vc3CQBZ47xuVZ2TjqTJkc-UzEiCjnqYYfao9mD2Jga32-3ppC7iKB3lF19WEkyBmpjbmRyUloBQw
+Processing trending topic: Trump says US will end support for Iraq if al-Maliki reinstated as PM
+Searching Google for: Trump says US will end support for Iraq if al-Maliki reinstated as PM
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bwill%252Bend%252Bsupport%252Bfor%252BIraq%252Bif%252Bal-Maliki%252Breinstated%252Bas%252BPM%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sHGNiS5csGIjCXZE6n5-ru0xjjXBte9R_7hZ1bFNxqvp9nMoDQegv0oOUG20Hs5Fum5XERBkd-FPMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: indonesias-flood-catastrophe-the-full-report_20260127_2225.html
-✓ Created comprehensive article: indonesias-flood-catastrophe-the-full-report_20260127_2225.html
+Successfully created file: trump-says-us-will-end-support-for-iraq-if-al-mali_20260127_2325.html
+✓ Created comprehensive article: trump-says-us-will-end-support-for-iraq-if-al-mali_20260127_2325.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Storm Chandra brings disruption and road closures across UK
+   • Prime minister flies to China for three-day visit
      Sources: bbc.com, cnn.com, reuters.com
-   • Benfica’s Jose to kill Real with love, says Madrid boss ‘like his child’
+   • Storm Chandra brings heavy rain, flooding and travel disruption to UK
      Sources: bbc.com, cnn.com, reuters.com
-   • Indonesia’s Flood Catastrophe | The Full Report
+   • Trump says US will end support for Iraq if al-Maliki reinstated as PM
      Sources: bbc.com, cnn.com, reuters.com
