@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Fifty Labour MPs sign letter objecting to Burnham decision
-  Added: Anthony Zurcher: Trump abandons attack mode as Minneapolis shooting backlash grows
+  Added: Immigration chief departing Minneapolis as Trump sends border tsar Tom Homan to scene
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-27
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: TV presenter killed in Israeli strike in southern Lebanon: Hezbollah
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,433
+Added expanded search topic: TV presenter killed in Israeli strike in southern Lebanon: Hezbollah
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,433
+Saved 6 topics for 2026-01-27
 Returning 3 unique trending topics:
-  1. Fifty Labour MPs sign letter objecting to Burnham decision (from BBC News)
-  2. Anthony Zurcher: Trump abandons attack mode as Minneapolis shooting backlash grows (from BBC News)
-  3. Hundreds feared dead in attempt to cross Mediterranean during cyclone (from The Guardian)
+  1. Immigration chief departing Minneapolis as Trump sends border tsar Tom Homan to scene (from BBC News)
+  2. TV presenter killed in Israeli strike in southern Lebanon: Hezbollah (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,433 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Fifty Labour MPs sign letter objecting to Burnham decision
-Searching Google for: Fifty Labour MPs sign letter objecting to Burnham decision
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFifty%252BLabour%252BMPs%252Bsign%252Bletter%252Bobjecting%252Bto%252BBurnham%252Bdecision%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D3TGIu04MsGIjBt9X8IbfFAGkmhO9QlBoQxpWcqUu5LlZjgU-tAXFaqI9WMj6i3X4oueiunCz9H1Y8yBmpjbmRyUloBQw
+Processing trending topic: Immigration chief departing Minneapolis as Trump sends border tsar Tom Homan to scene
+Searching Google for: Immigration chief departing Minneapolis as Trump sends border tsar Tom Homan to scene
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DImmigration%252Bchief%252Bdeparting%252BMinneapolis%252Bas%252BTrump%252Bsends%252Bborder%252Btsar%252BTom%252BHoman%252Bto%252Bscene%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVzTGO_r4MsGIjBb8oQ5nhQlkQ-eYb4C8WJIeQbP6yxJ4k5tT5NUbW9cWchu_Z5UmPy59o_1uvy3U-cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifty-labour-mps-sign-letter-objecting-to-burnham-_20260127_0151.html
-✓ Created comprehensive article: fifty-labour-mps-sign-letter-objecting-to-burnham-_20260127_0151.html
+Successfully created file: immigration-chief-departing-minneapolis-as-trump-s_20260127_0350.html
+✓ Created comprehensive article: immigration-chief-departing-minneapolis-as-trump-s_20260127_0350.html
 
-Processing trending topic: Anthony Zurcher: Trump abandons attack mode as Minneapolis shooting backlash grows
-Searching Google for: Anthony Zurcher: Trump abandons attack mode as Minneapolis shooting backlash grows
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnthony%252BZurcher%253A%252BTrump%252Babandons%252Battack%252Bmode%252Bas%252BMinneapolis%252Bshooting%252Bbacklash%252Bgrows%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D3TGJK04MsGIjAgsbn-Xv2RuHgCgbR3-WEjB7pLP4Mw7RxQX9NbN_URhD6a0ypD5zDTTCh93o5ZuJ4yBmpjbmRyUloBQw
+Processing trending topic: TV presenter killed in Israeli strike in southern Lebanon: Hezbollah
+Searching Google for: TV presenter killed in Israeli strike in southern Lebanon: Hezbollah
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTV%252Bpresenter%252Bkilled%252Bin%252BIsraeli%252Bstrike%252Bin%252Bsouthern%252BLebanon%253A%252BHezbollah%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVzTGPbr4MsGIjDzdzLOJ0SIYU0SDH-dmFkDu_8ZAQCr-EgZm_SIrcfsL77luIGQHSJrOSbEVY0lEEwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthony-zurcher-trump-abandons-attack-mode-as-minn_20260127_0151.html
-✓ Created comprehensive article: anthony-zurcher-trump-abandons-attack-mode-as-minn_20260127_0151.html
+Successfully created file: tv-presenter-killed-in-israeli-strike-in-southern-_20260127_0350.html
+✓ Created comprehensive article: tv-presenter-killed-in-israeli-strike-in-southern-_20260127_0350.html
 
-Processing trending topic: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Searching Google for: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bfeared%252Bdead%252Bin%252Battempt%252Bto%252Bcross%252BMediterranean%252Bduring%252Bcyclone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D3TGJi04MsGIjBz54aA-erbzGtbjwIAMSI8l9-boj0N8oFUXcelc0SuzVSkm6EKoYGJc9VVmcq6BeUyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,433
+Searching Google for: Russia-Ukraine war: List of key events, day 1,433
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C433%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVzTGP3r4MsGIjBVZvy316Z6HmAZ0rukVB7vZapqWLgCEIDeujWOJidZXSEx1oWopwVd_yfrJdjdVNQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260127_0151.html
-✓ Created comprehensive article: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260127_0151.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1433_20260127_0350.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1433_20260127_0350.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Fifty Labour MPs sign letter objecting to Burnham decision
+   • Immigration chief departing Minneapolis as Trump sends border tsar Tom Homan to scene
      Sources: bbc.com, cnn.com, reuters.com
-   • Anthony Zurcher: Trump abandons attack mode as Minneapolis shooting backlash grows
+   • TV presenter killed in Israeli strike in southern Lebanon: Hezbollah
      Sources: bbc.com, cnn.com, reuters.com
-   • Hundreds feared dead in attempt to cross Mediterranean during cyclone
+   • Russia-Ukraine war: List of key events, day 1,433
      Sources: bbc.com, cnn.com, reuters.com
