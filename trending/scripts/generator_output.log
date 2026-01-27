@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Tearful Carol Kirkwood announces she is to leave BBC
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US witnessed many ICE-related deaths in 2026. Here are their stories
-Added expanded search topic: US witnessed many ICE-related deaths in 2026. Here are their stories
-Saved 33 topics for 2026-01-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Somali’s in Minnesota
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza’s unequal dead: 10,000 Palestinians under rubble, one Israeli captive
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US downplays China threat in new defence strategy
+Added expanded search topic: Somali’s in Minnesota
+Added expanded search topic: Gaza’s unequal dead: 10,000 Palestinians under rubble, one Israeli captive
+Added expanded search topic: US downplays China threat in new defence strategy
+Saved 36 topics for 2026-01-27
 Returning 3 unique trending topics:
-  1. Tearful Carol Kirkwood announces she is to leave BBC (from BBC News)
-  2. Watch: Emotional moment weather presenter reveals she is leaving (from BBC News)
-  3. US witnessed many ICE-related deaths in 2026. Here are their stories (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Somali’s in Minnesota (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Gaza’s unequal dead: 10,000 Palestinians under rubble, one Israeli captive (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US downplays China threat in new defence strategy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Tearful Carol Kirkwood announces she is to leave BBC
-Searching Google for: Tearful Carol Kirkwood announces she is to leave BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTearful%252BCarol%252BKirkwood%252Bannounces%252Bshe%252Bis%252Bto%252Bleave%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2gGLno4ssGIjCJYGJoZPHbsdxsFpAavgnY-LGN1D6Jr3AXcEPGVRzwP2iSTDNGa0HdnYUw5FfIVd0yAnJSWgFD
+Processing trending topic: Somali’s in Minnesota
+Searching Google for: Somali’s in Minnesota
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSomali%25E2%2580%2599s%252Bin%252BMinnesota%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfrzGPyE48sGIjAiRQ_dHB3dC1bIOjWXag6UBm7bOeLlUCiNKXIyDSZqe3c86uXODoyHFLbSRY4b0-IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tearful-carol-kirkwood-announces-she-is-to-leave-b_20260127_1249.html
-✓ Created comprehensive article: tearful-carol-kirkwood-announces-she-is-to-leave-b_20260127_1249.html
+Successfully created file: somalis-in-minnesota_20260127_1349.html
+✓ Created comprehensive article: somalis-in-minnesota_20260127_1349.html
 
-Processing trending topic: Watch: Emotional moment weather presenter reveals she is leaving
-Searching Google for: Watch: Emotional moment weather presenter reveals she is leaving
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BEmotional%252Bmoment%252Bweather%252Bpresenter%252Breveals%252Bshe%252Bis%252Bleaving%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2gGMDo4ssGIjDR9yP5LLEauKvTAOJPaqxbcP9Tcj3g41RaLylACH9F0fcCtt37fi24S0Su6O4p-O4yAnJSWgFD
+Processing trending topic: Gaza’s unequal dead: 10,000 Palestinians under rubble, one Israeli captive
+Searching Google for: Gaza’s unequal dead: 10,000 Palestinians under rubble, one Israeli captive
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%25E2%2580%2599s%252Bunequal%252Bdead%253A%252B10%252C000%252BPalestinians%252Bunder%252Brubble%252C%252Bone%252BIsraeli%252Bcaptive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfrzGIOF48sGIjAdPIRMRrhnaDTK4QDMmMzphL22N6IGQLqxrxPhSjcnkHoMai-MbbQcvbTPwtDOJnAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-emotional-moment-weather-presenter-reveals-s_20260127_1249.html
-✓ Created comprehensive article: watch-emotional-moment-weather-presenter-reveals-s_20260127_1249.html
+Successfully created file: gazas-unequal-dead-10000-palestinians-under-rubble_20260127_1349.html
+✓ Created comprehensive article: gazas-unequal-dead-10000-palestinians-under-rubble_20260127_1349.html
 
-Processing trending topic: US witnessed many ICE-related deaths in 2026. Here are their stories
-Searching Google for: US witnessed many ICE-related deaths in 2026. Here are their stories
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bwitnessed%252Bmany%252BICE-related%252Bdeaths%252Bin%252B2026.%252BHere%252Bare%252Btheir%252Bstories%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2gGMbo4ssGIjDMAYqKNyl8HxHcFhytYLyRNOcpb5goeesCj6gBeEhaR0vdZl4_kr54yWOQYTm9f9syAnJSWgFD
+Processing trending topic: US downplays China threat in new defence strategy
+Searching Google for: US downplays China threat in new defence strategy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdownplays%252BChina%252Bthreat%252Bin%252Bnew%252Bdefence%252Bstrategy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfrzGImF48sGIjBzUSLr0wLyGuYEw8a4cQ3q00Aa6GUyvtcYL6sweCGjic1zIId-4P-USodgQYwclaUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-witnessed-many-ice-related-deaths-in-2026-here-_20260127_1249.html
-✓ Created comprehensive article: us-witnessed-many-ice-related-deaths-in-2026-here-_20260127_1249.html
+Successfully created file: us-downplays-china-threat-in-new-defence-strategy_20260127_1350.html
+✓ Created comprehensive article: us-downplays-china-threat-in-new-defence-strategy_20260127_1350.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tearful Carol Kirkwood announces she is to leave BBC
+   • Somali’s in Minnesota
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Emotional moment weather presenter reveals she is leaving
+   • Gaza’s unequal dead: 10,000 Palestinians under rubble, one Israeli captive
      Sources: bbc.com, cnn.com, reuters.com
-   • US witnessed many ICE-related deaths in 2026. Here are their stories
+   • US downplays China threat in new defence strategy
      Sources: bbc.com, cnn.com, reuters.com
