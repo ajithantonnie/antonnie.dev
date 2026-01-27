@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Fifty Labour MPs sign letter objecting to Burnham decision
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hamas disarmament in Gaza comes with ‘some sort of amnesty’: US official
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says he’s raising tariffs on South Korea to 25%
-Added expanded search topic: Hamas disarmament in Gaza comes with ‘some sort of amnesty’: US official
-Added expanded search topic: Trump says he’s raising tariffs on South Korea to 25%
-Saved 9 topics for 2026-01-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia cancels visa of Israeli influencer accused of ‘spreading hatred’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Frightening situation’: Bangladesh elections haunted by political violence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lives on hold for two years: Hope, fear stuck behind Gaza’s Rafah crossing
+Added expanded search topic: Australia cancels visa of Israeli influencer accused of ‘spreading hatred’
+Added expanded search topic: ‘Frightening situation’: Bangladesh elections haunted by political violence
+Added expanded search topic: Lives on hold for two years: Hope, fear stuck behind Gaza’s Rafah crossing
+Saved 12 topics for 2026-01-27
 Returning 3 unique trending topics:
-  1. Immigration chief at centre of Trump's crackdown departing Minneapolis (from BBC News)
-  2. Hamas disarmament in Gaza comes with ‘some sort of amnesty’: US official (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump says he’s raising tariffs on South Korea to 25% (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Australia cancels visa of Israeli influencer accused of ‘spreading hatred’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Frightening situation’: Bangladesh elections haunted by political violence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lives on hold for two years: Hope, fear stuck behind Gaza’s Rafah crossing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Immigration chief at centre of Trump's crackdown departing Minneapolis
-Searching Google for: Immigration chief at centre of Trump's crackdown departing Minneapolis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DImmigration%252Bchief%252Bat%252Bcentre%252Bof%252BTrump%2527s%252Bcrackdown%252Bdeparting%252BMinneapolis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-IAGJKI4csGIjAXcyedY9OinKKMaJ9QvbV_XDOm2_mpMafyo7iiL3vtgxHUMstxVQMAEHLQb1D0cmcyBmpjbmRyUloBQw
+Processing trending topic: Australia cancels visa of Israeli influencer accused of ‘spreading hatred’
+Searching Google for: Australia cancels visa of Israeli influencer accused of ‘spreading hatred’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bcancels%252Bvisa%252Bof%252BIsraeli%252Binfluencer%252Baccused%252Bof%252B%25E2%2580%2598spreading%252Bhatred%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pdWzGNSa4csGIjAWv0iCo5etYOM6VqYJjhfAiCabzgOrhdPXQkvHVkqC5lgby5IvpaoIB1Ob7ekZ0j8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: immigration-chief-at-centre-of-trumps-crackdown-de_20260127_0450.html
-✓ Created comprehensive article: immigration-chief-at-centre-of-trumps-crackdown-de_20260127_0450.html
+Successfully created file: australia-cancels-visa-of-israeli-influencer-accus_20260127_0530.html
+✓ Created comprehensive article: australia-cancels-visa-of-israeli-influencer-accus_20260127_0530.html
 
-Processing trending topic: Hamas disarmament in Gaza comes with ‘some sort of amnesty’: US official
-Searching Google for: Hamas disarmament in Gaza comes with ‘some sort of amnesty’: US official
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamas%252Bdisarmament%252Bin%252BGaza%252Bcomes%252Bwith%252B%25E2%2580%2598some%252Bsort%252Bof%252Bamnesty%25E2%2580%2599%253A%252BUS%252Bofficial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-IAGJqI4csGIjAOfwSLBsMt8PsQuwhVdfSeKGk1i4ZonAIRV8s46onKYaKWgbSpZZNp-ZdUjpNNNP8yBmpjbmRyUloBQw
+Processing trending topic: ‘Frightening situation’: Bangladesh elections haunted by political violence
+Searching Google for: ‘Frightening situation’: Bangladesh elections haunted by political violence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Frightening%252Bsituation%25E2%2580%2599%253A%252BBangladesh%252Belections%252Bhaunted%252Bby%252Bpolitical%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pdWzGNua4csGIjBabcYyVv7rM9nzzFy0pd3WIWqAUijqGKGqmuDR1SyGhpTGoHxnOi1p669YkfhLE1UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hamas-disarmament-in-gaza-comes-with-some-sort-of-_20260127_0450.html
-✓ Created comprehensive article: hamas-disarmament-in-gaza-comes-with-some-sort-of-_20260127_0450.html
+Successfully created file: frightening-situation-bangladesh-elections-haunted_20260127_0530.html
+✓ Created comprehensive article: frightening-situation-bangladesh-elections-haunted_20260127_0530.html
 
-Processing trending topic: Trump says he’s raising tariffs on South Korea to 25%
-Searching Google for: Trump says he’s raising tariffs on South Korea to 25%
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%25E2%2580%2599s%252Braising%252Btariffs%252Bon%252BSouth%252BKorea%252Bto%252B25%2525%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-IAGKCI4csGIjAWWf99tKiegWG98_3Mj7qOEA0T8eD_k9PmTyi9PM4vRmjSzlNKuTkbArW1VFyZuB4yBmpjbmRyUloBQw
+Processing trending topic: Lives on hold for two years: Hope, fear stuck behind Gaza’s Rafah crossing
+Searching Google for: Lives on hold for two years: Hope, fear stuck behind Gaza’s Rafah crossing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLives%252Bon%252Bhold%252Bfor%252Btwo%252Byears%253A%252BHope%252C%252Bfear%252Bstuck%252Bbehind%252BGaza%25E2%2580%2599s%252BRafah%252Bcrossing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pdWzGOKa4csGIjDlS2d8kVzb4wDd97xynL8NJA405ynUflv4ss08LQvlO7dfeYUGMFq1N-t6kjsfCuIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-hes-raising-tariffs-on-south-korea-to-2_20260127_0450.html
-✓ Created comprehensive article: trump-says-hes-raising-tariffs-on-south-korea-to-2_20260127_0450.html
+Successfully created file: lives-on-hold-for-two-years-hope-fear-stuck-behind_20260127_0530.html
+✓ Created comprehensive article: lives-on-hold-for-two-years-hope-fear-stuck-behind_20260127_0530.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Immigration chief at centre of Trump's crackdown departing Minneapolis
+   • Australia cancels visa of Israeli influencer accused of ‘spreading hatred’
      Sources: bbc.com, cnn.com, reuters.com
-   • Hamas disarmament in Gaza comes with ‘some sort of amnesty’: US official
+   • ‘Frightening situation’: Bangladesh elections haunted by political violence
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says he’s raising tariffs on South Korea to 25%
+   • Lives on hold for two years: Hope, fear stuck behind Gaza’s Rafah crossing
      Sources: bbc.com, cnn.com, reuters.com
