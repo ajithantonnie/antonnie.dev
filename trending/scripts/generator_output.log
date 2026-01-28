@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer says 'China matters' as he heads to Beijing with business leaders
-  Added: Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
+  Added: Trump says government will 'de-escalate' in Minnesota following Pretti shooting
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-28
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: President talks up strength of US economy in advance of midterm elections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US president praises Syrian leader al-Sharaa after offensive against SDF
+Added expanded search topic: President talks up strength of US economy in advance of midterm elections
+Added expanded search topic: US president praises Syrian leader al-Sharaa after offensive against SDF
+Saved 6 topics for 2026-01-28
 Returning 3 unique trending topics:
-  1. Starmer says 'China matters' as he heads to Beijing with business leaders (from BBC News)
-  2. Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis? (from BBC News)
-  3. Hundreds feared dead in attempt to cross Mediterranean during cyclone (from The Guardian)
+  1. Trump says government will 'de-escalate' in Minnesota following Pretti shooting (from BBC News)
+  2. President talks up strength of US economy in advance of midterm elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US president praises Syrian leader al-Sharaa after offensive against SDF (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer says 'China matters' as he heads to Beijing with business leaders
-Searching Google for: Starmer says 'China matters' as he heads to Beijing with business leaders
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bsays%252B%2527China%252Bmatters%2527%252Bas%252Bhe%252Bheads%252Bto%252BBeijing%252Bwith%252Bbusiness%252Bleaders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQyGPPU5csGIjCcU5gQlpkLKA4GvhH7IQnywLwXtO0du7_TkfmVNvappIBbnv6A-dedgTpeCNJHyNwyBmpjbmRyUloBQw
+Processing trending topic: Trump says government will 'de-escalate' in Minnesota following Pretti shooting
+Searching Google for: Trump says government will 'de-escalate' in Minnesota following Pretti shooting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bgovernment%252Bwill%252B%2527de-escalate%2527%252Bin%252BMinnesota%252Bfollowing%252BPretti%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PAGOWO5ssGIjCUY-AEqoZxjesk0KpQ90v8YFRnstMg_-1ITAnXN_qpi-SWhNMOon12dZCGrVZqMzgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-says-china-matters-as-he-heads-to-beijing-_20260128_0146.html
-✓ Created comprehensive article: starmer-says-china-matters-as-he-heads-to-beijing-_20260128_0146.html
+Successfully created file: trump-says-government-will-de-escalate-in-minnesot_20260128_0350.html
+✓ Created comprehensive article: trump-says-government-will-de-escalate-in-minnesot_20260128_0350.html
 
-Processing trending topic: Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
-Searching Google for: Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BTom%252BHoman%252C%252BTrump%2527s%252B%2527border%252Btsar%2527%252Bdeployed%252Bto%252BMinneapolis%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQyGPvU5csGIjCFko_cmD-dC86elo9tufmCZfsb_OtVyLhfAI5bSGvRh3aRrN1E2CBlPvObXI4aaaYyBmpjbmRyUloBQw
+Processing trending topic: President talks up strength of US economy in advance of midterm elections
+Searching Google for: President talks up strength of US economy in advance of midterm elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPresident%252Btalks%252Bup%252Bstrength%252Bof%252BUS%252Beconomy%252Bin%252Badvance%252Bof%252Bmidterm%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PAGOyO5ssGIjDej1TEbPJVOcDgjXztMo5p7tPfASvhOxPq4HJ6BE-2ApstxiiU4dnDNWvAWXKMgEYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-is-tom-homan-trumps-border-tsar-deployed-to-mi_20260128_0146.html
-✓ Created comprehensive article: who-is-tom-homan-trumps-border-tsar-deployed-to-mi_20260128_0146.html
+Successfully created file: president-talks-up-strength-of-us-economy-in-advan_20260128_0350.html
+✓ Created comprehensive article: president-talks-up-strength-of-us-economy-in-advan_20260128_0350.html
 
-Processing trending topic: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Searching Google for: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bfeared%252Bdead%252Bin%252Battempt%252Bto%252Bcross%252BMediterranean%252Bduring%252Bcyclone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQyGILV5csGIjAky55crh70l6ktLtieJpua561bbMRm4UrK6vwUU3R5e4Bm0i5qCZyhM0r_8x6eZhIyBmpjbmRyUloBQw
+Processing trending topic: US president praises Syrian leader al-Sharaa after offensive against SDF
+Searching Google for: US president praises Syrian leader al-Sharaa after offensive against SDF
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bpresident%252Bpraises%252BSyrian%252Bleader%252Bal-Sharaa%252Bafter%252Boffensive%252Bagainst%252BSDF%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PAGPKO5ssGIjAgKcj16lQusHzkzqcFi2IhewBt7wWJyMNBqrOK1Z0ls1pCgDlWkXxbqzrEuNemeBoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260128_0146.html
-✓ Created comprehensive article: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260128_0146.html
+Successfully created file: us-president-praises-syrian-leader-al-sharaa-after_20260128_0350.html
+✓ Created comprehensive article: us-president-praises-syrian-leader-al-sharaa-after_20260128_0350.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer says 'China matters' as he heads to Beijing with business leaders
+   • Trump says government will 'de-escalate' in Minnesota following Pretti shooting
      Sources: bbc.com, cnn.com, reuters.com
-   • Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
+   • President talks up strength of US economy in advance of midterm elections
      Sources: bbc.com, cnn.com, reuters.com
-   • Hundreds feared dead in attempt to cross Mediterranean during cyclone
+   • US president praises Syrian leader al-Sharaa after offensive against SDF
      Sources: bbc.com, cnn.com, reuters.com
