@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Looking for My Mum
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Even in death, Palestinians are still denied dignity
-Added expanded search topic: Looking for My Mum
-Added expanded search topic: Even in death, Palestinians are still denied dignity
-Saved 51 topics for 2026-01-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rubio rules out military action in Venezuela, with an exception
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran delegates import powers as US war threats keep economy unstable
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Amazon cuts thousands of jobs amid AI push
+Added expanded search topic: Rubio rules out military action in Venezuela, with an exception
+Added expanded search topic: Iran delegates import powers as US war threats keep economy unstable
+Added expanded search topic: Amazon cuts thousands of jobs amid AI push
+Saved 54 topics for 2026-01-28
 Returning 3 unique trending topics:
-  1. Iran protesters treated in secret to avoid arrest (from BBC News)
-  2. Looking for My Mum (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Even in death, Palestinians are still denied dignity (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Rubio rules out military action in Venezuela, with an exception (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran delegates import powers as US war threats keep economy unstable (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Amazon cuts thousands of jobs amid AI push (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iran protesters treated in secret to avoid arrest
-Searching Google for: Iran protesters treated in secret to avoid arrest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bprotesters%252Btreated%252Bin%252Bsecret%252Bto%252Bavoid%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVCGMuv6csGIjDeE25iFnZj3qHb8wicfBbnEL5aGvWvYs2W5GN8b0Ao6kR1CNVe2_E2iwAO25zYUoAyBmpjbmRyUloBQw
+Processing trending topic: Rubio rules out military action in Venezuela, with an exception
+Searching Google for: Rubio rules out military action in Venezuela, with an exception
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%252Brules%252Bout%252Bmilitary%252Baction%252Bin%252BVenezuela%252C%252Bwith%252Ban%252Bexception%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPnGPHH6csGIjCxpigjT327F3CwEDS-ohN1_0dZ0LzZiz0dwdBE7uqIoYYwWs2bX3VUZYQFp0aDnukyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-protesters-treated-in-secret-to-avoid-arrest_20260128_1839.html
-✓ Created comprehensive article: iran-protesters-treated-in-secret-to-avoid-arrest_20260128_1839.html
+Successfully created file: rubio-rules-out-military-action-in-venezuela-with-_20260128_1931.html
+✓ Created comprehensive article: rubio-rules-out-military-action-in-venezuela-with-_20260128_1931.html
 
-Processing trending topic: Looking for My Mum
-Searching Google for: Looking for My Mum
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLooking%252Bfor%252BMy%252BMum%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVCGNKv6csGIjCLCLtuaseFbkrtU_oTdXBASe0FJeu3t8O1Z6QIqm9NpdhOpxp4tHoMzFOJ2juhaY8yBmpjbmRyUloBQw
+Processing trending topic: Iran delegates import powers as US war threats keep economy unstable
+Searching Google for: Iran delegates import powers as US war threats keep economy unstable
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bdelegates%252Bimport%252Bpowers%252Bas%252BUS%252Bwar%252Bthreats%252Bkeep%252Beconomy%252Bunstable%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPnGPnH6csGIjA4YXLFXcpZSy2_Dt0kzZfV2xYkrg_wJ74R-D70x-5X49FZ4EL40MSodtBbt3IuhOsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: looking-for-my-mum_20260128_1839.html
-✓ Created comprehensive article: looking-for-my-mum_20260128_1839.html
+Successfully created file: iran-delegates-import-powers-as-us-war-threats-kee_20260128_1931.html
+✓ Created comprehensive article: iran-delegates-import-powers-as-us-war-threats-kee_20260128_1931.html
 
-Processing trending topic: Even in death, Palestinians are still denied dignity
-Searching Google for: Even in death, Palestinians are still denied dignity
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEven%252Bin%252Bdeath%252C%252BPalestinians%252Bare%252Bstill%252Bdenied%252Bdignity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVCGNiv6csGIjAENAN0WVIS-qvlLVyrEhPrI-NLxOhf_dLdZdtibnT5CXIKfTuQaKndiSxEDlRiSCsyBmpjbmRyUloBQw
+Processing trending topic: Amazon cuts thousands of jobs amid AI push
+Searching Google for: Amazon cuts thousands of jobs amid AI push
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmazon%252Bcuts%252Bthousands%252Bof%252Bjobs%252Bamid%252BAI%252Bpush%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPnGP_H6csGIjAMQjwVFu0zLeNUQGdY3hVWMVaxnowv23hzXEhcLDtz2sHPrxUzvDSiynjGiBYYiZMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: even-in-death-palestinians-are-still-denied-dignit_20260128_1839.html
-✓ Created comprehensive article: even-in-death-palestinians-are-still-denied-dignit_20260128_1839.html
+Successfully created file: amazon-cuts-thousands-of-jobs-amid-ai-push_20260128_1931.html
+✓ Created comprehensive article: amazon-cuts-thousands-of-jobs-amid-ai-push_20260128_1931.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iran protesters treated in secret to avoid arrest
+   • Rubio rules out military action in Venezuela, with an exception
      Sources: bbc.com, cnn.com, reuters.com
-   • Looking for My Mum
+   • Iran delegates import powers as US war threats keep economy unstable
      Sources: bbc.com, cnn.com, reuters.com
-   • Even in death, Palestinians are still denied dignity
+   • Amazon cuts thousands of jobs amid AI push
      Sources: bbc.com, cnn.com, reuters.com
