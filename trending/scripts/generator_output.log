@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 12 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Starmer heads to Beijing with business leaders as UK seeks to reboot China relationship
+  Added: Trump says government will 'de-escalate' in Minnesota following Pretti shooting
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump promises to ‘de-escalate’ Minnesota crisis after Alex Pretti shooting
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India curbs ‘grocery under 10 minutes’. But riders must still fatally race
+Added expanded search topic: Trump promises to ‘de-escalate’ Minnesota crisis after Alex Pretti shooting
+Added expanded search topic: India curbs ‘grocery under 10 minutes’. But riders must still fatally race
+Saved 15 topics for 2026-01-28
+Returning 3 unique trending topics:
+  1. Starmer heads to Beijing with business leaders as UK seeks to reboot China relationship (from BBC News)
+  2. Trump promises to ‘de-escalate’ Minnesota crisis after Alex Pretti shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. India curbs ‘grocery under 10 minutes’. But riders must still fatally race (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Starmer heads to Beijing with business leaders as UK seeks to reboot China relationship
+Searching Google for: Starmer heads to Beijing with business leaders as UK seeks to reboot China relationship
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bheads%252Bto%252BBeijing%252Bwith%252Bbusiness%252Bleaders%252Bas%252BUK%252Bseeks%252Bto%252Breboot%252BChina%252Brelationship%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNbRGO3d5ssGIjBPQj02KVW6T1_vZMie1HL2vKcUV3Sh8mhjW8_Fdis6lypaOU3AxxNB-bIUnJucnBwyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: starmer-heads-to-beijing-with-business-leaders-as-_20260128_0638.html
+✓ Created comprehensive article: starmer-heads-to-beijing-with-business-leaders-as-_20260128_0638.html
+
+Processing trending topic: Trump promises to ‘de-escalate’ Minnesota crisis after Alex Pretti shooting
+Searching Google for: Trump promises to ‘de-escalate’ Minnesota crisis after Alex Pretti shooting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bpromises%252Bto%252B%25E2%2580%2598de-escalate%25E2%2580%2599%252BMinnesota%252Bcrisis%252Bafter%252BAlex%252BPretti%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNbRGPTd5ssGIjBDidcww1OsqbIXlptCzvaHRwun1vIlsuRb9JFu-u673zqNkT6l4KH7J7g5f7vBAJ8yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: trump-promises-to-de-escalate-minnesota-crisis-aft_20260128_0638.html
+✓ Created comprehensive article: trump-promises-to-de-escalate-minnesota-crisis-aft_20260128_0638.html
+
+Processing trending topic: India curbs ‘grocery under 10 minutes’. But riders must still fatally race
+Searching Google for: India curbs ‘grocery under 10 minutes’. But riders must still fatally race
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bcurbs%252B%25E2%2580%2598grocery%252Bunder%252B10%252Bminutes%25E2%2580%2599.%252BBut%252Briders%252Bmust%252Bstill%252Bfatally%252Brace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNbRGPrd5ssGIjBUpe3ggwvIiFBkmijIXiOfwRHOTbXlTpCXvVnTx51TkltaxQ4y_NmzWu8Y-BIrUysyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: india-curbs-grocery-under-10-minutes-but-riders-mu_20260128_0638.html
+✓ Created comprehensive article: india-curbs-grocery-under-10-minutes-but-riders-mu_20260128_0638.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Starmer heads to Beijing with business leaders as UK seeks to reboot China relationship
+     Sources: bbc.com, cnn.com, reuters.com
+   • Trump promises to ‘de-escalate’ Minnesota crisis after Alex Pretti shooting
+     Sources: bbc.com, cnn.com, reuters.com
+   • India curbs ‘grocery under 10 minutes’. But riders must still fatally race
+     Sources: bbc.com, cnn.com, reuters.com
