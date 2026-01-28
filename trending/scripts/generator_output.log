@@ -1,66 +1,62 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 63 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Prime minister flies to China for three-day visit
-  Added: Storm Chandra brings heavy rain, flooding and travel disruption to UK
+  Added: Starmer says 'China matters' as he heads to Beijing with business leaders
+  Added: Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US will end support for Iraq if al-Maliki reinstated as PM
-Added expanded search topic: Trump says US will end support for Iraq if al-Maliki reinstated as PM
-Saved 66 topics for 2026-01-27
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-01-28
 Returning 3 unique trending topics:
-  1. Prime minister flies to China for three-day visit (from BBC News)
-  2. Storm Chandra brings heavy rain, flooding and travel disruption to UK (from BBC News)
-  3. Trump says US will end support for Iraq if al-Maliki reinstated as PM (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer says 'China matters' as he heads to Beijing with business leaders (from BBC News)
+  2. Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis? (from BBC News)
+  3. Hundreds feared dead in attempt to cross Mediterranean during cyclone (from The Guardian)
 
-Processing trending topic: Prime minister flies to China for three-day visit
-Searching Google for: Prime minister flies to China for three-day visit
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Starmer says 'China matters' as he heads to Beijing with business leaders
+Searching Google for: Starmer says 'China matters' as he heads to Beijing with business leaders
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bsays%252B%2527China%252Bmatters%2527%252Bas%252Bhe%252Bheads%252Bto%252BBeijing%252Bwith%252Bbusiness%252Bleaders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQyGPPU5csGIjCcU5gQlpkLKA4GvhH7IQnywLwXtO0du7_TkfmVNvappIBbnv6A-dedgTpeCNJHyNwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prime-minister-flies-to-china-for-three-day-visit_20260127_2324.html
-✓ Created comprehensive article: prime-minister-flies-to-china-for-three-day-visit_20260127_2324.html
+Successfully created file: starmer-says-china-matters-as-he-heads-to-beijing-_20260128_0146.html
+✓ Created comprehensive article: starmer-says-china-matters-as-he-heads-to-beijing-_20260128_0146.html
 
-Processing trending topic: Storm Chandra brings heavy rain, flooding and travel disruption to UK
-Searching Google for: Storm Chandra brings heavy rain, flooding and travel disruption to UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BChandra%252Bbrings%252Bheavy%252Brain%252C%252Bflooding%252Band%252Btravel%252Bdisruption%252Bto%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sHGNKS5csGIjAJz192BD73_9gTVfb5p1kFYhVfJpoVq19sBsUrWb8elo0TVIyhLJ_SpuCbaO_sbHgyBmpjbmRyUloBQw
+Processing trending topic: Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
+Searching Google for: Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BTom%252BHoman%252C%252BTrump%2527s%252B%2527border%252Btsar%2527%252Bdeployed%252Bto%252BMinneapolis%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQyGPvU5csGIjCFko_cmD-dC86elo9tufmCZfsb_OtVyLhfAI5bSGvRh3aRrN1E2CBlPvObXI4aaaYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: storm-chandra-brings-heavy-rain-flooding-and-trave_20260127_2325.html
-✓ Created comprehensive article: storm-chandra-brings-heavy-rain-flooding-and-trave_20260127_2325.html
+Successfully created file: who-is-tom-homan-trumps-border-tsar-deployed-to-mi_20260128_0146.html
+✓ Created comprehensive article: who-is-tom-homan-trumps-border-tsar-deployed-to-mi_20260128_0146.html
 
-Processing trending topic: Trump says US will end support for Iraq if al-Maliki reinstated as PM
-Searching Google for: Trump says US will end support for Iraq if al-Maliki reinstated as PM
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bwill%252Bend%252Bsupport%252Bfor%252BIraq%252Bif%252Bal-Maliki%252Breinstated%252Bas%252BPM%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sHGNiS5csGIjCXZE6n5-ru0xjjXBte9R_7hZ1bFNxqvp9nMoDQegv0oOUG20Hs5Fum5XERBkd-FPMyBmpjbmRyUloBQw
+Processing trending topic: Hundreds feared dead in attempt to cross Mediterranean during cyclone
+Searching Google for: Hundreds feared dead in attempt to cross Mediterranean during cyclone
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bfeared%252Bdead%252Bin%252Battempt%252Bto%252Bcross%252BMediterranean%252Bduring%252Bcyclone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQyGILV5csGIjAky55crh70l6ktLtieJpua561bbMRm4UrK6vwUU3R5e4Bm0i5qCZyhM0r_8x6eZhIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-will-end-support-for-iraq-if-al-mali_20260127_2325.html
-✓ Created comprehensive article: trump-says-us-will-end-support-for-iraq-if-al-mali_20260127_2325.html
+Successfully created file: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260128_0146.html
+✓ Created comprehensive article: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260128_0146.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Prime minister flies to China for three-day visit
+   • Starmer says 'China matters' as he heads to Beijing with business leaders
      Sources: bbc.com, cnn.com, reuters.com
-   • Storm Chandra brings heavy rain, flooding and travel disruption to UK
+   • Who is Tom Homan, Trump's 'border tsar' deployed to Minneapolis?
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says US will end support for Iraq if al-Maliki reinstated as PM
+   • Hundreds feared dead in attempt to cross Mediterranean during cyclone
      Sources: bbc.com, cnn.com, reuters.com
