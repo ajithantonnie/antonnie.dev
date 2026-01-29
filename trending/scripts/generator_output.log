@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Great Ormond Street doctor who botched surgery harmed nearly 100 children
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Planes hit by gunfire and blasts heard at airport in Niger capital – reports
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Key questions about US military build-up near Iran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s UpScrolled, the app gaining popularity after TikTok’s US takeover?
-Added expanded search topic: Key questions about US military build-up near Iran
-Added expanded search topic: What’s UpScrolled, the app gaining popularity after TikTok’s US takeover?
-Saved 36 topics for 2026-01-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: White House ‘Border Czar’ announces shift in Minnesota tactics
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: German star latest to take aim at Trump ahead of FIFA World Cup in US
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump border security boss Homan doubles down on Minnesota operations
+Added expanded search topic: White House ‘Border Czar’ announces shift in Minnesota tactics
+Added expanded search topic: German star latest to take aim at Trump ahead of FIFA World Cup in US
+Added expanded search topic: Trump border security boss Homan doubles down on Minnesota operations
+Saved 39 topics for 2026-01-29
 Returning 3 unique trending topics:
-  1. China to relax travel rules for British visitors, UK says (from BBC News)
-  2. Key questions about US military build-up near Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What’s UpScrolled, the app gaining popularity after TikTok’s US takeover? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. White House ‘Border Czar’ announces shift in Minnesota tactics (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. German star latest to take aim at Trump ahead of FIFA World Cup in US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump border security boss Homan doubles down on Minnesota operations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: China to relax travel rules for British visitors, UK says
-Searching Google for: China to relax travel rules for British visitors, UK says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bto%252Brelax%252Btravel%252Brules%252Bfor%252BBritish%252Bvisitors%252C%252BUK%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw8GGL7n7csGIjBcwyWnhFQ5cKx4O_G1PLFeobRB0-UQAhDB42pHk1dVatEeZimeuMDQ7VfaqL00LpIyBmpjbmRyUloBQw
+Processing trending topic: White House ‘Border Czar’ announces shift in Minnesota tactics
+Searching Google for: White House ‘Border Czar’ announces shift in Minnesota tactics
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhite%252BHouse%252B%25E2%2580%2598Border%252BCzar%25E2%2580%2599%252Bannounces%252Bshift%252Bin%252BMinnesota%252Btactics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrnGJT_7csGIjAFiew6DTUxbKgiJDQz9oW_gN9BNI7KlgUQBS5KcDGG-qM79TlFag7HZCD8rvszXH0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: china-to-relax-travel-rules-for-british-visitors-u_20260129_1450.html
-✓ Created comprehensive article: china-to-relax-travel-rules-for-british-visitors-u_20260129_1450.html
+Successfully created file: white-house-border-czar-announces-shift-in-minneso_20260129_1541.html
+✓ Created comprehensive article: white-house-border-czar-announces-shift-in-minneso_20260129_1541.html
 
-Processing trending topic: Key questions about US military build-up near Iran
-Searching Google for: Key questions about US military build-up near Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKey%252Bquestions%252Babout%252BUS%252Bmilitary%252Bbuild-up%252Bnear%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw8GGMTn7csGIjAeVPa3x4ZjCSFkzVKR2eZUgOHvjqxwHEJkZZPFNRQsu9JKAz9LSR1P1chi7fE01gkyBmpjbmRyUloBQw
+Processing trending topic: German star latest to take aim at Trump ahead of FIFA World Cup in US
+Searching Google for: German star latest to take aim at Trump ahead of FIFA World Cup in US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGerman%252Bstar%252Blatest%252Bto%252Btake%252Baim%252Bat%252BTrump%252Bahead%252Bof%252BFIFA%252BWorld%252BCup%252Bin%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrnGJr_7csGIjAPV7MKje5uOZGzMSJFfYW9H8KsaEXhpbfyosnLcym_TxSqf-wQjLmB4ZhzV54wKf0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: key-questions-about-us-military-build-up-near-iran_20260129_1450.html
-✓ Created comprehensive article: key-questions-about-us-military-build-up-near-iran_20260129_1450.html
+Successfully created file: german-star-latest-to-take-aim-at-trump-ahead-of-f_20260129_1541.html
+✓ Created comprehensive article: german-star-latest-to-take-aim-at-trump-ahead-of-f_20260129_1541.html
 
-Processing trending topic: What’s UpScrolled, the app gaining popularity after TikTok’s US takeover?
-Searching Google for: What’s UpScrolled, the app gaining popularity after TikTok’s US takeover?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252BUpScrolled%252C%252Bthe%252Bapp%252Bgaining%252Bpopularity%252Bafter%252BTikTok%25E2%2580%2599s%252BUS%252Btakeover%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw8GGMvn7csGIjAEdXM1ENmDIm3GU855AP1AbWN1Ij06HpCA2YoEk_rw4-PEeEJXOHMroQK3GZPblNsyBmpjbmRyUloBQw
+Processing trending topic: Trump border security boss Homan doubles down on Minnesota operations
+Searching Google for: Trump border security boss Homan doubles down on Minnesota operations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bborder%252Bsecurity%252Bboss%252BHoman%252Bdoubles%252Bdown%252Bon%252BMinnesota%252Boperations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrnGKH_7csGIjA0ZMDcuqaVGVwn32HfqZg5lolKn17Q7xqjB5j0Hx_cngL4NfuIhTjRDaoghD9qFdcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-upscrolled-the-app-gaining-popularity-after-_20260129_1450.html
-✓ Created comprehensive article: whats-upscrolled-the-app-gaining-popularity-after-_20260129_1450.html
+Successfully created file: trump-border-security-boss-homan-doubles-down-on-m_20260129_1541.html
+✓ Created comprehensive article: trump-border-security-boss-homan-doubles-down-on-m_20260129_1541.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • China to relax travel rules for British visitors, UK says
+   • White House ‘Border Czar’ announces shift in Minnesota tactics
      Sources: bbc.com, cnn.com, reuters.com
-   • Key questions about US military build-up near Iran
+   • German star latest to take aim at Trump ahead of FIFA World Cup in US
      Sources: bbc.com, cnn.com, reuters.com
-   • What’s UpScrolled, the app gaining popularity after TikTok’s US takeover?
+   • Trump border security boss Homan doubles down on Minnesota operations
      Sources: bbc.com, cnn.com, reuters.com
