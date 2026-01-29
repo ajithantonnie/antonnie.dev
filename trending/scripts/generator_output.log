@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Great Ormond Street doctor who botched surgery harmed nearly 100 children
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Heavy security deployed at airport in Niger capital after overnight explosions
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Airports embrace AI to manage growing global passenger traffic
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Inside Gaza after Israel’s last captive is found
-Added expanded search topic: Airports embrace AI to manage growing global passenger traffic
-Added expanded search topic: Inside Gaza after Israel’s last captive is found
-Saved 45 topics for 2026-01-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera denounces YouTube’s compliance with Israel’s ban on network
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hakan Fidan on Iran and Turkiye’s role in global security
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US cricket World Cup hero Jones suspended over multiple corruption charges
+Added expanded search topic: Al Jazeera denounces YouTube’s compliance with Israel’s ban on network
+Added expanded search topic: Hakan Fidan on Iran and Turkiye’s role in global security
+Added expanded search topic: US cricket World Cup hero Jones suspended over multiple corruption charges
+Saved 48 topics for 2026-01-29
 Returning 3 unique trending topics:
-  1. Heavy security deployed at airport in Niger capital after overnight explosions (from The Guardian)
-  2. Airports embrace AI to manage growing global passenger traffic (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Inside Gaza after Israel’s last captive is found (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Al Jazeera denounces YouTube’s compliance with Israel’s ban on network (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Hakan Fidan on Iran and Turkiye’s role in global security (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US cricket World Cup hero Jones suspended over multiple corruption charges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Heavy security deployed at airport in Niger capital after overnight explosions
-Searching Google for: Heavy security deployed at airport in Niger capital after overnight explosions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHeavy%252Bsecurity%252Bdeployed%252Bat%252Bairport%252Bin%252BNiger%252Bcapital%252Bafter%252Bovernight%252Bexplosions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQzGKm37ssGIjCKNRMoqiBIPFrBkOFVACSU-LOIVpaXaslwA5DmuglsWYyw7f_4KDXXj3bS23F2wcYyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera denounces YouTube’s compliance with Israel’s ban on network
+Searching Google for: Al Jazeera denounces YouTube’s compliance with Israel’s ban on network
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Bdenounces%252BYouTube%25E2%2580%2599s%252Bcompliance%252Bwith%252BIsrael%25E2%2580%2599s%252Bban%252Bon%252Bnetwork%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DliGPHW7ssGIjBCivvnCZEkIAu9OfCMZzu64Pk7gCGv5GcszObjzBpHXsk0aBNLGKDUVZYEU32M8k0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: heavy-security-deployed-at-airport-in-niger-capita_20260129_1741.html
-✓ Created comprehensive article: heavy-security-deployed-at-airport-in-niger-capita_20260129_1741.html
+Successfully created file: al-jazeera-denounces-youtubes-compliance-with-isra_20260129_1848.html
+✓ Created comprehensive article: al-jazeera-denounces-youtubes-compliance-with-isra_20260129_1848.html
 
-Processing trending topic: Airports embrace AI to manage growing global passenger traffic
-Searching Google for: Airports embrace AI to manage growing global passenger traffic
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAirports%252Bembrace%252BAI%252Bto%252Bmanage%252Bgrowing%252Bglobal%252Bpassenger%252Btraffic%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQzGLG37ssGIjDteB9tHEdIVEupsjqBIjqKGmusn3UuVG80Bp68kYNvuXPjZx5mW4vVOKE0yNZWlpQyBmpjbmRyUloBQw
+Processing trending topic: Hakan Fidan on Iran and Turkiye’s role in global security
+Searching Google for: Hakan Fidan on Iran and Turkiye’s role in global security
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHakan%252BFidan%252Bon%252BIran%252Band%252BTurkiye%25E2%2580%2599s%252Brole%252Bin%252Bglobal%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DliGPjW7ssGIjD8_2oxywZ-ci8dEnqNV0PlxKqwqCq12d0pzYt6F9l8YTDcUjt1qDQDgECfQw1QQKAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: airports-embrace-ai-to-manage-growing-global-passe_20260129_1741.html
-✓ Created comprehensive article: airports-embrace-ai-to-manage-growing-global-passe_20260129_1741.html
+Successfully created file: hakan-fidan-on-iran-and-turkiyes-role-in-global-se_20260129_1848.html
+✓ Created comprehensive article: hakan-fidan-on-iran-and-turkiyes-role-in-global-se_20260129_1848.html
 
-Processing trending topic: Inside Gaza after Israel’s last captive is found
-Searching Google for: Inside Gaza after Israel’s last captive is found
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInside%252BGaza%252Bafter%252BIsrael%25E2%2580%2599s%252Blast%252Bcaptive%252Bis%252Bfound%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhQzGLe37ssGIjBiOi5k16hafw6RngQNCKVamhYLvNRGpSYrP5vxup4ms9SLBL02HmTyAYN-AsOcnfsyBmpjbmRyUloBQw
+Processing trending topic: US cricket World Cup hero Jones suspended over multiple corruption charges
+Searching Google for: US cricket World Cup hero Jones suspended over multiple corruption charges
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcricket%252BWorld%252BCup%252Bhero%252BJones%252Bsuspended%252Bover%252Bmultiple%252Bcorruption%252Bcharges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DliGP7W7ssGIjAD7D3F7SQDwEjSyClga9Y1RfeP0GVSyMoCi--A0BiC23GM5HVMNSIKJHDISngw818yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: inside-gaza-after-israels-last-captive-is-found_20260129_1741.html
-✓ Created comprehensive article: inside-gaza-after-israels-last-captive-is-found_20260129_1741.html
+Successfully created file: us-cricket-world-cup-hero-jones-suspended-over-mul_20260129_1848.html
+✓ Created comprehensive article: us-cricket-world-cup-hero-jones-suspended-over-mul_20260129_1848.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Heavy security deployed at airport in Niger capital after overnight explosions
+   • Al Jazeera denounces YouTube’s compliance with Israel’s ban on network
      Sources: bbc.com, cnn.com, reuters.com
-   • Airports embrace AI to manage growing global passenger traffic
+   • Hakan Fidan on Iran and Turkiye’s role in global security
      Sources: bbc.com, cnn.com, reuters.com
-   • Inside Gaza after Israel’s last captive is found
+   • US cricket World Cup hero Jones suspended over multiple corruption charges
      Sources: bbc.com, cnn.com, reuters.com
