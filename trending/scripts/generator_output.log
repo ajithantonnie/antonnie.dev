@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-29
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian journalist Bisan Owda with 1.4m followers reports TikTok ban
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US agents involved in Alex Pretti’s killing in Minneapolis placed on leave
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,435
+Added expanded search topic: Palestinian journalist Bisan Owda with 1.4m followers reports TikTok ban
+Added expanded search topic: US agents involved in Alex Pretti’s killing in Minneapolis placed on leave
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,435
+Saved 6 topics for 2026-01-29
 Returning 3 unique trending topics:
-  1. Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf (from BBC News)
-  2. Water bills to rise again: Use our tool to find out by how much (from BBC News)
-  3. Hundreds feared dead in attempt to cross Mediterranean during cyclone (from The Guardian)
+  1. Palestinian journalist Bisan Owda with 1.4m followers reports TikTok ban (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US agents involved in Alex Pretti’s killing in Minneapolis placed on leave (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,435 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf
-Searching Google for: Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwarns%252BIran%252B%2527time%252Bis%252Brunning%252Bout%2527%252Bfor%252Bnuclear%252Bdeal%252Bas%252BUS%252Bmilitary%252Bbuilds%252Bup%252Bin%252BGulf%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WUGID-6ssGIjDFth3cYjKiV_RMsq5PXGL3l-ngolzP04tXJJakduoQ8gB9o7L51x9mMFaPK42iRCAyBmpjbmRyUloBQw
+Processing trending topic: Palestinian journalist Bisan Owda with 1.4m followers reports TikTok ban
+Searching Google for: Palestinian journalist Bisan Owda with 1.4m followers reports TikTok ban
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Bjournalist%252BBisan%252BOwda%252Bwith%252B1.4m%252Bfollowers%252Breports%252BTikTok%252Bban%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IywGIq768sGIjDJKw6CQRVBxRMzQvS9x-lyjNJmopnPgpRKI2uv7HfmIinakIgUmRUiu-mFwoCrNg4yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-warns-iran-time-is-running-out-for-nuclear-d_20260129_0159.html
-✓ Created comprehensive article: trump-warns-iran-time-is-running-out-for-nuclear-d_20260129_0159.html
+Successfully created file: palestinian-journalist-bisan-owda-with-14m-followe_20260129_0409.html
+✓ Created comprehensive article: palestinian-journalist-bisan-owda-with-14m-followe_20260129_0409.html
 
-Processing trending topic: Water bills to rise again: Use our tool to find out by how much
-Searching Google for: Water bills to rise again: Use our tool to find out by how much
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWater%252Bbills%252Bto%252Brise%252Bagain%253A%252BUse%252Bour%252Btool%252Bto%252Bfind%252Bout%252Bby%252Bhow%252Bmuch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WUGIf-6ssGIjB95CHQvQufEcdPt3hxvKoJTE1JSHe7Py0ZbwH2p5frCVz7kJ3Gq3MuXTqpMmI1J4gyBmpjbmRyUloBQw
+Processing trending topic: US agents involved in Alex Pretti’s killing in Minneapolis placed on leave
+Searching Google for: US agents involved in Alex Pretti’s killing in Minneapolis placed on leave
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bagents%252Binvolved%252Bin%252BAlex%252BPretti%25E2%2580%2599s%252Bkilling%252Bin%252BMinneapolis%252Bplaced%252Bon%252Bleave%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IywGJG768sGIjAzaTiFywZtAEMspDXM4nj-Qu4LnGUhRX2CO8G3R1ah_NbMx6lfFuHy4dBudF0rRXEyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: water-bills-to-rise-again-use-our-tool-to-find-out_20260129_0159.html
-✓ Created comprehensive article: water-bills-to-rise-again-use-our-tool-to-find-out_20260129_0159.html
+Successfully created file: us-agents-involved-in-alex-prettis-killing-in-minn_20260129_0409.html
+✓ Created comprehensive article: us-agents-involved-in-alex-prettis-killing-in-minn_20260129_0409.html
 
-Processing trending topic: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Searching Google for: Hundreds feared dead in attempt to cross Mediterranean during cyclone
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bfeared%252Bdead%252Bin%252Battempt%252Bto%252Bcross%252BMediterranean%252Bduring%252Bcyclone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WUGI3-6ssGIjDX76U-sWayTaw74wWbN1qqMzfWPhYzQeyKiCYjlp4U8JmxnXx6WxLPHa21zV-Cm4YyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,435
+Searching Google for: Russia-Ukraine war: List of key events, day 1,435
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C435%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IywGJe768sGIjCrdwcGpf19wIWhmN7DsnGfXPRHDIalFVgn7QpObJYDgliqb9DTllG56R5HEM7y2qAyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260129_0159.html
-✓ Created comprehensive article: hundreds-feared-dead-in-attempt-to-cross-mediterra_20260129_0159.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1435_20260129_0410.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1435_20260129_0410.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump warns Iran 'time is running out' for nuclear deal as US military builds up in Gulf
+   • Palestinian journalist Bisan Owda with 1.4m followers reports TikTok ban
      Sources: bbc.com, cnn.com, reuters.com
-   • Water bills to rise again: Use our tool to find out by how much
+   • US agents involved in Alex Pretti’s killing in Minneapolis placed on leave
      Sources: bbc.com, cnn.com, reuters.com
-   • Hundreds feared dead in attempt to cross Mediterranean during cyclone
+   • Russia-Ukraine war: List of key events, day 1,435
      Sources: bbc.com, cnn.com, reuters.com
