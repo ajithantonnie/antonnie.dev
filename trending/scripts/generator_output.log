@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Agents in Minneapolis could be pulled back if local officials cooperate, border tsar says
-  Added: Great Ormond Street doctor who botched surgery harmed nearly 100 children
+  Added: Trump says 'very dangerous' for UK to deal with China
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Niger’s military ruler vows retaliation after gunfire and explosions heard in capital
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-30
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,436
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran prepares for war as US military ‘armada’ approaches
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,436
+Added expanded search topic: Iran prepares for war as US military ‘armada’ approaches
+Saved 6 topics for 2026-01-30
 Returning 3 unique trending topics:
-  1. Agents in Minneapolis could be pulled back if local officials cooperate, border tsar says (from BBC News)
-  2. Great Ormond Street doctor who botched surgery harmed nearly 100 children (from BBC News)
-  3. Niger’s military ruler vows retaliation after gunfire and explosions heard in capital (from The Guardian)
+  1. Trump says 'very dangerous' for UK to deal with China (from BBC News)
+  2. Russia-Ukraine war: List of key events, day 1,436 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran prepares for war as US military ‘armada’ approaches (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Agents in Minneapolis could be pulled back if local officials cooperate, border tsar says
-Searching Google for: Agents in Minneapolis could be pulled back if local officials cooperate, border tsar says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAgents%252Bin%252BMinneapolis%252Bcould%252Bbe%252Bpulled%252Bback%252Bif%252Blocal%252Bofficials%252Bcooperate%252C%252Bborder%252Btsar%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNmGKag8MsGIjBw7eI2G_6L37sWLI8B5XEVHN2vpd7KfwpKQNNdTC2ebZRwhhRFAH3hEKXh0jAiA8AyBmpjbmRyUloBQw
+Processing trending topic: Trump says 'very dangerous' for UK to deal with China
+Searching Google for: Trump says 'very dangerous' for UK to deal with China
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252B%2527very%252Bdangerous%2527%252Bfor%252BUK%252Bto%252Bdeal%252Bwith%252BChina%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstss4GL_f8MsGIjBAwg1551tEuVOc86Oew_Cg3oBc_B1E03DjoV1qjJNKv8LdR0xpMKfQu9Pra9P2chwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: agents-in-minneapolis-could-be-pulled-back-if-loca_20260130_0158.html
-✓ Created comprehensive article: agents-in-minneapolis-could-be-pulled-back-if-loca_20260130_0158.html
+Successfully created file: trump-says-very-dangerous-for-uk-to-deal-with-chin_20260130_0412.html
+✓ Created comprehensive article: trump-says-very-dangerous-for-uk-to-deal-with-chin_20260130_0412.html
 
-Processing trending topic: Great Ormond Street doctor who botched surgery harmed nearly 100 children
-Searching Google for: Great Ormond Street doctor who botched surgery harmed nearly 100 children
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGreat%252BOrmond%252BStreet%252Bdoctor%252Bwho%252Bbotched%252Bsurgery%252Bharmed%252Bnearly%252B100%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNmGK2g8MsGIjAZhJ0_mxc7ONgqMa1YsL6I1lkpf0bzI1WuNCqx_iSc-ZWywvOp1kajnfjOxtAQezwyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,436
+Searching Google for: Russia-Ukraine war: List of key events, day 1,436
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C436%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstss4GMbf8MsGIjAWFijhXSTC23cl2UtBnFPz7QAyy1wtlxxUC_5tzIgFZa3ATHUslJ8sRjCY8Ih-SM4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: great-ormond-street-doctor-who-botched-surgery-har_20260130_0158.html
-✓ Created comprehensive article: great-ormond-street-doctor-who-botched-surgery-har_20260130_0158.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1436_20260130_0412.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1436_20260130_0412.html
 
-Processing trending topic: Niger’s military ruler vows retaliation after gunfire and explosions heard in capital
-Searching Google for: Niger’s military ruler vows retaliation after gunfire and explosions heard in capital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNiger%25E2%2580%2599s%252Bmilitary%252Bruler%252Bvows%252Bretaliation%252Bafter%252Bgunfire%252Band%252Bexplosions%252Bheard%252Bin%252Bcapital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNmGLSg8MsGIjBm8NTmu3vC4Cm-xFypgDtu0a7xZyonFxImyFkSl24z7ujSH7C68MUbOwoFmPKwrxAyBmpjbmRyUloBQw
+Processing trending topic: Iran prepares for war as US military ‘armada’ approaches
+Searching Google for: Iran prepares for war as US military ‘armada’ approaches
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bprepares%252Bfor%252Bwar%252Bas%252BUS%252Bmilitary%252B%25E2%2580%2598armada%25E2%2580%2599%252Bapproaches%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstss4GM3f8MsGIjDPWpycNtvKpaTJQL212z-fK52vVF3jE9B4gevU6uvTl52KTpnPCROmgmKEVwsoXHgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nigers-military-ruler-vows-retaliation-after-gunfi_20260130_0158.html
-✓ Created comprehensive article: nigers-military-ruler-vows-retaliation-after-gunfi_20260130_0158.html
+Successfully created file: iran-prepares-for-war-as-us-military-armada-approa_20260130_0413.html
+✓ Created comprehensive article: iran-prepares-for-war-as-us-military-armada-approa_20260130_0413.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Agents in Minneapolis could be pulled back if local officials cooperate, border tsar says
+   • Trump says 'very dangerous' for UK to deal with China
      Sources: bbc.com, cnn.com, reuters.com
-   • Great Ormond Street doctor who botched surgery harmed nearly 100 children
+   • Russia-Ukraine war: List of key events, day 1,436
      Sources: bbc.com, cnn.com, reuters.com
-   • Niger’s military ruler vows retaliation after gunfire and explosions heard in capital
+   • Iran prepares for war as US military ‘armada’ approaches
      Sources: bbc.com, cnn.com, reuters.com
