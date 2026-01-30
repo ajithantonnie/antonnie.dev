@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Asylum seeker sentenced to at least 29 years for murdering hotel worker Rhiannon Whyte
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Islamic State claims attack on international airport and airbase in Niger
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: MSF says it will not hand over staff details to Israeli authorities
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can Trump’s ‘madman theory’ reshape Iran and the Middle East?
-Added expanded search topic: MSF says it will not hand over staff details to Israeli authorities
-Added expanded search topic: Can Trump’s ‘madman theory’ reshape Iran and the Middle East?
-Saved 42 topics for 2026-01-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Journalist Don Lemon arrested in connection to Minnesota ICE protest
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why has Burkina Faso banned political parties, and what’s next?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran tensions: The diplomatic scramble to prevent a war
+Added expanded search topic: Journalist Don Lemon arrested in connection to Minnesota ICE protest
+Added expanded search topic: Why has Burkina Faso banned political parties, and what’s next?
+Added expanded search topic: US-Iran tensions: The diplomatic scramble to prevent a war
+Saved 45 topics for 2026-01-30
 Returning 3 unique trending topics:
-  1. Islamic State claims attack on international airport and airbase in Niger (from The Guardian)
-  2. MSF says it will not hand over staff details to Israeli authorities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Can Trump’s ‘madman theory’ reshape Iran and the Middle East? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Journalist Don Lemon arrested in connection to Minnesota ICE protest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Why has Burkina Faso banned political parties, and what’s next? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US-Iran tensions: The diplomatic scramble to prevent a war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Islamic State claims attack on international airport and airbase in Niger
-Searching Google for: Islamic State claims attack on international airport and airbase in Niger
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIslamic%252BState%252Bclaims%252Battack%252Bon%252Binternational%252Bairport%252Band%252Bairbase%252Bin%252BNiger%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIrJGM2-88sGIjAfjFGUYfFtfeE_2XmmN8KJPuyYthFjWmcbZ-tho7-ft5GUuAuWWv56FQBPc0hpo5QyBmpjbmRyUloBQw
+Processing trending topic: Journalist Don Lemon arrested in connection to Minnesota ICE protest
+Searching Google for: Journalist Don Lemon arrested in connection to Minnesota ICE protest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJournalist%252BDon%252BLemon%252Barrested%252Bin%252Bconnection%252Bto%252BMinnesota%252BICE%252Bprotest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGIjY88sGIjCvEaJO7a7KnW5j0bEMb4I4ZrszWAl7K2u0Y0tmk3kGsLm37VtCcgznvU9Zyn2Z9OEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: islamic-state-claims-attack-on-international-airpo_20260130_1641.html
-✓ Created comprehensive article: islamic-state-claims-attack-on-international-airpo_20260130_1641.html
+Successfully created file: journalist-don-lemon-arrested-in-connection-to-min_20260130_1736.html
+✓ Created comprehensive article: journalist-don-lemon-arrested-in-connection-to-min_20260130_1736.html
 
-Processing trending topic: MSF says it will not hand over staff details to Israeli authorities
-Searching Google for: MSF says it will not hand over staff details to Israeli authorities
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMSF%252Bsays%252Bit%252Bwill%252Bnot%252Bhand%252Bover%252Bstaff%252Bdetails%252Bto%252BIsraeli%252Bauthorities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIrJGNS-88sGIjCn0TrQuQQJ_xxtHJWLW-yf8dL63EvZ4T31aAHFCb2VlVr3qk-KkmJkHNG13SnomdMyBmpjbmRyUloBQw
+Processing trending topic: Why has Burkina Faso banned political parties, and what’s next?
+Searching Google for: Why has Burkina Faso banned political parties, and what’s next?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhas%252BBurkina%252BFaso%252Bbanned%252Bpolitical%252Bparties%252C%252Band%252Bwhat%25E2%2580%2599s%252Bnext%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGI_Y88sGIjCzMihThkd6rbFONDAGPp2JvlEs52DMOGda31pKZCz2OeVc-O-YBJEF2rrilTYW8h0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: msf-says-it-will-not-hand-over-staff-details-to-is_20260130_1642.html
-✓ Created comprehensive article: msf-says-it-will-not-hand-over-staff-details-to-is_20260130_1642.html
+Successfully created file: why-has-burkina-faso-banned-political-parties-and-_20260130_1736.html
+✓ Created comprehensive article: why-has-burkina-faso-banned-political-parties-and-_20260130_1736.html
 
-Processing trending topic: Can Trump’s ‘madman theory’ reshape Iran and the Middle East?
-Searching Google for: Can Trump’s ‘madman theory’ reshape Iran and the Middle East?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252BTrump%25E2%2580%2599s%252B%25E2%2580%2598madman%252Btheory%25E2%2580%2599%252Breshape%252BIran%252Band%252Bthe%252BMiddle%252BEast%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIrJGNu-88sGIjDGSIASvZjktHh6i52pKgcdSFuY5iTMpfK913JjA3Y5bdCQ_r7pHBGmVj0QFr5ZIJUyBmpjbmRyUloBQw
+Processing trending topic: US-Iran tensions: The diplomatic scramble to prevent a war
+Searching Google for: US-Iran tensions: The diplomatic scramble to prevent a war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Btensions%253A%252BThe%252Bdiplomatic%252Bscramble%252Bto%252Bprevent%252Ba%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgiGJXY88sGIjDcpn6d5ttH54X0HNPAfJncaQ-c9B81V49n-kbH5jaIC5Tne4SxZDxnX9UU_mZYmfMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: can-trumps-madman-theory-reshape-iran-and-the-midd_20260130_1642.html
-✓ Created comprehensive article: can-trumps-madman-theory-reshape-iran-and-the-midd_20260130_1642.html
+Successfully created file: us-iran-tensions-the-diplomatic-scramble-to-preven_20260130_1736.html
+✓ Created comprehensive article: us-iran-tensions-the-diplomatic-scramble-to-preven_20260130_1736.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Islamic State claims attack on international airport and airbase in Niger
+   • Journalist Don Lemon arrested in connection to Minnesota ICE protest
      Sources: bbc.com, cnn.com, reuters.com
-   • MSF says it will not hand over staff details to Israeli authorities
+   • Why has Burkina Faso banned political parties, and what’s next?
      Sources: bbc.com, cnn.com, reuters.com
-   • Can Trump’s ‘madman theory’ reshape Iran and the Middle East?
+   • US-Iran tensions: The diplomatic scramble to prevent a war
      Sources: bbc.com, cnn.com, reuters.com
