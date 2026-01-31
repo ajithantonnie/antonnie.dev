@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Takeaways from the millions of newly released Epstein files
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-01-31
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US approves $6.6bn sale of attack helicopters, assault vehicles to Israel
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Senate approves spending package, but short government shutdown likely
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: T20 World Cup 2026 stadiums: Where’s India vs Pakistan and the final?
+Added expanded search topic: US approves $6.6bn sale of attack helicopters, assault vehicles to Israel
+Added expanded search topic: US Senate approves spending package, but short government shutdown likely
+Added expanded search topic: T20 World Cup 2026 stadiums: Where’s India vs Pakistan and the final?
+Saved 6 topics for 2026-01-31
 Returning 3 unique trending topics:
-  1. Takeaways from the millions of newly released Epstein files (from BBC News)
-  2. Epstein invited 'The Duke' to meet Russian woman (from BBC News)
-  3. More than 200 killed in coltan mine collapse in eastern DRC, officials say (from The Guardian)
+  1. US approves $6.6bn sale of attack helicopters, assault vehicles to Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US Senate approves spending package, but short government shutdown likely (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. T20 World Cup 2026 stadiums: Where’s India vs Pakistan and the final? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Takeaways from the millions of newly released Epstein files
-Searching Google for: Takeaways from the millions of newly released Epstein files
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTakeaways%252Bfrom%252Bthe%252Bmillions%252Bof%252Bnewly%252Breleased%252BEpstein%252Bfiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGJnC9csGIjDFP7DHxHtcZwdXB8QVuowiNiS-1b3-gccbJsCf3Vz27Zf2fSZYFaQf9B7eIqgoEakyBmpjbmRyUloBQw
+Processing trending topic: US approves $6.6bn sale of attack helicopters, assault vehicles to Israel
+Searching Google for: US approves $6.6bn sale of attack helicopters, assault vehicles to Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bapproves%252B%25246.6bn%252Bsale%252Bof%252Battack%252Bhelicopters%252C%252Bassault%252Bvehicles%252Bto%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KVCGM-A9ssGIjDT0liSepKc48cp2fbJgdnYPyVEW8aDhRbEIsVfDYrREHdmUfRvzx5GHodBt-pwS6AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: takeaways-from-the-millions-of-newly-released-epst_20260131_0155.html
-✓ Created comprehensive article: takeaways-from-the-millions-of-newly-released-epst_20260131_0155.html
+Successfully created file: us-approves-66bn-sale-of-attack-helicopters-assaul_20260131_0408.html
+✓ Created comprehensive article: us-approves-66bn-sale-of-attack-helicopters-assaul_20260131_0408.html
 
-Processing trending topic: Epstein invited 'The Duke' to meet Russian woman
-Searching Google for: Epstein invited 'The Duke' to meet Russian woman
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEpstein%252Binvited%252B%2527The%252BDuke%2527%252Bto%252Bmeet%252BRussian%252Bwoman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGKHC9csGIjCbTGxeem6zeprkUWwBTZD29-K8moxxnVB8z5w-J5AKVCwztgetjNs9Rtbu8PwIcRYyBmpjbmRyUloBQw
+Processing trending topic: US Senate approves spending package, but short government shutdown likely
+Searching Google for: US Senate approves spending package, but short government shutdown likely
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BSenate%252Bapproves%252Bspending%252Bpackage%252C%252Bbut%252Bshort%252Bgovernment%252Bshutdown%252Blikely%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KVCGNiA9ssGIjBd061LSFgdLJT2vBUrltdr3bU7XfE5Ct9NCVI5zYhLi3vLHBnLlN1tiEjc3IjApx4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: epstein-invited-the-duke-to-meet-russian-woman_20260131_0155.html
-✓ Created comprehensive article: epstein-invited-the-duke-to-meet-russian-woman_20260131_0155.html
+Successfully created file: us-senate-approves-spending-package-but-short-gove_20260131_0409.html
+✓ Created comprehensive article: us-senate-approves-spending-package-but-short-gove_20260131_0409.html
 
-Processing trending topic: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Searching Google for: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B200%252Bkilled%252Bin%252Bcoltan%252Bmine%252Bcollapse%252Bin%252Beastern%252BDRC%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGKjC9csGIjAHk2wXOjAD18SNmn-mNsMBTPQNyvS3IkE4hx6gLdiYTDJQWrpe03yhJ0xWebkDPW8yBmpjbmRyUloBQw
+Processing trending topic: T20 World Cup 2026 stadiums: Where’s India vs Pakistan and the final?
+Searching Google for: T20 World Cup 2026 stadiums: Where’s India vs Pakistan and the final?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DT20%252BWorld%252BCup%252B2026%252Bstadiums%253A%252BWhere%25E2%2580%2599s%252BIndia%252Bvs%252BPakistan%252Band%252Bthe%252Bfinal%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KVCGN-A9ssGIjBEd_lnkvl8sUcjcT5KUOAonZl6YFKPr23UThcXUqcnMXSvmsnPxVtDVdjs3JXD9DsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260131_0155.html
-✓ Created comprehensive article: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260131_0155.html
+Successfully created file: t20-world-cup-2026-stadiums-wheres-india-vs-pakist_20260131_0409.html
+✓ Created comprehensive article: t20-world-cup-2026-stadiums-wheres-india-vs-pakist_20260131_0409.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Takeaways from the millions of newly released Epstein files
+   • US approves $6.6bn sale of attack helicopters, assault vehicles to Israel
      Sources: bbc.com, cnn.com, reuters.com
-   • Epstein invited 'The Duke' to meet Russian woman
+   • US Senate approves spending package, but short government shutdown likely
      Sources: bbc.com, cnn.com, reuters.com
-   • More than 200 killed in coltan mine collapse in eastern DRC, officials say
+   • T20 World Cup 2026 stadiums: Where’s India vs Pakistan and the final?
      Sources: bbc.com, cnn.com, reuters.com
