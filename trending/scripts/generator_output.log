@@ -1,0 +1,68 @@
+Starting enhanced trending news generation for 1 hour(s)...
+Already used today: 27 topics
+Attempting to fetch trending topics from multiple sources...
+Fetching from BBC News...
+  Added: Takeaways from the millions of newly released Epstein files
+  Added: Pedro Pascal and Meryl Streep lead tributes to Catherine O'Hara
+Fetching from CNN...
+Fetching from Reuters...
+Fetching from Associated Press...
+Fetching from The Guardian...
+  Added: More than 200 killed in coltan mine collapse in eastern DRC, officials say
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why have rapper Ghali’s Israel comments led to Winter Olympics criticism?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Judge blocks US gov’t move to end deportation protections for Ethiopians
+Added expanded search topic: Why have rapper Ghali’s Israel comments led to Winter Olympics criticism?
+Added expanded search topic: Judge blocks US gov’t move to end deportation protections for Ethiopians
+Saved 30 topics for 2026-01-31
+Returning 3 unique trending topics:
+  1. Pedro Pascal and Meryl Streep lead tributes to Catherine O'Hara (from BBC News)
+  2. Why have rapper Ghali’s Israel comments led to Winter Olympics criticism? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Judge blocks US gov’t move to end deportation protections for Ethiopians (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+
+Processing trending topic: Pedro Pascal and Meryl Streep lead tributes to Catherine O'Hara
+Searching Google for: Pedro Pascal and Meryl Streep lead tributes to Catherine O'Hara
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPedro%252BPascal%252Band%252BMeryl%252BStreep%252Blead%252Btributes%252Bto%252BCatherine%252BO%2527Hara%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19MzGODz98sGIjDwKmClpSuTM-td00-tCz76DiD3NwvWTpeb3-UaYrzeGU4j9N_PzfTirC8TxsA7a9YyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: pedro-pascal-and-meryl-streep-lead-tributes-to-cat_20260131_1247.html
+✓ Created comprehensive article: pedro-pascal-and-meryl-streep-lead-tributes-to-cat_20260131_1247.html
+
+Processing trending topic: Why have rapper Ghali’s Israel comments led to Winter Olympics criticism?
+Searching Google for: Why have rapper Ghali’s Israel comments led to Winter Olympics criticism?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhave%252Brapper%252BGhali%25E2%2580%2599s%252BIsrael%252Bcomments%252Bled%252Bto%252BWinter%252BOlympics%252Bcriticism%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19MzGOjz98sGIjA2CRt_X_RstzamxiZ94Ferb6M-zoe1FuOUKArBxufL7q0WaC90RkSwSoY8FO2xuu0yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: why-have-rapper-ghalis-israel-comments-led-to-wint_20260131_1247.html
+✓ Created comprehensive article: why-have-rapper-ghalis-israel-comments-led-to-wint_20260131_1247.html
+
+Processing trending topic: Judge blocks US gov’t move to end deportation protections for Ethiopians
+Searching Google for: Judge blocks US gov’t move to end deportation protections for Ethiopians
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJudge%252Bblocks%252BUS%252Bgov%25E2%2580%2599t%252Bmove%252Bto%252Bend%252Bdeportation%252Bprotections%252Bfor%252BEthiopians%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19MzGO_z98sGIjDV3OqFX5aMOr3TLJwFWZESsEQs307XPWd62dfWXdSk9KpBDUs2CZAAeU7pVUhr3SQyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: judge-blocks-us-govt-move-to-end-deportation-prote_20260131_1247.html
+✓ Created comprehensive article: judge-blocks-us-govt-move-to-end-deportation-prote_20260131_1247.html
+✓ Updated index.html with 10 total headlines (newest first)
+
+🎉 Generation complete! Created 3 new comprehensive articles
+
+📊 Summary: Generated 3 articles with:
+   • Pedro Pascal and Meryl Streep lead tributes to Catherine O'Hara
+     Sources: bbc.com, cnn.com, reuters.com
+   • Why have rapper Ghali’s Israel comments led to Winter Olympics criticism?
+     Sources: bbc.com, cnn.com, reuters.com
+   • Judge blocks US gov’t move to end deportation protections for Ethiopians
+     Sources: bbc.com, cnn.com, reuters.com
