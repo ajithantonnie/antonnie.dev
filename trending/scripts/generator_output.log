@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
@@ -9,60 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How much control will the US have over Venezuela’s oil?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian official says progress made on talks as US-Iran tensions persist
-Added expanded search topic: How much control will the US have over Venezuela’s oil?
-Added expanded search topic: Iranian official says progress made on talks as US-Iran tensions persist
-Saved 63 topics for 2026-01-31
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-01
 Returning 3 unique trending topics:
-  1. Andrew should testify to US Congress, Starmer suggests after new photos (from BBC News)
-  2. How much control will the US have over Venezuela’s oil? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iranian official says progress made on talks as US-Iran tensions persist (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says (from BBC News)
+  2. Andrew should testify to US Congress, Starmer suggests after new photos (from BBC News)
+  3. More than 200 killed in coltan mine collapse in eastern DRC, officials say (from The Guardian)
+
+Processing trending topic: Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
+Searching Google for: Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecond%252BEpstein%252Bvictim%252Bclaims%252Bshe%252Bwas%252Bsent%252Bto%252BUK%252Bfor%252Bsex%252Bwith%252BAndrew%252C%252Blawyer%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNgGObt-ssGIjDhjb50bSjpauB5487QtYt7xgRq1ZwaoJ9qcAqluREWTNQ7b4wK-6wOkTvukXU2ZscyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: second-epstein-victim-claims-she-was-sent-to-uk-fo_20260201_0214.html
+✓ Created comprehensive article: second-epstein-victim-claims-she-was-sent-to-uk-fo_20260201_0214.html
 
 Processing trending topic: Andrew should testify to US Congress, Starmer suggests after new photos
 Searching Google for: Andrew should testify to US Congress, Starmer suggests after new photos
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Bshould%252Btestify%252Bto%252BUS%252BCongress%252C%252BStarmer%252Bsuggests%252Bafter%252Bnew%252Bphotos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pdwGI2e-ssGIjACoNYHJVDdu8XuFG_JulYk5WjtqB8N1mpmx2_uoUI5O0LI6PZfs37PJ7xnIxK7fTgyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Bshould%252Btestify%252Bto%252BUS%252BCongress%252C%252BStarmer%252Bsuggests%252Bafter%252Bnew%252Bphotos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNgGO3t-ssGIjDhYzDXql0wMwSxKPqklbtVTQAYnXoM9iRW573bE-dEztIWVkghTnpVB-2rhK7HOpYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-should-testify-to-us-congress-starmer-sugge_20260131_2324.html
-✓ Created comprehensive article: andrew-should-testify-to-us-congress-starmer-sugge_20260131_2324.html
+Successfully created file: andrew-should-testify-to-us-congress-starmer-sugge_20260201_0214.html
+✓ Created comprehensive article: andrew-should-testify-to-us-congress-starmer-sugge_20260201_0214.html
 
-Processing trending topic: How much control will the US have over Venezuela’s oil?
-Searching Google for: How much control will the US have over Venezuela’s oil?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bmuch%252Bcontrol%252Bwill%252Bthe%252BUS%252Bhave%252Bover%252BVenezuela%25E2%2580%2599s%252Boil%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pdwGJWe-ssGIjDw1aM6iiz568l_7OYQjUBGPMRBfXxzerUsVrbtpiiY8jm7XIj-_7oNQhPaYW5KH0gyBmpjbmRyUloBQw
+Processing trending topic: More than 200 killed in coltan mine collapse in eastern DRC, officials say
+Searching Google for: More than 200 killed in coltan mine collapse in eastern DRC, officials say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B200%252Bkilled%252Bin%252Bcoltan%252Bmine%252Bcollapse%252Bin%252Beastern%252BDRC%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNgGPTt-ssGIjBNWAeVjlv-CjXn8mq_Eul8-LYbRMYEJv2Grtru66MQGRcLrwehh8ZiFKRsoobk-p8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-much-control-will-the-us-have-over-venezuelas-_20260131_2324.html
-✓ Created comprehensive article: how-much-control-will-the-us-have-over-venezuelas-_20260131_2324.html
-
-Processing trending topic: Iranian official says progress made on talks as US-Iran tensions persist
-Searching Google for: Iranian official says progress made on talks as US-Iran tensions persist
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bofficial%252Bsays%252Bprogress%252Bmade%252Bon%252Btalks%252Bas%252BUS-Iran%252Btensions%252Bpersist%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pdwGJue-ssGIjBU8QgZOT0TmkSoMl6UttB_WGWE1dQ5aX257V_dcpd9ovodeNfsnwWLGDrV3zqnbPQyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-official-says-progress-made-on-talks-as-us_20260131_2324.html
-✓ Created comprehensive article: iranian-official-says-progress-made-on-talks-as-us_20260131_2324.html
+Successfully created file: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260201_0214.html
+✓ Created comprehensive article: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260201_0214.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
+     Sources: bbc.com, cnn.com, reuters.com
    • Andrew should testify to US Congress, Starmer suggests after new photos
      Sources: bbc.com, cnn.com, reuters.com
-   • How much control will the US have over Venezuela’s oil?
-     Sources: bbc.com, cnn.com, reuters.com
-   • Iranian official says progress made on talks as US-Iran tensions persist
+   • More than 200 killed in coltan mine collapse in eastern DRC, officials say
      Sources: bbc.com, cnn.com, reuters.com
