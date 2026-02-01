@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-01
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fela Kuti becomes first African to get Grammys Lifetime Achievement Award
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US envoy arrives in Venezuela to reopen mission after seven years
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US judge orders release of five-year-old and father from ICE detention
+Added expanded search topic: Fela Kuti becomes first African to get Grammys Lifetime Achievement Award
+Added expanded search topic: US envoy arrives in Venezuela to reopen mission after seven years
+Added expanded search topic: US judge orders release of five-year-old and father from ICE detention
+Saved 6 topics for 2026-02-01
 Returning 3 unique trending topics:
-  1. Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says (from BBC News)
-  2. Andrew should testify to US Congress, Starmer suggests after new photos (from BBC News)
-  3. More than 200 killed in coltan mine collapse in eastern DRC, officials say (from The Guardian)
+  1. Fela Kuti becomes first African to get Grammys Lifetime Achievement Award (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US envoy arrives in Venezuela to reopen mission after seven years (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US judge orders release of five-year-old and father from ICE detention (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
-Searching Google for: Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecond%252BEpstein%252Bvictim%252Bclaims%252Bshe%252Bwas%252Bsent%252Bto%252BUK%252Bfor%252Bsex%252Bwith%252BAndrew%252C%252Blawyer%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNgGObt-ssGIjDhjb50bSjpauB5487QtYt7xgRq1ZwaoJ9qcAqluREWTNQ7b4wK-6wOkTvukXU2ZscyBmpjbmRyUloBQw
+Processing trending topic: Fela Kuti becomes first African to get Grammys Lifetime Achievement Award
+Searching Google for: Fela Kuti becomes first African to get Grammys Lifetime Achievement Award
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFela%252BKuti%252Bbecomes%252Bfirst%252BAfrican%252Bto%252Bget%252BGrammys%252BLifetime%252BAchievement%252BAward%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1cwGOy8-8sGIjBfz1B6Gdu8VxcKkqXT5cnigyimvQFBZH6KY_jrmPJ5NdFmQ-awj4oUnCg7-LAOxRsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: second-epstein-victim-claims-she-was-sent-to-uk-fo_20260201_0214.html
-✓ Created comprehensive article: second-epstein-victim-claims-she-was-sent-to-uk-fo_20260201_0214.html
+Successfully created file: fela-kuti-becomes-first-african-to-get-grammys-lif_20260201_0502.html
+✓ Created comprehensive article: fela-kuti-becomes-first-african-to-get-grammys-lif_20260201_0502.html
 
-Processing trending topic: Andrew should testify to US Congress, Starmer suggests after new photos
-Searching Google for: Andrew should testify to US Congress, Starmer suggests after new photos
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Bshould%252Btestify%252Bto%252BUS%252BCongress%252C%252BStarmer%252Bsuggests%252Bafter%252Bnew%252Bphotos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNgGO3t-ssGIjDhYzDXql0wMwSxKPqklbtVTQAYnXoM9iRW573bE-dEztIWVkghTnpVB-2rhK7HOpYyBmpjbmRyUloBQw
+Processing trending topic: US envoy arrives in Venezuela to reopen mission after seven years
+Searching Google for: US envoy arrives in Venezuela to reopen mission after seven years
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoy%252Barrives%252Bin%252BVenezuela%252Bto%252Breopen%252Bmission%252Bafter%252Bseven%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1cwGPO8-8sGIjA9KNojXPFqQu_PbncPkNFB2jQiczBTBhyFbFsnFiFSpBnIpPMb5_ROZZXFPgqJ_S4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-should-testify-to-us-congress-starmer-sugge_20260201_0214.html
-✓ Created comprehensive article: andrew-should-testify-to-us-congress-starmer-sugge_20260201_0214.html
+Successfully created file: us-envoy-arrives-in-venezuela-to-reopen-mission-af_20260201_0502.html
+✓ Created comprehensive article: us-envoy-arrives-in-venezuela-to-reopen-mission-af_20260201_0502.html
 
-Processing trending topic: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Searching Google for: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B200%252Bkilled%252Bin%252Bcoltan%252Bmine%252Bcollapse%252Bin%252Beastern%252BDRC%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNgGPTt-ssGIjBNWAeVjlv-CjXn8mq_Eul8-LYbRMYEJv2Grtru66MQGRcLrwehh8ZiFKRsoobk-p8yBmpjbmRyUloBQw
+Processing trending topic: US judge orders release of five-year-old and father from ICE detention
+Searching Google for: US judge orders release of five-year-old and father from ICE detention
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjudge%252Borders%252Brelease%252Bof%252Bfive-year-old%252Band%252Bfather%252Bfrom%252BICE%252Bdetention%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1cwGPq8-8sGIjBXQVqhmdnxFDA4jcS7MnIFXnN3MMISECv0y1jFH3xv5y6YNopmEmi2jyExM_N219oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260201_0214.html
-✓ Created comprehensive article: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260201_0214.html
+Successfully created file: us-judge-orders-release-of-five-year-old-and-fathe_20260201_0502.html
+✓ Created comprehensive article: us-judge-orders-release-of-five-year-old-and-fathe_20260201_0502.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Second Epstein victim claims she was sent to UK for sex with Andrew, lawyer says
+   • Fela Kuti becomes first African to get Grammys Lifetime Achievement Award
      Sources: bbc.com, cnn.com, reuters.com
-   • Andrew should testify to US Congress, Starmer suggests after new photos
+   • US envoy arrives in Venezuela to reopen mission after seven years
      Sources: bbc.com, cnn.com, reuters.com
-   • More than 200 killed in coltan mine collapse in eastern DRC, officials say
+   • US judge orders release of five-year-old and father from ICE detention
      Sources: bbc.com, cnn.com, reuters.com
