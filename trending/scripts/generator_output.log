@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Lord Mandelson resigns from Labour Party over Epstein links
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-02
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Laura Fernandez leads early results in Costa Rica’s presidential election
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump to close Kennedy Center for renovations amid backlash from performers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,439
+Added expanded search topic: Laura Fernandez leads early results in Costa Rica’s presidential election
+Added expanded search topic: Trump to close Kennedy Center for renovations amid backlash from performers
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,439
+Saved 6 topics for 2026-02-02
 Returning 3 unique trending topics:
-  1. Lord Mandelson resigns from Labour Party over Epstein links (from BBC News)
-  2. 'Do you think you're the devil himself?' Epstein questioned in newly released interview (from BBC News)
-  3. More than 200 killed in coltan mine collapse in eastern DRC, officials say (from The Guardian)
+  1. Laura Fernandez leads early results in Costa Rica’s presidential election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump to close Kennedy Center for renovations amid backlash from performers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,439 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Lord Mandelson resigns from Labour Party over Epstein links
-Searching Google for: Lord Mandelson resigns from Labour Party over Epstein links
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLord%252BMandelson%252Bresigns%252Bfrom%252BLabour%252BParty%252Bover%252BEpstein%252Blinks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVbiGLWMgMwGIjBByCrU213AOvGGHwrce6u6LpjcyKi8JEGPEnR2zAaxUmYTdhaUHZZGs361JaVQNQ4yAnJSWgFD
+Processing trending topic: Laura Fernandez leads early results in Costa Rica’s presidential election
+Searching Google for: Laura Fernandez leads early results in Costa Rica’s presidential election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLaura%252BFernandez%252Bleads%252Bearly%252Bresults%252Bin%252BCosta%252BRica%25E2%2580%2599s%252Bpresidential%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMjGPPdgMwGIjDpt4rWUSVeKKKzZQiSg_-ZX5Y5xYJDvK53KkgRt4FR7d4lxCsIItdrP7lxhqPfYeIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lord-mandelson-resigns-from-labour-party-over-epst_20260202_0204.html
-✓ Created comprehensive article: lord-mandelson-resigns-from-labour-party-over-epst_20260202_0204.html
+Successfully created file: laura-fernandez-leads-early-results-in-costa-ricas_20260202_0458.html
+✓ Created comprehensive article: laura-fernandez-leads-early-results-in-costa-ricas_20260202_0458.html
 
-Processing trending topic: 'Do you think you're the devil himself?' Epstein questioned in newly released interview
-Searching Google for: 'Do you think you're the devil himself?' Epstein questioned in newly released interview
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Do%252Byou%252Bthink%252Byou%2527re%252Bthe%252Bdevil%252Bhimself%253F%2527%252BEpstein%252Bquestioned%252Bin%252Bnewly%252Breleased%252Binterview%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVbiGL2MgMwGIjDoXAw9_KNmcYaXi41yhqcTFNLiqxwE6oKQMyh4lhqHn3WNlFDzjdrbaonIK0VNR3wyAnJSWgFD
+Processing trending topic: Trump to close Kennedy Center for renovations amid backlash from performers
+Searching Google for: Trump to close Kennedy Center for renovations amid backlash from performers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bto%252Bclose%252BKennedy%252BCenter%252Bfor%252Brenovations%252Bamid%252Bbacklash%252Bfrom%252Bperformers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMjGPvdgMwGIjCVAxSlnblE-xRDP4gjsmuA_j0jZLtx124ZD6pgXel1H8l3iYe-cYAqrpcqG6jau5cyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: do-you-think-youre-the-devil-himself-epstein-quest_20260202_0204.html
-✓ Created comprehensive article: do-you-think-youre-the-devil-himself-epstein-quest_20260202_0204.html
+Successfully created file: trump-to-close-kennedy-center-for-renovations-amid_20260202_0458.html
+✓ Created comprehensive article: trump-to-close-kennedy-center-for-renovations-amid_20260202_0458.html
 
-Processing trending topic: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Searching Google for: More than 200 killed in coltan mine collapse in eastern DRC, officials say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B200%252Bkilled%252Bin%252Bcoltan%252Bmine%252Bcollapse%252Bin%252Beastern%252BDRC%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVbiGMOMgMwGIjDCP8f0JpXCqzj23DrjEzh0YXfqe_DvLwxkD-jx0-mPQ2xfBjvXzHRPQm46xvXzpYcyAnJSWgFD
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,439
+Searching Google for: Russia-Ukraine war: List of key events, day 1,439
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C439%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMjGIHegMwGIjAdk2ZI76TrM-wf5XhMpUta4hwgImFYjxVqulcw4dISXrZsZL-NdH-LxFGeF1Y0g68yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260202_0204.html
-✓ Created comprehensive article: more-than-200-killed-in-coltan-mine-collapse-in-ea_20260202_0204.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1439_20260202_0458.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1439_20260202_0458.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Lord Mandelson resigns from Labour Party over Epstein links
+   • Laura Fernandez leads early results in Costa Rica’s presidential election
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Do you think you're the devil himself?' Epstein questioned in newly released interview
+   • Trump to close Kennedy Center for renovations amid backlash from performers
      Sources: bbc.com, cnn.com, reuters.com
-   • More than 200 killed in coltan mine collapse in eastern DRC, officials say
+   • Russia-Ukraine war: List of key events, day 1,439
      Sources: bbc.com, cnn.com, reuters.com
