@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police review misconduct claims after files suggest Mandelson sent government information to Epstein
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Handful of sick and wounded Palestinians allowed through Rafah crossing on first day
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-03
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK police to review misconduct claims after Mandelson’s leaks to Epstein
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cuba in contact with US, diplomat says, as Trump issues threat to block oil
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe
+Added expanded search topic: UK police to review misconduct claims after Mandelson’s leaks to Epstein
+Added expanded search topic: Cuba in contact with US, diplomat says, as Trump issues threat to block oil
+Added expanded search topic: Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe
+Saved 6 topics for 2026-02-03
 Returning 3 unique trending topics:
-  1. Police review misconduct claims after files suggest Mandelson sent government information to Epstein (from BBC News)
-  2. Sarah Ferguson's charity to close days after new Epstein revelations (from BBC News)
-  3. Handful of sick and wounded Palestinians allowed through Rafah crossing on first day (from The Guardian)
+  1. UK police to review misconduct claims after Mandelson’s leaks to Epstein (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Cuba in contact with US, diplomat says, as Trump issues threat to block oil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police review misconduct claims after files suggest Mandelson sent government information to Epstein
-Searching Google for: Police review misconduct claims after files suggest Mandelson sent government information to Epstein
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Breview%252Bmisconduct%252Bclaims%252Bafter%252Bfiles%252Bsuggest%252BMandelson%252Bsent%252Bgovernment%252Binformation%252Bto%252BEpstein%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGYGI-vhcwGIjDFw7fJLGeOOb0ISbQoZ6s-kq33qo8M33rI7WPEzB39-phYSxwpkQOn8Jz7JZZWj_MyAnJSWgFD
+Processing trending topic: UK police to review misconduct claims after Mandelson’s leaks to Epstein
+Searching Google for: UK police to review misconduct claims after Mandelson’s leaks to Epstein
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bpolice%252Bto%252Breview%252Bmisconduct%252Bclaims%252Bafter%252BMandelson%25E2%2580%2599s%252Bleaks%252Bto%252BEpstein%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw2iGKPxhcwGIjAOczQ4qXWQNXAMwsu-DCfs5y0tQNoloG-VY_DMtFO-DwAwNUQIQ4h3nRR4Bcur_N4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-review-misconduct-claims-after-files-sugges_20260203_0204.html
-✓ Created comprehensive article: police-review-misconduct-claims-after-files-sugges_20260203_0204.html
+Successfully created file: uk-police-to-review-misconduct-claims-after-mandel_20260203_0425.html
+✓ Created comprehensive article: uk-police-to-review-misconduct-claims-after-mandel_20260203_0425.html
 
-Processing trending topic: Sarah Ferguson's charity to close days after new Epstein revelations
-Searching Google for: Sarah Ferguson's charity to close days after new Epstein revelations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSarah%252BFerguson%2527s%252Bcharity%252Bto%252Bclose%252Bdays%252Bafter%252Bnew%252BEpstein%252Brevelations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGYGJWvhcwGIjCy9PQXX4OHkIhHrh-k7oUn1M3rUHIt9sft7basWhWXChV1cJnpmNLSC8dahd_DYUMyAnJSWgFD
+Processing trending topic: Cuba in contact with US, diplomat says, as Trump issues threat to block oil
+Searching Google for: Cuba in contact with US, diplomat says, as Trump issues threat to block oil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuba%252Bin%252Bcontact%252Bwith%252BUS%252C%252Bdiplomat%252Bsays%252C%252Bas%252BTrump%252Bissues%252Bthreat%252Bto%252Bblock%252Boil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw2iGKrxhcwGIjAMhvudO2dDF-T9OSfirCxN8QhVpMKEhHyvjQ_nVKwgjjXaBgUPaIu_ULR3JXVeJ1QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sarah-fergusons-charity-to-close-days-after-new-ep_20260203_0204.html
-✓ Created comprehensive article: sarah-fergusons-charity-to-close-days-after-new-ep_20260203_0204.html
+Successfully created file: cuba-in-contact-with-us-diplomat-says-as-trump-iss_20260203_0425.html
+✓ Created comprehensive article: cuba-in-contact-with-us-diplomat-says-as-trump-iss_20260203_0425.html
 
-Processing trending topic: Handful of sick and wounded Palestinians allowed through Rafah crossing on first day
-Searching Google for: Handful of sick and wounded Palestinians allowed through Rafah crossing on first day
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHandful%252Bof%252Bsick%252Band%252Bwounded%252BPalestinians%252Ballowed%252Bthrough%252BRafah%252Bcrossing%252Bon%252Bfirst%252Bday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGYGJ2vhcwGIjBK0vqt6WHBmdPlpIvWXttqvVF0q8E_4kKAIGT7YzEepLW9yrWPI31J5p9dkdgy_AUyAnJSWgFD
+Processing trending topic: Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe
+Searching Google for: Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEx-US%252BPresident%252BBill%252BClinton%252C%252BHillary%252BClinton%252Bto%252Btestify%252Bin%252BEpstein%252Bprobe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw2iGLDxhcwGIjDwkTkk6Jnv5p7FEBji0sm5AW71gBkJNl2TybGWC9Zvwsbhr_2X5_L9e67YHB8PF7gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: handful-of-sick-and-wounded-palestinians-allowed-t_20260203_0204.html
-✓ Created comprehensive article: handful-of-sick-and-wounded-palestinians-allowed-t_20260203_0204.html
+Successfully created file: ex-us-president-bill-clinton-hillary-clinton-to-te_20260203_0425.html
+✓ Created comprehensive article: ex-us-president-bill-clinton-hillary-clinton-to-te_20260203_0425.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police review misconduct claims after files suggest Mandelson sent government information to Epstein
+   • UK police to review misconduct claims after Mandelson’s leaks to Epstein
      Sources: bbc.com, cnn.com, reuters.com
-   • Sarah Ferguson's charity to close days after new Epstein revelations
+   • Cuba in contact with US, diplomat says, as Trump issues threat to block oil
      Sources: bbc.com, cnn.com, reuters.com
-   • Handful of sick and wounded Palestinians allowed through Rafah crossing on first day
+   • Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe
      Sources: bbc.com, cnn.com, reuters.com
