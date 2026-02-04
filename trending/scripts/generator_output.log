@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Andrew moves out of Royal Lodge home
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
-Added expanded search topic: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
-Added expanded search topic: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
-Saved 6 topics for 2026-02-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China warns Panama as Hong Kong firm contests ruling on canal ports
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands march in Venezuela to demand US free President Maduro, wife
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian women recount ‘journey of horror’ at Gaza’s Rafah crossing
+Added expanded search topic: China warns Panama as Hong Kong firm contests ruling on canal ports
+Added expanded search topic: Thousands march in Venezuela to demand US free President Maduro, wife
+Added expanded search topic: Palestinian women recount ‘journey of horror’ at Gaza’s Rafah crossing
+Saved 9 topics for 2026-02-04
 Returning 3 unique trending topics:
-  1. Mandelson investigated by police over claims he leaked information to Epstein (from BBC News)
-  2. ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Bus crashes in Brazil’s Alagoas state, killing at least 16 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. China warns Panama as Hong Kong firm contests ruling on canal ports (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Thousands march in Venezuela to demand US free President Maduro, wife (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Palestinian women recount ‘journey of horror’ at Gaza’s Rafah crossing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Mandelson investigated by police over claims he leaked information to Epstein
-Searching Google for: Mandelson investigated by police over claims he leaked information to Epstein
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMandelson%252Binvestigated%252Bby%252Bpolice%252Bover%252Bclaims%252Bhe%252Bleaked%252Binformation%252Bto%252BEpstein%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGPGOi8wGIjD3CH8qINFf6aTNMG5-5Za1JR8pnSxsZtiEfwjupuJB4KCljkQzv4eGu_WwIVzUAu8yAnJSWgFD
+Processing trending topic: China warns Panama as Hong Kong firm contests ruling on canal ports
+Searching Google for: China warns Panama as Hong Kong firm contests ruling on canal ports
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bwarns%252BPanama%252Bas%252BHong%252BKong%252Bfirm%252Bcontests%252Bruling%252Bon%252Bcanal%252Bports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bDGLe8i8wGIjDTZCq7oLfDJvuZcdmY4UiYmlpDbVeQ4xxX0Cni0xLxUglqhF2Cw4mhNGI0auw5MFEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mandelson-investigated-by-police-over-claims-he-le_20260204_0413.html
-✓ Created comprehensive article: mandelson-investigated-by-police-over-claims-he-le_20260204_0413.html
+Successfully created file: china-warns-panama-as-hong-kong-firm-contests-ruli_20260204_0550.html
+✓ Created comprehensive article: china-warns-panama-as-hong-kong-firm-contests-ruli_20260204_0550.html
 
-Processing trending topic: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
-Searching Google for: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598A%252Bgreat%252Bhonor%25E2%2580%2599%253A%252BKey%252Btakeaways%252Bfrom%252BTrump%25E2%2580%2599s%252Bmeeting%252Bwith%252BColombia%25E2%2580%2599s%252BPetro%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGPiOi8wGIjAIzbJU5kdCcBqil-KctxeLoYF12z5ZcOAyYpFzh4yLiTixtAPYWhsg83J129tl0zkyAnJSWgFD
+Processing trending topic: Thousands march in Venezuela to demand US free President Maduro, wife
+Searching Google for: Thousands march in Venezuela to demand US free President Maduro, wife
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bmarch%252Bin%252BVenezuela%252Bto%252Bdemand%252BUS%252Bfree%252BPresident%252BMaduro%252C%252Bwife%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bDGL68i8wGIjAPEwhX-IBykBH4ZgR4Wr8RJ6YGDuo8P2PXeLkiwBF5kSXKJ0mONORfLmJaeFCJOFsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-great-honor-key-takeaways-from-trumps-meeting-wi_20260204_0413.html
-✓ Created comprehensive article: a-great-honor-key-takeaways-from-trumps-meeting-wi_20260204_0413.html
+Successfully created file: thousands-march-in-venezuela-to-demand-us-free-pre_20260204_0550.html
+✓ Created comprehensive article: thousands-march-in-venezuela-to-demand-us-free-pre_20260204_0550.html
 
-Processing trending topic: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
-Searching Google for: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBus%252Bcrashes%252Bin%252BBrazil%25E2%2580%2599s%252BAlagoas%252Bstate%252C%252Bkilling%252Bat%252Bleast%252B16%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGP-Oi8wGIjCNi80aH4ZSjh8jf_JHjaaSG6zGBLvAobP5LoLcbPN3vNDu2N2w8dmZ4KL9K1DQYYIyAnJSWgFD
+Processing trending topic: Palestinian women recount ‘journey of horror’ at Gaza’s Rafah crossing
+Searching Google for: Palestinian women recount ‘journey of horror’ at Gaza’s Rafah crossing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Bwomen%252Brecount%252B%25E2%2580%2598journey%252Bof%252Bhorror%25E2%2580%2599%252Bat%252BGaza%25E2%2580%2599s%252BRafah%252Bcrossing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bDGMS8i8wGIjC7JwoMCKY_QhVlo9HMswYFrTK5isFFikGA6zXuwnLmzMcT30E0NqCHxQEB-6oUKSEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bus-crashes-in-brazils-alagoas-state-killing-at-le_20260204_0413.html
-✓ Created comprehensive article: bus-crashes-in-brazils-alagoas-state-killing-at-le_20260204_0413.html
+Successfully created file: palestinian-women-recount-journey-of-horror-at-gaz_20260204_0551.html
+✓ Created comprehensive article: palestinian-women-recount-journey-of-horror-at-gaz_20260204_0551.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Mandelson investigated by police over claims he leaked information to Epstein
+   • China warns Panama as Hong Kong firm contests ruling on canal ports
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
+   • Thousands march in Venezuela to demand US free President Maduro, wife
      Sources: bbc.com, cnn.com, reuters.com
-   • Bus crashes in Brazil’s Alagoas state, killing at least 16 people
+   • Palestinian women recount ‘journey of horror’ at Gaza’s Rafah crossing
      Sources: bbc.com, cnn.com, reuters.com
