@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Andrew moves out of Royal Lodge home
-  Added: Police assess allegation Epstein sent second woman to UK for sex with Andrew
+  Added: Mandelson investigated by police over claims he leaked information to Epstein
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-04
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
+Added expanded search topic: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
+Added expanded search topic: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
+Saved 6 topics for 2026-02-04
 Returning 3 unique trending topics:
-  1. Andrew moves out of Royal Lodge home (from BBC News)
-  2. Police assess allegation Epstein sent second woman to UK for sex with Andrew (from BBC News)
-  3. Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says (from The Guardian)
+  1. Mandelson investigated by police over claims he leaked information to Epstein (from BBC News)
+  2. ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Bus crashes in Brazil’s Alagoas state, killing at least 16 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Andrew moves out of Royal Lodge home
-Searching Google for: Andrew moves out of Royal Lodge home
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Bmoves%252Bout%252Bof%252BRoyal%252BLodge%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst52zGKjQiswGIjAEoHXbPK59mAKbikZBskdUT5B-kgM24ePobMyQQgH69XfCCsup9BifGg3iJxEkUE4yBmpjbmRyUloBQw
+Processing trending topic: Mandelson investigated by police over claims he leaked information to Epstein
+Searching Google for: Mandelson investigated by police over claims he leaked information to Epstein
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMandelson%252Binvestigated%252Bby%252Bpolice%252Bover%252Bclaims%252Bhe%252Bleaked%252Binformation%252Bto%252BEpstein%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGPGOi8wGIjD3CH8qINFf6aTNMG5-5Za1JR8pnSxsZtiEfwjupuJB4KCljkQzv4eGu_WwIVzUAu8yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-moves-out-of-royal-lodge-home_20260204_0200.html
-✓ Created comprehensive article: andrew-moves-out-of-royal-lodge-home_20260204_0200.html
+Successfully created file: mandelson-investigated-by-police-over-claims-he-le_20260204_0413.html
+✓ Created comprehensive article: mandelson-investigated-by-police-over-claims-he-le_20260204_0413.html
 
-Processing trending topic: Police assess allegation Epstein sent second woman to UK for sex with Andrew
-Searching Google for: Police assess allegation Epstein sent second woman to UK for sex with Andrew
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bassess%252Ballegation%252BEpstein%252Bsent%252Bsecond%252Bwoman%252Bto%252BUK%252Bfor%252Bsex%252Bwith%252BAndrew%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst52zGK_QiswGIjDWOJIbHmW2M-LDGfFv6ByQV4quNXm-5Ol9kSM1qzz1HluauOIjHqRr5nW2FahyDBQyBmpjbmRyUloBQw
+Processing trending topic: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
+Searching Google for: ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598A%252Bgreat%252Bhonor%25E2%2580%2599%253A%252BKey%252Btakeaways%252Bfrom%252BTrump%25E2%2580%2599s%252Bmeeting%252Bwith%252BColombia%25E2%2580%2599s%252BPetro%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGPiOi8wGIjAIzbJU5kdCcBqil-KctxeLoYF12z5ZcOAyYpFzh4yLiTixtAPYWhsg83J129tl0zkyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-assess-allegation-epstein-sent-second-woman_20260204_0200.html
-✓ Created comprehensive article: police-assess-allegation-epstein-sent-second-woman_20260204_0200.html
+Successfully created file: a-great-honor-key-takeaways-from-trumps-meeting-wi_20260204_0413.html
+✓ Created comprehensive article: a-great-honor-key-takeaways-from-trumps-meeting-wi_20260204_0413.html
 
-Processing trending topic: Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says
-Searching Google for: Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump-led%252Babuses%252Bamid%252B%25E2%2580%2598democratic%252Brecession%25E2%2580%2599%252Bput%252Bhuman%252Brights%252Bin%252Bperil%252C%252BHRW%252Breport%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst52zGLXQiswGIjBdX3DrE0Ri3lDUGNGY3B5_BrVK2zNpJr2Tig71PCskQY_OtAt_2vFroaInjnGeRmMyBmpjbmRyUloBQw
+Processing trending topic: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
+Searching Google for: Bus crashes in Brazil’s Alagoas state, killing at least 16 people
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBus%252Bcrashes%252Bin%252BBrazil%25E2%2580%2599s%252BAlagoas%252Bstate%252C%252Bkilling%252Bat%252Bleast%252B16%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGP-Oi8wGIjCNi80aH4ZSjh8jf_JHjaaSG6zGBLvAobP5LoLcbPN3vNDu2N2w8dmZ4KL9K1DQYYIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-led-abuses-amid-democratic-recession-put-hum_20260204_0200.html
-✓ Created comprehensive article: trump-led-abuses-amid-democratic-recession-put-hum_20260204_0200.html
+Successfully created file: bus-crashes-in-brazils-alagoas-state-killing-at-le_20260204_0413.html
+✓ Created comprehensive article: bus-crashes-in-brazils-alagoas-state-killing-at-le_20260204_0413.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Andrew moves out of Royal Lodge home
+   • Mandelson investigated by police over claims he leaked information to Epstein
      Sources: bbc.com, cnn.com, reuters.com
-   • Police assess allegation Epstein sent second woman to UK for sex with Andrew
+   • ‘A great honor’: Key takeaways from Trump’s meeting with Colombia’s Petro
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says
+   • Bus crashes in Brazil’s Alagoas state, killing at least 16 people
      Sources: bbc.com, cnn.com, reuters.com
