@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: MPs back plan to release Mandelson files after Labour anger forces climbdown
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Gunmen kill more than 160 people in attacks on two west Nigeria villages
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-05
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia charges teen over online threat as Israeli president due to visit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nike probed by Trump appointee over claims of bias against white workers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,442
+Added expanded search topic: Australia charges teen over online threat as Israeli president due to visit
+Added expanded search topic: Nike probed by Trump appointee over claims of bias against white workers
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,442
+Saved 6 topics for 2026-02-05
 Returning 3 unique trending topics:
-  1. MPs back plan to release Mandelson files after Labour anger forces climbdown (from BBC News)
-  2. Email appears to confirm Andrew and Virginia Giuffre photo is real (from BBC News)
-  3. Gunmen kill more than 160 people in attacks on two west Nigeria villages (from The Guardian)
+  1. Australia charges teen over online threat as Israeli president due to visit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Nike probed by Trump appointee over claims of bias against white workers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,442 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: MPs back plan to release Mandelson files after Labour anger forces climbdown
-Searching Google for: MPs back plan to release Mandelson files after Labour anger forces climbdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMPs%252Bback%252Bplan%252Bto%252Brelease%252BMandelson%252Bfiles%252Bafter%252BLabour%252Banger%252Bforces%252Bclimbdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGJ_0j8wGIjCf0HQ73keJ3Co2kFxQxKmoJSSRoSwVsj7nwCTYHkeAYKXXLrcHgqMVrnnnpGM8wGoyBmpjbmRyUloBQw
+Processing trending topic: Australia charges teen over online threat as Israeli president due to visit
+Searching Google for: Australia charges teen over online threat as Israeli president due to visit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bcharges%252Bteen%252Bover%252Bonline%252Bthreat%252Bas%252BIsraeli%252Bpresident%252Bdue%252Bto%252Bvisit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGAGPm1kMwGIjC4nM-MmGIRtQUz2Vvnia_0tq2reudf1XINeEyPYPIBzZTQ-iBtG62EVB3nXFbtIzEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mps-back-plan-to-release-mandelson-files-after-lab_20260205_0202.html
-✓ Created comprehensive article: mps-back-plan-to-release-mandelson-files-after-lab_20260205_0202.html
+Successfully created file: australia-charges-teen-over-online-threat-as-israe_20260205_0422.html
+✓ Created comprehensive article: australia-charges-teen-over-online-threat-as-israe_20260205_0422.html
 
-Processing trending topic: Email appears to confirm Andrew and Virginia Giuffre photo is real
-Searching Google for: Email appears to confirm Andrew and Virginia Giuffre photo is real
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEmail%252Bappears%252Bto%252Bconfirm%252BAndrew%252Band%252BVirginia%252BGiuffre%252Bphoto%252Bis%252Breal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGKb0j8wGIjCAceEQmVYNHLwWzCTtyp0Ylv_Zo2_HbL1a5dwzMVrwqRmnGv8LLDRewuU1XqftYBgyBmpjbmRyUloBQw
+Processing trending topic: Nike probed by Trump appointee over claims of bias against white workers
+Searching Google for: Nike probed by Trump appointee over claims of bias against white workers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNike%252Bprobed%252Bby%252BTrump%252Bappointee%252Bover%252Bclaims%252Bof%252Bbias%252Bagainst%252Bwhite%252Bworkers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGAGIC2kMwGIjB69O3gF0L-Pjrc4kdcM_G3YRbd_5IktJS9307PbRYoB9g-053_6dk8WyVVl4ELEo0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: email-appears-to-confirm-andrew-and-virginia-giuff_20260205_0202.html
-✓ Created comprehensive article: email-appears-to-confirm-andrew-and-virginia-giuff_20260205_0202.html
+Successfully created file: nike-probed-by-trump-appointee-over-claims-of-bias_20260205_0422.html
+✓ Created comprehensive article: nike-probed-by-trump-appointee-over-claims-of-bias_20260205_0422.html
 
-Processing trending topic: Gunmen kill more than 160 people in attacks on two west Nigeria villages
-Searching Google for: Gunmen kill more than 160 people in attacks on two west Nigeria villages
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkill%252Bmore%252Bthan%252B160%252Bpeople%252Bin%252Battacks%252Bon%252Btwo%252Bwest%252BNigeria%252Bvillages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGK30j8wGIjD67ve9BeGWXMsC-FvCutrN2fwZI7nGlY-Rq-SfZUL4rTjOY5jT3suR4LHA3UMNlKAyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,442
+Searching Google for: Russia-Ukraine war: List of key events, day 1,442
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C442%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGAGIe2kMwGIjCkYzqTkjB7LprrZoHrS7VbBBiRiHpX9Pf-Sa9dw0xcuNFwc3LORjqeuqi_290_kLAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gunmen-kill-more-than-160-people-in-attacks-on-two_20260205_0202.html
-✓ Created comprehensive article: gunmen-kill-more-than-160-people-in-attacks-on-two_20260205_0202.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1442_20260205_0422.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1442_20260205_0422.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • MPs back plan to release Mandelson files after Labour anger forces climbdown
+   • Australia charges teen over online threat as Israeli president due to visit
      Sources: bbc.com, cnn.com, reuters.com
-   • Email appears to confirm Andrew and Virginia Giuffre photo is real
+   • Nike probed by Trump appointee over claims of bias against white workers
      Sources: bbc.com, cnn.com, reuters.com
-   • Gunmen kill more than 160 people in attacks on two west Nigeria villages
+   • Russia-Ukraine war: List of key events, day 1,442
      Sources: bbc.com, cnn.com, reuters.com
