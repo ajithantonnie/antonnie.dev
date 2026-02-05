@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Could this be the beginning of the end for Starmer?
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Nigeria sends troops to villages attacked by jihadist fighters
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 36 topics for 2026-02-05
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK ex-envoy’s ties to Epstein spark political storm
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Trump administration rule makes it easier to fire career civil servants
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chinese startup tests its flying car that can carry 10 people
+Added expanded search topic: UK ex-envoy’s ties to Epstein spark political storm
+Added expanded search topic: New Trump administration rule makes it easier to fire career civil servants
+Added expanded search topic: Chinese startup tests its flying car that can carry 10 people
+Saved 39 topics for 2026-02-05
 Returning 3 unique trending topics:
-  1. Could this be the beginning of the end for Starmer? (from BBC News)
-  2. Man guilty of murdering girl, 9, playing in street (from BBC News)
-  3. Nigeria sends troops to villages attacked by jihadist fighters (from The Guardian)
+  1. UK ex-envoy’s ties to Epstein spark political storm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. New Trump administration rule makes it easier to fire career civil servants (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Chinese startup tests its flying car that can carry 10 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Could this be the beginning of the end for Starmer?
-Searching Google for: Could this be the beginning of the end for Starmer?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252Bthis%252Bbe%252Bthe%252Bbeginning%252Bof%252Bthe%252Bend%252Bfor%252BStarmer%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUioGKH1kswGIjD67eSzG-5Ho2RJIikt0fhyDMWRIHEqeq5jvYmbZ_EMJ6aBufiWgV4DcySOMqivP_kyBmpjbmRyUloBQw
+Processing trending topic: UK ex-envoy’s ties to Epstein spark political storm
+Searching Google for: UK ex-envoy’s ties to Epstein spark political storm
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bex-envoy%25E2%2580%2599s%252Bties%252Bto%252BEpstein%252Bspark%252Bpolitical%252Bstorm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMkGIWUk8wGIjBlDIGDCTnB7UV4mLgPKAcmjJhp4Uxa2tGyXf-YFTyZYEE7qAEThmRInOilMHTEsgMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-this-be-the-beginning-of-the-end-for-starmer_20260205_1543.html
-✓ Created comprehensive article: could-this-be-the-beginning-of-the-end-for-starmer_20260205_1543.html
+Successfully created file: uk-ex-envoys-ties-to-epstein-spark-political-storm_20260205_1649.html
+✓ Created comprehensive article: uk-ex-envoys-ties-to-epstein-spark-political-storm_20260205_1649.html
 
-Processing trending topic: Man guilty of murdering girl, 9, playing in street
-Searching Google for: Man guilty of murdering girl, 9, playing in street
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bguilty%252Bof%252Bmurdering%252Bgirl%252C%252B9%252C%252Bplaying%252Bin%252Bstreet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUioGKj1kswGIjABg8kxqu8A792f80YF2FA2ZBijpNHc3Oe_UMo-6stTTev-iNDjqEnGNoDf97oULvcyBmpjbmRyUloBQw
+Processing trending topic: New Trump administration rule makes it easier to fire career civil servants
+Searching Google for: New Trump administration rule makes it easier to fire career civil servants
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BTrump%252Badministration%252Brule%252Bmakes%252Bit%252Beasier%252Bto%252Bfire%252Bcareer%252Bcivil%252Bservants%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMkGIyUk8wGIjBVYy0Z6lHQ8Kt4WNfsZiTjXkskj2dQ9yB6NcY1SkbH5kciJEZPj9O1RtqQpRTz87UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-guilty-of-murdering-girl-9-playing-in-street_20260205_1543.html
-✓ Created comprehensive article: man-guilty-of-murdering-girl-9-playing-in-street_20260205_1543.html
+Successfully created file: new-trump-administration-rule-makes-it-easier-to-f_20260205_1649.html
+✓ Created comprehensive article: new-trump-administration-rule-makes-it-easier-to-f_20260205_1649.html
 
-Processing trending topic: Nigeria sends troops to villages attacked by jihadist fighters
-Searching Google for: Nigeria sends troops to villages attacked by jihadist fighters
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Bsends%252Btroops%252Bto%252Bvillages%252Battacked%252Bby%252Bjihadist%252Bfighters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUioGK_1kswGIjBfBi2v2yqcoYF8CMIhAS5j40UVKkqJY9XS6bqVEQtKUdt4mHRO5_LWQYj64d3VO3UyBmpjbmRyUloBQw
+Processing trending topic: Chinese startup tests its flying car that can carry 10 people
+Searching Google for: Chinese startup tests its flying car that can carry 10 people
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChinese%252Bstartup%252Btests%252Bits%252Bflying%252Bcar%252Bthat%252Bcan%252Bcarry%252B10%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMkGJKUk8wGIjCm64Odw7IAnRuFuk4bGoGhlDvgLZVxNhkIKw-1i2TIJSbnVRXWJ6j5iAPw8jMiSgYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nigeria-sends-troops-to-villages-attacked-by-jihad_20260205_1543.html
-✓ Created comprehensive article: nigeria-sends-troops-to-villages-attacked-by-jihad_20260205_1543.html
+Successfully created file: chinese-startup-tests-its-flying-car-that-can-carr_20260205_1649.html
+✓ Created comprehensive article: chinese-startup-tests-its-flying-car-that-can-carr_20260205_1649.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Could this be the beginning of the end for Starmer?
+   • UK ex-envoy’s ties to Epstein spark political storm
      Sources: bbc.com, cnn.com, reuters.com
-   • Man guilty of murdering girl, 9, playing in street
+   • New Trump administration rule makes it easier to fire career civil servants
      Sources: bbc.com, cnn.com, reuters.com
-   • Nigeria sends troops to villages attacked by jihadist fighters
+   • Chinese startup tests its flying car that can carry 10 people
      Sources: bbc.com, cnn.com, reuters.com
