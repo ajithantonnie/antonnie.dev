@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russian general shot several times in Moscow
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh...
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Zealand deputy PM heckled day after saying colonisation good for Maori
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gold fluctuations baffle Lebanese jewellers, gold market
-Added expanded search topic: New Zealand deputy PM heckled day after saying colonisation good for Maori
-Added expanded search topic: Gold fluctuations baffle Lebanese jewellers, gold market
-Saved 18 topics for 2026-02-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NBA roundup: Lakers stop 76ers despite Luka Doncic’s injury exit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Senior Russian officer shot in Moscow in apparent assassination attempt
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Settler violence stokes peak West Bank displacement since October 2023: UN
+Added expanded search topic: NBA roundup: Lakers stop 76ers despite Luka Doncic’s injury exit
+Added expanded search topic: Senior Russian officer shot in Moscow in apparent assassination attempt
+Added expanded search topic: Settler violence stokes peak West Bank displacement since October 2023: UN
+Saved 21 topics for 2026-02-06
 Returning 3 unique trending topics:
-  1. Russian general shot several times in Moscow (from BBC News)
-  2. New Zealand deputy PM heckled day after saying colonisation good for Maori (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Gold fluctuations baffle Lebanese jewellers, gold market (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. NBA roundup: Lakers stop 76ers despite Luka Doncic’s injury exit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Senior Russian officer shot in Moscow in apparent assassination attempt (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Settler violence stokes peak West Bank displacement since October 2023: UN (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russian general shot several times in Moscow
-Searching Google for: Russian general shot several times in Moscow
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bgeneral%252Bshot%252Bseveral%252Btimes%252Bin%252BMoscow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuMxkGMPTlswGIjBofAYG-d8obxeMC4Igp8F9r7J_s5Gk-h1ci4r52voPffCbIGgbK4baUElrxxXt2NwyBmpjbmRyUloBQw
+Processing trending topic: NBA roundup: Lakers stop 76ers despite Luka Doncic’s injury exit
+Searching Google for: NBA roundup: Lakers stop 76ers despite Luka Doncic’s injury exit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNBA%252Broundup%253A%252BLakers%252Bstop%252B76ers%252Bdespite%252BLuka%252BDoncic%25E2%2580%2599s%252Binjury%252Bexit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fEGLfwlswGIjDRPOlgmu98_dGEKXN2ObZEfUJwISo-5HVkN9dB1BQ0VzLFHsBp6F06lt-P9Vo2PfIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russian-general-shot-several-times-in-moscow_20260206_0843.html
-✓ Created comprehensive article: russian-general-shot-several-times-in-moscow_20260206_0843.html
+Successfully created file: nba-roundup-lakers-stop-76ers-despite-luka-doncics_20260206_0945.html
+✓ Created comprehensive article: nba-roundup-lakers-stop-76ers-despite-luka-doncics_20260206_0945.html
 
-Processing trending topic: New Zealand deputy PM heckled day after saying colonisation good for Maori
-Searching Google for: New Zealand deputy PM heckled day after saying colonisation good for Maori
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BZealand%252Bdeputy%252BPM%252Bheckled%252Bday%252Bafter%252Bsaying%252Bcolonisation%252Bgood%252Bfor%252BMaori%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuMxkGMrTlswGIjC50c_yGDJxGdzhn5-6n7PkO7A1gEyvZknx-LsnTucJOuY6DTVHCpP_0ZcxUpxDyBMyBmpjbmRyUloBQw
+Processing trending topic: Senior Russian officer shot in Moscow in apparent assassination attempt
+Searching Google for: Senior Russian officer shot in Moscow in apparent assassination attempt
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSenior%252BRussian%252Bofficer%252Bshot%252Bin%252BMoscow%252Bin%252Bapparent%252Bassassination%252Battempt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fEGL7wlswGIjDTUcn4IjsQP1hzh9Lmajl8PGjr48GJISIyRplDC951MTokuM3q3OlWquqK9levfdcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-zealand-deputy-pm-heckled-day-after-saying-col_20260206_0843.html
-✓ Created comprehensive article: new-zealand-deputy-pm-heckled-day-after-saying-col_20260206_0843.html
+Successfully created file: senior-russian-officer-shot-in-moscow-in-apparent-_20260206_0945.html
+✓ Created comprehensive article: senior-russian-officer-shot-in-moscow-in-apparent-_20260206_0945.html
 
-Processing trending topic: Gold fluctuations baffle Lebanese jewellers, gold market
-Searching Google for: Gold fluctuations baffle Lebanese jewellers, gold market
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGold%252Bfluctuations%252Bbaffle%252BLebanese%252Bjewellers%252C%252Bgold%252Bmarket%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuMxkGNDTlswGIjC9BengePLSAcQsrjMy44TONlZTWb9fmucntoNTbo9Wv7Ib2kDdzFV5_bgkIiuYEgMyBmpjbmRyUloBQw
+Processing trending topic: Settler violence stokes peak West Bank displacement since October 2023: UN
+Searching Google for: Settler violence stokes peak West Bank displacement since October 2023: UN
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSettler%252Bviolence%252Bstokes%252Bpeak%252BWest%252BBank%252Bdisplacement%252Bsince%252BOctober%252B2023%253A%252BUN%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fEGMXwlswGIjAAhM7VyyZ5EgjDxCmq-AkK4eY_Y1iH_dIt4Oy4LOR5ICWiROSthu4mICaxO_Ur37QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gold-fluctuations-baffle-lebanese-jewellers-gold-m_20260206_0844.html
-✓ Created comprehensive article: gold-fluctuations-baffle-lebanese-jewellers-gold-m_20260206_0844.html
+Successfully created file: settler-violence-stokes-peak-west-bank-displacemen_20260206_0945.html
+✓ Created comprehensive article: settler-violence-stokes-peak-west-bank-displacemen_20260206_0945.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russian general shot several times in Moscow
+   • NBA roundup: Lakers stop 76ers despite Luka Doncic’s injury exit
      Sources: bbc.com, cnn.com, reuters.com
-   • New Zealand deputy PM heckled day after saying colonisation good for Maori
+   • Senior Russian officer shot in Moscow in apparent assassination attempt
      Sources: bbc.com, cnn.com, reuters.com
-   • Gold fluctuations baffle Lebanese jewellers, gold market
+   • Settler violence stokes peak West Bank displacement since October 2023: UN
      Sources: bbc.com, cnn.com, reuters.com
