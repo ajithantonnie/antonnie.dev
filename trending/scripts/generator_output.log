@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Russian general shot several times in Moscow
+  Added: BBC at scene where Russian general was shot in Moscow
   Added: Flood warnings in effect across UK as relentless rain continues
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India vs United States: T20 World Cup – teams, start time, lineups
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada, France to open consulates in Greenland amid ongoing US threats
-Added expanded search topic: India vs United States: T20 World Cup – teams, start time, lineups
-Added expanded search topic: Canada, France to open consulates in Greenland amid ongoing US threats
-Saved 33 topics for 2026-02-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine pulls plug on Russian Starlink, beefs up drone defence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iraq’s Shia bloc divided over tactics after US rejects al-Maliki for PM
+Added expanded search topic: Ukraine pulls plug on Russian Starlink, beefs up drone defence
+Added expanded search topic: Iraq’s Shia bloc divided over tactics after US rejects al-Maliki for PM
+Saved 36 topics for 2026-02-06
 Returning 3 unique trending topics:
-  1. Flood warnings in effect across UK as relentless rain continues (from BBC News)
-  2. India vs United States: T20 World Cup – teams, start time, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Canada, France to open consulates in Greenland amid ongoing US threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. BBC at scene where Russian general was shot in Moscow (from BBC News)
+  2. Ukraine pulls plug on Russian Starlink, beefs up drone defence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iraq’s Shia bloc divided over tactics after US rejects al-Maliki for PM (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Flood warnings in effect across UK as relentless rain continues
-Searching Google for: Flood warnings in effect across UK as relentless rain continues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlood%252Bwarnings%252Bin%252Beffect%252Bacross%252BUK%252Bas%252Brelentless%252Brain%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhpGMjql8wGIjAnNUuZf1yHM_jmM0XMTqphsCUdOyadvnxIggovhCVH0IrQ-NID5RKn_pzHBB3ACt4yBmpjbmRyUloBQw
+Processing trending topic: BBC at scene where Russian general was shot in Moscow
+Searching Google for: BBC at scene where Russian general was shot in Moscow
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBBC%252Bat%252Bscene%252Bwhere%252BRussian%252Bgeneral%252Bwas%252Bshot%252Bin%252BMoscow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7lGLyXmMwGIjDq6TXE2YB5EwVpuWdmevH3VHnsvB_qljizu7kSQ5gNbaPpvvkgcU1jtNcIySKRcksyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: flood-warnings-in-effect-across-uk-as-relentless-r_20260206_1406.html
-✓ Created comprehensive article: flood-warnings-in-effect-across-uk-as-relentless-r_20260206_1406.html
+Successfully created file: bbc-at-scene-where-russian-general-was-shot-in-mos_20260206_1541.html
+✓ Created comprehensive article: bbc-at-scene-where-russian-general-was-shot-in-mos_20260206_1541.html
 
-Processing trending topic: India vs United States: T20 World Cup – teams, start time, lineups
-Searching Google for: India vs United States: T20 World Cup – teams, start time, lineups
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bvs%252BUnited%252BStates%253A%252BT20%252BWorld%252BCup%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252Btime%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhpGM_ql8wGIjC0M2JEaVADBur8A3J52Dg42aHxCp9vdg9MJ5KOzduhivzLhphUid8UMswRakXAT2MyBmpjbmRyUloBQw
+Processing trending topic: Ukraine pulls plug on Russian Starlink, beefs up drone defence
+Searching Google for: Ukraine pulls plug on Russian Starlink, beefs up drone defence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bpulls%252Bplug%252Bon%252BRussian%252BStarlink%252C%252Bbeefs%252Bup%252Bdrone%252Bdefence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7lGMSXmMwGIjCNNgAuztvYTp7ySIz-W1Dlf7Cj0ysYlglRzfOfOzwmfK2t2sxeiO_8pgUa8RkKd50yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: india-vs-united-states-t20-world-cup-teams-start-t_20260206_1406.html
-✓ Created comprehensive article: india-vs-united-states-t20-world-cup-teams-start-t_20260206_1406.html
+Successfully created file: ukraine-pulls-plug-on-russian-starlink-beefs-up-dr_20260206_1542.html
+✓ Created comprehensive article: ukraine-pulls-plug-on-russian-starlink-beefs-up-dr_20260206_1542.html
 
-Processing trending topic: Canada, France to open consulates in Greenland amid ongoing US threats
-Searching Google for: Canada, France to open consulates in Greenland amid ongoing US threats
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%252C%252BFrance%252Bto%252Bopen%252Bconsulates%252Bin%252BGreenland%252Bamid%252Bongoing%252BUS%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhpGNXql8wGIjCVf1a8ZNb-_KX4KFqvH6A21yoYPIDaUVA_XIINDAcbftIgSUGvRwypfU34gtAt6_cyBmpjbmRyUloBQw
+Processing trending topic: Iraq’s Shia bloc divided over tactics after US rejects al-Maliki for PM
+Searching Google for: Iraq’s Shia bloc divided over tactics after US rejects al-Maliki for PM
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIraq%25E2%2580%2599s%252BShia%252Bbloc%252Bdivided%252Bover%252Btactics%252Bafter%252BUS%252Brejects%252Bal-Maliki%252Bfor%252BPM%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7lGMuXmMwGIjBpP2_iNfdzEydV0YRx_h_a03_JAbNx2iTS9AwLXmHFY164SUQgv68lw4VZNvWfDbYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: canada-france-to-open-consulates-in-greenland-amid_20260206_1406.html
-✓ Created comprehensive article: canada-france-to-open-consulates-in-greenland-amid_20260206_1406.html
+Successfully created file: iraqs-shia-bloc-divided-over-tactics-after-us-reje_20260206_1542.html
+✓ Created comprehensive article: iraqs-shia-bloc-divided-over-tactics-after-us-reje_20260206_1542.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Flood warnings in effect across UK as relentless rain continues
+   • BBC at scene where Russian general was shot in Moscow
      Sources: bbc.com, cnn.com, reuters.com
-   • India vs United States: T20 World Cup – teams, start time, lineups
+   • Ukraine pulls plug on Russian Starlink, beefs up drone defence
      Sources: bbc.com, cnn.com, reuters.com
-   • Canada, France to open consulates in Greenland amid ongoing US threats
+   • Iraq’s Shia bloc divided over tactics after US rejects al-Maliki for PM
      Sources: bbc.com, cnn.com, reuters.com
