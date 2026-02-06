@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US and Iran talks to begin as fears of direct conflict continue
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh...
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Election matters’: Bangladesh vote reaches Britain, but some feel excluded
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Norway police investigate former PM Jagland over Epstein ties
-Added expanded search topic: ‘Election matters’: Bangladesh vote reaches Britain, but some feel excluded
-Added expanded search topic: Norway police investigate former PM Jagland over Epstein ties
-Saved 12 topics for 2026-02-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Super Bowl 2026: Patriots vs Seahawks – Start time, halftime show, players
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hong Kong to sentence media mogul Jimmy Lai on national security conviction
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Demonstrators arrested over ICE protest at Columbia University
+Added expanded search topic: Super Bowl 2026: Patriots vs Seahawks – Start time, halftime show, players
+Added expanded search topic: Hong Kong to sentence media mogul Jimmy Lai on national security conviction
+Added expanded search topic: Demonstrators arrested over ICE protest at Columbia University
+Saved 15 topics for 2026-02-06
 Returning 3 unique trending topics:
-  1. We had sex in a Chinese hotel, then found we had been broadcast to thousands (from BBC News)
-  2. ‘Election matters’: Bangladesh vote reaches Britain, but some feel excluded (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Norway police investigate former PM Jagland over Epstein ties (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Super Bowl 2026: Patriots vs Seahawks – Start time, halftime show, players (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Hong Kong to sentence media mogul Jimmy Lai on national security conviction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Demonstrators arrested over ICE protest at Columbia University (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: We had sex in a Chinese hotel, then found we had been broadcast to thousands
-Searching Google for: We had sex in a Chinese hotel, then found we had been broadcast to thousands
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWe%252Bhad%252Bsex%252Bin%252Ba%252BChinese%252Bhotel%252C%252Bthen%252Bfound%252Bwe%252Bhad%252Bbeen%252Bbroadcast%252Bto%252Bthousands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CCGM2hlswGIjBCqowwT-riAMXeCpkOGkdKT8oIyC9FpuU6QHMXtkQgjpeTf1qUR_e8RQ7dqciTwrsyBmpjbmRyUloBQw
+Processing trending topic: Super Bowl 2026: Patriots vs Seahawks – Start time, halftime show, players
+Searching Google for: Super Bowl 2026: Patriots vs Seahawks – Start time, halftime show, players
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuper%252BBowl%252B2026%253A%252BPatriots%252Bvs%252BSeahawks%252B%25E2%2580%2593%252BStart%252Btime%252C%252Bhalftime%252Bshow%252C%252Bplayers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwWGP65lswGIjB77Fl7FeLF2i57p7OfRC8Q9dW9jQoXibhNakEMkCRsRDYMmHvhJF3YBj0Vj5DpmUoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-had-sex-in-a-chinese-hotel-then-found-we-had-be_20260206_0657.html
-✓ Created comprehensive article: we-had-sex-in-a-chinese-hotel-then-found-we-had-be_20260206_0657.html
+Successfully created file: super-bowl-2026-patriots-vs-seahawks-start-time-ha_20260206_0749.html
+✓ Created comprehensive article: super-bowl-2026-patriots-vs-seahawks-start-time-ha_20260206_0749.html
 
-Processing trending topic: ‘Election matters’: Bangladesh vote reaches Britain, but some feel excluded
-Searching Google for: ‘Election matters’: Bangladesh vote reaches Britain, but some feel excluded
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Election%252Bmatters%25E2%2580%2599%253A%252BBangladesh%252Bvote%252Breaches%252BBritain%252C%252Bbut%252Bsome%252Bfeel%252Bexcluded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CCGNShlswGIjBOG12TwjS1vpvYpA6ZAuisV8RkFSZKu8-u70wP74B3zMoxBYTz5VxHMV18aUKK-igyBmpjbmRyUloBQw
+Processing trending topic: Hong Kong to sentence media mogul Jimmy Lai on national security conviction
+Searching Google for: Hong Kong to sentence media mogul Jimmy Lai on national security conviction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHong%252BKong%252Bto%252Bsentence%252Bmedia%252Bmogul%252BJimmy%252BLai%252Bon%252Bnational%252Bsecurity%252Bconviction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwWGIW6lswGIjDloDtuxL9QqJHTE2iJf_MDzJ5-EAEzTGriQYU4g3eFOKTs0vcRrJdzGy4jedrOJVcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: election-matters-bangladesh-vote-reaches-britain-b_20260206_0657.html
-✓ Created comprehensive article: election-matters-bangladesh-vote-reaches-britain-b_20260206_0657.html
+Successfully created file: hong-kong-to-sentence-media-mogul-jimmy-lai-on-nat_20260206_0749.html
+✓ Created comprehensive article: hong-kong-to-sentence-media-mogul-jimmy-lai-on-nat_20260206_0749.html
 
-Processing trending topic: Norway police investigate former PM Jagland over Epstein ties
-Searching Google for: Norway police investigate former PM Jagland over Epstein ties
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorway%252Bpolice%252Binvestigate%252Bformer%252BPM%252BJagland%252Bover%252BEpstein%252Bties%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CCGNuhlswGIjCFVetzwGNtUXVh3BacRr1CaHV2T_Nxwswpo9T73Z08fxwr7Qs-7ASadryIQe_EL0kyBmpjbmRyUloBQw
+Processing trending topic: Demonstrators arrested over ICE protest at Columbia University
+Searching Google for: Demonstrators arrested over ICE protest at Columbia University
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDemonstrators%252Barrested%252Bover%252BICE%252Bprotest%252Bat%252BColumbia%252BUniversity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwWGIy6lswGIjBNTXLHYsaSm_wQR2jsSYnt4iQ0KLvGimXHlNMip_a2ziaoZst0z1kGQ5pvqRcUf4AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: norway-police-investigate-former-pm-jagland-over-e_20260206_0657.html
-✓ Created comprehensive article: norway-police-investigate-former-pm-jagland-over-e_20260206_0657.html
+Successfully created file: demonstrators-arrested-over-ice-protest-at-columbi_20260206_0749.html
+✓ Created comprehensive article: demonstrators-arrested-over-ice-protest-at-columbi_20260206_0749.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • We had sex in a Chinese hotel, then found we had been broadcast to thousands
+   • Super Bowl 2026: Patriots vs Seahawks – Start time, halftime show, players
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Election matters’: Bangladesh vote reaches Britain, but some feel excluded
+   • Hong Kong to sentence media mogul Jimmy Lai on national security conviction
      Sources: bbc.com, cnn.com, reuters.com
-   • Norway police investigate former PM Jagland over Epstein ties
+   • Demonstrators arrested over ICE protest at Columbia University
      Sources: bbc.com, cnn.com, reuters.com
