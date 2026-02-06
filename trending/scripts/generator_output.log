@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer apologises to Epstein victims for believing Mandelson's 'lies'
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh...
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-06
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran talks live: Critical negotiations set to begin in Oman
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,443
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US military kills two people in latest attack on vessel in the Pacific
+Added expanded search topic: US-Iran talks live: Critical negotiations set to begin in Oman
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,443
+Added expanded search topic: US military kills two people in latest attack on vessel in the Pacific
+Saved 6 topics for 2026-02-06
 Returning 3 unique trending topics:
-  1. Starmer apologises to Epstein victims for believing Mandelson's 'lies' (from BBC News)
-  2. Could this be the beginning of the end for Starmer? (from BBC News)
-  3. ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh... (from The Guardian)
+  1. US-Iran talks live: Critical negotiations set to begin in Oman (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia-Ukraine war: List of key events, day 1,443 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US military kills two people in latest attack on vessel in the Pacific (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer apologises to Epstein victims for believing Mandelson's 'lies'
-Searching Google for: Starmer apologises to Epstein victims for believing Mandelson's 'lies'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bapologises%252Bto%252BEpstein%252Bvictims%252Bfor%252Bbelieving%252BMandelson%2527s%252B%2527lies%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raOEGNuWlcwGIjDS03ANA6svkqxh4jb_l10OTVKb3N9hCo7OU5UhKFZ91cExT5dZhKbgsDzoHXBZHAEyBmpjbmRyUloBQw
+Processing trending topic: US-Iran talks live: Critical negotiations set to begin in Oman
+Searching Google for: US-Iran talks live: Critical negotiations set to begin in Oman
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Btalks%252Blive%253A%252BCritical%252Bnegotiations%252Bset%252Bto%252Bbegin%252Bin%252BOman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDFGLLXlcwGIjCmv0T_5r1eLMQvuqqVhEkDE-jTyBYZ80SoQNVAqDEeYhJYnJpYQyl2BYVzsCuDJRMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-apologises-to-epstein-victims-for-believin_20260206_0201.html
-✓ Created comprehensive article: starmer-apologises-to-epstein-victims-for-believin_20260206_0201.html
+Successfully created file: us-iran-talks-live-critical-negotiations-set-to-be_20260206_0419.html
+✓ Created comprehensive article: us-iran-talks-live-critical-negotiations-set-to-be_20260206_0419.html
 
-Processing trending topic: Could this be the beginning of the end for Starmer?
-Searching Google for: Could this be the beginning of the end for Starmer?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252Bthis%252Bbe%252Bthe%252Bbeginning%252Bof%252Bthe%252Bend%252Bfor%252BStarmer%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raOEGOKWlcwGIjA9WAQAFCy9c1AALAECeCnc2KtZ8zQ-SZM3oHPaZeDjMyr8caA6p4aJv-VNsMIy5HEyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,443
+Searching Google for: Russia-Ukraine war: List of key events, day 1,443
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C443%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDFGLnXlcwGIjDtCNVy-DStdHjLf9MQRbNMD2C2BtNlZH9m14ChX8Td1W5FRgLkY_y4rPntm_my43YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-this-be-the-beginning-of-the-end-for-starmer_20260206_0201.html
-✓ Created comprehensive article: could-this-be-the-beginning-of-the-end-for-starmer_20260206_0201.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1443_20260206_0419.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1443_20260206_0419.html
 
-Processing trending topic: ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh...
-Searching Google for: ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598They%252Bkilled%252Bmy%252Bsons%25E2%2580%2599%253A%252Bchief%252Bof%252BNigerian%252Bvillage%252Bwhere%252Bjihadists%252Bmassacred%252Bhundreds%252Brecounts%252Bnigh...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raOEGOmWlcwGIjB7JXezbTpuDb168wbqjA0G9j6E-TEwJW3rUeqSJGBNAphf258VjZFZsyxkzlV0blgyBmpjbmRyUloBQw
+Processing trending topic: US military kills two people in latest attack on vessel in the Pacific
+Searching Google for: US military kills two people in latest attack on vessel in the Pacific
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmilitary%252Bkills%252Btwo%252Bpeople%252Bin%252Blatest%252Battack%252Bon%252Bvessel%252Bin%252Bthe%252BPacific%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDFGL_XlcwGIjBnXA3kmZePaJDrAVnvS0-FyzzIpF-4wXR7faNBGzzCNFYdcVoeaQyKYzqUZVxnYHEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: they-killed-my-sons-chief-of-nigerian-village-wher_20260206_0201.html
-✓ Created comprehensive article: they-killed-my-sons-chief-of-nigerian-village-wher_20260206_0201.html
+Successfully created file: us-military-kills-two-people-in-latest-attack-on-v_20260206_0419.html
+✓ Created comprehensive article: us-military-kills-two-people-in-latest-attack-on-v_20260206_0419.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer apologises to Epstein victims for believing Mandelson's 'lies'
+   • US-Iran talks live: Critical negotiations set to begin in Oman
      Sources: bbc.com, cnn.com, reuters.com
-   • Could this be the beginning of the end for Starmer?
+   • Russia-Ukraine war: List of key events, day 1,443
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts nigh...
+   • US military kills two people in latest attack on vessel in the Pacific
      Sources: bbc.com, cnn.com, reuters.com
