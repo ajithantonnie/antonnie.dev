@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: The stage is set for the greatest show on Earth - your essential guide to the Winter Olympics
-  Added: Sir Elton calls press intrusion into his baby son 'truly sickening'
+  Added: Russian general shot several times in Moscow
+  Added: Flood warnings in effect across UK as relentless rain continues
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 30 topics for 2026-02-06
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India vs United States: T20 World Cup – teams, start time, lineups
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada, France to open consulates in Greenland amid ongoing US threats
+Added expanded search topic: India vs United States: T20 World Cup – teams, start time, lineups
+Added expanded search topic: Canada, France to open consulates in Greenland amid ongoing US threats
+Saved 33 topics for 2026-02-06
 Returning 3 unique trending topics:
-  1. The stage is set for the greatest show on Earth - your essential guide to the Winter Olympics (from BBC News)
-  2. Sir Elton calls press intrusion into his baby son 'truly sickening' (from BBC News)
-  3. Weather tracker: Storm Leonardo continues to batter Europe and northern Africa (from The Guardian)
+  1. Flood warnings in effect across UK as relentless rain continues (from BBC News)
+  2. India vs United States: T20 World Cup – teams, start time, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Canada, France to open consulates in Greenland amid ongoing US threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: The stage is set for the greatest show on Earth - your essential guide to the Winter Olympics
-Searching Google for: The stage is set for the greatest show on Earth - your essential guide to the Winter Olympics
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bstage%252Bis%252Bset%252Bfor%252Bthe%252Bgreatest%252Bshow%252Bon%252BEarth%252B-%252Byour%252Bessential%252Bguide%252Bto%252Bthe%252BWinter%252BOlympics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvbGOTLl8wGIjBHVSlb3ut36I6GTS9NXAQrECBAISmy9SYujFyqZFwX8dH5sNYNIltmibY2q5SAVcgyBmpjbmRyUloBQw
+Processing trending topic: Flood warnings in effect across UK as relentless rain continues
+Searching Google for: Flood warnings in effect across UK as relentless rain continues
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlood%252Bwarnings%252Bin%252Beffect%252Bacross%252BUK%252Bas%252Brelentless%252Brain%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhpGMjql8wGIjAnNUuZf1yHM_jmM0XMTqphsCUdOyadvnxIggovhCVH0IrQ-NID5RKn_pzHBB3ACt4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-stage-is-set-for-the-greatest-show-on-earth-yo_20260206_1300.html
-✓ Created comprehensive article: the-stage-is-set-for-the-greatest-show-on-earth-yo_20260206_1300.html
+Successfully created file: flood-warnings-in-effect-across-uk-as-relentless-r_20260206_1406.html
+✓ Created comprehensive article: flood-warnings-in-effect-across-uk-as-relentless-r_20260206_1406.html
 
-Processing trending topic: Sir Elton calls press intrusion into his baby son 'truly sickening'
-Searching Google for: Sir Elton calls press intrusion into his baby son 'truly sickening'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSir%252BElton%252Bcalls%252Bpress%252Bintrusion%252Binto%252Bhis%252Bbaby%252Bson%252B%2527truly%252Bsickening%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvbGOrLl8wGIjCpQFw_sy-cMaFcyitKb3Yhf34iQATZ5r68SqMnX-IyKyfhIdkKcHeqF8ToBF-FtgAyBmpjbmRyUloBQw
+Processing trending topic: India vs United States: T20 World Cup – teams, start time, lineups
+Searching Google for: India vs United States: T20 World Cup – teams, start time, lineups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bvs%252BUnited%252BStates%253A%252BT20%252BWorld%252BCup%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252Btime%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhpGM_ql8wGIjC0M2JEaVADBur8A3J52Dg42aHxCp9vdg9MJ5KOzduhivzLhphUid8UMswRakXAT2MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sir-elton-calls-press-intrusion-into-his-baby-son-_20260206_1300.html
-✓ Created comprehensive article: sir-elton-calls-press-intrusion-into-his-baby-son-_20260206_1300.html
+Successfully created file: india-vs-united-states-t20-world-cup-teams-start-t_20260206_1406.html
+✓ Created comprehensive article: india-vs-united-states-t20-world-cup-teams-start-t_20260206_1406.html
 
-Processing trending topic: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
-Searching Google for: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeather%252Btracker%253A%252BStorm%252BLeonardo%252Bcontinues%252Bto%252Bbatter%252BEurope%252Band%252Bnorthern%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvbGPDLl8wGIjDyapMadbplrpKwdSnFPR_iovs6C3I5rDh1VUj5CNCkWgjREMHvxe8msHvkDoPWv5kyBmpjbmRyUloBQw
+Processing trending topic: Canada, France to open consulates in Greenland amid ongoing US threats
+Searching Google for: Canada, France to open consulates in Greenland amid ongoing US threats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%252C%252BFrance%252Bto%252Bopen%252Bconsulates%252Bin%252BGreenland%252Bamid%252Bongoing%252BUS%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhpGNXql8wGIjCVf1a8ZNb-_KX4KFqvH6A21yoYPIDaUVA_XIINDAcbftIgSUGvRwypfU34gtAt6_cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weather-tracker-storm-leonardo-continues-to-batter_20260206_1300.html
-✓ Created comprehensive article: weather-tracker-storm-leonardo-continues-to-batter_20260206_1300.html
+Successfully created file: canada-france-to-open-consulates-in-greenland-amid_20260206_1406.html
+✓ Created comprehensive article: canada-france-to-open-consulates-in-greenland-amid_20260206_1406.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • The stage is set for the greatest show on Earth - your essential guide to the Winter Olympics
+   • Flood warnings in effect across UK as relentless rain continues
      Sources: bbc.com, cnn.com, reuters.com
-   • Sir Elton calls press intrusion into his baby son 'truly sickening'
+   • India vs United States: T20 World Cup – teams, start time, lineups
      Sources: bbc.com, cnn.com, reuters.com
-   • Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
+   • Canada, France to open consulates in Greenland amid ongoing US threats
      Sources: bbc.com, cnn.com, reuters.com
