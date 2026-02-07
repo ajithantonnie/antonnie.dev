@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police search properties linked to Mandelson over Epstein investigation
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-07
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: No evidence to support US claim China conducted nuclear blast test: Monitor
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: WHO says fatal case of Nipah virus confirmed in Bangladesh
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,444
+Added expanded search topic: No evidence to support US claim China conducted nuclear blast test: Monitor
+Added expanded search topic: WHO says fatal case of Nipah virus confirmed in Bangladesh
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,444
+Saved 6 topics for 2026-02-07
 Returning 3 unique trending topics:
-  1. Police search properties linked to Mandelson over Epstein investigation (from BBC News)
-  2. Their parents are in disgrace, what now for Beatrice and Eugenie? (from BBC News)
-  3. Weather tracker: Storm Leonardo continues to batter Europe and northern Africa (from The Guardian)
+  1. No evidence to support US claim China conducted nuclear blast test: Monitor (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. WHO says fatal case of Nipah virus confirmed in Bangladesh (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,444 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police search properties linked to Mandelson over Epstein investigation
-Searching Google for: Police search properties linked to Mandelson over Epstein investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bsearch%252Bproperties%252Blinked%252Bto%252BMandelson%252Bover%252BEpstein%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGPS3mswGIjCH8zrNvMcQC9Jd3tz8tdUUtu1AwjFxJsnAR2tiTa1F3HUAMmqiMD9F4oMPzFcGKYsyBmpjbmRyUloBQw
+Processing trending topic: No evidence to support US claim China conducted nuclear blast test: Monitor
+Searching Google for: No evidence to support US claim China conducted nuclear blast test: Monitor
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252Bevidence%252Bto%252Bsupport%252BUS%252Bclaim%252BChina%252Bconducted%252Bnuclear%252Bblast%252Btest%253A%252BMonitor%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9hjGNX3mswGIjDdZbqRxZ6Yf-xoBdzzuksFs4YXXDm8lWlRCsO3FdMpufFCsNzAgZJEEsWsCG7u1woyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-search-properties-linked-to-mandelson-over-_20260207_0157.html
-✓ Created comprehensive article: police-search-properties-linked-to-mandelson-over-_20260207_0157.html
+Successfully created file: no-evidence-to-support-us-claim-china-conducted-nu_20260207_0413.html
+✓ Created comprehensive article: no-evidence-to-support-us-claim-china-conducted-nu_20260207_0413.html
 
-Processing trending topic: Their parents are in disgrace, what now for Beatrice and Eugenie?
-Searching Google for: Their parents are in disgrace, what now for Beatrice and Eugenie?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTheir%252Bparents%252Bare%252Bin%252Bdisgrace%252C%252Bwhat%252Bnow%252Bfor%252BBeatrice%252Band%252BEugenie%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGPu3mswGIjBK8H11eKxpuZs6yYNSco-cGXFQeRjjbpV08imX5Dy1PYiL2YzAeZqWpWXM4DJtM6kyBmpjbmRyUloBQw
+Processing trending topic: WHO says fatal case of Nipah virus confirmed in Bangladesh
+Searching Google for: WHO says fatal case of Nipah virus confirmed in Bangladesh
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWHO%252Bsays%252Bfatal%252Bcase%252Bof%252BNipah%252Bvirus%252Bconfirmed%252Bin%252BBangladesh%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9hjGNv3mswGIjCbIPZarqnBOLRAsoN1vW3G1aAPcSqarcyzfOP5wPoLiUFj0YIoTMUQ7nzu6StENe8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: their-parents-are-in-disgrace-what-now-for-beatric_20260207_0157.html
-✓ Created comprehensive article: their-parents-are-in-disgrace-what-now-for-beatric_20260207_0157.html
+Successfully created file: who-says-fatal-case-of-nipah-virus-confirmed-in-ba_20260207_0413.html
+✓ Created comprehensive article: who-says-fatal-case-of-nipah-virus-confirmed-in-ba_20260207_0413.html
 
-Processing trending topic: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
-Searching Google for: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeather%252Btracker%253A%252BStorm%252BLeonardo%252Bcontinues%252Bto%252Bbatter%252BEurope%252Band%252Bnorthern%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGIK4mswGIjDRjQ2dPK3R09S5WbY0wNLwU9on8ALaANfvqfDN-sDPQlr6YfxhUO73PMeK-WtTpXgyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,444
+Searching Google for: Russia-Ukraine war: List of key events, day 1,444
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C444%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9hjGOH3mswGIjBDJ15Avt9tCEddkIsR1no48mNe8fX0FVg2HEaFfaeUemUtuC4ZNMIM8mrT4BC54IsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weather-tracker-storm-leonardo-continues-to-batter_20260207_0157.html
-✓ Created comprehensive article: weather-tracker-storm-leonardo-continues-to-batter_20260207_0157.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1444_20260207_0413.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1444_20260207_0413.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police search properties linked to Mandelson over Epstein investigation
+   • No evidence to support US claim China conducted nuclear blast test: Monitor
      Sources: bbc.com, cnn.com, reuters.com
-   • Their parents are in disgrace, what now for Beatrice and Eugenie?
+   • WHO says fatal case of Nipah virus confirmed in Bangladesh
      Sources: bbc.com, cnn.com, reuters.com
-   • Weather tracker: Storm Leonardo continues to batter Europe and northern Africa
+   • Russia-Ukraine war: List of key events, day 1,444
      Sources: bbc.com, cnn.com, reuters.com
