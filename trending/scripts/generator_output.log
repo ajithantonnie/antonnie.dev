@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The political strategist who became Starmer's right-hand man
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Italy’s Meloni condemns anti-Olympics protesters in Milan
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thai PM Anutin’s party takes early lead in general election race
-Added expanded search topic: Italy’s Meloni condemns anti-Olympics protesters in Milan
-Added expanded search topic: Thai PM Anutin’s party takes early lead in general election race
-Saved 45 topics for 2026-02-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thai PM Anutin’s party on course for victory in general election
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran ready for nuclear-focused talks, rejects US military build-up
+Added expanded search topic: Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory
+Added expanded search topic: Thai PM Anutin’s party on course for victory in general election
+Added expanded search topic: Iran ready for nuclear-focused talks, rejects US military build-up
+Saved 48 topics for 2026-02-08
 Returning 3 unique trending topics:
-  1. Andrew shared confidential information with Epstein as trade envoy, files suggest (from BBC News)
-  2. Italy’s Meloni condemns anti-Olympics protesters in Milan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Thai PM Anutin’s party takes early lead in general election race (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Thai PM Anutin’s party on course for victory in general election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran ready for nuclear-focused talks, rejects US military build-up (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Andrew shared confidential information with Epstein as trade envoy, files suggest
-Searching Google for: Andrew shared confidential information with Epstein as trade envoy, files suggest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Bshared%252Bconfidential%252Binformation%252Bwith%252BEpstein%252Bas%252Btrade%252Benvoy%252C%252Bfiles%252Bsuggest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4IAGPyvo8wGIjDI_Bx3SiNL3HQ__6iOf0KRiZWMlEhIYFoWHkvFovO3WIMiDJ4TZWFR84hBd7rtI44yAnJSWgFD
+Processing trending topic: Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory
+Searching Google for: Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEthiopia%252Bdemands%252BEritrea%252B%25E2%2580%2598immediately%252Bwithdraw%25E2%2580%2599%252Btroops%252Bfrom%252Bits%252Bterritory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMRGI3Io8wGIjDdxqIn9U9v1662snmYarLB2h8lp88I-OShCieHOdvhOVmA08iDYFIGKp7EgYPVj6kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-shared-confidential-information-with-epstei_20260208_1837.html
-✓ Created comprehensive article: andrew-shared-confidential-information-with-epstei_20260208_1837.html
+Successfully created file: ethiopia-demands-eritrea-immediately-withdraw-troo_20260208_1929.html
+✓ Created comprehensive article: ethiopia-demands-eritrea-immediately-withdraw-troo_20260208_1929.html
 
-Processing trending topic: Italy’s Meloni condemns anti-Olympics protesters in Milan
-Searching Google for: Italy’s Meloni condemns anti-Olympics protesters in Milan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DItaly%25E2%2580%2599s%252BMeloni%252Bcondemns%252Banti-Olympics%252Bprotesters%252Bin%252BMilan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4IAGIOwo8wGIjBB3ODmB7tDtw2kt44Gl5QijiJsdHeuXVuJBOm5uHdQT6lovVwEIAMQamh2s-kvu-0yAnJSWgFD
+Processing trending topic: Thai PM Anutin’s party on course for victory in general election
+Searching Google for: Thai PM Anutin’s party on course for victory in general election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThai%252BPM%252BAnutin%25E2%2580%2599s%252Bparty%252Bon%252Bcourse%252Bfor%252Bvictory%252Bin%252Bgeneral%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMRGJTIo8wGIjBkHvNl_RPA7depQ_Yylh40rwCTunYkiWbamj_6tTfnr7UhZyUj2dp-p_Ja_NHL6WEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: italys-meloni-condemns-anti-olympics-protesters-in_20260208_1838.html
-✓ Created comprehensive article: italys-meloni-condemns-anti-olympics-protesters-in_20260208_1838.html
+Successfully created file: thai-pm-anutins-party-on-course-for-victory-in-gen_20260208_1929.html
+✓ Created comprehensive article: thai-pm-anutins-party-on-course-for-victory-in-gen_20260208_1929.html
 
-Processing trending topic: Thai PM Anutin’s party takes early lead in general election race
-Searching Google for: Thai PM Anutin’s party takes early lead in general election race
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThai%252BPM%252BAnutin%25E2%2580%2599s%252Bparty%252Btakes%252Bearly%252Blead%252Bin%252Bgeneral%252Belection%252Brace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4IAGIqwo8wGIjBpHHnBBB1HS9Z7e3IQJp4q-Ud8oidpRok4aRwTkwoHfFDG4t2XhxX5Vjqdm_KUsRoyAnJSWgFD
+Processing trending topic: Iran ready for nuclear-focused talks, rejects US military build-up
+Searching Google for: Iran ready for nuclear-focused talks, rejects US military build-up
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bready%252Bfor%252Bnuclear-focused%252Btalks%252C%252Brejects%252BUS%252Bmilitary%252Bbuild-up%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMRGJvIo8wGIjBte61SYfv8FFAg2NSeD5KUAZJ-FDTznJ_w8p3hegQLyOheL4iJqS2N-BjGBsEVnxwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thai-pm-anutins-party-takes-early-lead-in-general-_20260208_1838.html
-✓ Created comprehensive article: thai-pm-anutins-party-takes-early-lead-in-general-_20260208_1838.html
+Successfully created file: iran-ready-for-nuclear-focused-talks-rejects-us-mi_20260208_1929.html
+✓ Created comprehensive article: iran-ready-for-nuclear-focused-talks-rejects-us-mi_20260208_1929.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Andrew shared confidential information with Epstein as trade envoy, files suggest
+   • Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory
      Sources: bbc.com, cnn.com, reuters.com
-   • Italy’s Meloni condemns anti-Olympics protesters in Milan
+   • Thai PM Anutin’s party on course for victory in general election
      Sources: bbc.com, cnn.com, reuters.com
-   • Thai PM Anutin’s party takes early lead in general election race
+   • Iran ready for nuclear-focused talks, rejects US military build-up
      Sources: bbc.com, cnn.com, reuters.com
