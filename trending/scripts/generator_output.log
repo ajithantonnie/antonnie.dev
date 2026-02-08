@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Foreign Office to review Mandelson's US ambassador pay-off
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-08
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,445
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Polls open in Thailand with three main parties vying for power
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Japan heads to polls as Takaichi seeks mandate for conservative agenda
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,445
+Added expanded search topic: Polls open in Thailand with three main parties vying for power
+Added expanded search topic: Japan heads to polls as Takaichi seeks mandate for conservative agenda
+Saved 6 topics for 2026-02-08
 Returning 3 unique trending topics:
-  1. Foreign Office to review Mandelson's US ambassador pay-off (from BBC News)
-  2. MPs are shocked and angry at Mandelson - but they're furious with Starmer (from BBC News)
-  3. RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group (from The Guardian)
+  1. Russia-Ukraine war: List of key events, day 1,445 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Polls open in Thailand with three main parties vying for power (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Japan heads to polls as Takaichi seeks mandate for conservative agenda (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Foreign Office to review Mandelson's US ambassador pay-off
-Searching Google for: Foreign Office to review Mandelson's US ambassador pay-off
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DForeign%252BOffice%252Bto%252Breview%252BMandelson%2527s%252BUS%252Bambassador%252Bpay-off%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1izTGInqn8wGIjApoNwv4HPtcViWH84NjTBAqnOFuQ6Cjgu9XDyJV0nJlJ8wksO2iwuMXDlw319djbAyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,445
+Searching Google for: Russia-Ukraine war: List of key events, day 1,445
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C445%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JBhGKKzoMwGIjB1gEzuhZyJ3sKalm2TWqzWo50N2bh7fNHOQweDEqYsfWnwlEVBPst9cy_nWilV8fUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: foreign-office-to-review-mandelsons-us-ambassador-_20260208_0229.html
-✓ Created comprehensive article: foreign-office-to-review-mandelsons-us-ambassador-_20260208_0229.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1445_20260208_0505.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1445_20260208_0505.html
 
-Processing trending topic: MPs are shocked and angry at Mandelson - but they're furious with Starmer
-Searching Google for: MPs are shocked and angry at Mandelson - but they're furious with Starmer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMPs%252Bare%252Bshocked%252Band%252Bangry%252Bat%252BMandelson%252B-%252Bbut%252Bthey%2527re%252Bfurious%252Bwith%252BStarmer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1izTGJHqn8wGIjAuMvbLvbTuYogN73SXrfryROb-USuFdYGkj4dUul0bBy24dIfrBPwhnW6hf5CkGwkyBmpjbmRyUloBQw
+Processing trending topic: Polls open in Thailand with three main parties vying for power
+Searching Google for: Polls open in Thailand with three main parties vying for power
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolls%252Bopen%252Bin%252BThailand%252Bwith%252Bthree%252Bmain%252Bparties%252Bvying%252Bfor%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JBhGKmzoMwGIjCvNFFBe9rj0FqftmFnsp1GboKBWpToqx2HaSa6igRD0AAUQPXGEmOTVDQ9xkGdCrcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mps-are-shocked-and-angry-at-mandelson-but-theyre-_20260208_0229.html
-✓ Created comprehensive article: mps-are-shocked-and-angry-at-mandelson-but-theyre-_20260208_0229.html
+Successfully created file: polls-open-in-thailand-with-three-main-parties-vyi_20260208_0505.html
+✓ Created comprehensive article: polls-open-in-thailand-with-three-main-parties-vyi_20260208_0505.html
 
-Processing trending topic: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Searching Google for: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bdrone%252Battack%252Bkills%252B24%252Bpeople%252Bfleeing%252Bfighting%252Bin%252Bcentral%252BSudan%252C%252Bsays%252Bdoctors%252Bgroup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1izTGJfqn8wGIjBaB5ailj8DkwEfAW6Zv7mRnB0ntse0O7B6wxhN5AsEFlMUU1XaRU63DflTt_thyPQyBmpjbmRyUloBQw
+Processing trending topic: Japan heads to polls as Takaichi seeks mandate for conservative agenda
+Searching Google for: Japan heads to polls as Takaichi seeks mandate for conservative agenda
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJapan%252Bheads%252Bto%252Bpolls%252Bas%252BTakaichi%252Bseeks%252Bmandate%252Bfor%252Bconservative%252Bagenda%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JBhGK-zoMwGIjCW-5TmOXCiEzpUYXxJNUsJeu7lsZTYYYVeacXjsRay267PFd6X777KZl2pf0u10CQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rsf-drone-attack-kills-24-people-fleeing-fighting-_20260208_0229.html
-✓ Created comprehensive article: rsf-drone-attack-kills-24-people-fleeing-fighting-_20260208_0229.html
+Successfully created file: japan-heads-to-polls-as-takaichi-seeks-mandate-for_20260208_0505.html
+✓ Created comprehensive article: japan-heads-to-polls-as-takaichi-seeks-mandate-for_20260208_0505.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Foreign Office to review Mandelson's US ambassador pay-off
+   • Russia-Ukraine war: List of key events, day 1,445
      Sources: bbc.com, cnn.com, reuters.com
-   • MPs are shocked and angry at Mandelson - but they're furious with Starmer
+   • Polls open in Thailand with three main parties vying for power
      Sources: bbc.com, cnn.com, reuters.com
-   • RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
+   • Japan heads to polls as Takaichi seeks mandate for conservative agenda
      Sources: bbc.com, cnn.com, reuters.com
