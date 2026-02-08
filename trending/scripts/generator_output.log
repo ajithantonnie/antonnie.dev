@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Foreign Office to review Mandelson's US ambassador pay-off
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: England beat Nepal by 4 runs; avoid shock at T20 World Cup
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US federal agent breaks pet dog’s rib in Tennessee
-Added expanded search topic: England beat Nepal by 4 runs; avoid shock at T20 World Cup
-Added expanded search topic: US federal agent breaks pet dog’s rib in Tennessee
-Saved 33 topics for 2026-02-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: PM Sanae Takaichi’s party set for majority in Japan parliamentary elections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump hosts Honduras’s new president Asfura at Mar-a-Lago in US
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Somalia’s president on Israel, Somaliland and rising regional tension
+Added expanded search topic: PM Sanae Takaichi’s party set for majority in Japan parliamentary elections
+Added expanded search topic: Trump hosts Honduras’s new president Asfura at Mar-a-Lago in US
+Added expanded search topic: Somalia’s president on Israel, Somaliland and rising regional tension
+Saved 36 topics for 2026-02-08
 Returning 3 unique trending topics:
-  1. My car was stolen. Here are six important things I learned (from BBC News)
-  2. England beat Nepal by 4 runs; avoid shock at T20 World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US federal agent breaks pet dog’s rib in Tennessee (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. PM Sanae Takaichi’s party set for majority in Japan parliamentary elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump hosts Honduras’s new president Asfura at Mar-a-Lago in US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Somalia’s president on Israel, Somaliland and rising regional tension (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: My car was stolen. Here are six important things I learned
-Searching Google for: My car was stolen. Here are six important things I learned
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMy%252Bcar%252Bwas%252Bstolen.%252BHere%252Bare%252Bsix%252Bimportant%252Bthings%252BI%252Blearned%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhTGJe7oswGIjBUaHT62a9M527xQx-IPoSav5UPW_l22V4f_Fq0sATIcZHN5JGJwqEHOxE7_Z3OlHcyAnJSWgFD
+Processing trending topic: PM Sanae Takaichi’s party set for majority in Japan parliamentary elections
+Searching Google for: PM Sanae Takaichi’s party set for majority in Japan parliamentary elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252BSanae%252BTakaichi%25E2%2580%2599s%252Bparty%252Bset%252Bfor%252Bmajority%252Bin%252BJapan%252Bparliamentary%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG6xGMfXoswGIjCuRVwVaNAJnMtKjvtQwjwSqFnJzYfFSrBLwhsieHF6uHTpugK79ojkm0N2byl_VPYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: my-car-was-stolen-here-are-six-important-things-i-_20260208_1428.html
-✓ Created comprehensive article: my-car-was-stolen-here-are-six-important-things-i-_20260208_1428.html
+Successfully created file: pm-sanae-takaichis-party-set-for-majority-in-japan_20260208_1529.html
+✓ Created comprehensive article: pm-sanae-takaichis-party-set-for-majority-in-japan_20260208_1529.html
 
-Processing trending topic: England beat Nepal by 4 runs; avoid shock at T20 World Cup
-Searching Google for: England beat Nepal by 4 runs; avoid shock at T20 World Cup
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bbeat%252BNepal%252Bby%252B4%252Bruns%253B%252Bavoid%252Bshock%252Bat%252BT20%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhTGJ67oswGIjDj-3RGM8dmL_GaGAvMtMTXNP8xTTI10Ecs91Nyepjli5A3CvCEe4Lrbqc7U_BOzwwyAnJSWgFD
+Processing trending topic: Trump hosts Honduras’s new president Asfura at Mar-a-Lago in US
+Searching Google for: Trump hosts Honduras’s new president Asfura at Mar-a-Lago in US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bhosts%252BHonduras%25E2%2580%2599s%252Bnew%252Bpresident%252BAsfura%252Bat%252BMar-a-Lago%252Bin%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG6xGM7XoswGIjDCTVosxML89_SXQKunkTPA9r1u1dAVGdBOShn3TZcNHZU3iuvH1bWPo1vrE9_QCsEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-beat-nepal-by-4-runs-avoid-shock-at-t20-wo_20260208_1428.html
-✓ Created comprehensive article: england-beat-nepal-by-4-runs-avoid-shock-at-t20-wo_20260208_1428.html
+Successfully created file: trump-hosts-hondurass-new-president-asfura-at-mar-_20260208_1529.html
+✓ Created comprehensive article: trump-hosts-hondurass-new-president-asfura-at-mar-_20260208_1529.html
 
-Processing trending topic: US federal agent breaks pet dog’s rib in Tennessee
-Searching Google for: US federal agent breaks pet dog’s rib in Tennessee
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bfederal%252Bagent%252Bbreaks%252Bpet%252Bdog%25E2%2580%2599s%252Brib%252Bin%252BTennessee%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhTGKS7oswGIjBXBBPhbpebO9g9cSVn9xuPapy6-s2hazLg3EEgllpU7wlcjnfUUvodLgUoJWjMJB0yAnJSWgFD
+Processing trending topic: Somalia’s president on Israel, Somaliland and rising regional tension
+Searching Google for: Somalia’s president on Israel, Somaliland and rising regional tension
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSomalia%25E2%2580%2599s%252Bpresident%252Bon%252BIsrael%252C%252BSomaliland%252Band%252Brising%252Bregional%252Btension%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG6xGNXXoswGIjBkl51yPzqAWgFYrIUoSBDMtBDo7KOj1MFqBeQf6852ihuVXEd6h4nCycBhNokTQeoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-federal-agent-breaks-pet-dogs-rib-in-tennessee_20260208_1428.html
-✓ Created comprehensive article: us-federal-agent-breaks-pet-dogs-rib-in-tennessee_20260208_1428.html
+Successfully created file: somalias-president-on-israel-somaliland-and-rising_20260208_1529.html
+✓ Created comprehensive article: somalias-president-on-israel-somaliland-and-rising_20260208_1529.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • My car was stolen. Here are six important things I learned
+   • PM Sanae Takaichi’s party set for majority in Japan parliamentary elections
      Sources: bbc.com, cnn.com, reuters.com
-   • England beat Nepal by 4 runs; avoid shock at T20 World Cup
+   • Trump hosts Honduras’s new president Asfura at Mar-a-Lago in US
      Sources: bbc.com, cnn.com, reuters.com
-   • US federal agent breaks pet dog’s rib in Tennessee
+   • Somalia’s president on Israel, Somaliland and rising regional tension
      Sources: bbc.com, cnn.com, reuters.com
