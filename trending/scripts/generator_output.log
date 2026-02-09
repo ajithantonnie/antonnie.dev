@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PM's chief aide McSweeney quits over Mandelson row
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-09
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Super Bowl 2026: Seahawks ride defence, Walker to Super Bowl LX win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thailand’s Bhumjaithai set for coalition talks after surprise election win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,446
+Added expanded search topic: Super Bowl 2026: Seahawks ride defence, Walker to Super Bowl LX win
+Added expanded search topic: Thailand’s Bhumjaithai set for coalition talks after surprise election win
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,446
+Saved 6 topics for 2026-02-09
 Returning 3 unique trending topics:
-  1. PM's chief aide McSweeney quits over Mandelson row (from BBC News)
-  2. Why McSweeney's departure could prove perilous for the PM (from BBC News)
-  3. RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group (from The Guardian)
+  1. Super Bowl 2026: Seahawks ride defence, Walker to Super Bowl LX win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Thailand’s Bhumjaithai set for coalition talks after surprise election win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,446 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: PM's chief aide McSweeney quits over Mandelson row
-Searching Google for: PM's chief aide McSweeney quits over Mandelson row
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%2527s%252Bchief%252Baide%252BMcSweeney%252Bquits%252Bover%252BMandelson%252Brow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IeFGKSDpcwGIjCM-b1qPh_uiG4512oEI2j-zPycqmBJDprcfi5-3KtWlA7qdPhCrzX_vlM4IY_Ym1gyBmpjbmRyUloBQw
+Processing trending topic: Super Bowl 2026: Seahawks ride defence, Walker to Super Bowl LX win
+Searching Google for: Super Bowl 2026: Seahawks ride defence, Walker to Super Bowl LX win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuper%252BBowl%252B2026%253A%252BSeahawks%252Bride%252Bdefence%252C%252BWalker%252Bto%252BSuper%252BBowl%252BLX%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgTGJLVpcwGIjAXYrPXgIbyB5yNiZ0N48SoJ1gPBSMXuiEYntZfb6JO6065cdtryH0K-VSkPlSW99syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pms-chief-aide-mcsweeney-quits-over-mandelson-row_20260209_0208.html
-✓ Created comprehensive article: pms-chief-aide-mcsweeney-quits-over-mandelson-row_20260209_0208.html
+Successfully created file: super-bowl-2026-seahawks-ride-defence-walker-to-su_20260209_0503.html
+✓ Created comprehensive article: super-bowl-2026-seahawks-ride-defence-walker-to-su_20260209_0503.html
 
-Processing trending topic: Why McSweeney's departure could prove perilous for the PM
-Searching Google for: Why McSweeney's departure could prove perilous for the PM
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BMcSweeney%2527s%252Bdeparture%252Bcould%252Bprove%252Bperilous%252Bfor%252Bthe%252BPM%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IeFGKyDpcwGIjB0sbigJxY1JSGrL6rJkjScDkiqQzu4y0HFs2pNdpEI-kYWZBkJ6XCLbWcM-GyBrz4yBmpjbmRyUloBQw
+Processing trending topic: Thailand’s Bhumjaithai set for coalition talks after surprise election win
+Searching Google for: Thailand’s Bhumjaithai set for coalition talks after surprise election win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThailand%25E2%2580%2599s%252BBhumjaithai%252Bset%252Bfor%252Bcoalition%252Btalks%252Bafter%252Bsurprise%252Belection%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgTGJnVpcwGIjAI5T0b_wz_CxSM4TF9Q0MadzvjO17zqLLtWuvTgN2WroQMIBxB7zxfnilApfHg0zEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-mcsweeneys-departure-could-prove-perilous-for-_20260209_0208.html
-✓ Created comprehensive article: why-mcsweeneys-departure-could-prove-perilous-for-_20260209_0208.html
+Successfully created file: thailands-bhumjaithai-set-for-coalition-talks-afte_20260209_0503.html
+✓ Created comprehensive article: thailands-bhumjaithai-set-for-coalition-talks-afte_20260209_0503.html
 
-Processing trending topic: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Searching Google for: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bdrone%252Battack%252Bkills%252B24%252Bpeople%252Bfleeing%252Bfighting%252Bin%252Bcentral%252BSudan%252C%252Bsays%252Bdoctors%252Bgroup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IeFGLKDpcwGIjDWuRbSmH220Ggkku2uPpfg93umEJ7XEb3oPgXeisWMHLbnOABnU52Gp4LTT8emi84yBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,446
+Searching Google for: Russia-Ukraine war: List of key events, day 1,446
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C446%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgTGKDVpcwGIjCyJMt5FKmD40J7jM8b7hzoy7IAEYRw-MuGnEHkImSs2BrSxu5k7Wnz60sFidiPbj4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rsf-drone-attack-kills-24-people-fleeing-fighting-_20260209_0208.html
-✓ Created comprehensive article: rsf-drone-attack-kills-24-people-fleeing-fighting-_20260209_0208.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1446_20260209_0503.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1446_20260209_0503.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • PM's chief aide McSweeney quits over Mandelson row
+   • Super Bowl 2026: Seahawks ride defence, Walker to Super Bowl LX win
      Sources: bbc.com, cnn.com, reuters.com
-   • Why McSweeney's departure could prove perilous for the PM
+   • Thailand’s Bhumjaithai set for coalition talks after surprise election win
      Sources: bbc.com, cnn.com, reuters.com
-   • RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group
+   • Russia-Ukraine war: List of key events, day 1,446
      Sources: bbc.com, cnn.com, reuters.com
