@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: Labour sticks with Starmer for now but this is not over
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Vonn reflects on Winter Olympics downhill crash and tibia injury
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ghislaine Maxwell refuses to answer questions from US Congress
-Added expanded search topic: Vonn reflects on Winter Olympics downhill crash and tibia injury
-Added expanded search topic: Ghislaine Maxwell refuses to answer questions from US Congress
-Saved 12 topics for 2026-02-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than two million people face hunger as drought grips Kenya
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How does the cutoff of Starlink terminals affect Russia’s moves in Ukraine?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: In Ukraine, deaths from hypothermia rise as Russia attacks energy system
+Added expanded search topic: More than two million people face hunger as drought grips Kenya
+Added expanded search topic: How does the cutoff of Starlink terminals affect Russia’s moves in Ukraine?
+Added expanded search topic: In Ukraine, deaths from hypothermia rise as Russia attacks energy system
+Saved 15 topics for 2026-02-10
 Returning 3 unique trending topics:
-  1. Trump's world order hangs over Europe on eve of key defence conference (from BBC News)
-  2. Vonn reflects on Winter Olympics downhill crash and tibia injury (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Ghislaine Maxwell refuses to answer questions from US Congress (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. More than two million people face hunger as drought grips Kenya (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. How does the cutoff of Starlink terminals affect Russia’s moves in Ukraine? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. In Ukraine, deaths from hypothermia rise as Russia attacks energy system (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump's world order hangs over Europe on eve of key defence conference
-Searching Google for: Trump's world order hangs over Europe on eve of key defence conference
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%2527s%252Bworld%252Border%252Bhangs%252Bover%252BEurope%252Bon%252Beve%252Bof%252Bkey%252Bdefence%252Bconference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YEGJXmq8wGIjCEcVY4mzCCmkID2rD5o4-iS1cm2xNuxAjgFf5V4-fJDPQ0vajy5Gz_YT7fkXqXlhYyBmpjbmRyUloBQw
+Processing trending topic: More than two million people face hunger as drought grips Kenya
+Searching Google for: More than two million people face hunger as drought grips Kenya
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252Btwo%252Bmillion%252Bpeople%252Bface%252Bhunger%252Bas%252Bdrought%252Bgrips%252BKenya%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IPaGNyErMwGIjBZtYHyiqLrV9j61H2pLYHTyPenrDV89wQ3s3kI5PlmkrCGs_qjR6VfzPd2esCkSBYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-world-order-hangs-over-europe-on-eve-of-key_20260210_0858.html
-✓ Created comprehensive article: trumps-world-order-hangs-over-europe-on-eve-of-key_20260210_0858.html
+Successfully created file: more-than-two-million-people-face-hunger-as-drough_20260210_1003.html
+✓ Created comprehensive article: more-than-two-million-people-face-hunger-as-drough_20260210_1003.html
 
-Processing trending topic: Vonn reflects on Winter Olympics downhill crash and tibia injury
-Searching Google for: Vonn reflects on Winter Olympics downhill crash and tibia injury
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVonn%252Breflects%252Bon%252BWinter%252BOlympics%252Bdownhill%252Bcrash%252Band%252Btibia%252Binjury%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YEGJzmq8wGIjABR4CZNJo9GITkmQs--UZKZq9mGS-iyJpEEHd5wAIDt44SMQDbMdexfU9BVNDkNc8yBmpjbmRyUloBQw
+Processing trending topic: How does the cutoff of Starlink terminals affect Russia’s moves in Ukraine?
+Searching Google for: How does the cutoff of Starlink terminals affect Russia’s moves in Ukraine?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bdoes%252Bthe%252Bcutoff%252Bof%252BStarlink%252Bterminals%252Baffect%252BRussia%25E2%2580%2599s%252Bmoves%252Bin%252BUkraine%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IPaGOOErMwGIjBeTwoVqpy4v7W3s26NVrK5bzjIhDbdhOjqudPgJLn9BRuB69sx-mXJCQs3x5slXAQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: vonn-reflects-on-winter-olympics-downhill-crash-an_20260210_0858.html
-✓ Created comprehensive article: vonn-reflects-on-winter-olympics-downhill-crash-an_20260210_0858.html
+Successfully created file: how-does-the-cutoff-of-starlink-terminals-affect-r_20260210_1003.html
+✓ Created comprehensive article: how-does-the-cutoff-of-starlink-terminals-affect-r_20260210_1003.html
 
-Processing trending topic: Ghislaine Maxwell refuses to answer questions from US Congress
-Searching Google for: Ghislaine Maxwell refuses to answer questions from US Congress
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGhislaine%252BMaxwell%252Brefuses%252Bto%252Banswer%252Bquestions%252Bfrom%252BUS%252BCongress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YEGKLmq8wGIjB_50cvRLjAyoTzsCcTW3ADSXCUYDZePy74GSHtx1-Z6U2LVEgZA7aNjNtco34-tIEyBmpjbmRyUloBQw
+Processing trending topic: In Ukraine, deaths from hypothermia rise as Russia attacks energy system
+Searching Google for: In Ukraine, deaths from hypothermia rise as Russia attacks energy system
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIn%252BUkraine%252C%252Bdeaths%252Bfrom%252Bhypothermia%252Brise%252Bas%252BRussia%252Battacks%252Benergy%252Bsystem%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IPaGOmErMwGIjC7EfWgECFP7IUKwMTg1H0sHBMrHE2srYHK82grLaaclitLXMUfy4M9kJkLIO82mF4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ghislaine-maxwell-refuses-to-answer-questions-from_20260210_0858.html
-✓ Created comprehensive article: ghislaine-maxwell-refuses-to-answer-questions-from_20260210_0858.html
+Successfully created file: in-ukraine-deaths-from-hypothermia-rise-as-russia-_20260210_1003.html
+✓ Created comprehensive article: in-ukraine-deaths-from-hypothermia-rise-as-russia-_20260210_1003.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump's world order hangs over Europe on eve of key defence conference
+   • More than two million people face hunger as drought grips Kenya
      Sources: bbc.com, cnn.com, reuters.com
-   • Vonn reflects on Winter Olympics downhill crash and tibia injury
+   • How does the cutoff of Starlink terminals affect Russia’s moves in Ukraine?
      Sources: bbc.com, cnn.com, reuters.com
-   • Ghislaine Maxwell refuses to answer questions from US Congress
+   • In Ukraine, deaths from hypothermia rise as Russia attacks energy system
      Sources: bbc.com, cnn.com, reuters.com
