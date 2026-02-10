@@ -1,66 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Six key questions about Keir Starmer's future
   Added: Macron urges Europe to start acting like world power
-  Added: US lawmakers accuse justice department of 'inappropriately' redacting Epstein files
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel accused of spraying chemicals to poison Syrian farmland
-Added expanded search topic: Israel accused of spraying chemicals to poison Syrian farmland
-Saved 21 topics for 2026-02-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why did Saif al-Islam Gaddafi have to die?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran shuts down private businesses after protests as economy slumps
+Added expanded search topic: Why did Saif al-Islam Gaddafi have to die?
+Added expanded search topic: Iran shuts down private businesses after protests as economy slumps
+Saved 24 topics for 2026-02-10
 Returning 3 unique trending topics:
-  1. Macron urges Europe to start acting like world power (from BBC News)
-  2. US lawmakers accuse justice department of 'inappropriately' redacting Epstein files (from BBC News)
-  3. Israel accused of spraying chemicals to poison Syrian farmland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Six key questions about Keir Starmer's future (from BBC News)
+  2. Why did Saif al-Islam Gaddafi have to die? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran shuts down private businesses after protests as economy slumps (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Macron urges Europe to start acting like world power
-Searching Google for: Macron urges Europe to start acting like world power
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Six key questions about Keir Starmer's future
+Searching Google for: Six key questions about Keir Starmer's future
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSix%252Bkey%252Bquestions%252Babout%252BKeir%252BStarmer%2527s%252Bfuture%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuL-iGNSQrcwGIjD3ooxYvZZJNp82fpgXSST_N0Y0UzgA7o9DV8SvAtDkLd2JB9EsWP6csNqL4w8rhyAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: macron-urges-europe-to-start-acting-like-world-pow_20260210_1312.html
-✓ Created comprehensive article: macron-urges-europe-to-start-acting-like-world-pow_20260210_1312.html
+Successfully created file: six-key-questions-about-keir-starmers-future_20260210_1501.html
+✓ Created comprehensive article: six-key-questions-about-keir-starmers-future_20260210_1501.html
 
-Processing trending topic: US lawmakers accuse justice department of 'inappropriately' redacting Epstein files
-Searching Google for: US lawmakers accuse justice department of 'inappropriately' redacting Epstein files
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blawmakers%252Baccuse%252Bjustice%252Bdepartment%252Bof%252B%2527inappropriately%2527%252Bredacting%252BEpstein%252Bfiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCHGKzerMwGIjCge2qDSBEBd1SrAXKgKzRVibO16pMdtvBr9a6kFg3_nhA1gjD4ehLunZkkK4dAaVAyBmpjbmRyUloBQw
+Processing trending topic: Why did Saif al-Islam Gaddafi have to die?
+Searching Google for: Why did Saif al-Islam Gaddafi have to die?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bdid%252BSaif%252Bal-Islam%252BGaddafi%252Bhave%252Bto%252Bdie%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuL-iGNuQrcwGIjDO1W0hXLpTlK_N8pkPy9l26P5wnGzhRv8mOVw3rpjL_4Bmn5ds5-KGQ1osFq6Bm3YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-lawmakers-accuse-justice-department-of-inapprop_20260210_1314.html
-✓ Created comprehensive article: us-lawmakers-accuse-justice-department-of-inapprop_20260210_1314.html
+Successfully created file: why-did-saif-al-islam-gaddafi-have-to-die_20260210_1501.html
+✓ Created comprehensive article: why-did-saif-al-islam-gaddafi-have-to-die_20260210_1501.html
 
-Processing trending topic: Israel accused of spraying chemicals to poison Syrian farmland
-Searching Google for: Israel accused of spraying chemicals to poison Syrian farmland
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Baccused%252Bof%252Bspraying%252Bchemicals%252Bto%252Bpoison%252BSyrian%252Bfarmland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCHGLLerMwGIjCuGLVs63air1pRos1k26iUk841G_AYqhuu92zJYlmmM9jh-BMXBMYLlgbKwWG4SvYyBmpjbmRyUloBQw
+Processing trending topic: Iran shuts down private businesses after protests as economy slumps
+Searching Google for: Iran shuts down private businesses after protests as economy slumps
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bshuts%252Bdown%252Bprivate%252Bbusinesses%252Bafter%252Bprotests%252Bas%252Beconomy%252Bslumps%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuL-iGOGQrcwGIjAjXTgZvAd5AJGPOs-LpyKkUPp9bQu5LgLbCOlrIeCZu4fXkTh39gaAiI62HeK1s4UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-accused-of-spraying-chemicals-to-poison-syr_20260210_1314.html
-✓ Created comprehensive article: israel-accused-of-spraying-chemicals-to-poison-syr_20260210_1314.html
+Successfully created file: iran-shuts-down-private-businesses-after-protests-_20260210_1501.html
+✓ Created comprehensive article: iran-shuts-down-private-businesses-after-protests-_20260210_1501.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Macron urges Europe to start acting like world power
+   • Six key questions about Keir Starmer's future
      Sources: bbc.com, cnn.com, reuters.com
-   • US lawmakers accuse justice department of 'inappropriately' redacting Epstein files
+   • Why did Saif al-Islam Gaddafi have to die?
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel accused of spraying chemicals to poison Syrian farmland
+   • Iran shuts down private businesses after protests as economy slumps
      Sources: bbc.com, cnn.com, reuters.com
