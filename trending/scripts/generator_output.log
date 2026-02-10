@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Cabinet ministers rally round PM as Sarwar urges him to quit
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-10
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Somalia, Saudi Arabia sign agreement on military cooperation
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump threatens to block opening of Detroit-Canada bridge
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia warns Cuba fuel situation critical,as Havana slams ‘cruel’ US tactic
+Added expanded search topic: Somalia, Saudi Arabia sign agreement on military cooperation
+Added expanded search topic: Trump threatens to block opening of Detroit-Canada bridge
+Added expanded search topic: Russia warns Cuba fuel situation critical,as Havana slams ‘cruel’ US tactic
+Saved 6 topics for 2026-02-10
 Returning 3 unique trending topics:
-  1. Cabinet ministers rally round PM as Sarwar urges him to quit (from BBC News)
-  2. Chris Mason: Labour sticks with Starmer for now but this is not over (from BBC News)
-  3. 53 people dead or missing after migrant boat capsizes in Mediterranean (from The Guardian)
+  1. Somalia, Saudi Arabia sign agreement on military cooperation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump threatens to block opening of Detroit-Canada bridge (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia warns Cuba fuel situation critical,as Havana slams ‘cruel’ US tactic (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Cabinet ministers rally round PM as Sarwar urges him to quit
-Searching Google for: Cabinet ministers rally round PM as Sarwar urges him to quit
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCabinet%252Bministers%252Brally%252Bround%252BPM%252Bas%252BSarwar%252Burges%252Bhim%252Bto%252Bquit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuZGM6qqswGIjCzvv7McvxuX-pTYtIwPuGQHWg9EZrqviPh5v92AaXpj-fkJq6jHjsEC3f8W-Y0FTgyBmpjbmRyUloBQw
+Processing trending topic: Somalia, Saudi Arabia sign agreement on military cooperation
+Searching Google for: Somalia, Saudi Arabia sign agreement on military cooperation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSomalia%252C%252BSaudi%252BArabia%252Bsign%252Bagreement%252Bon%252Bmilitary%252Bcooperation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KlwGMD5qswGIjBVRwH_5sI7VZLC00X_PZwwUBd25sskJiiSRPjnuZO9emGPx0AR3pndvy0PiECK4WQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cabinet-ministers-rally-round-pm-as-sarwar-urges-h_20260210_0217.html
-✓ Created comprehensive article: cabinet-ministers-rally-round-pm-as-sarwar-urges-h_20260210_0217.html
+Successfully created file: somalia-saudi-arabia-sign-agreement-on-military-co_20260210_0506.html
+✓ Created comprehensive article: somalia-saudi-arabia-sign-agreement-on-military-co_20260210_0506.html
 
-Processing trending topic: Chris Mason: Labour sticks with Starmer for now but this is not over
-Searching Google for: Chris Mason: Labour sticks with Starmer for now but this is not over
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BLabour%252Bsticks%252Bwith%252BStarmer%252Bfor%252Bnow%252Bbut%252Bthis%252Bis%252Bnot%252Bover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuZGNWqqswGIjD8GeQQx2ZSaHi63Z-UH_F47dbsiBmbvcWxLLREFIWVkQMziG8DqRJfzIbnwxv2fB8yBmpjbmRyUloBQw
+Processing trending topic: Trump threatens to block opening of Detroit-Canada bridge
+Searching Google for: Trump threatens to block opening of Detroit-Canada bridge
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252Bto%252Bblock%252Bopening%252Bof%252BDetroit-Canada%252Bbridge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KlwGMf5qswGIjDhu60B3H57CvcP7s53_O_ipdJFr-u7dJRYmLG72TnFMsP_In-FLRGAboQveOjBvWAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-labour-sticks-with-starmer-for-now-but_20260210_0218.html
-✓ Created comprehensive article: chris-mason-labour-sticks-with-starmer-for-now-but_20260210_0218.html
+Successfully created file: trump-threatens-to-block-opening-of-detroit-canada_20260210_0506.html
+✓ Created comprehensive article: trump-threatens-to-block-opening-of-detroit-canada_20260210_0506.html
 
-Processing trending topic: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Searching Google for: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D53%252Bpeople%252Bdead%252Bor%252Bmissing%252Bafter%252Bmigrant%252Bboat%252Bcapsizes%252Bin%252BMediterranean%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KuZGNyqqswGIjBmx9hF4OniPtDbs4lWVU9JLhF5EfdrKgxJkVcTE19q9hSs0huwWrwvhubqLzrl8aUyBmpjbmRyUloBQw
+Processing trending topic: Russia warns Cuba fuel situation critical,as Havana slams ‘cruel’ US tactic
+Searching Google for: Russia warns Cuba fuel situation critical,as Havana slams ‘cruel’ US tactic
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bwarns%252BCuba%252Bfuel%252Bsituation%252Bcritical%252Cas%252BHavana%252Bslams%252B%25E2%2580%2598cruel%25E2%2580%2599%252BUS%252Btactic%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KlwGM35qswGIjBCMAZIwy2GWKXBrCuDTUdQx_LQWuBfhT4hkMul6QRQDq4AbBUzfKod3g0d4e2EL0kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 53-people-dead-or-missing-after-migrant-boat-capsi_20260210_0218.html
-✓ Created comprehensive article: 53-people-dead-or-missing-after-migrant-boat-capsi_20260210_0218.html
+Successfully created file: russia-warns-cuba-fuel-situation-criticalas-havana_20260210_0506.html
+✓ Created comprehensive article: russia-warns-cuba-fuel-situation-criticalas-havana_20260210_0506.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Cabinet ministers rally round PM as Sarwar urges him to quit
+   • Somalia, Saudi Arabia sign agreement on military cooperation
      Sources: bbc.com, cnn.com, reuters.com
-   • Chris Mason: Labour sticks with Starmer for now but this is not over
+   • Trump threatens to block opening of Detroit-Canada bridge
      Sources: bbc.com, cnn.com, reuters.com
-   • 53 people dead or missing after migrant boat capsizes in Mediterranean
+   • Russia warns Cuba fuel situation critical,as Havana slams ‘cruel’ US tactic
      Sources: bbc.com, cnn.com, reuters.com
