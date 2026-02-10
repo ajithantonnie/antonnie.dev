@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Boy arrested for attempted murder after two pupils stabbed at school
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump threatens Iran with ‘something very tough’ if US demands are not met
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt’s parliament backs economy-focused cabinet reshuffle
-Added expanded search topic: Trump threatens Iran with ‘something very tough’ if US demands are not met
-Added expanded search topic: Egypt’s parliament backs economy-focused cabinet reshuffle
-Saved 39 topics for 2026-02-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jeffrey Epstein’s ‘one single cause’: Israel
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will any countries take action to stop Israel’s West Bank annexation?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US imposes new Hezbollah sanctions targeting gold exchange firm
+Added expanded search topic: Jeffrey Epstein’s ‘one single cause’: Israel
+Added expanded search topic: Will any countries take action to stop Israel’s West Bank annexation?
+Added expanded search topic: US imposes new Hezbollah sanctions targeting gold exchange firm
+Saved 42 topics for 2026-02-10
 Returning 3 unique trending topics:
-  1. Boy arrested for attempted murder after two pupils stabbed at school (from BBC News)
-  2. Trump threatens Iran with ‘something very tough’ if US demands are not met (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Egypt’s parliament backs economy-focused cabinet reshuffle (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Jeffrey Epstein’s ‘one single cause’: Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Will any countries take action to stop Israel’s West Bank annexation? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US imposes new Hezbollah sanctions targeting gold exchange firm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Boy arrested for attempted murder after two pupils stabbed at school
-Searching Google for: Boy arrested for attempted murder after two pupils stabbed at school
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoy%252Barrested%252Bfor%252Battempted%252Bmurder%252Bafter%252Btwo%252Bpupils%252Bstabbed%252Bat%252Bschool%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKCiGJfOrswGIjAXuEHI0JF5qjVxWg034W3YA7tCQplx8eaVSUwyrorOOqELO67RTlTap8x6NTn3dzEyBmpjbmRyUloBQw
+Processing trending topic: Jeffrey Epstein’s ‘one single cause’: Israel
+Searching Google for: Jeffrey Epstein’s ‘one single cause’: Israel
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: boy-arrested-for-attempted-murder-after-two-pupils_20260210_2146.html
-✓ Created comprehensive article: boy-arrested-for-attempted-murder-after-two-pupils_20260210_2146.html
+Successfully created file: jeffrey-epsteins-one-single-cause-israel_20260210_2242.html
+✓ Created comprehensive article: jeffrey-epsteins-one-single-cause-israel_20260210_2242.html
 
-Processing trending topic: Trump threatens Iran with ‘something very tough’ if US demands are not met
-Searching Google for: Trump threatens Iran with ‘something very tough’ if US demands are not met
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252BIran%252Bwith%252B%25E2%2580%2598something%252Bvery%252Btough%25E2%2580%2599%252Bif%252BUS%252Bdemands%252Bare%252Bnot%252Bmet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKCiGJ_OrswGIjAhTYe1Ls3vr1X1U7NTrXPZDeyhssow7UexLz5ixeBmPL0A2cUMhERcsax0kz7HzmEyBmpjbmRyUloBQw
+Processing trending topic: Will any countries take action to stop Israel’s West Bank annexation?
+Searching Google for: Will any countries take action to stop Israel’s West Bank annexation?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Bany%252Bcountries%252Btake%252Baction%252Bto%252Bstop%252BIsrael%25E2%2580%2599s%252BWest%252BBank%252Bannexation%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4qSGKzprswGIjAjUHUKfoSYyaqzfDCay5cQiq77KXKxGp90OOQ5HjH6XYB60s03dvkbYr8XJ3MfWLoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-threatens-iran-with-something-very-tough-if-_20260210_2146.html
-✓ Created comprehensive article: trump-threatens-iran-with-something-very-tough-if-_20260210_2146.html
+Successfully created file: will-any-countries-take-action-to-stop-israels-wes_20260210_2244.html
+✓ Created comprehensive article: will-any-countries-take-action-to-stop-israels-wes_20260210_2244.html
 
-Processing trending topic: Egypt’s parliament backs economy-focused cabinet reshuffle
-Searching Google for: Egypt’s parliament backs economy-focused cabinet reshuffle
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%25E2%2580%2599s%252Bparliament%252Bbacks%252Beconomy-focused%252Bcabinet%252Breshuffle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKCiGKbOrswGIjBOo-TN3S1b6NR5RHtrkjLhTAq87mq5OzcwFeJSl-ccX0mq3UPwEVjUzP89Xdb0CVcyBmpjbmRyUloBQw
+Processing trending topic: US imposes new Hezbollah sanctions targeting gold exchange firm
+Searching Google for: US imposes new Hezbollah sanctions targeting gold exchange firm
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bimposes%252Bnew%252BHezbollah%252Bsanctions%252Btargeting%252Bgold%252Bexchange%252Bfirm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4qSGLPprswGIjDPjOWTQowur4k831awWivobbtenpdx9bQl8AQHg_ZhEYsr47jR847unQKjN2zcXEEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egypts-parliament-backs-economy-focused-cabinet-re_20260210_2146.html
-✓ Created comprehensive article: egypts-parliament-backs-economy-focused-cabinet-re_20260210_2146.html
+Successfully created file: us-imposes-new-hezbollah-sanctions-targeting-gold-_20260210_2244.html
+✓ Created comprehensive article: us-imposes-new-hezbollah-sanctions-targeting-gold-_20260210_2244.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Boy arrested for attempted murder after two pupils stabbed at school
+   • Jeffrey Epstein’s ‘one single cause’: Israel
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump threatens Iran with ‘something very tough’ if US demands are not met
+   • Will any countries take action to stop Israel’s West Bank annexation?
      Sources: bbc.com, cnn.com, reuters.com
-   • Egypt’s parliament backs economy-focused cabinet reshuffle
+   • US imposes new Hezbollah sanctions targeting gold exchange firm
      Sources: bbc.com, cnn.com, reuters.com
