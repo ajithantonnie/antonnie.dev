@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PM tells Sir Jim Ratcliffe to apologise for saying 'UK has been colonised'
@@ -9,60 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Italy advances migration bill, including naval blockades
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US FDA declines Moderna flu vaccine review amid vaccine guidance rollback
-Added expanded search topic: Italy advances migration bill, including naval blockades
-Added expanded search topic: US FDA declines Moderna flu vaccine review amid vaccine guidance rollback
-Saved 54 topics for 2026-02-11
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-12
 Returning 3 unique trending topics:
-  1. Police identify 18-year-old as suspect in Tumbler Ridge shooting (from BBC News)
-  2. Italy advances migration bill, including naval blockades (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US FDA declines Moderna flu vaccine review amid vaccine guidance rollback (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. PM tells Sir Jim Ratcliffe to apologise for saying 'UK has been colonised' (from BBC News)
+  2. Police identify 18-year-old as suspect in Tumbler Ridge shooting (from BBC News)
+  3. 53 people dead or missing after migrant boat capsizes in Mediterranean (from The Guardian)
+
+Processing trending topic: PM tells Sir Jim Ratcliffe to apologise for saying 'UK has been colonised'
+Searching Google for: PM tells Sir Jim Ratcliffe to apologise for saying 'UK has been colonised'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Btells%252BSir%252BJim%252BRatcliffe%252Bto%252Bapologise%252Bfor%252Bsaying%252B%2527UK%252Bhas%252Bbeen%252Bcolonised%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyx7SGN7rtMwGIjCcMl53zHv0Y3VVO4vfdimoJrQe9g2Gvm13fWImVHLorECqK-9NlzxPZhf5uvVvPCYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: pm-tells-sir-jim-ratcliffe-to-apologise-for-saying_20260212_0207.html
+✓ Created comprehensive article: pm-tells-sir-jim-ratcliffe-to-apologise-for-saying_20260212_0207.html
 
 Processing trending topic: Police identify 18-year-old as suspect in Tumbler Ridge shooting
 Searching Google for: Police identify 18-year-old as suspect in Tumbler Ridge shooting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bidentify%252B18-year-old%252Bas%252Bsuspect%252Bin%252BTumbler%252BRidge%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHdyY6GJqktMwGIjB1zKSXoFnr-Iu8yJtEfE_SVmPtve6KdTggy8l5K6S_wwZ4qkYufTNnI20bxf_QRqkyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bidentify%252B18-year-old%252Bas%252Bsuspect%252Bin%252BTumbler%252BRidge%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyx7SGOXrtMwGIjBGR_M5y6P0RJba86F3vrtsGvWHh04LwO-XvnBon0VVzfWW5vxw2iQaYaNjC2L_uBsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-identify-18-year-old-as-suspect-in-tumbler-_20260211_2334.html
-✓ Created comprehensive article: police-identify-18-year-old-as-suspect-in-tumbler-_20260211_2334.html
+Successfully created file: police-identify-18-year-old-as-suspect-in-tumbler-_20260212_0207.html
+✓ Created comprehensive article: police-identify-18-year-old-as-suspect-in-tumbler-_20260212_0207.html
 
-Processing trending topic: Italy advances migration bill, including naval blockades
-Searching Google for: Italy advances migration bill, including naval blockades
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DItaly%252Badvances%252Bmigration%252Bbill%252C%252Bincluding%252Bnaval%252Bblockades%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHdyY6GKGktMwGIjCtA_WU_bCfqmhxVoxpY8iuKGuwei4jrQ7uV1VJoURdktUWdqEVDSOYNC5j4GienC8yBmpjbmRyUloBQw
+Processing trending topic: 53 people dead or missing after migrant boat capsizes in Mediterranean
+Searching Google for: 53 people dead or missing after migrant boat capsizes in Mediterranean
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D53%252Bpeople%252Bdead%252Bor%252Bmissing%252Bafter%252Bmigrant%252Bboat%252Bcapsizes%252Bin%252BMediterranean%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyx7SGOzrtMwGIjAx-dPM8Hqhc5WPefhSyCN9ucbRVenZ6ROA3iPbevQgQ5gaNsWx2lmoxvHJAx4pAVsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: italy-advances-migration-bill-including-naval-bloc_20260211_2335.html
-✓ Created comprehensive article: italy-advances-migration-bill-including-naval-bloc_20260211_2335.html
-
-Processing trending topic: US FDA declines Moderna flu vaccine review amid vaccine guidance rollback
-Searching Google for: US FDA declines Moderna flu vaccine review amid vaccine guidance rollback
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BFDA%252Bdeclines%252BModerna%252Bflu%252Bvaccine%252Breview%252Bamid%252Bvaccine%252Bguidance%252Brollback%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHdyY6GKektMwGIjD-9sQVbAtduz1-noIiSSA9gGBHPS56UWnqrlBAT2E3l4l6CqiPBkYBUUyAK9DwD6kyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-fda-declines-moderna-flu-vaccine-review-amid-va_20260211_2335.html
-✓ Created comprehensive article: us-fda-declines-moderna-flu-vaccine-review-amid-va_20260211_2335.html
+Successfully created file: 53-people-dead-or-missing-after-migrant-boat-capsi_20260212_0207.html
+✓ Created comprehensive article: 53-people-dead-or-missing-after-migrant-boat-capsi_20260212_0207.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • PM tells Sir Jim Ratcliffe to apologise for saying 'UK has been colonised'
+     Sources: bbc.com, cnn.com, reuters.com
    • Police identify 18-year-old as suspect in Tumbler Ridge shooting
      Sources: bbc.com, cnn.com, reuters.com
-   • Italy advances migration bill, including naval blockades
-     Sources: bbc.com, cnn.com, reuters.com
-   • US FDA declines Moderna flu vaccine review amid vaccine guidance rollback
+   • 53 people dead or missing after migrant boat capsizes in Mediterranean
      Sources: bbc.com, cnn.com, reuters.com
