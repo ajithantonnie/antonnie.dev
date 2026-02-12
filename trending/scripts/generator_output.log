@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'We warned nursery about abuser Vincent Chan - they dismissed us,' parents tell BBC
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Norwegian police search former PM Jagland’s properties over Epstein ties
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada’s PM Carney to visit Tumbler Ridge after mass school shooting
-Added expanded search topic: Norwegian police search former PM Jagland’s properties over Epstein ties
-Added expanded search topic: Canada’s PM Carney to visit Tumbler Ridge after mass school shooting
-Saved 45 topics for 2026-02-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: T20 World Cup: How India vs Pakistan relations went from bad to worse
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US readying another aircraft carrier for Middle East deployment: Trump
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: CCTV video captures moment sinkhole swallows road in Shanghai
+Added expanded search topic: T20 World Cup: How India vs Pakistan relations went from bad to worse
+Added expanded search topic: US readying another aircraft carrier for Middle East deployment: Trump
+Added expanded search topic: CCTV video captures moment sinkhole swallows road in Shanghai
+Saved 48 topics for 2026-02-12
 Returning 3 unique trending topics:
-  1. 'We warned nursery about abuser Vincent Chan - they dismissed us,' parents tell BBC (from BBC News)
-  2. Norwegian police search former PM Jagland’s properties over Epstein ties (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Canada’s PM Carney to visit Tumbler Ridge after mass school shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. T20 World Cup: How India vs Pakistan relations went from bad to worse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US readying another aircraft carrier for Middle East deployment: Trump (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. CCTV video captures moment sinkhole swallows road in Shanghai (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'We warned nursery about abuser Vincent Chan - they dismissed us,' parents tell BBC
-Searching Google for: 'We warned nursery about abuser Vincent Chan - they dismissed us,' parents tell BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527We%252Bwarned%252Bnursery%252Babout%252Babuser%252BVincent%252BChan%252B-%252Bthey%252Bdismissed%252Bus%252C%2527%252Bparents%252Btell%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNKgGL30uMwGIjB7A4u4WDbSRJ24yuuXKR0VXQBrrOpPlLrdMKMYC8Mm_Qo0o0sknI4ysjLJ_U60ZRsyBmpjbmRyUloBQw
+Processing trending topic: T20 World Cup: How India vs Pakistan relations went from bad to worse
+Searching Google for: T20 World Cup: How India vs Pakistan relations went from bad to worse
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DT20%252BWorld%252BCup%253A%252BHow%252BIndia%252Bvs%252BPakistan%252Brelations%252Bwent%252Bfrom%252Bbad%252Bto%252Bworse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbV9jGISPucwGIjBi-8nRW5ay6S3W-Whp5ry63c-p87J5FVjQPKSgnsxge7pfW8D-n7sG5W4bGcyKuw0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-warned-nursery-about-abuser-vincent-chan-they-d_20260212_2038.html
-✓ Created comprehensive article: we-warned-nursery-about-abuser-vincent-chan-they-d_20260212_2038.html
+Successfully created file: t20-world-cup-how-india-vs-pakistan-relations-went_20260212_2135.html
+✓ Created comprehensive article: t20-world-cup-how-india-vs-pakistan-relations-went_20260212_2135.html
 
-Processing trending topic: Norwegian police search former PM Jagland’s properties over Epstein ties
-Searching Google for: Norwegian police search former PM Jagland’s properties over Epstein ties
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorwegian%252Bpolice%252Bsearch%252Bformer%252BPM%252BJagland%25E2%2580%2599s%252Bproperties%252Bover%252BEpstein%252Bties%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNKgGMT0uMwGIjACBOAvGl5h_HnqPhn7YgcPrNlDMh0sAkri2TgiBfLzsvhcqjfFzsT3D36Pow1sRgAyBmpjbmRyUloBQw
+Processing trending topic: US readying another aircraft carrier for Middle East deployment: Trump
+Searching Google for: US readying another aircraft carrier for Middle East deployment: Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Breadying%252Banother%252Baircraft%252Bcarrier%252Bfor%252BMiddle%252BEast%252Bdeployment%253A%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbV9jGIuPucwGIjANFzswz3zp8YDW2JhaUbNhjsLMfzA8pAHYW2gkRra5hb2mrjxBeKocdco2HAceyxYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: norwegian-police-search-former-pm-jaglands-propert_20260212_2038.html
-✓ Created comprehensive article: norwegian-police-search-former-pm-jaglands-propert_20260212_2038.html
+Successfully created file: us-readying-another-aircraft-carrier-for-middle-ea_20260212_2135.html
+✓ Created comprehensive article: us-readying-another-aircraft-carrier-for-middle-ea_20260212_2135.html
 
-Processing trending topic: Canada’s PM Carney to visit Tumbler Ridge after mass school shooting
-Searching Google for: Canada’s PM Carney to visit Tumbler Ridge after mass school shooting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%25E2%2580%2599s%252BPM%252BCarney%252Bto%252Bvisit%252BTumbler%252BRidge%252Bafter%252Bmass%252Bschool%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNKgGMr0uMwGIjCmi3CPcSj9MP8r8YEuQl6Cbb7uzna-IPe7IWW63oRokKBpopkoVEx6EbsR_peraGoyBmpjbmRyUloBQw
+Processing trending topic: CCTV video captures moment sinkhole swallows road in Shanghai
+Searching Google for: CCTV video captures moment sinkhole swallows road in Shanghai
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCCTV%252Bvideo%252Bcaptures%252Bmoment%252Bsinkhole%252Bswallows%252Broad%252Bin%252BShanghai%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbV9jGJGPucwGIjD-5Dw77BWzPDt6b_WNYCauYbGsDFZt0c86DR7Wxj4K_DSUhhrSupsYXV4tJK5bkfgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: canadas-pm-carney-to-visit-tumbler-ridge-after-mas_20260212_2038.html
-✓ Created comprehensive article: canadas-pm-carney-to-visit-tumbler-ridge-after-mas_20260212_2038.html
+Successfully created file: cctv-video-captures-moment-sinkhole-swallows-road-_20260212_2135.html
+✓ Created comprehensive article: cctv-video-captures-moment-sinkhole-swallows-road-_20260212_2135.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'We warned nursery about abuser Vincent Chan - they dismissed us,' parents tell BBC
+   • T20 World Cup: How India vs Pakistan relations went from bad to worse
      Sources: bbc.com, cnn.com, reuters.com
-   • Norwegian police search former PM Jagland’s properties over Epstein ties
+   • US readying another aircraft carrier for Middle East deployment: Trump
      Sources: bbc.com, cnn.com, reuters.com
-   • Canada’s PM Carney to visit Tumbler Ridge after mass school shooting
+   • CCTV video captures moment sinkhole swallows road in Shanghai
      Sources: bbc.com, cnn.com, reuters.com
