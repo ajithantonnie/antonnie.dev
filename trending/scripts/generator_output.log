@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two mothers, two tragedies: Baby deaths highlight failings at one NHS trust
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s Larijani accuses Israel of trying to sabotage US negotiations
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: To Die for Palestine – Ep 2
-Added expanded search topic: Iran’s Larijani accuses Israel of trying to sabotage US negotiations
-Added expanded search topic: To Die for Palestine – Ep 2
-Saved 12 topics for 2026-02-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Key candidates cast their ballots in Bangladesh elections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Colonial-era classism’: Residents decry demolitions in Nigeria’s Makoko
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh goes to polls in crucial first election since deadly uprising
+Added expanded search topic: Key candidates cast their ballots in Bangladesh elections
+Added expanded search topic: ‘Colonial-era classism’: Residents decry demolitions in Nigeria’s Makoko
+Added expanded search topic: Bangladesh goes to polls in crucial first election since deadly uprising
+Saved 15 topics for 2026-02-12
 Returning 3 unique trending topics:
-  1. Two mothers, two tragedies: Baby deaths highlight failings at one NHS trust (from BBC News)
-  2. Iran’s Larijani accuses Israel of trying to sabotage US negotiations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. To Die for Palestine – Ep 2 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Key candidates cast their ballots in Bangladesh elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Colonial-era classism’: Residents decry demolitions in Nigeria’s Makoko (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Bangladesh goes to polls in crucial first election since deadly uprising (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two mothers, two tragedies: Baby deaths highlight failings at one NHS trust
-Searching Google for: Two mothers, two tragedies: Baby deaths highlight failings at one NHS trust
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bmothers%252C%252Btwo%252Btragedies%253A%252BBaby%252Bdeaths%252Bhighlight%252Bfailings%252Bat%252Bone%252BNHS%252Btrust%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUFGNyOtswGIjDmDbIBFFbB_yaWSObTBrkcaM5yAsgo4u7yupWZpnF_vP7WpyN5PGEkPgjAGAor3fsyBmpjbmRyUloBQw
+Processing trending topic: Key candidates cast their ballots in Bangladesh elections
+Searching Google for: Key candidates cast their ballots in Bangladesh elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKey%252Bcandidates%252Bcast%252Btheir%252Bballots%252Bin%252BBangladesh%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFf5GI2ntswGIjAqF67CJwmZSgcLxuaoMAKFYfo2Hm4QjQMS7vbY-dXP8XIPMnkmc_QppIE3VpOesRMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-mothers-two-tragedies-baby-deaths-highlight-fa_20260212_0755.html
-✓ Created comprehensive article: two-mothers-two-tragedies-baby-deaths-highlight-fa_20260212_0755.html
+Successfully created file: key-candidates-cast-their-ballots-in-bangladesh-el_20260212_0847.html
+✓ Created comprehensive article: key-candidates-cast-their-ballots-in-bangladesh-el_20260212_0847.html
 
-Processing trending topic: Iran’s Larijani accuses Israel of trying to sabotage US negotiations
-Searching Google for: Iran’s Larijani accuses Israel of trying to sabotage US negotiations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252BLarijani%252Baccuses%252BIsrael%252Bof%252Btrying%252Bto%252Bsabotage%252BUS%252Bnegotiations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUFGOOOtswGIjChqgug0NKR-v5xkMslFMPaA5Ylh38SsZpDUdUsFjt7XRK8tSBt9ZOJiqp9Lb1HTIMyBmpjbmRyUloBQw
+Processing trending topic: ‘Colonial-era classism’: Residents decry demolitions in Nigeria’s Makoko
+Searching Google for: ‘Colonial-era classism’: Residents decry demolitions in Nigeria’s Makoko
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Colonial-era%252Bclassism%25E2%2580%2599%253A%252BResidents%252Bdecry%252Bdemolitions%252Bin%252BNigeria%25E2%2580%2599s%252BMakoko%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFf5GJWntswGIjC8bgEsHlqhhf6qD6YXYtYXk60w9vTp0-o2qck-rwFnMKFqFL9CN3qLos-ppQbjQoAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-larijani-accuses-israel-of-trying-to-sabotag_20260212_0755.html
-✓ Created comprehensive article: irans-larijani-accuses-israel-of-trying-to-sabotag_20260212_0755.html
+Successfully created file: colonial-era-classism-residents-decry-demolitions-_20260212_0847.html
+✓ Created comprehensive article: colonial-era-classism-residents-decry-demolitions-_20260212_0847.html
 
-Processing trending topic: To Die for Palestine – Ep 2
-Searching Google for: To Die for Palestine – Ep 2
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTo%252BDie%252Bfor%252BPalestine%252B%25E2%2580%2593%252BEp%252B2%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUFGOqOtswGIjBu5hGTg7m1sCSXgqoEPyiFF0xYyHe4S_40x4eqEY43AXjL1y7TLkY9KcyH_Jv3O64yBmpjbmRyUloBQw
+Processing trending topic: Bangladesh goes to polls in crucial first election since deadly uprising
+Searching Google for: Bangladesh goes to polls in crucial first election since deadly uprising
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladesh%252Bgoes%252Bto%252Bpolls%252Bin%252Bcrucial%252Bfirst%252Belection%252Bsince%252Bdeadly%252Buprising%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFf5GJuntswGIjALAS_reWlxFB2PyTNIFGjLrsuMni0TSAyLSRfUkQbB89m0IsOtYtBZgIPSQskVciYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: to-die-for-palestine-ep-2_20260212_0755.html
-✓ Created comprehensive article: to-die-for-palestine-ep-2_20260212_0755.html
+Successfully created file: bangladesh-goes-to-polls-in-crucial-first-election_20260212_0847.html
+✓ Created comprehensive article: bangladesh-goes-to-polls-in-crucial-first-election_20260212_0847.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two mothers, two tragedies: Baby deaths highlight failings at one NHS trust
+   • Key candidates cast their ballots in Bangladesh elections
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran’s Larijani accuses Israel of trying to sabotage US negotiations
+   • ‘Colonial-era classism’: Residents decry demolitions in Nigeria’s Makoko
      Sources: bbc.com, cnn.com, reuters.com
-   • To Die for Palestine – Ep 2
+   • Bangladesh goes to polls in crucial first election since deadly uprising
      Sources: bbc.com, cnn.com, reuters.com
