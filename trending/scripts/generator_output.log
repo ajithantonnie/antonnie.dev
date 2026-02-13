@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump revokes landmark ruling that greenhouse gases endanger public health
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says it caused dollar shortage to trigger Iran protests: What that means
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
-Added expanded search topic: US says it caused dollar shortage to trigger Iran protests: What that means
-Added expanded search topic: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
-Saved 15 topics for 2026-02-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: BNP supporters celebrate as party claims Bangladesh election win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia faces Ukraine casualties, broken communications and total oil ban
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Aloe Blacc: Why musicians are investing in tech
+Added expanded search topic: BNP supporters celebrate as party claims Bangladesh election win
+Added expanded search topic: Russia faces Ukraine casualties, broken communications and total oil ban
+Added expanded search topic: Aloe Blacc: Why musicians are investing in tech
+Saved 18 topics for 2026-02-13
 Returning 3 unique trending topics:
-  1. 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart (from BBC News)
-  2. US says it caused dollar shortage to trigger Iran protests: What that means (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. BNP supporters celebrate as party claims Bangladesh election win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia faces Ukraine casualties, broken communications and total oil ban (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Aloe Blacc: Why musicians are investing in tech (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
-Searching Google for: 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527My%252Bhusband%252Bstole%252B%25C2%25A3600k%252Bfor%252Bsex%252Band%252Bantiques%2527%252B-%252Bmedication%252Bside%252Beffects%252Btearing%252Bfamilies%252Bapart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GLrIu8wGIjBcwHWT4XjTkbCxOFg0zlK-oBggCF2BhNyed-e3R3h7CnPpVKSv1rnkgHjs7NJXGVgyBmpjbmRyUloBQw
+Processing trending topic: BNP supporters celebrate as party claims Bangladesh election win
+Searching Google for: BNP supporters celebrate as party claims Bangladesh election win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBNP%252Bsupporters%252Bcelebrate%252Bas%252Bparty%252Bclaims%252BBangladesh%252Belection%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHy4GP3lu8wGIjB0GI0qGCiF85Nofugj7jLr9HX90xVzofNRx3Llj77IMynEfy_XYsyxocHhcmnp28syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: my-husband-stole-600k-for-sex-and-antiques-medicat_20260213_0843.html
-✓ Created comprehensive article: my-husband-stole-600k-for-sex-and-antiques-medicat_20260213_0843.html
+Successfully created file: bnp-supporters-celebrate-as-party-claims-banglades_20260213_0946.html
+✓ Created comprehensive article: bnp-supporters-celebrate-as-party-claims-banglades_20260213_0946.html
 
-Processing trending topic: US says it caused dollar shortage to trigger Iran protests: What that means
-Searching Google for: US says it caused dollar shortage to trigger Iran protests: What that means
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Bit%252Bcaused%252Bdollar%252Bshortage%252Bto%252Btrigger%252BIran%252Bprotests%253A%252BWhat%252Bthat%252Bmeans%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GMHIu8wGIjA54pvTkFqxRTkmXwMnDdU2KbWtn9sI4LOkBLSQBYPRbBxLzCYxP3jdWgfvUvtLX4QyBmpjbmRyUloBQw
+Processing trending topic: Russia faces Ukraine casualties, broken communications and total oil ban
+Searching Google for: Russia faces Ukraine casualties, broken communications and total oil ban
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bfaces%252BUkraine%252Bcasualties%252C%252Bbroken%252Bcommunications%252Band%252Btotal%252Boil%252Bban%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHy4GITmu8wGIjB5Q6IqHBe537FmPGaAaQsq2JeOWHL-6AOCvtkrtZxvfnpstCyBLJYzwwGMR0POABMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-says-it-caused-dollar-shortage-to-trigger-iran-_20260213_0843.html
-✓ Created comprehensive article: us-says-it-caused-dollar-shortage-to-trigger-iran-_20260213_0843.html
+Successfully created file: russia-faces-ukraine-casualties-broken-communicati_20260213_0946.html
+✓ Created comprehensive article: russia-faces-ukraine-casualties-broken-communicati_20260213_0946.html
 
-Processing trending topic: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
-Searching Google for: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMadagascar%252Bcyclone%252Bdeath%252Btoll%252Bhits%252B38%252C%252B12%252C000%252Bdisplaced%253B%252BMozambique%252Bbraces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GMfIu8wGIjAKebZZj-QIOUmxiTzlA7ALuR40B5ln551jtMG9SPpYaJ6dgWu-Zi6WB52b_ceKuPAyBmpjbmRyUloBQw
+Processing trending topic: Aloe Blacc: Why musicians are investing in tech
+Searching Google for: Aloe Blacc: Why musicians are investing in tech
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAloe%252BBlacc%253A%252BWhy%252Bmusicians%252Bare%252Binvesting%252Bin%252Btech%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sHy4GIvmu8wGIjCyICMrAcDeyAtRR8JCzzEGn4zGxsarTYqI5udIRPzlPIFtvVg5MpTYKOlHktov6nMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: madagascar-cyclone-death-toll-hits-38-12000-displa_20260213_0843.html
-✓ Created comprehensive article: madagascar-cyclone-death-toll-hits-38-12000-displa_20260213_0843.html
+Successfully created file: aloe-blacc-why-musicians-are-investing-in-tech_20260213_0946.html
+✓ Created comprehensive article: aloe-blacc-why-musicians-are-investing-in-tech_20260213_0946.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
+   • BNP supporters celebrate as party claims Bangladesh election win
      Sources: bbc.com, cnn.com, reuters.com
-   • US says it caused dollar shortage to trigger Iran protests: What that means
+   • Russia faces Ukraine casualties, broken communications and total oil ban
      Sources: bbc.com, cnn.com, reuters.com
-   • Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
+   • Aloe Blacc: Why musicians are investing in tech
      Sources: bbc.com, cnn.com, reuters.com
