@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Weston wins emphatic skeleton gold for first GB medal
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Court orders Trump administration to facilitate deported student’s return
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What are the challenges facing Bangladesh’s election winners?
-Added expanded search topic: Court orders Trump administration to facilitate deported student’s return
-Added expanded search topic: What are the challenges facing Bangladesh’s election winners?
-Saved 54 topics for 2026-02-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US will send second aircraft carrier to Middle East ‘very soon’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Department of Homeland Security to go into shutdown due to funding lapse
+  Found from World News - Breaking international news and headlines | Sky News: There's no hiding the schism that now lies between Trump and Israel
+Added expanded search topic: Trump says US will send second aircraft carrier to Middle East ‘very soon’
+Added expanded search topic: US Department of Homeland Security to go into shutdown due to funding lapse
+Added expanded search topic: There's no hiding the schism that now lies between Trump and Israel
+Saved 57 topics for 2026-02-13
 Returning 3 unique trending topics:
-  1. Weston wins emphatic skeleton gold for first GB medal (from BBC News)
-  2. Court orders Trump administration to facilitate deported student’s return (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What are the challenges facing Bangladesh’s election winners? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump says US will send second aircraft carrier to Middle East ‘very soon’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US Department of Homeland Security to go into shutdown due to funding lapse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. There's no hiding the schism that now lies between Trump and Israel (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Weston wins emphatic skeleton gold for first GB medal
-Searching Google for: Weston wins emphatic skeleton gold for first GB medal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeston%252Bwins%252Bemphatic%252Bskeleton%252Bgold%252Bfor%252Bfirst%252BGB%252Bmedal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgCGMPOvswGIjDIt9yjU7XMJtuEn6jJCWTI2K13AfMD-O-_KHyS8d7kxUDEoOL778L2WIbwLAJYfiIyBmpjbmRyUloBQw
+Processing trending topic: Trump says US will send second aircraft carrier to Middle East ‘very soon’
+Searching Google for: Trump says US will send second aircraft carrier to Middle East ‘very soon’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bwill%252Bsend%252Bsecond%252Baircraft%252Bcarrier%252Bto%252BMiddle%252BEast%252B%25E2%2580%2598very%252Bsoon%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuCgGIPqvswGIjDiaMEUiQ8ia2eO1mulcaodZEQkr1V3S0zUHLxG5oevlZ8zZrtQqAqp2Zf4-wGB5YcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weston-wins-emphatic-skeleton-gold-for-first-gb-me_20260213_2235.html
-✓ Created comprehensive article: weston-wins-emphatic-skeleton-gold-for-first-gb-me_20260213_2235.html
+Successfully created file: trump-says-us-will-send-second-aircraft-carrier-to_20260213_2334.html
+✓ Created comprehensive article: trump-says-us-will-send-second-aircraft-carrier-to_20260213_2334.html
 
-Processing trending topic: Court orders Trump administration to facilitate deported student’s return
-Searching Google for: Court orders Trump administration to facilitate deported student’s return
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCourt%252Borders%252BTrump%252Badministration%252Bto%252Bfacilitate%252Bdeported%252Bstudent%25E2%2580%2599s%252Breturn%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgCGMnOvswGIjCgM93mIOsHJr5HwtVqDTJ7qW0niephriD_lQTQ2T8_Ju7nZA-h3c67Ay4jmz8oN1EyBmpjbmRyUloBQw
+Processing trending topic: US Department of Homeland Security to go into shutdown due to funding lapse
+Searching Google for: US Department of Homeland Security to go into shutdown due to funding lapse
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BDepartment%252Bof%252BHomeland%252BSecurity%252Bto%252Bgo%252Binto%252Bshutdown%252Bdue%252Bto%252Bfunding%252Blapse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuCgGIrqvswGIjCcIAt_qKQyN1Py6OdZGImAmj-6WX34XiTxO3P6Eb-aJLVsLMFglhkSiHeup28sRi0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: court-orders-trump-administration-to-facilitate-de_20260213_2235.html
-✓ Created comprehensive article: court-orders-trump-administration-to-facilitate-de_20260213_2235.html
+Successfully created file: us-department-of-homeland-security-to-go-into-shut_20260213_2334.html
+✓ Created comprehensive article: us-department-of-homeland-security-to-go-into-shut_20260213_2334.html
 
-Processing trending topic: What are the challenges facing Bangladesh’s election winners?
-Searching Google for: What are the challenges facing Bangladesh’s election winners?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bare%252Bthe%252Bchallenges%252Bfacing%252BBangladesh%25E2%2580%2599s%252Belection%252Bwinners%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgCGNDOvswGIjBZif-zGEp415YcHlv7Ha23jC6wy_3knYqQ48vmtVo-CSP3AQMJKMRXVbHf3I6_1CgyBmpjbmRyUloBQw
+Processing trending topic: There's no hiding the schism that now lies between Trump and Israel
+Searching Google for: There's no hiding the schism that now lies between Trump and Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThere%2527s%252Bno%252Bhiding%252Bthe%252Bschism%252Bthat%252Bnow%252Blies%252Bbetween%252BTrump%252Band%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuCgGJHqvswGIjB7HE1AUTNzeDQKcNRw-zKqtTe6AKcsDVlo2Cm_1PruPCFCDaeIGjboPK1q7l87S44yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-are-the-challenges-facing-bangladeshs-electio_20260213_2236.html
-✓ Created comprehensive article: what-are-the-challenges-facing-bangladeshs-electio_20260213_2236.html
+Successfully created file: theres-no-hiding-the-schism-that-now-lies-between-_20260213_2334.html
+✓ Created comprehensive article: theres-no-hiding-the-schism-that-now-lies-between-_20260213_2334.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Weston wins emphatic skeleton gold for first GB medal
+   • Trump says US will send second aircraft carrier to Middle East ‘very soon’
      Sources: bbc.com, cnn.com, reuters.com
-   • Court orders Trump administration to facilitate deported student’s return
+   • US Department of Homeland Security to go into shutdown due to funding lapse
      Sources: bbc.com, cnn.com, reuters.com
-   • What are the challenges facing Bangladesh’s election winners?
+   • There's no hiding the schism that now lies between Trump and Israel
      Sources: bbc.com, cnn.com, reuters.com
