@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump revokes landmark ruling that greenhouse gases endanger public health
-  Added: 'My husband stole £600k for sex and antiques' - drug side effects tearing families apart
+  Added: 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US and Taiwan sign ‘pivotal’ deal to cut tariffs
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,450
-Added expanded search topic: US and Taiwan sign ‘pivotal’ deal to cut tariffs
-Added expanded search topic: Russia-Ukraine war: List of key events, day 1,450
-Saved 12 topics for 2026-02-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says it caused dollar shortage to trigger Iran protests: What that means
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
+Added expanded search topic: US says it caused dollar shortage to trigger Iran protests: What that means
+Added expanded search topic: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
+Saved 15 topics for 2026-02-13
 Returning 3 unique trending topics:
-  1. 'My husband stole £600k for sex and antiques' - drug side effects tearing families apart (from BBC News)
-  2. US and Taiwan sign ‘pivotal’ deal to cut tariffs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Russia-Ukraine war: List of key events, day 1,450 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart (from BBC News)
+  2. US says it caused dollar shortage to trigger Iran protests: What that means (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'My husband stole £600k for sex and antiques' - drug side effects tearing families apart
-Searching Google for: 'My husband stole £600k for sex and antiques' - drug side effects tearing families apart
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527My%252Bhusband%252Bstole%252B%25C2%25A3600k%252Bfor%252Bsex%252Band%252Bantiques%2527%252B-%252Bdrug%252Bside%252Beffects%252Btearing%252Bfamilies%252Bapart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYlGP6bu8wGIjCgnBHgoqDQ2nogbfY3UsYrZ-BqNfpnpMcXBNYhMTEiJeVJNf5wynQl9N7ACDEneAsyBmpjbmRyUloBQw
+Processing trending topic: 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
+Searching Google for: 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527My%252Bhusband%252Bstole%252B%25C2%25A3600k%252Bfor%252Bsex%252Band%252Bantiques%2527%252B-%252Bmedication%252Bside%252Beffects%252Btearing%252Bfamilies%252Bapart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GLrIu8wGIjBcwHWT4XjTkbCxOFg0zlK-oBggCF2BhNyed-e3R3h7CnPpVKSv1rnkgHjs7NJXGVgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: my-husband-stole-600k-for-sex-and-antiques-drug-si_20260213_0708.html
-✓ Created comprehensive article: my-husband-stole-600k-for-sex-and-antiques-drug-si_20260213_0708.html
+Successfully created file: my-husband-stole-600k-for-sex-and-antiques-medicat_20260213_0843.html
+✓ Created comprehensive article: my-husband-stole-600k-for-sex-and-antiques-medicat_20260213_0843.html
 
-Processing trending topic: US and Taiwan sign ‘pivotal’ deal to cut tariffs
-Searching Google for: US and Taiwan sign ‘pivotal’ deal to cut tariffs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BTaiwan%252Bsign%252B%25E2%2580%2598pivotal%25E2%2580%2599%252Bdeal%252Bto%252Bcut%252Btariffs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYlGIWcu8wGIjCtPnQOX9Ga-RMoepANdwIQjOwbtc9ltS29evArA3GhGIJqOI68AGQVsSsHOjwceyIyBmpjbmRyUloBQw
+Processing trending topic: US says it caused dollar shortage to trigger Iran protests: What that means
+Searching Google for: US says it caused dollar shortage to trigger Iran protests: What that means
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Bit%252Bcaused%252Bdollar%252Bshortage%252Bto%252Btrigger%252BIran%252Bprotests%253A%252BWhat%252Bthat%252Bmeans%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GMHIu8wGIjA54pvTkFqxRTkmXwMnDdU2KbWtn9sI4LOkBLSQBYPRbBxLzCYxP3jdWgfvUvtLX4QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-and-taiwan-sign-pivotal-deal-to-cut-tariffs_20260213_0708.html
-✓ Created comprehensive article: us-and-taiwan-sign-pivotal-deal-to-cut-tariffs_20260213_0708.html
+Successfully created file: us-says-it-caused-dollar-shortage-to-trigger-iran-_20260213_0843.html
+✓ Created comprehensive article: us-says-it-caused-dollar-shortage-to-trigger-iran-_20260213_0843.html
 
-Processing trending topic: Russia-Ukraine war: List of key events, day 1,450
-Searching Google for: Russia-Ukraine war: List of key events, day 1,450
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C450%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYlGIycu8wGIjDbQ9rYwpCD3jbSlSee43rMZIgECc0yqRwy7YAHaTf15ahJb0xoanAZDhN-oquoQb4yBmpjbmRyUloBQw
+Processing trending topic: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
+Searching Google for: Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMadagascar%252Bcyclone%252Bdeath%252Btoll%252Bhits%252B38%252C%252B12%252C000%252Bdisplaced%253B%252BMozambique%252Bbraces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GMfIu8wGIjAKebZZj-QIOUmxiTzlA7ALuR40B5ln551jtMG9SPpYaJ6dgWu-Zi6WB52b_ceKuPAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-war-list-of-key-events-day-1450_20260213_0709.html
-✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1450_20260213_0709.html
+Successfully created file: madagascar-cyclone-death-toll-hits-38-12000-displa_20260213_0843.html
+✓ Created comprehensive article: madagascar-cyclone-death-toll-hits-38-12000-displa_20260213_0843.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'My husband stole £600k for sex and antiques' - drug side effects tearing families apart
+   • 'My husband stole £600k for sex and antiques' - medication side effects tearing families apart
      Sources: bbc.com, cnn.com, reuters.com
-   • US and Taiwan sign ‘pivotal’ deal to cut tariffs
+   • US says it caused dollar shortage to trigger Iran protests: What that means
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia-Ukraine war: List of key events, day 1,450
+   • Madagascar cyclone death toll hits 38, 12,000 displaced; Mozambique braces
      Sources: bbc.com, cnn.com, reuters.com
