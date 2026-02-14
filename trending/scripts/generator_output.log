@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
-  Added: Rubio speech signals US-Europe relations are bruised but still friendly
+  Added: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,58 +13,58 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladeshi PM-in-waiting urges opposition to work with BNP
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: England beat Scotland to get T20 World Cup bid back on track
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
-Added expanded search topic: Bangladeshi PM-in-waiting urges opposition to work with BNP
-Added expanded search topic: England beat Scotland to get T20 World Cup bid back on track
-Added expanded search topic: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
-Saved 36 topics for 2026-02-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly drone strikes cloud US-brokered Russia-Ukraine talks in Geneva
+  Found from World News - Breaking international news and headlines | Sky News: Russia 'killed Navalny with dart frog poison'
+  Found from World News - Breaking international news and headlines | Sky News: British skiers die in avalanche at popular resort
+Added expanded search topic: Deadly drone strikes cloud US-brokered Russia-Ukraine talks in Geneva
+Added expanded search topic: Russia 'killed Navalny with dart frog poison'
+Added expanded search topic: British skiers die in avalanche at popular resort
+Saved 39 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. Bangladeshi PM-in-waiting urges opposition to work with BNP (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. England beat Scotland to get T20 World Cup bid back on track (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. T20 World Cup: Pakistan ‘always ready’ for India despite late green light (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Deadly drone strikes cloud US-brokered Russia-Ukraine talks in Geneva (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia 'killed Navalny with dart frog poison' (from World News - Breaking international news and headlines | Sky News)
+  3. British skiers die in avalanche at popular resort (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Bangladeshi PM-in-waiting urges opposition to work with BNP
-Searching Google for: Bangladeshi PM-in-waiting urges opposition to work with BNP
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladeshi%252BPM-in-waiting%252Burges%252Bopposition%252Bto%252Bwork%252Bwith%252BBNP%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LkVGL6NwswGIjDnhyNSMCZy8gFojPM88eKJ8NP2xmg5dx2ZdN6OnT0P2uNeMnGtzLaIk-iUoMZX09kyBmpjbmRyUloBQw
+Processing trending topic: Deadly drone strikes cloud US-brokered Russia-Ukraine talks in Geneva
+Searching Google for: Deadly drone strikes cloud US-brokered Russia-Ukraine talks in Geneva
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252Bdrone%252Bstrikes%252Bcloud%252BUS-brokered%252BRussia-Ukraine%252Btalks%252Bin%252BGeneva%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgVGOOowswGIjAs1bRUjmJMRgeXMlpQmxHNfYTwVBZrE3Sfw655f_VWkDhgWwqr7cjdbdSgB9MJAhsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bangladeshi-pm-in-waiting-urges-opposition-to-work_20260214_1429.html
-✓ Created comprehensive article: bangladeshi-pm-in-waiting-urges-opposition-to-work_20260214_1429.html
+Successfully created file: deadly-drone-strikes-cloud-us-brokered-russia-ukra_20260214_1527.html
+✓ Created comprehensive article: deadly-drone-strikes-cloud-us-brokered-russia-ukra_20260214_1527.html
 
-Processing trending topic: England beat Scotland to get T20 World Cup bid back on track
-Searching Google for: England beat Scotland to get T20 World Cup bid back on track
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bbeat%252BScotland%252Bto%252Bget%252BT20%252BWorld%252BCup%252Bbid%252Bback%252Bon%252Btrack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LkVGMWNwswGIjA6caUZk9pDAXaz-93Hi2ElPOhyAW2h7sUl80oBQhFS8W2wlt-mliTcmqF2mp2VjQ8yBmpjbmRyUloBQw
+Processing trending topic: Russia 'killed Navalny with dart frog poison'
+Searching Google for: Russia 'killed Navalny with dart frog poison'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252B%2527killed%252BNavalny%252Bwith%252Bdart%252Bfrog%252Bpoison%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgVGOqowswGIjBNfsLszAuC7dg2IyeRZCE5TWZfgdDmsAHOn0OlAsByXrFSrWchVrwH1g5WodvdnIMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-beat-scotland-to-get-t20-world-cup-bid-bac_20260214_1429.html
-✓ Created comprehensive article: england-beat-scotland-to-get-t20-world-cup-bid-bac_20260214_1429.html
+Successfully created file: russia-killed-navalny-with-dart-frog-poison_20260214_1527.html
+✓ Created comprehensive article: russia-killed-navalny-with-dart-frog-poison_20260214_1527.html
 
-Processing trending topic: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
-Searching Google for: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DT20%252BWorld%252BCup%253A%252BPakistan%252B%25E2%2580%2598always%252Bready%25E2%2580%2599%252Bfor%252BIndia%252Bdespite%252Blate%252Bgreen%252Blight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LkVGMuNwswGIjDUQb--CukEt4ivPF3RZGYMgXj34tjQueT05aRkhnIEWegpWmTGAR3nWRpYoAMFIMkyBmpjbmRyUloBQw
+Processing trending topic: British skiers die in avalanche at popular resort
+Searching Google for: British skiers die in avalanche at popular resort
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bskiers%252Bdie%252Bin%252Bavalanche%252Bat%252Bpopular%252Bresort%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgVGPGowswGIjBtl_zKlTacCK3a87im3j3THgq3fK85qw_e4tRi3ZfJ7rbBTqzlghXlKrCR8fdEnaoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: t20-world-cup-pakistan-always-ready-for-india-desp_20260214_1429.html
-✓ Created comprehensive article: t20-world-cup-pakistan-always-ready-for-india-desp_20260214_1429.html
+Successfully created file: british-skiers-die-in-avalanche-at-popular-resort_20260214_1527.html
+✓ Created comprehensive article: british-skiers-die-in-avalanche-at-popular-resort_20260214_1527.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bangladeshi PM-in-waiting urges opposition to work with BNP
+   • Deadly drone strikes cloud US-brokered Russia-Ukraine talks in Geneva
      Sources: bbc.com, cnn.com, reuters.com
-   • England beat Scotland to get T20 World Cup bid back on track
+   • Russia 'killed Navalny with dart frog poison'
      Sources: bbc.com, cnn.com, reuters.com
-   • T20 World Cup: Pakistan ‘always ready’ for India despite late green light
+   • British skiers die in avalanche at popular resort
      Sources: bbc.com, cnn.com, reuters.com
