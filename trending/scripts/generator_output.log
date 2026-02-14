@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: How Weston handled pressure to win Olympic gold and GB's first medal
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-14
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arundhati Roy ‘shocked’ by jury’s Gaza remarks, quits Berlin film festival
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fire at Havana oil refinery as Cuba’s fuel crisis deepens
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Peru to debate removal of President Jose Jeri four months into his term
+Added expanded search topic: Arundhati Roy ‘shocked’ by jury’s Gaza remarks, quits Berlin film festival
+Added expanded search topic: Fire at Havana oil refinery as Cuba’s fuel crisis deepens
+Added expanded search topic: Peru to debate removal of President Jose Jeri four months into his term
+Saved 6 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. How Weston handled pressure to win Olympic gold and GB's first medal (from BBC News)
-  2. Trump says Iran regime change is 'best thing that could happen' (from BBC News)
-  3. 53 people dead or missing after migrant boat capsizes in Mediterranean (from The Guardian)
+  1. Arundhati Roy ‘shocked’ by jury’s Gaza remarks, quits Berlin film festival (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Fire at Havana oil refinery as Cuba’s fuel crisis deepens (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Peru to debate removal of President Jose Jeri four months into his term (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: How Weston handled pressure to win Olympic gold and GB's first medal
-Searching Google for: How Weston handled pressure to win Olympic gold and GB's first medal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BWeston%252Bhandled%252Bpressure%252Bto%252Bwin%252BOlympic%252Bgold%252Band%252BGB%2527s%252Bfirst%252Bmedal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncTGLGtv8wGIjBE9JmQ0T14qSk9H2hp21dC7WG_y9iZvL197tq9Z9aQL2eWKDOUHiBSYYxrhv5BzG0yBmpjbmRyUloBQw
+Processing trending topic: Arundhati Roy ‘shocked’ by jury’s Gaza remarks, quits Berlin film festival
+Searching Google for: Arundhati Roy ‘shocked’ by jury’s Gaza remarks, quits Berlin film festival
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArundhati%252BRoy%252B%25E2%2580%2598shocked%25E2%2580%2599%252Bby%252Bjury%25E2%2580%2599s%252BGaza%252Bremarks%252C%252Bquits%252BBerlin%252Bfilm%252Bfestival%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19H1GPzsv8wGIjBW_E45_a6avWD-UOf3uhlceSZU9N2BNBfX_3CXBfkCntggFVo3lYmyWYs2i8F7BgUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-weston-handled-pressure-to-win-olympic-gold-an_20260214_0158.html
-✓ Created comprehensive article: how-weston-handled-pressure-to-win-olympic-gold-an_20260214_0158.html
+Successfully created file: arundhati-roy-shocked-by-jurys-gaza-remarks-quits-_20260214_0413.html
+✓ Created comprehensive article: arundhati-roy-shocked-by-jurys-gaza-remarks-quits-_20260214_0413.html
 
-Processing trending topic: Trump says Iran regime change is 'best thing that could happen'
-Searching Google for: Trump says Iran regime change is 'best thing that could happen'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIran%252Bregime%252Bchange%252Bis%252B%2527best%252Bthing%252Bthat%252Bcould%252Bhappen%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncTGLitv8wGIjBr72iuhESz2r2ZhGW6fBBOK_zkr83qy2ZwTNfTfFvJet3NdlK3m9Uoey1Guvns5-AyBmpjbmRyUloBQw
+Processing trending topic: Fire at Havana oil refinery as Cuba’s fuel crisis deepens
+Searching Google for: Fire at Havana oil refinery as Cuba’s fuel crisis deepens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFire%252Bat%252BHavana%252Boil%252Brefinery%252Bas%252BCuba%25E2%2580%2599s%252Bfuel%252Bcrisis%252Bdeepens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19H1GITtv8wGIjAUU6u85Z4bZjMp2Xj_-vJPbVYQ2VqB0TWexTYqiaHrf4Y07agIIOhQLxC6LIgvWa4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-iran-regime-change-is-best-thing-that-c_20260214_0158.html
-✓ Created comprehensive article: trump-says-iran-regime-change-is-best-thing-that-c_20260214_0158.html
+Successfully created file: fire-at-havana-oil-refinery-as-cubas-fuel-crisis-d_20260214_0414.html
+✓ Created comprehensive article: fire-at-havana-oil-refinery-as-cubas-fuel-crisis-d_20260214_0414.html
 
-Processing trending topic: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Searching Google for: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D53%252Bpeople%252Bdead%252Bor%252Bmissing%252Bafter%252Bmigrant%252Bboat%252Bcapsizes%252Bin%252BMediterranean%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncTGL6tv8wGIjA_YTKzM5cMA5Db2eRbqWhTiX5hQPJ0rEo7J6ZhpYXJCxv6S0CPFpGX5vUTLfGL3sEyBmpjbmRyUloBQw
+Processing trending topic: Peru to debate removal of President Jose Jeri four months into his term
+Searching Google for: Peru to debate removal of President Jose Jeri four months into his term
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeru%252Bto%252Bdebate%252Bremoval%252Bof%252BPresident%252BJose%252BJeri%252Bfour%252Bmonths%252Binto%252Bhis%252Bterm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19H1GIvtv8wGIjCFxl5883VoAbUIE3xa3ifMZSHoMStB8-Ns-wRjb_0I_x8p48fgV_Z9gv2Pky6UZnUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 53-people-dead-or-missing-after-migrant-boat-capsi_20260214_0158.html
-✓ Created comprehensive article: 53-people-dead-or-missing-after-migrant-boat-capsi_20260214_0158.html
+Successfully created file: peru-to-debate-removal-of-president-jose-jeri-four_20260214_0414.html
+✓ Created comprehensive article: peru-to-debate-removal-of-president-jose-jeri-four_20260214_0414.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • How Weston handled pressure to win Olympic gold and GB's first medal
+   • Arundhati Roy ‘shocked’ by jury’s Gaza remarks, quits Berlin film festival
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says Iran regime change is 'best thing that could happen'
+   • Fire at Havana oil refinery as Cuba’s fuel crisis deepens
      Sources: bbc.com, cnn.com, reuters.com
-   • 53 people dead or missing after migrant boat capsizes in Mediterranean
+   • Peru to debate removal of President Jose Jeri four months into his term
      Sources: bbc.com, cnn.com, reuters.com
