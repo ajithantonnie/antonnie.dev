@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Helicopter triggers avalanche amid maximum alert across French Alps
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
-Added expanded search topic: Helicopter triggers avalanche amid maximum alert across French Alps
-Added expanded search topic: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
-Saved 51 topics for 2026-02-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hungary’s Orban says EU bigger threat than Russia before April elections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cynical Pakistan fans brace for heartbreak in India T20 World Cup match
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Africa’s Markram mauls New Zealand in seven-wicket T20 World Cup win
+Added expanded search topic: Hungary’s Orban says EU bigger threat than Russia before April elections
+Added expanded search topic: Cynical Pakistan fans brace for heartbreak in India T20 World Cup match
+Added expanded search topic: South Africa’s Markram mauls New Zealand in seven-wicket T20 World Cup win
+Saved 54 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. Assailants kill at least 30 in north-west Nigerian villages, residents say (from The Guardian)
-  2. Helicopter triggers avalanche amid maximum alert across French Alps (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hungary’s Orban says EU bigger threat than Russia before April elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Cynical Pakistan fans brace for heartbreak in India T20 World Cup match (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. South Africa’s Markram mauls New Zealand in seven-wicket T20 World Cup win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Searching Google for: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B30%252Bin%252Bnorth-west%252BNigerian%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGMWYw8wGIjBedcSmFqRsngTK3k3Al7kq-i6-uHCz-N5QwFlAPiqC8JF2syV_rHgXizA9b7tn9AwyBmpjbmRyUloBQw
+Processing trending topic: Hungary’s Orban says EU bigger threat than Russia before April elections
+Searching Google for: Hungary’s Orban says EU bigger threat than Russia before April elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHungary%25E2%2580%2599s%252BOrban%252Bsays%252BEU%252Bbigger%252Bthreat%252Bthan%252BRussia%252Bbefore%252BApril%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4NEGLm1w8wGIjBGhV3PaKThRFFMVarznBGs-QfHeZbmM-f3pcs6ru-Tv51TaAu3fj7F3mN9vYV8038yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: assailants-kill-at-least-30-in-north-west-nigerian_20260214_1926.html
-✓ Created comprehensive article: assailants-kill-at-least-30-in-north-west-nigerian_20260214_1926.html
+Successfully created file: hungarys-orban-says-eu-bigger-threat-than-russia-b_20260214_2027.html
+✓ Created comprehensive article: hungarys-orban-says-eu-bigger-threat-than-russia-b_20260214_2027.html
 
-Processing trending topic: Helicopter triggers avalanche amid maximum alert across French Alps
-Searching Google for: Helicopter triggers avalanche amid maximum alert across French Alps
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHelicopter%252Btriggers%252Bavalanche%252Bamid%252Bmaximum%252Balert%252Bacross%252BFrench%252BAlps%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGMyYw8wGIjCOA-_-ew7XpzVekPcrRl8iitac1ZeSu1k_6uOCY9B149wVln1wqKy9G0OjJ94xTB4yBmpjbmRyUloBQw
+Processing trending topic: Cynical Pakistan fans brace for heartbreak in India T20 World Cup match
+Searching Google for: Cynical Pakistan fans brace for heartbreak in India T20 World Cup match
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCynical%252BPakistan%252Bfans%252Bbrace%252Bfor%252Bheartbreak%252Bin%252BIndia%252BT20%252BWorld%252BCup%252Bmatch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4NEGMC1w8wGIjC1PM9-Lbxu-8SmCULgDx9SCPJtzIth3NccC6XCmEHX8WkN-SnhapKflIBErsVW3H8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: helicopter-triggers-avalanche-amid-maximum-alert-a_20260214_1926.html
-✓ Created comprehensive article: helicopter-triggers-avalanche-amid-maximum-alert-a_20260214_1926.html
+Successfully created file: cynical-pakistan-fans-brace-for-heartbreak-in-indi_20260214_2027.html
+✓ Created comprehensive article: cynical-pakistan-fans-brace-for-heartbreak-in-indi_20260214_2027.html
 
-Processing trending topic: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
-Searching Google for: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Bprotester%252BLeqaa%252BKordia%252Bcalls%252BICE%252Bcustody%252B%25E2%2580%2598dehumanising%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGNKYw8wGIjDdPis8vUcPj4x8fAmjgtPcl6QOUqkNGqlCeVDZxFy_33XBK0G9aXW72FSJ7i_NZzAyBmpjbmRyUloBQw
+Processing trending topic: South Africa’s Markram mauls New Zealand in seven-wicket T20 World Cup win
+Searching Google for: South Africa’s Markram mauls New Zealand in seven-wicket T20 World Cup win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrica%25E2%2580%2599s%252BMarkram%252Bmauls%252BNew%252BZealand%252Bin%252Bseven-wicket%252BT20%252BWorld%252BCup%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4NEGMa1w8wGIjATympbMlc6zgXzYDPWFe81_BaWOCBSIctNGWtSLg8aeiCBQ_sj7lIU9gzFp0peK0syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestinian-protester-leqaa-kordia-calls-ice-custo_20260214_1926.html
-✓ Created comprehensive article: palestinian-protester-leqaa-kordia-calls-ice-custo_20260214_1926.html
+Successfully created file: south-africas-markram-mauls-new-zealand-in-seven-w_20260214_2027.html
+✓ Created comprehensive article: south-africas-markram-mauls-new-zealand-in-seven-w_20260214_2027.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Assailants kill at least 30 in north-west Nigerian villages, residents say
+   • Hungary’s Orban says EU bigger threat than Russia before April elections
      Sources: bbc.com, cnn.com, reuters.com
-   • Helicopter triggers avalanche amid maximum alert across French Alps
+   • Cynical Pakistan fans brace for heartbreak in India T20 World Cup match
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
+   • South Africa’s Markram mauls New Zealand in seven-wicket T20 World Cup win
      Sources: bbc.com, cnn.com, reuters.com
