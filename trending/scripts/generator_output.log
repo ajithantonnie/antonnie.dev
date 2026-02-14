@@ -1,70 +1,66 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: How Weston handled pressure to win Olympic gold and GB's first medal
-  Added: Trump says Iran regime change is 'best thing that could happen'
+  Added: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
+  Added: Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could BNP’s landslide win open a new geopolitical chapter for Bangladesh?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India vs Pakistan: T20 World Cup – teams, start time, lineups
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK’s Mandelson asked to cooperate in Epstein probe by US Congress
-Added expanded search topic: Could BNP’s landslide win open a new geopolitical chapter for Bangladesh?
-Added expanded search topic: India vs Pakistan: T20 World Cup – teams, start time, lineups
-Added expanded search topic: UK’s Mandelson asked to cooperate in Epstein probe by US Congress
-Saved 9 topics for 2026-02-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: This Valentine’s Day, chocolate comes with new risks
+Added expanded search topic: This Valentine’s Day, chocolate comes with new risks
+Saved 12 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. Could BNP’s landslide win open a new geopolitical chapter for Bangladesh? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. India vs Pakistan: T20 World Cup – teams, start time, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. UK’s Mandelson asked to cooperate in Epstein probe by US Congress (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger (from BBC News)
+  2. Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview (from BBC News)
+  3. This Valentine’s Day, chocolate comes with new risks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Could BNP’s landslide win open a new geopolitical chapter for Bangladesh?
-Searching Google for: Could BNP’s landslide win open a new geopolitical chapter for Bangladesh?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252BBNP%25E2%2580%2599s%252Blandslide%252Bwin%252Bopen%252Ba%252Bnew%252Bgeopolitical%252Bchapter%252Bfor%252BBangladesh%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN95RGI6YwMwGIjBozXL8-EC_e-YaWQ--tBL4TYmqE_O7t6ALElXO5lrv_B_Kr6VlBShhhUVxDTW4ISUyBmpjbmRyUloBQw
+Processing trending topic: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
+Searching Google for: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-bnps-landslide-win-open-a-new-geopolitical-c_20260214_0545.html
-✓ Created comprehensive article: could-bnps-landslide-win-open-a-new-geopolitical-c_20260214_0545.html
+Successfully created file: gisèle-pelicot-tells-bbc-i-felt-crushed-by-horror-_20260214_0645.html
+✓ Created comprehensive article: gisèle-pelicot-tells-bbc-i-felt-crushed-by-horror-_20260214_0645.html
 
-Processing trending topic: India vs Pakistan: T20 World Cup – teams, start time, lineups
-Searching Google for: India vs Pakistan: T20 World Cup – teams, start time, lineups
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bvs%252BPakistan%253A%252BT20%252BWorld%252BCup%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252Btime%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN95RGJWYwMwGIjBG5VJa9CaxV7JAbD8jp4tKVhoqOfFB12SrvgTuifFI2xmeqtd5GtZCh9uN-AmQj8kyBmpjbmRyUloBQw
+Processing trending topic: Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
+Searching Google for: Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252B%2527I%252Bam%252Ba%252Bsurvivor%2527%252BGis%25C3%25A8le%252BPelicot%252Btells%252BBBC%252BNewsnight%252Bin%252Ban%252Bin-depth%252Binterview%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGMK0wMwGIjCo3Rv8FBnzDve2MRUKKksOgw2GaNqkYjQYIngdjuuIP018w_ba10cNRoXh0pGcx_gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: india-vs-pakistan-t20-world-cup-teams-start-time-l_20260214_0546.html
-✓ Created comprehensive article: india-vs-pakistan-t20-world-cup-teams-start-time-l_20260214_0546.html
+Successfully created file: watch-i-am-a-survivor-gisèle-pelicot-tells-bbc-new_20260214_0646.html
+✓ Created comprehensive article: watch-i-am-a-survivor-gisèle-pelicot-tells-bbc-new_20260214_0646.html
 
-Processing trending topic: UK’s Mandelson asked to cooperate in Epstein probe by US Congress
-Searching Google for: UK’s Mandelson asked to cooperate in Epstein probe by US Congress
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%25E2%2580%2599s%252BMandelson%252Basked%252Bto%252Bcooperate%252Bin%252BEpstein%252Bprobe%252Bby%252BUS%252BCongress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN95RGJuYwMwGIjCnVmT4QA8ogGcIkm2QiaRapYKGGBH_4avEAwIY9XTWSRI88FExxzRrAqOs80XsGSwyBmpjbmRyUloBQw
+Processing trending topic: This Valentine’s Day, chocolate comes with new risks
+Searching Google for: This Valentine’s Day, chocolate comes with new risks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThis%252BValentine%25E2%2580%2599s%252BDay%252C%252Bchocolate%252Bcomes%252Bwith%252Bnew%252Brisks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGMm0wMwGIjBnHUqGsA_5CB-wlfDAytCh2Vvt6YPJ41cbEz0gV55BkjOapr3JSDy3FJXFs0M_XZ0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uks-mandelson-asked-to-cooperate-in-epstein-probe-_20260214_0546.html
-✓ Created comprehensive article: uks-mandelson-asked-to-cooperate-in-epstein-probe-_20260214_0546.html
+Successfully created file: this-valentines-day-chocolate-comes-with-new-risks_20260214_0646.html
+✓ Created comprehensive article: this-valentines-day-chocolate-comes-with-new-risks_20260214_0646.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Could BNP’s landslide win open a new geopolitical chapter for Bangladesh?
+   • Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
      Sources: bbc.com, cnn.com, reuters.com
-   • India vs Pakistan: T20 World Cup – teams, start time, lineups
+   • Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
      Sources: bbc.com, cnn.com, reuters.com
-   • UK’s Mandelson asked to cooperate in Epstein probe by US Congress
+   • This Valentine’s Day, chocolate comes with new risks
      Sources: bbc.com, cnn.com, reuters.com
