@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Swear words fly as cheating allegations made in curling at Winter Olympics
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Winter Olympics hit by another suspected sabotage of rail services
-Added expanded search topic: Swear words fly as cheating allegations made in curling at Winter Olympics
-Added expanded search topic: Winter Olympics hit by another suspected sabotage of rail services
-Saved 33 topics for 2026-02-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladeshi PM-in-waiting urges opposition to work with BNP
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: England beat Scotland to get T20 World Cup bid back on track
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
+Added expanded search topic: Bangladeshi PM-in-waiting urges opposition to work with BNP
+Added expanded search topic: England beat Scotland to get T20 World Cup bid back on track
+Added expanded search topic: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
+Saved 36 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says (from BBC News)
-  2. Swear words fly as cheating allegations made in curling at Winter Olympics (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Winter Olympics hit by another suspected sabotage of rail services (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bangladeshi PM-in-waiting urges opposition to work with BNP (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. England beat Scotland to get T20 World Cup bid back on track (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. T20 World Cup: Pakistan ‘always ready’ for India despite late green light (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
-Searching Google for: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bkilled%252Bopposition%252Bleader%252BAlexei%252BNavalny%252Busing%252Bdart%252Bfrog%252Btoxin%252C%252BUK%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6RGJb5wcwGIjAoWup3o_q1SDzEZM7D8Xs_jdj742MbYKJonEiCLxnZgB2020xyN26lf2Xy0DJteyQyAnJSWgFD
+Processing trending topic: Bangladeshi PM-in-waiting urges opposition to work with BNP
+Searching Google for: Bangladeshi PM-in-waiting urges opposition to work with BNP
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladeshi%252BPM-in-waiting%252Burges%252Bopposition%252Bto%252Bwork%252Bwith%252BBNP%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LkVGL6NwswGIjDnhyNSMCZy8gFojPM88eKJ8NP2xmg5dx2ZdN6OnT0P2uNeMnGtzLaIk-iUoMZX09kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-killed-opposition-leader-alexei-navalny-usi_20260214_1346.html
-✓ Created comprehensive article: russia-killed-opposition-leader-alexei-navalny-usi_20260214_1346.html
+Successfully created file: bangladeshi-pm-in-waiting-urges-opposition-to-work_20260214_1429.html
+✓ Created comprehensive article: bangladeshi-pm-in-waiting-urges-opposition-to-work_20260214_1429.html
 
-Processing trending topic: Swear words fly as cheating allegations made in curling at Winter Olympics
-Searching Google for: Swear words fly as cheating allegations made in curling at Winter Olympics
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSwear%252Bwords%252Bfly%252Bas%252Bcheating%252Ballegations%252Bmade%252Bin%252Bcurling%252Bat%252BWinter%252BOlympics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6RGKT5wcwGIjDI3EqDB3TlSnUP3oyjuhQHPABdjzuS7pZRGTontN7qhEq3J-CiE2mYjGcR2DfuIVcyAnJSWgFD
+Processing trending topic: England beat Scotland to get T20 World Cup bid back on track
+Searching Google for: England beat Scotland to get T20 World Cup bid back on track
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bbeat%252BScotland%252Bto%252Bget%252BT20%252BWorld%252BCup%252Bbid%252Bback%252Bon%252Btrack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LkVGMWNwswGIjA6caUZk9pDAXaz-93Hi2ElPOhyAW2h7sUl80oBQhFS8W2wlt-mliTcmqF2mp2VjQ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: swear-words-fly-as-cheating-allegations-made-in-cu_20260214_1346.html
-✓ Created comprehensive article: swear-words-fly-as-cheating-allegations-made-in-cu_20260214_1346.html
+Successfully created file: england-beat-scotland-to-get-t20-world-cup-bid-bac_20260214_1429.html
+✓ Created comprehensive article: england-beat-scotland-to-get-t20-world-cup-bid-bac_20260214_1429.html
 
-Processing trending topic: Winter Olympics hit by another suspected sabotage of rail services
-Searching Google for: Winter Olympics hit by another suspected sabotage of rail services
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWinter%252BOlympics%252Bhit%252Bby%252Banother%252Bsuspected%252Bsabotage%252Bof%252Brail%252Bservices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6RGLD5wcwGIjBJbA8GjNTgf4eDbLdHOP6jC-dqb0jza3J1rFF0aQ7IF81feCFs-uvsSDuupLJKGKIyAnJSWgFD
+Processing trending topic: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
+Searching Google for: T20 World Cup: Pakistan ‘always ready’ for India despite late green light
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DT20%252BWorld%252BCup%253A%252BPakistan%252B%25E2%2580%2598always%252Bready%25E2%2580%2599%252Bfor%252BIndia%252Bdespite%252Blate%252Bgreen%252Blight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LkVGMuNwswGIjDUQb--CukEt4ivPF3RZGYMgXj34tjQueT05aRkhnIEWegpWmTGAR3nWRpYoAMFIMkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: winter-olympics-hit-by-another-suspected-sabotage-_20260214_1346.html
-✓ Created comprehensive article: winter-olympics-hit-by-another-suspected-sabotage-_20260214_1346.html
+Successfully created file: t20-world-cup-pakistan-always-ready-for-india-desp_20260214_1429.html
+✓ Created comprehensive article: t20-world-cup-pakistan-always-ready-for-india-desp_20260214_1429.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
+   • Bangladeshi PM-in-waiting urges opposition to work with BNP
      Sources: bbc.com, cnn.com, reuters.com
-   • Swear words fly as cheating allegations made in curling at Winter Olympics
+   • England beat Scotland to get T20 World Cup bid back on track
      Sources: bbc.com, cnn.com, reuters.com
-   • Winter Olympics hit by another suspected sabotage of rail services
+   • T20 World Cup: Pakistan ‘always ready’ for India despite late green light
      Sources: bbc.com, cnn.com, reuters.com
