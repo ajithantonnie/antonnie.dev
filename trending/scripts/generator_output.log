@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 45 topics
+Already used today: 48 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
@@ -8,59 +8,61 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Assailants kill at least 30 in northwest Nigeria villages, residents say
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: Assailants kill at least 30 in north-west Nigerian villages, residents say
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia’s Alexey Navalny killed by dart frog poison, European nations allege
-Added expanded search topic: Russia’s Alexey Navalny killed by dart frog poison, European nations allege
-Saved 48 topics for 2026-02-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Helicopter triggers avalanche amid maximum alert across French Alps
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
+Added expanded search topic: Helicopter triggers avalanche amid maximum alert across French Alps
+Added expanded search topic: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
+Saved 51 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. Europe must be ready to fight, PM tells Munich Security Conference (from BBC News)
-  2. Assailants kill at least 30 in northwest Nigeria villages, residents say (from The Guardian)
-  3. Russia’s Alexey Navalny killed by dart frog poison, European nations allege (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Assailants kill at least 30 in north-west Nigerian villages, residents say (from The Guardian)
+  2. Helicopter triggers avalanche amid maximum alert across French Alps (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Europe must be ready to fight, PM tells Munich Security Conference
-Searching Google for: Europe must be ready to fight, PM tells Munich Security Conference
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEurope%252Bmust%252Bbe%252Bready%252Bto%252Bfight%252C%252BPM%252Btells%252BMunich%252BSecurity%252BConference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pWwGNuAw8wGIjA6mVvZUgsgfjwkqtf3MBuN_qgpWxfKk2vLYh6lrVfkzl_ruDalkQBPu40U9NYKgKQyAnJSWgFD
+Processing trending topic: Assailants kill at least 30 in north-west Nigerian villages, residents say
+Searching Google for: Assailants kill at least 30 in north-west Nigerian villages, residents say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B30%252Bin%252Bnorth-west%252BNigerian%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGMWYw8wGIjBedcSmFqRsngTK3k3Al7kq-i6-uHCz-N5QwFlAPiqC8JF2syV_rHgXizA9b7tn9AwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: europe-must-be-ready-to-fight-pm-tells-munich-secu_20260214_1835.html
-✓ Created comprehensive article: europe-must-be-ready-to-fight-pm-tells-munich-secu_20260214_1835.html
+Successfully created file: assailants-kill-at-least-30-in-north-west-nigerian_20260214_1926.html
+✓ Created comprehensive article: assailants-kill-at-least-30-in-north-west-nigerian_20260214_1926.html
 
-Processing trending topic: Assailants kill at least 30 in northwest Nigeria villages, residents say
-Searching Google for: Assailants kill at least 30 in northwest Nigeria villages, residents say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B30%252Bin%252Bnorthwest%252BNigeria%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pWwGOKAw8wGIjAi2HPic4IQKsTAzGAPKmUvIMQaIPMip3BxZt667ntBNofPIj8LD7vjR5IkZU9817cyAnJSWgFD
+Processing trending topic: Helicopter triggers avalanche amid maximum alert across French Alps
+Searching Google for: Helicopter triggers avalanche amid maximum alert across French Alps
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHelicopter%252Btriggers%252Bavalanche%252Bamid%252Bmaximum%252Balert%252Bacross%252BFrench%252BAlps%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGMyYw8wGIjCOA-_-ew7XpzVekPcrRl8iitac1ZeSu1k_6uOCY9B149wVln1wqKy9G0OjJ94xTB4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: assailants-kill-at-least-30-in-northwest-nigeria-v_20260214_1835.html
-✓ Created comprehensive article: assailants-kill-at-least-30-in-northwest-nigeria-v_20260214_1835.html
+Successfully created file: helicopter-triggers-avalanche-amid-maximum-alert-a_20260214_1926.html
+✓ Created comprehensive article: helicopter-triggers-avalanche-amid-maximum-alert-a_20260214_1926.html
 
-Processing trending topic: Russia’s Alexey Navalny killed by dart frog poison, European nations allege
-Searching Google for: Russia’s Alexey Navalny killed by dart frog poison, European nations allege
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%25E2%2580%2599s%252BAlexey%252BNavalny%252Bkilled%252Bby%252Bdart%252Bfrog%252Bpoison%252C%252BEuropean%252Bnations%252Ballege%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pWwGOmAw8wGIjCGy32eSxkaOU7OU3WqTeTJBt_-r37BcgxhOWcl_CCwOHfzm9WhLiNKZBIEd7mQhgQyAnJSWgFD
+Processing trending topic: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
+Searching Google for: Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Bprotester%252BLeqaa%252BKordia%252Bcalls%252BICE%252Bcustody%252B%25E2%2580%2598dehumanising%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGNKYw8wGIjDdPis8vUcPj4x8fAmjgtPcl6QOUqkNGqlCeVDZxFy_33XBK0G9aXW72FSJ7i_NZzAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russias-alexey-navalny-killed-by-dart-frog-poison-_20260214_1835.html
-✓ Created comprehensive article: russias-alexey-navalny-killed-by-dart-frog-poison-_20260214_1835.html
+Successfully created file: palestinian-protester-leqaa-kordia-calls-ice-custo_20260214_1926.html
+✓ Created comprehensive article: palestinian-protester-leqaa-kordia-calls-ice-custo_20260214_1926.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Europe must be ready to fight, PM tells Munich Security Conference
+   • Assailants kill at least 30 in north-west Nigerian villages, residents say
      Sources: bbc.com, cnn.com, reuters.com
-   • Assailants kill at least 30 in northwest Nigeria villages, residents say
+   • Helicopter triggers avalanche amid maximum alert across French Alps
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia’s Alexey Navalny killed by dart frog poison, European nations allege
+   • Palestinian protester Leqaa Kordia calls ICE custody ‘dehumanising’
      Sources: bbc.com, cnn.com, reuters.com
