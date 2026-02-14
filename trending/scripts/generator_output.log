@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: 53 people dead or missing after migrant boat capsizes in Mediterranean
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: This Valentine’s Day, chocolate comes with new risks
-Added expanded search topic: This Valentine’s Day, chocolate comes with new risks
-Saved 12 topics for 2026-02-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: World leaders gather in Munich for 2nd day of security conference
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US ends temporary protected status for Yemeni refugees, asylum seekers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why the BNP won Bangladesh’s post-uprising election
+Added expanded search topic: LIVE: World leaders gather in Munich for 2nd day of security conference
+Added expanded search topic: US ends temporary protected status for Yemeni refugees, asylum seekers
+Added expanded search topic: Why the BNP won Bangladesh’s post-uprising election
+Saved 15 topics for 2026-02-14
 Returning 3 unique trending topics:
-  1. Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger (from BBC News)
-  2. Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview (from BBC News)
-  3. This Valentine’s Day, chocolate comes with new risks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. LIVE: World leaders gather in Munich for 2nd day of security conference (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US ends temporary protected status for Yemeni refugees, asylum seekers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why the BNP won Bangladesh’s post-uprising election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
-Searching Google for: Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: LIVE: World leaders gather in Munich for 2nd day of security conference
+Searching Google for: LIVE: World leaders gather in Munich for 2nd day of security conference
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BWorld%252Bleaders%252Bgather%252Bin%252BMunich%252Bfor%252B2nd%252Bday%252Bof%252Bsecurity%252Bconference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19LgGPrLwMwGIjCT3Bp6AibYGhCB4WotMTsvdVX0G37zRekgYF9NL_5ZXvNoQG087kqA3c1UHWO6UNkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gisèle-pelicot-tells-bbc-i-felt-crushed-by-horror-_20260214_0645.html
-✓ Created comprehensive article: gisèle-pelicot-tells-bbc-i-felt-crushed-by-horror-_20260214_0645.html
+Successfully created file: live-world-leaders-gather-in-munich-for-2nd-day-of_20260214_0736.html
+✓ Created comprehensive article: live-world-leaders-gather-in-munich-for-2nd-day-of_20260214_0736.html
 
-Processing trending topic: Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
-Searching Google for: Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252B%2527I%252Bam%252Ba%252Bsurvivor%2527%252BGis%25C3%25A8le%252BPelicot%252Btells%252BBBC%252BNewsnight%252Bin%252Ban%252Bin-depth%252Binterview%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGMK0wMwGIjCo3Rv8FBnzDve2MRUKKksOgw2GaNqkYjQYIngdjuuIP018w_ba10cNRoXh0pGcx_gyBmpjbmRyUloBQw
+Processing trending topic: US ends temporary protected status for Yemeni refugees, asylum seekers
+Searching Google for: US ends temporary protected status for Yemeni refugees, asylum seekers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bends%252Btemporary%252Bprotected%252Bstatus%252Bfor%252BYemeni%252Brefugees%252C%252Basylum%252Bseekers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19LgGIHMwMwGIjBN6j2uMhIQAnwtV0e14bqyaBMMc0LvaSvJMzw5J8VKbwyp2-olomYJ1b8RShMLVqIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-i-am-a-survivor-gisèle-pelicot-tells-bbc-new_20260214_0646.html
-✓ Created comprehensive article: watch-i-am-a-survivor-gisèle-pelicot-tells-bbc-new_20260214_0646.html
+Successfully created file: us-ends-temporary-protected-status-for-yemeni-refu_20260214_0736.html
+✓ Created comprehensive article: us-ends-temporary-protected-status-for-yemeni-refu_20260214_0736.html
 
-Processing trending topic: This Valentine’s Day, chocolate comes with new risks
-Searching Google for: This Valentine’s Day, chocolate comes with new risks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThis%252BValentine%25E2%2580%2599s%252BDay%252C%252Bchocolate%252Bcomes%252Bwith%252Bnew%252Brisks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGMm0wMwGIjBnHUqGsA_5CB-wlfDAytCh2Vvt6YPJ41cbEz0gV55BkjOapr3JSDy3FJXFs0M_XZ0yBmpjbmRyUloBQw
+Processing trending topic: Why the BNP won Bangladesh’s post-uprising election
+Searching Google for: Why the BNP won Bangladesh’s post-uprising election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bthe%252BBNP%252Bwon%252BBangladesh%25E2%2580%2599s%252Bpost-uprising%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19LgGIjMwMwGIjDXOWjrzQ_3NeWj4qc3eqeIpSY-FjDEBVEQk_3F6iFAp5dui3N3mfz7pfqMeoaWVq8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: this-valentines-day-chocolate-comes-with-new-risks_20260214_0646.html
-✓ Created comprehensive article: this-valentines-day-chocolate-comes-with-new-risks_20260214_0646.html
+Successfully created file: why-the-bnp-won-bangladeshs-post-uprising-election_20260214_0736.html
+✓ Created comprehensive article: why-the-bnp-won-bangladeshs-post-uprising-election_20260214_0736.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Gisèle Pelicot tells BBC: I felt crushed by horror - but I don't feel anger
+   • LIVE: World leaders gather in Munich for 2nd day of security conference
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: 'I am a survivor' Gisèle Pelicot tells BBC Newsnight in an in-depth interview
+   • US ends temporary protected status for Yemeni refugees, asylum seekers
      Sources: bbc.com, cnn.com, reuters.com
-   • This Valentine’s Day, chocolate comes with new risks
+   • Why the BNP won Bangladesh’s post-uprising election
      Sources: bbc.com, cnn.com, reuters.com
