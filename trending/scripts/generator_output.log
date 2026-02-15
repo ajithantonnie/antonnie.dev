@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
@@ -8,55 +8,61 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-15
+  Added: Assailants kill at least 32 in north-west Nigerian villages, residents say
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
+Added expanded search topic: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
+Added expanded search topic: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
+Saved 6 topics for 2026-02-15
 Returning 3 unique trending topics:
-  1. Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says (from BBC News)
-  2. Europe must be ready to fight, PM tells Munich Security Conference (from BBC News)
-  3. Assailants kill at least 30 in north-west Nigerian villages, residents say (from The Guardian)
+  1. Assailants kill at least 32 in north-west Nigerian villages, residents say (from The Guardian)
+  2. Cyclone Gezani kills four in Mozambique as Madagascar assesses damage (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
-Searching Google for: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bkilled%252Bopposition%252Bleader%252BAlexei%252BNavalny%252Busing%252Bdart%252Bfrog%252Btoxin%252C%252BUK%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGIjVxMwGIjAqbDG9omaG3zKZFYy2aDxN0RuGfq9XQObmdNbA6-8rxZcANBGBQx9S-CE_Y2ChlG8yAnJSWgFD
+Processing trending topic: Assailants kill at least 32 in north-west Nigerian villages, residents say
+Searching Google for: Assailants kill at least 32 in north-west Nigerian villages, residents say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B32%252Bin%252Bnorth-west%252BNigerian%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8jGN2jxcwGIjAQhdsLw-TKnbsf_LeHoLDWyxIBw-ZWHubxmTjKoT_d-jjGN4j_36hv41Mx7WIUB5oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-killed-opposition-leader-alexei-navalny-usi_20260215_0208.html
-✓ Created comprehensive article: russia-killed-opposition-leader-alexei-navalny-usi_20260215_0208.html
+Successfully created file: assailants-kill-at-least-32-in-north-west-nigerian_20260215_0456.html
+✓ Created comprehensive article: assailants-kill-at-least-32-in-north-west-nigerian_20260215_0456.html
 
-Processing trending topic: Europe must be ready to fight, PM tells Munich Security Conference
-Searching Google for: Europe must be ready to fight, PM tells Munich Security Conference
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEurope%252Bmust%252Bbe%252Bready%252Bto%252Bfight%252C%252BPM%252Btells%252BMunich%252BSecurity%252BConference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGI_VxMwGIjAkgqofrPdOQYtwKW99aa4or8HW5gtmk0rGQxfTooG-wGLNRYFGG32dRYF-NsRSKPIyAnJSWgFD
+Processing trending topic: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
+Searching Google for: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCyclone%252BGezani%252Bkills%252Bfour%252Bin%252BMozambique%252Bas%252BMadagascar%252Bassesses%252Bdamage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8jGOijxcwGIjAH6c0sLWBpP5uJtacYRmu5B6cdNYW5fIOb6pa1Ue5lJoGF935a2HvHwXvQesK4FxkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: europe-must-be-ready-to-fight-pm-tells-munich-secu_20260215_0208.html
-✓ Created comprehensive article: europe-must-be-ready-to-fight-pm-tells-munich-secu_20260215_0208.html
+Successfully created file: cyclone-gezani-kills-four-in-mozambique-as-madagas_20260215_0456.html
+✓ Created comprehensive article: cyclone-gezani-kills-four-in-mozambique-as-madagas_20260215_0456.html
 
-Processing trending topic: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Searching Google for: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B30%252Bin%252Bnorth-west%252BNigerian%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGJbVxMwGIjBgsh2qPE7rfy0ygf9XfcKByaSOvHsIr33a8a7k6doEfSBMc6ERdb1aLgfYS1i2u2wyAnJSWgFD
+Processing trending topic: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
+Searching Google for: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bkill%252Beight%252BPalestinians%252Bin%252BGaza%252C%252Battack%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8jGPKjxcwGIjA5nEA5KdvgzlDjq5L0vovWTMXX-EPMzH5jlWzH7N7PPzNwUPZUGjdVNhYMkKK5-wcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: assailants-kill-at-least-30-in-north-west-nigerian_20260215_0208.html
-✓ Created comprehensive article: assailants-kill-at-least-30-in-north-west-nigerian_20260215_0208.html
+Successfully created file: israeli-forces-kill-eight-palestinians-in-gaza-att_20260215_0456.html
+✓ Created comprehensive article: israeli-forces-kill-eight-palestinians-in-gaza-att_20260215_0456.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
+   • Assailants kill at least 32 in north-west Nigerian villages, residents say
      Sources: bbc.com, cnn.com, reuters.com
-   • Europe must be ready to fight, PM tells Munich Security Conference
+   • Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
      Sources: bbc.com, cnn.com, reuters.com
-   • Assailants kill at least 30 in north-west Nigerian villages, residents say
+   • Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
