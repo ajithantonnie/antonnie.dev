@@ -1,70 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Team GB clinches second gold of day at Winter Olympics
   Added: Andrew's time as trade envoy should be investigated, says Vince Cable
-  Added: UK wants action taken on Russia after Navalny frog poisoning, Cooper says
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Assailants kill at least 32 in north-west Nigerian villages, residents say
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from World News - Breaking international news and headlines | Sky News: Man dies after being pulled from flooded brook following police chase
-  Found from World News - Breaking international news and headlines | Sky News: The end of the world order as we know it? What the Munich Security Conference means for the UK
-  Found from World News - Breaking international news and headlines | Sky News: Airstrikes in Gaza kill 11 people, locals say, as Israel claims Hamas violated ceasefire
-Added expanded search topic: Man dies after being pulled from flooded brook following police chase
-Added expanded search topic: The end of the world order as we know it? What the Munich Security Conference means for the UK
-Added expanded search topic: Airstrikes in Gaza kill 11 people, locals say, as Israel claims Hamas violated ceasefire
-Saved 51 topics for 2026-02-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine’s ex-energy minister arrested while trying to cross border
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India rout bitter rivals Pakistan at T20 World Cup
+Added expanded search topic: Ukraine’s ex-energy minister arrested while trying to cross border
+Added expanded search topic: India rout bitter rivals Pakistan at T20 World Cup
+Saved 54 topics for 2026-02-15
 Returning 3 unique trending topics:
-  1. Man dies after being pulled from flooded brook following police chase (from World News - Breaking international news and headlines | Sky News)
-  2. The end of the world order as we know it? What the Munich Security Conference means for the UK (from World News - Breaking international news and headlines | Sky News)
-  3. Airstrikes in Gaza kill 11 people, locals say, as Israel claims Hamas violated ceasefire (from World News - Breaking international news and headlines | Sky News)
+  1. Team GB clinches second gold of day at Winter Olympics (from BBC News)
+  2. Ukraine’s ex-energy minister arrested while trying to cross border (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. India rout bitter rivals Pakistan at T20 World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man dies after being pulled from flooded brook following police chase
-Searching Google for: Man dies after being pulled from flooded brook following police chase
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bdies%252Bafter%252Bbeing%252Bpulled%252Bfrom%252Bflooded%252Bbrook%252Bfollowing%252Bpolice%252Bchase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4MTGIu8yMwGIjDbNGZeD8lG6wDKJkBHAdJ_QVxTedi30C4S5nwctiXRJdU0uZPPA4cAwJMRZvJzxTMyBmpjbmRyUloBQw
+Processing trending topic: Team GB clinches second gold of day at Winter Olympics
+Searching Google for: Team GB clinches second gold of day at Winter Olympics
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTeam%252BGB%252Bclinches%252Bsecond%252Bgold%252Bof%252Bday%252Bat%252BWinter%252BOlympics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IynGM3YyMwGIjAiPIcJ3LtHir7vwEqT6BsU2LSQjQK_EfeMTM9cvu3mMIyp1KUEZAMMqODcdjkKPJoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-dies-after-being-pulled-from-flooded-brook-fol_20260215_1927.html
-✓ Created comprehensive article: man-dies-after-being-pulled-from-flooded-brook-fol_20260215_1927.html
+Successfully created file: team-gb-clinches-second-gold-of-day-at-winter-olym_20260215_2028.html
+✓ Created comprehensive article: team-gb-clinches-second-gold-of-day-at-winter-olym_20260215_2028.html
 
-Processing trending topic: The end of the world order as we know it? What the Munich Security Conference means for the UK
-Searching Google for: The end of the world order as we know it? What the Munich Security Conference means for the UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bend%252Bof%252Bthe%252Bworld%252Border%252Bas%252Bwe%252Bknow%252Bit%253F%252BWhat%252Bthe%252BMunich%252BSecurity%252BConference%252Bmeans%252Bfor%252Bthe%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4MTGJK8yMwGIjAaX2N9x4ZgDw_C9T2luBG27R7x7GL07bYuOimy8aSqi8We9C6Z6TUVU_ALhppHRgEyBmpjbmRyUloBQw
+Processing trending topic: Ukraine’s ex-energy minister arrested while trying to cross border
+Searching Google for: Ukraine’s ex-energy minister arrested while trying to cross border
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%25E2%2580%2599s%252Bex-energy%252Bminister%252Barrested%252Bwhile%252Btrying%252Bto%252Bcross%252Bborder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IynGNTYyMwGIjB6STAHBc9_28C16E1OpPUvxCf27x1_3dpBLKH27xieYOYGRQKj4xTAzfVEsRFMvOMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-end-of-the-world-order-as-we-know-it-what-the-_20260215_1927.html
-✓ Created comprehensive article: the-end-of-the-world-order-as-we-know-it-what-the-_20260215_1927.html
+Successfully created file: ukraines-ex-energy-minister-arrested-while-trying-_20260215_2028.html
+✓ Created comprehensive article: ukraines-ex-energy-minister-arrested-while-trying-_20260215_2028.html
 
-Processing trending topic: Airstrikes in Gaza kill 11 people, locals say, as Israel claims Hamas violated ceasefire
-Searching Google for: Airstrikes in Gaza kill 11 people, locals say, as Israel claims Hamas violated ceasefire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAirstrikes%252Bin%252BGaza%252Bkill%252B11%252Bpeople%252C%252Blocals%252Bsay%252C%252Bas%252BIsrael%252Bclaims%252BHamas%252Bviolated%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4MTGJi8yMwGIjATgPtrdIWFm3XCxoIWuYpOLlTZL6q-GRpUAcaVV5Th7L2On7686W-RBAA6F1N2MykyBmpjbmRyUloBQw
+Processing trending topic: India rout bitter rivals Pakistan at T20 World Cup
+Searching Google for: India rout bitter rivals Pakistan at T20 World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Brout%252Bbitter%252Brivals%252BPakistan%252Bat%252BT20%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IynGNrYyMwGIjBFcGYnr-91JQE7qmYANv5nuto5sF465hEUg4fOV-X7sAWgrJVO_nf6RQ5EXRGrIm8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: airstrikes-in-gaza-kill-11-people-locals-say-as-is_20260215_1927.html
-✓ Created comprehensive article: airstrikes-in-gaza-kill-11-people-locals-say-as-is_20260215_1927.html
+Successfully created file: india-rout-bitter-rivals-pakistan-at-t20-world-cup_20260215_2028.html
+✓ Created comprehensive article: india-rout-bitter-rivals-pakistan-at-t20-world-cup_20260215_2028.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man dies after being pulled from flooded brook following police chase
+   • Team GB clinches second gold of day at Winter Olympics
      Sources: bbc.com, cnn.com, reuters.com
-   • The end of the world order as we know it? What the Munich Security Conference means for the UK
+   • Ukraine’s ex-energy minister arrested while trying to cross border
      Sources: bbc.com, cnn.com, reuters.com
-   • Airstrikes in Gaza kill 11 people, locals say, as Israel claims Hamas violated ceasefire
+   • India rout bitter rivals Pakistan at T20 World Cup
      Sources: bbc.com, cnn.com, reuters.com
