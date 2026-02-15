@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Assailants kill at least 32 in north-west Nigerian villages, residents say
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
-Added expanded search topic: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
-Added expanded search topic: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
-Saved 6 topics for 2026-02-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill nine Palestinians in Gaza, attack southern Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gunmen kill at least 32 people in northern Nigeria, residents say
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,452
+Added expanded search topic: Israeli forces kill nine Palestinians in Gaza, attack southern Lebanon
+Added expanded search topic: Gunmen kill at least 32 people in northern Nigeria, residents say
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,452
+Saved 9 topics for 2026-02-15
 Returning 3 unique trending topics:
-  1. Assailants kill at least 32 in north-west Nigerian villages, residents say (from The Guardian)
-  2. Cyclone Gezani kills four in Mozambique as Madagascar assesses damage (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israeli forces kill nine Palestinians in Gaza, attack southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Gunmen kill at least 32 people in northern Nigeria, residents say (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,452 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Assailants kill at least 32 in north-west Nigerian villages, residents say
-Searching Google for: Assailants kill at least 32 in north-west Nigerian villages, residents say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B32%252Bin%252Bnorth-west%252BNigerian%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8jGN2jxcwGIjAQhdsLw-TKnbsf_LeHoLDWyxIBw-ZWHubxmTjKoT_d-jjGN4j_36hv41Mx7WIUB5oyBmpjbmRyUloBQw
+Processing trending topic: Israeli forces kill nine Palestinians in Gaza, attack southern Lebanon
+Searching Google for: Israeli forces kill nine Palestinians in Gaza, attack southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bkill%252Bnine%252BPalestinians%252Bin%252BGaza%252C%252Battack%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgEGKDBxcwGIjCBzLRzxJtarInq2MT1kKBFWoRHnVFCowdoJvAPJazHWlCUcwalJpbTSaC1xfux-XIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: assailants-kill-at-least-32-in-north-west-nigerian_20260215_0456.html
-✓ Created comprehensive article: assailants-kill-at-least-32-in-north-west-nigerian_20260215_0456.html
+Successfully created file: israeli-forces-kill-nine-palestinians-in-gaza-atta_20260215_0559.html
+✓ Created comprehensive article: israeli-forces-kill-nine-palestinians-in-gaza-atta_20260215_0559.html
 
-Processing trending topic: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
-Searching Google for: Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCyclone%252BGezani%252Bkills%252Bfour%252Bin%252BMozambique%252Bas%252BMadagascar%252Bassesses%252Bdamage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8jGOijxcwGIjAH6c0sLWBpP5uJtacYRmu5B6cdNYW5fIOb6pa1Ue5lJoGF935a2HvHwXvQesK4FxkyBmpjbmRyUloBQw
+Processing trending topic: Gunmen kill at least 32 people in northern Nigeria, residents say
+Searching Google for: Gunmen kill at least 32 people in northern Nigeria, residents say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkill%252Bat%252Bleast%252B32%252Bpeople%252Bin%252Bnorthern%252BNigeria%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgEGK7BxcwGIjCqqbifZ9rJMsXcAEBEYcGKi757cvlqstMqWAtTq614oJUdhY5_FF-uSbwarS2xbCMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cyclone-gezani-kills-four-in-mozambique-as-madagas_20260215_0456.html
-✓ Created comprehensive article: cyclone-gezani-kills-four-in-mozambique-as-madagas_20260215_0456.html
+Successfully created file: gunmen-kill-at-least-32-people-in-northern-nigeria_20260215_0559.html
+✓ Created comprehensive article: gunmen-kill-at-least-32-people-in-northern-nigeria_20260215_0559.html
 
-Processing trending topic: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
-Searching Google for: Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bkill%252Beight%252BPalestinians%252Bin%252BGaza%252C%252Battack%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i8jGPKjxcwGIjA5nEA5KdvgzlDjq5L0vovWTMXX-EPMzH5jlWzH7N7PPzNwUPZUGjdVNhYMkKK5-wcyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,452
+Searching Google for: Russia-Ukraine war: List of key events, day 1,452
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C452%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUgEGLvBxcwGIjDGoYoGayaC17mR6W978jyw9rtM2UL-aAn83jrtTxeyvAdCuJ5AuEprputtFrwTAB4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-forces-kill-eight-palestinians-in-gaza-att_20260215_0456.html
-✓ Created comprehensive article: israeli-forces-kill-eight-palestinians-in-gaza-att_20260215_0456.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1452_20260215_0559.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1452_20260215_0559.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Assailants kill at least 32 in north-west Nigerian villages, residents say
+   • Israeli forces kill nine Palestinians in Gaza, attack southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • Cyclone Gezani kills four in Mozambique as Madagascar assesses damage
+   • Gunmen kill at least 32 people in northern Nigeria, residents say
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli forces kill eight Palestinians in Gaza, attack southern Lebanon
+   • Russia-Ukraine war: List of key events, day 1,452
      Sources: bbc.com, cnn.com, reuters.com
