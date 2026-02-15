@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
@@ -9,62 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Assailants kill at least 30 in north-west Nigerian villages, residents say
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US army launches retaliatory strikes on dozens of ISIL targets in Syria
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid thrash Real Sociedad 4-1 to move top of La Liga
-  Found from World News - Breaking international news and headlines | Sky News: More than 30 killed as gunmen attack communities in northern Nigeria
-Added expanded search topic: US army launches retaliatory strikes on dozens of ISIL targets in Syria
-Added expanded search topic: Real Madrid thrash Real Sociedad 4-1 to move top of La Liga
-Added expanded search topic: More than 30 killed as gunmen attack communities in northern Nigeria
-Saved 63 topics for 2026-02-14
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-15
 Returning 3 unique trending topics:
-  1. US army launches retaliatory strikes on dozens of ISIL targets in Syria (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Real Madrid thrash Real Sociedad 4-1 to move top of La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. More than 30 killed as gunmen attack communities in northern Nigeria (from World News - Breaking international news and headlines | Sky News)
+  1. Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says (from BBC News)
+  2. Europe must be ready to fight, PM tells Munich Security Conference (from BBC News)
+  3. Assailants kill at least 30 in north-west Nigerian villages, residents say (from The Guardian)
 
-Processing trending topic: US army launches retaliatory strikes on dozens of ISIL targets in Syria
-Searching Google for: US army launches retaliatory strikes on dozens of ISIL targets in Syria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Barmy%252Blaunches%252Bretaliatory%252Bstrikes%252Bon%252Bdozens%252Bof%252BISIL%252Btargets%252Bin%252BSyria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fiGNWJxMwGIjDwy79gzsZk_a7KvExuuM5MXeeNyVPkc-CtWaVNGRQ2BfrZXpWoRUbdal0EjX3Hg-4yBmpjbmRyUloBQw
+Processing trending topic: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
+Searching Google for: Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bkilled%252Bopposition%252Bleader%252BAlexei%252BNavalny%252Busing%252Bdart%252Bfrog%252Btoxin%252C%252BUK%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGIjVxMwGIjAqbDG9omaG3zKZFYy2aDxN0RuGfq9XQObmdNbA6-8rxZcANBGBQx9S-CE_Y2ChlG8yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-army-launches-retaliatory-strikes-on-dozens-of-_20260214_2327.html
-✓ Created comprehensive article: us-army-launches-retaliatory-strikes-on-dozens-of-_20260214_2327.html
+Successfully created file: russia-killed-opposition-leader-alexei-navalny-usi_20260215_0208.html
+✓ Created comprehensive article: russia-killed-opposition-leader-alexei-navalny-usi_20260215_0208.html
 
-Processing trending topic: Real Madrid thrash Real Sociedad 4-1 to move top of La Liga
-Searching Google for: Real Madrid thrash Real Sociedad 4-1 to move top of La Liga
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bthrash%252BReal%252BSociedad%252B4-1%252Bto%252Bmove%252Btop%252Bof%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fiGNuJxMwGIjCMQQ1GF3fXgCVVcNHsOHUI6rFGFXspMdUk-noC7o4V0eVy_XCHjFtesTjGMqURBaUyBmpjbmRyUloBQw
+Processing trending topic: Europe must be ready to fight, PM tells Munich Security Conference
+Searching Google for: Europe must be ready to fight, PM tells Munich Security Conference
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEurope%252Bmust%252Bbe%252Bready%252Bto%252Bfight%252C%252BPM%252Btells%252BMunich%252BSecurity%252BConference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGI_VxMwGIjAkgqofrPdOQYtwKW99aa4or8HW5gtmk0rGQxfTooG-wGLNRYFGG32dRYF-NsRSKPIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: real-madrid-thrash-real-sociedad-4-1-to-move-top-o_20260214_2327.html
-✓ Created comprehensive article: real-madrid-thrash-real-sociedad-4-1-to-move-top-o_20260214_2327.html
+Successfully created file: europe-must-be-ready-to-fight-pm-tells-munich-secu_20260215_0208.html
+✓ Created comprehensive article: europe-must-be-ready-to-fight-pm-tells-munich-secu_20260215_0208.html
 
-Processing trending topic: More than 30 killed as gunmen attack communities in northern Nigeria
-Searching Google for: More than 30 killed as gunmen attack communities in northern Nigeria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B30%252Bkilled%252Bas%252Bgunmen%252Battack%252Bcommunities%252Bin%252Bnorthern%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fiGOKJxMwGIjCzvVLQM8A6NkyMHhMydOVukNGWVRnX8Owt6aunvdLCj_AJomJ6JW8wPeLKVjJeZxcyBmpjbmRyUloBQw
+Processing trending topic: Assailants kill at least 30 in north-west Nigerian villages, residents say
+Searching Google for: Assailants kill at least 30 in north-west Nigerian villages, residents say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAssailants%252Bkill%252Bat%252Bleast%252B30%252Bin%252Bnorth-west%252BNigerian%252Bvillages%252C%252Bresidents%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGJbVxMwGIjBgsh2qPE7rfy0ygf9XfcKByaSOvHsIr33a8a7k6doEfSBMc6ERdb1aLgfYS1i2u2wyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-30-killed-as-gunmen-attack-communities-i_20260214_2327.html
-✓ Created comprehensive article: more-than-30-killed-as-gunmen-attack-communities-i_20260214_2327.html
+Successfully created file: assailants-kill-at-least-30-in-north-west-nigerian_20260215_0208.html
+✓ Created comprehensive article: assailants-kill-at-least-30-in-north-west-nigerian_20260215_0208.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US army launches retaliatory strikes on dozens of ISIL targets in Syria
+   • Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says
      Sources: bbc.com, cnn.com, reuters.com
-   • Real Madrid thrash Real Sociedad 4-1 to move top of La Liga
+   • Europe must be ready to fight, PM tells Munich Security Conference
      Sources: bbc.com, cnn.com, reuters.com
-   • More than 30 killed as gunmen attack communities in northern Nigeria
+   • Assailants kill at least 30 in north-west Nigerian villages, residents say
      Sources: bbc.com, cnn.com, reuters.com
