@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Government abandons plans to delay 30 council elections
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: How an undercover cop foiled an IS plot to massacre Britain’s Jews – podcast
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dozens of Australian ISIL relatives freed from Syria’s Roj camp
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN staffers back Francesca Albanese, condemn European ministers for attacks
-Added expanded search topic: Dozens of Australian ISIL relatives freed from Syria’s Roj camp
-Added expanded search topic: UN staffers back Francesca Albanese, condemn European ministers for attacks
-Saved 33 topics for 2026-02-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran launches naval drills ahead of US nuclear talks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Israeli housing plan near Jerusalem slammed as ‘disguised annexation’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Six people killed, 46 injured in Brazil highway bus crash
+Added expanded search topic: Iran launches naval drills ahead of US nuclear talks
+Added expanded search topic: New Israeli housing plan near Jerusalem slammed as ‘disguised annexation’
+Added expanded search topic: Six people killed, 46 injured in Brazil highway bus crash
+Saved 36 topics for 2026-02-16
 Returning 3 unique trending topics:
-  1. Government abandons plans to delay 30 council elections (from BBC News)
-  2. Dozens of Australian ISIL relatives freed from Syria’s Roj camp (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. UN staffers back Francesca Albanese, condemn European ministers for attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iran launches naval drills ahead of US nuclear talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. New Israeli housing plan near Jerusalem slammed as ‘disguised annexation’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Six people killed, 46 injured in Brazil highway bus crash (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Government abandons plans to delay 30 council elections
-Searching Google for: Government abandons plans to delay 30 council elections
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGovernment%252Babandons%252Bplans%252Bto%252Bdelay%252B30%252Bcouncil%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzTGJb2zMwGIjD9jqvbzQAxjCgnk27XuP_t24gslujiKNJ4s_RgrJGQQwTIiIy75PVi0678GwMETOgyBmpjbmRyUloBQw
+Processing trending topic: Iran launches naval drills ahead of US nuclear talks
+Searching Google for: Iran launches naval drills ahead of US nuclear talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Blaunches%252Bnaval%252Bdrills%252Bahead%252Bof%252BUS%252Bnuclear%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuFQGJ2TzcwGIjCT_EjSeJhwrB5LOAUjxvbuJXyQqvI8uTXpBTJKhK8Ban_wI2AzQR55AEG-V9r2nvoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: government-abandons-plans-to-delay-30-council-elec_20260216_1543.html
-✓ Created comprehensive article: government-abandons-plans-to-delay-30-council-elec_20260216_1543.html
+Successfully created file: iran-launches-naval-drills-ahead-of-us-nuclear-tal_20260216_1645.html
+✓ Created comprehensive article: iran-launches-naval-drills-ahead-of-us-nuclear-tal_20260216_1645.html
 
-Processing trending topic: Dozens of Australian ISIL relatives freed from Syria’s Roj camp
-Searching Google for: Dozens of Australian ISIL relatives freed from Syria’s Roj camp
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Bof%252BAustralian%252BISIL%252Brelatives%252Bfreed%252Bfrom%252BSyria%25E2%2580%2599s%252BRoj%252Bcamp%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzTGJ32zMwGIjDFVcHrMCyns6F-lgwPcsACVTH37V-ty5ehcVCNhSJc9oKxsIQuiddozC_QGU5CNJUyBmpjbmRyUloBQw
+Processing trending topic: New Israeli housing plan near Jerusalem slammed as ‘disguised annexation’
+Searching Google for: New Israeli housing plan near Jerusalem slammed as ‘disguised annexation’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BIsraeli%252Bhousing%252Bplan%252Bnear%252BJerusalem%252Bslammed%252Bas%252B%25E2%2580%2598disguised%252Bannexation%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuFQGKSTzcwGIjBiBdhV7SSAaOuq5PuA4a243WsJYa9S6vpMzSpPmS6WtQ8WSRFHjOWlNPgckxwzNZgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dozens-of-australian-isil-relatives-freed-from-syr_20260216_1543.html
-✓ Created comprehensive article: dozens-of-australian-isil-relatives-freed-from-syr_20260216_1543.html
+Successfully created file: new-israeli-housing-plan-near-jerusalem-slammed-as_20260216_1645.html
+✓ Created comprehensive article: new-israeli-housing-plan-near-jerusalem-slammed-as_20260216_1645.html
 
-Processing trending topic: UN staffers back Francesca Albanese, condemn European ministers for attacks
-Searching Google for: UN staffers back Francesca Albanese, condemn European ministers for attacks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bstaffers%252Bback%252BFrancesca%252BAlbanese%252C%252Bcondemn%252BEuropean%252Bministers%252Bfor%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzTGKT2zMwGIjAG1PctLKkUfJLstGVZ_CSQtsiFTwDzCuylD0OR_Tglps4hpqQF6F6sAqlOns1ts-IyBmpjbmRyUloBQw
+Processing trending topic: Six people killed, 46 injured in Brazil highway bus crash
+Searching Google for: Six people killed, 46 injured in Brazil highway bus crash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSix%252Bpeople%252Bkilled%252C%252B46%252Binjured%252Bin%252BBrazil%252Bhighway%252Bbus%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuFQGKuTzcwGIjBX3hjjtnzw3PQrWUzH7Z9-QPi97cZrX_COAoYjE4Zw5yPIfnRKC5c_YKA2G-Cw8bQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: un-staffers-back-francesca-albanese-condemn-europe_20260216_1543.html
-✓ Created comprehensive article: un-staffers-back-francesca-albanese-condemn-europe_20260216_1543.html
+Successfully created file: six-people-killed-46-injured-in-brazil-highway-bus_20260216_1645.html
+✓ Created comprehensive article: six-people-killed-46-injured-in-brazil-highway-bus_20260216_1645.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Government abandons plans to delay 30 council elections
+   • Iran launches naval drills ahead of US nuclear talks
      Sources: bbc.com, cnn.com, reuters.com
-   • Dozens of Australian ISIL relatives freed from Syria’s Roj camp
+   • New Israeli housing plan near Jerusalem slammed as ‘disguised annexation’
      Sources: bbc.com, cnn.com, reuters.com
-   • UN staffers back Francesca Albanese, condemn European ministers for attacks
+   • Six people killed, 46 injured in Brazil highway bus crash
      Sources: bbc.com, cnn.com, reuters.com
