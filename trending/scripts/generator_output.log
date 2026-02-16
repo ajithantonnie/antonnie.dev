@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police framed man for female student’s murder, evidence gathered by BBC suggests
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: How an undercover cop foiled an IS plot to massacre Britain’s Jews – podcast
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tyler Reddick wins NASCAR Daytona 500 in Michael Jordan-owned car
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indonesia’s Gaza gamble
-Added expanded search topic: Tyler Reddick wins NASCAR Daytona 500 in Michael Jordan-owned car
-Added expanded search topic: Indonesia’s Gaza gamble
-Saved 18 topics for 2026-02-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea’s Kim unveils homes for families of fallen soldiers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea opens new housing area for families of soldiers killed overseas
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kyrie Irving wears PRESS shirt for Gaza journalists at NBA All-Star Game
+Added expanded search topic: North Korea’s Kim unveils homes for families of fallen soldiers
+Added expanded search topic: North Korea opens new housing area for families of soldiers killed overseas
+Added expanded search topic: Kyrie Irving wears PRESS shirt for Gaza journalists at NBA All-Star Game
+Saved 21 topics for 2026-02-16
 Returning 3 unique trending topics:
-  1. Police framed man for female student’s murder, evidence gathered by BBC suggests (from BBC News)
-  2. Tyler Reddick wins NASCAR Daytona 500 in Michael Jordan-owned car (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Indonesia’s Gaza gamble (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. North Korea’s Kim unveils homes for families of fallen soldiers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. North Korea opens new housing area for families of soldiers killed overseas (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Kyrie Irving wears PRESS shirt for Gaza journalists at NBA All-Star Game (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police framed man for female student’s murder, evidence gathered by BBC suggests
-Searching Google for: Police framed man for female student’s murder, evidence gathered by BBC suggests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bframed%252Bman%252Bfor%252Bfemale%252Bstudent%25E2%2580%2599s%252Bmurder%252C%252Bevidence%252Bgathered%252Bby%252BBBC%252Bsuggests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFf5GLfTy8wGIjAJFLQHRA1IzFvzCfTQEO5GvHp8DK-3ny6mQiKfN-ymw5gOxgh3NhVp74FgeMIvzFwyBmpjbmRyUloBQw
+Processing trending topic: North Korea’s Kim unveils homes for families of fallen soldiers
+Searching Google for: North Korea’s Kim unveils homes for families of fallen soldiers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%25E2%2580%2599s%252BKim%252Bunveils%252Bhomes%252Bfor%252Bfamilies%252Bof%252Bfallen%252Bsoldiers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVJgGOHty8wGIjBt4i66CemlOcV4-m6mlcGdZW42B14EREhJxjUSCLD0E8euDsNZIjNuBVB74TDgX9syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-framed-man-for-female-students-murder-evide_20260216_0956.html
-✓ Created comprehensive article: police-framed-man-for-female-students-murder-evide_20260216_0956.html
+Successfully created file: north-koreas-kim-unveils-homes-for-families-of-fal_20260216_1052.html
+✓ Created comprehensive article: north-koreas-kim-unveils-homes-for-families-of-fal_20260216_1052.html
 
-Processing trending topic: Tyler Reddick wins NASCAR Daytona 500 in Michael Jordan-owned car
-Searching Google for: Tyler Reddick wins NASCAR Daytona 500 in Michael Jordan-owned car
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTyler%252BReddick%252Bwins%252BNASCAR%252BDaytona%252B500%252Bin%252BMichael%252BJordan-owned%252Bcar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFf5GL7Ty8wGIjCkAA_edVvHC4SslvY8BWmAaDA8lrwixcnBV_nAw8za5XfW4tr9gAduI_afu-Bnw1YyBmpjbmRyUloBQw
+Processing trending topic: North Korea opens new housing area for families of soldiers killed overseas
+Searching Google for: North Korea opens new housing area for families of soldiers killed overseas
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%252Bopens%252Bnew%252Bhousing%252Barea%252Bfor%252Bfamilies%252Bof%252Bsoldiers%252Bkilled%252Boverseas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVJgGOnty8wGIjA96wDlbA-QlrEFd9UN6S71-hlIubuemyHWCP88lU83yaXaGqH6C3hX3UnpmtvkaX4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tyler-reddick-wins-nascar-daytona-500-in-michael-j_20260216_0956.html
-✓ Created comprehensive article: tyler-reddick-wins-nascar-daytona-500-in-michael-j_20260216_0956.html
+Successfully created file: north-korea-opens-new-housing-area-for-families-of_20260216_1052.html
+✓ Created comprehensive article: north-korea-opens-new-housing-area-for-families-of_20260216_1052.html
 
-Processing trending topic: Indonesia’s Gaza gamble
-Searching Google for: Indonesia’s Gaza gamble
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndonesia%25E2%2580%2599s%252BGaza%252Bgamble%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFf5GMXTy8wGIjBBs6YlIOVHEnNb6XxemIWcJ_USzAHuhC0fcNUM3fCHHPCRFHx9e8ckFmKClAA5jaAyBmpjbmRyUloBQw
+Processing trending topic: Kyrie Irving wears PRESS shirt for Gaza journalists at NBA All-Star Game
+Searching Google for: Kyrie Irving wears PRESS shirt for Gaza journalists at NBA All-Star Game
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKyrie%252BIrving%252Bwears%252BPRESS%252Bshirt%252Bfor%252BGaza%252Bjournalists%252Bat%252BNBA%252BAll-Star%252BGame%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVJgGO_ty8wGIjDAwclao1gWZFJmhkcSq2v9Nvi5CcjfnwGq7TeA7UvvnNJAehDXK0LTwhzZi4GwAGkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: indonesias-gaza-gamble_20260216_0956.html
-✓ Created comprehensive article: indonesias-gaza-gamble_20260216_0956.html
+Successfully created file: kyrie-irving-wears-press-shirt-for-gaza-journalist_20260216_1052.html
+✓ Created comprehensive article: kyrie-irving-wears-press-shirt-for-gaza-journalist_20260216_1052.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police framed man for female student’s murder, evidence gathered by BBC suggests
+   • North Korea’s Kim unveils homes for families of fallen soldiers
      Sources: bbc.com, cnn.com, reuters.com
-   • Tyler Reddick wins NASCAR Daytona 500 in Michael Jordan-owned car
+   • North Korea opens new housing area for families of soldiers killed overseas
      Sources: bbc.com, cnn.com, reuters.com
-   • Indonesia’s Gaza gamble
+   • Kyrie Irving wears PRESS shirt for Gaza journalists at NBA All-Star Game
      Sources: bbc.com, cnn.com, reuters.com
