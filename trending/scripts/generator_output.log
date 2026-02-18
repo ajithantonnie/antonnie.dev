@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Firm assessing Covid vaccine harm replaced after costs spiral to £48m
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan authorities used Israeli tech to crack activist’s phone, report claims
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Washington appoints new US envoy on Tibetan human rights
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Over 80 UN member states condemn Israel’s de facto annexation of West Bank
-Added expanded search topic: Washington appoints new US envoy on Tibetan human rights
-Added expanded search topic: Over 80 UN member states condemn Israel’s de facto annexation of West Bank
-Saved 9 topics for 2026-02-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Philippine VP Sara Duterte announces run for president in 2028
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Israel steps up attacks, land takeover across occupied West Bank
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran says ‘good progress’ made in nuclear talks with US in Geneva
+Added expanded search topic: Philippine VP Sara Duterte announces run for president in 2028
+Added expanded search topic: LIVE: Israel steps up attacks, land takeover across occupied West Bank
+Added expanded search topic: Iran says ‘good progress’ made in nuclear talks with US in Geneva
+Saved 12 topics for 2026-02-18
 Returning 3 unique trending topics:
-  1. Firm assessing Covid vaccine harm replaced after costs spiral to £48m (from BBC News)
-  2. Washington appoints new US envoy on Tibetan human rights (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Over 80 UN member states condemn Israel’s de facto annexation of West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Philippine VP Sara Duterte announces run for president in 2028 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. LIVE: Israel steps up attacks, land takeover across occupied West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran says ‘good progress’ made in nuclear talks with US in Geneva (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Firm assessing Covid vaccine harm replaced after costs spiral to £48m
-Searching Google for: Firm assessing Covid vaccine harm replaced after costs spiral to £48m
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirm%252Bassessing%252BCovid%252Bvaccine%252Bharm%252Breplaced%252Bafter%252Bcosts%252Bspiral%252Bto%252B%25C2%25A348m%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUbdQGJSs1cwGIjD060NP7OKLxoegfKIH4HFfzClG5iGfK_leM1il59Wlb5-rVHEZNjtv_m_nbMZ3iFIyBmpjbmRyUloBQw
+Processing trending topic: Philippine VP Sara Duterte announces run for president in 2028
+Searching Google for: Philippine VP Sara Duterte announces run for president in 2028
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPhilippine%252BVP%252BSara%252BDuterte%252Bannounces%252Brun%252Bfor%252Bpresident%252Bin%252B2028%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCCGIfP1cwGIjDUfDWAJ1PIanllaqT9qIkJ5p2uYs7BXxfmmKuraZ2Lg8kfVWnGUbfxVNF8J_KjL5oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: firm-assessing-covid-vaccine-harm-replaced-after-c_20260218_0603.html
-✓ Created comprehensive article: firm-assessing-covid-vaccine-harm-replaced-after-c_20260218_0603.html
+Successfully created file: philippine-vp-sara-duterte-announces-run-for-presi_20260218_0717.html
+✓ Created comprehensive article: philippine-vp-sara-duterte-announces-run-for-presi_20260218_0717.html
 
-Processing trending topic: Washington appoints new US envoy on Tibetan human rights
-Searching Google for: Washington appoints new US envoy on Tibetan human rights
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWashington%252Bappoints%252Bnew%252BUS%252Benvoy%252Bon%252BTibetan%252Bhuman%252Brights%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUbdQGJys1cwGIjBIkrzRJpx9edkpquKo_j1RfAR931zZK0YWaRGDU9ZaKRb_xYkkaNx3oWmyKstfZmEyBmpjbmRyUloBQw
+Processing trending topic: LIVE: Israel steps up attacks, land takeover across occupied West Bank
+Searching Google for: LIVE: Israel steps up attacks, land takeover across occupied West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BIsrael%252Bsteps%252Bup%252Battacks%252C%252Bland%252Btakeover%252Bacross%252Boccupied%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCCGI7P1cwGIjCdVSBfMuM7DRp9M0fRAuXrUD-5RdNPa1OhYOodUsuxdInICIa-ag9v83yFff4ceF8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: washington-appoints-new-us-envoy-on-tibetan-human-_20260218_0603.html
-✓ Created comprehensive article: washington-appoints-new-us-envoy-on-tibetan-human-_20260218_0603.html
+Successfully created file: live-israel-steps-up-attacks-land-takeover-across-_20260218_0717.html
+✓ Created comprehensive article: live-israel-steps-up-attacks-land-takeover-across-_20260218_0717.html
 
-Processing trending topic: Over 80 UN member states condemn Israel’s de facto annexation of West Bank
-Searching Google for: Over 80 UN member states condemn Israel’s de facto annexation of West Bank
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOver%252B80%252BUN%252Bmember%252Bstates%252Bcondemn%252BIsrael%25E2%2580%2599s%252Bde%252Bfacto%252Bannexation%252Bof%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUbdQGKKs1cwGIjAIGIDEU8Nw5HlS8nsfBStgKvOOvA_lMeSbUOxyV-FD6So-wTcVo69wTdXZwhZc9rQyBmpjbmRyUloBQw
+Processing trending topic: Iran says ‘good progress’ made in nuclear talks with US in Geneva
+Searching Google for: Iran says ‘good progress’ made in nuclear talks with US in Geneva
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bsays%252B%25E2%2580%2598good%252Bprogress%25E2%2580%2599%252Bmade%252Bin%252Bnuclear%252Btalks%252Bwith%252BUS%252Bin%252BGeneva%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCCGJXP1cwGIjBbI8sPtZhGenyDcqMwUYHYtSmyhehamzbWLEhGS7Fxhx6PkVtudN31_ZgqvWxFu9YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: over-80-un-member-states-condemn-israels-de-facto-_20260218_0603.html
-✓ Created comprehensive article: over-80-un-member-states-condemn-israels-de-facto-_20260218_0603.html
+Successfully created file: iran-says-good-progress-made-in-nuclear-talks-with_20260218_0717.html
+✓ Created comprehensive article: iran-says-good-progress-made-in-nuclear-talks-with_20260218_0717.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Firm assessing Covid vaccine harm replaced after costs spiral to £48m
+   • Philippine VP Sara Duterte announces run for president in 2028
      Sources: bbc.com, cnn.com, reuters.com
-   • Washington appoints new US envoy on Tibetan human rights
+   • LIVE: Israel steps up attacks, land takeover across occupied West Bank
      Sources: bbc.com, cnn.com, reuters.com
-   • Over 80 UN member states condemn Israel’s de facto annexation of West Bank
+   • Iran says ‘good progress’ made in nuclear talks with US in Geneva
      Sources: bbc.com, cnn.com, reuters.com
