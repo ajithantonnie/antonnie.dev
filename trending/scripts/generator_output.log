@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Just push us into the sea': The frustration of an area failed by politics
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan authorities used Israeli tech to crack activist’s phone, report claims
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine talks to resume in Geneva as US claims ‘meaningful’ progress
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Peru impeaches President Jose Jeri over corruption allegations
-Added expanded search topic: Russia-Ukraine talks to resume in Geneva as US claims ‘meaningful’ progress
-Added expanded search topic: Peru impeaches President Jose Jeri over corruption allegations
-Saved 15 topics for 2026-02-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Amid destruction, loss, Gaza clings to Ramadan traditions with resilience
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine talks live: Geneva talks resume, Kyiv sanctions Lukashenko
+Added expanded search topic: Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war
+Added expanded search topic: Amid destruction, loss, Gaza clings to Ramadan traditions with resilience
+Added expanded search topic: Russia-Ukraine talks live: Geneva talks resume, Kyiv sanctions Lukashenko
+Saved 18 topics for 2026-02-18
 Returning 3 unique trending topics:
-  1. Plan to increase youth minimum wage could be delayed (from BBC News)
-  2. Russia-Ukraine talks to resume in Geneva as US claims ‘meaningful’ progress (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Peru impeaches President Jose Jeri over corruption allegations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Amid destruction, loss, Gaza clings to Ramadan traditions with resilience (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine talks live: Geneva talks resume, Kyiv sanctions Lukashenko (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Plan to increase youth minimum wage could be delayed
-Searching Google for: Plan to increase youth minimum wage could be delayed
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPlan%252Bto%252Bincrease%252Byouth%252Bminimum%252Bwage%252Bcould%252Bbe%252Bdelayed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkhGPD51cwGIjDS_0BbsybJzoZwuwhN0bEPNDtG1XgyD8YdaEeOa9H6SlkXuhlT8VnRTfBwReW08cAyBmpjbmRyUloBQw
+Processing trending topic: Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war
+Searching Google for: Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFears%252Bof%252B%25E2%2580%2598slow%252C%252Bcertain%252Bdeath%25E2%2580%2599%252Bstalk%252BTigray%252Bamid%252Brumblings%252Bof%252Brenewed%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYwGO2V1swGIjBQ2zwHHDK8Xq3ZneLx_SGlztvMbsCtum2wHhOGzD6WeogWDiyoaRXbp-GLNANNhdEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: plan-to-increase-youth-minimum-wage-could-be-delay_20260218_0848.html
-✓ Created comprehensive article: plan-to-increase-youth-minimum-wage-could-be-delay_20260218_0848.html
+Successfully created file: fears-of-slow-certain-death-stalk-tigray-amid-rumb_20260218_0948.html
+✓ Created comprehensive article: fears-of-slow-certain-death-stalk-tigray-amid-rumb_20260218_0948.html
 
-Processing trending topic: Russia-Ukraine talks to resume in Geneva as US claims ‘meaningful’ progress
-Searching Google for: Russia-Ukraine talks to resume in Geneva as US claims ‘meaningful’ progress
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Btalks%252Bto%252Bresume%252Bin%252BGeneva%252Bas%252BUS%252Bclaims%252B%25E2%2580%2598meaningful%25E2%2580%2599%252Bprogress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkhGPb51cwGIjDiNIFnzZF4kheSCG0LsapGbxYuhGyNNLTdH8GKgEhWpy79BW8o_aKeoKNGYjHM2D0yBmpjbmRyUloBQw
+Processing trending topic: Amid destruction, loss, Gaza clings to Ramadan traditions with resilience
+Searching Google for: Amid destruction, loss, Gaza clings to Ramadan traditions with resilience
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmid%252Bdestruction%252C%252Bloss%252C%252BGaza%252Bclings%252Bto%252BRamadan%252Btraditions%252Bwith%252Bresilience%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYwGPSV1swGIjCTNDrqL33rCJM0lnb1P7N8onwttQ5SjBMP-sS37y3sd2QsUr7Z0XNpqNLUTMDgWUEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-talks-to-resume-in-geneva-as-us-cla_20260218_0848.html
-✓ Created comprehensive article: russia-ukraine-talks-to-resume-in-geneva-as-us-cla_20260218_0848.html
+Successfully created file: amid-destruction-loss-gaza-clings-to-ramadan-tradi_20260218_0948.html
+✓ Created comprehensive article: amid-destruction-loss-gaza-clings-to-ramadan-tradi_20260218_0948.html
 
-Processing trending topic: Peru impeaches President Jose Jeri over corruption allegations
-Searching Google for: Peru impeaches President Jose Jeri over corruption allegations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeru%252Bimpeaches%252BPresident%252BJose%252BJeri%252Bover%252Bcorruption%252Ballegations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkhGPz51cwGIjB8W795nWcSfv5niGzvPX_Td3UajaOfSK5q6ux8s-jwSb1Vzw4G1nI_20kQ9qJTrC0yBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine talks live: Geneva talks resume, Kyiv sanctions Lukashenko
+Searching Google for: Russia-Ukraine talks live: Geneva talks resume, Kyiv sanctions Lukashenko
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Btalks%252Blive%253A%252BGeneva%252Btalks%252Bresume%252C%252BKyiv%252Bsanctions%252BLukashenko%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYwGPqV1swGIjDq_O2WQratB_AKAdvklC0OYPkoTMkWDe5pYMQaJIIUg6y5LDSzNRisvz3uvcSTaNoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: peru-impeaches-president-jose-jeri-over-corruption_20260218_0849.html
-✓ Created comprehensive article: peru-impeaches-president-jose-jeri-over-corruption_20260218_0849.html
+Successfully created file: russia-ukraine-talks-live-geneva-talks-resume-kyiv_20260218_0948.html
+✓ Created comprehensive article: russia-ukraine-talks-live-geneva-talks-resume-kyiv_20260218_0948.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Plan to increase youth minimum wage could be delayed
+   • Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia-Ukraine talks to resume in Geneva as US claims ‘meaningful’ progress
+   • Amid destruction, loss, Gaza clings to Ramadan traditions with resilience
      Sources: bbc.com, cnn.com, reuters.com
-   • Peru impeaches President Jose Jeri over corruption allegations
+   • Russia-Ukraine talks live: Geneva talks resume, Kyiv sanctions Lukashenko
      Sources: bbc.com, cnn.com, reuters.com
