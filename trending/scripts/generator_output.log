@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Do not give away Diego Garcia, Trump tells UK
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Countries that do not embrace AI could be left behind, says OpenAI’s George Osborne
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Board of Peace’: Reality vs Rhetoric
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After health rumours, UAE President MBZ seen meeting with US lawmaker
-Added expanded search topic: ‘Board of Peace’: Reality vs Rhetoric
-Added expanded search topic: After health rumours, UAE President MBZ seen meeting with US lawmaker
-Saved 42 topics for 2026-02-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mark Zuckerberg appears to be ‘served’ new lawsuit upon arrival at court
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Leila Shahid, Palestinian diplomat, dies in France aged 76
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Bodo/Glimt vs Inter Milan – Champions League playoff
+Added expanded search topic: Mark Zuckerberg appears to be ‘served’ new lawsuit upon arrival at court
+Added expanded search topic: Leila Shahid, Palestinian diplomat, dies in France aged 76
+Added expanded search topic: LIVE: Bodo/Glimt vs Inter Milan – Champions League playoff
+Saved 45 topics for 2026-02-18
 Returning 3 unique trending topics:
-  1. Do not give away Diego Garcia, Trump tells UK (from BBC News)
-  2. ‘Board of Peace’: Reality vs Rhetoric (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. After health rumours, UAE President MBZ seen meeting with US lawmaker (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Mark Zuckerberg appears to be ‘served’ new lawsuit upon arrival at court (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Leila Shahid, Palestinian diplomat, dies in France aged 76 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. LIVE: Bodo/Glimt vs Inter Milan – Champions League playoff (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Do not give away Diego Garcia, Trump tells UK
-Searching Google for: Do not give away Diego Garcia, Trump tells UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDo%252Bnot%252Bgive%252Baway%252BDiego%252BGarcia%252C%252BTrump%252Btells%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UxGMCw2MwGIjBJjS4jtrOElML37w8LHY2vrvDtW1qMlv7ukZacQdCNvCDjTh0D6jBPjmxBdqTvjcAyBmpjbmRyUloBQw
+Processing trending topic: Mark Zuckerberg appears to be ‘served’ new lawsuit upon arrival at court
+Searching Google for: Mark Zuckerberg appears to be ‘served’ new lawsuit upon arrival at court
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMark%252BZuckerberg%252Bappears%252Bto%252Bbe%252B%25E2%2580%2598served%25E2%2580%2599%252Bnew%252Blawsuit%252Bupon%252Barrival%252Bat%252Bcourt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbScwGNLH2MwGIjAbiqCQGkrlwJU7SJKC6n0yu01lDj0PsSPsURrEjMC65oSL34f7FZuRq648zvkcae8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: do-not-give-away-diego-garcia-trump-tells-uk_20260218_1951.html
-✓ Created comprehensive article: do-not-give-away-diego-garcia-trump-tells-uk_20260218_1951.html
+Successfully created file: mark-zuckerberg-appears-to-be-served-new-lawsuit-u_20260218_2040.html
+✓ Created comprehensive article: mark-zuckerberg-appears-to-be-served-new-lawsuit-u_20260218_2040.html
 
-Processing trending topic: ‘Board of Peace’: Reality vs Rhetoric
-Searching Google for: ‘Board of Peace’: Reality vs Rhetoric
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Board%252Bof%252BPeace%25E2%2580%2599%253A%252BReality%252Bvs%252BRhetoric%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UxGMew2MwGIjAHmpRMAYNKRUtSa12D3PQHhnEO9avKHVTKvuSgHRJnFUdYiGxbQ2DNLKnQmNGKuFsyBmpjbmRyUloBQw
+Processing trending topic: Leila Shahid, Palestinian diplomat, dies in France aged 76
+Searching Google for: Leila Shahid, Palestinian diplomat, dies in France aged 76
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLeila%252BShahid%252C%252BPalestinian%252Bdiplomat%252C%252Bdies%252Bin%252BFrance%252Baged%252B76%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbScwGNnH2MwGIjDRL33mFLHlxUaFZX20CG7Dv1SpbJHN8_UoGvEMgHqJLMNpNTxldRFiUmT1S7js7X4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: board-of-peace-reality-vs-rhetoric_20260218_1951.html
-✓ Created comprehensive article: board-of-peace-reality-vs-rhetoric_20260218_1951.html
+Successfully created file: leila-shahid-palestinian-diplomat-dies-in-france-a_20260218_2041.html
+✓ Created comprehensive article: leila-shahid-palestinian-diplomat-dies-in-france-a_20260218_2041.html
 
-Processing trending topic: After health rumours, UAE President MBZ seen meeting with US lawmaker
-Searching Google for: After health rumours, UAE President MBZ seen meeting with US lawmaker
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252Bhealth%252Brumours%252C%252BUAE%252BPresident%252BMBZ%252Bseen%252Bmeeting%252Bwith%252BUS%252Blawmaker%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UxGM2w2MwGIjDYrBuN1D9AksnmQ_ZRp02A-VVwQOUs-fxmdQda2JQGzzfhWpULW5syLTQM_9ncCycyBmpjbmRyUloBQw
+Processing trending topic: LIVE: Bodo/Glimt vs Inter Milan – Champions League playoff
+Searching Google for: LIVE: Bodo/Glimt vs Inter Milan – Champions League playoff
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BBodo%252FGlimt%252Bvs%252BInter%252BMilan%252B%25E2%2580%2593%252BChampions%252BLeague%252Bplayoff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbScwGN_H2MwGIjBWpSyYhoV_DrI7TC0rvtcRzlvxaF_8hWr_NhGTzpGL_-5V2firpk9eiAgAO57oXeQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: after-health-rumours-uae-president-mbz-seen-meetin_20260218_1951.html
-✓ Created comprehensive article: after-health-rumours-uae-president-mbz-seen-meetin_20260218_1951.html
+Successfully created file: live-bodoglimt-vs-inter-milan-champions-league-pla_20260218_2041.html
+✓ Created comprehensive article: live-bodoglimt-vs-inter-milan-champions-league-pla_20260218_2041.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Do not give away Diego Garcia, Trump tells UK
+   • Mark Zuckerberg appears to be ‘served’ new lawsuit upon arrival at court
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Board of Peace’: Reality vs Rhetoric
+   • Leila Shahid, Palestinian diplomat, dies in France aged 76
      Sources: bbc.com, cnn.com, reuters.com
-   • After health rumours, UAE President MBZ seen meeting with US lawmaker
+   • LIVE: Bodo/Glimt vs Inter Milan – Champions League playoff
      Sources: bbc.com, cnn.com, reuters.com
