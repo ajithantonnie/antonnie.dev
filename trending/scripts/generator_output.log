@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: The day Andrew Mountbatten-Windsor was arrested
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Major road crash leaves 18 dead, 3 injured in northeast Egypt
-Added expanded search topic: Major road crash leaves 18 dead, 3 injured in northeast Egypt
-Saved 12 topics for 2026-02-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump orders Pentagon, federal agencies to release files on UFOs and aliens
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch
+Added expanded search topic: Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan
+Added expanded search topic: Trump orders Pentagon, federal agencies to release files on UFOs and aliens
+Added expanded search topic: New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch
+Saved 15 topics for 2026-02-20
 Returning 3 unique trending topics:
-  1. Watch: The day Andrew Mountbatten-Windsor was arrested (from BBC News)
-  2. What does Andrew's arrest mean for the Royal Family? (from BBC News)
-  3. Major road crash leaves 18 dead, 3 injured in northeast Egypt (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump orders Pentagon, federal agencies to release files on UFOs and aliens (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: The day Andrew Mountbatten-Windsor was arrested
-Searching Google for: Watch: The day Andrew Mountbatten-Windsor was arrested
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BThe%252Bday%252BAndrew%252BMountbatten-Windsor%252Bwas%252Barrested%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jWxGP6L4MwGIjCJ8oC6Db1JI1WTZT3WvXhDval0L9VhpIj8MscAY69uV-Vy9xCoBtyjiKdkO4ffCcEyBmpjbmRyUloBQw
+Processing trending topic: Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan
+Searching Google for: Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Baid%252Bworkers%252Bkilled%252C%252B4%252Bwounded%252Bin%252BRSF%252Bdrone%252Battack%252Bin%252BSudan%25E2%2580%2599s%252BKordofan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NBxGM2k4MwGIjCv-EksPFIuio7CG6U19KsZMMcHeAgGEa57_kJLstnLb6ZeR2zRZlyNtQRoMnD_p4syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-the-day-andrew-mountbatten-windsor-was-arres_20260220_0658.html
-✓ Created comprehensive article: watch-the-day-andrew-mountbatten-windsor-was-arres_20260220_0658.html
+Successfully created file: three-aid-workers-killed-4-wounded-in-rsf-drone-at_20260220_0750.html
+✓ Created comprehensive article: three-aid-workers-killed-4-wounded-in-rsf-drone-at_20260220_0750.html
 
-Processing trending topic: What does Andrew's arrest mean for the Royal Family?
-Searching Google for: What does Andrew's arrest mean for the Royal Family?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bdoes%252BAndrew%2527s%252Barrest%252Bmean%252Bfor%252Bthe%252BRoyal%252BFamily%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jWxGIWM4MwGIjBw0K-cLNhARwYI9nvlidGNkzuB5maLguS9rpYx0ZCw5BkjmqweHcbo1xy5w9qaMtgyBmpjbmRyUloBQw
+Processing trending topic: Trump orders Pentagon, federal agencies to release files on UFOs and aliens
+Searching Google for: Trump orders Pentagon, federal agencies to release files on UFOs and aliens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Borders%252BPentagon%252C%252Bfederal%252Bagencies%252Bto%252Brelease%252Bfiles%252Bon%252BUFOs%252Band%252Baliens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NBxGNOk4MwGIjBsB_7mRracuUNsDxz3fr5LBgD6tsmA4vGcjMuciGlXjUdLVDWy1TqbS2Z1tS5mMQkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-does-andrews-arrest-mean-for-the-royal-family_20260220_0658.html
-✓ Created comprehensive article: what-does-andrews-arrest-mean-for-the-royal-family_20260220_0658.html
+Successfully created file: trump-orders-pentagon-federal-agencies-to-release-_20260220_0750.html
+✓ Created comprehensive article: trump-orders-pentagon-federal-agencies-to-release-_20260220_0750.html
 
-Processing trending topic: Major road crash leaves 18 dead, 3 injured in northeast Egypt
-Searching Google for: Major road crash leaves 18 dead, 3 injured in northeast Egypt
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMajor%252Broad%252Bcrash%252Bleaves%252B18%252Bdead%252C%252B3%252Binjured%252Bin%252Bnortheast%252BEgypt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jWxGIuM4MwGIjBPVEPdVTvV5TdMpzev5H-k8UYtQArHYZBTb0SvuvRB9rgHj8HTrUq0C_Lq15E4sNAyBmpjbmRyUloBQw
+Processing trending topic: New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch
+Searching Google for: New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BMexico%252Breopens%252Bcriminal%252Bprobe%252Brelated%252Bto%252BJeffrey%252BEpstein%25E2%2580%2599s%252BZorro%252BRanch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NBxGNqk4MwGIjBgpwUEJOKjquLXHkhfYUg03Qur3YMG2sfErx_rgc1kGYCqR7kJSYxegJWHzn5Xz-oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: major-road-crash-leaves-18-dead-3-injured-in-north_20260220_0658.html
-✓ Created comprehensive article: major-road-crash-leaves-18-dead-3-injured-in-north_20260220_0658.html
+Successfully created file: new-mexico-reopens-criminal-probe-related-to-jeffr_20260220_0750.html
+✓ Created comprehensive article: new-mexico-reopens-criminal-probe-related-to-jeffr_20260220_0750.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: The day Andrew Mountbatten-Windsor was arrested
+   • Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan
      Sources: bbc.com, cnn.com, reuters.com
-   • What does Andrew's arrest mean for the Royal Family?
+   • Trump orders Pentagon, federal agencies to release files on UFOs and aliens
      Sources: bbc.com, cnn.com, reuters.com
-   • Major road crash leaves 18 dead, 3 injured in northeast Egypt
+   • New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch
      Sources: bbc.com, cnn.com, reuters.com
