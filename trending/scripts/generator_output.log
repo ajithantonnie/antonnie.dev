@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Andrew released under investigation after arrest on suspicion of misconduct in public office
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-20
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US pays about $160m towards nearly $4bn in UN dues
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea’s Kim Jong Un launches key party congress held every 5 years
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,457
+Added expanded search topic: US pays about $160m towards nearly $4bn in UN dues
+Added expanded search topic: North Korea’s Kim Jong Un launches key party congress held every 5 years
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,457
+Saved 6 topics for 2026-02-20
 Returning 3 unique trending topics:
-  1. Andrew released under investigation after arrest on suspicion of misconduct in public office (from BBC News)
-  2. Epstein files could be just tip of the iceberg for Andrew investigation (from BBC News)
-  3. RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds (from The Guardian)
+  1. US pays about $160m towards nearly $4bn in UN dues (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. North Korea’s Kim Jong Un launches key party congress held every 5 years (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,457 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Andrew released under investigation after arrest on suspicion of misconduct in public office
-Searching Google for: Andrew released under investigation after arrest on suspicion of misconduct in public office
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Breleased%252Bunder%252Binvestigation%252Bafter%252Barrest%252Bon%252Bsuspicion%252Bof%252Bmisconduct%252Bin%252Bpublic%252Boffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-1EGMeA38wGIjA4Fnn7Tv0zGYmn0QohDgRpxdtpM6JS3kMAHtPPbKYc2VKkCxg0NuFgethylKpsd90yBmpjbmRyUloBQw
+Processing trending topic: US pays about $160m towards nearly $4bn in UN dues
+Searching Google for: US pays about $160m towards nearly $4bn in UN dues
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bpays%252Babout%252B%2524160m%252Btowards%252Bnearly%252B%25244bn%252Bin%252BUN%252Bdues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QsQGITD38wGIjAVqyyYOtarDpIBfwaTiGHzmbm-h7JGMyJFnNa45T0IEuzarGM83Jl6V2bUWRHGaacyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-released-under-investigation-after-arrest-o_20260220_0200.html
-✓ Created comprehensive article: andrew-released-under-investigation-after-arrest-o_20260220_0200.html
+Successfully created file: us-pays-about-160m-towards-nearly-4bn-in-un-dues_20260220_0422.html
+✓ Created comprehensive article: us-pays-about-160m-towards-nearly-4bn-in-un-dues_20260220_0422.html
 
-Processing trending topic: Epstein files could be just tip of the iceberg for Andrew investigation
-Searching Google for: Epstein files could be just tip of the iceberg for Andrew investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEpstein%252Bfiles%252Bcould%252Bbe%252Bjust%252Btip%252Bof%252Bthe%252Biceberg%252Bfor%252BAndrew%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-1EGM6A38wGIjAfC2ufYlWroPZ4gVk22CqARnmOT_DiwVd1JtA46VJOfdve7n3Fr-pDEajidUIzh5IyBmpjbmRyUloBQw
+Processing trending topic: North Korea’s Kim Jong Un launches key party congress held every 5 years
+Searching Google for: North Korea’s Kim Jong Un launches key party congress held every 5 years
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%25E2%2580%2599s%252BKim%252BJong%252BUn%252Blaunches%252Bkey%252Bparty%252Bcongress%252Bheld%252Bevery%252B5%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QsQGIvD38wGIjBvIauZQKc83w9O1nD8g_cTx48NRsBKmDDNBZ_q19DzOu4W27zSCuUR6RNmLeEd5qIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: epstein-files-could-be-just-tip-of-the-iceberg-for_20260220_0200.html
-✓ Created comprehensive article: epstein-files-could-be-just-tip-of-the-iceberg-for_20260220_0200.html
+Successfully created file: north-koreas-kim-jong-un-launches-key-party-congre_20260220_0422.html
+✓ Created comprehensive article: north-koreas-kim-jong-un-launches-key-party-congre_20260220_0422.html
 
-Processing trending topic: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Searching Google for: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bsiege%252Bof%252BEl%252BFasher%252Bin%252BSudan%252Bhas%252B%25E2%2580%2598hallmarks%252Bof%252Bgenocide%25E2%2580%2599%252C%252BUN%252Bmission%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-1EGNWA38wGIjBo5yc-tKdaMjI_52aI8sdqdcriHxCEAnXIqA1OKEBmsQcAkLJz7EBBghUKS8f0sgUyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,457
+Searching Google for: Russia-Ukraine war: List of key events, day 1,457
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C457%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QsQGJLD38wGIjChijp8tOtV8-pQkvzeW2DBCnbdV9veYlQGJ9l4wUByJQL3ONVd0H6PAFS0ItSsN9YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260220_0200.html
-✓ Created comprehensive article: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260220_0200.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1457_20260220_0422.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1457_20260220_0422.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Andrew released under investigation after arrest on suspicion of misconduct in public office
+   • US pays about $160m towards nearly $4bn in UN dues
      Sources: bbc.com, cnn.com, reuters.com
-   • Epstein files could be just tip of the iceberg for Andrew investigation
+   • North Korea’s Kim Jong Un launches key party congress held every 5 years
      Sources: bbc.com, cnn.com, reuters.com
-   • RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+   • Russia-Ukraine war: List of key events, day 1,457
      Sources: bbc.com, cnn.com, reuters.com
