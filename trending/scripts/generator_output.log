@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Why was Andrew arrested and is he still in line for the throne?
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tucker Carlson says passport seized, staff interrogated at Israeli airport
-Added expanded search topic: Tucker Carlson says passport seized, staff interrogated at Israeli airport
-Saved 27 topics for 2026-02-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: RSF killings in Sudan bear signs of genocide, UN says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: No joy, no respite during Ramadan for families in Gaza City destroyed by Israel .
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA and Peace Board pledge to help Gaza reconstruction through football
+Added expanded search topic: RSF killings in Sudan bear signs of genocide, UN says
+Added expanded search topic: No joy, no respite during Ramadan for families in Gaza City destroyed by Israel .
+Added expanded search topic: FIFA and Peace Board pledge to help Gaza reconstruction through football
+Saved 30 topics for 2026-02-20
 Returning 3 unique trending topics:
-  1. Why was Andrew arrested and is he still in line for the throne? (from BBC News)
-  2. What Andrew's arrest means for the Royal Family (from BBC News)
-  3. Tucker Carlson says passport seized, staff interrogated at Israeli airport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. RSF killings in Sudan bear signs of genocide, UN says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. No joy, no respite during Ramadan for families in Gaza City destroyed by Israel . (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. FIFA and Peace Board pledge to help Gaza reconstruction through football (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Why was Andrew arrested and is he still in line for the throne?
-Searching Google for: Why was Andrew arrested and is he still in line for the throne?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bwas%252BAndrew%252Barrested%252Band%252Bis%252Bhe%252Bstill%252Bin%252Bline%252Bfor%252Bthe%252Bthrone%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7METGMSN4cwGIjBux5btOfsLSoWFw-Vbt8BdIKDnS1wNOYnKZkFVEp0cm1cQal9SZEC_lWutn7ndU0cyBmpjbmRyUloBQw
+Processing trending topic: RSF killings in Sudan bear signs of genocide, UN says
+Searching Google for: RSF killings in Sudan bear signs of genocide, UN says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bkillings%252Bin%252BSudan%252Bbear%252Bsigns%252Bof%252Bgenocide%252C%252BUN%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNWiGLK14cwGIjDZgv4-Wi3IiZwjFBQ6MjWqpzGMzTw9ABsRhOLOECMNZb2AKNSuc1bU8X0gC2REfQcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-was-andrew-arrested-and-is-he-still-in-line-fo_20260220_1134.html
-✓ Created comprehensive article: why-was-andrew-arrested-and-is-he-still-in-line-fo_20260220_1134.html
+Successfully created file: rsf-killings-in-sudan-bear-signs-of-genocide-un-sa_20260220_1259.html
+✓ Created comprehensive article: rsf-killings-in-sudan-bear-signs-of-genocide-un-sa_20260220_1259.html
 
-Processing trending topic: What Andrew's arrest means for the Royal Family
-Searching Google for: What Andrew's arrest means for the Royal Family
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252BAndrew%2527s%252Barrest%252Bmeans%252Bfor%252Bthe%252BRoyal%252BFamily%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7METGMuN4cwGIjCRL03YlGMG3A62rXlCWt_LdwSwV8USPdThN5OLd6NlTK9hokQ9Rx8RkVMCZx8noW0yBmpjbmRyUloBQw
+Processing trending topic: No joy, no respite during Ramadan for families in Gaza City destroyed by Israel .
+Searching Google for: No joy, no respite during Ramadan for families in Gaza City destroyed by Israel .
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252Bjoy%252C%252Bno%252Brespite%252Bduring%252BRamadan%252Bfor%252Bfamilies%252Bin%252BGaza%252BCity%252Bdestroyed%252Bby%252BIsrael%252B.%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNWiGLi14cwGIjDUgBDLIGCLcBZkaURoxE1fOdGG9Je-WvBc1fucpHOlhq7s1UbEOU5Lfxotm31sU5AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-andrews-arrest-means-for-the-royal-family_20260220_1134.html
-✓ Created comprehensive article: what-andrews-arrest-means-for-the-royal-family_20260220_1134.html
+Successfully created file: no-joy-no-respite-during-ramadan-for-families-in-g_20260220_1259.html
+✓ Created comprehensive article: no-joy-no-respite-during-ramadan-for-families-in-g_20260220_1259.html
 
-Processing trending topic: Tucker Carlson says passport seized, staff interrogated at Israeli airport
-Searching Google for: Tucker Carlson says passport seized, staff interrogated at Israeli airport
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTucker%252BCarlson%252Bsays%252Bpassport%252Bseized%252C%252Bstaff%252Binterrogated%252Bat%252BIsraeli%252Bairport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7METGNGN4cwGIjCP8Lynx3E71fIgeZqIXZs3dq9YH9GqNSRX17aCXS0RdKuB1hhoC3c9P8vpkYXjnRsyBmpjbmRyUloBQw
+Processing trending topic: FIFA and Peace Board pledge to help Gaza reconstruction through football
+Searching Google for: FIFA and Peace Board pledge to help Gaza reconstruction through football
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252Band%252BPeace%252BBoard%252Bpledge%252Bto%252Bhelp%252BGaza%252Breconstruction%252Bthrough%252Bfootball%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNWiGL-14cwGIjCQ54nKSIM7XqiGHR4Ui1rMfO-D7kLnk140-igokT1CfY812on6n4yeaeAwr6rZln4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tucker-carlson-says-passport-seized-staff-interrog_20260220_1134.html
-✓ Created comprehensive article: tucker-carlson-says-passport-seized-staff-interrog_20260220_1134.html
+Successfully created file: fifa-and-peace-board-pledge-to-help-gaza-reconstru_20260220_1259.html
+✓ Created comprehensive article: fifa-and-peace-board-pledge-to-help-gaza-reconstru_20260220_1259.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Why was Andrew arrested and is he still in line for the throne?
+   • RSF killings in Sudan bear signs of genocide, UN says
      Sources: bbc.com, cnn.com, reuters.com
-   • What Andrew's arrest means for the Royal Family
+   • No joy, no respite during Ramadan for families in Gaza City destroyed by Israel .
      Sources: bbc.com, cnn.com, reuters.com
-   • Tucker Carlson says passport seized, staff interrogated at Israeli airport
+   • FIFA and Peace Board pledge to help Gaza reconstruction through football
      Sources: bbc.com, cnn.com, reuters.com
