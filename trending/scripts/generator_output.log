@@ -1,70 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 54 topics
+Already used today: 57 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says he will increase his new global tariffs to 15%
-  Added: Iran students stage first anti-government protests since deadly crackdown
+  Added: GB curlers denied Olympic gold at death yet again
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Far-right anti-Islam march sparks counterprotests in Manchester
-  Found from Tech News - Latest Technology and Gadget News | Sky News: Houston, NASA's next moon mission has a problem
-Added expanded search topic: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
-Added expanded search topic: Far-right anti-Islam march sparks counterprotests in Manchester
-Added expanded search topic: Houston, NASA's next moon mission has a problem
-Saved 57 topics for 2026-02-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela receives more than 1,500 amnesty requests under new law
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance
+Added expanded search topic: Venezuela receives more than 1,500 amnesty requests under new law
+Added expanded search topic: ‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance
+Saved 60 topics for 2026-02-21
 Returning 3 unique trending topics:
-  1. Slovakia threatens to cut electricity to Ukraine over Russian oil spat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Far-right anti-Islam march sparks counterprotests in Manchester (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Houston, NASA's next moon mission has a problem (from Tech News - Latest Technology and Gadget News | Sky News)
+  1. GB curlers denied Olympic gold at death yet again (from BBC News)
+  2. Venezuela receives more than 1,500 amnesty requests under new law (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
-Searching Google for: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSlovakia%252Bthreatens%252Bto%252Bcut%252Belectricity%252Bto%252BUkraine%252Bover%252BRussian%252Boil%252Bspat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-hGLPF6MwGIjDLBOl5usYB018vfNQcSYTcmk8WaJwQKDwgZYeWgaLu6_Uts9oddjPA7sz9l9EGMqYyBmpjbmRyUloBQw
+Processing trending topic: GB curlers denied Olympic gold at death yet again
+Searching Google for: GB curlers denied Olympic gold at death yet again
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGB%252Bcurlers%252Bdenied%252BOlympic%252Bgold%252Bat%252Bdeath%252Byet%252Bagain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IykGM3h6MwGIjC6i35QS28dFGpCn3O-4TnLpizYVGC-evFU8km7IgUN5KWqpZFaGqLUKKLBCVzqBbsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: slovakia-threatens-to-cut-electricity-to-ukraine-o_20260221_2125.html
-✓ Created comprehensive article: slovakia-threatens-to-cut-electricity-to-ukraine-o_20260221_2125.html
+Successfully created file: gb-curlers-denied-olympic-gold-at-death-yet-again_20260221_2225.html
+✓ Created comprehensive article: gb-curlers-denied-olympic-gold-at-death-yet-again_20260221_2225.html
 
-Processing trending topic: Far-right anti-Islam march sparks counterprotests in Manchester
-Searching Google for: Far-right anti-Islam march sparks counterprotests in Manchester
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFar-right%252Banti-Islam%252Bmarch%252Bsparks%252Bcounterprotests%252Bin%252BManchester%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-hGLrF6MwGIjBrfLwKfqx27V02Yt5usynGBw1o15bc2ItprPn8_UyUVaH4wwkrtbu1EcfOqYdX_zsyBmpjbmRyUloBQw
+Processing trending topic: Venezuela receives more than 1,500 amnesty requests under new law
+Searching Google for: Venezuela receives more than 1,500 amnesty requests under new law
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%252Breceives%252Bmore%252Bthan%252B1%252C500%252Bamnesty%252Brequests%252Bunder%252Bnew%252Blaw%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IykGNTh6MwGIjCPEUqveUmlKNByRL6q4nFw_myQj_6sDk8doto5ENZkqUZ1Nr16fA7IyPGObvNLXowyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: far-right-anti-islam-march-sparks-counterprotests-_20260221_2125.html
-✓ Created comprehensive article: far-right-anti-islam-march-sparks-counterprotests-_20260221_2125.html
+Successfully created file: venezuela-receives-more-than-1500-amnesty-requests_20260221_2225.html
+✓ Created comprehensive article: venezuela-receives-more-than-1500-amnesty-requests_20260221_2225.html
 
-Processing trending topic: Houston, NASA's next moon mission has a problem
-Searching Google for: Houston, NASA's next moon mission has a problem
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHouston%252C%252BNASA%2527s%252Bnext%252Bmoon%252Bmission%252Bhas%252Ba%252Bproblem%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-hGMDF6MwGIjCqsH3ZkbR7Ladqyj_bxgfW_k4Atp4LQW8Cr-kR4eg42hgDSXXxEZ0buJDc1tNs5skyBmpjbmRyUloBQw
+Processing trending topic: ‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance
+Searching Google for: ‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Absurd%252Band%252Bprovocative%25E2%2580%2599%253A%252BHuckabee%252Bfaces%252Bfirestorm%252Bfor%252BIsrael%252Bborder%252Bstance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IykGNrh6MwGIjCjBS8jW3P_Ql7_wBwvn_Ocb0h5848-iegCf5I8fAp4kI1Xl6-ehGFzyATHAmqJFw0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: houston-nasas-next-moon-mission-has-a-problem_20260221_2125.html
-✓ Created comprehensive article: houston-nasas-next-moon-mission-has-a-problem_20260221_2125.html
+Successfully created file: absurd-and-provocative-huckabee-faces-firestorm-fo_20260221_2225.html
+✓ Created comprehensive article: absurd-and-provocative-huckabee-faces-firestorm-fo_20260221_2225.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Slovakia threatens to cut electricity to Ukraine over Russian oil spat
+   • GB curlers denied Olympic gold at death yet again
      Sources: bbc.com, cnn.com, reuters.com
-   • Far-right anti-Islam march sparks counterprotests in Manchester
+   • Venezuela receives more than 1,500 amnesty requests under new law
      Sources: bbc.com, cnn.com, reuters.com
-   • Houston, NASA's next moon mission has a problem
+   • ‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance
      Sources: bbc.com, cnn.com, reuters.com
