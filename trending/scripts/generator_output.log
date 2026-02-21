@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says he will increase his new global tariffs to 15%
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NASA rules out March launch for manned moon mission over technical issues
-Added expanded search topic: NASA rules out March launch for manned moon mission over technical issues
-Saved 54 topics for 2026-02-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Far-right anti-Islam march sparks counterprotests in Manchester
+  Found from Tech News - Latest Technology and Gadget News | Sky News: Houston, NASA's next moon mission has a problem
+Added expanded search topic: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
+Added expanded search topic: Far-right anti-Islam march sparks counterprotests in Manchester
+Added expanded search topic: Houston, NASA's next moon mission has a problem
+Saved 57 topics for 2026-02-21
 Returning 3 unique trending topics:
-  1. Trump says he will increase his new global tariffs to 15% (from BBC News)
-  2. Iran students stage first anti-government protests since deadly crackdown (from BBC News)
-  3. NASA rules out March launch for manned moon mission over technical issues (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Slovakia threatens to cut electricity to Ukraine over Russian oil spat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Far-right anti-Islam march sparks counterprotests in Manchester (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Houston, NASA's next moon mission has a problem (from Tech News - Latest Technology and Gadget News | Sky News)
 
-Processing trending topic: Trump says he will increase his new global tariffs to 15%
-Searching Google for: Trump says he will increase his new global tariffs to 15%
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bwill%252Bincrease%252Bhis%252Bnew%252Bglobal%252Btariffs%252Bto%252B15%2525%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTOQGJGq6MwGIjBBBReEWxXOFsUcVX9A6oGtrDoKGxCNluKBoKzZmzrnK4QboXqcdaI8Is8ww_URTNEyBmpjbmRyUloBQw
+Processing trending topic: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
+Searching Google for: Slovakia threatens to cut electricity to Ukraine over Russian oil spat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSlovakia%252Bthreatens%252Bto%252Bcut%252Belectricity%252Bto%252BUkraine%252Bover%252BRussian%252Boil%252Bspat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-hGLPF6MwGIjDLBOl5usYB018vfNQcSYTcmk8WaJwQKDwgZYeWgaLu6_Uts9oddjPA7sz9l9EGMqYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-he-will-increase-his-new-global-tariffs_20260221_2027.html
-✓ Created comprehensive article: trump-says-he-will-increase-his-new-global-tariffs_20260221_2027.html
+Successfully created file: slovakia-threatens-to-cut-electricity-to-ukraine-o_20260221_2125.html
+✓ Created comprehensive article: slovakia-threatens-to-cut-electricity-to-ukraine-o_20260221_2125.html
 
-Processing trending topic: Iran students stage first anti-government protests since deadly crackdown
-Searching Google for: Iran students stage first anti-government protests since deadly crackdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bstudents%252Bstage%252Bfirst%252Banti-government%252Bprotests%252Bsince%252Bdeadly%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTOQGJmq6MwGIjCNO1nfZI8nCWpkrBqDRT4mxm86cv-uX217j7NMyMD2ZzsE2OgyZ-9wG5VcjOdgZUAyBmpjbmRyUloBQw
+Processing trending topic: Far-right anti-Islam march sparks counterprotests in Manchester
+Searching Google for: Far-right anti-Islam march sparks counterprotests in Manchester
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFar-right%252Banti-Islam%252Bmarch%252Bsparks%252Bcounterprotests%252Bin%252BManchester%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-hGLrF6MwGIjBrfLwKfqx27V02Yt5usynGBw1o15bc2ItprPn8_UyUVaH4wwkrtbu1EcfOqYdX_zsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-students-stage-first-anti-government-protests_20260221_2027.html
-✓ Created comprehensive article: iran-students-stage-first-anti-government-protests_20260221_2027.html
+Successfully created file: far-right-anti-islam-march-sparks-counterprotests-_20260221_2125.html
+✓ Created comprehensive article: far-right-anti-islam-march-sparks-counterprotests-_20260221_2125.html
 
-Processing trending topic: NASA rules out March launch for manned moon mission over technical issues
-Searching Google for: NASA rules out March launch for manned moon mission over technical issues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNASA%252Brules%252Bout%252BMarch%252Blaunch%252Bfor%252Bmanned%252Bmoon%252Bmission%252Bover%252Btechnical%252Bissues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTOQGJ-q6MwGIjBFZT_iGJ2wD6QqsMqz1h1QdlP3QSUcu7h0SLWdbhjnckxtQhuOYKTI-ND32-psnKEyBmpjbmRyUloBQw
+Processing trending topic: Houston, NASA's next moon mission has a problem
+Searching Google for: Houston, NASA's next moon mission has a problem
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHouston%252C%252BNASA%2527s%252Bnext%252Bmoon%252Bmission%252Bhas%252Ba%252Bproblem%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-hGMDF6MwGIjCqsH3ZkbR7Ladqyj_bxgfW_k4Atp4LQW8Cr-kR4eg42hgDSXXxEZ0buJDc1tNs5skyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nasa-rules-out-march-launch-for-manned-moon-missio_20260221_2027.html
-✓ Created comprehensive article: nasa-rules-out-march-launch-for-manned-moon-missio_20260221_2027.html
+Successfully created file: houston-nasas-next-moon-mission-has-a-problem_20260221_2125.html
+✓ Created comprehensive article: houston-nasas-next-moon-mission-has-a-problem_20260221_2125.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says he will increase his new global tariffs to 15%
+   • Slovakia threatens to cut electricity to Ukraine over Russian oil spat
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran students stage first anti-government protests since deadly crackdown
+   • Far-right anti-Islam march sparks counterprotests in Manchester
      Sources: bbc.com, cnn.com, reuters.com
-   • NASA rules out March launch for manned moon mission over technical issues
+   • Houston, NASA's next moon mission has a problem
      Sources: bbc.com, cnn.com, reuters.com
