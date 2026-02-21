@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: MPs to discuss inquiry into trade envoy role after Andrew arrest
-  Added: Palestinian Authority in dire straits as Israel's hold on West Bank deepens
+  Added: UK should send non-combat troops to Ukraine now, former PM Johnson tells BBC
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Pakistan vs New Zealand abandoned – T20 World Cup Super Eights
-  Found from World News - Breaking international news and headlines | Sky News: US support is 'critically important' for Ukraine, says Kyiv mayor Vitali Klitschko
-Added expanded search topic: LIVE: Pakistan vs New Zealand abandoned – T20 World Cup Super Eights
-Added expanded search topic: US support is 'critically important' for Ukraine, says Kyiv mayor Vitali Klitschko
-Saved 45 topics for 2026-02-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup
+Added expanded search topic: Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan
+Added expanded search topic: Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup
+Saved 48 topics for 2026-02-21
 Returning 3 unique trending topics:
-  1. Palestinian Authority in dire straits as Israel's hold on West Bank deepens (from BBC News)
-  2. LIVE: Pakistan vs New Zealand abandoned – T20 World Cup Super Eights (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US support is 'critically important' for Ukraine, says Kyiv mayor Vitali Klitschko (from World News - Breaking international news and headlines | Sky News)
+  1. UK should send non-combat troops to Ukraine now, former PM Johnson tells BBC (from BBC News)
+  2. Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Palestinian Authority in dire straits as Israel's hold on West Bank deepens
-Searching Google for: Palestinian Authority in dire straits as Israel's hold on West Bank deepens
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252BAuthority%252Bin%252Bdire%252Bstraits%252Bas%252BIsrael%2527s%252Bhold%252Bon%252BWest%252BBank%252Bdeepens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzhGL3W58wGIjD2IjpT4FbYTta3dPDE3BSk26EpEuVAYVaXLY3Pb1S9-jFAL_NvWAGfoS-UTITmgw0yBmpjbmRyUloBQw
+Processing trending topic: UK should send non-combat troops to Ukraine now, former PM Johnson tells BBC
+Searching Google for: UK should send non-combat troops to Ukraine now, former PM Johnson tells BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bshould%252Bsend%252Bnon-combat%252Btroops%252Bto%252BUkraine%252Bnow%252C%252Bformer%252BPM%252BJohnson%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt_xGJf258wGIjD44yxaxJRNNZO1cvHkdznHYwnlZHF3fu3r3Y492IJ5tGkN602gv89wo6iKyi3Pxt8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestinian-authority-in-dire-straits-as-israels-h_20260221_1728.html
-✓ Created comprehensive article: palestinian-authority-in-dire-straits-as-israels-h_20260221_1728.html
+Successfully created file: uk-should-send-non-combat-troops-to-ukraine-now-fo_20260221_1836.html
+✓ Created comprehensive article: uk-should-send-non-combat-troops-to-ukraine-now-fo_20260221_1836.html
 
-Processing trending topic: LIVE: Pakistan vs New Zealand abandoned – T20 World Cup Super Eights
-Searching Google for: LIVE: Pakistan vs New Zealand abandoned – T20 World Cup Super Eights
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BPakistan%252Bvs%252BNew%252BZealand%252Babandoned%252B%25E2%2580%2593%252BT20%252BWorld%252BCup%252BSuper%252BEights%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzhGMTW58wGIjBYjvwjdUEZQuySlDo5Nfe1g1R_uernl_lMJ7JBGMo-McaSuP0SPtT22RN3K9icpr0yBmpjbmRyUloBQw
+Processing trending topic: Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan
+Searching Google for: Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Barmy%252Bkills%252B2%252BPalestinians%252Bin%252Bstrikes%252Bon%252BGaza%252Bduring%252BRamadan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt_xGJ_258wGIjA17J2Ig2rxNjIdhsfXZk22zVaXu6BIhd5-OT1jAa8k9Iuub75YokB167drxmg5XssyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-pakistan-vs-new-zealand-abandoned-t20-world-c_20260221_1728.html
-✓ Created comprehensive article: live-pakistan-vs-new-zealand-abandoned-t20-world-c_20260221_1728.html
+Successfully created file: israeli-army-kills-2-palestinians-in-strikes-on-ga_20260221_1836.html
+✓ Created comprehensive article: israeli-army-kills-2-palestinians-in-strikes-on-ga_20260221_1836.html
 
-Processing trending topic: US support is 'critically important' for Ukraine, says Kyiv mayor Vitali Klitschko
-Searching Google for: US support is 'critically important' for Ukraine, says Kyiv mayor Vitali Klitschko
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsupport%252Bis%252B%2527critically%252Bimportant%2527%252Bfor%252BUkraine%252C%252Bsays%252BKyiv%252Bmayor%252BVitali%252BKlitschko%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzhGMrW58wGIjAtxAhg7XU38QpmIQf8rJyqL4lHMY6cD9WqjvBqaNRPFQlbrazpMo6KXTyt0E4RxdAyBmpjbmRyUloBQw
+Processing trending topic: Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup
+Searching Google for: Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan-New%252BZealand%252BSuper%252BEights%252Bopener%252Babandoned%252Bat%252BT20%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt_xGKX258wGIjAZ2VxjzirhiFrMV3k7T16nGaaENYrhDVc_N6xbBhkckdXDchVbbsV5CdMLwC304bsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-support-is-critically-important-for-ukraine-say_20260221_1728.html
-✓ Created comprehensive article: us-support-is-critically-important-for-ukraine-say_20260221_1728.html
+Successfully created file: pakistan-new-zealand-super-eights-opener-abandoned_20260221_1836.html
+✓ Created comprehensive article: pakistan-new-zealand-super-eights-opener-abandoned_20260221_1836.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Palestinian Authority in dire straits as Israel's hold on West Bank deepens
+   • UK should send non-combat troops to Ukraine now, former PM Johnson tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • LIVE: Pakistan vs New Zealand abandoned – T20 World Cup Super Eights
+   • Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan
      Sources: bbc.com, cnn.com, reuters.com
-   • US support is 'critically important' for Ukraine, says Kyiv mayor Vitali Klitschko
+   • Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup
      Sources: bbc.com, cnn.com, reuters.com
