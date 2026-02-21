@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump brings in new 10% tariff as Supreme Court rejects his global import taxes
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-21
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gunmen on motorcycles kill at least 50 in northwest Nigeria: Report
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump, JD Vance vilify ‘lawless’ Supreme Court justices over tariff ruling
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,458
+Added expanded search topic: Gunmen on motorcycles kill at least 50 in northwest Nigeria: Report
+Added expanded search topic: Trump, JD Vance vilify ‘lawless’ Supreme Court justices over tariff ruling
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,458
+Saved 6 topics for 2026-02-21
 Returning 3 unique trending topics:
-  1. Trump brings in new 10% tariff as Supreme Court rejects his global import taxes (from BBC News)
-  2. Government considers removing Andrew from royal line of succession (from BBC News)
-  3. RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds (from The Guardian)
+  1. Gunmen on motorcycles kill at least 50 in northwest Nigeria: Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump, JD Vance vilify ‘lawless’ Supreme Court justices over tariff ruling (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia-Ukraine war: List of key events, day 1,458 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump brings in new 10% tariff as Supreme Court rejects his global import taxes
-Searching Google for: Trump brings in new 10% tariff as Supreme Court rejects his global import taxes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bbrings%252Bin%252Bnew%252B10%2525%252Btariff%252Bas%252BSupreme%252BCourt%252Brejects%252Bhis%252Bglobal%252Bimport%252Btaxes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4zGJqh5MwGIjD_QkrTGKMPIcaqyExwi-PypIeWkA2EQkPBVi17bLJJX8llDzcS7NdrXL49ncY5GUoyBmpjbmRyUloBQw
+Processing trending topic: Gunmen on motorcycles kill at least 50 in northwest Nigeria: Report
+Searching Google for: Gunmen on motorcycles kill at least 50 in northwest Nigeria: Report
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bon%252Bmotorcycles%252Bkill%252Bat%252Bleast%252B50%252Bin%252Bnorthwest%252BNigeria%253A%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOS_gGO3f5MwGIjBUyCrP4Yz6WEOCl--NWVtMOuruzePhSbyl9dtYp7ThAsefyHXfYntQYQx4psgvqcUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-brings-in-new-10-tariff-as-supreme-court-rej_20260221_0155.html
-✓ Created comprehensive article: trump-brings-in-new-10-tariff-as-supreme-court-rej_20260221_0155.html
+Successfully created file: gunmen-on-motorcycles-kill-at-least-50-in-northwes_20260221_0409.html
+✓ Created comprehensive article: gunmen-on-motorcycles-kill-at-least-50-in-northwes_20260221_0409.html
 
-Processing trending topic: Government considers removing Andrew from royal line of succession
-Searching Google for: Government considers removing Andrew from royal line of succession
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGovernment%252Bconsiders%252Bremoving%252BAndrew%252Bfrom%252Broyal%252Bline%252Bof%252Bsuccession%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4zGKGh5MwGIjDdZfZJga93BAXthwkbxlA4tk0-cz7-h5qbrXXO3UegcINp0tzIIK3eqaoMwN_xjBUyBmpjbmRyUloBQw
+Processing trending topic: Trump, JD Vance vilify ‘lawless’ Supreme Court justices over tariff ruling
+Searching Google for: Trump, JD Vance vilify ‘lawless’ Supreme Court justices over tariff ruling
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252C%252BJD%252BVance%252Bvilify%252B%25E2%2580%2598lawless%25E2%2580%2599%252BSupreme%252BCourt%252Bjustices%252Bover%252Btariff%252Bruling%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOS_gGPTf5MwGIjAZpzWpG3RpG-X_uOOenXmNSp_vfJVWQNpuXLMPvVIgPUxouoy0DX7TmgpYzKf9J1AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: government-considers-removing-andrew-from-royal-li_20260221_0155.html
-✓ Created comprehensive article: government-considers-removing-andrew-from-royal-li_20260221_0155.html
+Successfully created file: trump-jd-vance-vilify-lawless-supreme-court-justic_20260221_0409.html
+✓ Created comprehensive article: trump-jd-vance-vilify-lawless-supreme-court-justic_20260221_0409.html
 
-Processing trending topic: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Searching Google for: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bsiege%252Bof%252BEl%252BFasher%252Bin%252BSudan%252Bhas%252B%25E2%2580%2598hallmarks%252Bof%252Bgenocide%25E2%2580%2599%252C%252BUN%252Bmission%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4zGKeh5MwGIjAVRJqj1szp5GcCiwBxY_m4sCmu028HJjpgCNanjnqZpww-84D4TlC3_pmgbpiygOYyBmpjbmRyUloBQw
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,458
+Searching Google for: Russia-Ukraine war: List of key events, day 1,458
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C458%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOS_gGPrf5MwGIjC7zhxJ_eVeJEx9G3lH_P3nAZoimlVS0kjcYY970NGX8lT0VbP303jhVbE67wsCbNYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260221_0155.html
-✓ Created comprehensive article: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260221_0155.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1458_20260221_0409.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1458_20260221_0409.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump brings in new 10% tariff as Supreme Court rejects his global import taxes
+   • Gunmen on motorcycles kill at least 50 in northwest Nigeria: Report
      Sources: bbc.com, cnn.com, reuters.com
-   • Government considers removing Andrew from royal line of succession
+   • Trump, JD Vance vilify ‘lawless’ Supreme Court justices over tariff ruling
      Sources: bbc.com, cnn.com, reuters.com
-   • RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+   • Russia-Ukraine war: List of key events, day 1,458
      Sources: bbc.com, cnn.com, reuters.com
