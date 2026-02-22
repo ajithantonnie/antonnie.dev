@@ -1,70 +1,62 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says he will increase his new global tariffs to 15%
-  Added: GB curlers denied Olympic gold at death yet again
+  Added: Iran students stage first large anti-government protests since deadly crackdown
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s tariff regime has been ruled unlawful. What are the implications?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Manchester City vs Newcastle United 2-1: Premier League – as it happened
-Added expanded search topic: Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United
-Added expanded search topic: Trump’s tariff regime has been ruled unlawful. What are the implications?
-Added expanded search topic: Manchester City vs Newcastle United 2-1: Premier League – as it happened
-Saved 63 topics for 2026-02-21
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-22
 Returning 3 unique trending topics:
-  1. Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Trump’s tariff regime has been ruled unlawful. What are the implications? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Manchester City vs Newcastle United 2-1: Premier League – as it happened (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump says he will increase his new global tariffs to 15% (from BBC News)
+  2. Iran students stage first large anti-government protests since deadly crackdown (from BBC News)
+  3. RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds (from The Guardian)
 
-Processing trending topic: Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United
-Searching Google for: Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNico%252BO%25E2%2580%2599Reilly%252Bdouble%252Bseals%252Bkey%252B2-1%252Bwin%252Bfor%252BMan%252BCity%252Bover%252BNewcastle%252BUnited%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHdyYjGNb-6MwGIjAAhQD1B9oHm2l7dGC-Wq4UgZsuLN6m0bsqwc_4HyQffXLGvtks2rF2QH_YaDBOXPIyBmpjbmRyUloBQw
+Processing trending topic: Trump says he will increase his new global tariffs to 15%
+Searching Google for: Trump says he will increase his new global tariffs to 15%
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bwill%252Bincrease%252Bhis%252Bnew%252Bglobal%252Btariffs%252Bto%252B15%2525%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttMTGNPI6cwGIjBuNaKdpa-JmmFfErGfpYvxeQ5uYBenxlgTuvtbrn5Av_Y5jDuxivRv6liKpucKhlAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nico-oreilly-double-seals-key-2-1-win-for-man-city_20260221_2327.html
-✓ Created comprehensive article: nico-oreilly-double-seals-key-2-1-win-for-man-city_20260221_2327.html
+Successfully created file: trump-says-he-will-increase-his-new-global-tariffs_20260222_0205.html
+✓ Created comprehensive article: trump-says-he-will-increase-his-new-global-tariffs_20260222_0205.html
 
-Processing trending topic: Trump’s tariff regime has been ruled unlawful. What are the implications?
-Searching Google for: Trump’s tariff regime has been ruled unlawful. What are the implications?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Btariff%252Bregime%252Bhas%252Bbeen%252Bruled%252Bunlawful.%252BWhat%252Bare%252Bthe%252Bimplications%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHdyYjGNz-6MwGIjAz3h-6Mx0hfolVP6k2WGN7wiWoBZsmnOB5zaavBxsNV6kmEU0kgAhziqo05L32_YgyBmpjbmRyUloBQw
+Processing trending topic: Iran students stage first large anti-government protests since deadly crackdown
+Searching Google for: Iran students stage first large anti-government protests since deadly crackdown
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bstudents%252Bstage%252Bfirst%252Blarge%252Banti-government%252Bprotests%252Bsince%252Bdeadly%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttMTGNvI6cwGIjBr9sD_rvCWhm6_PnyTEQvaxNRYcENOGz1zgfOGl1SkvnYcsXYYgfRF8Edy4LdSrYEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-tariff-regime-has-been-ruled-unlawful-what-_20260221_2327.html
-✓ Created comprehensive article: trumps-tariff-regime-has-been-ruled-unlawful-what-_20260221_2327.html
+Successfully created file: iran-students-stage-first-large-anti-government-pr_20260222_0205.html
+✓ Created comprehensive article: iran-students-stage-first-large-anti-government-pr_20260222_0205.html
 
-Processing trending topic: Manchester City vs Newcastle United 2-1: Premier League – as it happened
-Searching Google for: Manchester City vs Newcastle United 2-1: Premier League – as it happened
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DManchester%252BCity%252Bvs%252BNewcastle%252BUnited%252B2-1%253A%252BPremier%252BLeague%252B%25E2%2580%2593%252Bas%252Bit%252Bhappened%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHdyYjGOP-6MwGIjBjQAAvnu3VeKpLqoEF404FJKrxtRNhom25p-BsMpE0Ssu5GY07to3dnrHecwbq73AyBmpjbmRyUloBQw
+Processing trending topic: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+Searching Google for: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bsiege%252Bof%252BEl%252BFasher%252Bin%252BSudan%252Bhas%252B%25E2%2580%2598hallmarks%252Bof%252Bgenocide%25E2%2580%2599%252C%252BUN%252Bmission%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttMTGOLI6cwGIjC6dyhxuU8-mBXE2OqGm2116luJsFilwNxb670AB_TwQ-Iubf-WWixZP1pFhLVgpdIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: manchester-city-vs-newcastle-united-2-1-premier-le_20260221_2327.html
-✓ Created comprehensive article: manchester-city-vs-newcastle-united-2-1-premier-le_20260221_2327.html
+Successfully created file: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260222_0205.html
+✓ Created comprehensive article: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260222_0205.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United
+   • Trump says he will increase his new global tariffs to 15%
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump’s tariff regime has been ruled unlawful. What are the implications?
+   • Iran students stage first large anti-government protests since deadly crackdown
      Sources: bbc.com, cnn.com, reuters.com
-   • Manchester City vs Newcastle United 2-1: Premier League – as it happened
+   • RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
      Sources: bbc.com, cnn.com, reuters.com
