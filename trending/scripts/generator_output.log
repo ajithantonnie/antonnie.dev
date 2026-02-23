@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The key changes being made to special educational needs - at a glance
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Winter storm hits US Northeast, shuts down New York City
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who was El Mencho? What drug lord’s killing means for Mexico
-Added expanded search topic: Winter storm hits US Northeast, shuts down New York City
-Added expanded search topic: Who was El Mencho? What drug lord’s killing means for Mexico
-Saved 30 topics for 2026-02-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan vs England: T20 World Cup Super Eight – team news, start time, XI
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bus crash in Nepal kills 19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexican general details operation the led to ‘El Mencho’ killing
+Added expanded search topic: Pakistan vs England: T20 World Cup Super Eight – team news, start time, XI
+Added expanded search topic: Bus crash in Nepal kills 19
+Added expanded search topic: Mexican general details operation the led to ‘El Mencho’ killing
+Saved 33 topics for 2026-02-23
 Returning 3 unique trending topics:
-  1. Robert Mugabe’s son charged with attempted murder over Johannesburg shooting (from The Guardian)
-  2. Winter storm hits US Northeast, shuts down New York City (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Who was El Mencho? What drug lord’s killing means for Mexico (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Pakistan vs England: T20 World Cup Super Eight – team news, start time, XI (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Bus crash in Nepal kills 19 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexican general details operation the led to ‘El Mencho’ killing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
-Searching Google for: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRobert%252BMugabe%25E2%2580%2599s%252Bson%252Bcharged%252Bwith%252Battempted%252Bmurder%252Bover%252BJohannesburg%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19G5GIPR8cwGIjDWqLduyys_UvEPlZJRQS_g5H3JvNnyrbmWefXr3-eFwXN2v_UmtVGJbo4faXClWU4yBmpjbmRyUloBQw
+Processing trending topic: Pakistan vs England: T20 World Cup Super Eight – team news, start time, XI
+Searching Google for: Pakistan vs England: T20 World Cup Super Eight – team news, start time, XI
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252Bvs%252BEngland%253A%252BT20%252BWorld%252BCup%252BSuper%252BEight%252B%25E2%2580%2593%252Bteam%252Bnews%252C%252Bstart%252Btime%252C%252BXI%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FiGJ3z8cwGIjDAj9emHMBJd3V2vWVLFOFhonQPSuVafy6jRQoOQyYfYHAEwk75KQ-v9XWzlGr18zQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: robert-mugabes-son-charged-with-attempted-murder-o_20260223_1447.html
-✓ Created comprehensive article: robert-mugabes-son-charged-with-attempted-murder-o_20260223_1447.html
+Successfully created file: pakistan-vs-england-t20-world-cup-super-eight-team_20260223_1600.html
+✓ Created comprehensive article: pakistan-vs-england-t20-world-cup-super-eight-team_20260223_1600.html
 
-Processing trending topic: Winter storm hits US Northeast, shuts down New York City
-Searching Google for: Winter storm hits US Northeast, shuts down New York City
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWinter%252Bstorm%252Bhits%252BUS%252BNortheast%252C%252Bshuts%252Bdown%252BNew%252BYork%252BCity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19G5GIrR8cwGIjC-HdIJEWImz5lxFWzF6hjsrQfc64hHl-NgUKrmTg-I-ObmVu8tgRNaTrQ4Vqcri00yBmpjbmRyUloBQw
+Processing trending topic: Bus crash in Nepal kills 19
+Searching Google for: Bus crash in Nepal kills 19
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBus%252Bcrash%252Bin%252BNepal%252Bkills%252B19%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FiGKTz8cwGIjCjyZQFUQTUcszmasRjJJRdFLzlG8z6GPoILh34XbCNR9Idn7dNU7Nj-Rl7IhxS080yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: winter-storm-hits-us-northeast-shuts-down-new-york_20260223_1447.html
-✓ Created comprehensive article: winter-storm-hits-us-northeast-shuts-down-new-york_20260223_1447.html
+Successfully created file: bus-crash-in-nepal-kills-19_20260223_1600.html
+✓ Created comprehensive article: bus-crash-in-nepal-kills-19_20260223_1600.html
 
-Processing trending topic: Who was El Mencho? What drug lord’s killing means for Mexico
-Searching Google for: Who was El Mencho? What drug lord’s killing means for Mexico
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bwas%252BEl%252BMencho%253F%252BWhat%252Bdrug%252Blord%25E2%2580%2599s%252Bkilling%252Bmeans%252Bfor%252BMexico%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19G5GJHR8cwGIjClsF7lIs1iuehf75NNuF0b1ZipMY7FYOqcYfiufKOgP0ZooKnBnatJUEa_3nnRF0EyBmpjbmRyUloBQw
+Processing trending topic: Mexican general details operation the led to ‘El Mencho’ killing
+Searching Google for: Mexican general details operation the led to ‘El Mencho’ killing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexican%252Bgeneral%252Bdetails%252Boperation%252Bthe%252Bled%252Bto%252B%25E2%2580%2598El%252BMencho%25E2%2580%2599%252Bkilling%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FiGKvz8cwGIjCsW4D5jcje5hcolmHKk3xv_yvbhCWdyECJP0UNjrQ8RrRfeyxfZiY0nf7vLVnEFLkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-was-el-mencho-what-drug-lords-killing-means-fo_20260223_1447.html
-✓ Created comprehensive article: who-was-el-mencho-what-drug-lords-killing-means-fo_20260223_1447.html
+Successfully created file: mexican-general-details-operation-the-led-to-el-me_20260223_1600.html
+✓ Created comprehensive article: mexican-general-details-operation-the-led-to-el-me_20260223_1600.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
+   • Pakistan vs England: T20 World Cup Super Eight – team news, start time, XI
      Sources: bbc.com, cnn.com, reuters.com
-   • Winter storm hits US Northeast, shuts down New York City
+   • Bus crash in Nepal kills 19
      Sources: bbc.com, cnn.com, reuters.com
-   • Who was El Mencho? What drug lord’s killing means for Mexico
+   • Mexican general details operation the led to ‘El Mencho’ killing
      Sources: bbc.com, cnn.com, reuters.com
