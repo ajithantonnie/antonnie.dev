@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Zelensky tells BBC Putin has started WW3 and must be stopped
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New York Mayor Zohran Mamdani orders citywide shutdown as snowstorm hits
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Donald Trump’s actions stir election concerns in the lead-up to US midterms
-Added expanded search topic: New York Mayor Zohran Mamdani orders citywide shutdown as snowstorm hits
-Added expanded search topic: Donald Trump’s actions stir election concerns in the lead-up to US midterms
-Saved 15 topics for 2026-02-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Football matches postponed in Mexico after drug cartel leader killed
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video: Armed man killed after breaching perimeter of Trump residence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico descends into violence after cartel leader ‘El Mencho’ killed
+Added expanded search topic: Football matches postponed in Mexico after drug cartel leader killed
+Added expanded search topic: Video: Armed man killed after breaching perimeter of Trump residence
+Added expanded search topic: Mexico descends into violence after cartel leader ‘El Mencho’ killed
+Saved 18 topics for 2026-02-23
 Returning 3 unique trending topics:
-  1. Steve Rosenberg: Four years into its full-scale war in Ukraine, Russia is feeling the effects (from BBC News)
-  2. New York Mayor Zohran Mamdani orders citywide shutdown as snowstorm hits (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Donald Trump’s actions stir election concerns in the lead-up to US midterms (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Football matches postponed in Mexico after drug cartel leader killed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Video: Armed man killed after breaching perimeter of Trump residence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexico descends into violence after cartel leader ‘El Mencho’ killed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Steve Rosenberg: Four years into its full-scale war in Ukraine, Russia is feeling the effects
-Searching Google for: Steve Rosenberg: Four years into its full-scale war in Ukraine, Russia is feeling the effects
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSteve%252BRosenberg%253A%252BFour%252Byears%252Binto%252Bits%252Bfull-scale%252Bwar%252Bin%252BUkraine%252C%252BRussia%252Bis%252Bfeeling%252Bthe%252Beffects%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04Rk0GOmq8MwGIjB4aShgJj5khQ8HR_KagJ0U1BCC32LcQA824Y5OBmXVaLdAVLaaYRTFvfHS7HIesH4yBmpjbmRyUloBQw
+Processing trending topic: Football matches postponed in Mexico after drug cartel leader killed
+Searching Google for: Football matches postponed in Mexico after drug cartel leader killed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFootball%252Bmatches%252Bpostponed%252Bin%252BMexico%252Bafter%252Bdrug%252Bcartel%252Bleader%252Bkilled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9oa2GNTI8MwGIjD8UAFF9q6wjqubz96S4VboeJDK48WHuaqWnZptCNXVTcBOlArJ8-80dLuyTS2g4qEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: steve-rosenberg-four-years-into-its-full-scale-war_20260223_0853.html
-✓ Created comprehensive article: steve-rosenberg-four-years-into-its-full-scale-war_20260223_0853.html
+Successfully created file: football-matches-postponed-in-mexico-after-drug-ca_20260223_0956.html
+✓ Created comprehensive article: football-matches-postponed-in-mexico-after-drug-ca_20260223_0956.html
 
-Processing trending topic: New York Mayor Zohran Mamdani orders citywide shutdown as snowstorm hits
-Searching Google for: New York Mayor Zohran Mamdani orders citywide shutdown as snowstorm hits
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BYork%252BMayor%252BZohran%252BMamdani%252Borders%252Bcitywide%252Bshutdown%252Bas%252Bsnowstorm%252Bhits%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04Rk0GPCq8MwGIjDzb2Kw5ppB1wCUa1S1qsNkXQCOIl4FadYhxP3gwypkSPbcwi3lMjCY7vpvIY7JbBAyBmpjbmRyUloBQw
+Processing trending topic: Video: Armed man killed after breaching perimeter of Trump residence
+Searching Google for: Video: Armed man killed after breaching perimeter of Trump residence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%253A%252BArmed%252Bman%252Bkilled%252Bafter%252Bbreaching%252Bperimeter%252Bof%252BTrump%252Bresidence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9oa2GNvI8MwGIjBsomug-X_GxseloxMj7INezabGubRyrHaFT_5_7p6oOaWEMw-DoMQUKlBMrWo9alEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-york-mayor-zohran-mamdani-orders-citywide-shut_20260223_0853.html
-✓ Created comprehensive article: new-york-mayor-zohran-mamdani-orders-citywide-shut_20260223_0853.html
+Successfully created file: video-armed-man-killed-after-breaching-perimeter-o_20260223_0956.html
+✓ Created comprehensive article: video-armed-man-killed-after-breaching-perimeter-o_20260223_0956.html
 
-Processing trending topic: Donald Trump’s actions stir election concerns in the lead-up to US midterms
-Searching Google for: Donald Trump’s actions stir election concerns in the lead-up to US midterms
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDonald%252BTrump%25E2%2580%2599s%252Bactions%252Bstir%252Belection%252Bconcerns%252Bin%252Bthe%252Blead-up%252Bto%252BUS%252Bmidterms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04Rk0GPaq8MwGIjDLGI9StBAa-OvX5N6JMkdylkmwvi2XQAeFvJ-bhU2AoyjiJnJRRc-cgaryYgNMzGAyBmpjbmRyUloBQw
+Processing trending topic: Mexico descends into violence after cartel leader ‘El Mencho’ killed
+Searching Google for: Mexico descends into violence after cartel leader ‘El Mencho’ killed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bdescends%252Binto%252Bviolence%252Bafter%252Bcartel%252Bleader%252B%25E2%2580%2598El%252BMencho%25E2%2580%2599%252Bkilled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9oa2GOHI8MwGIjBPYeJ02kU7MAbmb8f1yeqMnJ9Pk2SfBbXujNYBg1PXHZb_TrBLa5MnnSRetlftCCQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: donald-trumps-actions-stir-election-concerns-in-th_20260223_0853.html
-✓ Created comprehensive article: donald-trumps-actions-stir-election-concerns-in-th_20260223_0853.html
+Successfully created file: mexico-descends-into-violence-after-cartel-leader-_20260223_0956.html
+✓ Created comprehensive article: mexico-descends-into-violence-after-cartel-leader-_20260223_0956.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Steve Rosenberg: Four years into its full-scale war in Ukraine, Russia is feeling the effects
+   • Football matches postponed in Mexico after drug cartel leader killed
      Sources: bbc.com, cnn.com, reuters.com
-   • New York Mayor Zohran Mamdani orders citywide shutdown as snowstorm hits
+   • Video: Armed man killed after breaching perimeter of Trump residence
      Sources: bbc.com, cnn.com, reuters.com
-   • Donald Trump’s actions stir election concerns in the lead-up to US midterms
+   • Mexico descends into violence after cartel leader ‘El Mencho’ killed
      Sources: bbc.com, cnn.com, reuters.com
