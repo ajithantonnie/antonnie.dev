@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Zelensky tells BBC Putin has started WW3 and must be stopped
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-23
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia-Ukraine war: List of key events, day 1,460
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea’s Kim Jong Un re-elected as chief of Workers’ Party
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: White House post after US hockey win over Canada stirs controversy
+Added expanded search topic: Russia-Ukraine war: List of key events, day 1,460
+Added expanded search topic: North Korea’s Kim Jong Un re-elected as chief of Workers’ Party
+Added expanded search topic: White House post after US hockey win over Canada stirs controversy
+Saved 6 topics for 2026-02-23
 Returning 3 unique trending topics:
-  1. Zelensky tells BBC Putin has started WW3 and must be stopped (from BBC News)
-  2. Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas (from BBC News)
-  3. RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds (from The Guardian)
+  1. Russia-Ukraine war: List of key events, day 1,460 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. North Korea’s Kim Jong Un re-elected as chief of Workers’ Party (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. White House post after US hockey win over Canada stirs controversy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Zelensky tells BBC Putin has started WW3 and must be stopped
-Searching Google for: Zelensky tells BBC Putin has started WW3 and must be stopped
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelensky%252Btells%252BBBC%252BPutin%252Bhas%252Bstarted%252BWW3%252Band%252Bmust%252Bbe%252Bstopped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodEmyGL7r7swGIjAmfDGn2XmY-g4HyUIjAPCcbDfPXY5lbXFMVvaBt6lduAEINsqccReKzyMsaR5WLm0yAnJSWgFD
+Processing trending topic: Russia-Ukraine war: List of key events, day 1,460
+Searching Google for: Russia-Ukraine war: List of key events, day 1,460
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia-Ukraine%252Bwar%253A%252BList%252Bof%252Bkey%252Bevents%252C%252Bday%252B1%252C460%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GM2978wGIjC90LL4XtsqWyfvP5MTIGYAz-m2SvgBikZpFb9zCLYxiMi3mgWgil_BEilb4r9NLHIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zelensky-tells-bbc-putin-has-started-ww3-and-must-_20260223_0204.html
-✓ Created comprehensive article: zelensky-tells-bbc-putin-has-started-ww3-and-must-_20260223_0204.html
+Successfully created file: russia-ukraine-war-list-of-key-events-day-1460_20260223_0500.html
+✓ Created comprehensive article: russia-ukraine-war-list-of-key-events-day-1460_20260223_0500.html
 
-Processing trending topic: Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas
-Searching Google for: Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamnet%2527s%252BJessie%252BBuckley%252Band%252BI%252BSwear%2527s%252BRobert%252BAramayo%252Bwin%252Bbig%252Bat%252Bthe%252BBaftas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodEmyGMXr7swGIjD-v4Wmat4PwnVOMWWvceeGjLcR0BPgR53OjubHrLDKL3UnWEN9Wy9gn0IY2vI4MHcyAnJSWgFD
+Processing trending topic: North Korea’s Kim Jong Un re-elected as chief of Workers’ Party
+Searching Google for: North Korea’s Kim Jong Un re-elected as chief of Workers’ Party
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%25E2%2580%2599s%252BKim%252BJong%252BUn%252Bre-elected%252Bas%252Bchief%252Bof%252BWorkers%25E2%2580%2599%252BParty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GNS978wGIjA7VzPXhgoClKxCpz0QYFRbE3KnyR0az4UQJd_RCmm_Rm_ixSokYs6vs8Ww5SdzT9syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hamnets-jessie-buckley-and-i-swears-robert-aramayo_20260223_0204.html
-✓ Created comprehensive article: hamnets-jessie-buckley-and-i-swears-robert-aramayo_20260223_0204.html
+Successfully created file: north-koreas-kim-jong-un-re-elected-as-chief-of-wo_20260223_0500.html
+✓ Created comprehensive article: north-koreas-kim-jong-un-re-elected-as-chief-of-wo_20260223_0500.html
 
-Processing trending topic: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Searching Google for: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bsiege%252Bof%252BEl%252BFasher%252Bin%252BSudan%252Bhas%252B%25E2%2580%2598hallmarks%252Bof%252Bgenocide%25E2%2580%2599%252C%252BUN%252Bmission%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodEmyGMzr7swGIjB7EiFqHMnWxhgt18_TupqYKtfasuh_yHXo7i7l1ybdxssE8M0k7VXRt3M67Yb_uBEyAnJSWgFD
+Processing trending topic: White House post after US hockey win over Canada stirs controversy
+Searching Google for: White House post after US hockey win over Canada stirs controversy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhite%252BHouse%252Bpost%252Bafter%252BUS%252Bhockey%252Bwin%252Bover%252BCanada%252Bstirs%252Bcontroversy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GNq978wGIjC7GRY-xa12fWpZxpk6gatymm96oJT8rnx6_yCz_1XIpfdeg0CG0xmdhpcQ7F2UHnIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260223_0205.html
-✓ Created comprehensive article: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260223_0205.html
+Successfully created file: white-house-post-after-us-hockey-win-over-canada-s_20260223_0500.html
+✓ Created comprehensive article: white-house-post-after-us-hockey-win-over-canada-s_20260223_0500.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Zelensky tells BBC Putin has started WW3 and must be stopped
+   • Russia-Ukraine war: List of key events, day 1,460
      Sources: bbc.com, cnn.com, reuters.com
-   • Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas
+   • North Korea’s Kim Jong Un re-elected as chief of Workers’ Party
      Sources: bbc.com, cnn.com, reuters.com
-   • RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+   • White House post after US hockey win over Canada stirs controversy
      Sources: bbc.com, cnn.com, reuters.com
