@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Zelensky tells BBC Putin has started WW3 and must be stopped
@@ -9,62 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico announces killing of drug cartel kingpin ‘El Mencho’
-  Found from World News - Breaking international news and headlines | Sky News: Mexican drug lord 'El Mencho' killed in military operation
-  Found from World News - Breaking international news and headlines | Sky News: Iran's regime may be ready to strike a deal with Trump
-Added expanded search topic: Mexico announces killing of drug cartel kingpin ‘El Mencho’
-Added expanded search topic: Mexican drug lord 'El Mencho' killed in military operation
-Added expanded search topic: Iran's regime may be ready to strike a deal with Trump
-Saved 63 topics for 2026-02-22
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-23
 Returning 3 unique trending topics:
-  1. Mexico announces killing of drug cartel kingpin ‘El Mencho’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Mexican drug lord 'El Mencho' killed in military operation (from World News - Breaking international news and headlines | Sky News)
-  3. Iran's regime may be ready to strike a deal with Trump (from World News - Breaking international news and headlines | Sky News)
+  1. Zelensky tells BBC Putin has started WW3 and must be stopped (from BBC News)
+  2. Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas (from BBC News)
+  3. RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds (from The Guardian)
 
-Processing trending topic: Mexico announces killing of drug cartel kingpin ‘El Mencho’
-Searching Google for: Mexico announces killing of drug cartel kingpin ‘El Mencho’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bannounces%252Bkilling%252Bof%252Bdrug%252Bcartel%252Bkingpin%252B%25E2%2580%2598El%252BMencho%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9hjGKWi7swGIjD6f_AKPZPLljEJSpKQDOAYcbP5VhRhjJiMGeLcwFynbzQ1XUkTmPXA65eoXIRS35QyBmpjbmRyUloBQw
+Processing trending topic: Zelensky tells BBC Putin has started WW3 and must be stopped
+Searching Google for: Zelensky tells BBC Putin has started WW3 and must be stopped
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelensky%252Btells%252BBBC%252BPutin%252Bhas%252Bstarted%252BWW3%252Band%252Bmust%252Bbe%252Bstopped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodEmyGL7r7swGIjAmfDGn2XmY-g4HyUIjAPCcbDfPXY5lbXFMVvaBt6lduAEINsqccReKzyMsaR5WLm0yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mexico-announces-killing-of-drug-cartel-kingpin-el_20260222_2328.html
-✓ Created comprehensive article: mexico-announces-killing-of-drug-cartel-kingpin-el_20260222_2328.html
+Successfully created file: zelensky-tells-bbc-putin-has-started-ww3-and-must-_20260223_0204.html
+✓ Created comprehensive article: zelensky-tells-bbc-putin-has-started-ww3-and-must-_20260223_0204.html
 
-Processing trending topic: Mexican drug lord 'El Mencho' killed in military operation
-Searching Google for: Mexican drug lord 'El Mencho' killed in military operation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexican%252Bdrug%252Blord%252B%2527El%252BMencho%2527%252Bkilled%252Bin%252Bmilitary%252Boperation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9hjGKyi7swGIjCp1f7z0UuJiLylwnFgj7wOhX9uVekPJIQ1pyonXgjG-T4LMCz08tkdRgGGIfsxhDQyBmpjbmRyUloBQw
+Processing trending topic: Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas
+Searching Google for: Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamnet%2527s%252BJessie%252BBuckley%252Band%252BI%252BSwear%2527s%252BRobert%252BAramayo%252Bwin%252Bbig%252Bat%252Bthe%252BBaftas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodEmyGMXr7swGIjD-v4Wmat4PwnVOMWWvceeGjLcR0BPgR53OjubHrLDKL3UnWEN9Wy9gn0IY2vI4MHcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mexican-drug-lord-el-mencho-killed-in-military-ope_20260222_2328.html
-✓ Created comprehensive article: mexican-drug-lord-el-mencho-killed-in-military-ope_20260222_2328.html
+Successfully created file: hamnets-jessie-buckley-and-i-swears-robert-aramayo_20260223_0204.html
+✓ Created comprehensive article: hamnets-jessie-buckley-and-i-swears-robert-aramayo_20260223_0204.html
 
-Processing trending topic: Iran's regime may be ready to strike a deal with Trump
-Searching Google for: Iran's regime may be ready to strike a deal with Trump
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%2527s%252Bregime%252Bmay%252Bbe%252Bready%252Bto%252Bstrike%252Ba%252Bdeal%252Bwith%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9hjGLOi7swGIjBafTiKch3_ZJHuYw4JbRzM3PmMoRyC9zblukSUG1zw66-acsTcfF7v-xegqyUzaDEyBmpjbmRyUloBQw
+Processing trending topic: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+Searching Google for: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRSF%252Bsiege%252Bof%252BEl%252BFasher%252Bin%252BSudan%252Bhas%252B%25E2%2580%2598hallmarks%252Bof%252Bgenocide%25E2%2580%2599%252C%252BUN%252Bmission%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodEmyGMzr7swGIjB7EiFqHMnWxhgt18_TupqYKtfasuh_yHXo7i7l1ybdxssE8M0k7VXRt3M67Yb_uBEyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-regime-may-be-ready-to-strike-a-deal-with-tr_20260222_2328.html
-✓ Created comprehensive article: irans-regime-may-be-ready-to-strike-a-deal-with-tr_20260222_2328.html
+Successfully created file: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260223_0205.html
+✓ Created comprehensive article: rsf-siege-of-el-fasher-in-sudan-has-hallmarks-of-g_20260223_0205.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Mexico announces killing of drug cartel kingpin ‘El Mencho’
+   • Zelensky tells BBC Putin has started WW3 and must be stopped
      Sources: bbc.com, cnn.com, reuters.com
-   • Mexican drug lord 'El Mencho' killed in military operation
+   • Hamnet's Jessie Buckley and I Swear's Robert Aramayo win big at the Baftas
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran's regime may be ready to strike a deal with Trump
+   • RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds
      Sources: bbc.com, cnn.com, reuters.com
