@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Lord Mandelson released on bail after arrest on suspicion of misconduct in public office
   Added: Russian soldiers tell BBC they saw fellow troops executed on commanders' orders
+  Added: 'Anyone who runs is shot': Watch Russian soldiers describe killings of troops who refuse orders
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Schools shut, troops on streets: Mexico on alert after ‘El Mencho’ killing
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: With ‘El Mencho’ killed, what’s next for Mexico and the Jalisco cartel?
-Added expanded search topic: Schools shut, troops on streets: Mexico on alert after ‘El Mencho’ killing
-Added expanded search topic: With ‘El Mencho’ killed, what’s next for Mexico and the Jalisco cartel?
-Saved 15 topics for 2026-02-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Floyd Mayweather and Manny Pacquiao agree to fight rematch in September
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Army helicopter crashes into Iran market, killing 2 pilots and 2 merchants
+Added expanded search topic: Floyd Mayweather and Manny Pacquiao agree to fight rematch in September
+Added expanded search topic: Army helicopter crashes into Iran market, killing 2 pilots and 2 merchants
+Saved 18 topics for 2026-02-24
 Returning 3 unique trending topics:
-  1. Russian soldiers tell BBC they saw fellow troops executed on commanders' orders (from BBC News)
-  2. Schools shut, troops on streets: Mexico on alert after ‘El Mencho’ killing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. With ‘El Mencho’ killed, what’s next for Mexico and the Jalisco cartel? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'Anyone who runs is shot': Watch Russian soldiers describe killings of troops who refuse orders (from BBC News)
+  2. Floyd Mayweather and Manny Pacquiao agree to fight rematch in September (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Army helicopter crashes into Iran market, killing 2 pilots and 2 merchants (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russian soldiers tell BBC they saw fellow troops executed on commanders' orders
-Searching Google for: Russian soldiers tell BBC they saw fellow troops executed on commanders' orders
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bsoldiers%252Btell%252BBBC%252Bthey%252Bsaw%252Bfellow%252Btroops%252Bexecuted%252Bon%252Bcommanders%2527%252Borders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNiGLTL9cwGIjBuw1mwrVCS3MILLUdpcgZ2RjPacl9ars02WBZ33fcwVqFTk_CIjYxZlp803YrN4WMyBmpjbmRyUloBQw
+Processing trending topic: 'Anyone who runs is shot': Watch Russian soldiers describe killings of troops who refuse orders
+Searching Google for: 'Anyone who runs is shot': Watch Russian soldiers describe killings of troops who refuse orders
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Anyone%252Bwho%252Bruns%252Bis%252Bshot%2527%253A%252BWatch%252BRussian%252Bsoldiers%252Bdescribe%252Bkillings%252Bof%252Btroops%252Bwho%252Brefuse%252Borders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OObGOnq9cwGIjDy7QHCTfeMoF6PPkb6-zMxXvWiYhYvjoUCfTSlbcL54LCg-1QqgwiSeAWxSO5mzlgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russian-soldiers-tell-bbc-they-saw-fellow-troops-e_20260224_0847.html
-✓ Created comprehensive article: russian-soldiers-tell-bbc-they-saw-fellow-troops-e_20260224_0847.html
+Successfully created file: anyone-who-runs-is-shot-watch-russian-soldiers-des_20260224_0954.html
+✓ Created comprehensive article: anyone-who-runs-is-shot-watch-russian-soldiers-des_20260224_0954.html
 
-Processing trending topic: Schools shut, troops on streets: Mexico on alert after ‘El Mencho’ killing
-Searching Google for: Schools shut, troops on streets: Mexico on alert after ‘El Mencho’ killing
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSchools%252Bshut%252C%252Btroops%252Bon%252Bstreets%253A%252BMexico%252Bon%252Balert%252Bafter%252B%25E2%2580%2598El%252BMencho%25E2%2580%2599%252Bkilling%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNiGLvL9cwGIjBVC1FSdJ4DqlUaBrZ9TtCugTgnqeTgubJrv3sPWXQogijMN7QY3kje0WgW1w_Y9aAyBmpjbmRyUloBQw
+Processing trending topic: Floyd Mayweather and Manny Pacquiao agree to fight rematch in September
+Searching Google for: Floyd Mayweather and Manny Pacquiao agree to fight rematch in September
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFloyd%252BMayweather%252Band%252BManny%252BPacquiao%252Bagree%252Bto%252Bfight%252Brematch%252Bin%252BSeptember%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OObGO_q9cwGIjDSM42QadROvk6G-0RLXTtoVODxsHJvayJSkG6I7B9NwUJWmooXqSGaKWBoKnUAf2gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: schools-shut-troops-on-streets-mexico-on-alert-aft_20260224_0847.html
-✓ Created comprehensive article: schools-shut-troops-on-streets-mexico-on-alert-aft_20260224_0847.html
+Successfully created file: floyd-mayweather-and-manny-pacquiao-agree-to-fight_20260224_0954.html
+✓ Created comprehensive article: floyd-mayweather-and-manny-pacquiao-agree-to-fight_20260224_0954.html
 
-Processing trending topic: With ‘El Mencho’ killed, what’s next for Mexico and the Jalisco cartel?
-Searching Google for: With ‘El Mencho’ killed, what’s next for Mexico and the Jalisco cartel?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWith%252B%25E2%2580%2598El%252BMencho%25E2%2580%2599%252Bkilled%252C%252Bwhat%25E2%2580%2599s%252Bnext%252Bfor%252BMexico%252Band%252Bthe%252BJalisco%252Bcartel%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNiGMHL9cwGIjAkrNJptH6jSSVusZ1AeuUSFFuLO_5lXLLI4YWej94GHsMRskRly3IEOXjz3bYE8bYyBmpjbmRyUloBQw
+Processing trending topic: Army helicopter crashes into Iran market, killing 2 pilots and 2 merchants
+Searching Google for: Army helicopter crashes into Iran market, killing 2 pilots and 2 merchants
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArmy%252Bhelicopter%252Bcrashes%252Binto%252BIran%252Bmarket%252C%252Bkilling%252B2%252Bpilots%252Band%252B2%252Bmerchants%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OObGPXq9cwGIjCluXlnZxLsH2B5_zLErERHqhewDt5I1xDIVc_YTsJMiP2IP8zskH7LC-NPsy6HkrUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: with-el-mencho-killed-whats-next-for-mexico-and-th_20260224_0848.html
-✓ Created comprehensive article: with-el-mencho-killed-whats-next-for-mexico-and-th_20260224_0848.html
+Successfully created file: army-helicopter-crashes-into-iran-market-killing-2_20260224_0955.html
+✓ Created comprehensive article: army-helicopter-crashes-into-iran-market-killing-2_20260224_0955.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russian soldiers tell BBC they saw fellow troops executed on commanders' orders
+   • 'Anyone who runs is shot': Watch Russian soldiers describe killings of troops who refuse orders
      Sources: bbc.com, cnn.com, reuters.com
-   • Schools shut, troops on streets: Mexico on alert after ‘El Mencho’ killing
+   • Floyd Mayweather and Manny Pacquiao agree to fight rematch in September
      Sources: bbc.com, cnn.com, reuters.com
-   • With ‘El Mencho’ killed, what’s next for Mexico and the Jalisco cartel?
+   • Army helicopter crashes into Iran market, killing 2 pilots and 2 merchants
      Sources: bbc.com, cnn.com, reuters.com
