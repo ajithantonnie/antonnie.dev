@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Lord Mandelson arrested on suspicion of misconduct in public office
@@ -9,62 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: EU sanctions Russian officials as Hungary blocks funds to Ukraine
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon’s tax hikes draw anger from economically frustrated public
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settlers vandalise, torch mosque in occupied West Bank
-Added expanded search topic: EU sanctions Russian officials as Hungary blocks funds to Ukraine
-Added expanded search topic: Lebanon’s tax hikes draw anger from economically frustrated public
-Added expanded search topic: Israeli settlers vandalise, torch mosque in occupied West Bank
-Saved 54 topics for 2026-02-23
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-24
 Returning 3 unique trending topics:
-  1. EU sanctions Russian officials as Hungary blocks funds to Ukraine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Lebanon’s tax hikes draw anger from economically frustrated public (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli settlers vandalise, torch mosque in occupied West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Lord Mandelson arrested on suspicion of misconduct in public office (from BBC News)
+  2. Watch: Peter Mandelson led away by police from Camden home (from BBC News)
+  3. Robert Mugabe’s son charged with attempted murder over Johannesburg shooting (from The Guardian)
 
-Processing trending topic: EU sanctions Russian officials as Hungary blocks funds to Ukraine
-Searching Google for: EU sanctions Russian officials as Hungary blocks funds to Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bsanctions%252BRussian%252Bofficials%252Bas%252BHungary%252Bblocks%252Bfunds%252Bto%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK-TGPzJ88wGIjCJ-Mv5Qd2QNeL2WA2dcRgLLdX1NtiYD3RwoKU2FyluhRkpRCD3u7yPH4h8YuPKcJoyBmpjbmRyUloBQw
+Processing trending topic: Lord Mandelson arrested on suspicion of misconduct in public office
+Searching Google for: Lord Mandelson arrested on suspicion of misconduct in public office
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLord%252BMandelson%252Barrested%252Bon%252Bsuspicion%252Bof%252Bmisconduct%252Bin%252Bpublic%252Boffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sDGKON9MwGIjD2xxByY2bl2LOZJPFd-ql7v6_sc0zug5eK1ha-iKaR10j4yLBzXtmpEiBGFXw04uUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eu-sanctions-russian-officials-as-hungary-blocks-f_20260223_2338.html
-✓ Created comprehensive article: eu-sanctions-russian-officials-as-hungary-blocks-f_20260223_2338.html
+Successfully created file: lord-mandelson-arrested-on-suspicion-of-misconduct_20260224_0202.html
+✓ Created comprehensive article: lord-mandelson-arrested-on-suspicion-of-misconduct_20260224_0202.html
 
-Processing trending topic: Lebanon’s tax hikes draw anger from economically frustrated public
-Searching Google for: Lebanon’s tax hikes draw anger from economically frustrated public
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%25E2%2580%2599s%252Btax%252Bhikes%252Bdraw%252Banger%252Bfrom%252Beconomically%252Bfrustrated%252Bpublic%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK-TGIPK88wGIjCGB_22f7QZPQJKskfVpZ6vb6I1fGyIcBk5OPoWqR48GD_S8kTPotYdF5D4N0F5bhAyBmpjbmRyUloBQw
+Processing trending topic: Watch: Peter Mandelson led away by police from Camden home
+Searching Google for: Watch: Peter Mandelson led away by police from Camden home
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BPeter%252BMandelson%252Bled%252Baway%252Bby%252Bpolice%252Bfrom%252BCamden%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sDGKqN9MwGIjBz7LGjkEOKmn3_wI6Jfrx1H3ex9-U_pFUwDS9W10REKa-rUs_CJMtqWP4tyURsPjEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lebanons-tax-hikes-draw-anger-from-economically-fr_20260223_2338.html
-✓ Created comprehensive article: lebanons-tax-hikes-draw-anger-from-economically-fr_20260223_2338.html
+Successfully created file: watch-peter-mandelson-led-away-by-police-from-camd_20260224_0202.html
+✓ Created comprehensive article: watch-peter-mandelson-led-away-by-police-from-camd_20260224_0202.html
 
-Processing trending topic: Israeli settlers vandalise, torch mosque in occupied West Bank
-Searching Google for: Israeli settlers vandalise, torch mosque in occupied West Bank
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettlers%252Bvandalise%252C%252Btorch%252Bmosque%252Bin%252Boccupied%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK-TGInK88wGIjBIpukAAFL-nxiyvbqHsPTY6vVe9TUETDj4_Oje-YuzrRGsqer1pkvlBCilP_3Z-DgyBmpjbmRyUloBQw
+Processing trending topic: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
+Searching Google for: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRobert%252BMugabe%25E2%2580%2599s%252Bson%252Bcharged%252Bwith%252Battempted%252Bmurder%252Bover%252BJohannesburg%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63sDGLGN9MwGIjD6dTeTN_yNmBYwnoR1y6IHdt7ZfB7zRwah5b7TO1-l31X4ghLM4LcgqycvTiuhJ4kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-settlers-vandalise-torch-mosque-in-occupie_20260223_2338.html
-✓ Created comprehensive article: israeli-settlers-vandalise-torch-mosque-in-occupie_20260223_2338.html
+Successfully created file: robert-mugabes-son-charged-with-attempted-murder-o_20260224_0202.html
+✓ Created comprehensive article: robert-mugabes-son-charged-with-attempted-murder-o_20260224_0202.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • EU sanctions Russian officials as Hungary blocks funds to Ukraine
+   • Lord Mandelson arrested on suspicion of misconduct in public office
      Sources: bbc.com, cnn.com, reuters.com
-   • Lebanon’s tax hikes draw anger from economically frustrated public
+   • Watch: Peter Mandelson led away by police from Camden home
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli settlers vandalise, torch mosque in occupied West Bank
+   • Robert Mugabe’s son charged with attempted murder over Johannesburg shooting
      Sources: bbc.com, cnn.com, reuters.com
