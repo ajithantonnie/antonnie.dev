@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump to address a changed America at vital moment for his presidency
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Royal Artillery under fire after denying access to looted Asante treasure
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-25
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tokyo protests as China blocks ‘dual-use’ exports to 20 Japanese companies
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Donald Trump heckled during State of the Union
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s FM says deal with US ‘within reach’ if diplomacy ‘given priority’
+Added expanded search topic: Tokyo protests as China blocks ‘dual-use’ exports to 20 Japanese companies
+Added expanded search topic: Donald Trump heckled during State of the Union
+Added expanded search topic: Iran’s FM says deal with US ‘within reach’ if diplomacy ‘given priority’
+Saved 6 topics for 2026-02-25
 Returning 3 unique trending topics:
-  1. Trump to address a changed America at vital moment for his presidency (from BBC News)
-  2. Mandelson's lawyers say he was arrested over 'baseless' claim he was a flight risk (from BBC News)
-  3. Royal Artillery under fire after denying access to looted Asante treasure (from The Guardian)
+  1. Tokyo protests as China blocks ‘dual-use’ exports to 20 Japanese companies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Donald Trump heckled during State of the Union (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran’s FM says deal with US ‘within reach’ if diplomacy ‘given priority’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump to address a changed America at vital moment for his presidency
-Searching Google for: Trump to address a changed America at vital moment for his presidency
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bto%252Baddress%252Ba%252Bchanged%252BAmerica%252Bat%252Bvital%252Bmoment%252Bfor%252Bhis%252Bpresidency%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhQGKyx-cwGIjD-QrDrKSQxq5bUhsZXxe3A-zb-htKUfbNAmneYtB10g6aXSZg5hmohb0AzoXzpFGEyBmpjbmRyUloBQw
+Processing trending topic: Tokyo protests as China blocks ‘dual-use’ exports to 20 Japanese companies
+Searching Google for: Tokyo protests as China blocks ‘dual-use’ exports to 20 Japanese companies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTokyo%252Bprotests%252Bas%252BChina%252Bblocks%252B%25E2%2580%2598dual-use%25E2%2580%2599%252Bexports%252Bto%252B20%252BJapanese%252Bcompanies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IbhGPqA-swGIjCaSp5WVCaPk2xQbuIntA3B2pyh8KadhIJLsdLRJVYSIr5F3H0h7RoMDnDXJsPwaEUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-to-address-a-changed-america-at-vital-moment_20260225_0204.html
-✓ Created comprehensive article: trump-to-address-a-changed-america-at-vital-moment_20260225_0204.html
+Successfully created file: tokyo-protests-as-china-blocks-dual-use-exports-to_20260225_0454.html
+✓ Created comprehensive article: tokyo-protests-as-china-blocks-dual-use-exports-to_20260225_0454.html
 
-Processing trending topic: Mandelson's lawyers say he was arrested over 'baseless' claim he was a flight risk
-Searching Google for: Mandelson's lawyers say he was arrested over 'baseless' claim he was a flight risk
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMandelson%2527s%252Blawyers%252Bsay%252Bhe%252Bwas%252Barrested%252Bover%252B%2527baseless%2527%252Bclaim%252Bhe%252Bwas%252Ba%252Bflight%252Brisk%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhQGLKx-cwGIjBkdTECMpFGTgWrOt2VimMN8RLB0IzsSl1MpjHTP28OOxIFJ40RgRXENiVP1BpQqOUyBmpjbmRyUloBQw
+Processing trending topic: Donald Trump heckled during State of the Union
+Searching Google for: Donald Trump heckled during State of the Union
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDonald%252BTrump%252Bheckled%252Bduring%252BState%252Bof%252Bthe%252BUnion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IbhGIGB-swGIjDrbR-lF0AzUWG3q1JXdFcSJwq9JmydmJiT2CxzI2z8xw6h3zh3v2Q4LQcSxyVtavwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mandelsons-lawyers-say-he-was-arrested-over-basele_20260225_0204.html
-✓ Created comprehensive article: mandelsons-lawyers-say-he-was-arrested-over-basele_20260225_0204.html
+Successfully created file: donald-trump-heckled-during-state-of-the-union_20260225_0454.html
+✓ Created comprehensive article: donald-trump-heckled-during-state-of-the-union_20260225_0454.html
 
-Processing trending topic: Royal Artillery under fire after denying access to looted Asante treasure
-Searching Google for: Royal Artillery under fire after denying access to looted Asante treasure
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BArtillery%252Bunder%252Bfire%252Bafter%252Bdenying%252Baccess%252Bto%252Blooted%252BAsante%252Btreasure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhQGLmx-cwGIjCMiiDaIHwiX6yk9zVa47398zVrro98us_FwLlImWTKMwZN1CrNF341DAf_mhEDu64yBmpjbmRyUloBQw
+Processing trending topic: Iran’s FM says deal with US ‘within reach’ if diplomacy ‘given priority’
+Searching Google for: Iran’s FM says deal with US ‘within reach’ if diplomacy ‘given priority’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252BFM%252Bsays%252Bdeal%252Bwith%252BUS%252B%25E2%2580%2598within%252Breach%25E2%2580%2599%252Bif%252Bdiplomacy%252B%25E2%2580%2598given%252Bpriority%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IbhGIeB-swGIjCsmGOYTv7NqHGOBd0TACJ037VM0AUjcAiR6Tf_VLPIF7TJ1sUxhuB0br7IdzbT5RYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: royal-artillery-under-fire-after-denying-access-to_20260225_0204.html
-✓ Created comprehensive article: royal-artillery-under-fire-after-denying-access-to_20260225_0204.html
+Successfully created file: irans-fm-says-deal-with-us-within-reach-if-diploma_20260225_0454.html
+✓ Created comprehensive article: irans-fm-says-deal-with-us-within-reach-if-diploma_20260225_0454.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump to address a changed America at vital moment for his presidency
+   • Tokyo protests as China blocks ‘dual-use’ exports to 20 Japanese companies
      Sources: bbc.com, cnn.com, reuters.com
-   • Mandelson's lawyers say he was arrested over 'baseless' claim he was a flight risk
+   • Donald Trump heckled during State of the Union
      Sources: bbc.com, cnn.com, reuters.com
-   • Royal Artillery under fire after denying access to looted Asante treasure
+   • Iran’s FM says deal with US ‘within reach’ if diplomacy ‘given priority’
      Sources: bbc.com, cnn.com, reuters.com
