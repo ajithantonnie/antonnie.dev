@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Commons Speaker passed Mandelson flight risk information to police ahead of arrest
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistani players in the Hundred: What’s the cricket controversy all about?
-Added expanded search topic: Pakistani players in the Hundred: What’s the cricket controversy all about?
-Saved 30 topics for 2026-02-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian filmmaker showcases the beauty of pre-war Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon’s second airport could receive passengers by summer, officials say
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Displaced Sudanese women caught up in war suffer wretched Ramadan
+Added expanded search topic: Palestinian filmmaker showcases the beauty of pre-war Gaza
+Added expanded search topic: Lebanon’s second airport could receive passengers by summer, officials say
+Added expanded search topic: Displaced Sudanese women caught up in war suffer wretched Ramadan
+Saved 33 topics for 2026-02-25
 Returning 3 unique trending topics:
-  1. Man who murdered nine-year-old girl as she played with hula hoop in street jailed (from BBC News)
-  2. US accused of ‘shameless exploitation’ over proposed Zambian health aid deal (from The Guardian)
-  3. Pakistani players in the Hundred: What’s the cricket controversy all about? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Palestinian filmmaker showcases the beauty of pre-war Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Lebanon’s second airport could receive passengers by summer, officials say (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Displaced Sudanese women caught up in war suffer wretched Ramadan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man who murdered nine-year-old girl as she played with hula hoop in street jailed
-Searching Google for: Man who murdered nine-year-old girl as she played with hula hoop in street jailed
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bwho%252Bmurdered%252Bnine-year-old%252Bgirl%252Bas%252Bshe%252Bplayed%252Bwith%252Bhula%252Bhoop%252Bin%252Bstreet%252Bjailed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUiqGMiY_MwGIjDVvkkOBdKU0zvggacwsLAHdFCcRakQ9NUW0eNheq7wCkhN0x6R6CpzZVneHNDGppsyBmpjbmRyUloBQw
+Processing trending topic: Palestinian filmmaker showcases the beauty of pre-war Gaza
+Searching Google for: Palestinian filmmaker showcases the beauty of pre-war Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Bfilmmaker%252Bshowcases%252Bthe%252Bbeauty%252Bof%252Bpre-war%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_c4GMC7_MwGIjD6qkGgDw8peVCYx3Ws6TlLNQAHy6LI6AXyzWJf5wAmqvvh_c_mGfzuKbox5q19sM0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-who-murdered-nine-year-old-girl-as-she-played-_20260225_1450.html
-✓ Created comprehensive article: man-who-murdered-nine-year-old-girl-as-she-played-_20260225_1450.html
+Successfully created file: palestinian-filmmaker-showcases-the-beauty-of-pre-_20260225_1605.html
+✓ Created comprehensive article: palestinian-filmmaker-showcases-the-beauty-of-pre-_20260225_1605.html
 
-Processing trending topic: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Searching Google for: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Baccused%252Bof%252B%25E2%2580%2598shameless%252Bexploitation%25E2%2580%2599%252Bover%252Bproposed%252BZambian%252Bhealth%252Baid%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUiqGNCY_MwGIjD2Z42q-BQGekUWFGBUZMF_ysfpcZa8iwbEjQavctXIx1HYOO7zKJFGcPUYZwxtSTAyBmpjbmRyUloBQw
+Processing trending topic: Lebanon’s second airport could receive passengers by summer, officials say
+Searching Google for: Lebanon’s second airport could receive passengers by summer, officials say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%25E2%2580%2599s%252Bsecond%252Bairport%252Bcould%252Breceive%252Bpassengers%252Bby%252Bsummer%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_c4GMa7_MwGIjCEJsAbLph2GbosxFLOikQ114EM5S-FdfOL_02MLf3AIX2zZWbWEp5QsPy8wpdvzBkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-accused-of-shameless-exploitation-over-proposed_20260225_1451.html
-✓ Created comprehensive article: us-accused-of-shameless-exploitation-over-proposed_20260225_1451.html
+Successfully created file: lebanons-second-airport-could-receive-passengers-b_20260225_1605.html
+✓ Created comprehensive article: lebanons-second-airport-could-receive-passengers-b_20260225_1605.html
 
-Processing trending topic: Pakistani players in the Hundred: What’s the cricket controversy all about?
-Searching Google for: Pakistani players in the Hundred: What’s the cricket controversy all about?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistani%252Bplayers%252Bin%252Bthe%252BHundred%253A%252BWhat%25E2%2580%2599s%252Bthe%252Bcricket%252Bcontroversy%252Ball%252Babout%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUiqGNaY_MwGIjBj_WX0is3HrEtKmYasvNkhB2J1ktndttkECI3CZ-K1AAHUZ7tC4-vrtkcW0UjMO2QyBmpjbmRyUloBQw
+Processing trending topic: Displaced Sudanese women caught up in war suffer wretched Ramadan
+Searching Google for: Displaced Sudanese women caught up in war suffer wretched Ramadan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDisplaced%252BSudanese%252Bwomen%252Bcaught%252Bup%252Bin%252Bwar%252Bsuffer%252Bwretched%252BRamadan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_c4GM27_MwGIjCAvi9LeRJzoOiFtjsNz2oc2dYCHX1Nwb3Sx8mRXHPHdIKDhfH1S-TuR22F-Bnb8xcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pakistani-players-in-the-hundred-whats-the-cricket_20260225_1451.html
-✓ Created comprehensive article: pakistani-players-in-the-hundred-whats-the-cricket_20260225_1451.html
+Successfully created file: displaced-sudanese-women-caught-up-in-war-suffer-w_20260225_1605.html
+✓ Created comprehensive article: displaced-sudanese-women-caught-up-in-war-suffer-w_20260225_1605.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man who murdered nine-year-old girl as she played with hula hoop in street jailed
+   • Palestinian filmmaker showcases the beauty of pre-war Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
+   • Lebanon’s second airport could receive passengers by summer, officials say
      Sources: bbc.com, cnn.com, reuters.com
-   • Pakistani players in the Hundred: What’s the cricket controversy all about?
+   • Displaced Sudanese women caught up in war suffer wretched Ramadan
      Sources: bbc.com, cnn.com, reuters.com
