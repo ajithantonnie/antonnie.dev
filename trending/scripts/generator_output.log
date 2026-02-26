@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Spain to check Gibraltar arrivals under post-Brexit deal
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two women arrested in Uganda for allegedly kissing in public could face life sentence
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Afghanistan says it launches attacks against Pakistan
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India beat Zimbabwe by 72 runs to chase T20 World Cup semifinal spot
-Added expanded search topic: Afghanistan says it launches attacks against Pakistan
-Added expanded search topic: India beat Zimbabwe by 72 runs to chase T20 World Cup semifinal spot
-Saved 39 topics for 2026-02-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India and Israel pledge to boost cooperation on trade, defence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Blood tech: UK’s use of Israeli spyware that helps underpin a genocide
+  Found from World News - Breaking international news and headlines | Sky News: UK's delicate deal to get Bayeux Tapestry loaned from France - diplomatic coup or cultural gamble?
+Added expanded search topic: India and Israel pledge to boost cooperation on trade, defence
+Added expanded search topic: Blood tech: UK’s use of Israeli spyware that helps underpin a genocide
+Added expanded search topic: UK's delicate deal to get Bayeux Tapestry loaned from France - diplomatic coup or cultural gamble?
+Saved 42 topics for 2026-02-26
 Returning 3 unique trending topics:
-  1. Soham murderer Ian Huntley treated for serious head injuries after prison workshop attack (from BBC News)
-  2. Afghanistan says it launches attacks against Pakistan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. India beat Zimbabwe by 72 runs to chase T20 World Cup semifinal spot (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. India and Israel pledge to boost cooperation on trade, defence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Blood tech: UK’s use of Israeli spyware that helps underpin a genocide (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UK's delicate deal to get Bayeux Tapestry loaned from France - diplomatic coup or cultural gamble? (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Soham murderer Ian Huntley treated for serious head injuries after prison workshop attack
-Searching Google for: Soham murderer Ian Huntley treated for serious head injuries after prison workshop attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSoham%252Bmurderer%252BIan%252BHuntley%252Btreated%252Bfor%252Bserious%252Bhead%252Binjuries%252Bafter%252Bprison%252Bworkshop%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLRGNOUgs0GIjDkMpn-fZXQbbF62Q5gksQzALWe_E7nw24g-D7yvjQmg_QDZlFI83LoJd_k_QaHlcYyBmpjbmRyUloBQw
+Processing trending topic: India and Israel pledge to boost cooperation on trade, defence
+Searching Google for: India and Israel pledge to boost cooperation on trade, defence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Band%252BIsrael%252Bpledge%252Bto%252Bboost%252Bcooperation%252Bon%252Btrade%252C%252Bdefence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFFGPqugs0GIjCZm54mnyBtV0RspBHrw4yj-rF8RIHAybNXn-XSh0QjmstI3mbQ5yFZXg5HHMg2x54yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: soham-murderer-ian-huntley-treated-for-serious-hea_20260226_1800.html
-✓ Created comprehensive article: soham-murderer-ian-huntley-treated-for-serious-hea_20260226_1800.html
+Successfully created file: india-and-israel-pledge-to-boost-cooperation-on-tr_20260226_1857.html
+✓ Created comprehensive article: india-and-israel-pledge-to-boost-cooperation-on-tr_20260226_1857.html
 
-Processing trending topic: Afghanistan says it launches attacks against Pakistan
-Searching Google for: Afghanistan says it launches attacks against Pakistan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfghanistan%252Bsays%252Bit%252Blaunches%252Battacks%252Bagainst%252BPakistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLRGNqUgs0GIjCZzqDYUKbZi7m436o64j1snlKfjdAsR5WXA7DO7Z0sLO09GqqRP3QgStzg9f8pKfAyBmpjbmRyUloBQw
+Processing trending topic: Blood tech: UK’s use of Israeli spyware that helps underpin a genocide
+Searching Google for: Blood tech: UK’s use of Israeli spyware that helps underpin a genocide
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBlood%252Btech%253A%252BUK%25E2%2580%2599s%252Buse%252Bof%252BIsraeli%252Bspyware%252Bthat%252Bhelps%252Bunderpin%252Ba%252Bgenocide%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFFGICvgs0GIjDengCSXrNFosMQWFY1hHMrZPo3QD9SzUdCpn2yzUlfOzBR0tLE3FqK5NSACmgSjF0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: afghanistan-says-it-launches-attacks-against-pakis_20260226_1801.html
-✓ Created comprehensive article: afghanistan-says-it-launches-attacks-against-pakis_20260226_1801.html
+Successfully created file: blood-tech-uks-use-of-israeli-spyware-that-helps-u_20260226_1857.html
+✓ Created comprehensive article: blood-tech-uks-use-of-israeli-spyware-that-helps-u_20260226_1857.html
 
-Processing trending topic: India beat Zimbabwe by 72 runs to chase T20 World Cup semifinal spot
-Searching Google for: India beat Zimbabwe by 72 runs to chase T20 World Cup semifinal spot
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bbeat%252BZimbabwe%252Bby%252B72%252Bruns%252Bto%252Bchase%252BT20%252BWorld%252BCup%252Bsemifinal%252Bspot%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLRGOGUgs0GIjDGjVvOh9BkmjGeZtLW7bXJ2VVweE4elc9upPjD69F5gkcOID2iXEx-I1n6H6d1aRkyBmpjbmRyUloBQw
+Processing trending topic: UK's delicate deal to get Bayeux Tapestry loaned from France - diplomatic coup or cultural gamble?
+Searching Google for: UK's delicate deal to get Bayeux Tapestry loaned from France - diplomatic coup or cultural gamble?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%2527s%252Bdelicate%252Bdeal%252Bto%252Bget%252BBayeux%252BTapestry%252Bloaned%252Bfrom%252BFrance%252B-%252Bdiplomatic%252Bcoup%252Bor%252Bcultural%252Bgamble%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFFGIevgs0GIjBRJtLk8Hk9Pr_iMs8jdutJsANh_lTqUVQZVRlzo6gjK2p6wun9LSEBkFht090ZZV4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: india-beat-zimbabwe-by-72-runs-to-chase-t20-world-_20260226_1801.html
-✓ Created comprehensive article: india-beat-zimbabwe-by-72-runs-to-chase-t20-world-_20260226_1801.html
+Successfully created file: uks-delicate-deal-to-get-bayeux-tapestry-loaned-fr_20260226_1857.html
+✓ Created comprehensive article: uks-delicate-deal-to-get-bayeux-tapestry-loaned-fr_20260226_1857.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Soham murderer Ian Huntley treated for serious head injuries after prison workshop attack
+   • India and Israel pledge to boost cooperation on trade, defence
      Sources: bbc.com, cnn.com, reuters.com
-   • Afghanistan says it launches attacks against Pakistan
+   • Blood tech: UK’s use of Israeli spyware that helps underpin a genocide
      Sources: bbc.com, cnn.com, reuters.com
-   • India beat Zimbabwe by 72 runs to chase T20 World Cup semifinal spot
+   • UK's delicate deal to get Bayeux Tapestry loaned from France - diplomatic coup or cultural gamble?
      Sources: bbc.com, cnn.com, reuters.com
