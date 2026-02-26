@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Spain to check Gibraltar arrivals under post-Brexit deal
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two women arrested in Uganda for allegedly kissing in public could face life sentence
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Has Trump’s trade strategy lost leverage?
-Added expanded search topic: Has Trump’s trade strategy lost leverage?
-Saved 30 topics for 2026-02-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza mother recognises missing son on Israeli ‘for sale’ post
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What is Greater Israel, and how popular is it among Israelis?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kim Jong Un oversees massive Pyongyang military parade
+Added expanded search topic: Gaza mother recognises missing son on Israeli ‘for sale’ post
+Added expanded search topic: What is Greater Israel, and how popular is it among Israelis?
+Added expanded search topic: Kim Jong Un oversees massive Pyongyang military parade
+Saved 33 topics for 2026-02-26
 Returning 3 unique trending topics:
-  1. Spain to check Gibraltar arrivals under post-Brexit deal (from BBC News)
-  2. Soham murderer Ian Huntley seriously injured in prison attack (from BBC News)
-  3. Has Trump’s trade strategy lost leverage? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Gaza mother recognises missing son on Israeli ‘for sale’ post (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. What is Greater Israel, and how popular is it among Israelis? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Kim Jong Un oversees massive Pyongyang military parade (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Spain to check Gibraltar arrivals under post-Brexit deal
-Searching Google for: Spain to check Gibraltar arrivals under post-Brexit deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bcheck%252BGibraltar%252Barrivals%252Bunder%252Bpost-Brexit%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3YGP27gc0GIjBZhzZyRbQ4FatCPgLfD9H4lZ9y1kz3jNlEZljPYFdclJWab6zwVKAG-GBD4qjlsKIyBmpjbmRyUloBQw
+Processing trending topic: Gaza mother recognises missing son on Israeli ‘for sale’ post
+Searching Google for: Gaza mother recognises missing son on Israeli ‘for sale’ post
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Bmother%252Brecognises%252Bmissing%252Bson%252Bon%252BIsraeli%252B%25E2%2580%2598for%252Bsale%25E2%2580%2599%252Bpost%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-w1GI_agc0GIjANGqyYel76WdkTwRGKACRLGYuDLHDWJ6qdIryQb6pvN7I3H1iXxBwPy5wqmn5lK9MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-to-check-gibraltar-arrivals-under-post-brexi_20260226_1451.html
-✓ Created comprehensive article: spain-to-check-gibraltar-arrivals-under-post-brexi_20260226_1451.html
+Successfully created file: gaza-mother-recognises-missing-son-on-israeli-for-_20260226_1556.html
+✓ Created comprehensive article: gaza-mother-recognises-missing-son-on-israeli-for-_20260226_1556.html
 
-Processing trending topic: Soham murderer Ian Huntley seriously injured in prison attack
-Searching Google for: Soham murderer Ian Huntley seriously injured in prison attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSoham%252Bmurderer%252BIan%252BHuntley%252Bseriously%252Binjured%252Bin%252Bprison%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3YGIS8gc0GIjDyuQVECc_Ts65chN4wvwY54iryHgbxD52J7shA2_J_XvpDxOD6M2QeaqWLdC3P7RkyBmpjbmRyUloBQw
+Processing trending topic: What is Greater Israel, and how popular is it among Israelis?
+Searching Google for: What is Greater Israel, and how popular is it among Israelis?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bis%252BGreater%252BIsrael%252C%252Band%252Bhow%252Bpopular%252Bis%252Bit%252Bamong%252BIsraelis%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-w1GJbagc0GIjC_ZRwcXZscFW5uWMeOrmgWEJ006MKbp-cORphcZi3e2-DEuqMWzDmtadyyJ9uSGngyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: soham-murderer-ian-huntley-seriously-injured-in-pr_20260226_1451.html
-✓ Created comprehensive article: soham-murderer-ian-huntley-seriously-injured-in-pr_20260226_1451.html
+Successfully created file: what-is-greater-israel-and-how-popular-is-it-among_20260226_1556.html
+✓ Created comprehensive article: what-is-greater-israel-and-how-popular-is-it-among_20260226_1556.html
 
-Processing trending topic: Has Trump’s trade strategy lost leverage?
-Searching Google for: Has Trump’s trade strategy lost leverage?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHas%252BTrump%25E2%2580%2599s%252Btrade%252Bstrategy%252Blost%252Bleverage%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3YGIq8gc0GIjDmka1_EMsRYKcsQ0tkQY1tsR4dNDaXUgdYMMOq1-pj16qB_G0f2VMXTEdK_2qYOMkyBmpjbmRyUloBQw
+Processing trending topic: Kim Jong Un oversees massive Pyongyang military parade
+Searching Google for: Kim Jong Un oversees massive Pyongyang military parade
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKim%252BJong%252BUn%252Boversees%252Bmassive%252BPyongyang%252Bmilitary%252Bparade%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-w1GJ3agc0GIjCnQTuYHJ1jCIIwxwYBqMwIJyXtBKi59hU-1p1Rdhz5Ndhn50sofKrL5RJIN5oYjvIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: has-trumps-trade-strategy-lost-leverage_20260226_1451.html
-✓ Created comprehensive article: has-trumps-trade-strategy-lost-leverage_20260226_1451.html
+Successfully created file: kim-jong-un-oversees-massive-pyongyang-military-pa_20260226_1556.html
+✓ Created comprehensive article: kim-jong-un-oversees-massive-pyongyang-military-pa_20260226_1556.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Spain to check Gibraltar arrivals under post-Brexit deal
+   • Gaza mother recognises missing son on Israeli ‘for sale’ post
      Sources: bbc.com, cnn.com, reuters.com
-   • Soham murderer Ian Huntley seriously injured in prison attack
+   • What is Greater Israel, and how popular is it among Israelis?
      Sources: bbc.com, cnn.com, reuters.com
-   • Has Trump’s trade strategy lost leverage?
+   • Kim Jong Un oversees massive Pyongyang military parade
      Sources: bbc.com, cnn.com, reuters.com
