@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
@@ -9,60 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will Mexico’s Jalisco cartel’s violent biz model survive El Mencho’s death?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zelenskyy speaks with Trump about peace efforts, eyes leaders-level talks
-Added expanded search topic: Will Mexico’s Jalisco cartel’s violent biz model survive El Mencho’s death?
-Added expanded search topic: Zelenskyy speaks with Trump about peace efforts, eyes leaders-level talks
-Saved 51 topics for 2026-02-25
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-26
 Returning 3 unique trending topics:
-  1. Watch: BBC on streets of Mexican city gripped by deadly cartel violence (from BBC News)
-  2. Will Mexico’s Jalisco cartel’s violent biz model survive El Mencho’s death? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Zelenskyy speaks with Trump about peace efforts, eyes leaders-level talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud (from BBC News)
+  2. Watch: BBC on streets of Mexican city gripped by deadly cartel violence (from BBC News)
+  3. US accused of ‘shameless exploitation’ over proposed Zambian health aid deal (from The Guardian)
+
+Processing trending topic: 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
+Searching Google for: 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: fear-is-everywhere-bbc-reports-from-mexican-city-t_20260226_0158.html
+✓ Created comprehensive article: fear-is-everywhere-bbc-reports-from-mexican-city-t_20260226_0158.html
 
 Processing trending topic: Watch: BBC on streets of Mexican city gripped by deadly cartel violence
 Searching Google for: Watch: BBC on streets of Mexican city gripped by deadly cartel violence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BBBC%252Bon%252Bstreets%252Bof%252BMexican%252Bcity%252Bgripped%252Bby%252Bdeadly%252Bcartel%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bxGJiN_swGIjBCgUT18BsK8GPt2LCelk8ekMsR2xDGlqZSvaO1dJlidgu4c5kdg_ZA_WHGlETzO6kyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BBBC%252Bon%252Bstreets%252Bof%252BMexican%252Bcity%252Bgripped%252Bby%252Bdeadly%252Bcartel%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6Mn0GJ7S_swGIjD0K-PNcnciDI6FbwG3s2e0oMZRaPJFDk6Fxe1WmbSG13LbJUbTNWh5Fd3p6NjJbgUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-bbc-on-streets-of-mexican-city-gripped-by-de_20260225_2332.html
-✓ Created comprehensive article: watch-bbc-on-streets-of-mexican-city-gripped-by-de_20260225_2332.html
+Successfully created file: watch-bbc-on-streets-of-mexican-city-gripped-by-de_20260226_0200.html
+✓ Created comprehensive article: watch-bbc-on-streets-of-mexican-city-gripped-by-de_20260226_0200.html
 
-Processing trending topic: Will Mexico’s Jalisco cartel’s violent biz model survive El Mencho’s death?
-Searching Google for: Will Mexico’s Jalisco cartel’s violent biz model survive El Mencho’s death?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BMexico%25E2%2580%2599s%252BJalisco%252Bcartel%25E2%2580%2599s%252Bviolent%252Bbiz%252Bmodel%252Bsurvive%252BEl%252BMencho%25E2%2580%2599s%252Bdeath%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bxGJ-N_swGIjBY3v_ghk4WZTaQG0mcSzTxpxoE8Ek2AWiYh3ahgTsW2RqOjcOAEDwtlNiaCZgpKrgyBmpjbmRyUloBQw
+Processing trending topic: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
+Searching Google for: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Baccused%252Bof%252B%25E2%2580%2598shameless%252Bexploitation%25E2%2580%2599%252Bover%252Bproposed%252BZambian%252Bhealth%252Baid%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6Mn0GKnS_swGIjBuqSoHP-H6Ixr9qHF8jjb7M33G6SofPZBUlRcI_ShOWl7tZZAuNsnG1weX8O8Z9v4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-mexicos-jalisco-cartels-violent-biz-model-sur_20260225_2332.html
-✓ Created comprehensive article: will-mexicos-jalisco-cartels-violent-biz-model-sur_20260225_2332.html
-
-Processing trending topic: Zelenskyy speaks with Trump about peace efforts, eyes leaders-level talks
-Searching Google for: Zelenskyy speaks with Trump about peace efforts, eyes leaders-level talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelenskyy%252Bspeaks%252Bwith%252BTrump%252Babout%252Bpeace%252Befforts%252C%252Beyes%252Bleaders-level%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bxGKWN_swGIjCA2o7UHFY2urLw_1KWeQ1Y_L2irN9Mlqr5WZfGxjguc5zhAoZluiLrN_EIsC7J6EsyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zelenskyy-speaks-with-trump-about-peace-efforts-ey_20260225_2332.html
-✓ Created comprehensive article: zelenskyy-speaks-with-trump-about-peace-efforts-ey_20260225_2332.html
+Successfully created file: us-accused-of-shameless-exploitation-over-proposed_20260226_0200.html
+✓ Created comprehensive article: us-accused-of-shameless-exploitation-over-proposed_20260226_0200.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
+     Sources: bbc.com, cnn.com, reuters.com
    • Watch: BBC on streets of Mexican city gripped by deadly cartel violence
      Sources: bbc.com, cnn.com, reuters.com
-   • Will Mexico’s Jalisco cartel’s violent biz model survive El Mencho’s death?
-     Sources: bbc.com, cnn.com, reuters.com
-   • Zelenskyy speaks with Trump about peace efforts, eyes leaders-level talks
+   • US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
      Sources: bbc.com, cnn.com, reuters.com
