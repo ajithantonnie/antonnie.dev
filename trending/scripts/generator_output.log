@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-02-26
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Former US F-35 fighter pilot arrested for training Chinese air force
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran, US set to hold talks as Trump threatens force, imposes sanctions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder
+Added expanded search topic: Former US F-35 fighter pilot arrested for training Chinese air force
+Added expanded search topic: Iran, US set to hold talks as Trump threatens force, imposes sanctions
+Added expanded search topic: Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder
+Saved 6 topics for 2026-02-26
 Returning 3 unique trending topics:
-  1. 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud (from BBC News)
-  2. Watch: BBC on streets of Mexican city gripped by deadly cartel violence (from BBC News)
-  3. US accused of ‘shameless exploitation’ over proposed Zambian health aid deal (from The Guardian)
+  1. Former US F-35 fighter pilot arrested for training Chinese air force (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran, US set to hold talks as Trump threatens force, imposes sanctions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
-Searching Google for: 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Former US F-35 fighter pilot arrested for training Chinese air force
+Searching Google for: Former US F-35 fighter pilot arrested for training Chinese air force
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFormer%252BUS%252BF-35%252Bfighter%252Bpilot%252Barrested%252Bfor%252Btraining%252BChinese%252Bair%252Bforce%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKIEGL2U_8wGIjAcmUC7x2whTT7M9F69wwKqX8zD4apdH5mifTifg26FMJx3RiWiBk29uQ3eXlAURQcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fear-is-everywhere-bbc-reports-from-mexican-city-t_20260226_0158.html
-✓ Created comprehensive article: fear-is-everywhere-bbc-reports-from-mexican-city-t_20260226_0158.html
+Successfully created file: former-us-f-35-fighter-pilot-arrested-for-training_20260226_0421.html
+✓ Created comprehensive article: former-us-f-35-fighter-pilot-arrested-for-training_20260226_0421.html
 
-Processing trending topic: Watch: BBC on streets of Mexican city gripped by deadly cartel violence
-Searching Google for: Watch: BBC on streets of Mexican city gripped by deadly cartel violence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BBBC%252Bon%252Bstreets%252Bof%252BMexican%252Bcity%252Bgripped%252Bby%252Bdeadly%252Bcartel%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6Mn0GJ7S_swGIjD0K-PNcnciDI6FbwG3s2e0oMZRaPJFDk6Fxe1WmbSG13LbJUbTNWh5Fd3p6NjJbgUyBmpjbmRyUloBQw
+Processing trending topic: Iran, US set to hold talks as Trump threatens force, imposes sanctions
+Searching Google for: Iran, US set to hold talks as Trump threatens force, imposes sanctions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252C%252BUS%252Bset%252Bto%252Bhold%252Btalks%252Bas%252BTrump%252Bthreatens%252Bforce%252C%252Bimposes%252Bsanctions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKIEGMWU_8wGIjBQFADleO9sfOCe7Gr1KxWJDoGIzA0zCcNoyhwnbCQbMM0rNcg8vY2hXA1sDiM2xB8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-bbc-on-streets-of-mexican-city-gripped-by-de_20260226_0200.html
-✓ Created comprehensive article: watch-bbc-on-streets-of-mexican-city-gripped-by-de_20260226_0200.html
+Successfully created file: iran-us-set-to-hold-talks-as-trump-threatens-force_20260226_0421.html
+✓ Created comprehensive article: iran-us-set-to-hold-talks-as-trump-threatens-force_20260226_0421.html
 
-Processing trending topic: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Searching Google for: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Baccused%252Bof%252B%25E2%2580%2598shameless%252Bexploitation%25E2%2580%2599%252Bover%252Bproposed%252BZambian%252Bhealth%252Baid%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6Mn0GKnS_swGIjBuqSoHP-H6Ixr9qHF8jjb7M33G6SofPZBUlRcI_ShOWl7tZZAuNsnG1weX8O8Z9v4yBmpjbmRyUloBQw
+Processing trending topic: Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder
+Searching Google for: Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazil%25E2%2580%2599s%252BSupreme%252BCourt%252Bimposes%252Bsteep%252Bsentences%252Bfor%252BMarielle%252BFranco%252Bmurder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKIEGMuU_8wGIjCF7FySLVumgI0UwJ5Jq85X616aaE4qaTwR6ZmEmDXprSg8JOINAf8xOVFaWZHjsLUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-accused-of-shameless-exploitation-over-proposed_20260226_0200.html
-✓ Created comprehensive article: us-accused-of-shameless-exploitation-over-proposed_20260226_0200.html
+Successfully created file: brazils-supreme-court-imposes-steep-sentences-for-_20260226_0421.html
+✓ Created comprehensive article: brazils-supreme-court-imposes-steep-sentences-for-_20260226_0421.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud
+   • Former US F-35 fighter pilot arrested for training Chinese air force
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: BBC on streets of Mexican city gripped by deadly cartel violence
+   • Iran, US set to hold talks as Trump threatens force, imposes sanctions
      Sources: bbc.com, cnn.com, reuters.com
-   • US accused of ‘shameless exploitation’ over proposed Zambian health aid deal
+   • Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder
      Sources: bbc.com, cnn.com, reuters.com
