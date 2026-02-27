@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Starmer vows to fight on after historic Green by-election win
   Added: Henry Zeffman: Green victory shows insurgent parties are here to stay
-  Added: Soham killer Huntley still in hospital after attack using makeshift weapon
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: England keep Pakistan T20 World Cup hopes alive by beating New Zealand
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections
-Added expanded search topic: England keep Pakistan T20 World Cup hopes alive by beating New Zealand
-Added expanded search topic: ‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections
-Saved 45 topics for 2026-02-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Residents describe panic as Pakistan attacks Afghanistan in ‘open war’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Has Trump’s trade strategy lost leverage?
+Added expanded search topic: Residents describe panic as Pakistan attacks Afghanistan in ‘open war’
+Added expanded search topic: Has Trump’s trade strategy lost leverage?
+Saved 48 topics for 2026-02-27
 Returning 3 unique trending topics:
-  1. Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine (from The Guardian)
-  2. England keep Pakistan T20 World Cup hopes alive by beating New Zealand (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. ‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer vows to fight on after historic Green by-election win (from BBC News)
+  2. Residents describe panic as Pakistan attacks Afghanistan in ‘open war’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Has Trump’s trade strategy lost leverage? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Searching Google for: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGhana%252Bsays%252Bat%252Bleast%252B55%252Bof%252Bits%252Bpeople%252Bkilled%252Bafter%252BRussia%252B%25E2%2580%2598lured%25E2%2580%2599%252Bthem%252Bto%252Bfight%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jnGJOth80GIjC8ZrHVGJ6jUw0OGKbj4UBKxN03OnfJ91rsNJI0vaMEK6imfcP_fWGSOLsBB3VqUAoyBmpjbmRyUloBQw
+Processing trending topic: Starmer vows to fight on after historic Green by-election win
+Searching Google for: Starmer vows to fight on after historic Green by-election win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bvows%252Bto%252Bfight%252Bon%252Bafter%252Bhistoric%252BGreen%252Bby-election%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DjzGIzMh80GIjAAGrOW_AZctCIjLL4wXOlpU_VJ6DmNqnx_24mrU_WFP1EzGbmPDJVDXfoOodw_ae4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ghana-says-at-least-55-of-its-people-killed-after-_20260227_1738.html
-✓ Created comprehensive article: ghana-says-at-least-55-of-its-people-killed-after-_20260227_1738.html
+Successfully created file: starmer-vows-to-fight-on-after-historic-green-by-e_20260227_1844.html
+✓ Created comprehensive article: starmer-vows-to-fight-on-after-historic-green-by-e_20260227_1844.html
 
-Processing trending topic: England keep Pakistan T20 World Cup hopes alive by beating New Zealand
-Searching Google for: England keep Pakistan T20 World Cup hopes alive by beating New Zealand
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bkeep%252BPakistan%252BT20%252BWorld%252BCup%252Bhopes%252Balive%252Bby%252Bbeating%252BNew%252BZealand%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jnGJuth80GIjBlF2XLmuLuWIBaHAUlPobfqerr2LdnAZpQcK8gr7FELhBLWNmONlWFvpSaNPLBfQsyBmpjbmRyUloBQw
+Processing trending topic: Residents describe panic as Pakistan attacks Afghanistan in ‘open war’
+Searching Google for: Residents describe panic as Pakistan attacks Afghanistan in ‘open war’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DResidents%252Bdescribe%252Bpanic%252Bas%252BPakistan%252Battacks%252BAfghanistan%252Bin%252B%25E2%2580%2598open%252Bwar%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DjzGJPMh80GIjCEeNMWMS-_8-2yWadtdLw1shkcVRZyxW8xFmWQce-ZCv-tAEKKRtucb3EaHQ1o50AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-keep-pakistan-t20-world-cup-hopes-alive-by_20260227_1738.html
-✓ Created comprehensive article: england-keep-pakistan-t20-world-cup-hopes-alive-by_20260227_1738.html
+Successfully created file: residents-describe-panic-as-pakistan-attacks-afgha_20260227_1844.html
+✓ Created comprehensive article: residents-describe-panic-as-pakistan-attacks-afgha_20260227_1844.html
 
-Processing trending topic: ‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections
-Searching Google for: ‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Like%252Bit%25E2%2580%2599s%252B2024%252Bagain%25E2%2580%2599%253A%252BTrump%252Btakes%252Bcentre%252Bstage%252Bin%252B2026%252Bmidterm%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jnGKGth80GIjC9dfQCYvHLxACsY0OtKhdAuyu3svT7IzIQzOw1yHNDMZ3cKB-IZfGpvZZ0s78nVlYyBmpjbmRyUloBQw
+Processing trending topic: Has Trump’s trade strategy lost leverage?
+Searching Google for: Has Trump’s trade strategy lost leverage?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHas%252BTrump%25E2%2580%2599s%252Btrade%252Bstrategy%252Blost%252Bleverage%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DjzGJnMh80GIjDv8dUxyhUOYPgcjS8J7YUxIceq58xGAcZslNy_eDDDyH38YO0tDdKJPeVuM0Pw8sAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: like-its-2024-again-trump-takes-centre-stage-in-20_20260227_1738.html
-✓ Created comprehensive article: like-its-2024-again-trump-takes-centre-stage-in-20_20260227_1738.html
+Successfully created file: has-trumps-trade-strategy-lost-leverage_20260227_1844.html
+✓ Created comprehensive article: has-trumps-trade-strategy-lost-leverage_20260227_1844.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
+   • Starmer vows to fight on after historic Green by-election win
      Sources: bbc.com, cnn.com, reuters.com
-   • England keep Pakistan T20 World Cup hopes alive by beating New Zealand
+   • Residents describe panic as Pakistan attacks Afghanistan in ‘open war’
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Like it’s 2024 again’: Trump takes centre stage in 2026 midterm elections
+   • Has Trump’s trade strategy lost leverage?
      Sources: bbc.com, cnn.com, reuters.com
