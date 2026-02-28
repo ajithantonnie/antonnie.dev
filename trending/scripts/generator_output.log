@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: What we know so far
-  Added: Watch: Smoke rises in Tehran as explosions heard across country
+  Added: What we know about the joint US-Israel attack on Iran
+  Added: Mahmood to press on with immigration reforms despite by-election defeat
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
-Added expanded search topic: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
-Added expanded search topic: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
-Saved 24 topics for 2026-02-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Netanyahu says US and Israel attacked Iran to remove ‘existential threat’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US and Israel attack Iran: What we know so far
+Added expanded search topic: Netanyahu says US and Israel attacked Iran to remove ‘existential threat’
+Added expanded search topic: US and Israel attack Iran: What we know so far
+Saved 27 topics for 2026-02-28
 Returning 3 unique trending topics:
-  1. What we know so far (from BBC News)
-  2. OpenAI strikes deal with Pentagon to use tech in ‘classified network’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Who is Iran’s Supreme Leader Khamenei and why is he a possible target? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. What we know about the joint US-Israel attack on Iran (from BBC News)
+  2. Netanyahu says US and Israel attacked Iran to remove ‘existential threat’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US and Israel attack Iran: What we know so far (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What we know so far
-Searching Google for: What we know so far
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bso%252Bfar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I2GLrqis0GIjBOAM1QzIm4npi1JQGvcp5pZ-dMzhPiwtfGEKQknyEz9YQN2wVY69WVd4iNIpuOCWUyBmpjbmRyUloBQw
+Processing trending topic: What we know about the joint US-Israel attack on Iran
+Searching Google for: What we know about the joint US-Israel attack on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252Bthe%252Bjoint%252BUS-Israel%252Battack%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZutUGPmEi80GIjBbI3CIl6Io8YzEMcPApx6bzEUAstoDInPzmfsD7w0uUfKeYvToKSVE9nKMlahnbR4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-so-far_20260228_0928.html
-✓ Created comprehensive article: what-we-know-so-far_20260228_0928.html
+Successfully created file: what-we-know-about-the-joint-us-israel-attack-on-i_20260228_1025.html
+✓ Created comprehensive article: what-we-know-about-the-joint-us-israel-attack-on-i_20260228_1025.html
 
-Processing trending topic: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
-Searching Google for: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%252Bstrikes%252Bdeal%252Bwith%252BPentagon%252Bto%252Buse%252Btech%252Bin%252B%25E2%2580%2598classified%252Bnetwork%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I2GMLqis0GIjDYa-QOnjwGReBTzuwbZWshEd14pOSgOdvtArh3ZCxlqvEf--WqmLMmKUnvWFN-nMwyBmpjbmRyUloBQw
+Processing trending topic: Netanyahu says US and Israel attacked Iran to remove ‘existential threat’
+Searching Google for: Netanyahu says US and Israel attacked Iran to remove ‘existential threat’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNetanyahu%252Bsays%252BUS%252Band%252BIsrael%252Battacked%252BIran%252Bto%252Bremove%252B%25E2%2580%2598existential%252Bthreat%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZutUGICFi80GIjAN2mZLo3qbwCssX4-xTsHKhCgwf2tfMgidHcryOUH7KlZmB13okmt_mKb7gNw7rmUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: openai-strikes-deal-with-pentagon-to-use-tech-in-c_20260228_0928.html
-✓ Created comprehensive article: openai-strikes-deal-with-pentagon-to-use-tech-in-c_20260228_0928.html
+Successfully created file: netanyahu-says-us-and-israel-attacked-iran-to-remo_20260228_1025.html
+✓ Created comprehensive article: netanyahu-says-us-and-israel-attacked-iran-to-remo_20260228_1025.html
 
-Processing trending topic: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
-Searching Google for: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BIran%25E2%2580%2599s%252BSupreme%252BLeader%252BKhamenei%252Band%252Bwhy%252Bis%252Bhe%252Ba%252Bpossible%252Btarget%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I2GMnqis0GIjBAiUeHXSfhoAenMzrcpdSO-1_FsvwT0wIVnJvtjAzYMuV_RBW6Q7HfGMV1w5XTw9wyBmpjbmRyUloBQw
+Processing trending topic: US and Israel attack Iran: What we know so far
+Searching Google for: US and Israel attack Iran: What we know so far
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIsrael%252Battack%252BIran%253A%252BWhat%252Bwe%252Bknow%252Bso%252Bfar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZutUGIaFi80GIjBFaruJFoifH16xfkpv0bl9gSh6uYwh_9tLZSJO5wZuHbJ8vDQlVEx9L_s93FeYJJ0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-is-irans-supreme-leader-khamenei-and-why-is-he_20260228_0928.html
-✓ Created comprehensive article: who-is-irans-supreme-leader-khamenei-and-why-is-he_20260228_0928.html
+Successfully created file: us-and-israel-attack-iran-what-we-know-so-far_20260228_1025.html
+✓ Created comprehensive article: us-and-israel-attack-iran-what-we-know-so-far_20260228_1025.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What we know so far
+   • What we know about the joint US-Israel attack on Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • OpenAI strikes deal with Pentagon to use tech in ‘classified network’
+   • Netanyahu says US and Israel attacked Iran to remove ‘existential threat’
      Sources: bbc.com, cnn.com, reuters.com
-   • Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
+   • US and Israel attack Iran: What we know so far
      Sources: bbc.com, cnn.com, reuters.com
