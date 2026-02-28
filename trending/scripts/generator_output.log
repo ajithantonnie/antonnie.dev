@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer vows to fight on after historic Green by-election win
@@ -9,62 +9,54 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hong Kong-linked company decries search of Panama Canal port offices
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who runs Venezuela now? Trump, oil and the fight for power
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is Trump objecting to al-Maliki’s comeback?
-Added expanded search topic: Hong Kong-linked company decries search of Panama Canal port offices
-Added expanded search topic: Who runs Venezuela now? Trump, oil and the fight for power
-Added expanded search topic: Why is Trump objecting to al-Maliki’s comeback?
-Saved 63 topics for 2026-02-27
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-02-28
 Returning 3 unique trending topics:
-  1. Hong Kong-linked company decries search of Panama Canal port offices (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Who runs Venezuela now? Trump, oil and the fight for power (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Why is Trump objecting to al-Maliki’s comeback? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer vows to fight on after historic Green by-election win (from BBC News)
+  2. Henry Zeffman: Green victory shows insurgent parties are here to stay (from BBC News)
+  3. Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine (from The Guardian)
 
-Processing trending topic: Hong Kong-linked company decries search of Panama Canal port offices
-Searching Google for: Hong Kong-linked company decries search of Panama Canal port offices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHong%252BKong-linked%252Bcompany%252Bdecries%252Bsearch%252Bof%252BPanama%252BCanal%252Bport%252Boffices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvQGPPQiM0GIjA1pIN-A0LXyxACvkBpvAv8kuO91fRJvqAW02_7mIq1v0RActaWmJfUgwwpgQ5gkM4yBmpjbmRyUloBQw
+Processing trending topic: Starmer vows to fight on after historic Green by-election win
+Searching Google for: Starmer vows to fight on after historic Green by-election win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bvows%252Bto%252Bfight%252Bon%252Bafter%252Bhistoric%252BGreen%252Bby-election%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KVEGPqTic0GIjAGLMm0dWjCPmD_4U_iAGnm6ozCWc_6ZG5ZdPM0He8UDOrv1jaQV5pzf8VprbY8kmAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hong-kong-linked-company-decries-search-of-panama-_20260227_2327.html
-✓ Created comprehensive article: hong-kong-linked-company-decries-search-of-panama-_20260227_2327.html
+Successfully created file: starmer-vows-to-fight-on-after-historic-green-by-e_20260228_0150.html
+✓ Created comprehensive article: starmer-vows-to-fight-on-after-historic-green-by-e_20260228_0150.html
 
-Processing trending topic: Who runs Venezuela now? Trump, oil and the fight for power
-Searching Google for: Who runs Venezuela now? Trump, oil and the fight for power
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bruns%252BVenezuela%252Bnow%253F%252BTrump%252C%252Boil%252Band%252Bthe%252Bfight%252Bfor%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvQGPnQiM0GIjBahXJHEti_FlwXnJW7w5fop2y30t5bJkrKB62dPGw_YuuqDS9MeE48EYAj3PWHe0kyBmpjbmRyUloBQw
+Processing trending topic: Henry Zeffman: Green victory shows insurgent parties are here to stay
+Searching Google for: Henry Zeffman: Green victory shows insurgent parties are here to stay
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHenry%252BZeffman%253A%252BGreen%252Bvictory%252Bshows%252Binsurgent%252Bparties%252Bare%252Bhere%252Bto%252Bstay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KVEGIGUic0GIjB1hFB6Nap_h5iPzqcOVxoOp6XC7r7x5HtCpHd9fYCrALUnPEHYRyZPS9tOtUwoXCIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-runs-venezuela-now-trump-oil-and-the-fight-for_20260227_2327.html
-✓ Created comprehensive article: who-runs-venezuela-now-trump-oil-and-the-fight-for_20260227_2327.html
+Successfully created file: henry-zeffman-green-victory-shows-insurgent-partie_20260228_0151.html
+✓ Created comprehensive article: henry-zeffman-green-victory-shows-insurgent-partie_20260228_0151.html
 
-Processing trending topic: Why is Trump objecting to al-Maliki’s comeback?
-Searching Google for: Why is Trump objecting to al-Maliki’s comeback?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BTrump%252Bobjecting%252Bto%252Bal-Maliki%25E2%2580%2599s%252Bcomeback%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvQGIDRiM0GIjD3D5XINDgyf2V-DMwAARAB_BFbeJ8nLzrPYTCoKJfNlufJrYEVtW3NHzevnKFrMMsyBmpjbmRyUloBQw
+Processing trending topic: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
+Searching Google for: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGhana%252Bsays%252Bat%252Bleast%252B55%252Bof%252Bits%252Bpeople%252Bkilled%252Bafter%252BRussia%252B%25E2%2580%2598lured%25E2%2580%2599%252Bthem%252Bto%252Bfight%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KVEGIeUic0GIjDLd0SKYSWV7rUgpasBGwJlaFwt5RrAMdGU9FAQ5JiDkK9-rIILbdnNzrXtE7AyoH8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-is-trump-objecting-to-al-malikis-comeback_20260227_2328.html
-✓ Created comprehensive article: why-is-trump-objecting-to-al-malikis-comeback_20260227_2328.html
+Successfully created file: ghana-says-at-least-55-of-its-people-killed-after-_20260228_0151.html
+✓ Created comprehensive article: ghana-says-at-least-55-of-its-people-killed-after-_20260228_0151.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Hong Kong-linked company decries search of Panama Canal port offices
+   • Starmer vows to fight on after historic Green by-election win
      Sources: bbc.com, cnn.com, reuters.com
-   • Who runs Venezuela now? Trump, oil and the fight for power
+   • Henry Zeffman: Green victory shows insurgent parties are here to stay
      Sources: bbc.com, cnn.com, reuters.com
-   • Why is Trump objecting to al-Maliki’s comeback?
+   • Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
      Sources: bbc.com, cnn.com, reuters.com
