@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: What we know about the joint US-Israel attack on Iran
-  Added: Starmer chairs Cobra meeting over US-Israeli strikes on Iran
+  Added: What we know so far
+  Added: Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Emergency alert interrupts Al Jazeera broadcast before attack in Qatar
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran strikes US military base in Bahrain as explosions heard across Gulf
-Added expanded search topic: Emergency alert interrupts Al Jazeera broadcast before attack in Qatar
-Added expanded search topic: Iran strikes US military base in Bahrain as explosions heard across Gulf
-Saved 30 topics for 2026-02-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reporter on the streets of Tehran as missiles hit the city
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
+Added expanded search topic: Al Jazeera reporter on the streets of Tehran as missiles hit the city
+Added expanded search topic: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
+Saved 33 topics for 2026-02-28
 Returning 3 unique trending topics:
-  1. Starmer chairs Cobra meeting over US-Israeli strikes on Iran (from BBC News)
-  2. Emergency alert interrupts Al Jazeera broadcast before attack in Qatar (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran strikes US military base in Bahrain as explosions heard across Gulf (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bowen: A dangerous moment, but US and Israel see opportunity not to be missed (from BBC News)
+  2. Al Jazeera reporter on the streets of Tehran as missiles hit the city (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Airspace closed, airlines halt flights as US, Israel attack, Iran responds (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer chairs Cobra meeting over US-Israeli strikes on Iran
-Searching Google for: Starmer chairs Cobra meeting over US-Israeli strikes on Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bchairs%252BCobra%252Bmeeting%252Bover%252BUS-Israeli%252Bstrikes%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iwGOCfi80GIjAKN5JHj8zx-fpklqu45AQ4sbckZqywx-qWfTRXs9a7j86HTj3y-ERa0u67Mlkc4cYyBmpjbmRyUloBQw
+Processing trending topic: Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
+Searching Google for: Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBowen%253A%252BA%252Bdangerous%252Bmoment%252C%252Bbut%252BUS%252Band%252BIsrael%252Bsee%252Bopportunity%252Bnot%252Bto%252Bbe%252Bmissed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9XCGN7Gi80GIjA4rB5kXMvNfeRbrzdB8wEKvV4MqzNmmssKxY4ZrICA75rv95xeJqHBbJMbDwLu7agyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-chairs-cobra-meeting-over-us-israeli-strik_20260228_1122.html
-✓ Created comprehensive article: starmer-chairs-cobra-meeting-over-us-israeli-strik_20260228_1122.html
+Successfully created file: bowen-a-dangerous-moment-but-us-and-israel-see-opp_20260228_1245.html
+✓ Created comprehensive article: bowen-a-dangerous-moment-but-us-and-israel-see-opp_20260228_1245.html
 
-Processing trending topic: Emergency alert interrupts Al Jazeera broadcast before attack in Qatar
-Searching Google for: Emergency alert interrupts Al Jazeera broadcast before attack in Qatar
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEmergency%252Balert%252Binterrupts%252BAl%252BJazeera%252Bbroadcast%252Bbefore%252Battack%252Bin%252BQatar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iwGOefi80GIjCer7V1uMV9btan7RT9zl0NkN3a9qrOUv8sSpJmsi04LrvNp604E_edxLtkXo0wWVwyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera reporter on the streets of Tehran as missiles hit the city
+Searching Google for: Al Jazeera reporter on the streets of Tehran as missiles hit the city
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breporter%252Bon%252Bthe%252Bstreets%252Bof%252BTehran%252Bas%252Bmissiles%252Bhit%252Bthe%252Bcity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9XCGOXGi80GIjA_6i7VDJda1Ls8tMAxwj3uyT0QNNVnxqUZZ4DO36dUl5awPfjw3gA9_6jhgb8i9QkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: emergency-alert-interrupts-al-jazeera-broadcast-be_20260228_1122.html
-✓ Created comprehensive article: emergency-alert-interrupts-al-jazeera-broadcast-be_20260228_1122.html
+Successfully created file: al-jazeera-reporter-on-the-streets-of-tehran-as-mi_20260228_1245.html
+✓ Created comprehensive article: al-jazeera-reporter-on-the-streets-of-tehran-as-mi_20260228_1245.html
 
-Processing trending topic: Iran strikes US military base in Bahrain as explosions heard across Gulf
-Searching Google for: Iran strikes US military base in Bahrain as explosions heard across Gulf
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bstrikes%252BUS%252Bmilitary%252Bbase%252Bin%252BBahrain%252Bas%252Bexplosions%252Bheard%252Bacross%252BGulf%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iwGO2fi80GIjD6Qz5TK6ft-vLK9tHJWhgMwrAZGtE4MC_3oE2iiOqGH361l13XN1nlNaNkaP8BOKsyBmpjbmRyUloBQw
+Processing trending topic: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
+Searching Google for: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAirspace%252Bclosed%252C%252Bairlines%252Bhalt%252Bflights%252Bas%252BUS%252C%252BIsrael%252Battack%252C%252BIran%252Bresponds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9XCGOvGi80GIjCGeiEGANKTlvaHvOVdDKCPkFECR4TsbidkUgPsxr6ZfLp3Ga2TvTEfdCFFEr8ndpAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-strikes-us-military-base-in-bahrain-as-explos_20260228_1122.html
-✓ Created comprehensive article: iran-strikes-us-military-base-in-bahrain-as-explos_20260228_1122.html
+Successfully created file: airspace-closed-airlines-halt-flights-as-us-israel_20260228_1245.html
+✓ Created comprehensive article: airspace-closed-airlines-halt-flights-as-us-israel_20260228_1245.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer chairs Cobra meeting over US-Israeli strikes on Iran
+   • Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
      Sources: bbc.com, cnn.com, reuters.com
-   • Emergency alert interrupts Al Jazeera broadcast before attack in Qatar
+   • Al Jazeera reporter on the streets of Tehran as missiles hit the city
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran strikes US military base in Bahrain as explosions heard across Gulf
+   • Airspace closed, airlines halt flights as US, Israel attack, Iran responds
      Sources: bbc.com, cnn.com, reuters.com
