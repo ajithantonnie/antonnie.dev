@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: What we know so far: Supreme Leader's compound hit and Iran's retaliatory strikes
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Suspected Iranian drone hits Bahrain high-rise building
-Added expanded search topic: Suspected Iranian drone hits Bahrain high-rise building
-Saved 51 topics for 2026-02-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US and Israel strike Iran: what happened?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nine months after 12-day war, US, Israel seek to topple Iran’s leaders
+Added expanded search topic: ‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman
+Added expanded search topic: US and Israel strike Iran: what happened?
+Added expanded search topic: Nine months after 12-day war, US, Israel seek to topple Iran’s leaders
+Saved 54 topics for 2026-02-28
 Returning 3 unique trending topics:
-  1. What we know so far: Supreme Leader's compound hit and Iran's retaliatory strikes (from BBC News)
-  2. Luxury Dubai hotel hit as Iran launches retaliatory strikes across region (from BBC News)
-  3. Suspected Iranian drone hits Bahrain high-rise building (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. ‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US and Israel strike Iran: what happened? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Nine months after 12-day war, US, Israel seek to topple Iran’s leaders (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What we know so far: Supreme Leader's compound hit and Iran's retaliatory strikes
-Searching Google for: What we know so far: Supreme Leader's compound hit and Iran's retaliatory strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bso%252Bfar%253A%252BSupreme%252BLeader%2527s%252Bcompound%252Bhit%252Band%252BIran%2527s%252Bretaliatory%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG9AGNHqjM0GIjDzrvZd4NaKtMkfaYSAJo1AH53BxRHdUfcGCI1v6SWgwpze7iVU6LKRrlwWHAayLasyBmpjbmRyUloBQw
+Processing trending topic: ‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman
+Searching Google for: ‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Diplomacy%252Bwas%252Bbetrayed%252Bby%252Bthe%252BAmericans%25E2%2580%2599%253A%252BIranian%252BFM%252Bspokesman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbV-jGJOBjc0GIjDv7_CKjlE9ZhGLtuNhAuJ6OpiLoV3xTT4zw2MMoqisZFLD7jQp5vBEZSWssgkipjEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-so-far-supreme-leaders-compound-hit-a_20260228_1835.html
-✓ Created comprehensive article: what-we-know-so-far-supreme-leaders-compound-hit-a_20260228_1835.html
+Successfully created file: diplomacy-was-betrayed-by-the-americans-iranian-fm_20260228_1923.html
+✓ Created comprehensive article: diplomacy-was-betrayed-by-the-americans-iranian-fm_20260228_1923.html
 
-Processing trending topic: Luxury Dubai hotel hit as Iran launches retaliatory strikes across region
-Searching Google for: Luxury Dubai hotel hit as Iran launches retaliatory strikes across region
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLuxury%252BDubai%252Bhotel%252Bhit%252Bas%252BIran%252Blaunches%252Bretaliatory%252Bstrikes%252Bacross%252Bregion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG9AGNjqjM0GIjB14ElYfjnI-U0y8rpEERlgdG6vHeeMKf6nKXhKKoQh3RDWehX9OiTdjgxsaSOH754yBmpjbmRyUloBQw
+Processing trending topic: US and Israel strike Iran: what happened?
+Searching Google for: US and Israel strike Iran: what happened?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIsrael%252Bstrike%252BIran%253A%252Bwhat%252Bhappened%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbV-jGJmBjc0GIjAEkpw3YrJ4-sBFQcYzg4QTC9tzkTkF-3PhfFbpHhxgiHdXdIxRR4HhhXwACoI20mEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: luxury-dubai-hotel-hit-as-iran-launches-retaliator_20260228_1835.html
-✓ Created comprehensive article: luxury-dubai-hotel-hit-as-iran-launches-retaliator_20260228_1835.html
+Successfully created file: us-and-israel-strike-iran-what-happened_20260228_1923.html
+✓ Created comprehensive article: us-and-israel-strike-iran-what-happened_20260228_1923.html
 
-Processing trending topic: Suspected Iranian drone hits Bahrain high-rise building
-Searching Google for: Suspected Iranian drone hits Bahrain high-rise building
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspected%252BIranian%252Bdrone%252Bhits%252BBahrain%252Bhigh-rise%252Bbuilding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG9AGN7qjM0GIjBqK5B1dOjSIyiyqWMQvzL9CuMKY_t71nwY7j4odGZaziB0U7FaR70cdAgbiZO1KXQyBmpjbmRyUloBQw
+Processing trending topic: Nine months after 12-day war, US, Israel seek to topple Iran’s leaders
+Searching Google for: Nine months after 12-day war, US, Israel seek to topple Iran’s leaders
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNine%252Bmonths%252Bafter%252B12-day%252Bwar%252C%252BUS%252C%252BIsrael%252Bseek%252Bto%252Btopple%252BIran%25E2%2580%2599s%252Bleaders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbV-jGKCBjc0GIjCe4ocBHj2nGjcX0iMNgMWPvkrwyUIDaMae8Vo6Kr8VIQPrV_jsqtb9f9OvB37YZ_syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspected-iranian-drone-hits-bahrain-high-rise-bui_20260228_1835.html
-✓ Created comprehensive article: suspected-iranian-drone-hits-bahrain-high-rise-bui_20260228_1835.html
+Successfully created file: nine-months-after-12-day-war-us-israel-seek-to-top_20260228_1923.html
+✓ Created comprehensive article: nine-months-after-12-day-war-us-israel-seek-to-top_20260228_1923.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What we know so far: Supreme Leader's compound hit and Iran's retaliatory strikes
+   • ‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman
      Sources: bbc.com, cnn.com, reuters.com
-   • Luxury Dubai hotel hit as Iran launches retaliatory strikes across region
+   • US and Israel strike Iran: what happened?
      Sources: bbc.com, cnn.com, reuters.com
-   • Suspected Iranian drone hits Bahrain high-rise building
+   • Nine months after 12-day war, US, Israel seek to topple Iran’s leaders
      Sources: bbc.com, cnn.com, reuters.com
