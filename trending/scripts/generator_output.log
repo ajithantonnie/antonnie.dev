@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: What we know so far
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reporter on the streets of Tehran as missiles hit the city
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
-Added expanded search topic: Al Jazeera reporter on the streets of Tehran as missiles hit the city
-Added expanded search topic: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
-Saved 33 topics for 2026-02-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel strikes two schools in Iran, killing more than 50 people
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India vs West Indies: T20 World Cup Super Eights – teams, start, lineups
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Barcelona vs Villarreal – La Liga
+Added expanded search topic: Israel strikes two schools in Iran, killing more than 50 people
+Added expanded search topic: India vs West Indies: T20 World Cup Super Eights – teams, start, lineups
+Added expanded search topic: LIVE: Barcelona vs Villarreal – La Liga
+Saved 36 topics for 2026-02-28
 Returning 3 unique trending topics:
-  1. Bowen: A dangerous moment, but US and Israel see opportunity not to be missed (from BBC News)
-  2. Al Jazeera reporter on the streets of Tehran as missiles hit the city (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Airspace closed, airlines halt flights as US, Israel attack, Iran responds (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel strikes two schools in Iran, killing more than 50 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. India vs West Indies: T20 World Cup Super Eights – teams, start, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. LIVE: Barcelona vs Villarreal – La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
-Searching Google for: Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBowen%253A%252BA%252Bdangerous%252Bmoment%252C%252Bbut%252BUS%252Band%252BIsrael%252Bsee%252Bopportunity%252Bnot%252Bto%252Bbe%252Bmissed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9XCGN7Gi80GIjA4rB5kXMvNfeRbrzdB8wEKvV4MqzNmmssKxY4ZrICA75rv95xeJqHBbJMbDwLu7agyBmpjbmRyUloBQw
+Processing trending topic: Israel strikes two schools in Iran, killing more than 50 people
+Searching Google for: Israel strikes two schools in Iran, killing more than 50 people
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bstrikes%252Btwo%252Bschools%252Bin%252BIran%252C%252Bkilling%252Bmore%252Bthan%252B50%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19nBGIbgi80GIjDz5EasaB8Tqp9lcn_dUNVgaFD_Z3gS_6QlhwhwfOn68VDeDd2QBbqvbZ9n1e2nKN0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bowen-a-dangerous-moment-but-us-and-israel-see-opp_20260228_1245.html
-✓ Created comprehensive article: bowen-a-dangerous-moment-but-us-and-israel-see-opp_20260228_1245.html
+Successfully created file: israel-strikes-two-schools-in-iran-killing-more-th_20260228_1339.html
+✓ Created comprehensive article: israel-strikes-two-schools-in-iran-killing-more-th_20260228_1339.html
 
-Processing trending topic: Al Jazeera reporter on the streets of Tehran as missiles hit the city
-Searching Google for: Al Jazeera reporter on the streets of Tehran as missiles hit the city
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breporter%252Bon%252Bthe%252Bstreets%252Bof%252BTehran%252Bas%252Bmissiles%252Bhit%252Bthe%252Bcity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9XCGOXGi80GIjA_6i7VDJda1Ls8tMAxwj3uyT0QNNVnxqUZZ4DO36dUl5awPfjw3gA9_6jhgb8i9QkyBmpjbmRyUloBQw
+Processing trending topic: India vs West Indies: T20 World Cup Super Eights – teams, start, lineups
+Searching Google for: India vs West Indies: T20 World Cup Super Eights – teams, start, lineups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bvs%252BWest%252BIndies%253A%252BT20%252BWorld%252BCup%252BSuper%252BEights%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19nBGI3gi80GIjDdZDnyhaI7J6VYXpxQTWcZOBkt2B2YyWIq6YNHH7Ymn7CysX5Ew-QdSksrKgCPPz0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-jazeera-reporter-on-the-streets-of-tehran-as-mi_20260228_1245.html
-✓ Created comprehensive article: al-jazeera-reporter-on-the-streets-of-tehran-as-mi_20260228_1245.html
+Successfully created file: india-vs-west-indies-t20-world-cup-super-eights-te_20260228_1339.html
+✓ Created comprehensive article: india-vs-west-indies-t20-world-cup-super-eights-te_20260228_1339.html
 
-Processing trending topic: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
-Searching Google for: Airspace closed, airlines halt flights as US, Israel attack, Iran responds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAirspace%252Bclosed%252C%252Bairlines%252Bhalt%252Bflights%252Bas%252BUS%252C%252BIsrael%252Battack%252C%252BIran%252Bresponds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9XCGOvGi80GIjCGeiEGANKTlvaHvOVdDKCPkFECR4TsbidkUgPsxr6ZfLp3Ga2TvTEfdCFFEr8ndpAyBmpjbmRyUloBQw
+Processing trending topic: LIVE: Barcelona vs Villarreal – La Liga
+Searching Google for: LIVE: Barcelona vs Villarreal – La Liga
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BBarcelona%252Bvs%252BVillarreal%252B%25E2%2580%2593%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19nBGJTgi80GIjA3uV6GsPvEFOyL1VoJuy5dDfddsi5byXCH747ziLdT0xykz93QEYUlAVIBOzA-WpwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: airspace-closed-airlines-halt-flights-as-us-israel_20260228_1245.html
-✓ Created comprehensive article: airspace-closed-airlines-halt-flights-as-us-israel_20260228_1245.html
+Successfully created file: live-barcelona-vs-villarreal-la-liga_20260228_1339.html
+✓ Created comprehensive article: live-barcelona-vs-villarreal-la-liga_20260228_1339.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bowen: A dangerous moment, but US and Israel see opportunity not to be missed
+   • Israel strikes two schools in Iran, killing more than 50 people
      Sources: bbc.com, cnn.com, reuters.com
-   • Al Jazeera reporter on the streets of Tehran as missiles hit the city
+   • India vs West Indies: T20 World Cup Super Eights – teams, start, lineups
      Sources: bbc.com, cnn.com, reuters.com
-   • Airspace closed, airlines halt flights as US, Israel attack, Iran responds
+   • LIVE: Barcelona vs Villarreal – La Liga
      Sources: bbc.com, cnn.com, reuters.com
