@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: What we know so far
   Added: Watch: Smoke rises in Tehran as explosions heard across country
-  Added: Mahmood to press on with immigration reforms despite by-election defeat
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says “major combat operations” in Iran have begun
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump talks of ‘annihilation’, ‘elimination’ as US, Israel attack Iran
-Added expanded search topic: Trump says “major combat operations” in Iran have begun
-Added expanded search topic: Trump talks of ‘annihilation’, ‘elimination’ as US, Israel attack Iran
-Saved 21 topics for 2026-02-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
+Added expanded search topic: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
+Added expanded search topic: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
+Saved 24 topics for 2026-02-28
 Returning 3 unique trending topics:
-  1. Watch: Smoke rises in Tehran as explosions heard across country (from BBC News)
-  2. Trump says “major combat operations” in Iran have begun (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump talks of ‘annihilation’, ‘elimination’ as US, Israel attack Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. What we know so far (from BBC News)
+  2. OpenAI strikes deal with Pentagon to use tech in ‘classified network’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Who is Iran’s Supreme Leader Khamenei and why is he a possible target? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: Smoke rises in Tehran as explosions heard across country
-Searching Google for: Watch: Smoke rises in Tehran as explosions heard across country
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BSmoke%252Brises%252Bin%252BTehran%252Bas%252Bexplosions%252Bheard%252Bacross%252Bcountry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNSGOvPis0GIjBKUpe7-GEYpVFIpGb5VcEwZvQN_TCglvhql5ALi9vFSjqW51CQTSUI7SHRLIItg9UyBmpjbmRyUloBQw
+Processing trending topic: What we know so far
+Searching Google for: What we know so far
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bso%252Bfar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I2GLrqis0GIjBOAM1QzIm4npi1JQGvcp5pZ-dMzhPiwtfGEKQknyEz9YQN2wVY69WVd4iNIpuOCWUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-smoke-rises-in-tehran-as-explosions-heard-ac_20260228_0831.html
-✓ Created comprehensive article: watch-smoke-rises-in-tehran-as-explosions-heard-ac_20260228_0831.html
+Successfully created file: what-we-know-so-far_20260228_0928.html
+✓ Created comprehensive article: what-we-know-so-far_20260228_0928.html
 
-Processing trending topic: Trump says “major combat operations” in Iran have begun
-Searching Google for: Trump says “major combat operations” in Iran have begun
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252B%25E2%2580%259Cmajor%252Bcombat%252Boperations%25E2%2580%259D%252Bin%252BIran%252Bhave%252Bbegun%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNSGPLPis0GIjC-TXuBAAtueKuZVmT_FSpvg_XIDEZAISky48Sd8wOReWr-gsBfZ_vqe9-2IB32ZyIyBmpjbmRyUloBQw
+Processing trending topic: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
+Searching Google for: OpenAI strikes deal with Pentagon to use tech in ‘classified network’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%252Bstrikes%252Bdeal%252Bwith%252BPentagon%252Bto%252Buse%252Btech%252Bin%252B%25E2%2580%2598classified%252Bnetwork%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I2GMLqis0GIjDYa-QOnjwGReBTzuwbZWshEd14pOSgOdvtArh3ZCxlqvEf--WqmLMmKUnvWFN-nMwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-major-combat-operations-in-iran-have-be_20260228_0831.html
-✓ Created comprehensive article: trump-says-major-combat-operations-in-iran-have-be_20260228_0831.html
+Successfully created file: openai-strikes-deal-with-pentagon-to-use-tech-in-c_20260228_0928.html
+✓ Created comprehensive article: openai-strikes-deal-with-pentagon-to-use-tech-in-c_20260228_0928.html
 
-Processing trending topic: Trump talks of ‘annihilation’, ‘elimination’ as US, Israel attack Iran
-Searching Google for: Trump talks of ‘annihilation’, ‘elimination’ as US, Israel attack Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btalks%252Bof%252B%25E2%2580%2598annihilation%25E2%2580%2599%252C%252B%25E2%2580%2598elimination%25E2%2580%2599%252Bas%252BUS%252C%252BIsrael%252Battack%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNSGPnPis0GIjAbKCTmIEN1ZDQR2yXMYr36hPJ7xwhPT377EC2K7N2kYW14-JyM2C3QaMfmeykyhc4yBmpjbmRyUloBQw
+Processing trending topic: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
+Searching Google for: Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BIran%25E2%2580%2599s%252BSupreme%252BLeader%252BKhamenei%252Band%252Bwhy%252Bis%252Bhe%252Ba%252Bpossible%252Btarget%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I2GMnqis0GIjBAiUeHXSfhoAenMzrcpdSO-1_FsvwT0wIVnJvtjAzYMuV_RBW6Q7HfGMV1w5XTw9wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-talks-of-annihilation-elimination-as-us-isra_20260228_0831.html
-✓ Created comprehensive article: trump-talks-of-annihilation-elimination-as-us-isra_20260228_0831.html
+Successfully created file: who-is-irans-supreme-leader-khamenei-and-why-is-he_20260228_0928.html
+✓ Created comprehensive article: who-is-irans-supreme-leader-khamenei-and-why-is-he_20260228_0928.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: Smoke rises in Tehran as explosions heard across country
+   • What we know so far
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says “major combat operations” in Iran have begun
+   • OpenAI strikes deal with Pentagon to use tech in ‘classified network’
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump talks of ‘annihilation’, ‘elimination’ as US, Israel attack Iran
+   • Who is Iran’s Supreme Leader Khamenei and why is he a possible target?
      Sources: bbc.com, cnn.com, reuters.com
