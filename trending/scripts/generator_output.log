@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Lyse Doucet: This is an extraordinary moment Iran has been preparing for
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US strikes on Iran lead to renewed demands for war powers legislation
-Added expanded search topic: Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US
-Added expanded search topic: US strikes on Iran lead to renewed demands for war powers legislation
-Saved 6 topics for 2026-03-01
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Yorkers protest US strikes on Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How have US politicians reacted to the attack on Iran?
+Added expanded search topic: New Yorkers protest US strikes on Iran
+Added expanded search topic: Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’
+Added expanded search topic: How have US politicians reacted to the attack on Iran?
+Saved 9 topics for 2026-03-01
 Returning 3 unique trending topics:
-  1. Trump's bet on Iranian regime change could be his biggest gamble yet (from BBC News)
-  2. Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US strikes on Iran lead to renewed demands for war powers legislation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. New Yorkers protest US strikes on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How have US politicians reacted to the attack on Iran? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump's bet on Iranian regime change could be his biggest gamble yet
-Searching Google for: Trump's bet on Iranian regime change could be his biggest gamble yet
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%2527s%252Bbet%252Bon%252BIranian%252Bregime%252Bchange%252Bcould%252Bbe%252Bhis%252Bbiggest%252Bgamble%252Byet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WRGI-Oj80GIjBiKq7TPhZzoWJUML87rGh30W-g7GpCJRtTWR8G8PTE68lfNyONk0RnyajAgdgmzHkyBmpjbmRyUloBQw
+Processing trending topic: New Yorkers protest US strikes on Iran
+Searching Google for: New Yorkers protest US strikes on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BYorkers%252Bprotest%252BUS%252Bstrikes%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUphGLupj80GIjDYZoFGnAlBQhYfOAu0LUnqCJ-8tt8JZ9btXlty6SqczqlZ784358fRH6oYUAu0szwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-bet-on-iranian-regime-change-could-be-his-b_20260301_0456.html
-✓ Created comprehensive article: trumps-bet-on-iranian-regime-change-could-be-his-b_20260301_0456.html
+Successfully created file: new-yorkers-protest-us-strikes-on-iran_20260301_0555.html
+✓ Created comprehensive article: new-yorkers-protest-us-strikes-on-iran_20260301_0555.html
 
-Processing trending topic: Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US
-Searching Google for: Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNetanyahu%25E2%2580%2599s%252Bwar%253F%252BAnalysts%252Bsay%252BTrump%25E2%2580%2599s%252BIran%252Bstrikes%252Bbenefit%252BIsrael%252C%252Bnot%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WRGJaOj80GIjD3CNFn0fGbnRuHTD9H8ItNTEKmNBFlajwucwIZsYncSml60pCJ-QgceVmOrA7AtPsyBmpjbmRyUloBQw
+Processing trending topic: Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’
+Searching Google for: Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252BAmbassador%252Bto%252BUN%252Bcalls%252BUS-Israeli%252Battacks%252Ba%252B%25E2%2580%2598war%252Bcrime%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUphGMKpj80GIjBtviytt0Dul90ZS4fpNUL4F_O_iWuGay3dRSJmpRE4ta34AQt1rY_HckMh1L0r-igyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: netanyahus-war-analysts-say-trumps-iran-strikes-be_20260301_0456.html
-✓ Created comprehensive article: netanyahus-war-analysts-say-trumps-iran-strikes-be_20260301_0456.html
+Successfully created file: iranian-ambassador-to-un-calls-us-israeli-attacks-_20260301_0555.html
+✓ Created comprehensive article: iranian-ambassador-to-un-calls-us-israeli-attacks-_20260301_0555.html
 
-Processing trending topic: US strikes on Iran lead to renewed demands for war powers legislation
-Searching Google for: US strikes on Iran lead to renewed demands for war powers legislation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bstrikes%252Bon%252BIran%252Blead%252Bto%252Brenewed%252Bdemands%252Bfor%252Bwar%252Bpowers%252Blegislation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WRGJyOj80GIjBm8lLRJNrRC3zLQnCLuIFqNWav-vEI6yqosZSKM9I03QQKL6cgAs5_2pY0ud2vDcEyBmpjbmRyUloBQw
+Processing trending topic: How have US politicians reacted to the attack on Iran?
+Searching Google for: How have US politicians reacted to the attack on Iran?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bhave%252BUS%252Bpoliticians%252Breacted%252Bto%252Bthe%252Battack%252Bon%252BIran%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUphGMmpj80GIjBxYvmhm3WWVON-Nle4C8jR3Le2vKY8_hvYtjoEHzyLdz-a9KequQHWvjOAzE9Ihz0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-strikes-on-iran-lead-to-renewed-demands-for-war_20260301_0457.html
-✓ Created comprehensive article: us-strikes-on-iran-lead-to-renewed-demands-for-war_20260301_0457.html
+Successfully created file: how-have-us-politicians-reacted-to-the-attack-on-i_20260301_0555.html
+✓ Created comprehensive article: how-have-us-politicians-reacted-to-the-attack-on-i_20260301_0555.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump's bet on Iranian regime change could be his biggest gamble yet
+   • New Yorkers protest US strikes on Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Netanyahu’s war? Analysts say Trump’s Iran strikes benefit Israel, not US
+   • Iranian Ambassador to UN calls US-Israeli attacks a ‘war crime’
      Sources: bbc.com, cnn.com, reuters.com
-   • US strikes on Iran lead to renewed demands for war powers legislation
+   • How have US politicians reacted to the attack on Iran?
      Sources: bbc.com, cnn.com, reuters.com
