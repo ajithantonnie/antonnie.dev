@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iranian drone hit RAF base, Cyprus president says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Oil prices rise sharply after US, Israeli attacks on Iran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Missile debris’ sparks fire at Saudi’s Aramco oil refinery
-Added expanded search topic: Oil prices rise sharply after US, Israeli attacks on Iran
-Added expanded search topic: ‘Missile debris’ sparks fire at Saudi’s Aramco oil refinery
-Saved 24 topics for 2026-03-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ayatollah Ali Khamenei’s assassination will likely backfire. Here is why
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India, Canada aim for trade pact by year end, agree uranium deal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The rise in war bets
+Added expanded search topic: Ayatollah Ali Khamenei’s assassination will likely backfire. Here is why
+Added expanded search topic: India, Canada aim for trade pact by year end, agree uranium deal
+Added expanded search topic: The rise in war bets
+Saved 27 topics for 2026-03-02
 Returning 3 unique trending topics:
-  1. Oil prices jump and shares fall as conflict escalates (from BBC News)
-  2. Oil prices rise sharply after US, Israeli attacks on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. ‘Missile debris’ sparks fire at Saudi’s Aramco oil refinery (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Ayatollah Ali Khamenei’s assassination will likely backfire. Here is why (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. India, Canada aim for trade pact by year end, agree uranium deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. The rise in war bets (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Oil prices jump and shares fall as conflict escalates
-Searching Google for: Oil prices jump and shares fall as conflict escalates
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252Bprices%252Bjump%252Band%252Bshares%252Bfall%252Bas%252Bconflict%252Bescalates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIq3GPDUlc0GIjAw0tuw7lUPBQ8k91Sdc8jv96kQBejqHkjAcymuBaTy7Q32jqxx4YwPffl9eApJB6QyBmpjbmRyUloBQw
+Processing trending topic: Ayatollah Ali Khamenei’s assassination will likely backfire. Here is why
+Searching Google for: Ayatollah Ali Khamenei’s assassination will likely backfire. Here is why
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAyatollah%252BAli%252BKhamenei%25E2%2580%2599s%252Bassassination%252Bwill%252Blikely%252Bbackfire.%252BHere%252Bis%252Bwhy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsrFGLvrlc0GIjAzmeDM4dPV24R2PjAP8AY8bE_8ekWPTNCl_-7ZYTwB9242D53FJwZqRNwwOqBFFOAyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: oil-prices-jump-and-shares-fall-as-conflict-escala_20260302_1046.html
-✓ Created comprehensive article: oil-prices-jump-and-shares-fall-as-conflict-escala_20260302_1046.html
+Successfully created file: ayatollah-ali-khameneis-assassination-will-likely-_20260302_1134.html
+✓ Created comprehensive article: ayatollah-ali-khameneis-assassination-will-likely-_20260302_1134.html
 
-Processing trending topic: Oil prices rise sharply after US, Israeli attacks on Iran
-Searching Google for: Oil prices rise sharply after US, Israeli attacks on Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252Bprices%252Brise%252Bsharply%252Bafter%252BUS%252C%252BIsraeli%252Battacks%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIq3GPfUlc0GIjD-llLQNSmjF72cLyk8sGeKcI6gOxKAjWG6waQJLPOh_luX0oVYylUcIDTAG0Wvbi4yBmpjbmRyUloBQw
+Processing trending topic: India, Canada aim for trade pact by year end, agree uranium deal
+Searching Google for: India, Canada aim for trade pact by year end, agree uranium deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252C%252BCanada%252Baim%252Bfor%252Btrade%252Bpact%252Bby%252Byear%252Bend%252C%252Bagree%252Buranium%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsrFGMLrlc0GIjD1SpmyJs1MD7F9kVsPdEnRuYIoZvCQzRjg1F_-gaNN5u7RzahUN4iKr-3tg_aW-rcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: oil-prices-rise-sharply-after-us-israeli-attacks-o_20260302_1046.html
-✓ Created comprehensive article: oil-prices-rise-sharply-after-us-israeli-attacks-o_20260302_1046.html
+Successfully created file: india-canada-aim-for-trade-pact-by-year-end-agree-_20260302_1134.html
+✓ Created comprehensive article: india-canada-aim-for-trade-pact-by-year-end-agree-_20260302_1134.html
 
-Processing trending topic: ‘Missile debris’ sparks fire at Saudi’s Aramco oil refinery
-Searching Google for: ‘Missile debris’ sparks fire at Saudi’s Aramco oil refinery
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Missile%252Bdebris%25E2%2580%2599%252Bsparks%252Bfire%252Bat%252BSaudi%25E2%2580%2599s%252BAramco%252Boil%252Brefinery%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIq3GP3Ulc0GIjDr9M-z3KwkjClnZycRlKVl3Z7horjzKFjJfEYzvDsPj7y_cDQ-x1GODV2y6YFqFU0yBmpjbmRyUloBQw
+Processing trending topic: The rise in war bets
+Searching Google for: The rise in war bets
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Brise%252Bin%252Bwar%252Bbets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsrFGMnrlc0GIjCi3abbE6cuADjjbOANWvcdfNsnL6iiTMghL8YVhYawpKbY1PPo4kddP5SiVN6QRNIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: missile-debris-sparks-fire-at-saudis-aramco-oil-re_20260302_1046.html
-✓ Created comprehensive article: missile-debris-sparks-fire-at-saudis-aramco-oil-re_20260302_1046.html
+Successfully created file: the-rise-in-war-bets_20260302_1134.html
+✓ Created comprehensive article: the-rise-in-war-bets_20260302_1134.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Oil prices jump and shares fall as conflict escalates
+   • Ayatollah Ali Khamenei’s assassination will likely backfire. Here is why
      Sources: bbc.com, cnn.com, reuters.com
-   • Oil prices rise sharply after US, Israeli attacks on Iran
+   • India, Canada aim for trade pact by year end, agree uranium deal
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Missile debris’ sparks fire at Saudi’s Aramco oil refinery
+   • The rise in war bets
      Sources: bbc.com, cnn.com, reuters.com
