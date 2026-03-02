@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: RAF base in Cyprus targeted in suspected drone strike, MoD says
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Netanyahu vows increasing strikes on Tehran
-Added expanded search topic: Netanyahu vows increasing strikes on Tehran
-Saved 9 topics for 2026-03-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Analysis: Khamenei’s killing leaves Iran’s ‘axis’ in disarray
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After Iran’s salvo hit their skylines, will Gulf states enter the war?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Poll suggests only a quarter of Americans support attacks on Iran
+Added expanded search topic: Analysis: Khamenei’s killing leaves Iran’s ‘axis’ in disarray
+Added expanded search topic: After Iran’s salvo hit their skylines, will Gulf states enter the war?
+Added expanded search topic: Poll suggests only a quarter of Americans support attacks on Iran
+Saved 12 topics for 2026-03-02
 Returning 3 unique trending topics:
-  1. RAF base in Cyprus targeted in suspected drone strike, MoD says (from BBC News)
-  2. Allies of US in the Gulf bear brunt of Iran attacks (from BBC News)
-  3. Netanyahu vows increasing strikes on Tehran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Analysis: Khamenei’s killing leaves Iran’s ‘axis’ in disarray (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. After Iran’s salvo hit their skylines, will Gulf states enter the war? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Poll suggests only a quarter of Americans support attacks on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: RAF base in Cyprus targeted in suspected drone strike, MoD says
-Searching Google for: RAF base in Cyprus targeted in suspected drone strike, MoD says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRAF%252Bbase%252Bin%252BCyprus%252Btargeted%252Bin%252Bsuspected%252Bdrone%252Bstrike%252C%252BMoD%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19H3GO3MlM0GIjDOWGDi4vsKlyzjVGXmYbdUuC7lKSL_8hCPnHqbp0057wI-pjqNGwE-B9E0jBh2B1QyBmpjbmRyUloBQw
+Processing trending topic: Analysis: Khamenei’s killing leaves Iran’s ‘axis’ in disarray
+Searching Google for: Analysis: Khamenei’s killing leaves Iran’s ‘axis’ in disarray
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%253A%252BKhamenei%25E2%2580%2599s%252Bkilling%252Bleaves%252BIran%25E2%2580%2599s%252B%25E2%2580%2598axis%25E2%2580%2599%252Bin%252Bdisarray%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO6zGMXqlM0GIjCUNY6Intmp62ZRQE7mRhqWVBuN72EbvhPV6PUyXBFjAHnEH_y8jxv-xtv6ml4jzJEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: raf-base-in-cyprus-targeted-in-suspected-drone-str_20260302_0556.html
-✓ Created comprehensive article: raf-base-in-cyprus-targeted-in-suspected-drone-str_20260302_0556.html
+Successfully created file: analysis-khameneis-killing-leaves-irans-axis-in-di_20260302_0659.html
+✓ Created comprehensive article: analysis-khameneis-killing-leaves-irans-axis-in-di_20260302_0659.html
 
-Processing trending topic: Allies of US in the Gulf bear brunt of Iran attacks
-Searching Google for: Allies of US in the Gulf bear brunt of Iran attacks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAllies%252Bof%252BUS%252Bin%252Bthe%252BGulf%252Bbear%252Bbrunt%252Bof%252BIran%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19H3GPXMlM0GIjBXqnJ_vFZMP5YQqZ8aav4hvz9kIUJmIj3c5FVgMM3X2_nE5S_6crO84EOalGHDGCwyBmpjbmRyUloBQw
+Processing trending topic: After Iran’s salvo hit their skylines, will Gulf states enter the war?
+Searching Google for: After Iran’s salvo hit their skylines, will Gulf states enter the war?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252BIran%25E2%2580%2599s%252Bsalvo%252Bhit%252Btheir%252Bskylines%252C%252Bwill%252BGulf%252Bstates%252Benter%252Bthe%252Bwar%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO6zGMzqlM0GIjAMtKWU84a9-yT-iCkjPaYKYurGgFFnznebibB234CfNi0K6Irr4BnpadufNvuXzkkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: allies-of-us-in-the-gulf-bear-brunt-of-iran-attack_20260302_0556.html
-✓ Created comprehensive article: allies-of-us-in-the-gulf-bear-brunt-of-iran-attack_20260302_0556.html
+Successfully created file: after-irans-salvo-hit-their-skylines-will-gulf-sta_20260302_0659.html
+✓ Created comprehensive article: after-irans-salvo-hit-their-skylines-will-gulf-sta_20260302_0659.html
 
-Processing trending topic: Netanyahu vows increasing strikes on Tehran
-Searching Google for: Netanyahu vows increasing strikes on Tehran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNetanyahu%252Bvows%252Bincreasing%252Bstrikes%252Bon%252BTehran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19H3GPvMlM0GIjCCloJENTf6N_6ptxRbiKeOF924vqoxamceHZb5bh5myyLe2E90Y76OQr82nDvA9JQyBmpjbmRyUloBQw
+Processing trending topic: Poll suggests only a quarter of Americans support attacks on Iran
+Searching Google for: Poll suggests only a quarter of Americans support attacks on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPoll%252Bsuggests%252Bonly%252Ba%252Bquarter%252Bof%252BAmericans%252Bsupport%252Battacks%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO6zGNLqlM0GIjB5PIF5NMjbnC59RvZ5miIbVZ_L_-Ov0U6EE1VRjtFjhFIRyWErfGLl_WVBMPSkcecyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: netanyahu-vows-increasing-strikes-on-tehran_20260302_0556.html
-✓ Created comprehensive article: netanyahu-vows-increasing-strikes-on-tehran_20260302_0556.html
+Successfully created file: poll-suggests-only-a-quarter-of-americans-support-_20260302_0659.html
+✓ Created comprehensive article: poll-suggests-only-a-quarter-of-americans-support-_20260302_0659.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • RAF base in Cyprus targeted in suspected drone strike, MoD says
+   • Analysis: Khamenei’s killing leaves Iran’s ‘axis’ in disarray
      Sources: bbc.com, cnn.com, reuters.com
-   • Allies of US in the Gulf bear brunt of Iran attacks
+   • After Iran’s salvo hit their skylines, will Gulf states enter the war?
      Sources: bbc.com, cnn.com, reuters.com
-   • Netanyahu vows increasing strikes on Tehran
+   • Poll suggests only a quarter of Americans support attacks on Iran
      Sources: bbc.com, cnn.com, reuters.com
