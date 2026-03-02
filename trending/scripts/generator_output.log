@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: RAF responding to suspected drone strike at UK base in Cyprus, MoD says
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-02
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reports from Beirut as residents flee following Israeli strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Balen Shah: Rapper, mayor, Nepal’s next prime minister?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel bombs Beirut after Hezbollah fires rockets in Iran war retaliation
+Added expanded search topic: Al Jazeera reports from Beirut as residents flee following Israeli strikes
+Added expanded search topic: Balen Shah: Rapper, mayor, Nepal’s next prime minister?
+Added expanded search topic: Israel bombs Beirut after Hezbollah fires rockets in Iran war retaliation
+Saved 6 topics for 2026-03-02
 Returning 3 unique trending topics:
-  1. RAF responding to suspected drone strike at UK base in Cyprus, MoD says (from BBC News)
-  2. UK will allow US to use bases to strike Iranian missile sites, PM says (from BBC News)
-  3. Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine (from The Guardian)
+  1. Al Jazeera reports from Beirut as residents flee following Israeli strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Balen Shah: Rapper, mayor, Nepal’s next prime minister? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel bombs Beirut after Hezbollah fires rockets in Iran war retaliation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: RAF responding to suspected drone strike at UK base in Cyprus, MoD says
-Searching Google for: RAF responding to suspected drone strike at UK base in Cyprus, MoD says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRAF%252Bresponding%252Bto%252Bsuspected%252Bdrone%252Bstrike%252Bat%252BUK%252Bbase%252Bin%252BCyprus%252C%252BMoD%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyqGPvfk80GIjDfKVaYIY22r6hKOR82h26HQsSWMpV-Yfgt0NU-Xy4hZTG8y4TLKS5wlvPvrNjtDnIyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera reports from Beirut as residents flee following Israeli strikes
+Searching Google for: Al Jazeera reports from Beirut as residents flee following Israeli strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breports%252Bfrom%252BBeirut%252Bas%252Bresidents%252Bflee%252Bfollowing%252BIsraeli%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw8BGK6hlM0GIjCOr9Ecl4E-udyCL2w1zOrDQlNwdKsdRnxFYwuB59LhPJDVE_skw0YVy88g2RIBoM0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: raf-responding-to-suspected-drone-strike-at-uk-bas_20260302_0203.html
-✓ Created comprehensive article: raf-responding-to-suspected-drone-strike-at-uk-bas_20260302_0203.html
+Successfully created file: al-jazeera-reports-from-beirut-as-residents-flee-f_20260302_0423.html
+✓ Created comprehensive article: al-jazeera-reports-from-beirut-as-residents-flee-f_20260302_0423.html
 
-Processing trending topic: UK will allow US to use bases to strike Iranian missile sites, PM says
-Searching Google for: UK will allow US to use bases to strike Iranian missile sites, PM says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bwill%252Ballow%252BUS%252Bto%252Buse%252Bbases%252Bto%252Bstrike%252BIranian%252Bmissile%252Bsites%252C%252BPM%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyqGILgk80GIjBiNI2J7DLKfagb0-KJDEoO6GTLWYxYCdBjWJYtI-XVRske7jr61PjYXd1LDdcGo28yBmpjbmRyUloBQw
+Processing trending topic: Balen Shah: Rapper, mayor, Nepal’s next prime minister?
+Searching Google for: Balen Shah: Rapper, mayor, Nepal’s next prime minister?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBalen%252BShah%253A%252BRapper%252C%252Bmayor%252C%252BNepal%25E2%2580%2599s%252Bnext%252Bprime%252Bminister%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw8BGLWhlM0GIjBv0LPYpmHdYjcDCloeuEh7p8a9l_LoBwHuBEVt2oqAocPm0O32ZVqGm_hPbwISzJoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-will-allow-us-to-use-bases-to-strike-iranian-mi_20260302_0203.html
-✓ Created comprehensive article: uk-will-allow-us-to-use-bases-to-strike-iranian-mi_20260302_0203.html
+Successfully created file: balen-shah-rapper-mayor-nepals-next-prime-minister_20260302_0423.html
+✓ Created comprehensive article: balen-shah-rapper-mayor-nepals-next-prime-minister_20260302_0423.html
 
-Processing trending topic: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Searching Google for: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGhana%252Bsays%252Bat%252Bleast%252B55%252Bof%252Bits%252Bpeople%252Bkilled%252Bafter%252BRussia%252B%25E2%2580%2598lured%25E2%2580%2599%252Bthem%252Bto%252Bfight%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyqGIjgk80GIjDXU222QiKFHia2DniiVCdFbX2cVwGIUDNI5bmOvnE9nIOmh6AgtsYUwtzn2HwweN4yBmpjbmRyUloBQw
+Processing trending topic: Israel bombs Beirut after Hezbollah fires rockets in Iran war retaliation
+Searching Google for: Israel bombs Beirut after Hezbollah fires rockets in Iran war retaliation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bbombs%252BBeirut%252Bafter%252BHezbollah%252Bfires%252Brockets%252Bin%252BIran%252Bwar%252Bretaliation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw8BGLuhlM0GIjDO0bcIdsjwr88AVq9BFOLNvl0tyomsXeRRgQatgc77KDKspxSIuzHSGtjZZyzIqTIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ghana-says-at-least-55-of-its-people-killed-after-_20260302_0203.html
-✓ Created comprehensive article: ghana-says-at-least-55-of-its-people-killed-after-_20260302_0203.html
+Successfully created file: israel-bombs-beirut-after-hezbollah-fires-rockets-_20260302_0423.html
+✓ Created comprehensive article: israel-bombs-beirut-after-hezbollah-fires-rockets-_20260302_0423.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • RAF responding to suspected drone strike at UK base in Cyprus, MoD says
+   • Al Jazeera reports from Beirut as residents flee following Israeli strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • UK will allow US to use bases to strike Iranian missile sites, PM says
+   • Balen Shah: Rapper, mayor, Nepal’s next prime minister?
      Sources: bbc.com, cnn.com, reuters.com
-   • Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
+   • Israel bombs Beirut after Hezbollah fires rockets in Iran war retaliation
      Sources: bbc.com, cnn.com, reuters.com
