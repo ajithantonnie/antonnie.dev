@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: Starmer at odds with Trump in biggest disagreement yet
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US claims destroyed IRGC command centre, more Israel attacks on Tehran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid defeated by Getafe to fall four points behind Barca in La Liga
-Added expanded search topic: US claims destroyed IRGC command centre, more Israel attacks on Tehran
-Added expanded search topic: Real Madrid defeated by Getafe to fall four points behind Barca in La Liga
-Saved 15 topics for 2026-03-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is the US arming Mexican cartels?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US sanctions Rwandan army and top officials for supporting M23 in DRC
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Asia’s stock markets plunge amid US-Israeli conflict with Iran
+Added expanded search topic: Is the US arming Mexican cartels?
+Added expanded search topic: US sanctions Rwandan army and top officials for supporting M23 in DRC
+Added expanded search topic: Asia’s stock markets plunge amid US-Israeli conflict with Iran
+Saved 18 topics for 2026-03-03
 Returning 3 unique trending topics:
-  1. Why did US and Israel attack Iran and how long could the war last? (from BBC News)
-  2. US claims destroyed IRGC command centre, more Israel attacks on Tehran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Real Madrid defeated by Getafe to fall four points behind Barca in La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Is the US arming Mexican cartels? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US sanctions Rwandan army and top officials for supporting M23 in DRC (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Asia’s stock markets plunge amid US-Israeli conflict with Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Why did US and Israel attack Iran and how long could the war last?
-Searching Google for: Why did US and Israel attack Iran and how long could the war last?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bdid%252BUS%252Band%252BIsrael%252Battack%252BIran%252Band%252Bhow%252Blong%252Bcould%252Bthe%252Bwar%252Blast%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3QGI2jms0GIjCyze5oQMmgRAkv76vC0hTqTRNAZIGJ7ojAzwQJ21MwL6ksh7ygIvCi6cbiHLw0DVcyBmpjbmRyUloBQw
+Processing trending topic: Is the US arming Mexican cartels?
+Searching Google for: Is the US arming Mexican cartels?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bthe%252BUS%252Barming%252BMexican%252Bcartels%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGOHGOG9ms0GIjCBO-0xULf5NOWcyZlA_jIWNWUvZaWQXpMaxZirX1OUB3BETUSqyoVw8u6F_0zVMv0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-did-us-and-israel-attack-iran-and-how-long-cou_20260303_0745.html
-✓ Created comprehensive article: why-did-us-and-israel-attack-iran-and-how-long-cou_20260303_0745.html
+Successfully created file: is-the-us-arming-mexican-cartels_20260303_0842.html
+✓ Created comprehensive article: is-the-us-arming-mexican-cartels_20260303_0842.html
 
-Processing trending topic: US claims destroyed IRGC command centre, more Israel attacks on Tehran
-Searching Google for: US claims destroyed IRGC command centre, more Israel attacks on Tehran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bclaims%252Bdestroyed%252BIRGC%252Bcommand%252Bcentre%252C%252Bmore%252BIsrael%252Battacks%252Bon%252BTehran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3QGJWjms0GIjDZm8aP5MMhLFbTH1Sq3S2-nL7IenvlE2WdFELtFDmPDP9K0f0ex7VlAhoycj-AROAyBmpjbmRyUloBQw
+Processing trending topic: US sanctions Rwandan army and top officials for supporting M23 in DRC
+Searching Google for: US sanctions Rwandan army and top officials for supporting M23 in DRC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsanctions%252BRwandan%252Barmy%252Band%252Btop%252Bofficials%252Bfor%252Bsupporting%252BM23%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGOHGOi9ms0GIjBBGnvSX-SWUWdJh9V1g9KwzeazdLNV__RQbFmfPxUs_deL-_Wd3zjmaU-89JtEun4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-claims-destroyed-irgc-command-centre-more-israe_20260303_0745.html
-✓ Created comprehensive article: us-claims-destroyed-irgc-command-centre-more-israe_20260303_0745.html
+Successfully created file: us-sanctions-rwandan-army-and-top-officials-for-su_20260303_0842.html
+✓ Created comprehensive article: us-sanctions-rwandan-army-and-top-officials-for-su_20260303_0842.html
 
-Processing trending topic: Real Madrid defeated by Getafe to fall four points behind Barca in La Liga
-Searching Google for: Real Madrid defeated by Getafe to fall four points behind Barca in La Liga
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bdefeated%252Bby%252BGetafe%252Bto%252Bfall%252Bfour%252Bpoints%252Bbehind%252BBarca%252Bin%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3QGJujms0GIjDNtvXbAKbRb7d6lQmaugFtWycoFsz89H0kfc5OP_FKZajFBsaeG3I0bEo2qwu9FK4yBmpjbmRyUloBQw
+Processing trending topic: Asia’s stock markets plunge amid US-Israeli conflict with Iran
+Searching Google for: Asia’s stock markets plunge amid US-Israeli conflict with Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAsia%25E2%2580%2599s%252Bstock%252Bmarkets%252Bplunge%252Bamid%252BUS-Israeli%252Bconflict%252Bwith%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGOHGO69ms0GIjALACNhY0H2pEu0NdyIclXx6IaCPv9KNP2yfHJaFOCGojvZ0PxkaoCrlmwRlEPEL8EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: real-madrid-defeated-by-getafe-to-fall-four-points_20260303_0745.html
-✓ Created comprehensive article: real-madrid-defeated-by-getafe-to-fall-four-points_20260303_0745.html
+Successfully created file: asias-stock-markets-plunge-amid-us-israeli-conflic_20260303_0842.html
+✓ Created comprehensive article: asias-stock-markets-plunge-amid-us-israeli-conflic_20260303_0842.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Why did US and Israel attack Iran and how long could the war last?
+   • Is the US arming Mexican cartels?
      Sources: bbc.com, cnn.com, reuters.com
-   • US claims destroyed IRGC command centre, more Israel attacks on Tehran
+   • US sanctions Rwandan army and top officials for supporting M23 in DRC
      Sources: bbc.com, cnn.com, reuters.com
-   • Real Madrid defeated by Getafe to fall four points behind Barca in La Liga
+   • Asia’s stock markets plunge amid US-Israeli conflict with Iran
      Sources: bbc.com, cnn.com, reuters.com
