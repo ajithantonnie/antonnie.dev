@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK considers sending Royal Navy warship to Cyprus
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Imperialist undertones’: global south condemns US-Israeli war with Iran
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 36 topics for 2026-03-03
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How many countries has the US bombed since 2001, and how much has it cost?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Babies evacuated from Iranian hospital damaged in US-Israeli strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: IAEA confirms buildings damaged at Iran’s Natanz nuclear facility
+Added expanded search topic: How many countries has the US bombed since 2001, and how much has it cost?
+Added expanded search topic: Babies evacuated from Iranian hospital damaged in US-Israeli strikes
+Added expanded search topic: IAEA confirms buildings damaged at Iran’s Natanz nuclear facility
+Saved 39 topics for 2026-03-03
 Returning 3 unique trending topics:
-  1. UK considers sending Royal Navy warship to Cyprus (from BBC News)
-  2. Gas and oil prices soar and shares tumble on fears conflict could escalate (from BBC News)
-  3. ‘Imperialist undertones’: global south condemns US-Israeli war with Iran (from The Guardian)
+  1. How many countries has the US bombed since 2001, and how much has it cost? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Babies evacuated from Iranian hospital damaged in US-Israeli strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. IAEA confirms buildings damaged at Iran’s Natanz nuclear facility (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK considers sending Royal Navy warship to Cyprus
-Searching Google for: UK considers sending Royal Navy warship to Cyprus
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bconsiders%252Bsending%252BRoyal%252BNavy%252Bwarship%252Bto%252BCyprus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Id5GM3tm80GIjDkX9ggiPI6HETktY7Jwd1nzLg5jFmXJpVj0xvBkqdGZPc2-HeUlS1p6-fr5vvGDcYyBmpjbmRyUloBQw
+Processing trending topic: How many countries has the US bombed since 2001, and how much has it cost?
+Searching Google for: How many countries has the US bombed since 2001, and how much has it cost?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bmany%252Bcountries%252Bhas%252Bthe%252BUS%252Bbombed%252Bsince%252B2001%252C%252Band%252Bhow%252Bmuch%252Bhas%252Bit%252Bcost%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16lGMGFnM0GIjDtv4qrBJU1eJ1WP3NaImfaHYuKuYXiyS0Nk8auUINwt0aUwbzmKo5pxqr1UYkFa2wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-considers-sending-royal-navy-warship-to-cyprus_20260303_1457.html
-✓ Created comprehensive article: uk-considers-sending-royal-navy-warship-to-cyprus_20260303_1457.html
+Successfully created file: how-many-countries-has-the-us-bombed-since-2001-an_20260303_1548.html
+✓ Created comprehensive article: how-many-countries-has-the-us-bombed-since-2001-an_20260303_1548.html
 
-Processing trending topic: Gas and oil prices soar and shares tumble on fears conflict could escalate
-Searching Google for: Gas and oil prices soar and shares tumble on fears conflict could escalate
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGas%252Band%252Boil%252Bprices%252Bsoar%252Band%252Bshares%252Btumble%252Bon%252Bfears%252Bconflict%252Bcould%252Bescalate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Id5GNTtm80GIjDI-1-mjwDcZEW48ZqZ9A-7h8ev3Ii67J57w3Sfyt_yA3zuYR9HUV0xKo2i88LA09gyBmpjbmRyUloBQw
+Processing trending topic: Babies evacuated from Iranian hospital damaged in US-Israeli strikes
+Searching Google for: Babies evacuated from Iranian hospital damaged in US-Israeli strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBabies%252Bevacuated%252Bfrom%252BIranian%252Bhospital%252Bdamaged%252Bin%252BUS-Israeli%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16lGMiFnM0GIjDtK62GxvfnchFCr3nfT0fLOpUI0lJpBDoT7I3aqe0laZQFKAowlIjD2qPy5I1WRukyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gas-and-oil-prices-soar-and-shares-tumble-on-fears_20260303_1457.html
-✓ Created comprehensive article: gas-and-oil-prices-soar-and-shares-tumble-on-fears_20260303_1457.html
+Successfully created file: babies-evacuated-from-iranian-hospital-damaged-in-_20260303_1548.html
+✓ Created comprehensive article: babies-evacuated-from-iranian-hospital-damaged-in-_20260303_1548.html
 
-Processing trending topic: ‘Imperialist undertones’: global south condemns US-Israeli war with Iran
-Searching Google for: ‘Imperialist undertones’: global south condemns US-Israeli war with Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Imperialist%252Bundertones%25E2%2580%2599%253A%252Bglobal%252Bsouth%252Bcondemns%252BUS-Israeli%252Bwar%252Bwith%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Id5GNrtm80GIjBAzLA1GTpq32OSiYEbIJ4-neX1-h2o_YC0IlefAOIVLn7RUn3vw1tOi694mggwcvkyBmpjbmRyUloBQw
+Processing trending topic: IAEA confirms buildings damaged at Iran’s Natanz nuclear facility
+Searching Google for: IAEA confirms buildings damaged at Iran’s Natanz nuclear facility
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIAEA%252Bconfirms%252Bbuildings%252Bdamaged%252Bat%252BIran%25E2%2580%2599s%252BNatanz%252Bnuclear%252Bfacility%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16lGM6FnM0GIjDlvkp8BGW0VkXsQCYctVb31X3O9jkg1vEYOevlBO6D9cElx08BZLnXPJB5K1Lgcy0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: imperialist-undertones-global-south-condemns-us-is_20260303_1457.html
-✓ Created comprehensive article: imperialist-undertones-global-south-condemns-us-is_20260303_1457.html
+Successfully created file: iaea-confirms-buildings-damaged-at-irans-natanz-nu_20260303_1548.html
+✓ Created comprehensive article: iaea-confirms-buildings-damaged-at-irans-natanz-nu_20260303_1548.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK considers sending Royal Navy warship to Cyprus
+   • How many countries has the US bombed since 2001, and how much has it cost?
      Sources: bbc.com, cnn.com, reuters.com
-   • Gas and oil prices soar and shares tumble on fears conflict could escalate
+   • Babies evacuated from Iranian hospital damaged in US-Israeli strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Imperialist undertones’: global south condemns US-Israeli war with Iran
+   • IAEA confirms buildings damaged at Iran’s Natanz nuclear facility
      Sources: bbc.com, cnn.com, reuters.com
