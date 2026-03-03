@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Gas and oil prices soar and shares tumble as crucial shipping lane threatened
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands flee to Syria over Israeli attacks in Lebanon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup 2026 ticket frenzy unfolds amid global unrest
-Added expanded search topic: Thousands flee to Syria over Israeli attacks in Lebanon
-Added expanded search topic: FIFA World Cup 2026 ticket frenzy unfolds amid global unrest
-Saved 30 topics for 2026-03-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel launches strikes on Beirut as troops advance into southern Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Questions over Minab girls’ school strike as Israel, US deny involvement
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Analysis – Trump’s foreign policy message in a nutshell: ‘We can reach you’
+Added expanded search topic: Israel launches strikes on Beirut as troops advance into southern Lebanon
+Added expanded search topic: Questions over Minab girls’ school strike as Israel, US deny involvement
+Added expanded search topic: Analysis – Trump’s foreign policy message in a nutshell: ‘We can reach you’
+Saved 33 topics for 2026-03-03
 Returning 3 unique trending topics:
-  1. Gas and oil prices soar and shares tumble as crucial shipping lane threatened (from BBC News)
-  2. Thousands flee to Syria over Israeli attacks in Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. FIFA World Cup 2026 ticket frenzy unfolds amid global unrest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel launches strikes on Beirut as troops advance into southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Questions over Minab girls’ school strike as Israel, US deny involvement (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Analysis – Trump’s foreign policy message in a nutshell: ‘We can reach you’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Gas and oil prices soar and shares tumble as crucial shipping lane threatened
-Searching Google for: Gas and oil prices soar and shares tumble as crucial shipping lane threatened
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGas%252Band%252Boil%252Bprices%252Bsoar%252Band%252Bshares%252Btumble%252Bas%252Bcrucial%252Bshipping%252Blane%252Bthreatened%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHXgGM21m80GIjD5b2hC54_H-QHokmVYoqV64Os4RUw_wc4xcxXANmlC_dFdKRPkRqQOrGW7QgTqBJ0yBmpjbmRyUloBQw
+Processing trending topic: Israel launches strikes on Beirut as troops advance into southern Lebanon
+Searching Google for: Israel launches strikes on Beirut as troops advance into southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Blaunches%252Bstrikes%252Bon%252BBeirut%252Bas%252Btroops%252Badvance%252Binto%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEnGO7Vm80GIjAg1V27NE4tXh8-yWZT5QmclC7X0Iy5dALwrY2pcYacz17zLjY05c8p33tKdAy6yMIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gas-and-oil-prices-soar-and-shares-tumble-as-cruci_20260303_1257.html
-✓ Created comprehensive article: gas-and-oil-prices-soar-and-shares-tumble-as-cruci_20260303_1257.html
+Successfully created file: israel-launches-strikes-on-beirut-as-troops-advanc_20260303_1406.html
+✓ Created comprehensive article: israel-launches-strikes-on-beirut-as-troops-advanc_20260303_1406.html
 
-Processing trending topic: Thousands flee to Syria over Israeli attacks in Lebanon
-Searching Google for: Thousands flee to Syria over Israeli attacks in Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bflee%252Bto%252BSyria%252Bover%252BIsraeli%252Battacks%252Bin%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHXgGNS1m80GIjD1LkH1f29Esv0XpYqFxnxXGdPHobMVgC6PHZ3HoeLtFWNlkKpDjJcAyUipKoSNSMYyBmpjbmRyUloBQw
+Processing trending topic: Questions over Minab girls’ school strike as Israel, US deny involvement
+Searching Google for: Questions over Minab girls’ school strike as Israel, US deny involvement
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DQuestions%252Bover%252BMinab%252Bgirls%25E2%2580%2599%252Bschool%252Bstrike%252Bas%252BIsrael%252C%252BUS%252Bdeny%252Binvolvement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEnGPXVm80GIjAwRMUi5McKuiiHzvRg-vXCdzLRVEF0GigGxYTl-L653LbIoR5VMni5_6C4sCbamEgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-flee-to-syria-over-israeli-attacks-in-le_20260303_1258.html
-✓ Created comprehensive article: thousands-flee-to-syria-over-israeli-attacks-in-le_20260303_1258.html
+Successfully created file: questions-over-minab-girls-school-strike-as-israel_20260303_1406.html
+✓ Created comprehensive article: questions-over-minab-girls-school-strike-as-israel_20260303_1406.html
 
-Processing trending topic: FIFA World Cup 2026 ticket frenzy unfolds amid global unrest
-Searching Google for: FIFA World Cup 2026 ticket frenzy unfolds amid global unrest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252B2026%252Bticket%252Bfrenzy%252Bunfolds%252Bamid%252Bglobal%252Bunrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHXgGNq1m80GIjAGFKPi6Nk8cPHUNX54SrP84Ny0rZBXcMw_6H2Keeesmot2YGvhbGF3TSGk1Xe9cSAyBmpjbmRyUloBQw
+Processing trending topic: Analysis – Trump’s foreign policy message in a nutshell: ‘We can reach you’
+Searching Google for: Analysis – Trump’s foreign policy message in a nutshell: ‘We can reach you’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%252B%25E2%2580%2593%252BTrump%25E2%2580%2599s%252Bforeign%252Bpolicy%252Bmessage%252Bin%252Ba%252Bnutshell%253A%252B%25E2%2580%2598We%252Bcan%252Breach%252Byou%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEnGPvVm80GIjB8aB3Cgayhz1tVlB2RkKO0wV1PPXEOndfSJ3_pOP3peRWVqRQOjGgWSWyOn2x54TMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-world-cup-2026-ticket-frenzy-unfolds-amid-glo_20260303_1258.html
-✓ Created comprehensive article: fifa-world-cup-2026-ticket-frenzy-unfolds-amid-glo_20260303_1258.html
+Successfully created file: analysis-trumps-foreign-policy-message-in-a-nutshe_20260303_1406.html
+✓ Created comprehensive article: analysis-trumps-foreign-policy-message-in-a-nutshe_20260303_1406.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Gas and oil prices soar and shares tumble as crucial shipping lane threatened
+   • Israel launches strikes on Beirut as troops advance into southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • Thousands flee to Syria over Israeli attacks in Lebanon
+   • Questions over Minab girls’ school strike as Israel, US deny involvement
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA World Cup 2026 ticket frenzy unfolds amid global unrest
+   • Analysis – Trump’s foreign policy message in a nutshell: ‘We can reach you’
      Sources: bbc.com, cnn.com, reuters.com
