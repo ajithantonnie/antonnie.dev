@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK to send Royal Navy warship HMS Dragon to Cyprus
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Sudan risks return to full-blown civil war as violence escalates
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 42 topics for 2026-03-03
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump contradicts Rubio, says Israel didn’t force him to launch war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran warns European countries from joining the war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NATO Chief welcomes Iran leader’s death
+Added expanded search topic: Trump contradicts Rubio, says Israel didn’t force him to launch war
+Added expanded search topic: Iran warns European countries from joining the war
+Added expanded search topic: NATO Chief welcomes Iran leader’s death
+Saved 45 topics for 2026-03-03
 Returning 3 unique trending topics:
-  1. UK to send Royal Navy warship HMS Dragon to Cyprus (from BBC News)
-  2. Watch: Footage from across Iran shows scale of strikes (from BBC News)
-  3. South Sudan risks return to full-blown civil war as violence escalates (from The Guardian)
+  1. Trump contradicts Rubio, says Israel didn’t force him to launch war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran warns European countries from joining the war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. NATO Chief welcomes Iran leader’s death (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK to send Royal Navy warship HMS Dragon to Cyprus
-Searching Google for: UK to send Royal Navy warship HMS Dragon to Cyprus
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bto%252Bsend%252BRoyal%252BNavy%252Bwarship%252BHMS%252BDragon%252Bto%252BCyprus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4zGKChnM0GIjBknsvAQJjI3JFZfmwN-xujIS8kQl-HLm881I2c5RFxZZQLu1lZ_-ztCsgNhyO62wQyBmpjbmRyUloBQw
+Processing trending topic: Trump contradicts Rubio, says Israel didn’t force him to launch war
+Searching Google for: Trump contradicts Rubio, says Israel didn’t force him to launch war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcontradicts%252BRubio%252C%252Bsays%252BIsrael%252Bdidn%25E2%2580%2599t%252Bforce%252Bhim%252Bto%252Blaunch%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUc3GLa8nM0GIjCnKHTMwlsgmjXKgfgbxPKkNnfGsBnf0y-1v7UKFqUro7_khWxZl4JkobacO47GkOIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-to-send-royal-navy-warship-hms-dragon-to-cyprus_20260303_1647.html
-✓ Created comprehensive article: uk-to-send-royal-navy-warship-hms-dragon-to-cyprus_20260303_1647.html
+Successfully created file: trump-contradicts-rubio-says-israel-didnt-force-hi_20260303_1745.html
+✓ Created comprehensive article: trump-contradicts-rubio-says-israel-didnt-force-hi_20260303_1745.html
 
-Processing trending topic: Watch: Footage from across Iran shows scale of strikes
-Searching Google for: Watch: Footage from across Iran shows scale of strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BFootage%252Bfrom%252Bacross%252BIran%252Bshows%252Bscale%252Bof%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4zGKehnM0GIjDFCN52VR9XPc-440AqBZGWI76LCqReq1bPZD6hes_WhOw6EvYqaiCRoku7u67JtHwyBmpjbmRyUloBQw
+Processing trending topic: Iran warns European countries from joining the war
+Searching Google for: Iran warns European countries from joining the war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwarns%252BEuropean%252Bcountries%252Bfrom%252Bjoining%252Bthe%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUc3GL68nM0GIjAd3sKU5qAVDUoU_zWNjelYvvT0L6RnMPWiXcLL7IQXI8IMyGy6jMXTTK7wgElC8-YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-footage-from-across-iran-shows-scale-of-stri_20260303_1647.html
-✓ Created comprehensive article: watch-footage-from-across-iran-shows-scale-of-stri_20260303_1647.html
+Successfully created file: iran-warns-european-countries-from-joining-the-war_20260303_1745.html
+✓ Created comprehensive article: iran-warns-european-countries-from-joining-the-war_20260303_1745.html
 
-Processing trending topic: South Sudan risks return to full-blown civil war as violence escalates
-Searching Google for: South Sudan risks return to full-blown civil war as violence escalates
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BSudan%252Brisks%252Breturn%252Bto%252Bfull-blown%252Bcivil%252Bwar%252Bas%252Bviolence%252Bescalates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4zGK2hnM0GIjCHQHFM7S81RjQTaQUT7_65k6fXHmLym5UgNQtNADaW-Oql2CFLMYgw2f3RpDCQgKAyBmpjbmRyUloBQw
+Processing trending topic: NATO Chief welcomes Iran leader’s death
+Searching Google for: NATO Chief welcomes Iran leader’s death
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNATO%252BChief%252Bwelcomes%252BIran%252Bleader%25E2%2580%2599s%252Bdeath%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUc3GMS8nM0GIjCdbkpuC0JVtyx_ETaSrpgufnauXoPAFIN4POtOygt446Bwzpi3GVGZjhBhqihvlsQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-sudan-risks-return-to-full-blown-civil-war-a_20260303_1647.html
-✓ Created comprehensive article: south-sudan-risks-return-to-full-blown-civil-war-a_20260303_1647.html
+Successfully created file: nato-chief-welcomes-iran-leaders-death_20260303_1745.html
+✓ Created comprehensive article: nato-chief-welcomes-iran-leaders-death_20260303_1745.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK to send Royal Navy warship HMS Dragon to Cyprus
+   • Trump contradicts Rubio, says Israel didn’t force him to launch war
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Footage from across Iran shows scale of strikes
+   • Iran warns European countries from joining the war
      Sources: bbc.com, cnn.com, reuters.com
-   • South Sudan risks return to full-blown civil war as violence escalates
+   • NATO Chief welcomes Iran leader’s death
      Sources: bbc.com, cnn.com, reuters.com
