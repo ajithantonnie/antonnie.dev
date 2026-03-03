@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer criticises Trump, saying UK 'does not believe in regime change from skies'
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-03
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Shutdown of Hormuz Strait raises fears of soaring oil prices
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli attacks kill dozens of people across Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry
+Added expanded search topic: Shutdown of Hormuz Strait raises fears of soaring oil prices
+Added expanded search topic: Israeli attacks kill dozens of people across Lebanon
+Added expanded search topic: US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry
+Saved 6 topics for 2026-03-03
 Returning 3 unique trending topics:
-  1. Starmer criticises Trump, saying UK 'does not believe in regime change from skies' (from BBC News)
-  2. Jeremy Bowen: Three days in, we still have no idea where this war is heading (from BBC News)
-  3. Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine (from The Guardian)
+  1. Shutdown of Hormuz Strait raises fears of soaring oil prices (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli attacks kill dozens of people across Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer criticises Trump, saying UK 'does not believe in regime change from skies'
-Searching Google for: Starmer criticises Trump, saying UK 'does not believe in regime change from skies'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bcriticises%252BTrump%252C%252Bsaying%252BUK%252B%2527does%252Bnot%252Bbelieve%252Bin%252Bregime%252Bchange%252Bfrom%252Bskies%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PAGKuDmc0GIjCv5XpuOB4rFZ1L7EWs24aYoKALE2eE7itX6ek0XL8uYMrO1oevQQsL4iedfcqxk94yBmpjbmRyUloBQw
+Processing trending topic: Shutdown of Hormuz Strait raises fears of soaring oil prices
+Searching Google for: Shutdown of Hormuz Strait raises fears of soaring oil prices
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DShutdown%252Bof%252BHormuz%252BStrait%252Braises%252Bfears%252Bof%252Bsoaring%252Boil%252Bprices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUPQGJrFmc0GIjCqkd9A4eh94XO4HhVfN3JyXUlWm37BgHl5Q73efTcNDJ1bqjEAlUSYEENZU-r6iisyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-criticises-trump-saying-uk-does-not-believ_20260303_0204.html
-✓ Created comprehensive article: starmer-criticises-trump-saying-uk-does-not-believ_20260303_0204.html
+Successfully created file: shutdown-of-hormuz-strait-raises-fears-of-soaring-_20260303_0425.html
+✓ Created comprehensive article: shutdown-of-hormuz-strait-raises-fears-of-soaring-_20260303_0425.html
 
-Processing trending topic: Jeremy Bowen: Three days in, we still have no idea where this war is heading
-Searching Google for: Jeremy Bowen: Three days in, we still have no idea where this war is heading
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJeremy%252BBowen%253A%252BThree%252Bdays%252Bin%252C%252Bwe%252Bstill%252Bhave%252Bno%252Bidea%252Bwhere%252Bthis%252Bwar%252Bis%252Bheading%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PAGLODmc0GIjBYS31ImTKzL_hsuF0qOqSi8XWCdAgaWML3ycl1NNIDDkkYUHXaCYqTiOgeG2cpfK4yBmpjbmRyUloBQw
+Processing trending topic: Israeli attacks kill dozens of people across Lebanon
+Searching Google for: Israeli attacks kill dozens of people across Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Battacks%252Bkill%252Bdozens%252Bof%252Bpeople%252Bacross%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUPQGKHFmc0GIjCviVUpR33TLJDLM2jZHFJrCDpJthpLW9jXl_rEqJOU4PYHg8OFzDaIF1-IbPp37rYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jeremy-bowen-three-days-in-we-still-have-no-idea-w_20260303_0204.html
-✓ Created comprehensive article: jeremy-bowen-three-days-in-we-still-have-no-idea-w_20260303_0204.html
+Successfully created file: israeli-attacks-kill-dozens-of-people-across-leban_20260303_0425.html
+✓ Created comprehensive article: israeli-attacks-kill-dozens-of-people-across-leban_20260303_0425.html
 
-Processing trending topic: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Searching Google for: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGhana%252Bsays%252Bat%252Bleast%252B55%252Bof%252Bits%252Bpeople%252Bkilled%252Bafter%252BRussia%252B%25E2%2580%2598lured%25E2%2580%2599%252Bthem%252Bto%252Bfight%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PAGLmDmc0GIjBYpgIDaG0ATf-UImHCYOx4dwipChsvcNGbz7COmG95haGuAb2Tl4LVw2l5LrBxTQYyBmpjbmRyUloBQw
+Processing trending topic: US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry
+Searching Google for: US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BEmbassy%252Bin%252BSaudi%252Bcapital%252BRiyadh%252Bhit%252Bby%252Bdrones%252C%252Bfire%252Breported%253A%252BMinistry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUPQGKfFmc0GIjDanWbJBxBjzYtP5Yf4NvCs20LX7tmf3J1aV5jAyBj6_o6NfWVdOxkVtUwRXGj83tcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ghana-says-at-least-55-of-its-people-killed-after-_20260303_0204.html
-✓ Created comprehensive article: ghana-says-at-least-55-of-its-people-killed-after-_20260303_0204.html
+Successfully created file: us-embassy-in-saudi-capital-riyadh-hit-by-drones-f_20260303_0425.html
+✓ Created comprehensive article: us-embassy-in-saudi-capital-riyadh-hit-by-drones-f_20260303_0425.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer criticises Trump, saying UK 'does not believe in regime change from skies'
+   • Shutdown of Hormuz Strait raises fears of soaring oil prices
      Sources: bbc.com, cnn.com, reuters.com
-   • Jeremy Bowen: Three days in, we still have no idea where this war is heading
+   • Israeli attacks kill dozens of people across Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine
+   • US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry
      Sources: bbc.com, cnn.com, reuters.com
