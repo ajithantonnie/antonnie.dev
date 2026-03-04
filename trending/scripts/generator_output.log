@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: UK announces first Middle East repatriation flight
   Added: Trump says Starmer is 'no Winston Churchill' over Iran strikes
-  Added: Funerals held for students and staff after Iran school strike
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Sudan risks return to full-blown civil war as violence escalates
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-04
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia, China raise diplomatic voices against US-Israeli attacks on Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Commerce Secretary Lutnick to testify before Congress about Epstein ties
+Added expanded search topic: Russia, China raise diplomatic voices against US-Israeli attacks on Iran
+Added expanded search topic: US Commerce Secretary Lutnick to testify before Congress about Epstein ties
+Saved 6 topics for 2026-03-04
 Returning 3 unique trending topics:
-  1. Trump says Starmer is 'no Winston Churchill' over Iran strikes (from BBC News)
-  2. Funerals held for students and staff after Iran school strike (from BBC News)
-  3. South Sudan risks return to full-blown civil war as violence escalates (from The Guardian)
+  1. UK announces first Middle East repatriation flight (from BBC News)
+  2. Russia, China raise diplomatic voices against US-Israeli attacks on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US Commerce Secretary Lutnick to testify before Congress about Epstein ties (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says Starmer is 'no Winston Churchill' over Iran strikes
-Searching Google for: Trump says Starmer is 'no Winston Churchill' over Iran strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BStarmer%252Bis%252B%2527no%252BWinston%252BChurchill%2527%252Bover%252BIran%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NCCGK-jns0GIjBJletBL2Z_aiGeuia9pyS29BLMdnVQpxnC2F7mT0V4B-zJNc5c6Tok-TAVkVIp0-EyBmpjbmRyUloBQw
+Processing trending topic: UK announces first Middle East repatriation flight
+Searching Google for: UK announces first Middle East repatriation flight
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bannounces%252Bfirst%252BMiddle%252BEast%252Brepatriation%252Bflight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOSGMHins0GIjDpZqiz0U7RkGA4GMPoJAFgqqaB9HhT5Zzqnh8fvQIGvGjSffPxymxP-XI8B0y_0gAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-starmer-is-no-winston-churchill-over-ir_20260304_0158.html
-✓ Created comprehensive article: trump-says-starmer-is-no-winston-churchill-over-ir_20260304_0158.html
+Successfully created file: uk-announces-first-middle-east-repatriation-flight_20260304_0412.html
+✓ Created comprehensive article: uk-announces-first-middle-east-repatriation-flight_20260304_0412.html
 
-Processing trending topic: Funerals held for students and staff after Iran school strike
-Searching Google for: Funerals held for students and staff after Iran school strike
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFunerals%252Bheld%252Bfor%252Bstudents%252Band%252Bstaff%252Bafter%252BIran%252Bschool%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NCCGLajns0GIjAUoiNFA1Jrozrsxx1edTwt_qjlTolxKDUmQRw4CwHTidtNTEBGt7FsVpGTL-jD70IyBmpjbmRyUloBQw
+Processing trending topic: Russia, China raise diplomatic voices against US-Israeli attacks on Iran
+Searching Google for: Russia, China raise diplomatic voices against US-Israeli attacks on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252C%252BChina%252Braise%252Bdiplomatic%252Bvoices%252Bagainst%252BUS-Israeli%252Battacks%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOSGMfins0GIjBJo_W5wXbhQZ0SDWeaa_dFNpMao7TDvYhRa1an-wYwxwt8fCwsAvnizYDz6jtCY5QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: funerals-held-for-students-and-staff-after-iran-sc_20260304_0158.html
-✓ Created comprehensive article: funerals-held-for-students-and-staff-after-iran-sc_20260304_0158.html
+Successfully created file: russia-china-raise-diplomatic-voices-against-us-is_20260304_0412.html
+✓ Created comprehensive article: russia-china-raise-diplomatic-voices-against-us-is_20260304_0412.html
 
-Processing trending topic: South Sudan risks return to full-blown civil war as violence escalates
-Searching Google for: South Sudan risks return to full-blown civil war as violence escalates
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BSudan%252Brisks%252Breturn%252Bto%252Bfull-blown%252Bcivil%252Bwar%252Bas%252Bviolence%252Bescalates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NCCGLyjns0GIjBJKPYJXFTA5yakYsMYVGLGH5HxFRv0cI8mWnb8gPfBuaZFr84xsWwFE5MR40b5y68yBmpjbmRyUloBQw
+Processing trending topic: US Commerce Secretary Lutnick to testify before Congress about Epstein ties
+Searching Google for: US Commerce Secretary Lutnick to testify before Congress about Epstein ties
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BCommerce%252BSecretary%252BLutnick%252Bto%252Btestify%252Bbefore%252BCongress%252Babout%252BEpstein%252Bties%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOSGM7ins0GIjBiA1hLa1C_q1-8cjblJEvAo03HRJqyAYBTzxf-kQSaLWuKESlry2O1bJ4f_Ad071EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-sudan-risks-return-to-full-blown-civil-war-a_20260304_0158.html
-✓ Created comprehensive article: south-sudan-risks-return-to-full-blown-civil-war-a_20260304_0158.html
+Successfully created file: us-commerce-secretary-lutnick-to-testify-before-co_20260304_0413.html
+✓ Created comprehensive article: us-commerce-secretary-lutnick-to-testify-before-co_20260304_0413.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says Starmer is 'no Winston Churchill' over Iran strikes
+   • UK announces first Middle East repatriation flight
      Sources: bbc.com, cnn.com, reuters.com
-   • Funerals held for students and staff after Iran school strike
+   • Russia, China raise diplomatic voices against US-Israeli attacks on Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • South Sudan risks return to full-blown civil war as violence escalates
+   • US Commerce Secretary Lutnick to testify before Congress about Epstein ties
      Sources: bbc.com, cnn.com, reuters.com
