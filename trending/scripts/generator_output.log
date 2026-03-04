@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: First UK government flight for Britons leaving Middle East due to take off tonight
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Sudan risks return to full-blown civil war as violence escalates
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What we know on day five of US-Israeli attacks on Iran
-Added expanded search topic: What we know on day five of US-Israeli attacks on Iran
-Saved 18 topics for 2026-03-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hundreds of drones target Kuwait, Iraq, Saudi Arabia, UAE amid Iran war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Analyst says interest in Epstein files plummeted after war on Iran launched
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will the US put ‘boots on the ground’ in Iran?
+Added expanded search topic: Hundreds of drones target Kuwait, Iraq, Saudi Arabia, UAE amid Iran war
+Added expanded search topic: Analyst says interest in Epstein files plummeted after war on Iran launched
+Added expanded search topic: Will the US put ‘boots on the ground’ in Iran?
+Saved 21 topics for 2026-03-04
 Returning 3 unique trending topics:
-  1. First UK government flight for Britons leaving Middle East due to take off tonight (from BBC News)
-  2. Asia stock markets slump and oil rises on fears Iran war may drag on (from BBC News)
-  3. What we know on day five of US-Israeli attacks on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hundreds of drones target Kuwait, Iraq, Saudi Arabia, UAE amid Iran war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Analyst says interest in Epstein files plummeted after war on Iran launched (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Will the US put ‘boots on the ground’ in Iran? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: First UK government flight for Britons leaving Middle East due to take off tonight
-Searching Google for: First UK government flight for Britons leaving Middle East due to take off tonight
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252BUK%252Bgovernment%252Bflight%252Bfor%252BBritons%252Bleaving%252BMiddle%252BEast%252Bdue%252Bto%252Btake%252Boff%252Btonight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCIGK3gn80GIjC00PUpUfZvQfMSjxO_jjoR-DzhC3VIf37d0cu2tUAMwSYrZsy8XW6Ydi0MMctj3m4yBmpjbmRyUloBQw
+Processing trending topic: Hundreds of drones target Kuwait, Iraq, Saudi Arabia, UAE amid Iran war
+Searching Google for: Hundreds of drones target Kuwait, Iraq, Saudi Arabia, UAE amid Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bof%252Bdrones%252Btarget%252BKuwait%252C%252BIraq%252C%252BSaudi%252BArabia%252C%252BUAE%252Bamid%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOU3CGNz8n80GIjCte1t7XI1mVksf-9NkmZSy0hSTf9E6RYfNvtBCzkWDGVYriJaJ6oeuCq_sULqmK5MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: first-uk-government-flight-for-britons-leaving-mid_20260304_0841.html
-✓ Created comprehensive article: first-uk-government-flight-for-britons-leaving-mid_20260304_0841.html
+Successfully created file: hundreds-of-drones-target-kuwait-iraq-saudi-arabia_20260304_0941.html
+✓ Created comprehensive article: hundreds-of-drones-target-kuwait-iraq-saudi-arabia_20260304_0941.html
 
-Processing trending topic: Asia stock markets slump and oil rises on fears Iran war may drag on
-Searching Google for: Asia stock markets slump and oil rises on fears Iran war may drag on
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAsia%252Bstock%252Bmarkets%252Bslump%252Band%252Boil%252Brises%252Bon%252Bfears%252BIran%252Bwar%252Bmay%252Bdrag%252Bon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCIGLTgn80GIjCtzBgXoTwEpQtpYS9itAxqMtxVq6NKMmbtKbpTrPfRPq_AAVTiF3OUqagmavHDywAyBmpjbmRyUloBQw
+Processing trending topic: Analyst says interest in Epstein files plummeted after war on Iran launched
+Searching Google for: Analyst says interest in Epstein files plummeted after war on Iran launched
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalyst%252Bsays%252Binterest%252Bin%252BEpstein%252Bfiles%252Bplummeted%252Bafter%252Bwar%252Bon%252BIran%252Blaunched%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOU3CGOP8n80GIjCTxHL7lEc42huWxF1C8Ldszpj2qI7WpUGJh5zGn02SM53sYuPQMlf_kqgN4F_uPugyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: asia-stock-markets-slump-and-oil-rises-on-fears-ir_20260304_0841.html
-✓ Created comprehensive article: asia-stock-markets-slump-and-oil-rises-on-fears-ir_20260304_0841.html
+Successfully created file: analyst-says-interest-in-epstein-files-plummeted-a_20260304_0941.html
+✓ Created comprehensive article: analyst-says-interest-in-epstein-files-plummeted-a_20260304_0941.html
 
-Processing trending topic: What we know on day five of US-Israeli attacks on Iran
-Searching Google for: What we know on day five of US-Israeli attacks on Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bon%252Bday%252Bfive%252Bof%252BUS-Israeli%252Battacks%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCIGLvgn80GIjCtdFter9BYCc0OnA0nWKawBaS0mc6TkQTrUhRt-yTu9kZr3PEAWNer5BDr8kTQVdQyBmpjbmRyUloBQw
+Processing trending topic: Will the US put ‘boots on the ground’ in Iran?
+Searching Google for: Will the US put ‘boots on the ground’ in Iran?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Bthe%252BUS%252Bput%252B%25E2%2580%2598boots%252Bon%252Bthe%252Bground%25E2%2580%2599%252Bin%252BIran%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOU3CGOn8n80GIjAqWcApJDDTpQZq_Hn5SCECGjDIr9mtoN4vmUP5xh_SiZCPPRldAYubQKpQFpUDljYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-on-day-five-of-us-israeli-attacks-on-_20260304_0841.html
-✓ Created comprehensive article: what-we-know-on-day-five-of-us-israeli-attacks-on-_20260304_0841.html
+Successfully created file: will-the-us-put-boots-on-the-ground-in-iran_20260304_0942.html
+✓ Created comprehensive article: will-the-us-put-boots-on-the-ground-in-iran_20260304_0942.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • First UK government flight for Britons leaving Middle East due to take off tonight
+   • Hundreds of drones target Kuwait, Iraq, Saudi Arabia, UAE amid Iran war
      Sources: bbc.com, cnn.com, reuters.com
-   • Asia stock markets slump and oil rises on fears Iran war may drag on
+   • Analyst says interest in Epstein files plummeted after war on Iran launched
      Sources: bbc.com, cnn.com, reuters.com
-   • What we know on day five of US-Israeli attacks on Iran
+   • Will the US put ‘boots on the ground’ in Iran?
      Sources: bbc.com, cnn.com, reuters.com
