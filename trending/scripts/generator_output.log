@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PM stands by decision not to join strikes on Iran and sends more jets to Qatar
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Three men deported by US file legal case against Eswatini over detention
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump administration doubles down on military action in Latin America
-Added expanded search topic: Trump administration doubles down on military action in Latin America
-Saved 42 topics for 2026-03-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump to replace Homeland Security chief Kristi Noem with Markwayne Mullin
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sri Lanka evacuates crew of second Iranian vessel after US sunk IRIS Dena
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine, Russia free 200 POWs each in latest swap amid stalled peace talks
+Added expanded search topic: Trump to replace Homeland Security chief Kristi Noem with Markwayne Mullin
+Added expanded search topic: Sri Lanka evacuates crew of second Iranian vessel after US sunk IRIS Dena
+Added expanded search topic: Ukraine, Russia free 200 POWs each in latest swap amid stalled peace talks
+Saved 45 topics for 2026-03-05
 Returning 3 unique trending topics:
-  1. Iran's high-risk war strategy seems to centre on endurance and deterrence (from BBC News)
-  2. Three men deported by US file legal case against Eswatini over detention (from The Guardian)
-  3. Trump administration doubles down on military action in Latin America (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump to replace Homeland Security chief Kristi Noem with Markwayne Mullin (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sri Lanka evacuates crew of second Iranian vessel after US sunk IRIS Dena (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ukraine, Russia free 200 POWs each in latest swap amid stalled peace talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iran's high-risk war strategy seems to centre on endurance and deterrence
-Searching Google for: Iran's high-risk war strategy seems to centre on endurance and deterrence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%2527s%252Bhigh-risk%252Bwar%252Bstrategy%252Bseems%252Bto%252Bcentre%252Bon%252Bendurance%252Band%252Bdeterrence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSakGOC-p80GIjD2x8Xod31ragR5GeTEArJwQEyHambuIq1u9U1sT2VH2k8cnD8LaOWd1utgWNX_XGAyBmpjbmRyUloBQw
+Processing trending topic: Trump to replace Homeland Security chief Kristi Noem with Markwayne Mullin
+Searching Google for: Trump to replace Homeland Security chief Kristi Noem with Markwayne Mullin
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bto%252Breplace%252BHomeland%252BSecurity%252Bchief%252BKristi%252BNoem%252Bwith%252BMarkwayne%252BMullin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqzGKjUp80GIjCJpG2jt1i41LkF-zrpknVevEwXrepUtwGlpcj6Ry4q-AVR53NhfPKpMlFtuBVByD0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-high-risk-war-strategy-seems-to-centre-on-en_20260305_1954.html
-✓ Created comprehensive article: irans-high-risk-war-strategy-seems-to-centre-on-en_20260305_1954.html
+Successfully created file: trump-to-replace-homeland-security-chief-kristi-no_20260305_2040.html
+✓ Created comprehensive article: trump-to-replace-homeland-security-chief-kristi-no_20260305_2040.html
 
-Processing trending topic: Three men deported by US file legal case against Eswatini over detention
-Searching Google for: Three men deported by US file legal case against Eswatini over detention
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bmen%252Bdeported%252Bby%252BUS%252Bfile%252Blegal%252Bcase%252Bagainst%252BEswatini%252Bover%252Bdetention%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSakGOi-p80GIjDbnKEU_OvKqD-zE_yYaMaOqMg-h-XViBphd-Ng0pSr4fZ3ymMXdFDRbQMZkQpbLkkyBmpjbmRyUloBQw
+Processing trending topic: Sri Lanka evacuates crew of second Iranian vessel after US sunk IRIS Dena
+Searching Google for: Sri Lanka evacuates crew of second Iranian vessel after US sunk IRIS Dena
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSri%252BLanka%252Bevacuates%252Bcrew%252Bof%252Bsecond%252BIranian%252Bvessel%252Bafter%252BUS%252Bsunk%252BIRIS%252BDena%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqzGK_Up80GIjAB5-1f9PCYK85NzSkdGX4Th_vdzeAAjuU-7YgFYt6b2mfiwZQqLH56uzn7cGVv3hQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-men-deported-by-us-file-legal-case-against-e_20260305_1954.html
-✓ Created comprehensive article: three-men-deported-by-us-file-legal-case-against-e_20260305_1954.html
+Successfully created file: sri-lanka-evacuates-crew-of-second-iranian-vessel-_20260305_2040.html
+✓ Created comprehensive article: sri-lanka-evacuates-crew-of-second-iranian-vessel-_20260305_2040.html
 
-Processing trending topic: Trump administration doubles down on military action in Latin America
-Searching Google for: Trump administration doubles down on military action in Latin America
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bdoubles%252Bdown%252Bon%252Bmilitary%252Baction%252Bin%252BLatin%252BAmerica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSakGO6-p80GIjAelfC4haL33Ws_JRBlNH0pzZ1U5IUTCSTAwM1d4vK4FSSSynHpblXWfUSh2tDGjF0yBmpjbmRyUloBQw
+Processing trending topic: Ukraine, Russia free 200 POWs each in latest swap amid stalled peace talks
+Searching Google for: Ukraine, Russia free 200 POWs each in latest swap amid stalled peace talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252C%252BRussia%252Bfree%252B200%252BPOWs%252Beach%252Bin%252Blatest%252Bswap%252Bamid%252Bstalled%252Bpeace%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqzGLbUp80GIjBqeghV8WjSD1zSC86UdQhR7xdmabOPuqO710VD9_l7r-0pNfEPuFPiSJMneWZXNycyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-administration-doubles-down-on-military-acti_20260305_1954.html
-✓ Created comprehensive article: trump-administration-doubles-down-on-military-acti_20260305_1954.html
+Successfully created file: ukraine-russia-free-200-pows-each-in-latest-swap-a_20260305_2040.html
+✓ Created comprehensive article: ukraine-russia-free-200-pows-each-in-latest-swap-a_20260305_2040.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iran's high-risk war strategy seems to centre on endurance and deterrence
+   • Trump to replace Homeland Security chief Kristi Noem with Markwayne Mullin
      Sources: bbc.com, cnn.com, reuters.com
-   • Three men deported by US file legal case against Eswatini over detention
+   • Sri Lanka evacuates crew of second Iranian vessel after US sunk IRIS Dena
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump administration doubles down on military action in Latin America
+   • Ukraine, Russia free 200 POWs each in latest swap amid stalled peace talks
      Sources: bbc.com, cnn.com, reuters.com
