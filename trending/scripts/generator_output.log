@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US sub sinks Iranian warship in Indian Ocean, Hegseth says
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Sudan risks return to full-blown civil war as violence escalates
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-05
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian rockets intercepted over central Israel
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s succession question: Rouhani’s name resurfaces amid leadership void
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Demonstrators across Iran condemn US-Israeli war
+Added expanded search topic: Iranian rockets intercepted over central Israel
+Added expanded search topic: Iran’s succession question: Rouhani’s name resurfaces amid leadership void
+Added expanded search topic: Demonstrators across Iran condemn US-Israeli war
+Saved 6 topics for 2026-03-05
 Returning 3 unique trending topics:
-  1. US sub sinks Iranian warship in Indian Ocean, Hegseth says (from BBC News)
-  2. 'Every day feels like a month': Iranians describe life under 'constant' US-Israeli strikes (from BBC News)
-  3. South Sudan risks return to full-blown civil war as violence escalates (from The Guardian)
+  1. Iranian rockets intercepted over central Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran’s succession question: Rouhani’s name resurfaces amid leadership void (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Demonstrators across Iran condemn US-Israeli war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US sub sinks Iranian warship in Indian Ocean, Hegseth says
-Searching Google for: US sub sinks Iranian warship in Indian Ocean, Hegseth says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsub%252Bsinks%252BIranian%252Bwarship%252Bin%252BIndian%252BOcean%252C%252BHegseth%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GNrHo80GIjD0d-JXYd0YGH0LzHYERTxhgx_pmNLRvIViAz9K0fpJGbEGHPSj2n4a9pnE0D9irMEyBmpjbmRyUloBQw
+Processing trending topic: Iranian rockets intercepted over central Israel
+Searching Google for: Iranian rockets intercepted over central Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Brockets%252Bintercepted%252Bover%252Bcentral%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IcVGIqIpM0GIjDd7k_DJYM-Xk8ITG892gItJ1p-QQLzV3E0lVwHheTqKT6V2MYT8nGn-bPlpZzYCkoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-sub-sinks-iranian-warship-in-indian-ocean-hegse_20260305_0201.html
-✓ Created comprehensive article: us-sub-sinks-iranian-warship-in-indian-ocean-hegse_20260305_0201.html
+Successfully created file: iranian-rockets-intercepted-over-central-israel_20260305_0418.html
+✓ Created comprehensive article: iranian-rockets-intercepted-over-central-israel_20260305_0418.html
 
-Processing trending topic: 'Every day feels like a month': Iranians describe life under 'constant' US-Israeli strikes
-Searching Google for: 'Every day feels like a month': Iranians describe life under 'constant' US-Israeli strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Every%252Bday%252Bfeels%252Blike%252Ba%252Bmonth%2527%253A%252BIranians%252Bdescribe%252Blife%252Bunder%252B%2527constant%2527%252BUS-Israeli%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GOHHo80GIjBqitgII-V39YdQ-0jYXsN1vJIFyXO0d58vq-TjNn-RJRn7Chz5_-puV-rr6HWR_i0yBmpjbmRyUloBQw
+Processing trending topic: Iran’s succession question: Rouhani’s name resurfaces amid leadership void
+Searching Google for: Iran’s succession question: Rouhani’s name resurfaces amid leadership void
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Bsuccession%252Bquestion%253A%252BRouhani%25E2%2580%2599s%252Bname%252Bresurfaces%252Bamid%252Bleadership%252Bvoid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IcVGJGIpM0GIjAcwnmICfDBhq73L39fPzab2A_njuBUtchW5Wgh1JfUxNlbzhjvAocPEqtQ4NHFQTQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: every-day-feels-like-a-month-iranians-describe-lif_20260305_0201.html
-✓ Created comprehensive article: every-day-feels-like-a-month-iranians-describe-lif_20260305_0201.html
+Successfully created file: irans-succession-question-rouhanis-name-resurfaces_20260305_0418.html
+✓ Created comprehensive article: irans-succession-question-rouhanis-name-resurfaces_20260305_0418.html
 
-Processing trending topic: South Sudan risks return to full-blown civil war as violence escalates
-Searching Google for: South Sudan risks return to full-blown civil war as violence escalates
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BSudan%252Brisks%252Breturn%252Bto%252Bfull-blown%252Bcivil%252Bwar%252Bas%252Bviolence%252Bescalates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHX0GOfHo80GIjAkIC2kVZ1HpfYmlGep7Yc7_qiK7lkxJqsFveBNoBnb4_I6nakTIR2ChSYlgA3CtAgyBmpjbmRyUloBQw
+Processing trending topic: Demonstrators across Iran condemn US-Israeli war
+Searching Google for: Demonstrators across Iran condemn US-Israeli war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDemonstrators%252Bacross%252BIran%252Bcondemn%252BUS-Israeli%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IcVGJeIpM0GIjDjTq8gbzX7-IZEBXNhv0vibIwflG3F2QnzZJV3uyVAoRl-lrEskAlAZBiRU028lTEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-sudan-risks-return-to-full-blown-civil-war-a_20260305_0201.html
-✓ Created comprehensive article: south-sudan-risks-return-to-full-blown-civil-war-a_20260305_0201.html
+Successfully created file: demonstrators-across-iran-condemn-us-israeli-war_20260305_0418.html
+✓ Created comprehensive article: demonstrators-across-iran-condemn-us-israeli-war_20260305_0418.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US sub sinks Iranian warship in Indian Ocean, Hegseth says
+   • Iranian rockets intercepted over central Israel
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Every day feels like a month': Iranians describe life under 'constant' US-Israeli strikes
+   • Iran’s succession question: Rouhani’s name resurfaces amid leadership void
      Sources: bbc.com, cnn.com, reuters.com
-   • South Sudan risks return to full-blown civil war as violence escalates
+   • Demonstrators across Iran condemn US-Israeli war
      Sources: bbc.com, cnn.com, reuters.com
