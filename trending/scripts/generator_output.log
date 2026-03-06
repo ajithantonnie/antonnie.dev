@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weight-loss jab could be made for $3 a month, study finds
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why have Europe, Australia sent military assets to the Middle East?
-Added expanded search topic: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
-Added expanded search topic: Why have Europe, Australia sent military assets to the Middle East?
-Saved 33 topics for 2026-03-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Qatar warns Iran war could halt Gulf energy exports ‘within weeks’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Elementary school in Tehran hit, Iran’s foreign ministry says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al-Aqsa compound empty as Israel restricts access to holy sites
+Added expanded search topic: Qatar warns Iran war could halt Gulf energy exports ‘within weeks’
+Added expanded search topic: Elementary school in Tehran hit, Iran’s foreign ministry says
+Added expanded search topic: Al-Aqsa compound empty as Israel restricts access to holy sites
+Saved 36 topics for 2026-03-06
 Returning 3 unique trending topics:
-  1. 'Worst night' of Israeli strikes so far, Tehran residents tell BBC (from BBC News)
-  2. FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Why have Europe, Australia sent military assets to the Middle East? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Qatar warns Iran war could halt Gulf energy exports ‘within weeks’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Elementary school in Tehran hit, Iran’s foreign ministry says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Al-Aqsa compound empty as Israel restricts access to holy sites (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
-Searching Google for: 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Worst%252Bnight%2527%252Bof%252BIsraeli%252Bstrikes%252Bso%252Bfar%252C%252BTehran%252Bresidents%252Btell%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA92yGJm7q80GIjAoaaGBkyDqX2MaH0TrUO0gUiYgrpglSjaIJuQ_WjUL93_igrTMH20SFmUrwtYDrFgyBmpjbmRyUloBQw
+Processing trending topic: Qatar warns Iran war could halt Gulf energy exports ‘within weeks’
+Searching Google for: Qatar warns Iran war could halt Gulf energy exports ‘within weeks’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DQatar%252Bwarns%252BIran%252Bwar%252Bcould%252Bhalt%252BGulf%252Benergy%252Bexports%252B%25E2%2580%2598within%252Bweeks%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzYGOjOq80GIjCRSS3dQHEZ7LfmhN_dqwfj3PsdXpfDkCLuBNT8UuxCv4o2PfOTQOGIxhUi-ZHmkU8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: worst-night-of-israeli-strikes-so-far-tehran-resid_20260306_1358.html
-✓ Created comprehensive article: worst-night-of-israeli-strikes-so-far-tehran-resid_20260306_1358.html
+Successfully created file: qatar-warns-iran-war-could-halt-gulf-energy-export_20260306_1440.html
+✓ Created comprehensive article: qatar-warns-iran-war-could-halt-gulf-energy-export_20260306_1440.html
 
-Processing trending topic: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
-Searching Google for: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252C%252BAFC%252Burged%252Bto%252Bprotect%252BIran%252Bwomen%252Bfootballers%252Bafter%252B%25E2%2580%2598traitors%25E2%2580%2599%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA92yGKC7q80GIjCwX2Jsrx1z3-0QuelpcSK5mCQHitTZnuOmub9U90UVZ9VDHZFO1i5mYP1vZmRVhuIyBmpjbmRyUloBQw
+Processing trending topic: Elementary school in Tehran hit, Iran’s foreign ministry says
+Searching Google for: Elementary school in Tehran hit, Iran’s foreign ministry says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DElementary%252Bschool%252Bin%252BTehran%252Bhit%252C%252BIran%25E2%2580%2599s%252Bforeign%252Bministry%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzYGO_Oq80GIjCNEijI-GaTJ3KHK-uunONzXh6kSF2X-nmf1yWhY4oeUJ86hcM48mrpNPxGcyGmogMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-afc-urged-to-protect-iran-women-footballers-a_20260306_1359.html
-✓ Created comprehensive article: fifa-afc-urged-to-protect-iran-women-footballers-a_20260306_1359.html
+Successfully created file: elementary-school-in-tehran-hit-irans-foreign-mini_20260306_1440.html
+✓ Created comprehensive article: elementary-school-in-tehran-hit-irans-foreign-mini_20260306_1440.html
 
-Processing trending topic: Why have Europe, Australia sent military assets to the Middle East?
-Searching Google for: Why have Europe, Australia sent military assets to the Middle East?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhave%252BEurope%252C%252BAustralia%252Bsent%252Bmilitary%252Bassets%252Bto%252Bthe%252BMiddle%252BEast%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA92yGKe7q80GIjDJO4hIJv7s-nNiUkJDgS0YphC6GmvRttOPKHHZerapEHvyK1Dl60NXYsC_u12tnyUyBmpjbmRyUloBQw
+Processing trending topic: Al-Aqsa compound empty as Israel restricts access to holy sites
+Searching Google for: Al-Aqsa compound empty as Israel restricts access to holy sites
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl-Aqsa%252Bcompound%252Bempty%252Bas%252BIsrael%252Brestricts%252Baccess%252Bto%252Bholy%252Bsites%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzYGPXOq80GIjDG7GErkp8IL3aO5zRkHP2MbY01BMs9HVDfYEEdf1rxqgQB6C0GWxUJiTa-pJAcBnEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-have-europe-australia-sent-military-assets-to-_20260306_1359.html
-✓ Created comprehensive article: why-have-europe-australia-sent-military-assets-to-_20260306_1359.html
+Successfully created file: al-aqsa-compound-empty-as-israel-restricts-access-_20260306_1440.html
+✓ Created comprehensive article: al-aqsa-compound-empty-as-israel-restricts-access-_20260306_1440.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
+   • Qatar warns Iran war could halt Gulf energy exports ‘within weeks’
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
+   • Elementary school in Tehran hit, Iran’s foreign ministry says
      Sources: bbc.com, cnn.com, reuters.com
-   • Why have Europe, Australia sent military assets to the Middle East?
+   • Al-Aqsa compound empty as Israel restricts access to holy sites
      Sources: bbc.com, cnn.com, reuters.com
