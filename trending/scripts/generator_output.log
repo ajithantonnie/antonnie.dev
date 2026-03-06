@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Four arrested on suspicion of assisting Iran's intelligence service
+  Added: 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
   Added: Emirates resumes some Dubai flights – what's the latest on travel to UK?
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian Kurd fighters ready for a ground operation ‘if opportunity arises’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Messi censured for meeting and applauding Trump amid US attacks on Iran
-Added expanded search topic: Iranian Kurd fighters ready for a ground operation ‘if opportunity arises’
-Added expanded search topic: Messi censured for meeting and applauding Trump amid US attacks on Iran
-Saved 30 topics for 2026-03-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why have Europe, Australia sent military assets to the Middle East?
+Added expanded search topic: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
+Added expanded search topic: Why have Europe, Australia sent military assets to the Middle East?
+Saved 33 topics for 2026-03-06
 Returning 3 unique trending topics:
-  1. Emirates resumes some Dubai flights – what's the latest on travel to UK? (from BBC News)
-  2. Iranian Kurd fighters ready for a ground operation ‘if opportunity arises’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Messi censured for meeting and applauding Trump amid US attacks on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'Worst night' of Israeli strikes so far, Tehran residents tell BBC (from BBC News)
+  2. FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why have Europe, Australia sent military assets to the Middle East? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Emirates resumes some Dubai flights – what's the latest on travel to UK?
-Searching Google for: Emirates resumes some Dubai flights – what's the latest on travel to UK?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEmirates%252Bresumes%252Bsome%252BDubai%252Bflights%252B%25E2%2580%2593%252Bwhat%2527s%252Bthe%252Blatest%252Bon%252Btravel%252Bto%252BUK%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RlkGJCeq80GIjDSEOrVwUoyve1WbcVA4tt5sCMQvWyr6jZAJZ8eCk0GC92XJtWa3gkG0lO8DgbrfgYyBmpjbmRyUloBQw
+Processing trending topic: 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
+Searching Google for: 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Worst%252Bnight%2527%252Bof%252BIsraeli%252Bstrikes%252Bso%252Bfar%252C%252BTehran%252Bresidents%252Btell%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA92yGJm7q80GIjAoaaGBkyDqX2MaH0TrUO0gUiYgrpglSjaIJuQ_WjUL93_igrTMH20SFmUrwtYDrFgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: emirates-resumes-some-dubai-flights-whats-the-late_20260306_1256.html
-✓ Created comprehensive article: emirates-resumes-some-dubai-flights-whats-the-late_20260306_1256.html
+Successfully created file: worst-night-of-israeli-strikes-so-far-tehran-resid_20260306_1358.html
+✓ Created comprehensive article: worst-night-of-israeli-strikes-so-far-tehran-resid_20260306_1358.html
 
-Processing trending topic: Iranian Kurd fighters ready for a ground operation ‘if opportunity arises’
-Searching Google for: Iranian Kurd fighters ready for a ground operation ‘if opportunity arises’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252BKurd%252Bfighters%252Bready%252Bfor%252Ba%252Bground%252Boperation%252B%25E2%2580%2598if%252Bopportunity%252Barises%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RlkGJeeq80GIjAbekYyKbmMhlt1-GHUZMFpY-WSJYM0q5WoOmWwipWlYtxN6q0-uHt3iviIzwAS5fsyBmpjbmRyUloBQw
+Processing trending topic: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
+Searching Google for: FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252C%252BAFC%252Burged%252Bto%252Bprotect%252BIran%252Bwomen%252Bfootballers%252Bafter%252B%25E2%2580%2598traitors%25E2%2580%2599%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA92yGKC7q80GIjCwX2Jsrx1z3-0QuelpcSK5mCQHitTZnuOmub9U90UVZ9VDHZFO1i5mYP1vZmRVhuIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-kurd-fighters-ready-for-a-ground-operation_20260306_1256.html
-✓ Created comprehensive article: iranian-kurd-fighters-ready-for-a-ground-operation_20260306_1256.html
+Successfully created file: fifa-afc-urged-to-protect-iran-women-footballers-a_20260306_1359.html
+✓ Created comprehensive article: fifa-afc-urged-to-protect-iran-women-footballers-a_20260306_1359.html
 
-Processing trending topic: Messi censured for meeting and applauding Trump amid US attacks on Iran
-Searching Google for: Messi censured for meeting and applauding Trump amid US attacks on Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMessi%252Bcensured%252Bfor%252Bmeeting%252Band%252Bapplauding%252BTrump%252Bamid%252BUS%252Battacks%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04RlkGJ2eq80GIjCHcrtk3iOysRx9jd6c5n4WwsZ5SP0XZA4K3l6sHEsars5AFF2O_2uL0g1vH_sM4h8yBmpjbmRyUloBQw
+Processing trending topic: Why have Europe, Australia sent military assets to the Middle East?
+Searching Google for: Why have Europe, Australia sent military assets to the Middle East?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhave%252BEurope%252C%252BAustralia%252Bsent%252Bmilitary%252Bassets%252Bto%252Bthe%252BMiddle%252BEast%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA92yGKe7q80GIjDJO4hIJv7s-nNiUkJDgS0YphC6GmvRttOPKHHZerapEHvyK1Dl60NXYsC_u12tnyUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: messi-censured-for-meeting-and-applauding-trump-am_20260306_1257.html
-✓ Created comprehensive article: messi-censured-for-meeting-and-applauding-trump-am_20260306_1257.html
+Successfully created file: why-have-europe-australia-sent-military-assets-to-_20260306_1359.html
+✓ Created comprehensive article: why-have-europe-australia-sent-military-assets-to-_20260306_1359.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Emirates resumes some Dubai flights – what's the latest on travel to UK?
+   • 'Worst night' of Israeli strikes so far, Tehran residents tell BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • Iranian Kurd fighters ready for a ground operation ‘if opportunity arises’
+   • FIFA, AFC urged to protect Iran women footballers after ‘traitors’ threat
      Sources: bbc.com, cnn.com, reuters.com
-   • Messi censured for meeting and applauding Trump amid US attacks on Iran
+   • Why have Europe, Australia sent military assets to the Middle East?
      Sources: bbc.com, cnn.com, reuters.com
