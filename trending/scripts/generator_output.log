@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Passengers describe 'surreal' scramble to reach first government flight out of Middle East
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Three men deported by US file legal case against Eswatini over detention
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile
-Added expanded search topic: Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile
-Saved 9 topics for 2026-03-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tehran hit by heavy bombing on day seven of US-Israel war on Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day seven of US-Israel attacks?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Forcibly displaced Lebanese seek food, clothing, and comfort in shelters
+Added expanded search topic: Tehran hit by heavy bombing on day seven of US-Israel war on Iran
+Added expanded search topic: Iran war: What is happening on day seven of US-Israel attacks?
+Added expanded search topic: Forcibly displaced Lebanese seek food, clothing, and comfort in shelters
+Saved 12 topics for 2026-03-06
 Returning 3 unique trending topics:
-  1. Passengers describe 'surreal' scramble to reach first government flight out of Middle East (from BBC News)
-  2. Iran school and nearby military base struck multiple times, satellite image reveals (from BBC News)
-  3. Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Tehran hit by heavy bombing on day seven of US-Israel war on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran war: What is happening on day seven of US-Israel attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Forcibly displaced Lebanese seek food, clothing, and comfort in shelters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Passengers describe 'surreal' scramble to reach first government flight out of Middle East
-Searching Google for: Passengers describe 'surreal' scramble to reach first government flight out of Middle East
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPassengers%252Bdescribe%252B%2527surreal%2527%252Bscramble%252Bto%252Breach%252Bfirst%252Bgovernment%252Bflight%252Bout%252Bof%252BMiddle%252BEast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZk2GNrUqc0GIjC2iBGoTFhY3gck8vcUOCciUGnBYwJPOYSpz4kn1Bkz1APLl-ZZhBH5Zs_L94RUSpQyBmpjbmRyUloBQw
+Processing trending topic: Tehran hit by heavy bombing on day seven of US-Israel war on Iran
+Searching Google for: Tehran hit by heavy bombing on day seven of US-Israel war on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTehran%252Bhit%252Bby%252Bheavy%252Bbombing%252Bon%252Bday%252Bseven%252Bof%252BUS-Israel%252Bwar%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_OhGOLxqc0GIjDPtCsmtfncIisFiygdmwBklGIk8Gg-JaViLfh7uKhSMfx07acuRFoF6nmrCWNG4ycyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: passengers-describe-surreal-scramble-to-reach-firs_20260306_0547.html
-✓ Created comprehensive article: passengers-describe-surreal-scramble-to-reach-firs_20260306_0547.html
+Successfully created file: tehran-hit-by-heavy-bombing-on-day-seven-of-us-isr_20260306_0649.html
+✓ Created comprehensive article: tehran-hit-by-heavy-bombing-on-day-seven-of-us-isr_20260306_0649.html
 
-Processing trending topic: Iran school and nearby military base struck multiple times, satellite image reveals
-Searching Google for: Iran school and nearby military base struck multiple times, satellite image reveals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bschool%252Band%252Bnearby%252Bmilitary%252Bbase%252Bstruck%252Bmultiple%252Btimes%252C%252Bsatellite%252Bimage%252Breveals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZk2GOLUqc0GIjBhoFCdGhp5FXGWaG5xIGkfNcAn6PCV8oqFGanLdLAyjfeq5_tR-ZJawPmLX28AOPYyBmpjbmRyUloBQw
+Processing trending topic: Iran war: What is happening on day seven of US-Israel attacks?
+Searching Google for: Iran war: What is happening on day seven of US-Israel attacks?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252Bseven%252Bof%252BUS-Israel%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_OhGOnxqc0GIjBLgaTioqkg80OzXz579ThFzqSRWanhrT1Uc1E2jBlOJ4JLUfCoqL3nFsW1fwyizT0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-school-and-nearby-military-base-struck-multip_20260306_0547.html
-✓ Created comprehensive article: iran-school-and-nearby-military-base-struck-multip_20260306_0547.html
+Successfully created file: iran-war-what-is-happening-on-day-seven-of-us-isra_20260306_0649.html
+✓ Created comprehensive article: iran-war-what-is-happening-on-day-seven-of-us-isra_20260306_0649.html
 
-Processing trending topic: Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile
-Searching Google for: Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Btargets%252BIsraeli%252Bembassy%252Bin%252BBahrain%252C%252BSaudi%252BArabia%252Bintercepts%252Bmissile%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZk2GOjUqc0GIjDHpmI1bu2XqR0piydnD7Iip07cOdJjw5rIoex2GqxNct-tVHKJ-1t29htSfV50M3syBmpjbmRyUloBQw
+Processing trending topic: Forcibly displaced Lebanese seek food, clothing, and comfort in shelters
+Searching Google for: Forcibly displaced Lebanese seek food, clothing, and comfort in shelters
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DForcibly%252Bdisplaced%252BLebanese%252Bseek%252Bfood%252C%252Bclothing%252C%252Band%252Bcomfort%252Bin%252Bshelters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_OhGO_xqc0GIjA1yWzdj4D9x5RQz9PQ0KVaSEU7JnBO4Cl0yg2c_BV-gaibJP-pjvUJ9NCjf42PGvUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-targets-israeli-embassy-in-bahrain-saudi-arab_20260306_0547.html
-✓ Created comprehensive article: iran-targets-israeli-embassy-in-bahrain-saudi-arab_20260306_0547.html
+Successfully created file: forcibly-displaced-lebanese-seek-food-clothing-and_20260306_0649.html
+✓ Created comprehensive article: forcibly-displaced-lebanese-seek-food-clothing-and_20260306_0649.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Passengers describe 'surreal' scramble to reach first government flight out of Middle East
+   • Tehran hit by heavy bombing on day seven of US-Israel war on Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran school and nearby military base struck multiple times, satellite image reveals
+   • Iran war: What is happening on day seven of US-Israel attacks?
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran targets Israeli embassy in Bahrain, Saudi Arabia intercepts missile
+   • Forcibly displaced Lebanese seek food, clothing, and comfort in shelters
      Sources: bbc.com, cnn.com, reuters.com
