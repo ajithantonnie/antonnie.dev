@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Soham murderer Ian Huntley dies after prison attack
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weight-loss jab could be made for $3 a month, study finds
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Protests in Cuba after thousands without power following blackout
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian Kurd leader in Iraq says ground operation into Iran ‘highly likely’
-Added expanded search topic: Protests in Cuba after thousands without power following blackout
-Added expanded search topic: Iranian Kurd leader in Iraq says ground operation into Iran ‘highly likely’
-Saved 27 topics for 2026-03-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: OpenAI’s fund raising boom slows amid mounting debt
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Aftermath of village in Lebanon after Hezbollah, Israeli troops clash
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indonesians protest Iran war, pressure president over US ties
+Added expanded search topic: OpenAI’s fund raising boom slows amid mounting debt
+Added expanded search topic: Aftermath of village in Lebanon after Hezbollah, Israeli troops clash
+Added expanded search topic: Indonesians protest Iran war, pressure president over US ties
+Saved 30 topics for 2026-03-07
 Returning 3 unique trending topics:
-  1. The legacy of Holly and Jessica's murders: Soham 'won't waste its breath' on Huntley (from BBC News)
-  2. Protests in Cuba after thousands without power following blackout (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iranian Kurd leader in Iraq says ground operation into Iran ‘highly likely’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. OpenAI’s fund raising boom slows amid mounting debt (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Aftermath of village in Lebanon after Hezbollah, Israeli troops clash (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Indonesians protest Iran war, pressure president over US ties (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: The legacy of Holly and Jessica's murders: Soham 'won't waste its breath' on Huntley
-Searching Google for: The legacy of Holly and Jessica's murders: Soham 'won't waste its breath' on Huntley
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Blegacy%252Bof%252BHolly%252Band%252BJessica%2527s%252Bmurders%253A%252BSoham%252B%2527won%2527t%252Bwaste%252Bits%252Bbreath%2527%252Bon%252BHuntley%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEqGP2UsM0GIjDQTeqWVN6O-5ZSC_aZ1y7aAhAQHRUEeJErYtkgvH8y5ZGPbDmvIEza5rzc7NKgU90yBmpjbmRyUloBQw
+Processing trending topic: OpenAI’s fund raising boom slows amid mounting debt
+Searching Google for: OpenAI’s fund raising boom slows amid mounting debt
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%25E2%2580%2599s%252Bfund%252Braising%252Bboom%252Bslows%252Bamid%252Bmounting%252Bdebt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnfRGJm8sM0GIjAcFnwAVL-rX-ro_du_FrzL4H9Lr2p2vQMclRp4BLVlm3DlcwA1kvQLCu4DfCWhnRwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-legacy-of-holly-and-jessicas-murders-soham-won_20260307_1122.html
-✓ Created comprehensive article: the-legacy-of-holly-and-jessicas-murders-soham-won_20260307_1122.html
+Successfully created file: openais-fund-raising-boom-slows-amid-mounting-debt_20260307_1246.html
+✓ Created comprehensive article: openais-fund-raising-boom-slows-amid-mounting-debt_20260307_1246.html
 
-Processing trending topic: Protests in Cuba after thousands without power following blackout
-Searching Google for: Protests in Cuba after thousands without power following blackout
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DProtests%252Bin%252BCuba%252Bafter%252Bthousands%252Bwithout%252Bpower%252Bfollowing%252Bblackout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEqGISVsM0GIjCMZv8U-vAwtAuzC2IKD0jbzvf4zXnlfgBEO37V6-XPyk2o_1T2CUX90Wl95n7PHBoyBmpjbmRyUloBQw
+Processing trending topic: Aftermath of village in Lebanon after Hezbollah, Israeli troops clash
+Searching Google for: Aftermath of village in Lebanon after Hezbollah, Israeli troops clash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAftermath%252Bof%252Bvillage%252Bin%252BLebanon%252Bafter%252BHezbollah%252C%252BIsraeli%252Btroops%252Bclash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnfRGJ-8sM0GIjDeyDmg7JCPHdoC-24fbCeBDn5087LgdCTxAnj__g0wKPZk_f5luvJe4OUnaVZb4ugyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: protests-in-cuba-after-thousands-without-power-fol_20260307_1122.html
-✓ Created comprehensive article: protests-in-cuba-after-thousands-without-power-fol_20260307_1122.html
+Successfully created file: aftermath-of-village-in-lebanon-after-hezbollah-is_20260307_1246.html
+✓ Created comprehensive article: aftermath-of-village-in-lebanon-after-hezbollah-is_20260307_1246.html
 
-Processing trending topic: Iranian Kurd leader in Iraq says ground operation into Iran ‘highly likely’
-Searching Google for: Iranian Kurd leader in Iraq says ground operation into Iran ‘highly likely’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252BKurd%252Bleader%252Bin%252BIraq%252Bsays%252Bground%252Boperation%252Binto%252BIran%252B%25E2%2580%2598highly%252Blikely%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEqGIqVsM0GIjBj6HnhV2kLWn_S2LvEUN5lhu1ZkBLfQYsYzl27TUdWkl2rWTRPMphULdnqUT2WVuQyBmpjbmRyUloBQw
+Processing trending topic: Indonesians protest Iran war, pressure president over US ties
+Searching Google for: Indonesians protest Iran war, pressure president over US ties
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndonesians%252Bprotest%252BIran%252Bwar%252C%252Bpressure%252Bpresident%252Bover%252BUS%252Bties%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnfRGKa8sM0GIjDXpIOGGhD01mwc-wcpgjp-fnvH06u3C1kjWRpT8CuxPASTnrJfBIFjLhEVbnGPu8AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-kurd-leader-in-iraq-says-ground-operation-_20260307_1122.html
-✓ Created comprehensive article: iranian-kurd-leader-in-iraq-says-ground-operation-_20260307_1122.html
+Successfully created file: indonesians-protest-iran-war-pressure-president-ov_20260307_1246.html
+✓ Created comprehensive article: indonesians-protest-iran-war-pressure-president-ov_20260307_1246.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • The legacy of Holly and Jessica's murders: Soham 'won't waste its breath' on Huntley
+   • OpenAI’s fund raising boom slows amid mounting debt
      Sources: bbc.com, cnn.com, reuters.com
-   • Protests in Cuba after thousands without power following blackout
+   • Aftermath of village in Lebanon after Hezbollah, Israeli troops clash
      Sources: bbc.com, cnn.com, reuters.com
-   • Iranian Kurd leader in Iraq says ground operation into Iran ‘highly likely’
+   • Indonesians protest Iran war, pressure president over US ties
      Sources: bbc.com, cnn.com, reuters.com
