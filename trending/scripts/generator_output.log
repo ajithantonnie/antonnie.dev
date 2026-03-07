@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump wants to pick Iran's new leader - will a hostile regime under fire agree?
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weight-loss jab could be made for $3 a month, study finds
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-07
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anti-aircraft fire seen in eastern Lebanon amid Israeli incursion
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Massive explosions, fires from US-Israeli strikes on Tehran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian missiles over Tel Aviv prompt sirens, interceptor launches
+Added expanded search topic: Anti-aircraft fire seen in eastern Lebanon amid Israeli incursion
+Added expanded search topic: Massive explosions, fires from US-Israeli strikes on Tehran
+Added expanded search topic: Iranian missiles over Tel Aviv prompt sirens, interceptor launches
+Saved 6 topics for 2026-03-07
 Returning 3 unique trending topics:
-  1. Trump wants to pick Iran's new leader - will a hostile regime under fire agree? (from BBC News)
-  2. Huge US bomber lands at UK air base (from BBC News)
-  3. Weight-loss jab could be made for $3 a month, study finds (from The Guardian)
+  1. Anti-aircraft fire seen in eastern Lebanon amid Israeli incursion (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Massive explosions, fires from US-Israeli strikes on Tehran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iranian missiles over Tel Aviv prompt sirens, interceptor launches (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump wants to pick Iran's new leader - will a hostile regime under fire agree?
-Searching Google for: Trump wants to pick Iran's new leader - will a hostile regime under fire agree?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwants%252Bto%252Bpick%252BIran%2527s%252Bnew%252Bleader%252B-%252Bwill%252Ba%252Bhostile%252Bregime%252Bunder%252Bfire%252Bagree%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NCxGL-Krs0GIjDfCJSmVtlHVPntxmBIKJpSUKQ9NbtzkYr6toJe1J3CP9tVMMgFAppp49nKLoCoQMoyBmpjbmRyUloBQw
+Processing trending topic: Anti-aircraft fire seen in eastern Lebanon amid Israeli incursion
+Searching Google for: Anti-aircraft fire seen in eastern Lebanon amid Israeli incursion
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnti-aircraft%252Bfire%252Bseen%252Bin%252Beastern%252BLebanon%252Bamid%252BIsraeli%252Bincursion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4D0GJnHrs0GIjBtvvNegs9uz-_60HdzCDZY-lUIe_XtvLKwOv598AmrJEJSu4P1liw-3BmCxEV8Y4AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-wants-to-pick-irans-new-leader-will-a-hostil_20260307_0154.html
-✓ Created comprehensive article: trump-wants-to-pick-irans-new-leader-will-a-hostil_20260307_0154.html
+Successfully created file: anti-aircraft-fire-seen-in-eastern-lebanon-amid-is_20260307_0403.html
+✓ Created comprehensive article: anti-aircraft-fire-seen-in-eastern-lebanon-amid-is_20260307_0403.html
 
-Processing trending topic: Huge US bomber lands at UK air base
-Searching Google for: Huge US bomber lands at UK air base
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHuge%252BUS%252Bbomber%252Blands%252Bat%252BUK%252Bair%252Bbase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NCxGMaKrs0GIjAO9wTwpQM3kDZvzPKRRO_XDMN3ceFJQH6ZFY34kOOPCm_Fl_MuI8jTLcFBxYGkP28yBmpjbmRyUloBQw
+Processing trending topic: Massive explosions, fires from US-Israeli strikes on Tehran
+Searching Google for: Massive explosions, fires from US-Israeli strikes on Tehran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMassive%252Bexplosions%252C%252Bfires%252Bfrom%252BUS-Israeli%252Bstrikes%252Bon%252BTehran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4D0GKHHrs0GIjASGwehYxqbifXYxmijgUqJHIhVvsqyAO1jOzlg_gQ5Kv1F4fpHZiCiW_F4MxjOStEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: huge-us-bomber-lands-at-uk-air-base_20260307_0154.html
-✓ Created comprehensive article: huge-us-bomber-lands-at-uk-air-base_20260307_0154.html
+Successfully created file: massive-explosions-fires-from-us-israeli-strikes-o_20260307_0403.html
+✓ Created comprehensive article: massive-explosions-fires-from-us-israeli-strikes-o_20260307_0403.html
 
-Processing trending topic: Weight-loss jab could be made for $3 a month, study finds
-Searching Google for: Weight-loss jab could be made for $3 a month, study finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeight-loss%252Bjab%252Bcould%252Bbe%252Bmade%252Bfor%252B%25243%252Ba%252Bmonth%252C%252Bstudy%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NCxGMyKrs0GIjArsflKtptPyzkStOAM8uwnqJvJTpBXI1EtNGYxf4Z4VTUOrq1V6XOt2rO1WfPO8RsyBmpjbmRyUloBQw
+Processing trending topic: Iranian missiles over Tel Aviv prompt sirens, interceptor launches
+Searching Google for: Iranian missiles over Tel Aviv prompt sirens, interceptor launches
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bmissiles%252Bover%252BTel%252BAviv%252Bprompt%252Bsirens%252C%252Binterceptor%252Blaunches%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4D0GKjHrs0GIjAfbB8tOWlpvPG_Gn21SEgyLHW5x0Q2cFHVfwJFzqHICYLYh83gLZvHLNzWV2X7F8cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weight-loss-jab-could-be-made-for-3-a-month-study-_20260307_0154.html
-✓ Created comprehensive article: weight-loss-jab-could-be-made-for-3-a-month-study-_20260307_0154.html
+Successfully created file: iranian-missiles-over-tel-aviv-prompt-sirens-inter_20260307_0403.html
+✓ Created comprehensive article: iranian-missiles-over-tel-aviv-prompt-sirens-inter_20260307_0403.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump wants to pick Iran's new leader - will a hostile regime under fire agree?
+   • Anti-aircraft fire seen in eastern Lebanon amid Israeli incursion
      Sources: bbc.com, cnn.com, reuters.com
-   • Huge US bomber lands at UK air base
+   • Massive explosions, fires from US-Israeli strikes on Tehran
      Sources: bbc.com, cnn.com, reuters.com
-   • Weight-loss jab could be made for $3 a month, study finds
+   • Iranian missiles over Tel Aviv prompt sirens, interceptor launches
      Sources: bbc.com, cnn.com, reuters.com
