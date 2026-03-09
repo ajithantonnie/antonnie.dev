@@ -1,1273 +1,1838 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Antonnie | Mobile App Developer</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <style>
-      /* Base Styles */
-      :root {
-        --primary: #2c3e50;
-        --secondary: #3498db;
-        --accent: #e74c3c;
-        --light: #ecf0f1;
-        --dark: #2c3e50;
-        --gray: #95a5a6;
-        --text: #333;
-        --text-light: #7f8c8d;
-        --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        --transition: all 0.3s ease;
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonnie | Mobile App Developer & Software Engineer</title>
+  <meta name="description"
+    content="Ajith Antony George — Software Engineer & Mobile App Developer. Building innovative digital solutions with Java, Android, Flutter and more." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    /* ===== Design Tokens ===== */
+    :root {
+      --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      --gradient-success: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      --gradient-warm: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+      --accent: #667eea;
+      --accent2: #764ba2;
+      --text-white: rgba(255, 255, 255, 0.92);
+      --text-muted: rgba(255, 255, 255, 0.65);
+      --glass-bg: rgba(255, 255, 255, 0.06);
+      --glass-border: rgba(255, 255, 255, 0.12);
+      --glass-hover: rgba(255, 255, 255, 0.1);
+      --transition: all 0.3s ease;
+      --shadow-glow: 0 0 30px rgba(102, 126, 234, 0.25);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: var(--text-white);
+      background: #0f0c29;
+      background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ===== Animated Background ===== */
+    .animated-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      animation: float 20s infinite ease-in-out;
+    }
+
+    .circle:nth-child(1) {
+      width: 350px;
+      height: 350px;
+      top: 5%;
+      left: 5%;
+      background: rgba(102, 126, 234, 0.08);
+      animation-delay: 0s;
+    }
+
+    .circle:nth-child(2) {
+      width: 200px;
+      height: 200px;
+      top: 60%;
+      right: 10%;
+      background: rgba(244, 143, 177, 0.08);
+      animation-delay: 3s;
+    }
+
+    .circle:nth-child(3) {
+      width: 150px;
+      height: 150px;
+      bottom: 15%;
+      left: 15%;
+      background: rgba(79, 172, 254, 0.08);
+      animation-delay: 6s;
+    }
+
+    .circle:nth-child(4) {
+      width: 280px;
+      height: 280px;
+      top: 35%;
+      right: 30%;
+      background: rgba(167, 139, 250, 0.07);
+      animation-delay: 9s;
+    }
+
+    .circle:nth-child(5) {
+      width: 120px;
+      height: 120px;
+      top: 20%;
+      right: 50%;
+      background: rgba(0, 242, 254, 0.06);
+      animation-delay: 12s;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0) translateX(0) scale(1);
       }
 
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+      33% {
+        transform: translateY(-40px) translateX(25px) scale(1.08);
       }
 
-      html {
-        scroll-behavior: smooth;
+      66% {
+        transform: translateY(20px) translateX(-20px) scale(0.93);
+      }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ===== Navbar ===== */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(15, 12, 41, 0.7);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--glass-border);
+      transition: var(--transition);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
+
+    .logo {
+      font-size: 1.6rem;
+      font-weight: 800;
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 8px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 0.9rem;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover {
+      color: white;
+      background: var(--glass-hover);
+    }
+
+    .nav-recruit-btn {
+      background: var(--gradient-primary) !important;
+      color: white !important;
+      font-weight: 600 !important;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.35);
+    }
+
+    .nav-recruit-btn:hover {
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.55) !important;
+      transform: translateY(-1px);
+    }
+
+    .mobile-menu {
+      display: none;
+      font-size: 1.4rem;
+      cursor: pointer;
+      color: white;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: var(--transition);
+    }
+
+    .mobile-menu:hover {
+      background: var(--glass-hover);
+    }
+
+    /* ===== Section Utility ===== */
+    section {
+      padding: 100px 0;
+    }
+
+    .section-label {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: white;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto 60px;
+      text-align: center;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .gradient-text {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* ===== Hero ===== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 120px 0 80px;
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(102, 126, 234, 0.15);
+      border: 1px solid rgba(102, 126, 234, 0.3);
+      color: #a8b8ff;
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 6px 16px;
+      border-radius: 50px;
+      margin-bottom: 24px;
+      animation: fadeInDown 0.6s ease;
+    }
+
+    .hero-badge i {
+      font-size: 0.75rem;
+      color: #667eea;
+    }
+
+    .hero h1 {
+      font-size: 3.8rem;
+      font-weight: 800;
+      line-height: 1.1;
+      color: white;
+      margin-bottom: 24px;
+      animation: fadeInDown 0.7s ease 0.1s both;
+    }
+
+    .hero h1 span {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 36px;
+      line-height: 1.7;
+      animation: fadeInDown 0.7s ease 0.2s both;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      animation: fadeInDown 0.7s ease 0.3s both;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 12px;
+      background: var(--gradient-primary);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+      transition: var(--transition);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(102, 126, 234, 0.6);
+    }
+
+    .btn-glass {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 12px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      backdrop-filter: blur(10px);
+      transition: var(--transition);
+    }
+
+    .btn-glass:hover {
+      background: var(--glass-hover);
+      border-color: rgba(255, 255, 255, 0.22);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Stats */
+    .hero-stats {
+      display: flex;
+      gap: 30px;
+      margin-top: 48px;
+      animation: fadeInDown 0.7s ease 0.4s both;
+    }
+
+    .stat-item {
+      text-align: left;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      background: var(--gradient-success);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Hero Image / Visual */
+    .hero-visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeInUp 0.8s ease 0.2s both;
+    }
+
+    .hero-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 36px;
+      backdrop-filter: blur(20px);
+      box-shadow: var(--shadow-glow);
+      max-width: 340px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--gradient-primary);
+      border-radius: 24px 24px 0 0;
+    }
+
+    .hero-avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: var(--gradient-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      margin: 0 auto 20px;
+      box-shadow: 0 0 30px rgba(102, 126, 234, 0.4);
+    }
+
+    .hero-card-name {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 4px;
+    }
+
+    .hero-card-role {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .tech-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+    }
+
+    .tech-chip {
+      background: rgba(102, 126, 234, 0.15);
+      border: 1px solid rgba(102, 126, 234, 0.25);
+      color: #a8b8ff;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    .hero-card-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .mini-stat {
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .mini-stat-num {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .mini-stat-lbl {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* ===== Glass Card ===== */
+    .glass-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 32px;
+      backdrop-filter: blur(10px);
+      transition: var(--transition);
+    }
+
+    .glass-card:hover {
+      background: var(--glass-hover);
+      border-color: rgba(102, 126, 234, 0.3);
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-glow);
+    }
+
+    /* ===== Featured App ===== */
+    .featured-app {
+      background: transparent;
+    }
+
+    .app-container {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .app-image-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .app-image-glow {
+      position: absolute;
+      inset: -20px;
+      background: radial-gradient(circle, rgba(102, 126, 234, 0.2) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: pulse-glow 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse-glow {
+
+      0%,
+      100% {
+        opacity: 0.5;
+        transform: scale(1);
       }
 
-      body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-        color: var(--text);
-        background-color: #f9f9f9;
+      50% {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+    }
+
+    .app-image {
+      position: relative;
+      z-index: 1;
+      width: 220px;
+      height: 220px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .app-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 28px;
+    }
+
+    .app-content .section-title {
+      text-align: left;
+    }
+
+    .app-content .section-label {
+      display: block;
+    }
+
+    .app-desc {
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    .app-features {
+      list-style: none;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .app-features li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .app-features li i {
+      width: 24px;
+      height: 24px;
+      background: rgba(102, 126, 234, 0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #667eea;
+      font-size: 0.7rem;
+      flex-shrink: 0;
+    }
+
+    .app-badge-img {
+      height: 48px;
+      transition: var(--transition);
+      filter: brightness(0.9);
+    }
+
+    .app-badge-img:hover {
+      filter: brightness(1);
+      transform: translateY(-2px);
+    }
+
+    /* ===== Projects ===== */
+    .projects-section {
+      background: transparent;
+    }
+
+    .project-filters {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 48px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 8px 22px;
+      border-radius: 50px;
+      cursor: pointer;
+      border: 1px solid var(--glass-border);
+      background: var(--glass-bg);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 500;
+      font-family: inherit;
+      transition: var(--transition);
+      backdrop-filter: blur(10px);
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--gradient-primary);
+      border-color: transparent;
+      color: white;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.35);
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 28px;
+    }
+
+    .project-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: var(--transition);
+      backdrop-filter: blur(10px);
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(102, 126, 234, 0.35);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .project-img {
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .project-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 50%, rgba(15, 12, 41, 0.8));
+    }
+
+    .project-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .project-card:hover .project-img img {
+      transform: scale(1.08);
+    }
+
+    .project-info {
+      padding: 24px;
+    }
+
+    .project-info h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .project-info p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 16px;
+    }
+
+    .project-tag {
+      background: rgba(102, 126, 234, 0.12);
+      border: 1px solid rgba(102, 126, 234, 0.2);
+      color: #a8b8ff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #667eea;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .project-link:hover {
+      color: #a8b8ff;
+      gap: 10px;
+    }
+
+    /* ===== About ===== */
+    .about-section {
+      background: transparent;
+    }
+
+    .about-container {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .about-image-wrapper {
+      position: relative;
+    }
+
+    .about-avatar-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 32px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 100px;
+    }
+
+    .about-avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      border: 3px solid rgba(102, 126, 234, 0.4);
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(102, 126, 234, 0.3);
+    }
+
+    .about-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about-avatar-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 4px;
+    }
+
+    .about-avatar-role {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .about-social-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .social-icon {
+      width: 38px;
+      height: 38px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: var(--transition);
+    }
+
+    .social-icon:hover {
+      background: var(--gradient-primary);
+      border-color: transparent;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .about-content .section-title {
+      text-align: left;
+    }
+
+    .about-content .section-label {
+      display: block;
+    }
+
+    .about-bio {
+      color: var(--text-muted);
+      font-size: 0.97rem;
+      line-height: 1.8;
+      margin-bottom: 32px;
+    }
+
+    .about-bio p {
+      margin-bottom: 14px;
+    }
+
+    /* Skills */
+    .skills-section {
+      margin-top: 32px;
+    }
+
+    .skills-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .skill-item {
+      margin-bottom: 18px;
+    }
+
+    .skill-name {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.85);
+      margin-bottom: 8px;
+    }
+
+    .skill-percent {
+      color: #a8b8ff;
+    }
+
+    .skill-bar {
+      height: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .skill-progress {
+      height: 100%;
+      border-radius: 3px;
+      background: var(--gradient-primary);
+      box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+      transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+      width: 0;
+    }
+
+    /* ===== Contact ===== */
+    .contact-section {
+      background: transparent;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 48px;
+      margin-top: 60px;
+    }
+
+    .contact-info-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 36px;
+      backdrop-filter: blur(10px);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .contact-icon-wrap {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: var(--gradient-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: white;
+      flex-shrink: 0;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    .contact-item h4 {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .contact-item p {
+      font-size: 0.95rem;
+      color: white;
+      font-weight: 500;
+    }
+
+    .contact-social {
+      display: flex;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    /* Contact Form */
+    .contact-form-card {
+      background: rgba(255, 255, 255, 0.97);
+      border-radius: 24px;
+      padding: 40px;
+      backdrop-filter: blur(10px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-form-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: var(--gradient-primary);
+      border-radius: 24px 24px 0 0;
+    }
+
+    .form-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 6px;
+    }
+
+    .form-subtitle {
+      font-size: 0.9rem;
+      color: #7f8c8d;
+      margin-bottom: 28px;
+    }
+
+    .form-group-light {
+      margin-bottom: 18px;
+    }
+
+    .form-control-light {
+      width: 100%;
+      padding: 13px 16px;
+      border: 2px solid #e8ecf0;
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      color: #333;
+      background: #f8f9fa;
+      transition: var(--transition);
+      outline: none;
+    }
+
+    .form-control-light:focus {
+      border-color: #667eea;
+      background: white;
+      box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+    }
+
+    textarea.form-control-light {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .submit-btn-main {
+      width: 100%;
+      padding: 15px;
+      background: var(--gradient-primary);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .submit-btn-main:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.55);
+    }
+
+    .submit-btn-main:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .form-status {
+      margin-top: 14px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: none;
+    }
+
+    .form-status.success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+      display: block;
+    }
+
+    .form-status.error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+      display: block;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: rgba(0, 0, 0, 0.35);
+      border-top: 1px solid var(--glass-border);
+      padding: 60px 0 28px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 48px;
+    }
+
+    .footer-brand .logo {
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .footer-tagline {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .footer-col h4 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 16px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .footer-col a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      transition: var(--transition);
+    }
+
+    .footer-col a:hover {
+      color: white;
+    }
+
+    .footer-divider {
+      height: 1px;
+      background: var(--glass-border);
+      margin-bottom: 24px;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-copy {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 8px;
+    }
+
+    /* ===== Animations ===== */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-24px);
       }
 
-      .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 15px;
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
       }
 
-      section {
-        padding: 80px 0;
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
+    }
 
-      h1,
-      h2,
-      h3,
-      h4 {
-        margin-bottom: 20px;
-        color: var(--primary);
-      }
-
-      h1 {
-        font-size: 3rem;
-        font-weight: 700;
-      }
-
-      h2 {
-        font-size: 2.5rem;
-        text-align: center;
-        margin-bottom: 50px;
-        position: relative;
-      }
-
-      h2::after {
-        content: "";
-        position: absolute;
-        bottom: -15px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80px;
-        height: 4px;
-        background-color: var(--secondary);
-      }
-
-      p {
-        margin-bottom: 15px;
-        color: var(--text-light);
-      }
-
-      .btn {
-        display: inline-block;
-        padding: 12px 30px;
-        background-color: var(--secondary);
-        color: white;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: 600;
-        transition: var(--transition);
-        cursor: pointer;
-      }
-
-      .btn:hover {
-        background-color: #2980b9;
-        transform: translateY(-3px);
-        box-shadow: var(--shadow);
-      }
-
-      .btn-outline {
-        background-color: transparent;
-        border: 2px solid var(--secondary);
-        color: var(--secondary);
-      }
-
-      .btn-outline:hover {
-        background-color: var(--secondary);
-        color: white;
-      }
-
-      /* Header Styles */
-      header {
-        background-color: white;
-        box-shadow: var(--shadow);
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 1000;
-      }
-
-      .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 0;
-      }
-
-      .logo {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: var(--primary);
-        text-decoration: none;
-      }
-
-      .logo span {
-        color: var(--secondary);
-      }
-
-      .nav-links {
-        display: flex;
-        list-style: none;
-      }
-
-      .nav-links li {
-        margin-left: 30px;
-      }
-
-      .nav-links a {
-        text-decoration: none;
-        color: var(--text);
-        font-weight: 500;
-        transition: var(--transition);
-      }
-
-      .nav-links a:hover {
-        color: var(--secondary);
-      }
-
-      .mobile-menu {
-        display: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: var(--primary);
-        transition: var(--transition);
-      }
-
-      .mobile-menu:hover {
-        color: var(--secondary);
-      }
-
-      /* Hero Section */
-      .hero {
-        background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
-        color: white;
-        padding: 150px 0 100px;
+    /* ===== Responsive ===== */
+    @media (max-width: 1024px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
         text-align: center;
       }
 
       .hero h1 {
-        color: white;
-        margin-bottom: 20px;
-      }
-
-      .hero p {
-        color: var(--light);
-        max-width: 700px;
-        margin: 0 auto 30px;
-        font-size: 1.2rem;
+        font-size: 2.8rem;
       }
 
       .hero-btns {
-        display: flex;
         justify-content: center;
-        gap: 15px;
-        margin-top: 30px;
       }
 
-      .hero .btn {
-        background-color: var(--secondary);
-      }
-
-      .hero .btn-outline {
-        border-color: white;
-        color: white;
-      }
-
-      .hero .btn-outline:hover {
-        background-color: white;
-        color: var(--primary);
-      }
-
-      /* Featured App Section */
-      .featured-app {
-        background-color: white;
-      }
-
-      .app-container {
-        display: flex;
-        align-items: center;
-        gap: 50px;
-      }
-
-      .app-image {
-        flex: 1;
-        text-align: center;
-      }
-
-      .app-image img {
-        max-width: 100%;
-        border-radius: 15px;
-        box-shadow: var(--shadow);
-      }
-
-      .app-content {
-        flex: 1;
-      }
-
-      .app-features {
-        margin: 30px 0;
-      }
-
-      .app-features li {
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-      }
-
-      .app-features i {
-        color: var(--secondary);
-        margin-right: 10px;
-      }
-
-      .app-badges {
-        display: flex;
-        gap: 15px;
-        margin-top: 30px;
-      }
-
-      .app-badge {
-        display: inline-block;
-      }
-
-      .app-badge img {
-        height: 50px;
-      }
-
-      /* Projects Section */
-      .projects {
-        background-color: #f5f7fa;
-      }
-
-      .project-filters {
-        display: flex;
+      .hero-stats {
         justify-content: center;
-        margin-bottom: 40px;
-        flex-wrap: wrap;
-        gap: 10px;
       }
 
-      .filter-btn {
-        padding: 8px 20px;
-        background-color: white;
-        border: 1px solid var(--gray);
-        border-radius: 30px;
-        cursor: pointer;
-        transition: var(--transition);
-      }
-
-      .filter-btn.active,
-      .filter-btn:hover {
-        background-color: var(--secondary);
-        color: white;
-        border-color: var(--secondary);
-      }
-
-      .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 30px;
-      }
-
-      .project-card {
-        background-color: white;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: var(--shadow);
-        transition: var(--transition);
-      }
-
-      .project-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      }
-
-      .project-img {
-        height: 200px;
-        overflow: hidden;
-      }
-
-      .project-img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: var(--transition);
-      }
-
-      .project-card:hover .project-img img {
-        transform: scale(1.1);
-      }
-
-      .project-info {
-        padding: 20px;
-      }
-
-      .project-info h3 {
-        margin-bottom: 10px;
-      }
-
-      .project-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin: 15px 0;
-      }
-
-      .project-tag {
-        background-color: #e1f0fa;
-        color: var(--secondary);
-        padding: 5px 10px;
-        border-radius: 20px;
-        font-size: 0.8rem;
-      }
-
-      /* About Section */
-      .about {
-        background-color: white;
-      }
-
-      .about-container {
-        display: flex;
-        align-items: center;
-        gap: 50px;
-      }
-
-      .about-image {
-        flex: 1;
-        text-align: center;
-      }
-
-      .about-image img {
-        max-width: 100%;
-        border-radius: 10px;
-        box-shadow: var(--shadow);
-      }
-
-      .about-content {
-        flex: 1;
-      }
-
-      .skills {
-        margin-top: 30px;
-      }
-
-      .skill-item {
-        margin-bottom: 20px;
-      }
-
-      .skill-name {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 5px;
-      }
-
-      .skill-bar {
-        height: 8px;
-        background-color: #ecf0f1;
-        border-radius: 4px;
-        overflow: hidden;
-      }
-
-      .skill-progress {
-        height: 100%;
-        background-color: var(--secondary);
-        border-radius: 4px;
-      }
-
-      /* Contact Section */
-      .contact {
-        background-color: var(--primary);
-        color: white;
-      }
-
-      .contact h2 {
-        color: white;
-      }
-
-      .contact h2::after {
-        background-color: white;
-      }
-
-      .contact p {
-        color: var(--light);
-        text-align: center;
-        max-width: 700px;
-        margin: 0 auto 50px;
-      }
-
-      .contact-container {
-        display: flex;
-        gap: 50px;
-      }
-
-      .contact-info {
-        flex: 1;
-      }
-
-      .contact-item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 25px;
-      }
-
-      .contact-icon {
-        width: 50px;
-        height: 50px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 15px;
-      }
-
-      .contact-form {
-        flex: 1;
-      }
-
-      .form-group {
-        margin-bottom: 20px;
-      }
-
-      .form-control {
-        width: 100%;
-        padding: 12px 15px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        border-radius: 5px;
-        color: white;
-        font-family: inherit;
-      }
-
-      .form-control::placeholder {
-        color: rgba(255, 255, 255, 0.7);
-      }
-
-      textarea.form-control {
-        min-height: 150px;
-        resize: vertical;
-      }
-
-      .contact .btn {
-        background-color: white;
-        color: var(--primary);
-      }
-
-      .contact .btn:hover {
-        background-color: var(--secondary);
-        color: white;
-      }
-
-      .form-status {
-        margin-top: 15px;
-        padding: 10px;
-        border-radius: 5px;
-        text-align: center;
-        font-weight: 600;
-        display: none;
-      }
-
-      .form-status.success {
-        background-color: #d4edda;
-        color: #155724;
-        border: 1px solid #c3e6cb;
-        display: block;
-      }
-
-      .form-status.error {
-        background-color: #f8d7da;
-        color: #721c24;
-        border: 1px solid #f5c6cb;
-        display: block;
-      }
-
-      /* Footer */
-      footer {
-        background-color: #1a252f;
-        color: white;
-        padding: 50px 0 20px;
-      }
-
-      .footer-content {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 40px;
-      }
-
-      .footer-logo {
-        font-size: 1.8rem;
-        font-weight: 700;
-        margin-bottom: 15px;
-      }
-
-      .footer-links {
-        display: flex;
-        gap: 30px;
-      }
-
-      .footer-links-column h4 {
-        color: white;
-        margin-bottom: 20px;
-      }
-
-      .footer-links-column ul {
-        list-style: none;
-      }
-
-      .footer-links-column li {
-        margin-bottom: 10px;
-      }
-
-      .footer-links-column a {
-        color: var(--gray);
-        text-decoration: none;
-        transition: var(--transition);
-      }
-
-      .footer-links-column a:hover {
-        color: white;
-      }
-
-      .social-links {
-        display: flex;
-        gap: 15px;
+      .hero-visual {
         margin-top: 20px;
       }
 
-      .social-link {
-        width: 40px;
-        height: 40px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: var(--transition);
-      }
-
-      .social-link:hover {
-        background-color: var(--secondary);
-        transform: translateY(-3px);
-      }
-
-      .copyright {
+      .app-container {
+        grid-template-columns: 1fr;
         text-align: center;
-        padding-top: 20px;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        color: var(--gray);
-        font-size: 0.9rem;
       }
 
-      /* Responsive Styles */
-      @media (max-width: 992px) {
-        .app-container,
-        .about-container,
-        .contact-container {
-          flex-direction: column;
-        }
-
-        .app-image,
-        .about-image {
-          margin-bottom: 30px;
-        }
-
-        .footer-content {
-          flex-direction: column;
-          gap: 30px;
-        }
+      .app-content .section-title,
+      .app-content .section-label {
+        text-align: center;
       }
 
-      @media (max-width: 768px) {
-        .nav-links {
-          position: fixed;
-          top: 70px;
-          left: 0;
-          width: 100%;
-          background-color: white;
-          flex-direction: column;
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-          padding: 20px 0;
-          z-index: 999;
-          opacity: 0;
-          visibility: hidden;
-          transform: translateY(-20px);
-          transition: all 0.3s ease;
-        }
-
-        .nav-links.active {
-          display: flex;
-          opacity: 1;
-          visibility: visible;
-          transform: translateY(0);
-        }
-
-        .nav-links li {
-          margin: 0;
-          text-align: center;
-          padding: 10px 0;
-          border-bottom: 1px solid #f0f0f0;
-        }
-
-        .nav-links li:last-child {
-          border-bottom: none;
-        }
-
-        .nav-links a {
-          display: block;
-          padding: 15px 20px;
-          font-size: 1.1rem;
-          transition: var(--transition);
-        }
-
-        .nav-links a:hover {
-          background-color: var(--light);
-          color: var(--secondary);
-        }
-
-        .mobile-menu {
-          display: block;
-        }
-
-        h1 {
-          font-size: 2.5rem;
-        }
-
-        h2 {
-          font-size: 2rem;
-        }
-
-        .hero-btns {
-          flex-direction: column;
-          align-items: center;
-        }
-
-        .project-filters {
-          flex-direction: column;
-          align-items: center;
-        }
+      .app-features {
+        align-items: start;
+        max-width: 400px;
+        margin: 0 auto 32px;
       }
-    </style>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <nav class="navbar">
+
+      .app-badges {
+        justify-content: center;
+        display: flex;
+      }
+
+      .about-container {
+        grid-template-columns: 1fr;
+      }
+
+      .about-avatar-card {
+        position: relative;
+        top: 0;
+        max-width: 320px;
+        margin: 0 auto;
+      }
+
+      .about-content .section-title,
+      .about-content .section-label {
+        text-align: center;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        position: fixed;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: rgba(15, 12, 41, 0.95);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        padding: 20px;
+        gap: 4px;
+        border-bottom: 1px solid var(--glass-border);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+      }
+
+      .nav-links.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .nav-links a {
+        padding: 12px 16px;
+        font-size: 1rem;
+        border-radius: 10px;
+      }
+
+      .mobile-menu {
+        display: block;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Animated Background -->
+  <div class="animated-bg">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">antonnie.dev</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#featured-app">Featured App</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="recruitment/" class="nav-recruit-btn"><i class="fas fa-users"></i> Hire Talent</a></li>
+        </ul>
+        <div class="mobile-menu" id="mobileMenu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fas fa-circle"></i>
+            Available for opportunities
+          </div>
+          <h1>Hi, I'm <span>Ajith Antony George</span></h1>
+          <p class="hero-desc">
+            Software Engineer &amp; Mobile App Developer passionate about building
+            innovative digital solutions. From enterprise Java systems to Play Store apps —
+            I turn ideas into reality.
+          </p>
+          <div class="hero-btns">
+            <a href="#featured-app" class="btn-primary">
+              <i class="fas fa-rocket"></i> View My App
+            </a>
+            <a href="#projects" class="btn-glass">
+              <i class="fas fa-code"></i> See Projects
+            </a>
+            <a href="recruitment/" class="btn-glass">
+              <i class="fas fa-users"></i> Hire Talent
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">4+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Projects Shipped</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">1k+</div>
+              <div class="stat-label">App Downloads</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-avatar">👨‍💻</div>
+            <div class="hero-card-name">Ajith Antony George</div>
+            <div class="hero-card-role">Software Engineer · Mobile Dev</div>
+            <div class="tech-chips">
+              <span class="tech-chip">Java</span>
+              <span class="tech-chip">Android</span>
+              <span class="tech-chip">Flutter</span>
+              <span class="tech-chip">Spring Boot</span>
+              <span class="tech-chip">React</span>
+              <span class="tech-chip">AWS</span>
+            </div>
+            <div class="hero-card-stats">
+              <div class="mini-stat">
+                <div class="mini-stat-num">UST</div>
+                <div class="mini-stat-lbl">Current Employer</div>
+              </div>
+              <div class="mini-stat">
+                <div class="mini-stat-num">🇮🇳</div>
+                <div class="mini-stat-lbl">Kerala, India</div>
+              </div>
+              <div class="mini-stat">
+                <div class="mini-stat-num">Play</div>
+                <div class="mini-stat-lbl">App on Store</div>
+              </div>
+              <div class="mini-stat">
+                <div class="mini-stat-num">Open</div>
+                <div class="mini-stat-lbl">To Collaborate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured App Section -->
+  <section id="featured-app" class="featured-app">
+    <div class="container">
+      <div class="app-container">
+        <div class="app-image-wrapper">
+          <div class="app-image-glow"></div>
+          <div class="app-image">
+            <img src="logo/app-logo.png" alt="Padlock Puzzle App" />
+          </div>
+        </div>
+        <div class="app-content">
+          <span class="section-label">Featured Mobile App</span>
+          <h2 class="section-title">Padlock Puzzle</h2>
+          <p class="app-desc">
+            A challenging and addictive puzzle game that tests your problem-solving
+            skills with various lock mechanisms and brain-teasing challenges.
+            Built with Flutter, available on Google Play Store.
+          </p>
+          <ul class="app-features">
+            <li><i class="fas fa-check"></i> Multiple difficulty levels</li>
+            <li><i class="fas fa-check"></i> Intuitive touch controls</li>
+            <li><i class="fas fa-check"></i> Daily challenges and rewards</li>
+            <li><i class="fas fa-check"></i> No ads in premium version</li>
+            <li><i class="fas fa-check"></i> Regular content updates</li>
+          </ul>
+          <a href="https://play.google.com/store/apps/details?id=com.antonnie.padlock_puzzle" target="_blank">
+            <img src="logo/get-it-on-google-play.png" alt="Get on Google Play" class="app-badge-img" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">A selection of work spanning mobile apps and enterprise software.</p>
+      </div>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        <button class="filter-btn" data-filter="office">Office Projects</button>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Padlock Puzzle -->
+        <div class="project-card" data-category="mobile">
+          <div class="project-img">
+            <img src="logo/proj1-logo.jpg" alt="Padlock Puzzle" />
+          </div>
+          <div class="project-info">
+            <h3>Padlock Puzzle</h3>
+            <p>A challenging puzzle game with various lock mechanisms. Available on Google Play Store with thousands of
+              downloads and positive reviews.</p>
+            <div class="project-tags">
+              <span class="project-tag">Android</span>
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Dart</span>
+              <span class="project-tag">AI</span>
+              <span class="project-tag">Game Dev</span>
+              <span class="project-tag">Vibe Coding</span>
+            </div>
+            <a href="padlockpuzzle/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- iCargo NEO -->
+        <div class="project-card" data-category="office">
+          <div class="project-img">
+            <img src="logo/icargo-neo.jpg" alt="iCargo NEO Application" />
+          </div>
+          <div class="project-info">
+            <h3>iCargo NEO</h3>
+            <p>A comprehensive cargo management web application developed for IBS Software. Streamlines cargo operations
+              with advanced tracking, booking, and management features.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Microservices</span>
+              <span class="project-tag">Kafka</span>
+              <span class="project-tag">Postgres</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- UCM -->
+        <div class="project-card" data-category="office">
+          <div class="project-img">
+            <img src="logo/ucm-logo.jpg" alt="Unified Cloud Management" />
+          </div>
+          <div class="project-info">
+            <h3>Unified Cloud Management</h3>
+            <p>A cloud management platform developed at UST, providing unified management of multi-cloud environments
+              with monitoring, automation, and security features.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">AWS</span>
+              <span class="project-tag">Azure</span>
+              <span class="project-tag">GCP</span>
+              <span class="project-tag">Elastic Search</span>
+              <span class="project-tag">Redis</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-container">
+        <div class="about-image-wrapper">
+          <div class="about-avatar-card">
+            <div class="about-avatar">
+              <img src="logo/my-dp.png" alt="Ajith Antony George" />
+            </div>
+            <div class="about-avatar-name">Ajith Antony George</div>
+            <div class="about-avatar-role">Software Engineer &amp; Mobile Dev</div>
+            <div class="about-social-links">
+              <a href="https://www.linkedin.com/in/ajithantonnie17" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/an_tonn.ie/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="mailto:antonnie.dev@gmail.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.antonnie.padlock_puzzle" target="_blank"
+                class="social-icon">
+                <i class="fab fa-google-play"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Mobile App Developer &amp; Software Engineer</h2>
+          <div class="about-bio">
+            <p>Hello! I'm Ajith Antony George, a passionate software developer with expertise in Java Backend
+              Development, Mobile application development, and Enterprise software solutions.</p>
+            <p>With a strong foundation in Java, Android development, and modern web technologies, I create digital
+              solutions that solve real-world problems. My Play Store app "Padlock Puzzle" showcases my ability to
+              develop engaging user experiences.</p>
+            <p>Currently working at IBS Software on the iCargo NEO project, and previously contributed to the Unified
+              Cloud Management platform at UST. When I'm not coding, I enjoy exploring new technologies and staying
+              updated with the latest trends in software development.</p>
+          </div>
+          <div class="skills-section">
+            <div class="skills-title">Technical Skills</div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Java &amp; Android</span><span class="skill-percent">90%</span></div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Mobile App Development</span><span class="skill-percent">85%</span></div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Web Development</span><span class="skill-percent">80%</span></div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>UI/UX Design</span><span class="skill-percent">75%</span></div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+          <a href="https://www.linkedin.com/in/ajithantonnie17" target="_blank" class="btn-primary"
+            style="margin-top:32px;display:inline-flex;">
+            <i class="fab fa-linkedin-in"></i> View LinkedIn Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Have a project in mind or want to discuss potential opportunities? Feel free to
+          reach out!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <div class="contact-item">
+            <div class="contact-icon-wrap"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>antonnie.dev@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Kerala, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-wrap"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 70129 57653</p>
+            </div>
+          </div>
+          <div>
+            <h4 style="color:var(--text-muted);font-size:0.85rem;font-weight:500;margin-bottom:12px;">Follow Me</h4>
+            <div class="contact-social">
+              <a href="https://www.linkedin.com/in/ajithantonnie17" target="_blank" class="social-icon"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/an_tonn.ie/" target="_blank" class="social-icon"><i
+                  class="fab fa-instagram"></i></a>
+              <a href="https://play.google.com/store/apps/details?id=com.antonnie.padlock_puzzle" target="_blank"
+                class="social-icon"><i class="fab fa-google-play"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <div class="form-title">Send a Message</div>
+          <div class="form-subtitle">I'll get back to you as soon as possible.</div>
+          <form id="contactForm">
+            <div class="form-group-light">
+              <input type="text" id="name" name="name" class="form-control-light" placeholder="Your Name" required />
+            </div>
+            <div class="form-group-light">
+              <input type="email" id="email" name="email" class="form-control-light" placeholder="Your Email"
+                required />
+            </div>
+            <div class="form-group-light">
+              <input type="text" id="subject" name="subject" class="form-control-light" placeholder="Subject" />
+            </div>
+            <div class="form-group-light">
+              <textarea id="message" name="message" class="form-control-light" placeholder="Your Message"
+                required></textarea>
+            </div>
+            <button type="submit" id="submitBtn" class="submit-btn-main">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
           <a href="#" class="logo">antonnie.dev</a>
-          <ul class="nav-links">
+          <p class="footer-tagline">Software Engineer &amp; Mobile App Developer building innovative digital solutions
+            from Kerala, India.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#featured-app">Featured App</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <div class="mobile-menu">
-            <i class="fas fa-bars"></i>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="container">
-        <h1>Hi, I'm Ajith Antony George</h1>
-        <p>
-          Software Engineer & Mobile App Developer passionate about creating
-          innovative digital solutions that make a difference.
-        </p>
-        <div class="hero-btns">
-          <a href="#featured-app" class="btn">View My App</a>
-          <a href="#projects" class="btn btn-outline">See Projects</a>
+        </div>
+        <div class="footer-col">
+          <h4>Projects</h4>
+          <ul>
+            <li><a href="#projects">Padlock Puzzle</a></li>
+            <li><a href="#projects">iCargo NEO</a></li>
+            <li><a href="#projects">Unified Cloud Mgmt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/ajithantonnie17" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/an_tonn.ie/" target="_blank">Instagram</a></li>
+            <li><a href="recruitment/">Hire Talent</a></li>
+          </ul>
         </div>
       </div>
-    </section>
-
-    <!-- Featured App Section -->
-    <section id="featured-app" class="featured-app">
-      <div class="container">
-        <h2>Featured App</h2>
-        <div class="app-container">
-          <div class="app-image">
-            <img src="logo/app-logo.png" alt="Padlock Puzzle App" />
-          </div>
-          <div class="app-content">
-            <h3>Padlock Puzzle</h3>
-            <p>
-              A challenging and addictive puzzle game that tests your
-              problem-solving skills with various lock mechanisms and
-              brain-teasing challenges.
-            </p>
-            <ul class="app-features">
-              <li><i class="fas fa-check"></i> Multiple difficulty levels</li>
-              <li><i class="fas fa-check"></i> Intuitive touch controls</li>
-              <li><i class="fas fa-check"></i> Daily challenges and rewards</li>
-              <li><i class="fas fa-check"></i> No ads in premium version</li>
-              <li><i class="fas fa-check"></i> Regular content updates</li>
-            </ul>
-            <div class="app-badges">
-              <a
-                href="https://play.google.com/store/apps/details?id=com.antonnie.padlock_puzzle"
-                class="app-badge"
-              >
-                <img
-                  src="logo/get-it-on-google-play.png"
-                  alt="Get on Google Play"
-                />
-              </a>
-            </div>
-          </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2025 antonnie.dev · All Rights Reserved.</span>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/ajithantonnie17" target="_blank" class="social-icon"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/an_tonn.ie/" target="_blank" class="social-icon"><i
+              class="fab fa-instagram"></i></a>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <div class="container">
-        <h2>My Projects</h2>
-        <div class="project-filters">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
-          <button class="filter-btn" data-filter="office">
-            Office Projects
-          </button>
-        </div>
-        <div class="projects-grid">
-          <!-- Project 1 - Padlock Puzzle -->
-          <div class="project-card" data-category="mobile">
-            <div class="project-img">
-              <img src="logo/proj1-logo.jpg" alt="Padlock Puzzle" />
-            </div>
-            <div class="project-info">
-              <h3>Padlock Puzzle</h3>
-              <p>
-                A challenging puzzle game with various lock mechanisms and
-                brain-teasing challenges. Available on Google Play Store with
-                thousands of downloads and positive reviews.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">Android</span>
-                <span class="project-tag">Flutter</span>
-                <span class="project-tag">Dart</span>
-                <span class="project-tag">AI</span>
-                <span class="project-tag">Game Development</span>
-                <span class="project-tag">Vibe Coding</span>
-              </div>
-              <div style="text-align: center; margin-top: 15px">
-                <a href="padlockpuzzle/" class="btn btn-outline"> View </a>
-              </div>
-            </div>
-          </div>
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-          <!-- Project 2 - iCargo NEO -->
-          <div class="project-card" data-category="office">
-            <div class="project-img">
-              <img src="logo/icargo-neo.jpg" alt="iCargo NEO Application" />
-            </div>
-            <div class="project-info">
-              <h3>iCargo NEO</h3>
-              <p>
-                A comprehensive cargo management web application developed for
-                IBS Software. Streamlines cargo operations with advanced
-                tracking, booking, and management features.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">Java</span>
-                <span class="project-tag">Spring Boot</span>
-                <span class="project-tag">React</span>
-                <span class="project-tag">Microservices</span>
-                <span class="project-tag">Kafka</span>
-                <span class="project-tag">Jira</span>
-                <span class="project-tag">Agile</span>
-                <span class="project-tag">Postgres</span>
-              </div>
-            </div>
-          </div>
+  <script>
+    // Mobile Menu
+    const mobileMenu = document.getElementById('mobileMenu');
+    const navLinks = document.getElementById('navLinks');
+    mobileMenu.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      mobileMenu.querySelector('i').classList.toggle('fa-bars');
+      mobileMenu.querySelector('i').classList.toggle('fa-times');
+    });
 
-          <!-- Project 3 - Unified Cloud Management -->
-          <div class="project-card" data-category="office">
-            <div class="project-img">
-              <img src="logo/ucm-logo.jpg" alt="Unified Cloud Management" />
-            </div>
-            <div class="project-info">
-              <h3>Unified Cloud Management</h3>
-              <p>
-                A cloud management platform developed at UST, providing unified
-                management of multi-cloud environments with monitoring,
-                automation, and security features.
-              </p>
-              <div class="project-tags">
-                <span class="project-tag">Java</span>
-                <span class="project-tag">AWS</span>
-                <span class="project-tag">Azure</span>
-                <span class="project-tag">GCP</span>
-                <span class="project-tag">Elastic Search</span>
-                <span class="project-tag">Redis</span>
-                <span class="project-tag">Postman</span>
-                <span class="project-tag">Postgres</span>
-                <span class="project-tag">REST APIs</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    // Smooth scroll + close menu
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          window.scrollTo({ top: target.offsetTop - 72, behavior: 'smooth' });
+          navLinks.classList.remove('active');
+        }
+      });
+    });
 
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <h2>About Me</h2>
-        <div class="about-container">
-          <div class="about-image">
-            <img src="logo/my-dp.png" alt="Antonnie" />
-          </div>
-          <div class="about-content">
-            <h3>Mobile App Developer & Software Engineer</h3>
-            <p>
-              Hello! I'm Ajith Antony George, a passionate software developer
-              with expertise in Java Backend Development , Mobile application
-              development and Enterprise software solutions.
-            </p>
-            <p>
-              With a strong foundation in Java, Android development, and modern
-              web technologies, I create digital solutions that solve real-world
-              problems. My Play Store app "Padlock Puzzle" showcases my ability
-              to develop engaging user experiences.
-            </p>
-            <p>
-              Currently working at IBS Software on the iCargo NEO project, and
-              previously contributed to the Unified Cloud Management platform at
-              UST. When I'm not coding, I enjoy exploring new technologies,
-              contributing to android applications, and staying updated with the
-              latest trends in software development.
-            </p>
-
-            <div class="skills">
-              <div class="skill-item">
-                <div class="skill-name">
-                  <span>Java & Android</span>
-                  <span>90%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" style="width: 90%"></div>
-                </div>
-              </div>
-
-              <div class="skill-item">
-                <div class="skill-name">
-                  <span>Mobile App Development</span>
-                  <span>85%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" style="width: 85%"></div>
-                </div>
-              </div>
-
-              <div class="skill-item">
-                <div class="skill-name">
-                  <span>Web Development</span>
-                  <span>80%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" style="width: 80%"></div>
-                </div>
-              </div>
-
-              <div class="skill-item">
-                <div class="skill-name">
-                  <span>UI/UX Design</span>
-                  <span>75%</span>
-                </div>
-                <div class="skill-bar">
-                  <div class="skill-progress" style="width: 75%"></div>
-                </div>
-              </div>
-            </div>
-
-            <a
-              href="https://www.linkedin.com/in/ajithantonnie17"
-              target="_blank"
-              class="btn"
-              style="margin-top: 30px"
-              >View LinkedIn Profile</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Get In Touch</h2>
-        <p>
-          Have a project in mind or want to discuss potential opportunities?
-          Feel free to reach out!
-        </p>
-
-        <div class="contact-container">
-          <div class="contact-info">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div>
-                <h4>Email</h4>
-                <p>antonnie.dev@gmail.com</p>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div>
-                <h4>Location</h4>
-                <p>Kerala, India</p>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div>
-                <h4>Phone</h4>
-                <p>+91 70129 57653</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a
-                href="https://www.linkedin.com/in/ajithantonnie17"
-                class="social-link"
-                target="_blank"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/an_tonn.ie/"
-                class="social-link"
-                target="_blank"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="contact-form">
-            <form id="contactForm">
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  class="form-control"
-                  placeholder="Your Name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="form-control"
-                  placeholder="Your Email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  class="form-control"
-                  placeholder="Subject"
-                />
-              </div>
-              <div class="form-group">
-                <textarea
-                  id="message"
-                  name="message"
-                  class="form-control"
-                  placeholder="Your Message"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" id="submitBtn" class="btn">
-                Send Message
-              </button>
-              <div id="formStatus" class="form-status"></div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div>
-            <div class="footer-logo">antonnie.dev</div>
-            <p>Software Engineer & Mobile App Developer</p>
-          </div>
-
-          <div class="footer-links">
-            <div class="footer-links-column">
-              <h4>Quick Links</h4>
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#featured-app">Featured App</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-links-column">
-              <h4>Projects</h4>
-              <ul>
-                <li><a href="#projects">Padlock Puzzle</a></li>
-                <li><a href="#projects">iCargo NEO</a></li>
-                <li><a href="#projects">Unified Cloud Management</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-links-column">
-              <h4>Connect</h4>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/ajithantonnie17"
-                    target="_blank"
-                    >LinkedIn</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/an_tonn.ie/">Instagram</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="copyright">
-          <p>&copy; 2025 antonnie.dev All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-      // Mobile Menu Toggle
-      document
-        .querySelector(".mobile-menu")
-        .addEventListener("click", function () {
-          document.querySelector(".nav-links").classList.toggle("active");
+    // Project Filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+        projectCards.forEach(card => {
+          const match = filter === 'all' || card.getAttribute('data-category') === filter;
+          card.style.display = match ? 'block' : 'none';
         });
+      });
+    });
 
-      // Project Filtering
-      const filterButtons = document.querySelectorAll(".filter-btn");
-      const projectCards = document.querySelectorAll(".project-card");
-
-      filterButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-          // Remove active class from all buttons
-          filterButtons.forEach((btn) => btn.classList.remove("active"));
-          // Add active class to clicked button
-          button.classList.add("active");
-
-          const filterValue = button.getAttribute("data-filter");
-
-          projectCards.forEach((card) => {
-            if (
-              filterValue === "all" ||
-              card.getAttribute("data-category") === filterValue
-            ) {
-              card.style.display = "block";
-            } else {
-              card.style.display = "none";
-            }
+    // Skill bar animation on scroll
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bars = entry.target.querySelectorAll('.skill-progress');
+          bars.forEach(bar => {
+            bar.style.width = bar.getAttribute('data-width') + '%';
           });
-        });
+          skillObserver.unobserve(entry.target);
+        }
       });
+    }, { threshold: 0.3 });
+    const skillSection = document.querySelector('.skills-section');
+    if (skillSection) skillObserver.observe(skillSection);
 
-      // Smooth scrolling for navigation links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
+    // EmailJS Contact Form
+    document.addEventListener('DOMContentLoaded', function () {
+      emailjs.init('xdRpHhUaGknIe4fXG');
+      const contactForm = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const formStatus = document.getElementById('formStatus');
 
-          const targetId = this.getAttribute("href");
-          if (targetId === "#") return;
-
-          const targetElement = document.querySelector(targetId);
-          if (targetElement) {
-            window.scrollTo({
-              top: targetElement.offsetTop - 80,
-              behavior: "smooth",
-            });
-
-            // Close mobile menu if open
-            document.querySelector(".nav-links").classList.remove("active");
-          }
-        });
-      });
-
-      // EmailJS Integration for Contact Form
-      document.addEventListener("DOMContentLoaded", function () {
-        // Initialize EmailJS with your public key
-        emailjs.init("xdRpHhUaGknIe4fXG"); // Replace with your actual EmailJS public key
-
-        const contactForm = document.getElementById("contactForm");
-        const submitBtn = document.getElementById("submitBtn");
-        const formStatus = document.getElementById("formStatus");
-
-        contactForm.addEventListener("submit", function (e) {
-          e.preventDefault();
-
-          // Get form values
-          const name = document.getElementById("name").value;
-          const email = document.getElementById("email").value;
-          const subject = document.getElementById("subject").value;
-          const message = document.getElementById("message").value;
-
-          // Disable submit button and show loading state
-          submitBtn.disabled = true;
-          submitBtn.innerHTML =
-            '<i class="fas fa-spinner fa-spin"></i> Sending...';
-
-          // Prepare email parameters
-          const templateParams = {
-            from_name: name,
-            from_email: email,
-            subject: subject || "Message from antonnie.dev contact form",
-            message: message,
-            to_email: "antonnie.dev@gmail.com", // Your email address
-            // Additional common template variables
-            user_name: name,
-            user_email: email,
-            user_message: message,
-            reply_to: email,
-          };
-
-          // Send email using EmailJS
-          emailjs
-            .send("service_cmtfkfy", "template_adt0ywe", templateParams)
-            .then(
-              function (response) {
-                // Success message
-                formStatus.textContent =
-                  "Thank you! Your message has been sent successfully.";
-                formStatus.className = "form-status success";
-                contactForm.reset();
-              },
-              function (error) {
-                // Error message
-                formStatus.textContent =
-                  "Sorry, there was an error sending your message. Please try again later.";
-                formStatus.className = "form-status error";
-                console.error("EmailJS Error:", error);
-              }
-            )
-            .finally(function () {
-              // Re-enable submit button
-              submitBtn.disabled = false;
-              submitBtn.innerHTML = "Send Message";
-            });
-        });
-      });
-
-      // Alternative: Simple form submission using Formspree (easier setup)
-      // Uncomment this section and remove the EmailJS section above if you prefer Formspree
-      /*
-      document.getElementById('contactForm').addEventListener('submit', function(e) {
+      contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
-        
-        const submitBtn = document.getElementById('submitBtn');
-        const formStatus = document.getElementById('formStatus');
-        
-        // Disable submit button and show loading state
         submitBtn.disabled = true;
         submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-        
-        // Get form data
-        const formData = new FormData(this);
-        
-        // Send to Formspree
-        fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
-          method: 'POST',
-          body: formData,
-          headers: {
-            'Accept': 'application/json'
-          }
-        })
-        .then(response => {
-          if (response.ok) {
-            formStatus.textContent = 'Thank you! Your message has been sent successfully.';
-            formStatus.className = 'form-status success';
-            this.reset();
-          } else {
-            throw new Error('Form submission failed');
-          }
-        })
-        .catch(error => {
-          formStatus.textContent = 'Sorry, there was an error sending your message. Please try again later.';
-          formStatus.className = 'form-status error';
-          console.error('Formspree Error:', error);
-        })
-        .finally(() => {
-          // Re-enable submit button
-          submitBtn.disabled = false;
-          submitBtn.innerHTML = 'Send Message';
-        });
-      });
-      */
-    </script>
 
-    <!-- EmailJS SDK (required for EmailJS functionality) -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-  </body>
+        const templateParams = {
+          from_name: document.getElementById('name').value,
+          from_email: document.getElementById('email').value,
+          subject: document.getElementById('subject').value || 'Message from antonnie.dev contact form',
+          message: document.getElementById('message').value,
+          to_email: 'antonnie.dev@gmail.com',
+          reply_to: document.getElementById('email').value,
+        };
+
+        emailjs.send('service_cmtfkfy', 'template_adt0ywe', templateParams)
+          .then(() => {
+            formStatus.textContent = '✓ Thank you! Your message has been sent successfully.';
+            formStatus.className = 'form-status success';
+            contactForm.reset();
+          })
+          .catch(err => {
+            formStatus.textContent = 'Sorry, there was an error. Please try again later.';
+            formStatus.className = 'form-status error';
+            console.error('EmailJS Error:', err);
+          })
+          .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+          });
+      });
+    });
+  </script>
+</body>
+
 </html>
