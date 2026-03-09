@@ -687,6 +687,7 @@
       align-items: center;
       gap: 4px;
     }
+
     .field-hint i {
       font-size: 0.7rem;
       color: var(--gray);
@@ -860,9 +861,10 @@
               <label for="firstName">
                 First Name <span class="required">*</span>
               </label>
-              <input type="text" id="firstName" name="firstName" class="form-control" placeholder="e.g. Ajith"
-                required autocomplete="given-name" />
-              <div class="field-hint"><i class="fas fa-info-circle"></i> Letters only, 2–50 characters. No numbers.</div>
+              <input type="text" id="firstName" name="firstName" class="form-control" placeholder="e.g. Alpha" required
+                autocomplete="given-name" />
+              <div class="field-hint"><i class="fas fa-info-circle"></i> Letters only, 2–50 characters. No numbers.
+              </div>
               <div class="error-message" id="firstNameError">Please enter a valid first name</div>
             </div>
 
@@ -870,9 +872,10 @@
               <label for="lastName">
                 Last Name <span class="required">*</span>
               </label>
-              <input type="text" id="lastName" name="lastName" class="form-control" placeholder="e.g. George"
-                required autocomplete="family-name" />
-              <div class="field-hint"><i class="fas fa-info-circle"></i> Letters only, 2–50 characters. No numbers.</div>
+              <input type="text" id="lastName" name="lastName" class="form-control" placeholder="e.g. Beta" required
+                autocomplete="family-name" />
+              <div class="field-hint"><i class="fas fa-info-circle"></i> Letters only, 2–50 characters. No numbers.
+              </div>
               <div class="error-message" id="lastNameError">Please enter a valid last name</div>
             </div>
           </div>
@@ -882,8 +885,10 @@
             <label for="email">
               Email Address <span class="required">*</span>
             </label>
-            <input type="email" id="email" name="email" class="form-control" placeholder="e.g. name@gmail.com" required autocomplete="email" />
-            <div class="field-hint"><i class="fas fa-info-circle"></i> Must include @ and a valid domain (e.g. gmail.com).</div>
+            <input type="email" id="email" name="email" class="form-control" placeholder="e.g. name@gmail.com" required
+              autocomplete="email" />
+            <div class="field-hint"><i class="fas fa-info-circle"></i> Must include @ and a valid domain (e.g.
+              gmail.com).</div>
             <div class="error-message" id="emailError">Please enter a valid email address</div>
           </div>
 
@@ -894,7 +899,8 @@
                 Date of Birth <span class="required">*</span>
               </label>
               <input type="date" id="dob" name="dob" class="form-control" required />
-              <div class="field-hint"><i class="fas fa-info-circle"></i> Candidate must be between 16 and 100 years old.</div>
+              <div class="field-hint"><i class="fas fa-info-circle"></i> Candidate must be between 16 and 100 years old.
+              </div>
               <div class="error-message" id="dobError">Please select a valid date of birth</div>
             </div>
 
@@ -902,8 +908,10 @@
               <label for="mobile">
                 Mobile Number <span class="required">*</span>
               </label>
-              <input type="tel" id="mobile" name="mobile" class="form-control" placeholder="e.g. 9876543210 or +91 9876543210" required autocomplete="tel" inputmode="tel" />
-              <div class="field-hint"><i class="fas fa-info-circle"></i> Indian mobile number starting with 6–9 (10 digits). +91 optional.</div>
+              <input type="tel" id="mobile" name="mobile" class="form-control"
+                placeholder="e.g. 9876543210 or +91 9876543210" required autocomplete="tel" inputmode="tel" />
+              <div class="field-hint"><i class="fas fa-info-circle"></i> Indian mobile number starting with 6–9 (10
+                digits). +91 optional.</div>
               <div class="error-message" id="mobileError">Please enter a valid Indian mobile number</div>
             </div>
           </div>
