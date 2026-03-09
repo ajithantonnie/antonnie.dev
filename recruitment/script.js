@@ -163,11 +163,12 @@ function validateDate(dateString) {
   return date >= minAge && date <= maxAge;
 }
 
-function showError(fieldId, errorId) {
+function showError(fieldId, errorId, message) {
   const field = document.getElementById(fieldId);
   const error = document.getElementById(errorId);
   field.classList.add('invalid');
   field.classList.remove('valid');
+  if (message) error.textContent = message;
   error.classList.add('show');
 }
 
@@ -179,7 +180,76 @@ function hideError(fieldId, errorId) {
   error.classList.remove('show');
 }
 
-// Real-time validation
+function clearFieldState(fieldId, errorId) {
+  const field = document.getElementById(fieldId);
+  const error = document.getElementById(errorId);
+  field.classList.remove('invalid', 'valid');
+  error.classList.remove('show');
+}
+
+// Returns a specific error message string, or null if valid
+function getNameError(value) {
+  const trimmed = value.trim();
+  if (!trimmed) return null; // empty — don't validate yet
+  if (trimmed.length < 2) return 'Name must be at least 2 characters.';
+  if (trimmed.length > 50) return 'Name must be 50 characters or fewer.';
+  if (/\d/.test(trimmed)) return 'Name must not contain numbers.';
+  if (!/^[a-zA-Z][a-zA-Z\s.\'\-]{1,50}$/.test(trimmed)) return 'Only letters, spaces, hyphens, apostrophes and dots are allowed.';
+  if (/[\s.\'\-]{2,}/.test(trimmed)) return 'Name must not have consecutive spaces or special characters.';
+  return null;
+}
+
+function getEmailError(value) {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  if (!trimmed.includes('@')) return 'Email must contain @.';
+  const [local, domain] = trimmed.split('@');
+  if (!domain) return 'Please enter a domain after @.';
+  if (!domain.includes('.')) return 'Domain must contain a dot (e.g. gmail.com).';
+  if (local.startsWith('.') || local.endsWith('.')) return 'Local part must not start or end with a dot.';
+  if (!/^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/.test(trimmed)) return 'Enter a valid email address.';
+  return null;
+}
+
+function getMobileError(value) {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  const cleaned = trimmed.replace(/[\s\-\(\)]/g, '');
+  if (!/^(\+91|91|0)?[0-9]+$/.test(cleaned)) return 'Only digits, +, spaces, and hyphens are allowed.';
+  if (!/^(\+91|91|0)?[6-9]\d{9}$/.test(cleaned)) return 'Must be a valid Indian mobile number starting with 6–9 (10 digits).';
+  return null;
+}
+
+function getDobError(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  const today = new Date();
+  const minAge = new Date(today.getFullYear() - 100, today.getMonth(), today.getDate());
+  const maxAge = new Date(today.getFullYear() - 16, today.getMonth(), today.getDate());
+  if (date > maxAge) return 'Candidate must be at least 16 years old.';
+  if (date < minAge) return 'Please enter a valid date of birth.';
+  return null;
+}
+
+// Validate and update UI for a field; returns true if valid
+function validateField(fieldId, errorId, getErrorFn) {
+  const field = document.getElementById(fieldId);
+  const value = field.value;
+  if (!value.trim()) {
+    clearFieldState(fieldId, errorId);
+    return false; // empty, not valid
+  }
+  const msg = getErrorFn(value);
+  if (msg) {
+    showError(fieldId, errorId, msg);
+    return false;
+  } else {
+    hideError(fieldId, errorId);
+    return true;
+  }
+}
+
+// Real-time + blur validation
 function setupValidation() {
   const firstName = document.getElementById('firstName');
   const lastName = document.getElementById('lastName');
@@ -188,43 +258,34 @@ function setupValidation() {
   const dob = document.getElementById('dob');
   const technology = document.getElementById('technology');
 
-  firstName.addEventListener('blur', () => {
-    if (firstName.value && !validateName(firstName.value)) {
-      showError('firstName', 'firstNameError');
-    } else if (firstName.value) {
-      hideError('firstName', 'firstNameError');
-    }
-  });
+  function addListeners(el, fieldId, errorId, getErrorFn) {
+    // On input: validate only if the field already has been touched
+    el.addEventListener('input', () => {
+      if (el.dataset.touched) validateField(fieldId, errorId, getErrorFn);
+    });
+    // On blur: mark as touched and always validate
+    el.addEventListener('blur', () => {
+      if (el.value.trim()) {
+        el.dataset.touched = '1';
+        validateField(fieldId, errorId, getErrorFn);
+      }
+    });
+  }
 
-  lastName.addEventListener('blur', () => {
-    if (lastName.value && !validateName(lastName.value)) {
-      showError('lastName', 'lastNameError');
-    } else if (lastName.value) {
-      hideError('lastName', 'lastNameError');
-    }
-  });
+  addListeners(firstName, 'firstName', 'firstNameError', getNameError);
+  addListeners(lastName, 'lastName', 'lastNameError', getNameError);
+  addListeners(email, 'email', 'emailError', getEmailError);
+  addListeners(mobile, 'mobile', 'mobileError', getMobileError);
 
-  email.addEventListener('blur', () => {
-    if (email.value && !validateEmail(email.value)) {
-      showError('email', 'emailError');
-    } else if (email.value) {
-      hideError('email', 'emailError');
-    }
+  // DOB: validate on change (date picker fires change, not input)
+  dob.addEventListener('change', () => {
+    dob.dataset.touched = '1';
+    validateField('dob', 'dobError', getDobError);
   });
-
-  mobile.addEventListener('blur', () => {
-    if (mobile.value && !validateIndianMobile(mobile.value)) {
-      showError('mobile', 'mobileError');
-    } else if (mobile.value) {
-      hideError('mobile', 'mobileError');
-    }
-  });
-
   dob.addEventListener('blur', () => {
-    if (dob.value && !validateDate(dob.value)) {
-      showError('dob', 'dobError');
-    } else if (dob.value) {
-      hideError('dob', 'dobError');
+    if (dob.value) {
+      dob.dataset.touched = '1';
+      validateField('dob', 'dobError', getDobError);
     }
   });
 
@@ -272,46 +333,51 @@ function handleFormSubmit(event) {
   const linkedinCompany = document.getElementById('linkedinCompany').checked;
   const linkedinProfile = document.getElementById('linkedinProfile').checked;
 
-  // Validate all fields
+  // Validate all fields using specific error functions
   let isValid = true;
 
-  if (!validateName(firstName)) {
-    showError('firstName', 'firstNameError');
+  const fnErr = getNameError(firstName);
+  if (!firstName || fnErr) {
+    showError('firstName', 'firstNameError', fnErr || 'First name is required.');
     isValid = false;
   } else {
     hideError('firstName', 'firstNameError');
   }
 
-  if (!validateName(lastName)) {
-    showError('lastName', 'lastNameError');
+  const lnErr = getNameError(lastName);
+  if (!lastName || lnErr) {
+    showError('lastName', 'lastNameError', lnErr || 'Last name is required.');
     isValid = false;
   } else {
     hideError('lastName', 'lastNameError');
   }
 
-  if (!validateEmail(email)) {
-    showError('email', 'emailError');
+  const emailErr = getEmailError(email);
+  if (!email || emailErr) {
+    showError('email', 'emailError', emailErr || 'Email address is required.');
     isValid = false;
   } else {
     hideError('email', 'emailError');
   }
 
-  if (!validateDate(dob)) {
-    showError('dob', 'dobError');
+  const dobErr = getDobError(dob);
+  if (!dob || dobErr) {
+    showError('dob', 'dobError', dobErr || 'Date of birth is required.');
     isValid = false;
   } else {
     hideError('dob', 'dobError');
   }
 
-  if (!validateIndianMobile(mobile)) {
-    showError('mobile', 'mobileError');
+  const mobileErr = getMobileError(mobile);
+  if (!mobile || mobileErr) {
+    showError('mobile', 'mobileError', mobileErr || 'Mobile number is required.');
     isValid = false;
   } else {
     hideError('mobile', 'mobileError');
   }
 
   if (!technology) {
-    showError('technology', 'technologyError');
+    showError('technology', 'technologyError', 'Please select a technology/role.');
     isValid = false;
   } else {
     hideError('technology', 'technologyError');
