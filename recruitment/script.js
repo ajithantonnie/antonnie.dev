@@ -15,7 +15,8 @@ const GOOGLE_SHEETS_CONFIG = {
     'Data Scientist',
     'Mobile App Developer',
     'QA Engineer',
-    'Cloud Architect'
+    'Cloud Architect',
+    'Other'
   ]
 };
 
@@ -55,7 +56,10 @@ async function loadTechnologyOptions() {
     const options = data.technologyOptions;
 
     if (options && options.length > 0) {
-      populateTechnologySelect(options);
+      // Ensure "Other" is always at the end
+      const withOther = options.filter(o => o !== 'Other');
+      withOther.push('Other');
+      populateTechnologySelect(withOther);
     } else {
       // Empty list from Sheets — fall back silently
       populateTechnologySelect(GOOGLE_SHEETS_CONFIG.fallbackTechnologyOptions);
@@ -296,6 +300,31 @@ function setupValidation() {
   });
 }
 
+// Show/hide "Other" text box based on dropdown selection
+function setupOtherTechnology() {
+  const technology = document.getElementById('technology');
+  const wrapper = document.getElementById('otherTechWrapper');
+  const otherInput = document.getElementById('otherTechnology');
+
+  technology.addEventListener('change', () => {
+    if (technology.value === 'Other') {
+      wrapper.classList.add('visible');
+      otherInput.required = true;
+      // Trigger validation once touched
+      otherInput.addEventListener('input', function onInput() {
+        if (otherInput.value.trim().length >= 2) {
+          hideError('otherTechnology', 'otherTechnologyError');
+        }
+      });
+    } else {
+      wrapper.classList.remove('visible');
+      otherInput.required = false;
+      otherInput.value = '';
+      clearFieldState('otherTechnology', 'otherTechnologyError');
+    }
+  });
+}
+
 // Submit form to Google Sheets
 async function submitToGoogleSheets(formData) {
   try {
@@ -330,6 +359,7 @@ function handleFormSubmit(event) {
   const dob = document.getElementById('dob').value;
   const mobile = document.getElementById('mobile').value.trim();
   const technology = document.getElementById('technology').value;
+  const otherTechnology = document.getElementById('otherTechnology').value.trim();
   const linkedinCompany = document.getElementById('linkedinCompany').checked;
   const linkedinProfile = document.getElementById('linkedinProfile').checked;
 
@@ -383,6 +413,16 @@ function handleFormSubmit(event) {
     hideError('technology', 'technologyError');
   }
 
+  // Validate custom tech input when Other is selected
+  if (technology === 'Other') {
+    if (!otherTechnology || otherTechnology.length < 2) {
+      showError('otherTechnology', 'otherTechnologyError', 'Please describe your technology/role (at least 2 characters).');
+      isValid = false;
+    } else {
+      hideError('otherTechnology', 'otherTechnologyError');
+    }
+  }
+
   if (!isValid) {
     showStatus('Please fix the errors before submitting.', 'error');
     return;
@@ -393,14 +433,15 @@ function handleFormSubmit(event) {
   submitBtn.classList.add('loading');
   submitBtn.disabled = true;
 
-  // Prepare form data
+  // Prepare form data — use typed value when Other is selected
+  const finalTechnology = technology === 'Other' ? `Other: ${otherTechnology}` : technology;
   const formData = {
     firstName,
     lastName,
     email,
     dob,
     mobile,
-    technology,
+    technology: finalTechnology,
     linkedinCompany: linkedinCompany ? 'Yes' : 'No',
     linkedinProfile: linkedinProfile ? 'Yes' : 'No',
     timestamp: new Date().toISOString()
@@ -414,6 +455,10 @@ function handleFormSubmit(event) {
 
       showStatus('✓ Referral submitted successfully! Thank you for your submission.', 'success');
       document.getElementById('referralForm').reset();
+
+      // Hide Other tech field and reset touched states
+      document.getElementById('otherTechWrapper').classList.remove('visible');
+      document.querySelectorAll('.form-control[data-touched]').forEach(f => delete f.dataset.touched);
 
       // Remove all validation classes
       document.querySelectorAll('.form-control').forEach(field => {
@@ -542,6 +587,7 @@ function setupProgressTracking() {
 document.addEventListener('DOMContentLoaded', () => {
   loadTechnologyOptions();
   setupValidation();
+  setupOtherTechnology();
   setupClickableCheckboxes();
   setupProgressTracking();
 

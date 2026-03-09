@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Join Our Team | Antonnie.dev</title>
+  <title>Find Your Career | Antonnie.dev</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -693,6 +693,21 @@
       color: var(--gray);
     }
 
+    /* Other technology reveal */
+    .other-tech-wrapper {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, opacity 0.25s ease, margin-top 0.3s ease;
+      opacity: 0;
+      margin-top: 0;
+    }
+
+    .other-tech-wrapper.visible {
+      max-height: 120px;
+      opacity: 1;
+      margin-top: 12px;
+    }
+
     /* Responsive Design */
     @media (max-width: 1024px) {
       .main-content {
@@ -927,6 +942,14 @@
             </select>
             <div class="error-message" id="technologyError">
               Please select a technology/role
+            </div>
+
+            <!-- Revealed when "Other" is selected -->
+            <div class="other-tech-wrapper" id="otherTechWrapper">
+              <input type="text" id="otherTechnology" name="otherTechnology" class="form-control"
+                placeholder="e.g. Kotlin, Node.js, Data Engineer…" autocomplete="off" />
+              <div class="field-hint"><i class="fas fa-info-circle"></i> Describe your technology stack or role.</div>
+              <div class="error-message" id="otherTechnologyError">Please describe your technology/role.</div>
             </div>
           </div>
 
