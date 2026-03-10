@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK warship HMS Dragon departs for eastern Mediterranean
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Villagers on Príncipe, the ‘African Galapagos’, to be paid for protecting the ecosystem
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Unexploded missile extracted from house in western Iran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanese priest killed by Israeli tank fire
-Added expanded search topic: Unexploded missile extracted from house in western Iran
-Added expanded search topic: Lebanese priest killed by Israeli tank fire
-Saved 51 topics for 2026-03-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US civil rights group documents ‘broad attack on Muslim life’ in 2025
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Around 140 US service members wounded in Iran war, Pentagon says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Aviation will feel effect for the rest of the year ‘even if conflict ends t
+Added expanded search topic: US civil rights group documents ‘broad attack on Muslim life’ in 2025
+Added expanded search topic: Around 140 US service members wounded in Iran war, Pentagon says
+Added expanded search topic: Aviation will feel effect for the rest of the year ‘even if conflict ends t
+Saved 54 topics for 2026-03-10
 Returning 3 unique trending topics:
-  1. Steve Rosenberg: Russia seeks diplomatic and economic gains from Iran war (from BBC News)
-  2. Unexploded missile extracted from house in western Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Lebanese priest killed by Israeli tank fire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US civil rights group documents ‘broad attack on Muslim life’ in 2025 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Around 140 US service members wounded in Iran war, Pentagon says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Aviation will feel effect for the rest of the year ‘even if conflict ends t (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Steve Rosenberg: Russia seeks diplomatic and economic gains from Iran war
-Searching Google for: Steve Rosenberg: Russia seeks diplomatic and economic gains from Iran war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSteve%252BRosenberg%253A%252BRussia%252Bseeks%252Bdiplomatic%252Band%252Beconomic%252Bgains%252Bfrom%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO9kGISBws0GIjDESiLVzPDI4KwRI6yiQOKRpxqKIVWN9EZGkYtxTw__trD1UZDnXVFTt38LeTLFlbYyBmpjbmRyUloBQw
+Processing trending topic: US civil rights group documents ‘broad attack on Muslim life’ in 2025
+Searching Google for: US civil rights group documents ‘broad attack on Muslim life’ in 2025
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcivil%252Brights%252Bgroup%252Bdocuments%252B%25E2%2580%2598broad%252Battack%252Bon%252BMuslim%252Blife%25E2%2580%2599%252Bin%252B2025%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LCkGOubws0GIjDDFvP4QZ9YzTtbQOKdGVObfkUFFLiCe54SoC7JW8_-1XZChDt3kc2qdJqccmC79LQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: steve-rosenberg-russia-seeks-diplomatic-and-econom_20260310_2035.html
-✓ Created comprehensive article: steve-rosenberg-russia-seeks-diplomatic-and-econom_20260310_2035.html
+Successfully created file: us-civil-rights-group-documents-broad-attack-on-mu_20260310_2132.html
+✓ Created comprehensive article: us-civil-rights-group-documents-broad-attack-on-mu_20260310_2132.html
 
-Processing trending topic: Unexploded missile extracted from house in western Iran
-Searching Google for: Unexploded missile extracted from house in western Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnexploded%252Bmissile%252Bextracted%252Bfrom%252Bhouse%252Bin%252Bwestern%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO9kGIyBws0GIjC99BUQpmumcODP_pOy8HjrsXlKxN-jyo4e7lO5qxAOXjubYpWqSk23wAFEo4H5XKUyBmpjbmRyUloBQw
+Processing trending topic: Around 140 US service members wounded in Iran war, Pentagon says
+Searching Google for: Around 140 US service members wounded in Iran war, Pentagon says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAround%252B140%252BUS%252Bservice%252Bmembers%252Bwounded%252Bin%252BIran%252Bwar%252C%252BPentagon%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LCkGPGbws0GIjAcwlXDNUaoy11x7M10OCJ1gC-e8iprqzZH2brQtApvRGxf-trIC40I7x_PzuSAWqMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: unexploded-missile-extracted-from-house-in-western_20260310_2035.html
-✓ Created comprehensive article: unexploded-missile-extracted-from-house-in-western_20260310_2035.html
+Successfully created file: around-140-us-service-members-wounded-in-iran-war-_20260310_2132.html
+✓ Created comprehensive article: around-140-us-service-members-wounded-in-iran-war-_20260310_2132.html
 
-Processing trending topic: Lebanese priest killed by Israeli tank fire
-Searching Google for: Lebanese priest killed by Israeli tank fire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanese%252Bpriest%252Bkilled%252Bby%252BIsraeli%252Btank%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO9kGJKBws0GIjBoW6O5otqq6MjeSk1WAXNt4R-UwMcAZyS56M8cSjk-c9T_ALXTPpZ_R90Mb9sj-noyBmpjbmRyUloBQw
+Processing trending topic: Aviation will feel effect for the rest of the year ‘even if conflict ends t
+Searching Google for: Aviation will feel effect for the rest of the year ‘even if conflict ends t
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAviation%252Bwill%252Bfeel%252Beffect%252Bfor%252Bthe%252Brest%252Bof%252Bthe%252Byear%252B%25E2%2580%2598even%252Bif%252Bconflict%252Bends%252Bt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LCkGPibws0GIjCB4Kqy8eeAtHu26TCMbGKZ30PzehIzV4lAd28StTxWLDvwMXJTvagvyfdmcLi-El8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lebanese-priest-killed-by-israeli-tank-fire_20260310_2035.html
-✓ Created comprehensive article: lebanese-priest-killed-by-israeli-tank-fire_20260310_2035.html
+Successfully created file: aviation-will-feel-effect-for-the-rest-of-the-year_20260310_2132.html
+✓ Created comprehensive article: aviation-will-feel-effect-for-the-rest-of-the-year_20260310_2132.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Steve Rosenberg: Russia seeks diplomatic and economic gains from Iran war
+   • US civil rights group documents ‘broad attack on Muslim life’ in 2025
      Sources: bbc.com, cnn.com, reuters.com
-   • Unexploded missile extracted from house in western Iran
+   • Around 140 US service members wounded in Iran war, Pentagon says
      Sources: bbc.com, cnn.com, reuters.com
-   • Lebanese priest killed by Israeli tank fire
+   • Aviation will feel effect for the rest of the year ‘even if conflict ends t
      Sources: bbc.com, cnn.com, reuters.com
