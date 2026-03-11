@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Mortgage rates rise and deals pulled over Iran war turmoil
@@ -8,59 +8,61 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: French aid worker among three killed in dronestrike in east DRC, M23 rebels say
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Nothing changes’: Four decades in power, Congo’s Nguesso seeks a new term
-Added expanded search topic: ‘Nothing changes’: Four decades in power, Congo’s Nguesso seeks a new term
-Saved 33 topics for 2026-03-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could the US deploy troops to Iran, and how could that play out?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Israel-Hezbollah ceasefire was built to fail
+Added expanded search topic: Could the US deploy troops to Iran, and how could that play out?
+Added expanded search topic: The Israel-Hezbollah ceasefire was built to fail
+Saved 36 topics for 2026-03-11
 Returning 3 unique trending topics:
-  1. Boy, 16, arrested after girl is stabbed at school (from BBC News)
-  2. At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east (from The Guardian)
-  3. ‘Nothing changes’: Four decades in power, Congo’s Nguesso seeks a new term (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. French aid worker among three killed in dronestrike in east DRC, M23 rebels say (from The Guardian)
+  2. Could the US deploy troops to Iran, and how could that play out? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. The Israel-Hezbollah ceasefire was built to fail (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Boy, 16, arrested after girl is stabbed at school
-Searching Google for: Boy, 16, arrested after girl is stabbed at school
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoy%252C%252B16%252C%252Barrested%252Bafter%252Bgirl%252Bis%252Bstabbed%252Bat%252Bschool%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMT0xGK3vxc0GIjAyKSeTJJQCiFrQZGsBWWSKhgN7kWUUsLf48tmwZOoBYg3wePj24C9_WrDo22L5KesyBmpjbmRyUloBQw
+Processing trending topic: French aid worker among three killed in dronestrike in east DRC, M23 rebels say
+Searching Google for: French aid worker among three killed in dronestrike in east DRC, M23 rebels say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Baid%252Bworker%252Bamong%252Bthree%252Bkilled%252Bin%252Bdronestrike%252Bin%252Beast%252BDRC%252C%252BM23%252Brebels%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGKeexs0GIjDuENJ8vQjJBNx94DtqLbhjmyyUwPKxiXSrg9JMPJry_5l2Ua5ajXH_f4H3e5WkE_4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: boy-16-arrested-after-girl-is-stabbed-at-school_20260311_1409.html
-✓ Created comprehensive article: boy-16-arrested-after-girl-is-stabbed-at-school_20260311_1409.html
+Successfully created file: french-aid-worker-among-three-killed-in-dronestrik_20260311_1550.html
+✓ Created comprehensive article: french-aid-worker-among-three-killed-in-dronestrik_20260311_1550.html
 
-Processing trending topic: At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east
-Searching Google for: At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B65%252BNigerian%252Bsoldiers%252Bkilled%252Bin%252Bjihadist%252Braids%252Bin%252Bcountry%25E2%2580%2599s%252Bnorth-east%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMT0xGLTvxc0GIjDWktnKq7QndS4peKe9sBBebDm7C33ZBwgeOQgDSXAcistzbQ2_rGVdVD8Vh5nykqwyBmpjbmRyUloBQw
+Processing trending topic: Could the US deploy troops to Iran, and how could that play out?
+Searching Google for: Could the US deploy troops to Iran, and how could that play out?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252Bthe%252BUS%252Bdeploy%252Btroops%252Bto%252BIran%252C%252Band%252Bhow%252Bcould%252Bthat%252Bplay%252Bout%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGK6exs0GIjD3v2au7JdvjSLWh65xN6Gh4tBSaPdG_2e7e5QnQEvLYV6yUfTeBPvS_x2jaCq2QD8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-65-nigerian-soldiers-killed-in-jihadist-r_20260311_1410.html
-✓ Created comprehensive article: at-least-65-nigerian-soldiers-killed-in-jihadist-r_20260311_1410.html
+Successfully created file: could-the-us-deploy-troops-to-iran-and-how-could-t_20260311_1550.html
+✓ Created comprehensive article: could-the-us-deploy-troops-to-iran-and-how-could-t_20260311_1550.html
 
-Processing trending topic: ‘Nothing changes’: Four decades in power, Congo’s Nguesso seeks a new term
-Searching Google for: ‘Nothing changes’: Four decades in power, Congo’s Nguesso seeks a new term
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Nothing%252Bchanges%25E2%2580%2599%253A%252BFour%252Bdecades%252Bin%252Bpower%252C%252BCongo%25E2%2580%2599s%252BNguesso%252Bseeks%252Ba%252Bnew%252Bterm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMT0xGLrvxc0GIjCtSMVGx0opcf6kIiNIumpzr9-R9267bKRe2ZRyShYbw5qI1zcVauxtPpyZMY_NAzsyBmpjbmRyUloBQw
+Processing trending topic: The Israel-Hezbollah ceasefire was built to fail
+Searching Google for: The Israel-Hezbollah ceasefire was built to fail
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BIsrael-Hezbollah%252Bceasefire%252Bwas%252Bbuilt%252Bto%252Bfail%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33YGLSexs0GIjCCQA8uLdVIjyLiUjXyqIVW4TrWCdQixe5ak41p6VSHiEPFoierE8cqUFcJrFeYdN4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nothing-changes-four-decades-in-power-congos-ngues_20260311_1410.html
-✓ Created comprehensive article: nothing-changes-four-decades-in-power-congos-ngues_20260311_1410.html
+Successfully created file: the-israel-hezbollah-ceasefire-was-built-to-fail_20260311_1550.html
+✓ Created comprehensive article: the-israel-hezbollah-ceasefire-was-built-to-fail_20260311_1550.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Boy, 16, arrested after girl is stabbed at school
+   • French aid worker among three killed in dronestrike in east DRC, M23 rebels say
      Sources: bbc.com, cnn.com, reuters.com
-   • At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east
+   • Could the US deploy troops to Iran, and how could that play out?
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Nothing changes’: Four decades in power, Congo’s Nguesso seeks a new term
+   • The Israel-Hezbollah ceasefire was built to fail
      Sources: bbc.com, cnn.com, reuters.com
