@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Lloyds, Bank of Scotland and Halifax apps showing customers other users' transactions
   Added: Hundreds of GPs tell BBC they have never refused a fit note for mental health concerns
-  Added: Epstein used modelling agent to recruit girls, Brazilian women tell BBC
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day 13 of US-Israel attacks?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Analysis: The war on Iran is at a crossroads
-Added expanded search topic: Iran war: What is happening on day 13 of US-Israel attacks?
-Added expanded search topic: Analysis: The war on Iran is at a crossroads
-Saved 21 topics for 2026-03-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea says no more protests after China stir in Women’s Asian Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera sees bombs being loaded onto US planes at UK base
+Added expanded search topic: North Korea says no more protests after China stir in Women’s Asian Cup
+Added expanded search topic: Al Jazeera sees bombs being loaded onto US planes at UK base
+Saved 24 topics for 2026-03-12
 Returning 3 unique trending topics:
-  1. Hundreds of GPs tell BBC they have never refused a fit note for mental health concerns (from BBC News)
-  2. Iran war: What is happening on day 13 of US-Israel attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Analysis: The war on Iran is at a crossroads (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Lloyds, Bank of Scotland and Halifax apps showing customers other users' transactions (from BBC News)
+  2. North Korea says no more protests after China stir in Women’s Asian Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Al Jazeera sees bombs being loaded onto US planes at UK base (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Hundreds of GPs tell BBC they have never refused a fit note for mental health concerns
-Searching Google for: Hundreds of GPs tell BBC they have never refused a fit note for mental health concerns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bof%252BGPs%252Btell%252BBBC%252Bthey%252Bhave%252Bnever%252Brefused%252Ba%252Bfit%252Bnote%252Bfor%252Bmental%252Bhealth%252Bconcerns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmbGJCWys0GIjD_AXHl_eEgfC4lZ2uNiEuOlenCUTaiLhGlnUpiKixvqUBp4PTw2--CFQMcy5FSWgYyBmpjbmRyUloBQw
+Processing trending topic: Lloyds, Bank of Scotland and Halifax apps showing customers other users' transactions
+Searching Google for: Lloyds, Bank of Scotland and Halifax apps showing customers other users' transactions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLloyds%252C%252BBank%252Bof%252BScotland%252Band%252BHalifax%252Bapps%252Bshowing%252Bcustomers%252Bother%252Busers%2527%252Btransactions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LF6GJKwys0GIjAZQTzxSWEg7OWNxgeVyfI4ITVXQmf3x023t3oM4ycGfKmgFSL4_QXg9MajvDXZ8doyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hundreds-of-gps-tell-bbc-they-have-never-refused-a_20260312_0944.html
-✓ Created comprehensive article: hundreds-of-gps-tell-bbc-they-have-never-refused-a_20260312_0944.html
+Successfully created file: lloyds-bank-of-scotland-and-halifax-apps-showing-c_20260312_1040.html
+✓ Created comprehensive article: lloyds-bank-of-scotland-and-halifax-apps-showing-c_20260312_1040.html
 
-Processing trending topic: Iran war: What is happening on day 13 of US-Israel attacks?
-Searching Google for: Iran war: What is happening on day 13 of US-Israel attacks?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252B13%252Bof%252BUS-Israel%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmbGJiWys0GIjBs-AUaDPOu2IVcPmC23Iz2sefBOf6QpzB8K6yAawxS_WzS0hNRqP4pQS_7qekdHa0yBmpjbmRyUloBQw
+Processing trending topic: North Korea says no more protests after China stir in Women’s Asian Cup
+Searching Google for: North Korea says no more protests after China stir in Women’s Asian Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%252Bsays%252Bno%252Bmore%252Bprotests%252Bafter%252BChina%252Bstir%252Bin%252BWomen%25E2%2580%2599s%252BAsian%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LF6GJmwys0GIjByl_wvUqeqDw6C52o55trTsvmp3hLY-GXXhFkJLaNulJbYIV4Iubwq9oKtg6dGcoAyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-what-is-happening-on-day-13-of-us-israel-_20260312_0945.html
-✓ Created comprehensive article: iran-war-what-is-happening-on-day-13-of-us-israel-_20260312_0945.html
+Successfully created file: north-korea-says-no-more-protests-after-china-stir_20260312_1040.html
+✓ Created comprehensive article: north-korea-says-no-more-protests-after-china-stir_20260312_1040.html
 
-Processing trending topic: Analysis: The war on Iran is at a crossroads
-Searching Google for: Analysis: The war on Iran is at a crossroads
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%253A%252BThe%252Bwar%252Bon%252BIran%252Bis%252Bat%252Ba%252Bcrossroads%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmbGJ6Wys0GIjCu2LASe_I4NKYAuxSILOAt0bK4KadDkVHUgxxEzaRliJvTDlSMNdv-8yt-UEXyiSIyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera sees bombs being loaded onto US planes at UK base
+Searching Google for: Al Jazeera sees bombs being loaded onto US planes at UK base
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Bsees%252Bbombs%252Bbeing%252Bloaded%252Bonto%252BUS%252Bplanes%252Bat%252BUK%252Bbase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LF6GJ-wys0GIjDxaFGP56zIU6d89fV0ThEEvigvajJbT7c6bqmRZJccDKw9JY2gr7KODupmGb_wQnsyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: analysis-the-war-on-iran-is-at-a-crossroads_20260312_0945.html
-✓ Created comprehensive article: analysis-the-war-on-iran-is-at-a-crossroads_20260312_0945.html
+Successfully created file: al-jazeera-sees-bombs-being-loaded-onto-us-planes-_20260312_1040.html
+✓ Created comprehensive article: al-jazeera-sees-bombs-being-loaded-onto-us-planes-_20260312_1040.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Hundreds of GPs tell BBC they have never refused a fit note for mental health concerns
+   • Lloyds, Bank of Scotland and Halifax apps showing customers other users' transactions
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war: What is happening on day 13 of US-Israel attacks?
+   • North Korea says no more protests after China stir in Women’s Asian Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • Analysis: The war on Iran is at a crossroads
+   • Al Jazeera sees bombs being loaded onto US planes at UK base
      Sources: bbc.com, cnn.com, reuters.com
