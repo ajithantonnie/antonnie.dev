@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Rescue operations under way after US refuelling plane crashes in Iraq
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Eswatini says it received more ‘third country’ deportees as part of deal with Trump administration
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French soldier killed and others wounded in attack in Iraq
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
-Added expanded search topic: French soldier killed and others wounded in attack in Iraq
-Added expanded search topic: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
-Saved 18 topics for 2026-03-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two killed in Oman by drones, several also fired at Saudi Arabia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US lawmakers introduce Justice for Hind Rajab Act
+Added expanded search topic: China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup
+Added expanded search topic: Two killed in Oman by drones, several also fired at Saudi Arabia
+Added expanded search topic: US lawmakers introduce Justice for Hind Rajab Act
+Saved 21 topics for 2026-03-13
 Returning 3 unique trending topics:
-  1. UK economy saw zero growth in January ahead of Iran war (from BBC News)
-  2. French soldier killed and others wounded in attack in Iraq (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Two killed in Oman by drones, several also fired at Saudi Arabia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US lawmakers introduce Justice for Hind Rajab Act (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK economy saw zero growth in January ahead of Iran war
-Searching Google for: UK economy saw zero growth in January ahead of Iran war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Beconomy%252Bsaw%252Bzero%252Bgrowth%252Bin%252BJanuary%252Bahead%252Bof%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pd5GI-bz80GIjBzTdb67KEgRl6BZxRdUj7972R1BSILFlUOmoYA6pfrpStRoecNVVggFpA6hjnUwc8yBmpjbmRyUloBQw
+Processing trending topic: China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup
+Searching Google for: China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bcoach%252Btells%252Bplayers%252Bto%252Bstay%252B%25E2%2580%2598calm%25E2%2580%2599%252Bin%252BTaiwan%252Bclash%252Bat%252BAsian%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-L0GMi3z80GIjB0jKo0-W3OxfXuurVUNSclfg0kb4NeAzooV06y-HuCkqzGcrFhfid24F_535uN6RcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-economy-saw-zero-growth-in-january-ahead-of-ira_20260313_0840.html
-✓ Created comprehensive article: uk-economy-saw-zero-growth-in-january-ahead-of-ira_20260313_0840.html
+Successfully created file: china-coach-tells-players-to-stay-calm-in-taiwan-c_20260313_0941.html
+✓ Created comprehensive article: china-coach-tells-players-to-stay-calm-in-taiwan-c_20260313_0941.html
 
-Processing trending topic: French soldier killed and others wounded in attack in Iraq
-Searching Google for: French soldier killed and others wounded in attack in Iraq
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bsoldier%252Bkilled%252Band%252Bothers%252Bwounded%252Bin%252Battack%252Bin%252BIraq%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pd5GJabz80GIjDBeskwlX-Vu9SI6_sOdbyXc5dgPEjDLcHEA8NyMX84hxoc9xneb-sIahN-i-95xv8yBmpjbmRyUloBQw
+Processing trending topic: Two killed in Oman by drones, several also fired at Saudi Arabia
+Searching Google for: Two killed in Oman by drones, several also fired at Saudi Arabia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bkilled%252Bin%252BOman%252Bby%252Bdrones%252C%252Bseveral%252Balso%252Bfired%252Bat%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-L0GM63z80GIjD6bmdxQCvVC20vAmc5N9vru30SxROZG5FlsgtykjgE6h5FIn0Fgs0ZWPzUsn2e280yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: french-soldier-killed-and-others-wounded-in-attack_20260313_0840.html
-✓ Created comprehensive article: french-soldier-killed-and-others-wounded-in-attack_20260313_0840.html
+Successfully created file: two-killed-in-oman-by-drones-several-also-fired-at_20260313_0941.html
+✓ Created comprehensive article: two-killed-in-oman-by-drones-several-also-fired-at_20260313_0941.html
 
-Processing trending topic: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
-Searching Google for: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Battacks%252BBeirut%252Bin%252B%25E2%2580%2598targeted%252Bkilling%25E2%2580%2599%252Battempt%252C%252Bkills%252Bseveral%252Bin%252Bsouth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pd5GJybz80GIjAK_wNv8Y4lDbeAndUDSNurGjtFp6eh_t_Ui6Ny7FUhsRsv5lVXVHv0Ka1yjmx61bwyBmpjbmRyUloBQw
+Processing trending topic: US lawmakers introduce Justice for Hind Rajab Act
+Searching Google for: US lawmakers introduce Justice for Hind Rajab Act
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blawmakers%252Bintroduce%252BJustice%252Bfor%252BHind%252BRajab%252BAct%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-L0GNW3z80GIjBZo1dsHYfTG1-alZ5TFvPC1HIJUD9bLvytDSN3bpmuqVQgjwv6bTVmJQ58IwpzEpQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-attacks-beirut-in-targeted-killing-attempt-_20260313_0841.html
-✓ Created comprehensive article: israel-attacks-beirut-in-targeted-killing-attempt-_20260313_0841.html
+Successfully created file: us-lawmakers-introduce-justice-for-hind-rajab-act_20260313_0941.html
+✓ Created comprehensive article: us-lawmakers-introduce-justice-for-hind-rajab-act_20260313_0941.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK economy saw zero growth in January ahead of Iran war
+   • China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • French soldier killed and others wounded in attack in Iraq
+   • Two killed in Oman by drones, several also fired at Saudi Arabia
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
+   • US lawmakers introduce Justice for Hind Rajab Act
      Sources: bbc.com, cnn.com, reuters.com
