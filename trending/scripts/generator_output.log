@@ -1,66 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Rescue operations under way after US refuelling plane crashes in Iraq
-  Added: UK economy failed to grow in January ahead of Iran war
+  Added: UK economy saw zero growth in January ahead of Iran war
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Eswatini says it received more ‘third country’ deportees as part of deal with Trump administration
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Force majeure: What is it and why have some Gulf countries invoked it?
-Added expanded search topic: Force majeure: What is it and why have some Gulf countries invoked it?
-Saved 15 topics for 2026-03-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French soldier killed and others wounded in attack in Iraq
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
+Added expanded search topic: French soldier killed and others wounded in attack in Iraq
+Added expanded search topic: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
+Saved 18 topics for 2026-03-13
 Returning 3 unique trending topics:
-  1. Rescue operations under way after US refuelling plane crashes in Iraq (from BBC News)
-  2. UK economy failed to grow in January ahead of Iran war (from BBC News)
-  3. Force majeure: What is it and why have some Gulf countries invoked it? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK economy saw zero growth in January ahead of Iran war (from BBC News)
+  2. French soldier killed and others wounded in attack in Iraq (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Rescue operations under way after US refuelling plane crashes in Iraq
-Searching Google for: Rescue operations under way after US refuelling plane crashes in Iraq
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRescue%252Boperations%252Bunder%252Bway%252Bafter%252BUS%252Brefuelling%252Bplane%252Bcrashes%252Bin%252BIraq%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnRCGIWCz80GIjBArUnWxpBUBw9Z-P8i7WgNUllLSEFiC_hVjK_sGppvj4hmSsy-s38OJ3btMgwinvUyBmpjbmRyUloBQw
+Processing trending topic: UK economy saw zero growth in January ahead of Iran war
+Searching Google for: UK economy saw zero growth in January ahead of Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Beconomy%252Bsaw%252Bzero%252Bgrowth%252Bin%252BJanuary%252Bahead%252Bof%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pd5GI-bz80GIjBzTdb67KEgRl6BZxRdUj7972R1BSILFlUOmoYA6pfrpStRoecNVVggFpA6hjnUwc8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rescue-operations-under-way-after-us-refuelling-pl_20260313_0747.html
-✓ Created comprehensive article: rescue-operations-under-way-after-us-refuelling-pl_20260313_0747.html
+Successfully created file: uk-economy-saw-zero-growth-in-january-ahead-of-ira_20260313_0840.html
+✓ Created comprehensive article: uk-economy-saw-zero-growth-in-january-ahead-of-ira_20260313_0840.html
 
-Processing trending topic: UK economy failed to grow in January ahead of Iran war
-Searching Google for: UK economy failed to grow in January ahead of Iran war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Beconomy%252Bfailed%252Bto%252Bgrow%252Bin%252BJanuary%252Bahead%252Bof%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnRCGIyCz80GIjBrllaNvk8DSoAWMaykE57q9Y3OEO4V5BJroWsOcrivoqsYLUmmkS9KuGTH8uaFsDYyBmpjbmRyUloBQw
+Processing trending topic: French soldier killed and others wounded in attack in Iraq
+Searching Google for: French soldier killed and others wounded in attack in Iraq
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bsoldier%252Bkilled%252Band%252Bothers%252Bwounded%252Bin%252Battack%252Bin%252BIraq%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pd5GJabz80GIjDBeskwlX-Vu9SI6_sOdbyXc5dgPEjDLcHEA8NyMX84hxoc9xneb-sIahN-i-95xv8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-economy-failed-to-grow-in-january-ahead-of-iran_20260313_0747.html
-✓ Created comprehensive article: uk-economy-failed-to-grow-in-january-ahead-of-iran_20260313_0747.html
+Successfully created file: french-soldier-killed-and-others-wounded-in-attack_20260313_0840.html
+✓ Created comprehensive article: french-soldier-killed-and-others-wounded-in-attack_20260313_0840.html
 
-Processing trending topic: Force majeure: What is it and why have some Gulf countries invoked it?
-Searching Google for: Force majeure: What is it and why have some Gulf countries invoked it?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DForce%252Bmajeure%253A%252BWhat%252Bis%252Bit%252Band%252Bwhy%252Bhave%252Bsome%252BGulf%252Bcountries%252Binvoked%252Bit%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnRCGJOCz80GIjDNuAJATvSkAM1ptZ83aNJhnu_BeszuJbntsLOJbC8YaJqjdywtwLZFbytvDxr2bNYyBmpjbmRyUloBQw
+Processing trending topic: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
+Searching Google for: Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Battacks%252BBeirut%252Bin%252B%25E2%2580%2598targeted%252Bkilling%25E2%2580%2599%252Battempt%252C%252Bkills%252Bseveral%252Bin%252Bsouth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pd5GJybz80GIjAK_wNv8Y4lDbeAndUDSNurGjtFp6eh_t_Ui6Ny7FUhsRsv5lVXVHv0Ka1yjmx61bwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: force-majeure-what-is-it-and-why-have-some-gulf-co_20260313_0747.html
-✓ Created comprehensive article: force-majeure-what-is-it-and-why-have-some-gulf-co_20260313_0747.html
+Successfully created file: israel-attacks-beirut-in-targeted-killing-attempt-_20260313_0841.html
+✓ Created comprehensive article: israel-attacks-beirut-in-targeted-killing-attempt-_20260313_0841.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Rescue operations under way after US refuelling plane crashes in Iraq
+   • UK economy saw zero growth in January ahead of Iran war
      Sources: bbc.com, cnn.com, reuters.com
-   • UK economy failed to grow in January ahead of Iran war
+   • French soldier killed and others wounded in attack in Iraq
      Sources: bbc.com, cnn.com, reuters.com
-   • Force majeure: What is it and why have some Gulf countries invoked it?
+   • Israel attacks Beirut in ‘targeted killing’ attempt, kills several in south
      Sources: bbc.com, cnn.com, reuters.com
