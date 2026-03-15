@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Three more Iran football team members change minds over asylum
@@ -13,58 +13,58 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Vietnam holds general election, 93% candidates from ruling Communist Party
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FPV drone slams into US military base in Iraq
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s Space Research Centre severely damaged in strikes
-Added expanded search topic: Vietnam holds general election, 93% candidates from ruling Communist Party
-Added expanded search topic: FPV drone slams into US military base in Iraq
-Added expanded search topic: Iran’s Space Research Centre severely damaged in strikes
-Saved 12 topics for 2026-03-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Minab: When the world’s most precise missile chose a classroom
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Smoke rises over Beirut’s southern suburbs
+Added expanded search topic: Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon
+Added expanded search topic: Minab: When the world’s most precise missile chose a classroom
+Added expanded search topic: Smoke rises over Beirut’s southern suburbs
+Saved 15 topics for 2026-03-15
 Returning 3 unique trending topics:
-  1. Vietnam holds general election, 93% candidates from ruling Communist Party (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. FPV drone slams into US military base in Iraq (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran’s Space Research Centre severely damaged in strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Minab: When the world’s most precise missile chose a classroom (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Smoke rises over Beirut’s southern suburbs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Vietnam holds general election, 93% candidates from ruling Communist Party
-Searching Google for: Vietnam holds general election, 93% candidates from ruling Communist Party
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVietnam%252Bholds%252Bgeneral%252Belection%252C%252B93%2525%252Bcandidates%252Bfrom%252Bruling%252BCommunist%252BParty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFyGJDI2c0GIjB0lk2pgiWAGyXZvPUUtC5YBkMUzXau3o0aw5cjNECUNzNyZb2OWS8mNdvW4yfEIvoyBmpjbmRyUloBQw
+Processing trending topic: Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon
+Searching Google for: Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl-Quds%252BDay%252Brally%252Bin%252BToronto%252Bcalls%252Bfor%252Ban%252Bend%252Bto%252Bthe%252Bwar%252Bin%252BIran%252B%2526%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D5qGLTg2c0GIjAT1qlo78VbjF4TbHhrotJ8AXpD9Ole5BH61GLwKPEcUVkprxBaVIWVkgiLZcgtpuwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: vietnam-holds-general-election-93-candidates-from-_20260315_0747.html
-✓ Created comprehensive article: vietnam-holds-general-election-93-candidates-from-_20260315_0747.html
+Successfully created file: al-quds-day-rally-in-toronto-calls-for-an-end-to-t_20260315_0839.html
+✓ Created comprehensive article: al-quds-day-rally-in-toronto-calls-for-an-end-to-t_20260315_0839.html
 
-Processing trending topic: FPV drone slams into US military base in Iraq
-Searching Google for: FPV drone slams into US military base in Iraq
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFPV%252Bdrone%252Bslams%252Binto%252BUS%252Bmilitary%252Bbase%252Bin%252BIraq%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFyGJbI2c0GIjAjadhwwQtclOmMj71l4cW2qnZURfzoMki0NlVoGWWMb2kPfKN6ZMsPSA7VX7PbMDYyBmpjbmRyUloBQw
+Processing trending topic: Minab: When the world’s most precise missile chose a classroom
+Searching Google for: Minab: When the world’s most precise missile chose a classroom
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMinab%253A%252BWhen%252Bthe%252Bworld%25E2%2580%2599s%252Bmost%252Bprecise%252Bmissile%252Bchose%252Ba%252Bclassroom%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D5qGLvg2c0GIjDEvnWj3eaQFdEltP4l8VnUm48rE54BHrII0x6ZA-P-vn0LA2SxY7aG93SGxUCFMwYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fpv-drone-slams-into-us-military-base-in-iraq_20260315_0747.html
-✓ Created comprehensive article: fpv-drone-slams-into-us-military-base-in-iraq_20260315_0747.html
+Successfully created file: minab-when-the-worlds-most-precise-missile-chose-a_20260315_0839.html
+✓ Created comprehensive article: minab-when-the-worlds-most-precise-missile-chose-a_20260315_0839.html
 
-Processing trending topic: Iran’s Space Research Centre severely damaged in strikes
-Searching Google for: Iran’s Space Research Centre severely damaged in strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252BSpace%252BResearch%252BCentre%252Bseverely%252Bdamaged%252Bin%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LFyGJ3I2c0GIjCHt4cwFR7r96LKe-r0PNuFuZFVa64Rx-GCxRt55-QOsigRk68MhEyUGWh_JZksxSoyBmpjbmRyUloBQw
+Processing trending topic: Smoke rises over Beirut’s southern suburbs
+Searching Google for: Smoke rises over Beirut’s southern suburbs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSmoke%252Brises%252Bover%252BBeirut%25E2%2580%2599s%252Bsouthern%252Bsuburbs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D5qGMHg2c0GIjAqUujKBZlIwjmlXDzK71RF-cwf_1dP-PdOkEKPMxOdtd61ubMIqFkVKfIui4LFuQIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-space-research-centre-severely-damaged-in-st_20260315_0747.html
-✓ Created comprehensive article: irans-space-research-centre-severely-damaged-in-st_20260315_0747.html
+Successfully created file: smoke-rises-over-beiruts-southern-suburbs_20260315_0839.html
+✓ Created comprehensive article: smoke-rises-over-beiruts-southern-suburbs_20260315_0839.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Vietnam holds general election, 93% candidates from ruling Communist Party
+   • Al-Quds Day rally in Toronto calls for an end to the war in Iran & Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • FPV drone slams into US military base in Iraq
+   • Minab: When the world’s most precise missile chose a classroom
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran’s Space Research Centre severely damaged in strikes
+   • Smoke rises over Beirut’s southern suburbs
      Sources: bbc.com, cnn.com, reuters.com
