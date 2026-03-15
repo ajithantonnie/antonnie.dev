@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK looking at 'any options' to secure key oil route through Strait of Hormuz
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Nigeria’s online content creator market has boomed. Can the skit-makers and streamers make it pay?
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is NYC’s Mamdani facing criticism over response to attacks on wife?
-  Found from World News - Breaking international news and headlines | Sky News: How UK might try to keep the Strait of Hormuz open
-Added expanded search topic: Why is NYC’s Mamdani facing criticism over response to attacks on wife?
-Added expanded search topic: How UK might try to keep the Strait of Hormuz open
-Saved 45 topics for 2026-03-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two brothers survive after Israeli troops kill family in occupied West Bank
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Different parties ‘on the rise’ within the anti-Netanyahu right
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Senator Van Hollen: Trump ‘has no idea where this war is going’
+Added expanded search topic: Two brothers survive after Israeli troops kill family in occupied West Bank
+Added expanded search topic: Different parties ‘on the rise’ within the anti-Netanyahu right
+Added expanded search topic: US Senator Van Hollen: Trump ‘has no idea where this war is going’
+Saved 48 topics for 2026-03-15
 Returning 3 unique trending topics:
-  1. Police investigate 'death to the IDF' chants led by Bobby Vylan at rally (from BBC News)
-  2. Why is NYC’s Mamdani facing criticism over response to attacks on wife? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. How UK might try to keep the Strait of Hormuz open (from World News - Breaking international news and headlines | Sky News)
+  1. Two brothers survive after Israeli troops kill family in occupied West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Different parties ‘on the rise’ within the anti-Netanyahu right (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US Senator Van Hollen: Trump ‘has no idea where this war is going’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police investigate 'death to the IDF' chants led by Bobby Vylan at rally
-Searching Google for: Police investigate 'death to the IDF' chants led by Bobby Vylan at rally
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Two brothers survive after Israeli troops kill family in occupied West Bank
+Searching Google for: Two brothers survive after Israeli troops kill family in occupied West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bbrothers%252Bsurvive%252Bafter%252BIsraeli%252Btroops%252Bkill%252Bfamily%252Bin%252Boccupied%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKP1hGP2R3M0GIjAtEH3EO5XQZtimucSkg-yUC6UIdsm7bGCf3l6FR-4D7A5qsH_qhD7jZ3AKc-BSLxwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-investigate-death-to-the-idf-chants-led-by-_20260315_1839.html
-✓ Created comprehensive article: police-investigate-death-to-the-idf-chants-led-by-_20260315_1839.html
+Successfully created file: two-brothers-survive-after-israeli-troops-kill-fam_20260315_1931.html
+✓ Created comprehensive article: two-brothers-survive-after-israeli-troops-kill-fam_20260315_1931.html
 
-Processing trending topic: Why is NYC’s Mamdani facing criticism over response to attacks on wife?
-Searching Google for: Why is NYC’s Mamdani facing criticism over response to attacks on wife?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BNYC%25E2%2580%2599s%252BMamdani%252Bfacing%252Bcriticism%252Bover%252Bresponse%252Bto%252Battacks%252Bon%252Bwife%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNLQGLD6280GIjD2hYV9YuN2QuYB2rTGQX_-ksPbYWtT67V7ZpR309h4iWDiVAt5rIgz3N8cYQ3Pf5AyBmpjbmRyUloBQw
+Processing trending topic: Different parties ‘on the rise’ within the anti-Netanyahu right
+Searching Google for: Different parties ‘on the rise’ within the anti-Netanyahu right
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDifferent%252Bparties%252B%25E2%2580%2598on%252Bthe%252Brise%25E2%2580%2599%252Bwithin%252Bthe%252Banti-Netanyahu%252Bright%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKP1hGIWS3M0GIjDdXCMfeJEOSTEsmagn8nhXX71_wk52QHT2g6G4jUZgF-9D0zvkt3MtRlSIrgcTW_AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-is-nycs-mamdani-facing-criticism-over-response_20260315_1840.html
-✓ Created comprehensive article: why-is-nycs-mamdani-facing-criticism-over-response_20260315_1840.html
+Successfully created file: different-parties-on-the-rise-within-the-anti-neta_20260315_1931.html
+✓ Created comprehensive article: different-parties-on-the-rise-within-the-anti-neta_20260315_1931.html
 
-Processing trending topic: How UK might try to keep the Strait of Hormuz open
-Searching Google for: How UK might try to keep the Strait of Hormuz open
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BUK%252Bmight%252Btry%252Bto%252Bkeep%252Bthe%252BStrait%252Bof%252BHormuz%252Bopen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNLQGLb6280GIjAebhrQJhMcxocxuDEEevULieeMJmkeYLpJMsGzpdjMFKbOQv96QfJRDRq_scSerYwyBmpjbmRyUloBQw
+Processing trending topic: US Senator Van Hollen: Trump ‘has no idea where this war is going’
+Searching Google for: US Senator Van Hollen: Trump ‘has no idea where this war is going’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BSenator%252BVan%252BHollen%253A%252BTrump%252B%25E2%2580%2598has%252Bno%252Bidea%252Bwhere%252Bthis%252Bwar%252Bis%252Bgoing%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKP1hGIuS3M0GIjDlfWHQHpOnYgpsGmjRIEePuH0fydyqf2CNmgEQCs0IgeiT61yuNtFmG4ECoC-YjL8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-uk-might-try-to-keep-the-strait-of-hormuz-open_20260315_1840.html
-✓ Created comprehensive article: how-uk-might-try-to-keep-the-strait-of-hormuz-open_20260315_1840.html
+Successfully created file: us-senator-van-hollen-trump-has-no-idea-where-this_20260315_1931.html
+✓ Created comprehensive article: us-senator-van-hollen-trump-has-no-idea-where-this_20260315_1931.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police investigate 'death to the IDF' chants led by Bobby Vylan at rally
+   • Two brothers survive after Israeli troops kill family in occupied West Bank
      Sources: bbc.com, cnn.com, reuters.com
-   • Why is NYC’s Mamdani facing criticism over response to attacks on wife?
+   • Different parties ‘on the rise’ within the anti-Netanyahu right
      Sources: bbc.com, cnn.com, reuters.com
-   • How UK might try to keep the Strait of Hormuz open
+   • US Senator Van Hollen: Trump ‘has no idea where this war is going’
      Sources: bbc.com, cnn.com, reuters.com
