@@ -59,6 +59,7 @@ Instead of using a static `config.json` file, this form uses Google Sheets to:
   - G1: `Technology/Role`
   - H1: `LinkedIn Company`
   - I1: `LinkedIn Profile`
+  - J1: `YOE`
 
 **Sheet 2: "TechnologyOptions"** (for dropdown options)
 - Create a header in A1: `Technology Options`
@@ -159,7 +160,8 @@ function submitReferral(data) {
     data.mobile,
     data.technology,
     data.linkedinCompany,
-    data.linkedinProfile
+    data.linkedinProfile,
+    data.yoe
   ]);
   
   return ContentService.createTextOutput(JSON.stringify({
