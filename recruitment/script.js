@@ -302,6 +302,7 @@ function setupValidation() {
   addListeners(email, 'email', 'emailError', getEmailError);
   addListeners(mobile, 'mobile', 'mobileError', getMobileError);
   addListeners(yoe, 'yoe', 'yoeError', getYoeError);
+  addListeners(preferredLocation, 'preferredLocation', 'preferredLocationError', getPreferredLocationError);
 
   // Preferred Location: validate on every input (not just after first blur)
   const prefLocEl = document.getElementById('preferredLocation');
