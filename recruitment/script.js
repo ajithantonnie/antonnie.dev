@@ -235,6 +235,14 @@ function getDobError(value) {
   return null;
 }
 
+function getYoeError(value) {
+  const trimmed = value.trim();
+  if (trimmed === '') return null;
+  const num = Number(trimmed);
+  if (!Number.isInteger(num) || num < 0 || num > 50) return 'Year of experience must be a whole number between 0 and 50.';
+  return null;
+}
+
 // Validate and update UI for a field; returns true if valid
 function validateField(fieldId, errorId, getErrorFn) {
   const field = document.getElementById(fieldId);
@@ -261,6 +269,7 @@ function setupValidation() {
   const mobile = document.getElementById('mobile');
   const dob = document.getElementById('dob');
   const technology = document.getElementById('technology');
+  const yoe = document.getElementById('yoe');
 
   function addListeners(el, fieldId, errorId, getErrorFn) {
     // On input: validate only if the field already has been touched
@@ -280,6 +289,7 @@ function setupValidation() {
   addListeners(lastName, 'lastName', 'lastNameError', getNameError);
   addListeners(email, 'email', 'emailError', getEmailError);
   addListeners(mobile, 'mobile', 'mobileError', getMobileError);
+  addListeners(yoe, 'yoe', 'yoeError', getYoeError);
 
   // DOB: validate on change (date picker fires change, not input)
   dob.addEventListener('change', () => {
@@ -360,6 +370,7 @@ function handleFormSubmit(event) {
   const mobile = document.getElementById('mobile').value.trim();
   const technology = document.getElementById('technology').value;
   const otherTechnology = document.getElementById('otherTechnology').value.trim();
+  const yoe = document.getElementById('yoe').value.trim();
   const linkedinCompany = document.getElementById('linkedinCompany').checked;
   const linkedinProfile = document.getElementById('linkedinProfile').checked;
 
@@ -423,6 +434,14 @@ function handleFormSubmit(event) {
     }
   }
 
+  const yoeErr = getYoeError(yoe);
+  if (yoe === '' || yoeErr) {
+    showError('yoe', 'yoeError', yoeErr || 'Year of experience is required.');
+    isValid = false;
+  } else {
+    hideError('yoe', 'yoeError');
+  }
+
   if (!isValid) {
     showStatus('Please fix the errors before submitting.', 'error');
     return;
@@ -442,6 +461,7 @@ function handleFormSubmit(event) {
     dob,
     mobile,
     technology: finalTechnology,
+    yoe,
     linkedinCompany: linkedinCompany ? 'Yes' : 'No',
     linkedinProfile: linkedinProfile ? 'Yes' : 'No',
     timestamp: new Date().toISOString()
