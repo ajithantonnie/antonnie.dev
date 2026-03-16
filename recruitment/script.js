@@ -243,6 +243,17 @@ function getYoeError(value) {
   return null;
 }
 
+function getPreferredLocationError(value) {
+  const trimmed = value.trim();
+  if (trimmed === '') return null;
+  // Split by comma and validate each entry
+  const parts = trimmed.split(',').map(p => p.trim());
+  if (parts.some(p => p === '')) return 'Please separate locations with a comma, e.g. Bangalore, Chennai.';
+  if (parts.some(p => p.length < 2)) return 'Each location must be at least 2 characters.';
+  if (trimmed.length > 200) return 'Locations must be 200 characters or fewer.';
+  return null;
+}
+
 // Validate and update UI for a field; returns true if valid
 function validateField(fieldId, errorId, getErrorFn) {
   const field = document.getElementById(fieldId);
@@ -270,6 +281,7 @@ function setupValidation() {
   const dob = document.getElementById('dob');
   const technology = document.getElementById('technology');
   const yoe = document.getElementById('yoe');
+  const preferredLocation = document.getElementById('preferredLocation');
 
   function addListeners(el, fieldId, errorId, getErrorFn) {
     // On input: validate only if the field already has been touched
@@ -290,6 +302,17 @@ function setupValidation() {
   addListeners(email, 'email', 'emailError', getEmailError);
   addListeners(mobile, 'mobile', 'mobileError', getMobileError);
   addListeners(yoe, 'yoe', 'yoeError', getYoeError);
+
+  // Preferred Location: validate on every input (not just after first blur)
+  const prefLocEl = document.getElementById('preferredLocation');
+  prefLocEl.addEventListener('input', () => {
+    prefLocEl.dataset.touched = '1';
+    validateField('preferredLocation', 'preferredLocationError', getPreferredLocationError);
+  });
+  prefLocEl.addEventListener('blur', () => {
+    prefLocEl.dataset.touched = '1';
+    validateField('preferredLocation', 'preferredLocationError', getPreferredLocationError);
+  });
 
   // DOB: validate on change (date picker fires change, not input)
   dob.addEventListener('change', () => {
@@ -371,6 +394,7 @@ function handleFormSubmit(event) {
   const technology = document.getElementById('technology').value;
   const otherTechnology = document.getElementById('otherTechnology').value.trim();
   const yoe = document.getElementById('yoe').value.trim();
+  const preferredLocation = document.getElementById('preferredLocation').value.trim();
   const linkedinCompany = document.getElementById('linkedinCompany').checked;
   const linkedinProfile = document.getElementById('linkedinProfile').checked;
 
@@ -442,6 +466,14 @@ function handleFormSubmit(event) {
     hideError('yoe', 'yoeError');
   }
 
+  const locErr = getPreferredLocationError(preferredLocation);
+  if (!preferredLocation || locErr) {
+    showError('preferredLocation', 'preferredLocationError', locErr || 'Preferred location is required.');
+    isValid = false;
+  } else {
+    hideError('preferredLocation', 'preferredLocationError');
+  }
+
   if (!isValid) {
     showStatus('Please fix the errors before submitting.', 'error');
     return;
@@ -462,6 +494,7 @@ function handleFormSubmit(event) {
     mobile,
     technology: finalTechnology,
     yoe,
+    preferredLocation,
     linkedinCompany: linkedinCompany ? 'Yes' : 'No',
     linkedinProfile: linkedinProfile ? 'Yes' : 'No',
     timestamp: new Date().toISOString()
