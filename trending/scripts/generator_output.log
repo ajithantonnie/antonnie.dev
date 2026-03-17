@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day 18 of US-Israel attacks?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war
-Added expanded search topic: Iran war: What is happening on day 18 of US-Israel attacks?
-Added expanded search topic: Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war
-Saved 12 topics for 2026-03-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Families search for loved ones after deadly Pakistan strikes on Kabul rehab
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian refugees face new displacement as Israel’s bombs hit Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran is targeting ships in response to US attacks — can the US stop them?
+Added expanded search topic: Families search for loved ones after deadly Pakistan strikes on Kabul rehab
+Added expanded search topic: Palestinian refugees face new displacement as Israel’s bombs hit Lebanon
+Added expanded search topic: Iran is targeting ships in response to US attacks — can the US stop them?
+Saved 15 topics for 2026-03-17
 Returning 3 unique trending topics:
-  1. Will Scotland be the first nation in the UK to legalise assisted dying? (from BBC News)
-  2. Iran war: What is happening on day 18 of US-Israel attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Families search for loved ones after deadly Pakistan strikes on Kabul rehab (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Palestinian refugees face new displacement as Israel’s bombs hit Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran is targeting ships in response to US attacks — can the US stop them? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Will Scotland be the first nation in the UK to legalise assisted dying?
-Searching Google for: Will Scotland be the first nation in the UK to legalise assisted dying?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BScotland%252Bbe%252Bthe%252Bfirst%252Bnation%252Bin%252Bthe%252BUK%252Bto%252Blegalise%252Bassisted%252Bdying%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hrxGLn_480GIjCKpBWIjrUylNK1yDC8kvyo1gbQiVn4VWltoaGQpMfg2fEAqjccjOg8Ygt8H3E53p8yBmpjbmRyUloBQw
+Processing trending topic: Families search for loved ones after deadly Pakistan strikes on Kabul rehab
+Searching Google for: Families search for loved ones after deadly Pakistan strikes on Kabul rehab
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamilies%252Bsearch%252Bfor%252Bloved%252Bones%252Bafter%252Bdeadly%252BPakistan%252Bstrikes%252Bon%252BKabul%252Brehab%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHxGJ2u5M0GIjDHNiI5OCaCg2mnGBJJBUVKbTfE1cu-JlsBCJ6CmionMpkJ9P0xmnz-If_S6CWI8RkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-scotland-be-the-first-nation-in-the-uk-to-leg_20260317_0716.html
-✓ Created comprehensive article: will-scotland-be-the-first-nation-in-the-uk-to-leg_20260317_0716.html
+Successfully created file: families-search-for-loved-ones-after-deadly-pakist_20260317_0856.html
+✓ Created comprehensive article: families-search-for-loved-ones-after-deadly-pakist_20260317_0856.html
 
-Processing trending topic: Iran war: What is happening on day 18 of US-Israel attacks?
-Searching Google for: Iran war: What is happening on day 18 of US-Israel attacks?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252B18%252Bof%252BUS-Israel%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hrxGL__480GIjAREPMiVG_O6_Eh0kaiERuYHh9ZbpzcrHQYYaY9zi9bGfaU92xWYGgoRrrWCRKsihIyBmpjbmRyUloBQw
+Processing trending topic: Palestinian refugees face new displacement as Israel’s bombs hit Lebanon
+Searching Google for: Palestinian refugees face new displacement as Israel’s bombs hit Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252Brefugees%252Bface%252Bnew%252Bdisplacement%252Bas%252BIsrael%25E2%2580%2599s%252Bbombs%252Bhit%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHxGKOu5M0GIjCmebA-wxNniTMUPDR9Nuo4TdylxadDXpw4zmckdpvqwgANWiiQZpxFO7mrGWHr0JoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-what-is-happening-on-day-18-of-us-israel-_20260317_0716.html
-✓ Created comprehensive article: iran-war-what-is-happening-on-day-18-of-us-israel-_20260317_0716.html
+Successfully created file: palestinian-refugees-face-new-displacement-as-isra_20260317_0856.html
+✓ Created comprehensive article: palestinian-refugees-face-new-displacement-as-isra_20260317_0856.html
 
-Processing trending topic: Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war
-Searching Google for: Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrone%252Bsparks%252Bfire%252Bat%252BUAE%252Boil%252Bsite%252Bas%252BGulf%252Btakes%252Bmore%252Bhits%252Bamid%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hrxGMb_480GIjBe0CFCVFF8S-sCHVR-9fLgNHdsSpR42JBvsMGEoLuDHxwHmjuLj9ADCFPk-0MV51AyBmpjbmRyUloBQw
+Processing trending topic: Iran is targeting ships in response to US attacks — can the US stop them?
+Searching Google for: Iran is targeting ships in response to US attacks — can the US stop them?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bis%252Btargeting%252Bships%252Bin%252Bresponse%252Bto%252BUS%252Battacks%252B%25E2%2580%2594%252Bcan%252Bthe%252BUS%252Bstop%252Bthem%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHxGKmu5M0GIjDT0a727bKfa4N8VhomEmc8CLVQYZdEXbfvlrdIa6cNetf_vTr37_5hLHFj7PVPpuYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: drone-sparks-fire-at-uae-oil-site-as-gulf-takes-mo_20260317_0716.html
-✓ Created comprehensive article: drone-sparks-fire-at-uae-oil-site-as-gulf-takes-mo_20260317_0716.html
+Successfully created file: iran-is-targeting-ships-in-response-to-us-attacks-_20260317_0856.html
+✓ Created comprehensive article: iran-is-targeting-ships-in-response-to-us-attacks-_20260317_0856.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Will Scotland be the first nation in the UK to legalise assisted dying?
+   • Families search for loved ones after deadly Pakistan strikes on Kabul rehab
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war: What is happening on day 18 of US-Israel attacks?
+   • Palestinian refugees face new displacement as Israel’s bombs hit Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • Drone sparks fire at UAE oil site as Gulf takes more hits amid Iran war
+   • Iran is targeting ships in response to US attacks — can the US stop them?
      Sources: bbc.com, cnn.com, reuters.com
