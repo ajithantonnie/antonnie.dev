@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel says it has killed Ali Larijani, Iran’s top security official
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gulf economies suffer brunt of Iran war as recession risk looms
-Added expanded search topic: Israel says it has killed Ali Larijani, Iran’s top security official
-Added expanded search topic: Gulf economies suffer brunt of Iran war as recession risk looms
-Saved 18 topics for 2026-03-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could the Iran war trigger a global recession?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Blood tech: The UK ambassador, the sex offender, Palantir, and Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel says Iran’s security chief Larijani has been killed
+Added expanded search topic: Could the Iran war trigger a global recession?
+Added expanded search topic: Blood tech: The UK ambassador, the sex offender, Palantir, and Gaza
+Added expanded search topic: Israel says Iran’s security chief Larijani has been killed
+Saved 21 topics for 2026-03-17
 Returning 3 unique trending topics:
-  1. Easter holidaymakers switching from Dubai to Spain as flights fill up (from BBC News)
-  2. Israel says it has killed Ali Larijani, Iran’s top security official (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Gulf economies suffer brunt of Iran war as recession risk looms (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Could the Iran war trigger a global recession? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Blood tech: The UK ambassador, the sex offender, Palantir, and Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel says Iran’s security chief Larijani has been killed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Easter holidaymakers switching from Dubai to Spain as flights fill up
-Searching Google for: Easter holidaymakers switching from Dubai to Spain as flights fill up
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEaster%252Bholidaymakers%252Bswitching%252Bfrom%252BDubai%252Bto%252BSpain%252Bas%252Bflights%252Bfill%252Bup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS1xGJDL5M0GIjAxNE_pyPM2UdwxHUBM5Dy9-p5szkQwJ1Pekc3EhQLXaEKsRGkkEW6qCNSxhwKaj8wyBmpjbmRyUloBQw
+Processing trending topic: Could the Iran war trigger a global recession?
+Searching Google for: Could the Iran war trigger a global recession?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252Bthe%252BIran%252Bwar%252Btrigger%252Ba%252Bglobal%252Brecession%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGMfm5M0GIjB4snK5Cd_jpCLfZvVFdhmWLLvDhZSHETC6GUq5SmWVTQxnIZfQrDkFgBQIfGvCuLgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: easter-holidaymakers-switching-from-dubai-to-spain_20260317_0957.html
-✓ Created comprehensive article: easter-holidaymakers-switching-from-dubai-to-spain_20260317_0957.html
+Successfully created file: could-the-iran-war-trigger-a-global-recession_20260317_1056.html
+✓ Created comprehensive article: could-the-iran-war-trigger-a-global-recession_20260317_1056.html
 
-Processing trending topic: Israel says it has killed Ali Larijani, Iran’s top security official
-Searching Google for: Israel says it has killed Ali Larijani, Iran’s top security official
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bsays%252Bit%252Bhas%252Bkilled%252BAli%252BLarijani%252C%252BIran%25E2%2580%2599s%252Btop%252Bsecurity%252Bofficial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS1xGJjL5M0GIjDnWBe6jmwsSmAKwQE4LL-ZDMOVccZFmdUnLCyydGPiRRZkopEVB5FXbh0yfqvXRpEyBmpjbmRyUloBQw
+Processing trending topic: Blood tech: The UK ambassador, the sex offender, Palantir, and Gaza
+Searching Google for: Blood tech: The UK ambassador, the sex offender, Palantir, and Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBlood%252Btech%253A%252BThe%252BUK%252Bambassador%252C%252Bthe%252Bsex%252Boffender%252C%252BPalantir%252C%252Band%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGM7m5M0GIjDlEempVxF6oAgEwItg8ilgYvPfGR-3_jyoukKkKaOCVlrBTC21dYwcQgwph45RznAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-says-it-has-killed-ali-larijani-irans-top-s_20260317_0957.html
-✓ Created comprehensive article: israel-says-it-has-killed-ali-larijani-irans-top-s_20260317_0957.html
+Successfully created file: blood-tech-the-uk-ambassador-the-sex-offender-pala_20260317_1056.html
+✓ Created comprehensive article: blood-tech-the-uk-ambassador-the-sex-offender-pala_20260317_1056.html
 
-Processing trending topic: Gulf economies suffer brunt of Iran war as recession risk looms
-Searching Google for: Gulf economies suffer brunt of Iran war as recession risk looms
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGulf%252Beconomies%252Bsuffer%252Bbrunt%252Bof%252BIran%252Bwar%252Bas%252Brecession%252Brisk%252Blooms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS1xGJ7L5M0GIjCFUJU7UpLmjUqZxmW_yYCebCt2ddbqd5XO3v45OgMe8BGkyX2BrbVSYs1ufjU1NkgyBmpjbmRyUloBQw
+Processing trending topic: Israel says Iran’s security chief Larijani has been killed
+Searching Google for: Israel says Iran’s security chief Larijani has been killed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bsays%252BIran%25E2%2580%2599s%252Bsecurity%252Bchief%252BLarijani%252Bhas%252Bbeen%252Bkilled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGNTm5M0GIjDpyQtkk3oUbE8xLR3BY0LIm-Q8nOGSno0geg1uxXj8H-kuhjeB8wwpvEtX7c2mxdEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gulf-economies-suffer-brunt-of-iran-war-as-recessi_20260317_0957.html
-✓ Created comprehensive article: gulf-economies-suffer-brunt-of-iran-war-as-recessi_20260317_0957.html
+Successfully created file: israel-says-irans-security-chief-larijani-has-been_20260317_1056.html
+✓ Created comprehensive article: israel-says-irans-security-chief-larijani-has-been_20260317_1056.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Easter holidaymakers switching from Dubai to Spain as flights fill up
+   • Could the Iran war trigger a global recession?
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel says it has killed Ali Larijani, Iran’s top security official
+   • Blood tech: The UK ambassador, the sex offender, Palantir, and Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Gulf economies suffer brunt of Iran war as recession risk looms
+   • Israel says Iran’s security chief Larijani has been killed
      Sources: bbc.com, cnn.com, reuters.com
