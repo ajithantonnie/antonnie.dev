@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-17
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cuba faces nationwide blackouts amid US oil blockade
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Top Democrat in US House slams Trump’s ‘reckless war of choice’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel policy looms large over US elections in Illinois amid Iran war
+Added expanded search topic: Cuba faces nationwide blackouts amid US oil blockade
+Added expanded search topic: Top Democrat in US House slams Trump’s ‘reckless war of choice’
+Added expanded search topic: Israel policy looms large over US elections in Illinois amid Iran war
+Saved 6 topics for 2026-03-17
 Returning 3 unique trending topics:
-  1. Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs (from BBC News)
-  2. Family 'beyond devastated' by meningitis death as hundreds get antibiotics (from BBC News)
-  3. Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts (from The Guardian)
+  1. Cuba faces nationwide blackouts amid US oil blockade (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Top Democrat in US House slams Trump’s ‘reckless war of choice’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel policy looms large over US elections in Illinois amid Iran war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs
-Searching Google for: Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BWhy%252BStarmer%252Bthinks%252Bhe%2527s%252Bcalled%252Bit%252Bright%252Bon%252Bwar%252Bdespite%252BTrump%252Bbarbs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raODGIPt4s0GIjDH0_6vbNDoI07fa5t3TwYxpypCb3C8Ne9WBkSKBcHFkRO1PHU2f79UA2XshASEqP0yBmpjbmRyUloBQw
+Processing trending topic: Cuba faces nationwide blackouts amid US oil blockade
+Searching Google for: Cuba faces nationwide blackouts amid US oil blockade
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuba%252Bfaces%252Bnationwide%252Bblackouts%252Bamid%252BUS%252Boil%252Bblockade%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd4SYGM2w480GIjDD-OSb95L0E5mHeTBq-gL8DPXJ81Hh7tojCYwIcZj3yyeyFgPhdq9r4uxSe20GKI4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-why-starmer-thinks-hes-called-it-right_20260317_0203.html
-✓ Created comprehensive article: chris-mason-why-starmer-thinks-hes-called-it-right_20260317_0203.html
+Successfully created file: cuba-faces-nationwide-blackouts-amid-us-oil-blocka_20260317_0428.html
+✓ Created comprehensive article: cuba-faces-nationwide-blackouts-amid-us-oil-blocka_20260317_0428.html
 
-Processing trending topic: Family 'beyond devastated' by meningitis death as hundreds get antibiotics
-Searching Google for: Family 'beyond devastated' by meningitis death as hundreds get antibiotics
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamily%252B%2527beyond%252Bdevastated%2527%252Bby%252Bmeningitis%252Bdeath%252Bas%252Bhundreds%252Bget%252Bantibiotics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raODGIrt4s0GIjAehH9ZkMCWC5WenHVm5AyIyUW4Vh4IDH6Q0halxcdkrsWNHCZBoWVRV7iMiLOSmegyBmpjbmRyUloBQw
+Processing trending topic: Top Democrat in US House slams Trump’s ‘reckless war of choice’
+Searching Google for: Top Democrat in US House slams Trump’s ‘reckless war of choice’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTop%252BDemocrat%252Bin%252BUS%252BHouse%252Bslams%252BTrump%25E2%2580%2599s%252B%25E2%2580%2598reckless%252Bwar%252Bof%252Bchoice%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd4SYGNSw480GIjCF1-x1-1qOtfhelI4xW4XaXBUScVXPM2OoucDfFesh52Uodt8SWCOtlkieuSEtjbwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: family-beyond-devastated-by-meningitis-death-as-hu_20260317_0203.html
-✓ Created comprehensive article: family-beyond-devastated-by-meningitis-death-as-hu_20260317_0203.html
+Successfully created file: top-democrat-in-us-house-slams-trumps-reckless-war_20260317_0428.html
+✓ Created comprehensive article: top-democrat-in-us-house-slams-trumps-reckless-war_20260317_0428.html
 
-Processing trending topic: Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts
-Searching Google for: Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfrica%252Bparticularly%252Bvulnerable%252Bas%252BIran%252Bconflict%252Bdisrupts%252Bsupply%252Bchains%252C%252Bsay%252Bexperts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raODGJDt4s0GIjBxWREGApY6DWqOVSdDhHyBCh3JWygI1F9Y0IxoEREWMuBfk-NMhsyIcT80d124P0oyBmpjbmRyUloBQw
+Processing trending topic: Israel policy looms large over US elections in Illinois amid Iran war
+Searching Google for: Israel policy looms large over US elections in Illinois amid Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bpolicy%252Blooms%252Blarge%252Bover%252BUS%252Belections%252Bin%252BIllinois%252Bamid%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd4SYGNqw480GIjAQwNqJaebqoHRmCScr6Ripp6HVrA2e3cI8_dh1FwKDhqYR9Xf1ElY3dy-MElYbhA0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: africa-particularly-vulnerable-as-iran-conflict-di_20260317_0204.html
-✓ Created comprehensive article: africa-particularly-vulnerable-as-iran-conflict-di_20260317_0204.html
+Successfully created file: israel-policy-looms-large-over-us-elections-in-ill_20260317_0428.html
+✓ Created comprehensive article: israel-policy-looms-large-over-us-elections-in-ill_20260317_0428.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs
+   • Cuba faces nationwide blackouts amid US oil blockade
      Sources: bbc.com, cnn.com, reuters.com
-   • Family 'beyond devastated' by meningitis death as hundreds get antibiotics
+   • Top Democrat in US House slams Trump’s ‘reckless war of choice’
      Sources: bbc.com, cnn.com, reuters.com
-   • Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts
+   • Israel policy looms large over US elections in Illinois amid Iran war
      Sources: bbc.com, cnn.com, reuters.com
