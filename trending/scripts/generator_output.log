@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Family of teen who died in meningitis outbreak says loss is 'immeasurable'
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Some of the world’s poorest countries to lose UK aid due to 56% budget cut
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian football players celebrated in Tehran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA’s Gianni Infantino seemingly changes course on peace efforts
-Added expanded search topic: Iranian football players celebrated in Tehran
-Added expanded search topic: FIFA’s Gianni Infantino seemingly changes course on peace efforts
-Saved 9 topics for 2026-03-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Eid under siege: Little to celebrate in Gaza as Israel tightens chokehold
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran women’s football team feted in Tehran after asylum battle at Asian Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran footballer Azmoun kicked off national team for disloyalty, say reports
+Added expanded search topic: Eid under siege: Little to celebrate in Gaza as Israel tightens chokehold
+Added expanded search topic: Iran women’s football team feted in Tehran after asylum battle at Asian Cup
+Added expanded search topic: Iran footballer Azmoun kicked off national team for disloyalty, say reports
+Saved 12 topics for 2026-03-20
 Returning 3 unique trending topics:
-  1. Family of teen who died in meningitis outbreak says loss is 'immeasurable' (from BBC News)
-  2. Iranian football players celebrated in Tehran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. FIFA’s Gianni Infantino seemingly changes course on peace efforts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Eid under siege: Little to celebrate in Gaza as Israel tightens chokehold (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran women’s football team feted in Tehran after asylum battle at Asian Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran footballer Azmoun kicked off national team for disloyalty, say reports (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Family of teen who died in meningitis outbreak says loss is 'immeasurable'
-Searching Google for: Family of teen who died in meningitis outbreak says loss is 'immeasurable'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamily%252Bof%252Bteen%252Bwho%252Bdied%252Bin%252Bmeningitis%252Boutbreak%252Bsays%252Bloss%252Bis%252B%2527immeasurable%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pVQGJPC880GIjAPf8rz5k2NCnaWNdVxQcjStkRMxyXzcGqyWUou6C8gRa8NawMAmlrgFCLKKuboNOkyBmpjbmRyUloBQw
+Processing trending topic: Eid under siege: Little to celebrate in Gaza as Israel tightens chokehold
+Searching Google for: Eid under siege: Little to celebrate in Gaza as Israel tightens chokehold
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEid%252Bunder%252Bsiege%253A%252BLittle%252Bto%252Bcelebrate%252Bin%252BGaza%252Bas%252BIsrael%252Btightens%252Bchokehold%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfvzGOrf880GIjC-ezpyURYxFmIxkbSjLmbLNwg1KC9Ch2DuoSxdExkG4SstsuNNG9qKmYy2GNJa9RgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: family-of-teen-who-died-in-meningitis-outbreak-say_20260320_0554.html
-✓ Created comprehensive article: family-of-teen-who-died-in-meningitis-outbreak-say_20260320_0554.html
+Successfully created file: eid-under-siege-little-to-celebrate-in-gaza-as-isr_20260320_0657.html
+✓ Created comprehensive article: eid-under-siege-little-to-celebrate-in-gaza-as-isr_20260320_0657.html
 
-Processing trending topic: Iranian football players celebrated in Tehran
-Searching Google for: Iranian football players celebrated in Tehran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bfootball%252Bplayers%252Bcelebrated%252Bin%252BTehran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pVQGJrC880GIjDx1rODxH3477a7Km8WBov5hXFIyWeX7xgLW-OpPip58taXxwq3JX97CzALXORZsb4yBmpjbmRyUloBQw
+Processing trending topic: Iran women’s football team feted in Tehran after asylum battle at Asian Cup
+Searching Google for: Iran women’s football team feted in Tehran after asylum battle at Asian Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwomen%25E2%2580%2599s%252Bfootball%252Bteam%252Bfeted%252Bin%252BTehran%252Bafter%252Basylum%252Bbattle%252Bat%252BAsian%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfvzGPHf880GIjC_VcjY-ps4VJOX_ewyy-URAntpp0YStFsUyw3RN4xSZy41tALM9tGxR_OkK9LsmTsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-football-players-celebrated-in-tehran_20260320_0554.html
-✓ Created comprehensive article: iranian-football-players-celebrated-in-tehran_20260320_0554.html
+Successfully created file: iran-womens-football-team-feted-in-tehran-after-as_20260320_0657.html
+✓ Created comprehensive article: iran-womens-football-team-feted-in-tehran-after-as_20260320_0657.html
 
-Processing trending topic: FIFA’s Gianni Infantino seemingly changes course on peace efforts
-Searching Google for: FIFA’s Gianni Infantino seemingly changes course on peace efforts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%25E2%2580%2599s%252BGianni%252BInfantino%252Bseemingly%252Bchanges%252Bcourse%252Bon%252Bpeace%252Befforts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pVQGKHC880GIjCz-08Zdw0Uh97uxJGjXPMgMeFet6-_61nvyQfcGioVeNIPlAvFzxiV7xbT-T54TxkyBmpjbmRyUloBQw
+Processing trending topic: Iran footballer Azmoun kicked off national team for disloyalty, say reports
+Searching Google for: Iran footballer Azmoun kicked off national team for disloyalty, say reports
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bfootballer%252BAzmoun%252Bkicked%252Boff%252Bnational%252Bteam%252Bfor%252Bdisloyalty%252C%252Bsay%252Breports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfvzGPjf880GIjD9P-RpYknWvn_IEtfc5Y_x_bjGwIrT743iUBX8lS35RS-6yL_7y-3fKQ1ApdOewXYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifas-gianni-infantino-seemingly-changes-course-on_20260320_0554.html
-✓ Created comprehensive article: fifas-gianni-infantino-seemingly-changes-course-on_20260320_0554.html
+Successfully created file: iran-footballer-azmoun-kicked-off-national-team-fo_20260320_0658.html
+✓ Created comprehensive article: iran-footballer-azmoun-kicked-off-national-team-fo_20260320_0658.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Family of teen who died in meningitis outbreak says loss is 'immeasurable'
+   • Eid under siege: Little to celebrate in Gaza as Israel tightens chokehold
      Sources: bbc.com, cnn.com, reuters.com
-   • Iranian football players celebrated in Tehran
+   • Iran women’s football team feted in Tehran after asylum battle at Asian Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA’s Gianni Infantino seemingly changes course on peace efforts
+   • Iran footballer Azmoun kicked off national team for disloyalty, say reports
      Sources: bbc.com, cnn.com, reuters.com
