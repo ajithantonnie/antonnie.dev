@@ -8,121 +8,185 @@
       name="description"
       content="Terms and Conditions for Padlock Puzzle - Brain Teaser Game."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      body {
-        min-height: 100vh;
+      /* ===== Design Tokens ===== */
+      :root {
+        --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --text-white: rgba(255, 255, 255, 0.92);
+        --text-muted: rgba(255, 255, 255, 0.65);
+        --glass-bg: rgba(255, 255, 255, 0.06);
+        --glass-border: rgba(255, 255, 255, 0.12);
+        --glass-hover: rgba(255, 255, 255, 0.1);
+        --transition: all 0.3s ease;
+        --shadow-glow: 0 0 30px rgba(102, 126, 234, 0.25);
+      }
+
+      * {
         margin: 0;
         padding: 0;
-        font-family: "Segoe UI", "Roboto", Arial, sans-serif;
-        color: #222;
-        background: linear-gradient(
-          120deg,
-          #e0e7ff 0%,
-          #f7fafc 50%,
-          #c7d2fe 100%
-        );
-        background-size: 200% 200%;
-        animation: gradientMove 8s ease-in-out infinite;
+        box-sizing: border-box;
       }
-      @keyframes gradientMove {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
+
+      body {
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+        line-height: 1.6;
+        color: var(--text-white);
+        background: #0f0c29;
+        background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+        min-height: 100vh;
+        overflow-x: hidden;
       }
+
+      /* ===== Animated Background ===== */
+      .animated-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        overflow: hidden;
+        pointer-events: none;
+      }
+
+      .circle {
+        position: absolute;
+        border-radius: 50%;
+        animation: float 20s infinite ease-in-out;
+      }
+
+      .circle:nth-child(1) { width: 350px; height: 350px; top: 5%; left: 5%; background: rgba(102, 126, 234, 0.08); animation-delay: 0s; }
+      .circle:nth-child(2) { width: 200px; height: 200px; top: 60%; right: 10%; background: rgba(244, 143, 177, 0.08); animation-delay: 3s; }
+      .circle:nth-child(3) { width: 150px; height: 150px; bottom: 15%; left: 15%; background: rgba(79, 172, 254, 0.08); animation-delay: 6s; }
+      .circle:nth-child(4) { width: 280px; height: 280px; top: 35%; right: 30%; background: rgba(167, 139, 250, 0.07); animation-delay: 9s; }
+      .circle:nth-child(5) { width: 120px; height: 120px; top: 20%; right: 50%; background: rgba(0, 242, 254, 0.06); animation-delay: 12s; }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0) translateX(0) scale(1); }
+        33% { transform: translateY(-40px) translateX(25px) scale(1.08); }
+        66% { transform: translateY(20px) translateX(-20px) scale(0.93); }
+      }
+
       main {
-        max-width: 600px;
-        margin: 40px auto;
-        background: #fff;
-        border-radius: 16px;
-        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
-        padding: 32px 24px;
+        max-width: 800px;
+        margin: 60px auto;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 24px;
+        backdrop-filter: blur(20px);
+        box-shadow: var(--shadow-glow);
+        padding: 48px;
+        position: relative;
+        z-index: 1;
       }
+
       h1 {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
+        font-weight: 800;
         margin-bottom: 0.5em;
-        color: #2d7ff9;
-        letter-spacing: 1px;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
       }
+
       h2 {
-        color: #2d7ff9;
+        color: white;
         margin-top: 2em;
-        font-size: 1.3rem;
-        display: flex;
-        align-items: center;
-        gap: 0.5em;
+        margin-bottom: 1em;
+        font-size: 1.5rem;
+        font-weight: 700;
       }
-      ul,
-      ol {
-        padding-left: 1.2em;
-        margin: 1em 0;
+
+      p, li {
+        color: var(--text-muted);
+        font-size: 1.05rem;
+        margin-bottom: 0.8em;
       }
-      li {
-        margin-bottom: 0.7em;
-        font-size: 1.05em;
-      }
-      section {
-        margin-bottom: 2em;
-      }
-      a {
-        color: #2d7ff9;
-        text-decoration: none;
-        transition: color 0.2s;
-      }
-      a:hover {
-        text-decoration: underline;
-        color: #174ea6;
-      }
-      .contact {
-        background: #f0f6ff;
-        border-radius: 8px;
-        padding: 1em;
-        text-align: center;
-        font-size: 1.1em;
-      }
-      .updated {
-        text-align: center;
-        color: #555;
-        font-size: 1em;
+
+      ul, ol {
+        padding-left: 1.5em;
         margin-bottom: 1.5em;
       }
-      .logo-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 1.5em auto;
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        background: #f0f6ff;
-        box-shadow: 0 4px 16px rgba(45, 127, 249, 0.1);
+
+      a {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 500;
+        transition: var(--transition);
       }
+
+      a:hover {
+        color: #a8b8ff;
+        text-decoration: underline;
+      }
+
+      .contact {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        padding: 24px;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .updated {
+        text-align: center;
+        color: var(--text-muted);
+        font-size: 0.95rem;
+        margin-bottom: 32px;
+        display: block;
+      }
+
+      .logo-container {
+        width: 100px;
+        height: 100px;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 24px;
+        box-shadow: var(--shadow-glow);
+      }
+
       .logo-container img {
-        max-width: 80px;
-        max-height: 80px;
+        max-width: 70px;
+        max-height: 70px;
         border-radius: 50%;
         object-fit: contain;
       }
-      @media (max-width: 700px) {
+
+      @media (max-width: 768px) {
         main {
-          padding: 16px 4vw;
+          margin: 30px 16px;
+          padding: 32px 20px;
         }
-        h1 {
-          font-size: 2rem;
-        }
+        h1 { font-size: 2rem; }
       }
     </style>
   </head>
   <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+
     <main>
       <div class="logo-container">
-        <img src="../../logo/logo.png" alt="Padlock Puzzle Logo" />
+        <img src="../../logo/app-logo.png" alt="Padlock Puzzle Logo" />
       </div>
       <h1>Terms and Conditions</h1>
       <div class="updated">Last Updated: August 9th 2025</div>
