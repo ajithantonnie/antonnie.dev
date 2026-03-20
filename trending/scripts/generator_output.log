@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Dame Jenni Murray, former BBC Woman's Hour presenter, dies at 75
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Madagascar’s military ruler decrees that ministers must pass lie detector tests
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran: From Khamenei to Khamenei
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump administration seeks billions from Harvard over anti-Semitism claims
-Added expanded search topic: Iran: From Khamenei to Khamenei
-Added expanded search topic: Trump administration seeks billions from Harvard over anti-Semitism claims
-Saved 45 topics for 2026-03-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranians celebrate Persian New Year in first wartime Nowruz in decades
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump administration seeks billions from Harvard in anti-Semitism lawsuit
+Added expanded search topic: Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86
+Added expanded search topic: Iranians celebrate Persian New Year in first wartime Nowruz in decades
+Added expanded search topic: Trump administration seeks billions from Harvard in anti-Semitism lawsuit
+Saved 48 topics for 2026-03-20
 Returning 3 unique trending topics:
-  1. Dame Jenni Murray, former BBC Woman's Hour presenter, dies at 75 (from BBC News)
-  2. Iran: From Khamenei to Khamenei (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump administration seeks billions from Harvard over anti-Semitism claims (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iranians celebrate Persian New Year in first wartime Nowruz in decades (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump administration seeks billions from Harvard in anti-Semitism lawsuit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dame Jenni Murray, former BBC Woman's Hour presenter, dies at 75
-Searching Google for: Dame Jenni Murray, former BBC Woman's Hour presenter, dies at 75
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDame%252BJenni%252BMurray%252C%252Bformer%252BBBC%252BWoman%2527s%252BHour%252Bpresenter%252C%252Bdies%252Bat%252B75%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCAyGJKu9s0GIjBzF47AXjIL2oN57eXK4OYMAxqmybljEYzQ2J9dJx1GGUJZyWEnjYOyyC634y2ULtAyBmpjbmRyUloBQw
+Processing trending topic: Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86
+Searching Google for: Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWalker%252C%252BTexas%252BRanger%252Bstar%252Band%252Bmartial%252Barts%252Bicon%252BChuck%252BNorris%252Bdies%252Bat%252B86%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoSzjGILF9s0GIjDQs775uv-qmPiylBCQ0-9VhmoVMhVBQF1Aw01cWd3FzqVP-JaB7K7kWnibHe_7VnEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dame-jenni-murray-former-bbc-womans-hour-presenter_20260320_1851.html
-✓ Created comprehensive article: dame-jenni-murray-former-bbc-womans-hour-presenter_20260320_1851.html
+Successfully created file: walker-texas-ranger-star-and-martial-arts-icon-chu_20260320_1939.html
+✓ Created comprehensive article: walker-texas-ranger-star-and-martial-arts-icon-chu_20260320_1939.html
 
-Processing trending topic: Iran: From Khamenei to Khamenei
-Searching Google for: Iran: From Khamenei to Khamenei
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%253A%252BFrom%252BKhamenei%252Bto%252BKhamenei%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCAyGJmu9s0GIjAdSh2pimMzH18N5XZ-Pz1my6CpbokvEZmnZYV2_ENA4CNLJ8UVDv3oKrUcxs9mMqkyBmpjbmRyUloBQw
+Processing trending topic: Iranians celebrate Persian New Year in first wartime Nowruz in decades
+Searching Google for: Iranians celebrate Persian New Year in first wartime Nowruz in decades
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranians%252Bcelebrate%252BPersian%252BNew%252BYear%252Bin%252Bfirst%252Bwartime%252BNowruz%252Bin%252Bdecades%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoSzjGIrF9s0GIjBsxlAGPP34RTQfiE41RlaFSL1M22oBeU5IZ3dNcI_OJ_jI5iUatF1gylOITcBsTo4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-from-khamenei-to-khamenei_20260320_1851.html
-✓ Created comprehensive article: iran-from-khamenei-to-khamenei_20260320_1851.html
+Successfully created file: iranians-celebrate-persian-new-year-in-first-warti_20260320_1939.html
+✓ Created comprehensive article: iranians-celebrate-persian-new-year-in-first-warti_20260320_1939.html
 
-Processing trending topic: Trump administration seeks billions from Harvard over anti-Semitism claims
-Searching Google for: Trump administration seeks billions from Harvard over anti-Semitism claims
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bseeks%252Bbillions%252Bfrom%252BHarvard%252Bover%252Banti-Semitism%252Bclaims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCAyGJ-u9s0GIjCmevkNikftHgkCZPL0fs29lWV1zx7McA0ddzEr4eY0ZZDPCAoNzAxnGJh6gevoO90yBmpjbmRyUloBQw
+Processing trending topic: Trump administration seeks billions from Harvard in anti-Semitism lawsuit
+Searching Google for: Trump administration seeks billions from Harvard in anti-Semitism lawsuit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bseeks%252Bbillions%252Bfrom%252BHarvard%252Bin%252Banti-Semitism%252Blawsuit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoSzjGJDF9s0GIjDVs7AWpdAevDOX9dJHyn_PKwQ2SZ8YPvIAuvt6DqmP7QeL6_vVksiZwP5c_MZ4p48yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-administration-seeks-billions-from-harvard-o_20260320_1851.html
-✓ Created comprehensive article: trump-administration-seeks-billions-from-harvard-o_20260320_1851.html
+Successfully created file: trump-administration-seeks-billions-from-harvard-i_20260320_1940.html
+✓ Created comprehensive article: trump-administration-seeks-billions-from-harvard-i_20260320_1940.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dame Jenni Murray, former BBC Woman's Hour presenter, dies at 75
+   • Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran: From Khamenei to Khamenei
+   • Iranians celebrate Persian New Year in first wartime Nowruz in decades
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump administration seeks billions from Harvard over anti-Semitism claims
+   • Trump administration seeks billions from Harvard in anti-Semitism lawsuit
      Sources: bbc.com, cnn.com, reuters.com
