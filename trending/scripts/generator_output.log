@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK allows US to use bases to strike Strait of Hormuz targets
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Madagascar’s military ruler decrees that ministers must pass lie detector tests
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-21
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Aid flotilla for Cuba sets sail from Mexico
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reporter’s journey from Jordan to Iraq
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: Trump says no ceasefire as Khamenei issues defiant message
+Added expanded search topic: Aid flotilla for Cuba sets sail from Mexico
+Added expanded search topic: Al Jazeera reporter’s journey from Jordan to Iraq
+Added expanded search topic: Iran war live: Trump says no ceasefire as Khamenei issues defiant message
+Saved 6 topics for 2026-03-21
 Returning 3 unique trending topics:
-  1. UK allows US to use bases to strike Strait of Hormuz targets (from BBC News)
-  2. Sarah Ferguson is lying low, but pressure is mounting for her to give evidence on Epstein (from BBC News)
-  3. Madagascar’s military ruler decrees that ministers must pass lie detector tests (from The Guardian)
+  1. Aid flotilla for Cuba sets sail from Mexico (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Al Jazeera reporter’s journey from Jordan to Iraq (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran war live: Trump says no ceasefire as Khamenei issues defiant message (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK allows US to use bases to strike Strait of Hormuz targets
-Searching Google for: UK allows US to use bases to strike Strait of Hormuz targets
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Ballows%252BUS%252Bto%252Buse%252Bbases%252Bto%252Bstrike%252BStrait%252Bof%252BHormuz%252Btargets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuFUGPz1980GIjBiF-4xOCmSxHe3VYu2NIP_KmgSDx7X5MiAZUpkqgMXp0PmuN7aZ18AiAcevCW7JO4yBmpjbmRyUloBQw
+Processing trending topic: Aid flotilla for Cuba sets sail from Mexico
+Searching Google for: Aid flotilla for Cuba sets sail from Mexico
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAid%252Bflotilla%252Bfor%252BCuba%252Bsets%252Bsail%252Bfrom%252BMexico%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9kyGPm0-M0GIjBS-jBoenbqWH2yUAfHVkGS78KO2lAg19rg7gVjGIYTFUQ8lwzve4yXd-8if_Exsa4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-allows-us-to-use-bases-to-strike-strait-of-horm_20260321_0157.html
-✓ Created comprehensive article: uk-allows-us-to-use-bases-to-strike-strait-of-horm_20260321_0157.html
+Successfully created file: aid-flotilla-for-cuba-sets-sail-from-mexico_20260321_0411.html
+✓ Created comprehensive article: aid-flotilla-for-cuba-sets-sail-from-mexico_20260321_0411.html
 
-Processing trending topic: Sarah Ferguson is lying low, but pressure is mounting for her to give evidence on Epstein
-Searching Google for: Sarah Ferguson is lying low, but pressure is mounting for her to give evidence on Epstein
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSarah%252BFerguson%252Bis%252Blying%252Blow%252C%252Bbut%252Bpressure%252Bis%252Bmounting%252Bfor%252Bher%252Bto%252Bgive%252Bevidence%252Bon%252BEpstein%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuFUGIP2980GIjBqr1yw1788Z9C7sUG2pVGbEW1h3viFEaBPWim6ueUGMzEC1BN_Ic6Piz7ZCDesojAyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera reporter’s journey from Jordan to Iraq
+Searching Google for: Al Jazeera reporter’s journey from Jordan to Iraq
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breporter%25E2%2580%2599s%252Bjourney%252Bfrom%252BJordan%252Bto%252BIraq%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9kyGIC1-M0GIjCtSn6nFUDBXphEzssZrEPAe3uagYCVkk8E0Rz_EIKz-7Bwo9uUKPv0m9mHcBQKsZAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sarah-ferguson-is-lying-low-but-pressure-is-mounti_20260321_0157.html
-✓ Created comprehensive article: sarah-ferguson-is-lying-low-but-pressure-is-mounti_20260321_0157.html
+Successfully created file: al-jazeera-reporters-journey-from-jordan-to-iraq_20260321_0411.html
+✓ Created comprehensive article: al-jazeera-reporters-journey-from-jordan-to-iraq_20260321_0411.html
 
-Processing trending topic: Madagascar’s military ruler decrees that ministers must pass lie detector tests
-Searching Google for: Madagascar’s military ruler decrees that ministers must pass lie detector tests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMadagascar%25E2%2580%2599s%252Bmilitary%252Bruler%252Bdecrees%252Bthat%252Bministers%252Bmust%252Bpass%252Blie%252Bdetector%252Btests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuFUGIr2980GIjCbJv5uGzLarooFrk7mBLZdanDciJK3494K2zl6cXtGd3cIoPq6jhJ-zjkeBs99PAsyBmpjbmRyUloBQw
+Processing trending topic: Iran war live: Trump says no ceasefire as Khamenei issues defiant message
+Searching Google for: Iran war live: Trump says no ceasefire as Khamenei issues defiant message
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BTrump%252Bsays%252Bno%252Bceasefire%252Bas%252BKhamenei%252Bissues%252Bdefiant%252Bmessage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9kyGIa1-M0GIjDaOyJ6ZwidCkfFQ6MXcuOQ9QJoQ04mpAJafa_iIxyY7XAv48585OwmycV8UTPHsvQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: madagascars-military-ruler-decrees-that-ministers-_20260321_0157.html
-✓ Created comprehensive article: madagascars-military-ruler-decrees-that-ministers-_20260321_0157.html
+Successfully created file: iran-war-live-trump-says-no-ceasefire-as-khamenei-_20260321_0411.html
+✓ Created comprehensive article: iran-war-live-trump-says-no-ceasefire-as-khamenei-_20260321_0411.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK allows US to use bases to strike Strait of Hormuz targets
+   • Aid flotilla for Cuba sets sail from Mexico
      Sources: bbc.com, cnn.com, reuters.com
-   • Sarah Ferguson is lying low, but pressure is mounting for her to give evidence on Epstein
+   • Al Jazeera reporter’s journey from Jordan to Iraq
      Sources: bbc.com, cnn.com, reuters.com
-   • Madagascar’s military ruler decrees that ministers must pass lie detector tests
+   • Iran war live: Trump says no ceasefire as Khamenei issues defiant message
      Sources: bbc.com, cnn.com, reuters.com
