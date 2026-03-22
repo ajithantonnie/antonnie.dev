@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: No assessment Iran could strike London, UK minister says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hezbollah attack kills one in north Israel as assault on Lebanon continues
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Did Iran launch missiles at US-UK base on Diego Garcia? Here’s what to know
-Added expanded search topic: Hezbollah attack kills one in north Israel as assault on Lebanon continues
-Added expanded search topic: Did Iran launch missiles at US-UK base on Diego Garcia? Here’s what to know
-Saved 33 topics for 2026-03-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran says will hit region’s energy sites if US, Israel target power plants
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moment Iranian strike hits central Tel Aviv
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Latin American presidents criticise US actions
+Added expanded search topic: Iran says will hit region’s energy sites if US, Israel target power plants
+Added expanded search topic: Moment Iranian strike hits central Tel Aviv
+Added expanded search topic: Latin American presidents criticise US actions
+Saved 36 topics for 2026-03-22
 Returning 3 unique trending topics:
-  1. Energy bills rise 'inescapable' if oil prices stay high, says British Gas boss (from BBC News)
-  2. Hezbollah attack kills one in north Israel as assault on Lebanon continues (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Did Iran launch missiles at US-UK base on Diego Garcia? Here’s what to know (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iran says will hit region’s energy sites if US, Israel target power plants (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Moment Iranian strike hits central Tel Aviv (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Latin American presidents criticise US actions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Energy bills rise 'inescapable' if oil prices stay high, says British Gas boss
-Searching Google for: Energy bills rise 'inescapable' if oil prices stay high, says British Gas boss
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEnergy%252Bbills%252Brise%252B%2527inescapable%2527%252Bif%252Boil%252Bprices%252Bstay%252Bhigh%252C%252Bsays%252BBritish%252BGas%252Bboss%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo_bRGJTl_80GIjCjiOUk-GdJ8UTWyz8gnFUF8IJD7IFENp6Wt43xnOX2U8A3UBbGjl9fuL9qxYI1008yBmpjbmRyUloBQw
+Processing trending topic: Iran says will hit region’s energy sites if US, Israel target power plants
+Searching Google for: Iran says will hit region’s energy sites if US, Israel target power plants
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bsays%252Bwill%252Bhit%252Bregion%25E2%2580%2599s%252Benergy%252Bsites%252Bif%252BUS%252C%252BIsrael%252Btarget%252Bpower%252Bplants%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGIT6_80GIjD5kWsucsRkI7op7Rz3pxlbL6yHQqKm60kib3kW70pAZ_YpCLssmy97GeH9WwsVagIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: energy-bills-rise-inescapable-if-oil-prices-stay-h_20260322_1346.html
-✓ Created comprehensive article: energy-bills-rise-inescapable-if-oil-prices-stay-h_20260322_1346.html
+Successfully created file: iran-says-will-hit-regions-energy-sites-if-us-isra_20260322_1430.html
+✓ Created comprehensive article: iran-says-will-hit-regions-energy-sites-if-us-isra_20260322_1430.html
 
-Processing trending topic: Hezbollah attack kills one in north Israel as assault on Lebanon continues
-Searching Google for: Hezbollah attack kills one in north Israel as assault on Lebanon continues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHezbollah%252Battack%252Bkills%252Bone%252Bin%252Bnorth%252BIsrael%252Bas%252Bassault%252Bon%252BLebanon%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo_bRGJvl_80GIjAdLxDGA6AacMpOE2eudRwumgjOCG9RjBjlU_UZPgcC61NilDQViF3NPQ8ag0fDpy0yBmpjbmRyUloBQw
+Processing trending topic: Moment Iranian strike hits central Tel Aviv
+Searching Google for: Moment Iranian strike hits central Tel Aviv
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoment%252BIranian%252Bstrike%252Bhits%252Bcentral%252BTel%252BAviv%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGIr6_80GIjDtlzgDjOniCEq8cU2W-PgcuBC-evJQlZB2D0QS3LvFQXJ1yd_WXyYtdvz1cB1YcNUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hezbollah-attack-kills-one-in-north-israel-as-assa_20260322_1346.html
-✓ Created comprehensive article: hezbollah-attack-kills-one-in-north-israel-as-assa_20260322_1346.html
+Successfully created file: moment-iranian-strike-hits-central-tel-aviv_20260322_1430.html
+✓ Created comprehensive article: moment-iranian-strike-hits-central-tel-aviv_20260322_1430.html
 
-Processing trending topic: Did Iran launch missiles at US-UK base on Diego Garcia? Here’s what to know
-Searching Google for: Did Iran launch missiles at US-UK base on Diego Garcia? Here’s what to know
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDid%252BIran%252Blaunch%252Bmissiles%252Bat%252BUS-UK%252Bbase%252Bon%252BDiego%252BGarcia%253F%252BHere%25E2%2580%2599s%252Bwhat%252Bto%252Bknow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo_bRGKLl_80GIjBmIjTTy3QfLak_8NLhZTs6KsVRb2h1RYKYbWIR4DmNTgGaG469L4jsCFex7mv5N8AyBmpjbmRyUloBQw
+Processing trending topic: Latin American presidents criticise US actions
+Searching Google for: Latin American presidents criticise US actions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLatin%252BAmerican%252Bpresidents%252Bcriticise%252BUS%252Bactions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QrhGJH6_80GIjBZvSDQ0x20vulAmXaHcRNa-bOZJS_yaa7cY4magxOquBBF-OQw_LzFPWcrJ6w6Z4wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: did-iran-launch-missiles-at-us-uk-base-on-diego-ga_20260322_1346.html
-✓ Created comprehensive article: did-iran-launch-missiles-at-us-uk-base-on-diego-ga_20260322_1346.html
+Successfully created file: latin-american-presidents-criticise-us-actions_20260322_1430.html
+✓ Created comprehensive article: latin-american-presidents-criticise-us-actions_20260322_1430.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Energy bills rise 'inescapable' if oil prices stay high, says British Gas boss
+   • Iran says will hit region’s energy sites if US, Israel target power plants
      Sources: bbc.com, cnn.com, reuters.com
-   • Hezbollah attack kills one in north Israel as assault on Lebanon continues
+   • Moment Iranian strike hits central Tel Aviv
      Sources: bbc.com, cnn.com, reuters.com
-   • Did Iran launch missiles at US-UK base on Diego Garcia? Here’s what to know
+   • Latin American presidents criticise US actions
      Sources: bbc.com, cnn.com, reuters.com
