@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Foreign secretary denounces 'reckless Iran threats' after missiles fired at Diego Garcia
@@ -9,54 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-22
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What we know about Iran’s latest attacks on Israel
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will the Houthis join Iran in war against Israel and the US?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran power plants
+Added expanded search topic: What we know about Iran’s latest attacks on Israel
+Added expanded search topic: Will the Houthis join Iran in war against Israel and the US?
+Added expanded search topic: Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran power plants
+Saved 6 topics for 2026-03-22
 Returning 3 unique trending topics:
-  1. Foreign secretary denounces 'reckless Iran threats' after missiles fired at Diego Garcia (from BBC News)
-  2. Trump at a crossroads as US weighs tough options in Iran (from BBC News)
-  3. Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports (from The Guardian)
+  1. What we know about Iran’s latest attacks on Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Will the Houthis join Iran in war against Israel and the US? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran power plants (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Foreign secretary denounces 'reckless Iran threats' after missiles fired at Diego Garcia
-Searching Google for: Foreign secretary denounces 'reckless Iran threats' after missiles fired at Diego Garcia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DForeign%252Bsecretary%252Bdenounces%252B%2527reckless%252BIran%252Bthreats%2527%252Bafter%252Bmissiles%252Bfired%252Bat%252BDiego%252BGarcia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K0UGPyd_c0GIjBvOXX5piq1WoybxoyXlKRflH7P6Ov_mKLFLZF8GXcGeAb8UqzoAM_1FOztu75E5sgyBmpjbmRyUloBQw
+Processing trending topic: What we know about Iran’s latest attacks on Israel
+Searching Google for: What we know about Iran’s latest attacks on Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252BIran%25E2%2580%2599s%252Blatest%252Battacks%252Bon%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FmGLTs_c0GIjBzytZMHzKD98rQb_4VRATD1rhRoO_n_YhI9gMUJ0QFWWiaGhcoZcGpDERGSupsk3cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: foreign-secretary-denounces-reckless-iran-threats-_20260322_0208.html
-✓ Created comprehensive article: foreign-secretary-denounces-reckless-iran-threats-_20260322_0208.html
+Successfully created file: what-we-know-about-irans-latest-attacks-on-israel_20260322_0455.html
+✓ Created comprehensive article: what-we-know-about-irans-latest-attacks-on-israel_20260322_0455.html
 
-Processing trending topic: Trump at a crossroads as US weighs tough options in Iran
-Searching Google for: Trump at a crossroads as US weighs tough options in Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bat%252Ba%252Bcrossroads%252Bas%252BUS%252Bweighs%252Btough%252Boptions%252Bin%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K0UGIOe_c0GIjD4eK8EAMUlbQJSDO4j0ywIIQGhIrhXqTnpKpJPIouoyb1y29OBAYrjE2mBt_OwzZ8yBmpjbmRyUloBQw
+Processing trending topic: Will the Houthis join Iran in war against Israel and the US?
+Searching Google for: Will the Houthis join Iran in war against Israel and the US?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Bthe%252BHouthis%252Bjoin%252BIran%252Bin%252Bwar%252Bagainst%252BIsrael%252Band%252Bthe%252BUS%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FmGLzs_c0GIjAzICfJYkHjImz6zRdYVFyn3xBkXlzrMp5wb37vIvB_Of1lV03g_8QgQwUybjf63iEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-at-a-crossroads-as-us-weighs-tough-options-i_20260322_0208.html
-✓ Created comprehensive article: trump-at-a-crossroads-as-us-weighs-tough-options-i_20260322_0208.html
+Successfully created file: will-the-houthis-join-iran-in-war-against-israel-a_20260322_0455.html
+✓ Created comprehensive article: will-the-houthis-join-iran-in-war-against-israel-a_20260322_0455.html
 
-Processing trending topic: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Searching Google for: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStrike%252Bon%252BSudan%252Bhospital%252Bkills%252Bat%252Bleast%252B64%252Band%252Bwounds%252B89%252Bmore%252C%252BWHO%252Breports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K0UGIqe_c0GIjDatSwc9o5xvHjGCQmsypTQgnAKHwx_Sbcgej93zg1R7lDxH_mFHdoe5uLSvIiBAuEyBmpjbmRyUloBQw
+Processing trending topic: Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran power plants
+Searching Google for: Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran power plants
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bissues%252B48-hour%252BHormuz%252BStrait%252Bultimatum%252C%252Bthreatens%252BIran%252Bpower%252Bplants%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FmGMLs_c0GIjDWK0e3L-qPX7jQhtz5vL3B5Clyb1U40sWFeASEhKjr_wp0XZLWLi0xjlmGQWcY7LoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: strike-on-sudan-hospital-kills-at-least-64-and-wou_20260322_0208.html
-✓ Created comprehensive article: strike-on-sudan-hospital-kills-at-least-64-and-wou_20260322_0208.html
+Successfully created file: trump-issues-48-hour-hormuz-strait-ultimatum-threa_20260322_0455.html
+✓ Created comprehensive article: trump-issues-48-hour-hormuz-strait-ultimatum-threa_20260322_0455.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Foreign secretary denounces 'reckless Iran threats' after missiles fired at Diego Garcia
+   • What we know about Iran’s latest attacks on Israel
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump at a crossroads as US weighs tough options in Iran
+   • Will the Houthis join Iran in war against Israel and the US?
      Sources: bbc.com, cnn.com, reuters.com
-   • Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
+   • Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran power plants
      Sources: bbc.com, cnn.com, reuters.com
