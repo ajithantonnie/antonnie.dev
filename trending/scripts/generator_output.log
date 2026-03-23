@@ -1,62 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Arson attack on ambulances in London being treated as antisemitic hate crime, Metropolitan Police...
   Added: No assessment Iran could strike London, UK minister says
-  Added: Three golds in 28 minutes - GB makes history at World Athletics Indoor Championships
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-23
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Immense damage seen in Iran’s streets after air strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Asian stock markets plunge amid Trump’s ultimatum on Iran
+Added expanded search topic: Immense damage seen in Iran’s streets after air strikes
+Added expanded search topic: Asian stock markets plunge amid Trump’s ultimatum on Iran
+Saved 6 topics for 2026-03-23
 Returning 3 unique trending topics:
-  1. No assessment Iran could strike London, UK minister says (from BBC News)
-  2. Three golds in 28 minutes - GB makes history at World Athletics Indoor Championships (from BBC News)
-  3. Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports (from The Guardian)
+  1. Arson attack on ambulances in London being treated as antisemitic hate crime, Metropolitan Police... (from BBC News)
+  2. Immense damage seen in Iran’s streets after air strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Asian stock markets plunge amid Trump’s ultimatum on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: No assessment Iran could strike London, UK minister says
-Searching Google for: No assessment Iran could strike London, UK minister says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252Bassessment%252BIran%252Bcould%252Bstrike%252BLondon%252C%252BUK%252Bminister%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i82GLnBgs4GIjDHq2jw1UPhkZEUIMkSYA9Bi41fOhgRGKQ6SvIdSxIhyGTikw4Kl6jlH7CH1pQjGzAyBmpjbmRyUloBQw
+Processing trending topic: Arson attack on ambulances in London being treated as antisemitic hate crime, Metropolitan Police...
+Searching Google for: Arson attack on ambulances in London being treated as antisemitic hate crime, Metropolitan Police...
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArson%252Battack%252Bon%252Bambulances%252Bin%252BLondon%252Bbeing%252Btreated%252Bas%252Bantisemitic%252Bhate%252Bcrime%252C%252BMetropolitan%252BPolice...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pWzGO-Tg84GIjDq25tj5lyedyihDCszIDqTFD9cbqm69oGk__fl1L3NBR8Wp5cLzqKRUqap70xvyU8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: no-assessment-iran-could-strike-london-uk-minister_20260323_0209.html
-✓ Created comprehensive article: no-assessment-iran-could-strike-london-uk-minister_20260323_0209.html
+Successfully created file: arson-attack-on-ambulances-in-london-being-treated_20260323_0504.html
+✓ Created comprehensive article: arson-attack-on-ambulances-in-london-being-treated_20260323_0504.html
 
-Processing trending topic: Three golds in 28 minutes - GB makes history at World Athletics Indoor Championships
-Searching Google for: Three golds in 28 minutes - GB makes history at World Athletics Indoor Championships
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bgolds%252Bin%252B28%252Bminutes%252B-%252BGB%252Bmakes%252Bhistory%252Bat%252BWorld%252BAthletics%252BIndoor%252BChampionships%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i82GMDBgs4GIjD10senfyo83IG4S4jrAFWAeWRZd8T8Zp1MQ3Brak5-xIgaM--vk_k-ILczQby2rlQyBmpjbmRyUloBQw
+Processing trending topic: Immense damage seen in Iran’s streets after air strikes
+Searching Google for: Immense damage seen in Iran’s streets after air strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DImmense%252Bdamage%252Bseen%252Bin%252BIran%25E2%2580%2599s%252Bstreets%252Bafter%252Bair%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pWzGPeTg84GIjAeeM6NsgZVjopsW-U7fPPZJOELcrNMplUfgVQ9ablFsbvRAVoxBsfkU2iVoX-vH7YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-golds-in-28-minutes-gb-makes-history-at-worl_20260323_0209.html
-✓ Created comprehensive article: three-golds-in-28-minutes-gb-makes-history-at-worl_20260323_0209.html
+Successfully created file: immense-damage-seen-in-irans-streets-after-air-str_20260323_0504.html
+✓ Created comprehensive article: immense-damage-seen-in-irans-streets-after-air-str_20260323_0504.html
 
-Processing trending topic: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Searching Google for: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStrike%252Bon%252BSudan%252Bhospital%252Bkills%252Bat%252Bleast%252B64%252Band%252Bwounds%252B89%252Bmore%252C%252BWHO%252Breports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i82GMfBgs4GIjBlr90y79f8WzFDIEpeADZcpcWStCnH9nZqKQkMxsxWv7x8AEBI5IXmwZyN5gEAnYoyBmpjbmRyUloBQw
+Processing trending topic: Asian stock markets plunge amid Trump’s ultimatum on Iran
+Searching Google for: Asian stock markets plunge amid Trump’s ultimatum on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAsian%252Bstock%252Bmarkets%252Bplunge%252Bamid%252BTrump%25E2%2580%2599s%252Bultimatum%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pWzGP2Tg84GIjAkgpfl2XGFzaMucZl7fU-643_e6cmfrld_U3oS97wl0rWLu3Weo_GSmLKoLaiLwgYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: strike-on-sudan-hospital-kills-at-least-64-and-wou_20260323_0209.html
-✓ Created comprehensive article: strike-on-sudan-hospital-kills-at-least-64-and-wou_20260323_0209.html
+Successfully created file: asian-stock-markets-plunge-amid-trumps-ultimatum-o_20260323_0505.html
+✓ Created comprehensive article: asian-stock-markets-plunge-amid-trumps-ultimatum-o_20260323_0505.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • No assessment Iran could strike London, UK minister says
+   • Arson attack on ambulances in London being treated as antisemitic hate crime, Metropolitan Police...
      Sources: bbc.com, cnn.com, reuters.com
-   • Three golds in 28 minutes - GB makes history at World Athletics Indoor Championships
+   • Immense damage seen in Iran’s streets after air strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
+   • Asian stock markets plunge amid Trump’s ultimatum on Iran
      Sources: bbc.com, cnn.com, reuters.com
