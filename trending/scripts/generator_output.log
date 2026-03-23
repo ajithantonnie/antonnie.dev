@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: HS2 trains could run slower than planned to save money
@@ -9,58 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Madrid protest against US blockade of Cuba
-Added expanded search topic: Madrid protest against US blockade of Cuba
-Saved 24 topics for 2026-03-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Which countries have strategic oil reserves – and how much?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump deploys ICE agents to US airports amid staffing issues, delays
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Energy, water, bonds: What are Iran’s targets if Trump hits power plants?
+Added expanded search topic: Which countries have strategic oil reserves – and how much?
+Added expanded search topic: Trump deploys ICE agents to US airports amid staffing issues, delays
+Added expanded search topic: Energy, water, bonds: What are Iran’s targets if Trump hits power plants?
+Saved 27 topics for 2026-03-23
 Returning 3 unique trending topics:
-  1. HS2 trains could run slower than planned to save money (from BBC News)
-  2. Is ex-Google boss Matt Brittin the right person to steer the BBC? (from BBC News)
-  3. Madrid protest against US blockade of Cuba (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Which countries have strategic oil reserves – and how much? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump deploys ICE agents to US airports amid staffing issues, delays (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Energy, water, bonds: What are Iran’s targets if Trump hits power plants? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: HS2 trains could run slower than planned to save money
-Searching Google for: HS2 trains could run slower than planned to save money
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHS2%252Btrains%252Bcould%252Brun%252Bslower%252Bthan%252Bplanned%252Bto%252Bsave%252Bmoney%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdRGNCphc4GIjDZZbWP9iiRn_KUcApfefM8Z0SFicuauKFNV6cS-_Y4psRYu-RCLajJb36lv4UPqB0yBmpjbmRyUloBQw
+Processing trending topic: Which countries have strategic oil reserves – and how much?
+Searching Google for: Which countries have strategic oil reserves – and how much?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhich%252Bcountries%252Bhave%252Bstrategic%252Boil%252Breserves%252B%25E2%2580%2593%252Band%252Bhow%252Bmuch%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuIRGLPIhc4GIjB72eze7NvDBSTL0M4-baOXwp3_Emr0sIyxL3ashrEjzGGoXw8qBtuTQiBlEnEsp2QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hs2-trains-could-run-slower-than-planned-to-save-m_20260323_1457.html
-✓ Created comprehensive article: hs2-trains-could-run-slower-than-planned-to-save-m_20260323_1457.html
+Successfully created file: which-countries-have-strategic-oil-reserves-and-ho_20260323_1603.html
+✓ Created comprehensive article: which-countries-have-strategic-oil-reserves-and-ho_20260323_1603.html
 
-Processing trending topic: Is ex-Google boss Matt Brittin the right person to steer the BBC?
-Searching Google for: Is ex-Google boss Matt Brittin the right person to steer the BBC?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bex-Google%252Bboss%252BMatt%252BBrittin%252Bthe%252Bright%252Bperson%252Bto%252Bsteer%252Bthe%252BBBC%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdRGNaphc4GIjDVZdHKx1GfC3rUllI8w5pkGxlqFy6DadSDvidFMw6KNoafk1vxAoKGp2IHwrB9FBgyBmpjbmRyUloBQw
+Processing trending topic: Trump deploys ICE agents to US airports amid staffing issues, delays
+Searching Google for: Trump deploys ICE agents to US airports amid staffing issues, delays
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bdeploys%252BICE%252Bagents%252Bto%252BUS%252Bairports%252Bamid%252Bstaffing%252Bissues%252C%252Bdelays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuIRGLrIhc4GIjCOhAZkB2ANwOzwCPBsd-xXEVpzqp1ZO0lqCFcpxbrSfitukbXngskWzB3im-i3DXkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: is-ex-google-boss-matt-brittin-the-right-person-to_20260323_1457.html
-✓ Created comprehensive article: is-ex-google-boss-matt-brittin-the-right-person-to_20260323_1457.html
+Successfully created file: trump-deploys-ice-agents-to-us-airports-amid-staff_20260323_1603.html
+✓ Created comprehensive article: trump-deploys-ice-agents-to-us-airports-amid-staff_20260323_1603.html
 
-Processing trending topic: Madrid protest against US blockade of Cuba
-Searching Google for: Madrid protest against US blockade of Cuba
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMadrid%252Bprotest%252Bagainst%252BUS%252Bblockade%252Bof%252BCuba%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdRGN2phc4GIjANT2UXrj7C3uwGUTOhAG68mLCbFkFHqx4tXlf3mCNj5FASC9NEiyceHpBIIpap4TUyBmpjbmRyUloBQw
+Processing trending topic: Energy, water, bonds: What are Iran’s targets if Trump hits power plants?
+Searching Google for: Energy, water, bonds: What are Iran’s targets if Trump hits power plants?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEnergy%252C%252Bwater%252C%252Bbonds%253A%252BWhat%252Bare%252BIran%25E2%2580%2599s%252Btargets%252Bif%252BTrump%252Bhits%252Bpower%252Bplants%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuIRGMHIhc4GIjD31Z3lHNmnZNM3tT-4iahuLaTnJiTN8HxMGAcfXvh3UQMWyaj_-1drPMLVcrMqF_AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: madrid-protest-against-us-blockade-of-cuba_20260323_1457.html
-✓ Created comprehensive article: madrid-protest-against-us-blockade-of-cuba_20260323_1457.html
+Successfully created file: energy-water-bonds-what-are-irans-targets-if-trump_20260323_1603.html
+✓ Created comprehensive article: energy-water-bonds-what-are-irans-targets-if-trump_20260323_1603.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • HS2 trains could run slower than planned to save money
+   • Which countries have strategic oil reserves – and how much?
      Sources: bbc.com, cnn.com, reuters.com
-   • Is ex-Google boss Matt Brittin the right person to steer the BBC?
+   • Trump deploys ICE agents to US airports amid staffing issues, delays
      Sources: bbc.com, cnn.com, reuters.com
-   • Madrid protest against US blockade of Cuba
+   • Energy, water, bonds: What are Iran’s targets if Trump hits power plants?
      Sources: bbc.com, cnn.com, reuters.com
