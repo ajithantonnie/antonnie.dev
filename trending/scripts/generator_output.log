@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Arson attack on Jewish charity ambulances investigated by counter-terror police
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Smotrich urges Israel to annex southern Lebanon as assault intensifies
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian officials dismiss claims of US talks
-Added expanded search topic: Smotrich urges Israel to annex southern Lebanon as assault intensifies
-Added expanded search topic: Iranian officials dismiss claims of US talks
-Saved 45 topics for 2026-03-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Have Israel, the US and Iran violated international law?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moment missile strikes shortly after Israeli president’s visit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine strikes key Russian oil port and refinery
+Added expanded search topic: Have Israel, the US and Iran violated international law?
+Added expanded search topic: Moment missile strikes shortly after Israeli president’s visit
+Added expanded search topic: Ukraine strikes key Russian oil port and refinery
+Saved 48 topics for 2026-03-23
 Returning 3 unique trending topics:
-  1. 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation (from BBC News)
-  2. Smotrich urges Israel to annex southern Lebanon as assault intensifies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iranian officials dismiss claims of US talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Have Israel, the US and Iran violated international law? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Moment missile strikes shortly after Israeli president’s visit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ukraine strikes key Russian oil port and refinery (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
-Searching Google for: 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Like%252Bthe%252Bplane%252Bgot%252Bcut%252Bin%252Bhalf%2527%253A%252BLaGuardia%252Bcrash%252Bthat%252Bkilled%252Btwo%252Bpilots%252Bnow%252Bunder%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PDGL_lhs4GIjDstLaPDKwbsOtLfsZdiEAgsVhkxXk6ZKKyf0Isw6iIqLoqLXn7vUkTgfn7vnm9gZEyBmpjbmRyUloBQw
+Processing trending topic: Have Israel, the US and Iran violated international law?
+Searching Google for: Have Israel, the US and Iran violated international law?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHave%252BIsrael%252C%252Bthe%252BUS%252Band%252BIran%252Bviolated%252Binternational%252Blaw%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNHGNaAh84GIjBaWmxGNOcKC30VFNMjLP1gxkTRG9-g_QxVf7jD_18NDGQrGTSAsp73ekkzF5IatBEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: like-the-plane-got-cut-in-half-laguardia-crash-tha_20260323_2138.html
-✓ Created comprehensive article: like-the-plane-got-cut-in-half-laguardia-crash-tha_20260323_2138.html
+Successfully created file: have-israel-the-us-and-iran-violated-international_20260323_2236.html
+✓ Created comprehensive article: have-israel-the-us-and-iran-violated-international_20260323_2236.html
 
-Processing trending topic: Smotrich urges Israel to annex southern Lebanon as assault intensifies
-Searching Google for: Smotrich urges Israel to annex southern Lebanon as assault intensifies
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSmotrich%252Burges%252BIsrael%252Bto%252Bannex%252Bsouthern%252BLebanon%252Bas%252Bassault%252Bintensifies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PDGMblhs4GIjAX7n5kLWEJFiBoa2abvZpZG93X-1NkQCOzAhA_CTvg7QaUSKllYke7UyHQW8uJiyUyBmpjbmRyUloBQw
+Processing trending topic: Moment missile strikes shortly after Israeli president’s visit
+Searching Google for: Moment missile strikes shortly after Israeli president’s visit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoment%252Bmissile%252Bstrikes%252Bshortly%252Bafter%252BIsraeli%252Bpresident%25E2%2580%2599s%252Bvisit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNHGNyAh84GIjB5SEMU9cAbs0lyMtyEW2pxMEhZd-TE1UbC5CkyRUIeJtaS3Tx58a6LBgza2vvR6JsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: smotrich-urges-israel-to-annex-southern-lebanon-as_20260323_2138.html
-✓ Created comprehensive article: smotrich-urges-israel-to-annex-southern-lebanon-as_20260323_2138.html
+Successfully created file: moment-missile-strikes-shortly-after-israeli-presi_20260323_2236.html
+✓ Created comprehensive article: moment-missile-strikes-shortly-after-israeli-presi_20260323_2236.html
 
-Processing trending topic: Iranian officials dismiss claims of US talks
-Searching Google for: Iranian officials dismiss claims of US talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bofficials%252Bdismiss%252Bclaims%252Bof%252BUS%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4PDGMzlhs4GIjDhiIQg-9WHfRaCRLiWxwew4m3lw4LIbt_J50ETPDoMYjHJaC5GcLak7Sqd_dUBklMyBmpjbmRyUloBQw
+Processing trending topic: Ukraine strikes key Russian oil port and refinery
+Searching Google for: Ukraine strikes key Russian oil port and refinery
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bstrikes%252Bkey%252BRussian%252Boil%252Bport%252Band%252Brefinery%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNHGOOAh84GIjCl5r8ghHMo0RMDiAi7zSIQWlTp-b73HGmNbLOS3lyo3Mw1H3nOiWb-VAr2FC6WcfkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-officials-dismiss-claims-of-us-talks_20260323_2138.html
-✓ Created comprehensive article: iranian-officials-dismiss-claims-of-us-talks_20260323_2138.html
+Successfully created file: ukraine-strikes-key-russian-oil-port-and-refinery_20260323_2236.html
+✓ Created comprehensive article: ukraine-strikes-key-russian-oil-port-and-refinery_20260323_2236.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
+   • Have Israel, the US and Iran violated international law?
      Sources: bbc.com, cnn.com, reuters.com
-   • Smotrich urges Israel to annex southern Lebanon as assault intensifies
+   • Moment missile strikes shortly after Israeli president’s visit
      Sources: bbc.com, cnn.com, reuters.com
-   • Iranian officials dismiss claims of US talks
+   • Ukraine strikes key Russian oil port and refinery
      Sources: bbc.com, cnn.com, reuters.com
