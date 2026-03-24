@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Vets must publish prices and pet prescription fees to be capped at £21, watchdog says
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Top EU official calls for negotiations with Iran and an end to war
-Added expanded search topic: Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
-Added expanded search topic: Top EU official calls for negotiations with Iran and an end to war
-Saved 15 topics for 2026-03-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Drone footage shows aftermath of Iranian missile attack in Tel Aviv
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: McCullum to continue as England’s all-format cricket head coach
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hong Kong grants police power to demand phone and computer passwords
+Added expanded search topic: Drone footage shows aftermath of Iranian missile attack in Tel Aviv
+Added expanded search topic: McCullum to continue as England’s all-format cricket head coach
+Added expanded search topic: Hong Kong grants police power to demand phone and computer passwords
+Saved 18 topics for 2026-03-24
 Returning 3 unique trending topics:
-  1. Vets must publish prices and pet prescription fees to be capped at £21, watchdog says (from BBC News)
-  2. Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Top EU official calls for negotiations with Iran and an end to war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Drone footage shows aftermath of Iranian missile attack in Tel Aviv (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. McCullum to continue as England’s all-format cricket head coach (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Hong Kong grants police power to demand phone and computer passwords (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Vets must publish prices and pet prescription fees to be capped at £21, watchdog says
-Searching Google for: Vets must publish prices and pet prescription fees to be capped at £21, watchdog says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVets%252Bmust%252Bpublish%252Bprices%252Band%252Bpet%252Bprescription%252Bfees%252Bto%252Bbe%252Bcapped%252Bat%252B%25C2%25A321%252C%252Bwatchdog%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVblGLuiic4GIjAMafODxA5g-Z63bgz5PYyhhTA_1ABOjGDvKZsgNpf0m1hE3HaL6OLxsC6GASdu-PcyAnJSWgFD
+Processing trending topic: Drone footage shows aftermath of Iranian missile attack in Tel Aviv
+Searching Google for: Drone footage shows aftermath of Iranian missile attack in Tel Aviv
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrone%252Bfootage%252Bshows%252Baftermath%252Bof%252BIranian%252Bmissile%252Battack%252Bin%252BTel%252BAviv%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhSGKXAic4GIjDThnZRbZmaFwAxgvd8R7q1CrjaCeOolDCggWttwflitJGtZNl7jTprWM2kdnUKLjkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: vets-must-publish-prices-and-pet-prescription-fees_20260324_0854.html
-✓ Created comprehensive article: vets-must-publish-prices-and-pet-prescription-fees_20260324_0854.html
+Successfully created file: drone-footage-shows-aftermath-of-iranian-missile-a_20260324_0958.html
+✓ Created comprehensive article: drone-footage-shows-aftermath-of-iranian-missile-a_20260324_0958.html
 
-Processing trending topic: Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
-Searching Google for: Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDespite%252BTrump%25E2%2580%2599s%252Bpeace%252Btalk%252Bclaims%252C%252BUS-Israeli%252Battacks%252Bcontinue%252Bto%252Bhit%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVblGMKiic4GIjAQvsNhJh9MKjvwjyt5467g0nus93BFKScPcXdzhYtIXsGq5OkbqyXX8zniDOWx8Z0yAnJSWgFD
+Processing trending topic: McCullum to continue as England’s all-format cricket head coach
+Searching Google for: McCullum to continue as England’s all-format cricket head coach
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMcCullum%252Bto%252Bcontinue%252Bas%252BEngland%25E2%2580%2599s%252Ball-format%252Bcricket%252Bhead%252Bcoach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhSGKzAic4GIjDrZd8S7vkFWFB6kHD4VqL8gvH8JoTtVjsVztK7rDL8hBOmYCLwguqb2Ca1gz2YtbAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: despite-trumps-peace-talk-claims-us-israeli-attack_20260324_0854.html
-✓ Created comprehensive article: despite-trumps-peace-talk-claims-us-israeli-attack_20260324_0854.html
+Successfully created file: mccullum-to-continue-as-englands-all-format-cricke_20260324_0958.html
+✓ Created comprehensive article: mccullum-to-continue-as-englands-all-format-cricke_20260324_0958.html
 
-Processing trending topic: Top EU official calls for negotiations with Iran and an end to war
-Searching Google for: Top EU official calls for negotiations with Iran and an end to war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTop%252BEU%252Bofficial%252Bcalls%252Bfor%252Bnegotiations%252Bwith%252BIran%252Band%252Ban%252Bend%252Bto%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVblGMiiic4GIjD7gI8P284naQ5mdEML7cPnRABOcxb4MNlHc8Hr74cPu0fk1oX-1_gCiR9EiyycrJIyAnJSWgFD
+Processing trending topic: Hong Kong grants police power to demand phone and computer passwords
+Searching Google for: Hong Kong grants police power to demand phone and computer passwords
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHong%252BKong%252Bgrants%252Bpolice%252Bpower%252Bto%252Bdemand%252Bphone%252Band%252Bcomputer%252Bpasswords%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhSGLLAic4GIjD2jC0RpL9XxlN2-fBDY7l5YlC8nGqPGKCoIwCL7z1hzO3x4SbsTmlfo3iN4RQtnD8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: top-eu-official-calls-for-negotiations-with-iran-a_20260324_0854.html
-✓ Created comprehensive article: top-eu-official-calls-for-negotiations-with-iran-a_20260324_0854.html
+Successfully created file: hong-kong-grants-police-power-to-demand-phone-and-_20260324_0958.html
+✓ Created comprehensive article: hong-kong-grants-police-power-to-demand-phone-and-_20260324_0958.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Vets must publish prices and pet prescription fees to be capped at £21, watchdog says
+   • Drone footage shows aftermath of Iranian missile attack in Tel Aviv
      Sources: bbc.com, cnn.com, reuters.com
-   • Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
+   • McCullum to continue as England’s all-format cricket head coach
      Sources: bbc.com, cnn.com, reuters.com
-   • Top EU official calls for negotiations with Iran and an end to war
+   • Hong Kong grants police power to demand phone and computer passwords
      Sources: bbc.com, cnn.com, reuters.com
