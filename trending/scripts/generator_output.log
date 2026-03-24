@@ -1,70 +1,62 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Arson attack on Jewish charity ambulances investigated by counter-terror police
+  Added: Royal Mail staff say they were told to hide post to look like delivery targets met
   Added: 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN expert says world has given Israel ‘licence to torture Palestinians’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What Trump said about Iran after postponing military strikes
-Added expanded search topic: Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel
-Added expanded search topic: UN expert says world has given Israel ‘licence to torture Palestinians’
-Added expanded search topic: What Trump said about Iran after postponing military strikes
-Saved 51 topics for 2026-03-23
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-03-24
 Returning 3 unique trending topics:
-  1. Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. UN expert says world has given Israel ‘licence to torture Palestinians’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What Trump said about Iran after postponing military strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Royal Mail staff say they were told to hide post to look like delivery targets met (from BBC News)
+  2. 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation (from BBC News)
+  3. Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports (from The Guardian)
 
-Processing trending topic: Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel
-Searching Google for: Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMacron%252Bsays%252BLebanon%25E2%2580%2599s%252Bfight%252Bis%252B%25E2%2580%2598just%25E2%2580%2599%252Bamid%252Bescalating%252Battacks%252Bby%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNhGPCch84GIjBNPY57gER6ukwlKDmhJXMHP8HaR1hwtVE_DJSdOio4mylPydXu0Oj_ArQRPzYoXyYyBmpjbmRyUloBQw
+Processing trending topic: Royal Mail staff say they were told to hide post to look like delivery targets met
+Searching Google for: Royal Mail staff say they were told to hide post to look like delivery targets met
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BMail%252Bstaff%252Bsay%252Bthey%252Bwere%252Btold%252Bto%252Bhide%252Bpost%252Bto%252Blook%252Blike%252Bdelivery%252Btargets%252Bmet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0s12CGNngh84GIjAS4LdSqgQlNOkp6ojTey4xOHVOwLz0ZYP_LcST6X0tVK1iDqBqwzIjsC_grv55s4EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: macron-says-lebanons-fight-is-just-amid-escalating_20260323_2336.html
-✓ Created comprehensive article: macron-says-lebanons-fight-is-just-amid-escalating_20260323_2336.html
+Successfully created file: royal-mail-staff-say-they-were-told-to-hide-post-t_20260324_0201.html
+✓ Created comprehensive article: royal-mail-staff-say-they-were-told-to-hide-post-t_20260324_0201.html
 
-Processing trending topic: UN expert says world has given Israel ‘licence to torture Palestinians’
-Searching Google for: UN expert says world has given Israel ‘licence to torture Palestinians’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bexpert%252Bsays%252Bworld%252Bhas%252Bgiven%252BIsrael%252B%25E2%2580%2598licence%252Bto%252Btorture%252BPalestinians%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNhGPich84GIjDh9q8JS-PEaW8Dze6jsDgBSg8ASda67AmRkmunlty-TIpbSw0hPtsT6ev1_0cbdB0yBmpjbmRyUloBQw
+Processing trending topic: 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
+Searching Google for: 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Like%252Bthe%252Bplane%252Bgot%252Bcut%252Bin%252Bhalf%2527%253A%252BLaGuardia%252Bcrash%252Bthat%252Bkilled%252Btwo%252Bpilots%252Bnow%252Bunder%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0s12CGODgh84GIjDPLurorkMd5uQ0FuBFGnRH7Il3pBFgXyj5YtgxxKcZcas2VPCsw2rTyUrIiTMNYx8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: un-expert-says-world-has-given-israel-licence-to-t_20260323_2336.html
-✓ Created comprehensive article: un-expert-says-world-has-given-israel-licence-to-t_20260323_2336.html
+Successfully created file: like-the-plane-got-cut-in-half-laguardia-crash-tha_20260324_0201.html
+✓ Created comprehensive article: like-the-plane-got-cut-in-half-laguardia-crash-tha_20260324_0201.html
 
-Processing trending topic: What Trump said about Iran after postponing military strikes
-Searching Google for: What Trump said about Iran after postponing military strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252BTrump%252Bsaid%252Babout%252BIran%252Bafter%252Bpostponing%252Bmilitary%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNhGP6ch84GIjA3EbKSSG0zXMD4HeffeD6cM5nSfPCU9Z6yWwidNjwnHXs_LhuNhZYT684oKrfuAEkyBmpjbmRyUloBQw
+Processing trending topic: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
+Searching Google for: Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStrike%252Bon%252BSudan%252Bhospital%252Bkills%252Bat%252Bleast%252B64%252Band%252Bwounds%252B89%252Bmore%252C%252BWHO%252Breports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0s12CGObgh84GIjCPU_uPT1mCatF22xDBZIwZ-jpiXeC6wFe8Gp9_nf8icVXCuE2-f3_ktMFmjfmHL58yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-trump-said-about-iran-after-postponing-milita_20260323_2336.html
-✓ Created comprehensive article: what-trump-said-about-iran-after-postponing-milita_20260323_2336.html
+Successfully created file: strike-on-sudan-hospital-kills-at-least-64-and-wou_20260324_0201.html
+✓ Created comprehensive article: strike-on-sudan-hospital-kills-at-least-64-and-wou_20260324_0201.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel
+   • Royal Mail staff say they were told to hide post to look like delivery targets met
      Sources: bbc.com, cnn.com, reuters.com
-   • UN expert says world has given Israel ‘licence to torture Palestinians’
+   • 'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation
      Sources: bbc.com, cnn.com, reuters.com
-   • What Trump said about Iran after postponing military strikes
+   • Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports
      Sources: bbc.com, cnn.com, reuters.com
