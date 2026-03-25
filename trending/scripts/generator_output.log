@@ -1,70 +1,68 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Ex-Google boss confirmed as new BBC director general
   Added: Hospital waited two days before raising alarm about meningitis outbreak, BBC learns
-  Added: Two men arrested over Jewish charity ambulance arson attacks
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Lebo M sues comedian Learnmore Jonasi claiming Circle of Life misrepresentation
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian attacks amount to violation of sovereignty, Gulf states tell UN
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Democrat captures Florida House seat in Trump’s Mar-a-Lago district
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s war on Iran, in his own words
-Added expanded search topic: Iranian attacks amount to violation of sovereignty, Gulf states tell UN
-Added expanded search topic: Democrat captures Florida House seat in Trump’s Mar-a-Lago district
-Added expanded search topic: Trump’s war on Iran, in his own words
-Saved 27 topics for 2026-03-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Missiles overhead, silence below: Israel’s home front holds firm
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anthropic’s case against the Pentagon could open space for AI regulation
+Added expanded search topic: Missiles overhead, silence below: Israel’s home front holds firm
+Added expanded search topic: Anthropic’s case against the Pentagon could open space for AI regulation
+Saved 30 topics for 2026-03-25
 Returning 3 unique trending topics:
-  1. Iranian attacks amount to violation of sovereignty, Gulf states tell UN (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Democrat captures Florida House seat in Trump’s Mar-a-Lago district (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump’s war on Iran, in his own words (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Ex-Google boss confirmed as new BBC director general (from BBC News)
+  2. Missiles overhead, silence below: Israel’s home front holds firm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Anthropic’s case against the Pentagon could open space for AI regulation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iranian attacks amount to violation of sovereignty, Gulf states tell UN
-Searching Google for: Iranian attacks amount to violation of sovereignty, Gulf states tell UN
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Battacks%252Bamount%252Bto%252Bviolation%252Bof%252Bsovereignty%252C%252BGulf%252Bstates%252Btell%252BUN%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4E3GMS9j84GIjC5ygnYk-BWGewjkV33IUX8MAsdLk0qA4Bqr0rijn_4XelUSxJP031us_KLMVt24iAyBmpjbmRyUloBQw
+Processing trending topic: Ex-Google boss confirmed as new BBC director general
+Searching Google for: Ex-Google boss confirmed as new BBC director general
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-attacks-amount-to-violation-of-sovereignty_20260325_1310.html
-✓ Created comprehensive article: iranian-attacks-amount-to-violation-of-sovereignty_20260325_1310.html
+Successfully created file: ex-google-boss-confirmed-as-new-bbc-director-gener_20260325_1501.html
+✓ Created comprehensive article: ex-google-boss-confirmed-as-new-bbc-director-gener_20260325_1501.html
 
-Processing trending topic: Democrat captures Florida House seat in Trump’s Mar-a-Lago district
-Searching Google for: Democrat captures Florida House seat in Trump’s Mar-a-Lago district
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDemocrat%252Bcaptures%252BFlorida%252BHouse%252Bseat%252Bin%252BTrump%25E2%2580%2599s%252BMar-a-Lago%252Bdistrict%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4E3GMy9j84GIjAlJjC1QmpYRBKdr7koQyy7Cs-pOWEES7IsdwjHDgdRdvkzwQxkx8Q3k1kZuUjkygAyBmpjbmRyUloBQw
+Processing trending topic: Missiles overhead, silence below: Israel’s home front holds firm
+Searching Google for: Missiles overhead, silence below: Israel’s home front holds firm
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: democrat-captures-florida-house-seat-in-trumps-mar_20260325_1310.html
-✓ Created comprehensive article: democrat-captures-florida-house-seat-in-trumps-mar_20260325_1310.html
+Successfully created file: missiles-overhead-silence-below-israels-home-front_20260325_1501.html
+✓ Created comprehensive article: missiles-overhead-silence-below-israels-home-front_20260325_1501.html
 
-Processing trending topic: Trump’s war on Iran, in his own words
-Searching Google for: Trump’s war on Iran, in his own words
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Bwar%252Bon%252BIran%252C%252Bin%252Bhis%252Bown%252Bwords%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4E3GNO9j84GIjDI_JJ8usZ_6fwEw0Ue0bbECSZechoiuMN-dRUpGS-O00TKorhj8LMo8PNnkW9qOAQyBmpjbmRyUloBQw
+Processing trending topic: Anthropic’s case against the Pentagon could open space for AI regulation
+Searching Google for: Anthropic’s case against the Pentagon could open space for AI regulation
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-war-on-iran-in-his-own-words_20260325_1310.html
-✓ Created comprehensive article: trumps-war-on-iran-in-his-own-words_20260325_1310.html
+Successfully created file: anthropics-case-against-the-pentagon-could-open-sp_20260325_1502.html
+✓ Created comprehensive article: anthropics-case-against-the-pentagon-could-open-sp_20260325_1502.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iranian attacks amount to violation of sovereignty, Gulf states tell UN
+   • Ex-Google boss confirmed as new BBC director general
      Sources: bbc.com, cnn.com, reuters.com
-   • Democrat captures Florida House seat in Trump’s Mar-a-Lago district
+   • Missiles overhead, silence below: Israel’s home front holds firm
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump’s war on Iran, in his own words
+   • Anthropic’s case against the Pentagon could open space for AI regulation
      Sources: bbc.com, cnn.com, reuters.com
