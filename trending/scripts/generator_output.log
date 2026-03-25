@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Ex-Google boss confirmed as new BBC director general
-  Added: Hospital waited two days before raising alarm about meningitis outbreak, BBC learns
+  Added: No 10 refuses to say if key Mandelson texts were lost when top aide's phone stolen
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,56 +13,56 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Missiles overhead, silence below: Israel’s home front holds firm
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anthropic’s case against the Pentagon could open space for AI regulation
-Added expanded search topic: Missiles overhead, silence below: Israel’s home front holds firm
-Added expanded search topic: Anthropic’s case against the Pentagon could open space for AI regulation
-Saved 30 topics for 2026-03-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: War on Iran: What troops is the US moving to the Gulf?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran calls US proposal to end war ‘maximalist, unreasonable’
+Added expanded search topic: War on Iran: What troops is the US moving to the Gulf?
+Added expanded search topic: Iran calls US proposal to end war ‘maximalist, unreasonable’
+Saved 33 topics for 2026-03-25
 Returning 3 unique trending topics:
-  1. Ex-Google boss confirmed as new BBC director general (from BBC News)
-  2. Missiles overhead, silence below: Israel’s home front holds firm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Anthropic’s case against the Pentagon could open space for AI regulation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. No 10 refuses to say if key Mandelson texts were lost when top aide's phone stolen (from BBC News)
+  2. War on Iran: What troops is the US moving to the Gulf? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran calls US proposal to end war ‘maximalist, unreasonable’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Ex-Google boss confirmed as new BBC director general
-Searching Google for: Ex-Google boss confirmed as new BBC director general
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: No 10 refuses to say if key Mandelson texts were lost when top aide's phone stolen
+Searching Google for: No 10 refuses to say if key Mandelson texts were lost when top aide's phone stolen
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252B10%252Brefuses%252Bto%252Bsay%252Bif%252Bkey%252BMandelson%252Btexts%252Bwere%252Blost%252Bwhen%252Btop%252Baide%2527s%252Bphone%252Bstolen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNcGN2UkM4GIjD1_tG5ncwgo2c44y7A0s1HVDfM-uvLvIpFfvQa4t3tXHawxU2fyWZoRvCEbG4IiesyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ex-google-boss-confirmed-as-new-bbc-director-gener_20260325_1501.html
-✓ Created comprehensive article: ex-google-boss-confirmed-as-new-bbc-director-gener_20260325_1501.html
+Successfully created file: no-10-refuses-to-say-if-key-mandelson-texts-were-l_20260325_1616.html
+✓ Created comprehensive article: no-10-refuses-to-say-if-key-mandelson-texts-were-l_20260325_1616.html
 
-Processing trending topic: Missiles overhead, silence below: Israel’s home front holds firm
-Searching Google for: Missiles overhead, silence below: Israel’s home front holds firm
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: War on Iran: What troops is the US moving to the Gulf?
+Searching Google for: War on Iran: What troops is the US moving to the Gulf?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWar%252Bon%252BIran%253A%252BWhat%252Btroops%252Bis%252Bthe%252BUS%252Bmoving%252Bto%252Bthe%252BGulf%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNcGOSUkM4GIjASnLFt96PTNM2PPPLNjs1bRV8mBv5LOa_xsceVlBFUOFFRnqT3Zer48NTRoCiSF8AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: missiles-overhead-silence-below-israels-home-front_20260325_1501.html
-✓ Created comprehensive article: missiles-overhead-silence-below-israels-home-front_20260325_1501.html
+Successfully created file: war-on-iran-what-troops-is-the-us-moving-to-the-gu_20260325_1616.html
+✓ Created comprehensive article: war-on-iran-what-troops-is-the-us-moving-to-the-gu_20260325_1616.html
 
-Processing trending topic: Anthropic’s case against the Pentagon could open space for AI regulation
-Searching Google for: Anthropic’s case against the Pentagon could open space for AI regulation
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Iran calls US proposal to end war ‘maximalist, unreasonable’
+Searching Google for: Iran calls US proposal to end war ‘maximalist, unreasonable’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bcalls%252BUS%252Bproposal%252Bto%252Bend%252Bwar%252B%25E2%2580%2598maximalist%252C%252Bunreasonable%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNcGOqUkM4GIjANvDpCywSAlNeEifExkiDioSJH1qSp7X6uPu81nn4KkJq8yMv-bF7oZ85hb7YbzrAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anthropics-case-against-the-pentagon-could-open-sp_20260325_1502.html
-✓ Created comprehensive article: anthropics-case-against-the-pentagon-could-open-sp_20260325_1502.html
+Successfully created file: iran-calls-us-proposal-to-end-war-maximalist-unrea_20260325_1616.html
+✓ Created comprehensive article: iran-calls-us-proposal-to-end-war-maximalist-unrea_20260325_1616.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ex-Google boss confirmed as new BBC director general
+   • No 10 refuses to say if key Mandelson texts were lost when top aide's phone stolen
      Sources: bbc.com, cnn.com, reuters.com
-   • Missiles overhead, silence below: Israel’s home front holds firm
+   • War on Iran: What troops is the US moving to the Gulf?
      Sources: bbc.com, cnn.com, reuters.com
-   • Anthropic’s case against the Pentagon could open space for AI regulation
+   • Iran calls US proposal to end war ‘maximalist, unreasonable’
      Sources: bbc.com, cnn.com, reuters.com
