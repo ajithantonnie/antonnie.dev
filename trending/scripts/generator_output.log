@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK forecast to see biggest hit to growth from Iran war out of major economies
@@ -13,58 +13,58 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than one million displaced by Israel’s evacuations in Lebanon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: London police officer filmed in crowd intimidating Al Jazeera journalists
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Brazil vs France – FIFA World Cup 2026 warm up
-Added expanded search topic: More than one million displaced by Israel’s evacuations in Lebanon
-Added expanded search topic: London police officer filmed in crowd intimidating Al Jazeera journalists
-Added expanded search topic: LIVE: Brazil vs France – FIFA World Cup 2026 warm up
-Saved 30 topics for 2026-03-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Key takeaways from Trump’s war on Iran meeting
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kim Jong Un gifted gun after Belarus friendship treaty
+Added expanded search topic: Key takeaways from Trump’s war on Iran meeting
+Added expanded search topic: Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands
+Added expanded search topic: Kim Jong Un gifted gun after Belarus friendship treaty
+Saved 33 topics for 2026-03-26
 Returning 3 unique trending topics:
-  1. More than one million displaced by Israel’s evacuations in Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. London police officer filmed in crowd intimidating Al Jazeera journalists (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. LIVE: Brazil vs France – FIFA World Cup 2026 warm up (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Key takeaways from Trump’s war on Iran meeting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Kim Jong Un gifted gun after Belarus friendship treaty (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: More than one million displaced by Israel’s evacuations in Lebanon
-Searching Google for: More than one million displaced by Israel’s evacuations in Lebanon
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Key takeaways from Trump’s war on Iran meeting
+Searching Google for: Key takeaways from Trump’s war on Iran meeting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKey%252Btakeaways%252Bfrom%252BTrump%25E2%2580%2599s%252Bwar%252Bon%252BIran%252Bmeeting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bxGIGgls4GIjBfr0l3LxQmYPLsv-nfhMv09kvZbUKx03d5wT5s3fsJxybfY04kPzvu0r1ytOAoy7cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-one-million-displaced-by-israels-evacuat_20260326_1806.html
-✓ Created comprehensive article: more-than-one-million-displaced-by-israels-evacuat_20260326_1806.html
+Successfully created file: key-takeaways-from-trumps-war-on-iran-meeting_20260326_1959.html
+✓ Created comprehensive article: key-takeaways-from-trumps-war-on-iran-meeting_20260326_1959.html
 
-Processing trending topic: London police officer filmed in crowd intimidating Al Jazeera journalists
-Searching Google for: London police officer filmed in crowd intimidating Al Jazeera journalists
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLondon%252Bpolice%252Bofficer%252Bfilmed%252Bin%252Bcrowd%252Bintimidating%252BAl%252BJazeera%252Bjournalists%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuLLGM3rlc4GIjCS3WTad0XyfMcLsGLxAEnHOensQGoyNIB6voCDnLYtodLEWeJ4KKTJAig0TilHVywyBmpjbmRyUloBQw
+Processing trending topic: Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands
+Searching Google for: Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIran%252B%25E2%2580%2598begging%25E2%2580%2599%252Bfor%252Bdeal%252Bto%252Bend%252Bwar%252Bas%252BTehran%252Bissues%252Bnew%252Bdemands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bxGIigls4GIjAnqIksWzt6ggjqDqVH4wiQVX9dGSCqDgZ1xAW-8-H_cERxEkr-zbLW7aSAHEDVbncyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: london-police-officer-filmed-in-crowd-intimidating_20260326_1807.html
-✓ Created comprehensive article: london-police-officer-filmed-in-crowd-intimidating_20260326_1807.html
+Successfully created file: trump-says-iran-begging-for-deal-to-end-war-as-teh_20260326_1959.html
+✓ Created comprehensive article: trump-says-iran-begging-for-deal-to-end-war-as-teh_20260326_1959.html
 
-Processing trending topic: LIVE: Brazil vs France – FIFA World Cup 2026 warm up
-Searching Google for: LIVE: Brazil vs France – FIFA World Cup 2026 warm up
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BBrazil%252Bvs%252BFrance%252B%25E2%2580%2593%252BFIFA%252BWorld%252BCup%252B2026%252Bwarm%252Bup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuLLGNPrlc4GIjDaTq64AJyS3VoG7G5f95lWW6WD9hEzChNf9wxenUf_iCbcDrl06mj2r9kuCBrGklUyBmpjbmRyUloBQw
+Processing trending topic: Kim Jong Un gifted gun after Belarus friendship treaty
+Searching Google for: Kim Jong Un gifted gun after Belarus friendship treaty
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKim%252BJong%252BUn%252Bgifted%252Bgun%252Bafter%252BBelarus%252Bfriendship%252Btreaty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bxGI6gls4GIjC5SQdECrFN2LKwmPXU6iZdom2JC0arLbQzJ9_l6WoeDlZzo7MyEUcVH1dqzDoanHEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-brazil-vs-france-fifa-world-cup-2026-warm-up_20260326_1807.html
-✓ Created comprehensive article: live-brazil-vs-france-fifa-world-cup-2026-warm-up_20260326_1807.html
+Successfully created file: kim-jong-un-gifted-gun-after-belarus-friendship-tr_20260326_1959.html
+✓ Created comprehensive article: kim-jong-un-gifted-gun-after-belarus-friendship-tr_20260326_1959.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • More than one million displaced by Israel’s evacuations in Lebanon
+   • Key takeaways from Trump’s war on Iran meeting
      Sources: bbc.com, cnn.com, reuters.com
-   • London police officer filmed in crowd intimidating Al Jazeera journalists
+   • Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands
      Sources: bbc.com, cnn.com, reuters.com
-   • LIVE: Brazil vs France – FIFA World Cup 2026 warm up
+   • Kim Jong Un gifted gun after Belarus friendship treaty
      Sources: bbc.com, cnn.com, reuters.com
