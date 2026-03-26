@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Prepare for turbulence - how a prolonged Middle East conflict could reshape how we fly
@@ -8,55 +8,61 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: UN votes to describe slave trade as ‘gravest crime against humanity’
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-26
+  Added: Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Malaysia’s prime minister says Iran talks should end war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Videos show wave of missiles fired from Lebanon to Israel
+Added expanded search topic: Malaysia’s prime minister says Iran talks should end war
+Added expanded search topic: Videos show wave of missiles fired from Lebanon to Israel
+Saved 6 topics for 2026-03-26
 Returning 3 unique trending topics:
-  1. Prepare for turbulence - how a prolonged Middle East conflict could reshape how we fly (from BBC News)
-  2. Meta and YouTube found liable in landmark social media addiction trial (from BBC News)
-  3. UN votes to describe slave trade as ‘gravest crime against humanity’ (from The Guardian)
+  1. Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas (from The Guardian)
+  2. Malaysia’s prime minister says Iran talks should end war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Videos show wave of missiles fired from Lebanon to Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Prepare for turbulence - how a prolonged Middle East conflict could reshape how we fly
-Searching Google for: Prepare for turbulence - how a prolonged Middle East conflict could reshape how we fly
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrepare%252Bfor%252Bturbulence%252B-%252Bhow%252Ba%252Bprolonged%252BMiddle%252BEast%252Bconflict%252Bcould%252Breshape%252Bhow%252Bwe%252Bfly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKRwGOesks4GIjAX_PCSJV5lKidNxGoIkonTLhBy_c60-ajXB8Bw6XIzTkTQ3yOmV_aOHC5r4wGPWdoyBmpjbmRyUloBQw
+Processing trending topic: Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas
+Searching Google for: Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bwar%252Bbriefing%253A%252BZelenskyy%252Bsays%252BUS%252Bhas%252Blinked%252Bsecurity%252Bguarantees%252Bto%252Bceding%252Bof%252BDonbas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moNlGLn-ks4GIjBI2fPVZGp57i5YGwrYRnt034z1p9tINzOWjenrMPrs3XjqUrlF1noD8EdcpAKM0gsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prepare-for-turbulence-how-a-prolonged-middle-east_20260326_0214.html
-✓ Created comprehensive article: prepare-for-turbulence-how-a-prolonged-middle-east_20260326_0214.html
+Successfully created file: ukraine-war-briefing-zelenskyy-says-us-has-linked-_20260326_0508.html
+✓ Created comprehensive article: ukraine-war-briefing-zelenskyy-says-us-has-linked-_20260326_0508.html
 
-Processing trending topic: Meta and YouTube found liable in landmark social media addiction trial
-Searching Google for: Meta and YouTube found liable in landmark social media addiction trial
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMeta%252Band%252BYouTube%252Bfound%252Bliable%252Bin%252Blandmark%252Bsocial%252Bmedia%252Baddiction%252Btrial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKRwGO6sks4GIjDKkaTylQ51ihYIFY6CTWbIXq3OltjhA-wFIM8OFp79FdeKgw1OUiI-C12-HjWCrO0yBmpjbmRyUloBQw
+Processing trending topic: Malaysia’s prime minister says Iran talks should end war
+Searching Google for: Malaysia’s prime minister says Iran talks should end war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMalaysia%25E2%2580%2599s%252Bprime%252Bminister%252Bsays%252BIran%252Btalks%252Bshould%252Bend%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moNlGMD-ks4GIjB2q6Vm2y6BSf6jfwe0cBKqsJXjNNQNYtZpIt85aX4WAiXTRe9Rzbkf1or2S65dhN8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: meta-and-youtube-found-liable-in-landmark-social-m_20260326_0214.html
-✓ Created comprehensive article: meta-and-youtube-found-liable-in-landmark-social-m_20260326_0214.html
+Successfully created file: malaysias-prime-minister-says-iran-talks-should-en_20260326_0508.html
+✓ Created comprehensive article: malaysias-prime-minister-says-iran-talks-should-en_20260326_0508.html
 
-Processing trending topic: UN votes to describe slave trade as ‘gravest crime against humanity’
-Searching Google for: UN votes to describe slave trade as ‘gravest crime against humanity’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bvotes%252Bto%252Bdescribe%252Bslave%252Btrade%252Bas%252B%25E2%2580%2598gravest%252Bcrime%252Bagainst%252Bhumanity%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKRwGPSsks4GIjCtlFnHvy4jgTDWXhHBrKe5-_kbu0Hy4ELnI0TUkl_WY17x2VZGmSkbW19Ha351-uYyBmpjbmRyUloBQw
+Processing trending topic: Videos show wave of missiles fired from Lebanon to Israel
+Searching Google for: Videos show wave of missiles fired from Lebanon to Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideos%252Bshow%252Bwave%252Bof%252Bmissiles%252Bfired%252Bfrom%252BLebanon%252Bto%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moNlGMb-ks4GIjDo8uLQP33yKkKW-ipsgXvRv6Lafth3g8ZxURLE1MJWTUpsIe_NWNIeKJ7LviQV364yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: un-votes-to-describe-slave-trade-as-gravest-crime-_20260326_0214.html
-✓ Created comprehensive article: un-votes-to-describe-slave-trade-as-gravest-crime-_20260326_0214.html
+Successfully created file: videos-show-wave-of-missiles-fired-from-lebanon-to_20260326_0508.html
+✓ Created comprehensive article: videos-show-wave-of-missiles-fired-from-lebanon-to_20260326_0508.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Prepare for turbulence - how a prolonged Middle East conflict could reshape how we fly
+   • Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas
      Sources: bbc.com, cnn.com, reuters.com
-   • Meta and YouTube found liable in landmark social media addiction trial
+   • Malaysia’s prime minister says Iran talks should end war
      Sources: bbc.com, cnn.com, reuters.com
-   • UN votes to describe slave trade as ‘gravest crime against humanity’
+   • Videos show wave of missiles fired from Lebanon to Israel
      Sources: bbc.com, cnn.com, reuters.com
