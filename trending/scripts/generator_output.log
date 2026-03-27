@@ -1,68 +1,62 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Beyond oil: The crucial exports blocked by Hormuz closure
   Added: Under-5s should not be on screens for more than an hour a day, parents told in new government advice
-  Added: UK forecast to see biggest hit to growth from Iran war out of major economies
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Nigeria takes its place on world stage in quest to become regional superpower
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mbappe nets for 10-man France in win against Brazil in World Cup warm-up
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis
-Added expanded search topic: Mbappe nets for 10-man France in win against Brazil in World Cup warm-up
-Added expanded search topic: Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis
-Saved 45 topics for 2026-03-26
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-03-27
 Returning 3 unique trending topics:
-  1. Under-5s should not be on screens for more than an hour a day, parents told in new government advice (from BBC News)
-  2. Mbappe nets for 10-man France in win against Brazil in World Cup warm-up (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Beyond oil: The crucial exports blocked by Hormuz closure (from BBC News)
+  2. Under-5s should not be on screens for more than an hour a day, parents told in new government advice (from BBC News)
+  3. Nigeria takes its place on world stage in quest to become regional superpower (from The Guardian)
+
+Processing trending topic: Beyond oil: The crucial exports blocked by Hormuz closure
+Searching Google for: Beyond oil: The crucial exports blocked by Hormuz closure
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBeyond%252Boil%253A%252BThe%252Bcrucial%252Bexports%252Bblocked%252Bby%252BHormuz%252Bclosure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEiGNzPl84GIjA58DgPscShR7wH4cVPTZbXSaDRSPpojFZbBQ17M_J8EeGbLPC0rLkLxsqrnKveJMoyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: beyond-oil-the-crucial-exports-blocked-by-hormuz-c_20260327_0213.html
+✓ Created comprehensive article: beyond-oil-the-crucial-exports-blocked-by-hormuz-c_20260327_0213.html
 
 Processing trending topic: Under-5s should not be on screens for more than an hour a day, parents told in new government advice
 Searching Google for: Under-5s should not be on screens for more than an hour a day, parents told in new government advice
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnder-5s%252Bshould%252Bnot%252Bbe%252Bon%252Bscreens%252Bfor%252Bmore%252Bthan%252Ban%252Bhour%252Ba%252Bday%252C%252Bparents%252Btold%252Bin%252Bnew%252Bgovernment%252Badvice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNWgGNOFl84GIjCMdw0kt3hrMOAthPTWHEttQHcW7M2XEn6d1_Q3kGnRIGXPu1dNjrC-9PnU3X3AXukyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnder-5s%252Bshould%252Bnot%252Bbe%252Bon%252Bscreens%252Bfor%252Bmore%252Bthan%252Ban%252Bhour%252Ba%252Bday%252C%252Bparents%252Btold%252Bin%252Bnew%252Bgovernment%252Badvice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEiGOPPl84GIjCN0p3VT_rwxy2Hi6XS06M-FFBsNjNSISx-VfH0doJ4qRArL8L_QZyW1WErzW7cVpgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: under-5s-should-not-be-on-screens-for-more-than-an_20260326_2335.html
-✓ Created comprehensive article: under-5s-should-not-be-on-screens-for-more-than-an_20260326_2335.html
+Successfully created file: under-5s-should-not-be-on-screens-for-more-than-an_20260327_0214.html
+✓ Created comprehensive article: under-5s-should-not-be-on-screens-for-more-than-an_20260327_0214.html
 
-Processing trending topic: Mbappe nets for 10-man France in win against Brazil in World Cup warm-up
-Searching Google for: Mbappe nets for 10-man France in win against Brazil in World Cup warm-up
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMbappe%252Bnets%252Bfor%252B10-man%252BFrance%252Bin%252Bwin%252Bagainst%252BBrazil%252Bin%252BWorld%252BCup%252Bwarm-up%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNWgGNqFl84GIjD4K3qpUcvQVqlPtDDFYHRKGy5d2t-aANx4rjfuNd5dZc8W2caGfMw3jhve45yrdk4yBmpjbmRyUloBQw
+Processing trending topic: Nigeria takes its place on world stage in quest to become regional superpower
+Searching Google for: Nigeria takes its place on world stage in quest to become regional superpower
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Btakes%252Bits%252Bplace%252Bon%252Bworld%252Bstage%252Bin%252Bquest%252Bto%252Bbecome%252Bregional%252Bsuperpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MEiGOrPl84GIjDgIe_LZCBlPO18dbD4WLUhIL3y7h4p1H1O40CtfRVtOeHpAC002ADYX03JmSmWG38yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mbappe-nets-for-10-man-france-in-win-against-brazi_20260326_2335.html
-✓ Created comprehensive article: mbappe-nets-for-10-man-france-in-win-against-brazi_20260326_2335.html
-
-Processing trending topic: Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis
-Searching Google for: Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DManila%25E2%2580%2599s%252Bstreets%252Bempty%252Bas%252Bfuel%252Bprices%252Bsurge%252Bamid%252BStrait%252Bof%252BHormuz%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNWgGOCFl84GIjCXAJ6FvkxR2ADAP2wOdjSOmekabJy9tCkZmomFdHV733m4QRexiALNqGaAcfr-W0QyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: manilas-streets-empty-as-fuel-prices-surge-amid-st_20260326_2336.html
-✓ Created comprehensive article: manilas-streets-empty-as-fuel-prices-surge-amid-st_20260326_2336.html
+Successfully created file: nigeria-takes-its-place-on-world-stage-in-quest-to_20260327_0214.html
+✓ Created comprehensive article: nigeria-takes-its-place-on-world-stage-in-quest-to_20260327_0214.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Beyond oil: The crucial exports blocked by Hormuz closure
+     Sources: bbc.com, cnn.com, reuters.com
    • Under-5s should not be on screens for more than an hour a day, parents told in new government advice
      Sources: bbc.com, cnn.com, reuters.com
-   • Mbappe nets for 10-man France in win against Brazil in World Cup warm-up
-     Sources: bbc.com, cnn.com, reuters.com
-   • Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis
+   • Nigeria takes its place on world stage in quest to become regional superpower
      Sources: bbc.com, cnn.com, reuters.com
