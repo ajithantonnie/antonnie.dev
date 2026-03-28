@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Iran war splits older and younger conservatives - as pressure builds for Trump to find exit ramp
@@ -9,60 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: UN’s landmark slavery ruling energises African Union’s fight for reparations
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Intense bombing in Tehran, Isfahan
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tiger Woods arrested for suspected DUI after rolling his car
-Added expanded search topic: Intense bombing in Tehran, Isfahan
-Added expanded search topic: Tiger Woods arrested for suspected DUI after rolling his car
-Saved 12 topics for 2026-03-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Secretary of State says war could conclude in ‘weeks, not months’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Doncic facing one-game ban after technical foul in Lakers win against Nets
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: White is hero and villain on England return, Germany’s Wirtz destroys Swiss
+Added expanded search topic: US Secretary of State says war could conclude in ‘weeks, not months’
+Added expanded search topic: Doncic facing one-game ban after technical foul in Lakers win against Nets
+Added expanded search topic: White is hero and villain on England return, Germany’s Wirtz destroys Swiss
+Saved 15 topics for 2026-03-28
 Returning 3 unique trending topics:
-  1. Agent begged Epstein to have sex with model, emails show (from BBC News)
-  2. Intense bombing in Tehran, Isfahan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Tiger Woods arrested for suspected DUI after rolling his car (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US Secretary of State says war could conclude in ‘weeks, not months’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Doncic facing one-game ban after technical foul in Lakers win against Nets (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. White is hero and villain on England return, Germany’s Wirtz destroys Swiss (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Agent begged Epstein to have sex with model, emails show
-Searching Google for: Agent begged Epstein to have sex with model, emails show
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAgent%252Bbegged%252BEpstein%252Bto%252Bhave%252Bsex%252Bwith%252Bmodel%252C%252Bemails%252Bshow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm2MlGL_5nc4GIjCKhRjRJTB4gIl7gnWbfGthbIC3hpyWT03iZ82h1wmg3Z8d05D3o1RNfNJ199NgnVEyBmpjbmRyUloBQw
+Processing trending topic: US Secretary of State says war could conclude in ‘weeks, not months’
+Searching Google for: US Secretary of State says war could conclude in ‘weeks, not months’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BSecretary%252Bof%252BState%252Bsays%252Bwar%252Bcould%252Bconclude%252Bin%252B%25E2%2580%2598weeks%252C%252Bnot%252Bmonths%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTIiGJGQns4GIjCT3oQFAYws31ToNxIoTWmXtmNR-shX_NUmPCBjUKiuk79vYCB1Adgbi2aoUKgcFMwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: agent-begged-epstein-to-have-sex-with-model-emails_20260328_0701.html
-✓ Created comprehensive article: agent-begged-epstein-to-have-sex-with-model-emails_20260328_0701.html
+Successfully created file: us-secretary-of-state-says-war-could-conclude-in-w_20260328_0749.html
+✓ Created comprehensive article: us-secretary-of-state-says-war-could-conclude-in-w_20260328_0749.html
 
-Processing trending topic: Intense bombing in Tehran, Isfahan
-Searching Google for: Intense bombing in Tehran, Isfahan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIntense%252Bbombing%252Bin%252BTehran%252C%252BIsfahan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm2MlGMb5nc4GIjCvLqNJzIe8b7XAe-iSoH5ysJ3_KX8I6nMoeFngLbTA2Mb3is-cU9u53hUS-8xyelgyBmpjbmRyUloBQw
+Processing trending topic: Doncic facing one-game ban after technical foul in Lakers win against Nets
+Searching Google for: Doncic facing one-game ban after technical foul in Lakers win against Nets
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDoncic%252Bfacing%252Bone-game%252Bban%252Bafter%252Btechnical%252Bfoul%252Bin%252BLakers%252Bwin%252Bagainst%252BNets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTIiGJmQns4GIjAnsuTgguTcHhKDSZ5ZiWH0kT3GQTT6bT3TrA7kyVux-xUBaMzU_LL0g-R94zdZBeQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: intense-bombing-in-tehran-isfahan_20260328_0701.html
-✓ Created comprehensive article: intense-bombing-in-tehran-isfahan_20260328_0701.html
+Successfully created file: doncic-facing-one-game-ban-after-technical-foul-in_20260328_0749.html
+✓ Created comprehensive article: doncic-facing-one-game-ban-after-technical-foul-in_20260328_0749.html
 
-Processing trending topic: Tiger Woods arrested for suspected DUI after rolling his car
-Searching Google for: Tiger Woods arrested for suspected DUI after rolling his car
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTiger%252BWoods%252Barrested%252Bfor%252Bsuspected%252BDUI%252Bafter%252Brolling%252Bhis%252Bcar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm2MlGMz5nc4GIjC4hf8x0q7AqzKyCWHLY8FbygfKFc-yGMh34oTGvGfMFzQgi6I7eJ1mDCKaAcjP0XwyBmpjbmRyUloBQw
+Processing trending topic: White is hero and villain on England return, Germany’s Wirtz destroys Swiss
+Searching Google for: White is hero and villain on England return, Germany’s Wirtz destroys Swiss
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhite%252Bis%252Bhero%252Band%252Bvillain%252Bon%252BEngland%252Breturn%252C%252BGermany%25E2%2580%2599s%252BWirtz%252Bdestroys%252BSwiss%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTIiGJ-Qns4GIjDHm6Ybqbz_XKZpEqitjcLWRAgrsXBpGK4kOvWG8KJMSNMjmtgqOFWRx7bf0PEhrfYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tiger-woods-arrested-for-suspected-dui-after-rolli_20260328_0701.html
-✓ Created comprehensive article: tiger-woods-arrested-for-suspected-dui-after-rolli_20260328_0701.html
+Successfully created file: white-is-hero-and-villain-on-england-return-german_20260328_0749.html
+✓ Created comprehensive article: white-is-hero-and-villain-on-england-return-german_20260328_0749.html
 ✓ Updated index.html with 10 total headlines (newest first)
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Agent begged Epstein to have sex with model, emails show
+   • US Secretary of State says war could conclude in ‘weeks, not months’
      Sources: bbc.com, cnn.com, reuters.com
-   • Intense bombing in Tehran, Isfahan
+   • Doncic facing one-game ban after technical foul in Lakers win against Nets
      Sources: bbc.com, cnn.com, reuters.com
-   • Tiger Woods arrested for suspected DUI after rolling his car
+   • White is hero and villain on England return, Germany’s Wirtz destroys Swiss
      Sources: bbc.com, cnn.com, reuters.com
