@@ -798,39 +798,27 @@ class EnhancedTrendingNewsGenerator:
             <section class="main-content-modern">
                 <div class="content-header">
                     <h2 class="section-title">
-                        <span class="section-icon">📋</span>
                         Detailed Analysis
                     </h2>
                     <div class="content-divider"></div>
                 </div>
         """
         
-        # Generate authentic news content with modern formatting
+        # Generate authentic news content
         news_paragraphs = self.generate_authentic_news_content(topic, research_data)
         for i, paragraph in enumerate(news_paragraphs, 1):
-            # Add variety to paragraph presentation
+            # Clean presentation without emojis or big numbers
             if i == 1:
                 article_html += f"""
                 <div class="content-block featured-paragraph">
-                    <div class="paragraph-number">01</div>
                     <div class="paragraph-content">
                         <p class="first-paragraph">{html.escape(paragraph)}</p>
-                    </div>
-                </div>
-                """
-            elif i % 3 == 0:
-                article_html += f"""
-                <div class="content-block highlight-paragraph">
-                    <div class="highlight-icon">💡</div>
-                    <div class="paragraph-content">
-                        <p class="highlighted-text">{html.escape(paragraph)}</p>
                     </div>
                 </div>
                 """
             else:
                 article_html += f"""
                 <div class="content-block standard-paragraph">
-                    <div class="paragraph-marker"></div>
                     <div class="paragraph-content">
                         <p>{html.escape(paragraph)}</p>
                     </div>
@@ -843,25 +831,10 @@ class EnhancedTrendingNewsGenerator:
             <!-- What's Next Section -->
             <section class="story-impact-modern">
                 <div class="impact-header">
-                    <div class="impact-icon">🔮</div>
-                    <h2 class="impact-title">What's Next</h2>
+                    <h2 class="impact-title">Looking Ahead</h2>
                 </div>
                 <div class="impact-content">
                     <p class="impact-text">{html.escape(self.generate_whats_next(topic))}</p>
-                </div>
-                <div class="impact-timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <span>Ongoing monitoring</span>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <span>Updates expected</span>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <span>Follow-up coverage</span>
-                    </div>
                 </div>
             </section>
             
@@ -963,49 +936,58 @@ class EnhancedTrendingNewsGenerator:
         return article_html
     
     def generate_authentic_news_content(self, topic, research_data):
-        """Generate authentic-looking news content with substantial length"""
+        """Generate authentic-looking news content with professional tone and length"""
         paragraphs = []
         
-        # Extract the most relevant content from scraped sources
-        key_details = self.extract_key_details(topic, research_data)
+        title = topic.get('title', '')
+        desc = topic.get('description', '')
+        snippet = topic.get('content_snippet', '')
         
-        # First paragraph: Strong lead with who, what, when, where (4-6 sentences)
-        if key_details.get('lead_info') and not self.is_fallback_content(key_details['lead_info']):
-            lead_paragraph = self.expand_paragraph(key_details['lead_info'], topic, 'lead')
-            paragraphs.append(lead_paragraph)
+        # First paragraph: Lead from RSS description or generated lead
+        if desc and len(desc) > 30 and "Breaking news story" not in desc:
+            lead_paragraph = self.clean_html_tags(desc)
+            if snippet and snippet not in lead_paragraph:
+                lead_paragraph += " " + self.clean_html_tags(snippet)
         else:
             lead_paragraph = self.generate_expanded_contextual_lead(topic)
-            paragraphs.append(lead_paragraph)
+            
+        paragraphs.append(lead_paragraph)
         
-        # Second paragraph: Context and background (4-5 sentences)  
-        if key_details.get('background') and not self.is_fallback_content(key_details['background']):
-            background_paragraph = self.expand_paragraph(key_details['background'], topic, 'background')
-            paragraphs.append(background_paragraph)
+        # Second paragraph: Scraped content or Context
+        scraped_content = self.extract_key_details(topic, research_data)
+        if scraped_content.get('lead_info') and not self.is_fallback_content(scraped_content['lead_info']):
+            paragraphs.append(self.expand_paragraph(scraped_content['lead_info'], topic, 'background'))
         else:
-            background_paragraph = self.generate_expanded_contextual_background(topic, research_data)
-            paragraphs.append(background_paragraph)
-        
-        # Third paragraph: Additional details from sources (4-5 sentences)
-        if key_details.get('additional_content') and not self.is_fallback_content(key_details['additional_content']):
-            details_paragraph = self.expand_paragraph(key_details['additional_content'], topic, 'details')
-            paragraphs.append(details_paragraph)
+            paragraphs.append(self.generate_expanded_contextual_background(topic, research_data))
+            
+        # Third paragraph: Additional Details
+        if scraped_content.get('background') and not self.is_fallback_content(scraped_content['background']):
+            paragraphs.append(self.expand_paragraph(scraped_content['background'], topic, 'details'))
         else:
-            details_paragraph = self.generate_expanded_detailed_analysis(topic, research_data)
-            paragraphs.append(details_paragraph)
+            paragraphs.append(self.generate_expanded_detailed_analysis(topic, research_data))
+            
+        # Fourth paragraph: Official responses/reactions
+        paragraphs.append(self.generate_expanded_official_response(topic))
         
-        # Fourth paragraph: Official responses/reactions (4-5 sentences)
-        official_paragraph = self.generate_expanded_official_response(topic)
-        paragraphs.append(official_paragraph)
+        # Fifth paragraph: Broader context/implications
+        paragraphs.append(self.generate_expanded_broader_context(topic))
         
-        # Fifth paragraph: Broader context/implications (4-5 sentences)
-        context_paragraph = self.generate_expanded_broader_context(topic)
-        paragraphs.append(context_paragraph)
-        
-        # Sixth paragraph: Looking ahead (3-4 sentences)
-        conclusion_paragraph = self.generate_expanded_contextual_conclusion(topic, research_data)
-        paragraphs.append(conclusion_paragraph)
-        
-        return paragraphs[:6]  # Return 6 substantial paragraphs
+        # Ensure we don't have exact duplicate paragraphs
+        unique_paragraphs = []
+        seen = set()
+        for p in paragraphs:
+            clean_p = re.sub(r'[^a-zA-Z]', '', p).lower()
+            if clean_p not in seen and len(p.strip()) > 20:
+                seen.add(clean_p)
+                unique_paragraphs.append(p)
+                
+        return unique_paragraphs[:6]
+
+    def clean_html_tags(self, text):
+        """Clean HTML tags and HTML entities from text"""
+        clean = re.sub('<[^<]+?>', '', text)
+        clean = html.unescape(clean)
+        return clean.strip()
 
     def is_fallback_content(self, content):
         """Check if content is generated fallback content"""
@@ -1735,20 +1717,30 @@ class EnhancedTrendingNewsGenerator:
             return f"{days} day{'s' if days != 1 else ''} ago"
 
     def update_site_metadata(self, new_posts):
-        """Update site metadata and clean old posts"""
-        # Keep only recent posts (last 24 hours worth)
-        cutoff_time = datetime.now() - timedelta(hours=24)
-        
-        for filename in os.listdir(self.posts_dir):
-            if filename.endswith('.html'):
-                file_path = os.path.join(self.posts_dir, filename)
-                file_time = datetime.fromtimestamp(os.path.getctime(file_path))
-                if file_time < cutoff_time:
-                    try:
-                        os.remove(file_path)
-                        print(f"Cleaned old post: {filename}")
-                    except:
-                        pass
+        """Update site metadata and clean old posts, always keeping exactly 30 posts"""
+        try:
+            if not os.path.exists(self.posts_dir):
+                return
+                
+            html_files = []
+            for filename in os.listdir(self.posts_dir):
+                if filename.endswith('.html'):
+                    file_path = os.path.join(self.posts_dir, filename)
+                    file_time = os.path.getctime(file_path)
+                    html_files.append((file_path, file_time))
+            
+            # Sort by creation time descending (newest first)
+            html_files.sort(key=lambda x: x[1], reverse=True)
+            
+            # Delete older files beyond the limit of 30
+            for file_path, _ in html_files[30:]:
+                try:
+                    os.remove(file_path)
+                    print(f"Cleaned old post to keep top 30 limit: {os.path.basename(file_path)}")
+                except Exception as e:
+                    print(f"Failed to clean old post: {os.path.basename(file_path)} - {e}")
+        except Exception as e:
+            print(f"Error while limiting post count: {e}")
 
 # Usage example
 if __name__ == "__main__":
