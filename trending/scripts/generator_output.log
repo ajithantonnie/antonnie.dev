@@ -1,71 +1,73 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Jeremy Bowen: Trump is waging war based on instinct and it isn't working
-  Added: No Kings protesters across the US rally against Donald Trump
+  Added: Our skin is falling off and no-one can tell us why
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dozens detained in Tel Aviv as anti-war protest turns violent
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pentagon readies for weeks of US ground operations in Iran: Report
-Added expanded search topic: Dozens detained in Tel Aviv as anti-war protest turns violent
-Added expanded search topic: Pentagon readies for weeks of US ground operations in Iran: Report
-Saved 15 topics for 2026-03-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Israel war on Iran: What’s happening on day 30 of attacks?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Analyst says that Iran’s interest is in an extended war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran
+Added expanded search topic: US-Israel war on Iran: What’s happening on day 30 of attacks?
+Added expanded search topic: Analyst says that Iran’s interest is in an extended war
+Added expanded search topic: Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran
+Saved 18 topics for 2026-03-29
 Returning 3 unique trending topics:
-  1. No Kings protesters across the US rally against Donald Trump (from BBC News)
-  2. Dozens detained in Tel Aviv as anti-war protest turns violent (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Pentagon readies for weeks of US ground operations in Iran: Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US-Israel war on Iran: What’s happening on day 30 of attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Analyst says that Iran’s interest is in an extended war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: No Kings protesters across the US rally against Donald Trump
-Searching Google for: No Kings protesters across the US rally against Donald Trump
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252BKings%252Bprotesters%252Bacross%252Bthe%252BUS%252Brally%252Bagainst%252BDonald%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFfwGKfmo84GIjCMFc277Uuc2tJxwsbWK5UdQr2UU9kDm7CdxnoqDvUn-NZMnqhx2rYMtYqfxH06bCAyBmpjbmRyUloBQw
+Processing trending topic: US-Israel war on Iran: What’s happening on day 30 of attacks?
+Searching Google for: US-Israel war on Iran: What’s happening on day 30 of attacks?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Israel%252Bwar%252Bon%252BIran%253A%252BWhat%25E2%2580%2599s%252Bhappening%252Bon%252Bday%252B30%252Bof%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKFSGOWApM4GIjAQQIS-mSpwv80vzVIrYJWtRykkYBNKnod1fnm7Ypsr-iYmIFgGi_aPMXqcwPXb8xQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: no-kings-protesters-across-the-us-rally-against-do_20260329_0938.html
-✓ Created comprehensive article: no-kings-protesters-across-the-us-rally-against-do_20260329_0938.html
+Successfully created file: us-israel-war-on-iran-whats-happening-on-day-30-of_20260329_1035.html
+✓ Created comprehensive article: us-israel-war-on-iran-whats-happening-on-day-30-of_20260329_1035.html
 
-Processing trending topic: Dozens detained in Tel Aviv as anti-war protest turns violent
-Searching Google for: Dozens detained in Tel Aviv as anti-war protest turns violent
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Bdetained%252Bin%252BTel%252BAviv%252Bas%252Banti-war%252Bprotest%252Bturns%252Bviolent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFfwGK7mo84GIjCmNnED2nTZdYtWQeWh3euvx7JHhTHkShQt-XWKOVeS9zkE8BOYkL4M4kU52hKQOqQyBmpjbmRyUloBQw
+Processing trending topic: Analyst says that Iran’s interest is in an extended war
+Searching Google for: Analyst says that Iran’s interest is in an extended war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalyst%252Bsays%252Bthat%252BIran%25E2%2580%2599s%252Binterest%252Bis%252Bin%252Ban%252Bextended%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKFSGOyApM4GIjCgNswMhRHVfT5YBQOM3xXK2xF_a4of5I_863qGol4sVFvWUUcA_WrEaoTdNXyFm1UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dozens-detained-in-tel-aviv-as-anti-war-protest-tu_20260329_0938.html
-✓ Created comprehensive article: dozens-detained-in-tel-aviv-as-anti-war-protest-tu_20260329_0938.html
+Successfully created file: analyst-says-that-irans-interest-is-in-an-extended_20260329_1035.html
+✓ Created comprehensive article: analyst-says-that-irans-interest-is-in-an-extended_20260329_1035.html
 
-Processing trending topic: Pentagon readies for weeks of US ground operations in Iran: Report
-Searching Google for: Pentagon readies for weeks of US ground operations in Iran: Report
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPentagon%252Breadies%252Bfor%252Bweeks%252Bof%252BUS%252Bground%252Boperations%252Bin%252BIran%253A%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFfwGLTmo84GIjCnlhSc47LFo5majf--TicHCQB1bI8ErgQDmIjWhAN9aR8JL9lTGHtihgxxKbeuwbcyBmpjbmRyUloBQw
+Processing trending topic: Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran
+Searching Google for: Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252Bhosts%252Btop%252BSaudi%252C%252BTurkish%252C%252BEgyptian%252Bdiplomats%252Bover%252Bwar%252Bin%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKFSGPOApM4GIjB6ZAgb_rwSlvkdavpnhkZueqE2Ni1rF97ysTMhxmSmjgBNaMiAgaHTEeQpAjWRS7gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pentagon-readies-for-weeks-of-us-ground-operations_20260329_0939.html
-✓ Created comprehensive article: pentagon-readies-for-weeks-of-us-ground-operations_20260329_0939.html
+Successfully created file: pakistan-hosts-top-saudi-turkish-egyptian-diplomat_20260329_1035.html
+✓ Created comprehensive article: pakistan-hosts-top-saudi-turkish-egyptian-diplomat_20260329_1035.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: living-in-the-dark-gazas-struggle-for-electricity_20260329_0841.html
-Cleaned old post to keep top 30 limit: jeremy-bowen-trump-is-waging-war-based-on-instinct_20260329_0841.html
-Cleaned old post to keep top 30 limit: goodbye-graaff-reinet-south-african-towns-name-cha_20260329_0514.html
+Cleaned old post to keep top 30 limit: pentagon-readies-for-weeks-of-us-ground-operations_20260329_0939.html
+Cleaned old post to keep top 30 limit: our-skin-is-falling-off-and-no-one-can-tell-us-why_20260329_0841.html
+Cleaned old post to keep top 30 limit: dozens-detained-in-tel-aviv-as-anti-war-protest-tu_20260329_0938.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • No Kings protesters across the US rally against Donald Trump
+   • US-Israel war on Iran: What’s happening on day 30 of attacks?
      Sources: bbc.com, cnn.com, reuters.com
-   • Dozens detained in Tel Aviv as anti-war protest turns violent
+   • Analyst says that Iran’s interest is in an extended war
      Sources: bbc.com, cnn.com, reuters.com
-   • Pentagon readies for weeks of US ground operations in Iran: Report
+   • Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran
      Sources: bbc.com, cnn.com, reuters.com
