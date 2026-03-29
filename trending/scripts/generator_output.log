@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Counter-terror police join Derby car incident investigation
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran hits industrial zone in southern Israel
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday
-Added expanded search topic: Iran hits industrial zone in southern Israel
-Added expanded search topic: Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday
-Saved 36 topics for 2026-03-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We can insure the ship, but we cannot insure a human life.’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Houthis open new front against Israel, is Red Sea shipping at risk?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Funeral held for Lebanese journalists killed in Israeli strike
+Added expanded search topic: ‘We can insure the ship, but we cannot insure a human life.’
+Added expanded search topic: Houthis open new front against Israel, is Red Sea shipping at risk?
+Added expanded search topic: Funeral held for Lebanese journalists killed in Israeli strike
+Saved 39 topics for 2026-03-29
 Returning 3 unique trending topics:
-  1. Counter-terror police join Derby car incident investigation (from BBC News)
-  2. Iran hits industrial zone in southern Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. ‘We can insure the ship, but we cannot insure a human life.’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Houthis open new front against Israel, is Red Sea shipping at risk? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Funeral held for Lebanese journalists killed in Israeli strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Counter-terror police join Derby car incident investigation
-Searching Google for: Counter-terror police join Derby car incident investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCounter-terror%252Bpolice%252Bjoin%252BDerby%252Bcar%252Bincident%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDiGIOqpc4GIjBoInrSZf8r6fDfzxYxtAhRMmkXaiZhmVUVCA9ExRzMbYGwx-tu-k3BzgOSGhQT3RYyAnJSWgFD
+Processing trending topic: ‘We can insure the ship, but we cannot insure a human life.’
+Searching Google for: ‘We can insure the ship, but we cannot insure a human life.’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bcan%252Binsure%252Bthe%252Bship%252C%252Bbut%252Bwe%252Bcannot%252Binsure%252Ba%252Bhuman%252Blife.%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GPDDpc4GIjC7V1CVUaLg_DYpkgDPhG3pk1EDixRc4fE212cRm2MfH96NGm9zgmciLofSavk-qswyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: counter-terror-police-join-derby-car-incident-inve_20260329_1636.html
-✓ Created comprehensive article: counter-terror-police-join-derby-car-incident-inve_20260329_1636.html
+Successfully created file: we-can-insure-the-ship-but-we-cannot-insure-a-huma_20260329_1731.html
+✓ Created comprehensive article: we-can-insure-the-ship-but-we-cannot-insure-a-huma_20260329_1731.html
 
-Processing trending topic: Iran hits industrial zone in southern Israel
-Searching Google for: Iran hits industrial zone in southern Israel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bhits%252Bindustrial%252Bzone%252Bin%252Bsouthern%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDiGIqqpc4GIjDGLbeHa95TkQYXz5SxibgNNg8k6bgB2URT8NOJLbNwzju3z8L5y3khmnkAqzGGesEyAnJSWgFD
+Processing trending topic: Houthis open new front against Israel, is Red Sea shipping at risk?
+Searching Google for: Houthis open new front against Israel, is Red Sea shipping at risk?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHouthis%252Bopen%252Bnew%252Bfront%252Bagainst%252BIsrael%252C%252Bis%252BRed%252BSea%252Bshipping%252Bat%252Brisk%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GPfDpc4GIjD0f88zlry0g6khwX0KHwTYs4YS7tIis4sFuJgu-qQPbGkzRAuWiiIaFW0dLNkWT6syAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-hits-industrial-zone-in-southern-israel_20260329_1636.html
-✓ Created comprehensive article: iran-hits-industrial-zone-in-southern-israel_20260329_1636.html
+Successfully created file: houthis-open-new-front-against-israel-is-red-sea-s_20260329_1731.html
+✓ Created comprehensive article: houthis-open-new-front-against-israel-is-red-sea-s_20260329_1731.html
 
-Processing trending topic: Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday
-Searching Google for: Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bpolice%252Bblock%252BCatholic%252Bcardinal%252Bfrom%252BHoly%252BSepulchre%252Bon%252BPalm%252BSunday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LDiGJCqpc4GIjDfUEdyGlYAVVk03h9G9ziiN4C2ECCSI361yP-VM4iXlFrQ3532IAYT3jYXWxkZNKMyAnJSWgFD
+Processing trending topic: Funeral held for Lebanese journalists killed in Israeli strike
+Searching Google for: Funeral held for Lebanese journalists killed in Israeli strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFuneral%252Bheld%252Bfor%252BLebanese%252Bjournalists%252Bkilled%252Bin%252BIsraeli%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GP3Dpc4GIjB8LD6vJVBLS12M3S41xPRqF8HMPe6CWYRGex8chadnjIaw5WXmLkc9nFO38UMRY6MyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-police-block-catholic-cardinal-from-holy-s_20260329_1636.html
-✓ Created comprehensive article: israeli-police-block-catholic-cardinal-from-holy-s_20260329_1636.html
+Successfully created file: funeral-held-for-lebanese-journalists-killed-in-is_20260329_1731.html
+✓ Created comprehensive article: funeral-held-for-lebanese-journalists-killed-in-is_20260329_1731.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: hundreds-of-mourners-gather-in-pouring-rain-for-fu_20260329_1355.html
-Cleaned old post to keep top 30 limit: tudor-leaves-spurs-after-just-44-days-in-charge_20260329_1533.html
-Cleaned old post to keep top 30 limit: african-football-chief-will-respect-cas-decision-o_20260329_1533.html
+Cleaned old post to keep top 30 limit: iran-hits-industrial-zone-in-southern-israel_20260329_1636.html
+Cleaned old post to keep top 30 limit: israeli-police-block-catholic-cardinal-from-holy-s_20260329_1636.html
+Cleaned old post to keep top 30 limit: counter-terror-police-join-derby-car-incident-inve_20260329_1636.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Counter-terror police join Derby car incident investigation
+   • ‘We can insure the ship, but we cannot insure a human life.’
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran hits industrial zone in southern Israel
+   • Houthis open new front against Israel, is Red Sea shipping at risk?
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday
+   • Funeral held for Lebanese journalists killed in Israeli strike
      Sources: bbc.com, cnn.com, reuters.com
