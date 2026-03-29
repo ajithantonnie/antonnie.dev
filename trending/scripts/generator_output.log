@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump is waging war based on instinct and it isn't working
@@ -8,58 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: UN’s landmark slavery ruling energises African Union’s fight for reparations
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-03-29
+  Added: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What happens in the occupied West Bank under the shadow of the Iran war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: As war on Iran enters second month, Yemen’s Houthis open new front
+Added expanded search topic: What happens in the occupied West Bank under the shadow of the Iran war
+Added expanded search topic: As war on Iran enters second month, Yemen’s Houthis open new front
+Saved 6 topics for 2026-03-29
 Returning 3 unique trending topics:
-  1. Trump is waging war based on instinct and it isn't working (from BBC News)
-  2. Arrest after car strikes 'multiple' pedestrians in Derby - police (from BBC News)
-  3. UN’s landmark slavery ruling energises African Union’s fight for reparations (from The Guardian)
+  1. Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions (from The Guardian)
+  2. What happens in the occupied West Bank under the shadow of the Iran war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. As war on Iran enters second month, Yemen’s Houthis open new front (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump is waging war based on instinct and it isn't working
-Searching Google for: Trump is waging war based on instinct and it isn't working
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bis%252Bwaging%252Bwar%252Bbased%252Bon%252Binstinct%252Band%252Bit%252Bisn%2527t%252Bworking%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBPBGIaXos4GIjCvUzzANYrdvS4zmDfvq6IwfiVcEDs0Y0hOKC22EeUO6zwiWBZtOV_oytKt5DFENnEyBmpjbmRyUloBQw
+Processing trending topic: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
+Searching Google for: Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGoodbye%252BGraaff-Reinet%253A%252BSouth%252BAfrican%252Btown%25E2%2580%2599s%252Bname%252Bchange%252Bstirs%252Bracial%252Btensions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUWnGMfqos4GIjBTbTQvLnpVSwzW2H7IUA2MpVnK-f3ymlBY7iIQRqwrLKedt0Fx3VdmIf22ogkhtwwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-is-waging-war-based-on-instinct-and-it-isnt-_20260329_0216.html
-✓ Created comprehensive article: trump-is-waging-war-based-on-instinct-and-it-isnt-_20260329_0216.html
+Successfully created file: goodbye-graaff-reinet-south-african-towns-name-cha_20260329_0514.html
+✓ Created comprehensive article: goodbye-graaff-reinet-south-african-towns-name-cha_20260329_0514.html
 
-Processing trending topic: Arrest after car strikes 'multiple' pedestrians in Derby - police
-Searching Google for: Arrest after car strikes 'multiple' pedestrians in Derby - police
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArrest%252Bafter%252Bcar%252Bstrikes%252B%2527multiple%2527%252Bpedestrians%252Bin%252BDerby%252B-%252Bpolice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBPBGI2Xos4GIjACTOKKnDtMYcZdwh8mboe3b9WfIRw6QxdG6vVsACJm4teGe1C4PwEBLZc5ZWm14oIyBmpjbmRyUloBQw
+Processing trending topic: What happens in the occupied West Bank under the shadow of the Iran war
+Searching Google for: What happens in the occupied West Bank under the shadow of the Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bhappens%252Bin%252Bthe%252Boccupied%252BWest%252BBank%252Bunder%252Bthe%252Bshadow%252Bof%252Bthe%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUWnGM_qos4GIjAITYpmqju6eEy4gxvGTWZMik0xA0jSQeVJCRU_uoQzjzatR95R5brYfFORbqLcTn0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: arrest-after-car-strikes-multiple-pedestrians-in-d_20260329_0216.html
-✓ Created comprehensive article: arrest-after-car-strikes-multiple-pedestrians-in-d_20260329_0216.html
+Successfully created file: what-happens-in-the-occupied-west-bank-under-the-s_20260329_0515.html
+✓ Created comprehensive article: what-happens-in-the-occupied-west-bank-under-the-s_20260329_0515.html
 
-Processing trending topic: UN’s landmark slavery ruling energises African Union’s fight for reparations
-Searching Google for: UN’s landmark slavery ruling energises African Union’s fight for reparations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%25E2%2580%2599s%252Blandmark%252Bslavery%252Bruling%252Benergises%252BAfrican%252BUnion%25E2%2580%2599s%252Bfight%252Bfor%252Breparations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBPBGJSXos4GIjCERnPDM2aNFIU4ZmjpUwzq73BWFryoeKSBXyrjcO8efUXC_DN2YAdSj_myesv60u8yBmpjbmRyUloBQw
+Processing trending topic: As war on Iran enters second month, Yemen’s Houthis open new front
+Searching Google for: As war on Iran enters second month, Yemen’s Houthis open new front
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAs%252Bwar%252Bon%252BIran%252Benters%252Bsecond%252Bmonth%252C%252BYemen%25E2%2580%2599s%252BHouthis%252Bopen%252Bnew%252Bfront%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUWnGNbqos4GIjCbrpWW96HSysEMrYAvZJtSBip8Vml4nA1oo5KctLGRknTun52ZxuKl6EFjQxPxS88yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uns-landmark-slavery-ruling-energises-african-unio_20260329_0216.html
-✓ Created comprehensive article: uns-landmark-slavery-ruling-energises-african-unio_20260329_0216.html
+Successfully created file: as-war-on-iran-enters-second-month-yemens-houthis-_20260329_0515.html
+✓ Created comprehensive article: as-war-on-iran-enters-second-month-yemens-houthis-_20260329_0515.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: key-moments-in-first-month-of-us-israeli-war-on-ir_20260328_2333.html
-Cleaned old post to keep top 30 limit: missiles-hit-southern-israeli-city-of-eilat_20260328_2031.html
-Cleaned old post to keep top 30 limit: air-strikes-in-iraq-kill-three-pmf-fighters-two-po_20260328_2333.html
+Cleaned old post to keep top 30 limit: palestine-action-supporters-arrested-as-londons-me_20260328_2333.html
+Cleaned old post to keep top 30 limit: trump-is-waging-war-based-on-instinct-and-it-isnt-_20260329_0216.html
+Cleaned old post to keep top 30 limit: arrest-after-car-strikes-multiple-pedestrians-in-d_20260329_0216.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump is waging war based on instinct and it isn't working
+   • Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions
      Sources: bbc.com, cnn.com, reuters.com
-   • Arrest after car strikes 'multiple' pedestrians in Derby - police
+   • What happens in the occupied West Bank under the shadow of the Iran war
      Sources: bbc.com, cnn.com, reuters.com
-   • UN’s landmark slavery ruling energises African Union’s fight for reparations
+   • As war on Iran enters second month, Yemen’s Houthis open new front
      Sources: bbc.com, cnn.com, reuters.com
