@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Scott Mills sacked from BBC Radio 2 over 'personal conduct'
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: Thunderstorms drench UAE and Saudi Arabia
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Green and Yellow: Two lines that separate me from my land
-Added expanded search topic: Green and Yellow: Two lines that separate me from my land
-Saved 15 topics for 2026-03-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Germany’s FM tells President al-Sharaa ‘We stand with Syria’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia’s FSB orders British diplomat’s expulsion, UK rejects ‘intimidation’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Beirut apartment damaged in Israeli strike
+Added expanded search topic: Germany’s FM tells President al-Sharaa ‘We stand with Syria’
+Added expanded search topic: Russia’s FSB orders British diplomat’s expulsion, UK rejects ‘intimidation’
+Added expanded search topic: Beirut apartment damaged in Israeli strike
+Saved 18 topics for 2026-03-30
 Returning 3 unique trending topics:
-  1. Scott Mills sacked from BBC Radio 2 over 'personal conduct' (from BBC News)
-  2. Weather tracker: Thunderstorms drench UAE and Saudi Arabia (from The Guardian)
-  3. Green and Yellow: Two lines that separate me from my land (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Germany’s FM tells President al-Sharaa ‘We stand with Syria’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russia’s FSB orders British diplomat’s expulsion, UK rejects ‘intimidation’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Beirut apartment damaged in Israeli strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Scott Mills sacked from BBC Radio 2 over 'personal conduct'
-Searching Google for: Scott Mills sacked from BBC Radio 2 over 'personal conduct'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DScott%252BMills%252Bsacked%252Bfrom%252BBBC%252BRadio%252B2%252Bover%252B%2527personal%252Bconduct%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrm3wGPWwqc4GIjAMa4lgjEiL_loRjPUzQEqVMJT-xeZoDouZko8YwZ2mxJ5yUCj_2W46NCLOqlsHzJ0yBmpjbmRyUloBQw
+Processing trending topic: Germany’s FM tells President al-Sharaa ‘We stand with Syria’
+Searching Google for: Germany’s FM tells President al-Sharaa ‘We stand with Syria’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGermany%25E2%2580%2599s%252BFM%252Btells%252BPresident%252Bal-Sharaa%252B%25E2%2580%2598We%252Bstand%252Bwith%252BSyria%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnOzGMPNqc4GIjCSaWKYWgOhabHfcR8mOfko6F2HnrvoNi7TUZXbBtnKFSBqHsPFHDGJLluhN7sa5JUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: scott-mills-sacked-from-bbc-radio-2-over-personal-_20260330_1103.html
-✓ Created comprehensive article: scott-mills-sacked-from-bbc-radio-2-over-personal-_20260330_1103.html
+Successfully created file: germanys-fm-tells-president-al-sharaa-we-stand-wit_20260330_1204.html
+✓ Created comprehensive article: germanys-fm-tells-president-al-sharaa-we-stand-wit_20260330_1204.html
 
-Processing trending topic: Weather tracker: Thunderstorms drench UAE and Saudi Arabia
-Searching Google for: Weather tracker: Thunderstorms drench UAE and Saudi Arabia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeather%252Btracker%253A%252BThunderstorms%252Bdrench%252BUAE%252Band%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrm3wGP2wqc4GIjCXu4Met2N4yQEq13pNBMFjHZkIMPd-KnC58r_Sb9V_PIoP1ZUSec6uOJv302XYBawyBmpjbmRyUloBQw
+Processing trending topic: Russia’s FSB orders British diplomat’s expulsion, UK rejects ‘intimidation’
+Searching Google for: Russia’s FSB orders British diplomat’s expulsion, UK rejects ‘intimidation’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%25E2%2580%2599s%252BFSB%252Borders%252BBritish%252Bdiplomat%25E2%2580%2599s%252Bexpulsion%252C%252BUK%252Brejects%252B%25E2%2580%2598intimidation%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnOzGMrNqc4GIjDVHmTnydJWVpc1GUnGu5oqZlaogBm6klPX4OcOs0-JM9xp5vQPcXUy-xl4Cw4Xl9MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weather-tracker-thunderstorms-drench-uae-and-saudi_20260330_1103.html
-✓ Created comprehensive article: weather-tracker-thunderstorms-drench-uae-and-saudi_20260330_1103.html
+Successfully created file: russias-fsb-orders-british-diplomats-expulsion-uk-_20260330_1204.html
+✓ Created comprehensive article: russias-fsb-orders-british-diplomats-expulsion-uk-_20260330_1204.html
 
-Processing trending topic: Green and Yellow: Two lines that separate me from my land
-Searching Google for: Green and Yellow: Two lines that separate me from my land
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGreen%252Band%252BYellow%253A%252BTwo%252Blines%252Bthat%252Bseparate%252Bme%252Bfrom%252Bmy%252Bland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrm3wGIOxqc4GIjBZls8Kz4l9reEpcroR_WN5LYX00dfohjoeObHMTkydrCz9S6Y7loXHaDcmkSS2H3UyBmpjbmRyUloBQw
+Processing trending topic: Beirut apartment damaged in Israeli strike
+Searching Google for: Beirut apartment damaged in Israeli strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBeirut%252Bapartment%252Bdamaged%252Bin%252BIsraeli%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnOzGNHNqc4GIjCxqO3FfykUNZPEdZZx9nb6ulGDoDw1AayfkM650ZMMLOCLzIRm81Llgm6VG4PTWqcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: green-and-yellow-two-lines-that-separate-me-from-m_20260330_1103.html
-✓ Created comprehensive article: green-and-yellow-two-lines-that-separate-me-from-m_20260330_1103.html
+Successfully created file: beirut-apartment-damaged-in-israeli-strike_20260330_1204.html
+✓ Created comprehensive article: beirut-apartment-damaged-in-israeli-strike_20260330_1204.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: this-is-a-nightmare-scenario-if-it-escalates-furth_20260330_0913.html
-Cleaned old post to keep top 30 limit: did-israel-miscalculate-in-launching-the-war-on-ir_20260330_0913.html
-Cleaned old post to keep top 30 limit: car-finance-compensation-details-to-be-revealed-wi_20260330_0913.html
+Cleaned old post to keep top 30 limit: urgent-action-needed-to-prevent-surge-in-digital-v_20260330_0526.html
+Cleaned old post to keep top 30 limit: scott-mills-sacked-from-bbc-radio-2-over-personal-_20260330_1103.html
+Cleaned old post to keep top 30 limit: green-and-yellow-two-lines-that-separate-me-from-m_20260330_1103.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Scott Mills sacked from BBC Radio 2 over 'personal conduct'
+   • Germany’s FM tells President al-Sharaa ‘We stand with Syria’
      Sources: bbc.com, cnn.com, reuters.com
-   • Weather tracker: Thunderstorms drench UAE and Saudi Arabia
+   • Russia’s FSB orders British diplomat’s expulsion, UK rejects ‘intimidation’
      Sources: bbc.com, cnn.com, reuters.com
-   • Green and Yellow: Two lines that separate me from my land
+   • Beirut apartment damaged in Israeli strike
      Sources: bbc.com, cnn.com, reuters.com
