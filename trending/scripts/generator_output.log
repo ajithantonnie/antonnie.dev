@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More UK troops to be sent to Middle East, defence secretary announces
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tiger Woods pleads not guilty to DUI in car crash where opioids found
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier
-Added expanded search topic: Tiger Woods pleads not guilty to DUI in car crash where opioids found
-Added expanded search topic: Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier
-Saved 45 topics for 2026-03-31
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After Strait of Hormuz opens, turmoil would still last months, analysts say
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US exempts Gulf of Mexico oil drillers from endangered species protections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: EU warns oil and gas prices won’t quickly return to normal after Iran war
+Added expanded search topic: After Strait of Hormuz opens, turmoil would still last months, analysts say
+Added expanded search topic: US exempts Gulf of Mexico oil drillers from endangered species protections
+Added expanded search topic: EU warns oil and gas prices won’t quickly return to normal after Iran war
+Saved 48 topics for 2026-03-31
 Returning 3 unique trending topics:
-  1. Man charged after seven people hit by car in Derby (from BBC News)
-  2. Tiger Woods pleads not guilty to DUI in car crash where opioids found (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. After Strait of Hormuz opens, turmoil would still last months, analysts say (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US exempts Gulf of Mexico oil drillers from endangered species protections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. EU warns oil and gas prices won’t quickly return to normal after Iran war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man charged after seven people hit by car in Derby
-Searching Google for: Man charged after seven people hit by car in Derby
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bcharged%252Bafter%252Bseven%252Bpeople%252Bhit%252Bby%252Bcar%252Bin%252BDerby%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3UhGOqYsc4GIjC0j98e87MA4ZL06yC4i90j52Ot7w1IC8uyWF0BYNK63eWP--mJTwaFYaldnE3VPF4yBmpjbmRyUloBQw
+Processing trending topic: After Strait of Hormuz opens, turmoil would still last months, analysts say
+Searching Google for: After Strait of Hormuz opens, turmoil would still last months, analysts say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252BStrait%252Bof%252BHormuz%252Bopens%252C%252Bturmoil%252Bwould%252Bstill%252Blast%252Bmonths%252C%252Banalysts%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuL-hGKO1sc4GIjDsS_owJ5nIW5UFNFHVKV1-xDbIwPwa9ou-jC9HpF4LIQ7ZAurbMR9qjWJrO21WsVsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-charged-after-seven-people-hit-by-car-in-derby_20260331_2236.html
-✓ Created comprehensive article: man-charged-after-seven-people-hit-by-car-in-derby_20260331_2236.html
+Successfully created file: after-strait-of-hormuz-opens-turmoil-would-still-l_20260331_2337.html
+✓ Created comprehensive article: after-strait-of-hormuz-opens-turmoil-would-still-l_20260331_2337.html
 
-Processing trending topic: Tiger Woods pleads not guilty to DUI in car crash where opioids found
-Searching Google for: Tiger Woods pleads not guilty to DUI in car crash where opioids found
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTiger%252BWoods%252Bpleads%252Bnot%252Bguilty%252Bto%252BDUI%252Bin%252Bcar%252Bcrash%252Bwhere%252Bopioids%252Bfound%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3UhGPKYsc4GIjCyMn-8f29nREKqsc-gXWMSeyF6XIDvJhDqnUUK7wu8M8-CME8FoBZq8yTujYKqkDoyBmpjbmRyUloBQw
+Processing trending topic: US exempts Gulf of Mexico oil drillers from endangered species protections
+Searching Google for: US exempts Gulf of Mexico oil drillers from endangered species protections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bexempts%252BGulf%252Bof%252BMexico%252Boil%252Bdrillers%252Bfrom%252Bendangered%252Bspecies%252Bprotections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuL-hGKq1sc4GIjC9RCS-OLCZCJhljIvwvHAIHNhDfKAmkiDL5MxBnzFG1c947wdgVFO35MBLmrRmgxIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tiger-woods-pleads-not-guilty-to-dui-in-car-crash-_20260331_2236.html
-✓ Created comprehensive article: tiger-woods-pleads-not-guilty-to-dui-in-car-crash-_20260331_2236.html
+Successfully created file: us-exempts-gulf-of-mexico-oil-drillers-from-endang_20260331_2337.html
+✓ Created comprehensive article: us-exempts-gulf-of-mexico-oil-drillers-from-endang_20260331_2337.html
 
-Processing trending topic: Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier
-Searching Google for: Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBosnia%252Band%252BHerzegovina%252Bdump%252BItaly%252Bout%252Bof%252BWorld%252BCup%252B2026%252Bqualifier%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3UhGPiYsc4GIjAA7UWmBGovG6W4XxJCmRXzfmjnPv34KZUMS2JQPUfJAehCsP2b7LJXlpLpMNl49QcyBmpjbmRyUloBQw
+Processing trending topic: EU warns oil and gas prices won’t quickly return to normal after Iran war
+Searching Google for: EU warns oil and gas prices won’t quickly return to normal after Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bwarns%252Boil%252Band%252Bgas%252Bprices%252Bwon%25E2%2580%2599t%252Bquickly%252Breturn%252Bto%252Bnormal%252Bafter%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuL-hGLC1sc4GIjBnJO7eVGx-aDrvLQCuWBKBwNRmjlghoz64jTks6v9XH_Jlws1ZwprbDBjevgHK6RcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bosnia-and-herzegovina-dump-italy-out-of-world-cup_20260331_2236.html
-✓ Created comprehensive article: bosnia-and-herzegovina-dump-italy-out-of-world-cup_20260331_2236.html
+Successfully created file: eu-warns-oil-and-gas-prices-wont-quickly-return-to_20260331_2337.html
+✓ Created comprehensive article: eu-warns-oil-and-gas-prices-wont-quickly-return-to_20260331_2337.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: no-kings-protesters-across-the-us-rally-against-do_20260329_0938.html
-Cleaned old post to keep top 30 limit: oil-rises-above-115-and-asia-stocks-slide-as-iran-_20260330_0226.html
-Cleaned old post to keep top 30 limit: israeli-air-attack-kills-father-and-two-year-old-s_20260331_2142.html
+Cleaned old post to keep top 30 limit: turkiye-and-sweden-book-world-cup-2026-spots-as-ko_20260331_2142.html
+Cleaned old post to keep top 30 limit: man-charged-after-seven-people-hit-by-car-in-derby_20260331_2236.html
+Cleaned old post to keep top 30 limit: bosnia-and-herzegovina-dump-italy-out-of-world-cup_20260331_2236.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man charged after seven people hit by car in Derby
+   • After Strait of Hormuz opens, turmoil would still last months, analysts say
      Sources: bbc.com, cnn.com, reuters.com
-   • Tiger Woods pleads not guilty to DUI in car crash where opioids found
+   • US exempts Gulf of Mexico oil drillers from endangered species protections
      Sources: bbc.com, cnn.com, reuters.com
-   • Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier
+   • EU warns oil and gas prices won’t quickly return to normal after Iran war
      Sources: bbc.com, cnn.com, reuters.com
