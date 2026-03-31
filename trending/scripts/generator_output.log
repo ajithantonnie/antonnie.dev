@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More UK troops to be sent to Middle East, defence secretary announces
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians in occupied West Bank protest Israel’s death penalty law
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strike hits building in Beirut’s southern suburbs
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Israel launch major attacks as Iranian authorities maintain defiance
-Added expanded search topic: Palestinians in occupied West Bank protest Israel’s death penalty law
-Added expanded search topic: Israeli strike hits building in Beirut’s southern suburbs
-Added expanded search topic: US-Israel launch major attacks as Iranian authorities maintain defiance
-Saved 33 topics for 2026-03-31
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Analysis: Hezbollah backs Iran ambassador as conflict deepens Lebanon rifts
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s FM confirms contact with US envoy Witkoff, denies talks under way
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: One month of war on Iran cost Arab countries up to $194bn: UNDP
+Added expanded search topic: Analysis: Hezbollah backs Iran ambassador as conflict deepens Lebanon rifts
+Added expanded search topic: Iran’s FM confirms contact with US envoy Witkoff, denies talks under way
+Added expanded search topic: One month of war on Iran cost Arab countries up to $194bn: UNDP
+Saved 36 topics for 2026-03-31
 Returning 3 unique trending topics:
-  1. Palestinians in occupied West Bank protest Israel’s death penalty law (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Israeli strike hits building in Beirut’s southern suburbs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US-Israel launch major attacks as Iranian authorities maintain defiance (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Analysis: Hezbollah backs Iran ambassador as conflict deepens Lebanon rifts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran’s FM confirms contact with US envoy Witkoff, denies talks under way (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. One month of war on Iran cost Arab countries up to $194bn: UNDP (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Palestinians in occupied West Bank protest Israel’s death penalty law
-Searching Google for: Palestinians in occupied West Bank protest Israel’s death penalty law
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Analysis: Hezbollah backs Iran ambassador as conflict deepens Lebanon rifts
+Searching Google for: Analysis: Hezbollah backs Iran ambassador as conflict deepens Lebanon rifts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%253A%252BHezbollah%252Bbacks%252BIran%252Bambassador%252Bas%252Bconflict%252Bdeepens%252BLebanon%252Brifts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DryGL7QsM4GIjA0K5zWt_QsrBogsBykdvgt2HEl_1n4XtsjXkyUCQ9jNkz6JFGFpTCPoFK9M7tKHXQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestinians-in-occupied-west-bank-protest-israels_20260331_1903.html
-✓ Created comprehensive article: palestinians-in-occupied-west-bank-protest-israels_20260331_1903.html
+Successfully created file: analysis-hezbollah-backs-iran-ambassador-as-confli_20260331_2002.html
+✓ Created comprehensive article: analysis-hezbollah-backs-iran-ambassador-as-confli_20260331_2002.html
 
-Processing trending topic: Israeli strike hits building in Beirut’s southern suburbs
-Searching Google for: Israeli strike hits building in Beirut’s southern suburbs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrike%252Bhits%252Bbuilding%252Bin%252BBeirut%25E2%2580%2599s%252Bsouthern%252Bsuburbs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzjGLu1sM4GIjD0Nx3y3XNz_DaA4TDjs6T7Rr3jWB6tCnCSy7kk8JT5OhjM8eT12lgoVJJYkqutIk8yBmpjbmRyUloBQw
+Processing trending topic: Iran’s FM confirms contact with US envoy Witkoff, denies talks under way
+Searching Google for: Iran’s FM confirms contact with US envoy Witkoff, denies talks under way
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252BFM%252Bconfirms%252Bcontact%252Bwith%252BUS%252Benvoy%252BWitkoff%252C%252Bdenies%252Btalks%252Bunder%252Bway%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DryGMXQsM4GIjDV1ygehlIt2Oj35Ord6eYk4MfRBnBFomicWeo0pDuOjFjz-dQ33ID01xAA6bl53hQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-strike-hits-building-in-beiruts-southern-s_20260331_1904.html
-✓ Created comprehensive article: israeli-strike-hits-building-in-beiruts-southern-s_20260331_1904.html
+Successfully created file: irans-fm-confirms-contact-with-us-envoy-witkoff-de_20260331_2002.html
+✓ Created comprehensive article: irans-fm-confirms-contact-with-us-envoy-witkoff-de_20260331_2002.html
 
-Processing trending topic: US-Israel launch major attacks as Iranian authorities maintain defiance
-Searching Google for: US-Israel launch major attacks as Iranian authorities maintain defiance
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Israel%252Blaunch%252Bmajor%252Battacks%252Bas%252BIranian%252Bauthorities%252Bmaintain%252Bdefiance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzjGMG1sM4GIjD6nJOYTfMW8Q-CuXZLqvKHNL15qJPa-7UoDppSFFbTDwUwmowlbnwLzNkNTEFdw40yBmpjbmRyUloBQw
+Processing trending topic: One month of war on Iran cost Arab countries up to $194bn: UNDP
+Searching Google for: One month of war on Iran cost Arab countries up to $194bn: UNDP
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOne%252Bmonth%252Bof%252Bwar%252Bon%252BIran%252Bcost%252BArab%252Bcountries%252Bup%252Bto%252B%2524194bn%253A%252BUNDP%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DryGMzQsM4GIjARbg5c_HMzvQed8hypkn1A9i2OkbnzHVwBnOoRqyw2w8QmHePjegFh00vdyT8TOzYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-israel-launch-major-attacks-as-iranian-authorit_20260331_1904.html
-✓ Created comprehensive article: us-israel-launch-major-attacks-as-iranian-authorit_20260331_1904.html
+Successfully created file: one-month-of-war-on-iran-cost-arab-countries-up-to_20260331_2002.html
+✓ Created comprehensive article: one-month-of-war-on-iran-cost-arab-countries-up-to_20260331_2002.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: venezuelas-chavismo-movement-faces-a-crossroads-af_20260331_1614.html
-Cleaned old post to keep top 30 limit: what-can-nations-do-to-make-up-for-the-ongoing-ene_20260331_0716.html
-Cleaned old post to keep top 30 limit: foreign-journalist-kidnapped-in-iraq-interior-mini_20260331_1759.html
+Cleaned old post to keep top 30 limit: major-explosion-at-russian-petrochemical-plant_20260331_1759.html
+Cleaned old post to keep top 30 limit: palestinians-in-occupied-west-bank-protest-israels_20260331_1903.html
+Cleaned old post to keep top 30 limit: israeli-strike-hits-building-in-beiruts-southern-s_20260331_1904.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Palestinians in occupied West Bank protest Israel’s death penalty law
+   • Analysis: Hezbollah backs Iran ambassador as conflict deepens Lebanon rifts
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli strike hits building in Beirut’s southern suburbs
+   • Iran’s FM confirms contact with US envoy Witkoff, denies talks under way
      Sources: bbc.com, cnn.com, reuters.com
-   • US-Israel launch major attacks as Iranian authorities maintain defiance
+   • One month of war on Iran cost Arab countries up to $194bn: UNDP
      Sources: bbc.com, cnn.com, reuters.com
