@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More UK troops to be sent to Middle East, defence secretary announces
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Major explosion at Russian petrochemical plant
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Foreign journalist kidnapped in Iraq: Interior Ministry
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why Iran believes it can outlast the US
-Added expanded search topic: Major explosion at Russian petrochemical plant
-Added expanded search topic: Foreign journalist kidnapped in Iraq: Interior Ministry
-Added expanded search topic: Why Iran believes it can outlast the US
-Saved 30 topics for 2026-03-31
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians in occupied West Bank protest Israel’s death penalty law
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strike hits building in Beirut’s southern suburbs
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Israel launch major attacks as Iranian authorities maintain defiance
+Added expanded search topic: Palestinians in occupied West Bank protest Israel’s death penalty law
+Added expanded search topic: Israeli strike hits building in Beirut’s southern suburbs
+Added expanded search topic: US-Israel launch major attacks as Iranian authorities maintain defiance
+Saved 33 topics for 2026-03-31
 Returning 3 unique trending topics:
-  1. Major explosion at Russian petrochemical plant (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Foreign journalist kidnapped in Iraq: Interior Ministry (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Why Iran believes it can outlast the US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Palestinians in occupied West Bank protest Israel’s death penalty law (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli strike hits building in Beirut’s southern suburbs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US-Israel launch major attacks as Iranian authorities maintain defiance (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Major explosion at Russian petrochemical plant
-Searching Google for: Major explosion at Russian petrochemical plant
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMajor%252Bexplosion%252Bat%252BRussian%252Bpetrochemical%252Bplant%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4rwGIiXsM4GIjBt5XM4uqzFL4DhVjZ80ZI4AC07sUuAtKQXDkE4VI-GwVZkZpX206nG2obA7QVbl6QyBmpjbmRyUloBQw
+Processing trending topic: Palestinians in occupied West Bank protest Israel’s death penalty law
+Searching Google for: Palestinians in occupied West Bank protest Israel’s death penalty law
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: major-explosion-at-russian-petrochemical-plant_20260331_1759.html
-✓ Created comprehensive article: major-explosion-at-russian-petrochemical-plant_20260331_1759.html
+Successfully created file: palestinians-in-occupied-west-bank-protest-israels_20260331_1903.html
+✓ Created comprehensive article: palestinians-in-occupied-west-bank-protest-israels_20260331_1903.html
 
-Processing trending topic: Foreign journalist kidnapped in Iraq: Interior Ministry
-Searching Google for: Foreign journalist kidnapped in Iraq: Interior Ministry
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DForeign%252Bjournalist%252Bkidnapped%252Bin%252BIraq%253A%252BInterior%252BMinistry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4rwGJCXsM4GIjAd6OVadXTdTAUw--IPo6YaBxmiBBVv8p9fqt7YPQT2M_r50Rs3TS5Tb44PFQipt8cyBmpjbmRyUloBQw
+Processing trending topic: Israeli strike hits building in Beirut’s southern suburbs
+Searching Google for: Israeli strike hits building in Beirut’s southern suburbs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrike%252Bhits%252Bbuilding%252Bin%252BBeirut%25E2%2580%2599s%252Bsouthern%252Bsuburbs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzjGLu1sM4GIjD0Nx3y3XNz_DaA4TDjs6T7Rr3jWB6tCnCSy7kk8JT5OhjM8eT12lgoVJJYkqutIk8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: foreign-journalist-kidnapped-in-iraq-interior-mini_20260331_1759.html
-✓ Created comprehensive article: foreign-journalist-kidnapped-in-iraq-interior-mini_20260331_1759.html
+Successfully created file: israeli-strike-hits-building-in-beiruts-southern-s_20260331_1904.html
+✓ Created comprehensive article: israeli-strike-hits-building-in-beiruts-southern-s_20260331_1904.html
 
-Processing trending topic: Why Iran believes it can outlast the US
-Searching Google for: Why Iran believes it can outlast the US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BIran%252Bbelieves%252Bit%252Bcan%252Boutlast%252Bthe%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4rwGJeXsM4GIjC3Z7V5QOqORaLqjfJlCowBJgYXYnkoINg1mhrZBX5K2XR9kOfPwbxaTGvdxRhG_VoyBmpjbmRyUloBQw
+Processing trending topic: US-Israel launch major attacks as Iranian authorities maintain defiance
+Searching Google for: US-Israel launch major attacks as Iranian authorities maintain defiance
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Israel%252Blaunch%252Bmajor%252Battacks%252Bas%252BIranian%252Bauthorities%252Bmaintain%252Bdefiance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DzjGMG1sM4GIjD6nJOYTfMW8Q-CuXZLqvKHNL15qJPa-7UoDppSFFbTDwUwmowlbnwLzNkNTEFdw40yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-iran-believes-it-can-outlast-the-us_20260331_1759.html
-✓ Created comprehensive article: why-iran-believes-it-can-outlast-the-us_20260331_1759.html
+Successfully created file: us-israel-launch-major-attacks-as-iranian-authorit_20260331_1904.html
+✓ Created comprehensive article: us-israel-launch-major-attacks-as-iranian-authorit_20260331_1904.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: live-bosnia-vs-italy-world-cup-2026-qualifying-fin_20260331_1614.html
-Cleaned old post to keep top 30 limit: more-uk-troops-to-be-sent-to-middle-east-defence-s_20260331_1614.html
-Cleaned old post to keep top 30 limit: drones-strike-russias-ust-luga-port-again-as-eu-of_20260331_1152.html
+Cleaned old post to keep top 30 limit: venezuelas-chavismo-movement-faces-a-crossroads-af_20260331_1614.html
+Cleaned old post to keep top 30 limit: what-can-nations-do-to-make-up-for-the-ongoing-ene_20260331_0716.html
+Cleaned old post to keep top 30 limit: foreign-journalist-kidnapped-in-iraq-interior-mini_20260331_1759.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Major explosion at Russian petrochemical plant
+   • Palestinians in occupied West Bank protest Israel’s death penalty law
      Sources: bbc.com, cnn.com, reuters.com
-   • Foreign journalist kidnapped in Iraq: Interior Ministry
+   • Israeli strike hits building in Beirut’s southern suburbs
      Sources: bbc.com, cnn.com, reuters.com
-   • Why Iran believes it can outlast the US
+   • US-Israel launch major attacks as Iranian authorities maintain defiance
      Sources: bbc.com, cnn.com, reuters.com
