@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Energy bill help would be based on household income, Reeves says
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day 33 of US-Israel attacks?
-Added expanded search topic: Iran war: What is happening on day 33 of US-Israel attacks?
-Saved 9 topics for 2026-04-01
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India begins world’s largest population census
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Gerrymandering’ in India’s Assam cuts Muslim representation before vote
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: War on Iran: Three key takeaways from Araghchi’s interview with Al Jazeera
+Added expanded search topic: India begins world’s largest population census
+Added expanded search topic: ‘Gerrymandering’ in India’s Assam cuts Muslim representation before vote
+Added expanded search topic: War on Iran: Three key takeaways from Araghchi’s interview with Al Jazeera
+Saved 12 topics for 2026-04-01
 Returning 3 unique trending topics:
-  1. Energy bill help would be based on household income, Reeves says (from BBC News)
-  2. 'It's going to be a great show': Crowds gather for countdown to Nasa’s Artemis launch (from BBC News)
-  3. Iran war: What is happening on day 33 of US-Israel attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. India begins world’s largest population census (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Gerrymandering’ in India’s Assam cuts Muslim representation before vote (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. War on Iran: Three key takeaways from Araghchi’s interview with Al Jazeera (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Energy bill help would be based on household income, Reeves says
-Searching Google for: Energy bill help would be based on household income, Reeves says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEnergy%252Bbill%252Bhelp%252Bwould%252Bbe%252Bbased%252Bon%252Bhousehold%252Bincome%252C%252BReeves%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwUGICPs84GIjBxUbRAQ06BK-ii3pQblYrAHHhbOzrd58_r5EMKgkOwbUezrziA08jLK-a99AbURvkyBmpjbmRyUloBQw
+Processing trending topic: India begins world’s largest population census
+Searching Google for: India begins world’s largest population census
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bbegins%252Bworld%25E2%2580%2599s%252Blargest%252Bpopulation%252Bcensus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMQ6xGNe_s84GIjA0yVJcXUZgd02X0KO1QR0VSdhTDlS54XWTv_ZSG5nusmHiUPrgrq6v6V8wn0EnRpgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: energy-bill-help-would-be-based-on-household-incom_20260401_0721.html
-✓ Created comprehensive article: energy-bill-help-would-be-based-on-household-incom_20260401_0721.html
+Successfully created file: india-begins-worlds-largest-population-census_20260401_0905.html
+✓ Created comprehensive article: india-begins-worlds-largest-population-census_20260401_0905.html
 
-Processing trending topic: 'It's going to be a great show': Crowds gather for countdown to Nasa’s Artemis launch
-Searching Google for: 'It's going to be a great show': Crowds gather for countdown to Nasa’s Artemis launch
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527It%2527s%252Bgoing%252Bto%252Bbe%252Ba%252Bgreat%252Bshow%2527%253A%252BCrowds%252Bgather%252Bfor%252Bcountdown%252Bto%252BNasa%25E2%2580%2599s%252BArtemis%252Blaunch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwUGIiPs84GIjCN-EpelMHilAsbcnP8Tv7pYZUx89GWfC144VUUlUbaAiR1nuShDJiCTvYqn1AmhAgyBmpjbmRyUloBQw
+Processing trending topic: ‘Gerrymandering’ in India’s Assam cuts Muslim representation before vote
+Searching Google for: ‘Gerrymandering’ in India’s Assam cuts Muslim representation before vote
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Gerrymandering%25E2%2580%2599%252Bin%252BIndia%25E2%2580%2599s%252BAssam%252Bcuts%252BMuslim%252Brepresentation%252Bbefore%252Bvote%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMQ6xGN6_s84GIjBlkElkTqnY4WtTwv_E8LlMdHXHu09VkRmNzzzL4cWF_ieCq9_dlwUB2izrNXZz5M4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-going-to-be-a-great-show-crowds-gather-for-cou_20260401_0721.html
-✓ Created comprehensive article: its-going-to-be-a-great-show-crowds-gather-for-cou_20260401_0721.html
+Successfully created file: gerrymandering-in-indias-assam-cuts-muslim-represe_20260401_0905.html
+✓ Created comprehensive article: gerrymandering-in-indias-assam-cuts-muslim-represe_20260401_0905.html
 
-Processing trending topic: Iran war: What is happening on day 33 of US-Israel attacks?
-Searching Google for: Iran war: What is happening on day 33 of US-Israel attacks?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252B33%252Bof%252BUS-Israel%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwUGI6Ps84GIjBZYthqijrcIoAi1gBqzhjNJZxJaUoPjb9xIt1a11ehIIpvdbWNooVQgSKSeCaRYX8yBmpjbmRyUloBQw
+Processing trending topic: War on Iran: Three key takeaways from Araghchi’s interview with Al Jazeera
+Searching Google for: War on Iran: Three key takeaways from Araghchi’s interview with Al Jazeera
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWar%252Bon%252BIran%253A%252BThree%252Bkey%252Btakeaways%252Bfrom%252BAraghchi%25E2%2580%2599s%252Binterview%252Bwith%252BAl%252BJazeera%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMQ6xGOS_s84GIjCeqJm7Gmc38cE3-s_Pp_EvSdhAEWyCrZuweEqVItrIXlwfoDWsVvzMo6Mphgdst68yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-what-is-happening-on-day-33-of-us-israel-_20260401_0721.html
-✓ Created comprehensive article: iran-war-what-is-happening-on-day-33-of-us-israel-_20260401_0721.html
+Successfully created file: war-on-iran-three-key-takeaways-from-araghchis-int_20260401_0905.html
+✓ Created comprehensive article: war-on-iran-three-key-takeaways-from-araghchis-int_20260401_0905.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-iran-believes-it-can-outlast-the-us_20260331_1759.html
-Cleaned old post to keep top 30 limit: where-to-invest-during-iran-war-ask-or-dont-mohamm_20260331_1504.html
-Cleaned old post to keep top 30 limit: energy-bill-support-would-be-based-on-household-in_20260401_0526.html
+Cleaned old post to keep top 30 limit: its-going-to-be-a-great-show-crowds-gather-for-cou_20260401_0721.html
+Cleaned old post to keep top 30 limit: iran-war-what-is-happening-on-day-33-of-us-israel-_20260401_0721.html
+Cleaned old post to keep top 30 limit: energy-bill-help-would-be-based-on-household-incom_20260401_0721.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Energy bill help would be based on household income, Reeves says
+   • India begins world’s largest population census
      Sources: bbc.com, cnn.com, reuters.com
-   • 'It's going to be a great show': Crowds gather for countdown to Nasa’s Artemis launch
+   • ‘Gerrymandering’ in India’s Assam cuts Muslim representation before vote
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war: What is happening on day 33 of US-Israel attacks?
+   • War on Iran: Three key takeaways from Araghchi’s interview with Al Jazeera
      Sources: bbc.com, cnn.com, reuters.com
