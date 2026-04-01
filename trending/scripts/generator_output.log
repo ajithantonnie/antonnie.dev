@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: More UK troops to be sent to Middle East, defence secretary announces
+  Added: Energy bill support would be based on household income, Reeves says
   Added: Man charged after seven people hit by car in Derby
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-01
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: First Black astronaut candidate ‘proud’ Victor Glover will make history
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Residents inspect drone damage near Erbil airport
+Added expanded search topic: First Black astronaut candidate ‘proud’ Victor Glover will make history
+Added expanded search topic: Residents inspect drone damage near Erbil airport
+Saved 6 topics for 2026-04-01
 Returning 3 unique trending topics:
-  1. More UK troops to be sent to Middle East, defence secretary announces (from BBC News)
-  2. Man charged after seven people hit by car in Derby (from BBC News)
-  3. News outlets falsely report Somaliland called for extradition of Ilhan Omar (from The Guardian)
+  1. Energy bill support would be based on household income, Reeves says (from BBC News)
+  2. First Black astronaut candidate ‘proud’ Victor Glover will make history (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Residents inspect drone damage near Erbil airport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: More UK troops to be sent to Middle East, defence secretary announces
-Searching Google for: More UK troops to be sent to Middle East, defence secretary announces
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252BUK%252Btroops%252Bto%252Bbe%252Bsent%252Bto%252BMiddle%252BEast%252C%252Bdefence%252Bsecretary%252Bannounces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MERGP-Gss4GIjBelRyqWSzJqhnlNUhCjvbj_f0iiQ4LcqvJlUYwz2hEtgJRTOV2Tgx-fZws__I3baQyBmpjbmRyUloBQw
+Processing trending topic: Energy bill support would be based on household income, Reeves says
+Searching Google for: Energy bill support would be based on household income, Reeves says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEnergy%252Bbill%252Bsupport%252Bwould%252Bbe%252Bbased%252Bon%252Bhousehold%252Bincome%252C%252BReeves%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBIiGPfYss4GIjAnLw9uhAJWxegyMH5g1FOV9xFRmVSaxw8GdBoMasDbx2IO0mLY4BQTbBFeHO8VJEkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-uk-troops-to-be-sent-to-middle-east-defence-s_20260401_0231.html
-✓ Created comprehensive article: more-uk-troops-to-be-sent-to-middle-east-defence-s_20260401_0231.html
+Successfully created file: energy-bill-support-would-be-based-on-household-in_20260401_0526.html
+✓ Created comprehensive article: energy-bill-support-would-be-based-on-household-in_20260401_0526.html
 
-Processing trending topic: Man charged after seven people hit by car in Derby
-Searching Google for: Man charged after seven people hit by car in Derby
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bcharged%252Bafter%252Bseven%252Bpeople%252Bhit%252Bby%252Bcar%252Bin%252BDerby%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MERGIWHss4GIjCVrOtTDx7ucoTw6URGye84bM72DQTSFhkSJ-AkBDAR4a4ArhraNLfuqwzn9hBL_J8yBmpjbmRyUloBQw
+Processing trending topic: First Black astronaut candidate ‘proud’ Victor Glover will make history
+Searching Google for: First Black astronaut candidate ‘proud’ Victor Glover will make history
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252BBlack%252Bastronaut%252Bcandidate%252B%25E2%2580%2598proud%25E2%2580%2599%252BVictor%252BGlover%252Bwill%252Bmake%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBIiGP_Yss4GIjDbU2w6V6QMHOVbqojD3WR3IpC8WORJ6IWUeUuDvQfZCLGPA3E-CyutYSF-kz9p3K0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-charged-after-seven-people-hit-by-car-in-derby_20260401_0231.html
-✓ Created comprehensive article: man-charged-after-seven-people-hit-by-car-in-derby_20260401_0231.html
+Successfully created file: first-black-astronaut-candidate-proud-victor-glove_20260401_0526.html
+✓ Created comprehensive article: first-black-astronaut-candidate-proud-victor-glove_20260401_0526.html
 
-Processing trending topic: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Searching Google for: outlets falsely report Somaliland called for extradition of Ilhan Omar
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Doutlets%252Bfalsely%252Breport%252BSomaliland%252Bcalled%252Bfor%252Bextradition%252Bof%252BIlhan%252BOmar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MERGIyHss4GIjBQ_KoLBokO_-V5KITY11UbUJXdmLu2ZmJobE2eGRj-GrcOXQhe3L3jthiwI0puqQAyBmpjbmRyUloBQw
+Processing trending topic: Residents inspect drone damage near Erbil airport
+Searching Google for: Residents inspect drone damage near Erbil airport
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DResidents%252Binspect%252Bdrone%252Bdamage%252Bnear%252BErbil%252Bairport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sBIiGIXZss4GIjC4eXcyTA0eDRMZIF0emGuFFUPevcECgWgZEzLCAXrb8UcOP8mp9nBn0GUhvaN143oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: news-outlets-falsely-report-somaliland-called-for-_20260401_0231.html
-✓ Created comprehensive article: news-outlets-falsely-report-somaliland-called-for-_20260401_0231.html
+Successfully created file: residents-inspect-drone-damage-near-erbil-airport_20260401_0526.html
+✓ Created comprehensive article: residents-inspect-drone-damage-near-erbil-airport_20260401_0526.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-airport-lines-shorten-as-tsa-workers-get-paid_20260330_1901.html
-Cleaned old post to keep top 30 limit: weather-tracker-thunderstorms-drench-uae-and-saudi_20260330_1103.html
-Cleaned old post to keep top 30 limit: eu-warns-oil-and-gas-prices-wont-quickly-return-to_20260331_2337.html
+Cleaned old post to keep top 30 limit: news-outlets-falsely-report-somaliland-called-for-_20260401_0231.html
+Cleaned old post to keep top 30 limit: more-uk-troops-to-be-sent-to-middle-east-defence-s_20260401_0231.html
+Cleaned old post to keep top 30 limit: after-strait-of-hormuz-opens-turmoil-would-still-l_20260331_2337.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • More UK troops to be sent to Middle East, defence secretary announces
+   • Energy bill support would be based on household income, Reeves says
      Sources: bbc.com, cnn.com, reuters.com
-   • Man charged after seven people hit by car in Derby
+   • First Black astronaut candidate ‘proud’ Victor Glover will make history
      Sources: bbc.com, cnn.com, reuters.com
-   • News outlets falsely report Somaliland called for extradition of Ilhan Omar
+   • Residents inspect drone damage near Erbil airport
      Sources: bbc.com, cnn.com, reuters.com
