@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Funeral director who kept bodies for months admits 30 counts of preventing lawful burial
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can Starmer’s 40-nation coalition open the Strait of Hormuz?
-Added expanded search topic: Can Starmer’s 40-nation coalition open the Strait of Hormuz?
-Saved 24 topics for 2026-04-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US reinforcements are coming to the Gulf – but what does victory look like?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can the US seize Iran’s enriched uranium – and what are the risks?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran releases mocking missile launch video after Trump threats
+Added expanded search topic: US reinforcements are coming to the Gulf – but what does victory look like?
+Added expanded search topic: Can the US seize Iran’s enriched uranium – and what are the risks?
+Added expanded search topic: Iran releases mocking missile launch video after Trump threats
+Saved 27 topics for 2026-04-02
 Returning 3 unique trending topics:
-  1. Funeral director who kept bodies for months admits 30 counts of preventing lawful burial (from BBC News)
-  2. We thought we'd buried my grandma, but her body was still at the funeral home (from BBC News)
-  3. Can Starmer’s 40-nation coalition open the Strait of Hormuz? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US reinforcements are coming to the Gulf – but what does victory look like? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Can the US seize Iran’s enriched uranium – and what are the risks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran releases mocking missile launch video after Trump threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Funeral director who kept bodies for months admits 30 counts of preventing lawful burial
-Searching Google for: Funeral director who kept bodies for months admits 30 counts of preventing lawful burial
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFuneral%252Bdirector%252Bwho%252Bkept%252Bbodies%252Bfor%252Bmonths%252Badmits%252B30%252Bcounts%252Bof%252Bpreventing%252Blawful%252Bburial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1-dxGJ2Ius4GIjAUHxecMSVHtv9jy8twzse5zojZxUSfZUXtTRFJ4BKJZK2e6IwLks-Os9YK8BuaBwQyBmpjbmRyUloBQw
+Processing trending topic: US reinforcements are coming to the Gulf – but what does victory look like?
+Searching Google for: US reinforcements are coming to the Gulf – but what does victory look like?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Breinforcements%252Bare%252Bcoming%252Bto%252Bthe%252BGulf%252B%25E2%2580%2593%252Bbut%252Bwhat%252Bdoes%252Bvictory%252Blook%252Blike%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1ezGJWmus4GIjC3OaNNZEqvPvv3buQsC4TnA6k2Om9njW48UP0K2rG8hBo1wdYZrOwG7BGAzyFAhM8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: funeral-director-who-kept-bodies-for-months-admits_20260402_1458.html
-✓ Created comprehensive article: funeral-director-who-kept-bodies-for-months-admits_20260402_1458.html
+Successfully created file: us-reinforcements-are-coming-to-the-gulf-but-what-_20260402_1602.html
+✓ Created comprehensive article: us-reinforcements-are-coming-to-the-gulf-but-what-_20260402_1602.html
 
-Processing trending topic: We thought we'd buried my grandma, but her body was still at the funeral home
-Searching Google for: We thought we'd buried my grandma, but her body was still at the funeral home
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWe%252Bthought%252Bwe%2527d%252Bburied%252Bmy%252Bgrandma%252C%252Bbut%252Bher%252Bbody%252Bwas%252Bstill%252Bat%252Bthe%252Bfuneral%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1-dxGKWIus4GIjC0waemdWAo-JhLuK2gYL_FfOavd9WlkVckVriq8ZjoywRve9UmKgciZ1HNkWrrvh0yBmpjbmRyUloBQw
+Processing trending topic: Can the US seize Iran’s enriched uranium – and what are the risks?
+Searching Google for: Can the US seize Iran’s enriched uranium – and what are the risks?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Bthe%252BUS%252Bseize%252BIran%25E2%2580%2599s%252Benriched%252Buranium%252B%25E2%2580%2593%252Band%252Bwhat%252Bare%252Bthe%252Brisks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1ezGJ2mus4GIjCXYV6I0FP3Mpdaflf9Rni75DQMgNXh899eU55cm20OuoOA4IetNW-1q6lou8OUeGkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-thought-wed-buried-my-grandma-but-her-body-was-_20260402_1458.html
-✓ Created comprehensive article: we-thought-wed-buried-my-grandma-but-her-body-was-_20260402_1458.html
+Successfully created file: can-the-us-seize-irans-enriched-uranium-and-what-a_20260402_1602.html
+✓ Created comprehensive article: can-the-us-seize-irans-enriched-uranium-and-what-a_20260402_1602.html
 
-Processing trending topic: Can Starmer’s 40-nation coalition open the Strait of Hormuz?
-Searching Google for: Can Starmer’s 40-nation coalition open the Strait of Hormuz?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252BStarmer%25E2%2580%2599s%252B40-nation%252Bcoalition%252Bopen%252Bthe%252BStrait%252Bof%252BHormuz%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1-dxGKyIus4GIjCA9t-nVPzScXTF2y4wh4cF_Y8QGmEAbggYwg1OUhrXe1C66AGReLrnlOZHvBn_fykyBmpjbmRyUloBQw
+Processing trending topic: Iran releases mocking missile launch video after Trump threats
+Searching Google for: Iran releases mocking missile launch video after Trump threats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Breleases%252Bmocking%252Bmissile%252Blaunch%252Bvideo%252Bafter%252BTrump%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1ezGKOmus4GIjBOKvxe9wqoYR_x_KyNTuoOXMDsIWDQn9NpylnPvj0af30b9_NB-140yprILulai0gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: can-starmers-40-nation-coalition-open-the-strait-o_20260402_1458.html
-✓ Created comprehensive article: can-starmers-40-nation-coalition-open-the-strait-o_20260402_1458.html
+Successfully created file: iran-releases-mocking-missile-launch-video-after-t_20260402_1602.html
+✓ Created comprehensive article: iran-releases-mocking-missile-launch-video-after-t_20260402_1602.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: smoke-rises-over-mashhad-iran-following-strike-nea_20260402_1313.html
-Cleaned old post to keep top 30 limit: which-interests-being-served-by-war-irans-pezeshki_20260401_2059.html
-Cleaned old post to keep top 30 limit: funeral-director-admits-preventing-30-burials-and-_20260402_1313.html
+Cleaned old post to keep top 30 limit: us-exempts-gulf-of-mexico-oil-drillers-from-endang_20260331_2337.html
+Cleaned old post to keep top 30 limit: funeral-director-who-kept-bodies-for-months-admits_20260402_1458.html
+Cleaned old post to keep top 30 limit: can-starmers-40-nation-coalition-open-the-strait-o_20260402_1458.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Funeral director who kept bodies for months admits 30 counts of preventing lawful burial
+   • US reinforcements are coming to the Gulf – but what does victory look like?
      Sources: bbc.com, cnn.com, reuters.com
-   • We thought we'd buried my grandma, but her body was still at the funeral home
+   • Can the US seize Iran’s enriched uranium – and what are the risks?
      Sources: bbc.com, cnn.com, reuters.com
-   • Can Starmer’s 40-nation coalition open the Strait of Hormuz?
+   • Iran releases mocking missile launch video after Trump threats
      Sources: bbc.com, cnn.com, reuters.com
