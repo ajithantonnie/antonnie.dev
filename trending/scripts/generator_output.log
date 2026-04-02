@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 45 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: BBC sacked Scott Mills after learning alleged victim in police investigation was under 16
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NASA’s Artemis II lifts off to the moon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Celebrations erupt as DR Congo ends over 50-year World Cup wait
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What are the consequences of Israel’s death penalty law for Palestinians?
-Added expanded search topic: NASA’s Artemis II lifts off to the moon
-Added expanded search topic: Celebrations erupt as DR Congo ends over 50-year World Cup wait
-Added expanded search topic: What are the consequences of Israel’s death penalty law for Palestinians?
-Saved 48 topics for 2026-04-01
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-04-02
 Returning 3 unique trending topics:
-  1. NASA’s Artemis II lifts off to the moon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Celebrations erupt as DR Congo ends over 50-year World Cup wait (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What are the consequences of Israel’s death penalty law for Palestinians? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. BBC sacked Scott Mills after learning alleged victim in police investigation was under 16 (from BBC News)
+  2. UK will seek closer ties with EU in light of Iran war, Starmer says (from BBC News)
+  3. News outlets falsely report Somaliland called for extradition of Ilhan Omar (from The Guardian)
 
-Processing trending topic: NASA’s Artemis II lifts off to the moon
-Searching Google for: NASA’s Artemis II lifts off to the moon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNASA%25E2%2580%2599s%252BArtemis%252BII%252Blifts%252Boff%252Bto%252Bthe%252Bmoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNyaGNfZts4GIjCdyfUCPw0UHSk7jjejnhcywCX6VO5P8IQb_GAa_fsazHHZUbEu2jaq2sFN1ag0HcsyBmpjbmRyUloBQw
+Processing trending topic: BBC sacked Scott Mills after learning alleged victim in police investigation was under 16
+Searching Google for: BBC sacked Scott Mills after learning alleged victim in police investigation was under 16
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBBC%252Bsacked%252BScott%252BMills%252Bafter%252Blearning%252Balleged%252Bvictim%252Bin%252Bpolice%252Binvestigation%252Bwas%252Bunder%252B16%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbnGKqht84GIjAPy73mup0v_4UOCszMpjGOeUdxzvwZD7c8QEAvd6Z1gEpkOFA6kSDI9DHT8MY9TEwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nasas-artemis-ii-lifts-off-to-the-moon_20260401_2340.html
-✓ Created comprehensive article: nasas-artemis-ii-lifts-off-to-the-moon_20260401_2340.html
+Successfully created file: bbc-sacked-scott-mills-after-learning-alleged-vict_20260402_0213.html
+✓ Created comprehensive article: bbc-sacked-scott-mills-after-learning-alleged-vict_20260402_0213.html
 
-Processing trending topic: Celebrations erupt as DR Congo ends over 50-year World Cup wait
-Searching Google for: Celebrations erupt as DR Congo ends over 50-year World Cup wait
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCelebrations%252Berupt%252Bas%252BDR%252BCongo%252Bends%252Bover%252B50-year%252BWorld%252BCup%252Bwait%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNyaGN7Zts4GIjCmiV-ydKLwQtCahxCRNiEl6ToDOuNPvfDY53VlYbA8R4wQYCzsCHSzG3om0_AfJ0syBmpjbmRyUloBQw
+Processing trending topic: UK will seek closer ties with EU in light of Iran war, Starmer says
+Searching Google for: UK will seek closer ties with EU in light of Iran war, Starmer says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bwill%252Bseek%252Bcloser%252Bties%252Bwith%252BEU%252Bin%252Blight%252Bof%252BIran%252Bwar%252C%252BStarmer%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbnGLKht84GIjBYLW1Hs-dHdH8DBF3BztNNZdNTWhpnUnX9Irnsur8zC19Xhzt0GaKEGdPZsls2DFMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: celebrations-erupt-as-dr-congo-ends-over-50-year-w_20260401_2340.html
-✓ Created comprehensive article: celebrations-erupt-as-dr-congo-ends-over-50-year-w_20260401_2340.html
+Successfully created file: uk-will-seek-closer-ties-with-eu-in-light-of-iran-_20260402_0213.html
+✓ Created comprehensive article: uk-will-seek-closer-ties-with-eu-in-light-of-iran-_20260402_0213.html
 
-Processing trending topic: What are the consequences of Israel’s death penalty law for Palestinians?
-Searching Google for: What are the consequences of Israel’s death penalty law for Palestinians?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bare%252Bthe%252Bconsequences%252Bof%252BIsrael%25E2%2580%2599s%252Bdeath%252Bpenalty%252Blaw%252Bfor%252BPalestinians%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNyaGOXZts4GIjCTDXbMdljUGVSIynSwDwbv2XavCOxz_3ZsNVXicFrgMdu8Zgw4_z5zHTXg2HuTbK0yBmpjbmRyUloBQw
+Processing trending topic: News outlets falsely report Somaliland called for extradition of Ilhan Omar
+Searching Google for: outlets falsely report Somaliland called for extradition of Ilhan Omar
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Doutlets%252Bfalsely%252Breport%252BSomaliland%252Bcalled%252Bfor%252Bextradition%252Bof%252BIlhan%252BOmar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrbnGLiht84GIjC9fdIbCYSVXthKPADZsX5hh3vc3DVA4XSFE10-fKYXkfnDqiT9zGiEZKiwxW_IQ2oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-are-the-consequences-of-israels-death-penalty_20260401_2340.html
-✓ Created comprehensive article: what-are-the-consequences-of-israels-death-penalty_20260401_2340.html
+Successfully created file: news-outlets-falsely-report-somaliland-called-for-_20260402_0213.html
+✓ Created comprehensive article: news-outlets-falsely-report-somaliland-called-for-_20260402_0213.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: protesters-gather-to-oppose-changes-to-us-birthrig_20260401_2239.html
-Cleaned old post to keep top 30 limit: smoke-and-embers-seen-over-irans-isfahan-after-str_20260401_2238.html
-Cleaned old post to keep top 30 limit: olympic-gender-test-a-disrespect-for-women-south-a_20260329_1130.html
+Cleaned old post to keep top 30 limit: nasas-artemis-ii-lifts-off-to-the-moon_20260401_2340.html
+Cleaned old post to keep top 30 limit: us-removes-sanctions-on-venezuelas-interim-preside_20260401_2238.html
+Cleaned old post to keep top 30 limit: celebrations-erupt-as-dr-congo-ends-over-50-year-w_20260401_2340.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • NASA’s Artemis II lifts off to the moon
+   • BBC sacked Scott Mills after learning alleged victim in police investigation was under 16
      Sources: bbc.com, cnn.com, reuters.com
-   • Celebrations erupt as DR Congo ends over 50-year World Cup wait
+   • UK will seek closer ties with EU in light of Iran war, Starmer says
      Sources: bbc.com, cnn.com, reuters.com
-   • What are the consequences of Israel’s death penalty law for Palestinians?
+   • News outlets falsely report Somaliland called for extradition of Ilhan Omar
      Sources: bbc.com, cnn.com, reuters.com
