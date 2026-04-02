@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch the moment Artemis II blasts off on historic mission
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: News outlets falsely report Somaliland called for extradition of Ilhan Omar
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Orban constantly vetoes’: Europe braces for Hungary election
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home
-Added expanded search topic: ‘Orban constantly vetoes’: Europe braces for Hungary election
-Added expanded search topic: Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home
-Saved 12 topics for 2026-04-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s tariffs one year on: How Americans are paying the price
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nearly 1,200 children killed or injured in Yemen despite truce: NGO
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French court denies extradition of ex-Tunisian President Ben Ali’s daughter
+Added expanded search topic: Trump’s tariffs one year on: How Americans are paying the price
+Added expanded search topic: Nearly 1,200 children killed or injured in Yemen despite truce: NGO
+Added expanded search topic: French court denies extradition of ex-Tunisian President Ben Ali’s daughter
+Saved 15 topics for 2026-04-02
 Returning 3 unique trending topics:
-  1. Dream of space travel reignites with journey to circle the Moon (from BBC News)
-  2. ‘Orban constantly vetoes’: Europe braces for Hungary election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump’s tariffs one year on: How Americans are paying the price (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Nearly 1,200 children killed or injured in Yemen despite truce: NGO (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. French court denies extradition of ex-Tunisian President Ben Ali’s daughter (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dream of space travel reignites with journey to circle the Moon
-Searching Google for: Dream of space travel reignites with journey to circle the Moon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDream%252Bof%252Bspace%252Btravel%252Breignites%252Bwith%252Bjourney%252Bto%252Bcircle%252Bthe%252BMoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGyGLLfuM4GIjBwdX-woUvcI9s3dAspKEPyVfaHVVzcJB3Nwt_znthKIkeU7Hn2NFFlBDpcA8CByw0yBmpjbmRyUloBQw
+Processing trending topic: Trump’s tariffs one year on: How Americans are paying the price
+Searching Google for: Trump’s tariffs one year on: How Americans are paying the price
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Btariffs%252Bone%252Byear%252Bon%253A%252BHow%252BAmericans%252Bare%252Bpaying%252Bthe%252Bprice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEhGKr-uM4GIjAub0OnQUjLrKzRfTrn8mBwohPw80jm3ci2OW4AL23-B5B4y4GN_ST-n8r4NG0O81cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dream-of-space-travel-reignites-with-journey-to-ci_20260402_0858.html
-✓ Created comprehensive article: dream-of-space-travel-reignites-with-journey-to-ci_20260402_0858.html
+Successfully created file: trumps-tariffs-one-year-on-how-americans-are-payin_20260402_1004.html
+✓ Created comprehensive article: trumps-tariffs-one-year-on-how-americans-are-payin_20260402_1004.html
 
-Processing trending topic: ‘Orban constantly vetoes’: Europe braces for Hungary election
-Searching Google for: ‘Orban constantly vetoes’: Europe braces for Hungary election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Orban%252Bconstantly%252Bvetoes%25E2%2580%2599%253A%252BEurope%252Bbraces%252Bfor%252BHungary%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGyGLnfuM4GIjD-pV2iCnIj1pJm2NWMJHv72Z7PmTmq8kO0elbfD34pd_Cgtjb97C_coqcp3qwI_7EyBmpjbmRyUloBQw
+Processing trending topic: Nearly 1,200 children killed or injured in Yemen despite truce: NGO
+Searching Google for: Nearly 1,200 children killed or injured in Yemen despite truce: NGO
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNearly%252B1%252C200%252Bchildren%252Bkilled%252Bor%252Binjured%252Bin%252BYemen%252Bdespite%252Btruce%253A%252BNGO%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEhGLL-uM4GIjDJLP-Neh9c-Upvo5-0fiAdoJ7tLH1TLKgKSR09EBeifvmkf3UosGL6ZPUTqkcsI2QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: orban-constantly-vetoes-europe-braces-for-hungary-_20260402_0858.html
-✓ Created comprehensive article: orban-constantly-vetoes-europe-braces-for-hungary-_20260402_0858.html
+Successfully created file: nearly-1200-children-killed-or-injured-in-yemen-de_20260402_1004.html
+✓ Created comprehensive article: nearly-1200-children-killed-or-injured-in-yemen-de_20260402_1004.html
 
-Processing trending topic: Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home
-Searching Google for: Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Bex-foreign%252Bminister%252BKharazi%252B%25E2%2580%2598gravely%252Bwounded%25E2%2580%2599%252Bin%252Battack%252Bon%252Bhis%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNGyGL_fuM4GIjBgBkV-uen56vT11RpseOB-oAIB8Xxo7fmqN0OXud6MwQGASCOAiIfdsQQKvKL8sHUyBmpjbmRyUloBQw
+Processing trending topic: French court denies extradition of ex-Tunisian President Ben Ali’s daughter
+Searching Google for: French court denies extradition of ex-Tunisian President Ben Ali’s daughter
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bcourt%252Bdenies%252Bextradition%252Bof%252Bex-Tunisian%252BPresident%252BBen%252BAli%25E2%2580%2599s%252Bdaughter%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKEhGLn-uM4GIjA21BzNvucGBg1K4b15I1-T-1CoixA70DHHXZ-ccjLUdVP4I82TdANQvoKDHonki1UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-ex-foreign-minister-kharazi-gravely-wounded-_20260402_0858.html
-✓ Created comprehensive article: irans-ex-foreign-minister-kharazi-gravely-wounded-_20260402_0858.html
+Successfully created file: french-court-denies-extradition-of-ex-tunisian-pre_20260402_1004.html
+✓ Created comprehensive article: french-court-denies-extradition-of-ex-tunisian-pre_20260402_1004.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israels-death-penalty-law-is-not-about-executing-p_20260402_0713.html
-Cleaned old post to keep top 30 limit: news-outlets-falsely-report-somaliland-called-for-_20260402_0213.html
-Cleaned old post to keep top 30 limit: cheers-and-euphoria-as-dream-of-space-travel-reign_20260402_0713.html
+Cleaned old post to keep top 30 limit: irans-ex-foreign-minister-kharazi-gravely-wounded-_20260402_0858.html
+Cleaned old post to keep top 30 limit: orban-constantly-vetoes-europe-braces-for-hungary-_20260402_0858.html
+Cleaned old post to keep top 30 limit: dream-of-space-travel-reignites-with-journey-to-ci_20260402_0858.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dream of space travel reignites with journey to circle the Moon
+   • Trump’s tariffs one year on: How Americans are paying the price
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Orban constantly vetoes’: Europe braces for Hungary election
+   • Nearly 1,200 children killed or injured in Yemen despite truce: NGO
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home
+   • French court denies extradition of ex-Tunisian President Ben Ali’s daughter
      Sources: bbc.com, cnn.com, reuters.com
