@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Artemis II blasts ever closer to the far side of the Moon
-  Added: M&S boss calls for more action on crime and abuse of staff
+  Added: 'Trust us, you look amazing': Artemis II astronauts speak from space
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day 35 of US-Israeli attacks?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Myanmar’s coup leader elected president by pro-military parliament
-Added expanded search topic: Iran war: What is happening on day 35 of US-Israeli attacks?
-Added expanded search topic: Myanmar’s coup leader elected president by pro-military parliament
-Saved 9 topics for 2026-04-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why did Trump fire Pam Bondi from Justice Department, who is Todd Blanche?
+Added expanded search topic: Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups
+Added expanded search topic: Why did Trump fire Pam Bondi from Justice Department, who is Todd Blanche?
+Saved 12 topics for 2026-04-03
 Returning 3 unique trending topics:
-  1. M&S boss calls for more action on crime and abuse of staff (from BBC News)
-  2. Iran war: What is happening on day 35 of US-Israeli attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Myanmar’s coup leader elected president by pro-military parliament (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'Trust us, you look amazing': Artemis II astronauts speak from space (from BBC News)
+  2. Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why did Trump fire Pam Bondi from Justice Department, who is Todd Blanche? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: M&S boss calls for more action on crime and abuse of staff
-Searching Google for: M&S boss calls for more action on crime and abuse of staff
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DM%2526S%252Bboss%252Bcalls%252Bfor%252Bmore%252Baction%252Bon%252Bcrime%252Band%252Babuse%252Bof%252Bstaff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTM0GIvQvc4GIjB2L5JzwQGQgXXm8J9vM7JT1iksTkm6dMUzJvh0NLJKxaEoXaxB7o_rYCakGEKuCTcyBmpjbmRyUloBQw
+Processing trending topic: 'Trust us, you look amazing': Artemis II astronauts speak from space
+Searching Google for: 'Trust us, you look amazing': Artemis II astronauts speak from space
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Trust%252Bus%252C%252Byou%252Blook%252Bamazing%2527%253A%252BArtemis%252BII%252Bastronauts%252Bspeak%252Bfrom%252Bspace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdVGOuAvs4GIjDaT6sM_xghUwQCGXZZA5QMSbKZzb3pJbf0gjn_7TJrrsK1uIK-mIzUQIVDhTiYDx4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ms-boss-calls-for-more-action-on-crime-and-abuse-o_20260403_0711.html
-✓ Created comprehensive article: ms-boss-calls-for-more-action-on-crime-and-abuse-o_20260403_0711.html
+Successfully created file: trust-us-you-look-amazing-artemis-ii-astronauts-sp_20260403_0855.html
+✓ Created comprehensive article: trust-us-you-look-amazing-artemis-ii-astronauts-sp_20260403_0855.html
 
-Processing trending topic: Iran war: What is happening on day 35 of US-Israeli attacks?
-Searching Google for: Iran war: What is happening on day 35 of US-Israeli attacks?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252B35%252Bof%252BUS-Israeli%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTM0GJPQvc4GIjBNmZCZi3w3dZP41OXSpMQPUeFrFLgAKuV1pxEAW8e7PlnVmvrxIa87lQjX17wReg4yBmpjbmRyUloBQw
+Processing trending topic: Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups
+Searching Google for: Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252BCity%252Bvs%252BLiverpool%253A%252BFA%252BCup%252Bquarterfinal%252B%25E2%2580%2593%252Bteam%252Bnews%252C%252Bstart%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdVGPKAvs4GIjAvXJWFRiWlx4_3foFZY5nDByUPpNXuPpcfN4lzAzOsvlMUbAkfZ8LHkLA1E0Jh1AUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-what-is-happening-on-day-35-of-us-israeli_20260403_0711.html
-✓ Created comprehensive article: iran-war-what-is-happening-on-day-35-of-us-israeli_20260403_0711.html
+Successfully created file: man-city-vs-liverpool-fa-cup-quarterfinal-team-new_20260403_0855.html
+✓ Created comprehensive article: man-city-vs-liverpool-fa-cup-quarterfinal-team-new_20260403_0855.html
 
-Processing trending topic: Myanmar’s coup leader elected president by pro-military parliament
-Searching Google for: Myanmar’s coup leader elected president by pro-military parliament
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMyanmar%25E2%2580%2599s%252Bcoup%252Bleader%252Belected%252Bpresident%252Bby%252Bpro-military%252Bparliament%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTM0GJnQvc4GIjC3vUH54K8HfVIm_Vxkhb3jUMkgbLo8lOZ2glbTUvW-SMLfDGZ3tyMiOiuOZWfPghwyBmpjbmRyUloBQw
+Processing trending topic: Why did Trump fire Pam Bondi from Justice Department, who is Todd Blanche?
+Searching Google for: Why did Trump fire Pam Bondi from Justice Department, who is Todd Blanche?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bdid%252BTrump%252Bfire%252BPam%252BBondi%252Bfrom%252BJustice%252BDepartment%252C%252Bwho%252Bis%252BTodd%252BBlanche%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdVGPmAvs4GIjD8jiEnpmSBqDfOrtytw2UZCO3nGnd9-x5A8SBIKZWrzQK-Sicw8Nf8GOJgYZuz_AIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: myanmars-coup-leader-elected-president-by-pro-mili_20260403_0711.html
-✓ Created comprehensive article: myanmars-coup-leader-elected-president-by-pro-mili_20260403_0711.html
+Successfully created file: why-did-trump-fire-pam-bondi-from-justice-departme_20260403_0855.html
+✓ Created comprehensive article: why-did-trump-fire-pam-bondi-from-justice-departme_20260403_0855.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: donald-trump-fires-loyalist-attorney-general-pam-b_20260403_0506.html
-Cleaned old post to keep top 30 limit: us-court-orders-resentencing-for-colorado-clerk-in_20260402_2337.html
-Cleaned old post to keep top 30 limit: artemis-ii-blasts-ever-closer-to-the-far-side-of-t_20260403_0506.html
+Cleaned old post to keep top 30 limit: ms-boss-calls-for-more-action-on-crime-and-abuse-o_20260403_0711.html
+Cleaned old post to keep top 30 limit: myanmars-coup-leader-elected-president-by-pro-mili_20260403_0711.html
+Cleaned old post to keep top 30 limit: iran-vows-retaliation-after-deadly-us-strike-on-br_20260403_0506.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • M&S boss calls for more action on crime and abuse of staff
+   • 'Trust us, you look amazing': Artemis II astronauts speak from space
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war: What is happening on day 35 of US-Israeli attacks?
+   • Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups
      Sources: bbc.com, cnn.com, reuters.com
-   • Myanmar’s coup leader elected president by pro-military parliament
+   • Why did Trump fire Pam Bondi from Justice Department, who is Todd Blanche?
      Sources: bbc.com, cnn.com, reuters.com
