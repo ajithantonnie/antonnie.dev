@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Artemis II blasts ever closer to the far side of the Moon
-  Added: Marmalade to be re-branded in post-Brexit food deal
+  Added: M&S boss calls for more action on crime and abuse of staff
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Donald Trump fires loyalist Attorney General Pam Bondi
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran vows retaliation after deadly US strike on bridge in Karaj
-Added expanded search topic: Donald Trump fires loyalist Attorney General Pam Bondi
-Added expanded search topic: Iran vows retaliation after deadly US strike on bridge in Karaj
-Saved 6 topics for 2026-04-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day 35 of US-Israeli attacks?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Myanmar’s coup leader elected president by pro-military parliament
+Added expanded search topic: Iran war: What is happening on day 35 of US-Israeli attacks?
+Added expanded search topic: Myanmar’s coup leader elected president by pro-military parliament
+Saved 9 topics for 2026-04-03
 Returning 3 unique trending topics:
-  1. Artemis II blasts ever closer to the far side of the Moon (from BBC News)
-  2. Donald Trump fires loyalist Attorney General Pam Bondi (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran vows retaliation after deadly US strike on bridge in Karaj (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. M&S boss calls for more action on crime and abuse of staff (from BBC News)
+  2. Iran war: What is happening on day 35 of US-Israeli attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Myanmar’s coup leader elected president by pro-military parliament (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Artemis II blasts ever closer to the far side of the Moon
-Searching Google for: Artemis II blasts ever closer to the far side of the Moon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArtemis%252BII%252Bblasts%252Bever%252Bcloser%252Bto%252Bthe%252Bfar%252Bside%252Bof%252Bthe%252BMoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcDGNKVvc4GIjCFN0QAGLa8HxKHMun07wsUCOcXOcZpyCBp9QMWbzstHVDo2U2sjyHZesdrrHms62EyBmpjbmRyUloBQw
+Processing trending topic: M&S boss calls for more action on crime and abuse of staff
+Searching Google for: M&S boss calls for more action on crime and abuse of staff
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DM%2526S%252Bboss%252Bcalls%252Bfor%252Bmore%252Baction%252Bon%252Bcrime%252Band%252Babuse%252Bof%252Bstaff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTM0GIvQvc4GIjB2L5JzwQGQgXXm8J9vM7JT1iksTkm6dMUzJvh0NLJKxaEoXaxB7o_rYCakGEKuCTcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: artemis-ii-blasts-ever-closer-to-the-far-side-of-t_20260403_0506.html
-✓ Created comprehensive article: artemis-ii-blasts-ever-closer-to-the-far-side-of-t_20260403_0506.html
+Successfully created file: ms-boss-calls-for-more-action-on-crime-and-abuse-o_20260403_0711.html
+✓ Created comprehensive article: ms-boss-calls-for-more-action-on-crime-and-abuse-o_20260403_0711.html
 
-Processing trending topic: Donald Trump fires loyalist Attorney General Pam Bondi
-Searching Google for: Donald Trump fires loyalist Attorney General Pam Bondi
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDonald%252BTrump%252Bfires%252Bloyalist%252BAttorney%252BGeneral%252BPam%252BBondi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcDGNmVvc4GIjC2nc3obC8Nx1tx_JUyoYWGBOLhgx7jnOw1tcOu47c0F2jVvJHld6oJ1itlzqrhPLUyBmpjbmRyUloBQw
+Processing trending topic: Iran war: What is happening on day 35 of US-Israeli attacks?
+Searching Google for: Iran war: What is happening on day 35 of US-Israeli attacks?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252B35%252Bof%252BUS-Israeli%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTM0GJPQvc4GIjBNmZCZi3w3dZP41OXSpMQPUeFrFLgAKuV1pxEAW8e7PlnVmvrxIa87lQjX17wReg4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: donald-trump-fires-loyalist-attorney-general-pam-b_20260403_0506.html
-✓ Created comprehensive article: donald-trump-fires-loyalist-attorney-general-pam-b_20260403_0506.html
+Successfully created file: iran-war-what-is-happening-on-day-35-of-us-israeli_20260403_0711.html
+✓ Created comprehensive article: iran-war-what-is-happening-on-day-35-of-us-israeli_20260403_0711.html
 
-Processing trending topic: Iran vows retaliation after deadly US strike on bridge in Karaj
-Searching Google for: Iran vows retaliation after deadly US strike on bridge in Karaj
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bvows%252Bretaliation%252Bafter%252Bdeadly%252BUS%252Bstrike%252Bon%252Bbridge%252Bin%252BKaraj%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcDGN-Vvc4GIjAnODV8pc8b23zX9ojMmPsUiGcGjbKtgdnW7MVzvvUtbx28IIYhg7IvY8-vOYUv-9wyBmpjbmRyUloBQw
+Processing trending topic: Myanmar’s coup leader elected president by pro-military parliament
+Searching Google for: Myanmar’s coup leader elected president by pro-military parliament
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMyanmar%25E2%2580%2599s%252Bcoup%252Bleader%252Belected%252Bpresident%252Bby%252Bpro-military%252Bparliament%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTM0GJnQvc4GIjC3vUH54K8HfVIm_Vxkhb3jUMkgbLo8lOZ2glbTUvW-SMLfDGZ3tyMiOiuOZWfPghwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-vows-retaliation-after-deadly-us-strike-on-br_20260403_0506.html
-✓ Created comprehensive article: iran-vows-retaliation-after-deadly-us-strike-on-br_20260403_0506.html
+Successfully created file: myanmars-coup-leader-elected-president-by-pro-mili_20260403_0711.html
+✓ Created comprehensive article: myanmars-coup-leader-elected-president-by-pro-mili_20260403_0711.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uganda-receives-first-us-deportation-flight-under-_20260403_0212.html
-Cleaned old post to keep top 30 limit: police-offered-support-to-tackle-rising-threats-ag_20260403_0212.html
-Cleaned old post to keep top 30 limit: marmalade-to-be-re-branded-in-post-brexit-food-dea_20260403_0212.html
+Cleaned old post to keep top 30 limit: donald-trump-fires-loyalist-attorney-general-pam-b_20260403_0506.html
+Cleaned old post to keep top 30 limit: us-court-orders-resentencing-for-colorado-clerk-in_20260402_2337.html
+Cleaned old post to keep top 30 limit: artemis-ii-blasts-ever-closer-to-the-far-side-of-t_20260403_0506.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Artemis II blasts ever closer to the far side of the Moon
+   • M&S boss calls for more action on crime and abuse of staff
      Sources: bbc.com, cnn.com, reuters.com
-   • Donald Trump fires loyalist Attorney General Pam Bondi
+   • Iran war: What is happening on day 35 of US-Israeli attacks?
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran vows retaliation after deadly US strike on bridge in Karaj
+   • Myanmar’s coup leader elected president by pro-military parliament
      Sources: bbc.com, cnn.com, reuters.com
