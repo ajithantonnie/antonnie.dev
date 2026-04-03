@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Experts dispute US account of deadly Iran sports hall strike in Lamerd
-  Added: Watch: Artemis II's journey so far as it leaves Earth's orbit ... in 85 seconds
+  Added: Watch: Artemis II's journey so far as it leaves Earth's orbit
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup
-Added expanded search topic: Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup
-Saved 27 topics for 2026-04-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says with more time, US can ‘take the oil’ in Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Panama Papers: 10 years on
+Added expanded search topic: Trump says with more time, US can ‘take the oil’ in Iran
+Added expanded search topic: Panama Papers: 10 years on
+Saved 30 topics for 2026-04-03
 Returning 3 unique trending topics:
-  1. Experts dispute US account of deadly Iran sports hall strike in Lamerd (from BBC News)
-  2. Watch: Artemis II's journey so far as it leaves Earth's orbit ... in 85 seconds (from BBC News)
-  3. Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Watch: Artemis II's journey so far as it leaves Earth's orbit (from BBC News)
+  2. Trump says with more time, US can ‘take the oil’ in Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Panama Papers: 10 years on (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Experts dispute US account of deadly Iran sports hall strike in Lamerd
-Searching Google for: Experts dispute US account of deadly Iran sports hall strike in Lamerd
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DExperts%252Bdispute%252BUS%252Baccount%252Bof%252Bdeadly%252BIran%252Bsports%252Bhall%252Bstrike%252Bin%252BLamerd%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTzjGPyTv84GIjDuRrBjQCpnBllesxe7QSWfl3qoAcXwaKzonb7MOzGwaxts5HTWOpncz7sxCamGHB8yBmpjbmRyUloBQw
+Processing trending topic: Watch: Artemis II's journey so far as it leaves Earth's orbit
+Searching Google for: Watch: Artemis II's journey so far as it leaves Earth's orbit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BArtemis%252BII%2527s%252Bjourney%252Bso%252Bfar%252Bas%252Bit%252Bleaves%252BEarth%2527s%252Borbit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWxGIm_v84GIjATkX5oDOHFOfXahJ5WEnnu2YoHzTMx1-hIxNPr4whxFGahdtw8X9ElRYrZuEYfR_wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: experts-dispute-us-account-of-deadly-iran-sports-h_20260403_1409.html
-✓ Created comprehensive article: experts-dispute-us-account-of-deadly-iran-sports-h_20260403_1409.html
+Successfully created file: watch-artemis-iis-journey-so-far-as-it-leaves-eart_20260403_1541.html
+✓ Created comprehensive article: watch-artemis-iis-journey-so-far-as-it-leaves-eart_20260403_1541.html
 
-Processing trending topic: Watch: Artemis II's journey so far as it leaves Earth's orbit ... in 85 seconds
-Searching Google for: Watch: Artemis II's journey so far as it leaves Earth's orbit ... in 85 seconds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BArtemis%252BII%2527s%252Bjourney%252Bso%252Bfar%252Bas%252Bit%252Bleaves%252BEarth%2527s%252Borbit%252B...%252Bin%252B85%252Bseconds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTzjGISUv84GIjDEY5kVi3dVIF2cDL1uq9cp0Za35fND2JdQ4lTUA5BrA7tpzSHyoWwa-9SJaww5Op0yBmpjbmRyUloBQw
+Processing trending topic: Trump says with more time, US can ‘take the oil’ in Iran
+Searching Google for: Trump says with more time, US can ‘take the oil’ in Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bwith%252Bmore%252Btime%252C%252BUS%252Bcan%252B%25E2%2580%2598take%252Bthe%252Boil%25E2%2580%2599%252Bin%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWxGJC_v84GIjA-PAFwyKmIpqpDzhpD6SAGmKilV1i5WT1KHGt7baG7af2-Rn46iM5jzS575_eUw2EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-artemis-iis-journey-so-far-as-it-leaves-eart_20260403_1409.html
-✓ Created comprehensive article: watch-artemis-iis-journey-so-far-as-it-leaves-eart_20260403_1409.html
+Successfully created file: trump-says-with-more-time-us-can-take-the-oil-in-i_20260403_1541.html
+✓ Created comprehensive article: trump-says-with-more-time-us-can-take-the-oil-in-i_20260403_1541.html
 
-Processing trending topic: Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup
-Searching Google for: Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGattuso%252Bout%252Bas%252BItaly%25E2%2580%2599s%252Bcoach%252Bafter%252Bfailure%252Bto%252Bqualify%252Bfor%252B2026%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTzjGIqUv84GIjDWzGL6l7qJXuhIchV7WCqdwLov2LjCOeWrAek0E8JbtaUB9USy0k7mbny94BQGXdIyBmpjbmRyUloBQw
+Processing trending topic: Panama Papers: 10 years on
+Searching Google for: Panama Papers: 10 years on
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPanama%252BPapers%253A%252B10%252Byears%252Bon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWxGJa_v84GIjCjtLA_hbdjwfYJjZs8RUyxgD3Wk3H49owiZw4Hy9m-zLRDUq5MDMyb9wgPQKANgfIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gattuso-out-as-italys-coach-after-failure-to-quali_20260403_1409.html
-✓ Created comprehensive article: gattuso-out-as-italys-coach-after-failure-to-quali_20260403_1409.html
+Successfully created file: panama-papers-10-years-on_20260403_1541.html
+✓ Created comprehensive article: panama-papers-10-years-on_20260403_1541.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: i-dont-know-how-well-emerge-from-this-how-much-mor_20260403_1304.html
-Cleaned old post to keep top 30 limit: war-crimes-are-no-longer-shameful-that-should-terr_20260403_1304.html
-Cleaned old post to keep top 30 limit: real-madrid-coach-insists-spain-not-racist-despite_20260403_1304.html
+Cleaned old post to keep top 30 limit: rubble-mud-and-hair-how-to-rebuild-a-home-in-gaza_20260403_1139.html
+Cleaned old post to keep top 30 limit: gattuso-out-as-italys-coach-after-failure-to-quali_20260403_1409.html
+Cleaned old post to keep top 30 limit: experts-dispute-us-account-of-deadly-iran-sports-h_20260403_1409.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Experts dispute US account of deadly Iran sports hall strike in Lamerd
+   • Watch: Artemis II's journey so far as it leaves Earth's orbit
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Artemis II's journey so far as it leaves Earth's orbit ... in 85 seconds
+   • Trump says with more time, US can ‘take the oil’ in Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup
+   • Panama Papers: 10 years on
      Sources: bbc.com, cnn.com, reuters.com
