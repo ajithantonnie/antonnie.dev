@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Artemis II blasts ever closer to the far side of the Moon
   Added: Marmalade to be re-branded in post-Brexit food deal
-  Added: Police offered support to tackle rising threats against MPs
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda receives first US deportation flight under third-country agreement
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-03
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Donald Trump fires loyalist Attorney General Pam Bondi
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran vows retaliation after deadly US strike on bridge in Karaj
+Added expanded search topic: Donald Trump fires loyalist Attorney General Pam Bondi
+Added expanded search topic: Iran vows retaliation after deadly US strike on bridge in Karaj
+Saved 6 topics for 2026-04-03
 Returning 3 unique trending topics:
-  1. Marmalade to be re-branded in post-Brexit food deal (from BBC News)
-  2. Police offered support to tackle rising threats against MPs (from BBC News)
-  3. Uganda receives first US deportation flight under third-country agreement (from The Guardian)
+  1. Artemis II blasts ever closer to the far side of the Moon (from BBC News)
+  2. Donald Trump fires loyalist Attorney General Pam Bondi (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran vows retaliation after deadly US strike on bridge in Karaj (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Marmalade to be re-branded in post-Brexit food deal
-Searching Google for: Marmalade to be re-branded in post-Brexit food deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMarmalade%252Bto%252Bbe%252Bre-branded%252Bin%252Bpost-Brexit%252Bfood%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqAa1GJTEvM4GIjABqQPje7bhAYjDxFK-9L6lV3waitsngkk5_bBy7DPkY0ffYVF6fHQCIxoWgHcXLKYyBmpjbmRyUloBQw
+Processing trending topic: Artemis II blasts ever closer to the far side of the Moon
+Searching Google for: Artemis II blasts ever closer to the far side of the Moon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArtemis%252BII%252Bblasts%252Bever%252Bcloser%252Bto%252Bthe%252Bfar%252Bside%252Bof%252Bthe%252BMoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcDGNKVvc4GIjCFN0QAGLa8HxKHMun07wsUCOcXOcZpyCBp9QMWbzstHVDo2U2sjyHZesdrrHms62EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: marmalade-to-be-re-branded-in-post-brexit-food-dea_20260403_0212.html
-✓ Created comprehensive article: marmalade-to-be-re-branded-in-post-brexit-food-dea_20260403_0212.html
+Successfully created file: artemis-ii-blasts-ever-closer-to-the-far-side-of-t_20260403_0506.html
+✓ Created comprehensive article: artemis-ii-blasts-ever-closer-to-the-far-side-of-t_20260403_0506.html
 
-Processing trending topic: Police offered support to tackle rising threats against MPs
-Searching Google for: Police offered support to tackle rising threats against MPs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Boffered%252Bsupport%252Bto%252Btackle%252Brising%252Bthreats%252Bagainst%252BMPs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqAa1GJvEvM4GIjAXhwUwPQe4VafQNOPFdhv46FaPf_YCxnyuWB9bdY2X9PiykNO_KsuoMBCEn1chMm8yBmpjbmRyUloBQw
+Processing trending topic: Donald Trump fires loyalist Attorney General Pam Bondi
+Searching Google for: Donald Trump fires loyalist Attorney General Pam Bondi
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDonald%252BTrump%252Bfires%252Bloyalist%252BAttorney%252BGeneral%252BPam%252BBondi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcDGNmVvc4GIjC2nc3obC8Nx1tx_JUyoYWGBOLhgx7jnOw1tcOu47c0F2jVvJHld6oJ1itlzqrhPLUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-offered-support-to-tackle-rising-threats-ag_20260403_0212.html
-✓ Created comprehensive article: police-offered-support-to-tackle-rising-threats-ag_20260403_0212.html
+Successfully created file: donald-trump-fires-loyalist-attorney-general-pam-b_20260403_0506.html
+✓ Created comprehensive article: donald-trump-fires-loyalist-attorney-general-pam-b_20260403_0506.html
 
-Processing trending topic: Uganda receives first US deportation flight under third-country agreement
-Searching Google for: Uganda receives first US deportation flight under third-country agreement
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Breceives%252Bfirst%252BUS%252Bdeportation%252Bflight%252Bunder%252Bthird-country%252Bagreement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqAa1GKLEvM4GIjAAGn11C9vPW4H5eztgWNZJVc0-pHzXG6-Yn5pHyjMkPwNrGRMVNqR6JUf2Q8D6Qp4yBmpjbmRyUloBQw
+Processing trending topic: Iran vows retaliation after deadly US strike on bridge in Karaj
+Searching Google for: Iran vows retaliation after deadly US strike on bridge in Karaj
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bvows%252Bretaliation%252Bafter%252Bdeadly%252BUS%252Bstrike%252Bon%252Bbridge%252Bin%252BKaraj%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7JcDGN-Vvc4GIjAnODV8pc8b23zX9ojMmPsUiGcGjbKtgdnW7MVzvvUtbx28IIYhg7IvY8-vOYUv-9wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uganda-receives-first-us-deportation-flight-under-_20260403_0212.html
-✓ Created comprehensive article: uganda-receives-first-us-deportation-flight-under-_20260403_0212.html
+Successfully created file: iran-vows-retaliation-after-deadly-us-strike-on-br_20260403_0506.html
+✓ Created comprehensive article: iran-vows-retaliation-after-deadly-us-strike-on-br_20260403_0506.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-offered-support-to-tackle-rising-threats-ag_20260402_2336.html
-Cleaned old post to keep top 30 limit: marmalade-to-be-re-branded-in-post-brexit-food-dea_20260402_2336.html
-Cleaned old post to keep top 30 limit: iran-releases-mocking-missile-launch-video-after-t_20260402_1602.html
+Cleaned old post to keep top 30 limit: uganda-receives-first-us-deportation-flight-under-_20260403_0212.html
+Cleaned old post to keep top 30 limit: police-offered-support-to-tackle-rising-threats-ag_20260403_0212.html
+Cleaned old post to keep top 30 limit: marmalade-to-be-re-branded-in-post-brexit-food-dea_20260403_0212.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Marmalade to be re-branded in post-Brexit food deal
+   • Artemis II blasts ever closer to the far side of the Moon
      Sources: bbc.com, cnn.com, reuters.com
-   • Police offered support to tackle rising threats against MPs
+   • Donald Trump fires loyalist Attorney General Pam Bondi
      Sources: bbc.com, cnn.com, reuters.com
-   • Uganda receives first US deportation flight under third-country agreement
+   • Iran vows retaliation after deadly US strike on bridge in Karaj
      Sources: bbc.com, cnn.com, reuters.com
