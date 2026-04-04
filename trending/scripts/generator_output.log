@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Three charged over Jewish charity ambulance fires
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video shows the moment a Russian drone hit an apartment in Ukraine
-Added expanded search topic: Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges
-Added expanded search topic: Video shows the moment a Russian drone hit an apartment in Ukraine
-Saved 12 topics for 2026-04-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Afghanistan earthquake kills eight members of same family
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lawyers search for Epstein survivors for Bank of America $72.5m settlement
+  Found from World News - Breaking international news and headlines | Sky News: Eight dead after earthquake hits Afghanistan and Pakistan
+Added expanded search topic: Afghanistan earthquake kills eight members of same family
+Added expanded search topic: Lawyers search for Epstein survivors for Bank of America $72.5m settlement
+Added expanded search topic: Eight dead after earthquake hits Afghanistan and Pakistan
+Saved 15 topics for 2026-04-04
 Returning 3 unique trending topics:
-  1. Artemis II crew now halfway to Moon as they take 'spectacular' image of Earth (from BBC News)
-  2. Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Video shows the moment a Russian drone hit an apartment in Ukraine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Afghanistan earthquake kills eight members of same family (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Lawyers search for Epstein survivors for Bank of America $72.5m settlement (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Eight dead after earthquake hits Afghanistan and Pakistan (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Artemis II crew now halfway to Moon as they take 'spectacular' image of Earth
-Searching Google for: Artemis II crew now halfway to Moon as they take 'spectacular' image of Earth
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArtemis%252BII%252Bcrew%252Bnow%252Bhalfway%252Bto%252BMoon%252Bas%252Bthey%252Btake%252B%2527spectacular%2527%252Bimage%252Bof%252BEarth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D6xGMjvws4GIjCsGBHLm7j_oDlXK_z1HV-gPogxBxoDmiFUh7dCjZDGHkJSDA406CDl3xrd8JZ9GioyBmpjbmRyUloBQw
+Processing trending topic: Afghanistan earthquake kills eight members of same family
+Searching Google for: Afghanistan earthquake kills eight members of same family
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfghanistan%252Bearthquake%252Bkills%252Beight%252Bmembers%252Bof%252Bsame%252Bfamily%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OERGJaIw84GIjAFRoLa_RvliSvorkqez0iojRnk-OtWju_DIPZoHk8F4INkDAufDl80JeG0lPa3PScyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: artemis-ii-crew-now-halfway-to-moon-as-they-take-s_20260404_0703.html
-✓ Created comprehensive article: artemis-ii-crew-now-halfway-to-moon-as-they-take-s_20260404_0703.html
+Successfully created file: afghanistan-earthquake-kills-eight-members-of-same_20260404_0756.html
+✓ Created comprehensive article: afghanistan-earthquake-kills-eight-members-of-same_20260404_0756.html
 
-Processing trending topic: Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges
-Searching Google for: Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BTehran%252Bdowns%252B2%252BUS%252Bwarplanes%253B%252BIsrael%252Bbombs%252BLebanon%252Bbridges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D6xGM_vws4GIjAV2ci1TORo6k_DJ3NnmG1RkxPliPgpC_rHJmbGJSh9glTp-LSNe9-3o1ZKtu8r_yUyBmpjbmRyUloBQw
+Processing trending topic: Lawyers search for Epstein survivors for Bank of America $72.5m settlement
+Searching Google for: Lawyers search for Epstein survivors for Bank of America $72.5m settlement
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLawyers%252Bsearch%252Bfor%252BEpstein%252Bsurvivors%252Bfor%252BBank%252Bof%252BAmerica%252B%252472.5m%252Bsettlement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OERGJ2Iw84GIjAR0cT9PklcpOZHUEv6qc4r-6yLfv1-DNfPd7t8nSwERGGXey9xPSA-iUnc5iHxBrwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-live-tehran-downs-2-us-warplanes-israel-b_20260404_0703.html
-✓ Created comprehensive article: iran-war-live-tehran-downs-2-us-warplanes-israel-b_20260404_0703.html
+Successfully created file: lawyers-search-for-epstein-survivors-for-bank-of-a_20260404_0756.html
+✓ Created comprehensive article: lawyers-search-for-epstein-survivors-for-bank-of-a_20260404_0756.html
 
-Processing trending topic: Video shows the moment a Russian drone hit an apartment in Ukraine
-Searching Google for: Video shows the moment a Russian drone hit an apartment in Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bthe%252Bmoment%252Ba%252BRussian%252Bdrone%252Bhit%252Ban%252Bapartment%252Bin%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D6xGNXvws4GIjAFGD2Npf4nhJUu-iAyGOv27LOHEeoShfUYddjyeDgn8WSvY9lktDYGLSLX7A6ZTOcyBmpjbmRyUloBQw
+Processing trending topic: Eight dead after earthquake hits Afghanistan and Pakistan
+Searching Google for: Eight dead after earthquake hits Afghanistan and Pakistan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEight%252Bdead%252Bafter%252Bearthquake%252Bhits%252BAfghanistan%252Band%252BPakistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OERGKOIw84GIjBDjBtbW3qmnDjRiFi2emndzJLZI8wMtRH3p60fzhlN9ylbCmtr7kOYf7KO8AI4euwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-shows-the-moment-a-russian-drone-hit-an-apar_20260404_0703.html
-✓ Created comprehensive article: video-shows-the-moment-a-russian-drone-hit-an-apar_20260404_0703.html
+Successfully created file: eight-dead-after-earthquake-hits-afghanistan-and-p_20260404_0756.html
+✓ Created comprehensive article: eight-dead-after-earthquake-hits-afghanistan-and-p_20260404_0756.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: nasa-unveils-first-images-of-earth-from-artemis-ii_20260404_0559.html
-Cleaned old post to keep top 30 limit: what-we-know-about-the-us-fighter-jet-shot-down-in_20260403_1940.html
-Cleaned old post to keep top 30 limit: atletico-madrid-vs-barcelona-la-liga-preview-teams_20260404_0600.html
+Cleaned old post to keep top 30 limit: palestinian-christians-in-gaza-mark-good-friday_20260404_0559.html
+Cleaned old post to keep top 30 limit: video-shows-the-moment-a-russian-drone-hit-an-apar_20260404_0703.html
+Cleaned old post to keep top 30 limit: artemis-ii-crew-now-halfway-to-moon-as-they-take-s_20260404_0703.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Artemis II crew now halfway to Moon as they take 'spectacular' image of Earth
+   • Afghanistan earthquake kills eight members of same family
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges
+   • Lawyers search for Epstein survivors for Bank of America $72.5m settlement
      Sources: bbc.com, cnn.com, reuters.com
-   • Video shows the moment a Russian drone hit an apartment in Ukraine
+   • Eight dead after earthquake hits Afghanistan and Pakistan
      Sources: bbc.com, cnn.com, reuters.com
