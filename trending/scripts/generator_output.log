@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Three charged over Jewish charity ambulance fires
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-04
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What is happening on day 36 of US-Israeli attacks?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: European Parliament’s Rima Hassan: I’m a target of ‘political harassment’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian missile attack hits residential areas in central Israel
+Added expanded search topic: Iran war: What is happening on day 36 of US-Israeli attacks?
+Added expanded search topic: European Parliament’s Rima Hassan: I’m a target of ‘political harassment’
+Added expanded search topic: Iranian missile attack hits residential areas in central Israel
+Saved 6 topics for 2026-04-04
 Returning 3 unique trending topics:
-  1. Three charged over Jewish charity ambulance fires (from BBC News)
-  2. Artemis II crew take 'spectacular' image of Earth (from BBC News)
-  3. People of Burkina Faso should forget about democracy, says military ruler (from The Guardian)
+  1. Iran war: What is happening on day 36 of US-Israeli attacks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. European Parliament’s Rima Hassan: I’m a target of ‘political harassment’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iranian missile attack hits residential areas in central Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Three charged over Jewish charity ambulance fires
-Searching Google for: Three charged over Jewish charity ambulance fires
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bcharged%252Bover%252BJewish%252Bcharity%252Bambulance%252Bfires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IyyGKrjwc4GIjA_bqjppiG2DjOWJX9dO4Ebyw3XKGWIvJXdUIcHgzfrEBHANBSI6v9FPv2PNlz_y34yBmpjbmRyUloBQw
+Processing trending topic: Iran war: What is happening on day 36 of US-Israeli attacks?
+Searching Google for: Iran war: What is happening on day 36 of US-Israeli attacks?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%252Bis%252Bhappening%252Bon%252Bday%252B36%252Bof%252BUS-Israeli%252Battacks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bwGICyws4GIjDr3twBIXSNIH-_oveghSG7XYTzOq7EnVdB6x6Y6ys13niQhkzj0lt9cu9u2W3ha08yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-charged-over-jewish-charity-ambulance-fires_20260404_0204.html
-✓ Created comprehensive article: three-charged-over-jewish-charity-ambulance-fires_20260404_0204.html
+Successfully created file: iran-war-what-is-happening-on-day-36-of-us-israeli_20260404_0452.html
+✓ Created comprehensive article: iran-war-what-is-happening-on-day-36-of-us-israeli_20260404_0452.html
 
-Processing trending topic: Artemis II crew take 'spectacular' image of Earth
-Searching Google for: Artemis II crew take 'spectacular' image of Earth
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArtemis%252BII%252Bcrew%252Btake%252B%2527spectacular%2527%252Bimage%252Bof%252BEarth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IyyGLDjwc4GIjB_QTW5BdvXtpoyR8RYJHy0w3tod_FTDuoQ_MCttsiarMJi9p9S30c1fUczKq267KQyBmpjbmRyUloBQw
+Processing trending topic: European Parliament’s Rima Hassan: I’m a target of ‘political harassment’
+Searching Google for: European Parliament’s Rima Hassan: I’m a target of ‘political harassment’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEuropean%252BParliament%25E2%2580%2599s%252BRima%252BHassan%253A%252BI%25E2%2580%2599m%252Ba%252Btarget%252Bof%252B%25E2%2580%2598political%252Bharassment%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bwGIiyws4GIjAkBRtbLY9DeEcHNluIQ5b2KDMdoMhSccemEg2sH8hV5DKUhqm1KMzcQDxjfS-jviMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: artemis-ii-crew-take-spectacular-image-of-earth_20260404_0204.html
-✓ Created comprehensive article: artemis-ii-crew-take-spectacular-image-of-earth_20260404_0204.html
+Successfully created file: european-parliaments-rima-hassan-im-a-target-of-po_20260404_0452.html
+✓ Created comprehensive article: european-parliaments-rima-hassan-im-a-target-of-po_20260404_0452.html
 
-Processing trending topic: People of Burkina Faso should forget about democracy, says military ruler
-Searching Google for: People of Burkina Faso should forget about democracy, says military ruler
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bof%252BBurkina%252BFaso%252Bshould%252Bforget%252Babout%252Bdemocracy%252C%252Bsays%252Bmilitary%252Bruler%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IyyGLfjwc4GIjCmXfhj-JwrxBFd-v7ofvijsCM86P3tTyl6Q_VLoV-Xe5WF9fH2lel84tM3Kw2WZ_8yBmpjbmRyUloBQw
+Processing trending topic: Iranian missile attack hits residential areas in central Israel
+Searching Google for: Iranian missile attack hits residential areas in central Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bmissile%252Battack%252Bhits%252Bresidential%252Bareas%252Bin%252Bcentral%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bwGI6yws4GIjBwhr0W7BNf5U7PHCdARybtsv0o27uS3gM6QGzz3mxUnKxHtJczZqE36-xcpv5sPuMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: people-of-burkina-faso-should-forget-about-democra_20260404_0204.html
-✓ Created comprehensive article: people-of-burkina-faso-should-forget-about-democra_20260404_0204.html
+Successfully created file: iranian-missile-attack-hits-residential-areas-in-c_20260404_0452.html
+✓ Created comprehensive article: iranian-missile-attack-hits-residential-areas-in-c_20260404_0452.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: monks-hold-easter-prayers-in-deserted-old-city-of-_20260403_2336.html
-Cleaned old post to keep top 30 limit: lawyers-search-for-epstein-survivors-for-bank-of-a_20260403_2336.html
-Cleaned old post to keep top 30 limit: eight-dead-after-earthquake-hits-afghanistan-and-p_20260403_2337.html
+Cleaned old post to keep top 30 limit: survivors-of-iran-bridge-attack-recall-terror-of-u_20260403_2234.html
+Cleaned old post to keep top 30 limit: three-charged-over-jewish-charity-ambulance-fires_20260403_2234.html
+Cleaned old post to keep top 30 limit: artemis-ii-crew-take-spectacular-image-of-earth_20260404_0204.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Three charged over Jewish charity ambulance fires
+   • Iran war: What is happening on day 36 of US-Israeli attacks?
      Sources: bbc.com, cnn.com, reuters.com
-   • Artemis II crew take 'spectacular' image of Earth
+   • European Parliament’s Rima Hassan: I’m a target of ‘political harassment’
      Sources: bbc.com, cnn.com, reuters.com
-   • People of Burkina Faso should forget about democracy, says military ruler
+   • Iranian missile attack hits residential areas in central Israel
      Sources: bbc.com, cnn.com, reuters.com
