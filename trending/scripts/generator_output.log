@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Amber wind warning issued as Storm Dave set to hit parts of UK
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances
-  Found from World News - Breaking international news and headlines | Sky News: US journalist kidnapped - here's what we know so far
-Added expanded search topic: Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances
-Added expanded search topic: US journalist kidnapped - here's what we know so far
-Saved 33 topics for 2026-04-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Haaland grabs hat-trick as Man City thrash Liverpool to reach FA Cup semis
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Manchester City vs Liverpool 4-0: FA Cup quarterfinal – as it happened
+  Found from Tech News - Latest Technology and Gadget News | Sky News: Mother who lost sight after birth has vision restored
+Added expanded search topic: Haaland grabs hat-trick as Man City thrash Liverpool to reach FA Cup semis
+Added expanded search topic: Manchester City vs Liverpool 4-0: FA Cup quarterfinal – as it happened
+Added expanded search topic: Mother who lost sight after birth has vision restored
+Saved 36 topics for 2026-04-04
 Returning 3 unique trending topics:
-  1. Fourth suspect arrested over Jewish charity ambulance arson attack (from BBC News)
-  2. Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US journalist kidnapped - here's what we know so far (from World News - Breaking international news and headlines | Sky News)
+  1. Haaland grabs hat-trick as Man City thrash Liverpool to reach FA Cup semis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Manchester City vs Liverpool 4-0: FA Cup quarterfinal – as it happened (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mother who lost sight after birth has vision restored (from Tech News - Latest Technology and Gadget News | Sky News)
 
-Processing trending topic: Fourth suspect arrested over Jewish charity ambulance arson attack
-Searching Google for: Fourth suspect arrested over Jewish charity ambulance arson attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFourth%252Bsuspect%252Barrested%252Bover%252BJewish%252Bcharity%252Bambulance%252Barson%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLTGPewxM4GIjApXmcT5HBuK-bkAYNcPAIB4iKBbr_uFkQTh15fswAvOn5Uh2bT-l0OYOJ2Ht7xfKwyBmpjbmRyUloBQw
+Processing trending topic: Haaland grabs hat-trick as Man City thrash Liverpool to reach FA Cup semis
+Searching Google for: Haaland grabs hat-trick as Man City thrash Liverpool to reach FA Cup semis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHaaland%252Bgrabs%252Bhat-trick%252Bas%252BMan%252BCity%252Bthrash%252BLiverpool%252Bto%252Breach%252BFA%252BCup%252Bsemis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_SrGMTDxM4GIjA6ICmNTJYfAIgK3hsdLjiNGslahlU4jfVRGh73VCNoyAwpLRQFwjsamKlaoax0hDYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fourth-suspect-arrested-over-jewish-charity-ambula_20260404_1356.html
-✓ Created comprehensive article: fourth-suspect-arrested-over-jewish-charity-ambula_20260404_1356.html
+Successfully created file: haaland-grabs-hat-trick-as-man-city-thrash-liverpo_20260404_1435.html
+✓ Created comprehensive article: haaland-grabs-hat-trick-as-man-city-thrash-liverpo_20260404_1435.html
 
-Processing trending topic: Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances
-Searching Google for: Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrikes%252Bdamage%252Bhospital%252Bin%252BLebanon%25E2%2580%2599s%252BTyre%253B%252Bground%252Binvasion%252Badvances%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLTGP6wxM4GIjDd1sRo1Vz57QBzH4bXcl7pDpjzT_qRfHvZdXYlDL2vo_XWNsWSNSx6FU3Iynn07_IyBmpjbmRyUloBQw
+Processing trending topic: Manchester City vs Liverpool 4-0: FA Cup quarterfinal – as it happened
+Searching Google for: Manchester City vs Liverpool 4-0: FA Cup quarterfinal – as it happened
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DManchester%252BCity%252Bvs%252BLiverpool%252B4-0%253A%252BFA%252BCup%252Bquarterfinal%252B%25E2%2580%2593%252Bas%252Bit%252Bhappened%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_SrGMvDxM4GIjBzgXB6pg0vqhmmXmXFPWiTCBa-1M5Jd5g1UrV655pHuiu0CPRF1i5ZHYaxXivW-2AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-strikes-damage-hospital-in-lebanons-tyre-g_20260404_1356.html
-✓ Created comprehensive article: israeli-strikes-damage-hospital-in-lebanons-tyre-g_20260404_1356.html
+Successfully created file: manchester-city-vs-liverpool-4-0-fa-cup-quarterfin_20260404_1435.html
+✓ Created comprehensive article: manchester-city-vs-liverpool-4-0-fa-cup-quarterfin_20260404_1435.html
 
-Processing trending topic: US journalist kidnapped - here's what we know so far
-Searching Google for: US journalist kidnapped - here's what we know so far
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjournalist%252Bkidnapped%252B-%252Bhere%2527s%252Bwhat%252Bwe%252Bknow%252Bso%252Bfar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLTGIWxxM4GIjA2Ha3Dw7JqFcF_eRXT675GAEdNoQR5CPFp9Mhitf5FiYQAtoGCVCAogBwCYDhvP0YyBmpjbmRyUloBQw
+Processing trending topic: Mother who lost sight after birth has vision restored
+Searching Google for: Mother who lost sight after birth has vision restored
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMother%252Bwho%252Blost%252Bsight%252Bafter%252Bbirth%252Bhas%252Bvision%252Brestored%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_SrGNHDxM4GIjDEOBjrKWGXGUkm9Bh5wPcXx9HWKOYQCWRH6ZbyFjarvzFaEJC5U_PuKCqU-QhtdYQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-journalist-kidnapped-heres-what-we-know-so-far_20260404_1356.html
-✓ Created comprehensive article: us-journalist-kidnapped-heres-what-we-know-so-far_20260404_1356.html
+Successfully created file: mother-who-lost-sight-after-birth-has-vision-resto_20260404_1436.html
+✓ Created comprehensive article: mother-who-lost-sight-after-birth-has-vision-resto_20260404_1436.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israels-unchecked-war-machine_20260404_1255.html
-Cleaned old post to keep top 30 limit: projectile-hits-near-irans-bushehr-nuclear-plant-k_20260404_1255.html
-Cleaned old post to keep top 30 limit: amber-wind-warning-issued-as-storm-dave-set-to-hit_20260404_1255.html
+Cleaned old post to keep top 30 limit: iran-war-live-tehran-downs-2-us-warplanes-israel-b_20260404_0703.html
+Cleaned old post to keep top 30 limit: us-journalist-kidnapped-heres-what-we-know-so-far_20260404_1356.html
+Cleaned old post to keep top 30 limit: fourth-suspect-arrested-over-jewish-charity-ambula_20260404_1356.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Fourth suspect arrested over Jewish charity ambulance arson attack
+   • Haaland grabs hat-trick as Man City thrash Liverpool to reach FA Cup semis
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances
+   • Manchester City vs Liverpool 4-0: FA Cup quarterfinal – as it happened
      Sources: bbc.com, cnn.com, reuters.com
-   • US journalist kidnapped - here's what we know so far
+   • Mother who lost sight after birth has vision restored
      Sources: bbc.com, cnn.com, reuters.com
