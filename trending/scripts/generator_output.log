@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US and Iran trade threats to unleash 'hell' as search for missing US airman continues
-  Added: Storm Dave brings 'disruptive' winds to parts of UK
+  Added: Storm Dave to ease on Easter Sunday after amber alert expires
+  Added: 'Something we have never seen before': Artemis II crew describe far side of Moon
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-05
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran says Iraqi ships can pass Strait of Hormuz as transits tick up
+Added expanded search topic: Iran says Iraqi ships can pass Strait of Hormuz as transits tick up
+Saved 6 topics for 2026-04-05
 Returning 3 unique trending topics:
-  1. US and Iran trade threats to unleash 'hell' as search for missing US airman continues (from BBC News)
-  2. Storm Dave brings 'disruptive' winds to parts of UK (from BBC News)
-  3. People of Burkina Faso should forget about democracy, says military ruler (from The Guardian)
+  1. Storm Dave to ease on Easter Sunday after amber alert expires (from BBC News)
+  2. 'Something we have never seen before': Artemis II crew describe far side of Moon (from BBC News)
+  3. Iran says Iraqi ships can pass Strait of Hormuz as transits tick up (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US and Iran trade threats to unleash 'hell' as search for missing US airman continues
-Searching Google for: US and Iran trade threats to unleash 'hell' as search for missing US airman continues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIran%252Btrade%252Bthreats%252Bto%252Bunleash%252B%2527hell%2527%252Bas%252Bsearch%252Bfor%252Bmissing%252BUS%252Bairman%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8iGL-Qx84GIjBU2jfGFdASuPnAeohs3HTM5UjpOCjp75IqD3fEazZ4FeSTcgsNbPOmXEIyEHYuLYAyBmpjbmRyUloBQw
+Processing trending topic: Storm Dave to ease on Easter Sunday after amber alert expires
+Searching Google for: Storm Dave to ease on Easter Sunday after amber alert expires
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BDave%252Bto%252Bease%252Bon%252BEaster%252BSunday%252Bafter%252Bamber%252Balert%252Bexpires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGayGIDfx84GIjBvTmL5dv3Rybej1MhX22HsR5rdDsaE93iO7AfOkGybR3Id7qqZ3WG2nLvmRlv_Z2QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-and-iran-trade-threats-to-unleash-hell-as-searc_20260405_0226.html
-✓ Created comprehensive article: us-and-iran-trade-threats-to-unleash-hell-as-searc_20260405_0226.html
+Successfully created file: storm-dave-to-ease-on-easter-sunday-after-amber-al_20260405_0513.html
+✓ Created comprehensive article: storm-dave-to-ease-on-easter-sunday-after-amber-al_20260405_0513.html
 
-Processing trending topic: Storm Dave brings 'disruptive' winds to parts of UK
-Searching Google for: Storm Dave brings 'disruptive' winds to parts of UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BDave%252Bbrings%252B%2527disruptive%2527%252Bwinds%252Bto%252Bparts%252Bof%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8iGMaQx84GIjAgRHoGVcstlshX1Wa0lfPnnvoAZIkIKp_dAMzWPb4NKsuckOhLIVAZKjMEZyCUecsyBmpjbmRyUloBQw
+Processing trending topic: 'Something we have never seen before': Artemis II crew describe far side of Moon
+Searching Google for: 'Something we have never seen before': Artemis II crew describe far side of Moon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Something%252Bwe%252Bhave%252Bnever%252Bseen%252Bbefore%2527%253A%252BArtemis%252BII%252Bcrew%252Bdescribe%252Bfar%252Bside%252Bof%252BMoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGayGIjfx84GIjCQXjXtKA8Heos5crlsR89M8u-ECHB1q0Xi4vmJMCjO7-hZfuU6NeSerZoB0AWOMjgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: storm-dave-brings-disruptive-winds-to-parts-of-uk_20260405_0226.html
-✓ Created comprehensive article: storm-dave-brings-disruptive-winds-to-parts-of-uk_20260405_0226.html
+Successfully created file: something-we-have-never-seen-before-artemis-ii-cre_20260405_0513.html
+✓ Created comprehensive article: something-we-have-never-seen-before-artemis-ii-cre_20260405_0513.html
 
-Processing trending topic: People of Burkina Faso should forget about democracy, says military ruler
-Searching Google for: People of Burkina Faso should forget about democracy, says military ruler
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bof%252BBurkina%252BFaso%252Bshould%252Bforget%252Babout%252Bdemocracy%252C%252Bsays%252Bmilitary%252Bruler%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8iGMyQx84GIjBw9U4HRdit_PCht-qpFdI2Zwykgxsggn724f4WT6dMNcCmRTAAKckEgiA8Io1DTFEyBmpjbmRyUloBQw
+Processing trending topic: Iran says Iraqi ships can pass Strait of Hormuz as transits tick up
+Searching Google for: Iran says Iraqi ships can pass Strait of Hormuz as transits tick up
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bsays%252BIraqi%252Bships%252Bcan%252Bpass%252BStrait%252Bof%252BHormuz%252Bas%252Btransits%252Btick%252Bup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGayGI7fx84GIjCYiKFT8JpOr5WDeXzqgR6sDQxv1gzX31hHs_cjVj8DW-uEYmJO0cyTvndMLgdM6c8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: people-of-burkina-faso-should-forget-about-democra_20260405_0226.html
-✓ Created comprehensive article: people-of-burkina-faso-should-forget-about-democra_20260405_0226.html
+Successfully created file: iran-says-iraqi-ships-can-pass-strait-of-hormuz-as_20260405_0513.html
+✓ Created comprehensive article: iran-says-iraqi-ships-can-pass-strait-of-hormuz-as_20260405_0513.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israeli-measures-tighten-grip-on-hebrons-ibrahimi-_20260404_2334.html
-Cleaned old post to keep top 30 limit: tech-companies-report-strong-q4-earnings-despite-m_20260404_2334.html
-Cleaned old post to keep top 30 limit: car-slams-into-louisiana-lao-new-year-parade-injur_20260404_2334.html
+Cleaned old post to keep top 30 limit: people-of-burkina-faso-should-forget-about-democra_20260405_0226.html
+Cleaned old post to keep top 30 limit: storm-dave-brings-disruptive-winds-to-parts-of-uk_20260405_0226.html
+Cleaned old post to keep top 30 limit: lewandowski-claims-late-la-liga-win-for-barcelona-_20260404_2230.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US and Iran trade threats to unleash 'hell' as search for missing US airman continues
+   • Storm Dave to ease on Easter Sunday after amber alert expires
      Sources: bbc.com, cnn.com, reuters.com
-   • Storm Dave brings 'disruptive' winds to parts of UK
+   • 'Something we have never seen before': Artemis II crew describe far side of Moon
      Sources: bbc.com, cnn.com, reuters.com
-   • People of Burkina Faso should forget about democracy, says military ruler
+   • Iran says Iraqi ships can pass Strait of Hormuz as transits tick up
      Sources: bbc.com, cnn.com, reuters.com
