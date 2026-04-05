@@ -1,74 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US and Iran trade threats to unleash 'hell' as search for missing US airman continues
-  Added: Storm Dave to 'deepen' as amber wind warning sets in for parts of UK
+  Added: Storm Dave brings 'disruptive' winds to parts of UK
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Car slams into Louisiana Lao New Year parade, injuring about 15 people
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli measures tighten grip on Hebron’s Ibrahimi Mosque
-Added expanded search topic: Car slams into Louisiana Lao New Year parade, injuring about 15 people
-Added expanded search topic: Israeli measures tighten grip on Hebron’s Ibrahimi Mosque
-Still need 1 more topics, using fallback
-Found 12 unused fallback topics out of 12 total
-Added fallback topic: Tech Companies Report Strong Q4 Earnings Despite Market Volatility
-Saved 63 topics for 2026-04-04
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-04-05
 Returning 3 unique trending topics:
-  1. Car slams into Louisiana Lao New Year parade, injuring about 15 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Israeli measures tighten grip on Hebron’s Ibrahimi Mosque (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Tech Companies Report Strong Q4 Earnings Despite Market Volatility (from fallback)
+  1. US and Iran trade threats to unleash 'hell' as search for missing US airman continues (from BBC News)
+  2. Storm Dave brings 'disruptive' winds to parts of UK (from BBC News)
+  3. People of Burkina Faso should forget about democracy, says military ruler (from The Guardian)
 
-Processing trending topic: Car slams into Louisiana Lao New Year parade, injuring about 15 people
-Searching Google for: Car slams into Louisiana Lao New Year parade, injuring about 15 people
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCar%252Bslams%252Binto%252BLouisiana%252BLao%252BNew%252BYear%252Bparade%252C%252Binjuring%252Babout%252B15%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDDGO6_xs4GIjCnbGzsm4Hjc4TGL8Oquroz8o1K_HsHE3PDA2fKlZ7U6kIWSGsbvoY4gAEPJ51lA7YyBmpjbmRyUloBQw
+Processing trending topic: US and Iran trade threats to unleash 'hell' as search for missing US airman continues
+Searching Google for: US and Iran trade threats to unleash 'hell' as search for missing US airman continues
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIran%252Btrade%252Bthreats%252Bto%252Bunleash%252B%2527hell%2527%252Bas%252Bsearch%252Bfor%252Bmissing%252BUS%252Bairman%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8iGL-Qx84GIjBU2jfGFdASuPnAeohs3HTM5UjpOCjp75IqD3fEazZ4FeSTcgsNbPOmXEIyEHYuLYAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: car-slams-into-louisiana-lao-new-year-parade-injur_20260404_2334.html
-✓ Created comprehensive article: car-slams-into-louisiana-lao-new-year-parade-injur_20260404_2334.html
+Successfully created file: us-and-iran-trade-threats-to-unleash-hell-as-searc_20260405_0226.html
+✓ Created comprehensive article: us-and-iran-trade-threats-to-unleash-hell-as-searc_20260405_0226.html
 
-Processing trending topic: Israeli measures tighten grip on Hebron’s Ibrahimi Mosque
-Searching Google for: Israeli measures tighten grip on Hebron’s Ibrahimi Mosque
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bmeasures%252Btighten%252Bgrip%252Bon%252BHebron%25E2%2580%2599s%252BIbrahimi%252BMosque%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDDGPW_xs4GIjAliSgAYC3lgcmjjXOBidl-Z32IFZ5iT6hm4bdH0psQJmE__Qs1f05JUImUFn1HnXgyBmpjbmRyUloBQw
+Processing trending topic: Storm Dave brings 'disruptive' winds to parts of UK
+Searching Google for: Storm Dave brings 'disruptive' winds to parts of UK
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStorm%252BDave%252Bbrings%252B%2527disruptive%2527%252Bwinds%252Bto%252Bparts%252Bof%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8iGMaQx84GIjAgRHoGVcstlshX1Wa0lfPnnvoAZIkIKp_dAMzWPb4NKsuckOhLIVAZKjMEZyCUecsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-measures-tighten-grip-on-hebrons-ibrahimi-_20260404_2334.html
-✓ Created comprehensive article: israeli-measures-tighten-grip-on-hebrons-ibrahimi-_20260404_2334.html
+Successfully created file: storm-dave-brings-disruptive-winds-to-parts-of-uk_20260405_0226.html
+✓ Created comprehensive article: storm-dave-brings-disruptive-winds-to-parts-of-uk_20260405_0226.html
 
-Processing trending topic: Tech Companies Report Strong Q4 Earnings Despite Market Volatility
-Searching Google for: tech earnings Q4 2024
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtech%252Bearnings%252BQ4%252B2024%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDDGPu_xs4GIjCQoTmuqmULDvjO7bBJUvvhc0bwBT6jsZFooJQj4T2wqk4oYBd2-X-7UIr_lhVVmbkyBmpjbmRyUloBQw
+Processing trending topic: People of Burkina Faso should forget about democracy, says military ruler
+Searching Google for: People of Burkina Faso should forget about democracy, says military ruler
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bof%252BBurkina%252BFaso%252Bshould%252Bforget%252Babout%252Bdemocracy%252C%252Bsays%252Bmilitary%252Bruler%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-8iGMyQx84GIjBw9U4HRdit_PCht-qpFdI2Zwykgxsggn724f4WT6dMNcCmRTAAKckEgiA8Io1DTFEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tech-companies-report-strong-q4-earnings-despite-m_20260404_2334.html
-✓ Created comprehensive article: tech-companies-report-strong-q4-earnings-despite-m_20260404_2334.html
+Successfully created file: people-of-burkina-faso-should-forget-about-democra_20260405_0226.html
+✓ Created comprehensive article: people-of-burkina-faso-should-forget-about-democra_20260405_0226.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-files-emergency-motion-to-continue-building-_20260404_2230.html
-Cleaned old post to keep top 30 limit: us-and-iran-trade-threats-to-unleash-hell-as-searc_20260404_2230.html
-Cleaned old post to keep top 30 limit: how-will-pakistan-deal-with-the-fallout-from-iran-_20260404_2132.html
+Cleaned old post to keep top 30 limit: israeli-measures-tighten-grip-on-hebrons-ibrahimi-_20260404_2334.html
+Cleaned old post to keep top 30 limit: tech-companies-report-strong-q4-earnings-despite-m_20260404_2334.html
+Cleaned old post to keep top 30 limit: car-slams-into-louisiana-lao-new-year-parade-injur_20260404_2334.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Car slams into Louisiana Lao New Year parade, injuring about 15 people
+   • US and Iran trade threats to unleash 'hell' as search for missing US airman continues
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli measures tighten grip on Hebron’s Ibrahimi Mosque
+   • Storm Dave brings 'disruptive' winds to parts of UK
      Sources: bbc.com, cnn.com, reuters.com
-   • Tech Companies Report Strong Q4 Earnings Despite Market Volatility
+   • People of Burkina Faso should forget about democracy, says military ruler
      Sources: bbc.com, cnn.com, reuters.com
