@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Trump issues expletive-laden threat to Iran over Hormuz Strait blockage
   Added: How rescue of US airman in remote part of Iran unfolded
+  Added: The 40 minutes when the Artemis crew loses contact with the Earth
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People of Burkina Faso should forget about democracy, says military ruler
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-06
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: Tehran rejects Trump’s Hormuz deadline; 2 killed in Haifa
+Added expanded search topic: Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war
+Added expanded search topic: Iran war live: Tehran rejects Trump’s Hormuz deadline; 2 killed in Haifa
+Saved 6 topics for 2026-04-06
 Returning 3 unique trending topics:
-  1. Trump issues expletive-laden threat to Iran over Hormuz Strait blockage (from BBC News)
-  2. How rescue of US airman in remote part of Iran unfolded (from BBC News)
-  3. People of Burkina Faso should forget about democracy, says military ruler (from The Guardian)
+  1. The 40 minutes when the Artemis crew loses contact with the Earth (from BBC News)
+  2. Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran war live: Tehran rejects Trump’s Hormuz deadline; 2 killed in Haifa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump issues expletive-laden threat to Iran over Hormuz Strait blockage
-Searching Google for: Trump issues expletive-laden threat to Iran over Hormuz Strait blockage
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bissues%252Bexpletive-laden%252Bthreat%252Bto%252BIran%252Bover%252BHormuz%252BStrait%252Bblockage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPkGK20zM4GIjATxmkAVYLyOrup92k0pL_UHVa5_uuF3omU9RJLmYD5GFnD0JQ6Ha8Eyjx9tlyFiBAyBmpjbmRyUloBQw
+Processing trending topic: The 40 minutes when the Artemis crew loses contact with the Earth
+Searching Google for: The 40 minutes when the Artemis crew loses contact with the Earth
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252B40%252Bminutes%252Bwhen%252Bthe%252BArtemis%252Bcrew%252Bloses%252Bcontact%252Bwith%252Bthe%252BEarth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwFGIKIzc4GIjA8JMCAJcOclxR00I8_RTOTMG3zEE9T72neqhhHnwmdwdmuJzzeDs2A3V5epep_PbUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-issues-expletive-laden-threat-to-iran-over-h_20260406_0228.html
-✓ Created comprehensive article: trump-issues-expletive-laden-threat-to-iran-over-h_20260406_0228.html
+Successfully created file: the-40-minutes-when-the-artemis-crew-loses-contact_20260406_0526.html
+✓ Created comprehensive article: the-40-minutes-when-the-artemis-crew-loses-contact_20260406_0526.html
 
-Processing trending topic: How rescue of US airman in remote part of Iran unfolded
-Searching Google for: How rescue of US airman in remote part of Iran unfolded
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Brescue%252Bof%252BUS%252Bairman%252Bin%252Bremote%252Bpart%252Bof%252BIran%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPkGLS0zM4GIjDMF12_r3ep_jNlct8kxV3lRtFdTsY6dUeAKD8GXLBpvnzDUORF-VbUvMxle_U_XtIyBmpjbmRyUloBQw
+Processing trending topic: Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war
+Searching Google for: Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVietnam%25E2%2580%2599s%252Bgig%252Bworkers%252Bslammed%252Bby%252Brising%252Bfuel%252Bcosts%252Bamid%252Bfallout%252Bof%252BIran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwFGImIzc4GIjCB3oz0pkl-RfYhXK2AbvPnPf7WBCU9dS-5dSdTJPVM4qIcbfcP4eM9Vp-U4o7f_igyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-rescue-of-us-airman-in-remote-part-of-iran-unf_20260406_0228.html
-✓ Created comprehensive article: how-rescue-of-us-airman-in-remote-part-of-iran-unf_20260406_0228.html
+Successfully created file: vietnams-gig-workers-slammed-by-rising-fuel-costs-_20260406_0526.html
+✓ Created comprehensive article: vietnams-gig-workers-slammed-by-rising-fuel-costs-_20260406_0526.html
 
-Processing trending topic: People of Burkina Faso should forget about democracy, says military ruler
-Searching Google for: People of Burkina Faso should forget about democracy, says military ruler
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bof%252BBurkina%252BFaso%252Bshould%252Bforget%252Babout%252Bdemocracy%252C%252Bsays%252Bmilitary%252Bruler%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KPkGLq0zM4GIjBCi9Fbk_stS9gUj4Z5GasCG13vZbhy2Qm395q6NHBUWAbhLAbfAWzb5TXTyqV_6qwyBmpjbmRyUloBQw
+Processing trending topic: Iran war live: Tehran rejects Trump’s Hormuz deadline; 2 killed in Haifa
+Searching Google for: Iran war live: Tehran rejects Trump’s Hormuz deadline; 2 killed in Haifa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BTehran%252Brejects%252BTrump%25E2%2580%2599s%252BHormuz%252Bdeadline%253B%252B2%252Bkilled%252Bin%252BHaifa%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwFGI-Izc4GIjCu9BpQ4Pa7-L23kH4zHa6-6jHwOPa4tT-qWnDd4KhX4jyzPmhuUyUILE1Qw9G-CuMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: people-of-burkina-faso-should-forget-about-democra_20260406_0228.html
-✓ Created comprehensive article: people-of-burkina-faso-should-forget-about-democra_20260406_0228.html
+Successfully created file: iran-war-live-tehran-rejects-trumps-hormuz-deadlin_20260406_0526.html
+✓ Created comprehensive article: iran-war-live-tehran-rejects-trumps-hormuz-deadlin_20260406_0526.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: has-the-humanitarian-crisis-in-gaza-been-ignored_20260405_2335.html
-Cleaned old post to keep top 30 limit: hamas-armed-wing-says-disarmament-demands-not-acce_20260405_2335.html
-Cleaned old post to keep top 30 limit: driver-faces-impaired-driving-charges-after-lao-ne_20260405_2335.html
+Cleaned old post to keep top 30 limit: pope-warns-world-is-becoming-indifferent-to-violen_20260405_1638.html
+Cleaned old post to keep top 30 limit: people-of-burkina-faso-should-forget-about-democra_20260406_0228.html
+Cleaned old post to keep top 30 limit: how-rescue-of-us-airman-in-remote-part-of-iran-unf_20260406_0228.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump issues expletive-laden threat to Iran over Hormuz Strait blockage
+   • The 40 minutes when the Artemis crew loses contact with the Earth
      Sources: bbc.com, cnn.com, reuters.com
-   • How rescue of US airman in remote part of Iran unfolded
+   • Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war
      Sources: bbc.com, cnn.com, reuters.com
-   • People of Burkina Faso should forget about democracy, says military ruler
+   • Iran war live: Tehran rejects Trump’s Hormuz deadline; 2 killed in Haifa
      Sources: bbc.com, cnn.com, reuters.com
