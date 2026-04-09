@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: UK says Russia ran submarine operation over cables and pipelines
   Added: BBC at the site of Israeli air strikes in Beirut
-  Added: 22,000 students told to pay back 'mis-sold' maintenance loans
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Several people reported killed in fresh Israeli attacks on Lebanon
-Added expanded search topic: Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire
-Added expanded search topic: Several people reported killed in fresh Israeli attacks on Lebanon
-Saved 18 topics for 2026-04-09
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Four die, dozens rescued in attempted Channel crossing from France to UK
+Added expanded search topic: US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?
+Added expanded search topic: Four die, dozens rescued in attempted Channel crossing from France to UK
+Saved 21 topics for 2026-04-09
 Returning 3 unique trending topics:
-  1. A day in the life of a 19-year-old in ICE detention: ‘I feel that this nightmare is not going to ... (from The Guardian)
-  2. Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Several people reported killed in fresh Israeli attacks on Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK says Russia ran submarine operation over cables and pipelines (from BBC News)
+  2. US-Iran talks in Pakistan: Who’s attending, what’s on the agenda? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Four die, dozens rescued in attempted Channel crossing from France to UK (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: A day in the life of a 19-year-old in ICE detention: ‘I feel that this nightmare is not going to ...
-Searching Google for: A day in the life of a 19-year-old in ICE detention: ‘I feel that this nightmare is not going to ...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bday%252Bin%252Bthe%252Blife%252Bof%252Ba%252B19-year-old%252Bin%252BICE%252Bdetention%253A%252B%25E2%2580%2598I%252Bfeel%252Bthat%252Bthis%252Bnightmare%252Bis%252Bnot%252Bgoing%252Bto%252B...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK5wGLOp3s4GIjAGQad0AL-nnWHFGLF-5whcKEQ1t0ZLHMImAoZRShCL9ePXrae1n_LYo5cBBAjtjQAyBmpjbmRyUloBQw
+Processing trending topic: UK says Russia ran submarine operation over cables and pipelines
+Searching Google for: UK says Russia ran submarine operation over cables and pipelines
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bsays%252BRussia%252Bran%252Bsubmarine%252Boperation%252Bover%252Bcables%252Band%252Bpipelines%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfv2GLfT3s4GIjAwcMVXdzjuWpzN7AvDzX-4qbrJ1KWXsnZeihXZZNxbKEJ0Ys4JJ1ry2Y98sLnF4NIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-day-in-the-life-of-a-19-year-old-in-ice-detentio_20260409_1159.html
-✓ Created comprehensive article: a-day-in-the-life-of-a-19-year-old-in-ice-detentio_20260409_1159.html
+Successfully created file: uk-says-russia-ran-submarine-operation-over-cables_20260409_1329.html
+✓ Created comprehensive article: uk-says-russia-ran-submarine-operation-over-cables_20260409_1329.html
 
-Processing trending topic: Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire
-Searching Google for: Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BIsrael%25E2%2580%2599s%252Battacks%252Bon%252BLebanon%252Bcould%252Bcripple%252BUS-Iran%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK5wGLmp3s4GIjDKeDqRffpoTWrfpbm-Z6byEPGyNRoswMfyNGBC2ySv-vyHZVHYqPnFLy8us7I33agyBmpjbmRyUloBQw
+Processing trending topic: US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?
+Searching Google for: US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Btalks%252Bin%252BPakistan%253A%252BWho%25E2%2580%2599s%252Battending%252C%252Bwhat%25E2%2580%2599s%252Bon%252Bthe%252Bagenda%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfv2GL7T3s4GIjD7KKcTFhH5d1GThjlLnedezz22mQm7q9GvG82ZVw8NMdYeGJaKlQIWSX7b6VGatzUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-israels-attacks-on-lebanon-could-cripple-us-ir_20260409_1159.html
-✓ Created comprehensive article: why-israels-attacks-on-lebanon-could-cripple-us-ir_20260409_1159.html
+Successfully created file: us-iran-talks-in-pakistan-whos-attending-whats-on-_20260409_1329.html
+✓ Created comprehensive article: us-iran-talks-in-pakistan-whos-attending-whats-on-_20260409_1329.html
 
-Processing trending topic: Several people reported killed in fresh Israeli attacks on Lebanon
-Searching Google for: Several people reported killed in fresh Israeli attacks on Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeveral%252Bpeople%252Breported%252Bkilled%252Bin%252Bfresh%252BIsraeli%252Battacks%252Bon%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK5wGL-p3s4GIjDrnnhESRDF9qhZkuggizrVf6Y13drLPLqhIKhMwXD-t7FBFvra7lh_imt63t6qDSAyBmpjbmRyUloBQw
+Processing trending topic: Four die, dozens rescued in attempted Channel crossing from France to UK
+Searching Google for: Four die, dozens rescued in attempted Channel crossing from France to UK
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFour%252Bdie%252C%252Bdozens%252Brescued%252Bin%252Battempted%252BChannel%252Bcrossing%252Bfrom%252BFrance%252Bto%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfv2GMTT3s4GIjB3KcDMwm3y51svlrlPiws_ZRmD5WIMGjit9UJrNJxMDI3VAM5_oBmVougQA2oGmGIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: several-people-reported-killed-in-fresh-israeli-at_20260409_1200.html
-✓ Created comprehensive article: several-people-reported-killed-in-fresh-israeli-at_20260409_1200.html
+Successfully created file: four-die-dozens-rescued-in-attempted-channel-cross_20260409_1329.html
+✓ Created comprehensive article: four-die-dozens-rescued-in-attempted-channel-cross_20260409_1329.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: bbc-at-the-site-of-israeli-air-strikes-in-beirut_20260409_0909.html
-Cleaned old post to keep top 30 limit: djibouti-elections-whos-running-against-guelleh-an_20260409_1100.html
-Cleaned old post to keep top 30 limit: argentina-mps-approve-bill-allowing-mining-in-glac_20260409_1100.html
+Cleaned old post to keep top 30 limit: several-people-reported-killed-in-fresh-israeli-at_20260409_1200.html
+Cleaned old post to keep top 30 limit: three-life-terms-for-kashmirs-aasiya-andrabi-fit-i_20260409_0723.html
+Cleaned old post to keep top 30 limit: a-day-in-the-life-of-a-19-year-old-in-ice-detentio_20260409_1159.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • A day in the life of a 19-year-old in ICE detention: ‘I feel that this nightmare is not going to ...
+   • UK says Russia ran submarine operation over cables and pipelines
      Sources: bbc.com, cnn.com, reuters.com
-   • Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire
+   • US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?
      Sources: bbc.com, cnn.com, reuters.com
-   • Several people reported killed in fresh Israeli attacks on Lebanon
+   • Four die, dozens rescued in attempted Channel crossing from France to UK
      Sources: bbc.com, cnn.com, reuters.com
