@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: BBC at the site of Israeli air strikes in Beirut
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands of Palestinians pray at Al-Aqsa Mosque after Israel’s 40-day ban
-Added expanded search topic: Thousands of Palestinians pray at Al-Aqsa Mosque after Israel’s 40-day ban
-Saved 12 topics for 2026-04-09
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Argentina MPs approve bill allowing mining in glaciers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s administration trying to sell war ‘wins’ to a sceptical US public
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Djibouti elections: Who’s running against Guelleh and what’s at stake?
+Added expanded search topic: Argentina MPs approve bill allowing mining in glaciers
+Added expanded search topic: Trump’s administration trying to sell war ‘wins’ to a sceptical US public
+Added expanded search topic: Djibouti elections: Who’s running against Guelleh and what’s at stake?
+Saved 15 topics for 2026-04-09
 Returning 3 unique trending topics:
-  1. BBC at the site of Israeli air strikes in Beirut (from BBC News)
-  2. 22,000 students told to pay back 'mis-sold' maintenance loans (from BBC News)
-  3. Thousands of Palestinians pray at Al-Aqsa Mosque after Israel’s 40-day ban (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Argentina MPs approve bill allowing mining in glaciers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump’s administration trying to sell war ‘wins’ to a sceptical US public (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Djibouti elections: Who’s running against Guelleh and what’s at stake? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: BBC at the site of Israeli air strikes in Beirut
-Searching Google for: BBC at the site of Israeli air strikes in Beirut
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBBC%252Bat%252Bthe%252Bsite%252Bof%252BIsraeli%252Bair%252Bstrikes%252Bin%252BBeirut%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgkGMfZ3c4GIjB1zpdep841VoWYleWliKAbjiTcrAhf8xKOBzgHpRC3cK-a-l9oNYwetV_tMrmyr4IyBmpjbmRyUloBQw
+Processing trending topic: Argentina MPs approve bill allowing mining in glaciers
+Searching Google for: Argentina MPs approve bill allowing mining in glaciers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArgentina%252BMPs%252Bapprove%252Bbill%252Ballowing%252Bmining%252Bin%252Bglaciers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSbwGLeN3s4GIjCX9ZLtim2xfozhnYnP6g8ONUkpi0lcDQBZG5ZOP6ghslBztISzbEzWQUQejQGonLsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bbc-at-the-site-of-israeli-air-strikes-in-beirut_20260409_0909.html
-✓ Created comprehensive article: bbc-at-the-site-of-israeli-air-strikes-in-beirut_20260409_0909.html
+Successfully created file: argentina-mps-approve-bill-allowing-mining-in-glac_20260409_1100.html
+✓ Created comprehensive article: argentina-mps-approve-bill-allowing-mining-in-glac_20260409_1100.html
 
-Processing trending topic: 22,000 students told to pay back 'mis-sold' maintenance loans
-Searching Google for: 22,000 students told to pay back 'mis-sold' maintenance loans
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D22%252C000%252Bstudents%252Btold%252Bto%252Bpay%252Bback%252B%2527mis-sold%2527%252Bmaintenance%252Bloans%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgkGM7Z3c4GIjClaYk3rNjIFAur0JBMUbaF7dx9yZImuNrhPWR2ZYGfMM0K3P1GT8wI9AUiiRDeho0yBmpjbmRyUloBQw
+Processing trending topic: Trump’s administration trying to sell war ‘wins’ to a sceptical US public
+Searching Google for: Trump’s administration trying to sell war ‘wins’ to a sceptical US public
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%25E2%2580%2599s%252Badministration%252Btrying%252Bto%252Bsell%252Bwar%252B%25E2%2580%2598wins%25E2%2580%2599%252Bto%252Ba%252Bsceptical%252BUS%252Bpublic%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSbwGL-N3s4GIjDa6geh9tmj5ejfTUU_2SUeve-_KPZgIyvDS_F-UttOd9ZeyTP-hTH8RFeVmlhDLlEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 22000-students-told-to-pay-back-mis-sold-maintenan_20260409_0909.html
-✓ Created comprehensive article: 22000-students-told-to-pay-back-mis-sold-maintenan_20260409_0909.html
+Successfully created file: trumps-administration-trying-to-sell-war-wins-to-a_20260409_1100.html
+✓ Created comprehensive article: trumps-administration-trying-to-sell-war-wins-to-a_20260409_1100.html
 
-Processing trending topic: Thousands of Palestinians pray at Al-Aqsa Mosque after Israel’s 40-day ban
-Searching Google for: Thousands of Palestinians pray at Al-Aqsa Mosque after Israel’s 40-day ban
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bof%252BPalestinians%252Bpray%252Bat%252BAl-Aqsa%252BMosque%252Bafter%252BIsrael%25E2%2580%2599s%252B40-day%252Bban%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgkGNTZ3c4GIjDpisO0ZEqrKgOdmUUkEadxO3kAu3wQ4uy6Bmjo0SiI04keOBbVhcfl8YHQAe9p3iAyBmpjbmRyUloBQw
+Processing trending topic: Djibouti elections: Who’s running against Guelleh and what’s at stake?
+Searching Google for: Djibouti elections: Who’s running against Guelleh and what’s at stake?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDjibouti%252Belections%253A%252BWho%25E2%2580%2599s%252Brunning%252Bagainst%252BGuelleh%252Band%252Bwhat%25E2%2580%2599s%252Bat%252Bstake%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSbwGMWN3s4GIjBygAKLgB-yTtZLbmbeZHTRx-KC07A04ec2VFDCqywHLJei3aZ7JkKFFYLNhv0v_VEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-of-palestinians-pray-at-al-aqsa-mosque-a_20260409_0909.html
-✓ Created comprehensive article: thousands-of-palestinians-pray-at-al-aqsa-mosque-a_20260409_0909.html
+Successfully created file: djibouti-elections-whos-running-against-guelleh-an_20260409_1100.html
+✓ Created comprehensive article: djibouti-elections-whos-running-against-guelleh-an_20260409_1100.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-has-found-his-iran-off-ramp-but-at-what-cost_20260408_2143.html
-Cleaned old post to keep top 30 limit: trump-criticises-nato-as-alliance-chief-describes-_20260409_0511.html
-Cleaned old post to keep top 30 limit: the-masters-golfs-segregated-past_20260409_0723.html
+Cleaned old post to keep top 30 limit: why-my-child-yemens-taiz-mourns-snipers-killing-of_20260408_1815.html
+Cleaned old post to keep top 30 limit: thousands-of-palestinians-pray-at-al-aqsa-mosque-a_20260409_0909.html
+Cleaned old post to keep top 30 limit: 22000-students-told-to-pay-back-mis-sold-maintenan_20260409_0909.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • BBC at the site of Israeli air strikes in Beirut
+   • Argentina MPs approve bill allowing mining in glaciers
      Sources: bbc.com, cnn.com, reuters.com
-   • 22,000 students told to pay back 'mis-sold' maintenance loans
+   • Trump’s administration trying to sell war ‘wins’ to a sceptical US public
      Sources: bbc.com, cnn.com, reuters.com
-   • Thousands of Palestinians pray at Al-Aqsa Mosque after Israel’s 40-day ban
+   • Djibouti elections: Who’s running against Guelleh and what’s at stake?
      Sources: bbc.com, cnn.com, reuters.com
