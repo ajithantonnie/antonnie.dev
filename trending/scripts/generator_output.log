@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Jeremy Bowen: Ceasefire means respite for civilians, but it might not last long
-  Added: Trump criticises Nato after meeting alliance chief describes as 'very frank'
+  Added: Trump criticises Nato as alliance chief describes meeting as 'very frank'
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-09
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man rescued after two weeks trapped in collapsed Mexico mine
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump slams NATO over Iran after meeting Rutte, renews Greenland threat
+Added expanded search topic: Man rescued after two weeks trapped in collapsed Mexico mine
+Added expanded search topic: Trump slams NATO over Iran after meeting Rutte, renews Greenland threat
+Saved 6 topics for 2026-04-09
 Returning 3 unique trending topics:
-  1. Jeremy Bowen: Ceasefire means respite for civilians, but it might not last long (from BBC News)
-  2. Trump criticises Nato after meeting alliance chief describes as 'very frank' (from BBC News)
-  3. US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal (from The Guardian)
+  1. Trump criticises Nato as alliance chief describes meeting as 'very frank' (from BBC News)
+  2. Man rescued after two weeks trapped in collapsed Mexico mine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump slams NATO over Iran after meeting Rutte, renews Greenland threat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Jeremy Bowen: Ceasefire means respite for civilians, but it might not last long
-Searching Google for: Jeremy Bowen: Ceasefire means respite for civilians, but it might not last long
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJeremy%252BBowen%253A%252BCeasefire%252Bmeans%252Brespite%252Bfor%252Bcivilians%252C%252Bbut%252Bit%252Bmight%252Bnot%252Blast%252Blong%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmSGOKU3M4GIjB9iyFKIjQEV2ijb2CJGa0kCA40NdSpG7_tvUpVr39rFIqsnXfZI41DPul_u3emrbUyBmpjbmRyUloBQw
+Processing trending topic: Trump criticises Nato as alliance chief describes meeting as 'very frank'
+Searching Google for: Trump criticises Nato as alliance chief describes meeting as 'very frank'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcriticises%252BNato%252Bas%252Balliance%252Bchief%252Bdescribes%252Bmeeting%252Bas%252B%2527very%252Bfrank%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdEGODp3M4GIjDkHlamNGSeHQu08DGKdWpW_W8h_CriK-xKnDiIruvaoM5aX4dVybvpke7ePTY3iKsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jeremy-bowen-ceasefire-means-respite-for-civilians_20260409_0209.html
-✓ Created comprehensive article: jeremy-bowen-ceasefire-means-respite-for-civilians_20260409_0209.html
+Successfully created file: trump-criticises-nato-as-alliance-chief-describes-_20260409_0511.html
+✓ Created comprehensive article: trump-criticises-nato-as-alliance-chief-describes-_20260409_0511.html
 
-Processing trending topic: Trump criticises Nato after meeting alliance chief describes as 'very frank'
-Searching Google for: Trump criticises Nato after meeting alliance chief describes as 'very frank'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcriticises%252BNato%252Bafter%252Bmeeting%252Balliance%252Bchief%252Bdescribes%252Bas%252B%2527very%252Bfrank%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmSGOmU3M4GIjCXijSbBz6xeiWR_auxXHa_IVY591zIm6qza2xayQ3nnmTeOf6grQMFJxUZqYsgxb8yBmpjbmRyUloBQw
+Processing trending topic: Man rescued after two weeks trapped in collapsed Mexico mine
+Searching Google for: Man rescued after two weeks trapped in collapsed Mexico mine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Brescued%252Bafter%252Btwo%252Bweeks%252Btrapped%252Bin%252Bcollapsed%252BMexico%252Bmine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdEGOjp3M4GIjBTbK0eYwqwziSYzWBC5XDBlVmX8qt3RCJQRAgF2S6NllVOcjkWEcfAErqY9eNXpOcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-criticises-nato-after-meeting-alliance-chief_20260409_0209.html
-✓ Created comprehensive article: trump-criticises-nato-after-meeting-alliance-chief_20260409_0209.html
+Successfully created file: man-rescued-after-two-weeks-trapped-in-collapsed-m_20260409_0511.html
+✓ Created comprehensive article: man-rescued-after-two-weeks-trapped-in-collapsed-m_20260409_0511.html
 
-Processing trending topic: US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal
-Searching Google for: US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bseeks%252Bto%252Bdeport%252BKilmar%252B%25C3%2581brego%252BGarc%25C3%25ADa%252Bto%252BLiberia%252Bdespite%252Bnew%252BCosta%252BRica%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KmSGPCU3M4GIjCIyTJ51YQWrYQDyZR92TkFtksvYfTzonhQe4jax_w5Wo20IxDTdgqwUbwDha1tcekyBmpjbmRyUloBQw
+Processing trending topic: Trump slams NATO over Iran after meeting Rutte, renews Greenland threat
+Searching Google for: Trump slams NATO over Iran after meeting Rutte, renews Greenland threat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bslams%252BNATO%252Bover%252BIran%252Bafter%252Bmeeting%252BRutte%252C%252Brenews%252BGreenland%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFdEGO7p3M4GIjDSXa_I3arr9a_1it-7qhpEL-cxl0GAbEo7MpHFMVPAmpP9NSX3IGHvMYkukX0X7eIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-seeks-to-deport-kilmar-ábrego-garcía-to-liberia_20260409_0209.html
-✓ Created comprehensive article: us-seeks-to-deport-kilmar-ábrego-garcía-to-liberia_20260409_0209.html
+Successfully created file: trump-slams-nato-over-iran-after-meeting-rutte-ren_20260409_0511.html
+✓ Created comprehensive article: trump-slams-nato-over-iran-after-meeting-rutte-ren_20260409_0511.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-administration-signals-it-is-mulling-nato-wi_20260408_2340.html
-Cleaned old post to keep top 30 limit: why-it-could-take-months-for-fuel-and-food-prices-_20260408_1702.html
-Cleaned old post to keep top 30 limit: macron-welcomes-us-iran-ceasefire-and-urges-lebano_20260408_2340.html
+Cleaned old post to keep top 30 limit: who-halts-gaza-medical-evacuations-after-worker-ki_20260407_1801.html
+Cleaned old post to keep top 30 limit: us-seeks-to-deport-kilmar-ábrego-garcía-to-liberia_20260409_0209.html
+Cleaned old post to keep top 30 limit: jeremy-bowen-ceasefire-means-respite-for-civilians_20260409_0209.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Jeremy Bowen: Ceasefire means respite for civilians, but it might not last long
+   • Trump criticises Nato as alliance chief describes meeting as 'very frank'
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump criticises Nato after meeting alliance chief describes as 'very frank'
+   • Man rescued after two weeks trapped in collapsed Mexico mine
      Sources: bbc.com, cnn.com, reuters.com
-   • US seeks to deport Kilmar Ábrego García to Liberia despite new Costa Rica deal
+   • Trump slams NATO over Iran after meeting Rutte, renews Greenland threat
      Sources: bbc.com, cnn.com, reuters.com
