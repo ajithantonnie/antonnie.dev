@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 45 topics
+Already used today: 48 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The five big sticking points in US-Iran talks
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: OpenAI CEO Sam Altman’s home targeted in Molotov cocktail attack
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian delegation arrives in Islamabad for talks with US
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Islamabad on lockdown ahead of US-Iran talks
-Added expanded search topic: OpenAI CEO Sam Altman’s home targeted in Molotov cocktail attack
-Added expanded search topic: Iranian delegation arrives in Islamabad for talks with US
-Added expanded search topic: Islamabad on lockdown ahead of US-Iran talks
-Saved 48 topics for 2026-04-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hezbollah rocket attack damages 1,500-year-old Israeli church
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid hand Barcelona huge La Liga title chance after draw with Girona
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Democrat Kamala Harris teases 2028 presidential bid, following Trump loss
+Added expanded search topic: Hezbollah rocket attack damages 1,500-year-old Israeli church
+Added expanded search topic: Real Madrid hand Barcelona huge La Liga title chance after draw with Girona
+Added expanded search topic: Democrat Kamala Harris teases 2028 presidential bid, following Trump loss
+Saved 51 topics for 2026-04-10
 Returning 3 unique trending topics:
-  1. OpenAI CEO Sam Altman’s home targeted in Molotov cocktail attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Iranian delegation arrives in Islamabad for talks with US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Islamabad on lockdown ahead of US-Iran talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hezbollah rocket attack damages 1,500-year-old Israeli church (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Real Madrid hand Barcelona huge La Liga title chance after draw with Girona (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Democrat Kamala Harris teases 2028 presidential bid, following Trump loss (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: OpenAI CEO Sam Altman’s home targeted in Molotov cocktail attack
-Searching Google for: OpenAI CEO Sam Altman’s home targeted in Molotov cocktail attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%252BCEO%252BSam%252BAltman%25E2%2580%2599s%252Bhome%252Btargeted%252Bin%252BMolotov%252Bcocktail%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzZGOb55c4GIjDT_DQafJbYv8NVsEhrpCXovrM6O3UEgLMWli6SBXlq5ZhgdLf4ekq9d20noqdj0pcyBmpjbmRyUloBQw
+Processing trending topic: Hezbollah rocket attack damages 1,500-year-old Israeli church
+Searching Google for: Hezbollah rocket attack damages 1,500-year-old Israeli church
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHezbollah%252Brocket%252Battack%252Bdamages%252B1%252C500-year-old%252BIsraeli%252Bchurch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iiGOCT5s4GIjAPARYAvwXwui47j6JTb5ZtiK3y9eLi_Z7-iRAkBCOfWjqZX7JvlZc8jny4NlSSlpYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: openai-ceo-sam-altmans-home-targeted-in-molotov-co_20260410_2242.html
-✓ Created comprehensive article: openai-ceo-sam-altmans-home-targeted-in-molotov-co_20260410_2242.html
+Successfully created file: hezbollah-rocket-attack-damages-1500-year-old-isra_20260410_2338.html
+✓ Created comprehensive article: hezbollah-rocket-attack-damages-1500-year-old-isra_20260410_2338.html
 
-Processing trending topic: Iranian delegation arrives in Islamabad for talks with US
-Searching Google for: Iranian delegation arrives in Islamabad for talks with US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bdelegation%252Barrives%252Bin%252BIslamabad%252Bfor%252Btalks%252Bwith%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzZGO355c4GIjBRrbmk6PGh3KMGuVGnYXoYDhhaueY8YDRJg1tOyFfs57kNUHdoAbtZ9ZAuQ5gQ7LIyBmpjbmRyUloBQw
+Processing trending topic: Real Madrid hand Barcelona huge La Liga title chance after draw with Girona
+Searching Google for: Real Madrid hand Barcelona huge La Liga title chance after draw with Girona
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bhand%252BBarcelona%252Bhuge%252BLa%252BLiga%252Btitle%252Bchance%252Bafter%252Bdraw%252Bwith%252BGirona%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iiGOeT5s4GIjC_Ir6JttCpFsiir2FcqHvWDXh1hbIo703eGrPuaMLCY8zCu_A11PtR-iMH4TkYrMEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iranian-delegation-arrives-in-islamabad-for-talks-_20260410_2242.html
-✓ Created comprehensive article: iranian-delegation-arrives-in-islamabad-for-talks-_20260410_2242.html
+Successfully created file: real-madrid-hand-barcelona-huge-la-liga-title-chan_20260410_2338.html
+✓ Created comprehensive article: real-madrid-hand-barcelona-huge-la-liga-title-chan_20260410_2338.html
 
-Processing trending topic: Islamabad on lockdown ahead of US-Iran talks
-Searching Google for: Islamabad on lockdown ahead of US-Iran talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIslamabad%252Bon%252Blockdown%252Bahead%252Bof%252BUS-Iran%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzZGPT55c4GIjB5r8IMOtsWcDPGf4SII-os3UbFS-2vF6RWSH5NyjgBQppa669VlY295BTbSY_j7VcyBmpjbmRyUloBQw
+Processing trending topic: Democrat Kamala Harris teases 2028 presidential bid, following Trump loss
+Searching Google for: Democrat Kamala Harris teases 2028 presidential bid, following Trump loss
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDemocrat%252BKamala%252BHarris%252Bteases%252B2028%252Bpresidential%252Bbid%252C%252Bfollowing%252BTrump%252Bloss%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iiGO2T5s4GIjBreJnXYtTng_kEc9YfWTC3_lpjceuV9j3hLvFoinBRUYM94_UbDEgEqs4XSijlrvUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: islamabad-on-lockdown-ahead-of-us-iran-talks_20260410_2243.html
-✓ Created comprehensive article: islamabad-on-lockdown-ahead-of-us-iran-talks_20260410_2243.html
+Successfully created file: democrat-kamala-harris-teases-2028-presidential-bi_20260410_2338.html
+✓ Created comprehensive article: democrat-kamala-harris-teases-2028-presidential-bi_20260410_2338.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: nasas-artemis-ii-prepares-for-splashdown-on-earth_20260410_2140.html
-Cleaned old post to keep top 30 limit: muslims-hold-first-friday-prayers-at-al-aqsa-mosqu_20260410_2140.html
-Cleaned old post to keep top 30 limit: melania-trump-denies-ties-to-jeffrey-epstein-and-u_20260409_2242.html
+Cleaned old post to keep top 30 limit: islamabad-on-lockdown-ahead-of-us-iran-talks_20260410_2243.html
+Cleaned old post to keep top 30 limit: openai-ceo-sam-altmans-home-targeted-in-molotov-co_20260410_2242.html
+Cleaned old post to keep top 30 limit: iranian-delegation-arrives-in-islamabad-for-talks-_20260410_2242.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • OpenAI CEO Sam Altman’s home targeted in Molotov cocktail attack
+   • Hezbollah rocket attack damages 1,500-year-old Israeli church
      Sources: bbc.com, cnn.com, reuters.com
-   • Iranian delegation arrives in Islamabad for talks with US
+   • Real Madrid hand Barcelona huge La Liga title chance after draw with Girona
      Sources: bbc.com, cnn.com, reuters.com
-   • Islamabad on lockdown ahead of US-Iran talks
+   • Democrat Kamala Harris teases 2028 presidential bid, following Trump loss
      Sources: bbc.com, cnn.com, reuters.com
