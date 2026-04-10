@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Man jailed for killing abused wife who jumped from bridge
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Wild chimpanzees recorded waging ‘civil war’ with coordinated attacks between two groups
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel strikes residential areas, destroys homes in southern Lebanon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Senegal PM labels Trump ‘agent of global destabilisation’
-Added expanded search topic: Israel strikes residential areas, destroys homes in southern Lebanon
-Added expanded search topic: Senegal PM labels Trump ‘agent of global destabilisation’
-Saved 15 topics for 2026-04-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza families still unable to bury dead six months into ‘ceasefire’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will Israel and Lebanon start ceasefire talks?
+Added expanded search topic: Gaza families still unable to bury dead six months into ‘ceasefire’
+Added expanded search topic: Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi
+Added expanded search topic: Will Israel and Lebanon start ceasefire talks?
+Saved 18 topics for 2026-04-10
 Returning 3 unique trending topics:
-  1. Man jailed for killing abused wife who jumped from bridge (from BBC News)
-  2. Israel strikes residential areas, destroys homes in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Senegal PM labels Trump ‘agent of global destabilisation’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Gaza families still unable to bury dead six months into ‘ceasefire’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Will Israel and Lebanon start ceasefire talks? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man jailed for killing abused wife who jumped from bridge
-Searching Google for: Man jailed for killing abused wife who jumped from bridge
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bjailed%252Bfor%252Bkilling%252Babused%252Bwife%252Bwho%252Bjumped%252Bfrom%252Bbridge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3qSGJSu484GIjDMMSbYcGS3noDyOE6nF1OLa-xi3Tz9NNsrpyrdcx5FQCqn4XXqhpc27u6jKjYwvygyBmpjbmRyUloBQw
+Processing trending topic: Gaza families still unable to bury dead six months into ‘ceasefire’
+Searching Google for: Gaza families still unable to bury dead six months into ‘ceasefire’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Bfamilies%252Bstill%252Bunable%252Bto%252Bbury%252Bdead%252Bsix%252Bmonths%252Binto%252B%25E2%2580%2598ceasefire%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVzGNzH484GIjBqUHmSjTRZ0FT8bTgrmrbSZeA0X0XxremB9hu5nQBHvYnfaqJB_bcyusQpPxu-kNIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-jailed-for-killing-abused-wife-who-jumped-from_20260410_1055.html
-✓ Created comprehensive article: man-jailed-for-killing-abused-wife-who-jumped-from_20260410_1055.html
+Successfully created file: gaza-families-still-unable-to-bury-dead-six-months_20260410_1149.html
+✓ Created comprehensive article: gaza-families-still-unable-to-bury-dead-six-months_20260410_1149.html
 
-Processing trending topic: Israel strikes residential areas, destroys homes in southern Lebanon
-Searching Google for: Israel strikes residential areas, destroys homes in southern Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bstrikes%252Bresidential%252Bareas%252C%252Bdestroys%252Bhomes%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3qSGJuu484GIjD-nZF6ZaetOfBEmmq5dKWO3AzGonNOqfb8mEz_VVTmC11l93pmd67jDS8a5rAcN3QyBmpjbmRyUloBQw
+Processing trending topic: Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi
+Searching Google for: Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTaiwan%252Bopposition%252Bleader%252Bcalls%252Bfor%252B%25E2%2580%2598reconciliation%25E2%2580%2599%252Bafter%252Bmeeting%252BXi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVzGOPH484GIjA8axBwrfDzFzvmHq8_5Y94gebm7I7IdUTmcFklDempstuatI-wcM7AXIiff6SpQbkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-strikes-residential-areas-destroys-homes-in_20260410_1055.html
-✓ Created comprehensive article: israel-strikes-residential-areas-destroys-homes-in_20260410_1055.html
+Successfully created file: taiwan-opposition-leader-calls-for-reconciliation-_20260410_1149.html
+✓ Created comprehensive article: taiwan-opposition-leader-calls-for-reconciliation-_20260410_1149.html
 
-Processing trending topic: Senegal PM labels Trump ‘agent of global destabilisation’
-Searching Google for: Senegal PM labels Trump ‘agent of global destabilisation’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSenegal%252BPM%252Blabels%252BTrump%252B%25E2%2580%2598agent%252Bof%252Bglobal%252Bdestabilisation%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3qSGKGu484GIjB9goHe74J20eR2Ta2V1Ndv8NWNAWAkPteMHtxLhyz6XEuO7V8UKrT8JlF5_18NWpUyBmpjbmRyUloBQw
+Processing trending topic: Will Israel and Lebanon start ceasefire talks?
+Searching Google for: Will Israel and Lebanon start ceasefire talks?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BIsrael%252Band%252BLebanon%252Bstart%252Bceasefire%252Btalks%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVzGOnH484GIjDYdTRPYjXVUuUnd-gYOfqDEoxduYjFHCe3CxQB8Tufkxu9BaXLIJ0L-q9MYn9Q3XIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: senegal-pm-labels-trump-agent-of-global-destabilis_20260410_1055.html
-✓ Created comprehensive article: senegal-pm-labels-trump-agent-of-global-destabilis_20260410_1055.html
+Successfully created file: will-israel-and-lebanon-start-ceasefire-talks_20260410_1150.html
+✓ Created comprehensive article: will-israel-and-lebanon-start-ceasefire-talks_20260410_1150.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tyson-fury-insists-hes-still-got-it-ahead-of-makhm_20260410_0728.html
-Cleaned old post to keep top 30 limit: russia-and-ukraine-agree-to-32-hour-orthodox-easte_20260410_0909.html
-Cleaned old post to keep top 30 limit: djibouti-votes-as-long-time-leader-seeks-sixth-pre_20260410_0909.html
+Cleaned old post to keep top 30 limit: why-an-attack-on-bushehr-nuclear-plant-would-be-ca_20260405_1534.html
+Cleaned old post to keep top 30 limit: israel-strikes-residential-areas-destroys-homes-in_20260410_1055.html
+Cleaned old post to keep top 30 limit: iran-ceasefire-not-an-off-ramp-for-the-us-but-a-li_20260410_0909.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man jailed for killing abused wife who jumped from bridge
+   • Gaza families still unable to bury dead six months into ‘ceasefire’
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel strikes residential areas, destroys homes in southern Lebanon
+   • Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi
      Sources: bbc.com, cnn.com, reuters.com
-   • Senegal PM labels Trump ‘agent of global destabilisation’
+   • Will Israel and Lebanon start ceasefire talks?
      Sources: bbc.com, cnn.com, reuters.com
