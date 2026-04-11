@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry sued for defamation by charity he co-founded
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: “Diplomacy is not an event, it’s a process, it takes time.”
-Added expanded search topic: “Diplomacy is not an event, it’s a process, it takes time.”
-Saved 54 topics for 2026-04-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US President Trump says US ‘wins’ regardless of how Iran talks go
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pope Leo urges world leaders to reject war and negotiate peace
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iraqi parliament elects new president
+Added expanded search topic: US President Trump says US ‘wins’ regardless of how Iran talks go
+Added expanded search topic: Pope Leo urges world leaders to reject war and negotiate peace
+Added expanded search topic: Iraqi parliament elects new president
+Saved 57 topics for 2026-04-11
 Returning 3 unique trending topics:
-  1. 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston (from BBC News)
-  2. Eamonn Holmes recovering in hospital after stroke (from BBC News)
-  3. “Diplomacy is not an event, it’s a process, it takes time.” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US President Trump says US ‘wins’ regardless of how Iran talks go (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Pope Leo urges world leaders to reject war and negotiate peace (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iraqi parliament elects new president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
-Searching Google for: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527It%2527s%252Ba%252Bspecial%252Bthing%252Bto%252Bbe%252Bon%252BPlanet%252BEarth%2527%253A%252BArtemis%252Bcrew%252Bwelcomed%252Bhome%252Bin%252BHouston%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGWzGJj86s4GIjATqV4sY5VcYFh-ZYcvTWCqIHg3JnjNYCRH4vvGkgcTGD5N5XunjwXKZa_3xxbmys0yAnJSWgFD
+Processing trending topic: US President Trump says US ‘wins’ regardless of how Iran talks go
+Searching Google for: US President Trump says US ‘wins’ regardless of how Iran talks go
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BPresident%252BTrump%252Bsays%252BUS%252B%25E2%2580%2598wins%25E2%2580%2599%252Bregardless%252Bof%252Bhow%252BIran%252Btalks%252Bgo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bEGMCY684GIjDxbdYRtunVzA-y7bcqlFZsRe4Ce3KI7TN84RkwIf_N6O5boDwxDLjMWK7aaNZrQFsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-a-special-thing-to-be-on-planet-earth-artemis-_20260411_2133.html
-✓ Created comprehensive article: its-a-special-thing-to-be-on-planet-earth-artemis-_20260411_2133.html
+Successfully created file: us-president-trump-says-us-wins-regardless-of-how-_20260411_2233.html
+✓ Created comprehensive article: us-president-trump-says-us-wins-regardless-of-how-_20260411_2233.html
 
-Processing trending topic: Eamonn Holmes recovering in hospital after stroke
-Searching Google for: Eamonn Holmes recovering in hospital after stroke
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEamonn%252BHolmes%252Brecovering%252Bin%252Bhospital%252Bafter%252Bstroke%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGWzGJ_86s4GIjDT9pJXCzoiJtdaNxx-wA0CZ8IurpQ0xhRDRqF4nk66ll91Po9VDhGDKfb_HafK4wAyAnJSWgFD
+Processing trending topic: Pope Leo urges world leaders to reject war and negotiate peace
+Searching Google for: Pope Leo urges world leaders to reject war and negotiate peace
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPope%252BLeo%252Burges%252Bworld%252Bleaders%252Bto%252Breject%252Bwar%252Band%252Bnegotiate%252Bpeace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bEGMaY684GIjDaiF2YNSurlqhrQFukSNV8YG02Dq1wBFXibldNhFirRcIA6hiz4CTTEIp4mxGfCJ4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eamonn-holmes-recovering-in-hospital-after-stroke_20260411_2133.html
-✓ Created comprehensive article: eamonn-holmes-recovering-in-hospital-after-stroke_20260411_2133.html
+Successfully created file: pope-leo-urges-world-leaders-to-reject-war-and-neg_20260411_2233.html
+✓ Created comprehensive article: pope-leo-urges-world-leaders-to-reject-war-and-neg_20260411_2233.html
 
-Processing trending topic: “Diplomacy is not an event, it’s a process, it takes time.”
-Searching Google for: “Diplomacy is not an event, it’s a process, it takes time.”
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%259CDiplomacy%252Bis%252Bnot%252Ban%252Bevent%252C%252Bit%25E2%2580%2599s%252Ba%252Bprocess%252C%252Bit%252Btakes%252Btime.%25E2%2580%259D%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGWzGKX86s4GIjCo6-JkWL1pX-T7dT4Hjz1NuPwVeffFfkeuC50Dw46UYIrUJfzesAXjTc1G5DSFN2kyAnJSWgFD
+Processing trending topic: Iraqi parliament elects new president
+Searching Google for: Iraqi parliament elects new president
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIraqi%252Bparliament%252Belects%252Bnew%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bEGM2Y684GIjBLhMjCqpz9g78zaIPLmAJdHTEzSHRTEctSSsK84Gztt-m77syrW3XQED6SS4BJ9YYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: diplomacy-is-not-an-event-its-a-process-it-takes-t_20260411_2133.html
-✓ Created comprehensive article: diplomacy-is-not-an-event-its-a-process-it-takes-t_20260411_2133.html
+Successfully created file: iraqi-parliament-elects-new-president_20260411_2233.html
+✓ Created comprehensive article: iraqi-parliament-elects-new-president_20260411_2233.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: irans-deputy-fm-says-tehran-has-upper-hand-in-talk_20260411_2035.html
-Cleaned old post to keep top 30 limit: us-says-two-naval-ships-transited-strait-of-hormuz_20260411_2035.html
-Cleaned old post to keep top 30 limit: families-gather-to-mourn-victims-of-deadly-shootin_20260411_2035.html
+Cleaned old post to keep top 30 limit: whats-at-stake-in-benins-presidential-election_20260411_0941.html
+Cleaned old post to keep top 30 limit: eamonn-holmes-recovering-in-hospital-after-stroke_20260411_2133.html
+Cleaned old post to keep top 30 limit: diplomacy-is-not-an-event-its-a-process-it-takes-t_20260411_2133.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
+   • US President Trump says US ‘wins’ regardless of how Iran talks go
      Sources: bbc.com, cnn.com, reuters.com
-   • Eamonn Holmes recovering in hospital after stroke
+   • Pope Leo urges world leaders to reject war and negotiate peace
      Sources: bbc.com, cnn.com, reuters.com
-   • “Diplomacy is not an event, it’s a process, it takes time.”
+   • Iraqi parliament elects new president
      Sources: bbc.com, cnn.com, reuters.com
