@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Artemis crew home safely after completing historic mission to the Moon
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry sued for defamation by charity he co-founded
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week
-Added expanded search topic: Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week
-Saved 15 topics for 2026-04-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s at stake in Benin’s presidential election?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least seven Palestinians killed in Israeli attacks on Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli drone attack kills Palestinians near Gaza mosque
+Added expanded search topic: What’s at stake in Benin’s presidential election?
+Added expanded search topic: At least seven Palestinians killed in Israeli attacks on Gaza
+Added expanded search topic: Israeli drone attack kills Palestinians near Gaza mosque
+Saved 18 topics for 2026-04-11
 Returning 3 unique trending topics:
-  1. Artemis crew home safely after completing historic mission to the Moon (from BBC News)
-  2. Lyse Doucet: Historic US-Iran talks must bridge deep distrust (from BBC News)
-  3. Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. What’s at stake in Benin’s presidential election? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. At least seven Palestinians killed in Israeli attacks on Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli drone attack kills Palestinians near Gaza mosque (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Artemis crew home safely after completing historic mission to the Moon
-Searching Google for: Artemis crew home safely after completing historic mission to the Moon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArtemis%252Bcrew%252Bhome%252Bsafely%252Bafter%252Bcompleting%252Bhistoric%252Bmission%252Bto%252Bthe%252BMoon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CAGOqT6M4GIjBCW5XGdzDy0k7eL7EsrSreXYqchr3TKBHL1q2CEKbxcCSO_NXMOSCS01AhbqaSRckyBmpjbmRyUloBQw
+Processing trending topic: What’s at stake in Benin’s presidential election?
+Searching Google for: What’s at stake in Benin’s presidential election?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bat%252Bstake%252Bin%252BBenin%25E2%2580%2599s%252Bpresidential%252Belection%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoFGMau6M4GIjBHjuiR_xn264tO9aTS6MKiNpnnmqzqtfHK_-vZbg93vuPOvkLDiEteidxE9PSfZk0yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: artemis-crew-home-safely-after-completing-historic_20260411_0844.html
-✓ Created comprehensive article: artemis-crew-home-safely-after-completing-historic_20260411_0844.html
+Successfully created file: whats-at-stake-in-benins-presidential-election_20260411_0941.html
+✓ Created comprehensive article: whats-at-stake-in-benins-presidential-election_20260411_0941.html
 
-Processing trending topic: Lyse Doucet: Historic US-Iran talks must bridge deep distrust
-Searching Google for: Lyse Doucet: Historic US-Iran talks must bridge deep distrust
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLyse%252BDoucet%253A%252BHistoric%252BUS-Iran%252Btalks%252Bmust%252Bbridge%252Bdeep%252Bdistrust%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CAGPGT6M4GIjBkk6cAB5LVaILADotO15ahV4-c1WcSnr4tzlxA1BbB3Sl6cCyL9Yw4NvsFX6zxyugyBmpjbmRyUloBQw
+Processing trending topic: At least seven Palestinians killed in Israeli attacks on Gaza
+Searching Google for: At least seven Palestinians killed in Israeli attacks on Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252Bseven%252BPalestinians%252Bkilled%252Bin%252BIsraeli%252Battacks%252Bon%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoFGM2u6M4GIjBhKY00k2JNZW5gL_FL48vUemBx9EtHfeDhAvn82JJb91V2aTDpbC0nzTRDMME4QBkyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lyse-doucet-historic-us-iran-talks-must-bridge-dee_20260411_0844.html
-✓ Created comprehensive article: lyse-doucet-historic-us-iran-talks-must-bridge-dee_20260411_0844.html
+Successfully created file: at-least-seven-palestinians-killed-in-israeli-atta_20260411_0941.html
+✓ Created comprehensive article: at-least-seven-palestinians-killed-in-israeli-atta_20260411_0941.html
 
-Processing trending topic: Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week
-Searching Google for: Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Brejects%252Bceasefire%252Bwith%252BHezbollah%252Bahead%252Bof%252BLebanon%252Btalks%252Bnext%252Bweek%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6CAGPeT6M4GIjAOwU32BVylqe-uTCCW5SkgsQLZ6WvpUARAo0GmAtfgrauY-zA9H1P_KVZGBFYvvBYyBmpjbmRyUloBQw
+Processing trending topic: Israeli drone attack kills Palestinians near Gaza mosque
+Searching Google for: Israeli drone attack kills Palestinians near Gaza mosque
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bdrone%252Battack%252Bkills%252BPalestinians%252Bnear%252BGaza%252Bmosque%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DoFGNOu6M4GIjDAVTmq6R5RcuENueWDM-CNldT2ZeBuWh8oDmPKZQfJtwEhyzdwDFF2wTfbQyrrghUyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-rejects-ceasefire-with-hezbollah-ahead-of-l_20260411_0844.html
-✓ Created comprehensive article: israel-rejects-ceasefire-with-hezbollah-ahead-of-l_20260411_0844.html
+Successfully created file: israeli-drone-attack-kills-palestinians-near-gaza-_20260411_0941.html
+✓ Created comprehensive article: israeli-drone-attack-kills-palestinians-near-gaza-_20260411_0941.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: wild-chimpanzees-recorded-waging-civil-war-with-co_20260409_1908.html
-Cleaned old post to keep top 30 limit: nasas-artemis-ii-astronauts-splash-down-on-earth-a_20260411_0716.html
-Cleaned old post to keep top 30 limit: djiboutis-president-guelleh-wins-sixth-straight-te_20260411_0716.html
+Cleaned old post to keep top 30 limit: israel-rejects-ceasefire-with-hezbollah-ahead-of-l_20260411_0844.html
+Cleaned old post to keep top 30 limit: lyse-doucet-historic-us-iran-talks-must-bridge-dee_20260411_0844.html
+Cleaned old post to keep top 30 limit: artemis-crew-home-safely-after-completing-historic_20260411_0844.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Artemis crew home safely after completing historic mission to the Moon
+   • What’s at stake in Benin’s presidential election?
      Sources: bbc.com, cnn.com, reuters.com
-   • Lyse Doucet: Historic US-Iran talks must bridge deep distrust
+   • At least seven Palestinians killed in Israeli attacks on Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel rejects ceasefire with Hezbollah ahead of Lebanon talks next week
+   • Israeli drone attack kills Palestinians near Gaza mosque
      Sources: bbc.com, cnn.com, reuters.com
