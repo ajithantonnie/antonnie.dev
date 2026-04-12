@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 57 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
@@ -9,63 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry sued for defamation by charity he co-founded
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Has Israeli society become conditioned to permanent war?
-Added expanded search topic: Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua
-Added expanded search topic: Has Israeli society become conditioned to permanent war?
-Saved 60 topics for 2026-04-11
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-04-12
 Returning 3 unique trending topics:
-  1. More than 500 arrests at Palestine Action protest (from BBC News)
-  2. Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Has Israeli society become conditioned to permanent war? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston (from BBC News)
+  2. More than 500 arrests at Palestine Action protest (from BBC News)
+  3. Prince Harry sued for defamation by charity he co-founded (from The Guardian)
+
+Processing trending topic: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
+Searching Google for: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527It%2527s%252Ba%252Bspecial%252Bthing%252Bto%252Bbe%252Bon%252BPlanet%252BEarth%2527%253A%252BArtemis%252Bcrew%252Bwelcomed%252Bhome%252Bin%252BHouston%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncRGLqH7M4GIjAsaN_zeCi9sV2eFDmScuzzqd5AGHnYQ62X0csmC8M_El8-Uo_8D1xcJJel1pAhwnEyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: its-a-special-thing-to-be-on-planet-earth-artemis-_20260412_0230.html
+✓ Created comprehensive article: its-a-special-thing-to-be-on-planet-earth-artemis-_20260412_0230.html
 
 Processing trending topic: More than 500 arrests at Palestine Action protest
 Searching Google for: More than 500 arrests at Palestine Action protest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B500%252Barrests%252Bat%252BPalestine%252BAction%252Bprotest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrJ4BGKG1684GIjBH8RDWkRSATaILxzYwrP5lZ2JYU1fgQhsLSlXeX4kDA7zr5LM71mVulQttzCE6ayMyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B500%252Barrests%252Bat%252BPalestine%252BAction%252Bprotest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncRGMGH7M4GIjAaB3KrDF12Ois1DB-La5g35vd9u1IMG6LJJ8FV_BqlzNayw9MZ4Hwr8GmcV9D_qa4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-500-arrests-at-palestine-action-protest_20260411_2335.html
-✓ Created comprehensive article: more-than-500-arrests-at-palestine-action-protest_20260411_2335.html
+Successfully created file: more-than-500-arrests-at-palestine-action-protest_20260412_0230.html
+✓ Created comprehensive article: more-than-500-arrests-at-palestine-action-protest_20260412_0230.html
 
-Processing trending topic: Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua
-Searching Google for: Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFury%252Bbeats%252BMakhmudov%252Bin%252Bheavyweight%252Bboxing%252Bcomeback%252C%252Bthen%252Bcalls%252Bout%252BJoshua%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrJ4BGKi1684GIjC7CuJ-MXQJxsK2Q4O2fGLb02K30tkigkwNKyyX9WdRpi8pO75DrrN0VkVg49rANlgyBmpjbmRyUloBQw
+Processing trending topic: Prince Harry sued for defamation by charity he co-founded
+Searching Google for: Prince Harry sued for defamation by charity he co-founded
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Bsued%252Bfor%252Bdefamation%252Bby%252Bcharity%252Bhe%252Bco-founded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncRGMeH7M4GIjBPkOPgduGfDeB0Q5fPRe0dNU57Farsg5xvyFfjgi8r_OduqcykiNDtjvLfHW-2LlQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fury-beats-makhmudov-in-heavyweight-boxing-comebac_20260411_2335.html
-✓ Created comprehensive article: fury-beats-makhmudov-in-heavyweight-boxing-comebac_20260411_2335.html
-
-Processing trending topic: Has Israeli society become conditioned to permanent war?
-Searching Google for: Has Israeli society become conditioned to permanent war?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHas%252BIsraeli%252Bsociety%252Bbecome%252Bconditioned%252Bto%252Bpermanent%252Bwar%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrJ4BGK61684GIjDVL98dpQ0nCS-QljjHvK5AYG2IHek-AnVH30IZtUI76le4w_CGQIBFZ7lCgAt5FYQyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: has-israeli-society-become-conditioned-to-permanen_20260411_2335.html
-✓ Created comprehensive article: has-israeli-society-become-conditioned-to-permanen_20260411_2335.html
+Successfully created file: prince-harry-sued-for-defamation-by-charity-he-co-_20260412_0230.html
+✓ Created comprehensive article: prince-harry-sued-for-defamation-by-charity-he-co-_20260412_0230.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pope-leo-urges-world-leaders-to-reject-war-and-neg_20260411_2233.html
-Cleaned old post to keep top 30 limit: us-president-trump-says-us-wins-regardless-of-how-_20260411_2233.html
-Cleaned old post to keep top 30 limit: iraqi-parliament-elects-new-president_20260411_2233.html
+Cleaned old post to keep top 30 limit: vigil-held-in-madrid-for-victims-of-israeli-strike_20260411_1845.html
+Cleaned old post to keep top 30 limit: has-israeli-society-become-conditioned-to-permanen_20260411_2335.html
+Cleaned old post to keep top 30 limit: fury-beats-makhmudov-in-heavyweight-boxing-comebac_20260411_2335.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston
+     Sources: bbc.com, cnn.com, reuters.com
    • More than 500 arrests at Palestine Action protest
      Sources: bbc.com, cnn.com, reuters.com
-   • Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua
-     Sources: bbc.com, cnn.com, reuters.com
-   • Has Israeli society become conditioned to permanent war?
+   • Prince Harry sued for defamation by charity he co-founded
      Sources: bbc.com, cnn.com, reuters.com
