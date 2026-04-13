@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Southport killer's parents failed in 'moral duty' to report son, public inquiry finds
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Chagos Islands treaty is now ‘impossible to agree at political level’, UK minister says
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bernie Sanders vows to push resolution to block US weapons to Israel
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazilian ex-intelligence chief detained by US immigration authorities
-Added expanded search topic: Bernie Sanders vows to push resolution to block US weapons to Israel
-Added expanded search topic: Brazilian ex-intelligence chief detained by US immigration authorities
-Saved 30 topics for 2026-04-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel kills three Palestinians in separate Gaza strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Philippines accuses China of using cyanide to poison South China Sea atoll
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Colombia to cull hippo population founded by drug lord
+Added expanded search topic: Israel kills three Palestinians in separate Gaza strikes
+Added expanded search topic: Philippines accuses China of using cyanide to poison South China Sea atoll
+Added expanded search topic: Colombia to cull hippo population founded by drug lord
+Saved 33 topics for 2026-04-13
 Returning 3 unique trending topics:
-  1. Chagos Islands treaty is now ‘impossible to agree at political level’, UK minister says (from The Guardian)
-  2. Bernie Sanders vows to push resolution to block US weapons to Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Brazilian ex-intelligence chief detained by US immigration authorities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel kills three Palestinians in separate Gaza strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Philippines accuses China of using cyanide to poison South China Sea atoll (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Colombia to cull hippo population founded by drug lord (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Chagos Islands treaty is now ‘impossible to agree at political level’, UK minister says
-Searching Google for: Chagos Islands treaty is now ‘impossible to agree at political level’, UK minister says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChagos%252BIslands%252Btreaty%252Bis%252Bnow%252B%25E2%2580%2598impossible%252Bto%252Bagree%252Bat%252Bpolitical%252Blevel%25E2%2580%2599%252C%252BUK%252Bminister%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-RGKKx9c4GIjDzbQhDe_bQ_Jf_sfjFKFS8mU1pZa2D4VLBaHS380UxLwEbMug1z62IFtAOJLpSLxkyBmpjbmRyUloBQw
+Processing trending topic: Israel kills three Palestinians in separate Gaza strikes
+Searching Google for: Israel kills three Palestinians in separate Gaza strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bkills%252Bthree%252BPalestinians%252Bin%252Bseparate%252BGaza%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUazGPrJ9c4GIjBN1qthKTtIlgHswGvXZabAxQG3cvJJ2vvSiD1aX3e0HiCZaj43EQscu_FHduWwWksyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chagos-islands-treaty-is-now-impossible-to-agree-a_20260413_2057.html
-✓ Created comprehensive article: chagos-islands-treaty-is-now-impossible-to-agree-a_20260413_2057.html
+Successfully created file: israel-kills-three-palestinians-in-separate-gaza-s_20260413_2149.html
+✓ Created comprehensive article: israel-kills-three-palestinians-in-separate-gaza-s_20260413_2149.html
 
-Processing trending topic: Bernie Sanders vows to push resolution to block US weapons to Israel
-Searching Google for: Bernie Sanders vows to push resolution to block US weapons to Israel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBernie%252BSanders%252Bvows%252Bto%252Bpush%252Bresolution%252Bto%252Bblock%252BUS%252Bweapons%252Bto%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-RGKmx9c4GIjAkRuTdcbU8wPU7LKhJWupMVy8Lw8acucl-Gmz0mNO2SmPvtQ9k8QsYW3T4udvAczAyBmpjbmRyUloBQw
+Processing trending topic: Philippines accuses China of using cyanide to poison South China Sea atoll
+Searching Google for: Philippines accuses China of using cyanide to poison South China Sea atoll
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPhilippines%252Baccuses%252BChina%252Bof%252Busing%252Bcyanide%252Bto%252Bpoison%252BSouth%252BChina%252BSea%252Batoll%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUazGIHK9c4GIjCn87UJusM9CiCd8VTzBddgqQSF-dm0wq_bJ4iQGiPGwxEhdDezObGOO69SsCcohPMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bernie-sanders-vows-to-push-resolution-to-block-us_20260413_2057.html
-✓ Created comprehensive article: bernie-sanders-vows-to-push-resolution-to-block-us_20260413_2057.html
+Successfully created file: philippines-accuses-china-of-using-cyanide-to-pois_20260413_2149.html
+✓ Created comprehensive article: philippines-accuses-china-of-using-cyanide-to-pois_20260413_2149.html
 
-Processing trending topic: Brazilian ex-intelligence chief detained by US immigration authorities
-Searching Google for: Brazilian ex-intelligence chief detained by US immigration authorities
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazilian%252Bex-intelligence%252Bchief%252Bdetained%252Bby%252BUS%252Bimmigration%252Bauthorities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-RGLCx9c4GIjCZfMUgYuaosl6LTfFxqm1ubejb7rJfZ1c5A1tYuXT1BxK8mmRYvuSY0awgg0la7LkyBmpjbmRyUloBQw
+Processing trending topic: Colombia to cull hippo population founded by drug lord
+Searching Google for: Colombia to cull hippo population founded by drug lord
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DColombia%252Bto%252Bcull%252Bhippo%252Bpopulation%252Bfounded%252Bby%252Bdrug%252Blord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUazGIfK9c4GIjDrQtgA_d27zH4u1UXbhN2rJc8belDeSkNmUffAJIKU1Nc6kSe5673olZUdajGF3_0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: brazilian-ex-intelligence-chief-detained-by-us-imm_20260413_2057.html
-✓ Created comprehensive article: brazilian-ex-intelligence-chief-detained-by-us-imm_20260413_2057.html
+Successfully created file: colombia-to-cull-hippo-population-founded-by-drug-_20260413_2150.html
+✓ Created comprehensive article: colombia-to-cull-hippo-population-founded-by-drug-_20260413_2150.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: orban-was-defeated-in-hungary-but-orbanism-lives-o_20260413_1924.html
-Cleaned old post to keep top 30 limit: southport-killers-parents-failed-in-moral-duty-to-_20260413_1924.html
-Cleaned old post to keep top 30 limit: french-court-rules-cement-giant-lafarge-guilty-of-_20260413_1924.html
+Cleaned old post to keep top 30 limit: brazilian-ex-intelligence-chief-detained-by-us-imm_20260413_2057.html
+Cleaned old post to keep top 30 limit: chagos-islands-treaty-is-now-impossible-to-agree-a_20260413_2057.html
+Cleaned old post to keep top 30 limit: bernie-sanders-vows-to-push-resolution-to-block-us_20260413_2057.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Chagos Islands treaty is now ‘impossible to agree at political level’, UK minister says
+   • Israel kills three Palestinians in separate Gaza strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • Bernie Sanders vows to push resolution to block US weapons to Israel
+   • Philippines accuses China of using cyanide to poison South China Sea atoll
      Sources: bbc.com, cnn.com, reuters.com
-   • Brazilian ex-intelligence chief detained by US immigration authorities
+   • Colombia to cull hippo population founded by drug lord
      Sources: bbc.com, cnn.com, reuters.com
