@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Mahmood promises action against 'sham lawyers' abusing asylum system after BBC investigation
@@ -9,63 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: More than £1bn pledged for Sudan as humanitarian crisis deepens
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Peru’s ballot count drags on amid frustration with presidential election
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel bombs homes in southern Lebanon
-Added expanded search topic: Peru’s ballot count drags on amid frustration with presidential election
-Added expanded search topic: Israel bombs homes in southern Lebanon
-Saved 42 topics for 2026-04-15
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-04-16
 Returning 3 unique trending topics:
-  1. Lyse Doucet in Iran: Under fragile ceasefire, Iranians wonder if US deal can be done (from BBC News)
-  2. Peru’s ballot count drags on amid frustration with presidential election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israel bombs homes in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Mahmood promises action against 'sham lawyers' abusing asylum system after BBC investigation (from BBC News)
+  2. Lyse Doucet in Iran: Under fragile ceasefire, Iranians wonder if US deal can be done (from BBC News)
+  3. More than £1bn pledged for Sudan as humanitarian crisis deepens (from The Guardian)
+
+Processing trending topic: Mahmood promises action against 'sham lawyers' abusing asylum system after BBC investigation
+Searching Google for: Mahmood promises action against 'sham lawyers' abusing asylum system after BBC investigation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMahmood%252Bpromises%252Baction%252Bagainst%252B%2527sham%252Blawyers%2527%252Babusing%252Basylum%252Bsystem%252Bafter%252BBBC%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I1GLOVgc8GIjD8N8L3hdusid7Hrbp1BYlK3I0LBAbQ7EXIUk1dygv8K7-4NibcHh2g6quKIAAMgxYyAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: mahmood-promises-action-against-sham-lawyers-abusi_20260416_0234.html
+✓ Created comprehensive article: mahmood-promises-action-against-sham-lawyers-abusi_20260416_0234.html
 
 Processing trending topic: Lyse Doucet in Iran: Under fragile ceasefire, Iranians wonder if US deal can be done
 Searching Google for: Lyse Doucet in Iran: Under fragile ceasefire, Iranians wonder if US deal can be done
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLyse%252BDoucet%252Bin%252BIran%253A%252BUnder%252Bfragile%252Bceasefire%252C%252BIranians%252Bwonder%252Bif%252BUS%252Bdeal%252Bcan%252Bbe%252Bdone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ijBGIzGgM8GIjC3zvUj7hg7PvktSmLV8mv-6AbZBiBKMnDd8aCTiw1t8ZU9e_n9oWkafN_dDw9cGXEyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLyse%252BDoucet%252Bin%252BIran%253A%252BUnder%252Bfragile%252Bceasefire%252C%252BIranians%252Bwonder%252Bif%252BUS%252Bdeal%252Bcan%252Bbe%252Bdone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I1GLuVgc8GIjDmyNvHD3-U6IAPgYojNoa1j0ngxuz-AVN6bGDaX1qVH9qNBSanS6nj8DtcL5WQ5coyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lyse-doucet-in-iran-under-fragile-ceasefire-irania_20260415_2345.html
-✓ Created comprehensive article: lyse-doucet-in-iran-under-fragile-ceasefire-irania_20260415_2345.html
+Successfully created file: lyse-doucet-in-iran-under-fragile-ceasefire-irania_20260416_0234.html
+✓ Created comprehensive article: lyse-doucet-in-iran-under-fragile-ceasefire-irania_20260416_0234.html
 
-Processing trending topic: Peru’s ballot count drags on amid frustration with presidential election
-Searching Google for: Peru’s ballot count drags on amid frustration with presidential election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeru%25E2%2580%2599s%252Bballot%252Bcount%252Bdrags%252Bon%252Bamid%252Bfrustration%252Bwith%252Bpresidential%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ijBGJPGgM8GIjA2Dly6J1-WXVVGBI97sDNJx0_o_CuujDfaNQer2SwVEWqy-8MRD8X8kSUzxahUwJ8yBmpjbmRyUloBQw
+Processing trending topic: More than £1bn pledged for Sudan as humanitarian crisis deepens
+Searching Google for: More than £1bn pledged for Sudan as humanitarian crisis deepens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B%25C2%25A31bn%252Bpledged%252Bfor%252BSudan%252Bas%252Bhumanitarian%252Bcrisis%252Bdeepens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I1GMGVgc8GIjCeQReukdVvqk7EVWdafzc45wbKz3be1erWpg5VySX_kBtO-gO10T1SorPF4ZTGe50yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: perus-ballot-count-drags-on-amid-frustration-with-_20260415_2345.html
-✓ Created comprehensive article: perus-ballot-count-drags-on-amid-frustration-with-_20260415_2345.html
-
-Processing trending topic: Israel bombs homes in southern Lebanon
-Searching Google for: Israel bombs homes in southern Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bbombs%252Bhomes%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ijBGJnGgM8GIjBA9rAk4dZVKQhKK00JMct4LxQGsc3Q5zsCiRi4idNFBhe5NhCRezmd5tNm3xbC2ZcyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-bombs-homes-in-southern-lebanon_20260415_2345.html
-✓ Created comprehensive article: israel-bombs-homes-in-southern-lebanon_20260415_2345.html
+Successfully created file: more-than-1bn-pledged-for-sudan-as-humanitarian-cr_20260416_0234.html
+✓ Created comprehensive article: more-than-1bn-pledged-for-sudan-as-humanitarian-cr_20260416_0234.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-reporter-is-helped-to-pose-as-gay-for-asylum_20260415_0733.html
-Cleaned old post to keep top 30 limit: could-the-eus-alliance-with-israel-soon-change_20260415_2243.html
-Cleaned old post to keep top 30 limit: israel-appoints-first-ambassador-to-somaliland_20260415_2243.html
+Cleaned old post to keep top 30 limit: us-senate-rejects-another-war-powers-resolution-to_20260415_2243.html
+Cleaned old post to keep top 30 limit: israel-bombs-homes-in-southern-lebanon_20260415_2345.html
+Cleaned old post to keep top 30 limit: guterres-urges-end-to-arms-flow-as-sudan-war-enter_20260415_2048.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Mahmood promises action against 'sham lawyers' abusing asylum system after BBC investigation
+     Sources: bbc.com, cnn.com, reuters.com
    • Lyse Doucet in Iran: Under fragile ceasefire, Iranians wonder if US deal can be done
      Sources: bbc.com, cnn.com, reuters.com
-   • Peru’s ballot count drags on amid frustration with presidential election
-     Sources: bbc.com, cnn.com, reuters.com
-   • Israel bombs homes in southern Lebanon
+   • More than £1bn pledged for Sudan as humanitarian crisis deepens
      Sources: bbc.com, cnn.com, reuters.com
