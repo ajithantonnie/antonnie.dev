@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Home Office investigating after BBC finds migrants making false claims to stay in UK
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South African politician Julius Malema given five-year jail term for gun offence
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pope Leo decries world ruled by ‘tyrants’ after Trump attacks
-Added expanded search topic: Pope Leo decries world ruled by ‘tyrants’ after Trump attacks
-Saved 18 topics for 2026-04-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US strike on Pacific vessel kills three
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turkiye’s Roketsan eyes top 10 exporter rank amid Middle East conflict
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After three years of war, Sudan army and RSF locked in military impasse
+Added expanded search topic: US strike on Pacific vessel kills three
+Added expanded search topic: Turkiye’s Roketsan eyes top 10 exporter rank amid Middle East conflict
+Added expanded search topic: After three years of war, Sudan army and RSF locked in military impasse
+Saved 21 topics for 2026-04-16
 Returning 3 unique trending topics:
-  1. Home Office investigating after BBC finds migrants making false claims to stay in UK (from BBC News)
-  2. Migrants making false domestic abuse claims to stay in UK, BBC investigation reveals (from BBC News)
-  3. Pope Leo decries world ruled by ‘tyrants’ after Trump attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US strike on Pacific vessel kills three (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Turkiye’s Roketsan eyes top 10 exporter rank amid Middle East conflict (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. After three years of war, Sudan army and RSF locked in military impasse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Home Office investigating after BBC finds migrants making false claims to stay in UK
-Searching Google for: Home Office investigating after BBC finds migrants making false claims to stay in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHome%252BOffice%252Binvestigating%252Bafter%252BBBC%252Bfinds%252Bmigrants%252Bmaking%252Bfalse%252Bclaims%252Bto%252Bstay%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNtVGOHIg88GIjAOi7lE9xO5LEqgzUFQT_42398cILigLTb8tFyfsCaVLQKNfd3Oae2a-ik7bkCYpqUyBmpjbmRyUloBQw
+Processing trending topic: US strike on Pacific vessel kills three
+Searching Google for: US strike on Pacific vessel kills three
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bstrike%252Bon%252BPacific%252Bvessel%252Bkills%252Bthree%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DloGPT_g88GIjD0HZIH3VEJm3iAYZ2L12j_UdiePPl3Qkf3Mf9ONLsDDoEfckiNnbdYfEhY1C31XIsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: home-office-investigating-after-bbc-finds-migrants_20260416_1330.html
-✓ Created comprehensive article: home-office-investigating-after-bbc-finds-migrants_20260416_1330.html
+Successfully created file: us-strike-on-pacific-vessel-kills-three_20260416_1527.html
+✓ Created comprehensive article: us-strike-on-pacific-vessel-kills-three_20260416_1527.html
 
-Processing trending topic: Migrants making false domestic abuse claims to stay in UK, BBC investigation reveals
-Searching Google for: Migrants making false domestic abuse claims to stay in UK, BBC investigation reveals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMigrants%252Bmaking%252Bfalse%252Bdomestic%252Babuse%252Bclaims%252Bto%252Bstay%252Bin%252BUK%252C%252BBBC%252Binvestigation%252Breveals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNtVGOfIg88GIjDwdmrJILrOZb89tlAUDPF_-qAxZaHrBaWbnqJwvp2e4qLL4h713NA3WAv3beLxUEoyBmpjbmRyUloBQw
+Processing trending topic: Turkiye’s Roketsan eyes top 10 exporter rank amid Middle East conflict
+Searching Google for: Turkiye’s Roketsan eyes top 10 exporter rank amid Middle East conflict
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurkiye%25E2%2580%2599s%252BRoketsan%252Beyes%252Btop%252B10%252Bexporter%252Brank%252Bamid%252BMiddle%252BEast%252Bconflict%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DloGPv_g88GIjBzrYULhWVq89DDIcV4YZivem0f95u3rOp0irPbcAoC4cbvyQ386hvRMmH6nxnVGbYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: migrants-making-false-domestic-abuse-claims-to-sta_20260416_1330.html
-✓ Created comprehensive article: migrants-making-false-domestic-abuse-claims-to-sta_20260416_1330.html
+Successfully created file: turkiyes-roketsan-eyes-top-10-exporter-rank-amid-m_20260416_1527.html
+✓ Created comprehensive article: turkiyes-roketsan-eyes-top-10-exporter-rank-amid-m_20260416_1527.html
 
-Processing trending topic: Pope Leo decries world ruled by ‘tyrants’ after Trump attacks
-Searching Google for: Pope Leo decries world ruled by ‘tyrants’ after Trump attacks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPope%252BLeo%252Bdecries%252Bworld%252Bruled%252Bby%252B%25E2%2580%2598tyrants%25E2%2580%2599%252Bafter%252BTrump%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNtVGO3Ig88GIjArAn90rU-YY5yS85SAdv1M_W2rNKKjDoDjXALQ52jutnMnSS0dTV9eKBiXETs28DAyBmpjbmRyUloBQw
+Processing trending topic: After three years of war, Sudan army and RSF locked in military impasse
+Searching Google for: After three years of war, Sudan army and RSF locked in military impasse
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252Bthree%252Byears%252Bof%252Bwar%252C%252BSudan%252Barmy%252Band%252BRSF%252Blocked%252Bin%252Bmilitary%252Bimpasse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DloGIGAhM8GIjAHMMxX9lOmaoiq2ESjMymIZBpzF89dDCbwJ2O2rBH8j8Lzt8Y8xbLBqJ8HNwBpkcUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pope-leo-decries-world-ruled-by-tyrants-after-trum_20260416_1330.html
-✓ Created comprehensive article: pope-leo-decries-world-ruled-by-tyrants-after-trum_20260416_1330.html
+Successfully created file: after-three-years-of-war-sudan-army-and-rsf-locked_20260416_1528.html
+✓ Created comprehensive article: after-three-years-of-war-sudan-army-and-rsf-locked_20260416_1528.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-prepares-for-food-shortages-in-worst-case-scena_20260416_1104.html
-Cleaned old post to keep top 30 limit: sent-to-be-killed-how-russia-forces-migrants-to-fi_20260416_1105.html
-Cleaned old post to keep top 30 limit: breakthrough-90000-alzheimers-drugs-unlikely-to-be_20260416_0921.html
+Cleaned old post to keep top 30 limit: home-office-investigating-after-bbc-finds-migrants_20260416_1330.html
+Cleaned old post to keep top 30 limit: migrants-making-false-domestic-abuse-claims-to-sta_20260416_1330.html
+Cleaned old post to keep top 30 limit: fire-breaks-out-at-crucial-australian-refinery-rai_20260416_0921.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Home Office investigating after BBC finds migrants making false claims to stay in UK
+   • US strike on Pacific vessel kills three
      Sources: bbc.com, cnn.com, reuters.com
-   • Migrants making false domestic abuse claims to stay in UK, BBC investigation reveals
+   • Turkiye’s Roketsan eyes top 10 exporter rank amid Middle East conflict
      Sources: bbc.com, cnn.com, reuters.com
-   • Pope Leo decries world ruled by ‘tyrants’ after Trump attacks
+   • After three years of war, Sudan army and RSF locked in military impasse
      Sources: bbc.com, cnn.com, reuters.com
