@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: Mandelson nightmare haunts Starmer again
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: hail covers parts of Tunisia and Algeria like snow
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rapper d4vd arrested on suspicion of murdering 14-year-old girl
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Myanmar pardons over 4,000 prisoners, including deposed president
-Added expanded search topic: Rapper d4vd arrested on suspicion of murdering 14-year-old girl
-Added expanded search topic: Myanmar pardons over 4,000 prisoners, including deposed president
-Saved 12 topics for 2026-04-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanese return to devastated south as fragile 10-day truce takes hold
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada T20 World Cup game under ICC scrutiny after corruption claim
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia scrambles to secure energy as war on Iran fuels uncertainty
+Added expanded search topic: Lebanese return to devastated south as fragile 10-day truce takes hold
+Added expanded search topic: Canada T20 World Cup game under ICC scrutiny after corruption claim
+Added expanded search topic: Australia scrambles to secure energy as war on Iran fuels uncertainty
+Saved 15 topics for 2026-04-17
 Returning 3 unique trending topics:
-  1. Weather tracker: hail covers parts of Tunisia and Algeria like snow (from The Guardian)
-  2. Rapper d4vd arrested on suspicion of murdering 14-year-old girl (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Myanmar pardons over 4,000 prisoners, including deposed president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Lebanese return to devastated south as fragile 10-day truce takes hold (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Canada T20 World Cup game under ICC scrutiny after corruption claim (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Australia scrambles to secure energy as war on Iran fuels uncertainty (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Weather tracker: hail covers parts of Tunisia and Algeria like snow
-Searching Google for: Weather tracker: hail covers parts of Tunisia and Algeria like snow
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeather%252Btracker%253A%252Bhail%252Bcovers%252Bparts%252Bof%252BTunisia%252Band%252BAlgeria%252Blike%252Bsnow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9oawGO71h88GIjAylcbsMIeJ8NlqUfL-6VKnUCK7zPw87fn90hz7UXawFYHFLHoZ6UqOwID2sHPH_LgyBmpjbmRyUloBQw
+Processing trending topic: Lebanese return to devastated south as fragile 10-day truce takes hold
+Searching Google for: Lebanese return to devastated south as fragile 10-day truce takes hold
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanese%252Breturn%252Bto%252Bdevastated%252Bsouth%252Bas%252Bfragile%252B10-day%252Btruce%252Btakes%252Bhold%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUarZjGJikiM8GIjD5kBiaTJARb6pSVA6k-XHkcAoQxw8PmquJwrxpwRJtouAYEgVfcu8qIWg7wyIbQ4IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weather-tracker-hail-covers-parts-of-tunisia-and-a_20260417_0918.html
-✓ Created comprehensive article: weather-tracker-hail-covers-parts-of-tunisia-and-a_20260417_0918.html
+Successfully created file: lebanese-return-to-devastated-south-as-fragile-10-_20260417_1057.html
+✓ Created comprehensive article: lebanese-return-to-devastated-south-as-fragile-10-_20260417_1057.html
 
-Processing trending topic: Rapper d4vd arrested on suspicion of murdering 14-year-old girl
-Searching Google for: Rapper d4vd arrested on suspicion of murdering 14-year-old girl
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRapper%252Bd4vd%252Barrested%252Bon%252Bsuspicion%252Bof%252Bmurdering%252B14-year-old%252Bgirl%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9oawGPX1h88GIjChl6Gjd927nIiFSO0sFKRt-Jvppa_cI-TM6Qr8cI4LF6Lcdom8ooGx-o5_e-9KAHoyBmpjbmRyUloBQw
+Processing trending topic: Canada T20 World Cup game under ICC scrutiny after corruption claim
+Searching Google for: Canada T20 World Cup game under ICC scrutiny after corruption claim
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%252BT20%252BWorld%252BCup%252Bgame%252Bunder%252BICC%252Bscrutiny%252Bafter%252Bcorruption%252Bclaim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUarZjGJ-kiM8GIjBmTrAFasRPkaP1VWm7kPbDxkdjpXdNjTm-jLzq2Z0N-oDS1DWt_om-8U7vG_BGZuEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rapper-d4vd-arrested-on-suspicion-of-murdering-14-_20260417_0918.html
-✓ Created comprehensive article: rapper-d4vd-arrested-on-suspicion-of-murdering-14-_20260417_0918.html
+Successfully created file: canada-t20-world-cup-game-under-icc-scrutiny-after_20260417_1057.html
+✓ Created comprehensive article: canada-t20-world-cup-game-under-icc-scrutiny-after_20260417_1057.html
 
-Processing trending topic: Myanmar pardons over 4,000 prisoners, including deposed president
-Searching Google for: Myanmar pardons over 4,000 prisoners, including deposed president
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMyanmar%252Bpardons%252Bover%252B4%252C000%252Bprisoners%252C%252Bincluding%252Bdeposed%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9oawGPv1h88GIjB_05eD66FqxdWKzmPY5_GfNd385m08zRCf-qOaSBB3bOg70qPG88kfVYUaAxXTC0kyBmpjbmRyUloBQw
+Processing trending topic: Australia scrambles to secure energy as war on Iran fuels uncertainty
+Searching Google for: Australia scrambles to secure energy as war on Iran fuels uncertainty
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bscrambles%252Bto%252Bsecure%252Benergy%252Bas%252Bwar%252Bon%252BIran%252Bfuels%252Buncertainty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUarZjGKWkiM8GIjAQxiOQVXWns3Ind349vU2jqnKL9evcjPkQScju5-I59ccoWoeWOJHyj7foy1n279YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: myanmar-pardons-over-4000-prisoners-including-depo_20260417_0918.html
-✓ Created comprehensive article: myanmar-pardons-over-4000-prisoners-including-depo_20260417_0918.html
+Successfully created file: australia-scrambles-to-secure-energy-as-war-on-ira_20260417_1057.html
+✓ Created comprehensive article: australia-scrambles-to-secure-energy-as-war-on-ira_20260417_1057.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: palestinian-prisoners-day-what-happened-in-palesti_20260417_0746.html
-Cleaned old post to keep top 30 limit: sudans-prime-minister-this-is-the-path-out-of-the-_20260417_0746.html
-Cleaned old post to keep top 30 limit: finance-ministers-and-top-bankers-raise-serious-co_20260417_0746.html
+Cleaned old post to keep top 30 limit: weather-tracker-hail-covers-parts-of-tunisia-and-a_20260417_0918.html
+Cleaned old post to keep top 30 limit: rapper-d4vd-arrested-on-suspicion-of-murdering-14-_20260417_0918.html
+Cleaned old post to keep top 30 limit: myanmar-pardons-over-4000-prisoners-including-depo_20260417_0918.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Weather tracker: hail covers parts of Tunisia and Algeria like snow
+   • Lebanese return to devastated south as fragile 10-day truce takes hold
      Sources: bbc.com, cnn.com, reuters.com
-   • Rapper d4vd arrested on suspicion of murdering 14-year-old girl
+   • Canada T20 World Cup game under ICC scrutiny after corruption claim
      Sources: bbc.com, cnn.com, reuters.com
-   • Myanmar pardons over 4,000 prisoners, including deposed president
+   • Australia scrambles to secure energy as war on Iran fuels uncertainty
      Sources: bbc.com, cnn.com, reuters.com
