@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Top Foreign Office official to leave post after Mandelson vetting row
-  Added: Chris Mason: Mandelson nightmare haunts Starmer again, as senior figure effectively sacked
+  Added: Chris Mason: Mandelson nightmare haunts Starmer again
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South African politician Julius Malema given five-year jail term for gun offence
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-17
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump calls war on Iran a ‘little diversion’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
+Added expanded search topic: Trump calls war on Iran a ‘little diversion’
+Added expanded search topic: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
+Saved 6 topics for 2026-04-17
 Returning 3 unique trending topics:
-  1. Top Foreign Office official to leave post after Mandelson vetting row (from BBC News)
-  2. Chris Mason: Mandelson nightmare haunts Starmer again, as senior figure effectively sacked (from BBC News)
-  3. South African politician Julius Malema given five-year jail term for gun offence (from The Guardian)
+  1. Chris Mason: Mandelson nightmare haunts Starmer again (from BBC News)
+  2. Trump calls war on Iran a ‘little diversion’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Top Foreign Office official to leave post after Mandelson vetting row
-Searching Google for: Top Foreign Office official to leave post after Mandelson vetting row
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTop%252BForeign%252BOffice%252Bofficial%252Bto%252Bleave%252Bpost%252Bafter%252BMandelson%252Bvetting%252Brow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwQGKe2hs8GIjDpN1OlScXVp1eJho8oqmi02aeoNHA47pKfXhQAaC-95PRmLfa2Ob1paenmxTwIhlcyAnJSWgFD
+Processing trending topic: Chris Mason: Mandelson nightmare haunts Starmer again
+Searching Google for: Chris Mason: Mandelson nightmare haunts Starmer again
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BMandelson%252Bnightmare%252Bhaunts%252BStarmer%252Bagain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmhGKOKh88GIjAjSUx4rkaJBlupccixDctZM9ZOuVYGDmJO3rxQugBAL1tlwHINCc8pGfsHNmNP-zAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: top-foreign-office-official-to-leave-post-after-ma_20260417_0230.html
-✓ Created comprehensive article: top-foreign-office-official-to-leave-post-after-ma_20260417_0230.html
+Successfully created file: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0529.html
+✓ Created comprehensive article: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0529.html
 
-Processing trending topic: Chris Mason: Mandelson nightmare haunts Starmer again, as senior figure effectively sacked
-Searching Google for: Chris Mason: Mandelson nightmare haunts Starmer again, as senior figure effectively sacked
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BMandelson%252Bnightmare%252Bhaunts%252BStarmer%252Bagain%252C%252Bas%252Bsenior%252Bfigure%252Beffectively%252Bsacked%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwQGK62hs8GIjBVLQedys4AEkkCLrwD4DI_kEEYs97tTnTKS8FEK2EgVemAsy7lt4cx1uQnnnt-7NMyAnJSWgFD
+Processing trending topic: Trump calls war on Iran a ‘little diversion’
+Searching Google for: Trump calls war on Iran a ‘little diversion’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcalls%252Bwar%252Bon%252BIran%252Ba%252B%25E2%2580%2598little%252Bdiversion%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmhGKqKh88GIjCE5asiQoVGLA1jkynFrSWSLmJ0z7oZ72-cpMLV6MnqC40uIRubR8zOjQy4uEvCi1syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0230.html
-✓ Created comprehensive article: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0230.html
+Successfully created file: trump-calls-war-on-iran-a-little-diversion_20260417_0529.html
+✓ Created comprehensive article: trump-calls-war-on-iran-a-little-diversion_20260417_0529.html
 
-Processing trending topic: South African politician Julius Malema given five-year jail term for gun offence
-Searching Google for: South African politician Julius Malema given five-year jail term for gun offence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrican%252Bpolitician%252BJulius%252BMalema%252Bgiven%252Bfive-year%252Bjail%252Bterm%252Bfor%252Bgun%252Boffence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwQGLS2hs8GIjAsaYDH9mUJw_2KZ9ByJOvILlCbkbxbkk4MbxQJl97MqFCmlKpyAChmHT1Bi-7cKsIyAnJSWgFD
+Processing trending topic: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
+Searching Google for: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralian%252Bex-soldier%252BRoberts-Smith%252Bgranted%252Bbail%252Bin%252BAfghan%252Bwar%252Bcrimes%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmhGLCKh88GIjDcfg8mHCA303sxY6yj9UY5AcZK3sNPK4dZYdjbiyPoKSHx6Yx6nQTNcgaZjVoDTH8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-african-politician-julius-malema-given-five-_20260417_0230.html
-✓ Created comprehensive article: south-african-politician-julius-malema-given-five-_20260417_0230.html
+Successfully created file: australian-ex-soldier-roberts-smith-granted-bail-i_20260417_0529.html
+✓ Created comprehensive article: australian-ex-soldier-roberts-smith-granted-bail-i_20260417_0529.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-strike-on-pacific-vessel-kills-three_20260416_1527.html
-Cleaned old post to keep top 30 limit: people-in-beirut-wary-of-trusting-israel-will-upho_20260416_2341.html
-Cleaned old post to keep top 30 limit: israel-and-lebanons-10-day-ceasefire-goes-into-eff_20260416_2342.html
+Cleaned old post to keep top 30 limit: south-african-politician-julius-malema-given-five-_20260417_0230.html
+Cleaned old post to keep top 30 limit: top-foreign-office-official-to-leave-post-after-ma_20260417_0230.html
+Cleaned old post to keep top 30 limit: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0230.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Top Foreign Office official to leave post after Mandelson vetting row
+   • Chris Mason: Mandelson nightmare haunts Starmer again
      Sources: bbc.com, cnn.com, reuters.com
-   • Chris Mason: Mandelson nightmare haunts Starmer again, as senior figure effectively sacked
+   • Trump calls war on Iran a ‘little diversion’
      Sources: bbc.com, cnn.com, reuters.com
-   • South African politician Julius Malema given five-year jail term for gun offence
+   • Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
      Sources: bbc.com, cnn.com, reuters.com
