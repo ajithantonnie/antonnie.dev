@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Top Foreign Office official to leave post after Mandelson vetting row
   Added: Chris Mason: Mandelson nightmare haunts Starmer again
+  Added: Finance ministers and top bankers raise serious concerns about Mythos AI model
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump calls war on Iran a ‘little diversion’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
-Added expanded search topic: Trump calls war on Iran a ‘little diversion’
-Added expanded search topic: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
-Saved 6 topics for 2026-04-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan’s Prime Minister: This is the path out of the horrors of war
+Added expanded search topic: Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971?
+Added expanded search topic: Sudan’s Prime Minister: This is the path out of the horrors of war
+Saved 9 topics for 2026-04-17
 Returning 3 unique trending topics:
-  1. Chris Mason: Mandelson nightmare haunts Starmer again (from BBC News)
-  2. Trump calls war on Iran a ‘little diversion’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Finance ministers and top bankers raise serious concerns about Mythos AI model (from BBC News)
+  2. Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Sudan’s Prime Minister: This is the path out of the horrors of war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Chris Mason: Mandelson nightmare haunts Starmer again
-Searching Google for: Chris Mason: Mandelson nightmare haunts Starmer again
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BMandelson%252Bnightmare%252Bhaunts%252BStarmer%252Bagain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmhGKOKh88GIjAjSUx4rkaJBlupccixDctZM9ZOuVYGDmJO3rxQugBAL1tlwHINCc8pGfsHNmNP-zAyBmpjbmRyUloBQw
+Processing trending topic: Finance ministers and top bankers raise serious concerns about Mythos AI model
+Searching Google for: Finance ministers and top bankers raise serious concerns about Mythos AI model
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFinance%252Bministers%252Band%252Btop%252Bbankers%252Braise%252Bserious%252Bconcerns%252Babout%252BMythos%252BAI%252Bmodel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUhGMjKh88GIjAJINFa9VGrWErQBugC7jEB_xwMur727FlazJ6_KB4gxB_IdBd94Y_kV_reWif2xlMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0529.html
-✓ Created comprehensive article: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0529.html
+Successfully created file: finance-ministers-and-top-bankers-raise-serious-co_20260417_0746.html
+✓ Created comprehensive article: finance-ministers-and-top-bankers-raise-serious-co_20260417_0746.html
 
-Processing trending topic: Trump calls war on Iran a ‘little diversion’
-Searching Google for: Trump calls war on Iran a ‘little diversion’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcalls%252Bwar%252Bon%252BIran%252Ba%252B%25E2%2580%2598little%252Bdiversion%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmhGKqKh88GIjCE5asiQoVGLA1jkynFrSWSLmJ0z7oZ72-cpMLV6MnqC40uIRubR8zOjQy4uEvCi1syBmpjbmRyUloBQw
+Processing trending topic: Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971?
+Searching Google for: Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian%252BPrisoner%25E2%2580%2599s%252BDay%253A%252BWhat%252Bhappened%252Bin%252BPalestine%252Bon%252BApril%252B17%252C%252B1971%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUhGNPKh88GIjApBct9I2IwmtGnY3dDsWcdgxB55xUSAwvXWMtOi7o0oWN2-hOLZJWiMqnizWzbYsQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-calls-war-on-iran-a-little-diversion_20260417_0529.html
-✓ Created comprehensive article: trump-calls-war-on-iran-a-little-diversion_20260417_0529.html
+Successfully created file: palestinian-prisoners-day-what-happened-in-palesti_20260417_0746.html
+✓ Created comprehensive article: palestinian-prisoners-day-what-happened-in-palesti_20260417_0746.html
 
-Processing trending topic: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
-Searching Google for: Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralian%252Bex-soldier%252BRoberts-Smith%252Bgranted%252Bbail%252Bin%252BAfghan%252Bwar%252Bcrimes%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmhGLCKh88GIjDcfg8mHCA303sxY6yj9UY5AcZK3sNPK4dZYdjbiyPoKSHx6Yx6nQTNcgaZjVoDTH8yBmpjbmRyUloBQw
+Processing trending topic: Sudan’s Prime Minister: This is the path out of the horrors of war
+Searching Google for: Sudan’s Prime Minister: This is the path out of the horrors of war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%25E2%2580%2599s%252BPrime%252BMinister%253A%252BThis%252Bis%252Bthe%252Bpath%252Bout%252Bof%252Bthe%252Bhorrors%252Bof%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUhGNnKh88GIjA_qam1sqfTUp3TS_Zbh2cI5WpTSgOQ8uqNYZRJJiJ2S8m9yBliLFGi3cTsEfQwoU4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: australian-ex-soldier-roberts-smith-granted-bail-i_20260417_0529.html
-✓ Created comprehensive article: australian-ex-soldier-roberts-smith-granted-bail-i_20260417_0529.html
+Successfully created file: sudans-prime-minister-this-is-the-path-out-of-the-_20260417_0746.html
+✓ Created comprehensive article: sudans-prime-minister-this-is-the-path-out-of-the-_20260417_0746.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: south-african-politician-julius-malema-given-five-_20260417_0230.html
-Cleaned old post to keep top 30 limit: top-foreign-office-official-to-leave-post-after-ma_20260417_0230.html
-Cleaned old post to keep top 30 limit: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0230.html
+Cleaned old post to keep top 30 limit: trump-calls-war-on-iran-a-little-diversion_20260417_0529.html
+Cleaned old post to keep top 30 limit: chris-mason-mandelson-nightmare-haunts-starmer-aga_20260417_0529.html
+Cleaned old post to keep top 30 limit: australian-ex-soldier-roberts-smith-granted-bail-i_20260417_0529.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Chris Mason: Mandelson nightmare haunts Starmer again
+   • Finance ministers and top bankers raise serious concerns about Mythos AI model
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump calls war on Iran a ‘little diversion’
+   • Palestinian Prisoner’s Day: What happened in Palestine on April 17, 1971?
      Sources: bbc.com, cnn.com, reuters.com
-   • Australian ex-soldier Roberts-Smith granted bail in Afghan war crimes case
+   • Sudan’s Prime Minister: This is the path out of the horrors of war
      Sources: bbc.com, cnn.com, reuters.com
