@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Staggering' I was not told Mandelson failed vetting, says PM
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan firm sacks more than 1,000 workers after losing Meta contract
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What has Trump said ahead of possible US-Iran talks and what could it mean?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fifteen South American people deported from the US arrive in DR Congo
-Added expanded search topic: What has Trump said ahead of possible US-Iran talks and what could it mean?
-Added expanded search topic: Fifteen South American people deported from the US arrive in DR Congo
-Saved 33 topics for 2026-04-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congress temporarily extends controversial surveillance power under FISA
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World reacts to Strait of Hormuz reopening amid US-Iran conflict
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US confirms transit fare spike to $150 for World Cup fans in New Jersey
+Added expanded search topic: US Congress temporarily extends controversial surveillance power under FISA
+Added expanded search topic: World reacts to Strait of Hormuz reopening amid US-Iran conflict
+Added expanded search topic: US confirms transit fare spike to $150 for World Cup fans in New Jersey
+Saved 36 topics for 2026-04-17
 Returning 3 unique trending topics:
-  1. Kenyan firm sacks more than 1,000 workers after losing Meta contract (from The Guardian)
-  2. What has Trump said ahead of possible US-Iran talks and what could it mean? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Fifteen South American people deported from the US arrive in DR Congo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US Congress temporarily extends controversial surveillance power under FISA (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. World reacts to Strait of Hormuz reopening amid US-Iran conflict (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US confirms transit fare spike to $150 for World Cup fans in New Jersey (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Kenyan firm sacks more than 1,000 workers after losing Meta contract
-Searching Google for: Kenyan firm sacks more than 1,000 workers after losing Meta contract
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenyan%252Bfirm%252Bsacks%252Bmore%252Bthan%252B1%252C000%252Bworkers%252Bafter%252Blosing%252BMeta%252Bcontract%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUa2GOmGis8GIjC_38mgYJxZMH8ykKMZjP3XeYqqDHfl42IkYxJMtSC-cbjSPmV7M3K5C7triN31njkyBmpjbmRyUloBQw
+Processing trending topic: US Congress temporarily extends controversial surveillance power under FISA
+Searching Google for: US Congress temporarily extends controversial surveillance power under FISA
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BCongress%252Btemporarily%252Bextends%252Bcontroversial%252Bsurveillance%252Bpower%252Bunder%252BFISA%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3v0GMCjis8GIjCvNQImxZ9DKnCd-mwx__MZNb-Mvb1WQzytKbOONu5zsxvrH01MTwlbJ6KR2h7-fa4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kenyan-firm-sacks-more-than-1000-workers-after-los_20260417_1901.html
-✓ Created comprehensive article: kenyan-firm-sacks-more-than-1000-workers-after-los_20260417_1901.html
+Successfully created file: us-congress-temporarily-extends-controversial-surv_20260417_2002.html
+✓ Created comprehensive article: us-congress-temporarily-extends-controversial-surv_20260417_2002.html
 
-Processing trending topic: What has Trump said ahead of possible US-Iran talks and what could it mean?
-Searching Google for: What has Trump said ahead of possible US-Iran talks and what could it mean?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bhas%252BTrump%252Bsaid%252Bahead%252Bof%252Bpossible%252BUS-Iran%252Btalks%252Band%252Bwhat%252Bcould%252Bit%252Bmean%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUa2GPCGis8GIjAzSBnwTEnYoLFNzZ6DnU11ck2mMowWveGIH4Qmh8D3RXPEgHTpoAV3LbpBJXSD6uMyBmpjbmRyUloBQw
+Processing trending topic: World reacts to Strait of Hormuz reopening amid US-Iran conflict
+Searching Google for: World reacts to Strait of Hormuz reopening amid US-Iran conflict
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252Breacts%252Bto%252BStrait%252Bof%252BHormuz%252Breopening%252Bamid%252BUS-Iran%252Bconflict%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3v0GMejis8GIjAvH3-Mf1tSMMmBrAagAklknKGFL0x_EmRK_m68D6C76wV5CixptrSRdSqsPn6-U1wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-has-trump-said-ahead-of-possible-us-iran-talk_20260417_1901.html
-✓ Created comprehensive article: what-has-trump-said-ahead-of-possible-us-iran-talk_20260417_1901.html
+Successfully created file: world-reacts-to-strait-of-hormuz-reopening-amid-us_20260417_2002.html
+✓ Created comprehensive article: world-reacts-to-strait-of-hormuz-reopening-amid-us_20260417_2002.html
 
-Processing trending topic: Fifteen South American people deported from the US arrive in DR Congo
-Searching Google for: Fifteen South American people deported from the US arrive in DR Congo
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFifteen%252BSouth%252BAmerican%252Bpeople%252Bdeported%252Bfrom%252Bthe%252BUS%252Barrive%252Bin%252BDR%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUa2GPaGis8GIjCLe41_rr_y-uXhlXNr9dKhcy8-umzkE0mKzbe-Ytg55lTWR-eOo9NQTYjNhtxUpLAyBmpjbmRyUloBQw
+Processing trending topic: US confirms transit fare spike to $150 for World Cup fans in New Jersey
+Searching Google for: US confirms transit fare spike to $150 for World Cup fans in New Jersey
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bconfirms%252Btransit%252Bfare%252Bspike%252Bto%252B%2524150%252Bfor%252BWorld%252BCup%252Bfans%252Bin%252BNew%252BJersey%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3v0GM2jis8GIjAMUb1Nu7wjxQpOxWUW9NYnYPpWvCVCyuxLsYSAPxk7A5QafqrWMn7zxyxcjz_cGeEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifteen-south-american-people-deported-from-the-us_20260417_1901.html
-✓ Created comprehensive article: fifteen-south-american-people-deported-from-the-us_20260417_1901.html
+Successfully created file: us-confirms-transit-fare-spike-to-150-for-world-cu_20260417_2002.html
+✓ Created comprehensive article: us-confirms-transit-fare-spike-to-150-for-world-cu_20260417_2002.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-to-call-for-end-to-sudan-bloodshed-at-berlin-ta_20260414_2343.html
-Cleaned old post to keep top 30 limit: staggering-i-was-not-told-mandelson-failed-vetting_20260417_1705.html
-Cleaned old post to keep top 30 limit: arsenal-to-embrace-privilege-not-pressure-of-man-c_20260417_1705.html
+Cleaned old post to keep top 30 limit: what-has-trump-said-ahead-of-possible-us-iran-talk_20260417_1901.html
+Cleaned old post to keep top 30 limit: kenyan-firm-sacks-more-than-1000-workers-after-los_20260417_1901.html
+Cleaned old post to keep top 30 limit: fifteen-south-american-people-deported-from-the-us_20260417_1901.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Kenyan firm sacks more than 1,000 workers after losing Meta contract
+   • US Congress temporarily extends controversial surveillance power under FISA
      Sources: bbc.com, cnn.com, reuters.com
-   • What has Trump said ahead of possible US-Iran talks and what could it mean?
+   • World reacts to Strait of Hormuz reopening amid US-Iran conflict
      Sources: bbc.com, cnn.com, reuters.com
-   • Fifteen South American people deported from the US arrive in DR Congo
+   • US confirms transit fare spike to $150 for World Cup fans in New Jersey
      Sources: bbc.com, cnn.com, reuters.com
