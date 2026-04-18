@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Senior official ousted over Mandelson security row to face MPs
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan firm sacks more than 1,000 workers after losing Meta contract
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran has learned that the Strait of Hormuz is its strongest deterrent
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man City vs Arsenal: All you need to know about title showdown
-Added expanded search topic: Iran has learned that the Strait of Hormuz is its strongest deterrent
-Added expanded search topic: Man City vs Arsenal: All you need to know about title showdown
-Saved 12 topics for 2026-04-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pope Leo heads to Angola in landmark Africa visit amid Trump clash
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli police destroy children’s footballs at Al-Aqsa mosque
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanese man removes Israeli flag from castle in southern Lebanon
+Added expanded search topic: Pope Leo heads to Angola in landmark Africa visit amid Trump clash
+Added expanded search topic: Israeli police destroy children’s footballs at Al-Aqsa mosque
+Added expanded search topic: Lebanese man removes Israeli flag from castle in southern Lebanon
+Saved 15 topics for 2026-04-18
 Returning 3 unique trending topics:
-  1. Senior official ousted over Mandelson security row to face MPs (from BBC News)
-  2. Iran has learned that the Strait of Hormuz is its strongest deterrent (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Man City vs Arsenal: All you need to know about title showdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Pope Leo heads to Angola in landmark Africa visit amid Trump clash (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli police destroy children’s footballs at Al-Aqsa mosque (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lebanese man removes Israeli flag from castle in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Senior official ousted over Mandelson security row to face MPs
-Searching Google for: Senior official ousted over Mandelson security row to face MPs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSenior%252Bofficial%252Bousted%252Bover%252BMandelson%252Bsecurity%252Brow%252Bto%252Bface%252BMPs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQzGIWMjc8GIjDMCJQHUiiNF6XqeFhB-woEaVNJpeatzuSrqdPUMjSOpULFq0FDvc85-K7aPHZ8k1cyBmpjbmRyUloBQw
+Processing trending topic: Pope Leo heads to Angola in landmark Africa visit amid Trump clash
+Searching Google for: Pope Leo heads to Angola in landmark Africa visit amid Trump clash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPope%252BLeo%252Bheads%252Bto%252BAngola%252Bin%252Blandmark%252BAfrica%252Bvisit%252Bamid%252BTrump%252Bclash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoRyxGO6mjc8GIjChUi94azpRbSmhZ_vw0OXtVemGLoy7kO5tfP34aZmWbfORsCZNZ6Dg1zafWwOcvIwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: senior-official-ousted-over-mandelson-security-row_20260418_0851.html
-✓ Created comprehensive article: senior-official-ousted-over-mandelson-security-row_20260418_0851.html
+Successfully created file: pope-leo-heads-to-angola-in-landmark-africa-visit-_20260418_0948.html
+✓ Created comprehensive article: pope-leo-heads-to-angola-in-landmark-africa-visit-_20260418_0948.html
 
-Processing trending topic: Iran has learned that the Strait of Hormuz is its strongest deterrent
-Searching Google for: Iran has learned that the Strait of Hormuz is its strongest deterrent
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bhas%252Blearned%252Bthat%252Bthe%252BStrait%252Bof%252BHormuz%252Bis%252Bits%252Bstrongest%252Bdeterrent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQzGI2Mjc8GIjCT6KNoXvwS3khY5UBqd9jFVa6Kukt8dMkCMM-Y86JLwg9M4bfF7Q-8WFb3D6frzUEyBmpjbmRyUloBQw
+Processing trending topic: Israeli police destroy children’s footballs at Al-Aqsa mosque
+Searching Google for: Israeli police destroy children’s footballs at Al-Aqsa mosque
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bpolice%252Bdestroy%252Bchildren%25E2%2580%2599s%252Bfootballs%252Bat%252BAl-Aqsa%252Bmosque%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoRyxGPamjc8GIjDdS-Fifd65xzLqJUGeAZpMRY19_GQcRSU_QmsludFyu7NCMpWcXBqxinjuq407-l8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-has-learned-that-the-strait-of-hormuz-is-its-_20260418_0851.html
-✓ Created comprehensive article: iran-has-learned-that-the-strait-of-hormuz-is-its-_20260418_0851.html
+Successfully created file: israeli-police-destroy-childrens-footballs-at-al-a_20260418_0948.html
+✓ Created comprehensive article: israeli-police-destroy-childrens-footballs-at-al-a_20260418_0948.html
 
-Processing trending topic: Man City vs Arsenal: All you need to know about title showdown
-Searching Google for: Man City vs Arsenal: All you need to know about title showdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252BCity%252Bvs%252BArsenal%253A%252BAll%252Byou%252Bneed%252Bto%252Bknow%252Babout%252Btitle%252Bshowdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQzGJOMjc8GIjDsb7GxPa1G-aJ-yR_-T19EXVk_BUhGgHeep-eExICkX94aGN4UEHWQh934UzlWD7UyBmpjbmRyUloBQw
+Processing trending topic: Lebanese man removes Israeli flag from castle in southern Lebanon
+Searching Google for: Lebanese man removes Israeli flag from castle in southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanese%252Bman%252Bremoves%252BIsraeli%252Bflag%252Bfrom%252Bcastle%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoRyxGPymjc8GIjAZpqjLJ6Pr1JfhF2ANNAKdZeWkhJ1odu0fl2jKqRTxHuM6Ze6Y5p7kHWESywVTjLQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-city-vs-arsenal-all-you-need-to-know-about-tit_20260418_0851.html
-✓ Created comprehensive article: man-city-vs-arsenal-all-you-need-to-know-about-tit_20260418_0851.html
+Successfully created file: lebanese-man-removes-israeli-flag-from-castle-in-s_20260418_0948.html
+✓ Created comprehensive article: lebanese-man-removes-israeli-flag-from-castle-in-s_20260418_0948.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-us-will-start-dropping-bombs-again-if-n_20260418_0708.html
-Cleaned old post to keep top 30 limit: iran-war-what-is-happening-on-day-50-of-the-us-ira_20260418_0708.html
-Cleaned old post to keep top 30 limit: curry-warriors-knocked-out-of-nba-play-in-tourname_20260418_0708.html
+Cleaned old post to keep top 30 limit: man-city-vs-arsenal-all-you-need-to-know-about-tit_20260418_0851.html
+Cleaned old post to keep top 30 limit: senior-official-ousted-over-mandelson-security-row_20260418_0851.html
+Cleaned old post to keep top 30 limit: iran-has-learned-that-the-strait-of-hormuz-is-its-_20260418_0851.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Senior official ousted over Mandelson security row to face MPs
+   • Pope Leo heads to Angola in landmark Africa visit amid Trump clash
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran has learned that the Strait of Hormuz is its strongest deterrent
+   • Israeli police destroy children’s footballs at Al-Aqsa mosque
      Sources: bbc.com, cnn.com, reuters.com
-   • Man City vs Arsenal: All you need to know about title showdown
+   • Lebanese man removes Israeli flag from castle in southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
