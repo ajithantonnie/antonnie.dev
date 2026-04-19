@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 36 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chief Rabbi says attacks 'gathering momentum' after another synagogue targeted
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan firm sacks more than 1,000 workers after losing Meta contract
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Met Police investigate potential Iran links to London arson attacks
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Eight children killed in Louisiana shooting, gunman fatally shot by police
-Added expanded search topic: Met Police investigate potential Iran links to London arson attacks
-Added expanded search topic: Eight children killed in Louisiana shooting, gunman fatally shot by police
-Saved 36 topics for 2026-04-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran and Israel: From friends to enemies
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli attacks on healthcare across Iran, Lebanon and Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What would it take for the Iran-US talks to succeed?
+Added expanded search topic: Iran and Israel: From friends to enemies
+Added expanded search topic: Israeli attacks on healthcare across Iran, Lebanon and Gaza
+Added expanded search topic: What would it take for the Iran-US talks to succeed?
+Saved 39 topics for 2026-04-19
 Returning 3 unique trending topics:
-  1. Eight children killed in Louisiana shooting, police say (from BBC News)
-  2. Met Police investigate potential Iran links to London arson attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Eight children killed in Louisiana shooting, gunman fatally shot by police (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iran and Israel: From friends to enemies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli attacks on healthcare across Iran, Lebanon and Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What would it take for the Iran-US talks to succeed? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Eight children killed in Louisiana shooting, police say
-Searching Google for: Eight children killed in Louisiana shooting, police say
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Iran and Israel: From friends to enemies
+Searching Google for: Iran and Israel: From friends to enemies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Band%252BIsrael%253A%252BFrom%252Bfriends%252Bto%252Benemies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obJlGMXJlM8GIjDElh7JQbgXgFM_So72UA5CByexoN3XKvHWzPCcrx-4SIOj4O_JAl3VFlJDDVa2bzAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eight-children-killed-in-louisiana-shooting-police_20260419_1738.html
-✓ Created comprehensive article: eight-children-killed-in-louisiana-shooting-police_20260419_1738.html
+Successfully created file: iran-and-israel-from-friends-to-enemies_20260419_1854.html
+✓ Created comprehensive article: iran-and-israel-from-friends-to-enemies_20260419_1854.html
 
-Processing trending topic: Met Police investigate potential Iran links to London arson attacks
-Searching Google for: Met Police investigate potential Iran links to London arson attacks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMet%252BPolice%252Binvestigate%252Bpotential%252BIran%252Blinks%252Bto%252BLondon%252Barson%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-IAGI6mlM8GIjBsydswjlCr1DPwXB0dWMCKw0ictC602RvvIaFLFRHO21xXLJ3Vrwr3EtCoLzq8K9kyBmpjbmRyUloBQw
+Processing trending topic: Israeli attacks on healthcare across Iran, Lebanon and Gaza
+Searching Google for: Israeli attacks on healthcare across Iran, Lebanon and Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Battacks%252Bon%252Bhealthcare%252Bacross%252BIran%252C%252BLebanon%252Band%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obJlGMzJlM8GIjDXGmbqva5uGD4G6emoteBnvOeJX4tW75kvnoxlUUmYL4TIui7TLg9XUch4_MvDc2kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: met-police-investigate-potential-iran-links-to-lon_20260419_1738.html
-✓ Created comprehensive article: met-police-investigate-potential-iran-links-to-lon_20260419_1738.html
+Successfully created file: israeli-attacks-on-healthcare-across-iran-lebanon-_20260419_1854.html
+✓ Created comprehensive article: israeli-attacks-on-healthcare-across-iran-lebanon-_20260419_1854.html
 
-Processing trending topic: Eight children killed in Louisiana shooting, gunman fatally shot by police
-Searching Google for: Eight children killed in Louisiana shooting, gunman fatally shot by police
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEight%252Bchildren%252Bkilled%252Bin%252BLouisiana%252Bshooting%252C%252Bgunman%252Bfatally%252Bshot%252Bby%252Bpolice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-IAGJSmlM8GIjAmXcippCxtfdabpwABD7gTfur9sOpFjQKnkZiKL1ZIsSMEJw8mUP8JpF5AEV56iSkyBmpjbmRyUloBQw
+Processing trending topic: What would it take for the Iran-US talks to succeed?
+Searching Google for: What would it take for the Iran-US talks to succeed?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwould%252Bit%252Btake%252Bfor%252Bthe%252BIran-US%252Btalks%252Bto%252Bsucceed%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obJlGNLJlM8GIjC_fRC5el48RrAgfSu_pW1U3AK5gNI9RQyZO3zI0K8BupZsMGOtPaNF1UT1t1R8odIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eight-children-killed-in-louisiana-shooting-gunman_20260419_1738.html
-✓ Created comprehensive article: eight-children-killed-in-louisiana-shooting-gunman_20260419_1738.html
+Successfully created file: what-would-it-take-for-the-iran-us-talks-to-succee_20260419_1854.html
+✓ Created comprehensive article: what-would-it-take-for-the-iran-us-talks-to-succee_20260419_1854.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: attempted-murder-arrest-after-car-hits-pedestrians_20260419_1641.html
-Cleaned old post to keep top 30 limit: satellite-images-reveal-israel-expanding-gaza-mili_20260419_1641.html
-Cleaned old post to keep top 30 limit: chief-rabbi-says-attacks-gathering-momentum-after-_20260419_1641.html
+Cleaned old post to keep top 30 limit: trump-says-us-negotiators-will-head-to-pakistan-fo_20260419_1301.html
+Cleaned old post to keep top 30 limit: eight-children-killed-in-louisiana-shooting-police_20260419_1738.html
+Cleaned old post to keep top 30 limit: eight-children-killed-in-louisiana-shooting-gunman_20260419_1738.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Eight children killed in Louisiana shooting, police say
+   • Iran and Israel: From friends to enemies
      Sources: bbc.com, cnn.com, reuters.com
-   • Met Police investigate potential Iran links to London arson attacks
+   • Israeli attacks on healthcare across Iran, Lebanon and Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Eight children killed in Louisiana shooting, gunman fatally shot by police
+   • What would it take for the Iran-US talks to succeed?
      Sources: bbc.com, cnn.com, reuters.com
