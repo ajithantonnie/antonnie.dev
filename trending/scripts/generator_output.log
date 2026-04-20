@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US releases video of forces seizing Iranian ship
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Arrests fuel fears among Madagascar’s gen Z protesters that new regime no better than one they ov...
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kenyan women defy fishing taboos as climate change threatens Lake Victoria
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The EU must not wait till Israel starts executing Palestinians
-Added expanded search topic: Kenyan women defy fishing taboos as climate change threatens Lake Victoria
-Added expanded search topic: The EU must not wait till Israel starts executing Palestinians
-Saved 12 topics for 2026-04-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia claims Ukraine-linked bomb plot foiled, German woman arrested
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A match made in opposition: Venezuela’s Machado courts Spain’s right wing
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Several injured as fans clash with police in Paraguay’s Superclasico match
+Added expanded search topic: Russia claims Ukraine-linked bomb plot foiled, German woman arrested
+Added expanded search topic: A match made in opposition: Venezuela’s Machado courts Spain’s right wing
+Added expanded search topic: Several injured as fans clash with police in Paraguay’s Superclasico match
+Saved 15 topics for 2026-04-20
 Returning 3 unique trending topics:
-  1. US releases video of forces seizing Iranian ship (from BBC News)
-  2. Kenyan women defy fishing taboos as climate change threatens Lake Victoria (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. The EU must not wait till Israel starts executing Palestinians (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia claims Ukraine-linked bomb plot foiled, German woman arrested (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. A match made in opposition: Venezuela’s Machado courts Spain’s right wing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Several injured as fans clash with police in Paraguay’s Superclasico match (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US releases video of forces seizing Iranian ship
-Searching Google for: US releases video of forces seizing Iranian ship
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Breleases%252Bvideo%252Bof%252Bforces%252Bseizing%252BIranian%252Bship%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVHGLeJmM8GIjCtF1lUomaTfiBPHSRkrq6J1STYIVVUOx7_NoLmswH5pwr_yf5b5I8K9tAsH3-M5WkyBmpjbmRyUloBQw
+Processing trending topic: Russia claims Ukraine-linked bomb plot foiled, German woman arrested
+Searching Google for: Russia claims Ukraine-linked bomb plot foiled, German woman arrested
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bclaims%252BUkraine-linked%252Bbomb%252Bplot%252Bfoiled%252C%252BGerman%252Bwoman%252Barrested%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo_bSGJutmM8GIjC1HzSkazfwSsQ6ux_bn6vxgD2AfwVhVE0M-03neXM__13hGBdUys3VxQXUHTRA5U4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-releases-video-of-forces-seizing-iranian-ship_20260420_1049.html
-✓ Created comprehensive article: us-releases-video-of-forces-seizing-iranian-ship_20260420_1049.html
+Successfully created file: russia-claims-ukraine-linked-bomb-plot-foiled-germ_20260420_1205.html
+✓ Created comprehensive article: russia-claims-ukraine-linked-bomb-plot-foiled-germ_20260420_1205.html
 
-Processing trending topic: Kenyan women defy fishing taboos as climate change threatens Lake Victoria
-Searching Google for: Kenyan women defy fishing taboos as climate change threatens Lake Victoria
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenyan%252Bwomen%252Bdefy%252Bfishing%252Btaboos%252Bas%252Bclimate%252Bchange%252Bthreatens%252BLake%252BVictoria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVHGL6JmM8GIjBJkI8tx0sB3noh4csmnHyGpxdEGz0iSMpPijIUj4aKQ6Dmo27UNIrNeQyV1VmCsZoyBmpjbmRyUloBQw
+Processing trending topic: A match made in opposition: Venezuela’s Machado courts Spain’s right wing
+Searching Google for: A match made in opposition: Venezuela’s Machado courts Spain’s right wing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bmatch%252Bmade%252Bin%252Bopposition%253A%252BVenezuela%25E2%2580%2599s%252BMachado%252Bcourts%252BSpain%25E2%2580%2599s%252Bright%252Bwing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo_bSGKKtmM8GIjAeUgZrgxXnrfYQLaJbRFAdQ7DkeWtUffCnATi_zIwGrHwj1AiTADVnqkevraJQulUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kenyan-women-defy-fishing-taboos-as-climate-change_20260420_1049.html
-✓ Created comprehensive article: kenyan-women-defy-fishing-taboos-as-climate-change_20260420_1049.html
+Successfully created file: a-match-made-in-opposition-venezuelas-machado-cour_20260420_1205.html
+✓ Created comprehensive article: a-match-made-in-opposition-venezuelas-machado-cour_20260420_1205.html
 
-Processing trending topic: The EU must not wait till Israel starts executing Palestinians
-Searching Google for: The EU must not wait till Israel starts executing Palestinians
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BEU%252Bmust%252Bnot%252Bwait%252Btill%252BIsrael%252Bstarts%252Bexecuting%252BPalestinians%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVHGMWJmM8GIjBUjWdZWB201gp1AZlRwvxT-mp33mG2WWF3oNjdEwkUI4GTAsUOyOMOuDTfIQsl2d8yBmpjbmRyUloBQw
+Processing trending topic: Several injured as fans clash with police in Paraguay’s Superclasico match
+Searching Google for: Several injured as fans clash with police in Paraguay’s Superclasico match
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeveral%252Binjured%252Bas%252Bfans%252Bclash%252Bwith%252Bpolice%252Bin%252BParaguay%25E2%2580%2599s%252BSuperclasico%252Bmatch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo_bSGKitmM8GIjAnB6pf9t1qVbL07IhdAGKy8r8SsBKUms124N_z9f-yr-fZDGHSrTJwj9ctk654issyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-eu-must-not-wait-till-israel-starts-executing-_20260420_1049.html
-✓ Created comprehensive article: the-eu-must-not-wait-till-israel-starts-executing-_20260420_1049.html
+Successfully created file: several-injured-as-fans-clash-with-police-in-parag_20260420_1206.html
+✓ Created comprehensive article: several-injured-as-fans-clash-with-police-in-parag_20260420_1206.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: spat-at-threatened-and-kidnapped-british-jews-tell_20260420_0807.html
-Cleaned old post to keep top 30 limit: what-is-really-happening-in-northern-nigeria_20260420_0542.html
-Cleaned old post to keep top 30 limit: iran-war-what-is-happening-on-day-52-of-the-us-isr_20260420_0807.html
+Cleaned old post to keep top 30 limit: us-releases-video-of-forces-seizing-iranian-ship_20260420_1049.html
+Cleaned old post to keep top 30 limit: the-eu-must-not-wait-till-israel-starts-executing-_20260420_1049.html
+Cleaned old post to keep top 30 limit: kenyan-women-defy-fishing-taboos-as-climate-change_20260420_1049.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US releases video of forces seizing Iranian ship
+   • Russia claims Ukraine-linked bomb plot foiled, German woman arrested
      Sources: bbc.com, cnn.com, reuters.com
-   • Kenyan women defy fishing taboos as climate change threatens Lake Victoria
+   • A match made in opposition: Venezuela’s Machado courts Spain’s right wing
      Sources: bbc.com, cnn.com, reuters.com
-   • The EU must not wait till Israel starts executing Palestinians
+   • Several injured as fans clash with police in Paraguay’s Superclasico match
      Sources: bbc.com, cnn.com, reuters.com
