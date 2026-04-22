@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: McDonald's boss on abuse claims: 'I don't want to talk about the past'
   Added: UK inflation rate rises to 3.3% in March after Iran war pushes up fuel prices
-  Added: PM sends 'chill' through civil service, its union boss says
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Heatwaves, floods and wildfires pose rising threat to democracy, report finds
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza’s unseen casualties: A surge in stillbirths and birth defects
-Added expanded search topic: Gaza’s unseen casualties: A surge in stillbirths and birth defects
-Saved 12 topics for 2026-04-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump reads Bible verses on repentance after AI image of himself as Jesus
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Peru’s election chief steps down amid chaotic general election
+Added expanded search topic: Trump reads Bible verses on repentance after AI image of himself as Jesus
+Added expanded search topic: Peru’s election chief steps down amid chaotic general election
+Saved 15 topics for 2026-04-22
 Returning 3 unique trending topics:
-  1. UK inflation rate rises to 3.3% in March after Iran war pushes up fuel prices (from BBC News)
-  2. PM sends 'chill' through civil service, its union boss says (from BBC News)
-  3. Gaza’s unseen casualties: A surge in stillbirths and birth defects (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. McDonald's boss on abuse claims: 'I don't want to talk about the past' (from BBC News)
+  2. Trump reads Bible verses on repentance after AI image of himself as Jesus (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Peru’s election chief steps down amid chaotic general election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK inflation rate rises to 3.3% in March after Iran war pushes up fuel prices
-Searching Google for: UK inflation rate rises to 3.3% in March after Iran war pushes up fuel prices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Binflation%252Brate%252Brises%252Bto%252B3.3%2525%252Bin%252BMarch%252Bafter%252BIran%252Bwar%252Bpushes%252Bup%252Bfuel%252Bprices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKWGLamos8GIjDjHYLfPc5vWem0I-DRLdHIWyYsAuwYHg6De-Lqg939CD57Y8WQQJMDfJ9Y_coxeXQyBmpjbmRyUloBQw
+Processing trending topic: McDonald's boss on abuse claims: 'I don't want to talk about the past'
+Searching Google for: McDonald's boss on abuse claims: 'I don't want to talk about the past'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMcDonald%2527s%252Bboss%252Bon%252Babuse%252Bclaims%253A%252B%2527I%252Bdon%2527t%252Bwant%252Bto%252Btalk%252Babout%252Bthe%252Bpast%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1spGLLXos8GIjC_f34MZqiB7wzwcK9bkD49ne1WNq0a2lN6mYsiANrmansnP3-C8lvi-gAVk4SYADEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-inflation-rate-rises-to-33-in-march-after-iran-_20260422_0922.html
-✓ Created comprehensive article: uk-inflation-rate-rises-to-33-in-march-after-iran-_20260422_0922.html
+Successfully created file: mcdonalds-boss-on-abuse-claims-i-dont-want-to-talk_20260422_1106.html
+✓ Created comprehensive article: mcdonalds-boss-on-abuse-claims-i-dont-want-to-talk_20260422_1106.html
 
-Processing trending topic: PM sends 'chill' through civil service, its union boss says
-Searching Google for: PM sends 'chill' through civil service, its union boss says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Bsends%252B%2527chill%2527%252Bthrough%252Bcivil%252Bservice%252C%252Bits%252Bunion%252Bboss%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKWGL2mos8GIjDqunyvaUJr1L2OvCNwFAui4l376vN5x9A5eKnwSkrnbHhC0bLBaPd35Xb76MwJ9QgyBmpjbmRyUloBQw
+Processing trending topic: Trump reads Bible verses on repentance after AI image of himself as Jesus
+Searching Google for: Trump reads Bible verses on repentance after AI image of himself as Jesus
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Breads%252BBible%252Bverses%252Bon%252Brepentance%252Bafter%252BAI%252Bimage%252Bof%252Bhimself%252Bas%252BJesus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1spGLjXos8GIjDYskHL9PdpGq24rgaTF5irSnqsiWVGbCx1ozlT3LPwOHr2XP54vzHBnqnZ4q66vpEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pm-sends-chill-through-civil-service-its-union-bos_20260422_0922.html
-✓ Created comprehensive article: pm-sends-chill-through-civil-service-its-union-bos_20260422_0922.html
+Successfully created file: trump-reads-bible-verses-on-repentance-after-ai-im_20260422_1106.html
+✓ Created comprehensive article: trump-reads-bible-verses-on-repentance-after-ai-im_20260422_1106.html
 
-Processing trending topic: Gaza’s unseen casualties: A surge in stillbirths and birth defects
-Searching Google for: Gaza’s unseen casualties: A surge in stillbirths and birth defects
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%25E2%2580%2599s%252Bunseen%252Bcasualties%253A%252BA%252Bsurge%252Bin%252Bstillbirths%252Band%252Bbirth%252Bdefects%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKWGMOmos8GIjD1aIHf_4gCb0yLPpzdUE6LfFPIn2yxAQDvQ--vpvxVsUwQI_DehQwPIYEn36wFfTMyBmpjbmRyUloBQw
+Processing trending topic: Peru’s election chief steps down amid chaotic general election
+Searching Google for: Peru’s election chief steps down amid chaotic general election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeru%25E2%2580%2599s%252Belection%252Bchief%252Bsteps%252Bdown%252Bamid%252Bchaotic%252Bgeneral%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1spGL7Xos8GIjAI3Q_iPuBdRb1QaHUA_njW1VD7UtcHdCJEsR8vJMrs6_5bnxatXa3FX56lUAqV7JoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gazas-unseen-casualties-a-surge-in-stillbirths-and_20260422_0922.html
-✓ Created comprehensive article: gazas-unseen-casualties-a-surge-in-stillbirths-and_20260422_0922.html
+Successfully created file: perus-election-chief-steps-down-amid-chaotic-gener_20260422_1106.html
+✓ Created comprehensive article: perus-election-chief-steps-down-amid-chaotic-gener_20260422_1106.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: nearly-8000-people-died-or-disappeared-on-migratio_20260421_2146.html
-Cleaned old post to keep top 30 limit: no-10-had-dismissive-attitude-to-mandelson-vetting_20260422_0231.html
-Cleaned old post to keep top 30 limit: us-halts-shipment-of-iraqs-oil-dollars-in-bid-to-c_20260422_0746.html
+Cleaned old post to keep top 30 limit: pm-sends-chill-through-civil-service-its-union-bos_20260422_0922.html
+Cleaned old post to keep top 30 limit: heatwaves-floods-and-wildfires-pose-rising-threat-_20260422_0528.html
+Cleaned old post to keep top 30 limit: video-of-anne-hathaway-saying-inshallah-goes-viral_20260422_0528.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK inflation rate rises to 3.3% in March after Iran war pushes up fuel prices
+   • McDonald's boss on abuse claims: 'I don't want to talk about the past'
      Sources: bbc.com, cnn.com, reuters.com
-   • PM sends 'chill' through civil service, its union boss says
+   • Trump reads Bible verses on repentance after AI image of himself as Jesus
      Sources: bbc.com, cnn.com, reuters.com
-   • Gaza’s unseen casualties: A surge in stillbirths and birth defects
+   • Peru’s election chief steps down amid chaotic general election
      Sources: bbc.com, cnn.com, reuters.com
