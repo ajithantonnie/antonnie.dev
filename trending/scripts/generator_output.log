@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: No 10 had 'dismissive attitude' to Mandelson vetting, says sacked Foreign Office chief
-  Added: Bird flu vaccine trial against potential pandemic strain begins
+  Added: I was left with an £8,000 vet bill when my insurer cancelled my pet policy
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump officials consider sending 1,100 Afghans who aided US forces to Congo
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Paraguay plans to accept 25 third-country migrant deportees from US
-Added expanded search topic: Paraguay plans to accept 25 third-country migrant deportees from US
-Saved 39 topics for 2026-04-21
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-04-22
 Returning 3 unique trending topics:
-  1. Bird flu vaccine trial against potential pandemic strain begins (from BBC News)
-  2. Trump officials consider sending 1,100 Afghans who aided US forces to Congo (from The Guardian)
-  3. Paraguay plans to accept 25 third-country migrant deportees from US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. No 10 had 'dismissive attitude' to Mandelson vetting, says sacked Foreign Office chief (from BBC News)
+  2. I was left with an £8,000 vet bill when my insurer cancelled my pet policy (from BBC News)
+  3. Trump officials consider sending 1,100 Afghans who aided US forces to Congo (from The Guardian)
 
-Processing trending topic: Bird flu vaccine trial against potential pandemic strain begins
-Searching Google for: Bird flu vaccine trial against potential pandemic strain begins
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBird%252Bflu%252Bvaccine%252Btrial%252Bagainst%252Bpotential%252Bpandemic%252Bstrain%252Bbegins%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTohGKyUoM8GIjD5rix2_dg-DjnwYD1ROoxT-ARKc6du06BEj2-AWiEHsv9JJJas0ljzKnwFyaOJB2EyBmpjbmRyUloBQw
+Processing trending topic: No 10 had 'dismissive attitude' to Mandelson vetting, says sacked Foreign Office chief
+Searching Google for: No 10 had 'dismissive attitude' to Mandelson vetting, says sacked Foreign Office chief
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252B10%252Bhad%252B%2527dismissive%252Battitude%2527%252Bto%252BMandelson%252Bvetting%252C%252Bsays%252Bsacked%252BForeign%252BOffice%252Bchief%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vo0jGIjmoM8GIjAMEV71yPMsOMWFqyGPUimstI22-I67y_b4Pqwif49OH7uP_w8SeO6XheaTFXGGqUEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bird-flu-vaccine-trial-against-potential-pandemic-_20260421_2337.html
-✓ Created comprehensive article: bird-flu-vaccine-trial-against-potential-pandemic-_20260421_2337.html
+Successfully created file: no-10-had-dismissive-attitude-to-mandelson-vetting_20260422_0231.html
+✓ Created comprehensive article: no-10-had-dismissive-attitude-to-mandelson-vetting_20260422_0231.html
+
+Processing trending topic: I was left with an £8,000 vet bill when my insurer cancelled my pet policy
+Searching Google for: I was left with an £8,000 vet bill when my insurer cancelled my pet policy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%252Bwas%252Bleft%252Bwith%252Ban%252B%25C2%25A38%252C000%252Bvet%252Bbill%252Bwhen%252Bmy%252Binsurer%252Bcancelled%252Bmy%252Bpet%252Bpolicy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vo0jGI_moM8GIjBEExmbAPCUKpm3NfaPMwXV53G8LU9QR21KeF0x6QR7upA-_46fPDcemkdkM3-2w3AyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: i-was-left-with-an-8000-vet-bill-when-my-insurer-c_20260422_0231.html
+✓ Created comprehensive article: i-was-left-with-an-8000-vet-bill-when-my-insurer-c_20260422_0231.html
 
 Processing trending topic: Trump officials consider sending 1,100 Afghans who aided US forces to Congo
 Searching Google for: Trump officials consider sending 1,100 Afghans who aided US forces to Congo
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bofficials%252Bconsider%252Bsending%252B1%252C100%252BAfghans%252Bwho%252Baided%252BUS%252Bforces%252Bto%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTohGLOUoM8GIjDHz-9MJMT8YuWMzSfAmSDghc86uyeJdC9zlklQLwbYC6Lxen7_gxP7Q6E-e2lL8tMyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bofficials%252Bconsider%252Bsending%252B1%252C100%252BAfghans%252Bwho%252Baided%252BUS%252Bforces%252Bto%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vo0jGJXmoM8GIjBw7y9uEso2HpXu6mn3XR8tow9zDGw0wX8IS-WAGGBfS1RXsi6fbxEqaFu4TDQQnFUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-officials-consider-sending-1100-afghans-who-_20260421_2337.html
-✓ Created comprehensive article: trump-officials-consider-sending-1100-afghans-who-_20260421_2337.html
-
-Processing trending topic: Paraguay plans to accept 25 third-country migrant deportees from US
-Searching Google for: Paraguay plans to accept 25 third-country migrant deportees from US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DParaguay%252Bplans%252Bto%252Baccept%252B25%252Bthird-country%252Bmigrant%252Bdeportees%252Bfrom%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pTohGLmUoM8GIjCutqbpDiJpLX44Bs4pCchbTaU1MRDQjvE2tiq1zHitExvV6wZjwtx98zcxQ89ruJYyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: paraguay-plans-to-accept-25-third-country-migrant-_20260421_2337.html
-✓ Created comprehensive article: paraguay-plans-to-accept-25-third-country-migrant-_20260421_2337.html
+Successfully created file: trump-officials-consider-sending-1100-afghans-who-_20260422_0231.html
+✓ Created comprehensive article: trump-officials-consider-sending-1100-afghans-who-_20260422_0231.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russian-police-raid-book-publisher-accused-of-push_20260421_2005.html
-Cleaned old post to keep top 30 limit: real-madrid-close-on-barcelona-as-mbappe-and-vinic_20260421_2243.html
-Cleaned old post to keep top 30 limit: eu-eyes-options-as-iran-conflict-threatens-jet-fue_20260421_2243.html
+Cleaned old post to keep top 30 limit: taiwan-president-blames-china-for-forced-cancellat_20260421_2004.html
+Cleaned old post to keep top 30 limit: video-moment-hikers-get-caught-in-guatemala-volcan_20260421_1807.html
+Cleaned old post to keep top 30 limit: bird-flu-vaccine-trial-against-potential-pandemic-_20260421_2337.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bird flu vaccine trial against potential pandemic strain begins
+   • No 10 had 'dismissive attitude' to Mandelson vetting, says sacked Foreign Office chief
+     Sources: bbc.com, cnn.com, reuters.com
+   • I was left with an £8,000 vet bill when my insurer cancelled my pet policy
      Sources: bbc.com, cnn.com, reuters.com
    • Trump officials consider sending 1,100 Afghans who aided US forces to Congo
-     Sources: bbc.com, cnn.com, reuters.com
-   • Paraguay plans to accept 25 third-country migrant deportees from US
      Sources: bbc.com, cnn.com, reuters.com
