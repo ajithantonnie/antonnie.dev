@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US and Iran in blockade standoff as Pakistan pushes for talks
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: British woman died in Ghana trying to recoup money from scammers, inquest told
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 21 topics for 2026-04-22
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chelsea sack Rosenior after only three months at Premier League club
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran says ‘fully prepared’ for football team’s World Cup participation
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A 42bn-euro dilemma: What is stopping EU from holding Israel to account?
+Added expanded search topic: Chelsea sack Rosenior after only three months at Premier League club
+Added expanded search topic: Iran says ‘fully prepared’ for football team’s World Cup participation
+Added expanded search topic: A 42bn-euro dilemma: What is stopping EU from holding Israel to account?
+Saved 24 topics for 2026-04-22
 Returning 3 unique trending topics:
-  1. US and Iran in blockade standoff as Pakistan pushes for talks (from BBC News)
-  2. Starmer admits No 10 asked about job for aide Matthew Doyle (from BBC News)
-  3. British woman died in Ghana trying to recoup money from scammers, inquest told (from The Guardian)
+  1. Chelsea sack Rosenior after only three months at Premier League club (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran says ‘fully prepared’ for football team’s World Cup participation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. A 42bn-euro dilemma: What is stopping EU from holding Israel to account? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US and Iran in blockade standoff as Pakistan pushes for talks
-Searching Google for: US and Iran in blockade standoff as Pakistan pushes for talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIran%252Bin%252Bblockade%252Bstandoff%252Bas%252BPakistan%252Bpushes%252Bfor%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08KjFGJn-o88GIjDTbnSs4LQfbTzVbl8FAx8yYQx_iwmwtELXx0UQXGxRC0SRoCH8zKxlICRXaVZsAaAyBmpjbmRyUloBQw
+Processing trending topic: Chelsea sack Rosenior after only three months at Premier League club
+Searching Google for: Chelsea sack Rosenior after only three months at Premier League club
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChelsea%252Bsack%252BRosenior%252Bafter%252Bonly%252Bthree%252Bmonths%252Bat%252BPremier%252BLeague%252Bclub%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvFGPqbpM8GIjDpNwmggmuLVycnBf9rcOVjChdaDIiJXyndeIMNvdX7_ftElY8uEh2XND63nxyWmzsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-and-iran-in-blockade-standoff-as-pakistan-pushe_20260422_1702.html
-✓ Created comprehensive article: us-and-iran-in-blockade-standoff-as-pakistan-pushe_20260422_1702.html
+Successfully created file: chelsea-sack-rosenior-after-only-three-months-at-p_20260422_1805.html
+✓ Created comprehensive article: chelsea-sack-rosenior-after-only-three-months-at-p_20260422_1805.html
 
-Processing trending topic: Starmer admits No 10 asked about job for aide Matthew Doyle
-Searching Google for: Starmer admits No 10 asked about job for aide Matthew Doyle
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Badmits%252BNo%252B10%252Basked%252Babout%252Bjob%252Bfor%252Baide%252BMatthew%252BDoyle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08KjFGKD-o88GIjB5gHxBOgmgMet-ZjnEQ3cr6W9ot451swh7Ty7fkJ3giiRg1Sag8PN80Hil8ydGe_MyBmpjbmRyUloBQw
+Processing trending topic: Iran says ‘fully prepared’ for football team’s World Cup participation
+Searching Google for: Iran says ‘fully prepared’ for football team’s World Cup participation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bsays%252B%25E2%2580%2598fully%252Bprepared%25E2%2580%2599%252Bfor%252Bfootball%252Bteam%25E2%2580%2599s%252BWorld%252BCup%252Bparticipation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvFGIGcpM8GIjCd5NEoa7zEdIUEj7DOGQtO2xv5Jl67lN9Z_N9UDuR6CcH9mgdvcfSyKDedmA5Q-XcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-admits-no-10-asked-about-job-for-aide-matt_20260422_1702.html
-✓ Created comprehensive article: starmer-admits-no-10-asked-about-job-for-aide-matt_20260422_1702.html
+Successfully created file: iran-says-fully-prepared-for-football-teams-world-_20260422_1805.html
+✓ Created comprehensive article: iran-says-fully-prepared-for-football-teams-world-_20260422_1805.html
 
-Processing trending topic: British woman died in Ghana trying to recoup money from scammers, inquest told
-Searching Google for: British woman died in Ghana trying to recoup money from scammers, inquest told
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bwoman%252Bdied%252Bin%252BGhana%252Btrying%252Bto%252Brecoup%252Bmoney%252Bfrom%252Bscammers%252C%252Binquest%252Btold%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08KjFGKb-o88GIjCZ6Z50nuWHiOBlDwd2cPuFhPjz5Nzhq4L73yZ4R7NZ-du3ecpe1RhEWODuTSialT4yBmpjbmRyUloBQw
+Processing trending topic: A 42bn-euro dilemma: What is stopping EU from holding Israel to account?
+Searching Google for: A 42bn-euro dilemma: What is stopping EU from holding Israel to account?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252B42bn-euro%252Bdilemma%253A%252BWhat%252Bis%252Bstopping%252BEU%252Bfrom%252Bholding%252BIsrael%252Bto%252Baccount%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUvFGIicpM8GIjA0cbmP7Pe0PXigtIIyrfddD9CHTWC2pcFTS5hrOF9Ecj_TKgtYzqNpnw7oF8GHLJcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: british-woman-died-in-ghana-trying-to-recoup-money_20260422_1702.html
-✓ Created comprehensive article: british-woman-died-in-ghana-trying-to-recoup-money_20260422_1702.html
+Successfully created file: a-42bn-euro-dilemma-what-is-stopping-eu-from-holdi_20260422_1806.html
+✓ Created comprehensive article: a-42bn-euro-dilemma-what-is-stopping-eu-from-holdi_20260422_1806.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: lufthansa-cuts-20000-summer-flights-as-fuel-prices_20260422_1326.html
-Cleaned old post to keep top 30 limit: perus-election-chief-steps-down-amid-chaotic-gener_20260422_1106.html
-Cleaned old post to keep top 30 limit: deadly-israeli-settler-attack-on-school-kills-two-_20260422_1326.html
+Cleaned old post to keep top 30 limit: pm-admits-no-10-asked-about-job-for-aide-matthew-d_20260422_1326.html
+Cleaned old post to keep top 30 limit: pm-sends-chill-through-civil-service-union-boss-sa_20260422_0746.html
+Cleaned old post to keep top 30 limit: british-woman-died-in-ghana-trying-to-recoup-money_20260422_1702.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US and Iran in blockade standoff as Pakistan pushes for talks
+   • Chelsea sack Rosenior after only three months at Premier League club
      Sources: bbc.com, cnn.com, reuters.com
-   • Starmer admits No 10 asked about job for aide Matthew Doyle
+   • Iran says ‘fully prepared’ for football team’s World Cup participation
      Sources: bbc.com, cnn.com, reuters.com
-   • British woman died in Ghana trying to recoup money from scammers, inquest told
+   • A 42bn-euro dilemma: What is stopping EU from holding Israel to account?
      Sources: bbc.com, cnn.com, reuters.com
