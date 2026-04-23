@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump tells BBC that King's visit could 'absolutely' help repair relations with UK
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: British woman died in Ghana trying to recoup money from scammers, inquest told
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Warner Bros shareholders approve Paramount’s takeover
-Added expanded search topic: Warner Bros shareholders approve Paramount’s takeover
-Saved 21 topics for 2026-04-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Israeli war on Iran will push 30 million back into poverty, UN warns
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
+Added expanded search topic: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
+Added expanded search topic: US-Israeli war on Iran will push 30 million back into poverty, UN warns
+Added expanded search topic: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
+Saved 24 topics for 2026-04-23
 Returning 3 unique trending topics:
-  1. Trump tells BBC that King's visit could 'absolutely' help repair relations with UK (from BBC News)
-  2. Police arrest two over alleged drug sales through shops in West Midlands after BBC investigation (from BBC News)
-  3. Warner Bros shareholders approve Paramount’s takeover (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US-Israeli war on Iran will push 30 million back into poverty, UN warns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump tells BBC that King's visit could 'absolutely' help repair relations with UK
-Searching Google for: Trump tells BBC that King's visit could 'absolutely' help repair relations with UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btells%252BBBC%252Bthat%252BKing%2527s%252Bvisit%252Bcould%252B%2527absolutely%2527%252Bhelp%252Brepair%252Brelations%252Bwith%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I3GGKqBqc8GIjDDGQoCMUj5yd5oD_VNE8uOm4gmU18ZnBwC08-SpUzXFXgYglgI77Lh2982mjRam7YyBmpjbmRyUloBQw
+Processing trending topic: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
+Searching Google for: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bbad%252Bis%252BLamine%252BYamal%25E2%2580%2599s%252Binjury%253F%252BWill%252Bhe%252Bmake%252BSpain%25E2%2580%2599s%252BWorld%252BCup%252Bopener%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVPJGMurqc8GIjDhpKfg9rh43K_u47-rEkW413Sg5t1nXZTuyh0Q6vnkQJcdLE73EXLubueRGH8PCXAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-tells-bbc-that-kings-visit-could-absolutely-_20260423_1554.html
-✓ Created comprehensive article: trump-tells-bbc-that-kings-visit-could-absolutely-_20260423_1554.html
+Successfully created file: how-bad-is-lamine-yamals-injury-will-he-make-spain_20260423_1724.html
+✓ Created comprehensive article: how-bad-is-lamine-yamals-injury-will-he-make-spain_20260423_1724.html
 
-Processing trending topic: Police arrest two over alleged drug sales through shops in West Midlands after BBC investigation
-Searching Google for: Police arrest two over alleged drug sales through shops in West Midlands after BBC investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Barrest%252Btwo%252Bover%252Balleged%252Bdrug%252Bsales%252Bthrough%252Bshops%252Bin%252BWest%252BMidlands%252Bafter%252BBBC%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I3GGLGBqc8GIjDoksIpYwG-_EFo7_2H8pVPT3u9Aw6BWGb4W8JErWeMhy6lGEl6747ZaNcHR0ASYEoyBmpjbmRyUloBQw
+Processing trending topic: US-Israeli war on Iran will push 30 million back into poverty, UN warns
+Searching Google for: US-Israeli war on Iran will push 30 million back into poverty, UN warns
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Israeli%252Bwar%252Bon%252BIran%252Bwill%252Bpush%252B30%252Bmillion%252Bback%252Binto%252Bpoverty%252C%252BUN%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVPJGNKrqc8GIjBael155q8dUrOW2OrhSvn5FUXtazjSOIKpjHK4WeiXMzY_mbP49f5DY1_tEPhYu0kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-arrest-two-over-alleged-drug-sales-through-_20260423_1554.html
-✓ Created comprehensive article: police-arrest-two-over-alleged-drug-sales-through-_20260423_1554.html
+Successfully created file: us-israeli-war-on-iran-will-push-30-million-back-i_20260423_1724.html
+✓ Created comprehensive article: us-israeli-war-on-iran-will-push-30-million-back-i_20260423_1724.html
 
-Processing trending topic: Warner Bros shareholders approve Paramount’s takeover
-Searching Google for: Warner Bros shareholders approve Paramount’s takeover
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarner%252BBros%252Bshareholders%252Bapprove%252BParamount%25E2%2580%2599s%252Btakeover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I3GGLeBqc8GIjCu05g5YyYn4d7LivWkwvHrBp7icdURdfFYp6py-Hlix7o5KhMLO72qSJ4YR1hAbowyBmpjbmRyUloBQw
+Processing trending topic: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
+Searching Google for: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJournalist%252Brecalls%252BIsraeli%252Bstrike%252Bkilling%252BAmal%252BKhalil%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVPJGNmrqc8GIjB4YJ0fAnrce_2nO3YIJAvs1zRqideCNl7ehpL9AghrbsjwAaCbncL_foDuxb8LzfQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: warner-bros-shareholders-approve-paramounts-takeov_20260423_1554.html
-✓ Created comprehensive article: warner-bros-shareholders-approve-paramounts-takeov_20260423_1554.html
+Successfully created file: journalist-recalls-israeli-strike-killing-amal-kha_20260423_1724.html
+✓ Created comprehensive article: journalist-recalls-israeli-strike-killing-amal-kha_20260423_1724.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israeli-strike-kills-five-in-gaza-including-three-_20260423_0929.html
-Cleaned old post to keep top 30 limit: lufthansa-cuts-20000-flights-as-iran-war-causes-je_20260423_1110.html
-Cleaned old post to keep top 30 limit: health-data-of-500000-people-offered-for-sale-onli_20260423_1329.html
+Cleaned old post to keep top 30 limit: what-we-know-about-israel-killing-lebanese-journal_20260423_1110.html
+Cleaned old post to keep top 30 limit: two-trains-crash-head-on-in-denmark_20260423_1329.html
+Cleaned old post to keep top 30 limit: police-arrest-two-over-alleged-drug-sales-through-_20260423_1554.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump tells BBC that King's visit could 'absolutely' help repair relations with UK
+   • How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
      Sources: bbc.com, cnn.com, reuters.com
-   • Police arrest two over alleged drug sales through shops in West Midlands after BBC investigation
+   • US-Israeli war on Iran will push 30 million back into poverty, UN warns
      Sources: bbc.com, cnn.com, reuters.com
-   • Warner Bros shareholders approve Paramount’s takeover
+   • Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
