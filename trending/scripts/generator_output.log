@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump tells BBC that King's visit could 'absolutely' help repair relations with UK
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Israeli war on Iran will push 30 million back into poverty, UN warns
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
-Added expanded search topic: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
-Added expanded search topic: US-Israeli war on Iran will push 30 million back into poverty, UN warns
-Added expanded search topic: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
-Saved 24 topics for 2026-04-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Africa president suspends police chief over $21m contract
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mixed views in Lebanon ahead of controversial talks with Israel
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than 6 million Somalis face hunger amid climate shocks and conflict
+Added expanded search topic: South Africa president suspends police chief over $21m contract
+Added expanded search topic: Mixed views in Lebanon ahead of controversial talks with Israel
+Added expanded search topic: More than 6 million Somalis face hunger amid climate shocks and conflict
+Saved 27 topics for 2026-04-23
 Returning 3 unique trending topics:
-  1. How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. US-Israeli war on Iran will push 30 million back into poverty, UN warns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. South Africa president suspends police chief over $21m contract (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Mixed views in Lebanon ahead of controversial talks with Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. More than 6 million Somalis face hunger amid climate shocks and conflict (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
-Searching Google for: How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bbad%252Bis%252BLamine%252BYamal%25E2%2580%2599s%252Binjury%253F%252BWill%252Bhe%252Bmake%252BSpain%25E2%2580%2599s%252BWorld%252BCup%252Bopener%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVPJGMurqc8GIjDhpKfg9rh43K_u47-rEkW413Sg5t1nXZTuyh0Q6vnkQJcdLE73EXLubueRGH8PCXAyBmpjbmRyUloBQw
+Processing trending topic: South Africa president suspends police chief over $21m contract
+Searching Google for: South Africa president suspends police chief over $21m contract
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-bad-is-lamine-yamals-injury-will-he-make-spain_20260423_1724.html
-✓ Created comprehensive article: how-bad-is-lamine-yamals-injury-will-he-make-spain_20260423_1724.html
+Successfully created file: south-africa-president-suspends-police-chief-over-_20260423_1908.html
+✓ Created comprehensive article: south-africa-president-suspends-police-chief-over-_20260423_1908.html
 
-Processing trending topic: US-Israeli war on Iran will push 30 million back into poverty, UN warns
-Searching Google for: US-Israeli war on Iran will push 30 million back into poverty, UN warns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Israeli%252Bwar%252Bon%252BIran%252Bwill%252Bpush%252B30%252Bmillion%252Bback%252Binto%252Bpoverty%252C%252BUN%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVPJGNKrqc8GIjBael155q8dUrOW2OrhSvn5FUXtazjSOIKpjHK4WeiXMzY_mbP49f5DY1_tEPhYu0kyBmpjbmRyUloBQw
+Processing trending topic: Mixed views in Lebanon ahead of controversial talks with Israel
+Searching Google for: Mixed views in Lebanon ahead of controversial talks with Israel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMixed%252Bviews%252Bin%252BLebanon%252Bahead%252Bof%252Bcontroversial%252Btalks%252Bwith%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QvYGNbdqc8GIjDYCYPe0ZB2IZesMq9oDHcycvza5KjZ0kaJ2maGHwH6ABcpSt2rIPmVvx3V3ME9zYwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-israeli-war-on-iran-will-push-30-million-back-i_20260423_1724.html
-✓ Created comprehensive article: us-israeli-war-on-iran-will-push-30-million-back-i_20260423_1724.html
+Successfully created file: mixed-views-in-lebanon-ahead-of-controversial-talk_20260423_1911.html
+✓ Created comprehensive article: mixed-views-in-lebanon-ahead-of-controversial-talk_20260423_1911.html
 
-Processing trending topic: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
-Searching Google for: Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJournalist%252Brecalls%252BIsraeli%252Bstrike%252Bkilling%252BAmal%252BKhalil%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oVPJGNmrqc8GIjB4YJ0fAnrce_2nO3YIJAvs1zRqideCNl7ehpL9AghrbsjwAaCbncL_foDuxb8LzfQyBmpjbmRyUloBQw
+Processing trending topic: More than 6 million Somalis face hunger amid climate shocks and conflict
+Searching Google for: More than 6 million Somalis face hunger amid climate shocks and conflict
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B6%252Bmillion%252BSomalis%252Bface%252Bhunger%252Bamid%252Bclimate%252Bshocks%252Band%252Bconflict%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QvYGNzdqc8GIjDURfiJYtmoOaLTFmEjk1z5T46AQGBdV64Yv7zbBq_cBjhnCjUHfqJW-onAjaLc-CsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: journalist-recalls-israeli-strike-killing-amal-kha_20260423_1724.html
-✓ Created comprehensive article: journalist-recalls-israeli-strike-killing-amal-kha_20260423_1724.html
+Successfully created file: more-than-6-million-somalis-face-hunger-amid-clima_20260423_1911.html
+✓ Created comprehensive article: more-than-6-million-somalis-face-hunger-amid-clima_20260423_1911.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-we-know-about-israel-killing-lebanese-journal_20260423_1110.html
-Cleaned old post to keep top 30 limit: two-trains-crash-head-on-in-denmark_20260423_1329.html
-Cleaned old post to keep top 30 limit: police-arrest-two-over-alleged-drug-sales-through-_20260423_1554.html
+Cleaned old post to keep top 30 limit: journalist-recalls-israeli-strike-killing-amal-kha_20260423_1724.html
+Cleaned old post to keep top 30 limit: us-israeli-war-on-iran-will-push-30-million-back-i_20260423_1724.html
+Cleaned old post to keep top 30 limit: how-bad-is-lamine-yamals-injury-will-he-make-spain_20260423_1724.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • How bad is Lamine Yamal’s injury? Will he make Spain’s World Cup opener?
+   • South Africa president suspends police chief over $21m contract
      Sources: bbc.com, cnn.com, reuters.com
-   • US-Israeli war on Iran will push 30 million back into poverty, UN warns
+   • Mixed views in Lebanon ahead of controversial talks with Israel
      Sources: bbc.com, cnn.com, reuters.com
-   • Journalist recalls Israeli strike killing Amal Khalil in southern Lebanon
+   • More than 6 million Somalis face hunger amid climate shocks and conflict
      Sources: bbc.com, cnn.com, reuters.com
