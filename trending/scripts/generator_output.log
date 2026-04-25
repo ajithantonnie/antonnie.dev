@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Katya Adler: Europe's Nato allies push back at reported US threat to Spain
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Astonishing’ discovery could help save children from deadly disfiguring condition
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mali army says armed groups launch nationwide attacks; gunfire near airport
-Added expanded search topic: Mali army says armed groups launch nationwide attacks; gunfire near airport
-Saved 15 topics for 2026-04-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s Infowar: Lego, AI and ever tightening control
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mali attacks live: Gunfire heard near Bamako airport and in several cities
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians cast their ballots as Gaza holds first election in 21 years
+Added expanded search topic: Iran’s Infowar: Lego, AI and ever tightening control
+Added expanded search topic: Mali attacks live: Gunfire heard near Bamako airport and in several cities
+Added expanded search topic: Palestinians cast their ballots as Gaza holds first election in 21 years
+Saved 18 topics for 2026-04-25
 Returning 3 unique trending topics:
-  1. Two children die in house fire in Wolverhampton (from BBC News)
-  2. ‘Astonishing’ discovery could help save children from deadly disfiguring condition (from The Guardian)
-  3. Mali army says armed groups launch nationwide attacks; gunfire near airport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iran’s Infowar: Lego, AI and ever tightening control (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Mali attacks live: Gunfire heard near Bamako airport and in several cities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Palestinians cast their ballots as Gaza holds first election in 21 years (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two children die in house fire in Wolverhampton
-Searching Google for: Two children die in house fire in Wolverhampton
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bchildren%252Bdie%252Bin%252Bhouse%252Bfire%252Bin%252BWolverhampton%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuP5CGNSfss8GIjCE3uXBm-KQNjkiOGRII0yao0MTDobw90qkN2WhzMyNdpl6dslqsASSTbpvVU4G46kyBmpjbmRyUloBQw
+Processing trending topic: Iran’s Infowar: Lego, AI and ever tightening control
+Searching Google for: Iran’s Infowar: Lego, AI and ever tightening control
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252BInfowar%253A%252BLego%252C%252BAI%252Band%252Bever%252Btightening%252Bcontrol%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTuTGMi2ss8GIjAfsCX6GM3KBRx_EJQIJEIUjkFz3zsdR4CoMPxbTN2dbuSnVaEQCpnjyPDPwqq84xcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-children-die-in-house-fire-in-wolverhampton_20260425_0956.html
-✓ Created comprehensive article: two-children-die-in-house-fire-in-wolverhampton_20260425_0956.html
+Successfully created file: irans-infowar-lego-ai-and-ever-tightening-control_20260425_1045.html
+✓ Created comprehensive article: irans-infowar-lego-ai-and-ever-tightening-control_20260425_1045.html
 
-Processing trending topic: ‘Astonishing’ discovery could help save children from deadly disfiguring condition
-Searching Google for: ‘Astonishing’ discovery could help save children from deadly disfiguring condition
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Astonishing%25E2%2580%2599%252Bdiscovery%252Bcould%252Bhelp%252Bsave%252Bchildren%252Bfrom%252Bdeadly%252Bdisfiguring%252Bcondition%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuP5CGNufss8GIjCOHoKFzeJvy-b4KuC640Ox6HOMl5RldyDIqlWmnwM_YJrdytKj9PSxYEz8nHK-ztIyBmpjbmRyUloBQw
+Processing trending topic: Mali attacks live: Gunfire heard near Bamako airport and in several cities
+Searching Google for: Mali attacks live: Gunfire heard near Bamako airport and in several cities
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMali%252Battacks%252Blive%253A%252BGunfire%252Bheard%252Bnear%252BBamako%252Bairport%252Band%252Bin%252Bseveral%252Bcities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTuTGM-2ss8GIjCbqaDmhQBW04qBFdUhSu2_loNwz-uLQToUQTeRamvEKLueliWkAtXTDPdxLXdB0cQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: astonishing-discovery-could-help-save-children-fro_20260425_0956.html
-✓ Created comprehensive article: astonishing-discovery-could-help-save-children-fro_20260425_0956.html
+Successfully created file: mali-attacks-live-gunfire-heard-near-bamako-airpor_20260425_1045.html
+✓ Created comprehensive article: mali-attacks-live-gunfire-heard-near-bamako-airpor_20260425_1045.html
 
-Processing trending topic: Mali army says armed groups launch nationwide attacks; gunfire near airport
-Searching Google for: Mali army says armed groups launch nationwide attacks; gunfire near airport
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMali%252Barmy%252Bsays%252Barmed%252Bgroups%252Blaunch%252Bnationwide%252Battacks%253B%252Bgunfire%252Bnear%252Bairport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuP5CGOCfss8GIjChusfYQSz8TfZqF-eW7e0VnnQFAx1Q5aIJfCAZSzLlcHWd2TxOb9-e4INFGs83k4oyBmpjbmRyUloBQw
+Processing trending topic: Palestinians cast their ballots as Gaza holds first election in 21 years
+Searching Google for: Palestinians cast their ballots as Gaza holds first election in 21 years
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Bcast%252Btheir%252Bballots%252Bas%252BGaza%252Bholds%252Bfirst%252Belection%252Bin%252B21%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTuTGNa2ss8GIjAh1XPqMJpifWZsCpiZScq7mZv5etyNeLNoAHXN_J9Z-E5-r5Mx5au_g0CVa4tBHwcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mali-army-says-armed-groups-launch-nationwide-atta_20260425_0956.html
-✓ Created comprehensive article: mali-army-says-armed-groups-launch-nationwide-atta_20260425_0956.html
+Successfully created file: palestinians-cast-their-ballots-as-gaza-holds-firs_20260425_1045.html
+✓ Created comprehensive article: palestinians-cast-their-ballots-as-gaza-holds-firs_20260425_1045.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: west-bank-scepticism-as-palestinians-doubt-local-e_20260425_0854.html
-Cleaned old post to keep top 30 limit: ireland-to-demand-israel-pay-for-settler-demolitio_20260425_0854.html
-Cleaned old post to keep top 30 limit: falklands-veteran-hopes-king-can-speak-to-trump-ov_20260425_0854.html
+Cleaned old post to keep top 30 limit: mali-army-says-armed-groups-launch-nationwide-atta_20260425_0956.html
+Cleaned old post to keep top 30 limit: two-children-die-in-house-fire-in-wolverhampton_20260425_0956.html
+Cleaned old post to keep top 30 limit: astonishing-discovery-could-help-save-children-fro_20260425_0956.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two children die in house fire in Wolverhampton
+   • Iran’s Infowar: Lego, AI and ever tightening control
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Astonishing’ discovery could help save children from deadly disfiguring condition
+   • Mali attacks live: Gunfire heard near Bamako airport and in several cities
      Sources: bbc.com, cnn.com, reuters.com
-   • Mali army says armed groups launch nationwide attacks; gunfire near airport
+   • Palestinians cast their ballots as Gaza holds first election in 21 years
      Sources: bbc.com, cnn.com, reuters.com
