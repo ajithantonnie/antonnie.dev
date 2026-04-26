@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Moment Trump rushed to safety after gunshots heard at venue
-  Added: What it was like in the room as shots rang out at correspondents' dinner
+  Added: What it was like in the room as shots rang out at Washington event
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: What’s happening on day 58 as Tehran-Washington talks stall?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Injured Salah has played his last game for Liverpool: Egypt team official
-Added expanded search topic: Iran war: What’s happening on day 58 as Tehran-Washington talks stall?
-Added expanded search topic: Injured Salah has played his last game for Liverpool: Egypt team official
-Saved 9 topics for 2026-04-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Aljamain Sterling calls for featherweight title shot after UFC 116 win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How American taxpayers fund Trump’s wars
+Added expanded search topic: Aljamain Sterling calls for featherweight title shot after UFC 116 win
+Added expanded search topic: How American taxpayers fund Trump’s wars
+Saved 12 topics for 2026-04-26
 Returning 3 unique trending topics:
-  1. Moment Trump rushed to safety after gunshots heard at venue (from BBC News)
-  2. Iran war: What’s happening on day 58 as Tehran-Washington talks stall? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Injured Salah has played his last game for Liverpool: Egypt team official (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. What it was like in the room as shots rang out at Washington event (from BBC News)
+  2. Aljamain Sterling calls for featherweight title shot after UFC 116 win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How American taxpayers fund Trump’s wars (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Moment Trump rushed to safety after gunshots heard at venue
-Searching Google for: Moment Trump rushed to safety after gunshots heard at venue
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoment%252BTrump%252Brushed%252Bto%252Bsafety%252Bafter%252Bgunshots%252Bheard%252Bat%252Bvenue%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwQGOL9ts8GIjDR5J7Txnq74Bq9x4TcblXNCFZ6tPO5P7DqP7qv6og4Wau0l1z7bZGqgq8sN9ROtskyBmpjbmRyUloBQw
+Processing trending topic: What it was like in the room as shots rang out at Washington event
+Searching Google for: What it was like in the room as shots rang out at Washington event
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bit%252Bwas%252Blike%252Bin%252Bthe%252Broom%252Bas%252Bshots%252Brang%252Bout%252Bat%252BWashington%252Bevent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WtyGPKot88GIjC9GRHcx3BAwEGlwDjEmoolnhmaZEApAqSpewjLesRA_kPlmOp-V-pkXd9MgruYVJwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: moment-trump-rushed-to-safety-after-gunshots-heard_20260426_0729.html
-✓ Created comprehensive article: moment-trump-rushed-to-safety-after-gunshots-heard_20260426_0729.html
+Successfully created file: what-it-was-like-in-the-room-as-shots-rang-out-at-_20260426_0901.html
+✓ Created comprehensive article: what-it-was-like-in-the-room-as-shots-rang-out-at-_20260426_0901.html
 
-Processing trending topic: Iran war: What’s happening on day 58 as Tehran-Washington talks stall?
-Searching Google for: Iran war: What’s happening on day 58 as Tehran-Washington talks stall?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BWhat%25E2%2580%2599s%252Bhappening%252Bon%252Bday%252B58%252Bas%252BTehran-Washington%252Btalks%252Bstall%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwQGOn9ts8GIjAmgBDTiZvQMPIFCB9GKk7ml8T2mSd61mfval5IOrNHSh68ztusNr7R42WSJZdR6AwyBmpjbmRyUloBQw
+Processing trending topic: Aljamain Sterling calls for featherweight title shot after UFC 116 win
+Searching Google for: Aljamain Sterling calls for featherweight title shot after UFC 116 win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAljamain%252BSterling%252Bcalls%252Bfor%252Bfeatherweight%252Btitle%252Bshot%252Bafter%252BUFC%252B116%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WtyGPmot88GIjD6VGZWKeoHxuDMjuD_VxteXziWS9wFHfgAFvDKE42z0xVvt5uy8kwjIag9hnLRQgAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-whats-happening-on-day-58-as-tehran-washi_20260426_0729.html
-✓ Created comprehensive article: iran-war-whats-happening-on-day-58-as-tehran-washi_20260426_0729.html
+Successfully created file: aljamain-sterling-calls-for-featherweight-title-sh_20260426_0901.html
+✓ Created comprehensive article: aljamain-sterling-calls-for-featherweight-title-sh_20260426_0901.html
 
-Processing trending topic: Injured Salah has played his last game for Liverpool: Egypt team official
-Searching Google for: Injured Salah has played his last game for Liverpool: Egypt team official
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInjured%252BSalah%252Bhas%252Bplayed%252Bhis%252Blast%252Bgame%252Bfor%252BLiverpool%253A%252BEgypt%252Bteam%252Bofficial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwQGO_9ts8GIjAwzvimepdwyCpwoJwYmrW2whY7x8iiMV-cV6pwiY8vGc71XR-C-cb2AaO2dLNetEMyBmpjbmRyUloBQw
+Processing trending topic: How American taxpayers fund Trump’s wars
+Searching Google for: How American taxpayers fund Trump’s wars
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BAmerican%252Btaxpayers%252Bfund%252BTrump%25E2%2580%2599s%252Bwars%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WtyGP6ot88GIjAt0SquYQCrXtbmzTBN8haW-_m0p450LLrBh7N_4yvsb_fbIJnMdR3LX2IZaYkDwR8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: injured-salah-has-played-his-last-game-for-liverpo_20260426_0729.html
-✓ Created comprehensive article: injured-salah-has-played-his-last-game-for-liverpo_20260426_0729.html
+Successfully created file: how-american-taxpayers-fund-trumps-wars_20260426_0901.html
+✓ Created comprehensive article: how-american-taxpayers-fund-trumps-wars_20260426_0901.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-it-was-like-in-the-room-as-shots-rang-out-at-_20260426_0541.html
-Cleaned old post to keep top 30 limit: trump-confirms-officer-shot-at-white-house-corresp_20260426_0541.html
-Cleaned old post to keep top 30 limit: video-shows-correspondents-dinner-suspect-charge-c_20260426_0541.html
+Cleaned old post to keep top 30 limit: moment-trump-rushed-to-safety-after-gunshots-heard_20260426_0729.html
+Cleaned old post to keep top 30 limit: iran-war-whats-happening-on-day-58-as-tehran-washi_20260426_0729.html
+Cleaned old post to keep top 30 limit: injured-salah-has-played-his-last-game-for-liverpo_20260426_0729.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Moment Trump rushed to safety after gunshots heard at venue
+   • What it was like in the room as shots rang out at Washington event
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war: What’s happening on day 58 as Tehran-Washington talks stall?
+   • Aljamain Sterling calls for featherweight title shot after UFC 116 win
      Sources: bbc.com, cnn.com, reuters.com
-   • Injured Salah has played his last game for Liverpool: Egypt team official
+   • How American taxpayers fund Trump’s wars
      Sources: bbc.com, cnn.com, reuters.com
