@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: How the shooting unfolded at Washington event
-  Added: What we know about press dinner shooting suspect
+  Added: Watch: How gunfire sparked chaos at Trump press dinner
+  Added: Suspected gunman at Washington press dinner identified as 31-year-old Californian
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yemen’s landmine crisis endures despite truce and de-mining efforts
-Added expanded search topic: Yemen’s landmine crisis endures despite truce and de-mining efforts
-Saved 15 topics for 2026-04-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
+Added expanded search topic: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
+Saved 18 topics for 2026-04-26
 Returning 3 unique trending topics:
-  1. How the shooting unfolded at Washington event (from BBC News)
-  2. What we know about press dinner shooting suspect (from BBC News)
-  3. Yemen’s landmine crisis endures despite truce and de-mining efforts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Watch: How gunfire sparked chaos at Trump press dinner (from BBC News)
+  2. Suspected gunman at Washington press dinner identified as 31-year-old Californian (from BBC News)
+  3. At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: How the shooting unfolded at Washington event
-Searching Google for: How the shooting unfolded at Washington event
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bthe%252Bshooting%252Bunfolded%252Bat%252BWashington%252Bevent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfrwGLTFt88GIjBggCeB8qimTtJqr-gRd9a9U3T93D18CblcPtO_SrQ02L7B62G7S9B2AYqZVhT3r1gyBmpjbmRyUloBQw
+Processing trending topic: Watch: How gunfire sparked chaos at Trump press dinner
+Searching Google for: Watch: How gunfire sparked chaos at Trump press dinner
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-the-shooting-unfolded-at-washington-event_20260426_1002.html
-✓ Created comprehensive article: how-the-shooting-unfolded-at-washington-event_20260426_1002.html
+Successfully created file: watch-how-gunfire-sparked-chaos-at-trump-press-din_20260426_1056.html
+✓ Created comprehensive article: watch-how-gunfire-sparked-chaos-at-trump-press-din_20260426_1056.html
 
-Processing trending topic: What we know about press dinner shooting suspect
-Searching Google for: What we know about press dinner shooting suspect
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252Bpress%252Bdinner%252Bshooting%252Bsuspect%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfrwGLvFt88GIjAYIwoafj-fB3kJKLeW_1Jb_TKlFM97IjqjylbWpqx9N65xS_nJuGOeMb6J7x4IFbgyBmpjbmRyUloBQw
+Processing trending topic: Suspected gunman at Washington press dinner identified as 31-year-old Californian
+Searching Google for: Suspected gunman at Washington press dinner identified as 31-year-old Californian
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspected%252Bgunman%252Bat%252BWashington%252Bpress%252Bdinner%252Bidentified%252Bas%252B31-year-old%252BCalifornian%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7wGM_et88GIjBfUY7Wd6r96evTz-UNX041WcLcz7oESdOzoST9tHF_MXrozHe41BQdx400_qranhcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-about-press-dinner-shooting-suspect_20260426_1002.html
-✓ Created comprehensive article: what-we-know-about-press-dinner-shooting-suspect_20260426_1002.html
+Successfully created file: suspected-gunman-at-washington-press-dinner-identi_20260426_1056.html
+✓ Created comprehensive article: suspected-gunman-at-washington-press-dinner-identi_20260426_1056.html
 
-Processing trending topic: Yemen’s landmine crisis endures despite truce and de-mining efforts
-Searching Google for: Yemen’s landmine crisis endures despite truce and de-mining efforts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYemen%25E2%2580%2599s%252Blandmine%252Bcrisis%252Bendures%252Bdespite%252Btruce%252Band%252Bde-mining%252Befforts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pfrwGMHFt88GIjBujdutjucC0b5OZ1KTFmwyYyOVaTygM10SHB8kqgO3a5iz2Qbbq3sVfTuLnIHLxLMyBmpjbmRyUloBQw
+Processing trending topic: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
+Searching Google for: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252Bfour%252Bpeople%252Bkilled%252Bin%252BIsraeli%252Battacks%252Bin%252BGaza%252Bdespite%252B%25E2%2580%2598ceasefire%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7wGNXet88GIjAMupDagG6J4pQMcLS4egdwZYmyRxwovuZFQwzc0S5DguXOJw8w_qBgl1DkFXTp5vQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: yemens-landmine-crisis-endures-despite-truce-and-d_20260426_1002.html
-✓ Created comprehensive article: yemens-landmine-crisis-endures-despite-truce-and-d_20260426_1002.html
+Successfully created file: at-least-four-people-killed-in-israeli-attacks-in-_20260426_1056.html
+✓ Created comprehensive article: at-least-four-people-killed-in-israeli-attacks-in-_20260426_1056.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-puts-onus-on-irans-authorities-as-they-proje_20260425_2238.html
-Cleaned old post to keep top 30 limit: how-american-taxpayers-fund-trumps-wars_20260426_0901.html
-Cleaned old post to keep top 30 limit: aljamain-sterling-calls-for-featherweight-title-sh_20260426_0901.html
+Cleaned old post to keep top 30 limit: warner-bros-shareholders-approve-paramounts-takeov_20260423_1554.html
+Cleaned old post to keep top 30 limit: trump-to-again-end-legal-status-of-people-who-ente_20260424_2048.html
+Cleaned old post to keep top 30 limit: how-the-shooting-unfolded-at-washington-event_20260426_1002.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • How the shooting unfolded at Washington event
+   • Watch: How gunfire sparked chaos at Trump press dinner
      Sources: bbc.com, cnn.com, reuters.com
-   • What we know about press dinner shooting suspect
+   • Suspected gunman at Washington press dinner identified as 31-year-old Californian
      Sources: bbc.com, cnn.com, reuters.com
-   • Yemen’s landmine crisis endures despite truce and de-mining efforts
+   • At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
      Sources: bbc.com, cnn.com, reuters.com
