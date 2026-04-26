@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: How gunfire sparked chaos at Trump press dinner
-  Added: Suspected gunman at Washington press dinner identified as 31-year-old Californian
+  Added: Suspected gunman identified as 31-year-old Californian
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Militants and separatists launch coordinated attacks across Mali
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
-Added expanded search topic: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
-Saved 18 topics for 2026-04-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mali’s Defence Minister Sadio Camara killed amid coordinated attacks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What we know about the suspected ‘assassination attempt’ on Donald Trump
+Added expanded search topic: Mali’s Defence Minister Sadio Camara killed amid coordinated attacks
+Added expanded search topic: What we know about the suspected ‘assassination attempt’ on Donald Trump
+Saved 21 topics for 2026-04-26
 Returning 3 unique trending topics:
-  1. Watch: How gunfire sparked chaos at Trump press dinner (from BBC News)
-  2. Suspected gunman at Washington press dinner identified as 31-year-old Californian (from BBC News)
-  3. At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Suspected gunman identified as 31-year-old Californian (from BBC News)
+  2. Mali’s Defence Minister Sadio Camara killed amid coordinated attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What we know about the suspected ‘assassination attempt’ on Donald Trump (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: How gunfire sparked chaos at Trump press dinner
-Searching Google for: Watch: How gunfire sparked chaos at Trump press dinner
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Suspected gunman identified as 31-year-old Californian
+Searching Google for: Suspected gunman identified as 31-year-old Californian
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspected%252Bgunman%252Bidentified%252Bas%252B31-year-old%252BCalifornian%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhejGNLzt88GIjCymv05rJ_ykciDpDJ6yqjvmkghwdH40hZRNR1o7504GjkyjngSVfkpkrHWTRaw8RAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-how-gunfire-sparked-chaos-at-trump-press-din_20260426_1056.html
-✓ Created comprehensive article: watch-how-gunfire-sparked-chaos-at-trump-press-din_20260426_1056.html
+Successfully created file: suspected-gunman-identified-as-31-year-old-califor_20260426_1141.html
+✓ Created comprehensive article: suspected-gunman-identified-as-31-year-old-califor_20260426_1141.html
 
-Processing trending topic: Suspected gunman at Washington press dinner identified as 31-year-old Californian
-Searching Google for: Suspected gunman at Washington press dinner identified as 31-year-old Californian
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspected%252Bgunman%252Bat%252BWashington%252Bpress%252Bdinner%252Bidentified%252Bas%252B31-year-old%252BCalifornian%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7wGM_et88GIjBfUY7Wd6r96evTz-UNX041WcLcz7oESdOzoST9tHF_MXrozHe41BQdx400_qranhcyBmpjbmRyUloBQw
+Processing trending topic: Mali’s Defence Minister Sadio Camara killed amid coordinated attacks
+Searching Google for: Mali’s Defence Minister Sadio Camara killed amid coordinated attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMali%25E2%2580%2599s%252BDefence%252BMinister%252BSadio%252BCamara%252Bkilled%252Bamid%252Bcoordinated%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhejGNnzt88GIjBOiuCdri0AkcoFt8sWbVM6vRun4AtddLfBdbc1us4M5pRQOHkHtLqpTtCFolGbxIoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspected-gunman-at-washington-press-dinner-identi_20260426_1056.html
-✓ Created comprehensive article: suspected-gunman-at-washington-press-dinner-identi_20260426_1056.html
+Successfully created file: malis-defence-minister-sadio-camara-killed-amid-co_20260426_1141.html
+✓ Created comprehensive article: malis-defence-minister-sadio-camara-killed-amid-co_20260426_1141.html
 
-Processing trending topic: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
-Searching Google for: At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252Bfour%252Bpeople%252Bkilled%252Bin%252BIsraeli%252Battacks%252Bin%252BGaza%252Bdespite%252B%25E2%2580%2598ceasefire%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7wGNXet88GIjAMupDagG6J4pQMcLS4egdwZYmyRxwovuZFQwzc0S5DguXOJw8w_qBgl1DkFXTp5vQyBmpjbmRyUloBQw
+Processing trending topic: What we know about the suspected ‘assassination attempt’ on Donald Trump
+Searching Google for: What we know about the suspected ‘assassination attempt’ on Donald Trump
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252Bthe%252Bsuspected%252B%25E2%2580%2598assassination%252Battempt%25E2%2580%2599%252Bon%252BDonald%252BTrump%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhejGN_zt88GIjBugtJPlD2FmaYzx5QoRO5JMVxl8pee-b-i7m17W2_R9Y2n1spXZJVbtHM71u86mY4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-four-people-killed-in-israeli-attacks-in-_20260426_1056.html
-✓ Created comprehensive article: at-least-four-people-killed-in-israeli-attacks-in-_20260426_1056.html
+Successfully created file: what-we-know-about-the-suspected-assassination-att_20260426_1141.html
+✓ Created comprehensive article: what-we-know-about-the-suspected-assassination-att_20260426_1141.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: warner-bros-shareholders-approve-paramounts-takeov_20260423_1554.html
-Cleaned old post to keep top 30 limit: trump-to-again-end-legal-status-of-people-who-ente_20260424_2048.html
-Cleaned old post to keep top 30 limit: how-the-shooting-unfolded-at-washington-event_20260426_1002.html
+Cleaned old post to keep top 30 limit: what-it-was-like-in-the-room-as-shots-rang-out-at-_20260426_0901.html
+Cleaned old post to keep top 30 limit: watch-how-gunfire-sparked-chaos-at-trump-press-din_20260426_1056.html
+Cleaned old post to keep top 30 limit: at-least-four-people-killed-in-israeli-attacks-in-_20260426_1056.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: How gunfire sparked chaos at Trump press dinner
+   • Suspected gunman identified as 31-year-old Californian
      Sources: bbc.com, cnn.com, reuters.com
-   • Suspected gunman at Washington press dinner identified as 31-year-old Californian
+   • Mali’s Defence Minister Sadio Camara killed amid coordinated attacks
      Sources: bbc.com, cnn.com, reuters.com
-   • At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’
+   • What we know about the suspected ‘assassination attempt’ on Donald Trump
      Sources: bbc.com, cnn.com, reuters.com
