@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer faces vote on inquiry over Mandelson vetting claims
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: German tourist dies after being bitten at snake show on family holiday in Egypt
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Timeline: The highs and lows of the US-UK ‘special relationship’
-Added expanded search topic: Timeline: The highs and lows of the US-UK ‘special relationship’
-Saved 24 topics for 2026-04-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China seeks to block US tech giant Meta from AI acquisition
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: King Charles and Queen Camilla arrive for high-profile US state visit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hezbollah and Israel swap threats and strikes across Lebanon’s border
+Added expanded search topic: China seeks to block US tech giant Meta from AI acquisition
+Added expanded search topic: King Charles and Queen Camilla arrive for high-profile US state visit
+Added expanded search topic: Hezbollah and Israel swap threats and strikes across Lebanon’s border
+Saved 27 topics for 2026-04-27
 Returning 3 unique trending topics:
-  1. Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs (from BBC News)
-  2. German tourist dies after being bitten at snake show on family holiday in Egypt (from The Guardian)
-  3. Timeline: The highs and lows of the US-UK ‘special relationship’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. China seeks to block US tech giant Meta from AI acquisition (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. King Charles and Queen Camilla arrive for high-profile US state visit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Hezbollah and Israel swap threats and strikes across Lebanon’s border (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs
-Searching Google for: Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClaire%2527s%252Bcloses%252Ball%252B154%252Bstores%252Bin%252BUK%252Band%252BIreland%252Bwith%252Bloss%252Bof%252B1%252C300%252Bjobs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-hGKfvvs8GIjA3rN2F0uv2MRcIPx4OPaXsjjapJVLxRqm38tD4Zojc9BtxZAENPzYtft3B1kt07BsyBmpjbmRyUloBQw
+Processing trending topic: China seeks to block US tech giant Meta from AI acquisition
+Searching Google for: China seeks to block US tech giant Meta from AI acquisition
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bseeks%252Bto%252Bblock%252BUS%252Btech%252Bgiant%252BMeta%252Bfrom%252BAI%252Bacquisition%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfbCyGO-ev88GIjD0wAcD4wk5jTMHGSQKQ1lQx0SMEn26HmSoDLvw7gWtvbTYboNeHtqDE19QMSkkEUwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: claires-closes-all-154-stores-in-uk-and-ireland-wi_20260427_1923.html
-✓ Created comprehensive article: claires-closes-all-154-stores-in-uk-and-ireland-wi_20260427_1923.html
+Successfully created file: china-seeks-to-block-us-tech-giant-meta-from-ai-ac_20260427_2104.html
+✓ Created comprehensive article: china-seeks-to-block-us-tech-giant-meta-from-ai-ac_20260427_2104.html
 
-Processing trending topic: German tourist dies after being bitten at snake show on family holiday in Egypt
-Searching Google for: German tourist dies after being bitten at snake show on family holiday in Egypt
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGerman%252Btourist%252Bdies%252Bafter%252Bbeing%252Bbitten%252Bat%252Bsnake%252Bshow%252Bon%252Bfamily%252Bholiday%252Bin%252BEgypt%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-hGK7vvs8GIjAZmJ0sC0uN-3S46-75x8-4Li7QGKXzhC-hxdc0EuYPXeFkV01gfrTuq_EkOn3BtukyBmpjbmRyUloBQw
+Processing trending topic: King Charles and Queen Camilla arrive for high-profile US state visit
+Searching Google for: King Charles and Queen Camilla arrive for high-profile US state visit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252BCharles%252Band%252BQueen%252BCamilla%252Barrive%252Bfor%252Bhigh-profile%252BUS%252Bstate%252Bvisit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfbCyGPaev88GIjDJ555PDOf0pbHiJ4tWjXazJzd1Wh74vetRJz9jVW9LNZx4HYlO1AKq8j4NOzP59SoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: german-tourist-dies-after-being-bitten-at-snake-sh_20260427_1923.html
-✓ Created comprehensive article: german-tourist-dies-after-being-bitten-at-snake-sh_20260427_1923.html
+Successfully created file: king-charles-and-queen-camilla-arrive-for-high-pro_20260427_2104.html
+✓ Created comprehensive article: king-charles-and-queen-camilla-arrive-for-high-pro_20260427_2104.html
 
-Processing trending topic: Timeline: The highs and lows of the US-UK ‘special relationship’
-Searching Google for: Timeline: The highs and lows of the US-UK ‘special relationship’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTimeline%253A%252BThe%252Bhighs%252Band%252Blows%252Bof%252Bthe%252BUS-UK%252B%25E2%2580%2598special%252Brelationship%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-hGLTvvs8GIjDWHFww-BSfxY5VMSQD3ZjGj3Vv50mevZ6RvyYA3Y-paw4gT0UgP7Ww3WcuL98BlzwyBmpjbmRyUloBQw
+Processing trending topic: Hezbollah and Israel swap threats and strikes across Lebanon’s border
+Searching Google for: Hezbollah and Israel swap threats and strikes across Lebanon’s border
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHezbollah%252Band%252BIsrael%252Bswap%252Bthreats%252Band%252Bstrikes%252Bacross%252BLebanon%25E2%2580%2599s%252Bborder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfbCyGPuev88GIjBYQXueSjXUOTqQRzsu1TKvojqkjwEXPNb5wE-U6_OhNcUhHumEywkJyizh6lBaIRAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: timeline-the-highs-and-lows-of-the-us-uk-special-r_20260427_1923.html
-✓ Created comprehensive article: timeline-the-highs-and-lows-of-the-us-uk-special-r_20260427_1923.html
+Successfully created file: hezbollah-and-israel-swap-threats-and-strikes-acro_20260427_2105.html
+✓ Created comprehensive article: hezbollah-and-israel-swap-threats-and-strikes-acro_20260427_2105.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-assisted-dying-bill-fails-after-delays-but-advo_20260424_2048.html
-Cleaned old post to keep top 30 limit: suspected-pirates-steer-cargo-vessel-towards-somal_20260427_1724.html
-Cleaned old post to keep top 30 limit: analysis-bennett-lapid-alliance-attempt-to-unseat-_20260427_1724.html
+Cleaned old post to keep top 30 limit: german-tourist-dies-after-being-bitten-at-snake-sh_20260427_1923.html
+Cleaned old post to keep top 30 limit: timeline-the-highs-and-lows-of-the-us-uk-special-r_20260427_1923.html
+Cleaned old post to keep top 30 limit: claires-closes-all-154-stores-in-uk-and-ireland-wi_20260427_1923.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs
+   • China seeks to block US tech giant Meta from AI acquisition
      Sources: bbc.com, cnn.com, reuters.com
-   • German tourist dies after being bitten at snake show on family holiday in Egypt
+   • King Charles and Queen Camilla arrive for high-profile US state visit
      Sources: bbc.com, cnn.com, reuters.com
-   • Timeline: The highs and lows of the US-UK ‘special relationship’
+   • Hezbollah and Israel swap threats and strikes across Lebanon’s border
      Sources: bbc.com, cnn.com, reuters.com
