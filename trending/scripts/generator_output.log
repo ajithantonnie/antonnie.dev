@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: King to defend 'democratic values' as US state visit begins
   Added: Suspect charged with attempted assassination of Trump at Washington dinner
-  Added: Starmer faces vote on inquiry over Mandelson vetting claims
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Supreme Court reinstates Republican-favoured Texas electoral map
-Added expanded search topic: US Supreme Court reinstates Republican-favoured Texas electoral map
-Saved 33 topics for 2026-04-27
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-04-28
 Returning 3 unique trending topics:
-  1. Suspect charged with attempted assassination of Trump at Washington dinner (from BBC News)
-  2. Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says (from The Guardian)
-  3. US Supreme Court reinstates Republican-favoured Texas electoral map (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. King to defend 'democratic values' as US state visit begins (from BBC News)
+  2. Suspect charged with attempted assassination of Trump at Washington dinner (from BBC News)
+  3. Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says (from The Guardian)
+
+Processing trending topic: King to defend 'democratic values' as US state visit begins
+Searching Google for: King to defend 'democratic values' as US state visit begins
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252Bto%252Bdefend%252B%2527democratic%252Bvalues%2527%252Bas%252BUS%252Bstate%252Bvisit%252Bbegins%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GNO_wM8GIjABjzMTi4k8QgaDG-UK8j9XFWsl9r6kFJmjOuLrEfZRxpBo58pXqC0WJcvdbjwkJ88yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: king-to-defend-democratic-values-as-us-state-visit_20260428_0247.html
+✓ Created comprehensive article: king-to-defend-democratic-values-as-us-state-visit_20260428_0247.html
 
 Processing trending topic: Suspect charged with attempted assassination of Trump at Washington dinner
 Searching Google for: Suspect charged with attempted assassination of Trump at Washington dinner
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspect%252Bcharged%252Bwith%252Battempted%252Bassassination%252Bof%252BTrump%252Bat%252BWashington%252Bdinner%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExBMXGPruv88GIjBs4iyNoDBSo9V1f96kxaeH2TXOSK6E15pmcKeb_fgMwYq4VTak9QB0iGxyDcEmhOQyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspect%252Bcharged%252Bwith%252Battempted%252Bassassination%252Bof%252BTrump%252Bat%252BWashington%252Bdinner%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GNu_wM8GIjD4klO-G2uqNV3BH-8CzlqMY7E7OrspOx6prf9ttiZhV0hxlvOkSinrsNsnIIoidQIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspect-charged-with-attempted-assassination-of-tr_20260427_2355.html
-✓ Created comprehensive article: suspect-charged-with-attempted-assassination-of-tr_20260427_2355.html
+Successfully created file: suspect-charged-with-attempted-assassination-of-tr_20260428_0247.html
+✓ Created comprehensive article: suspect-charged-with-attempted-assassination-of-tr_20260428_0247.html
 
 Processing trending topic: Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
 Searching Google for: Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkill%252Bat%252Bleast%252B29%252Bat%252Bfootball%252Bpitch%252Bin%252Bnorth-east%252BNigeria%252C%252Bgovernor%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExBMXGIHvv88GIjDY93wQbq4IQieRjXqcHh-Y5i6v4alg9tedpQYGVx2Oa2mCqIIeokWw_oCr_XkG5RoyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkill%252Bat%252Bleast%252B29%252Bat%252Bfootball%252Bpitch%252Bin%252Bnorth-east%252BNigeria%252C%252Bgovernor%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GOG_wM8GIjAUXtOk8JEbLxAd18OynuZFB2LIkEGi4zuee_uoG3f2GLBosmVhzoNPtwZd_DdvNvsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gunmen-kill-at-least-29-at-football-pitch-in-north_20260427_2355.html
-✓ Created comprehensive article: gunmen-kill-at-least-29-at-football-pitch-in-north_20260427_2355.html
-
-Processing trending topic: US Supreme Court reinstates Republican-favoured Texas electoral map
-Searching Google for: US Supreme Court reinstates Republican-favoured Texas electoral map
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BSupreme%252BCourt%252Breinstates%252BRepublican-favoured%252BTexas%252Belectoral%252Bmap%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExBMXGIfvv88GIjBnJKW5Q_hDaHwVoBWvaGQbzb4brYVknEtlwC3odsTKL1v_KcxnapQwF8U1KmxxTrEyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-supreme-court-reinstates-republican-favoured-te_20260427_2355.html
-✓ Created comprehensive article: us-supreme-court-reinstates-republican-favoured-te_20260427_2355.html
+Successfully created file: gunmen-kill-at-least-29-at-football-pitch-in-north_20260428_0248.html
+✓ Created comprehensive article: gunmen-kill-at-least-29-at-football-pitch-in-north_20260428_0248.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: leavitt-blames-democrats-for-cult-of-hatred-agains_20260427_2205.html
-Cleaned old post to keep top 30 limit: who-holds-the-cards-in-iran-us-talks_20260427_2205.html
-Cleaned old post to keep top 30 limit: king-charles-and-queen-camilla-arrive-for-high-pro_20260427_2104.html
+Cleaned old post to keep top 30 limit: suspect-charged-with-attempted-assassination-of-tr_20260427_2355.html
+Cleaned old post to keep top 30 limit: us-supreme-court-reinstates-republican-favoured-te_20260427_2355.html
+Cleaned old post to keep top 30 limit: gunmen-kill-at-least-29-at-football-pitch-in-north_20260427_2355.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • King to defend 'democratic values' as US state visit begins
+     Sources: bbc.com, cnn.com, reuters.com
    • Suspect charged with attempted assassination of Trump at Washington dinner
      Sources: bbc.com, cnn.com, reuters.com
    • Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
-     Sources: bbc.com, cnn.com, reuters.com
-   • US Supreme Court reinstates Republican-favoured Texas electoral map
      Sources: bbc.com, cnn.com, reuters.com
