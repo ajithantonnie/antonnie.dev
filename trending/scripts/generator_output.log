@@ -1,65 +1,73 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: King to defend 'democratic values' as US state visit begins
+  Added: King to defend democratic values as US state visit begins
   Added: Suspect charged with attempted assassination of Trump at Washington dinner
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-28
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Oil prices rise despite Iran’s proposal to reopen Strait of Hormuz
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gunmen kill at least 29 in Nigeria’s northeast Adamawa State
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexican military captures cartel commander Audias Flores
+Added expanded search topic: Oil prices rise despite Iran’s proposal to reopen Strait of Hormuz
+Added expanded search topic: Gunmen kill at least 29 in Nigeria’s northeast Adamawa State
+Added expanded search topic: Mexican military captures cartel commander Audias Flores
+Saved 6 topics for 2026-04-28
 Returning 3 unique trending topics:
-  1. King to defend 'democratic values' as US state visit begins (from BBC News)
-  2. Suspect charged with attempted assassination of Trump at Washington dinner (from BBC News)
-  3. Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says (from The Guardian)
+  1. Oil prices rise despite Iran’s proposal to reopen Strait of Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Gunmen kill at least 29 in Nigeria’s northeast Adamawa State (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexican military captures cartel commander Audias Flores (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: King to defend 'democratic values' as US state visit begins
-Searching Google for: King to defend 'democratic values' as US state visit begins
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252Bto%252Bdefend%252B%2527democratic%252Bvalues%2527%252Bas%252BUS%252Bstate%252Bvisit%252Bbegins%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GNO_wM8GIjABjzMTi4k8QgaDG-UK8j9XFWsl9r6kFJmjOuLrEfZRxpBo58pXqC0WJcvdbjwkJ88yBmpjbmRyUloBQw
+Processing trending topic: Oil prices rise despite Iran’s proposal to reopen Strait of Hormuz
+Searching Google for: Oil prices rise despite Iran’s proposal to reopen Strait of Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252Bprices%252Brise%252Bdespite%252BIran%25E2%2580%2599s%252Bproposal%252Bto%252Breopen%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzCGI-awc8GIjCa6tD3HlXMwoJrjxT8kgQPG6pH0f9R1nO_-eXJkUiFB7ex5iuQRi51PjypMYAH99oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: king-to-defend-democratic-values-as-us-state-visit_20260428_0247.html
-✓ Created comprehensive article: king-to-defend-democratic-values-as-us-state-visit_20260428_0247.html
+Successfully created file: oil-prices-rise-despite-irans-proposal-to-reopen-s_20260428_0600.html
+✓ Created comprehensive article: oil-prices-rise-despite-irans-proposal-to-reopen-s_20260428_0600.html
 
-Processing trending topic: Suspect charged with attempted assassination of Trump at Washington dinner
-Searching Google for: Suspect charged with attempted assassination of Trump at Washington dinner
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspect%252Bcharged%252Bwith%252Battempted%252Bassassination%252Bof%252BTrump%252Bat%252BWashington%252Bdinner%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GNu_wM8GIjD4klO-G2uqNV3BH-8CzlqMY7E7OrspOx6prf9ttiZhV0hxlvOkSinrsNsnIIoidQIyBmpjbmRyUloBQw
+Processing trending topic: Gunmen kill at least 29 in Nigeria’s northeast Adamawa State
+Searching Google for: Gunmen kill at least 29 in Nigeria’s northeast Adamawa State
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkill%252Bat%252Bleast%252B29%252Bin%252BNigeria%25E2%2580%2599s%252Bnortheast%252BAdamawa%252BState%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzCGJWawc8GIjB9K5NLc96w_lT1RFhg2NLkCROnfoNt9agP7BA3pR7zOQKlg9DY21LVFYQbd6Qm5K0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspect-charged-with-attempted-assassination-of-tr_20260428_0247.html
-✓ Created comprehensive article: suspect-charged-with-attempted-assassination-of-tr_20260428_0247.html
+Successfully created file: gunmen-kill-at-least-29-in-nigerias-northeast-adam_20260428_0600.html
+✓ Created comprehensive article: gunmen-kill-at-least-29-in-nigerias-northeast-adam_20260428_0600.html
 
-Processing trending topic: Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
-Searching Google for: Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkill%252Bat%252Bleast%252B29%252Bat%252Bfootball%252Bpitch%252Bin%252Bnorth-east%252BNigeria%252C%252Bgovernor%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i80GOG_wM8GIjAUXtOk8JEbLxAd18OynuZFB2LIkEGi4zuee_uoG3f2GLBosmVhzoNPtwZd_DdvNvsyBmpjbmRyUloBQw
+Processing trending topic: Mexican military captures cartel commander Audias Flores
+Searching Google for: Mexican military captures cartel commander Audias Flores
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexican%252Bmilitary%252Bcaptures%252Bcartel%252Bcommander%252BAudias%252BFlores%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IzCGJuawc8GIjCvo4ENYuQxZiA0qjY2jwVpe9Ilp8jJhCF--uvi4IL2oPE_BWutjUEKvcWxV-4mdH8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gunmen-kill-at-least-29-at-football-pitch-in-north_20260428_0248.html
-✓ Created comprehensive article: gunmen-kill-at-least-29-at-football-pitch-in-north_20260428_0248.html
+Successfully created file: mexican-military-captures-cartel-commander-audias-_20260428_0601.html
+✓ Created comprehensive article: mexican-military-captures-cartel-commander-audias-_20260428_0601.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: suspect-charged-with-attempted-assassination-of-tr_20260427_2355.html
-Cleaned old post to keep top 30 limit: us-supreme-court-reinstates-republican-favoured-te_20260427_2355.html
-Cleaned old post to keep top 30 limit: gunmen-kill-at-least-29-at-football-pitch-in-north_20260427_2355.html
+Cleaned old post to keep top 30 limit: suspect-charged-with-attempted-assassination-of-tr_20260428_0247.html
+Cleaned old post to keep top 30 limit: king-to-defend-democratic-values-as-us-state-visit_20260428_0247.html
+Cleaned old post to keep top 30 limit: gunmen-kill-at-least-29-at-football-pitch-in-north_20260428_0248.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • King to defend 'democratic values' as US state visit begins
+   • Oil prices rise despite Iran’s proposal to reopen Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Suspect charged with attempted assassination of Trump at Washington dinner
+   • Gunmen kill at least 29 in Nigeria’s northeast Adamawa State
      Sources: bbc.com, cnn.com, reuters.com
-   • Gunmen kill at least 29 at football pitch in north-east Nigeria, governor says
+   • Mexican military captures cartel commander Audias Flores
      Sources: bbc.com, cnn.com, reuters.com
