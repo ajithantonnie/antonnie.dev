@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Five takeaways from the King's historic address to Congress
-  Added: A fresh financial crisis may be coming - it won't play out like the last one
+  Added: Eleven cancers on the rise in young people - scientists find first clue why it's happening
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Russia claims its Africa Corps group prevented coup in Mali after rebels seize towns
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-29
+  Added: ‘It will never cover what’s authentic’: African music industry weighs up AI risks and rewards
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: White House hails ‘two kings’ as King Charles delivers pointed remarks
+Added expanded search topic: White House hails ‘two kings’ as King Charles delivers pointed remarks
+Saved 6 topics for 2026-04-29
 Returning 3 unique trending topics:
-  1. Five takeaways from the King's historic address to Congress (from BBC News)
-  2. A fresh financial crisis may be coming - it won't play out like the last one (from BBC News)
-  3. Russia claims its Africa Corps group prevented coup in Mali after rebels seize towns (from The Guardian)
+  1. Eleven cancers on the rise in young people - scientists find first clue why it's happening (from BBC News)
+  2. ‘It will never cover what’s authentic’: African music industry weighs up AI risks and rewards (from The Guardian)
+  3. White House hails ‘two kings’ as King Charles delivers pointed remarks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Five takeaways from the King's historic address to Congress
-Searching Google for: Five takeaways from the King's historic address to Congress
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Btakeaways%252Bfrom%252Bthe%252BKing%2527s%252Bhistoric%252Baddress%252Bto%252BCongress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U6hGL7ixc8GIjB8_RKVyAnsyck-PwkugivTYHxVxiHwD17NLheaK9dSiWWwh6er_bqY32j0xdsWghAyBmpjbmRyUloBQw
+Processing trending topic: Eleven cancers on the rise in young people - scientists find first clue why it's happening
+Searching Google for: Eleven cancers on the rise in young people - scientists find first clue why it's happening
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEleven%252Bcancers%252Bon%252Bthe%252Brise%252Bin%252Byoung%252Bpeople%252B-%252Bscientists%252Bfind%252Bfirst%252Bclue%252Bwhy%252Bit%2527s%252Bhappening%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKD4GPC8xs8GIjACAs0Dqng9efViGXAgu8j1X1Jsww4NKLf7eIXeF_6FpaFWTVuFC1lnrD1gPxYfDAYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: five-takeaways-from-the-kings-historic-address-to-_20260429_0247.html
-✓ Created comprehensive article: five-takeaways-from-the-kings-historic-address-to-_20260429_0247.html
+Successfully created file: eleven-cancers-on-the-rise-in-young-people-scienti_20260429_0600.html
+✓ Created comprehensive article: eleven-cancers-on-the-rise-in-young-people-scienti_20260429_0600.html
 
-Processing trending topic: A fresh financial crisis may be coming - it won't play out like the last one
-Searching Google for: A fresh financial crisis may be coming - it won't play out like the last one
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bfresh%252Bfinancial%252Bcrisis%252Bmay%252Bbe%252Bcoming%252B-%252Bit%252Bwon%2527t%252Bplay%252Bout%252Blike%252Bthe%252Blast%252Bone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U6hGMbixc8GIjDuLvmHsFzFcF1prk91kW6Oa_v0IQe37vePClEGgXA1E2wyVLxAI1NmehmIIuFocwwyBmpjbmRyUloBQw
+Processing trending topic: ‘It will never cover what’s authentic’: African music industry weighs up AI risks and rewards
+Searching Google for: ‘It will never cover what’s authentic’: African music industry weighs up AI risks and rewards
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598It%252Bwill%252Bnever%252Bcover%252Bwhat%25E2%2580%2599s%252Bauthentic%25E2%2580%2599%253A%252BAfrican%252Bmusic%252Bindustry%252Bweighs%252Bup%252BAI%252Brisks%252Band%252Brewards%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKD4GPe8xs8GIjC_9FINk3xxi-oOV16LPKnxJYEdo4ut7DUdGVLjci0gyguLxD1XXwea7kLqfefdlG0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-fresh-financial-crisis-may-be-coming-it-wont-pla_20260429_0247.html
-✓ Created comprehensive article: a-fresh-financial-crisis-may-be-coming-it-wont-pla_20260429_0247.html
+Successfully created file: it-will-never-cover-whats-authentic-african-music-_20260429_0600.html
+✓ Created comprehensive article: it-will-never-cover-whats-authentic-african-music-_20260429_0600.html
 
-Processing trending topic: Russia claims its Africa Corps group prevented coup in Mali after rebels seize towns
-Searching Google for: Russia claims its Africa Corps group prevented coup in Mali after rebels seize towns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bclaims%252Bits%252BAfrica%252BCorps%252Bgroup%252Bprevented%252Bcoup%252Bin%252BMali%252Bafter%252Brebels%252Bseize%252Btowns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U6hGMzixc8GIjCc7de8BZLvK8vF4N6JHVJSxBeN5NnHMskvJtfTj_DXR7XgHhRVR7juJGfwyi7J9F0yBmpjbmRyUloBQw
+Processing trending topic: White House hails ‘two kings’ as King Charles delivers pointed remarks
+Searching Google for: White House hails ‘two kings’ as King Charles delivers pointed remarks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhite%252BHouse%252Bhails%252B%25E2%2580%2598two%252Bkings%25E2%2580%2599%252Bas%252BKing%252BCharles%252Bdelivers%252Bpointed%252Bremarks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKD4GP28xs8GIjAxo_S8ICy3CP7opgH_EJRd6njzcWiqCC9A3f5cl9w1f7khSSJSxZof3Ie6OpIPrN0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-claims-its-africa-corps-group-prevented-cou_20260429_0247.html
-✓ Created comprehensive article: russia-claims-its-africa-corps-group-prevented-cou_20260429_0247.html
+Successfully created file: white-house-hails-two-kings-as-king-charles-delive_20260429_0600.html
+✓ Created comprehensive article: white-house-hails-two-kings-as-king-charles-delive_20260429_0600.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israeli-soldier-shows-gazas-beit-hanoon-completely_20260429_0000.html
-Cleaned old post to keep top 30 limit: musk-testifies-at-openai-trial-its-not-ok-to-loot-_20260429_0001.html
-Cleaned old post to keep top 30 limit: faisal-islam-why-the-uaes-exit-from-opec-is-a-big-_20260429_0000.html
+Cleaned old post to keep top 30 limit: pm-wont-face-inquiry-over-claims-he-misled-mps-on-_20260428_2020.html
+Cleaned old post to keep top 30 limit: five-takeaways-from-the-kings-historic-address-to-_20260429_0247.html
+Cleaned old post to keep top 30 limit: a-fresh-financial-crisis-may-be-coming-it-wont-pla_20260429_0247.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Five takeaways from the King's historic address to Congress
+   • Eleven cancers on the rise in young people - scientists find first clue why it's happening
      Sources: bbc.com, cnn.com, reuters.com
-   • A fresh financial crisis may be coming - it won't play out like the last one
+   • ‘It will never cover what’s authentic’: African music industry weighs up AI risks and rewards
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia claims its Africa Corps group prevented coup in Mali after rebels seize towns
+   • White House hails ‘two kings’ as King Charles delivers pointed remarks
      Sources: bbc.com, cnn.com, reuters.com
