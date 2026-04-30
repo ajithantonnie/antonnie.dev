@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: It's a miracle I survived, Golders Green victim tells BBC
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Africa and Asia back Infantino for unique fourth term as FIFA president
-Added expanded search topic: Africa and Asia back Infantino for unique fourth term as FIFA president
-Saved 21 topics for 2026-04-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanese girl mourns paramedic father killed in Israeli strike
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Myanmar’s former leader Aung San Suu Kyi moved to house arrest
+Added expanded search topic: Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces
+Added expanded search topic: Lebanese girl mourns paramedic father killed in Israeli strike
+Added expanded search topic: Myanmar’s former leader Aung San Suu Kyi moved to house arrest
+Saved 24 topics for 2026-04-30
 Returning 3 unique trending topics:
-  1. It's a miracle I survived, Golders Green victim tells BBC (from BBC News)
-  2. Teens who lured man to beach to kill him sentenced to between five and seven years' custody (from BBC News)
-  3. Africa and Asia back Infantino for unique fourth term as FIFA president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Lebanese girl mourns paramedic father killed in Israeli strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Myanmar’s former leader Aung San Suu Kyi moved to house arrest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: It's a miracle I survived, Golders Green victim tells BBC
-Searching Google for: It's a miracle I survived, Golders Green victim tells BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIt%2527s%252Ba%252Bmiracle%252BI%252Bsurvived%252C%252BGolders%252BGreen%252Bvictim%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2fuFGMCfzs8GIjC7gYpUxXRh30hn4K0xiFMhrw-kzupZPF2EHlsX2cfm-t26gVVrX7eM3OXF8_dqjpQyBmpjbmRyUloBQw
+Processing trending topic: Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces
+Searching Google for: Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPiracy%252Brises%252Boff%252BSomalia%252Bas%252BUS-Israeli%252Bwar%252Bon%252BIran%252Bdiverts%252Bnaval%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUphGMLYzs8GIjDOlbNoSmeozChfQ8KGbJPgBYqtPoWgfQuwKHgvPsRAWl9X2MilBDCYeB9qpJcd0HAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: its-a-miracle-i-survived-golders-green-victim-tell_20260430_1722.html
-✓ Created comprehensive article: its-a-miracle-i-survived-golders-green-victim-tell_20260430_1722.html
+Successfully created file: piracy-rises-off-somalia-as-us-israeli-war-on-iran_20260430_1923.html
+✓ Created comprehensive article: piracy-rises-off-somalia-as-us-israeli-war-on-iran_20260430_1923.html
 
-Processing trending topic: Teens who lured man to beach to kill him sentenced to between five and seven years' custody
-Searching Google for: Teens who lured man to beach to kill him sentenced to between five and seven years' custody
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTeens%252Bwho%252Blured%252Bman%252Bto%252Bbeach%252Bto%252Bkill%252Bhim%252Bsentenced%252Bto%252Bbetween%252Bfive%252Band%252Bseven%252Byears%2527%252Bcustody%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2fuFGMefzs8GIjDDTOfY2KGuhEoctQS4idM8DHHFj-lfpq-s3jSSEfA8RGzJaNAYiAGPecHBM9pJtOkyBmpjbmRyUloBQw
+Processing trending topic: Lebanese girl mourns paramedic father killed in Israeli strike
+Searching Google for: Lebanese girl mourns paramedic father killed in Israeli strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanese%252Bgirl%252Bmourns%252Bparamedic%252Bfather%252Bkilled%252Bin%252BIsraeli%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUphGMrYzs8GIjAjz6PAGRabQYw40MvymV4Qjd51Yxkj9CN7bs6NDnn1AVy76qArC1j5jAdrbuwt_eoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: teens-who-lured-man-to-beach-to-kill-him-sentenced_20260430_1722.html
-✓ Created comprehensive article: teens-who-lured-man-to-beach-to-kill-him-sentenced_20260430_1722.html
+Successfully created file: lebanese-girl-mourns-paramedic-father-killed-in-is_20260430_1923.html
+✓ Created comprehensive article: lebanese-girl-mourns-paramedic-father-killed-in-is_20260430_1923.html
 
-Processing trending topic: Africa and Asia back Infantino for unique fourth term as FIFA president
-Searching Google for: Africa and Asia back Infantino for unique fourth term as FIFA president
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfrica%252Band%252BAsia%252Bback%252BInfantino%252Bfor%252Bunique%252Bfourth%252Bterm%252Bas%252BFIFA%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2fuFGM2fzs8GIjD7Xt5b4RXuLW_oHtwJnFcdxtGyVgbM8w3M-eBkqqygsP5IM8GpLAX7QdYy8u5HKFYyBmpjbmRyUloBQw
+Processing trending topic: Myanmar’s former leader Aung San Suu Kyi moved to house arrest
+Searching Google for: Myanmar’s former leader Aung San Suu Kyi moved to house arrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMyanmar%25E2%2580%2599s%252Bformer%252Bleader%252BAung%252BSan%252BSuu%252BKyi%252Bmoved%252Bto%252Bhouse%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUphGNDYzs8GIjBPxDBOyzPec0470Bzkq7knBz46zPYAO0Lc9SNjL8ZuS7WlVvB9EvKm58vwvX_BhnYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: africa-and-asia-back-infantino-for-unique-fourth-t_20260430_1722.html
-✓ Created comprehensive article: africa-and-asia-back-infantino-for-unique-fourth-t_20260430_1722.html
+Successfully created file: myanmars-former-leader-aung-san-suu-kyi-moved-to-h_20260430_1924.html
+✓ Created comprehensive article: myanmars-former-leader-aung-san-suu-kyi-moved-to-h_20260430_1924.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: iran-war-whats-happening-on-day-62-as-trump-asks-i_20260430_0829.html
-Cleaned old post to keep top 30 limit: saudi-arabia-to-end-liv-golf-funding-while-league-_20260430_1512.html
-Cleaned old post to keep top 30 limit: interest-rates-held-at-375-as-bank-of-england-hint_20260430_1512.html
+Cleaned old post to keep top 30 limit: its-a-miracle-i-survived-golders-green-victim-tell_20260430_1722.html
+Cleaned old post to keep top 30 limit: watch-protesters-jeer-as-starmer-visits-first-resp_20260430_1512.html
+Cleaned old post to keep top 30 limit: africa-and-asia-back-infantino-for-unique-fourth-t_20260430_1722.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • It's a miracle I survived, Golders Green victim tells BBC
+   • Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces
      Sources: bbc.com, cnn.com, reuters.com
-   • Teens who lured man to beach to kill him sentenced to between five and seven years' custody
+   • Lebanese girl mourns paramedic father killed in Israeli strike
      Sources: bbc.com, cnn.com, reuters.com
-   • Africa and Asia back Infantino for unique fourth term as FIFA president
+   • Myanmar’s former leader Aung San Suu Kyi moved to house arrest
      Sources: bbc.com, cnn.com, reuters.com
