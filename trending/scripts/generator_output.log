@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK terrorism threat level raised to severe after Golders Green attack
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians mourn football loving teenager killed by Israeli army
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kenya’s Sawe hailed at State House after historic marathon
-Added expanded search topic: Palestinians mourn football loving teenager killed by Israeli army
-Added expanded search topic: Kenya’s Sawe hailed at State House after historic marathon
-Saved 30 topics for 2026-04-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine FA chief hits out at Israel federation VP at FIFA Congress
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: First US-Venezuela flight lands in Caracas after seven-year suspension
+Added expanded search topic: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
+Added expanded search topic: Palestine FA chief hits out at Israel federation VP at FIFA Congress
+Added expanded search topic: First US-Venezuela flight lands in Caracas after seven-year suspension
+Saved 33 topics for 2026-04-30
 Returning 3 unique trending topics:
-  1. UK terrorism threat level raised to severe after Golders Green attack (from BBC News)
-  2. Palestinians mourn football loving teenager killed by Israeli army (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Kenya’s Sawe hailed at State House after historic marathon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Arsenal vs Fulham: Premier League – teams, start, lineups, title race (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Palestine FA chief hits out at Israel federation VP at FIFA Congress (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. First US-Venezuela flight lands in Caracas after seven-year suspension (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK terrorism threat level raised to severe after Golders Green attack
-Searching Google for: UK terrorism threat level raised to severe after Golders Green attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bterrorism%252Bthreat%252Blevel%252Braised%252Bto%252Bsevere%252Bafter%252BGolders%252BGreen%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSamGMKjz88GIjAoTfsnGd8VeAaEN8_wPiKzIquPRNC7Bt2v22UllvwAMbSTI6LTrNiNJ34JQey2DrkyBmpjbmRyUloBQw
+Processing trending topic: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
+Searching Google for: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArsenal%252Bvs%252BFulham%253A%252BPremier%252BLeague%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252C%252Blineups%252C%252Btitle%252Brace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lDGJHBz88GIjCeBfHziL4l5_3T25EwiHmxa2u2q46eaCvF9FtkksOM8T6rEcdwm7G7jertHp1VKi8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-terrorism-threat-level-raised-to-severe-after-g_20260430_2203.html
-✓ Created comprehensive article: uk-terrorism-threat-level-raised-to-severe-after-g_20260430_2203.html
+Successfully created file: arsenal-vs-fulham-premier-league-teams-start-lineu_20260430_2307.html
+✓ Created comprehensive article: arsenal-vs-fulham-premier-league-teams-start-lineu_20260430_2307.html
 
-Processing trending topic: Palestinians mourn football loving teenager killed by Israeli army
-Searching Google for: Palestinians mourn football loving teenager killed by Israeli army
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Bmourn%252Bfootball%252Bloving%252Bteenager%252Bkilled%252Bby%252BIsraeli%252Barmy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSamGMmjz88GIjCWWUirPPjV_poaSbs7pluG4OThfyjopWFR_TeZozn4Nje29gUt9bsMz5uqRowLohAyBmpjbmRyUloBQw
+Processing trending topic: Palestine FA chief hits out at Israel federation VP at FIFA Congress
+Searching Google for: Palestine FA chief hits out at Israel federation VP at FIFA Congress
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252BFA%252Bchief%252Bhits%252Bout%252Bat%252BIsrael%252Bfederation%252BVP%252Bat%252BFIFA%252BCongress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lDGJnBz88GIjCoKflyQV-pqxSHa5WpVRFehonJbraD7hlY4Nh0qBWpuT2oUBK7r1qLlszSrIR0Al0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestinians-mourn-football-loving-teenager-killed_20260430_2203.html
-✓ Created comprehensive article: palestinians-mourn-football-loving-teenager-killed_20260430_2203.html
+Successfully created file: palestine-fa-chief-hits-out-at-israel-federation-v_20260430_2307.html
+✓ Created comprehensive article: palestine-fa-chief-hits-out-at-israel-federation-v_20260430_2307.html
 
-Processing trending topic: Kenya’s Sawe hailed at State House after historic marathon
-Searching Google for: Kenya’s Sawe hailed at State House after historic marathon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenya%25E2%2580%2599s%252BSawe%252Bhailed%252Bat%252BState%252BHouse%252Bafter%252Bhistoric%252Bmarathon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSamGNCjz88GIjAs0T1wT29df8R__7_QlIYYxSk2V8V4eMLiA7hOLR-d56KE_yHnqj2bmT6E0o17wvIyBmpjbmRyUloBQw
+Processing trending topic: First US-Venezuela flight lands in Caracas after seven-year suspension
+Searching Google for: First US-Venezuela flight lands in Caracas after seven-year suspension
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252BUS-Venezuela%252Bflight%252Blands%252Bin%252BCaracas%252Bafter%252Bseven-year%252Bsuspension%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lDGJ_Bz88GIjD7-cdbryr0CDM1RHYWo_WqjXqrKneO3A4pae58bGncDhZLmh_lbgVQ69_mk13qEa8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kenyas-sawe-hailed-at-state-house-after-historic-m_20260430_2204.html
-✓ Created comprehensive article: kenyas-sawe-hailed-at-state-house-after-historic-m_20260430_2204.html
+Successfully created file: first-us-venezuela-flight-lands-in-caracas-after-s_20260430_2307.html
+✓ Created comprehensive article: first-us-venezuela-flight-lands-in-caracas-after-s_20260430_2307.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-tennessee-next-to-redistrict-after-us-v_20260430_2101.html
-Cleaned old post to keep top 30 limit: uganda-court-sentences-man-to-death-for-killing-fo_20260430_2101.html
-Cleaned old post to keep top 30 limit: mountaineer-climbs-everest-for-palestinian-childre_20260428_2159.html
+Cleaned old post to keep top 30 limit: woods-mugshot-released-after-driving-under-influen_20260328_0454.html
+Cleaned old post to keep top 30 limit: uk-terrorism-threat-level-raised-to-severe-after-g_20260430_2203.html
+Cleaned old post to keep top 30 limit: kenyas-sawe-hailed-at-state-house-after-historic-m_20260430_2204.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK terrorism threat level raised to severe after Golders Green attack
+   • Arsenal vs Fulham: Premier League – teams, start, lineups, title race
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestinians mourn football loving teenager killed by Israeli army
+   • Palestine FA chief hits out at Israel federation VP at FIFA Congress
      Sources: bbc.com, cnn.com, reuters.com
-   • Kenya’s Sawe hailed at State House after historic marathon
+   • First US-Venezuela flight lands in Caracas after seven-year suspension
      Sources: bbc.com, cnn.com, reuters.com
