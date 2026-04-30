@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Police declare terrorist incident after two Jewish men stabbed in London
   Added: Watch: Met Police body-worn footage of Golders Green arrest
+  Added: 'We will kill you and burn your house': Council staff under attack from High Street gangs
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-04-30
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can the EU’s Article 42.7 offer Europe NATO-like collective defence?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New Zealand court denies bid by mosque mass shooter to appeal conviction
+Added expanded search topic: Can the EU’s Article 42.7 offer Europe NATO-like collective defence?
+Added expanded search topic: New Zealand court denies bid by mosque mass shooter to appeal conviction
+Saved 6 topics for 2026-04-30
 Returning 3 unique trending topics:
-  1. Police declare terrorist incident after two Jewish men stabbed in London (from BBC News)
-  2. Watch: Met Police body-worn footage of Golders Green arrest (from BBC News)
-  3. South Africa deports Mugabe’s son for unrelated offences after employee shot at family home (from The Guardian)
+  1. 'We will kill you and burn your house': Council staff under attack from High Street gangs (from BBC News)
+  2. Can the EU’s Article 42.7 offer Europe NATO-like collective defence? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. New Zealand court denies bid by mosque mass shooter to appeal conviction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police declare terrorist incident after two Jewish men stabbed in London
-Searching Google for: Police declare terrorist incident after two Jewish men stabbed in London
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bdeclare%252Bterrorist%252Bincident%252Bafter%252Btwo%252BJewish%252Bmen%252Bstabbed%252Bin%252BLondon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4CEGMGGy88GIjDvOaWVZp2TnlRbKFyuS0bNs3jBh0Vg_xG7kFX_MYQxluEB3PjF_JWfPGLE2C3YQ-gyBmpjbmRyUloBQw
+Processing trending topic: 'We will kill you and burn your house': Council staff under attack from High Street gangs
+Searching Google for: 'We will kill you and burn your house': Council staff under attack from High Street gangs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527We%252Bwill%252Bkill%252Byou%252Band%252Bburn%252Byour%252Bhouse%2527%253A%252BCouncil%252Bstaff%252Bunder%252Battack%252Bfrom%252BHigh%252BStreet%252Bgangs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9kzGOjgy88GIjD2Gq3QXYut-5uXw7Wgwuu3a4hue08OrNeB6RRC5JLb0J41oeYeG0uMC5FJ4YYL9_IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-declare-terrorist-incident-after-two-jewish_20260430_0249.html
-✓ Created comprehensive article: police-declare-terrorist-incident-after-two-jewish_20260430_0249.html
+Successfully created file: we-will-kill-you-and-burn-your-house-council-staff_20260430_0602.html
+✓ Created comprehensive article: we-will-kill-you-and-burn-your-house-council-staff_20260430_0602.html
 
-Processing trending topic: Watch: Met Police body-worn footage of Golders Green arrest
-Searching Google for: Watch: Met Police body-worn footage of Golders Green arrest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMet%252BPolice%252Bbody-worn%252Bfootage%252Bof%252BGolders%252BGreen%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4CEGMiGy88GIjByUd5jlkncbPfBXg5c1HKbL-iHCzqYCCli5OSAs9DdpTFV-nqiCou_sSRdnEaSwDwyBmpjbmRyUloBQw
+Processing trending topic: Can the EU’s Article 42.7 offer Europe NATO-like collective defence?
+Searching Google for: Can the EU’s Article 42.7 offer Europe NATO-like collective defence?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Bthe%252BEU%25E2%2580%2599s%252BArticle%252B42.7%252Boffer%252BEurope%252BNATO-like%252Bcollective%252Bdefence%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9kzGO_gy88GIjAJ2bFLp4lVoUo742asJJL2bLcF8KiTdNAvH_JnJF3zPP_pr1kbVEk_bISZQOny0DQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-met-police-body-worn-footage-of-golders-gree_20260430_0249.html
-✓ Created comprehensive article: watch-met-police-body-worn-footage-of-golders-gree_20260430_0249.html
+Successfully created file: can-the-eus-article-427-offer-europe-nato-like-col_20260430_0602.html
+✓ Created comprehensive article: can-the-eus-article-427-offer-europe-nato-like-col_20260430_0602.html
 
-Processing trending topic: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Searching Google for: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrica%252Bdeports%252BMugabe%25E2%2580%2599s%252Bson%252Bfor%252Bunrelated%252Boffences%252Bafter%252Bemployee%252Bshot%252Bat%252Bfamily%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4CEGM-Gy88GIjCAVkI_SKwOXnN5zhHCHVKlIhU7LugbzF0tBO45rFKLMe3BBQ9cibLycHsKSivNDj0yBmpjbmRyUloBQw
+Processing trending topic: New Zealand court denies bid by mosque mass shooter to appeal conviction
+Searching Google for: New Zealand court denies bid by mosque mass shooter to appeal conviction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BZealand%252Bcourt%252Bdenies%252Bbid%252Bby%252Bmosque%252Bmass%252Bshooter%252Bto%252Bappeal%252Bconviction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9kzGPbgy88GIjA_koH9qtQ2y4M17pi0aUGpC73cfolwFbv_LB9uKvxjpkBwf4mzzmc3NOVDTeXmgd8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-africa-deports-mugabes-son-for-unrelated-off_20260430_0249.html
-✓ Created comprehensive article: south-africa-deports-mugabes-son-for-unrelated-off_20260430_0249.html
+Successfully created file: new-zealand-court-denies-bid-by-mosque-mass-shoote_20260430_0602.html
+✓ Created comprehensive article: new-zealand-court-denies-bid-by-mosque-mass-shoote_20260430_0602.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-met-police-body-worn-footage-of-golders-gree_20260429_2259.html
-Cleaned old post to keep top 30 limit: israel-has-begun-intercepting-gaza-bound-global-su_20260429_2357.html
-Cleaned old post to keep top 30 limit: carney-strong-in-year-one-now-must-deliver-on-prom_20260429_2357.html
+Cleaned old post to keep top 30 limit: will-kings-us-visit-lead-to-lasting-reset-in-relat_20260429_1516.html
+Cleaned old post to keep top 30 limit: watch-met-police-body-worn-footage-of-golders-gree_20260430_0249.html
+Cleaned old post to keep top 30 limit: israel-intercepts-global-sumud-boats-demands-activ_20260429_2357.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police declare terrorist incident after two Jewish men stabbed in London
+   • 'We will kill you and burn your house': Council staff under attack from High Street gangs
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Met Police body-worn footage of Golders Green arrest
+   • Can the EU’s Article 42.7 offer Europe NATO-like collective defence?
      Sources: bbc.com, cnn.com, reuters.com
-   • South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
+   • New Zealand court denies bid by mosque mass shooter to appeal conviction
      Sources: bbc.com, cnn.com, reuters.com
