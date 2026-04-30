@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: UK terrorism threat level raised to severe after Golders Green attack
   Added: It's a miracle I survived, Golders Green victim tells BBC
-  Added: Teens who lured man to beach to kill him sentenced to between five and seven years' custody
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congress passes bill to resume funding for DHS and end partial shutdown
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Uganda court sentences man to death for killing four children at nursery
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says Tennessee next to redistrict after US Voting Rights Act ruling
-Added expanded search topic: US Congress passes bill to resume funding for DHS and end partial shutdown
-Added expanded search topic: Uganda court sentences man to death for killing four children at nursery
-Added expanded search topic: Trump says Tennessee next to redistrict after US Voting Rights Act ruling
-Saved 27 topics for 2026-04-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians mourn football loving teenager killed by Israeli army
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kenya’s Sawe hailed at State House after historic marathon
+Added expanded search topic: Palestinians mourn football loving teenager killed by Israeli army
+Added expanded search topic: Kenya’s Sawe hailed at State House after historic marathon
+Saved 30 topics for 2026-04-30
 Returning 3 unique trending topics:
-  1. US Congress passes bill to resume funding for DHS and end partial shutdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Uganda court sentences man to death for killing four children at nursery (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump says Tennessee next to redistrict after US Voting Rights Act ruling (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK terrorism threat level raised to severe after Golders Green attack (from BBC News)
+  2. Palestinians mourn football loving teenager killed by Israeli army (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Kenya’s Sawe hailed at State House after historic marathon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US Congress passes bill to resume funding for DHS and end partial shutdown
-Searching Google for: US Congress passes bill to resume funding for DHS and end partial shutdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BCongress%252Bpasses%252Bbill%252Bto%252Bresume%252Bfunding%252Bfor%252BDHS%252Band%252Bend%252Bpartial%252Bshutdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MjVGLCGz88GIjB_h7AxyK0U6DjyNBT7kQgqWNcI1UjK6mIuVljKNRhp8JpB5BRx56a-fxfjgRpu60YyBmpjbmRyUloBQw
+Processing trending topic: UK terrorism threat level raised to severe after Golders Green attack
+Searching Google for: UK terrorism threat level raised to severe after Golders Green attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bterrorism%252Bthreat%252Blevel%252Braised%252Bto%252Bsevere%252Bafter%252BGolders%252BGreen%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSamGMKjz88GIjAoTfsnGd8VeAaEN8_wPiKzIquPRNC7Bt2v22UllvwAMbSTI6LTrNiNJ34JQey2DrkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-congress-passes-bill-to-resume-funding-for-dhs-_20260430_2101.html
-✓ Created comprehensive article: us-congress-passes-bill-to-resume-funding-for-dhs-_20260430_2101.html
+Successfully created file: uk-terrorism-threat-level-raised-to-severe-after-g_20260430_2203.html
+✓ Created comprehensive article: uk-terrorism-threat-level-raised-to-severe-after-g_20260430_2203.html
 
-Processing trending topic: Uganda court sentences man to death for killing four children at nursery
-Searching Google for: Uganda court sentences man to death for killing four children at nursery
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Bcourt%252Bsentences%252Bman%252Bto%252Bdeath%252Bfor%252Bkilling%252Bfour%252Bchildren%252Bat%252Bnursery%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MjVGLeGz88GIjBa3V4ugRtn5AS9KamrSnJJ59F3yTvzPat96U_69u0vAoKFyK38dghaeaQN3aDr9M4yBmpjbmRyUloBQw
+Processing trending topic: Palestinians mourn football loving teenager killed by Israeli army
+Searching Google for: Palestinians mourn football loving teenager killed by Israeli army
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Bmourn%252Bfootball%252Bloving%252Bteenager%252Bkilled%252Bby%252BIsraeli%252Barmy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSamGMmjz88GIjCWWUirPPjV_poaSbs7pluG4OThfyjopWFR_TeZozn4Nje29gUt9bsMz5uqRowLohAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uganda-court-sentences-man-to-death-for-killing-fo_20260430_2101.html
-✓ Created comprehensive article: uganda-court-sentences-man-to-death-for-killing-fo_20260430_2101.html
+Successfully created file: palestinians-mourn-football-loving-teenager-killed_20260430_2203.html
+✓ Created comprehensive article: palestinians-mourn-football-loving-teenager-killed_20260430_2203.html
 
-Processing trending topic: Trump says Tennessee next to redistrict after US Voting Rights Act ruling
-Searching Google for: Trump says Tennessee next to redistrict after US Voting Rights Act ruling
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BTennessee%252Bnext%252Bto%252Bredistrict%252Bafter%252BUS%252BVoting%252BRights%252BAct%252Bruling%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MjVGL2Gz88GIjCVba4zxC0oN1Y_HIbqA8SkAxQAPqmug8AoyXo7DyzzY5dnitSxNAAGswV39Lyml9oyBmpjbmRyUloBQw
+Processing trending topic: Kenya’s Sawe hailed at State House after historic marathon
+Searching Google for: Kenya’s Sawe hailed at State House after historic marathon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenya%25E2%2580%2599s%252BSawe%252Bhailed%252Bat%252BState%252BHouse%252Bafter%252Bhistoric%252Bmarathon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSamGNCjz88GIjAs0T1wT29df8R__7_QlIYYxSk2V8V4eMLiA7hOLR-d56KE_yHnqj2bmT6E0o17wvIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-tennessee-next-to-redistrict-after-us-v_20260430_2101.html
-✓ Created comprehensive article: trump-says-tennessee-next-to-redistrict-after-us-v_20260430_2101.html
+Successfully created file: kenyas-sawe-hailed-at-state-house-after-historic-m_20260430_2204.html
+✓ Created comprehensive article: kenyas-sawe-hailed-at-state-house-after-historic-m_20260430_2204.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: teens-who-lured-man-to-beach-to-kill-him-sentenced_20260430_1722.html
-Cleaned old post to keep top 30 limit: piracy-rises-off-somalia-as-us-israeli-war-on-iran_20260430_1923.html
-Cleaned old post to keep top 30 limit: lebanese-girl-mourns-paramedic-father-killed-in-is_20260430_1923.html
+Cleaned old post to keep top 30 limit: trump-says-tennessee-next-to-redistrict-after-us-v_20260430_2101.html
+Cleaned old post to keep top 30 limit: uganda-court-sentences-man-to-death-for-killing-fo_20260430_2101.html
+Cleaned old post to keep top 30 limit: mountaineer-climbs-everest-for-palestinian-childre_20260428_2159.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US Congress passes bill to resume funding for DHS and end partial shutdown
+   • UK terrorism threat level raised to severe after Golders Green attack
      Sources: bbc.com, cnn.com, reuters.com
-   • Uganda court sentences man to death for killing four children at nursery
+   • Palestinians mourn football loving teenager killed by Israeli army
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says Tennessee next to redistrict after US Voting Rights Act ruling
+   • Kenya’s Sawe hailed at State House after historic marathon
      Sources: bbc.com, cnn.com, reuters.com
