@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Woman charged over fatal Wimbledon school crash
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda copying Russia and China with new bill designed to crush dissent, say critics
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza aid flotilla vessels taken to Crete after Israeli interception
-Added expanded search topic: Gaza aid flotilla vessels taken to Crete after Israeli interception
-Saved 15 topics for 2026-05-01
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Giorgia Meloni’s moral retreat on Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Greek Orthodox Church sounds alarm over attacks on Christians in Jerusalem
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Has the US-Iran ceasefire reset the clock on War Powers Act deadline?
+Added expanded search topic: Giorgia Meloni’s moral retreat on Gaza
+Added expanded search topic: Greek Orthodox Church sounds alarm over attacks on Christians in Jerusalem
+Added expanded search topic: Has the US-Iran ceasefire reset the clock on War Powers Act deadline?
+Saved 18 topics for 2026-05-01
 Returning 3 unique trending topics:
-  1. Woman charged over fatal Wimbledon school crash (from BBC News)
-  2. Uganda copying Russia and China with new bill designed to crush dissent, say critics (from The Guardian)
-  3. Gaza aid flotilla vessels taken to Crete after Israeli interception (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Giorgia Meloni’s moral retreat on Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Greek Orthodox Church sounds alarm over attacks on Christians in Jerusalem (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Has the US-Iran ceasefire reset the clock on War Powers Act deadline? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Woman charged over fatal Wimbledon school crash
-Searching Google for: Woman charged over fatal Wimbledon school crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWoman%252Bcharged%252Bover%252Bfatal%252BWimbledon%252Bschool%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNugGLes0s8GIjD4ThISVy1FWKgYA5Slj5rnwdC9I2XW0c01xAhSGLBS_vcRtdTvOvOKRWDDAxt2vDAyBmpjbmRyUloBQw
+Processing trending topic: Giorgia Meloni’s moral retreat on Gaza
+Searching Google for: Giorgia Meloni’s moral retreat on Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGiorgia%252BMeloni%25E2%2580%2599s%252Bmoral%252Bretreat%252Bon%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgkGLHW0s8GIjAu1lbL29xueyRUV3BPn0PvoRkpQjs4w86JbPjsMKuRQdzDhZ4HFI4lPQpOdXfag40yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: woman-charged-over-fatal-wimbledon-school-crash_20260501_1202.html
-✓ Created comprehensive article: woman-charged-over-fatal-wimbledon-school-crash_20260501_1202.html
+Successfully created file: giorgia-melonis-moral-retreat-on-gaza_20260501_1331.html
+✓ Created comprehensive article: giorgia-melonis-moral-retreat-on-gaza_20260501_1331.html
 
-Processing trending topic: Uganda copying Russia and China with new bill designed to crush dissent, say critics
-Searching Google for: Uganda copying Russia and China with new bill designed to crush dissent, say critics
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Bcopying%252BRussia%252Band%252BChina%252Bwith%252Bnew%252Bbill%252Bdesigned%252Bto%252Bcrush%252Bdissent%252C%252Bsay%252Bcritics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNugGL6s0s8GIjB1LGxX4_3bRqnpodCXLU_XQkQ3YtSpNdmRwHt7jGfZFMLVotg-SO3q6JXDv3GpRUMyBmpjbmRyUloBQw
+Processing trending topic: Greek Orthodox Church sounds alarm over attacks on Christians in Jerusalem
+Searching Google for: Greek Orthodox Church sounds alarm over attacks on Christians in Jerusalem
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGreek%252BOrthodox%252BChurch%252Bsounds%252Balarm%252Bover%252Battacks%252Bon%252BChristians%252Bin%252BJerusalem%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgkGLjW0s8GIjB29v0VwVTmk2_QZXsDTuQAFb2BsWJjywBtWvzi0MvJymodrivm2iuoC5UJ5HBReV0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uganda-copying-russia-and-china-with-new-bill-desi_20260501_1202.html
-✓ Created comprehensive article: uganda-copying-russia-and-china-with-new-bill-desi_20260501_1202.html
+Successfully created file: greek-orthodox-church-sounds-alarm-over-attacks-on_20260501_1331.html
+✓ Created comprehensive article: greek-orthodox-church-sounds-alarm-over-attacks-on_20260501_1331.html
 
-Processing trending topic: Gaza aid flotilla vessels taken to Crete after Israeli interception
-Searching Google for: Gaza aid flotilla vessels taken to Crete after Israeli interception
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Baid%252Bflotilla%252Bvessels%252Btaken%252Bto%252BCrete%252Bafter%252BIsraeli%252Binterception%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNugGMWs0s8GIjAIEKwBJ-awmXpiiljvJwywqxBq1hqQu-Q-FOhu2H5TOKIIAb0jWGoCAtWrH-X8jwAyBmpjbmRyUloBQw
+Processing trending topic: Has the US-Iran ceasefire reset the clock on War Powers Act deadline?
+Searching Google for: Has the US-Iran ceasefire reset the clock on War Powers Act deadline?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHas%252Bthe%252BUS-Iran%252Bceasefire%252Breset%252Bthe%252Bclock%252Bon%252BWar%252BPowers%252BAct%252Bdeadline%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgkGL7W0s8GIjDEDDoOAXOpKMhT6PFjuDJDGV9tQlAIx9Xrykbh0OR5jEEaz3qrgOCF6LGS6cpMETEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gaza-aid-flotilla-vessels-taken-to-crete-after-isr_20260501_1202.html
-✓ Created comprehensive article: gaza-aid-flotilla-vessels-taken-to-crete-after-isr_20260501_1202.html
+Successfully created file: has-the-us-iran-ceasefire-reset-the-clock-on-war-p_20260501_1331.html
+✓ Created comprehensive article: has-the-us-iran-ceasefire-reset-the-clock-on-war-p_20260501_1331.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ukraine-begins-to-flex-muscle-as-an-emerging-air-p_20260501_0902.html
-Cleaned old post to keep top 30 limit: uk-terrorism-threat-level-raised-to-severe-after-g_20260501_0255.html
-Cleaned old post to keep top 30 limit: man-appears-in-court-charged-with-attempted-murder_20260501_1042.html
+Cleaned old post to keep top 30 limit: us-congress-passes-bill-to-resume-funding-for-dhs-_20260430_2101.html
+Cleaned old post to keep top 30 limit: uganda-copying-russia-and-china-with-new-bill-desi_20260501_1202.html
+Cleaned old post to keep top 30 limit: gaza-aid-flotilla-vessels-taken-to-crete-after-isr_20260501_1202.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Woman charged over fatal Wimbledon school crash
+   • Giorgia Meloni’s moral retreat on Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Uganda copying Russia and China with new bill designed to crush dissent, say critics
+   • Greek Orthodox Church sounds alarm over attacks on Christians in Jerusalem
      Sources: bbc.com, cnn.com, reuters.com
-   • Gaza aid flotilla vessels taken to Crete after Israeli interception
+   • Has the US-Iran ceasefire reset the clock on War Powers Act deadline?
      Sources: bbc.com, cnn.com, reuters.com
