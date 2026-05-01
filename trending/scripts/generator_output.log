@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK terrorism threat level raised to severe after Golders Green attack
-  Added: It's a miracle I survived, Golders Green victim tells BBC
+  Added: 'I held down Golders Green suspect' says volunteer who grabbed ankle
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine FA chief hits out at Israel federation VP at FIFA Congress
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: First US-Venezuela flight lands in Caracas after seven-year suspension
-Added expanded search topic: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
-Added expanded search topic: Palestine FA chief hits out at Israel federation VP at FIFA Congress
-Added expanded search topic: First US-Venezuela flight lands in Caracas after seven-year suspension
-Saved 33 topics for 2026-04-30
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-05-01
 Returning 3 unique trending topics:
-  1. Arsenal vs Fulham: Premier League – teams, start, lineups, title race (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Palestine FA chief hits out at Israel federation VP at FIFA Congress (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. First US-Venezuela flight lands in Caracas after seven-year suspension (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK terrorism threat level raised to severe after Golders Green attack (from BBC News)
+  2. 'I held down Golders Green suspect' says volunteer who grabbed ankle (from BBC News)
+  3. South Africa deports Mugabe’s son for unrelated offences after employee shot at family home (from The Guardian)
 
-Processing trending topic: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
-Searching Google for: Arsenal vs Fulham: Premier League – teams, start, lineups, title race
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArsenal%252Bvs%252BFulham%253A%252BPremier%252BLeague%252B%25E2%2580%2593%252Bteams%252C%252Bstart%252C%252Blineups%252C%252Btitle%252Brace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lDGJHBz88GIjCeBfHziL4l5_3T25EwiHmxa2u2q46eaCvF9FtkksOM8T6rEcdwm7G7jertHp1VKi8yBmpjbmRyUloBQw
+Processing trending topic: UK terrorism threat level raised to severe after Golders Green attack
+Searching Google for: UK terrorism threat level raised to severe after Golders Green attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bterrorism%252Bthreat%252Blevel%252Braised%252Bto%252Bsevere%252Bafter%252BGolders%252BGreen%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mMDGJSs0M8GIjAdjPwGxtVHvwd4UcsvBZ6GqVNzn78NEIJdiqZwsJQ5OvCCKDff0zKULnylGJSBjboyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: arsenal-vs-fulham-premier-league-teams-start-lineu_20260430_2307.html
-✓ Created comprehensive article: arsenal-vs-fulham-premier-league-teams-start-lineu_20260430_2307.html
+Successfully created file: uk-terrorism-threat-level-raised-to-severe-after-g_20260501_0255.html
+✓ Created comprehensive article: uk-terrorism-threat-level-raised-to-severe-after-g_20260501_0255.html
 
-Processing trending topic: Palestine FA chief hits out at Israel federation VP at FIFA Congress
-Searching Google for: Palestine FA chief hits out at Israel federation VP at FIFA Congress
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252BFA%252Bchief%252Bhits%252Bout%252Bat%252BIsrael%252Bfederation%252BVP%252Bat%252BFIFA%252BCongress%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lDGJnBz88GIjCoKflyQV-pqxSHa5WpVRFehonJbraD7hlY4Nh0qBWpuT2oUBK7r1qLlszSrIR0Al0yBmpjbmRyUloBQw
+Processing trending topic: 'I held down Golders Green suspect' says volunteer who grabbed ankle
+Searching Google for: 'I held down Golders Green suspect' says volunteer who grabbed ankle
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527I%252Bheld%252Bdown%252BGolders%252BGreen%252Bsuspect%2527%252Bsays%252Bvolunteer%252Bwho%252Bgrabbed%252Bankle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mMDGJus0M8GIjBS4rfjm2TY154MhVPUchJX1xx8SFIbYUMZdYDbPywnZilCwB30bdCw1KHbD4W2BaYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestine-fa-chief-hits-out-at-israel-federation-v_20260430_2307.html
-✓ Created comprehensive article: palestine-fa-chief-hits-out-at-israel-federation-v_20260430_2307.html
+Successfully created file: i-held-down-golders-green-suspect-says-volunteer-w_20260501_0255.html
+✓ Created comprehensive article: i-held-down-golders-green-suspect-says-volunteer-w_20260501_0255.html
 
-Processing trending topic: First US-Venezuela flight lands in Caracas after seven-year suspension
-Searching Google for: First US-Venezuela flight lands in Caracas after seven-year suspension
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252BUS-Venezuela%252Bflight%252Blands%252Bin%252BCaracas%252Bafter%252Bseven-year%252Bsuspension%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lDGJ_Bz88GIjD7-cdbryr0CDM1RHYWo_WqjXqrKneO3A4pae58bGncDhZLmh_lbgVQ69_mk13qEa8yBmpjbmRyUloBQw
+Processing trending topic: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
+Searching Google for: South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrica%252Bdeports%252BMugabe%25E2%2580%2599s%252Bson%252Bfor%252Bunrelated%252Boffences%252Bafter%252Bemployee%252Bshot%252Bat%252Bfamily%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mMDGKGs0M8GIjDpEDcrvC9jx5BWm8qZaeETN5IhbyJTmYIVhpOZ7GyR-rKrhZHFPhbnsipV_io2wewyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: first-us-venezuela-flight-lands-in-caracas-after-s_20260430_2307.html
-✓ Created comprehensive article: first-us-venezuela-flight-lands-in-caracas-after-s_20260430_2307.html
+Successfully created file: south-africa-deports-mugabes-son-for-unrelated-off_20260501_0255.html
+✓ Created comprehensive article: south-africa-deports-mugabes-son-for-unrelated-off_20260501_0255.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: woods-mugshot-released-after-driving-under-influen_20260328_0454.html
-Cleaned old post to keep top 30 limit: uk-terrorism-threat-level-raised-to-severe-after-g_20260430_2203.html
-Cleaned old post to keep top 30 limit: kenyas-sawe-hailed-at-state-house-after-historic-m_20260430_2204.html
+Cleaned old post to keep top 30 limit: palestine-fa-chief-hits-out-at-israel-federation-v_20260430_2307.html
+Cleaned old post to keep top 30 limit: first-us-venezuela-flight-lands-in-caracas-after-s_20260430_2307.html
+Cleaned old post to keep top 30 limit: arsenal-vs-fulham-premier-league-teams-start-lineu_20260430_2307.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Arsenal vs Fulham: Premier League – teams, start, lineups, title race
+   • UK terrorism threat level raised to severe after Golders Green attack
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestine FA chief hits out at Israel federation VP at FIFA Congress
+   • 'I held down Golders Green suspect' says volunteer who grabbed ankle
      Sources: bbc.com, cnn.com, reuters.com
-   • First US-Venezuela flight lands in Caracas after seven-year suspension
+   • South Africa deports Mugabe’s son for unrelated offences after employee shot at family home
      Sources: bbc.com, cnn.com, reuters.com
