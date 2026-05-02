@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Some protests may need to stop, PM suggests, after calls for pause on pro-Palestinian marches
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: First malaria drug for babies is approved in ‘major public health milestone’
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nepal celebrates return of stolen 13th-century Buddha statue from New York
-Added expanded search topic: Nepal celebrates return of stolen 13th-century Buddha statue from New York
-Saved 9 topics for 2026-05-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spirit Airlines begins ‘wind-down’, cancels all flights over fuel crisis
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK’s Starmer eyes banning some pro-Palestine protests
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who Is Nayib Bukele? El Salvador’s ‘coolest dictator’
+Added expanded search topic: Spirit Airlines begins ‘wind-down’, cancels all flights over fuel crisis
+Added expanded search topic: UK’s Starmer eyes banning some pro-Palestine protests
+Added expanded search topic: Who Is Nayib Bukele? El Salvador’s ‘coolest dictator’
+Saved 12 topics for 2026-05-02
 Returning 3 unique trending topics:
-  1. Some protests may need to stop, PM suggests, after calls for pause on pro-Palestinian marches (from BBC News)
-  2. First malaria drug for babies is approved in ‘major public health milestone’ (from The Guardian)
-  3. Nepal celebrates return of stolen 13th-century Buddha statue from New York (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Spirit Airlines begins ‘wind-down’, cancels all flights over fuel crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. UK’s Starmer eyes banning some pro-Palestine protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Who Is Nayib Bukele? El Salvador’s ‘coolest dictator’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Some protests may need to stop, PM suggests, after calls for pause on pro-Palestinian marches
-Searching Google for: Some protests may need to stop, PM suggests, after calls for pause on pro-Palestinian marches
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSome%252Bprotests%252Bmay%252Bneed%252Bto%252Bstop%252C%252BPM%252Bsuggests%252C%252Bafter%252Bcalls%252Bfor%252Bpause%252Bon%252Bpro-Palestinian%252Bmarches%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DrxGITX1s8GIjBUOrmFvIjo-ZMUrYY60iMZa3IbWxY3pd_zUC5R_pUJGzWeMrDypNOBmBV4AhgDfjYyBmpjbmRyUloBQw
+Processing trending topic: Spirit Airlines begins ‘wind-down’, cancels all flights over fuel crisis
+Searching Google for: Spirit Airlines begins ‘wind-down’, cancels all flights over fuel crisis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpirit%252BAirlines%252Bbegins%252B%25E2%2580%2598wind-down%25E2%2580%2599%252C%252Bcancels%252Ball%252Bflights%252Bover%252Bfuel%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1sBGMb91s8GIjDJ2XZ0YVlRXreff-St87v5gQJo98QDbPdZPOSa9-ZMLQytABbshm7XBrHSP_jNbqIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: some-protests-may-need-to-stop-pm-suggests-after-c_20260502_0745.html
-✓ Created comprehensive article: some-protests-may-need-to-stop-pm-suggests-after-c_20260502_0745.html
+Successfully created file: spirit-airlines-begins-wind-down-cancels-all-fligh_20260502_0907.html
+✓ Created comprehensive article: spirit-airlines-begins-wind-down-cancels-all-fligh_20260502_0907.html
 
-Processing trending topic: First malaria drug for babies is approved in ‘major public health milestone’
-Searching Google for: First malaria drug for babies is approved in ‘major public health milestone’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252Bmalaria%252Bdrug%252Bfor%252Bbabies%252Bis%252Bapproved%252Bin%252B%25E2%2580%2598major%252Bpublic%252Bhealth%252Bmilestone%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DrxGIrX1s8GIjBC-rmjNC1Y-q5hlR9TP2p6SzxFL-uAf-aaeN097KxHpCZRLTLPkF06IhvzxXYs8CgyBmpjbmRyUloBQw
+Processing trending topic: UK’s Starmer eyes banning some pro-Palestine protests
+Searching Google for: UK’s Starmer eyes banning some pro-Palestine protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%25E2%2580%2599s%252BStarmer%252Beyes%252Bbanning%252Bsome%252Bpro-Palestine%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1sBGMz91s8GIjBzngDi9wbQYUlwa_RCJRQsUS3nwx-OqyVgjIbEKePoQesL3DM7vul7Y6No4yurM14yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: first-malaria-drug-for-babies-is-approved-in-major_20260502_0745.html
-✓ Created comprehensive article: first-malaria-drug-for-babies-is-approved-in-major_20260502_0745.html
+Successfully created file: uks-starmer-eyes-banning-some-pro-palestine-protes_20260502_0907.html
+✓ Created comprehensive article: uks-starmer-eyes-banning-some-pro-palestine-protes_20260502_0907.html
 
-Processing trending topic: Nepal celebrates return of stolen 13th-century Buddha statue from New York
-Searching Google for: Nepal celebrates return of stolen 13th-century Buddha statue from New York
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNepal%252Bcelebrates%252Breturn%252Bof%252Bstolen%252B13th-century%252BBuddha%252Bstatue%252Bfrom%252BNew%252BYork%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DrxGJHX1s8GIjCcuVuczpwZWTQRhnbvb7yn7YSlf5esTzqEh5iuKXv_UzpzUpVWf52wOf9xa88ce1cyBmpjbmRyUloBQw
+Processing trending topic: Who Is Nayib Bukele? El Salvador’s ‘coolest dictator’
+Searching Google for: Who Is Nayib Bukele? El Salvador’s ‘coolest dictator’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252BIs%252BNayib%252BBukele%253F%252BEl%252BSalvador%25E2%2580%2599s%252B%25E2%2580%2598coolest%252Bdictator%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1sBGNP91s8GIjDoCCW1RiELVlM9t_WenXW0wcmK-jVG3FkXqWPtpyljpeZ30TWtJXudR16FWKj0H1IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nepal-celebrates-return-of-stolen-13th-century-bud_20260502_0745.html
-✓ Created comprehensive article: nepal-celebrates-return-of-stolen-13th-century-bud_20260502_0745.html
+Successfully created file: who-is-nayib-bukele-el-salvadors-coolest-dictator_20260502_0907.html
+✓ Created comprehensive article: who-is-nayib-bukele-el-salvadors-coolest-dictator_20260502_0907.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-police-charge-man-over-stabbing-of-two-jewish-m_20260501_0902.html
-Cleaned old post to keep top 30 limit: trump-says-us-forces-are-like-pirates-taking-irani_20260502_0539.html
-Cleaned old post to keep top 30 limit: i-bought-a-baseball-cap-to-hide-my-kippah-jews-obs_20260502_0539.html
+Cleaned old post to keep top 30 limit: somalia-shapes-its-own-destiny-in-global-security-_20260430_1056.html
+Cleaned old post to keep top 30 limit: nepal-celebrates-return-of-stolen-13th-century-bud_20260502_0745.html
+Cleaned old post to keep top 30 limit: first-malaria-drug-for-babies-is-approved-in-major_20260502_0745.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Some protests may need to stop, PM suggests, after calls for pause on pro-Palestinian marches
+   • Spirit Airlines begins ‘wind-down’, cancels all flights over fuel crisis
      Sources: bbc.com, cnn.com, reuters.com
-   • First malaria drug for babies is approved in ‘major public health milestone’
+   • UK’s Starmer eyes banning some pro-Palestine protests
      Sources: bbc.com, cnn.com, reuters.com
-   • Nepal celebrates return of stolen 13th-century Buddha statue from New York
+   • Who Is Nayib Bukele? El Salvador’s ‘coolest dictator’
      Sources: bbc.com, cnn.com, reuters.com
