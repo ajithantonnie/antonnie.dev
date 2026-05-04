@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The threat to summer holidays looming from jet fuel shortages
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Flaws in Kenya’s AI-driven health reforms driving up costs for the poorest
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-05-04
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Japan PM: Hormuz closure ‘inflicting enormous impact’ on Asia Pacific
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran warns US to stay out of Hormuz after Trump says US will ‘guide’ ships
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Crew of Iranian ship seized by US forces evacuated to Pakistan, gov’t says
+Added expanded search topic: Japan PM: Hormuz closure ‘inflicting enormous impact’ on Asia Pacific
+Added expanded search topic: Iran warns US to stay out of Hormuz after Trump says US will ‘guide’ ships
+Added expanded search topic: Crew of Iranian ship seized by US forces evacuated to Pakistan, gov’t says
+Saved 9 topics for 2026-05-04
 Returning 3 unique trending topics:
-  1. The threat to summer holidays looming from jet fuel shortages (from BBC News)
-  2. Some Iranians fear the regime is now more entrenched - and ready for revenge (from BBC News)
-  3. Flaws in Kenya’s AI-driven health reforms driving up costs for the poorest (from The Guardian)
+  1. Japan PM: Hormuz closure ‘inflicting enormous impact’ on Asia Pacific (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran warns US to stay out of Hormuz after Trump says US will ‘guide’ ships (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Crew of Iranian ship seized by US forces evacuated to Pakistan, gov’t says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: The threat to summer holidays looming from jet fuel shortages
-Searching Google for: The threat to summer holidays looming from jet fuel shortages
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bthreat%252Bto%252Bsummer%252Bholidays%252Blooming%252Bfrom%252Bjet%252Bfuel%252Bshortages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwHGJzy4M8GIjBM_qCUCuXXjXvXmHXVgDXQIsiFylFJRNJ-u8hpyuu6VDlEBHDxFY6BQP5hsSzpxQEyAnJSWgFD
+Processing trending topic: Japan PM: Hormuz closure ‘inflicting enormous impact’ on Asia Pacific
+Searching Google for: Japan PM: Hormuz closure ‘inflicting enormous impact’ on Asia Pacific
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJapan%252BPM%253A%252BHormuz%252Bclosure%252B%25E2%2580%2598inflicting%252Benormous%252Bimpact%25E2%2580%2599%252Bon%252BAsia%252BPacific%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkhGKvJ4c8GIjC5PiVLYPV3T-cOQYZnD3PZSsXE_-nl1C8sGshXWEWnP1dq5Y31mY4cpsu5Eqe0ficyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-threat-to-summer-holidays-looming-from-jet-fue_20260504_0613.html
-✓ Created comprehensive article: the-threat-to-summer-holidays-looming-from-jet-fue_20260504_0613.html
+Successfully created file: japan-pm-hormuz-closure-inflicting-enormous-impact_20260504_0919.html
+✓ Created comprehensive article: japan-pm-hormuz-closure-inflicting-enormous-impact_20260504_0919.html
 
-Processing trending topic: Some Iranians fear the regime is now more entrenched - and ready for revenge
-Searching Google for: Some Iranians fear the regime is now more entrenched - and ready for revenge
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSome%252BIranians%252Bfear%252Bthe%252Bregime%252Bis%252Bnow%252Bmore%252Bentrenched%252B-%252Band%252Bready%252Bfor%252Brevenge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwHGKPy4M8GIjAvmbl4BA7FfnFCrkLUOVv_fu7bKrQTCRy6vuA9LH7UMEbl5_bgczHrXgXx35evyrMyAnJSWgFD
+Processing trending topic: Iran warns US to stay out of Hormuz after Trump says US will ‘guide’ ships
+Searching Google for: Iran warns US to stay out of Hormuz after Trump says US will ‘guide’ ships
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwarns%252BUS%252Bto%252Bstay%252Bout%252Bof%252BHormuz%252Bafter%252BTrump%252Bsays%252BUS%252Bwill%252B%25E2%2580%2598guide%25E2%2580%2599%252Bships%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkhGLLJ4c8GIjCivGqq-IFFQGDQwEfJM7bjEPBl5c1S3tyRpHz3hbqYeQHTz7H9WXXvx1sUCfbnmvIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: some-iranians-fear-the-regime-is-now-more-entrench_20260504_0614.html
-✓ Created comprehensive article: some-iranians-fear-the-regime-is-now-more-entrench_20260504_0614.html
+Successfully created file: iran-warns-us-to-stay-out-of-hormuz-after-trump-sa_20260504_0919.html
+✓ Created comprehensive article: iran-warns-us-to-stay-out-of-hormuz-after-trump-sa_20260504_0919.html
 
-Processing trending topic: Flaws in Kenya’s AI-driven health reforms driving up costs for the poorest
-Searching Google for: Flaws in Kenya’s AI-driven health reforms driving up costs for the poorest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlaws%252Bin%252BKenya%25E2%2580%2599s%252BAI-driven%252Bhealth%252Breforms%252Bdriving%252Bup%252Bcosts%252Bfor%252Bthe%252Bpoorest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwHGKry4M8GIjB9QmG3v3yGl1sORY-oz9aedtgwr7k_6qQQWPrFa6HnrWGh1EI0G4n-BcmLGMV_vRgyAnJSWgFD
+Processing trending topic: Crew of Iranian ship seized by US forces evacuated to Pakistan, gov’t says
+Searching Google for: Crew of Iranian ship seized by US forces evacuated to Pakistan, gov’t says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCrew%252Bof%252BIranian%252Bship%252Bseized%252Bby%252BUS%252Bforces%252Bevacuated%252Bto%252BPakistan%252C%252Bgov%25E2%2580%2599t%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkhGLjJ4c8GIjA3iIbZYPATYfNV8xHh0PXDt8DLw6X-FYyR-IVik603ptbX9m2IepkWWbey9Maa1wQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: flaws-in-kenyas-ai-driven-health-reforms-driving-u_20260504_0614.html
-✓ Created comprehensive article: flaws-in-kenyas-ai-driven-health-reforms-driving-u_20260504_0614.html
+Successfully created file: crew-of-iranian-ship-seized-by-us-forces-evacuated_20260504_0919.html
+✓ Created comprehensive article: crew-of-iranian-ship-seized-by-us-forces-evacuated_20260504_0919.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-and-officials-likely-targets-of-press-dinner_20260426_1947.html
-Cleaned old post to keep top 30 limit: three-passengers-dead-after-suspected-hantavirus-o_20260504_0245.html
-Cleaned old post to keep top 30 limit: chris-mason-elections-this-week-a-smorgasbord-of-c_20260504_0245.html
+Cleaned old post to keep top 30 limit: trump-says-us-to-guide-stranded-ships-through-stra_20260504_0245.html
+Cleaned old post to keep top 30 limit: the-threat-to-summer-holidays-looming-from-jet-fue_20260504_0613.html
+Cleaned old post to keep top 30 limit: flaws-in-kenyas-ai-driven-health-reforms-driving-u_20260504_0614.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • The threat to summer holidays looming from jet fuel shortages
+   • Japan PM: Hormuz closure ‘inflicting enormous impact’ on Asia Pacific
      Sources: bbc.com, cnn.com, reuters.com
-   • Some Iranians fear the regime is now more entrenched - and ready for revenge
+   • Iran warns US to stay out of Hormuz after Trump says US will ‘guide’ ships
      Sources: bbc.com, cnn.com, reuters.com
-   • Flaws in Kenya’s AI-driven health reforms driving up costs for the poorest
+   • Crew of Iranian ship seized by US forces evacuated to Pakistan, gov’t says
      Sources: bbc.com, cnn.com, reuters.com
