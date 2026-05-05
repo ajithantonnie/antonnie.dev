@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK convicts four Palestine Action activists over break-in at Israeli firm
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Microsoft, Google, xAI give US access to AI models for security testing
-Added expanded search topic: UK convicts four Palestine Action activists over break-in at Israeli firm
-Added expanded search topic: Microsoft, Google, xAI give US access to AI models for security testing
-Saved 21 topics for 2026-05-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan recalls Ethiopia ambassador after strikes on Khartoum
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video: Trump says Iran should ‘wave the white flag’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US push for Lebanon and Israel leaders to meet could inflame tensions
+Added expanded search topic: Sudan recalls Ethiopia ambassador after strikes on Khartoum
+Added expanded search topic: Video: Trump says Iran should ‘wave the white flag’
+Added expanded search topic: US push for Lebanon and Israel leaders to meet could inflame tensions
+Saved 24 topics for 2026-05-05
 Returning 3 unique trending topics:
-  1. Woman, 35, died in explosion after ex-partner 'forced entry' into her home (from BBC News)
-  2. UK convicts four Palestine Action activists over break-in at Israeli firm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Microsoft, Google, xAI give US access to AI models for security testing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Sudan recalls Ethiopia ambassador after strikes on Khartoum (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Video: Trump says Iran should ‘wave the white flag’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US push for Lebanon and Israel leaders to meet could inflame tensions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Woman, 35, died in explosion after ex-partner 'forced entry' into her home
-Searching Google for: Woman, 35, died in explosion after ex-partner 'forced entry' into her home
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWoman%252C%252B35%252C%252Bdied%252Bin%252Bexplosion%252Bafter%252Bex-partner%252B%2527forced%252Bentry%2527%252Binto%252Bher%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PFGMrn6M8GIjCohG_VE7zVWOIuyCaUZAl-Ujq9H2M5_nrRd6dnlu2R9tPahhD0OPECmS0JQtLsOqMyBmpjbmRyUloBQw
+Processing trending topic: Sudan recalls Ethiopia ambassador after strikes on Khartoum
+Searching Google for: Sudan recalls Ethiopia ambassador after strikes on Khartoum
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%252Brecalls%252BEthiopia%252Bambassador%252Bafter%252Bstrikes%252Bon%252BKhartoum%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKP1jGIqd6c8GIjB_vBZLgiMOgahhyqdot8BDi2C5KC2Yh6WWmybtPj_WhcsOoJeG697CKku97l7z99oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: woman-35-died-in-explosion-after-ex-partner-forced_20260505_1815.html
-✓ Created comprehensive article: woman-35-died-in-explosion-after-ex-partner-forced_20260505_1815.html
+Successfully created file: sudan-recalls-ethiopia-ambassador-after-strikes-on_20260505_2009.html
+✓ Created comprehensive article: sudan-recalls-ethiopia-ambassador-after-strikes-on_20260505_2009.html
 
-Processing trending topic: UK convicts four Palestine Action activists over break-in at Israeli firm
-Searching Google for: UK convicts four Palestine Action activists over break-in at Israeli firm
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bconvicts%252Bfour%252BPalestine%252BAction%252Bactivists%252Bover%252Bbreak-in%252Bat%252BIsraeli%252Bfirm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PFGNHn6M8GIjDUpQ-0layy629TLKvfz3OOF8IKV93-Ee4imL7Y0e6LkK4Vi5OwOzfWgJYLOd7o_BQyBmpjbmRyUloBQw
+Processing trending topic: Video: Trump says Iran should ‘wave the white flag’
+Searching Google for: Video: Trump says Iran should ‘wave the white flag’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%253A%252BTrump%252Bsays%252BIran%252Bshould%252B%25E2%2580%2598wave%252Bthe%252Bwhite%252Bflag%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKP1jGJGd6c8GIjA9kUUoscDtrftNSF16IeaPurmsExQz4s2oW6DlVPsDdmA80CjUi1T-b1Cp8oMthQsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-convicts-four-palestine-action-activists-over-b_20260505_1815.html
-✓ Created comprehensive article: uk-convicts-four-palestine-action-activists-over-b_20260505_1815.html
+Successfully created file: video-trump-says-iran-should-wave-the-white-flag_20260505_2009.html
+✓ Created comprehensive article: video-trump-says-iran-should-wave-the-white-flag_20260505_2009.html
 
-Processing trending topic: Microsoft, Google, xAI give US access to AI models for security testing
-Searching Google for: Microsoft, Google, xAI give US access to AI models for security testing
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMicrosoft%252C%252BGoogle%252C%252BxAI%252Bgive%252BUS%252Baccess%252Bto%252BAI%252Bmodels%252Bfor%252Bsecurity%252Btesting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PFGNjn6M8GIjASDPGyeGh9ZopYY2L4It1K6eN_YPMl4jtA1iQN3_dORhTQSMrV240AnCKM7gDIrrkyBmpjbmRyUloBQw
+Processing trending topic: US push for Lebanon and Israel leaders to meet could inflame tensions
+Searching Google for: US push for Lebanon and Israel leaders to meet could inflame tensions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bpush%252Bfor%252BLebanon%252Band%252BIsrael%252Bleaders%252Bto%252Bmeet%252Bcould%252Binflame%252Btensions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKP1jGJed6c8GIjBZLGAhd2zzMm2OXWheih5Q-Q6Nq0oE9cHIiAqEu3Uf8g_CFC5Jt5SEVV2Ir_QZLRQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: microsoft-google-xai-give-us-access-to-ai-models-f_20260505_1815.html
-✓ Created comprehensive article: microsoft-google-xai-give-us-access-to-ai-models-f_20260505_1815.html
+Successfully created file: us-push-for-lebanon-and-israel-leaders-to-meet-cou_20260505_2010.html
+✓ Created comprehensive article: us-push-for-lebanon-and-israel-leaders-to-meet-cou_20260505_2010.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: live-arsenal-vs-atletico-madrid-champions-league-s_20260505_1631.html
-Cleaned old post to keep top 30 limit: us-secret-service-shoots-gunman-near-white-house_20260505_1004.html
-Cleaned old post to keep top 30 limit: boko-haram-attack-kills-23-soldiers-in-chads-lake-_20260505_1631.html
+Cleaned old post to keep top 30 limit: microsoft-google-xai-give-us-access-to-ai-models-f_20260505_1815.html
+Cleaned old post to keep top 30 limit: woman-35-died-in-explosion-after-ex-partner-forced_20260505_1815.html
+Cleaned old post to keep top 30 limit: macron-sings-as-armenias-leader-drums-in-unusual-m_20260505_1004.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Woman, 35, died in explosion after ex-partner 'forced entry' into her home
+   • Sudan recalls Ethiopia ambassador after strikes on Khartoum
      Sources: bbc.com, cnn.com, reuters.com
-   • UK convicts four Palestine Action activists over break-in at Israeli firm
+   • Video: Trump says Iran should ‘wave the white flag’
      Sources: bbc.com, cnn.com, reuters.com
-   • Microsoft, Google, xAI give US access to AI models for security testing
+   • US push for Lebanon and Israel leaders to meet could inflame tensions
      Sources: bbc.com, cnn.com, reuters.com
