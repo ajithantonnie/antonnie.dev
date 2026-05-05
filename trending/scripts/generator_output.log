@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US strikes Iranian fast boats as Iran attacks UAE oil facility
-  Added: Two killed and many injured after car driven into crowd in German city of Leipzig
+  Added: Starmer to host Downing Street summit to address antisemitism
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Scramble to evacuate two people from cruise ship amid suspected hantavirus outbreak
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-05
+  Added: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: An explosion at a fireworks plant in China has killed at least 21 people
+Added expanded search topic: An explosion at a fireworks plant in China has killed at least 21 people
+Saved 6 topics for 2026-05-05
 Returning 3 unique trending topics:
-  1. US strikes Iranian fast boats as Iran attacks UAE oil facility (from BBC News)
-  2. Two killed and many injured after car driven into crowd in German city of Leipzig (from BBC News)
-  3. Scramble to evacuate two people from cruise ship amid suspected hantavirus outbreak (from The Guardian)
+  1. Starmer to host Downing Street summit to address antisemitism (from BBC News)
+  2. British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship (from The Guardian)
+  3. An explosion at a fireworks plant in China has killed at least 21 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US strikes Iranian fast boats as Iran attacks UAE oil facility
-Searching Google for: US strikes Iranian fast boats as Iran attacks UAE oil facility
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bstrikes%252BIranian%252Bfast%252Bboats%252Bas%252BIran%252Battacks%252BUAE%252Boil%252Bfacility%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrp2BGKHo5M8GIjBSLOT9s4huCys6KSQWAb9U8oovAxFzL9NVuhotPJDwoBuB-o-KlInCoiyK8yizVUgyBmpjbmRyUloBQw
+Processing trending topic: Starmer to host Downing Street summit to address antisemitism
+Searching Google for: Starmer to host Downing Street summit to address antisemitism
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bto%252Bhost%252BDowning%252BStreet%252Bsummit%252Bto%252Baddress%252Bantisemitism%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JoSGLrf5c8GIjAR9I9sFBH9eZ4ii52fkEtPJH7x13tG4O81TuDXAgFnTeHsRKr1SUKb8Xr11tQsF9syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-strikes-iranian-fast-boats-as-iran-attacks-uae-_20260505_0004.html
-✓ Created comprehensive article: us-strikes-iranian-fast-boats-as-iran-attacks-uae-_20260505_0004.html
+Successfully created file: starmer-to-host-downing-street-summit-to-address-a_20260505_0419.html
+✓ Created comprehensive article: starmer-to-host-downing-street-summit-to-address-a_20260505_0419.html
 
-Processing trending topic: Two killed and many injured after car driven into crowd in German city of Leipzig
-Searching Google for: Two killed and many injured after car driven into crowd in German city of Leipzig
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bkilled%252Band%252Bmany%252Binjured%252Bafter%252Bcar%252Bdriven%252Binto%252Bcrowd%252Bin%252BGerman%252Bcity%252Bof%252BLeipzig%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrp2BGKjo5M8GIjDBYfnYx9D-lrVeVE7gDkkbEN5gx1GPLcMk1CM03waGGIGFTGfFxlDydyBDSniXMhoyBmpjbmRyUloBQw
+Processing trending topic: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
+Searching Google for: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bcrew%252Bmember%252Bin%252Bneed%252Bof%252Burgent%252Bmedical%252Bcare%252Bamid%252Bsuspected%252Bhantavirus%252Boutbreak%252Bon%252Bcruise%252Bship%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JoSGMLf5c8GIjDSYlazYA5lDKbsQNv94ZJJMnc5qf_pinlwaHGjtOKlzW0Hixg7NP9pkR9EIHok_gwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-killed-and-many-injured-after-car-driven-into-_20260505_0005.html
-✓ Created comprehensive article: two-killed-and-many-injured-after-car-driven-into-_20260505_0005.html
+Successfully created file: british-crew-member-in-need-of-urgent-medical-care_20260505_0419.html
+✓ Created comprehensive article: british-crew-member-in-need-of-urgent-medical-care_20260505_0419.html
 
-Processing trending topic: Scramble to evacuate two people from cruise ship amid suspected hantavirus outbreak
-Searching Google for: Scramble to evacuate two people from cruise ship amid suspected hantavirus outbreak
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DScramble%252Bto%252Bevacuate%252Btwo%252Bpeople%252Bfrom%252Bcruise%252Bship%252Bamid%252Bsuspected%252Bhantavirus%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrp2BGK7o5M8GIjAPhWtZDuTXAVhfuI-1LM42P_P--BNERYzfJHP-cwpp8WmQJm5t0Kq_wCzNtV7Ptk0yBmpjbmRyUloBQw
+Processing trending topic: An explosion at a fireworks plant in China has killed at least 21 people
+Searching Google for: An explosion at a fireworks plant in China has killed at least 21 people
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAn%252Bexplosion%252Bat%252Ba%252Bfireworks%252Bplant%252Bin%252BChina%252Bhas%252Bkilled%252Bat%252Bleast%252B21%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JoSGMjf5c8GIjBzs9XAGLshp777s1HX9LQzblv7pQB1GmK4HGemh9sNMkq5d7D-r5WhbpGKbyAyI1MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: scramble-to-evacuate-two-people-from-cruise-ship-a_20260505_0005.html
-✓ Created comprehensive article: scramble-to-evacuate-two-people-from-cruise-ship-a_20260505_0005.html
+Successfully created file: an-explosion-at-a-fireworks-plant-in-china-has-kil_20260505_0419.html
+✓ Created comprehensive article: an-explosion-at-a-fireworks-plant-in-china-has-kil_20260505_0419.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: video-modis-bjp-poised-to-take-control-in-indias-w_20260504_2303.html
-Cleaned old post to keep top 30 limit: us-strikes-iranian-fast-boats-as-iran-attacks-uae-_20260504_2302.html
-Cleaned old post to keep top 30 limit: for-christians-in-israel-and-jerusalem-intolerance_20260504_2302.html
+Cleaned old post to keep top 30 limit: two-killed-and-many-injured-after-car-driven-into-_20260505_0005.html
+Cleaned old post to keep top 30 limit: us-strikes-iranian-fast-boats-as-iran-attacks-uae-_20260505_0004.html
+Cleaned old post to keep top 30 limit: scramble-to-evacuate-two-people-from-cruise-ship-a_20260505_0005.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US strikes Iranian fast boats as Iran attacks UAE oil facility
+   • Starmer to host Downing Street summit to address antisemitism
      Sources: bbc.com, cnn.com, reuters.com
-   • Two killed and many injured after car driven into crowd in German city of Leipzig
+   • British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
      Sources: bbc.com, cnn.com, reuters.com
-   • Scramble to evacuate two people from cruise ship amid suspected hantavirus outbreak
+   • An explosion at a fireworks plant in China has killed at least 21 people
      Sources: bbc.com, cnn.com, reuters.com
