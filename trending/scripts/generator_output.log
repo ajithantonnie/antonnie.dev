@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two Britons self-isolating in UK after leaving hantavirus cruise ship early
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al-Qaeda-linked fighters storm Mali prison, block food supplies to Bamako
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Infected passengers evacuated from hantavirus cruise ship
-Added expanded search topic: Al-Qaeda-linked fighters storm Mali prison, block food supplies to Bamako
-Added expanded search topic: Infected passengers evacuated from hantavirus cruise ship
-Saved 24 topics for 2026-05-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal
+Added expanded search topic: Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes
+Added expanded search topic: SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit
+Added expanded search topic: Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal
+Saved 27 topics for 2026-05-06
 Returning 3 unique trending topics:
-  1. Two Britons self-isolating in UK after leaving hantavirus cruise ship early (from BBC News)
-  2. Al-Qaeda-linked fighters storm Mali prison, block food supplies to Bamako (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Infected passengers evacuated from hantavirus cruise ship (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two Britons self-isolating in UK after leaving hantavirus cruise ship early
-Searching Google for: Two Britons self-isolating in UK after leaving hantavirus cruise ship early
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BBritons%252Bself-isolating%252Bin%252BUK%252Bafter%252Bleaving%252Bhantavirus%252Bcruise%252Bship%252Bearly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU7GQGGMrG7s8GIjBc2ePApl-7Fdy7uzZ1WsNvQl003YfL0Ndyq6A69jFyhjHQ5uC2H6pnd8TjEJqCCWcyBmpjbmRyUloBQw
+Processing trending topic: Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes
+Searching Google for: Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Btells%252Bdiplomats%252Bto%252Bleave%252BKyiv%252Bin%252Bcase%252BMoscow%252Blaunches%252Bmass%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33cGJfz7s8GIjB44liU8ZjBtMtnkxiF5R5wiJO8EdQIVrPAPuTN-Z1EW6r6YMGsKnTQnr5J22rSzEEyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-britons-self-isolating-in-uk-after-leaving-han_20260506_2023.html
-✓ Created comprehensive article: two-britons-self-isolating-in-uk-after-leaving-han_20260506_2023.html
+Successfully created file: russia-tells-diplomats-to-leave-kyiv-in-case-mosco_20260506_2158.html
+✓ Created comprehensive article: russia-tells-diplomats-to-leave-kyiv-in-case-mosco_20260506_2158.html
 
-Processing trending topic: Al-Qaeda-linked fighters storm Mali prison, block food supplies to Bamako
-Searching Google for: Al-Qaeda-linked fighters storm Mali prison, block food supplies to Bamako
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl-Qaeda-linked%252Bfighters%252Bstorm%252BMali%252Bprison%252C%252Bblock%252Bfood%252Bsupplies%252Bto%252BBamako%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU7GQGGNDG7s8GIjCsIdTQBB-xiv3oyakQ5sXrVUlpoIlsoNdjKusSAY69pNKuqas1tjsA4AHlHX1tackyBmpjbmRyUloBQw
+Processing trending topic: SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit
+Searching Google for: SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpaceX%252Bbacks%252BAnthropic%252Bwith%252Bdata%252Bcentre%252Bdeal%252Bamidst%252BMusk%25E2%2580%2599s%252BOpenAI%252Blawsuit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33cGJ_z7s8GIjDeY7cHFdBOpu04jh6nUMdgcWpWUHODt1jx-knbs6pHEiBfpZKmoEWiDUrQd00VMqYyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-qaeda-linked-fighters-storm-mali-prison-block-f_20260506_2023.html
-✓ Created comprehensive article: al-qaeda-linked-fighters-storm-mali-prison-block-f_20260506_2023.html
+Successfully created file: spacex-backs-anthropic-with-data-centre-deal-amids_20260506_2158.html
+✓ Created comprehensive article: spacex-backs-anthropic-with-data-centre-deal-amids_20260506_2158.html
 
-Processing trending topic: Infected passengers evacuated from hantavirus cruise ship
-Searching Google for: Infected passengers evacuated from hantavirus cruise ship
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInfected%252Bpassengers%252Bevacuated%252Bfrom%252Bhantavirus%252Bcruise%252Bship%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU7GQGGNbG7s8GIjDLQ8-Za-sCms_TyPZ1oG0lVvZ-G5yc5qdgFZWHn9RGZDQDVDE8xj2BuN1hi-65S48yBmpjbmRyUloBQw
+Processing trending topic: Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal
+Searching Google for: Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhad%252B%25E2%2580%2598very%252Bgood%252Btalks%25E2%2580%2599%252Bwith%252BIran%252Bas%252BTehran%252Breviews%252BUS%252Bproposal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq33cGKXz7s8GIjBZy2MP8dJpROMKrQ_8hlMVEFquKBJCYrSIireIDx4lRqDmNnnR8gkNRAQzDGqvvScyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: infected-passengers-evacuated-from-hantavirus-crui_20260506_2023.html
-✓ Created comprehensive article: infected-passengers-evacuated-from-hantavirus-crui_20260506_2023.html
+Successfully created file: trump-says-had-very-good-talks-with-iran-as-tehran_20260506_2159.html
+✓ Created comprehensive article: trump-says-had-very-good-talks-with-iran-as-tehran_20260506_2159.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: syria-says-it-dismantled-hezbollah-linked-cell-plo_20260506_0828.html
-Cleaned old post to keep top 30 limit: the-anti-semitism-smear-that-ruined-corbyns-labour_20260506_1820.html
-Cleaned old post to keep top 30 limit: israel-bombs-beiruts-southern-suburb-as-it-targets_20260506_1820.html
+Cleaned old post to keep top 30 limit: infected-passengers-evacuated-from-hantavirus-crui_20260506_2023.html
+Cleaned old post to keep top 30 limit: trumps-hopes-for-an-iran-peace-deal-come-with-cave_20260506_1820.html
+Cleaned old post to keep top 30 limit: al-qaeda-linked-fighters-storm-mali-prison-block-f_20260506_2023.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two Britons self-isolating in UK after leaving hantavirus cruise ship early
+   • Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • Al-Qaeda-linked fighters storm Mali prison, block food supplies to Bamako
+   • SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit
      Sources: bbc.com, cnn.com, reuters.com
-   • Infected passengers evacuated from hantavirus cruise ship
+   • Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal
      Sources: bbc.com, cnn.com, reuters.com
