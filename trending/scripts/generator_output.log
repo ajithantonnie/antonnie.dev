@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Cruise ship with hantavirus outbreak to sail to Canary Islands
+  Added: Airlines cut 13,000 flights in May as jet fuel prices soar
   Added: BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syria says it dismantled Hezbollah-linked cell plotting assassinations
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US must not insult IRGC during the World Cup: Iran’s football chief
-Added expanded search topic: Syria says it dismantled Hezbollah-linked cell plotting assassinations
-Added expanded search topic: US must not insult IRGC during the World Cup: Iran’s football chief
-Saved 9 topics for 2026-05-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saudi Arabia posts $33.5bn budget deficit amid drop in oil sales
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli attacks on southern, eastern Lebanon kill at least six people
+Added expanded search topic: Saudi Arabia posts $33.5bn budget deficit amid drop in oil sales
+Added expanded search topic: Israeli attacks on southern, eastern Lebanon kill at least six people
+Saved 12 topics for 2026-05-06
 Returning 3 unique trending topics:
-  1. BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon (from BBC News)
-  2. Syria says it dismantled Hezbollah-linked cell plotting assassinations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US must not insult IRGC during the World Cup: Iran’s football chief (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Airlines cut 13,000 flights in May as jet fuel prices soar (from BBC News)
+  2. Saudi Arabia posts $33.5bn budget deficit amid drop in oil sales (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli attacks on southern, eastern Lebanon kill at least six people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon
-Searching Google for: BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBBC%252Btraces%252Bhow%252B10%252Bminutes%252Bof%252BIsraeli%252Bbombing%252Bbrought%252Bdevastation%252Bto%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKK6GLb3688GIjBW-vBTzbxcDGfTEtXG0TTe27Dqabxv2VJgBq6q0Oi4LU_6Ck-MJzWVh-JjAefZSQoyBmpjbmRyUloBQw
+Processing trending topic: Airlines cut 13,000 flights in May as jet fuel prices soar
+Searching Google for: Airlines cut 13,000 flights in May as jet fuel prices soar
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAirlines%252Bcut%252B13%252C000%252Bflights%252Bin%252BMay%252Bas%252Bjet%252Bfuel%252Bprices%252Bsoar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGMvC7M8GIjBQ04iSTdPcACYBT2CayaT-t6G0M5M03WjzNwAJye0I2CZ9pgZKZydvri1VHFO9k2IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bbc-traces-how-10-minutes-of-israeli-bombing-broug_20260506_0828.html
-✓ Created comprehensive article: bbc-traces-how-10-minutes-of-israeli-bombing-broug_20260506_0828.html
+Successfully created file: airlines-cut-13000-flights-in-may-as-jet-fuel-pric_20260506_1109.html
+✓ Created comprehensive article: airlines-cut-13000-flights-in-may-as-jet-fuel-pric_20260506_1109.html
 
-Processing trending topic: Syria says it dismantled Hezbollah-linked cell plotting assassinations
-Searching Google for: Syria says it dismantled Hezbollah-linked cell plotting assassinations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyria%252Bsays%252Bit%252Bdismantled%252BHezbollah-linked%252Bcell%252Bplotting%252Bassassinations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKK6GL33688GIjDI5daHoF_ST_63LYlIUgG3BB6cMK56JQU9uRyBC9sOHLSpHMDWPT-sW0m32CZawlEyBmpjbmRyUloBQw
+Processing trending topic: Saudi Arabia posts $33.5bn budget deficit amid drop in oil sales
+Searching Google for: Saudi Arabia posts $33.5bn budget deficit amid drop in oil sales
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi%252BArabia%252Bposts%252B%252433.5bn%252Bbudget%252Bdeficit%252Bamid%252Bdrop%252Bin%252Boil%252Bsales%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGNLC7M8GIjDU5zyM1h3RwsQMI_EuE_BgDLpiUhKnrOjnbX1as4SY-4HZb4L1BCs3KNYz0t8eeygyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: syria-says-it-dismantled-hezbollah-linked-cell-plo_20260506_0828.html
-✓ Created comprehensive article: syria-says-it-dismantled-hezbollah-linked-cell-plo_20260506_0828.html
+Successfully created file: saudi-arabia-posts-335bn-budget-deficit-amid-drop-_20260506_1109.html
+✓ Created comprehensive article: saudi-arabia-posts-335bn-budget-deficit-amid-drop-_20260506_1109.html
 
-Processing trending topic: US must not insult IRGC during the World Cup: Iran’s football chief
-Searching Google for: US must not insult IRGC during the World Cup: Iran’s football chief
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmust%252Bnot%252Binsult%252BIRGC%252Bduring%252Bthe%252BWorld%252BCup%253A%252BIran%25E2%2580%2599s%252Bfootball%252Bchief%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKK6GMT3688GIjCpdwYqfNaS5_k2oRqNLvpWhVxITkHd5rZ8jLZaSB5OUyG7glTxavtgr6p2AYkSefgyBmpjbmRyUloBQw
+Processing trending topic: Israeli attacks on southern, eastern Lebanon kill at least six people
+Searching Google for: Israeli attacks on southern, eastern Lebanon kill at least six people
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Battacks%252Bon%252Bsouthern%252C%252Beastern%252BLebanon%252Bkill%252Bat%252Bleast%252Bsix%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_WjGNjC7M8GIjDkv3D6acUAlQL37ZKSbDPYA2Et2q82UuwxV6Wn0kS5lUv8CdT5vlj0aeaSa7yxcUgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-must-not-insult-irgc-during-the-world-cup-irans_20260506_0828.html
-✓ Created comprehensive article: us-must-not-insult-irgc-during-the-world-cup-irans_20260506_0828.html
+Successfully created file: israeli-attacks-on-southern-eastern-lebanon-kill-a_20260506_1109.html
+✓ Created comprehensive article: israeli-attacks-on-southern-eastern-lebanon-kill-a_20260506_1109.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-to-know-about-israeli-president-herzogs-trip-_20260506_0559.html
-Cleaned old post to keep top 30 limit: us-president-trump-restarts-pope-feud-ahead-of-rub_20260506_0559.html
-Cleaned old post to keep top 30 limit: centcom-safe-path-through-hormuz-is-us-priority-in_20260505_2202.html
+Cleaned old post to keep top 30 limit: trump-says-us-to-pause-operation-to-guide-vessels-_20260506_0243.html
+Cleaned old post to keep top 30 limit: us-must-not-insult-irgc-during-the-world-cup-irans_20260506_0828.html
+Cleaned old post to keep top 30 limit: bbc-traces-how-10-minutes-of-israeli-bombing-broug_20260506_0828.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon
+   • Airlines cut 13,000 flights in May as jet fuel prices soar
      Sources: bbc.com, cnn.com, reuters.com
-   • Syria says it dismantled Hezbollah-linked cell plotting assassinations
+   • Saudi Arabia posts $33.5bn budget deficit amid drop in oil sales
      Sources: bbc.com, cnn.com, reuters.com
-   • US must not insult IRGC during the World Cup: Iran’s football chief
+   • Israeli attacks on southern, eastern Lebanon kill at least six people
      Sources: bbc.com, cnn.com, reuters.com
