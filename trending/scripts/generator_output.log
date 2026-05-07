@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two Britons self-isolating in UK after leaving hantavirus cruise ship early
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strikes kill five Palestinians across Gaza in one day
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s behind the secessionist movement in the Canadian province Alberta?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel bombs Beirut’s southern suburbs
-Added expanded search topic: Israeli strikes kill five Palestinians across Gaza in one day
-Added expanded search topic: What’s behind the secessionist movement in the Canadian province Alberta?
-Added expanded search topic: Israel bombs Beirut’s southern suburbs
-Saved 33 topics for 2026-05-06
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-05-07
 Returning 3 unique trending topics:
-  1. Israeli strikes kill five Palestinians across Gaza in one day (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. What’s behind the secessionist movement in the Canadian province Alberta? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israel bombs Beirut’s southern suburbs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Two Britons self-isolating in UK after leaving hantavirus cruise ship early (from BBC News)
+  2. What is hantavirus and how does it spread? Key questions after outbreak (from BBC News)
+  3. British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship (from The Guardian)
 
-Processing trending topic: Israeli strikes kill five Palestinians across Gaza in one day
-Searching Google for: Israeli strikes kill five Palestinians across Gaza in one day
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrikes%252Bkill%252Bfive%252BPalestinians%252Bacross%252BGaza%252Bin%252Bone%252Bday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhAGIGp788GIjCcNDciKR4eWf53UpkJDe9Bn4AxXBbrVERgdrG5YXUcuDAkiY0HSg67gNjl9cqTof0yBmpjbmRyUloBQw
+Processing trending topic: Two Britons self-isolating in UK after leaving hantavirus cruise ship early
+Searching Google for: Two Britons self-isolating in UK after leaving hantavirus cruise ship early
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BBritons%252Bself-isolating%252Bin%252BUK%252Bafter%252Bleaving%252Bhantavirus%252Bcruise%252Bship%252Bearly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnRxGL75788GIjCRkXQLvYxlEJ0Q03zy0Cd9vYf2-SPjcjS4UUNrg-nZgcsGoFhgEQZYu_c3Ya5zZ9EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-strikes-kill-five-palestinians-across-gaza_20260506_2353.html
-✓ Created comprehensive article: israeli-strikes-kill-five-palestinians-across-gaza_20260506_2353.html
+Successfully created file: two-britons-self-isolating-in-uk-after-leaving-han_20260507_0245.html
+✓ Created comprehensive article: two-britons-self-isolating-in-uk-after-leaving-han_20260507_0245.html
 
-Processing trending topic: What’s behind the secessionist movement in the Canadian province Alberta?
-Searching Google for: What’s behind the secessionist movement in the Canadian province Alberta?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bbehind%252Bthe%252Bsecessionist%252Bmovement%252Bin%252Bthe%252BCanadian%252Bprovince%252BAlberta%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhAGIep788GIjAmkfyH8n-ohK8Sihza5mNo0axqJnuBRX8Q2et-y4fZVAPdxdzHEUB_seQjKkcYnfAyBmpjbmRyUloBQw
+Processing trending topic: What is hantavirus and how does it spread? Key questions after outbreak
+Searching Google for: What is hantavirus and how does it spread? Key questions after outbreak
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bis%252Bhantavirus%252Band%252Bhow%252Bdoes%252Bit%252Bspread%253F%252BKey%252Bquestions%252Bafter%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnRxGMX5788GIjDUs_MABGbj8IBCUhfty4kONU0p_crOGxzw6yt6zIYQmLrXKhz6Jx7mHqKU16GRilsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-behind-the-secessionist-movement-in-the-cana_20260506_2353.html
-✓ Created comprehensive article: whats-behind-the-secessionist-movement-in-the-cana_20260506_2353.html
+Successfully created file: what-is-hantavirus-and-how-does-it-spread-key-ques_20260507_0245.html
+✓ Created comprehensive article: what-is-hantavirus-and-how-does-it-spread-key-ques_20260507_0245.html
 
-Processing trending topic: Israel bombs Beirut’s southern suburbs
-Searching Google for: Israel bombs Beirut’s southern suburbs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bbombs%252BBeirut%25E2%2580%2599s%252Bsouthern%252Bsuburbs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhAGI6p788GIjDL3pD-GmXcv_Z9oqoR1A0CTWivunNy3sHRbN3sbGanm1n61riWUA1m_yYbE3wZr6cyBmpjbmRyUloBQw
+Processing trending topic: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
+Searching Google for: British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bcrew%252Bmember%252Bin%252Bneed%252Bof%252Burgent%252Bmedical%252Bcare%252Bamid%252Bsuspected%252Bhantavirus%252Boutbreak%252Bon%252Bcruise%252Bship%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnRxGMv5788GIjDWUC0h3NEm1tDsUKN4s4nnkH44AeotP5iQKSdo53wnMcTjBP7kw5K9JusryPY0YFgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-bombs-beiruts-southern-suburbs_20260506_2353.html
-✓ Created comprehensive article: israel-bombs-beiruts-southern-suburbs_20260506_2353.html
+Successfully created file: british-crew-member-in-need-of-urgent-medical-care_20260507_0245.html
+✓ Created comprehensive article: british-crew-member-in-need-of-urgent-medical-care_20260507_0245.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: holders-psg-beat-bayern-munich-to-reach-champions-_20260506_2254.html
-Cleaned old post to keep top 30 limit: in-rare-push-us-lawmakers-demand-transparency-on-i_20260506_2254.html
-Cleaned old post to keep top 30 limit: argentina-investigates-link-to-deadly-hantavirus-o_20260506_2254.html
+Cleaned old post to keep top 30 limit: uk-convicts-four-palestine-action-activists-over-b_20260505_1815.html
+Cleaned old post to keep top 30 limit: whats-behind-the-secessionist-movement-in-the-cana_20260506_2353.html
+Cleaned old post to keep top 30 limit: israel-bombs-beiruts-southern-suburbs_20260506_2353.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israeli strikes kill five Palestinians across Gaza in one day
+   • Two Britons self-isolating in UK after leaving hantavirus cruise ship early
      Sources: bbc.com, cnn.com, reuters.com
-   • What’s behind the secessionist movement in the Canadian province Alberta?
+   • What is hantavirus and how does it spread? Key questions after outbreak
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel bombs Beirut’s southern suburbs
+   • British crew member in need of urgent medical care amid suspected hantavirus outbreak on cruise ship
      Sources: bbc.com, cnn.com, reuters.com
