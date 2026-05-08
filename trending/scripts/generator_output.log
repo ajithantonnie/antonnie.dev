@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Chris Mason: What the results tell us so far
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia, Ukraine trade fire, blame despite Victory Day ceasefire
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indonesia volcano kills three as search for 20 missing hikers under way
-Added expanded search topic: Russia, Ukraine trade fire, blame despite Victory Day ceasefire
-Added expanded search topic: Indonesia volcano kills three as search for 20 missing hikers under way
-Saved 12 topics for 2026-05-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US, Iran clash in Hormuz as war escalates: What happened, why it matters
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK identifies new suspected hantavirus case on remote island
+Added expanded search topic: FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ
+Added expanded search topic: US, Iran clash in Hormuz as war escalates: What happened, why it matters
+Added expanded search topic: UK identifies new suspected hantavirus case on remote island
+Saved 15 topics for 2026-05-08
 Returning 3 unique trending topics:
-  1. What early election results show us in maps and charts (from BBC News)
-  2. Russia, Ukraine trade fire, blame despite Victory Day ceasefire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Indonesia volcano kills three as search for 20 missing hikers under way (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US, Iran clash in Hormuz as war escalates: What happened, why it matters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UK identifies new suspected hantavirus case on remote island (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What early election results show us in maps and charts
-Searching Google for: What early election results show us in maps and charts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bearly%252Belection%252Bresults%252Bshow%252Bus%252Bin%252Bmaps%252Band%252Bcharts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NzwGO679s8GIjC8ve36GWKRh6lCs6jDNxtlkqBI7i4FpDhBXRpAhFl3uc7p1C0RPWD6EyI-DgsvdZAyBmpjbmRyUloBQw
+Processing trending topic: FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ
+Searching Google for: FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFBI%25E2%2580%2599s%252Black%252Bof%252Bprogress%252Bon%252BIsraeli%252Bkilling%252Bof%252Bjournalist%252B%25E2%2580%2598troubling%25E2%2580%2599%253A%252BCPJ%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i3yGN_09s8GIjDsvipOvVuLLILElVnrOZzt7vN8VJPQcuRp2k68EnHM6uo3VzHBMqy_A8yhTQxUJiAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-early-election-results-show-us-in-maps-and-ch_20260508_0825.html
-✓ Created comprehensive article: what-early-election-results-show-us-in-maps-and-ch_20260508_0825.html
+Successfully created file: fbis-lack-of-progress-on-israeli-killing-of-journa_20260508_1026.html
+✓ Created comprehensive article: fbis-lack-of-progress-on-israeli-killing-of-journa_20260508_1026.html
 
-Processing trending topic: Russia, Ukraine trade fire, blame despite Victory Day ceasefire
-Searching Google for: Russia, Ukraine trade fire, blame despite Victory Day ceasefire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252C%252BUkraine%252Btrade%252Bfire%252C%252Bblame%252Bdespite%252BVictory%252BDay%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NzwGPW79s8GIjDaai4yQYmT5YHvcwHEPLZphkXj-xS4kAy5YFn0wlgnM42cIuZm19lvDrIvKQoviDcyBmpjbmRyUloBQw
+Processing trending topic: US, Iran clash in Hormuz as war escalates: What happened, why it matters
+Searching Google for: US, Iran clash in Hormuz as war escalates: What happened, why it matters
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252C%252BIran%252Bclash%252Bin%252BHormuz%252Bas%252Bwar%252Bescalates%253A%252BWhat%252Bhappened%252C%252Bwhy%252Bit%252Bmatters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i3yGOb09s8GIjAkHWRL_GxBk0kjhhG41OIJaR00IABToaQQkJ8PxWUpnUiyjXMPS0RcSctA90lrFQ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-ukraine-trade-fire-blame-despite-victory-da_20260508_0825.html
-✓ Created comprehensive article: russia-ukraine-trade-fire-blame-despite-victory-da_20260508_0825.html
+Successfully created file: us-iran-clash-in-hormuz-as-war-escalates-what-happ_20260508_1026.html
+✓ Created comprehensive article: us-iran-clash-in-hormuz-as-war-escalates-what-happ_20260508_1026.html
 
-Processing trending topic: Indonesia volcano kills three as search for 20 missing hikers under way
-Searching Google for: Indonesia volcano kills three as search for 20 missing hikers under way
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndonesia%252Bvolcano%252Bkills%252Bthree%252Bas%252Bsearch%252Bfor%252B20%252Bmissing%252Bhikers%252Bunder%252Bway%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NzwGPy79s8GIjB5LMIu3R0uK1SfmL4sWZvf9SKyiKcH1c9ItYyiqmzPv5_mQkRjHVA8gsw0I76k1C4yBmpjbmRyUloBQw
+Processing trending topic: UK identifies new suspected hantavirus case on remote island
+Searching Google for: UK identifies new suspected hantavirus case on remote island
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bidentifies%252Bnew%252Bsuspected%252Bhantavirus%252Bcase%252Bon%252Bremote%252Bisland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i3yGOz09s8GIjBaJzl9nfCNog57WoMaSkpde8DpqufcGT1kxLUVBkv_ui0FHDd830QDhfZvXzz1fkYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: indonesia-volcano-kills-three-as-search-for-20-mis_20260508_0825.html
-✓ Created comprehensive article: indonesia-volcano-kills-three-as-search-for-20-mis_20260508_0825.html
+Successfully created file: uk-identifies-new-suspected-hantavirus-case-on-rem_20260508_1026.html
+✓ Created comprehensive article: uk-identifies-new-suspected-hantavirus-case-on-rem_20260508_1026.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: oil-prices-jump-as-us-iran-trade-fire-in-strait-of_20260508_0418.html
-Cleaned old post to keep top 30 limit: election-results-at-a-glance-and-whats-still-to-co_20260508_0655.html
-Cleaned old post to keep top 30 limit: chris-mason-what-the-results-tell-us-so-far_20260508_0655.html
+Cleaned old post to keep top 30 limit: russia-ukraine-trade-fire-blame-despite-victory-da_20260508_0825.html
+Cleaned old post to keep top 30 limit: this-is-my-last-voice-note-how-piracy-returned-to-_20260507_2015.html
+Cleaned old post to keep top 30 limit: indonesia-volcano-kills-three-as-search-for-20-mis_20260508_0825.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What early election results show us in maps and charts
+   • FBI’s lack of progress on Israeli killing of journalist ‘troubling’: CPJ
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia, Ukraine trade fire, blame despite Victory Day ceasefire
+   • US, Iran clash in Hormuz as war escalates: What happened, why it matters
      Sources: bbc.com, cnn.com, reuters.com
-   • Indonesia volcano kills three as search for 20 missing hikers under way
+   • UK identifies new suspected hantavirus case on remote island
      Sources: bbc.com, cnn.com, reuters.com
