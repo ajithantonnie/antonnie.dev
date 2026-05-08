@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Election results so far at a glance - and what's still to come
   Added: When will we know the results for the England, Scotland and Wales elections?
-  Added: Labour expected to lose Senedd after century of winning elections in Wales
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-08
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Oil prices jump as US, Iran trade fire in Strait of Hormuz
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Palestinian shot dead hours before his son was born
+Added expanded search topic: Oil prices jump as US, Iran trade fire in Strait of Hormuz
+Added expanded search topic: The Palestinian shot dead hours before his son was born
+Saved 6 topics for 2026-05-08
 Returning 3 unique trending topics:
-  1. When will we know the results for the England, Scotland and Wales elections? (from BBC News)
-  2. Labour expected to lose Senedd after century of winning elections in Wales (from BBC News)
-  3. Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital (from The Guardian)
+  1. Election results so far at a glance - and what's still to come (from BBC News)
+  2. Oil prices jump as US, Iran trade fire in Strait of Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. The Palestinian shot dead hours before his son was born (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: When will we know the results for the England, Scotland and Wales elections?
-Searching Google for: When will we know the results for the England, Scotland and Wales elections?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhen%252Bwill%252Bwe%252Bknow%252Bthe%252Bresults%252Bfor%252Bthe%252BEngland%252C%252BScotland%252Band%252BWales%252Belections%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgiGIPS9M8GIjA8riqJIUT6Ik9_5cT2Dp1ryhluLcTLxaiCSS4CqLZDic7rF1h9U3E7e10Thlnk5TAyBmpjbmRyUloBQw
+Processing trending topic: Election results so far at a glance - and what's still to come
+Searching Google for: Election results so far at a glance - and what's still to come
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DElection%252Bresults%252Bso%252Bfar%252Bat%252Ba%252Bglance%252B-%252Band%252Bwhat%2527s%252Bstill%252Bto%252Bcome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-TGIDI9c8GIjA615W8fbvsEmN5-hhLTFe2Bb0wOscJR-cE8EKm1qkktxE0vco6nL9DYlYG2PPSRc8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: when-will-we-know-the-results-for-the-england-scot_20260508_0006.html
-✓ Created comprehensive article: when-will-we-know-the-results-for-the-england-scot_20260508_0006.html
+Successfully created file: election-results-so-far-at-a-glance-and-whats-stil_20260508_0418.html
+✓ Created comprehensive article: election-results-so-far-at-a-glance-and-whats-stil_20260508_0418.html
 
-Processing trending topic: Labour expected to lose Senedd after century of winning elections in Wales
-Searching Google for: Labour expected to lose Senedd after century of winning elections in Wales
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLabour%252Bexpected%252Bto%252Blose%252BSenedd%252Bafter%252Bcentury%252Bof%252Bwinning%252Belections%252Bin%252BWales%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgiGIrS9M8GIjCZqxEJuatUqv6_X7GrvL-dyHVf6uMJZJsYFQbE3Qd6sYH9eoFw0T3PILPeqqPfzDwyBmpjbmRyUloBQw
+Processing trending topic: Oil prices jump as US, Iran trade fire in Strait of Hormuz
+Searching Google for: Oil prices jump as US, Iran trade fire in Strait of Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252Bprices%252Bjump%252Bas%252BUS%252C%252BIran%252Btrade%252Bfire%252Bin%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-TGIfI9c8GIjC-MKbgi62-t4FT2knTc6N7zbRjQU2pN2MdLBnHmQa1IeZK2pnb7Jb8QG1utWPi5eAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: labour-expected-to-lose-senedd-after-century-of-wi_20260508_0006.html
-✓ Created comprehensive article: labour-expected-to-lose-senedd-after-century-of-wi_20260508_0006.html
+Successfully created file: oil-prices-jump-as-us-iran-trade-fire-in-strait-of_20260508_0418.html
+✓ Created comprehensive article: oil-prices-jump-as-us-iran-trade-fire-in-strait-of_20260508_0418.html
 
-Processing trending topic: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Searching Google for: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BBritons%252Bevacuated%252Bfrom%252Bhantavirus-hit%252Bship%252B%25E2%2580%2598improving%25E2%2580%2599%252Bin%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgiGJHS9M8GIjCgX83meYMZwI9_hKJQ8Gf3IWuqhPkoGeG7p5-fTojkH3eIWGST0CCfFM_S1FiXDB0yBmpjbmRyUloBQw
+Processing trending topic: The Palestinian shot dead hours before his son was born
+Searching Google for: The Palestinian shot dead hours before his son was born
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BPalestinian%252Bshot%252Bdead%252Bhours%252Bbefore%252Bhis%252Bson%252Bwas%252Bborn%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-TGI3I9c8GIjCvr4JUpkrTWJACzbEJ3x9SHTWKu36sR8ffpT_deF8Cg-9BLJ4GLJPG6kr0rtRxRvIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-britons-evacuated-from-hantavirus-hit-ship-imp_20260508_0006.html
-✓ Created comprehensive article: two-britons-evacuated-from-hantavirus-hit-ship-imp_20260508_0006.html
+Successfully created file: the-palestinian-shot-dead-hours-before-his-son-was_20260508_0418.html
+✓ Created comprehensive article: the-palestinian-shot-dead-hours-before-his-son-was_20260508_0418.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: videos-show-interceptions-over-the-skies-of-tehran_20260507_2303.html
-Cleaned old post to keep top 30 limit: real-madrids-valverde-hospitalised-with-head-injur_20260507_2303.html
-Cleaned old post to keep top 30 limit: barcelona-vs-real-madrid-el-clasico-la-liga-histor_20260507_2303.html
+Cleaned old post to keep top 30 limit: when-will-we-know-the-results-for-the-england-scot_20260508_0006.html
+Cleaned old post to keep top 30 limit: two-britons-evacuated-from-hantavirus-hit-ship-imp_20260508_0006.html
+Cleaned old post to keep top 30 limit: labour-expected-to-lose-senedd-after-century-of-wi_20260508_0006.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • When will we know the results for the England, Scotland and Wales elections?
+   • Election results so far at a glance - and what's still to come
      Sources: bbc.com, cnn.com, reuters.com
-   • Labour expected to lose Senedd after century of winning elections in Wales
+   • Oil prices jump as US, Iran trade fire in Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
+   • The Palestinian shot dead hours before his son was born
      Sources: bbc.com, cnn.com, reuters.com
