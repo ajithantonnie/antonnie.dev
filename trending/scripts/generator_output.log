@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PM turns to old Labour hands after election losses but some MPs left baffled
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Watching us is like watching a cousin’: the online creators reshaping Africa’s news ecosphere
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel to release two detained Gaza flotilla activists
-Added expanded search topic: Israel to release two detained Gaza flotilla activists
-Saved 24 topics for 2026-05-09
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians run West Bank freedom marathon along separation wall
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: One dead in US after being struck by taking off Frontier Airlines plane
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bahrain rounds up dozens over alleged links to Iran’s IRGC
+Added expanded search topic: Palestinians run West Bank freedom marathon along separation wall
+Added expanded search topic: One dead in US after being struck by taking off Frontier Airlines plane
+Added expanded search topic: Bahrain rounds up dozens over alleged links to Iran’s IRGC
+Saved 27 topics for 2026-05-09
 Returning 3 unique trending topics:
-  1. Labour MPs have put Starmer on notice after election battering. Can he turn it around? (from BBC News)
-  2. ‘Watching us is like watching a cousin’: the online creators reshaping Africa’s news ecosphere (from The Guardian)
-  3. Israel to release two detained Gaza flotilla activists (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Palestinians run West Bank freedom marathon along separation wall (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. One dead in US after being struck by taking off Frontier Airlines plane (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Bahrain rounds up dozens over alleged links to Iran’s IRGC (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Labour MPs have put Starmer on notice after election battering. Can he turn it around?
-Searching Google for: Labour MPs have put Starmer on notice after election battering. Can he turn it around?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLabour%252BMPs%252Bhave%252Bput%252BStarmer%252Bon%252Bnotice%252Bafter%252Belection%252Bbattering.%252BCan%252Bhe%252Bturn%252Bit%252Baround%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMiGIaU_c8GIjCN-d5JsJzRCpmhNe3naWrcTMJz7yfL-49mBsOMZSU9g5opnLSgz2y638_JORjnAsQyAnJSWgFD
+Processing trending topic: Palestinians run West Bank freedom marathon along separation wall
+Searching Google for: Palestinians run West Bank freedom marathon along separation wall
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Brun%252BWest%252BBank%252Bfreedom%252Bmarathon%252Balong%252Bseparation%252Bwall%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdUGKux_c8GIjDyUWLI_YSc_zxSajfBa0FwgCGVjHszykHHmvoVOEBg8HNF87llXj5mxUhfWGujPnYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: labour-mps-have-put-starmer-on-notice-after-electi_20260509_1451.html
-✓ Created comprehensive article: labour-mps-have-put-starmer-on-notice-after-electi_20260509_1451.html
+Successfully created file: palestinians-run-west-bank-freedom-marathon-along-_20260509_1554.html
+✓ Created comprehensive article: palestinians-run-west-bank-freedom-marathon-along-_20260509_1554.html
 
-Processing trending topic: ‘Watching us is like watching a cousin’: the online creators reshaping Africa’s news ecosphere
-Searching Google for: ‘Watching us is like watching a cousin’: the online creators reshaping Africa’s news ecosphere
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Watching%252Bus%252Bis%252Blike%252Bwatching%252Ba%252Bcousin%25E2%2580%2599%253A%252Bthe%252Bonline%252Bcreators%252Breshaping%252BAfrica%25E2%2580%2599s%252Bnews%252Becosphere%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMiGI2U_c8GIjDSmVej0PrPR06Wztg4MBGpcita4XxSpopyT2T2eKH1OpApV0bAsqAV1L0uSJdQSFcyAnJSWgFD
+Processing trending topic: One dead in US after being struck by taking off Frontier Airlines plane
+Searching Google for: One dead in US after being struck by taking off Frontier Airlines plane
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOne%252Bdead%252Bin%252BUS%252Bafter%252Bbeing%252Bstruck%252Bby%252Btaking%252Boff%252BFrontier%252BAirlines%252Bplane%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdUGLKx_c8GIjCDDb1S-19H54YienkiQmzqEExko4e9iM-u_-lZ8gS20UvGkGEU497K3BUlbtDe9NgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watching-us-is-like-watching-a-cousin-the-online-c_20260509_1452.html
-✓ Created comprehensive article: watching-us-is-like-watching-a-cousin-the-online-c_20260509_1452.html
+Successfully created file: one-dead-in-us-after-being-struck-by-taking-off-fr_20260509_1554.html
+✓ Created comprehensive article: one-dead-in-us-after-being-struck-by-taking-off-fr_20260509_1554.html
 
-Processing trending topic: Israel to release two detained Gaza flotilla activists
-Searching Google for: Israel to release two detained Gaza flotilla activists
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bto%252Brelease%252Btwo%252Bdetained%252BGaza%252Bflotilla%252Bactivists%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raMiGJOU_c8GIjCLBGY8Ck6vGvrohpjgiYPY_ERB2JRSd5arhjLlkzH3qGHKfltLVxVOvJ711dT12PUyAnJSWgFD
+Processing trending topic: Bahrain rounds up dozens over alleged links to Iran’s IRGC
+Searching Google for: Bahrain rounds up dozens over alleged links to Iran’s IRGC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBahrain%252Brounds%252Bup%252Bdozens%252Bover%252Balleged%252Blinks%252Bto%252BIran%25E2%2580%2599s%252BIRGC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdUGLmx_c8GIjDU43J6dTacfe3N_4spM5uHsv4vXPVOFyc42Pb3xHyP_ZClr_C4VZnB2-abY-W24GkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-to-release-two-detained-gaza-flotilla-activ_20260509_1452.html
-✓ Created comprehensive article: israel-to-release-two-detained-gaza-flotilla-activ_20260509_1452.html
+Successfully created file: bahrain-rounds-up-dozens-over-alleged-links-to-ira_20260509_1554.html
+✓ Created comprehensive article: bahrain-rounds-up-dozens-over-alleged-links-to-ira_20260509_1554.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: starmer-under-pressure-as-labour-suffers-heavy-ele_20260509_0004.html
-Cleaned old post to keep top 30 limit: iran-says-it-will-play-at-2026-world-cup-if-hosts-_20260509_1317.html
-Cleaned old post to keep top 30 limit: guardian-reporter-and-colleagues-detained-and-beat_20260509_1316.html
+Cleaned old post to keep top 30 limit: trump-says-hantavirus-is-under-control-as-who-trac_20260509_1317.html
+Cleaned old post to keep top 30 limit: labour-mps-have-put-starmer-on-notice-after-electi_20260509_1451.html
+Cleaned old post to keep top 30 limit: israel-to-release-two-detained-gaza-flotilla-activ_20260509_1452.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Labour MPs have put Starmer on notice after election battering. Can he turn it around?
+   • Palestinians run West Bank freedom marathon along separation wall
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Watching us is like watching a cousin’: the online creators reshaping Africa’s news ecosphere
+   • One dead in US after being struck by taking off Frontier Airlines plane
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel to release two detained Gaza flotilla activists
+   • Bahrain rounds up dozens over alleged links to Iran’s IRGC
      Sources: bbc.com, cnn.com, reuters.com
