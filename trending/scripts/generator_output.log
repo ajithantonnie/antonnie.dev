@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-09
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cambodians struggle with displaced lives amid tense ceasefire with Thailand
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pentagon releases video of strikes on Iranian oil tankers
+Added expanded search topic: Cambodians struggle with displaced lives amid tense ceasefire with Thailand
+Added expanded search topic: Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz
+Added expanded search topic: Pentagon releases video of strikes on Iranian oil tankers
+Saved 6 topics for 2026-05-09
 Returning 3 unique trending topics:
-  1. Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat (from BBC News)
-  2. Plaid Cymru ready to run Wales, leader says, after party wins Senedd vote (from BBC News)
-  3. Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital (from The Guardian)
+  1. Cambodians struggle with displaced lives amid tense ceasefire with Thailand (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Pentagon releases video of strikes on Iranian oil tankers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat
-Searching Google for: Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bunder%252Bpressure%252Bas%252BLabour%252Bsuffers%252Bheavy%252Belection%252Blosses%252Bincluding%252Bhistoric%252BWales%252Bdefeat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOTGPjz-c8GIjB-CyWwxd0y6cQQAtAbmZ9dLr_vkaG1dcodpS8n1sZDIvOHaIpIiD1Lf4N5LZEa1AIyBmpjbmRyUloBQw
+Processing trending topic: Cambodians struggle with displaced lives amid tense ceasefire with Thailand
+Searching Google for: Cambodians struggle with displaced lives amid tense ceasefire with Thailand
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCambodians%252Bstruggle%252Bwith%252Bdisplaced%252Blives%252Bamid%252Btense%252Bceasefire%252Bwith%252BThailand%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-7FGIXu-s8GIjDlOCtrjKjhVhKOoXJq3K3rw3Plyps1iZ77N1Yi7vkaFSFRDbtr18yps3bvcFXtBlEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-under-pressure-as-labour-suffers-heavy-ele_20260509_0004.html
-✓ Created comprehensive article: starmer-under-pressure-as-labour-suffers-heavy-ele_20260509_0004.html
+Successfully created file: cambodians-struggle-with-displaced-lives-amid-tens_20260509_0424.html
+✓ Created comprehensive article: cambodians-struggle-with-displaced-lives-amid-tens_20260509_0424.html
 
-Processing trending topic: Plaid Cymru ready to run Wales, leader says, after party wins Senedd vote
-Searching Google for: Plaid Cymru ready to run Wales, leader says, after party wins Senedd vote
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPlaid%252BCymru%252Bready%252Bto%252Brun%252BWales%252C%252Bleader%252Bsays%252C%252Bafter%252Bparty%252Bwins%252BSenedd%252Bvote%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOTGP_z-c8GIjC4KgLlUnQmELFFFQ0QnevYW35VYmJ70ZtEhyfeZjdHEh4c3RWp-HbeKogHX1MIkMEyBmpjbmRyUloBQw
+Processing trending topic: Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz
+Searching Google for: Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BUS%252Bexpects%252BTehran%25E2%2580%2599s%252Breply%252Bto%252Bpeace%252Bdeal%253B%252B%25E2%2580%2598clashes%25E2%2580%2599%252Bin%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-7FGIzu-s8GIjCvBPrLSmBhNP64tJZdODKGXNdNXNHyXRXD5X_FolnjPJoUedAyFw5zN_fHhAZ0vVcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: plaid-cymru-ready-to-run-wales-leader-says-after-p_20260509_0004.html
-✓ Created comprehensive article: plaid-cymru-ready-to-run-wales-leader-says-after-p_20260509_0004.html
+Successfully created file: iran-war-live-us-expects-tehrans-reply-to-peace-de_20260509_0424.html
+✓ Created comprehensive article: iran-war-live-us-expects-tehrans-reply-to-peace-de_20260509_0424.html
 
-Processing trending topic: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Searching Google for: Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BBritons%252Bevacuated%252Bfrom%252Bhantavirus-hit%252Bship%252B%25E2%2580%2598improving%25E2%2580%2599%252Bin%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOTGIb0-c8GIjCyYCfi4QHzL9HKtazv_ONVmXXXp9FsX7Xfp4N7TwZBoN6EYpJJtWGHsRwDty459dsyBmpjbmRyUloBQw
+Processing trending topic: Pentagon releases video of strikes on Iranian oil tankers
+Searching Google for: Pentagon releases video of strikes on Iranian oil tankers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPentagon%252Breleases%252Bvideo%252Bof%252Bstrikes%252Bon%252BIranian%252Boil%252Btankers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-7FGJLu-s8GIjCXSo3GhvklZHUktgJCTJX-UTIHrRfzWCdObpPbh85EFHSxKA7VVRtpr4xW51RU9FAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-britons-evacuated-from-hantavirus-hit-ship-imp_20260509_0004.html
-✓ Created comprehensive article: two-britons-evacuated-from-hantavirus-hit-ship-imp_20260509_0004.html
+Successfully created file: pentagon-releases-video-of-strikes-on-iranian-oil-_20260509_0424.html
+✓ Created comprehensive article: pentagon-releases-video-of-strikes-on-iranian-oil-_20260509_0424.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: olympic-water-polo-resignations-cite-lack-of-respe_20260508_1812.html
-Cleaned old post to keep top 30 limit: pentagon-releases-video-of-strikes-on-iranian-oil-_20260508_2302.html
-Cleaned old post to keep top 30 limit: celebrated-naturalist-david-attenborough-marks-100_20260508_2303.html
+Cleaned old post to keep top 30 limit: two-britons-evacuated-from-hantavirus-hit-ship-imp_20260509_0004.html
+Cleaned old post to keep top 30 limit: plaid-cymru-ready-to-run-wales-leader-says-after-p_20260509_0004.html
+Cleaned old post to keep top 30 limit: in-the-days-of-old-the-world-was-safe-west-bank-fa_20260508_1454.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer under pressure as Labour suffers heavy election losses including historic Wales defeat
+   • Cambodians struggle with displaced lives amid tense ceasefire with Thailand
      Sources: bbc.com, cnn.com, reuters.com
-   • Plaid Cymru ready to run Wales, leader says, after party wins Senedd vote
+   • Iran war live: US expects Tehran’s reply to peace deal; ‘clashes’ in Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Two Britons evacuated from hantavirus-hit ship ‘improving’ in hospital
+   • Pentagon releases video of strikes on Iranian oil tankers
      Sources: bbc.com, cnn.com, reuters.com
