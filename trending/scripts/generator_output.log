@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Is Starmer's leadership under serious threat?
-  Added: Spain starts evacuating virus-hit cruise ship in Tenerife
+  Added: Army parachutes onto remote island to help Briton with suspected hantavirus
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rebel fighters kill at least 69 people in northeastern DR Congo
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: JNIM and Tuareg fighters join forces
-Added expanded search topic: Rebel fighters kill at least 69 people in northeastern DR Congo
-Added expanded search topic: JNIM and Tuareg fighters join forces
-Saved 9 topics for 2026-05-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: AFC Asian Cup 2027: Japan to face defending champions Qatar in tough draw
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: OKC Thunder bury LA Lakers to take 3-0 NBA Playoff series lead
+Added expanded search topic: AFC Asian Cup 2027: Japan to face defending champions Qatar in tough draw
+Added expanded search topic: OKC Thunder bury LA Lakers to take 3-0 NBA Playoff series lead
+Saved 12 topics for 2026-05-10
 Returning 3 unique trending topics:
-  1. Spain starts evacuating virus-hit cruise ship in Tenerife (from BBC News)
-  2. Rebel fighters kill at least 69 people in northeastern DR Congo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. JNIM and Tuareg fighters join forces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Army parachutes onto remote island to help Briton with suspected hantavirus (from BBC News)
+  2. AFC Asian Cup 2027: Japan to face defending champions Qatar in tough draw (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. OKC Thunder bury LA Lakers to take 3-0 NBA Playoff series lead (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Spain starts evacuating virus-hit cruise ship in Tenerife
-Searching Google for: Spain starts evacuating virus-hit cruise ship in Tenerife
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bstarts%252Bevacuating%252Bvirus-hit%252Bcruise%252Bship%252Bin%252BTenerife%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNxGKeQgdAGIjA2CZE4Oj71Bu1qo9xME0V28ZLdYs_zVDDcdZvLPkye6fdJeGUjOI8fiKAWsp9XlS8yBmpjbmRyUloBQw
+Processing trending topic: Army parachutes onto remote island to help Briton with suspected hantavirus
+Searching Google for: Army parachutes onto remote island to help Briton with suspected hantavirus
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArmy%252Bparachutes%252Bonto%252Bremote%252Bisland%252Bto%252Bhelp%252BBriton%252Bwith%252Bsuspected%252Bhantavirus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfYGPK1gdAGIjBTc4M4bw_vJnMJqBqHytagB3AEYzrnw-nJW_pyuFMB6RNqjfa5KpijbE7EvojfSJ0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-starts-evacuating-virus-hit-cruise-ship-in-t_20260510_0856.html
-✓ Created comprehensive article: spain-starts-evacuating-virus-hit-cruise-ship-in-t_20260510_0856.html
+Successfully created file: army-parachutes-onto-remote-island-to-help-briton-_20260510_1016.html
+✓ Created comprehensive article: army-parachutes-onto-remote-island-to-help-briton-_20260510_1016.html
 
-Processing trending topic: Rebel fighters kill at least 69 people in northeastern DR Congo
-Searching Google for: Rebel fighters kill at least 69 people in northeastern DR Congo
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRebel%252Bfighters%252Bkill%252Bat%252Bleast%252B69%252Bpeople%252Bin%252Bnortheastern%252BDR%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNxGK6QgdAGIjAiu1_hjyR82P6dhIGKgYH1PpKHQH-G5TeJ4tMJRmPena2T5_52CcPAaNncwaAHEM0yBmpjbmRyUloBQw
+Processing trending topic: AFC Asian Cup 2027: Japan to face defending champions Qatar in tough draw
+Searching Google for: AFC Asian Cup 2027: Japan to face defending champions Qatar in tough draw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAFC%252BAsian%252BCup%252B2027%253A%252BJapan%252Bto%252Bface%252Bdefending%252Bchampions%252BQatar%252Bin%252Btough%252Bdraw%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfYGPm1gdAGIjD-TH9zL5NqaX0w-ydkVBriMOpahW8hSAZrwIm4vXuPN3EbMKJwf8jKgo63vTcSf5QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rebel-fighters-kill-at-least-69-people-in-northeas_20260510_0856.html
-✓ Created comprehensive article: rebel-fighters-kill-at-least-69-people-in-northeas_20260510_0856.html
+Successfully created file: afc-asian-cup-2027-japan-to-face-defending-champio_20260510_1016.html
+✓ Created comprehensive article: afc-asian-cup-2027-japan-to-face-defending-champio_20260510_1016.html
 
-Processing trending topic: JNIM and Tuareg fighters join forces
-Searching Google for: JNIM and Tuareg fighters join forces
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJNIM%252Band%252BTuareg%252Bfighters%252Bjoin%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNxGLSQgdAGIjCNBF2mKzZw1JIU64z3mf-5-9Fadv2KENZQ7A8CrzvkkVLxjZSc4nvrevbHZr8GD_IyBmpjbmRyUloBQw
+Processing trending topic: OKC Thunder bury LA Lakers to take 3-0 NBA Playoff series lead
+Searching Google for: OKC Thunder bury LA Lakers to take 3-0 NBA Playoff series lead
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOKC%252BThunder%252Bbury%252BLA%252BLakers%252Bto%252Btake%252B3-0%252BNBA%252BPlayoff%252Bseries%252Blead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfYGP-1gdAGIjDH9hCAprYd5kQSQCVbq3AGHwvPaFvC1f1jYKYayKUQe0JhD4wTp-uUFleWXnQF0OkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jnim-and-tuareg-fighters-join-forces_20260510_0856.html
-✓ Created comprehensive article: jnim-and-tuareg-fighters-join-forces_20260510_0856.html
+Successfully created file: okc-thunder-bury-la-lakers-to-take-3-0-nba-playoff_20260510_1016.html
+✓ Created comprehensive article: okc-thunder-bury-la-lakers-to-take-3-0-nba-playoff_20260510_1016.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: macron-tours-east-africa-amid-push-to-redefine-fra_20260510_0613.html
-Cleaned old post to keep top 30 limit: how-reform-won-votes-from-swansea-to-sunderland_20260510_0613.html
-Cleaned old post to keep top 30 limit: dubois-stops-wardley-in-11th-round-to-take-wbo-hea_20260510_0613.html
+Cleaned old post to keep top 30 limit: péter-magyar-takes-office-marking-the-official-end_20260509_1753.html
+Cleaned old post to keep top 30 limit: spain-starts-evacuating-virus-hit-cruise-ship-in-t_20260510_0856.html
+Cleaned old post to keep top 30 limit: jnim-and-tuareg-fighters-join-forces_20260510_0856.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Spain starts evacuating virus-hit cruise ship in Tenerife
+   • Army parachutes onto remote island to help Briton with suspected hantavirus
      Sources: bbc.com, cnn.com, reuters.com
-   • Rebel fighters kill at least 69 people in northeastern DR Congo
+   • AFC Asian Cup 2027: Japan to face defending champions Qatar in tough draw
      Sources: bbc.com, cnn.com, reuters.com
-   • JNIM and Tuareg fighters join forces
+   • OKC Thunder bury LA Lakers to take 3-0 NBA Playoff series lead
      Sources: bbc.com, cnn.com, reuters.com
