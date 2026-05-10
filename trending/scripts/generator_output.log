@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer to promise bolder action as leadership threats mount
-  Added: Plane carrying passengers from cruise ship hit by virus lands in UK
+  Added: British passengers from hantavirus-hit cruise ship isolating in hospital, says UKHSA
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Body of missing US soldier recovered off coast of Morocco
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 39 topics for 2026-05-10
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Barcelona beat Real Madrid 2-0 in El Clasico to retain La Liga title
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump to discuss Iran with Xi Jinping during China visit: Officials
+Added expanded search topic: Barcelona beat Real Madrid 2-0 in El Clasico to retain La Liga title
+Added expanded search topic: Trump to discuss Iran with Xi Jinping during China visit: Officials
+Saved 42 topics for 2026-05-10
 Returning 3 unique trending topics:
-  1. Starmer to promise bolder action as leadership threats mount (from BBC News)
-  2. Plane carrying passengers from cruise ship hit by virus lands in UK (from BBC News)
-  3. Body of missing US soldier recovered off coast of Morocco (from The Guardian)
+  1. British passengers from hantavirus-hit cruise ship isolating in hospital, says UKHSA (from BBC News)
+  2. Barcelona beat Real Madrid 2-0 in El Clasico to retain La Liga title (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump to discuss Iran with Xi Jinping during China visit: Officials (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer to promise bolder action as leadership threats mount
-Searching Google for: Starmer to promise bolder action as leadership threats mount
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bto%252Bpromise%252Bbolder%252Baction%252Bas%252Bleadership%252Bthreats%252Bmount%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwUGJf6g9AGIjDBtMX8ZLL1Bn7vVZMamsb47q0HYmPLPearajLc1DBgdTE3GXzLOxNdAaW_ktcxGLoyBmpjbmRyUloBQw
+Processing trending topic: British passengers from hantavirus-hit cruise ship isolating in hospital, says UKHSA
+Searching Google for: British passengers from hantavirus-hit cruise ship isolating in hospital, says UKHSA
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bpassengers%252Bfrom%252Bhantavirus-hit%252Bcruise%252Bship%252Bisolating%252Bin%252Bhospital%252C%252Bsays%252BUKHSA%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--CGPSVhNAGIjB_-GXXYnyne72kkmSBJOwdOmTfbRt9-Y4ZAT8dQCyVMgCiiz0HQc1UKIGAYJCQeTsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-to-promise-bolder-action-as-leadership-thr_20260510_2148.html
-✓ Created comprehensive article: starmer-to-promise-bolder-action-as-leadership-thr_20260510_2148.html
+Successfully created file: british-passengers-from-hantavirus-hit-cruise-ship_20260510_2247.html
+✓ Created comprehensive article: british-passengers-from-hantavirus-hit-cruise-ship_20260510_2247.html
 
-Processing trending topic: Plane carrying passengers from cruise ship hit by virus lands in UK
-Searching Google for: Plane carrying passengers from cruise ship hit by virus lands in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPlane%252Bcarrying%252Bpassengers%252Bfrom%252Bcruise%252Bship%252Bhit%252Bby%252Bvirus%252Blands%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwUGJ76g9AGIjAlAXbJbkPpouAcPx-833bN0RW6mqnn3_PyOskduD2tr5xglMxHa0N_IksI3YGozv8yBmpjbmRyUloBQw
+Processing trending topic: Barcelona beat Real Madrid 2-0 in El Clasico to retain La Liga title
+Searching Google for: Barcelona beat Real Madrid 2-0 in El Clasico to retain La Liga title
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBarcelona%252Bbeat%252BReal%252BMadrid%252B2-0%252Bin%252BEl%252BClasico%252Bto%252Bretain%252BLa%252BLiga%252Btitle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--CGPyVhNAGIjAbL2IVHedK5DRnNaXjETj8GStBEa1tG1KRPR5gDoAJZJr9s-VDdYKw3dbMa0BS3NcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: plane-carrying-passengers-from-cruise-ship-hit-by-_20260510_2148.html
-✓ Created comprehensive article: plane-carrying-passengers-from-cruise-ship-hit-by-_20260510_2148.html
+Successfully created file: barcelona-beat-real-madrid-2-0-in-el-clasico-to-re_20260510_2247.html
+✓ Created comprehensive article: barcelona-beat-real-madrid-2-0-in-el-clasico-to-re_20260510_2247.html
 
-Processing trending topic: Body of missing US soldier recovered off coast of Morocco
-Searching Google for: Body of missing US soldier recovered off coast of Morocco
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBody%252Bof%252Bmissing%252BUS%252Bsoldier%252Brecovered%252Boff%252Bcoast%252Bof%252BMorocco%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwUGKT6g9AGIjCmIHZalyTlWIKh-fbfmcdO1PYPthl7g68WpOAqd653DLdqtriWFU7LeuRNu5H4A2QyBmpjbmRyUloBQw
+Processing trending topic: Trump to discuss Iran with Xi Jinping during China visit: Officials
+Searching Google for: Trump to discuss Iran with Xi Jinping during China visit: Officials
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bto%252Bdiscuss%252BIran%252Bwith%252BXi%252BJinping%252Bduring%252BChina%252Bvisit%253A%252BOfficials%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--CGIKWhNAGIjDE_4_aAr3anESDsROXd6KaGtS0IxGS8umcXJ_K5bCt_Ue8ILWcwALiZqvTOcToWYMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: body-of-missing-us-soldier-recovered-off-coast-of-_20260510_2148.html
-✓ Created comprehensive article: body-of-missing-us-soldier-recovered-off-coast-of-_20260510_2148.html
+Successfully created file: trump-to-discuss-iran-with-xi-jinping-during-china_20260510_2247.html
+✓ Created comprehensive article: trump-to-discuss-iran-with-xi-jinping-during-china_20260510_2247.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: south-korea-says-ship-was-struck-by-unidentified-f_20260510_2006.html
-Cleaned old post to keep top 30 limit: trossard-scores-late-as-arsenal-beats-west-ham-mov_20260510_2006.html
-Cleaned old post to keep top 30 limit: gaza-volunteers-plant-olive-trees-at-devastated-al_20260510_2006.html
+Cleaned old post to keep top 30 limit: starmer-to-promise-bolder-action-as-leadership-thr_20260510_2148.html
+Cleaned old post to keep top 30 limit: plane-carrying-passengers-from-cruise-ship-hit-by-_20260510_2148.html
+Cleaned old post to keep top 30 limit: body-of-missing-us-soldier-recovered-off-coast-of-_20260510_2148.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer to promise bolder action as leadership threats mount
+   • British passengers from hantavirus-hit cruise ship isolating in hospital, says UKHSA
      Sources: bbc.com, cnn.com, reuters.com
-   • Plane carrying passengers from cruise ship hit by virus lands in UK
+   • Barcelona beat Real Madrid 2-0 in El Clasico to retain La Liga title
      Sources: bbc.com, cnn.com, reuters.com
-   • Body of missing US soldier recovered off coast of Morocco
+   • Trump to discuss Iran with Xi Jinping during China visit: Officials
      Sources: bbc.com, cnn.com, reuters.com
