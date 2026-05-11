@@ -1,71 +1,73 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Analysis: Has Starmer done enough to save his premiership?
-  Added: British passengers from cruise ship isolating in hospital
+  Added: British passengers from hantavirus-hit cruise ship isolating in hospital
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran denies proposal sent to US contains ‘excessive demands’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
-Added expanded search topic: Iran denies proposal sent to US contains ‘excessive demands’
-Added expanded search topic: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
-Saved 15 topics for 2026-05-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK sanctions network accused of planning attacks for Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Philippine senator flees ICC arrest over role in Duterte’s drug war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fan festivals, Panini, tickets: What are FIFA World Cup fans talking about?
+Added expanded search topic: UK sanctions network accused of planning attacks for Iran
+Added expanded search topic: Philippine senator flees ICC arrest over role in Duterte’s drug war
+Added expanded search topic: Fan festivals, Panini, tickets: What are FIFA World Cup fans talking about?
+Saved 18 topics for 2026-05-11
 Returning 3 unique trending topics:
-  1. British passengers from cruise ship isolating in hospital (from BBC News)
-  2. Iran denies proposal sent to US contains ‘excessive demands’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK sanctions network accused of planning attacks for Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Philippine senator flees ICC arrest over role in Duterte’s drug war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Fan festivals, Panini, tickets: What are FIFA World Cup fans talking about? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: British passengers from cruise ship isolating in hospital
-Searching Google for: British passengers from cruise ship isolating in hospital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bpassengers%252Bfrom%252Bcruise%252Bship%252Bisolating%252Bin%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGOSKiNAGIjDqQu-VTK9AUzI4X_isWdfJgtIWm6m9uiDBebsro8275e7vgzHbyhQcMq25LfUQMEwyBmpjbmRyUloBQw
+Processing trending topic: UK sanctions network accused of planning attacks for Iran
+Searching Google for: UK sanctions network accused of planning attacks for Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bsanctions%252Bnetwork%252Baccused%252Bof%252Bplanning%252Battacks%252Bfor%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTuSGPPOiNAGIjCFEOPwIknfIz2c3aB7ai9D8rdO8dePJ0D00OOCtKpVz-maC7uADDQ-LB65Mpa7XYgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: british-passengers-from-cruise-ship-isolating-in-h_20260511_1635.html
-✓ Created comprehensive article: british-passengers-from-cruise-ship-isolating-in-h_20260511_1635.html
+Successfully created file: uk-sanctions-network-accused-of-planning-attacks-f_20260511_1901.html
+✓ Created comprehensive article: uk-sanctions-network-accused-of-planning-attacks-f_20260511_1901.html
 
-Processing trending topic: Iran denies proposal sent to US contains ‘excessive demands’
-Searching Google for: Iran denies proposal sent to US contains ‘excessive demands’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bdenies%252Bproposal%252Bsent%252Bto%252BUS%252Bcontains%252B%25E2%2580%2598excessive%252Bdemands%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGOuKiNAGIjAzQ2ztt7ku5MluKLzBLj2ddqqsD8q8ZwEyAgz6depZHVPRuJrtXPkxaBiwjgiV6uoyBmpjbmRyUloBQw
+Processing trending topic: Philippine senator flees ICC arrest over role in Duterte’s drug war
+Searching Google for: Philippine senator flees ICC arrest over role in Duterte’s drug war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPhilippine%252Bsenator%252Bflees%252BICC%252Barrest%252Bover%252Brole%252Bin%252BDuterte%25E2%2580%2599s%252Bdrug%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTuSGPrOiNAGIjAXslSiB7qkyW-pqp6rawih6-8p2nBX1e57-S0pRiNJ9Vh57JNw_vPXd6ZmB8yXXJcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-denies-proposal-sent-to-us-contains-excessive_20260511_1635.html
-✓ Created comprehensive article: iran-denies-proposal-sent-to-us-contains-excessive_20260511_1635.html
+Successfully created file: philippine-senator-flees-icc-arrest-over-role-in-d_20260511_1901.html
+✓ Created comprehensive article: philippine-senator-flees-icc-arrest-over-role-in-d_20260511_1901.html
 
-Processing trending topic: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
-Searching Google for: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bcould%252Bchallenge%252BKeir%252BStarmer%252Bfor%252Bthe%252BUK%252BPM%25E2%2580%2599s%252Bjob%253F%252BMeet%252Bthe%252Bcandidates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGPGKiNAGIjB57O87ipR7nqlwJ4yC8SXPphxluyTLkd03ZIwIDRQunC0-8-R2eRl0xV5eE6UEhx8yBmpjbmRyUloBQw
+Processing trending topic: Fan festivals, Panini, tickets: What are FIFA World Cup fans talking about?
+Searching Google for: Fan festivals, Panini, tickets: What are FIFA World Cup fans talking about?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFan%252Bfestivals%252C%252BPanini%252C%252Btickets%253A%252BWhat%252Bare%252BFIFA%252BWorld%252BCup%252Bfans%252Btalking%252Babout%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTuSGIHPiNAGIjBZNCab3RzduJ6M3kYs16NJLhZ0wS052nr1MmRWMXerOFrZv1eGpEVK2uCFcEuG-3IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-could-challenge-keir-starmer-for-the-uk-pms-jo_20260511_1636.html
-✓ Created comprehensive article: who-could-challenge-keir-starmer-for-the-uk-pms-jo_20260511_1636.html
+Successfully created file: fan-festivals-panini-tickets-what-are-fifa-world-c_20260511_1901.html
+✓ Created comprehensive article: fan-festivals-panini-tickets-what-are-fifa-world-c_20260511_1901.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: unacceptable-whats-irans-peace-proposal-that-trump_20260511_1352.html
-Cleaned old post to keep top 30 limit: tourist-hotspot-at-end-of-the-world-denies-causing_20260511_1352.html
-Cleaned old post to keep top 30 limit: analysis-has-starmer-done-enough-to-save-his-premi_20260511_1351.html
+Cleaned old post to keep top 30 limit: who-could-challenge-keir-starmer-for-the-uk-pms-jo_20260511_1636.html
+Cleaned old post to keep top 30 limit: iran-denies-proposal-sent-to-us-contains-excessive_20260511_1635.html
+Cleaned old post to keep top 30 limit: british-passengers-from-cruise-ship-isolating-in-h_20260511_1635.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • British passengers from cruise ship isolating in hospital
+   • UK sanctions network accused of planning attacks for Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran denies proposal sent to US contains ‘excessive demands’
+   • Philippine senator flees ICC arrest over role in Duterte’s drug war
      Sources: bbc.com, cnn.com, reuters.com
-   • Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
+   • Fan festivals, Panini, tickets: What are FIFA World Cup fans talking about?
      Sources: bbc.com, cnn.com, reuters.com
