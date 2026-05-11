@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Analysis: Has Starmer done enough to save his premiership?
-  Added: Tourist hotspot at 'end of the world' denies causing hantavirus outbreak
+  Added: British passengers from cruise ship isolating in hospital
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Unacceptable’: What’s Iran’s peace proposal that Trump has rejected?
-Added expanded search topic: ‘Unacceptable’: What’s Iran’s peace proposal that Trump has rejected?
-Saved 12 topics for 2026-05-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran denies proposal sent to US contains ‘excessive demands’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
+Added expanded search topic: Iran denies proposal sent to US contains ‘excessive demands’
+Added expanded search topic: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
+Saved 15 topics for 2026-05-11
 Returning 3 unique trending topics:
-  1. Analysis: Has Starmer done enough to save his premiership? (from BBC News)
-  2. Tourist hotspot at 'end of the world' denies causing hantavirus outbreak (from BBC News)
-  3. ‘Unacceptable’: What’s Iran’s peace proposal that Trump has rejected? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. British passengers from cruise ship isolating in hospital (from BBC News)
+  2. Iran denies proposal sent to US contains ‘excessive demands’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Analysis: Has Starmer done enough to save his premiership?
-Searching Google for: Analysis: Has Starmer done enough to save his premiership?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%253A%252BHas%252BStarmer%252Bdone%252Benough%252Bto%252Bsave%252Bhis%252Bpremiership%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfbC7GPW9h9AGIjCaxF1E4O38iGCyFhdCzuw1bVxiK6Q0VGS0T5_wSeNreWlOBqdggL01YGr2H-nNJuEyBmpjbmRyUloBQw
+Processing trending topic: British passengers from cruise ship isolating in hospital
+Searching Google for: British passengers from cruise ship isolating in hospital
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bpassengers%252Bfrom%252Bcruise%252Bship%252Bisolating%252Bin%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGOSKiNAGIjDqQu-VTK9AUzI4X_isWdfJgtIWm6m9uiDBebsro8275e7vgzHbyhQcMq25LfUQMEwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: analysis-has-starmer-done-enough-to-save-his-premi_20260511_1351.html
-✓ Created comprehensive article: analysis-has-starmer-done-enough-to-save-his-premi_20260511_1351.html
+Successfully created file: british-passengers-from-cruise-ship-isolating-in-h_20260511_1635.html
+✓ Created comprehensive article: british-passengers-from-cruise-ship-isolating-in-h_20260511_1635.html
 
-Processing trending topic: Tourist hotspot at 'end of the world' denies causing hantavirus outbreak
-Searching Google for: Tourist hotspot at 'end of the world' denies causing hantavirus outbreak
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTourist%252Bhotspot%252Bat%252B%2527end%252Bof%252Bthe%252Bworld%2527%252Bdenies%252Bcausing%252Bhantavirus%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfbC7GPy9h9AGIjBOpdixTnp7n1Al738woC_KYPNhNb1RlT0fDBayotDrYWVjFOPqfDF8hsgC2CVlAgwyBmpjbmRyUloBQw
+Processing trending topic: Iran denies proposal sent to US contains ‘excessive demands’
+Searching Google for: Iran denies proposal sent to US contains ‘excessive demands’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bdenies%252Bproposal%252Bsent%252Bto%252BUS%252Bcontains%252B%25E2%2580%2598excessive%252Bdemands%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGOuKiNAGIjAzQ2ztt7ku5MluKLzBLj2ddqqsD8q8ZwEyAgz6depZHVPRuJrtXPkxaBiwjgiV6uoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tourist-hotspot-at-end-of-the-world-denies-causing_20260511_1352.html
-✓ Created comprehensive article: tourist-hotspot-at-end-of-the-world-denies-causing_20260511_1352.html
+Successfully created file: iran-denies-proposal-sent-to-us-contains-excessive_20260511_1635.html
+✓ Created comprehensive article: iran-denies-proposal-sent-to-us-contains-excessive_20260511_1635.html
 
-Processing trending topic: ‘Unacceptable’: What’s Iran’s peace proposal that Trump has rejected?
-Searching Google for: ‘Unacceptable’: What’s Iran’s peace proposal that Trump has rejected?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Unacceptable%25E2%2580%2599%253A%252BWhat%25E2%2580%2599s%252BIran%25E2%2580%2599s%252Bpeace%252Bproposal%252Bthat%252BTrump%252Bhas%252Brejected%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfbC7GIK-h9AGIjBkBO9IdROaOCoZmFv_areNva1WukswK4_dvUr8589mFgTZNKz1t_nwSGa02OTBgxgyBmpjbmRyUloBQw
+Processing trending topic: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
+Searching Google for: Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bcould%252Bchallenge%252BKeir%252BStarmer%252Bfor%252Bthe%252BUK%252BPM%25E2%2580%2599s%252Bjob%253F%252BMeet%252Bthe%252Bcandidates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttEyGPGKiNAGIjB57O87ipR7nqlwJ4yC8SXPphxluyTLkd03ZIwIDRQunC0-8-R2eRl0xV5eE6UEhx8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: unacceptable-whats-irans-peace-proposal-that-trump_20260511_1352.html
-✓ Created comprehensive article: unacceptable-whats-irans-peace-proposal-that-trump_20260511_1352.html
+Successfully created file: who-could-challenge-keir-starmer-for-the-uk-pms-jo_20260511_1636.html
+✓ Created comprehensive article: who-could-challenge-keir-starmer-for-the-uk-pms-jo_20260511_1636.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: picking-up-the-torch-from-shireen-abu-akleh_20260511_1040.html
-Cleaned old post to keep top 30 limit: weather-tracker-us-and-mexico-brace-for-heatwave-a_20260511_1040.html
-Cleaned old post to keep top 30 limit: british-steel-set-to-be-nationalised-starmer-says_20260511_1040.html
+Cleaned old post to keep top 30 limit: unacceptable-whats-irans-peace-proposal-that-trump_20260511_1352.html
+Cleaned old post to keep top 30 limit: tourist-hotspot-at-end-of-the-world-denies-causing_20260511_1352.html
+Cleaned old post to keep top 30 limit: analysis-has-starmer-done-enough-to-save-his-premi_20260511_1351.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Analysis: Has Starmer done enough to save his premiership?
+   • British passengers from cruise ship isolating in hospital
      Sources: bbc.com, cnn.com, reuters.com
-   • Tourist hotspot at 'end of the world' denies causing hantavirus outbreak
+   • Iran denies proposal sent to US contains ‘excessive demands’
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Unacceptable’: What’s Iran’s peace proposal that Trump has rejected?
+   • Who could challenge Keir Starmer for the UK PM’s job? Meet the candidates
      Sources: bbc.com, cnn.com, reuters.com
