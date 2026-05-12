@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Henry Zeffman: Keir Starmer fights back for now
-  Added: Jess Phillips's resignation letter in full
+  Added: The potential challengers to Keir Starmer
+  Added: Read all the ministers' resignation letters in full
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is it time to reconsider contemporary art?
-Added expanded search topic: Is it time to reconsider contemporary art?
-Saved 18 topics for 2026-05-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel’s war creating a ‘lost generation’ of Lebanese students
+Added expanded search topic: Israel’s war creating a ‘lost generation’ of Lebanese students
+Saved 21 topics for 2026-05-12
 Returning 3 unique trending topics:
-  1. Henry Zeffman: Keir Starmer fights back for now (from BBC News)
-  2. Jess Phillips's resignation letter in full (from BBC News)
-  3. Is it time to reconsider contemporary art? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. The potential challengers to Keir Starmer (from BBC News)
+  2. Read all the ministers' resignation letters in full (from BBC News)
+  3. Israel’s war creating a ‘lost generation’ of Lebanese students (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Henry Zeffman: Keir Starmer fights back for now
-Searching Google for: Henry Zeffman: Keir Starmer fights back for now
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: The potential challengers to Keir Starmer
+Searching Google for: The potential challengers to Keir Starmer
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bpotential%252Bchallengers%252Bto%252BKeir%252BStarmer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UGGMO_jdAGIjCU5hBHo2NLdGjCxm06jDWMAHs3zsdUYD1GOvaYwGnY-9Pcpb5a6trIQcNPuJLRePIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: henry-zeffman-keir-starmer-fights-back-for-now_20260512_1425.html
-✓ Created comprehensive article: henry-zeffman-keir-starmer-fights-back-for-now_20260512_1425.html
+Successfully created file: the-potential-challengers-to-keir-starmer_20260512_1713.html
+✓ Created comprehensive article: the-potential-challengers-to-keir-starmer_20260512_1713.html
 
-Processing trending topic: Jess Phillips's resignation letter in full
-Searching Google for: Jess Phillips's resignation letter in full
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Read all the ministers' resignation letters in full
+Searching Google for: Read all the ministers' resignation letters in full
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRead%252Ball%252Bthe%252Bministers%2527%252Bresignation%252Bletters%252Bin%252Bfull%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UGGMq_jdAGIjC3wQOySrxm9cg0G3LnvOQQGNeDS6Kq2wkW9BuZMhcEvtLz8Waw0ETwXEY0cX-YrY0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jess-phillipss-resignation-letter-in-full_20260512_1425.html
-✓ Created comprehensive article: jess-phillipss-resignation-letter-in-full_20260512_1425.html
+Successfully created file: read-all-the-ministers-resignation-letters-in-full_20260512_1713.html
+✓ Created comprehensive article: read-all-the-ministers-resignation-letters-in-full_20260512_1713.html
 
-Processing trending topic: Is it time to reconsider contemporary art?
-Searching Google for: Is it time to reconsider contemporary art?
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Israel’s war creating a ‘lost generation’ of Lebanese students
+Searching Google for: Israel’s war creating a ‘lost generation’ of Lebanese students
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%25E2%2580%2599s%252Bwar%252Bcreating%252Ba%252B%25E2%2580%2598lost%252Bgeneration%25E2%2580%2599%252Bof%252BLebanese%252Bstudents%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UGGNC_jdAGIjB8Rd1ihPOpODMGPwOCDTzqyfkeER611B7IPGOpfU4gpWxhMAcSyNs3aWHUeYq67DEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: is-it-time-to-reconsider-contemporary-art_20260512_1426.html
-✓ Created comprehensive article: is-it-time-to-reconsider-contemporary-art_20260512_1426.html
+Successfully created file: israels-war-creating-a-lost-generation-of-lebanese_20260512_1713.html
+✓ Created comprehensive article: israels-war-creating-a-lost-generation-of-lebanese_20260512_1713.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: henry-zeffman-pm-puts-himself-back-in-the-game-for_20260512_1208.html
-Cleaned old post to keep top 30 limit: video-philippine-senator-flees-icc-arrest-over-rol_20260512_1208.html
-Cleaned old post to keep top 30 limit: can-china-counter-us-sanctions-with-its-trade-powe_20260512_1208.html
+Cleaned old post to keep top 30 limit: with-food-benefit-cuts-looming-in-the-us-californi_20260510_1904.html
+Cleaned old post to keep top 30 limit: is-it-time-to-reconsider-contemporary-art_20260512_1426.html
+Cleaned old post to keep top 30 limit: henry-zeffman-keir-starmer-fights-back-for-now_20260512_1425.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Henry Zeffman: Keir Starmer fights back for now
+   • The potential challengers to Keir Starmer
      Sources: bbc.com, cnn.com, reuters.com
-   • Jess Phillips's resignation letter in full
+   • Read all the ministers' resignation letters in full
      Sources: bbc.com, cnn.com, reuters.com
-   • Is it time to reconsider contemporary art?
+   • Israel’s war creating a ‘lost generation’ of Lebanese students
      Sources: bbc.com, cnn.com, reuters.com
