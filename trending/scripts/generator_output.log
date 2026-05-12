@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: British passengers from hantavirus-hit cruise ship isolating in hospital
+  Added: Last passengers leave virus-hit cruise ship as three more test positive
   Added: Watch: Macron interrupts speaker to tell audience to be quiet
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hundreds displaced, medical services suspended amid gang violence in Haiti
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says he will suspend petrol tax amid soaring US fuel prices
-Added expanded search topic: Hundreds displaced, medical services suspended amid gang violence in Haiti
-Added expanded search topic: Trump says he will suspend petrol tax amid soaring US fuel prices
-Saved 24 topics for 2026-05-11
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-05-12
 Returning 3 unique trending topics:
-  1. Watch: Macron interrupts speaker to tell audience to be quiet (from BBC News)
-  2. Hundreds displaced, medical services suspended amid gang violence in Haiti (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump says he will suspend petrol tax amid soaring US fuel prices (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Last passengers leave virus-hit cruise ship as three more test positive (from BBC News)
+  2. Watch: Macron interrupts speaker to tell audience to be quiet (from BBC News)
+  3. Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa (from The Guardian)
+
+Processing trending topic: Last passengers leave virus-hit cruise ship as three more test positive
+Searching Google for: Last passengers leave virus-hit cruise ship as three more test positive
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLast%252Bpassengers%252Bleave%252Bvirus-hit%252Bcruise%252Bship%252Bas%252Bthree%252Bmore%252Btest%252Bpositive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oS50GKbbidAGIjAH27QLWhahs8S1INQ-8quatPLoMZjnk0Re8R3Hlcb91VgkASCEqluOHiQuhlpEOo4yAnJSWgFD
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: last-passengers-leave-virus-hit-cruise-ship-as-thr_20260512_0000.html
+✓ Created comprehensive article: last-passengers-leave-virus-hit-cruise-ship-as-thr_20260512_0000.html
 
 Processing trending topic: Watch: Macron interrupts speaker to tell audience to be quiet
 Searching Google for: Watch: Macron interrupts speaker to tell audience to be quiet
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMacron%252Binterrupts%252Bspeaker%252Bto%252Btell%252Baudience%252Bto%252Bbe%252Bquiet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4NCGO-midAGIjD5Qr3xZ87kKTInax4iZ7BD4-m7UaPFf8rXr4ZAcwf4Dw08KPpS4R8s1E3ap5XLG28yBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMacron%252Binterrupts%252Bspeaker%252Bto%252Btell%252Baudience%252Bto%252Bbe%252Bquiet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oS50GK3bidAGIjDsu8qhpSqmuir5rI4pg9nHHIbxKENJGXNL3Emz0C4KzbFB9cdGcpQ-WzuMut1P9MIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-macron-interrupts-speaker-to-tell-audience-t_20260511_2208.html
-✓ Created comprehensive article: watch-macron-interrupts-speaker-to-tell-audience-t_20260511_2208.html
+Successfully created file: watch-macron-interrupts-speaker-to-tell-audience-t_20260512_0000.html
+✓ Created comprehensive article: watch-macron-interrupts-speaker-to-tell-audience-t_20260512_0000.html
 
-Processing trending topic: Hundreds displaced, medical services suspended amid gang violence in Haiti
-Searching Google for: Hundreds displaced, medical services suspended amid gang violence in Haiti
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bdisplaced%252C%252Bmedical%252Bservices%252Bsuspended%252Bamid%252Bgang%252Bviolence%252Bin%252BHaiti%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4NCGPamidAGIjDmmXBbzLgQb1qIhP9n6v-YHHaMhi-S1RAnwbQ8iN3bB3AViAsK4Y6SG7IFNB8tzs4yBmpjbmRyUloBQw
+Processing trending topic: Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa
+Searching Google for: Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeather%252Btracker%253A%252BUS%252Band%252BMexico%252Bbrace%252Bfor%252Bheatwave%252Bas%252Bdeadly%252Bfloods%252Bhit%252BSouth%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oS50GLTbidAGIjBylaz59tQXUdmrArEPP2BNKX2sAxoEsBK10ZFqFWcw1xI0njn-XjAm5KQ6UShMZEIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hundreds-displaced-medical-services-suspended-amid_20260511_2208.html
-✓ Created comprehensive article: hundreds-displaced-medical-services-suspended-amid_20260511_2208.html
-
-Processing trending topic: Trump says he will suspend petrol tax amid soaring US fuel prices
-Searching Google for: Trump says he will suspend petrol tax amid soaring US fuel prices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bwill%252Bsuspend%252Bpetrol%252Btax%252Bamid%252Bsoaring%252BUS%252Bfuel%252Bprices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4NCGPymidAGIjDceFDlGYSTwt7hMf1Zha3FMuULQyziIRkLs4oFdBepWa5f3H1EPF8bGnA2-kWYmDAyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-he-will-suspend-petrol-tax-amid-soaring_20260511_2209.html
-✓ Created comprehensive article: trump-says-he-will-suspend-petrol-tax-amid-soaring_20260511_2209.html
+Successfully created file: weather-tracker-us-and-mexico-brace-for-heatwave-a_20260512_0000.html
+✓ Created comprehensive article: weather-tracker-us-and-mexico-brace-for-heatwave-a_20260512_0000.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: lamine-yamal-waves-palestine-flag-as-barcelona-cel_20260511_2053.html
-Cleaned old post to keep top 30 limit: eu-sanctions-violent-israeli-settlers-after-months_20260511_2053.html
-Cleaned old post to keep top 30 limit: barcelona-player-lamine-yamal-waves-palestinian-fl_20260511_2053.html
+Cleaned old post to keep top 30 limit: watch-macron-interrupts-speaker-to-tell-audience-t_20260511_2208.html
+Cleaned old post to keep top 30 limit: trump-says-he-will-suspend-petrol-tax-amid-soaring_20260511_2209.html
+Cleaned old post to keep top 30 limit: hundreds-displaced-medical-services-suspended-amid_20260511_2208.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Last passengers leave virus-hit cruise ship as three more test positive
+     Sources: bbc.com, cnn.com, reuters.com
    • Watch: Macron interrupts speaker to tell audience to be quiet
      Sources: bbc.com, cnn.com, reuters.com
-   • Hundreds displaced, medical services suspended amid gang violence in Haiti
-     Sources: bbc.com, cnn.com, reuters.com
-   • Trump says he will suspend petrol tax amid soaring US fuel prices
+   • Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa
      Sources: bbc.com, cnn.com, reuters.com
