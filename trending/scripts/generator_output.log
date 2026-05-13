@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PM prepares for King's Speech as he faces leadership crisis
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Blatant disregard for rights’: concern grows over Gabon’s social media clampdown
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-05-13
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Wembanyama returns, Spurs rout Wolves for 3-2 lead in NBA Playoff series
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK PM Starmer set to meet rival Streeting amid pledge to carry on governing
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump and Xi to meet in Beijing: The key issues shaping the China summit
+Added expanded search topic: Wembanyama returns, Spurs rout Wolves for 3-2 lead in NBA Playoff series
+Added expanded search topic: UK PM Starmer set to meet rival Streeting amid pledge to carry on governing
+Added expanded search topic: Trump and Xi to meet in Beijing: The key issues shaping the China summit
+Saved 9 topics for 2026-05-13
 Returning 3 unique trending topics:
-  1. PM prepares for King's Speech as he faces leadership crisis (from BBC News)
-  2. The potential challengers to Keir Starmer (from BBC News)
-  3. ‘Blatant disregard for rights’: concern grows over Gabon’s social media clampdown (from The Guardian)
+  1. Wembanyama returns, Spurs rout Wolves for 3-2 lead in NBA Playoff series (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. UK PM Starmer set to meet rival Streeting amid pledge to carry on governing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump and Xi to meet in Beijing: The key issues shaping the China summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: PM prepares for King's Speech as he faces leadership crisis
-Searching Google for: PM prepares for King's Speech as he faces leadership crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Bprepares%252Bfor%252BKing%2527s%252BSpeech%252Bas%252Bhe%252Bfaces%252Bleadership%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhSGNSDkNAGIjDDrRhrKDXMDKAik9ljRct6Kt3zAb6ydpzzKA0-5d-zE_mf3lrBOqXbPCjUyCtznbQyBmpjbmRyUloBQw
+Processing trending topic: Wembanyama returns, Spurs rout Wolves for 3-2 lead in NBA Playoff series
+Searching Google for: Wembanyama returns, Spurs rout Wolves for 3-2 lead in NBA Playoff series
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWembanyama%252Breturns%252C%252BSpurs%252Brout%252BWolves%252Bfor%252B3-2%252Blead%252Bin%252BNBA%252BPlayoff%252Bseries%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_2jGOzakNAGIjA2aukYY9vIpzZimJY_RUmk4RA3s1yiOqCocQzrxw4IaHYuFq8EaxuADXNtTrMOU_4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pm-prepares-for-kings-speech-as-he-faces-leadershi_20260513_0445.html
-✓ Created comprehensive article: pm-prepares-for-kings-speech-as-he-faces-leadershi_20260513_0445.html
+Successfully created file: wembanyama-returns-spurs-rout-wolves-for-3-2-lead-_20260513_0751.html
+✓ Created comprehensive article: wembanyama-returns-spurs-rout-wolves-for-3-2-lead-_20260513_0751.html
 
-Processing trending topic: The potential challengers to Keir Starmer
-Searching Google for: The potential challengers to Keir Starmer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bpotential%252Bchallengers%252Bto%252BKeir%252BStarmer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhSGNuDkNAGIjAAg6i2RqjTIhIvE8zqeZ350E-UBTun6MTtEBrXPvLe5Fs9EZkEFSQdBNMVvLEftEQyBmpjbmRyUloBQw
+Processing trending topic: UK PM Starmer set to meet rival Streeting amid pledge to carry on governing
+Searching Google for: UK PM Starmer set to meet rival Streeting amid pledge to carry on governing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252BPM%252BStarmer%252Bset%252Bto%252Bmeet%252Brival%252BStreeting%252Bamid%252Bpledge%252Bto%252Bcarry%252Bon%252Bgoverning%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_2jGPPakNAGIjB-2YeaL1HOOCnx59hbaSvsJA-eGTeXm3b80iDvxGOXUzZfZ8nmNPN0XPnAExEqN4gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-potential-challengers-to-keir-starmer_20260513_0445.html
-✓ Created comprehensive article: the-potential-challengers-to-keir-starmer_20260513_0445.html
+Successfully created file: uk-pm-starmer-set-to-meet-rival-streeting-amid-ple_20260513_0751.html
+✓ Created comprehensive article: uk-pm-starmer-set-to-meet-rival-streeting-amid-ple_20260513_0751.html
 
-Processing trending topic: ‘Blatant disregard for rights’: concern grows over Gabon’s social media clampdown
-Searching Google for: ‘Blatant disregard for rights’: concern grows over Gabon’s social media clampdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Blatant%252Bdisregard%252Bfor%252Brights%25E2%2580%2599%253A%252Bconcern%252Bgrows%252Bover%252BGabon%25E2%2580%2599s%252Bsocial%252Bmedia%252Bclampdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhSGOGDkNAGIjAEmSBpG6Vdue2xB6YH_lWpIk11XvVB8ep4vnZiqh2cFIf4nDjOrg29-j4HPT7sLOIyBmpjbmRyUloBQw
+Processing trending topic: Trump and Xi to meet in Beijing: The key issues shaping the China summit
+Searching Google for: Trump and Xi to meet in Beijing: The key issues shaping the China summit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Band%252BXi%252Bto%252Bmeet%252Bin%252BBeijing%253A%252BThe%252Bkey%252Bissues%252Bshaping%252Bthe%252BChina%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_2jGPnakNAGIjAuntUuf6ox2XBR4yt9u0YywiNvJAbAajXoI-w-GStCnrdfAMGn_xJnGTc7esdWUSMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: blatant-disregard-for-rights-concern-grows-over-ga_20260513_0445.html
-✓ Created comprehensive article: blatant-disregard-for-rights-concern-grows-over-ga_20260513_0445.html
+Successfully created file: trump-and-xi-to-meet-in-beijing-the-key-issues-sha_20260513_0751.html
+✓ Created comprehensive article: trump-and-xi-to-meet-in-beijing-the-key-issues-sha_20260513_0751.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: starmer-prepares-for-kings-speech-as-he-faces-lead_20260513_0014.html
-Cleaned old post to keep top 30 limit: starmer-to-meet-streeting-as-leadership-crisis-div_20260513_0014.html
-Cleaned old post to keep top 30 limit: internal-displacements-caused-by-violence-or-confl_20260513_0014.html
+Cleaned old post to keep top 30 limit: starmer-to-meet-streeting-on-wednesday-as-leadersh_20260512_2302.html
+Cleaned old post to keep top 30 limit: pm-prepares-for-kings-speech-as-he-faces-leadershi_20260513_0445.html
+Cleaned old post to keep top 30 limit: blatant-disregard-for-rights-concern-grows-over-ga_20260513_0445.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • PM prepares for King's Speech as he faces leadership crisis
+   • Wembanyama returns, Spurs rout Wolves for 3-2 lead in NBA Playoff series
      Sources: bbc.com, cnn.com, reuters.com
-   • The potential challengers to Keir Starmer
+   • UK PM Starmer set to meet rival Streeting amid pledge to carry on governing
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Blatant disregard for rights’: concern grows over Gabon’s social media clampdown
+   • Trump and Xi to meet in Beijing: The key issues shaping the China summit
      Sources: bbc.com, cnn.com, reuters.com
