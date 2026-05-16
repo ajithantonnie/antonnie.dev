@@ -1,73 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Burnham cleared to run for selection in pivotal by-election
   Added: How Rayner, Streeting and Burnham weakened PM in 12 hours of political drama
+  Added: Trump warns Taiwan against declaring independence, hours after summit with China's Xi
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Ebola outbreak kills 65 people in eastern Democratic Republic of the Congo
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+  Added: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel launches deadly air strikes on Gaza City apartment building
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK artist defends ‘Drawings Against Genocide’ after show cancelled
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza aid convoy in Libya prepares to head to Gaza
-Added expanded search topic: Israel launches deadly air strikes on Gaza City apartment building
-Added expanded search topic: UK artist defends ‘Drawings Against Genocide’ after show cancelled
-Added expanded search topic: Gaza aid convoy in Libya prepares to head to Gaza
-Saved 6 topics for 2026-05-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
+Added expanded search topic: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
+Saved 9 topics for 2026-05-16
 Returning 3 unique trending topics:
-  1. Israel launches deadly air strikes on Gaza City apartment building (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. UK artist defends ‘Drawings Against Genocide’ after show cancelled (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Gaza aid convoy in Libya prepares to head to Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump warns Taiwan against declaring independence, hours after summit with China's Xi (from BBC News)
+  2. Trump says Islamic State ‘second in command’ killed by US and Nigerian forces (from The Guardian)
+  3. Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Israel launches deadly air strikes on Gaza City apartment building
-Searching Google for: Israel launches deadly air strikes on Gaza City apartment building
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Blaunches%252Bdeadly%252Bair%252Bstrikes%252Bon%252BGaza%252BCity%252Bapartment%252Bbuilding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUauckGPTVn9AGIjCPYP5bXIS63VEf63Y3UyKAilFIUiICuxrwaud6OcIRTcrgCoD5QsHpdTES9pTOna0yBmpjbmRyUloBQw
+Processing trending topic: Trump warns Taiwan against declaring independence, hours after summit with China's Xi
+Searching Google for: Trump warns Taiwan against declaring independence, hours after summit with China's Xi
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwarns%252BTaiwan%252Bagainst%252Bdeclaring%252Bindependence%252C%252Bhours%252Bafter%252Bsummit%252Bwith%252BChina%2527s%252BXi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg-2AGJuboNAGIjBX90Adj7xVT_yL9vyT8S2c74wyQRCw8NzmNf0jzMyShtaJVKR3zgyG46JWG3nxftYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-launches-deadly-air-strikes-on-gaza-city-ap_20260516_0356.html
-✓ Created comprehensive article: israel-launches-deadly-air-strikes-on-gaza-city-ap_20260516_0356.html
+Successfully created file: trump-warns-taiwan-against-declaring-independence-_20260516_0624.html
+✓ Created comprehensive article: trump-warns-taiwan-against-declaring-independence-_20260516_0624.html
 
-Processing trending topic: UK artist defends ‘Drawings Against Genocide’ after show cancelled
-Searching Google for: UK artist defends ‘Drawings Against Genocide’ after show cancelled
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bartist%252Bdefends%252B%25E2%2580%2598Drawings%252BAgainst%252BGenocide%25E2%2580%2599%252Bafter%252Bshow%252Bcancelled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUauckGPvVn9AGIjBx5egrsIg2_BA7dbQP25y7GVAoqs4USOK1RuWhsL0fz2wwWXoF5gZFPLA1lj0rgH8yBmpjbmRyUloBQw
+Processing trending topic: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
+Searching Google for: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIslamic%252BState%252B%25E2%2580%2598second%252Bin%252Bcommand%25E2%2580%2599%252Bkilled%252Bby%252BUS%252Band%252BNigerian%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg-2AGKKboNAGIjAWVMX1I1E4a2lyvkPw1jLyHZjVqG6CCUx3mP4Uoyw3uKhbfyxUw9VJziE0cjdgEZEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-artist-defends-drawings-against-genocide-after-_20260516_0356.html
-✓ Created comprehensive article: uk-artist-defends-drawings-against-genocide-after-_20260516_0356.html
+Successfully created file: trump-says-islamic-state-second-in-command-killed-_20260516_0624.html
+✓ Created comprehensive article: trump-says-islamic-state-second-in-command-killed-_20260516_0624.html
 
-Processing trending topic: Gaza aid convoy in Libya prepares to head to Gaza
-Searching Google for: Gaza aid convoy in Libya prepares to head to Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Baid%252Bconvoy%252Bin%252BLibya%252Bprepares%252Bto%252Bhead%252Bto%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUauckGIHWn9AGIjB6fLYcKdcpx1lOZs8kMB3HohE1UY254WB9xbO54rAkZg5IxTzePHIgRC6ALKQjp50yBmpjbmRyUloBQw
+Processing trending topic: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
+Searching Google for: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOutbreak%252Bof%252Brare%252Bstrain%252Bof%252BEbola%252Bclaims%252Bat%252Bleast%252B65%252Blives%252Bin%252BDR%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg-2AGKiboNAGIjDqbKsQ2yI1qxkrCz9clTVAZsG24z4o3qaYnD7LbjOi3NbYkBGgqv1Kadf_wUV5zrkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gaza-aid-convoy-in-libya-prepares-to-head-to-gaza_20260516_0356.html
-✓ Created comprehensive article: gaza-aid-convoy-in-libya-prepares-to-head-to-gaza_20260516_0356.html
+Successfully created file: outbreak-of-rare-strain-of-ebola-claims-at-least-6_20260516_0624.html
+✓ Created comprehensive article: outbreak-of-rare-strain-of-ebola-claims-at-least-6_20260516_0624.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-did-trump-and-xi-discuss-during-the-china-sum_20260515_2302.html
-Cleaned old post to keep top 30 limit: ebola-outbreak-kills-65-people-in-eastern-democrat_20260516_0003.html
-Cleaned old post to keep top 30 limit: burnham-cleared-to-run-for-selection-in-pivotal-by_20260516_0003.html
+Cleaned old post to keep top 30 limit: uk-artist-defends-drawings-against-genocide-after-_20260516_0356.html
+Cleaned old post to keep top 30 limit: israel-launches-deadly-air-strikes-on-gaza-city-ap_20260516_0356.html
+Cleaned old post to keep top 30 limit: gaza-aid-convoy-in-libya-prepares-to-head-to-gaza_20260516_0356.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israel launches deadly air strikes on Gaza City apartment building
+   • Trump warns Taiwan against declaring independence, hours after summit with China's Xi
      Sources: bbc.com, cnn.com, reuters.com
-   • UK artist defends ‘Drawings Against Genocide’ after show cancelled
+   • Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
      Sources: bbc.com, cnn.com, reuters.com
-   • Gaza aid convoy in Libya prepares to head to Gaza
+   • Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
      Sources: bbc.com, cnn.com, reuters.com
