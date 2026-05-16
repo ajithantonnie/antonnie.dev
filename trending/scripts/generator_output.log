@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham cleared to run for selection in pivotal by-election
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak kills 65 people in eastern Democratic Republic of the Congo
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-16
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel launches deadly air strikes on Gaza City apartment building
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK artist defends ‘Drawings Against Genocide’ after show cancelled
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza aid convoy in Libya prepares to head to Gaza
+Added expanded search topic: Israel launches deadly air strikes on Gaza City apartment building
+Added expanded search topic: UK artist defends ‘Drawings Against Genocide’ after show cancelled
+Added expanded search topic: Gaza aid convoy in Libya prepares to head to Gaza
+Saved 6 topics for 2026-05-16
 Returning 3 unique trending topics:
-  1. Burnham cleared to run for selection in pivotal by-election (from BBC News)
-  2. How Rayner, Streeting and Burnham weakened PM in 12 hours of political drama (from BBC News)
-  3. Ebola outbreak kills 65 people in eastern Democratic Republic of the Congo (from The Guardian)
+  1. Israel launches deadly air strikes on Gaza City apartment building (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. UK artist defends ‘Drawings Against Genocide’ after show cancelled (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Gaza aid convoy in Libya prepares to head to Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham cleared to run for selection in pivotal by-election
-Searching Google for: Burnham cleared to run for selection in pivotal by-election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bcleared%252Bto%252Brun%252Bfor%252Bselection%252Bin%252Bpivotal%252Bby-election%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KDCGM7ontAGIjCbCztRY2YdPTr3Ejqhj5Z0XrzaNs_AXFlcPetUrQX6JQaQOAQ07j4t7C2iigvaUEUyBmpjbmRyUloBQw
+Processing trending topic: Israel launches deadly air strikes on Gaza City apartment building
+Searching Google for: Israel launches deadly air strikes on Gaza City apartment building
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Blaunches%252Bdeadly%252Bair%252Bstrikes%252Bon%252BGaza%252BCity%252Bapartment%252Bbuilding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUauckGPTVn9AGIjCPYP5bXIS63VEf63Y3UyKAilFIUiICuxrwaud6OcIRTcrgCoD5QsHpdTES9pTOna0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-cleared-to-run-for-selection-in-pivotal-by_20260516_0003.html
-✓ Created comprehensive article: burnham-cleared-to-run-for-selection-in-pivotal-by_20260516_0003.html
+Successfully created file: israel-launches-deadly-air-strikes-on-gaza-city-ap_20260516_0356.html
+✓ Created comprehensive article: israel-launches-deadly-air-strikes-on-gaza-city-ap_20260516_0356.html
 
-Processing trending topic: How Rayner, Streeting and Burnham weakened PM in 12 hours of political drama
-Searching Google for: How Rayner, Streeting and Burnham weakened PM in 12 hours of political drama
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BRayner%252C%252BStreeting%252Band%252BBurnham%252Bweakened%252BPM%252Bin%252B12%252Bhours%252Bof%252Bpolitical%252Bdrama%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KDCGNbontAGIjB2f6EplAhSZtFBRbVosgObednXoK_JcHlpivum9pjvd6yH-IPTIiAWrB46Yd4wccsyBmpjbmRyUloBQw
+Processing trending topic: UK artist defends ‘Drawings Against Genocide’ after show cancelled
+Searching Google for: UK artist defends ‘Drawings Against Genocide’ after show cancelled
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bartist%252Bdefends%252B%25E2%2580%2598Drawings%252BAgainst%252BGenocide%25E2%2580%2599%252Bafter%252Bshow%252Bcancelled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUauckGPvVn9AGIjBx5egrsIg2_BA7dbQP25y7GVAoqs4USOK1RuWhsL0fz2wwWXoF5gZFPLA1lj0rgH8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-rayner-streeting-and-burnham-weakened-pm-in-12_20260516_0003.html
-✓ Created comprehensive article: how-rayner-streeting-and-burnham-weakened-pm-in-12_20260516_0003.html
+Successfully created file: uk-artist-defends-drawings-against-genocide-after-_20260516_0356.html
+✓ Created comprehensive article: uk-artist-defends-drawings-against-genocide-after-_20260516_0356.html
 
-Processing trending topic: Ebola outbreak kills 65 people in eastern Democratic Republic of the Congo
-Searching Google for: Ebola outbreak kills 65 people in eastern Democratic Republic of the Congo
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%252Bkills%252B65%252Bpeople%252Bin%252Beastern%252BDemocratic%252BRepublic%252Bof%252Bthe%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7KDCGNzontAGIjCeTW02pHLyKSrV_7nYWfsNPXueXSxiPeqz8KrVRaOs7vK9ay2UsNXOjE9DCTP3z7EyBmpjbmRyUloBQw
+Processing trending topic: Gaza aid convoy in Libya prepares to head to Gaza
+Searching Google for: Gaza aid convoy in Libya prepares to head to Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Baid%252Bconvoy%252Bin%252BLibya%252Bprepares%252Bto%252Bhead%252Bto%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUauckGIHWn9AGIjB6fLYcKdcpx1lOZs8kMB3HohE1UY254WB9xbO54rAkZg5IxTzePHIgRC6ALKQjp50yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ebola-outbreak-kills-65-people-in-eastern-democrat_20260516_0003.html
-✓ Created comprehensive article: ebola-outbreak-kills-65-people-in-eastern-democrat_20260516_0003.html
+Successfully created file: gaza-aid-convoy-in-libya-prepares-to-head-to-gaza_20260516_0356.html
+✓ Created comprehensive article: gaza-aid-convoy-in-libya-prepares-to-head-to-gaza_20260516_0356.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-he-made-no-commitment-either-way-to-xi-_20260515_1653.html
-Cleaned old post to keep top 30 limit: pakistans-fatima-sana-breaks-world-record-for-fast_20260515_2019.html
-Cleaned old post to keep top 30 limit: activists-hang-palestinian-flag-on-the-eiffel-towe_20260515_2302.html
+Cleaned old post to keep top 30 limit: what-did-trump-and-xi-discuss-during-the-china-sum_20260515_2302.html
+Cleaned old post to keep top 30 limit: ebola-outbreak-kills-65-people-in-eastern-democrat_20260516_0003.html
+Cleaned old post to keep top 30 limit: burnham-cleared-to-run-for-selection-in-pivotal-by_20260516_0003.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham cleared to run for selection in pivotal by-election
+   • Israel launches deadly air strikes on Gaza City apartment building
      Sources: bbc.com, cnn.com, reuters.com
-   • How Rayner, Streeting and Burnham weakened PM in 12 hours of political drama
+   • UK artist defends ‘Drawings Against Genocide’ after show cancelled
      Sources: bbc.com, cnn.com, reuters.com
-   • Ebola outbreak kills 65 people in eastern Democratic Republic of the Congo
+   • Gaza aid convoy in Libya prepares to head to Gaza
      Sources: bbc.com, cnn.com, reuters.com
