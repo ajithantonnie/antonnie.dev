@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: How Rayner, Streeting and Burnham weakened PM in 12 hours of political drama
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
-Added expanded search topic: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
-Saved 9 topics for 2026-05-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia’s Putin to visit China following Trump’s trip
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gunmen kidnap dozens of students in Nigeria’s Borno State
+Added expanded search topic: Russia’s Putin to visit China following Trump’s trip
+Added expanded search topic: Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended
+Added expanded search topic: Gunmen kidnap dozens of students in Nigeria’s Borno State
+Saved 12 topics for 2026-05-16
 Returning 3 unique trending topics:
-  1. Trump warns Taiwan against declaring independence, hours after summit with China's Xi (from BBC News)
-  2. Trump says Islamic State ‘second in command’ killed by US and Nigerian forces (from The Guardian)
-  3. Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia’s Putin to visit China following Trump’s trip (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Gunmen kidnap dozens of students in Nigeria’s Borno State (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump warns Taiwan against declaring independence, hours after summit with China's Xi
-Searching Google for: Trump warns Taiwan against declaring independence, hours after summit with China's Xi
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwarns%252BTaiwan%252Bagainst%252Bdeclaring%252Bindependence%252C%252Bhours%252Bafter%252Bsummit%252Bwith%252BChina%2527s%252BXi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg-2AGJuboNAGIjBX90Adj7xVT_yL9vyT8S2c74wyQRCw8NzmNf0jzMyShtaJVKR3zgyG46JWG3nxftYyBmpjbmRyUloBQw
+Processing trending topic: Russia’s Putin to visit China following Trump’s trip
+Searching Google for: Russia’s Putin to visit China following Trump’s trip
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%25E2%2580%2599s%252BPutin%252Bto%252Bvisit%252BChina%252Bfollowing%252BTrump%25E2%2580%2599s%252Btrip%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVBGKvfoNAGIjC5BWkEE-PBA7dtHdyZe6hoazvV56tjHJhYvHiIK_XIB8snkBRiLT9dsOJqwQt5XUEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-warns-taiwan-against-declaring-independence-_20260516_0624.html
-✓ Created comprehensive article: trump-warns-taiwan-against-declaring-independence-_20260516_0624.html
+Successfully created file: russias-putin-to-visit-china-following-trumps-trip_20260516_0849.html
+✓ Created comprehensive article: russias-putin-to-visit-china-following-trumps-trip_20260516_0849.html
 
-Processing trending topic: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Searching Google for: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIslamic%252BState%252B%25E2%2580%2598second%252Bin%252Bcommand%25E2%2580%2599%252Bkilled%252Bby%252BUS%252Band%252BNigerian%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg-2AGKKboNAGIjAWVMX1I1E4a2lyvkPw1jLyHZjVqG6CCUx3mP4Uoyw3uKhbfyxUw9VJziE0cjdgEZEyBmpjbmRyUloBQw
+Processing trending topic: Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended
+Searching Google for: Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Bday%252B78%253A%252BTrump%252C%252BTehran%252Bsignal%252Btalks%252Bas%252BLebanon%252Btruce%252Bextended%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVBGLLfoNAGIjACQl3rAYfQqzNSsaPfbozFDgnwmcfEnPXxSX9Led4UP7cJ-wp5Fpl3d6RGilwsS1QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-islamic-state-second-in-command-killed-_20260516_0624.html
-✓ Created comprehensive article: trump-says-islamic-state-second-in-command-killed-_20260516_0624.html
+Successfully created file: iran-war-day-78-trump-tehran-signal-talks-as-leban_20260516_0849.html
+✓ Created comprehensive article: iran-war-day-78-trump-tehran-signal-talks-as-leban_20260516_0849.html
 
-Processing trending topic: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
-Searching Google for: Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOutbreak%252Bof%252Brare%252Bstrain%252Bof%252BEbola%252Bclaims%252Bat%252Bleast%252B65%252Blives%252Bin%252BDR%252BCongo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg-2AGKiboNAGIjDqbKsQ2yI1qxkrCz9clTVAZsG24z4o3qaYnD7LbjOi3NbYkBGgqv1Kadf_wUV5zrkyBmpjbmRyUloBQw
+Processing trending topic: Gunmen kidnap dozens of students in Nigeria’s Borno State
+Searching Google for: Gunmen kidnap dozens of students in Nigeria’s Borno State
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGunmen%252Bkidnap%252Bdozens%252Bof%252Bstudents%252Bin%252BNigeria%25E2%2580%2599s%252BBorno%252BState%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVBGLjfoNAGIjDB6REgEU1hmNx6rZenYW7PkyEGyFOlUuKAMT5TmDLBFCUWgKNloMcOIACn14Dc0E4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: outbreak-of-rare-strain-of-ebola-claims-at-least-6_20260516_0624.html
-✓ Created comprehensive article: outbreak-of-rare-strain-of-ebola-claims-at-least-6_20260516_0624.html
+Successfully created file: gunmen-kidnap-dozens-of-students-in-nigerias-borno_20260516_0850.html
+✓ Created comprehensive article: gunmen-kidnap-dozens-of-students-in-nigerias-borno_20260516_0850.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-artist-defends-drawings-against-genocide-after-_20260516_0356.html
-Cleaned old post to keep top 30 limit: israel-launches-deadly-air-strikes-on-gaza-city-ap_20260516_0356.html
-Cleaned old post to keep top 30 limit: gaza-aid-convoy-in-libya-prepares-to-head-to-gaza_20260516_0356.html
+Cleaned old post to keep top 30 limit: un-urges-equatorial-guinea-to-halt-plans-to-return_20260514_1153.html
+Cleaned old post to keep top 30 limit: outbreak-of-rare-strain-of-ebola-claims-at-least-6_20260516_0624.html
+Cleaned old post to keep top 30 limit: trump-says-islamic-state-second-in-command-killed-_20260516_0624.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump warns Taiwan against declaring independence, hours after summit with China's Xi
+   • Russia’s Putin to visit China following Trump’s trip
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
+   • Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended
      Sources: bbc.com, cnn.com, reuters.com
-   • Outbreak of rare strain of Ebola claims at least 65 lives in DR Congo
+   • Gunmen kidnap dozens of students in Nigeria’s Borno State
      Sources: bbc.com, cnn.com, reuters.com
