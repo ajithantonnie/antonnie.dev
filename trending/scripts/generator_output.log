@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The race to replace Starmer is on - but he still faces a momentous choice
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudanese army captures key town near Ethiopian border from RSF
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man City beat Chelsea in FA Cup final to keep treble dream alive
-Added expanded search topic: Sudanese army captures key town near Ethiopian border from RSF
-Added expanded search topic: Man City beat Chelsea in FA Cup final to keep treble dream alive
-Saved 30 topics for 2026-05-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK ex-health minister says will run to replace Prime Minister Keir Starmer
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera’s exclusive report from the Strait of Hormuz
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hamas confirms killing of Qassam Brigades leader in Israeli attack
+Added expanded search topic: UK ex-health minister says will run to replace Prime Minister Keir Starmer
+Added expanded search topic: Al Jazeera’s exclusive report from the Strait of Hormuz
+Added expanded search topic: Hamas confirms killing of Qassam Brigades leader in Israeli attack
+Saved 33 topics for 2026-05-16
 Returning 3 unique trending topics:
-  1. Tens of thousands join rival marches in London (from BBC News)
-  2. Sudanese army captures key town near Ethiopian border from RSF (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Man City beat Chelsea in FA Cup final to keep treble dream alive (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK ex-health minister says will run to replace Prime Minister Keir Starmer (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Al Jazeera’s exclusive report from the Strait of Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Hamas confirms killing of Qassam Brigades leader in Israeli attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Tens of thousands join rival marches in London
-Searching Google for: Tens of thousands join rival marches in London
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTens%252Bof%252Bthousands%252Bjoin%252Brival%252Bmarches%252Bin%252BLondon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvmZQGKTGotAGIjBXrtxKvpEy-K1Q-8QJfOgCLgu77T3F--2bsb67LqGOJybOQTUBn0sDgvq53UR8NQ4yAnJSWgFD
+Processing trending topic: UK ex-health minister says will run to replace Prime Minister Keir Starmer
+Searching Google for: UK ex-health minister says will run to replace Prime Minister Keir Starmer
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bex-health%252Bminister%252Bsays%252Bwill%252Brun%252Bto%252Breplace%252BPrime%252BMinister%252BKeir%252BStarmer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUU57wGNriotAGIjBSkhW3JisGIosKDjEz6GuPz-MKqFL4F5PAdcH3bBOkWjijXebAZ39Mcx5r0_mu7AcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tens-of-thousands-join-rival-marches-in-london_20260516_1702.html
-✓ Created comprehensive article: tens-of-thousands-join-rival-marches-in-london_20260516_1702.html
+Successfully created file: uk-ex-health-minister-says-will-run-to-replace-pri_20260516_1803.html
+✓ Created comprehensive article: uk-ex-health-minister-says-will-run-to-replace-pri_20260516_1803.html
 
-Processing trending topic: Sudanese army captures key town near Ethiopian border from RSF
-Searching Google for: Sudanese army captures key town near Ethiopian border from RSF
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudanese%252Barmy%252Bcaptures%252Bkey%252Btown%252Bnear%252BEthiopian%252Bborder%252Bfrom%252BRSF%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvmZQGLDGotAGIjDiwee_eYr9uqx39HiStQWV9cJpy7QlC0izu5YWkXKDBoHiJszqlhBMNZ0qZCKaXR8yAnJSWgFD
+Processing trending topic: Al Jazeera’s exclusive report from the Strait of Hormuz
+Searching Google for: Al Jazeera’s exclusive report from the Strait of Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%25E2%2580%2599s%252Bexclusive%252Breport%252Bfrom%252Bthe%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUU57wGOHiotAGIjB5x4p-RrCxLu0eE909x-_C7q3Jf1_loMkWxntWP1JK4MvOHqQQL-kkIL7W0-8byn8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sudanese-army-captures-key-town-near-ethiopian-bor_20260516_1702.html
-✓ Created comprehensive article: sudanese-army-captures-key-town-near-ethiopian-bor_20260516_1702.html
+Successfully created file: al-jazeeras-exclusive-report-from-the-strait-of-ho_20260516_1803.html
+✓ Created comprehensive article: al-jazeeras-exclusive-report-from-the-strait-of-ho_20260516_1803.html
 
-Processing trending topic: Man City beat Chelsea in FA Cup final to keep treble dream alive
-Searching Google for: Man City beat Chelsea in FA Cup final to keep treble dream alive
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252BCity%252Bbeat%252BChelsea%252Bin%252BFA%252BCup%252Bfinal%252Bto%252Bkeep%252Btreble%252Bdream%252Balive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvmZQGLbGotAGIjC32NO9tcLEQhxxFUrgcmm17W9tVDE9E-6bppIb1O2OpNBxq8P6OBcH1bjTrexSYAMyAnJSWgFD
+Processing trending topic: Hamas confirms killing of Qassam Brigades leader in Israeli attack
+Searching Google for: Hamas confirms killing of Qassam Brigades leader in Israeli attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamas%252Bconfirms%252Bkilling%252Bof%252BQassam%252BBrigades%252Bleader%252Bin%252BIsraeli%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUU57wGOfiotAGIjDGteY45JyULrt5mo6VP-XpwUJvyo0rj65pQq5578LB2AOjPtyAiUL_uW8IpnIqn7cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-city-beat-chelsea-in-fa-cup-final-to-keep-treb_20260516_1702.html
-✓ Created comprehensive article: man-city-beat-chelsea-in-fa-cup-final-to-keep-treb_20260516_1702.html
+Successfully created file: hamas-confirms-killing-of-qassam-brigades-leader-i_20260516_1803.html
+✓ Created comprehensive article: hamas-confirms-killing-of-qassam-brigades-leader-i_20260516_1803.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-international-law-cant-stop-mass-atrocities_20260514_1409.html
-Cleaned old post to keep top 30 limit: robert-lewandowski-to-leave-barcelona-with-his-mis_20260516_1601.html
-Cleaned old post to keep top 30 limit: how-thomas-massie-came-to-represent-republican-dis_20260516_1601.html
+Cleaned old post to keep top 30 limit: man-city-beat-chelsea-in-fa-cup-final-to-keep-treb_20260516_1702.html
+Cleaned old post to keep top 30 limit: sudanese-army-captures-key-town-near-ethiopian-bor_20260516_1702.html
+Cleaned old post to keep top 30 limit: tens-of-thousands-join-rival-marches-in-london_20260516_1702.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tens of thousands join rival marches in London
+   • UK ex-health minister says will run to replace Prime Minister Keir Starmer
      Sources: bbc.com, cnn.com, reuters.com
-   • Sudanese army captures key town near Ethiopian border from RSF
+   • Al Jazeera’s exclusive report from the Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Man City beat Chelsea in FA Cup final to keep treble dream alive
+   • Hamas confirms killing of Qassam Brigades leader in Israeli attack
      Sources: bbc.com, cnn.com, reuters.com
