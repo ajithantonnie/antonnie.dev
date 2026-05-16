@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Tens of thousands descend on London for rival protests
   Added: The race to replace Starmer is on - but he still faces a momentous choice
+  Added: Tens of thousands descend on London for rival protests
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moment of deadly train crash in Bangkok
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ultra-Orthodox conscription dispute pushes Israeli government to brink
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Amid the fertiliser crisis, Africa has a chemical-free option: Agroecology
-Added expanded search topic: Moment of deadly train crash in Bangkok
-Added expanded search topic: Ultra-Orthodox conscription dispute pushes Israeli government to brink
-Added expanded search topic: Amid the fertiliser crisis, Africa has a chemical-free option: Agroecology
-Saved 21 topics for 2026-05-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tens of thousands march in London in far-right and pro-Palestine protests
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zimbabwe’s diaspora reshapes real estate and farming investment trends
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico teachers threaten World Cup disruption over pay
+Added expanded search topic: Tens of thousands march in London in far-right and pro-Palestine protests
+Added expanded search topic: Zimbabwe’s diaspora reshapes real estate and farming investment trends
+Added expanded search topic: Mexico teachers threaten World Cup disruption over pay
+Saved 24 topics for 2026-05-16
 Returning 3 unique trending topics:
-  1. Moment of deadly train crash in Bangkok (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Ultra-Orthodox conscription dispute pushes Israeli government to brink (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Amid the fertiliser crisis, Africa has a chemical-free option: Agroecology (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Tens of thousands march in London in far-right and pro-Palestine protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Zimbabwe’s diaspora reshapes real estate and farming investment trends (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexico teachers threaten World Cup disruption over pay (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Moment of deadly train crash in Bangkok
-Searching Google for: Moment of deadly train crash in Bangkok
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoment%252Bof%252Bdeadly%252Btrain%252Bcrash%252Bin%252BBangkok%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DvyGP_eodAGIjDFBnhQUzUaTX4Q9vFNwrge4gaWOqCoUgfgTyNVYffQv12DjzXEylwbdy3hFOPPoooyBmpjbmRyUloBQw
+Processing trending topic: Tens of thousands march in London in far-right and pro-Palestine protests
+Searching Google for: Tens of thousands march in London in far-right and pro-Palestine protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTens%252Bof%252Bthousands%252Bmarch%252Bin%252BLondon%252Bin%252Bfar-right%252Band%252Bpro-Palestine%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ1VGO6MotAGIjB-fBwEiEf_6kdbQlN_RmRCzDU7LTDuYNO2fwnW-xf2jAPfnU6tjUyl7rc1MUbItiAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: moment-of-deadly-train-crash-in-bangkok_20260516_1322.html
-✓ Created comprehensive article: moment-of-deadly-train-crash-in-bangkok_20260516_1322.html
+Successfully created file: tens-of-thousands-march-in-london-in-far-right-and_20260516_1500.html
+✓ Created comprehensive article: tens-of-thousands-march-in-london-in-far-right-and_20260516_1500.html
 
-Processing trending topic: Ultra-Orthodox conscription dispute pushes Israeli government to brink
-Searching Google for: Ultra-Orthodox conscription dispute pushes Israeli government to brink
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUltra-Orthodox%252Bconscription%252Bdispute%252Bpushes%252BIsraeli%252Bgovernment%252Bto%252Bbrink%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DvyGIbfodAGIjCk62xrsNqSOHxZh_8LqPYCM1jnhCGi0KVci3bycfK5R9R-I-TyhUXbbdbk70Bo_KAyBmpjbmRyUloBQw
+Processing trending topic: Zimbabwe’s diaspora reshapes real estate and farming investment trends
+Searching Google for: Zimbabwe’s diaspora reshapes real estate and farming investment trends
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZimbabwe%25E2%2580%2599s%252Bdiaspora%252Breshapes%252Breal%252Bestate%252Band%252Bfarming%252Binvestment%252Btrends%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ1VGPSMotAGIjAOWCzu2x4vCeu6Mn-AyOi6LmbkDVaxFLDU5EqCAIZrNFE8prb4YM17FitOyNhpCPMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ultra-orthodox-conscription-dispute-pushes-israeli_20260516_1322.html
-✓ Created comprehensive article: ultra-orthodox-conscription-dispute-pushes-israeli_20260516_1322.html
+Successfully created file: zimbabwes-diaspora-reshapes-real-estate-and-farmin_20260516_1500.html
+✓ Created comprehensive article: zimbabwes-diaspora-reshapes-real-estate-and-farmin_20260516_1500.html
 
-Processing trending topic: Amid the fertiliser crisis, Africa has a chemical-free option: Agroecology
-Searching Google for: Amid the fertiliser crisis, Africa has a chemical-free option: Agroecology
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmid%252Bthe%252Bfertiliser%252Bcrisis%252C%252BAfrica%252Bhas%252Ba%252Bchemical-free%252Boption%253A%252BAgroecology%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DvyGIzfodAGIjCoW--WoyuanpZqNjYKQ4m8m_PmqiqTWwvu6ZGOLHA3kesbpiA4GQFfT_YIkFgUBewyBmpjbmRyUloBQw
+Processing trending topic: Mexico teachers threaten World Cup disruption over pay
+Searching Google for: Mexico teachers threaten World Cup disruption over pay
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bteachers%252Bthreaten%252BWorld%252BCup%252Bdisruption%252Bover%252Bpay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ1VGPqMotAGIjARFJp1QWlkb7tAvHDTLkZ7WEM8IWQRgV8DDz7G7NgiSfaj9oFnEYlOkoKD1NpLbHYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: amid-the-fertiliser-crisis-africa-has-a-chemical-f_20260516_1322.html
-✓ Created comprehensive article: amid-the-fertiliser-crisis-africa-has-a-chemical-f_20260516_1322.html
+Successfully created file: mexico-teachers-threaten-world-cup-disruption-over_20260516_1500.html
+✓ Created comprehensive article: mexico-teachers-threaten-world-cup-disruption-over_20260516_1500.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: how-rayner-streeting-and-burnham-weakened-pm-in-12_20260516_0003.html
-Cleaned old post to keep top 30 limit: tens-of-thousands-descend-on-london-for-rival-prot_20260516_1152.html
-Cleaned old post to keep top 30 limit: at-least-eight-killed-25-injured-as-train-hits-bus_20260516_1153.html
+Cleaned old post to keep top 30 limit: ultra-orthodox-conscription-dispute-pushes-israeli_20260516_1322.html
+Cleaned old post to keep top 30 limit: moment-of-deadly-train-crash-in-bangkok_20260516_1322.html
+Cleaned old post to keep top 30 limit: amid-the-fertiliser-crisis-africa-has-a-chemical-f_20260516_1322.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Moment of deadly train crash in Bangkok
+   • Tens of thousands march in London in far-right and pro-Palestine protests
      Sources: bbc.com, cnn.com, reuters.com
-   • Ultra-Orthodox conscription dispute pushes Israeli government to brink
+   • Zimbabwe’s diaspora reshapes real estate and farming investment trends
      Sources: bbc.com, cnn.com, reuters.com
-   • Amid the fertiliser crisis, Africa has a chemical-free option: Agroecology
+   • Mexico teachers threaten World Cup disruption over pay
      Sources: bbc.com, cnn.com, reuters.com
