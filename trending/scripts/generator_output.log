@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The UK is churning through leaders. Is the country becoming harder to govern?
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Timmy’ the rescued humpback whale confirmed dead
-Added expanded search topic: ‘Timmy’ the rescued humpback whale confirmed dead
-Saved 6 topics for 2026-05-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bulgaria wins Eurovision for first time; Israel comes second amid boycott
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sardar Azmoun left out as Iran announce World Cup 2026 squad
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Federal funding for Trump ballroom in trouble after Senate ruling
+Added expanded search topic: Bulgaria wins Eurovision for first time; Israel comes second amid boycott
+Added expanded search topic: Sardar Azmoun left out as Iran announce World Cup 2026 squad
+Added expanded search topic: Federal funding for Trump ballroom in trouble after Senate ruling
+Saved 9 topics for 2026-05-17
 Returning 3 unique trending topics:
-  1. The UK is churning through leaders. Is the country becoming harder to govern? (from BBC News)
-  2. Bangaranga! Bulgaria wins Eurovision - but UK comes last (from BBC News)
-  3. ‘Timmy’ the rescued humpback whale confirmed dead (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bulgaria wins Eurovision for first time; Israel comes second amid boycott (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sardar Azmoun left out as Iran announce World Cup 2026 squad (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Federal funding for Trump ballroom in trouble after Senate ruling (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: The UK is churning through leaders. Is the country becoming harder to govern?
-Searching Google for: The UK is churning through leaders. Is the country becoming harder to govern?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BUK%252Bis%252Bchurning%252Bthrough%252Bleaders.%252BIs%252Bthe%252Bcountry%252Bbecoming%252Bharder%252Bto%252Bgovern%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyLfwGJG-pdAGIjARki_Hp1NHyBPAQoIR0oeGzS-GPyFczKh-E03v_LIR72zt9BvTlq8u3H_njnb8nb8yAnJSWgFD
+Processing trending topic: Bulgaria wins Eurovision for first time; Israel comes second amid boycott
+Searching Google for: Bulgaria wins Eurovision for first time; Israel comes second amid boycott
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBulgaria%252Bwins%252BEurovision%252Bfor%252Bfirst%252Btime%253B%252BIsrael%252Bcomes%252Bsecond%252Bamid%252Bboycott%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4oBGMWKptAGIjBIDoAo2qCXx_m606_RJvRiMjncMACDytCPaGnyDQ4vD4JZBrb5O4vuorsY3unU_K0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-uk-is-churning-through-leaders-is-the-country-_20260517_0624.html
-✓ Created comprehensive article: the-uk-is-churning-through-leaders-is-the-country-_20260517_0624.html
+Successfully created file: bulgaria-wins-eurovision-for-first-time-israel-com_20260517_0907.html
+✓ Created comprehensive article: bulgaria-wins-eurovision-for-first-time-israel-com_20260517_0907.html
 
-Processing trending topic: Bangaranga! Bulgaria wins Eurovision - but UK comes last
-Searching Google for: Bangaranga! Bulgaria wins Eurovision - but UK comes last
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangaranga%2521%252BBulgaria%252Bwins%252BEurovision%252B-%252Bbut%252BUK%252Bcomes%252Blast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyLfwGJi-pdAGIjCmhpA4g3EnYtq-f7VVlXlydrxbf_UGGpb_ytLQJIpx8lrkziyXWtM7DT9W_abA9BEyAnJSWgFD
+Processing trending topic: Sardar Azmoun left out as Iran announce World Cup 2026 squad
+Searching Google for: Sardar Azmoun left out as Iran announce World Cup 2026 squad
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSardar%252BAzmoun%252Bleft%252Bout%252Bas%252BIran%252Bannounce%252BWorld%252BCup%252B2026%252Bsquad%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4oBGM2KptAGIjCb-tqC8la8AVB4IOZ0I3FYbZNYeryZiw1i6BkI1PldtaNWEHlfTYFENNYOK4yIz48yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bangaranga-bulgaria-wins-eurovision-but-uk-comes-l_20260517_0624.html
-✓ Created comprehensive article: bangaranga-bulgaria-wins-eurovision-but-uk-comes-l_20260517_0624.html
+Successfully created file: sardar-azmoun-left-out-as-iran-announce-world-cup-_20260517_0907.html
+✓ Created comprehensive article: sardar-azmoun-left-out-as-iran-announce-world-cup-_20260517_0907.html
 
-Processing trending topic: ‘Timmy’ the rescued humpback whale confirmed dead
-Searching Google for: ‘Timmy’ the rescued humpback whale confirmed dead
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Timmy%25E2%2580%2599%252Bthe%252Brescued%252Bhumpback%252Bwhale%252Bconfirmed%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyLfwGJ--pdAGIjBdN-iiOzLcT50wJJga-jIgfLF15wPposZqiCN8abeR70q8R40qSYEYtinglfDdmvwyAnJSWgFD
+Processing trending topic: Federal funding for Trump ballroom in trouble after Senate ruling
+Searching Google for: Federal funding for Trump ballroom in trouble after Senate ruling
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFederal%252Bfunding%252Bfor%252BTrump%252Bballroom%252Bin%252Btrouble%252Bafter%252BSenate%252Bruling%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4oBGNSKptAGIjCfimhh9_kgw9Y_MO-OdC9qNRX_vr7f3vdV3YvLH84QbIG8lb24M966uh6WJCcBMFUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: timmy-the-rescued-humpback-whale-confirmed-dead_20260517_0624.html
-✓ Created comprehensive article: timmy-the-rescued-humpback-whale-confirmed-dead_20260517_0624.html
+Successfully created file: federal-funding-for-trump-ballroom-in-trouble-afte_20260517_0907.html
+✓ Created comprehensive article: federal-funding-for-trump-ballroom-in-trouble-afte_20260517_0907.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: streeting-says-he-would-join-leadership-race-as-bu_20260516_1921.html
-Cleaned old post to keep top 30 limit: labour-leadership-jostling-puts-brexit-back-under-_20260517_0256.html
-Cleaned old post to keep top 30 limit: is-it-harder-than-ever-to-be-prime-minister_20260517_0256.html
+Cleaned old post to keep top 30 limit: what-does-makerfield-make-of-by-election-and-can-b_20260515_1653.html
+Cleaned old post to keep top 30 limit: the-uk-is-churning-through-leaders-is-the-country-_20260517_0624.html
+Cleaned old post to keep top 30 limit: bangaranga-bulgaria-wins-eurovision-but-uk-comes-l_20260517_0624.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • The UK is churning through leaders. Is the country becoming harder to govern?
+   • Bulgaria wins Eurovision for first time; Israel comes second amid boycott
      Sources: bbc.com, cnn.com, reuters.com
-   • Bangaranga! Bulgaria wins Eurovision - but UK comes last
+   • Sardar Azmoun left out as Iran announce World Cup 2026 squad
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Timmy’ the rescued humpback whale confirmed dead
+   • Federal funding for Trump ballroom in trouble after Senate ruling
      Sources: bbc.com, cnn.com, reuters.com
