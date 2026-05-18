@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Personal decision for Starmer on whether to fight leadership contest, minister says
+  Added: UK companies linked to payments for small-boat crossings, BBC finds
   Added: 'All I thought about was running for my life': Footballer recalls train stabbing attack
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-18
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war day 80: Trump issues warning; Tehran ready to confront aggression
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Earthquake hits southern China, toppling buildings
+Added expanded search topic: Iran war day 80: Trump issues warning; Tehran ready to confront aggression
+Added expanded search topic: Earthquake hits southern China, toppling buildings
+Saved 6 topics for 2026-05-18
 Returning 3 unique trending topics:
-  1. Personal decision for Starmer on whether to fight leadership contest, minister says (from BBC News)
-  2. 'All I thought about was running for my life': Footballer recalls train stabbing attack (from BBC News)
-  3. Trump says Islamic State ‘second in command’ killed by US and Nigerian forces (from The Guardian)
+  1. UK companies linked to payments for small-boat crossings, BBC finds (from BBC News)
+  2. Iran war day 80: Trump issues warning; Tehran ready to confront aggression (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Earthquake hits southern China, toppling buildings (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Personal decision for Starmer on whether to fight leadership contest, minister says
-Searching Google for: Personal decision for Starmer on whether to fight leadership contest, minister says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPersonal%252Bdecision%252Bfor%252BStarmer%252Bon%252Bwhether%252Bto%252Bfight%252Bleadership%252Bcontest%252C%252Bminister%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raJgGNiSqtAGIjA4fwGuETDDbitgYjb68seqSykbDwISJONQ4JLX_geNUjETGL_7WP39z7PMhHHHYiUyBmpjbmRyUloBQw
+Processing trending topic: UK companies linked to payments for small-boat crossings, BBC finds
+Searching Google for: UK companies linked to payments for small-boat crossings, BBC finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bcompanies%252Blinked%252Bto%252Bpayments%252Bfor%252Bsmall-boat%252Bcrossings%252C%252BBBC%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUaudHGNmPq9AGIjCFpKaX0gB3uIfefn2fm3XVaG5GsZ04SiENfTnEUtA4r9qS6oPUEAWizS3vR9Vwr2AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: personal-decision-for-starmer-on-whether-to-fight-_20260518_0337.html
-✓ Created comprehensive article: personal-decision-for-starmer-on-whether-to-fight-_20260518_0337.html
+Successfully created file: uk-companies-linked-to-payments-for-small-boat-cro_20260518_0803.html
+✓ Created comprehensive article: uk-companies-linked-to-payments-for-small-boat-cro_20260518_0803.html
 
-Processing trending topic: 'All I thought about was running for my life': Footballer recalls train stabbing attack
-Searching Google for: 'All I thought about was running for my life': Footballer recalls train stabbing attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527All%252BI%252Bthought%252Babout%252Bwas%252Brunning%252Bfor%252Bmy%252Blife%2527%253A%252BFootballer%252Brecalls%252Btrain%252Bstabbing%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raJgGN-SqtAGIjBiz4NXO71BcNDdcUnkoHUP-EDprBZSFvfy4N7cO_o6Ir-yk2U_SBakfz7vCAdL45UyBmpjbmRyUloBQw
+Processing trending topic: Iran war day 80: Trump issues warning; Tehran ready to confront aggression
+Searching Google for: Iran war day 80: Trump issues warning; Tehran ready to confront aggression
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Bday%252B80%253A%252BTrump%252Bissues%252Bwarning%253B%252BTehran%252Bready%252Bto%252Bconfront%252Baggression%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUaudHGOCPq9AGIjA6rEUGm60VYNKK32-eYoAJ2tdY6b7kXmKXxzmGa933Zw5_-nXOqUC1dfU3_gao8H4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: all-i-thought-about-was-running-for-my-life-footba_20260518_0337.html
-✓ Created comprehensive article: all-i-thought-about-was-running-for-my-life-footba_20260518_0337.html
+Successfully created file: iran-war-day-80-trump-issues-warning-tehran-ready-_20260518_0803.html
+✓ Created comprehensive article: iran-war-day-80-trump-issues-warning-tehran-ready-_20260518_0803.html
 
-Processing trending topic: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Searching Google for: Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIslamic%252BState%252B%25E2%2580%2598second%252Bin%252Bcommand%25E2%2580%2599%252Bkilled%252Bby%252BUS%252Band%252BNigerian%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0raJgGOaSqtAGIjA405zZLs4aDTR9tfadVSlM6iC55c6cU7eOI5b2wWrXoFV475IDyP2ZX3aN7wqmiuMyBmpjbmRyUloBQw
+Processing trending topic: Earthquake hits southern China, toppling buildings
+Searching Google for: Earthquake hits southern China, toppling buildings
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEarthquake%252Bhits%252Bsouthern%252BChina%252C%252Btoppling%252Bbuildings%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUaudHGOaPq9AGIjDv5V-k5YRB6CVkitfkqYarG_Ptdrku0HKdM-lVM7eYnEeKbXb6J0uYX-jxRu6fl9AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-islamic-state-second-in-command-killed-_20260518_0337.html
-✓ Created comprehensive article: trump-says-islamic-state-second-in-command-killed-_20260518_0337.html
+Successfully created file: earthquake-hits-southern-china-toppling-buildings_20260518_0803.html
+✓ Created comprehensive article: earthquake-hits-southern-china-toppling-buildings_20260518_0803.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-holds-prayer-rally-to-rededicate-us-as-one-n_20260518_0000.html
-Cleaned old post to keep top 30 limit: trump-warns-clock-is-ticking-for-iran-as-peace-pro_20260517_2359.html
-Cleaned old post to keep top 30 limit: pakistan-interior-minister-holds-talks-with-irania_20260517_2359.html
+Cleaned old post to keep top 30 limit: trump-says-islamic-state-second-in-command-killed-_20260518_0337.html
+Cleaned old post to keep top 30 limit: personal-decision-for-starmer-on-whether-to-fight-_20260518_0337.html
+Cleaned old post to keep top 30 limit: all-i-thought-about-was-running-for-my-life-footba_20260518_0337.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Personal decision for Starmer on whether to fight leadership contest, minister says
+   • UK companies linked to payments for small-boat crossings, BBC finds
      Sources: bbc.com, cnn.com, reuters.com
-   • 'All I thought about was running for my life': Footballer recalls train stabbing attack
+   • Iran war day 80: Trump issues warning; Tehran ready to confront aggression
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says Islamic State ‘second in command’ killed by US and Nigerian forces
+   • Earthquake hits southern China, toppling buildings
      Sources: bbc.com, cnn.com, reuters.com
