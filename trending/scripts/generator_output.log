@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Married at First Sight UK brides tell BBC they were raped by on-screen husbands
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘It is heartbreaking’: panic in eastern DRC over return of Ebola
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Somaliland marks first Independence Day following Israeli recognition
-Added expanded search topic: Somaliland marks first Independence Day following Israeli recognition
-Saved 15 topics for 2026-05-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Police say they are responding to ‘active shooter’ at San Diego mosque
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Some change, but much more of the same in Palestinian Fatah elections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: First Somaliland ambassador to Israel presents his credentials
+Added expanded search topic: Police say they are responding to ‘active shooter’ at San Diego mosque
+Added expanded search topic: Some change, but much more of the same in Palestinian Fatah elections
+Added expanded search topic: First Somaliland ambassador to Israel presents his credentials
+Saved 18 topics for 2026-05-18
 Returning 3 unique trending topics:
-  1. Burnham pledges not to 're-run' Brexit arguments (from BBC News)
-  2. ‘It is heartbreaking’: panic in eastern DRC over return of Ebola (from The Guardian)
-  3. Somaliland marks first Independence Day following Israeli recognition (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Police say they are responding to ‘active shooter’ at San Diego mosque (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Some change, but much more of the same in Palestinian Fatah elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. First Somaliland ambassador to Israel presents his credentials (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham pledges not to 're-run' Brexit arguments
-Searching Google for: Burnham pledges not to 're-run' Brexit arguments
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bpledges%252Bnot%252Bto%252B%2527re-run%2527%252BBrexit%252Barguments%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JkSGLHArdAGIjD8OR3NJPJT_wT-0O4s082sPAqrwANehSYwb-BG22cTrXl7GNtOo1HetsjJ6LV2hO8yBmpjbmRyUloBQw
+Processing trending topic: Police say they are responding to ‘active shooter’ at San Diego mosque
+Searching Google for: Police say they are responding to ‘active shooter’ at San Diego mosque
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bsay%252Bthey%252Bare%252Bresponding%252Bto%252B%25E2%2580%2598active%252Bshooter%25E2%2580%2599%252Bat%252BSan%252BDiego%252Bmosque%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNjGOnrrdAGIjDwB9hOgdr-4j1pk8TI3tZcHRdnRsvzyjiHv3fXf2lx8NLHJ3YrIvo6yBTNn9H3MNYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-pledges-not-to-re-run-brexit-arguments_20260518_1853.html
-✓ Created comprehensive article: burnham-pledges-not-to-re-run-brexit-arguments_20260518_1853.html
+Successfully created file: police-say-they-are-responding-to-active-shooter-a_20260518_2026.html
+✓ Created comprehensive article: police-say-they-are-responding-to-active-shooter-a_20260518_2026.html
 
-Processing trending topic: ‘It is heartbreaking’: panic in eastern DRC over return of Ebola
-Searching Google for: ‘It is heartbreaking’: panic in eastern DRC over return of Ebola
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598It%252Bis%252Bheartbreaking%25E2%2580%2599%253A%252Bpanic%252Bin%252Beastern%252BDRC%252Bover%252Breturn%252Bof%252BEbola%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JkSGLnArdAGIjA28xMmC251W3b4lg02nKeWBbbnlTo5H31IuaWscmWVRe4Gf8lQ9HWOdH6sw7aMZTAyBmpjbmRyUloBQw
+Processing trending topic: Some change, but much more of the same in Palestinian Fatah elections
+Searching Google for: Some change, but much more of the same in Palestinian Fatah elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSome%252Bchange%252C%252Bbut%252Bmuch%252Bmore%252Bof%252Bthe%252Bsame%252Bin%252BPalestinian%252BFatah%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNjGPDrrdAGIjCPOxQek53Md9y81dyuWlvrmZ8hZ4SYaNuAUrOf7ouxfcCIWNvEZa-i1lp6F7EbYBEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: it-is-heartbreaking-panic-in-eastern-drc-over-retu_20260518_1853.html
-✓ Created comprehensive article: it-is-heartbreaking-panic-in-eastern-drc-over-retu_20260518_1853.html
+Successfully created file: some-change-but-much-more-of-the-same-in-palestini_20260518_2026.html
+✓ Created comprehensive article: some-change-but-much-more-of-the-same-in-palestini_20260518_2026.html
 
-Processing trending topic: Somaliland marks first Independence Day following Israeli recognition
-Searching Google for: Somaliland marks first Independence Day following Israeli recognition
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSomaliland%252Bmarks%252Bfirst%252BIndependence%252BDay%252Bfollowing%252BIsraeli%252Brecognition%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JkSGL_ArdAGIjCA-2pYDiDGo97NuwewwssGEAqsfSWYWnYjNl54oV0FQ8afT7mnxmTmNfri0yJTragyBmpjbmRyUloBQw
+Processing trending topic: First Somaliland ambassador to Israel presents his credentials
+Searching Google for: First Somaliland ambassador to Israel presents his credentials
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252BSomaliland%252Bambassador%252Bto%252BIsrael%252Bpresents%252Bhis%252Bcredentials%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNjGPbrrdAGIjD-ch-CKHrW7wYrtPd_q-GfH5UpQdjDUxFwLGFrc7n3iCLAoyWKwh23ja7HF_bfK4QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: somaliland-marks-first-independence-day-following-_20260518_1853.html
-✓ Created comprehensive article: somaliland-marks-first-independence-day-following-_20260518_1853.html
+Successfully created file: first-somaliland-ambassador-to-israel-presents-his_20260518_2026.html
+✓ Created comprehensive article: first-somaliland-ambassador-to-israel-presents-his_20260518_2026.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-companies-linked-to-payments-for-small-boat-cro_20260518_1231.html
-Cleaned old post to keep top 30 limit: pm-insists-he-will-not-walk-away-as-burnham-promis_20260518_1624.html
-Cleaned old post to keep top 30 limit: belgian-ex-diplomat-dies-before-standing-trial-ove_20260518_1624.html
+Cleaned old post to keep top 30 limit: married-at-first-sight-uk-brides-tell-bbc-they-wer_20260518_1624.html
+Cleaned old post to keep top 30 limit: somaliland-marks-first-independence-day-following-_20260518_1853.html
+Cleaned old post to keep top 30 limit: burnham-pledges-not-to-re-run-brexit-arguments_20260518_1853.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham pledges not to 're-run' Brexit arguments
+   • Police say they are responding to ‘active shooter’ at San Diego mosque
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘It is heartbreaking’: panic in eastern DRC over return of Ebola
+   • Some change, but much more of the same in Palestinian Fatah elections
      Sources: bbc.com, cnn.com, reuters.com
-   • Somaliland marks first Independence Day following Israeli recognition
+   • First Somaliland ambassador to Israel presents his credentials
      Sources: bbc.com, cnn.com, reuters.com
