@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Surrey Police investigating child sex abuse allegations after Epstein files release
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Rubio criticizes WHO’s Ebola response as US continues sweeping public health cuts
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 18 topics for 2026-05-19
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Norway journalist calls out Modi over avoiding media questions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Does Ukraine have the advantage at the moment?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Southampton expelled from world’s most lucrative football match for spying
+Added expanded search topic: Norway journalist calls out Modi over avoiding media questions
+Added expanded search topic: Does Ukraine have the advantage at the moment?
+Added expanded search topic: Southampton expelled from world’s most lucrative football match for spying
+Saved 21 topics for 2026-05-19
 Returning 3 unique trending topics:
-  1. Surrey Police investigating child sex abuse allegations after Epstein files release (from BBC News)
-  2. Channel 4 contacted by police after Married at First Sight UK rape claims (from BBC News)
-  3. Rubio criticizes WHO’s Ebola response as US continues sweeping public health cuts (from The Guardian)
+  1. Norway journalist calls out Modi over avoiding media questions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Does Ukraine have the advantage at the moment? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Southampton expelled from world’s most lucrative football match for spying (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Surrey Police investigating child sex abuse allegations after Epstein files release
-Searching Google for: Surrey Police investigating child sex abuse allegations after Epstein files release
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurrey%252BPolice%252Binvestigating%252Bchild%252Bsex%252Babuse%252Ballegations%252Bafter%252BEpstein%252Bfiles%252Brelease%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq7wGJvnstAGIjAFeSdaxpD7BsO6FFXF1Z2O9erPIWkp3SqNqU6AevTCtmMmPcEggV0KlgTaI55SMx8yBmpjbmRyUloBQw
+Processing trending topic: Norway journalist calls out Modi over avoiding media questions
+Searching Google for: Norway journalist calls out Modi over avoiding media questions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorway%252Bjournalist%252Bcalls%252Bout%252BModi%252Bover%252Bavoiding%252Bmedia%252Bquestions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNy6kGJSas9AGIjD9QcJ_jWEmahtwy5WUK13s6VpYQYIlQQ3rlHdErEBDgA-TywcAz0l6ifs4Us0lKAUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: surrey-police-investigating-child-sex-abuse-allega_20260519_1901.html
-✓ Created comprehensive article: surrey-police-investigating-child-sex-abuse-allega_20260519_1901.html
+Successfully created file: norway-journalist-calls-out-modi-over-avoiding-med_20260519_2050.html
+✓ Created comprehensive article: norway-journalist-calls-out-modi-over-avoiding-med_20260519_2050.html
 
-Processing trending topic: Channel 4 contacted by police after Married at First Sight UK rape claims
-Searching Google for: Channel 4 contacted by police after Married at First Sight UK rape claims
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChannel%252B4%252Bcontacted%252Bby%252Bpolice%252Bafter%252BMarried%252Bat%252BFirst%252BSight%252BUK%252Brape%252Bclaims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq7wGKLnstAGIjCFSGqT1ncDflqfBVPAgy2RWWR-R8dNGY1WRv1jR2_5-0vj6Ua1ubdjuKUYXNd0BrAyBmpjbmRyUloBQw
+Processing trending topic: Does Ukraine have the advantage at the moment?
+Searching Google for: Does Ukraine have the advantage at the moment?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDoes%252BUkraine%252Bhave%252Bthe%252Badvantage%252Bat%252Bthe%252Bmoment%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNy6kGJuas9AGIjB-Gev4beKJUm5Sk1uQRoMGYFOXkeS6VxN-H-cHjkBYSxdoBRqniJlaWU0AIzqBIw8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: channel-4-contacted-by-police-after-married-at-fir_20260519_1901.html
-✓ Created comprehensive article: channel-4-contacted-by-police-after-married-at-fir_20260519_1901.html
+Successfully created file: does-ukraine-have-the-advantage-at-the-moment_20260519_2050.html
+✓ Created comprehensive article: does-ukraine-have-the-advantage-at-the-moment_20260519_2050.html
 
-Processing trending topic: Rubio criticizes WHO’s Ebola response as US continues sweeping public health cuts
-Searching Google for: Rubio criticizes WHO’s Ebola response as US continues sweeping public health cuts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%252Bcriticizes%252BWHO%25E2%2580%2599s%252BEbola%252Bresponse%252Bas%252BUS%252Bcontinues%252Bsweeping%252Bpublic%252Bhealth%252Bcuts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq7wGKjnstAGIjD6qT3POEq5onEdyXXyiUpHZGFoafj9DKZJhq9GbbLVII4tmjxA_PUgrkhOTTybf0syBmpjbmRyUloBQw
+Processing trending topic: Southampton expelled from world’s most lucrative football match for spying
+Searching Google for: Southampton expelled from world’s most lucrative football match for spying
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouthampton%252Bexpelled%252Bfrom%252Bworld%25E2%2580%2599s%252Bmost%252Blucrative%252Bfootball%252Bmatch%252Bfor%252Bspying%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNy6kGKGas9AGIjDk6O0FvK7TH5XnEzBNIGkg1LUpYfZdrykJTLVuRYxue_Fe0MfIOkaZldi0NRQow6QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rubio-criticizes-whos-ebola-response-as-us-continu_20260519_1902.html
-✓ Created comprehensive article: rubio-criticizes-whos-ebola-response-as-us-continu_20260519_1902.html
+Successfully created file: southampton-expelled-from-worlds-most-lucrative-fo_20260519_2050.html
+✓ Created comprehensive article: southampton-expelled-from-worlds-most-lucrative-fo_20260519_2050.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: married-at-first-sight-uk-rape-allegations-serious_20260519_0835.html
-Cleaned old post to keep top 30 limit: married-at-first-sight-uk-rape-allegations-extreme_20260519_1621.html
-Cleaned old post to keep top 30 limit: hs2-could-cost-up-to-1027bn-and-trains-will-be-slo_20260519_1621.html
+Cleaned old post to keep top 30 limit: who-considers-use-of-experimental-vaccines-as-ebol_20260519_1621.html
+Cleaned old post to keep top 30 limit: surrey-police-investigating-child-sex-abuse-allega_20260519_1901.html
+Cleaned old post to keep top 30 limit: channel-4-contacted-by-police-after-married-at-fir_20260519_1901.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Surrey Police investigating child sex abuse allegations after Epstein files release
+   • Norway journalist calls out Modi over avoiding media questions
      Sources: bbc.com, cnn.com, reuters.com
-   • Channel 4 contacted by police after Married at First Sight UK rape claims
+   • Does Ukraine have the advantage at the moment?
      Sources: bbc.com, cnn.com, reuters.com
-   • Rubio criticizes WHO’s Ebola response as US continues sweeping public health cuts
+   • Southampton expelled from world’s most lucrative football match for spying
      Sources: bbc.com, cnn.com, reuters.com
