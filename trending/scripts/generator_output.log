@@ -1,65 +1,73 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Women who died in sea off Brighton were sisters
   Added: Russian jets 'dangerously' intercept RAF spy plane over Black Sea
+  Added: Women who died in sea off Brighton were sisters
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US doctor who contracted Ebola in DRC flown to Germany for treatment
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 15 topics for 2026-05-20
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US indicts Cuba’s former leader Raul Castro: Why it matters
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US indicts Cuba’s Raul Castro over 1996 plane downing
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sierra Leone receives first group of West African deportees from US
+Added expanded search topic: US indicts Cuba’s former leader Raul Castro: Why it matters
+Added expanded search topic: US indicts Cuba’s Raul Castro over 1996 plane downing
+Added expanded search topic: Sierra Leone receives first group of West African deportees from US
+Saved 18 topics for 2026-05-20
 Returning 3 unique trending topics:
-  1. Women who died in sea off Brighton were sisters (from BBC News)
-  2. Russian jets 'dangerously' intercept RAF spy plane over Black Sea (from BBC News)
-  3. US doctor who contracted Ebola in DRC flown to Germany for treatment (from The Guardian)
+  1. US indicts Cuba’s former leader Raul Castro: Why it matters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US indicts Cuba’s Raul Castro over 1996 plane downing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Sierra Leone receives first group of West African deportees from US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Women who died in sea off Brighton were sisters
-Searching Google for: Women who died in sea off Brighton were sisters
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWomen%252Bwho%252Bdied%252Bin%252Bsea%252Boff%252BBrighton%252Bwere%252Bsisters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnbyGMrCt9AGIjBIencGlpAPrTSy5GSA30SF6pLXporv6oOIzUvU__EfXpOYWe4PN0Pnb4L9s3jR1XEyBmpjbmRyUloBQw
+Processing trending topic: US indicts Cuba’s former leader Raul Castro: Why it matters
+Searching Google for: US indicts Cuba’s former leader Raul Castro: Why it matters
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: women-who-died-in-sea-off-brighton-were-sisters_20260520_1629.html
-✓ Created comprehensive article: women-who-died-in-sea-off-brighton-were-sisters_20260520_1629.html
+Successfully created file: us-indicts-cubas-former-leader-raul-castro-why-it-_20260520_1925.html
+✓ Created comprehensive article: us-indicts-cubas-former-leader-raul-castro-why-it-_20260520_1925.html
 
-Processing trending topic: Russian jets 'dangerously' intercept RAF spy plane over Black Sea
-Searching Google for: Russian jets 'dangerously' intercept RAF spy plane over Black Sea
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bjets%252B%2527dangerously%2527%252Bintercept%252BRAF%252Bspy%252Bplane%252Bover%252BBlack%252BSea%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnbyGNHCt9AGIjD_NopVuwYSFR_-EbhnxG8K608-NRFlTdkJM-r58PNDRVX4_FMqFiKUXPEN51Bg7N8yBmpjbmRyUloBQw
+Processing trending topic: US indicts Cuba’s Raul Castro over 1996 plane downing
+Searching Google for: US indicts Cuba’s Raul Castro over 1996 plane downing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bindicts%252BCuba%25E2%2580%2599s%252BRaul%252BCastro%252Bover%252B1996%252Bplane%252Bdowning%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsPqGIaWuNAGIjDGsXyFnIyGllizyIzvhFpj5K4mlAKDt0JGMcZ8vvO7V_PIUGpkFqbWDEJEnD3GxFkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russian-jets-dangerously-intercept-raf-spy-plane-o_20260520_1629.html
-✓ Created comprehensive article: russian-jets-dangerously-intercept-raf-spy-plane-o_20260520_1629.html
+Successfully created file: us-indicts-cubas-raul-castro-over-1996-plane-downi_20260520_1927.html
+✓ Created comprehensive article: us-indicts-cubas-raul-castro-over-1996-plane-downi_20260520_1927.html
 
-Processing trending topic: US doctor who contracted Ebola in DRC flown to Germany for treatment
-Searching Google for: US doctor who contracted Ebola in DRC flown to Germany for treatment
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdoctor%252Bwho%252Bcontracted%252BEbola%252Bin%252BDRC%252Bflown%252Bto%252BGermany%252Bfor%252Btreatment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnbyGNfCt9AGIjCOqWFLOfsJufEpwiQxge-5dxRNXfxkTw2Cdzc-fmybTma8k-_c2UBwrH7KHS2KWsMyBmpjbmRyUloBQw
+Processing trending topic: Sierra Leone receives first group of West African deportees from US
+Searching Google for: Sierra Leone receives first group of West African deportees from US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSierra%252BLeone%252Breceives%252Bfirst%252Bgroup%252Bof%252BWest%252BAfrican%252Bdeportees%252Bfrom%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsPqGI2WuNAGIjDyd5SFkwCghDxjtSdFTps6OVgTJlPSQ3-SvceY3qsMLRNyux16p4POHi7CJ5nOO6QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-doctor-who-contracted-ebola-in-drc-flown-to-ger_20260520_1629.html
-✓ Created comprehensive article: us-doctor-who-contracted-ebola-in-drc-flown-to-ger_20260520_1629.html
+Successfully created file: sierra-leone-receives-first-group-of-west-african-_20260520_1927.html
+✓ Created comprehensive article: sierra-leone-receives-first-group-of-west-african-_20260520_1927.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-critic-thomas-massie-loses-kentucky-primary-_20260520_1225.html
-Cleaned old post to keep top 30 limit: womens-football-coach-who-secretly-filmed-players-_20260520_0932.html
-Cleaned old post to keep top 30 limit: channel-4-boss-deeply-sorry-over-mafs-uk-rape-alle_20260520_1225.html
+Cleaned old post to keep top 30 limit: us-doctor-who-contracted-ebola-in-drc-flown-to-ger_20260520_1629.html
+Cleaned old post to keep top 30 limit: women-who-died-in-sea-off-brighton-were-sisters_20260520_1629.html
+Cleaned old post to keep top 30 limit: russian-jets-dangerously-intercept-raf-spy-plane-o_20260520_1629.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Women who died in sea off Brighton were sisters
+   • US indicts Cuba’s former leader Raul Castro: Why it matters
      Sources: bbc.com, cnn.com, reuters.com
-   • Russian jets 'dangerously' intercept RAF spy plane over Black Sea
+   • US indicts Cuba’s Raul Castro over 1996 plane downing
      Sources: bbc.com, cnn.com, reuters.com
-   • US doctor who contracted Ebola in DRC flown to Germany for treatment
+   • Sierra Leone receives first group of West African deportees from US
      Sources: bbc.com, cnn.com, reuters.com
