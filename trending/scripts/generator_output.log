@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Cheaper theme park tickets and children's meals as VAT to be cut for some attractions this summer
@@ -8,58 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Macron under pressure over reparatory justice for France’s role in slave trade
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-05-21
+  Added: Ebola: US ban on travellers from DRC, Uganda or South Sudan ‘not the solution’
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Net migration to the UK falls by nearly 50 percent amid tighter policies
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mayor cuts limited World Cup tickets for New Yorkers to $50 after furore
+Added expanded search topic: Net migration to the UK falls by nearly 50 percent amid tighter policies
+Added expanded search topic: Mayor cuts limited World Cup tickets for New Yorkers to $50 after furore
+Saved 15 topics for 2026-05-21
 Returning 3 unique trending topics:
-  1. Cheaper theme park tickets and children's meals as VAT to be cut for some attractions this summer (from BBC News)
-  2. Late Queen was 'very keen' for Andrew to be given trade envoy role (from BBC News)
-  3. Macron under pressure over reparatory justice for France’s role in slave trade (from The Guardian)
+  1. Ebola: US ban on travellers from DRC, Uganda or South Sudan ‘not the solution’ (from The Guardian)
+  2. Net migration to the UK falls by nearly 50 percent amid tighter policies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mayor cuts limited World Cup tickets for New Yorkers to $50 after furore (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Cheaper theme park tickets and children's meals as VAT to be cut for some attractions this summer
-Searching Google for: Cheaper theme park tickets and children's meals as VAT to be cut for some attractions this summer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCheaper%252Btheme%252Bpark%252Btickets%252Band%252Bchildren%2527s%252Bmeals%252Bas%252BVAT%252Bto%252Bbe%252Bcut%252Bfor%252Bsome%252Battractions%252Bthis%252Bsummer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd18YGObGvNAGIjAuqZ0MRp9FL0Wsmz_fLilT42f2zuKzrTCYA1IcUaBg7PicjTi49YYqjPQ4BhkPhpcyBmpjbmRyUloBQw
+Processing trending topic: Ebola: US ban on travellers from DRC, Uganda or South Sudan ‘not the solution’
+Searching Google for: Ebola: US ban on travellers from DRC, Uganda or South Sudan ‘not the solution’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%253A%252BUS%252Bban%252Bon%252Btravellers%252Bfrom%252BDRC%252C%252BUganda%252Bor%252BSouth%252BSudan%252B%25E2%2580%2598not%252Bthe%252Bsolution%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVFGM-PvdAGIjACoQNsejmWEAYqJu4UKQVXl78-AXCpkFNmI09lQ1YSVkg2aVuoytJjy7BkPxL3gpYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cheaper-theme-park-tickets-and-childrens-meals-as-_20260521_1523.html
-✓ Created comprehensive article: cheaper-theme-park-tickets-and-childrens-meals-as-_20260521_1523.html
+Successfully created file: ebola-us-ban-on-travellers-from-drc-uganda-or-sout_20260521_1758.html
+✓ Created comprehensive article: ebola-us-ban-on-travellers-from-drc-uganda-or-sout_20260521_1758.html
 
-Processing trending topic: Late Queen was 'very keen' for Andrew to be given trade envoy role
-Searching Google for: Late Queen was 'very keen' for Andrew to be given trade envoy role
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLate%252BQueen%252Bwas%252B%2527very%252Bkeen%2527%252Bfor%252BAndrew%252Bto%252Bbe%252Bgiven%252Btrade%252Benvoy%252Brole%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd18YGO3GvNAGIjDcOmEXGggXA9phonIBc5v2-8volYJQV1jiXvup1yFcgjLaFbz8Ct4FfI0Qgz6wtV0yBmpjbmRyUloBQw
+Processing trending topic: Net migration to the UK falls by nearly 50 percent amid tighter policies
+Searching Google for: Net migration to the UK falls by nearly 50 percent amid tighter policies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNet%252Bmigration%252Bto%252Bthe%252BUK%252Bfalls%252Bby%252Bnearly%252B50%252Bpercent%252Bamid%252Btighter%252Bpolicies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVFGNaPvdAGIjAHuWOQhdmbgi1oV15aefb_9cGS90rsYN6lj-vfUCsyssDPliP9kD6HKNh6Jgw-NM0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: late-queen-was-very-keen-for-andrew-to-be-given-tr_20260521_1523.html
-✓ Created comprehensive article: late-queen-was-very-keen-for-andrew-to-be-given-tr_20260521_1523.html
+Successfully created file: net-migration-to-the-uk-falls-by-nearly-50-percent_20260521_1758.html
+✓ Created comprehensive article: net-migration-to-the-uk-falls-by-nearly-50-percent_20260521_1758.html
 
-Processing trending topic: Macron under pressure over reparatory justice for France’s role in slave trade
-Searching Google for: Macron under pressure over reparatory justice for France’s role in slave trade
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMacron%252Bunder%252Bpressure%252Bover%252Breparatory%252Bjustice%252Bfor%252BFrance%25E2%2580%2599s%252Brole%252Bin%252Bslave%252Btrade%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd18YGPPGvNAGIjAI581fxlJw6KKj_j-3FaaU3fXlAKMXOKCgwotgYmPlhra56H7h00yIdQT72yHaUdoyBmpjbmRyUloBQw
+Processing trending topic: Mayor cuts limited World Cup tickets for New Yorkers to $50 after furore
+Searching Google for: Mayor cuts limited World Cup tickets for New Yorkers to $50 after furore
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMayor%252Bcuts%252Blimited%252BWorld%252BCup%252Btickets%252Bfor%252BNew%252BYorkers%252Bto%252B%252450%252Bafter%252Bfurore%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVFGNyPvdAGIjCJeRSv3F8Gl5PsVHHumBCSgYbGASF-LY6aPcUXNUNPRjZ8wryXLK1OjDDPgjRznjUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: macron-under-pressure-over-reparatory-justice-for-_20260521_1523.html
-✓ Created comprehensive article: macron-under-pressure-over-reparatory-justice-for-_20260521_1523.html
+Successfully created file: mayor-cuts-limited-world-cup-tickets-for-new-yorke_20260521_1758.html
+✓ Created comprehensive article: mayor-cuts-limited-world-cup-tickets-for-new-yorke_20260521_1758.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: nhs-trust-sacks-staff-over-attacks-victims-records_20260521_1123.html
-Cleaned old post to keep top 30 limit: wes-streeting-pledges-wealth-tax-as-part-of-leader_20260521_0753.html
-Cleaned old post to keep top 30 limit: free-bus-trips-for-children-in-england-this-august_20260521_1123.html
+Cleaned old post to keep top 30 limit: late-queen-was-very-keen-for-andrew-to-be-given-tr_20260521_1523.html
+Cleaned old post to keep top 30 limit: cheaper-theme-park-tickets-and-childrens-meals-as-_20260521_1523.html
+Cleaned old post to keep top 30 limit: us-is-simply-choosing-not-to-stop-ebola-outbreak-a_20260521_1124.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Cheaper theme park tickets and children's meals as VAT to be cut for some attractions this summer
+   • Ebola: US ban on travellers from DRC, Uganda or South Sudan ‘not the solution’
      Sources: bbc.com, cnn.com, reuters.com
-   • Late Queen was 'very keen' for Andrew to be given trade envoy role
+   • Net migration to the UK falls by nearly 50 percent amid tighter policies
      Sources: bbc.com, cnn.com, reuters.com
-   • Macron under pressure over reparatory justice for France’s role in slave trade
+   • Mayor cuts limited World Cup tickets for New Yorkers to $50 after furore
      Sources: bbc.com, cnn.com, reuters.com
