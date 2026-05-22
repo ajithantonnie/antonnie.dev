@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: UK scientists developing new Ebola vaccine that could be ready in months
   Added: Parents of Southport survivors say anonymity has erased their girls from the story
-  Added: Andrew investigation could look into sexual misconduct allegations
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid coach Alvaro Arbeloa says he will leave role after poor season
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tuchel leaves Palmer and Foden out of England’s 2026 World Cup squad
-Added expanded search topic: Real Madrid coach Alvaro Arbeloa says he will leave role after poor season
-Added expanded search topic: Tuchel leaves Palmer and Foden out of England’s 2026 World Cup squad
-Saved 9 topics for 2026-05-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia ‘looking for new soldiers’; Kyiv claims 83,000 dead so far in 2026
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How Guardiola compares with Ferguson and other English managerial greats
+Added expanded search topic: Russia ‘looking for new soldiers’; Kyiv claims 83,000 dead so far in 2026
+Added expanded search topic: How Guardiola compares with Ferguson and other English managerial greats
+Saved 12 topics for 2026-05-22
 Returning 3 unique trending topics:
-  1. Andrew investigation could look into sexual misconduct allegations (from BBC News)
-  2. Real Madrid coach Alvaro Arbeloa says he will leave role after poor season (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Tuchel leaves Palmer and Foden out of England’s 2026 World Cup squad (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK scientists developing new Ebola vaccine that could be ready in months (from BBC News)
+  2. Russia ‘looking for new soldiers’; Kyiv claims 83,000 dead so far in 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How Guardiola compares with Ferguson and other English managerial greats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Andrew investigation could look into sexual misconduct allegations
-Searching Google for: Andrew investigation could look into sexual misconduct allegations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndrew%252Binvestigation%252Bcould%252Blook%252Binto%252Bsexual%252Bmisconduct%252Ballegations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MEbGLrqwNAGIjDJxdHTOBi-5vo_pE81CRWG30cGnb8obmKH1qatWtWgjxIECjIt_eeIXu_ytWDxxf4yBmpjbmRyUloBQw
+Processing trending topic: UK scientists developing new Ebola vaccine that could be ready in months
+Searching Google for: UK scientists developing new Ebola vaccine that could be ready in months
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bscientists%252Bdeveloping%252Bnew%252BEbola%252Bvaccine%252Bthat%252Bcould%252Bbe%252Bready%252Bin%252Bmonths%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTUqGPi2wdAGIjARyBULyy9CkydWg-hfksGgxsJgexL3avSdSsHWyqq3sEGIjtwLsNkDL5F_CdIExtQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andrew-investigation-could-look-into-sexual-miscon_20260522_1051.html
-✓ Created comprehensive article: andrew-investigation-could-look-into-sexual-miscon_20260522_1051.html
+Successfully created file: uk-scientists-developing-new-ebola-vaccine-that-co_20260522_1334.html
+✓ Created comprehensive article: uk-scientists-developing-new-ebola-vaccine-that-co_20260522_1334.html
 
-Processing trending topic: Real Madrid coach Alvaro Arbeloa says he will leave role after poor season
-Searching Google for: Real Madrid coach Alvaro Arbeloa says he will leave role after poor season
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bcoach%252BAlvaro%252BArbeloa%252Bsays%252Bhe%252Bwill%252Bleave%252Brole%252Bafter%252Bpoor%252Bseason%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MEbGMDqwNAGIjBlGzwMfjptG8VveFzG7mLQDxwANwwybhzLQKe4TiV2eKBh_Ib2WCdrIwgVUk1Yq0AyBmpjbmRyUloBQw
+Processing trending topic: Russia ‘looking for new soldiers’; Kyiv claims 83,000 dead so far in 2026
+Searching Google for: Russia ‘looking for new soldiers’; Kyiv claims 83,000 dead so far in 2026
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252B%25E2%2580%2598looking%252Bfor%252Bnew%252Bsoldiers%25E2%2580%2599%253B%252BKyiv%252Bclaims%252B83%252C000%252Bdead%252Bso%252Bfar%252Bin%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTUqGP-2wdAGIjDlM6vu2qr7Jf1spvcXJLg9gC_-4zmyggpl96MumNpQJ6hiSdEyITR_ZkJGLjyWxxsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: real-madrid-coach-alvaro-arbeloa-says-he-will-leav_20260522_1051.html
-✓ Created comprehensive article: real-madrid-coach-alvaro-arbeloa-says-he-will-leav_20260522_1051.html
+Successfully created file: russia-looking-for-new-soldiers-kyiv-claims-83000-_20260522_1334.html
+✓ Created comprehensive article: russia-looking-for-new-soldiers-kyiv-claims-83000-_20260522_1334.html
 
-Processing trending topic: Tuchel leaves Palmer and Foden out of England’s 2026 World Cup squad
-Searching Google for: Tuchel leaves Palmer and Foden out of England’s 2026 World Cup squad
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTuchel%252Bleaves%252BPalmer%252Band%252BFoden%252Bout%252Bof%252BEngland%25E2%2580%2599s%252B2026%252BWorld%252BCup%252Bsquad%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MEbGMfqwNAGIjA_IJ9NnW7LRqxcPHAhGSPNnTSQupP5Y1tvwWllOKk5nhizXZqu48W45SjAyNmFFxkyBmpjbmRyUloBQw
+Processing trending topic: How Guardiola compares with Ferguson and other English managerial greats
+Searching Google for: How Guardiola compares with Ferguson and other English managerial greats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BGuardiola%252Bcompares%252Bwith%252BFerguson%252Band%252Bother%252BEnglish%252Bmanagerial%252Bgreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTUqGIW3wdAGIjD4DZQS8_7UYGFQUnzot3c-vyNHN6ZpHMAR76VMzNHmuB999Sqvqe6H5DzCgfX0Q1kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tuchel-leaves-palmer-and-foden-out-of-englands-202_20260522_1051.html
-✓ Created comprehensive article: tuchel-leaves-palmer-and-foden-out-of-englands-202_20260522_1051.html
+Successfully created file: how-guardiola-compares-with-ferguson-and-other-eng_20260522_1335.html
+✓ Created comprehensive article: how-guardiola-compares-with-ferguson-and-other-eng_20260522_1335.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: walid-daqqa-a-parallel-life_20260521_0753.html
-Cleaned old post to keep top 30 limit: parents-of-southport-survivors-say-anonymity-has-e_20260522_0747.html
-Cleaned old post to keep top 30 limit: andrew-investigation-police-renew-call-for-informa_20260522_0747.html
+Cleaned old post to keep top 30 limit: tuchel-leaves-palmer-and-foden-out-of-englands-202_20260522_1051.html
+Cleaned old post to keep top 30 limit: real-madrid-coach-alvaro-arbeloa-says-he-will-leav_20260522_1051.html
+Cleaned old post to keep top 30 limit: andrew-investigation-could-look-into-sexual-miscon_20260522_1051.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Andrew investigation could look into sexual misconduct allegations
+   • UK scientists developing new Ebola vaccine that could be ready in months
      Sources: bbc.com, cnn.com, reuters.com
-   • Real Madrid coach Alvaro Arbeloa says he will leave role after poor season
+   • Russia ‘looking for new soldiers’; Kyiv claims 83,000 dead so far in 2026
      Sources: bbc.com, cnn.com, reuters.com
-   • Tuchel leaves Palmer and Foden out of England’s 2026 World Cup squad
+   • How Guardiola compares with Ferguson and other English managerial greats
      Sources: bbc.com, cnn.com, reuters.com
