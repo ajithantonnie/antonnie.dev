@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Attorney general to review teen boys' rape sentences
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says temporary visa holders should leave to apply for Green Cards
-Added expanded search topic: US says temporary visa holders should leave to apply for Green Cards
-Saved 18 topics for 2026-05-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bolivia in crisis: Social unrest, demands for president to resign escalate
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man City boss and Palestine advocate Pep Guardiola to step down
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: San Diego’s Muslims, a mosque, and a city shaken
+Added expanded search topic: Bolivia in crisis: Social unrest, demands for president to resign escalate
+Added expanded search topic: Man City boss and Palestine advocate Pep Guardiola to step down
+Added expanded search topic: San Diego’s Muslims, a mosque, and a city shaken
+Saved 21 topics for 2026-05-22
 Returning 3 unique trending topics:
-  1. Attorney general to review teen boys' rape sentences (from BBC News)
-  2. UK sees hottest day of year as bank holiday travellers face queues (from BBC News)
-  3. US says temporary visa holders should leave to apply for Green Cards (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bolivia in crisis: Social unrest, demands for president to resign escalate (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Man City boss and Palestine advocate Pep Guardiola to step down (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. San Diego’s Muslims, a mosque, and a city shaken (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Attorney general to review teen boys' rape sentences
-Searching Google for: Attorney general to review teen boys' rape sentences
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttorney%252Bgeneral%252Bto%252Breview%252Bteen%252Bboys%2527%252Brape%252Bsentences%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGXEGLPNwtAGIjAPCHjTwyC7BN99254J2tkgg5q8ePW1s35d_YKsAhCPkbpOLMljjyTzLRFOegAVlDIyBmpjbmRyUloBQw
+Processing trending topic: Bolivia in crisis: Social unrest, demands for president to resign escalate
+Searching Google for: Bolivia in crisis: Social unrest, demands for president to resign escalate
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBolivia%252Bin%252Bcrisis%253A%252BSocial%252Bunrest%252C%252Bdemands%252Bfor%252Bpresident%252Bto%252Bresign%252Bescalate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYcSjGN2Aw9AGIjCbg6OGXAflPRvaWLQeqRU3SKNmgSNIJ0vxA-C_08R0GXPxaqesh38l3gOY7gTQAEkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attorney-general-to-review-teen-boys-rape-sentence_20260522_1855.html
-✓ Created comprehensive article: attorney-general-to-review-teen-boys-rape-sentence_20260522_1855.html
+Successfully created file: bolivia-in-crisis-social-unrest-demands-for-presid_20260522_2045.html
+✓ Created comprehensive article: bolivia-in-crisis-social-unrest-demands-for-presid_20260522_2045.html
 
-Processing trending topic: UK sees hottest day of year as bank holiday travellers face queues
-Searching Google for: UK sees hottest day of year as bank holiday travellers face queues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bsees%252Bhottest%252Bday%252Bof%252Byear%252Bas%252Bbank%252Bholiday%252Btravellers%252Bface%252Bqueues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGXEGLrNwtAGIjDbquHFCID3BR5Tn0wcw3iDWU9y4zWoya4-ugFMciuWcxqhbwf_zQ1xXko6GM1kdW0yBmpjbmRyUloBQw
+Processing trending topic: Man City boss and Palestine advocate Pep Guardiola to step down
+Searching Google for: Man City boss and Palestine advocate Pep Guardiola to step down
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252BCity%252Bboss%252Band%252BPalestine%252Badvocate%252BPep%252BGuardiola%252Bto%252Bstep%252Bdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYcSjGOSAw9AGIjByz_ajcXrfoE6RuUssyPIwVIl22b2A3vwr4TegPRBkwVOyCve85lMNVw_GGgEi3jsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-sees-hottest-day-of-year-as-bank-holiday-travel_20260522_1855.html
-✓ Created comprehensive article: uk-sees-hottest-day-of-year-as-bank-holiday-travel_20260522_1855.html
+Successfully created file: man-city-boss-and-palestine-advocate-pep-guardiola_20260522_2045.html
+✓ Created comprehensive article: man-city-boss-and-palestine-advocate-pep-guardiola_20260522_2045.html
 
-Processing trending topic: US says temporary visa holders should leave to apply for Green Cards
-Searching Google for: US says temporary visa holders should leave to apply for Green Cards
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Btemporary%252Bvisa%252Bholders%252Bshould%252Bleave%252Bto%252Bapply%252Bfor%252BGreen%252BCards%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGXEGMDNwtAGIjBaITfiZli7ECgpigeUelmY8XPqbUH7HxSPoQLTo_G-tDPcSpUmGMX-GXLnV07wR4YyBmpjbmRyUloBQw
+Processing trending topic: San Diego’s Muslims, a mosque, and a city shaken
+Searching Google for: San Diego’s Muslims, a mosque, and a city shaken
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSan%252BDiego%25E2%2580%2599s%252BMuslims%252C%252Ba%252Bmosque%252C%252Band%252Ba%252Bcity%252Bshaken%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYcSjGOqAw9AGIjChZ9kAGmt_7b7bjfiV_cf_gZqQOggsR0wYah0mTBDU-MwoOqToEkOcglS72-r_b6YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-says-temporary-visa-holders-should-leave-to-app_20260522_1856.html
-✓ Created comprehensive article: us-says-temporary-visa-holders-should-leave-to-app_20260522_1856.html
+Successfully created file: san-diegos-muslims-a-mosque-and-a-city-shaken_20260522_2045.html
+✓ Created comprehensive article: san-diegos-muslims-a-mosque-and-a-city-shaken_20260522_2045.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: teen-boys-rape-sentences-to-be-reviewed-by-governm_20260522_1628.html
-Cleaned old post to keep top 30 limit: suspected-ebola-cases-triple-in-a-week-as-who-warn_20260522_1628.html
-Cleaned old post to keep top 30 limit: foden-palmer-alexander-arnold-to-miss-world-cup_20260522_1628.html
+Cleaned old post to keep top 30 limit: prepare-for-half-term-queues-at-dover-due-to-eu-bo_20260522_0332.html
+Cleaned old post to keep top 30 limit: how-guardiola-compares-with-ferguson-and-other-eng_20260522_1335.html
+Cleaned old post to keep top 30 limit: attorney-general-to-review-teen-boys-rape-sentence_20260522_1855.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Attorney general to review teen boys' rape sentences
+   • Bolivia in crisis: Social unrest, demands for president to resign escalate
      Sources: bbc.com, cnn.com, reuters.com
-   • UK sees hottest day of year as bank holiday travellers face queues
+   • Man City boss and Palestine advocate Pep Guardiola to step down
      Sources: bbc.com, cnn.com, reuters.com
-   • US says temporary visa holders should leave to apply for Green Cards
+   • San Diego’s Muslims, a mosque, and a city shaken
      Sources: bbc.com, cnn.com, reuters.com
