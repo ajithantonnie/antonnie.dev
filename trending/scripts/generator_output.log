@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Putin vows retaliation after accusing Ukraine of hitting student dormitory
+  Added: At least 90 dead in Chinese coal mine explosion, state media reports
   Added: Hot weather to intensify in UK over bank holiday weekend
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
-Added expanded search topic: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
-Saved 6 topics for 2026-05-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gas explosion at Chinese coal mine kills at least 90
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World Cup 2026: Which star players will miss the tournament?
+Added expanded search topic: Gas explosion at Chinese coal mine kills at least 90
+Added expanded search topic: World Cup 2026: Which star players will miss the tournament?
+Saved 9 topics for 2026-05-23
 Returning 3 unique trending topics:
-  1. Putin vows retaliation after accusing Ukraine of hitting student dormitory (from BBC News)
-  2. Hot weather to intensify in UK over bank holiday weekend (from BBC News)
-  3. Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. At least 90 dead in Chinese coal mine explosion, state media reports (from BBC News)
+  2. Gas explosion at Chinese coal mine kills at least 90 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. World Cup 2026: Which star players will miss the tournament? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Putin vows retaliation after accusing Ukraine of hitting student dormitory
-Searching Google for: Putin vows retaliation after accusing Ukraine of hitting student dormitory
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%252Bvows%252Bretaliation%252Bafter%252Baccusing%252BUkraine%252Bof%252Bhitting%252Bstudent%252Bdormitory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc0GPffxNAGIjDg-EaN49axdUqcPl62gcpMBLt02qBEctg-J1vHxGLjyfHFlysrOT6cJOW3aEiaE-YyBmpjbmRyUloBQw
+Processing trending topic: At least 90 dead in Chinese coal mine explosion, state media reports
+Searching Google for: At least 90 dead in Chinese coal mine explosion, state media reports
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B90%252Bdead%252Bin%252BChinese%252Bcoal%252Bmine%252Bexplosion%252C%252Bstate%252Bmedia%252Breports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6BGKqwxdAGIjAAosC9vZNwcjWwVBZYsqAOsNF-S_BUgkWy6eVT1544kTZnMETYU27JYZISpZuaa5kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: putin-vows-retaliation-after-accusing-ukraine-of-h_20260523_0441.html
-✓ Created comprehensive article: putin-vows-retaliation-after-accusing-ukraine-of-h_20260523_0441.html
+Successfully created file: at-least-90-dead-in-chinese-coal-mine-explosion-st_20260523_0733.html
+✓ Created comprehensive article: at-least-90-dead-in-chinese-coal-mine-explosion-st_20260523_0733.html
 
-Processing trending topic: Hot weather to intensify in UK over bank holiday weekend
-Searching Google for: Hot weather to intensify in UK over bank holiday weekend
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHot%252Bweather%252Bto%252Bintensify%252Bin%252BUK%252Bover%252Bbank%252Bholiday%252Bweekend%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc0GP7fxNAGIjCyYW_GUj_owZ013DiQKkfX2RuqbPFPjwSKJc2S0-my7JaY5b7Qnf_fpfoob84ikYwyBmpjbmRyUloBQw
+Processing trending topic: Gas explosion at Chinese coal mine kills at least 90
+Searching Google for: Gas explosion at Chinese coal mine kills at least 90
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGas%252Bexplosion%252Bat%252BChinese%252Bcoal%252Bmine%252Bkills%252Bat%252Bleast%252B90%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6BGLCwxdAGIjA6GVFu1ZAE7X-Se2i4ZqUzV2AhYYBcEMb143Mqp_VM8ifvCRKWPY1vm_Hgv0g6gGEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hot-weather-to-intensify-in-uk-over-bank-holiday-w_20260523_0441.html
-✓ Created comprehensive article: hot-weather-to-intensify-in-uk-over-bank-holiday-w_20260523_0441.html
+Successfully created file: gas-explosion-at-chinese-coal-mine-kills-at-least-_20260523_0733.html
+✓ Created comprehensive article: gas-explosion-at-chinese-coal-mine-kills-at-least-_20260523_0733.html
 
-Processing trending topic: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
-Searching Google for: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOver%252B1.6%252Bmillion%252Bpilgrims%252Barrive%252Bin%252BSaudi%252BArabia%252Bfor%252Bhajj%252Bpilgrimage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc0GITgxNAGIjBKHXRP1OAQO1kdTHrdGZ34jbkZzZjSHnkmKQdUABMZCKGLu1iUMYNDFiBwgBvuN3QyBmpjbmRyUloBQw
+Processing trending topic: World Cup 2026: Which star players will miss the tournament?
+Searching Google for: World Cup 2026: Which star players will miss the tournament?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252B2026%253A%252BWhich%252Bstar%252Bplayers%252Bwill%252Bmiss%252Bthe%252Btournament%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6BGLawxdAGIjAk3Uvu7GouyTkpfDCOpCWBb0CKz20sFLqeSrOv6Xp4wdRU64nEGAOjKPzC4TH-Sa0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: over-16-million-pilgrims-arrive-in-saudi-arabia-fo_20260523_0441.html
-✓ Created comprehensive article: over-16-million-pilgrims-arrive-in-saudi-arabia-fo_20260523_0441.html
+Successfully created file: world-cup-2026-which-star-players-will-miss-the-to_20260523_0733.html
+✓ Created comprehensive article: world-cup-2026-which-star-players-will-miss-the-to_20260523_0733.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-says-temporary-visa-holders-should-leave-to-app_20260522_1856.html
-Cleaned old post to keep top 30 limit: suspected-ebola-cases-triple-in-a-week-as-who-warn_20260523_0008.html
-Cleaned old post to keep top 30 limit: attorney-general-to-review-teen-boys-rape-sentence_20260523_0008.html
+Cleaned old post to keep top 30 limit: putin-vows-retaliation-after-accusing-ukraine-of-h_20260523_0441.html
+Cleaned old post to keep top 30 limit: over-16-million-pilgrims-arrive-in-saudi-arabia-fo_20260523_0441.html
+Cleaned old post to keep top 30 limit: hot-weather-to-intensify-in-uk-over-bank-holiday-w_20260523_0441.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Putin vows retaliation after accusing Ukraine of hitting student dormitory
+   • At least 90 dead in Chinese coal mine explosion, state media reports
      Sources: bbc.com, cnn.com, reuters.com
-   • Hot weather to intensify in UK over bank holiday weekend
+   • Gas explosion at Chinese coal mine kills at least 90
      Sources: bbc.com, cnn.com, reuters.com
-   • Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
+   • World Cup 2026: Which star players will miss the tournament?
      Sources: bbc.com, cnn.com, reuters.com
