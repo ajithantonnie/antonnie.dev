@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Attorney general to review teen boys' rape sentences
-  Added: UK sees hottest day of year as bank holiday travellers face queues
+  Added: Putin vows retaliation after accusing Ukraine of hitting student dormitory
+  Added: Hot weather to intensify in UK over bank holiday weekend
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-23
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
+Added expanded search topic: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
+Saved 6 topics for 2026-05-23
 Returning 3 unique trending topics:
-  1. Attorney general to review teen boys' rape sentences (from BBC News)
-  2. UK sees hottest day of year as bank holiday travellers face queues (from BBC News)
-  3. Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC (from The Guardian)
+  1. Putin vows retaliation after accusing Ukraine of hitting student dormitory (from BBC News)
+  2. Hot weather to intensify in UK over bank holiday weekend (from BBC News)
+  3. Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Attorney general to review teen boys' rape sentences
-Searching Google for: Attorney general to review teen boys' rape sentences
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAttorney%252Bgeneral%252Bto%252Breview%252Bteen%252Bboys%2527%252Brape%252Bsentences%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ3GPvfw9AGIjAmJhl0_QTcI-fnacc8vla8jkzBUpQqsshH8RL0MPOAeBSQ4-CoCyzxXtY25--KI5cyBmpjbmRyUloBQw
+Processing trending topic: Putin vows retaliation after accusing Ukraine of hitting student dormitory
+Searching Google for: Putin vows retaliation after accusing Ukraine of hitting student dormitory
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%252Bvows%252Bretaliation%252Bafter%252Baccusing%252BUkraine%252Bof%252Bhitting%252Bstudent%252Bdormitory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc0GPffxNAGIjDg-EaN49axdUqcPl62gcpMBLt02qBEctg-J1vHxGLjyfHFlysrOT6cJOW3aEiaE-YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: attorney-general-to-review-teen-boys-rape-sentence_20260523_0008.html
-✓ Created comprehensive article: attorney-general-to-review-teen-boys-rape-sentence_20260523_0008.html
+Successfully created file: putin-vows-retaliation-after-accusing-ukraine-of-h_20260523_0441.html
+✓ Created comprehensive article: putin-vows-retaliation-after-accusing-ukraine-of-h_20260523_0441.html
 
-Processing trending topic: UK sees hottest day of year as bank holiday travellers face queues
-Searching Google for: UK sees hottest day of year as bank holiday travellers face queues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bsees%252Bhottest%252Bday%252Bof%252Byear%252Bas%252Bbank%252Bholiday%252Btravellers%252Bface%252Bqueues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ3GILgw9AGIjBokDJM0lWmkuUIG6Qswrhh3RximpJSIwqhKFmBO1LhBirYiZOEB8MlSXpQgmODXsAyBmpjbmRyUloBQw
+Processing trending topic: Hot weather to intensify in UK over bank holiday weekend
+Searching Google for: Hot weather to intensify in UK over bank holiday weekend
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHot%252Bweather%252Bto%252Bintensify%252Bin%252BUK%252Bover%252Bbank%252Bholiday%252Bweekend%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc0GP7fxNAGIjCyYW_GUj_owZ013DiQKkfX2RuqbPFPjwSKJc2S0-my7JaY5b7Qnf_fpfoob84ikYwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-sees-hottest-day-of-year-as-bank-holiday-travel_20260523_0008.html
-✓ Created comprehensive article: uk-sees-hottest-day-of-year-as-bank-holiday-travel_20260523_0008.html
+Successfully created file: hot-weather-to-intensify-in-uk-over-bank-holiday-w_20260523_0441.html
+✓ Created comprehensive article: hot-weather-to-intensify-in-uk-over-bank-holiday-w_20260523_0441.html
 
-Processing trending topic: Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC
-Searching Google for: Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspected%252BEbola%252Bcases%252Btriple%252Bin%252Ba%252Bweek%252Bas%252BWHO%252Bwarns%252Bof%252Brapid%252Bspread%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ3GIjgw9AGIjB8Tsu5OB7oQU4J6Lxcb4yRu6SRbhe8xxtxOcKb8IfXhNFin9hOtMd_vUXI4s64q7EyBmpjbmRyUloBQw
+Processing trending topic: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
+Searching Google for: Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOver%252B1.6%252Bmillion%252Bpilgrims%252Barrive%252Bin%252BSaudi%252BArabia%252Bfor%252Bhajj%252Bpilgrimage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFc0GITgxNAGIjBKHXRP1OAQO1kdTHrdGZ34jbkZzZjSHnkmKQdUABMZCKGLu1iUMYNDFiBwgBvuN3QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspected-ebola-cases-triple-in-a-week-as-who-warn_20260523_0008.html
-✓ Created comprehensive article: suspected-ebola-cases-triple-in-a-week-as-who-warn_20260523_0008.html
+Successfully created file: over-16-million-pilgrims-arrive-in-saudi-arabia-fo_20260523_0441.html
+✓ Created comprehensive article: over-16-million-pilgrims-arrive-in-saudi-arabia-fo_20260523_0441.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mahmoud-khalil-to-appeal-us-deportation-case-to-su_20260522_2212.html
-Cleaned old post to keep top 30 limit: us-judge-dismisses-indictment-against-kilmar-abreg_20260522_2212.html
-Cleaned old post to keep top 30 limit: everest-man-breaks-his-own-record-after-historic-3_20260522_2212.html
+Cleaned old post to keep top 30 limit: us-says-temporary-visa-holders-should-leave-to-app_20260522_1856.html
+Cleaned old post to keep top 30 limit: suspected-ebola-cases-triple-in-a-week-as-who-warn_20260523_0008.html
+Cleaned old post to keep top 30 limit: attorney-general-to-review-teen-boys-rape-sentence_20260523_0008.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Attorney general to review teen boys' rape sentences
+   • Putin vows retaliation after accusing Ukraine of hitting student dormitory
      Sources: bbc.com, cnn.com, reuters.com
-   • UK sees hottest day of year as bank holiday travellers face queues
+   • Hot weather to intensify in UK over bank holiday weekend
      Sources: bbc.com, cnn.com, reuters.com
-   • Suspected Ebola cases triple in a week as WHO warns of rapid spread in DRC
+   • Over 1.6 million pilgrims arrive in Saudi Arabia for hajj pilgrimage
      Sources: bbc.com, cnn.com, reuters.com
