@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Suspect killed after opening fire on Secret Service near White House
   Added: Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz
-  Added: France suspends extra EU border checks at Dover after hours-long queues
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: White House pauses removal of detainees to DRC as Ebola outbreak widens
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US police responding to dozens of shots fired near White House
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran move World Cup base from US to Mexico with FIFA approval
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tens of thousands rally in Serbia for antigovernment demonstrations
-Added expanded search topic: US police responding to dozens of shots fired near White House
-Added expanded search topic: Iran move World Cup base from US to Mexico with FIFA approval
-Added expanded search topic: Tens of thousands rally in Serbia for antigovernment demonstrations
-Saved 42 topics for 2026-05-23
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-05-24
 Returning 3 unique trending topics:
-  1. US police responding to dozens of shots fired near White House (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Iran move World Cup base from US to Mexico with FIFA approval (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Tens of thousands rally in Serbia for antigovernment demonstrations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Suspect killed after opening fire on Secret Service near White House (from BBC News)
+  2. Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz (from BBC News)
+  3. White House pauses removal of detainees to DRC as Ebola outbreak widens (from The Guardian)
 
-Processing trending topic: US police responding to dozens of shots fired near White House
-Searching Google for: US police responding to dozens of shots fired near White House
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bpolice%252Bresponding%252Bto%252Bdozens%252Bof%252Bshots%252Bfired%252Bnear%252BWhite%252BHouse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuadyGM3_yNAGIjDnk9iAbNQE6CuefdIOak1nfPFfsD7hZi3Zaze6futJJQrIQGvWMQLB1fiM9_rOIWgyBmpjbmRyUloBQw
+Processing trending topic: Suspect killed after opening fire on Secret Service near White House
+Searching Google for: Suspect killed after opening fire on Secret Service near White House
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspect%252Bkilled%252Bafter%252Bopening%252Bfire%252Bon%252BSecret%252BService%252Bnear%252BWhite%252BHouse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0J6iGLXhydAGIjDAXY9Az2cSIVYQSOoT17mOAqb6uFcM0R1fwUn0TzmjjqXTc0QLq2S6pQot4iyspjIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-police-responding-to-dozens-of-shots-fired-near_20260524_0001.html
-✓ Created comprehensive article: us-police-responding-to-dozens-of-shots-fired-near_20260524_0001.html
+Successfully created file: suspect-killed-after-opening-fire-on-secret-servic_20260524_0330.html
+✓ Created comprehensive article: suspect-killed-after-opening-fire-on-secret-servic_20260524_0330.html
 
-Processing trending topic: Iran move World Cup base from US to Mexico with FIFA approval
-Searching Google for: Iran move World Cup base from US to Mexico with FIFA approval
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bmove%252BWorld%252BCup%252Bbase%252Bfrom%252BUS%252Bto%252BMexico%252Bwith%252BFIFA%252Bapproval%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuadyGNT_yNAGIjD_46U-TSA7wQcwxQnyWrDVWK-6ofhIOAwJvX366fz0OsVrC9yapjK5k8LLY20FORcyBmpjbmRyUloBQw
+Processing trending topic: Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz
+Searching Google for: Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIran%252Bdeal%252B%2527largely%252Bnegotiated%2527%252Bincluding%252Breopening%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0J6iGMHhydAGIjA5e0xSH4bOTrlMhQh2xy0ZaykEFJLC5Z78RplsMdg8nj1L-jC-WFtYyZsr_GNbAs4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-move-world-cup-base-from-us-to-mexico-with-fi_20260524_0001.html
-✓ Created comprehensive article: iran-move-world-cup-base-from-us-to-mexico-with-fi_20260524_0001.html
+Successfully created file: trump-says-iran-deal-largely-negotiated-including-_20260524_0330.html
+✓ Created comprehensive article: trump-says-iran-deal-largely-negotiated-including-_20260524_0330.html
 
-Processing trending topic: Tens of thousands rally in Serbia for antigovernment demonstrations
-Searching Google for: Tens of thousands rally in Serbia for antigovernment demonstrations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTens%252Bof%252Bthousands%252Brally%252Bin%252BSerbia%252Bfor%252Bantigovernment%252Bdemonstrations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuadyGNr_yNAGIjBTnZXlVIA-__Gju-ZfjdiwWUh1Ps5DFdmK9Yi5tZbg--44E2SXogJh7I27I026efUyBmpjbmRyUloBQw
+Processing trending topic: White House pauses removal of detainees to DRC as Ebola outbreak widens
+Searching Google for: White House pauses removal of detainees to DRC as Ebola outbreak widens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhite%252BHouse%252Bpauses%252Bremoval%252Bof%252Bdetainees%252Bto%252BDRC%252Bas%252BEbola%252Boutbreak%252Bwidens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0J6iGMfhydAGIjBoGE45fC2FHRrwSepn9HuSlASMORDldcLxKtmpYYbhvaKpBReqndWbI3mzTYhJrBEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tens-of-thousands-rally-in-serbia-for-antigovernme_20260524_0001.html
-✓ Created comprehensive article: tens-of-thousands-rally-in-serbia-for-antigovernme_20260524_0001.html
+Successfully created file: white-house-pauses-removal-of-detainees-to-drc-as-_20260524_0330.html
+✓ Created comprehensive article: white-house-pauses-removal-of-detainees-to-drc-as-_20260524_0330.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: more-than-500-children-killed-in-measles-outbreak-_20260523_1609.html
-Cleaned old post to keep top 30 limit: is-pragmatism-replacing-ideology-in-international-_20260523_2257.html
-Cleaned old post to keep top 30 limit: iran-getting-a-lot-closer-to-agreement-with-us-tru_20260523_1926.html
+Cleaned old post to keep top 30 limit: trump-says-iran-agreement-largely-negotiated-await_20260523_2257.html
+Cleaned old post to keep top 30 limit: tens-of-thousands-rally-in-serbia-for-antigovernme_20260524_0001.html
+Cleaned old post to keep top 30 limit: iran-move-world-cup-base-from-us-to-mexico-with-fi_20260524_0001.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US police responding to dozens of shots fired near White House
+   • Suspect killed after opening fire on Secret Service near White House
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran move World Cup base from US to Mexico with FIFA approval
+   • Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Tens of thousands rally in Serbia for antigovernment demonstrations
+   • White House pauses removal of detainees to DRC as Ebola outbreak widens
      Sources: bbc.com, cnn.com, reuters.com
