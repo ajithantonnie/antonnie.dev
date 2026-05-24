@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Girl raped by boys spared jail tells BBC judge's decision was like 'rock in my face'
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hunger increasingly used as weapon of war as ‘food-related violence’ surges, analysis shows
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Want equal respect’: Pakistan’s females galloping to glory in tent pegging
-Added expanded search topic: ‘Want equal respect’: Pakistan’s females galloping to glory in tent pegging
-Saved 6 topics for 2026-05-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rubio says ‘significant progress’ made in US-Iran negotiations
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yemen war sees scramble for scant resources between displaced and locals
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Toxic gases hinder rescue efforts inside deadly China mine
+Added expanded search topic: Rubio says ‘significant progress’ made in US-Iran negotiations
+Added expanded search topic: Yemen war sees scramble for scant resources between displaced and locals
+Added expanded search topic: Toxic gases hinder rescue efforts inside deadly China mine
+Saved 9 topics for 2026-05-24
 Returning 3 unique trending topics:
-  1. Girl raped by boys spared jail tells BBC judge's decision was like 'rock in my face' (from BBC News)
-  2. Hunger increasingly used as weapon of war as ‘food-related violence’ surges, analysis shows (from The Guardian)
-  3. ‘Want equal respect’: Pakistan’s females galloping to glory in tent pegging (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Rubio says ‘significant progress’ made in US-Iran negotiations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Yemen war sees scramble for scant resources between displaced and locals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Toxic gases hinder rescue efforts inside deadly China mine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Girl raped by boys spared jail tells BBC judge's decision was like 'rock in my face'
-Searching Google for: Girl raped by boys spared jail tells BBC judge's decision was like 'rock in my face'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGirl%252Braped%252Bby%252Bboys%252Bspared%252Bjail%252Btells%252BBBC%252Bjudge%2527s%252Bdecision%252Bwas%252Blike%252B%2527rock%252Bin%252Bmy%252Bface%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGPjDytAGIjBytM-HHVEz5IxIy1uZyUvnJWgvHHaPY0c32k8MT9MIJu2FHYZkUcTalKfgVY8c9ZQyBmpjbmRyUloBQw
+Processing trending topic: Rubio says ‘significant progress’ made in US-Iran negotiations
+Searching Google for: Rubio says ‘significant progress’ made in US-Iran negotiations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%252Bsays%252B%25E2%2580%2598significant%252Bprogress%25E2%2580%2599%252Bmade%252Bin%252BUS-Iran%252Bnegotiations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOU3DGPOHy9AGIjBoPMY_T674Bg9rnAkTxi6jAv16pP2IBJXGC4kIdRKx9zD7gRsi8xOutrKNakxkP_AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: girl-raped-by-boys-spared-jail-tells-bbc-judges-de_20260524_0700.html
-✓ Created comprehensive article: girl-raped-by-boys-spared-jail-tells-bbc-judges-de_20260524_0700.html
+Successfully created file: rubio-says-significant-progress-made-in-us-iran-ne_20260524_0925.html
+✓ Created comprehensive article: rubio-says-significant-progress-made-in-us-iran-ne_20260524_0925.html
 
-Processing trending topic: Hunger increasingly used as weapon of war as ‘food-related violence’ surges, analysis shows
-Searching Google for: Hunger increasingly used as weapon of war as ‘food-related violence’ surges, analysis shows
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHunger%252Bincreasingly%252Bused%252Bas%252Bweapon%252Bof%252Bwar%252Bas%252B%25E2%2580%2598food-related%252Bviolence%25E2%2580%2599%252Bsurges%252C%252Banalysis%252Bshows%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGP_DytAGIjDIidKzD2k2ZkGV_CVB_X3N5QsElaQk9CvgAWHq16ebc23EIQ0x69U8ec9xUPLi5VkyBmpjbmRyUloBQw
+Processing trending topic: Yemen war sees scramble for scant resources between displaced and locals
+Searching Google for: Yemen war sees scramble for scant resources between displaced and locals
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYemen%252Bwar%252Bsees%252Bscramble%252Bfor%252Bscant%252Bresources%252Bbetween%252Bdisplaced%252Band%252Blocals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOU3DGPqHy9AGIjAzxYcYwQx9P2ece6Js7KwctSBjnR9iqJ6_I5NPg-yqUdCZvIJ_N61XdruGIpbVtjEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hunger-increasingly-used-as-weapon-of-war-as-food-_20260524_0700.html
-✓ Created comprehensive article: hunger-increasingly-used-as-weapon-of-war-as-food-_20260524_0700.html
+Successfully created file: yemen-war-sees-scramble-for-scant-resources-betwee_20260524_0925.html
+✓ Created comprehensive article: yemen-war-sees-scramble-for-scant-resources-betwee_20260524_0925.html
 
-Processing trending topic: ‘Want equal respect’: Pakistan’s females galloping to glory in tent pegging
-Searching Google for: ‘Want equal respect’: Pakistan’s females galloping to glory in tent pegging
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Want%252Bequal%252Brespect%25E2%2580%2599%253A%252BPakistan%25E2%2580%2599s%252Bfemales%252Bgalloping%252Bto%252Bglory%252Bin%252Btent%252Bpegging%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGIXEytAGIjAPBPGXaKlPKDOrT_51ojsV5OOlkyIEkAZ0J7ksCZYutH7zkqIKa_FtiA1SDzfN_lgyBmpjbmRyUloBQw
+Processing trending topic: Toxic gases hinder rescue efforts inside deadly China mine
+Searching Google for: Toxic gases hinder rescue efforts inside deadly China mine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DToxic%252Bgases%252Bhinder%252Brescue%252Befforts%252Binside%252Bdeadly%252BChina%252Bmine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOU3DGICIy9AGIjBIYM0mvTCeuMc-AI47FY-CARGVZ1b7ZNXkKgC7_qAIJlV59mRtMHVdXCG3WoHsRxAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: want-equal-respect-pakistans-females-galloping-to-_20260524_0700.html
-✓ Created comprehensive article: want-equal-respect-pakistans-females-galloping-to-_20260524_0700.html
+Successfully created file: toxic-gases-hinder-rescue-efforts-inside-deadly-ch_20260524_0925.html
+✓ Created comprehensive article: toxic-gases-hinder-rescue-efforts-inside-deadly-ch_20260524_0925.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: suspect-killed-after-opening-fire-on-secret-servic_20260524_0330.html
-Cleaned old post to keep top 30 limit: us-police-responding-to-dozens-of-shots-fired-near_20260524_0001.html
-Cleaned old post to keep top 30 limit: macron-under-pressure-over-reparatory-justice-for-_20260521_1523.html
+Cleaned old post to keep top 30 limit: white-house-pauses-removal-of-detainees-to-drc-as-_20260524_0330.html
+Cleaned old post to keep top 30 limit: want-equal-respect-pakistans-females-galloping-to-_20260524_0700.html
+Cleaned old post to keep top 30 limit: girl-raped-by-boys-spared-jail-tells-bbc-judges-de_20260524_0700.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Girl raped by boys spared jail tells BBC judge's decision was like 'rock in my face'
+   • Rubio says ‘significant progress’ made in US-Iran negotiations
      Sources: bbc.com, cnn.com, reuters.com
-   • Hunger increasingly used as weapon of war as ‘food-related violence’ surges, analysis shows
+   • Yemen war sees scramble for scant resources between displaced and locals
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Want equal respect’: Pakistan’s females galloping to glory in tent pegging
+   • Toxic gases hinder rescue efforts inside deadly China mine
      Sources: bbc.com, cnn.com, reuters.com
