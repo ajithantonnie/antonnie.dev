@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Girl raped by boys spared jail tells BBC judge's decision was like 'rock in my face'
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Hunger increasingly used as weapon of war as ‘food-related violence’ surges, analysis shows
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Suicide car bombing attack on a train in Pakistan kills dozens
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Blast hits train in Pakistan’s Balochistan, killing at least 24 people
-Added expanded search topic: Suicide car bombing attack on a train in Pakistan kills dozens
-Added expanded search topic: Blast hits train in Pakistan’s Balochistan, killing at least 24 people
-Saved 15 topics for 2026-05-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bahrain jails nine defendants for life for ‘cooperating’ with Iran’s IRGC
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France bans Ben-Gvir: Which other Israeli leaders have been penalised?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: For third year in a row, Israel blocks Hajj pilgrimage for Gaza Muslims
+Added expanded search topic: Bahrain jails nine defendants for life for ‘cooperating’ with Iran’s IRGC
+Added expanded search topic: France bans Ben-Gvir: Which other Israeli leaders have been penalised?
+Added expanded search topic: For third year in a row, Israel blocks Hajj pilgrimage for Gaza Muslims
+Saved 18 topics for 2026-05-24
 Returning 3 unique trending topics:
-  1. Large-scale Russian attack on Ukraine leaves four dead and dozens injured (from BBC News)
-  2. Suicide car bombing attack on a train in Pakistan kills dozens (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Blast hits train in Pakistan’s Balochistan, killing at least 24 people (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bahrain jails nine defendants for life for ‘cooperating’ with Iran’s IRGC (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. France bans Ben-Gvir: Which other Israeli leaders have been penalised? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. For third year in a row, Israel blocks Hajj pilgrimage for Gaza Muslims (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Large-scale Russian attack on Ukraine leaves four dead and dozens injured
-Searching Google for: Large-scale Russian attack on Ukraine leaves four dead and dozens injured
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLarge-scale%252BRussian%252Battack%252Bon%252BUkraine%252Bleaves%252Bfour%252Bdead%252Band%252Bdozens%252Binjured%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkxGMn4y9AGIjAJjMt7Q_UmRnWjz-S1v8DE01LZlkGAK8pKaYIGOB4AWVzNAoNtcNTcmOHenPF5oFgyBmpjbmRyUloBQw
+Processing trending topic: Bahrain jails nine defendants for life for ‘cooperating’ with Iran’s IRGC
+Searching Google for: Bahrain jails nine defendants for life for ‘cooperating’ with Iran’s IRGC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBahrain%252Bjails%252Bnine%252Bdefendants%252Bfor%252Blife%252Bfor%252B%25E2%2580%2598cooperating%25E2%2580%2599%252Bwith%252BIran%25E2%2580%2599s%252BIRGC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq7yGM6mzNAGIjDGZ3P0Y59tnn6_3JTN4cENuT1yOVgDFbuuyY1gh_wVLX78NGCrOGbeR-DlqdH3TOcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: large-scale-russian-attack-on-ukraine-leaves-four-_20260524_1325.html
-✓ Created comprehensive article: large-scale-russian-attack-on-ukraine-leaves-four-_20260524_1325.html
+Successfully created file: bahrain-jails-nine-defendants-for-life-for-coopera_20260524_1503.html
+✓ Created comprehensive article: bahrain-jails-nine-defendants-for-life-for-coopera_20260524_1503.html
 
-Processing trending topic: Suicide car bombing attack on a train in Pakistan kills dozens
-Searching Google for: Suicide car bombing attack on a train in Pakistan kills dozens
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuicide%252Bcar%252Bbombing%252Battack%252Bon%252Ba%252Btrain%252Bin%252BPakistan%252Bkills%252Bdozens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkxGND4y9AGIjCS7kG7cVbMBQWHYxvpZmb611RrAjEYey3NjjqBlpRMDsdbzC1eeLvfjgwlishr9nwyBmpjbmRyUloBQw
+Processing trending topic: France bans Ben-Gvir: Which other Israeli leaders have been penalised?
+Searching Google for: France bans Ben-Gvir: Which other Israeli leaders have been penalised?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Bbans%252BBen-Gvir%253A%252BWhich%252Bother%252BIsraeli%252Bleaders%252Bhave%252Bbeen%252Bpenalised%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq7yGNamzNAGIjB0viEB3QWJPcfF0PyhN1PjEwy2H0udWweXYRi3yMnBuezEN9upJegBYETf_SX_JHsyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suicide-car-bombing-attack-on-a-train-in-pakistan-_20260524_1325.html
-✓ Created comprehensive article: suicide-car-bombing-attack-on-a-train-in-pakistan-_20260524_1325.html
+Successfully created file: france-bans-ben-gvir-which-other-israeli-leaders-h_20260524_1503.html
+✓ Created comprehensive article: france-bans-ben-gvir-which-other-israeli-leaders-h_20260524_1503.html
 
-Processing trending topic: Blast hits train in Pakistan’s Balochistan, killing at least 24 people
-Searching Google for: Blast hits train in Pakistan’s Balochistan, killing at least 24 people
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBlast%252Bhits%252Btrain%252Bin%252BPakistan%25E2%2580%2599s%252BBalochistan%252C%252Bkilling%252Bat%252Bleast%252B24%252Bpeople%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkxGNb4y9AGIjCuhvgktENuI00M5l3aAT5zxoWvyKwMR9bvh9P4HcCZYjGlNiH5IttxAS2-WO0fU9oyBmpjbmRyUloBQw
+Processing trending topic: For third year in a row, Israel blocks Hajj pilgrimage for Gaza Muslims
+Searching Google for: For third year in a row, Israel blocks Hajj pilgrimage for Gaza Muslims
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFor%252Bthird%252Byear%252Bin%252Ba%252Brow%252C%252BIsrael%252Bblocks%252BHajj%252Bpilgrimage%252Bfor%252BGaza%252BMuslims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq7yGNymzNAGIjBfhDTSMmQwQivlFMDF4cMh8pXBfUrCIwmtvt8XB76heecEv-EWk4otWYkPJemhl24yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: blast-hits-train-in-pakistans-balochistan-killing-_20260524_1325.html
-✓ Created comprehensive article: blast-hits-train-in-pakistans-balochistan-killing-_20260524_1325.html
+Successfully created file: for-third-year-in-a-row-israel-blocks-hajj-pilgrim_20260524_1504.html
+✓ Created comprehensive article: for-third-year-in-a-row-israel-blocks-hajj-pilgrim_20260524_1504.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-sees-hottest-day-of-year-as-bank-holiday-travel_20260522_1855.html
-Cleaned old post to keep top 30 limit: the-gcc-should-insure-itself-against-the-next-stra_20260524_1118.html
-Cleaned old post to keep top 30 limit: iran-war-day-86-trump-announces-potential-deal-ami_20260524_1118.html
+Cleaned old post to keep top 30 limit: suicide-car-bombing-attack-on-a-train-in-pakistan-_20260524_1325.html
+Cleaned old post to keep top 30 limit: large-scale-russian-attack-on-ukraine-leaves-four-_20260524_1325.html
+Cleaned old post to keep top 30 limit: blast-hits-train-in-pakistans-balochistan-killing-_20260524_1325.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Large-scale Russian attack on Ukraine leaves four dead and dozens injured
+   • Bahrain jails nine defendants for life for ‘cooperating’ with Iran’s IRGC
      Sources: bbc.com, cnn.com, reuters.com
-   • Suicide car bombing attack on a train in Pakistan kills dozens
+   • France bans Ben-Gvir: Which other Israeli leaders have been penalised?
      Sources: bbc.com, cnn.com, reuters.com
-   • Blast hits train in Pakistan’s Balochistan, killing at least 24 people
+   • For third year in a row, Israel blocks Hajj pilgrimage for Gaza Muslims
      Sources: bbc.com, cnn.com, reuters.com
