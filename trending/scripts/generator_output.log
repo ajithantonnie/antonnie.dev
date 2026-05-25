@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer 'appalled' by case of boys spared jail after raping teenage girls
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ecuador’s Noboa pledges to extradite criminals in State of the Union speech
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cuba thanks China for rice shipment amid worsening humanitarian conditions
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Inside a Beirut barbershop shaped by war and crisis
-Added expanded search topic: Ecuador’s Noboa pledges to extradite criminals in State of the Union speech
-Added expanded search topic: Cuba thanks China for rice shipment amid worsening humanitarian conditions
-Added expanded search topic: Inside a Beirut barbershop shaped by war and crisis
-Saved 33 topics for 2026-05-24
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-05-25
 Returning 3 unique trending topics:
-  1. Ecuador’s Noboa pledges to extradite criminals in State of the Union speech (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Cuba thanks China for rice shipment amid worsening humanitarian conditions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Inside a Beirut barbershop shaped by war and crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer 'appalled' by case of boys spared jail after raping teenage girls (from BBC News)
+  2. Trump tells US negotiators 'not to rush' into deal with Iran (from BBC News)
+  3. Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages (from The Guardian)
 
-Processing trending topic: Ecuador’s Noboa pledges to extradite criminals in State of the Union speech
-Searching Google for: Ecuador’s Noboa pledges to extradite criminals in State of the Union speech
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEcuador%25E2%2580%2599s%252BNoboa%252Bpledges%252Bto%252Bextradite%252Bcriminals%252Bin%252BState%252Bof%252Bthe%252BUnion%252Bspeech%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mtm0GLuFztAGIjBNZjqLJqN1PbecXn5_8edKc2zy49bA_F-C3PksXCB685iJNmpDdu-s4T7UWvm1z3gyBmpjbmRyUloBQw
+Processing trending topic: Starmer 'appalled' by case of boys spared jail after raping teenage girls
+Searching Google for: Starmer 'appalled' by case of boys spared jail after raping teenage girls
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252B%2527appalled%2527%252Bby%252Bcase%252Bof%252Bboys%252Bspared%252Bjail%252Bafter%252Braping%252Bteenage%252Bgirls%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LEGGPWiztAGIjCvoPYNOJOi5IS5NH-61Lqkg9Va25Y7Cn54E0O9Nf2s_S5ADC_Wm7VX5D_nxbdJrVgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ecuadors-noboa-pledges-to-extradite-criminals-in-s_20260524_2259.html
-✓ Created comprehensive article: ecuadors-noboa-pledges-to-extradite-criminals-in-s_20260524_2259.html
+Successfully created file: starmer-appalled-by-case-of-boys-spared-jail-after_20260525_0002.html
+✓ Created comprehensive article: starmer-appalled-by-case-of-boys-spared-jail-after_20260525_0002.html
 
-Processing trending topic: Cuba thanks China for rice shipment amid worsening humanitarian conditions
-Searching Google for: Cuba thanks China for rice shipment amid worsening humanitarian conditions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuba%252Bthanks%252BChina%252Bfor%252Brice%252Bshipment%252Bamid%252Bworsening%252Bhumanitarian%252Bconditions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mtm0GMKFztAGIjAo6A0r7VJPjj_e142tZTQ_UDq8-5eQzyeJ0AfAXq3pqBXxGiQGVGLeCj81ehFfYSoyBmpjbmRyUloBQw
+Processing trending topic: Trump tells US negotiators 'not to rush' into deal with Iran
+Searching Google for: Trump tells US negotiators 'not to rush' into deal with Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btells%252BUS%252Bnegotiators%252B%2527not%252Bto%252Brush%2527%252Binto%252Bdeal%252Bwith%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LEGGPyiztAGIjB0hW-cGi2aqUT_Y23RvgYcXusnrWtF8HASkPkyncs1zXi0UGhKFDb_jEZwQvdKU3oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cuba-thanks-china-for-rice-shipment-amid-worsening_20260524_2259.html
-✓ Created comprehensive article: cuba-thanks-china-for-rice-shipment-amid-worsening_20260524_2259.html
+Successfully created file: trump-tells-us-negotiators-not-to-rush-into-deal-w_20260525_0002.html
+✓ Created comprehensive article: trump-tells-us-negotiators-not-to-rush-into-deal-w_20260525_0002.html
 
-Processing trending topic: Inside a Beirut barbershop shaped by war and crisis
-Searching Google for: Inside a Beirut barbershop shaped by war and crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInside%252Ba%252BBeirut%252Bbarbershop%252Bshaped%252Bby%252Bwar%252Band%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mtm0GMiFztAGIjAN6cENnvRDk02CvymUKzCD2B_9AR0l_0o-znRixOKmLsJkLjL1v8yLG6Shf4i2HnwyBmpjbmRyUloBQw
+Processing trending topic: Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
+Searching Google for: Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNumber%252Bof%252Bsuspected%252BEbola%252Bcases%252Bin%252BDR%252BCongo%252Bpasses%252B900%252Bas%252Bhealth%252Bworkers%252Bface%252Battacks%252Band%252Bshortages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LEGGIKjztAGIjD6t-SYyv07Xf1RvJYpgp-k7zDaq2Vrug-hCYZsymNiWk9aFLFdFa3j5grPTTQogxUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: inside-a-beirut-barbershop-shaped-by-war-and-crisi_20260524_2259.html
-✓ Created comprehensive article: inside-a-beirut-barbershop-shaped-by-war-and-crisi_20260524_2259.html
+Successfully created file: number-of-suspected-ebola-cases-in-dr-congo-passes_20260525_0002.html
+✓ Created comprehensive article: number-of-suspected-ebola-cases-in-dr-congo-passes_20260525_0002.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: iran-team-trains-through-world-cup-uncertainty_20260524_1805.html
-Cleaned old post to keep top 30 limit: starmer-appalled-by-case-of-boys-spared-jail-after_20260524_2158.html
-Cleaned old post to keep top 30 limit: after-san-diego-shooting-muslim-americans-aim-to-t_20260524_2158.html
+Cleaned old post to keep top 30 limit: ecuadors-noboa-pledges-to-extradite-criminals-in-s_20260524_2259.html
+Cleaned old post to keep top 30 limit: inside-a-beirut-barbershop-shaped-by-war-and-crisi_20260524_2259.html
+Cleaned old post to keep top 30 limit: cuba-thanks-china-for-rice-shipment-amid-worsening_20260524_2259.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ecuador’s Noboa pledges to extradite criminals in State of the Union speech
+   • Starmer 'appalled' by case of boys spared jail after raping teenage girls
      Sources: bbc.com, cnn.com, reuters.com
-   • Cuba thanks China for rice shipment amid worsening humanitarian conditions
+   • Trump tells US negotiators 'not to rush' into deal with Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Inside a Beirut barbershop shaped by war and crisis
+   • Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
      Sources: bbc.com, cnn.com, reuters.com
