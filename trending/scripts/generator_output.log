@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer 'appalled' by case of boys spared jail after raping teenage girls
@@ -8,58 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-25
+  Added: ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Africa Day 2026: Has the continent achieved true liberation?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico City paints record-breaking football mural ahead of World Cup
+Added expanded search topic: Africa Day 2026: Has the continent achieved true liberation?
+Added expanded search topic: Mexico City paints record-breaking football mural ahead of World Cup
+Saved 6 topics for 2026-05-25
 Returning 3 unique trending topics:
-  1. Starmer 'appalled' by case of boys spared jail after raping teenage girls (from BBC News)
-  2. Trump tells US negotiators 'not to rush' into deal with Iran (from BBC News)
-  3. Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages (from The Guardian)
+  1. ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana (from The Guardian)
+  2. Africa Day 2026: Has the continent achieved true liberation? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexico City paints record-breaking football mural ahead of World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer 'appalled' by case of boys spared jail after raping teenage girls
-Searching Google for: Starmer 'appalled' by case of boys spared jail after raping teenage girls
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252B%2527appalled%2527%252Bby%252Bcase%252Bof%252Bboys%252Bspared%252Bjail%252Bafter%252Braping%252Bteenage%252Bgirls%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LEGGPWiztAGIjCvoPYNOJOi5IS5NH-61Lqkg9Va25Y7Cn54E0O9Nf2s_S5ADC_Wm7VX5D_nxbdJrVgyBmpjbmRyUloBQw
+Processing trending topic: ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana
+Searching Google for: ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598She%252Bdoes%252Bnot%252Bback%252Bdown%25E2%2580%2599%253A%252Bthe%252Bcouple%252Bseeking%252Bto%252Blegalise%252Bsame-sex%252Bmarriage%252Bin%252BBotswana%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JnSGL-mz9AGIjBILZKm3pNo_ncKYwGObbtkXMIPUulBzNQTmLd0csnsMWbVOO86PKqA5FatKlgTx04yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-appalled-by-case-of-boys-spared-jail-after_20260525_0002.html
-✓ Created comprehensive article: starmer-appalled-by-case-of-boys-spared-jail-after_20260525_0002.html
+Successfully created file: she-does-not-back-down-the-couple-seeking-to-legal_20260525_0442.html
+✓ Created comprehensive article: she-does-not-back-down-the-couple-seeking-to-legal_20260525_0442.html
 
-Processing trending topic: Trump tells US negotiators 'not to rush' into deal with Iran
-Searching Google for: Trump tells US negotiators 'not to rush' into deal with Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btells%252BUS%252Bnegotiators%252B%2527not%252Bto%252Brush%2527%252Binto%252Bdeal%252Bwith%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LEGGPyiztAGIjB0hW-cGi2aqUT_Y23RvgYcXusnrWtF8HASkPkyncs1zXi0UGhKFDb_jEZwQvdKU3oyBmpjbmRyUloBQw
+Processing trending topic: Africa Day 2026: Has the continent achieved true liberation?
+Searching Google for: Africa Day 2026: Has the continent achieved true liberation?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfrica%252BDay%252B2026%253A%252BHas%252Bthe%252Bcontinent%252Bachieved%252Btrue%252Bliberation%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JnSGMamz9AGIjDcRZtLiF3fXGbmVsORttjM1BFGkA57yMA0mnQICk_E7wX68P88flQQ3HzIGcYJX_kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-tells-us-negotiators-not-to-rush-into-deal-w_20260525_0002.html
-✓ Created comprehensive article: trump-tells-us-negotiators-not-to-rush-into-deal-w_20260525_0002.html
+Successfully created file: africa-day-2026-has-the-continent-achieved-true-li_20260525_0442.html
+✓ Created comprehensive article: africa-day-2026-has-the-continent-achieved-true-li_20260525_0442.html
 
-Processing trending topic: Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
-Searching Google for: Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNumber%252Bof%252Bsuspected%252BEbola%252Bcases%252Bin%252BDR%252BCongo%252Bpasses%252B900%252Bas%252Bhealth%252Bworkers%252Bface%252Battacks%252Band%252Bshortages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LEGGIKjztAGIjD6t-SYyv07Xf1RvJYpgp-k7zDaq2Vrug-hCYZsymNiWk9aFLFdFa3j5grPTTQogxUyBmpjbmRyUloBQw
+Processing trending topic: Mexico City paints record-breaking football mural ahead of World Cup
+Searching Google for: Mexico City paints record-breaking football mural ahead of World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252BCity%252Bpaints%252Brecord-breaking%252Bfootball%252Bmural%252Bahead%252Bof%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JnSGM2mz9AGIjBW8Mak4qGmLsTvSWjvuM17RZ-BBe5G7hhf30qgaNPoQECYqAcFcPuIn6TqiPSpyfYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: number-of-suspected-ebola-cases-in-dr-congo-passes_20260525_0002.html
-✓ Created comprehensive article: number-of-suspected-ebola-cases-in-dr-congo-passes_20260525_0002.html
+Successfully created file: mexico-city-paints-record-breaking-football-mural-_20260525_0442.html
+✓ Created comprehensive article: mexico-city-paints-record-breaking-football-mural-_20260525_0442.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ecuadors-noboa-pledges-to-extradite-criminals-in-s_20260524_2259.html
-Cleaned old post to keep top 30 limit: inside-a-beirut-barbershop-shaped-by-war-and-crisi_20260524_2259.html
-Cleaned old post to keep top 30 limit: cuba-thanks-china-for-rice-shipment-amid-worsening_20260524_2259.html
+Cleaned old post to keep top 30 limit: yemen-reports-hijacked-oil-tanker-headed-for-somal_20260502_1746.html
+Cleaned old post to keep top 30 limit: yemen-war-sees-scramble-for-scant-resources-betwee_20260524_0925.html
+Cleaned old post to keep top 30 limit: israeli-strikes-kill-six-in-southern-lebanon-amid-_20260524_2008.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer 'appalled' by case of boys spared jail after raping teenage girls
+   • ‘She does not back down’: the couple seeking to legalise same-sex marriage in Botswana
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump tells US negotiators 'not to rush' into deal with Iran
+   • Africa Day 2026: Has the continent achieved true liberation?
      Sources: bbc.com, cnn.com, reuters.com
-   • Number of suspected Ebola cases in DR Congo passes 900 as health workers face attacks and shortages
+   • Mexico City paints record-breaking football mural ahead of World Cup
      Sources: bbc.com, cnn.com, reuters.com
