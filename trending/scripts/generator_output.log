@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK's hottest May day record broken for second day in a row
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Aftermath of deadly Israeli strikes in southern Lebanon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Four people killed after minibus collides with train in Belgium
-Added expanded search topic: Aftermath of deadly Israeli strikes in southern Lebanon
-Added expanded search topic: Four people killed after minibus collides with train in Belgium
-Saved 18 topics for 2026-05-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chemical tank rupture kills multiple people in US state of Washington
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Climber carries kite with Palestinian children’s dreams to Everest summit
+Added expanded search topic: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
+Added expanded search topic: Chemical tank rupture kills multiple people in US state of Washington
+Added expanded search topic: Climber carries kite with Palestinian children’s dreams to Everest summit
+Saved 21 topics for 2026-05-26
 Returning 3 unique trending topics:
-  1. Body found in search for boy, 12, missing in river (from BBC News)
-  2. Aftermath of deadly Israeli strikes in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Four people killed after minibus collides with train in Belgium (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Chemical tank rupture kills multiple people in US state of Washington (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Climber carries kite with Palestinian children’s dreams to Everest summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Body found in search for boy, 12, missing in river
-Searching Google for: Body found in search for boy, 12, missing in river
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBody%252Bfound%252Bin%252Bsearch%252Bfor%252Bboy%252C%252B12%252C%252Bmissing%252Bin%252Briver%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFXGLKp2NAGIjD3U8V-14uAbscok9vDghRHBL2Q9PSuej2UCstYe228eEktBLk0829w9bfg349VFGwyBmpjbmRyUloBQw
+Processing trending topic: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
+Searching Google for: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bthe%252Bviral%252B%25E2%2580%2598Cockroach%252BJanta%252BParty%25E2%2580%2599%252Ba%252Bthreat%252Bto%252BModi%25E2%2580%2599s%252Bgovernment%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YFGKvS2NAGIjCMyHehc_rYiG7q9HojODA3-Mv_q71mQgSVgCTnqnio5cL8dyuWXeaykCUhI32UeRcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: body-found-in-search-for-boy-12-missing-in-river_20260526_2146.html
-✓ Created comprehensive article: body-found-in-search-for-boy-12-missing-in-river_20260526_2146.html
+Successfully created file: is-the-viral-cockroach-janta-party-a-threat-to-mod_20260526_2313.html
+✓ Created comprehensive article: is-the-viral-cockroach-janta-party-a-threat-to-mod_20260526_2313.html
 
-Processing trending topic: Aftermath of deadly Israeli strikes in southern Lebanon
-Searching Google for: Aftermath of deadly Israeli strikes in southern Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAftermath%252Bof%252Bdeadly%252BIsraeli%252Bstrikes%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFXGLqp2NAGIjBPMN2YrwgOdsjuJBjhE5CP1Opm08m6t0IuSvkCB8AryaWMk2k7OpjHKr6RcIDE2D0yBmpjbmRyUloBQw
+Processing trending topic: Chemical tank rupture kills multiple people in US state of Washington
+Searching Google for: Chemical tank rupture kills multiple people in US state of Washington
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChemical%252Btank%252Brupture%252Bkills%252Bmultiple%252Bpeople%252Bin%252BUS%252Bstate%252Bof%252BWashington%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YFGLLS2NAGIjClGCBsRRfpPDltYPk72yEoOJcujWD6__J1_j-EddspQky6-TDDlxL4zudo-M9AYnMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: aftermath-of-deadly-israeli-strikes-in-southern-le_20260526_2146.html
-✓ Created comprehensive article: aftermath-of-deadly-israeli-strikes-in-southern-le_20260526_2146.html
+Successfully created file: chemical-tank-rupture-kills-multiple-people-in-us-_20260526_2313.html
+✓ Created comprehensive article: chemical-tank-rupture-kills-multiple-people-in-us-_20260526_2313.html
 
-Processing trending topic: Four people killed after minibus collides with train in Belgium
-Searching Google for: Four people killed after minibus collides with train in Belgium
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFour%252Bpeople%252Bkilled%252Bafter%252Bminibus%252Bcollides%252Bwith%252Btrain%252Bin%252BBelgium%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFXGMGp2NAGIjCjEtWDR2d7QzIjfvwCgOH3h9bA8cWaMpwUrhrqerWNnLrIGzkpN_hXnoV7p1yOfPUyBmpjbmRyUloBQw
+Processing trending topic: Climber carries kite with Palestinian children’s dreams to Everest summit
+Searching Google for: Climber carries kite with Palestinian children’s dreams to Everest summit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClimber%252Bcarries%252Bkite%252Bwith%252BPalestinian%252Bchildren%25E2%2580%2599s%252Bdreams%252Bto%252BEverest%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YFGLjS2NAGIjAggFnp5YSWQEj0NuLO8zBSK781XTY4E5tv4MxY045ofST8PMqcYfZYO6Web9QfxEMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: four-people-killed-after-minibus-collides-with-tra_20260526_2146.html
-✓ Created comprehensive article: four-people-killed-after-minibus-collides-with-tra_20260526_2146.html
+Successfully created file: climber-carries-kite-with-palestinian-childrens-dr_20260526_2314.html
+✓ Created comprehensive article: climber-carries-kite-with-palestinian-childrens-dr_20260526_2314.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: several-killed-as-train-and-school-bus-collide-in-_20260526_0955.html
-Cleaned old post to keep top 30 limit: uks-hottest-may-day-record-broken-for-second-day-i_20260526_1924.html
-Cleaned old post to keep top 30 limit: armenia-signs-strategic-partnership-deal-with-us-a_20260526_1924.html
+Cleaned old post to keep top 30 limit: four-people-killed-after-minibus-collides-with-tra_20260526_2146.html
+Cleaned old post to keep top 30 limit: body-found-in-search-for-boy-12-missing-in-river_20260526_2146.html
+Cleaned old post to keep top 30 limit: aftermath-of-deadly-israeli-strikes-in-southern-le_20260526_2146.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Body found in search for boy, 12, missing in river
+   • Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
      Sources: bbc.com, cnn.com, reuters.com
-   • Aftermath of deadly Israeli strikes in southern Lebanon
+   • Chemical tank rupture kills multiple people in US state of Washington
      Sources: bbc.com, cnn.com, reuters.com
-   • Four people killed after minibus collides with train in Belgium
+   • Climber carries kite with Palestinian children’s dreams to Everest summit
      Sources: bbc.com, cnn.com, reuters.com
