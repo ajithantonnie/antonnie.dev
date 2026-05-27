@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Energy bills to rise for millions as impact of Iran war hits
   Added: Labour has 'no coherent plan' for country, says Blair
-  Added: UK's hottest May day record broken for second day in a row
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-27
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Taiwan’s economy is booming thanks to AI. Not everyone sees the benefits
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How badly is Europe affected by fertiliser shortages due to the Iran war?
+Added expanded search topic: Taiwan’s economy is booming thanks to AI. Not everyone sees the benefits
+Added expanded search topic: How badly is Europe affected by fertiliser shortages due to the Iran war?
+Saved 6 topics for 2026-05-27
 Returning 3 unique trending topics:
-  1. Labour has 'no coherent plan' for country, says Blair (from BBC News)
-  2. UK's hottest May day record broken for second day in a row (from BBC News)
-  3. Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO (from The Guardian)
+  1. Energy bills to rise for millions as impact of Iran war hits (from BBC News)
+  2. Taiwan’s economy is booming thanks to AI. Not everyone sees the benefits (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How badly is Europe affected by fertiliser shortages due to the Iran war? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Labour has 'no coherent plan' for country, says Blair
-Searching Google for: Labour has 'no coherent plan' for country, says Blair
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLabour%252Bhas%252B%2527no%252Bcoherent%252Bplan%2527%252Bfor%252Bcountry%252C%252Bsays%252BBlair%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3nJGObO2dAGIjDn0x8nXK6Z1xgmmHsEg9p2ejvZA0IGv5YSqBTcB_7dN60Dgn2QNQunK57BK17L-TcyBmpjbmRyUloBQw
+Processing trending topic: Energy bills to rise for millions as impact of Iran war hits
+Searching Google for: Energy bills to rise for millions as impact of Iran war hits
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEnergy%252Bbills%252Bto%252Brise%252Bfor%252Bmillions%252Bas%252Bimpact%252Bof%252BIran%252Bwar%252Bhits%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DRGMfL2tAGIjA6vLObs7rdqYAm3g29Zk2xUOYTwh7uRbZmZFSBIvm4yLmXtmCBGzpXoP_N0cRjcQEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: labour-has-no-coherent-plan-for-country-says-blair_20260527_0339.html
-✓ Created comprehensive article: labour-has-no-coherent-plan-for-country-says-blair_20260527_0339.html
+Successfully created file: energy-bills-to-rise-for-millions-as-impact-of-ira_20260527_0805.html
+✓ Created comprehensive article: energy-bills-to-rise-for-millions-as-impact-of-ira_20260527_0805.html
 
-Processing trending topic: UK's hottest May day record broken for second day in a row
-Searching Google for: UK's hottest May day record broken for second day in a row
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%2527s%252Bhottest%252BMay%252Bday%252Brecord%252Bbroken%252Bfor%252Bsecond%252Bday%252Bin%252Ba%252Brow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3nJGO3O2dAGIjBJGRgOnfgK5ynsFyB2FiPKbLx7lR1YD6_bOyVO5aJfB9N3PSXyOc7ZVUO5a9IKGGMyBmpjbmRyUloBQw
+Processing trending topic: Taiwan’s economy is booming thanks to AI. Not everyone sees the benefits
+Searching Google for: Taiwan’s economy is booming thanks to AI. Not everyone sees the benefits
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTaiwan%25E2%2580%2599s%252Beconomy%252Bis%252Bbooming%252Bthanks%252Bto%252BAI.%252BNot%252Beveryone%252Bsees%252Bthe%252Bbenefits%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DRGM_L2tAGIjCfTVeTutNejLgOj1Pj2P38sYEFEFgs-csriPt_6FzDGJjnj8e-VfDwd8Vi0mxZK-QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uks-hottest-may-day-record-broken-for-second-day-i_20260527_0339.html
-✓ Created comprehensive article: uks-hottest-may-day-record-broken-for-second-day-i_20260527_0339.html
+Successfully created file: taiwans-economy-is-booming-thanks-to-ai-not-everyo_20260527_0805.html
+✓ Created comprehensive article: taiwans-economy-is-booming-thanks-to-ai-not-everyo_20260527_0805.html
 
-Processing trending topic: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
-Searching Google for: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpread%252Bof%252BEbola%252Bin%252BDRC%252B%25E2%2580%2598outpacing%25E2%2580%2599%252Bresponse%252Befforts%252C%252Bwarns%252BWHO%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3nJGPPO2dAGIjBkiqZ0WreBfCbAG7M3HFJnKuP6rl7YwZjHra-RGuAPYaYNx9pS5J_Zg2vFAZmBK9UyBmpjbmRyUloBQw
+Processing trending topic: How badly is Europe affected by fertiliser shortages due to the Iran war?
+Searching Google for: How badly is Europe affected by fertiliser shortages due to the Iran war?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bbadly%252Bis%252BEurope%252Baffected%252Bby%252Bfertiliser%252Bshortages%252Bdue%252Bto%252Bthe%252BIran%252Bwar%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DRGNXL2tAGIjAX06OQoRwqdZnzPf6UWUySOloqJ9YHEN7WwbepL_yQn6LiM3Ppk-EQz12xr0dbAmIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spread-of-ebola-in-drc-outpacing-response-efforts-_20260527_0339.html
-✓ Created comprehensive article: spread-of-ebola-in-drc-outpacing-response-efforts-_20260527_0339.html
+Successfully created file: how-badly-is-europe-affected-by-fertiliser-shortag_20260527_0805.html
+✓ Created comprehensive article: how-badly-is-europe-affected-by-fertiliser-shortag_20260527_0805.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: climber-carries-kite-with-palestinian-childrens-dr_20260526_2314.html
-Cleaned old post to keep top 30 limit: is-the-viral-cockroach-janta-party-a-threat-to-mod_20260526_2313.html
-Cleaned old post to keep top 30 limit: chemical-tank-rupture-kills-multiple-people-in-us-_20260526_2313.html
+Cleaned old post to keep top 30 limit: labour-has-no-coherent-plan-for-country-says-blair_20260527_0339.html
+Cleaned old post to keep top 30 limit: spread-of-ebola-in-drc-outpacing-response-efforts-_20260527_0339.html
+Cleaned old post to keep top 30 limit: former-arsenal-midfielder-partey-named-in-ghana-sq_20260526_1924.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Labour has 'no coherent plan' for country, says Blair
+   • Energy bills to rise for millions as impact of Iran war hits
      Sources: bbc.com, cnn.com, reuters.com
-   • UK's hottest May day record broken for second day in a row
+   • Taiwan’s economy is booming thanks to AI. Not everyone sees the benefits
      Sources: bbc.com, cnn.com, reuters.com
-   • Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
+   • How badly is Europe affected by fertiliser shortages due to the Iran war?
      Sources: bbc.com, cnn.com, reuters.com
