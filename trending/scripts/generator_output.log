@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Labour has 'no coherent plan' for country, says Blair
   Added: UK's hottest May day record broken for second day in a row
-  Added: Body found in search for boy, 12, missing in river
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chemical tank rupture kills multiple people in US state of Washington
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Climber carries kite with Palestinian children’s dreams to Everest summit
-Added expanded search topic: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
-Added expanded search topic: Chemical tank rupture kills multiple people in US state of Washington
-Added expanded search topic: Climber carries kite with Palestinian children’s dreams to Everest summit
-Saved 21 topics for 2026-05-26
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-05-27
 Returning 3 unique trending topics:
-  1. Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Chemical tank rupture kills multiple people in US state of Washington (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Climber carries kite with Palestinian children’s dreams to Everest summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Labour has 'no coherent plan' for country, says Blair (from BBC News)
+  2. UK's hottest May day record broken for second day in a row (from BBC News)
+  3. Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO (from The Guardian)
 
-Processing trending topic: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
-Searching Google for: Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bthe%252Bviral%252B%25E2%2580%2598Cockroach%252BJanta%252BParty%25E2%2580%2599%252Ba%252Bthreat%252Bto%252BModi%25E2%2580%2599s%252Bgovernment%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YFGKvS2NAGIjCMyHehc_rYiG7q9HojODA3-Mv_q71mQgSVgCTnqnio5cL8dyuWXeaykCUhI32UeRcyBmpjbmRyUloBQw
+Processing trending topic: Labour has 'no coherent plan' for country, says Blair
+Searching Google for: Labour has 'no coherent plan' for country, says Blair
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLabour%252Bhas%252B%2527no%252Bcoherent%252Bplan%2527%252Bfor%252Bcountry%252C%252Bsays%252BBlair%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3nJGObO2dAGIjDn0x8nXK6Z1xgmmHsEg9p2ejvZA0IGv5YSqBTcB_7dN60Dgn2QNQunK57BK17L-TcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: is-the-viral-cockroach-janta-party-a-threat-to-mod_20260526_2313.html
-✓ Created comprehensive article: is-the-viral-cockroach-janta-party-a-threat-to-mod_20260526_2313.html
+Successfully created file: labour-has-no-coherent-plan-for-country-says-blair_20260527_0339.html
+✓ Created comprehensive article: labour-has-no-coherent-plan-for-country-says-blair_20260527_0339.html
 
-Processing trending topic: Chemical tank rupture kills multiple people in US state of Washington
-Searching Google for: Chemical tank rupture kills multiple people in US state of Washington
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChemical%252Btank%252Brupture%252Bkills%252Bmultiple%252Bpeople%252Bin%252BUS%252Bstate%252Bof%252BWashington%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YFGLLS2NAGIjClGCBsRRfpPDltYPk72yEoOJcujWD6__J1_j-EddspQky6-TDDlxL4zudo-M9AYnMyBmpjbmRyUloBQw
+Processing trending topic: UK's hottest May day record broken for second day in a row
+Searching Google for: UK's hottest May day record broken for second day in a row
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%2527s%252Bhottest%252BMay%252Bday%252Brecord%252Bbroken%252Bfor%252Bsecond%252Bday%252Bin%252Ba%252Brow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3nJGO3O2dAGIjBJGRgOnfgK5ynsFyB2FiPKbLx7lR1YD6_bOyVO5aJfB9N3PSXyOc7ZVUO5a9IKGGMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chemical-tank-rupture-kills-multiple-people-in-us-_20260526_2313.html
-✓ Created comprehensive article: chemical-tank-rupture-kills-multiple-people-in-us-_20260526_2313.html
+Successfully created file: uks-hottest-may-day-record-broken-for-second-day-i_20260527_0339.html
+✓ Created comprehensive article: uks-hottest-may-day-record-broken-for-second-day-i_20260527_0339.html
 
-Processing trending topic: Climber carries kite with Palestinian children’s dreams to Everest summit
-Searching Google for: Climber carries kite with Palestinian children’s dreams to Everest summit
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClimber%252Bcarries%252Bkite%252Bwith%252BPalestinian%252Bchildren%25E2%2580%2599s%252Bdreams%252Bto%252BEverest%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_YFGLjS2NAGIjAggFnp5YSWQEj0NuLO8zBSK781XTY4E5tv4MxY045ofST8PMqcYfZYO6Web9QfxEMyBmpjbmRyUloBQw
+Processing trending topic: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
+Searching Google for: Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpread%252Bof%252BEbola%252Bin%252BDRC%252B%25E2%2580%2598outpacing%25E2%2580%2599%252Bresponse%252Befforts%252C%252Bwarns%252BWHO%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3nJGPPO2dAGIjBkiqZ0WreBfCbAG7M3HFJnKuP6rl7YwZjHra-RGuAPYaYNx9pS5J_Zg2vFAZmBK9UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: climber-carries-kite-with-palestinian-childrens-dr_20260526_2314.html
-✓ Created comprehensive article: climber-carries-kite-with-palestinian-childrens-dr_20260526_2314.html
+Successfully created file: spread-of-ebola-in-drc-outpacing-response-efforts-_20260527_0339.html
+✓ Created comprehensive article: spread-of-ebola-in-drc-outpacing-response-efforts-_20260527_0339.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: four-people-killed-after-minibus-collides-with-tra_20260526_2146.html
-Cleaned old post to keep top 30 limit: body-found-in-search-for-boy-12-missing-in-river_20260526_2146.html
-Cleaned old post to keep top 30 limit: aftermath-of-deadly-israeli-strikes-in-southern-le_20260526_2146.html
+Cleaned old post to keep top 30 limit: climber-carries-kite-with-palestinian-childrens-dr_20260526_2314.html
+Cleaned old post to keep top 30 limit: is-the-viral-cockroach-janta-party-a-threat-to-mod_20260526_2313.html
+Cleaned old post to keep top 30 limit: chemical-tank-rupture-kills-multiple-people-in-us-_20260526_2313.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?
+   • Labour has 'no coherent plan' for country, says Blair
      Sources: bbc.com, cnn.com, reuters.com
-   • Chemical tank rupture kills multiple people in US state of Washington
+   • UK's hottest May day record broken for second day in a row
      Sources: bbc.com, cnn.com, reuters.com
-   • Climber carries kite with Palestinian children’s dreams to Everest summit
+   • Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO
      Sources: bbc.com, cnn.com, reuters.com
