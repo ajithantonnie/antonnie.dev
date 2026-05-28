@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: 'We are at risk of a lost generation': One in six young people will not be in work or training in...
+  Added: One in six young people will not be in work or training in five years without action, report warns
   Added: I just want freedom from fear, says girl raped by teenage boys as sentences to be reviewed
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US building Ebola quarantine center in Kenya for Americans amid outbreak
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-05-28
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ebola outbreak: What travel restrictions have countries imposed?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ghana welcomes home citizens evacuated from South Africa
+Added expanded search topic: Ebola outbreak: What travel restrictions have countries imposed?
+Added expanded search topic: Ghana welcomes home citizens evacuated from South Africa
+Saved 6 topics for 2026-05-28
 Returning 3 unique trending topics:
-  1. 'We are at risk of a lost generation': One in six young people will not be in work or training in... (from BBC News)
-  2. I just want freedom from fear, says girl raped by teenage boys as sentences to be reviewed (from BBC News)
-  3. US building Ebola quarantine center in Kenya for Americans amid outbreak (from The Guardian)
+  1. One in six young people will not be in work or training in five years without action, report warns (from BBC News)
+  2. Ebola outbreak: What travel restrictions have countries imposed? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ghana welcomes home citizens evacuated from South Africa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'We are at risk of a lost generation': One in six young people will not be in work or training in...
-Searching Google for: 'We are at risk of a lost generation': One in six young people will not be in work or training in...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527We%252Bare%252Bat%252Brisk%252Bof%252Ba%252Blost%252Bgeneration%2527%253A%252BOne%252Bin%252Bsix%252Byoung%252Bpeople%252Bwill%252Bnot%252Bbe%252Bin%252Bwork%252Bor%252Btraining%252Bin...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-liGKTf3tAGIjAIS4vSJ1TxhrJRgrIFnaR0l-Z3Mh1oUD1f28a_rt4R-QQwg1dk7V5dJDfN5K_G-c0yBmpjbmRyUloBQw
+Processing trending topic: One in six young people will not be in work or training in five years without action, report warns
+Searching Google for: One in six young people will not be in work or training in five years without action, report warns
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOne%252Bin%252Bsix%252Byoung%252Bpeople%252Bwill%252Bnot%252Bbe%252Bin%252Bwork%252Bor%252Btraining%252Bin%252Bfive%252Byears%252Bwithout%252Baction%252C%252Breport%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mQGPbO39AGIjCuHuO8NkW6JuykfhWKwAmHb5MO9FIzGGSx-RG2nI8bAxgv1bHdGKzmt9q0dlEh57AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-are-at-risk-of-a-lost-generation-one-in-six-you_20260528_0259.html
-✓ Created comprehensive article: we-are-at-risk-of-a-lost-generation-one-in-six-you_20260528_0259.html
+Successfully created file: one-in-six-young-people-will-not-be-in-work-or-tra_20260528_0658.html
+✓ Created comprehensive article: one-in-six-young-people-will-not-be-in-work-or-tra_20260528_0658.html
 
-Processing trending topic: I just want freedom from fear, says girl raped by teenage boys as sentences to be reviewed
-Searching Google for: I just want freedom from fear, says girl raped by teenage boys as sentences to be reviewed
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%252Bjust%252Bwant%252Bfreedom%252Bfrom%252Bfear%252C%252Bsays%252Bgirl%252Braped%252Bby%252Bteenage%252Bboys%252Bas%252Bsentences%252Bto%252Bbe%252Breviewed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-liGKvf3tAGIjCt-7XEqOcdVH8WIfTWQqW3m8BVQcGw8Gqja8Ab_LCmniug7YO3oQkUaQDKsX2j8WoyBmpjbmRyUloBQw
+Processing trending topic: Ebola outbreak: What travel restrictions have countries imposed?
+Searching Google for: Ebola outbreak: What travel restrictions have countries imposed?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%253A%252BWhat%252Btravel%252Brestrictions%252Bhave%252Bcountries%252Bimposed%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mQGP7O39AGIjDPx8yR7EaMrAug5q2eG4u5CwE_4oFvH0pJsUS6TZP7bgFCG0_mePQb6HQEu4pNBYUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-just-want-freedom-from-fear-says-girl-raped-by-t_20260528_0259.html
-✓ Created comprehensive article: i-just-want-freedom-from-fear-says-girl-raped-by-t_20260528_0259.html
+Successfully created file: ebola-outbreak-what-travel-restrictions-have-count_20260528_0658.html
+✓ Created comprehensive article: ebola-outbreak-what-travel-restrictions-have-count_20260528_0658.html
 
-Processing trending topic: US building Ebola quarantine center in Kenya for Americans amid outbreak
-Searching Google for: US building Ebola quarantine center in Kenya for Americans amid outbreak
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bbuilding%252BEbola%252Bquarantine%252Bcenter%252Bin%252BKenya%252Bfor%252BAmericans%252Bamid%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-liGLHf3tAGIjDl0Iqd5YZLL40L3d_4PrI2gVc9oYga4ENAfPIn-jaQNGbpb_4af8rGnYzFEMvPJbAyBmpjbmRyUloBQw
+Processing trending topic: Ghana welcomes home citizens evacuated from South Africa
+Searching Google for: Ghana welcomes home citizens evacuated from South Africa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGhana%252Bwelcomes%252Bhome%252Bcitizens%252Bevacuated%252Bfrom%252BSouth%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mQGITP39AGIjDDZ7C3zfbaZmYSsnxgtCGEL89z_XKdF2i69aMjkO-EwQzcXbAdJ5ZqGu7aDNmApaMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-building-ebola-quarantine-center-in-kenya-for-a_20260528_0300.html
-✓ Created comprehensive article: us-building-ebola-quarantine-center-in-kenya-for-a_20260528_0300.html
+Successfully created file: ghana-welcomes-home-citizens-evacuated-from-south-_20260528_0658.html
+✓ Created comprehensive article: ghana-welcomes-home-citizens-evacuated-from-south-_20260528_0658.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: we-are-at-risk-of-a-lost-generation-one-in-six-you_20260527_2155.html
-Cleaned old post to keep top 30 limit: world-press-freedom-day-marked-in-gaza-as-journali_20260503_2044.html
-Cleaned old post to keep top 30 limit: family-of-mum-30-shot-dead-outside-sheffield-bar-p_20260527_1638.html
+Cleaned old post to keep top 30 limit: us-building-ebola-quarantine-center-in-kenya-for-a_20260528_0300.html
+Cleaned old post to keep top 30 limit: why-is-israel-ramping-up-attacks-in-lebanon-despit_20260527_2318.html
+Cleaned old post to keep top 30 limit: former-assistant-to-tv-star-matthew-perry-sentence_20260527_2318.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'We are at risk of a lost generation': One in six young people will not be in work or training in...
+   • One in six young people will not be in work or training in five years without action, report warns
      Sources: bbc.com, cnn.com, reuters.com
-   • I just want freedom from fear, says girl raped by teenage boys as sentences to be reviewed
+   • Ebola outbreak: What travel restrictions have countries imposed?
      Sources: bbc.com, cnn.com, reuters.com
-   • US building Ebola quarantine center in Kenya for Americans amid outbreak
+   • Ghana welcomes home citizens evacuated from South Africa
      Sources: bbc.com, cnn.com, reuters.com
