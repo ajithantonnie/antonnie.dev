@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: WHO puts Ebola outbreak death rate at ‘huge’ 30-50% as chief arrives in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian rate of losses in Ukraine almost triples in one year
-Added expanded search topic: Russian rate of losses in Ukraine almost triples in one year
-Saved 15 topics for 2026-05-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada sidelined in USMCA renegotiations as domestic economy dips
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ex-US Attorney General Pam Bondi testifies in Epstein files probe
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Netanyahu says Israeli forces have crossed Lebanon’s Litani River
+Added expanded search topic: Canada sidelined in USMCA renegotiations as domestic economy dips
+Added expanded search topic: Ex-US Attorney General Pam Bondi testifies in Epstein files probe
+Added expanded search topic: Netanyahu says Israeli forces have crossed Lebanon’s Litani River
+Saved 18 topics for 2026-05-29
 Returning 3 unique trending topics:
-  1. 'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides (from BBC News)
-  2. Nato and EU condemn Russia after drone hits Romanian residential block (from BBC News)
-  3. Russian rate of losses in Ukraine almost triples in one year (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Canada sidelined in USMCA renegotiations as domestic economy dips (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ex-US Attorney General Pam Bondi testifies in Epstein files probe (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Netanyahu says Israeli forces have crossed Lebanon’s Litani River (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides
-Searching Google for: 'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Poison%252Bseller%2527%252Bwho%252Bsold%252Btoxic%252Bchemicals%252Bonline%252Bto%252Bpeople%252Bacross%252Bworld%252Badmits%252Baiding%252Bsuicides%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd2c5GKK559AGIjDwmpWIrY0go-5ycWDwLskd1KT7hJq3rbyO2zYTS2y_YxHQ7xDG3xY0v1Lce1hG9sQyBmpjbmRyUloBQw
+Processing trending topic: Canada sidelined in USMCA renegotiations as domestic economy dips
+Searching Google for: Canada sidelined in USMCA renegotiations as domestic economy dips
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%252Bsidelined%252Bin%252BUSMCA%252Brenegotiations%252Bas%252Bdomestic%252Beconomy%252Bdips%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oThEGLGB6NAGIjAuR7LE0g-oR39UM3H7muv0x7qQHoETD6h4oSEkqitQvv71yD2mjCrpXeMiJr76M2syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: poison-seller-who-sold-toxic-chemicals-online-to-p_20260529_1836.html
-✓ Created comprehensive article: poison-seller-who-sold-toxic-chemicals-online-to-p_20260529_1836.html
+Successfully created file: canada-sidelined-in-usmca-renegotiations-as-domest_20260529_2110.html
+✓ Created comprehensive article: canada-sidelined-in-usmca-renegotiations-as-domest_20260529_2110.html
 
-Processing trending topic: Nato and EU condemn Russia after drone hits Romanian residential block
-Searching Google for: Nato and EU condemn Russia after drone hits Romanian residential block
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNato%252Band%252BEU%252Bcondemn%252BRussia%252Bafter%252Bdrone%252Bhits%252BRomanian%252Bresidential%252Bblock%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd2c5GKm559AGIjDAO5EiXuDYcbst8HbOS3rHseY5HlEnRh_8hVCngr7wDn8vv0kZaF4_gFn0VYL4oZEyBmpjbmRyUloBQw
+Processing trending topic: Ex-US Attorney General Pam Bondi testifies in Epstein files probe
+Searching Google for: Ex-US Attorney General Pam Bondi testifies in Epstein files probe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEx-US%252BAttorney%252BGeneral%252BPam%252BBondi%252Btestifies%252Bin%252BEpstein%252Bfiles%252Bprobe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oThEGLmB6NAGIjBLAzQDTnPKTYsiJX_YZHs4ttfpoIpbLZpzVYZJ_uTypRQI2z2ybfgwkYdtanvzY0YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nato-and-eu-condemn-russia-after-drone-hits-romani_20260529_1836.html
-✓ Created comprehensive article: nato-and-eu-condemn-russia-after-drone-hits-romani_20260529_1836.html
+Successfully created file: ex-us-attorney-general-pam-bondi-testifies-in-epst_20260529_2110.html
+✓ Created comprehensive article: ex-us-attorney-general-pam-bondi-testifies-in-epst_20260529_2110.html
 
-Processing trending topic: Russian rate of losses in Ukraine almost triples in one year
-Searching Google for: Russian rate of losses in Ukraine almost triples in one year
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Brate%252Bof%252Blosses%252Bin%252BUkraine%252Balmost%252Btriples%252Bin%252Bone%252Byear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd2c5GK-559AGIjAk4J7kvZOGiA6vdV8QgAgtc--jbhCCqiwQub-BpSCYM9_t8sEcGQyeOEw0KnArXzUyBmpjbmRyUloBQw
+Processing trending topic: Netanyahu says Israeli forces have crossed Lebanon’s Litani River
+Searching Google for: Netanyahu says Israeli forces have crossed Lebanon’s Litani River
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNetanyahu%252Bsays%252BIsraeli%252Bforces%252Bhave%252Bcrossed%252BLebanon%25E2%2580%2599s%252BLitani%252BRiver%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oThEGMCB6NAGIjC4eGBos_l6GlLL5B8dSqXTi9ufANn9nWktuX4xExxX_aG-mxP9Zg9Y9j3QdCBwVzkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russian-rate-of-losses-in-ukraine-almost-triples-i_20260529_1836.html
-✓ Created comprehensive article: russian-rate-of-losses-in-ukraine-almost-triples-i_20260529_1836.html
+Successfully created file: netanyahu-says-israeli-forces-have-crossed-lebanon_20260529_2110.html
+✓ Created comprehensive article: netanyahu-says-israeli-forces-have-crossed-lebanon_20260529_2110.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-raises-threat-of-military-action-against-cuba_20260522_0747.html
-Cleaned old post to keep top 30 limit: who-chief-visits-drc-amidst-ebola-crisis_20260529_1130.html
-Cleaned old post to keep top 30 limit: canadian-poison-seller-pleads-guilty-to-aiding-sui_20260529_1525.html
+Cleaned old post to keep top 30 limit: sturgeon-says-estranged-husband-betrayed-and-decei_20260528_2110.html
+Cleaned old post to keep top 30 limit: poison-seller-who-sold-toxic-chemicals-online-to-p_20260529_1836.html
+Cleaned old post to keep top 30 limit: nato-and-eu-condemn-russia-after-drone-hits-romani_20260529_1836.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'Poison seller' who sold toxic chemicals online to people across world admits aiding suicides
+   • Canada sidelined in USMCA renegotiations as domestic economy dips
      Sources: bbc.com, cnn.com, reuters.com
-   • Nato and EU condemn Russia after drone hits Romanian residential block
+   • Ex-US Attorney General Pam Bondi testifies in Epstein files probe
      Sources: bbc.com, cnn.com, reuters.com
-   • Russian rate of losses in Ukraine almost triples in one year
+   • Netanyahu says Israeli forces have crossed Lebanon’s Litani River
      Sources: bbc.com, cnn.com, reuters.com
