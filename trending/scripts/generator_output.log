@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Sturgeon tells BBC: I'm serving a sentence for crime I didn't commit
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Building collapses in New Delhi, some people rescued, more feared trapped
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US measure to deepen Israel military cooperation faces bipartisan pushback
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congress moves to deepen military ties with Israel: Why it matters
-Added expanded search topic: Building collapses in New Delhi, some people rescued, more feared trapped
-Added expanded search topic: US measure to deepen Israel military cooperation faces bipartisan pushback
-Added expanded search topic: US Congress moves to deepen military ties with Israel: Why it matters
-Saved 24 topics for 2026-05-31
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: As Ethiopia votes, its deepening human rights crisis must be addressed
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ethiopia’s election is about affirming national commitment to democracy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Newark mayor imposes curfew at Delaney Hall immigration detention centre
+Added expanded search topic: As Ethiopia votes, its deepening human rights crisis must be addressed
+Added expanded search topic: Ethiopia’s election is about affirming national commitment to democracy
+Added expanded search topic: Newark mayor imposes curfew at Delaney Hall immigration detention centre
+Saved 27 topics for 2026-05-31
 Returning 3 unique trending topics:
-  1. Building collapses in New Delhi, some people rescued, more feared trapped (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. US measure to deepen Israel military cooperation faces bipartisan pushback (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US Congress moves to deepen military ties with Israel: Why it matters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. As Ethiopia votes, its deepening human rights crisis must be addressed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ethiopia’s election is about affirming national commitment to democracy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Newark mayor imposes curfew at Delaney Hall immigration detention centre (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Building collapses in New Delhi, some people rescued, more feared trapped
-Searching Google for: Building collapses in New Delhi, some people rescued, more feared trapped
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBuilding%252Bcollapses%252Bin%252BNew%252BDelhi%252C%252Bsome%252Bpeople%252Brescued%252C%252Bmore%252Bfeared%252Btrapped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwyGJSd8tAGIjCHYk7YyQW-eYm8vYR0uVARs78SFpjlDQZj3xiGE0w-gz83dHPW2ZzUR-3SZYF3IkcyBmpjbmRyUloBQw
+Processing trending topic: As Ethiopia votes, its deepening human rights crisis must be addressed
+Searching Google for: As Ethiopia votes, its deepening human rights crisis must be addressed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAs%252BEthiopia%252Bvotes%252C%252Bits%252Bdeepening%252Bhuman%252Brights%252Bcrisis%252Bmust%252Bbe%252Baddressed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsywcxGNrC8tAGIjAzYZ67t2LtP4LD_7koDXaLTacsjWmaInRx81I1tBdxR5oOnmMZMD0BCwa1dLCgOo0yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: building-collapses-in-new-delhi-some-people-rescue_20260531_1940.html
-✓ Created comprehensive article: building-collapses-in-new-delhi-some-people-rescue_20260531_1940.html
+Successfully created file: as-ethiopia-votes-its-deepening-human-rights-crisi_20260531_2100.html
+✓ Created comprehensive article: as-ethiopia-votes-its-deepening-human-rights-crisi_20260531_2100.html
 
-Processing trending topic: US measure to deepen Israel military cooperation faces bipartisan pushback
-Searching Google for: US measure to deepen Israel military cooperation faces bipartisan pushback
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmeasure%252Bto%252Bdeepen%252BIsrael%252Bmilitary%252Bcooperation%252Bfaces%252Bbipartisan%252Bpushback%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwyGJud8tAGIjBNdsMko6BwIGqoAft1MzxDYYt_rwEHzoo75RTWR0o6jq-_kqCJchnUyXdCQMnUlEcyBmpjbmRyUloBQw
+Processing trending topic: Ethiopia’s election is about affirming national commitment to democracy
+Searching Google for: Ethiopia’s election is about affirming national commitment to democracy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEthiopia%25E2%2580%2599s%252Belection%252Bis%252Babout%252Baffirming%252Bnational%252Bcommitment%252Bto%252Bdemocracy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsywcxGOHC8tAGIjD178Jr6wSl8X1gKc1fNl8DLQZwyEJNZ8u0_wa6qiWYP55JOP9xaEw0s6rGKaN4FDcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-measure-to-deepen-israel-military-cooperation-f_20260531_1940.html
-✓ Created comprehensive article: us-measure-to-deepen-israel-military-cooperation-f_20260531_1940.html
+Successfully created file: ethiopias-election-is-about-affirming-national-com_20260531_2100.html
+✓ Created comprehensive article: ethiopias-election-is-about-affirming-national-com_20260531_2100.html
 
-Processing trending topic: US Congress moves to deepen military ties with Israel: Why it matters
-Searching Google for: US Congress moves to deepen military ties with Israel: Why it matters
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BCongress%252Bmoves%252Bto%252Bdeepen%252Bmilitary%252Bties%252Bwith%252BIsrael%253A%252BWhy%252Bit%252Bmatters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1iwyGKGd8tAGIjCn85zfjtRiND9VxZ0fEMG0pyDV0ClFgoD9FjKB4_BQNBIMZuOtd1hKfVwJXws4Xh4yBmpjbmRyUloBQw
+Processing trending topic: Newark mayor imposes curfew at Delaney Hall immigration detention centre
+Searching Google for: Newark mayor imposes curfew at Delaney Hall immigration detention centre
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNewark%252Bmayor%252Bimposes%252Bcurfew%252Bat%252BDelaney%252BHall%252Bimmigration%252Bdetention%252Bcentre%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsywcxGOjC8tAGIjAxZLPiadE6QpGyNSHzw4zvDFkYL5aGfJ8BRNMY-SpLCMGqttThnxGwWltFT27yEjkyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-congress-moves-to-deepen-military-ties-with-isr_20260531_1940.html
-✓ Created comprehensive article: us-congress-moves-to-deepen-military-ties-with-isr_20260531_1940.html
+Successfully created file: newark-mayor-imposes-curfew-at-delaney-hall-immigr_20260531_2100.html
+✓ Created comprehensive article: newark-mayor-imposes-curfew-at-delaney-hall-immigr_20260531_2100.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: the-bazaar-of-return-in-aida-refugee-camp_20260531_1803.html
-Cleaned old post to keep top 30 limit: ethiopias-election-parties-coalitions-and-candidat_20260531_1803.html
-Cleaned old post to keep top 30 limit: dozens-killed-in-blast-at-explosives-depot-in-nort_20260531_1803.html
+Cleaned old post to keep top 30 limit: uks-hottest-may-day-record-broken-for-second-day-i_20260527_0339.html
+Cleaned old post to keep top 30 limit: us-congress-moves-to-deepen-military-ties-with-isr_20260531_1940.html
+Cleaned old post to keep top 30 limit: building-collapses-in-new-delhi-some-people-rescue_20260531_1940.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Building collapses in New Delhi, some people rescued, more feared trapped
+   • As Ethiopia votes, its deepening human rights crisis must be addressed
      Sources: bbc.com, cnn.com, reuters.com
-   • US measure to deepen Israel military cooperation faces bipartisan pushback
+   • Ethiopia’s election is about affirming national commitment to democracy
      Sources: bbc.com, cnn.com, reuters.com
-   • US Congress moves to deepen military ties with Israel: Why it matters
+   • Newark mayor imposes curfew at Delaney Hall immigration detention centre
      Sources: bbc.com, cnn.com, reuters.com
