@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Israel seizes castle in Lebanon as it expands ground offensive
-  Added: Second batch of Mandelson files to be published on Monday
+  Added: Iran and US report new wave of air strikes in Gulf
+  Added: Iran attacks damage 20 US military sites since start of war, satellite images show
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: WHO calls for community cooperation to contain Ebola outbreak in DRC
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-01
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel airstrike kills at least two Palestinians at Gaza port
+Added expanded search topic: Israel airstrike kills at least two Palestinians at Gaza port
+Saved 6 topics for 2026-06-01
 Returning 3 unique trending topics:
-  1. Israel seizes castle in Lebanon as it expands ground offensive (from BBC News)
-  2. Second batch of Mandelson files to be published on Monday (from BBC News)
-  3. WHO calls for community cooperation to contain Ebola outbreak in DRC (from The Guardian)
+  1. Iran and US report new wave of air strikes in Gulf (from BBC News)
+  2. Iran attacks damage 20 US military sites since start of war, satellite images show (from BBC News)
+  3. Israel airstrike kills at least two Palestinians at Gaza port (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Israel seizes castle in Lebanon as it expands ground offensive
-Searching Google for: Israel seizes castle in Lebanon as it expands ground offensive
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bseizes%252Bcastle%252Bin%252BLebanon%252Bas%252Bit%252Bexpands%252Bground%252Boffensive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bhGOqb89AGIjDhQ3UEMgTQsszRChYpQ2NYSMuWfHiGuehuTxk0fNEyK5ttntMTwhyXa1vVBCRjVP8yBmpjbmRyUloBQw
+Processing trending topic: Iran and US report new wave of air strikes in Gulf
+Searching Google for: Iran and US report new wave of air strikes in Gulf
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Band%252BUS%252Breport%252Bnew%252Bwave%252Bof%252Bair%252Bstrikes%252Bin%252BGulf%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sH1yGNnB9NAGIjA7uT5XM-qyYDpFKvlFk3Hks672814RqJVB3t6vk8rn3hrhLfFHb2OhYyRFn1FRv0gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-seizes-castle-in-lebanon-as-it-expands-grou_20260601_0010.html
-✓ Created comprehensive article: israel-seizes-castle-in-lebanon-as-it-expands-grou_20260601_0010.html
+Successfully created file: iran-and-us-report-new-wave-of-air-strikes-in-gulf_20260601_0604.html
+✓ Created comprehensive article: iran-and-us-report-new-wave-of-air-strikes-in-gulf_20260601_0604.html
 
-Processing trending topic: Second batch of Mandelson files to be published on Monday
-Searching Google for: Second batch of Mandelson files to be published on Monday
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecond%252Bbatch%252Bof%252BMandelson%252Bfiles%252Bto%252Bbe%252Bpublished%252Bon%252BMonday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bhGPGb89AGIjBaRmRVFlUQmIg8K7Ytel8_I9Zpx8UHwOmWDlqSQTDOVYdPUzXPNmKpmUSECPpjhJoyBmpjbmRyUloBQw
+Processing trending topic: Iran attacks damage 20 US military sites since start of war, satellite images show
+Searching Google for: Iran attacks damage 20 US military sites since start of war, satellite images show
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Battacks%252Bdamage%252B20%252BUS%252Bmilitary%252Bsites%252Bsince%252Bstart%252Bof%252Bwar%252C%252Bsatellite%252Bimages%252Bshow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sH1yGODB9NAGIjC5oCW0LxWtKXX2TnBOaGYd4FJHw_oAAQVUIqyDprxnlmYnqrpzORAiCLnV9djdqZwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: second-batch-of-mandelson-files-to-be-published-on_20260601_0010.html
-✓ Created comprehensive article: second-batch-of-mandelson-files-to-be-published-on_20260601_0010.html
+Successfully created file: iran-attacks-damage-20-us-military-sites-since-sta_20260601_0604.html
+✓ Created comprehensive article: iran-attacks-damage-20-us-military-sites-since-sta_20260601_0604.html
 
-Processing trending topic: WHO calls for community cooperation to contain Ebola outbreak in DRC
-Searching Google for: WHO calls for community cooperation to contain Ebola outbreak in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWHO%252Bcalls%252Bfor%252Bcommunity%252Bcooperation%252Bto%252Bcontain%252BEbola%252Boutbreak%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6bhGPeb89AGIjByPRVgyEIfwQGxFCcmIfI38MhHGxUI6_j5fYLgsQItGQ7I9Fc8l0oA14pL21_fERcyBmpjbmRyUloBQw
+Processing trending topic: Israel airstrike kills at least two Palestinians at Gaza port
+Searching Google for: Israel airstrike kills at least two Palestinians at Gaza port
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bairstrike%252Bkills%252Bat%252Bleast%252Btwo%252BPalestinians%252Bat%252BGaza%252Bport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sH1yGObB9NAGIjAwg46Cb62diu_znipWuVeynXfwi_u5bD5lodgxIA_PDhGiG4IZKrEi5z1GLwg8C3syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-calls-for-community-cooperation-to-contain-ebo_20260601_0010.html
-✓ Created comprehensive article: who-calls-for-community-cooperation-to-contain-ebo_20260601_0010.html
+Successfully created file: israel-airstrike-kills-at-least-two-palestinians-a_20260601_0604.html
+✓ Created comprehensive article: israel-airstrike-kills-at-least-two-palestinians-a_20260601_0604.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: who-puts-ebola-outbreak-death-rate-at-huge-30-50-a_20260529_1525.html
-Cleaned old post to keep top 30 limit: newark-mayor-imposes-curfew-at-delaney-hall-immigr_20260531_2100.html
-Cleaned old post to keep top 30 limit: can-ai-cure-loneliness-south-koreas-robot-companio_20260531_2207.html
+Cleaned old post to keep top 30 limit: nicaragua-confirms-death-in-custody-of-indigenous-_20260531_2207.html
+Cleaned old post to keep top 30 limit: new-jersey-orders-curfew-after-immigration-protest_20260531_2207.html
+Cleaned old post to keep top 30 limit: the-iran-war-is-dividing-muslims-in-the-philippine_20260530_1328.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israel seizes castle in Lebanon as it expands ground offensive
+   • Iran and US report new wave of air strikes in Gulf
      Sources: bbc.com, cnn.com, reuters.com
-   • Second batch of Mandelson files to be published on Monday
+   • Iran attacks damage 20 US military sites since start of war, satellite images show
      Sources: bbc.com, cnn.com, reuters.com
-   • WHO calls for community cooperation to contain Ebola outbreak in DRC
+   • Israel airstrike kills at least two Palestinians at Gaza port
      Sources: bbc.com, cnn.com, reuters.com
