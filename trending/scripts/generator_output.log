@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Royal Navy helicopter crashes into field
-  Added: Three quarters of workers not on track for 'moderate' pension income, report suggests
+  Added: Three dead in Royal Navy helicopter crash
+  Added: Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can a US president promote stock they’ve invested in
-Added expanded search topic: Can a US president promote stock they’ve invested in
-Saved 6 topics for 2026-06-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is Asia facing a new currency crisis?
+Added expanded search topic: Is Asia facing a new currency crisis?
+Saved 9 topics for 2026-06-03
 Returning 3 unique trending topics:
-  1. Royal Navy helicopter crashes into field (from BBC News)
-  2. Three quarters of workers not on track for 'moderate' pension income, report suggests (from BBC News)
-  3. Can a US president promote stock they’ve invested in (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Three dead in Royal Navy helicopter crash (from BBC News)
+  2. Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens (from BBC News)
+  3. Is Asia facing a new currency crisis? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Royal Navy helicopter crashes into field
-Searching Google for: Royal Navy helicopter crashes into field
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BNavy%252Bhelicopter%252Bcrashes%252Binto%252Bfield%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-iGJfZ_9AGIjBiWV--cG9McvPZOvJKOIHUv9gLFT6IbIEh8ZQkujQGWtXfucrU5fcuzC7rI5_pkF8yBmpjbmRyUloBQw
+Processing trending topic: Three dead in Royal Navy helicopter crash
+Searching Google for: Three dead in Royal Navy helicopter crash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bdead%252Bin%252BRoyal%252BNavy%252Bhelicopter%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1uoGKbTgNEGIjDBkTLJwAQ1x65b-0gEyPQRcaaaDeetg31vpZSAWWrx26OZ5dPtsp50SE_YkMHvwPoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: royal-navy-helicopter-crashes-into-field_20260603_0858.html
-✓ Created comprehensive article: royal-navy-helicopter-crashes-into-field_20260603_0858.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: three-dead-in-royal-navy-helicopter-crash_20260603_1318.html
+✓ Created comprehensive article: three-dead-in-royal-navy-helicopter-crash_20260603_1318.html
 
-Processing trending topic: Three quarters of workers not on track for 'moderate' pension income, report suggests
-Searching Google for: Three quarters of workers not on track for 'moderate' pension income, report suggests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bquarters%252Bof%252Bworkers%252Bnot%252Bon%252Btrack%252Bfor%252B%2527moderate%2527%252Bpension%252Bincome%252C%252Breport%252Bsuggests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-iGJ3Z_9AGIjCrM3cxyMLBi1QDyfvaZy1Cb44qzuQP72vLn8YPXhUTCPAjKJqDS01C3Kzd3jcIfdcyBmpjbmRyUloBQw
+Processing trending topic: Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens
+Searching Google for: Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkrainian%252Bdrones%252Bhit%252BSt%252BPetersburg%252Bas%252BPutin%2527s%252Bflagship%252Beconomic%252Bforum%252Bopens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1uoGK3TgNEGIjDDOoa1S8r6Z3-mt4lJhRc22ONvjkgklfWPrcmpvqg3lapk_SebHChQaUGeUUtcXFIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-quarters-of-workers-not-on-track-for-moderat_20260603_0858.html
-✓ Created comprehensive article: three-quarters-of-workers-not-on-track-for-moderat_20260603_0858.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ukrainian-drones-hit-st-petersburg-as-putins-flags_20260603_1318.html
+✓ Created comprehensive article: ukrainian-drones-hit-st-petersburg-as-putins-flags_20260603_1318.html
 
-Processing trending topic: Can a US president promote stock they’ve invested in
-Searching Google for: Can a US president promote stock they’ve invested in
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Ba%252BUS%252Bpresident%252Bpromote%252Bstock%252Bthey%25E2%2580%2599ve%252Binvested%252Bin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-iGKTZ_9AGIjCvawI4OmtaSwmBO21bWLfdV6aKIWHTL1TmpuQZKPg9rKAk5qOKUynPBWr8CVYQIqEyBmpjbmRyUloBQw
+Processing trending topic: Is Asia facing a new currency crisis?
+Searching Google for: Is Asia facing a new currency crisis?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252BAsia%252Bfacing%252Ba%252Bnew%252Bcurrency%252Bcrisis%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst1uoGLPTgNEGIjALNI19FHUlir_dcBenkiikYUMtGBGdObUwfvuu645sG-4PSehlVpusrQ7QF93KL4YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: can-a-us-president-promote-stock-theyve-invested-i_20260603_0858.html
-✓ Created comprehensive article: can-a-us-president-promote-stock-theyve-invested-i_20260603_0858.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: is-asia-facing-a-new-currency-crisis_20260603_1318.html
+✓ Created comprehensive article: is-asia-facing-a-new-currency-crisis_20260603_1318.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: southampton-backs-spygate-eckert-despite-worlds-mo_20260602_1243.html
-Cleaned old post to keep top 30 limit: key-moments-from-police-bodycam-footage_20260603_0357.html
-Cleaned old post to keep top 30 limit: henry-nowak-arrest-footage-raises-serious-question_20260603_0357.html
+Cleaned old post to keep top 30 limit: trump-administration-scrapping-18bn-anti-weaponisa_20260602_2304.html
+Cleaned old post to keep top 30 limit: royal-navy-helicopter-crashes-into-field_20260603_0858.html
+Cleaned old post to keep top 30 limit: can-a-us-president-promote-stock-theyve-invested-i_20260603_0858.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Royal Navy helicopter crashes into field
+   • Three dead in Royal Navy helicopter crash
      Sources: bbc.com, cnn.com, reuters.com
-   • Three quarters of workers not on track for 'moderate' pension income, report suggests
+   • Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens
      Sources: bbc.com, cnn.com, reuters.com
-   • Can a US president promote stock they’ve invested in
+   • Is Asia facing a new currency crisis?
      Sources: bbc.com, cnn.com, reuters.com
