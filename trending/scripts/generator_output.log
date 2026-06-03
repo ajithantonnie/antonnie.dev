@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police chief apologises to Henry Nowak's family over handcuffing and arrest
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC Ebola outbreak could have begun as early as January, WHO chief says
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kuwait labels Iran attack ‘heinous aggression’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
-Added expanded search topic: Kuwait labels Iran attack ‘heinous aggression’
-Added expanded search topic: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
-Saved 15 topics for 2026-06-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump seeks to split Lebanon talks from war on Iran negotiations
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kuwait releases CCTV footage of deadly Iranian strike on airport
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid will bring Mourinho back if Perez is re-elected
+Added expanded search topic: Trump seeks to split Lebanon talks from war on Iran negotiations
+Added expanded search topic: Kuwait releases CCTV footage of deadly Iranian strike on airport
+Added expanded search topic: Real Madrid will bring Mourinho back if Perez is re-elected
+Saved 18 topics for 2026-06-03
 Returning 3 unique trending topics:
-  1. Police chief apologises to Henry Nowak's family over handcuffing and arrest (from BBC News)
-  2. Kuwait labels Iran attack ‘heinous aggression’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump seeks to split Lebanon talks from war on Iran negotiations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Kuwait releases CCTV footage of deadly Iranian strike on airport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Real Madrid will bring Mourinho back if Perez is re-elected (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police chief apologises to Henry Nowak's family over handcuffing and arrest
-Searching Google for: Police chief apologises to Henry Nowak's family over handcuffing and arrest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bchief%252Bapologises%252Bto%252BHenry%252BNowak%2527s%252Bfamily%252Bover%252Bhandcuffing%252Band%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRhGI_DgtEGIjA66p-eca14k-XHDIihWQ2Pvs_XO1rySPXi-Y60_9-8DhS9_nH1jdgnKq7ShenM09AyBmpjbmRyUloBQw
+Processing trending topic: Trump seeks to split Lebanon talks from war on Iran negotiations
+Searching Google for: Trump seeks to split Lebanon talks from war on Iran negotiations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bseeks%252Bto%252Bsplit%252BLebanon%252Btalks%252Bfrom%252Bwar%252Bon%252BIran%252Bnegotiations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK637jGOX4gtEGIjDDPgZnCi-SdB9oRsNaOG60qLLTDpvLUt0zDU9yxdP2J7_yvpNLjiVsQu_ITXvRrUMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-chief-apologises-to-henry-nowaks-family-ove_20260603_2150.html
-✓ Created comprehensive article: police-chief-apologises-to-henry-nowaks-family-ove_20260603_2150.html
+Successfully created file: trump-seeks-to-split-lebanon-talks-from-war-on-ira_20260603_2344.html
+✓ Created comprehensive article: trump-seeks-to-split-lebanon-talks-from-war-on-ira_20260603_2344.html
 
-Processing trending topic: Kuwait labels Iran attack ‘heinous aggression’
-Searching Google for: Kuwait labels Iran attack ‘heinous aggression’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKuwait%252Blabels%252BIran%252Battack%252B%25E2%2580%2598heinous%252Baggression%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRhGJbDgtEGIjCRhptWCv7xfsVd9QKUtrFKhddPd9bT57uaoDDBmdOg3WOXcuI4mqNcycrEdehJv10yBmpjbmRyUloBQw
+Processing trending topic: Kuwait releases CCTV footage of deadly Iranian strike on airport
+Searching Google for: Kuwait releases CCTV footage of deadly Iranian strike on airport
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKuwait%252Breleases%252BCCTV%252Bfootage%252Bof%252Bdeadly%252BIranian%252Bstrike%252Bon%252Bairport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK637jGOz4gtEGIjA3TE_ElFApgoT6bFfnZdkogR8ua_4w_mbgA8BY0mWjV7bdN13Oi5pTZIKAPDtpxdIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kuwait-labels-iran-attack-heinous-aggression_20260603_2150.html
-✓ Created comprehensive article: kuwait-labels-iran-attack-heinous-aggression_20260603_2150.html
+Successfully created file: kuwait-releases-cctv-footage-of-deadly-iranian-str_20260603_2344.html
+✓ Created comprehensive article: kuwait-releases-cctv-footage-of-deadly-iranian-str_20260603_2344.html
 
-Processing trending topic: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
-Searching Google for: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Battacks%252BSt%252BPetersburg%252Bas%252BRussia%252Bhosts%252Bits%252Bown%252B%25E2%2580%2598Davos%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRhGJzDgtEGIjDt8rl-4Ky2JLBAKdj4xlQYk4HwmjU1EITBUaB8d4tfgJISsRpAO0qysMYYHKsr-CMyBmpjbmRyUloBQw
+Processing trending topic: Real Madrid will bring Mourinho back if Perez is re-elected
+Searching Google for: Real Madrid will bring Mourinho back if Perez is re-elected
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bwill%252Bbring%252BMourinho%252Bback%252Bif%252BPerez%252Bis%252Bre-elected%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK637jGPP4gtEGIjAfNRgdH169uY4ZMP_x_TJaugib2IiV_FN45s3U-bS-WQw_cn5aLfTssxA3v6hKC7AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ukraine-attacks-st-petersburg-as-russia-hosts-its-_20260603_2150.html
-✓ Created comprehensive article: ukraine-attacks-st-petersburg-as-russia-hosts-its-_20260603_2150.html
+Successfully created file: real-madrid-will-bring-mourinho-back-if-perez-is-r_20260603_2344.html
+✓ Created comprehensive article: real-madrid-will-bring-mourinho-back-if-perez-is-r_20260603_2344.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: we-dont-have-another-country-to-run-to-kenyans-fea_20260603_0357.html
-Cleaned old post to keep top 30 limit: three-quarters-of-workers-not-on-track-for-moderat_20260603_0858.html
-Cleaned old post to keep top 30 limit: drc-ebola-outbreak-could-have-begun-as-early-as-ja_20260603_1824.html
+Cleaned old post to keep top 30 limit: three-die-in-royal-navy-helicopter-crash-during-tr_20260603_1824.html
+Cleaned old post to keep top 30 limit: ukraine-attacks-st-petersburg-as-russia-hosts-its-_20260603_2150.html
+Cleaned old post to keep top 30 limit: kuwait-labels-iran-attack-heinous-aggression_20260603_2150.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police chief apologises to Henry Nowak's family over handcuffing and arrest
+   • Trump seeks to split Lebanon talks from war on Iran negotiations
      Sources: bbc.com, cnn.com, reuters.com
-   • Kuwait labels Iran attack ‘heinous aggression’
+   • Kuwait releases CCTV footage of deadly Iranian strike on airport
      Sources: bbc.com, cnn.com, reuters.com
-   • Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
+   • Real Madrid will bring Mourinho back if Perez is re-elected
      Sources: bbc.com, cnn.com, reuters.com
