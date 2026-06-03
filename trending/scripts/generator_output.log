@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Police chief apologises to Henry Nowak's family over handcuffing and arrest
   Added: PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
-  Added: Three die in Royal Navy helicopter crash during training exercise
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC Ebola outbreak could have begun as early as January, WHO chief says
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-06-03
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kuwait labels Iran attack ‘heinous aggression’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
+Added expanded search topic: Kuwait labels Iran attack ‘heinous aggression’
+Added expanded search topic: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
+Saved 15 topics for 2026-06-03
 Returning 3 unique trending topics:
-  1. PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim (from BBC News)
-  2. Three die in Royal Navy helicopter crash during training exercise (from BBC News)
-  3. DRC Ebola outbreak could have begun as early as January, WHO chief says (from The Guardian)
+  1. Police chief apologises to Henry Nowak's family over handcuffing and arrest (from BBC News)
+  2. Kuwait labels Iran attack ‘heinous aggression’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
-Searching Google for: PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Baccuses%252BFarage%252Bof%252Bexploiting%252BNowak%252Bcase%252Band%252Bdenies%252B%2527two-tier%252Bpolicing%2527%252Bclaim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9Z4GN3igdEGIjDumXvdtQGm7u-NMeeop0yiMCEY7ei5onpvvqvQq_srhYVyKv2mbyPj0v35GH8rtGYyBmpjbmRyUloBQw
+Processing trending topic: Police chief apologises to Henry Nowak's family over handcuffing and arrest
+Searching Google for: Police chief apologises to Henry Nowak's family over handcuffing and arrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bchief%252Bapologises%252Bto%252BHenry%252BNowak%2527s%252Bfamily%252Bover%252Bhandcuffing%252Band%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRhGI_DgtEGIjA66p-eca14k-XHDIihWQ2Pvs_XO1rySPXi-Y60_9-8DhS9_nH1jdgnKq7ShenM09AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: pm-accuses-farage-of-exploiting-nowak-case-and-den_20260603_1824.html
-✓ Created comprehensive article: pm-accuses-farage-of-exploiting-nowak-case-and-den_20260603_1824.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: police-chief-apologises-to-henry-nowaks-family-ove_20260603_2150.html
+✓ Created comprehensive article: police-chief-apologises-to-henry-nowaks-family-ove_20260603_2150.html
 
-Processing trending topic: Three die in Royal Navy helicopter crash during training exercise
-Searching Google for: Three die in Royal Navy helicopter crash during training exercise
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bdie%252Bin%252BRoyal%252BNavy%252Bhelicopter%252Bcrash%252Bduring%252Btraining%252Bexercise%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9Z4GOTigdEGIjCUmJhzFm4W6KJtF5p_mcmIZiIrInMWRzF3iWBTy2zNUkOPPIbcnZ3W8Cu7TNNgbUAyBmpjbmRyUloBQw
+Processing trending topic: Kuwait labels Iran attack ‘heinous aggression’
+Searching Google for: Kuwait labels Iran attack ‘heinous aggression’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKuwait%252Blabels%252BIran%252Battack%252B%25E2%2580%2598heinous%252Baggression%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRhGJbDgtEGIjCRhptWCv7xfsVd9QKUtrFKhddPd9bT57uaoDDBmdOg3WOXcuI4mqNcycrEdehJv10yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-die-in-royal-navy-helicopter-crash-during-tr_20260603_1824.html
-✓ Created comprehensive article: three-die-in-royal-navy-helicopter-crash-during-tr_20260603_1824.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: kuwait-labels-iran-attack-heinous-aggression_20260603_2150.html
+✓ Created comprehensive article: kuwait-labels-iran-attack-heinous-aggression_20260603_2150.html
 
-Processing trending topic: DRC Ebola outbreak could have begun as early as January, WHO chief says
-Searching Google for: DRC Ebola outbreak could have begun as early as January, WHO chief says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDRC%252BEbola%252Boutbreak%252Bcould%252Bhave%252Bbegun%252Bas%252Bearly%252Bas%252BJanuary%252C%252BWHO%252Bchief%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9Z4GOvigdEGIjC2uOuwmjzW-kDFIVRZu3vspUmsBgIc604fT7oKPOpF8vGTQN1vYEfy7orkB4UEDlMyBmpjbmRyUloBQw
+Processing trending topic: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
+Searching Google for: Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Battacks%252BSt%252BPetersburg%252Bas%252BRussia%252Bhosts%252Bits%252Bown%252B%25E2%2580%2598Davos%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRhGJzDgtEGIjDt8rl-4Ky2JLBAKdj4xlQYk4HwmjU1EITBUaB8d4tfgJISsRpAO0qysMYYHKsr-CMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: drc-ebola-outbreak-could-have-begun-as-early-as-ja_20260603_1824.html
-✓ Created comprehensive article: drc-ebola-outbreak-could-have-begun-as-early-as-ja_20260603_1824.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ukraine-attacks-st-petersburg-as-russia-hosts-its-_20260603_2150.html
+✓ Created comprehensive article: ukraine-attacks-st-petersburg-as-russia-hosts-its-_20260603_2150.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-berated-netanyahu-analysts-question-us-israe_20260602_2304.html
-Cleaned old post to keep top 30 limit: ukrainian-drones-hit-st-petersburg-as-putins-flags_20260603_1318.html
-Cleaned old post to keep top 30 limit: is-asia-facing-a-new-currency-crisis_20260603_1318.html
+Cleaned old post to keep top 30 limit: we-dont-have-another-country-to-run-to-kenyans-fea_20260603_0357.html
+Cleaned old post to keep top 30 limit: three-quarters-of-workers-not-on-track-for-moderat_20260603_0858.html
+Cleaned old post to keep top 30 limit: drc-ebola-outbreak-could-have-begun-as-early-as-ja_20260603_1824.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
+   • Police chief apologises to Henry Nowak's family over handcuffing and arrest
      Sources: bbc.com, cnn.com, reuters.com
-   • Three die in Royal Navy helicopter crash during training exercise
+   • Kuwait labels Iran attack ‘heinous aggression’
      Sources: bbc.com, cnn.com, reuters.com
-   • DRC Ebola outbreak could have begun as early as January, WHO chief says
+   • Ukraine attacks St Petersburg as Russia hosts its own ‘Davos’
      Sources: bbc.com, cnn.com, reuters.com
