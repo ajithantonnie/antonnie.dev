@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police chief apologises to Henry Nowak's family over handcuffing and arrest
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC Ebola outbreak could have begun as early as January, WHO chief says
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump seeks to split Lebanon talks from war on Iran negotiations
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kuwait releases CCTV footage of deadly Iranian strike on airport
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid will bring Mourinho back if Perez is re-elected
-Added expanded search topic: Trump seeks to split Lebanon talks from war on Iran negotiations
-Added expanded search topic: Kuwait releases CCTV footage of deadly Iranian strike on airport
-Added expanded search topic: Real Madrid will bring Mourinho back if Perez is re-elected
-Saved 18 topics for 2026-06-03
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-06-04
 Returning 3 unique trending topics:
-  1. Trump seeks to split Lebanon talks from war on Iran negotiations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Kuwait releases CCTV footage of deadly Iranian strike on airport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Real Madrid will bring Mourinho back if Perez is re-elected (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Police chief apologises to Henry Nowak's family over handcuffing and arrest (from BBC News)
+  2. PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim (from BBC News)
+  3. DRC Ebola outbreak could have begun as early as January, WHO chief says (from The Guardian)
 
-Processing trending topic: Trump seeks to split Lebanon talks from war on Iran negotiations
-Searching Google for: Trump seeks to split Lebanon talks from war on Iran negotiations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bseeks%252Bto%252Bsplit%252BLebanon%252Btalks%252Bfrom%252Bwar%252Bon%252BIran%252Bnegotiations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK637jGOX4gtEGIjDDPgZnCi-SdB9oRsNaOG60qLLTDpvLUt0zDU9yxdP2J7_yvpNLjiVsQu_ITXvRrUMyBmpjbmRyUloBQw
+Processing trending topic: Police chief apologises to Henry Nowak's family over handcuffing and arrest
+Searching Google for: Police chief apologises to Henry Nowak's family over handcuffing and arrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bchief%252Bapologises%252Bto%252BHenry%252BNowak%2527s%252Bfamily%252Bover%252Bhandcuffing%252Band%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG1UGMztg9EGIjAcNQppZox65-IqLdAY45XFxhvJuEFnINmihX4lean_hpZAKMYKEF7R2Tph0DZUUR0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-seeks-to-split-lebanon-talks-from-war-on-ira_20260603_2344.html
-✓ Created comprehensive article: trump-seeks-to-split-lebanon-talks-from-war-on-ira_20260603_2344.html
+Successfully created file: police-chief-apologises-to-henry-nowaks-family-ove_20260604_0353.html
+✓ Created comprehensive article: police-chief-apologises-to-henry-nowaks-family-ove_20260604_0353.html
 
-Processing trending topic: Kuwait releases CCTV footage of deadly Iranian strike on airport
-Searching Google for: Kuwait releases CCTV footage of deadly Iranian strike on airport
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKuwait%252Breleases%252BCCTV%252Bfootage%252Bof%252Bdeadly%252BIranian%252Bstrike%252Bon%252Bairport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK637jGOz4gtEGIjA3TE_ElFApgoT6bFfnZdkogR8ua_4w_mbgA8BY0mWjV7bdN13Oi5pTZIKAPDtpxdIyBmpjbmRyUloBQw
+Processing trending topic: PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
+Searching Google for: PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Baccuses%252BFarage%252Bof%252Bexploiting%252BNowak%252Bcase%252Band%252Bdenies%252B%2527two-tier%252Bpolicing%2527%252Bclaim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG1UGNTtg9EGIjCw0AB4Mjgj56DKXjN1otk8ekHMk_EqU5tIvpLhaNtiaB2IbxFMu_FKOgc6FKgiqzkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kuwait-releases-cctv-footage-of-deadly-iranian-str_20260603_2344.html
-✓ Created comprehensive article: kuwait-releases-cctv-footage-of-deadly-iranian-str_20260603_2344.html
+Successfully created file: pm-accuses-farage-of-exploiting-nowak-case-and-den_20260604_0354.html
+✓ Created comprehensive article: pm-accuses-farage-of-exploiting-nowak-case-and-den_20260604_0354.html
 
-Processing trending topic: Real Madrid will bring Mourinho back if Perez is re-elected
-Searching Google for: Real Madrid will bring Mourinho back if Perez is re-elected
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bwill%252Bbring%252BMourinho%252Bback%252Bif%252BPerez%252Bis%252Bre-elected%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK637jGPP4gtEGIjAfNRgdH169uY4ZMP_x_TJaugib2IiV_FN45s3U-bS-WQw_cn5aLfTssxA3v6hKC7AyBmpjbmRyUloBQw
+Processing trending topic: DRC Ebola outbreak could have begun as early as January, WHO chief says
+Searching Google for: DRC Ebola outbreak could have begun as early as January, WHO chief says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDRC%252BEbola%252Boutbreak%252Bcould%252Bhave%252Bbegun%252Bas%252Bearly%252Bas%252BJanuary%252C%252BWHO%252Bchief%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqG1UGNrtg9EGIjBI5IzPJnExTBin2GUclro7z3z6O0hzj7XoHAmAOMIJw_U71u30apiVxM15sIiK7foyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: real-madrid-will-bring-mourinho-back-if-perez-is-r_20260603_2344.html
-✓ Created comprehensive article: real-madrid-will-bring-mourinho-back-if-perez-is-r_20260603_2344.html
+Successfully created file: drc-ebola-outbreak-could-have-begun-as-early-as-ja_20260604_0354.html
+✓ Created comprehensive article: drc-ebola-outbreak-could-have-begun-as-early-as-ja_20260604_0354.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: three-die-in-royal-navy-helicopter-crash-during-tr_20260603_1824.html
-Cleaned old post to keep top 30 limit: ukraine-attacks-st-petersburg-as-russia-hosts-its-_20260603_2150.html
-Cleaned old post to keep top 30 limit: kuwait-labels-iran-attack-heinous-aggression_20260603_2150.html
+Cleaned old post to keep top 30 limit: what-hegseths-comments-at-shangri-la-dialogue-say-_20260530_1121.html
+Cleaned old post to keep top 30 limit: trump-seeks-to-split-lebanon-talks-from-war-on-ira_20260603_2344.html
+Cleaned old post to keep top 30 limit: kuwait-releases-cctv-footage-of-deadly-iranian-str_20260603_2344.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump seeks to split Lebanon talks from war on Iran negotiations
+   • Police chief apologises to Henry Nowak's family over handcuffing and arrest
      Sources: bbc.com, cnn.com, reuters.com
-   • Kuwait releases CCTV footage of deadly Iranian strike on airport
+   • PM accuses Farage of exploiting Nowak case and denies 'two-tier policing' claim
      Sources: bbc.com, cnn.com, reuters.com
-   • Real Madrid will bring Mourinho back if Perez is re-elected
+   • DRC Ebola outbreak could have begun as early as January, WHO chief says
      Sources: bbc.com, cnn.com, reuters.com
