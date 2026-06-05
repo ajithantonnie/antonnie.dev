@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Andrew was sub-letting Royal Lodge cottages, watchdog reveals
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sooryavanshi in line for T20 call as India fast-track 15-year-old to top
-Added expanded search topic: Sooryavanshi in line for T20 call as India fast-track 15-year-old to top
-Saved 9 topics for 2026-06-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hamas says won’t surrender arms but only police will carry weapons in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Shakira and Burna Boy opening World Cup in Mexico, Katy Perry headlines US
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran war pushing millions into food crisis, warns UN
+Added expanded search topic: Hamas says won’t surrender arms but only police will carry weapons in Gaza
+Added expanded search topic: Shakira and Burna Boy opening World Cup in Mexico, Katy Perry headlines US
+Added expanded search topic: US-Iran war pushing millions into food crisis, warns UN
+Saved 12 topics for 2026-06-05
 Returning 3 unique trending topics:
-  1. World-first vaccine designed by AI could protect against whole families of viruses (from BBC News)
-  2. ‘Family values’ African charter condemned by rights groups as regressive and dangerous (from The Guardian)
-  3. Sooryavanshi in line for T20 call as India fast-track 15-year-old to top (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hamas says won’t surrender arms but only police will carry weapons in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Shakira and Burna Boy opening World Cup in Mexico, Katy Perry headlines US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US-Iran war pushing millions into food crisis, warns UN (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: World-first vaccine designed by AI could protect against whole families of viruses
-Searching Google for: World-first vaccine designed by AI could protect against whole families of viruses
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld-first%252Bvaccine%252Bdesigned%252Bby%252BAI%252Bcould%252Bprotect%252Bagainst%252Bwhole%252Bfamilies%252Bof%252Bviruses%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16rGOq1itEGIjDE9WcKYJySYH2as7I0BHG8Ok-STJP3tSvRJtR6oQQQNsB11xXgHAp4GWj1ETWCYrcyBmpjbmRyUloBQw
+Processing trending topic: Hamas says won’t surrender arms but only police will carry weapons in Gaza
+Searching Google for: Hamas says won’t surrender arms but only police will carry weapons in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamas%252Bsays%252Bwon%25E2%2580%2599t%252Bsurrender%252Barms%252Bbut%252Bonly%252Bpolice%252Bwill%252Bcarry%252Bweapons%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrMshGLKGi9EGIjA66ACGr69ntecDHWFprMCaEbFE0QrIxzJuaXvgHnvSSFniBKqoAQbpoQMnqf7rhqsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: world-first-vaccine-designed-by-ai-could-protect-a_20260605_0946.html
-✓ Created comprehensive article: world-first-vaccine-designed-by-ai-could-protect-a_20260605_0946.html
+Successfully created file: hamas-says-wont-surrender-arms-but-only-police-wil_20260605_1238.html
+✓ Created comprehensive article: hamas-says-wont-surrender-arms-but-only-police-wil_20260605_1238.html
 
-Processing trending topic: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Searching Google for: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Family%252Bvalues%25E2%2580%2599%252BAfrican%252Bcharter%252Bcondemned%252Bby%252Brights%252Bgroups%252Bas%252Bregressive%252Band%252Bdangerous%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16rGPG1itEGIjDQ-4qgCIszsAGGs_EKn1bg8B8c_95nkdpcSUuzPaL-gThZQGggVtQnX0DAu_Lnt9syBmpjbmRyUloBQw
+Processing trending topic: Shakira and Burna Boy opening World Cup in Mexico, Katy Perry headlines US
+Searching Google for: Shakira and Burna Boy opening World Cup in Mexico, Katy Perry headlines US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DShakira%252Band%252BBurna%252BBoy%252Bopening%252BWorld%252BCup%252Bin%252BMexico%252C%252BKaty%252BPerry%252Bheadlines%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrMshGLmGi9EGIjB3ptC3PAVPfpiEYPMwI-Ispop-A4Iptl93VOZERZiUhD7v8csTjl1xKdLxhUsJUe4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: family-values-african-charter-condemned-by-rights-_20260605_0946.html
-✓ Created comprehensive article: family-values-african-charter-condemned-by-rights-_20260605_0946.html
+Successfully created file: shakira-and-burna-boy-opening-world-cup-in-mexico-_20260605_1238.html
+✓ Created comprehensive article: shakira-and-burna-boy-opening-world-cup-in-mexico-_20260605_1238.html
 
-Processing trending topic: Sooryavanshi in line for T20 call as India fast-track 15-year-old to top
-Searching Google for: Sooryavanshi in line for T20 call as India fast-track 15-year-old to top
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSooryavanshi%252Bin%252Bline%252Bfor%252BT20%252Bcall%252Bas%252BIndia%252Bfast-track%252B15-year-old%252Bto%252Btop%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst16rGPe1itEGIjAXMxF12ppkrEAutTSdbwLXJSIsIj6WmuVPJ_elTxF_tNevlxPjQA0lgQWc2MfceAsyBmpjbmRyUloBQw
+Processing trending topic: US-Iran war pushing millions into food crisis, warns UN
+Searching Google for: US-Iran war pushing millions into food crisis, warns UN
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Bwar%252Bpushing%252Bmillions%252Binto%252Bfood%252Bcrisis%252C%252Bwarns%252BUN%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrMshGL-Gi9EGIjDWodBJ65EPk2fKfL0vBAAb7I53YPOfNoQB4PmaHzWqge_e7Pu0Wm2brzhM3IYT_eoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sooryavanshi-in-line-for-t20-call-as-india-fast-tr_20260605_0946.html
-✓ Created comprehensive article: sooryavanshi-in-line-for-t20-call-as-india-fast-tr_20260605_0946.html
+Successfully created file: us-iran-war-pushing-millions-into-food-crisis-warn_20260605_1238.html
+✓ Created comprehensive article: us-iran-war-pushing-millions-into-food-crisis-warn_20260605_1238.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: world-cup-qualification-earns-iraq-coach-arnold-a-_20260406_1058.html
-Cleaned old post to keep top 30 limit: iran-war-live-hezbollah-rejects-truce-as-israel-co_20260605_0519.html
-Cleaned old post to keep top 30 limit: democrat-fails-to-block-us-measure-to-deepen-israe_20260605_0519.html
+Cleaned old post to keep top 30 limit: why-is-the-us-so-invested-in-colombias-election_20260604_2222.html
+Cleaned old post to keep top 30 limit: sooryavanshi-in-line-for-t20-call-as-india-fast-tr_20260605_0946.html
+Cleaned old post to keep top 30 limit: experts-criticise-plan-for-american-only-ebola-qua_20260605_0008.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • World-first vaccine designed by AI could protect against whole families of viruses
+   • Hamas says won’t surrender arms but only police will carry weapons in Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Family values’ African charter condemned by rights groups as regressive and dangerous
+   • Shakira and Burna Boy opening World Cup in Mexico, Katy Perry headlines US
      Sources: bbc.com, cnn.com, reuters.com
-   • Sooryavanshi in line for T20 call as India fast-track 15-year-old to top
+   • US-Iran war pushing millions into food crisis, warns UN
      Sources: bbc.com, cnn.com, reuters.com
