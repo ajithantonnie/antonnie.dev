@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
-  Added: Buffy and Ted Lasso star Anthony Head dies at 72
+  Added: US and Iran exchange strikes in Gulf in latest test of ceasefire
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-06
+  Added: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
+Added expanded search topic: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
+Saved 6 topics for 2026-06-06
 Returning 3 unique trending topics:
-  1. Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post (from BBC News)
-  2. Buffy and Ted Lasso star Anthony Head dies at 72 (from BBC News)
-  3. ‘Family values’ African charter condemned by rights groups as regressive and dangerous (from The Guardian)
+  1. US and Iran exchange strikes in Gulf in latest test of ceasefire (from BBC News)
+  2. Ebola spread in central Africa could match 2014 record outbreak, US health officials say (from The Guardian)
+  3. New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
-Searching Google for: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDowning%252BStreet%252Bhits%252Bout%252Bat%252B%2527people%252Bseeking%252Bto%252Bstir%252Bdivision%2527%252Bafter%252BVance%2527s%252BNowak%252Bpost%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTW1GMOajtEGIjCqiEzVzG-JboKptOGBhmtip2vE5F3V3u6b4tjlxkb1VEL4NQTZWbQPBHpZmtbDo68yBmpjbmRyUloBQw
+Processing trending topic: US and Iran exchange strikes in Gulf in latest test of ceasefire
+Searching Google for: US and Iran exchange strikes in Gulf in latest test of ceasefire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIran%252Bexchange%252Bstrikes%252Bin%252BGulf%252Bin%252Blatest%252Btest%252Bof%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuBwGKT-jtEGIjAAvGR0hpzw6MYt1VpPMrzytME8AX0zT7ApmPY7Bd_364CkfyNVYVDzbj-E-Ey9NyoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: downing-street-hits-out-at-people-seeking-to-stir-_20260606_0300.html
-✓ Created comprehensive article: downing-street-hits-out-at-people-seeking-to-stir-_20260606_0300.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-and-iran-exchange-strikes-in-gulf-in-latest-tes_20260606_0633.html
+✓ Created comprehensive article: us-and-iran-exchange-strikes-in-gulf-in-latest-tes_20260606_0633.html
 
-Processing trending topic: Buffy and Ted Lasso star Anthony Head dies at 72
-Searching Google for: Buffy and Ted Lasso star Anthony Head dies at 72
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBuffy%252Band%252BTed%252BLasso%252Bstar%252BAnthony%252BHead%252Bdies%252Bat%252B72%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTW1GMqajtEGIjBwbuQSrG2-EaFZHlYvkLPEK5gPXRWt42TzB_p5-Xmi0bMpagyWG3HyS_tU2ehQVgsyBmpjbmRyUloBQw
+Processing trending topic: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
+Searching Google for: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Bspread%252Bin%252Bcentral%252BAfrica%252Bcould%252Bmatch%252B2014%252Brecord%252Boutbreak%252C%252BUS%252Bhealth%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuBwGKz-jtEGIjBIKHLIoCwFKX94n0jsiTdiBBu-K2SfS4CeQdwVrVKANr2yya26pIUnGNEQciJwecMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: buffy-and-ted-lasso-star-anthony-head-dies-at-72_20260606_0300.html
-✓ Created comprehensive article: buffy-and-ted-lasso-star-anthony-head-dies-at-72_20260606_0300.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ebola-spread-in-central-africa-could-match-2014-re_20260606_0633.html
+✓ Created comprehensive article: ebola-spread-in-central-africa-could-match-2014-re_20260606_0633.html
 
-Processing trending topic: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Searching Google for: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Family%252Bvalues%25E2%2580%2599%252BAfrican%252Bcharter%252Bcondemned%252Bby%252Brights%252Bgroups%252Bas%252Bregressive%252Band%252Bdangerous%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTW1GNCajtEGIjAhwtx0fF-E4Ss11ZjPtYsd9cld2zfn5hI4aeNpxLb-ScUk4xXJibqUX4ZN_3AlaFgyBmpjbmRyUloBQw
+Processing trending topic: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
+Searching Google for: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BYork%252BKnicks%252Bhold%252Boff%252BSan%252BAntonio%252BSpurs%252B105-104%252Bfor%252B2-0%252BNBA%252BFinals%252Blead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuBwGLL-jtEGIjBllWcwcCOecDCQi3TZT8b2hgCtjTavkBzejKFnWlbpbBxdtVizBTtqJAWIQqX13zAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: family-values-african-charter-condemned-by-rights-_20260606_0300.html
-✓ Created comprehensive article: family-values-african-charter-condemned-by-rights-_20260606_0300.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: new-york-knicks-hold-off-san-antonio-spurs-105-104_20260606_0633.html
+✓ Created comprehensive article: new-york-knicks-hold-off-san-antonio-spurs-105-104_20260606_0633.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-chief-apologises-to-henry-nowaks-family-ove_20260604_0353.html
-Cleaned old post to keep top 30 limit: pervasive-fear-grips-gaza-as-israeli-attacks-persi_20260605_2309.html
-Cleaned old post to keep top 30 limit: cobolli-into-final-as-virus-struck-arnaldi-pulls-o_20260605_2309.html
+Cleaned old post to keep top 30 limit: opposite-visions-what-to-know-about-colombias-pres_20260530_1705.html
+Cleaned old post to keep top 30 limit: family-values-african-charter-condemned-by-rights-_20260606_0300.html
+Cleaned old post to keep top 30 limit: buffy-and-ted-lasso-star-anthony-head-dies-at-72_20260606_0300.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
+   • US and Iran exchange strikes in Gulf in latest test of ceasefire
      Sources: bbc.com, cnn.com, reuters.com
-   • Buffy and Ted Lasso star Anthony Head dies at 72
+   • Ebola spread in central Africa could match 2014 record outbreak, US health officials say
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Family values’ African charter condemned by rights groups as regressive and dangerous
+   • New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
      Sources: bbc.com, cnn.com, reuters.com
