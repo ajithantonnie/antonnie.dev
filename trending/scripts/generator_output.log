@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: West Ham joint chairman David Sullivan steps down after 'serious' historical allegations
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hegseth says Europe is being ‘invaded by dangerous migrants’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rescuers stop search for last two men lost in Laos cave
-Added expanded search topic: Hegseth says Europe is being ‘invaded by dangerous migrants’
-Added expanded search topic: Rescuers stop search for last two men lost in Laos cave
-Saved 15 topics for 2026-06-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strike kills at least five people at wedding in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What Afghanistan’s rotten apples tell us about its non-profit sector
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon and Israel’s perpetual war machine
+Added expanded search topic: Israeli strike kills at least five people at wedding in Gaza
+Added expanded search topic: What Afghanistan’s rotten apples tell us about its non-profit sector
+Added expanded search topic: Lebanon and Israel’s perpetual war machine
+Saved 18 topics for 2026-06-06
 Returning 3 unique trending topics:
-  1. West Ham joint chairman David Sullivan steps down after 'serious' historical allegations (from BBC News)
-  2. Hegseth says Europe is being ‘invaded by dangerous migrants’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Rescuers stop search for last two men lost in Laos cave (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israeli strike kills at least five people at wedding in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. What Afghanistan’s rotten apples tell us about its non-profit sector (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lebanon and Israel’s perpetual war machine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: West Ham joint chairman David Sullivan steps down after 'serious' historical allegations
-Searching Google for: West Ham joint chairman David Sullivan steps down after 'serious' historical allegations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWest%252BHam%252Bjoint%252Bchairman%252BDavid%252BSullivan%252Bsteps%252Bdown%252Bafter%252B%2527serious%2527%252Bhistorical%252Ballegations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2Wt0GJzCkNEGIjBoh2FrWKEanGyRX5VP2TCasKpb_CQgpmqlCecaFi1ESyzs34ubCnzbphIQ9D7S8zAyBmpjbmRyUloBQw
+Processing trending topic: Israeli strike kills at least five people at wedding in Gaza
+Searching Google for: Israeli strike kills at least five people at wedding in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrike%252Bkills%252Bat%252Bleast%252Bfive%252Bpeople%252Bat%252Bwedding%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGOvzkNEGIjA6uxEl6dgkEcJ2sRntIHYyJqeV3f-BIBZvw9_ZcwJj_2h-D7NqayfcY3fADWSWeroyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: west-ham-joint-chairman-david-sullivan-steps-down-_20260606_1331.html
-✓ Created comprehensive article: west-ham-joint-chairman-david-sullivan-steps-down-_20260606_1331.html
+Successfully created file: israeli-strike-kills-at-least-five-people-at-weddi_20260606_1517.html
+✓ Created comprehensive article: israeli-strike-kills-at-least-five-people-at-weddi_20260606_1517.html
 
-Processing trending topic: Hegseth says Europe is being ‘invaded by dangerous migrants’
-Searching Google for: Hegseth says Europe is being ‘invaded by dangerous migrants’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHegseth%252Bsays%252BEurope%252Bis%252Bbeing%252B%25E2%2580%2598invaded%252Bby%252Bdangerous%252Bmigrants%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2Wt0GKPCkNEGIjDhAsEja9Sz4BU_TO30R0lIYHOyq1aAkaSYXEn6_rn6hMXzKPuNJ-Ik2OJhi38cwOQyBmpjbmRyUloBQw
+Processing trending topic: What Afghanistan’s rotten apples tell us about its non-profit sector
+Searching Google for: What Afghanistan’s rotten apples tell us about its non-profit sector
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252BAfghanistan%25E2%2580%2599s%252Brotten%252Bapples%252Btell%252Bus%252Babout%252Bits%252Bnon-profit%252Bsector%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGPLzkNEGIjBcJRzXc0-I3FOd8CvAg8804L_ST_J8lin2QJhXY4S-vgjQvgvpDCFnJfJYsNZ75iEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hegseth-says-europe-is-being-invaded-by-dangerous-_20260606_1331.html
-✓ Created comprehensive article: hegseth-says-europe-is-being-invaded-by-dangerous-_20260606_1331.html
+Successfully created file: what-afghanistans-rotten-apples-tell-us-about-its-_20260606_1517.html
+✓ Created comprehensive article: what-afghanistans-rotten-apples-tell-us-about-its-_20260606_1517.html
 
-Processing trending topic: Rescuers stop search for last two men lost in Laos cave
-Searching Google for: Rescuers stop search for last two men lost in Laos cave
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRescuers%252Bstop%252Bsearch%252Bfor%252Blast%252Btwo%252Bmen%252Blost%252Bin%252BLaos%252Bcave%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2Wt0GKnCkNEGIjCeWAVL5q5rZAoPWhaByx_ryTdLOeu2IfpWUT_-MO8fjG2eYRo-Pyk_Hof8lbee9CUyBmpjbmRyUloBQw
+Processing trending topic: Lebanon and Israel’s perpetual war machine
+Searching Google for: Lebanon and Israel’s perpetual war machine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%252Band%252BIsrael%25E2%2580%2599s%252Bperpetual%252Bwar%252Bmachine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGPjzkNEGIjDjZpw_Y2cgCM2Dir_64Chd5WbtaTfrooe6Ms141J1ovgPIaCCyGefn3wE78B2wnmMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rescuers-stop-search-for-last-two-men-lost-in-laos_20260606_1331.html
-✓ Created comprehensive article: rescuers-stop-search-for-last-two-men-lost-in-laos_20260606_1331.html
+Successfully created file: lebanon-and-israels-perpetual-war-machine_20260606_1517.html
+✓ Created comprehensive article: lebanon-and-israels-perpetual-war-machine_20260606_1517.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-makes-pitch-to-farmers-hard-hit-by-tariffs-h_20260605_2309.html
-Cleaned old post to keep top 30 limit: the-nowak-murder-has-lit-a-match-under-british-pol_20260606_1127.html
-Cleaned old post to keep top 30 limit: israeli-forces-fatally-shoot-palestinian-infant-wo_20260606_1127.html
+Cleaned old post to keep top 30 limit: rescuers-stop-search-for-last-two-men-lost-in-laos_20260606_1331.html
+Cleaned old post to keep top 30 limit: west-ham-joint-chairman-david-sullivan-steps-down-_20260606_1331.html
+Cleaned old post to keep top 30 limit: hegseth-says-europe-is-being-invaded-by-dangerous-_20260606_1331.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • West Ham joint chairman David Sullivan steps down after 'serious' historical allegations
+   • Israeli strike kills at least five people at wedding in Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Hegseth says Europe is being ‘invaded by dangerous migrants’
+   • What Afghanistan’s rotten apples tell us about its non-profit sector
      Sources: bbc.com, cnn.com, reuters.com
-   • Rescuers stop search for last two men lost in Laos cave
+   • Lebanon and Israel’s perpetual war machine
      Sources: bbc.com, cnn.com, reuters.com
