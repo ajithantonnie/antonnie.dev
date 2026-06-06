@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
-Added expanded search topic: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
-Saved 6 topics for 2026-06-06
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Supporters of the Cockroach People’s Party hold protest in New Delhi
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man dies in Western Australia after shark attack
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico zoo animals predict World Cup winners
+Added expanded search topic: Supporters of the Cockroach People’s Party hold protest in New Delhi
+Added expanded search topic: Man dies in Western Australia after shark attack
+Added expanded search topic: Mexico zoo animals predict World Cup winners
+Saved 9 topics for 2026-06-06
 Returning 3 unique trending topics:
-  1. US and Iran exchange strikes in Gulf in latest test of ceasefire (from BBC News)
-  2. Ebola spread in central Africa could match 2014 record outbreak, US health officials say (from The Guardian)
-  3. New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Supporters of the Cockroach People’s Party hold protest in New Delhi (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Man dies in Western Australia after shark attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mexico zoo animals predict World Cup winners (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US and Iran exchange strikes in Gulf in latest test of ceasefire
-Searching Google for: US and Iran exchange strikes in Gulf in latest test of ceasefire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Band%252BIran%252Bexchange%252Bstrikes%252Bin%252BGulf%252Bin%252Blatest%252Btest%252Bof%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuBwGKT-jtEGIjAAvGR0hpzw6MYt1VpPMrzytME8AX0zT7ApmPY7Bd_364CkfyNVYVDzbj-E-Ey9NyoyBmpjbmRyUloBQw
+Processing trending topic: Supporters of the Cockroach People’s Party hold protest in New Delhi
+Searching Google for: Supporters of the Cockroach People’s Party hold protest in New Delhi
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSupporters%252Bof%252Bthe%252BCockroach%252BPeople%25E2%2580%2599s%252BParty%252Bhold%252Bprotest%252Bin%252BNew%252BDelhi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vFc1GPXPj9EGIjAxOIx1WlVs29kCsymSNLZSyUN0YOrw2KVVxCLV4Nh5pnCXHXxkwbTwjbwrC57ATQ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-and-iran-exchange-strikes-in-gulf-in-latest-tes_20260606_0633.html
-✓ Created comprehensive article: us-and-iran-exchange-strikes-in-gulf-in-latest-tes_20260606_0633.html
+Successfully created file: supporters-of-the-cockroach-peoples-party-hold-pro_20260606_0927.html
+✓ Created comprehensive article: supporters-of-the-cockroach-peoples-party-hold-pro_20260606_0927.html
 
-Processing trending topic: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
-Searching Google for: Ebola spread in central Africa could match 2014 record outbreak, US health officials say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Bspread%252Bin%252Bcentral%252BAfrica%252Bcould%252Bmatch%252B2014%252Brecord%252Boutbreak%252C%252BUS%252Bhealth%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuBwGKz-jtEGIjBIKHLIoCwFKX94n0jsiTdiBBu-K2SfS4CeQdwVrVKANr2yya26pIUnGNEQciJwecMyBmpjbmRyUloBQw
+Processing trending topic: Man dies in Western Australia after shark attack
+Searching Google for: Man dies in Western Australia after shark attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bdies%252Bin%252BWestern%252BAustralia%252Bafter%252Bshark%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vFc1GPzPj9EGIjABIjsbPBKD9GCprbJrZcBBlZXQhXEHO7-lYZ0jh1ELXi9B0rjSxc16UTqr6SwQRJQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ebola-spread-in-central-africa-could-match-2014-re_20260606_0633.html
-✓ Created comprehensive article: ebola-spread-in-central-africa-could-match-2014-re_20260606_0633.html
+Successfully created file: man-dies-in-western-australia-after-shark-attack_20260606_0927.html
+✓ Created comprehensive article: man-dies-in-western-australia-after-shark-attack_20260606_0927.html
 
-Processing trending topic: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
-Searching Google for: New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BYork%252BKnicks%252Bhold%252Boff%252BSan%252BAntonio%252BSpurs%252B105-104%252Bfor%252B2-0%252BNBA%252BFinals%252Blead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuBwGLL-jtEGIjBllWcwcCOecDCQi3TZT8b2hgCtjTavkBzejKFnWlbpbBxdtVizBTtqJAWIQqX13zAyBmpjbmRyUloBQw
+Processing trending topic: Mexico zoo animals predict World Cup winners
+Searching Google for: Mexico zoo animals predict World Cup winners
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bzoo%252Banimals%252Bpredict%252BWorld%252BCup%252Bwinners%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vFc1GILQj9EGIjB-mBb1WY93iY1JIR2YZMsL69ZO4X0sIKbGP0QTudjIv_8uGVRSJwqfDJI4KrVNAnMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-york-knicks-hold-off-san-antonio-spurs-105-104_20260606_0633.html
-✓ Created comprehensive article: new-york-knicks-hold-off-san-antonio-spurs-105-104_20260606_0633.html
+Successfully created file: mexico-zoo-animals-predict-world-cup-winners_20260606_0927.html
+✓ Created comprehensive article: mexico-zoo-animals-predict-world-cup-winners_20260606_0927.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: opposite-visions-what-to-know-about-colombias-pres_20260530_1705.html
-Cleaned old post to keep top 30 limit: family-values-african-charter-condemned-by-rights-_20260606_0300.html
-Cleaned old post to keep top 30 limit: buffy-and-ted-lasso-star-anthony-head-dies-at-72_20260606_0300.html
+Cleaned old post to keep top 30 limit: new-york-knicks-hold-off-san-antonio-spurs-105-104_20260606_0633.html
+Cleaned old post to keep top 30 limit: ebola-spread-in-central-africa-could-match-2014-re_20260606_0633.html
+Cleaned old post to keep top 30 limit: downing-street-hits-out-at-people-seeking-to-stir-_20260606_0300.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US and Iran exchange strikes in Gulf in latest test of ceasefire
+   • Supporters of the Cockroach People’s Party hold protest in New Delhi
      Sources: bbc.com, cnn.com, reuters.com
-   • Ebola spread in central Africa could match 2014 record outbreak, US health officials say
+   • Man dies in Western Australia after shark attack
      Sources: bbc.com, cnn.com, reuters.com
-   • New York Knicks hold off San Antonio Spurs 105-104 for 2-0 NBA Finals lead
+   • Mexico zoo animals predict World Cup winners
      Sources: bbc.com, cnn.com, reuters.com
