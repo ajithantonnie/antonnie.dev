@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Rapist Paul Quinn's 24-year sentence an insult, says wrongly convicted Andrew Malkinson
   Added: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
+  Added: Buffy and Ted Lasso star Anthony Head dies at 72
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cobolli into final as virus-struck Arnaldi pulls out of French Open
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire
-Added expanded search topic: Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin
-Added expanded search topic: Cobolli into final as virus-struck Arnaldi pulls out of French Open
-Added expanded search topic: ‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire
-Saved 27 topics for 2026-06-05
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-06-06
 Returning 3 unique trending topics:
-  1. Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Cobolli into final as virus-struck Arnaldi pulls out of French Open (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. ‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post (from BBC News)
+  2. Buffy and Ted Lasso star Anthony Head dies at 72 (from BBC News)
+  3. ‘Family values’ African charter condemned by rights groups as regressive and dangerous (from The Guardian)
 
-Processing trending topic: Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin
-Searching Google for: Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bmakes%252Bpitch%252Bto%252Bfarmers%252Bhard-hit%252Bby%252Btariffs%252C%252Bhigh%252Bprices%252Bin%252BWisconsin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgnjGKaujdEGIjCxRKUufVbNL_qCkv2LQi1QixShZUNcKk3kpNDNY5n-Du8P8A5WPWJ93sfTrHW-SK8yBmpjbmRyUloBQw
+Processing trending topic: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
+Searching Google for: Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDowning%252BStreet%252Bhits%252Bout%252Bat%252B%2527people%252Bseeking%252Bto%252Bstir%252Bdivision%2527%252Bafter%252BVance%2527s%252BNowak%252Bpost%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTW1GMOajtEGIjCqiEzVzG-JboKptOGBhmtip2vE5F3V3u6b4tjlxkb1VEL4NQTZWbQPBHpZmtbDo68yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-makes-pitch-to-farmers-hard-hit-by-tariffs-h_20260605_2309.html
-✓ Created comprehensive article: trump-makes-pitch-to-farmers-hard-hit-by-tariffs-h_20260605_2309.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: downing-street-hits-out-at-people-seeking-to-stir-_20260606_0300.html
+✓ Created comprehensive article: downing-street-hits-out-at-people-seeking-to-stir-_20260606_0300.html
 
-Processing trending topic: Cobolli into final as virus-struck Arnaldi pulls out of French Open
-Searching Google for: Cobolli into final as virus-struck Arnaldi pulls out of French Open
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCobolli%252Binto%252Bfinal%252Bas%252Bvirus-struck%252BArnaldi%252Bpulls%252Bout%252Bof%252BFrench%252BOpen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgnjGK2ujdEGIjBZWyO-iXwLUrLWeDa4-MHRvvqjYAr-wxre3T4I2SBaxD5ywqzAeQEpvUtZh-JzEo8yBmpjbmRyUloBQw
+Processing trending topic: Buffy and Ted Lasso star Anthony Head dies at 72
+Searching Google for: Buffy and Ted Lasso star Anthony Head dies at 72
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBuffy%252Band%252BTed%252BLasso%252Bstar%252BAnthony%252BHead%252Bdies%252Bat%252B72%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTW1GMqajtEGIjBwbuQSrG2-EaFZHlYvkLPEK5gPXRWt42TzB_p5-Xmi0bMpagyWG3HyS_tU2ehQVgsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cobolli-into-final-as-virus-struck-arnaldi-pulls-o_20260605_2309.html
-✓ Created comprehensive article: cobolli-into-final-as-virus-struck-arnaldi-pulls-o_20260605_2309.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: buffy-and-ted-lasso-star-anthony-head-dies-at-72_20260606_0300.html
+✓ Created comprehensive article: buffy-and-ted-lasso-star-anthony-head-dies-at-72_20260606_0300.html
 
-Processing trending topic: ‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire
-Searching Google for: ‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Pervasive%252Bfear%25E2%2580%2599%252Bgrips%252BGaza%252Bas%252BIsraeli%252Battacks%252Bpersist%252Bdespite%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgnjGLOujdEGIjBjWf1SOwXlVLt_RpIeQoo-robU1rZRb6laHv326odsjDu0SULjoiflF8HwHfS_J10yBmpjbmRyUloBQw
+Processing trending topic: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
+Searching Google for: ‘Family values’ African charter condemned by rights groups as regressive and dangerous
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Family%252Bvalues%25E2%2580%2599%252BAfrican%252Bcharter%252Bcondemned%252Bby%252Brights%252Bgroups%252Bas%252Bregressive%252Band%252Bdangerous%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqTW1GNCajtEGIjAhwtx0fF-E4Ss11ZjPtYsd9cld2zfn5hI4aeNpxLb-ScUk4xXJibqUX4ZN_3AlaFgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pervasive-fear-grips-gaza-as-israeli-attacks-persi_20260605_2309.html
-✓ Created comprehensive article: pervasive-fear-grips-gaza-as-israeli-attacks-persi_20260605_2309.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: family-values-african-charter-condemned-by-rights-_20260606_0300.html
+✓ Created comprehensive article: family-values-african-charter-condemned-by-rights-_20260606_0300.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: iran-footballers-issued-us-visas-for-world-cup-say_20260605_2127.html
-Cleaned old post to keep top 30 limit: trump-hails-jobs-surge-says-iran-talks-going-well_20260605_2127.html
-Cleaned old post to keep top 30 limit: germanys-merz-says-eu-to-initiate-integration-of-w_20260605_1756.html
+Cleaned old post to keep top 30 limit: police-chief-apologises-to-henry-nowaks-family-ove_20260604_0353.html
+Cleaned old post to keep top 30 limit: pervasive-fear-grips-gaza-as-israeli-attacks-persi_20260605_2309.html
+Cleaned old post to keep top 30 limit: cobolli-into-final-as-virus-struck-arnaldi-pulls-o_20260605_2309.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin
+   • Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post
      Sources: bbc.com, cnn.com, reuters.com
-   • Cobolli into final as virus-struck Arnaldi pulls out of French Open
+   • Buffy and Ted Lasso star Anthony Head dies at 72
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire
+   • ‘Family values’ African charter condemned by rights groups as regressive and dangerous
      Sources: bbc.com, cnn.com, reuters.com
