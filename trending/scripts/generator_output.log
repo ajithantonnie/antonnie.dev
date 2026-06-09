@@ -1,71 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Man arrested on suspicion of attempted murder after 'brutal' knife attack in Belfast
+  Added: Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks
   Added: Football regulator contacts West Ham over 'serious allegations' against Sullivan
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+  Added: Man shot during protest against proposed US Ebola quarantine facility in Kenya
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video captures Russian attack in Ukraine’s Zaporizhzhia
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments
-Added expanded search topic: Video captures Russian attack in Ukraine’s Zaporizhzhia
-Added expanded search topic: Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments
-Saved 12 topics for 2026-06-09
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Six countries sanction enablers of settler violence in occupied West Bank
+Added expanded search topic: Six countries sanction enablers of settler violence in occupied West Bank
+Saved 15 topics for 2026-06-09
 Returning 3 unique trending topics:
-  1. Man arrested on suspicion of attempted murder after 'brutal' knife attack in Belfast (from BBC News)
-  2. Video captures Russian attack in Ukraine’s Zaporizhzhia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks (from BBC News)
+  2. Man shot during protest against proposed US Ebola quarantine facility in Kenya (from The Guardian)
+  3. Six countries sanction enablers of settler violence in occupied West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man arrested on suspicion of attempted murder after 'brutal' knife attack in Belfast
-Searching Google for: Man arrested on suspicion of attempted murder after 'brutal' knife attack in Belfast
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Barrested%252Bon%252Bsuspicion%252Bof%252Battempted%252Bmurder%252Bafter%252B%2527brutal%2527%252Bknife%252Battack%252Bin%252BBelfast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mYJyGIGToNEGIjDZFuPxTafipqaTNSWPifNQB2PWq1G8LzDX-mgqMwWeHri34kLnahNK8LI54lS_DQkyBmpjbmRyUloBQw
+Processing trending topic: Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks
+Searching Google for: Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bair%252Bstrikes%252Bhit%252BLebanese%252Bcity%252Bof%252BTyre%252Bdespite%252BIranian%252Bwarning%252Bto%252Bstop%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i0GMzvoNEGIjBThE3ykvg335cS9mnZ9mGrtX9cuGeIwZ5xX7CdLlO3W3HFynnGucXL-grViXM8faIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-arrested-on-suspicion-of-attempted-murder-afte_20260609_1239.html
-✓ Created comprehensive article: man-arrested-on-suspicion-of-attempted-murder-afte_20260609_1239.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: israeli-air-strikes-hit-lebanese-city-of-tyre-desp_20260609_1557.html
+✓ Created comprehensive article: israeli-air-strikes-hit-lebanese-city-of-tyre-desp_20260609_1557.html
 
-Processing trending topic: Video captures Russian attack in Ukraine’s Zaporizhzhia
-Searching Google for: Video captures Russian attack in Ukraine’s Zaporizhzhia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bcaptures%252BRussian%252Battack%252Bin%252BUkraine%25E2%2580%2599s%252BZaporizhzhia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mYJyGIiToNEGIjDTxfAv1VM06dfpBgXd5bNJ1X3v5enRpdXOCcKhphN6PFykK9GUKaoH6vlPpigP5JkyBmpjbmRyUloBQw
+Processing trending topic: Man shot during protest against proposed US Ebola quarantine facility in Kenya
+Searching Google for: Man shot during protest against proposed US Ebola quarantine facility in Kenya
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bshot%252Bduring%252Bprotest%252Bagainst%252Bproposed%252BUS%252BEbola%252Bquarantine%252Bfacility%252Bin%252BKenya%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i0GNPvoNEGIjA1a6EZqoevK3ZfmcvD-J1K6FpCbtq7X7wr-uou4fUGzGAXJsacP2gOGT8BePXRoB8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-captures-russian-attack-in-ukraines-zaporizh_20260609_1239.html
-✓ Created comprehensive article: video-captures-russian-attack-in-ukraines-zaporizh_20260609_1239.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: man-shot-during-protest-against-proposed-us-ebola-_20260609_1557.html
+✓ Created comprehensive article: man-shot-during-protest-against-proposed-us-ebola-_20260609_1557.html
 
-Processing trending topic: Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments
-Searching Google for: Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DItaly%25E2%2580%2599s%252Bforeign%252Bminister%252Bslams%252BIsrael%25E2%2580%2599s%252BBen-Gvir%252Bover%252B%25E2%2580%2598flip-flop%25E2%2580%2599%252Bcomments%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mYJyGI-ToNEGIjDlzofeVvboX4w3m97NB6Z0GK6nqSZMG8aIYuoPJvC5MchssyM5ZgGXIOO59fOSF94yBmpjbmRyUloBQw
+Processing trending topic: Six countries sanction enablers of settler violence in occupied West Bank
+Searching Google for: Six countries sanction enablers of settler violence in occupied West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSix%252Bcountries%252Bsanction%252Benablers%252Bof%252Bsettler%252Bviolence%252Bin%252Boccupied%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i0GNrvoNEGIjBoNKMc9JBOKd2xyPdnH1ikt2MmaM9Il2dLx6kuAXjAGYImNH21YcTv_1O-mudKQxQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: italys-foreign-minister-slams-israels-ben-gvir-ove_20260609_1239.html
-✓ Created comprehensive article: italys-foreign-minister-slams-israels-ben-gvir-ove_20260609_1239.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: six-countries-sanction-enablers-of-settler-violenc_20260609_1557.html
+✓ Created comprehensive article: six-countries-sanction-enablers-of-settler-violenc_20260609_1557.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: iran-conflict-why-has-oil-stayed-near-100-a-barrel_20260609_0943.html
-Cleaned old post to keep top 30 limit: who-is-david-sullivan-football-boss-king-of-porn-a_20260609_0010.html
-Cleaned old post to keep top 30 limit: football-regulator-contacts-west-ham-over-serious-_20260609_0943.html
+Cleaned old post to keep top 30 limit: video-captures-russian-attack-in-ukraines-zaporizh_20260609_1239.html
+Cleaned old post to keep top 30 limit: italys-foreign-minister-slams-israels-ben-gvir-ove_20260609_1239.html
+Cleaned old post to keep top 30 limit: man-arrested-on-suspicion-of-attempted-murder-afte_20260609_1239.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man arrested on suspicion of attempted murder after 'brutal' knife attack in Belfast
+   • Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks
      Sources: bbc.com, cnn.com, reuters.com
-   • Video captures Russian attack in Ukraine’s Zaporizhzhia
+   • Man shot during protest against proposed US Ebola quarantine facility in Kenya
      Sources: bbc.com, cnn.com, reuters.com
-   • Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments
+   • Six countries sanction enablers of settler violence in occupied West Bank
      Sources: bbc.com, cnn.com, reuters.com
