@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: 'I was a prisoner in my home': Drug gangs 'cuckooing' hundreds of homes a week, police warn
   Added: Billionaire West Ham co-owner accused of abusing his power and preying on women for sex
-  Added: Who is David Sullivan - football boss, 'king of porn' and alleged sexual predator?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-09
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ebola death toll in DR Congo climbs to 101
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA drops Somali World Cup referee after US denies him entry
+Added expanded search topic: Ebola death toll in DR Congo climbs to 101
+Added expanded search topic: FIFA drops Somali World Cup referee after US denies him entry
+Saved 6 topics for 2026-06-09
 Returning 3 unique trending topics:
-  1. Billionaire West Ham co-owner accused of abusing his power and preying on women for sex (from BBC News)
-  2. Who is David Sullivan - football boss, 'king of porn' and alleged sexual predator? (from BBC News)
-  3. Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks (from The Guardian)
+  1. 'I was a prisoner in my home': Drug gangs 'cuckooing' hundreds of homes a week, police warn (from BBC News)
+  2. Ebola death toll in DR Congo climbs to 101 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. FIFA drops Somali World Cup referee after US denies him entry (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Billionaire West Ham co-owner accused of abusing his power and preying on women for sex
-Searching Google for: Billionaire West Ham co-owner accused of abusing his power and preying on women for sex
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBillionaire%252BWest%252BHam%252Bco-owner%252Baccused%252Bof%252Babusing%252Bhis%252Bpower%252Band%252Bpreying%252Bon%252Bwomen%252Bfor%252Bsex%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOUGN-zndEGIjAerv3pRYhWPxXqFzvjnXdNFZhzD09xEOcBoFp6CbOE0_4QqpTLfWBgo9yJYMDMhbEyBmpjbmRyUloBQw
+Processing trending topic: 'I was a prisoner in my home': Drug gangs 'cuckooing' hundreds of homes a week, police warn
+Searching Google for: 'I was a prisoner in my home': Drug gangs 'cuckooing' hundreds of homes a week, police warn
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527I%252Bwas%252Ba%252Bprisoner%252Bin%252Bmy%252Bhome%2527%253A%252BDrug%252Bgangs%252B%2527cuckooing%2527%252Bhundreds%252Bof%252Bhomes%252Ba%252Bweek%252C%252Bpolice%252Bwarn%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZdwGIe_ntEGIjA7KRhVUOWhy3y255vxwf8AWf3iWaup8G8cvDU7vXkgm-REE3hInk6c4Ck325QuArAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: billionaire-west-ham-co-owner-accused-of-abusing-h_20260609_0010.html
-✓ Created comprehensive article: billionaire-west-ham-co-owner-accused-of-abusing-h_20260609_0010.html
+Successfully created file: i-was-a-prisoner-in-my-home-drug-gangs-cuckooing-h_20260609_0507.html
+✓ Created comprehensive article: i-was-a-prisoner-in-my-home-drug-gangs-cuckooing-h_20260609_0507.html
 
-Processing trending topic: Who is David Sullivan - football boss, 'king of porn' and alleged sexual predator?
-Searching Google for: Who is David Sullivan - football boss, 'king of porn' and alleged sexual predator?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BDavid%252BSullivan%252B-%252Bfootball%252Bboss%252C%252B%2527king%252Bof%252Bporn%2527%252Band%252Balleged%252Bsexual%252Bpredator%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOUGOazndEGIjD8mnrPi3vGam2hOUl73renngGtFmzjWXCz_g30iUSgiMDgaURdlfYJFJ36VEMokTQyBmpjbmRyUloBQw
+Processing trending topic: Ebola death toll in DR Congo climbs to 101
+Searching Google for: Ebola death toll in DR Congo climbs to 101
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Bdeath%252Btoll%252Bin%252BDR%252BCongo%252Bclimbs%252Bto%252B101%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZdwGI6_ntEGIjAS5tpl65DRkt2bUmaEBmJpATmG69p2CZYaVe0NYt47XI5A_bh0rAENk5cstBq5lOcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-is-david-sullivan-football-boss-king-of-porn-a_20260609_0010.html
-✓ Created comprehensive article: who-is-david-sullivan-football-boss-king-of-porn-a_20260609_0010.html
+Successfully created file: ebola-death-toll-in-dr-congo-climbs-to-101_20260609_0507.html
+✓ Created comprehensive article: ebola-death-toll-in-dr-congo-climbs-to-101_20260609_0507.html
 
-Processing trending topic: Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks
-Searching Google for: Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBandits%252Bin%252Bnorth-west%252BNigeria%252Babduct%252Bvillagers%252Bthey%252Binvited%252Bto%252Bdiscuss%252Bpeace%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNOUGO2zndEGIjBW3tuHEubwPCHOaiDW-pDaEdqpG_3DVY5dniYmg690lnyAAcxlv8aU2SzCw72U-BUyBmpjbmRyUloBQw
+Processing trending topic: FIFA drops Somali World Cup referee after US denies him entry
+Searching Google for: FIFA drops Somali World Cup referee after US denies him entry
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252Bdrops%252BSomali%252BWorld%252BCup%252Breferee%252Bafter%252BUS%252Bdenies%252Bhim%252Bentry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZdwGJW_ntEGIjBtBzHy3HStFaQcsKCvqM2gX9jcxjgQWVvcV-i0KRtBvRPIW4YOZ4M3uyg8sq1YMRQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bandits-in-north-west-nigeria-abduct-villagers-the_20260609_0010.html
-✓ Created comprehensive article: bandits-in-north-west-nigeria-abduct-villagers-the_20260609_0010.html
+Successfully created file: fifa-drops-somali-world-cup-referee-after-us-denie_20260609_0507.html
+✓ Created comprehensive article: fifa-drops-somali-world-cup-referee-after-us-denie_20260609_0507.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-confirms-it-denied-entry-to-somali-referee-set-_20260608_2228.html
-Cleaned old post to keep top 30 limit: un-human-rights-leader-calls-for-cuba-sanctions-to_20260608_2228.html
-Cleaned old post to keep top 30 limit: bandits-in-north-west-nigeria-abduct-villagers-the_20260608_2228.html
+Cleaned old post to keep top 30 limit: southern-philippines-hit-by-78-magnitude-earthquak_20260608_2015.html
+Cleaned old post to keep top 30 limit: billionaire-west-ham-co-owner-accused-of-abusing-h_20260609_0010.html
+Cleaned old post to keep top 30 limit: bandits-in-north-west-nigeria-abduct-villagers-the_20260609_0010.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Billionaire West Ham co-owner accused of abusing his power and preying on women for sex
+   • 'I was a prisoner in my home': Drug gangs 'cuckooing' hundreds of homes a week, police warn
      Sources: bbc.com, cnn.com, reuters.com
-   • Who is David Sullivan - football boss, 'king of porn' and alleged sexual predator?
+   • Ebola death toll in DR Congo climbs to 101
      Sources: bbc.com, cnn.com, reuters.com
-   • Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks
+   • FIFA drops Somali World Cup referee after US denies him entry
      Sources: bbc.com, cnn.com, reuters.com
