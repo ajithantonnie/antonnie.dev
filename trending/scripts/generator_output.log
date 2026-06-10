@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: Residents flee as cars and houses burn in Belfast
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigatio...
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-06-10
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India’s Bengal pushes out Muslim Bangladeshis, deepening religious tensions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Argentina World Cup 2026 preview: Players to watch, group matches and squad
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anti-immigration protests break out in Belfast after knife attack
+Added expanded search topic: India’s Bengal pushes out Muslim Bangladeshis, deepening religious tensions
+Added expanded search topic: Argentina World Cup 2026 preview: Players to watch, group matches and squad
+Added expanded search topic: Anti-immigration protests break out in Belfast after knife attack
+Saved 9 topics for 2026-06-10
 Returning 3 unique trending topics:
-  1. Watch: Residents flee as cars and houses burn in Belfast (from BBC News)
-  2. Illegal mini-marts to shut for up to 12 months under law change prompted by BBC (from BBC News)
-  3. Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigatio... (from The Guardian)
+  1. India’s Bengal pushes out Muslim Bangladeshis, deepening religious tensions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Argentina World Cup 2026 preview: Players to watch, group matches and squad (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Anti-immigration protests break out in Belfast after knife attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: Residents flee as cars and houses burn in Belfast
-Searching Google for: Watch: Residents flee as cars and houses burn in Belfast
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BResidents%252Bflee%252Bas%252Bcars%252Band%252Bhouses%252Bburn%252Bin%252BBelfast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyiGKDoo9EGIjAZ7EDRWb1FFq6eIhtY6zIZTIM25oqzY7TNB64l26JtRLkuminHhSIYLQ-ka2YOkNoyBmpjbmRyUloBQw
+Processing trending topic: India’s Bengal pushes out Muslim Bangladeshis, deepening religious tensions
+Searching Google for: India’s Bengal pushes out Muslim Bangladeshis, deepening religious tensions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%25E2%2580%2599s%252BBengal%252Bpushes%252Bout%252BMuslim%252BBangladeshis%252C%252Bdeepening%252Breligious%252Btensions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WWGJXrpNEGIjB68_RPL9K8t6tKf5X-_61tDmECMbyJ2cua65GV-8LEwo-6gNasXoP-994vdK98-g8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-residents-flee-as-cars-and-houses-burn-in-be_20260610_0520.html
-✓ Created comprehensive article: watch-residents-flee-as-cars-and-houses-burn-in-be_20260610_0520.html
+Successfully created file: indias-bengal-pushes-out-muslim-bangladeshis-deepe_20260610_0959.html
+✓ Created comprehensive article: indias-bengal-pushes-out-muslim-bangladeshis-deepe_20260610_0959.html
 
-Processing trending topic: Illegal mini-marts to shut for up to 12 months under law change prompted by BBC
-Searching Google for: Illegal mini-marts to shut for up to 12 months under law change prompted by BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIllegal%252Bmini-marts%252Bto%252Bshut%252Bfor%252Bup%252Bto%252B12%252Bmonths%252Bunder%252Blaw%252Bchange%252Bprompted%252Bby%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyiGKboo9EGIjBZqnLocwYMk8kqP9Ywu90ddfsLdRqN61Ur17HfPyMkMrmiBQ9fFZtUDoxrzylmyysyBmpjbmRyUloBQw
+Processing trending topic: Argentina World Cup 2026 preview: Players to watch, group matches and squad
+Searching Google for: Argentina World Cup 2026 preview: Players to watch, group matches and squad
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArgentina%252BWorld%252BCup%252B2026%252Bpreview%253A%252BPlayers%252Bto%252Bwatch%252C%252Bgroup%252Bmatches%252Band%252Bsquad%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WWGJzrpNEGIjBuuffyul712dnJTQGZr0VfVQHUOSI6d6TtLj8cVVhRP0-S-zY9cxu42wcL83gz0sMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: illegal-mini-marts-to-shut-for-up-to-12-months-und_20260610_0520.html
-✓ Created comprehensive article: illegal-mini-marts-to-shut-for-up-to-12-months-und_20260610_0520.html
+Successfully created file: argentina-world-cup-2026-preview-players-to-watch-_20260610_1000.html
+✓ Created comprehensive article: argentina-world-cup-2026-preview-players-to-watch-_20260610_1000.html
 
-Processing trending topic: Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigatio...
-Searching Google for: Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigatio...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGlobal%252Bbrands%252B%25E2%2580%2598likely%25E2%2580%2599%252Busing%252Bmineral%252Bthat%252Bfunds%252Brebels%252Baccused%252Bof%252Batrocities%252Bin%252BDRC%252C%252Binvestigatio...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mqyiGKzoo9EGIjABZeoMukSElimOCvDUHP9lExkA8qHhVIkUo6WtASOC20TRjUP6sAdJQwRKQIQcL24yBmpjbmRyUloBQw
+Processing trending topic: Anti-immigration protests break out in Belfast after knife attack
+Searching Google for: Anti-immigration protests break out in Belfast after knife attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnti-immigration%252Bprotests%252Bbreak%252Bout%252Bin%252BBelfast%252Bafter%252Bknife%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-WWGKLrpNEGIjBnaQTZvurnJxOOpRRBA9gmxr929zyuRM0IDZiA1U8xFrJH7SaTNHFjilNN17L1VPIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: global-brands-likely-using-mineral-that-funds-rebe_20260610_0520.html
-✓ Created comprehensive article: global-brands-likely-using-mineral-that-funds-rebe_20260610_0520.html
+Successfully created file: anti-immigration-protests-break-out-in-belfast-aft_20260610_1000.html
+✓ Created comprehensive article: anti-immigration-protests-break-out-in-belfast-aft_20260610_1000.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: man-shot-dead-during-protest-against-proposed-us-e_20260610_0014.html
-Cleaned old post to keep top 30 limit: what-will-the-fallout-be-from-the-unrest-in-pakist_20260609_2058.html
-Cleaned old post to keep top 30 limit: david-sullivan-banned-from-contact-with-west-ham-w_20260610_0014.html
+Cleaned old post to keep top 30 limit: supporters-of-the-cockroach-peoples-party-hold-pro_20260606_0927.html
+Cleaned old post to keep top 30 limit: israeli-forces-kill-nine-in-tyre-after-issuing-for_20260609_2228.html
+Cleaned old post to keep top 30 limit: illegal-mini-marts-to-shut-for-up-to-12-months-und_20260610_0520.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: Residents flee as cars and houses burn in Belfast
+   • India’s Bengal pushes out Muslim Bangladeshis, deepening religious tensions
      Sources: bbc.com, cnn.com, reuters.com
-   • Illegal mini-marts to shut for up to 12 months under law change prompted by BBC
+   • Argentina World Cup 2026 preview: Players to watch, group matches and squad
      Sources: bbc.com, cnn.com, reuters.com
-   • Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigatio...
+   • Anti-immigration protests break out in Belfast after knife attack
      Sources: bbc.com, cnn.com, reuters.com
