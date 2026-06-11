@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Child-rape sentence reignites scrutiny of UK high street mini-marts
   Added: El Niño under way and threatens weather extremes, scientists say
-  Added: Weight-loss drug Wegovy to be available in pill form in UK for first time
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-06-11
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jose Mourinho named Real Madrid coach on three-year deal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Musk’s Grok accused of violating Canadian privacy laws on deepfakes
+Added expanded search topic: Jose Mourinho named Real Madrid coach on three-year deal
+Added expanded search topic: Musk’s Grok accused of violating Canadian privacy laws on deepfakes
+Saved 15 topics for 2026-06-11
 Returning 3 unique trending topics:
-  1. El Niño under way and threatens weather extremes, scientists say (from BBC News)
-  2. Weight-loss drug Wegovy to be available in pill form in UK for first time (from BBC News)
-  3. London council seizes social housing flat rented by Sierra Leone first lady (from The Guardian)
+  1. Child-rape sentence reignites scrutiny of UK high street mini-marts (from BBC News)
+  2. Jose Mourinho named Real Madrid coach on three-year deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Musk’s Grok accused of violating Canadian privacy laws on deepfakes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: El Niño under way and threatens weather extremes, scientists say
-Searching Google for: El Niño under way and threatens weather extremes, scientists say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEl%252BNi%25C3%25B1o%252Bunder%252Bway%252Band%252Bthreatens%252Bweather%252Bextremes%252C%252Bscientists%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06igpGPLRq9EGIjDkZaa6V96sJ7c-1vCISHo8wlGFZGRvVWsL6kFpEhAtzoxIlXkZ0k2YRGiIPFYYtxEyBmpjbmRyUloBQw
+Processing trending topic: Child-rape sentence reignites scrutiny of UK high street mini-marts
+Searching Google for: Child-rape sentence reignites scrutiny of UK high street mini-marts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChild-rape%252Bsentence%252Breignites%252Bscrutiny%252Bof%252BUK%252Bhigh%252Bstreet%252Bmini-marts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6ICGNudrNEGIjBtkCzkJVErBbdgT3na7QRJ4naRdGTyqyMdkihFcJVd_1Vo6Ou7mgvM10at7w_v088yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: el-niño-under-way-and-threatens-weather-extremes-s_20260611_1657.html
-✓ Created comprehensive article: el-niño-under-way-and-threatens-weather-extremes-s_20260611_1657.html
+Successfully created file: child-rape-sentence-reignites-scrutiny-of-uk-high-_20260611_1939.html
+✓ Created comprehensive article: child-rape-sentence-reignites-scrutiny-of-uk-high-_20260611_1939.html
 
-Processing trending topic: Weight-loss drug Wegovy to be available in pill form in UK for first time
-Searching Google for: Weight-loss drug Wegovy to be available in pill form in UK for first time
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWeight-loss%252Bdrug%252BWegovy%252Bto%252Bbe%252Bavailable%252Bin%252Bpill%252Bform%252Bin%252BUK%252Bfor%252Bfirst%252Btime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06igpGPnRq9EGIjDmpR8nY7gIMhYkx9sWxXaB0KSfAMHpGWmuOjqokj9UhcOF2SFDcIKLy6IG_VX9KhYyBmpjbmRyUloBQw
+Processing trending topic: Jose Mourinho named Real Madrid coach on three-year deal
+Searching Google for: Jose Mourinho named Real Madrid coach on three-year deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJose%252BMourinho%252Bnamed%252BReal%252BMadrid%252Bcoach%252Bon%252Bthree-year%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6ICGOGdrNEGIjB2Mgrw4_FxSj8tbAIv5UqYe2u4_FCj6tZJO0MtP3MZAYlDH0R-6crOSuex5ZwCyc8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: weight-loss-drug-wegovy-to-be-available-in-pill-fo_20260611_1657.html
-✓ Created comprehensive article: weight-loss-drug-wegovy-to-be-available-in-pill-fo_20260611_1657.html
+Successfully created file: jose-mourinho-named-real-madrid-coach-on-three-yea_20260611_1939.html
+✓ Created comprehensive article: jose-mourinho-named-real-madrid-coach-on-three-yea_20260611_1939.html
 
-Processing trending topic: London council seizes social housing flat rented by Sierra Leone first lady
-Searching Google for: London council seizes social housing flat rented by Sierra Leone first lady
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLondon%252Bcouncil%252Bseizes%252Bsocial%252Bhousing%252Bflat%252Brented%252Bby%252BSierra%252BLeone%252Bfirst%252Blady%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06igpGP_Rq9EGIjDZtfHunXxuSAZ6MDWZkpBTmaFirFYIYEo3SFi8fHN_crZacG-bX2-EDrYqL8mIbp0yBmpjbmRyUloBQw
+Processing trending topic: Musk’s Grok accused of violating Canadian privacy laws on deepfakes
+Searching Google for: Musk’s Grok accused of violating Canadian privacy laws on deepfakes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMusk%25E2%2580%2599s%252BGrok%252Baccused%252Bof%252Bviolating%252BCanadian%252Bprivacy%252Blaws%252Bon%252Bdeepfakes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6ICGOidrNEGIjAoLOJgBTiRK5Ly1lTzSMMq1AtMUbjOMgtJNs7ROnIoqjL5JYVGXfs7BUxnlYHLjGAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: london-council-seizes-social-housing-flat-rented-b_20260611_1657.html
-✓ Created comprehensive article: london-council-seizes-social-housing-flat-rented-b_20260611_1657.html
+Successfully created file: musks-grok-accused-of-violating-canadian-privacy-l_20260611_1939.html
+✓ Created comprehensive article: musks-grok-accused-of-violating-canadian-privacy-l_20260611_1939.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: south-korea-vs-czechia-world-cup-group-match-teams_20260611_0847.html
-Cleaned old post to keep top 30 limit: world-health-organization-hails-recovery-of-five-e_20260531_1446.html
-Cleaned old post to keep top 30 limit: did-us-sneak-100-million-barrels-of-oil-out-of-hor_20260611_1247.html
+Cleaned old post to keep top 30 limit: vulnerable-women-lured-by-illegal-sperm-donor-serv_20260608_0008.html
+Cleaned old post to keep top 30 limit: who-is-david-sullivan-football-boss-king-of-porn-a_20260608_1753.html
+Cleaned old post to keep top 30 limit: el-niño-under-way-and-threatens-weather-extremes-s_20260611_1657.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • El Niño under way and threatens weather extremes, scientists say
+   • Child-rape sentence reignites scrutiny of UK high street mini-marts
      Sources: bbc.com, cnn.com, reuters.com
-   • Weight-loss drug Wegovy to be available in pill form in UK for first time
+   • Jose Mourinho named Real Madrid coach on three-year deal
      Sources: bbc.com, cnn.com, reuters.com
-   • London council seizes social housing flat rented by Sierra Leone first lady
+   • Musk’s Grok accused of violating Canadian privacy laws on deepfakes
      Sources: bbc.com, cnn.com, reuters.com
