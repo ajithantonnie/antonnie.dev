@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: I have a duty to stay on, says Starmer, as he justifies defence spending decisions
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US to cut air and naval assets deployed for NATO operations in Europe
-Added expanded search topic: US to cut air and naval assets deployed for NATO operations in Europe
-Saved 15 topics for 2026-06-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congressman says Trump won’t send loads of money to Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Clashes break out at DRC rally against presidential term-limit change
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Putin admits Ukraine attacks hitting Russian economy, society
+Added expanded search topic: US Congressman says Trump won’t send loads of money to Iran
+Added expanded search topic: Clashes break out at DRC rally against presidential term-limit change
+Added expanded search topic: Putin admits Ukraine attacks hitting Russian economy, society
+Saved 18 topics for 2026-06-12
 Returning 3 unique trending topics:
-  1. I have a duty to stay on, says Starmer, as he justifies defence spending decisions (from BBC News)
-  2. Defence row exposes tensions over how to keep UK safe (from BBC News)
-  3. US to cut air and naval assets deployed for NATO operations in Europe (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US Congressman says Trump won’t send loads of money to Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Clashes break out at DRC rally against presidential term-limit change (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Putin admits Ukraine attacks hitting Russian economy, society (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: I have a duty to stay on, says Starmer, as he justifies defence spending decisions
-Searching Google for: I have a duty to stay on, says Starmer, as he justifies defence spending decisions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%252Bhave%252Ba%252Bduty%252Bto%252Bstay%252Bon%252C%252Bsays%252BStarmer%252C%252Bas%252Bhe%252Bjustifies%252Bdefence%252Bspending%252Bdecisions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwDGI2JsdEGIjDhApvDtzDGXuxLvsas2G50VoDG3A7S8VaJumq5JtytFHuNivgIeRhXQobrF44sWlsyBmpjbmRyUloBQw
+Processing trending topic: US Congressman says Trump won’t send loads of money to Iran
+Searching Google for: US Congressman says Trump won’t send loads of money to Iran
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-have-a-duty-to-stay-on-says-starmer-as-he-justif_20260612_1740.html
-✓ Created comprehensive article: i-have-a-duty-to-stay-on-says-starmer-as-he-justif_20260612_1740.html
+Successfully created file: us-congressman-says-trump-wont-send-loads-of-money_20260612_2011.html
+✓ Created comprehensive article: us-congressman-says-trump-wont-send-loads-of-money_20260612_2011.html
 
-Processing trending topic: Defence row exposes tensions over how to keep UK safe
-Searching Google for: Defence row exposes tensions over how to keep UK safe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDefence%252Brow%252Bexposes%252Btensions%252Bover%252Bhow%252Bto%252Bkeep%252BUK%252Bsafe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwDGJSJsdEGIjDd85-fkKQ-kdPhwVI6bulQDxLvL9vbKdjcj8TwmBY5pZP8vOl3RBdJ-TyJZUzvW98yBmpjbmRyUloBQw
+Processing trending topic: Clashes break out at DRC rally against presidential term-limit change
+Searching Google for: Clashes break out at DRC rally against presidential term-limit change
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: defence-row-exposes-tensions-over-how-to-keep-uk-s_20260612_1740.html
-✓ Created comprehensive article: defence-row-exposes-tensions-over-how-to-keep-uk-s_20260612_1740.html
+Successfully created file: clashes-break-out-at-drc-rally-against-presidentia_20260612_2012.html
+✓ Created comprehensive article: clashes-break-out-at-drc-rally-against-presidentia_20260612_2012.html
 
-Processing trending topic: US to cut air and naval assets deployed for NATO operations in Europe
-Searching Google for: US to cut air and naval assets deployed for NATO operations in Europe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bto%252Bcut%252Bair%252Band%252Bnaval%252Bassets%252Bdeployed%252Bfor%252BNATO%252Boperations%252Bin%252BEurope%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwDGJqJsdEGIjDx8QU8BYsCdbmjJwVy-8G84Slv0aapE4oOhJWFcL7KeXl5kqy_zs-_I05FusXQ_10yBmpjbmRyUloBQw
+Processing trending topic: Putin admits Ukraine attacks hitting Russian economy, society
+Searching Google for: Putin admits Ukraine attacks hitting Russian economy, society
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPutin%252Badmits%252BUkraine%252Battacks%252Bhitting%252BRussian%252Beconomy%252C%252Bsociety%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_MVGLbQsdEGIjBpVNvzLBXeaj4YMRN_fIGGug88199BVRxctZurucAde95i2UgfRNVj2uK1ftbXPF4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-to-cut-air-and-naval-assets-deployed-for-nato-o_20260612_1740.html
-✓ Created comprehensive article: us-to-cut-air-and-naval-assets-deployed-for-nato-o_20260612_1740.html
+Successfully created file: putin-admits-ukraine-attacks-hitting-russian-econo_20260612_2012.html
+✓ Created comprehensive article: putin-admits-ukraine-attacks-hitting-russian-econo_20260612_2012.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: london-council-seizes-social-housing-flat-rented-b_20260612_0022.html
-Cleaned old post to keep top 30 limit: jimenez-and-quinones-net-as-mexico-beat-south-afri_20260611_2205.html
-Cleaned old post to keep top 30 limit: ministers-want-60-of-children-walking-or-cycling-t_20260612_1412.html
+Cleaned old post to keep top 30 limit: i-have-a-duty-to-stay-on-says-starmer-as-he-justif_20260612_1740.html
+Cleaned old post to keep top 30 limit: defence-row-exposes-tensions-over-how-to-keep-uk-s_20260612_1740.html
+Cleaned old post to keep top 30 limit: celebrated-british-artist-david-hockney-dies-aged-_20260612_1412.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • I have a duty to stay on, says Starmer, as he justifies defence spending decisions
+   • US Congressman says Trump won’t send loads of money to Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • Defence row exposes tensions over how to keep UK safe
+   • Clashes break out at DRC rally against presidential term-limit change
      Sources: bbc.com, cnn.com, reuters.com
-   • US to cut air and naval assets deployed for NATO operations in Europe
+   • Putin admits Ukraine attacks hitting Russian economy, society
      Sources: bbc.com, cnn.com, reuters.com
