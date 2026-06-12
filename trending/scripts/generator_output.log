@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Armed forces minister quits after Healey exit as defence funding row deepens
-  Added: Trump says deal to end Iran war is close after calling off strikes
+  Added: Chris Mason: Dissent fizzes again at the top of the Labour Party
+  Added: Trump claims deal to end Iran war near as Tehran says 'nothing' finalised
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-12
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Korea rally to beat Czechia 2-1 on World Cup opening day
+Added expanded search topic: South Korea rally to beat Czechia 2-1 on World Cup opening day
+Saved 6 topics for 2026-06-12
 Returning 3 unique trending topics:
-  1. Armed forces minister quits after Healey exit as defence funding row deepens (from BBC News)
-  2. Trump says deal to end Iran war is close after calling off strikes (from BBC News)
-  3. London council seizes social housing flat rented by Sierra Leone first lady (from The Guardian)
+  1. Chris Mason: Dissent fizzes again at the top of the Labour Party (from BBC News)
+  2. Trump claims deal to end Iran war near as Tehran says 'nothing' finalised (from BBC News)
+  3. South Korea rally to beat Czechia 2-1 on World Cup opening day (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Armed forces minister quits after Healey exit as defence funding row deepens
-Searching Google for: Armed forces minister quits after Healey exit as defence funding row deepens
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Chris Mason: Dissent fizzes again at the top of the Labour Party
+Searching Google for: Chris Mason: Dissent fizzes again at the top of the Labour Party
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BDissent%252Bfizzes%252Bagain%252Bat%252Bthe%252Btop%252Bof%252Bthe%252BLabour%252BParty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUuJb1GP68rtEGIjAx-RoWRb74vd2rtHfl7nl0N_AZAktMr7VzEF7N3eGK1YqJdqRW2q-3xuzsoyTESJUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: armed-forces-minister-quits-after-healey-exit-as-d_20260612_0021.html
-✓ Created comprehensive article: armed-forces-minister-quits-after-healey-exit-as-d_20260612_0021.html
+Successfully created file: chris-mason-dissent-fizzes-again-at-the-top-of-the_20260612_0552.html
+✓ Created comprehensive article: chris-mason-dissent-fizzes-again-at-the-top-of-the_20260612_0552.html
 
-Processing trending topic: Trump says deal to end Iran war is close after calling off strikes
-Searching Google for: Trump says deal to end Iran war is close after calling off strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bdeal%252Bto%252Bend%252BIran%252Bwar%252Bis%252Bclose%252Bafter%252Bcalling%252Boff%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19LjGLKirdEGIjAY6AjpkM8QA4Ka9OvkQIVi-0DlLGnxonA4-8rwovXAKmrASKgfMYIffP2e5ZkYz8MyBmpjbmRyUloBQw
+Processing trending topic: Trump claims deal to end Iran war near as Tehran says 'nothing' finalised
+Searching Google for: Trump claims deal to end Iran war near as Tehran says 'nothing' finalised
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bclaims%252Bdeal%252Bto%252Bend%252BIran%252Bwar%252Bnear%252Bas%252BTehran%252Bsays%252B%2527nothing%2527%252Bfinalised%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUuJb1GIW9rtEGIjCRyej3Fw9bbh9p5R_b9qI_csNJQw_iya1JI892RZc4HEHBXG5d5qQjpP5L5DTE96syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-deal-to-end-iran-war-is-close-after-cal_20260612_0022.html
-✓ Created comprehensive article: trump-says-deal-to-end-iran-war-is-close-after-cal_20260612_0022.html
+Successfully created file: trump-claims-deal-to-end-iran-war-near-as-tehran-s_20260612_0552.html
+✓ Created comprehensive article: trump-claims-deal-to-end-iran-war-near-as-tehran-s_20260612_0552.html
 
-Processing trending topic: London council seizes social housing flat rented by Sierra Leone first lady
-Searching Google for: London council seizes social housing flat rented by Sierra Leone first lady
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLondon%252Bcouncil%252Bseizes%252Bsocial%252Bhousing%252Bflat%252Brented%252Bby%252BSierra%252BLeone%252Bfirst%252Blady%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19LjGLiirdEGIjAY6iqqepfBfTeAFt84HWIVf3fsUbtxlZ8rNRHU0UJWIL62qLgJapsw9rA10cvdDgEyBmpjbmRyUloBQw
+Processing trending topic: South Korea rally to beat Czechia 2-1 on World Cup opening day
+Searching Google for: South Korea rally to beat Czechia 2-1 on World Cup opening day
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BKorea%252Brally%252Bto%252Bbeat%252BCzechia%252B2-1%252Bon%252BWorld%252BCup%252Bopening%252Bday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUuJb1GIu9rtEGIjBWfwjdN06yAfdAuQ5hYV6w6rCEbft0MArtOPpg_-W9pLuSB6jDpQ1UnUC1K1Wv09wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: london-council-seizes-social-housing-flat-rented-b_20260612_0022.html
-✓ Created comprehensive article: london-council-seizes-social-housing-flat-rented-b_20260612_0022.html
+Successfully created file: south-korea-rally-to-beat-czechia-2-1-on-world-cup_20260612_0552.html
+✓ Created comprehensive article: south-korea-rally-to-beat-czechia-2-1-on-world-cup_20260612_0552.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-mogadishu-clashes-are-deepening-somalias-polit_20260605_0519.html
-Cleaned old post to keep top 30 limit: man-pleads-guilty-to-slaying-top-democrat-and-her-_20260611_2205.html
-Cleaned old post to keep top 30 limit: elon-musks-spacex-valued-at-nearly-18tn-ahead-of-r_20260611_2204.html
+Cleaned old post to keep top 30 limit: who-chief-calls-for-drc-ceasefire-to-tackle-ebola-_20260527_1639.html
+Cleaned old post to keep top 30 limit: who-is-your-local-world-cup-hero-use-our-lookup-to_20260611_0847.html
+Cleaned old post to keep top 30 limit: armed-forces-minister-quits-after-healey-exit-as-d_20260612_0021.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Armed forces minister quits after Healey exit as defence funding row deepens
+   • Chris Mason: Dissent fizzes again at the top of the Labour Party
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says deal to end Iran war is close after calling off strikes
+   • Trump claims deal to end Iran war near as Tehran says 'nothing' finalised
      Sources: bbc.com, cnn.com, reuters.com
-   • London council seizes social housing flat rented by Sierra Leone first lady
+   • South Korea rally to beat Czechia 2-1 on World Cup opening day
      Sources: bbc.com, cnn.com, reuters.com
