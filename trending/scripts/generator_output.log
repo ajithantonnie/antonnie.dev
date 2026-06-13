@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Royal Family watch Red Arrows flypast on Buckingham Palace balcony
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fans reveal how much they paid for World Cup tickets
-Added expanded search topic: Fans reveal how much they paid for World Cup tickets
-Saved 15 topics for 2026-06-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranians divided on peace prospects after US-Iran say a deal is near
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Workers remove Trump’s name from Kennedy Center after court ruling
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: From colony to cell: Sexual violence in Israeli prisons
+Added expanded search topic: Iranians divided on peace prospects after US-Iran say a deal is near
+Added expanded search topic: Workers remove Trump’s name from Kennedy Center after court ruling
+Added expanded search topic: From colony to cell: Sexual violence in Israeli prisons
+Saved 18 topics for 2026-06-13
 Returning 3 unique trending topics:
-  1. Royal Family watch Red Arrows flypast on Buckingham Palace balcony (from BBC News)
-  2. In pictures: Trooping the Colour marks King's official birthday (from BBC News)
-  3. Fans reveal how much they paid for World Cup tickets (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iranians divided on peace prospects after US-Iran say a deal is near (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Workers remove Trump’s name from Kennedy Center after court ruling (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. From colony to cell: Sexual violence in Israeli prisons (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Royal Family watch Red Arrows flypast on Buckingham Palace balcony
-Searching Google for: Royal Family watch Red Arrows flypast on Buckingham Palace balcony
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BFamily%252Bwatch%252BRed%252BArrows%252Bflypast%252Bon%252BBuckingham%252BPalace%252Bbalcony%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGI_EtdEGIjBE-VSiXoBpDDyK_e2FD9qZUZg8A1D8-fWF3G4Qm59yALXYnJX-fhFGbpe5q-NsdkUyBmpjbmRyUloBQw
+Processing trending topic: Iranians divided on peace prospects after US-Iran say a deal is near
+Searching Google for: Iranians divided on peace prospects after US-Iran say a deal is near
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranians%252Bdivided%252Bon%252Bpeace%252Bprospects%252Bafter%252BUS-Iran%252Bsay%252Ba%252Bdeal%252Bis%252Bnear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6IiGLD2tdEGIjDh2E7EQ8euyxPDutE4bGZxNAoemitt5e5PO1jAD_zccBjW7gvE9fgHQZhQCsO9aLAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: royal-family-watch-red-arrows-flypast-on-buckingha_20260613_1358.html
-✓ Created comprehensive article: royal-family-watch-red-arrows-flypast-on-buckingha_20260613_1358.html
+Successfully created file: iranians-divided-on-peace-prospects-after-us-iran-_20260613_1545.html
+✓ Created comprehensive article: iranians-divided-on-peace-prospects-after-us-iran-_20260613_1545.html
 
-Processing trending topic: In pictures: Trooping the Colour marks King's official birthday
-Searching Google for: In pictures: Trooping the Colour marks King's official birthday
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIn%252Bpictures%253A%252BTrooping%252Bthe%252BColour%252Bmarks%252BKing%2527s%252Bofficial%252Bbirthday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGJbEtdEGIjBDKlEaFAe_aIWdToFQyLzQTsQ8nNxEK4S-vFZw_sDJ5GFTnAngGA3cZge0M3y6fX8yBmpjbmRyUloBQw
+Processing trending topic: Workers remove Trump’s name from Kennedy Center after court ruling
+Searching Google for: Workers remove Trump’s name from Kennedy Center after court ruling
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorkers%252Bremove%252BTrump%25E2%2580%2599s%252Bname%252Bfrom%252BKennedy%252BCenter%252Bafter%252Bcourt%252Bruling%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6IiGLf2tdEGIjB3ee-Qm_Q70s03dQPUDgz341NhlAQ5uYiZq4y4P2SbnOiZYlA5oD-gaNGd0BbgLzkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: in-pictures-trooping-the-colour-marks-kings-offici_20260613_1358.html
-✓ Created comprehensive article: in-pictures-trooping-the-colour-marks-kings-offici_20260613_1358.html
+Successfully created file: workers-remove-trumps-name-from-kennedy-center-aft_20260613_1546.html
+✓ Created comprehensive article: workers-remove-trumps-name-from-kennedy-center-aft_20260613_1546.html
 
-Processing trending topic: Fans reveal how much they paid for World Cup tickets
-Searching Google for: Fans reveal how much they paid for World Cup tickets
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFans%252Breveal%252Bhow%252Bmuch%252Bthey%252Bpaid%252Bfor%252BWorld%252BCup%252Btickets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8iGJzEtdEGIjA3HMsI-LWy2BsFjckFcPQ058eKt1DTQIah3Vt8oCBdxlzDSaG3flxgnd5bXlw8kbIyBmpjbmRyUloBQw
+Processing trending topic: From colony to cell: Sexual violence in Israeli prisons
+Searching Google for: From colony to cell: Sexual violence in Israeli prisons
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrom%252Bcolony%252Bto%252Bcell%253A%252BSexual%252Bviolence%252Bin%252BIsraeli%252Bprisons%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6IiGL32tdEGIjAM-t-2tmlavf6rQXqBCMRYDLrjEsR6p4AScFgXbJ9zHnMhgqZMLzIMHhMrKc7YT9cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fans-reveal-how-much-they-paid-for-world-cup-ticke_20260613_1358.html
-✓ Created comprehensive article: fans-reveal-how-much-they-paid-for-world-cup-ticke_20260613_1358.html
+Successfully created file: from-colony-to-cell-sexual-violence-in-israeli-pri_20260613_1546.html
+✓ Created comprehensive article: from-colony-to-cell-sexual-violence-in-israeli-pri_20260613_1546.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: topuria-shoves-gaethje-by-lincoln-memorial-ahead-o_20260613_0859.html
-Cleaned old post to keep top 30 limit: us-orders-anthropic-to-disable-ai-models-for-all-f_20260613_1116.html
-Cleaned old post to keep top 30 limit: israel-attacks-lebanon-despite-being-included-in-p_20260613_1116.html
+Cleaned old post to keep top 30 limit: royal-family-watch-red-arrows-flypast-on-buckingha_20260613_1358.html
+Cleaned old post to keep top 30 limit: separated-by-the-gaza-war-a-palestinian-yearns-to-_20260613_0859.html
+Cleaned old post to keep top 30 limit: fans-reveal-how-much-they-paid-for-world-cup-ticke_20260613_1358.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Royal Family watch Red Arrows flypast on Buckingham Palace balcony
+   • Iranians divided on peace prospects after US-Iran say a deal is near
      Sources: bbc.com, cnn.com, reuters.com
-   • In pictures: Trooping the Colour marks King's official birthday
+   • Workers remove Trump’s name from Kennedy Center after court ruling
      Sources: bbc.com, cnn.com, reuters.com
-   • Fans reveal how much they paid for World Cup tickets
+   • From colony to cell: Sexual violence in Israeli prisons
      Sources: bbc.com, cnn.com, reuters.com
