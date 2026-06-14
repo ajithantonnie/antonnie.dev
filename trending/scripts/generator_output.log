@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Royal Marines board Russian shadow fleet oil tanker in English Channel
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
-Added expanded search topic: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
-Saved 9 topics for 2026-06-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Donald Trump’s name removed from Kennedy Center
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sexual Violence in Israeli Prisons: What History Tells Us
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anticipation, pushback in Iran as mediators work to finalise deal with US
+Added expanded search topic: Donald Trump’s name removed from Kennedy Center
+Added expanded search topic: Sexual Violence in Israeli Prisons: What History Tells Us
+Added expanded search topic: Anticipation, pushback in Iran as mediators work to finalise deal with US
+Saved 12 topics for 2026-06-14
 Returning 3 unique trending topics:
-  1. Royal Marines board Russian shadow fleet oil tanker in English Channel (from BBC News)
-  2. Watch: MOD video shows Russian shadow fleet tanker interception (from BBC News)
-  3. Israel accuses Hezbollah of ceasefire violation, issues displacement orders (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Donald Trump’s name removed from Kennedy Center (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sexual Violence in Israeli Prisons: What History Tells Us (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Anticipation, pushback in Iran as mediators work to finalise deal with US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Royal Marines board Russian shadow fleet oil tanker in English Channel
-Searching Google for: Royal Marines board Russian shadow fleet oil tanker in English Channel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BMarines%252Bboard%252BRussian%252Bshadow%252Bfleet%252Boil%252Btanker%252Bin%252BEnglish%252BChannel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN6PkGNeiutEGIjAWQQINZZGDFU7YPEHDZZoUIixPrLWn1hBWTM2-vAZIUPmKmI7jQ08v228VToj6plcyBmpjbmRyUloBQw
+Processing trending topic: Donald Trump’s name removed from Kennedy Center
+Searching Google for: Donald Trump’s name removed from Kennedy Center
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDonald%252BTrump%25E2%2580%2599s%252Bname%252Bremoved%252Bfrom%252BKennedy%252BCenter%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6IkGPboutEGIjCQeQJ9tmRP_fED0hmAuUFf6HA-y4yzd9wcic8SN99-PVfwToMb057OAAv8nKpHKSAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: royal-marines-board-russian-shadow-fleet-oil-tanke_20260614_1132.html
-✓ Created comprehensive article: royal-marines-board-russian-shadow-fleet-oil-tanke_20260614_1132.html
+Successfully created file: donald-trumps-name-removed-from-kennedy-center_20260614_1402.html
+✓ Created comprehensive article: donald-trumps-name-removed-from-kennedy-center_20260614_1402.html
 
-Processing trending topic: Watch: MOD video shows Russian shadow fleet tanker interception
-Searching Google for: Watch: MOD video shows Russian shadow fleet tanker interception
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMOD%252Bvideo%252Bshows%252BRussian%252Bshadow%252Bfleet%252Btanker%252Binterception%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN6PkGN6iutEGIjCaj9SbZI2pCOAsuZCDHvvRoFEF6xpRmkcHCUmUzREfaJDLtrY-W4KVImGY1bntA5syBmpjbmRyUloBQw
+Processing trending topic: Sexual Violence in Israeli Prisons: What History Tells Us
+Searching Google for: Sexual Violence in Israeli Prisons: What History Tells Us
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSexual%252BViolence%252Bin%252BIsraeli%252BPrisons%253A%252BWhat%252BHistory%252BTells%252BUs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6IkGP3outEGIjB-96nQfJlkpCIgNjDqXMpZ0EVkPrc3lb0D7LoJi3airkzduRPhCqxYJ2-AJojP8KcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-mod-video-shows-russian-shadow-fleet-tanker-_20260614_1132.html
-✓ Created comprehensive article: watch-mod-video-shows-russian-shadow-fleet-tanker-_20260614_1132.html
+Successfully created file: sexual-violence-in-israeli-prisons-what-history-te_20260614_1402.html
+✓ Created comprehensive article: sexual-violence-in-israeli-prisons-what-history-te_20260614_1402.html
 
-Processing trending topic: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
-Searching Google for: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Baccuses%252BHezbollah%252Bof%252Bceasefire%252Bviolation%252C%252Bissues%252Bdisplacement%252Borders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN6PkGOWiutEGIjBJmB9VhnMMRU5PHEZ_PctBnvgpQhQTS6qort-eDZ1owTZG7PMF_UCQVxR05W0e2GMyBmpjbmRyUloBQw
+Processing trending topic: Anticipation, pushback in Iran as mediators work to finalise deal with US
+Searching Google for: Anticipation, pushback in Iran as mediators work to finalise deal with US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnticipation%252C%252Bpushback%252Bin%252BIran%252Bas%252Bmediators%252Bwork%252Bto%252Bfinalise%252Bdeal%252Bwith%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6IkGIPputEGIjCYaUKiYoHt2a_rQ43SVLGhJUNLA9Fx98YgPgTVe_Xc-Z6qeyymoVvVvTstfTfHZ8MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-accuses-hezbollah-of-ceasefire-violation-is_20260614_1132.html
-✓ Created comprehensive article: israel-accuses-hezbollah-of-ceasefire-violation-is_20260614_1132.html
+Successfully created file: anticipation-pushback-in-iran-as-mediators-work-to_20260614_1402.html
+✓ Created comprehensive article: anticipation-pushback-in-iran-as-mediators-work-to_20260614_1402.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: london-council-seizes-social-housing-flat-rented-b_20260614_0356.html
-Cleaned old post to keep top 30 limit: uk-intercepts-russian-shadow-fleet-oil-tanker-in-e_20260614_0817.html
-Cleaned old post to keep top 30 limit: jubilation-as-scotland-fans-celebrate-win_20260614_0817.html
+Cleaned old post to keep top 30 limit: us-congressman-says-trump-wont-send-loads-of-money_20260612_2011.html
+Cleaned old post to keep top 30 limit: royal-marines-board-russian-shadow-fleet-oil-tanke_20260614_1132.html
+Cleaned old post to keep top 30 limit: israel-accuses-hezbollah-of-ceasefire-violation-is_20260614_1132.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Royal Marines board Russian shadow fleet oil tanker in English Channel
+   • Donald Trump’s name removed from Kennedy Center
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: MOD video shows Russian shadow fleet tanker interception
+   • Sexual Violence in Israeli Prisons: What History Tells Us
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel accuses Hezbollah of ceasefire violation, issues displacement orders
+   • Anticipation, pushback in Iran as mediators work to finalise deal with US
      Sources: bbc.com, cnn.com, reuters.com
