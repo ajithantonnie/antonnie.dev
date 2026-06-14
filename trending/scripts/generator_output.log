@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Jubilation as Scotland fans celebrate win
-  Added: UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
+  Added: Royal Marines board Russian shadow fleet oil tanker in English Channel
+  Added: Watch: MOD video shows Russian shadow fleet tanker interception
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Signing of US-Iran deal not on Trump’s public schedule
-Added expanded search topic: Signing of US-Iran deal not on Trump’s public schedule
-Saved 6 topics for 2026-06-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
+Added expanded search topic: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
+Saved 9 topics for 2026-06-14
 Returning 3 unique trending topics:
-  1. Jubilation as Scotland fans celebrate win (from BBC News)
-  2. UK intercepts Russian shadow fleet oil tanker in English Channel, PM says (from BBC News)
-  3. Signing of US-Iran deal not on Trump’s public schedule (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Royal Marines board Russian shadow fleet oil tanker in English Channel (from BBC News)
+  2. Watch: MOD video shows Russian shadow fleet tanker interception (from BBC News)
+  3. Israel accuses Hezbollah of ceasefire violation, issues displacement orders (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Jubilation as Scotland fans celebrate win
-Searching Google for: Jubilation as Scotland fans celebrate win
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJubilation%252Bas%252BScotland%252Bfans%252Bcelebrate%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgniGKLHudEGIjAczcgEbpGM8UDdSqWVweS2rhFepSjuaX-8S8m7HSWguHU8g5BXB1ylvFW82mzTLq4yBmpjbmRyUloBQw
+Processing trending topic: Royal Marines board Russian shadow fleet oil tanker in English Channel
+Searching Google for: Royal Marines board Russian shadow fleet oil tanker in English Channel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRoyal%252BMarines%252Bboard%252BRussian%252Bshadow%252Bfleet%252Boil%252Btanker%252Bin%252BEnglish%252BChannel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN6PkGNeiutEGIjAWQQINZZGDFU7YPEHDZZoUIixPrLWn1hBWTM2-vAZIUPmKmI7jQ08v228VToj6plcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: jubilation-as-scotland-fans-celebrate-win_20260614_0817.html
-✓ Created comprehensive article: jubilation-as-scotland-fans-celebrate-win_20260614_0817.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: royal-marines-board-russian-shadow-fleet-oil-tanke_20260614_1132.html
+✓ Created comprehensive article: royal-marines-board-russian-shadow-fleet-oil-tanke_20260614_1132.html
 
-Processing trending topic: UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
-Searching Google for: UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bintercepts%252BRussian%252Bshadow%252Bfleet%252Boil%252Btanker%252Bin%252BEnglish%252BChannel%252C%252BPM%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgniGKnHudEGIjBccoZkY4cQWML6OUtnhB2qqVHVW0iIyCfvQWlEXNPg4bjyUp3jUbVH_i7YQBb-3AwyBmpjbmRyUloBQw
+Processing trending topic: Watch: MOD video shows Russian shadow fleet tanker interception
+Searching Google for: Watch: MOD video shows Russian shadow fleet tanker interception
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMOD%252Bvideo%252Bshows%252BRussian%252Bshadow%252Bfleet%252Btanker%252Binterception%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN6PkGN6iutEGIjCaj9SbZI2pCOAsuZCDHvvRoFEF6xpRmkcHCUmUzREfaJDLtrY-W4KVImGY1bntA5syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-intercepts-russian-shadow-fleet-oil-tanker-in-e_20260614_0817.html
-✓ Created comprehensive article: uk-intercepts-russian-shadow-fleet-oil-tanker-in-e_20260614_0817.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: watch-mod-video-shows-russian-shadow-fleet-tanker-_20260614_1132.html
+✓ Created comprehensive article: watch-mod-video-shows-russian-shadow-fleet-tanker-_20260614_1132.html
 
-Processing trending topic: Signing of US-Iran deal not on Trump’s public schedule
-Searching Google for: Signing of US-Iran deal not on Trump’s public schedule
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSigning%252Bof%252BUS-Iran%252Bdeal%252Bnot%252Bon%252BTrump%25E2%2580%2599s%252Bpublic%252Bschedule%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgniGK_HudEGIjBERLec8RVrQRqyn6uR98VUJ6xscGhS3NCVbUx-OQ2yzq0qFbP-D0ui9LsVVZ_mwC0yBmpjbmRyUloBQw
+Processing trending topic: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
+Searching Google for: Israel accuses Hezbollah of ceasefire violation, issues displacement orders
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Baccuses%252BHezbollah%252Bof%252Bceasefire%252Bviolation%252C%252Bissues%252Bdisplacement%252Borders%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN6PkGOWiutEGIjBJmB9VhnMMRU5PHEZ_PctBnvgpQhQTS6qort-eDZ1owTZG7PMF_UCQVxR05W0e2GMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: signing-of-us-iran-deal-not-on-trumps-public-sched_20260614_0817.html
-✓ Created comprehensive article: signing-of-us-iran-deal-not-on-trumps-public-sched_20260614_0817.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: israel-accuses-hezbollah-of-ceasefire-violation-is_20260614_1132.html
+✓ Created comprehensive article: israel-accuses-hezbollah-of-ceasefire-violation-is_20260614_1132.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-us-iran-deal-to-be-signed-on-sunday-as-_20260614_0356.html
-Cleaned old post to keep top 30 limit: resident-doctors-cancel-strike-after-new-offer-fro_20260614_0356.html
-Cleaned old post to keep top 30 limit: in-pictures-trooping-the-colour-marks-kings-offici_20260613_1358.html
+Cleaned old post to keep top 30 limit: london-council-seizes-social-housing-flat-rented-b_20260614_0356.html
+Cleaned old post to keep top 30 limit: uk-intercepts-russian-shadow-fleet-oil-tanker-in-e_20260614_0817.html
+Cleaned old post to keep top 30 limit: jubilation-as-scotland-fans-celebrate-win_20260614_0817.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Jubilation as Scotland fans celebrate win
+   • Royal Marines board Russian shadow fleet oil tanker in English Channel
      Sources: bbc.com, cnn.com, reuters.com
-   • UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
+   • Watch: MOD video shows Russian shadow fleet tanker interception
      Sources: bbc.com, cnn.com, reuters.com
-   • Signing of US-Iran deal not on Trump’s public schedule
+   • Israel accuses Hezbollah of ceasefire violation, issues displacement orders
      Sources: bbc.com, cnn.com, reuters.com
