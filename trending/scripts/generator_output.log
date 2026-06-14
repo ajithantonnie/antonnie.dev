@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing
-  Added: Resident doctors cancel strike after new offer from government
+  Added: Jubilation as Scotland fans celebrate win
+  Added: UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-14
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Signing of US-Iran deal not on Trump’s public schedule
+Added expanded search topic: Signing of US-Iran deal not on Trump’s public schedule
+Saved 6 topics for 2026-06-14
 Returning 3 unique trending topics:
-  1. Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing (from BBC News)
-  2. Resident doctors cancel strike after new offer from government (from BBC News)
-  3. London council seizes social housing flat rented by Sierra Leone first lady (from The Guardian)
+  1. Jubilation as Scotland fans celebrate win (from BBC News)
+  2. UK intercepts Russian shadow fleet oil tanker in English Channel, PM says (from BBC News)
+  3. Signing of US-Iran deal not on Trump’s public schedule (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing
-Searching Google for: Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS-Iran%252Bdeal%252Bto%252Bbe%252Bsigned%252Bon%252BSunday%252Bas%252BTehran%252Bcasts%252Bdoubt%252Bon%252Btiming%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQyGPfMuNEGIjCthqWye9GfigDsIUgp22pErKdTFpAzi35EYUlqJu3M8xOrVna8qCoMv1NbFHL20G4yBmpjbmRyUloBQw
+Processing trending topic: Jubilation as Scotland fans celebrate win
+Searching Google for: Jubilation as Scotland fans celebrate win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJubilation%252Bas%252BScotland%252Bfans%252Bcelebrate%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgniGKLHudEGIjAczcgEbpGM8UDdSqWVweS2rhFepSjuaX-8S8m7HSWguHU8g5BXB1ylvFW82mzTLq4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-iran-deal-to-be-signed-on-sunday-as-_20260614_0356.html
-✓ Created comprehensive article: trump-says-us-iran-deal-to-be-signed-on-sunday-as-_20260614_0356.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: jubilation-as-scotland-fans-celebrate-win_20260614_0817.html
+✓ Created comprehensive article: jubilation-as-scotland-fans-celebrate-win_20260614_0817.html
 
-Processing trending topic: Resident doctors cancel strike after new offer from government
-Searching Google for: Resident doctors cancel strike after new offer from government
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DResident%252Bdoctors%252Bcancel%252Bstrike%252Bafter%252Bnew%252Boffer%252Bfrom%252Bgovernment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQyGP7MuNEGIjBRlnrIRaDEtcG4npdBxug0RpBrsBfgJCrXSbLy8dkaHkuvvGk8l_HmCqHCKHQ2HHMyBmpjbmRyUloBQw
+Processing trending topic: UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
+Searching Google for: UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bintercepts%252BRussian%252Bshadow%252Bfleet%252Boil%252Btanker%252Bin%252BEnglish%252BChannel%252C%252BPM%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgniGKnHudEGIjBccoZkY4cQWML6OUtnhB2qqVHVW0iIyCfvQWlEXNPg4bjyUp3jUbVH_i7YQBb-3AwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: resident-doctors-cancel-strike-after-new-offer-fro_20260614_0356.html
-✓ Created comprehensive article: resident-doctors-cancel-strike-after-new-offer-fro_20260614_0356.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: uk-intercepts-russian-shadow-fleet-oil-tanker-in-e_20260614_0817.html
+✓ Created comprehensive article: uk-intercepts-russian-shadow-fleet-oil-tanker-in-e_20260614_0817.html
 
-Processing trending topic: London council seizes social housing flat rented by Sierra Leone first lady
-Searching Google for: London council seizes social housing flat rented by Sierra Leone first lady
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLondon%252Bcouncil%252Bseizes%252Bsocial%252Bhousing%252Bflat%252Brented%252Bby%252BSierra%252BLeone%252Bfirst%252Blady%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQyGITNuNEGIjA8BAX6iOehg8yfzqTYMCj5tiR6xv8_1p-Rng0C9a_H66N1QChm77er36KJQhOIH1kyBmpjbmRyUloBQw
+Processing trending topic: Signing of US-Iran deal not on Trump’s public schedule
+Searching Google for: Signing of US-Iran deal not on Trump’s public schedule
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSigning%252Bof%252BUS-Iran%252Bdeal%252Bnot%252Bon%252BTrump%25E2%2580%2599s%252Bpublic%252Bschedule%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUKgniGK_HudEGIjBERLec8RVrQRqyn6uR98VUJ6xscGhS3NCVbUx-OQ2yzq0qFbP-D0ui9LsVVZ_mwC0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: london-council-seizes-social-housing-flat-rented-b_20260614_0356.html
-✓ Created comprehensive article: london-council-seizes-social-housing-flat-rented-b_20260614_0356.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: signing-of-us-iran-deal-not-on-trumps-public-sched_20260614_0817.html
+✓ Created comprehensive article: signing-of-us-iran-deal-not-on-trumps-public-sched_20260614_0817.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: thousands-mourn-thai-princess-as-body-taken-to-lie_20260613_2307.html
-Cleaned old post to keep top 30 limit: thousands-rally-in-rome-italy-for-rival-pro-and-an_20260613_2307.html
-Cleaned old post to keep top 30 limit: qatar-net-late-against-switzerland-to-secure-histo_20260613_2307.html
+Cleaned old post to keep top 30 limit: trump-says-us-iran-deal-to-be-signed-on-sunday-as-_20260614_0356.html
+Cleaned old post to keep top 30 limit: resident-doctors-cancel-strike-after-new-offer-fro_20260614_0356.html
+Cleaned old post to keep top 30 limit: in-pictures-trooping-the-colour-marks-kings-offici_20260613_1358.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing
+   • Jubilation as Scotland fans celebrate win
      Sources: bbc.com, cnn.com, reuters.com
-   • Resident doctors cancel strike after new offer from government
+   • UK intercepts Russian shadow fleet oil tanker in English Channel, PM says
      Sources: bbc.com, cnn.com, reuters.com
-   • London council seizes social housing flat rented by Sierra Leone first lady
+   • Signing of US-Iran deal not on Trump’s public schedule
      Sources: bbc.com, cnn.com, reuters.com
