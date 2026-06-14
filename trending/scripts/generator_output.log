@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Royal Marines board Russian shadow fleet oil tanker in English Channel
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: London council seizes social housing flat rented by Sierra Leone first lady
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK forces seize suspected Russian oil tanker accused of funding Ukraine war
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump makes endorsement in key Georgia Republican US Senate run-off
-Added expanded search topic: UK forces seize suspected Russian oil tanker accused of funding Ukraine war
-Added expanded search topic: Trump makes endorsement in key Georgia Republican US Senate run-off
-Saved 15 topics for 2026-06-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands protest as Trump, other world leaders set to meet for G7 summit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reports from Israeli attack site in southern Beirut
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Knicks fans set bus alight during celebrations
+Added expanded search topic: Thousands protest as Trump, other world leaders set to meet for G7 summit
+Added expanded search topic: Al Jazeera reports from Israeli attack site in southern Beirut
+Added expanded search topic: Knicks fans set bus alight during celebrations
+Saved 18 topics for 2026-06-14
 Returning 3 unique trending topics:
-  1. Tech firms had 'enough time' says Nandy, ahead of social media announcement (from BBC News)
-  2. UK forces seize suspected Russian oil tanker accused of funding Ukraine war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump makes endorsement in key Georgia Republican US Senate run-off (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Thousands protest as Trump, other world leaders set to meet for G7 summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Al Jazeera reports from Israeli attack site in southern Beirut (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Knicks fans set bus alight during celebrations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Tech firms had 'enough time' says Nandy, ahead of social media announcement
-Searching Google for: Tech firms had 'enough time' says Nandy, ahead of social media announcement
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTech%252Bfirms%252Bhad%252B%2527enough%252Btime%2527%252Bsays%252BNandy%252C%252Bahead%252Bof%252Bsocial%252Bmedia%252Bannouncement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfSGMqdu9EGIjCOn7b7ID-MtOfdNu-VhiM8aWgE5hEm0GVLZxuabYBZ4ob3JvzAskw0AayUs6LP_5YyBmpjbmRyUloBQw
+Processing trending topic: Thousands protest as Trump, other world leaders set to meet for G7 summit
+Searching Google for: Thousands protest as Trump, other world leaders set to meet for G7 summit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bprotest%252Bas%252BTrump%252C%252Bother%252Bworld%252Bleaders%252Bset%252Bto%252Bmeet%252Bfor%252BG7%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgRGMvGu9EGIjAOnj4YLBEoQAJRTME_EoJDB5Xeyx-UcIf3Pb0csm3obUvy7Oqn4-Fp1GhRr24CMMEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: tech-firms-had-enough-time-says-nandy-ahead-of-soc_20260614_1554.html
-✓ Created comprehensive article: tech-firms-had-enough-time-says-nandy-ahead-of-soc_20260614_1554.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: thousands-protest-as-trump-other-world-leaders-set_20260614_1722.html
+✓ Created comprehensive article: thousands-protest-as-trump-other-world-leaders-set_20260614_1722.html
 
-Processing trending topic: UK forces seize suspected Russian oil tanker accused of funding Ukraine war
-Searching Google for: UK forces seize suspected Russian oil tanker accused of funding Ukraine war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bforces%252Bseize%252Bsuspected%252BRussian%252Boil%252Btanker%252Baccused%252Bof%252Bfunding%252BUkraine%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfSGNGdu9EGIjBXg2n6r8e42NfApXVUzm3OkchvvEYGQOaLqqoXAjmquAPeCZVabolYHYsbgyxwHsEyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera reports from Israeli attack site in southern Beirut
+Searching Google for: Al Jazeera reports from Israeli attack site in southern Beirut
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breports%252Bfrom%252BIsraeli%252Battack%252Bsite%252Bin%252Bsouthern%252BBeirut%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgRGNLGu9EGIjAgzpNnky9zPV_aeg54unKTq2KF4FOXxh5m-er8UDjjWKpNy-BYz5jhzBsRelBLpZYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-forces-seize-suspected-russian-oil-tanker-accus_20260614_1555.html
-✓ Created comprehensive article: uk-forces-seize-suspected-russian-oil-tanker-accus_20260614_1555.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: al-jazeera-reports-from-israeli-attack-site-in-sou_20260614_1722.html
+✓ Created comprehensive article: al-jazeera-reports-from-israeli-attack-site-in-sou_20260614_1722.html
 
-Processing trending topic: Trump makes endorsement in key Georgia Republican US Senate run-off
-Searching Google for: Trump makes endorsement in key Georgia Republican US Senate run-off
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bmakes%252Bendorsement%252Bin%252Bkey%252BGeorgia%252BRepublican%252BUS%252BSenate%252Brun-off%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfSGNedu9EGIjDRNEb7jpq25SDXKCvEF7_ljVfwzsOt8fAVB_BdfvjJFw9G7xIrCG8L17kowo-hxXgyBmpjbmRyUloBQw
+Processing trending topic: Knicks fans set bus alight during celebrations
+Searching Google for: Knicks fans set bus alight during celebrations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKnicks%252Bfans%252Bset%252Bbus%252Balight%252Bduring%252Bcelebrations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgRGNjGu9EGIjDY0X8cyNMV5iA4c-yr2qpZYCbOBoxHOCUhnTcvkYOnxckvcrJrCkknORJG_-BPFzwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-makes-endorsement-in-key-georgia-republican-_20260614_1555.html
-✓ Created comprehensive article: trump-makes-endorsement-in-key-georgia-republican-_20260614_1555.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: knicks-fans-set-bus-alight-during-celebrations_20260614_1722.html
+✓ Created comprehensive article: knicks-fans-set-bus-alight-during-celebrations_20260614_1722.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: sexual-violence-in-israeli-prisons-what-history-te_20260614_1402.html
-Cleaned old post to keep top 30 limit: watch-mod-video-shows-russian-shadow-fleet-tanker-_20260614_1132.html
-Cleaned old post to keep top 30 limit: anticipation-pushback-in-iran-as-mediators-work-to_20260614_1402.html
+Cleaned old post to keep top 30 limit: uk-forces-seize-suspected-russian-oil-tanker-accus_20260614_1555.html
+Cleaned old post to keep top 30 limit: tech-firms-had-enough-time-says-nandy-ahead-of-soc_20260614_1554.html
+Cleaned old post to keep top 30 limit: donald-trumps-name-removed-from-kennedy-center_20260614_1402.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tech firms had 'enough time' says Nandy, ahead of social media announcement
+   • Thousands protest as Trump, other world leaders set to meet for G7 summit
      Sources: bbc.com, cnn.com, reuters.com
-   • UK forces seize suspected Russian oil tanker accused of funding Ukraine war
+   • Al Jazeera reports from Israeli attack site in southern Beirut
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump makes endorsement in key Georgia Republican US Senate run-off
+   • Knicks fans set bus alight during celebrations
      Sources: bbc.com, cnn.com, reuters.com
