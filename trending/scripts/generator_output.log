@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia was behind arson attacks targeting PM, BBC reveals
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South African jazz pianist Abdullah Ibrahim dies aged 91
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: California Governor Newsom says US Department of Justice investigating him
-Added expanded search topic: California Governor Newsom says US Department of Justice investigating him
-Saved 12 topics for 2026-06-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Journalist hit by Israeli strike while reporting in Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt draw 1–1 with Belgium at World Cup group game
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran vs New Zealand live: World Cup 2026
+Added expanded search topic: Journalist hit by Israeli strike while reporting in Lebanon
+Added expanded search topic: Egypt draw 1–1 with Belgium at World Cup group game
+Added expanded search topic: Iran vs New Zealand live: World Cup 2026
+Saved 15 topics for 2026-06-15
 Returning 3 unique trending topics:
-  1. Under-16s to be banned from TikTok, YouTube and other social media by next spring, Starmer says (from BBC News)
-  2. South African jazz pianist Abdullah Ibrahim dies aged 91 (from The Guardian)
-  3. California Governor Newsom says US Department of Justice investigating him (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Journalist hit by Israeli strike while reporting in Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Egypt draw 1–1 with Belgium at World Cup group game (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran vs New Zealand live: World Cup 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Under-16s to be banned from TikTok, YouTube and other social media by next spring, Starmer says
-Searching Google for: Under-16s to be banned from TikTok, YouTube and other social media by next spring, Starmer says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnder-16s%252Bto%252Bbe%252Bbanned%252Bfrom%252BTikTok%252C%252BYouTube%252Band%252Bother%252Bsocial%252Bmedia%252Bby%252Bnext%252Bspring%252C%252BStarmer%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFDGKfAwdEGIjDxdBsYVRp6A3iemnfWl2kPrOHOSZ0Hfb3Sh9cE7VqG15vjCfndiUju72DEFbls1DoyBmpjbmRyUloBQw
+Processing trending topic: Journalist hit by Israeli strike while reporting in Lebanon
+Searching Google for: Journalist hit by Israeli strike while reporting in Lebanon
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: under-16s-to-be-banned-from-tiktok-youtube-and-oth_20260615_2027.html
-✓ Created comprehensive article: under-16s-to-be-banned-from-tiktok-youtube-and-oth_20260615_2027.html
+Successfully created file: journalist-hit-by-israeli-strike-while-reporting-i_20260615_2305.html
+✓ Created comprehensive article: journalist-hit-by-israeli-strike-while-reporting-i_20260615_2305.html
 
-Processing trending topic: South African jazz pianist Abdullah Ibrahim dies aged 91
-Searching Google for: South African jazz pianist Abdullah Ibrahim dies aged 91
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrican%252Bjazz%252Bpianist%252BAbdullah%252BIbrahim%252Bdies%252Baged%252B91%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFDGK7AwdEGIjAomyTu_F4NNIAXE4xBIMci12iVgMZEyUWLV1Yr3cLcWyGWB78KnXdZ5SIs-aSzt-IyBmpjbmRyUloBQw
+Processing trending topic: Egypt draw 1–1 with Belgium at World Cup group game
+Searching Google for: Egypt draw 1–1 with Belgium at World Cup group game
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%252Bdraw%252B1%25E2%2580%25931%252Bwith%252BBelgium%252Bat%252BWorld%252BCup%252Bgroup%252Bgame%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfhGNaKwtEGIjAelvRUmBv93GIsM3QuY4er49gpoJpPvzSnfKpDsNHjdn0Pmfz-FTMYLjxX3If1Nq4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-african-jazz-pianist-abdullah-ibrahim-dies-a_20260615_2027.html
-✓ Created comprehensive article: south-african-jazz-pianist-abdullah-ibrahim-dies-a_20260615_2027.html
+Successfully created file: egypt-draw-11-with-belgium-at-world-cup-group-game_20260615_2306.html
+✓ Created comprehensive article: egypt-draw-11-with-belgium-at-world-cup-group-game_20260615_2306.html
 
-Processing trending topic: California Governor Newsom says US Department of Justice investigating him
-Searching Google for: California Governor Newsom says US Department of Justice investigating him
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCalifornia%252BGovernor%252BNewsom%252Bsays%252BUS%252BDepartment%252Bof%252BJustice%252Binvestigating%252Bhim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JFDGLTAwdEGIjCpYzoul7XnL2KmpG1eEDlPaqhRBpWDdATsm4dugJTyb8XTicK8H3n1EOEOIz5OKtUyBmpjbmRyUloBQw
+Processing trending topic: Iran vs New Zealand live: World Cup 2026
+Searching Google for: Iran vs New Zealand live: World Cup 2026
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bvs%252BNew%252BZealand%252Blive%253A%252BWorld%252BCup%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfhGNyKwtEGIjDREOCSkYSggjsv8H956KXi23QAkekkqEh0YxiDRoufnQxYDWiQRzGvu3yrkzu-tJwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: california-governor-newsom-says-us-department-of-j_20260615_2027.html
-✓ Created comprehensive article: california-governor-newsom-says-us-department-of-j_20260615_2027.html
+Successfully created file: iran-vs-new-zealand-live-world-cup-2026_20260615_2306.html
+✓ Created comprehensive article: iran-vs-new-zealand-live-world-cup-2026_20260615_2306.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: signing-of-us-iran-deal-not-on-trumps-public-sched_20260614_0817.html
-Cleaned old post to keep top 30 limit: russia-was-behind-arson-attacks-targeting-pm-bbc-r_20260615_1620.html
-Cleaned old post to keep top 30 limit: resident-doctors-cancel-strike-after-new-offer-fro_20260613_2118.html
+Cleaned old post to keep top 30 limit: social-media-ban-bold-and-blunt-but-no-silver-bull_20260615_1620.html
+Cleaned old post to keep top 30 limit: under-16s-to-be-banned-from-tiktok-youtube-and-oth_20260615_2027.html
+Cleaned old post to keep top 30 limit: california-governor-newsom-says-us-department-of-j_20260615_2027.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Under-16s to be banned from TikTok, YouTube and other social media by next spring, Starmer says
+   • Journalist hit by Israeli strike while reporting in Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • South African jazz pianist Abdullah Ibrahim dies aged 91
+   • Egypt draw 1–1 with Belgium at World Cup group game
      Sources: bbc.com, cnn.com, reuters.com
-   • California Governor Newsom says US Department of Justice investigating him
+   • Iran vs New Zealand live: World Cup 2026
      Sources: bbc.com, cnn.com, reuters.com
