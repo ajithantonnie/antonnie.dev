@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Russian warship fires warning shots near UK-registered yacht in Channel
   Added: UK forces face operational cuts without more cash, defence chief warns
-  Added: Three reasons ships are not going through the Strait of Hormuz yet
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South African jazz pianist Abdullah Ibrahim dies aged 91
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza’s football fans follow World Cup matches despite hardships
-Added expanded search topic: Gaza’s football fans follow World Cup matches despite hardships
-Saved 9 topics for 2026-06-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US judge upholds conviction of ex-judge who helped man evade federal agents
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What has Iran won and lost from this war?
+Added expanded search topic: US judge upholds conviction of ex-judge who helped man evade federal agents
+Added expanded search topic: What has Iran won and lost from this war?
+Saved 12 topics for 2026-06-16
 Returning 3 unique trending topics:
-  1. UK forces face operational cuts without more cash, defence chief warns (from BBC News)
-  2. Three reasons ships are not going through the Strait of Hormuz yet (from BBC News)
-  3. Gaza’s football fans follow World Cup matches despite hardships (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russian warship fires warning shots near UK-registered yacht in Channel (from BBC News)
+  2. US judge upholds conviction of ex-judge who helped man evade federal agents (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What has Iran won and lost from this war? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK forces face operational cuts without more cash, defence chief warns
-Searching Google for: UK forces face operational cuts without more cash, defence chief warns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bforces%252Bface%252Boperational%252Bcuts%252Bwithout%252Bmore%252Bcash%252C%252Bdefence%252Bchief%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhmGPrOxdEGIjBLZ-w5K8juNb4YaTEUF3ayccyPbMhZkNVp89DKUEmx-_Vl3U2HeKgXioevIfHo6z8yBmpjbmRyUloBQw
+Processing trending topic: Russian warship fires warning shots near UK-registered yacht in Channel
+Searching Google for: Russian warship fires warning shots near UK-registered yacht in Channel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bwarship%252Bfires%252Bwarning%252Bshots%252Bnear%252BUK-registered%252Byacht%252Bin%252BChannel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl83GPfKxtEGIjA_iyOKqvDTOELQKRCQJiS1KDNL347eEl9JfbuUHqBjAIr-39onLtL0ZTky8XG7GLQyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-forces-face-operational-cuts-without-more-cash-_20260616_1510.html
-✓ Created comprehensive article: uk-forces-face-operational-cuts-without-more-cash-_20260616_1510.html
+Successfully created file: russian-warship-fires-warning-shots-near-uk-regist_20260616_1935.html
+✓ Created comprehensive article: russian-warship-fires-warning-shots-near-uk-regist_20260616_1935.html
 
-Processing trending topic: Three reasons ships are not going through the Strait of Hormuz yet
-Searching Google for: Three reasons ships are not going through the Strait of Hormuz yet
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Breasons%252Bships%252Bare%252Bnot%252Bgoing%252Bthrough%252Bthe%252BStrait%252Bof%252BHormuz%252Byet%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhmGIHPxdEGIjAwpWxpVlYZ9prsFsckUAGBS3L2vQO6d8Um5WT6S4NLOs2gtp3KXFDcht_ijA10cEcyBmpjbmRyUloBQw
+Processing trending topic: US judge upholds conviction of ex-judge who helped man evade federal agents
+Searching Google for: US judge upholds conviction of ex-judge who helped man evade federal agents
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjudge%252Bupholds%252Bconviction%252Bof%252Bex-judge%252Bwho%252Bhelped%252Bman%252Bevade%252Bfederal%252Bagents%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl83GP3KxtEGIjAT1YHgo_qrnm7-AMrZimlo-4kUJzvEJipvGqpUhJoY0ekAznt8Fq1LpsUQPHG_0gcyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-reasons-ships-are-not-going-through-the-stra_20260616_1511.html
-✓ Created comprehensive article: three-reasons-ships-are-not-going-through-the-stra_20260616_1511.html
+Successfully created file: us-judge-upholds-conviction-of-ex-judge-who-helped_20260616_1935.html
+✓ Created comprehensive article: us-judge-upholds-conviction-of-ex-judge-who-helped_20260616_1935.html
 
-Processing trending topic: Gaza’s football fans follow World Cup matches despite hardships
-Searching Google for: Gaza’s football fans follow World Cup matches despite hardships
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%25E2%2580%2599s%252Bfootball%252Bfans%252Bfollow%252BWorld%252BCup%252Bmatches%252Bdespite%252Bhardships%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MhmGIfPxdEGIjAtUZdg0-Wmv-L4jEbuEgdp4HFSig6VmOjU-4dX71TX-BlM0PpItkxjPmtRuvdvVqAyBmpjbmRyUloBQw
+Processing trending topic: What has Iran won and lost from this war?
+Searching Google for: What has Iran won and lost from this war?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bhas%252BIran%252Bwon%252Band%252Blost%252Bfrom%252Bthis%252Bwar%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl83GITLxtEGIjAdvtr68HH4BME0ot4u_LCbteKUfPfrg4tQFEnwtG_O5vKmg8inC89FmMcEGx-qQ1MyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gazas-football-fans-follow-world-cup-matches-despi_20260616_1511.html
-✓ Created comprehensive article: gazas-football-fans-follow-world-cup-matches-despi_20260616_1511.html
+Successfully created file: what-has-iran-won-and-lost-from-this-war_20260616_1935.html
+✓ Created comprehensive article: what-has-iran-won-and-lost-from-this-war_20260616_1935.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tehran-targets-us-gulf-bases-after-american-forces_20260611_0346.html
-Cleaned old post to keep top 30 limit: thames-water-closer-to-nationalisation-after-gover_20260616_0928.html
-Cleaned old post to keep top 30 limit: iran-fans-react-to-teams-first-world-cup-match-ami_20260616_0928.html
+Cleaned old post to keep top 30 limit: weight-loss-drug-wegovy-to-be-available-in-pill-fo_20260611_1657.html
+Cleaned old post to keep top 30 limit: uk-forces-face-operational-cuts-without-more-cash-_20260616_1510.html
+Cleaned old post to keep top 30 limit: gazas-football-fans-follow-world-cup-matches-despi_20260616_1511.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK forces face operational cuts without more cash, defence chief warns
+   • Russian warship fires warning shots near UK-registered yacht in Channel
      Sources: bbc.com, cnn.com, reuters.com
-   • Three reasons ships are not going through the Strait of Hormuz yet
+   • US judge upholds conviction of ex-judge who helped man evade federal agents
      Sources: bbc.com, cnn.com, reuters.com
-   • Gaza’s football fans follow World Cup matches despite hardships
+   • What has Iran won and lost from this war?
      Sources: bbc.com, cnn.com, reuters.com
