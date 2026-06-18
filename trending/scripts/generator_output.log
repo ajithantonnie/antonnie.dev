@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
@@ -8,58 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: South African men sentenced in ‘world’s largest’ rhino-horn trafficking case
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-06-18
+  Added: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can the Global South have a say in global affairs?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World Cup 2026: South Africa grab 1-1 draw with Czechia with late penalty
+Added expanded search topic: Can the Global South have a say in global affairs?
+Added expanded search topic: World Cup 2026: South Africa grab 1-1 draw with Czechia with late penalty
+Saved 15 topics for 2026-06-18
 Returning 3 unique trending topics:
-  1. Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure (from BBC News)
-  2. Bowen: US-Iran deal raises inescapable question of what the war was for (from BBC News)
-  3. South African men sentenced in ‘world’s largest’ rhino-horn trafficking case (from The Guardian)
+  1. CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda (from The Guardian)
+  2. Can the Global South have a say in global affairs? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. World Cup 2026: South Africa grab 1-1 draw with Czechia with late penalty (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
-Searching Google for: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Barrested%252Bon%252Bsuspicion%252Bof%252Battempted%252Bmurder%252Bafter%252Bboy%252Binjured%252Bin%252Bcrocodile%252Benclosure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mHjGOq60NEGIjBUlw3grcAdT5nCyUPpFMWIzlUMP2xhs1Bfb-WlRMb9VoYnCPc2hSXCBJU-o_p9NxkyBmpjbmRyUloBQw
+Processing trending topic: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
+Searching Google for: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCDC%252Bto%252Btap%252B%2524107m%252Bin%252Bemergency%252Bfunding%252Bfor%252BEbola%252Bresponse%252Bin%252BDRC%252Band%252BUganda%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuS_aGK-P0dEGIjD7BLvgfWuBMjrxmrCVPAARQW4OhmlUKDcJMB-fVi5nMTI-m0WlWp8sbXCT1tcDjngyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-arrested-on-suspicion-of-attempted-murder-afte_20260618_1631.html
-✓ Created comprehensive article: man-arrested-on-suspicion-of-attempted-murder-afte_20260618_1631.html
+Successfully created file: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260618_1932.html
+✓ Created comprehensive article: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260618_1932.html
 
-Processing trending topic: Bowen: US-Iran deal raises inescapable question of what the war was for
-Searching Google for: Bowen: US-Iran deal raises inescapable question of what the war was for
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBowen%253A%252BUS-Iran%252Bdeal%252Braises%252Binescapable%252Bquestion%252Bof%252Bwhat%252Bthe%252Bwar%252Bwas%252Bfor%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mHjGPG60NEGIjC1as4go43qqFyoBVd05LM-lvkCiNEAT6v2zTfPf-G5A9VaoR2Z7JWAWAk3ezgy2mwyBmpjbmRyUloBQw
+Processing trending topic: Can the Global South have a say in global affairs?
+Searching Google for: Can the Global South have a say in global affairs?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Bthe%252BGlobal%252BSouth%252Bhave%252Ba%252Bsay%252Bin%252Bglobal%252Baffairs%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuS_aGLaP0dEGIjDGpL20Jrf6cIovAuwWt6BLNs9rm1zCBibHi-Uk46fsP4aNA1Pg8VDpbdQBgaKs_h0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bowen-us-iran-deal-raises-inescapable-question-of-_20260618_1631.html
-✓ Created comprehensive article: bowen-us-iran-deal-raises-inescapable-question-of-_20260618_1631.html
+Successfully created file: can-the-global-south-have-a-say-in-global-affairs_20260618_1932.html
+✓ Created comprehensive article: can-the-global-south-have-a-say-in-global-affairs_20260618_1932.html
 
-Processing trending topic: South African men sentenced in ‘world’s largest’ rhino-horn trafficking case
-Searching Google for: South African men sentenced in ‘world’s largest’ rhino-horn trafficking case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrican%252Bmen%252Bsentenced%252Bin%252B%25E2%2580%2598world%25E2%2580%2599s%252Blargest%25E2%2580%2599%252Brhino-horn%252Btrafficking%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mHjGPe60NEGIjC4dBpbN9HFJupChLCIfM8q_9cy25fBmMqr1cjuPw1vFPIdFNm8E1SwiyV09SiLLrsyBmpjbmRyUloBQw
+Processing trending topic: World Cup 2026: South Africa grab 1-1 draw with Czechia with late penalty
+Searching Google for: World Cup 2026: South Africa grab 1-1 draw with Czechia with late penalty
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252B2026%253A%252BSouth%252BAfrica%252Bgrab%252B1-1%252Bdraw%252Bwith%252BCzechia%252Bwith%252Blate%252Bpenalty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuS_aGLyP0dEGIjAFn-EQAQhc-DOJQ6yqloWkPi9oc-4Nj0xHNOo9KkW73xwG4Qan8PU6_vE3A5I1S9YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: south-african-men-sentenced-in-worlds-largest-rhin_20260618_1631.html
-✓ Created comprehensive article: south-african-men-sentenced-in-worlds-largest-rhin_20260618_1631.html
+Successfully created file: world-cup-2026-south-africa-grab-1-1-draw-with-cze_20260618_1932.html
+✓ Created comprehensive article: world-cup-2026-south-africa-grab-1-1-draw-with-cze_20260618_1932.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-to-know-about-this-weeks-us-primary-elections_20260616_0928.html
-Cleaned old post to keep top 30 limit: ukraine-hits-moscow-refinery-as-zelenskyy-seeks-tr_20260618_0848.html
-Cleaned old post to keep top 30 limit: moscow-hit-by-largest-ukrainian-attack-since-start_20260618_1227.html
+Cleaned old post to keep top 30 limit: torture-isnt-new-to-palestinians-how-israel-learne_20260612_1012.html
+Cleaned old post to keep top 30 limit: south-african-men-sentenced-in-worlds-largest-rhin_20260618_1631.html
+Cleaned old post to keep top 30 limit: bowen-us-iran-deal-raises-inescapable-question-of-_20260618_1631.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
+   • CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
      Sources: bbc.com, cnn.com, reuters.com
-   • Bowen: US-Iran deal raises inescapable question of what the war was for
+   • Can the Global South have a say in global affairs?
      Sources: bbc.com, cnn.com, reuters.com
-   • South African men sentenced in ‘world’s largest’ rhino-horn trafficking case
+   • World Cup 2026: South Africa grab 1-1 draw with Czechia with late penalty
      Sources: bbc.com, cnn.com, reuters.com
