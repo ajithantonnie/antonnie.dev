@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Trump and Iran's president sign initial deal aiming to end war
   Added: What's in the US-Iran agreement?
+  Added: This was an England we haven't seen for years - and it was fun
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his abi...
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-18
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is the G7 hearing the Global South?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end war
+Added expanded search topic: Is the G7 hearing the Global South?
+Added expanded search topic: Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end war
+Saved 6 topics for 2026-06-18
 Returning 3 unique trending topics:
-  1. Trump and Iran's president sign initial deal aiming to end war (from BBC News)
-  2. What's in the US-Iran agreement? (from BBC News)
-  3. Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his abi... (from The Guardian)
+  1. This was an England we haven't seen for years - and it was fun (from BBC News)
+  2. Is the G7 hearing the Global South? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump and Iran's president sign initial deal aiming to end war
-Searching Google for: Trump and Iran's president sign initial deal aiming to end war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Band%252BIran%2527s%252Bpresident%252Bsign%252Binitial%252Bdeal%252Baiming%252Bto%252Bend%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHTT1GIvUzdEGIjAz6a9tzJX5Q9uAVgfAa9lIWXHujKrWn-FJvCmhW1rk8kAmxXvrXuAt6viJiSwSQEMyBmpjbmRyUloBQw
+Processing trending topic: This was an England we haven't seen for years - and it was fun
+Searching Google for: This was an England we haven't seen for years - and it was fun
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThis%252Bwas%252Ban%252BEngland%252Bwe%252Bhaven%2527t%252Bseen%252Bfor%252Byears%252B-%252Band%252Bit%252Bwas%252Bfun%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqzcyGNPhztEGIjBzmqECYeH5u7QKAd07pTRrlHr0cMqjzK4noSl-nsguY_M4aA_4eLbOtPY9Pu0JWdsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-and-irans-president-sign-initial-deal-aiming_20260618_0346.html
-✓ Created comprehensive article: trump-and-irans-president-sign-initial-deal-aiming_20260618_0346.html
+Successfully created file: this-was-an-england-we-havent-seen-for-years-and-i_20260618_0848.html
+✓ Created comprehensive article: this-was-an-england-we-havent-seen-for-years-and-i_20260618_0848.html
 
-Processing trending topic: What's in the US-Iran agreement?
-Searching Google for: What's in the US-Iran agreement?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%2527s%252Bin%252Bthe%252BUS-Iran%252Bagreement%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHTT1GJLUzdEGIjDRrM5FHxHyvRHKa6jLVWbnW3Di6ZmQ-KYtfChkZ2qbd7f8x8RKF2F0_e1Rd8E4_pwyBmpjbmRyUloBQw
+Processing trending topic: Is the G7 hearing the Global South?
+Searching Google for: Is the G7 hearing the Global South?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bthe%252BG7%252Bhearing%252Bthe%252BGlobal%252BSouth%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqzcyGNvhztEGIjDZlqrt_rRQojkLgri9QIRAZGNClEuq-7Y7Uu27wwzLjYdqdpRAGhU8RvGailvYCM0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-in-the-us-iran-agreement_20260618_0346.html
-✓ Created comprehensive article: whats-in-the-us-iran-agreement_20260618_0346.html
+Successfully created file: is-the-g7-hearing-the-global-south_20260618_0848.html
+✓ Created comprehensive article: is-the-g7-hearing-the-global-south_20260618_0848.html
 
-Processing trending topic: Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his abi...
-Searching Google for: Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his abi...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeven-year-old%252BAbdiqadir%252Bwas%252Bhit%252Bin%252Ba%252BUS%252Bairstrike.%252BWithout%252Ba%252B%2524750%252Boperation%252C%252Bhe%252Bmay%252Blose%252Bhis%252Babi...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHTT1GJnUzdEGIjDfTIl78BoQ4OezUZ294OsbrPob3fAMkW50pl61adUDf3lPKpoYdCuXSrRmEt3NcS0yBmpjbmRyUloBQw
+Processing trending topic: Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end war
+Searching Google for: Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bhits%252BMoscow%252Brefinery%252Bas%252BZelenskyy%252Bseeks%252BTrump%252Bsupport%252Bto%252Bend%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqzcyGOHhztEGIjDKQgvjNMhF3qtMkw8LY5kgYflz13dM2IgAaEtufHWn2aLigrJ3My01HjYOORixA5QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: seven-year-old-abdiqadir-was-hit-in-a-us-airstrike_20260618_0346.html
-✓ Created comprehensive article: seven-year-old-abdiqadir-was-hit-in-a-us-airstrike_20260618_0346.html
+Successfully created file: ukraine-hits-moscow-refinery-as-zelenskyy-seeks-tr_20260618_0848.html
+✓ Created comprehensive article: ukraine-hits-moscow-refinery-as-zelenskyy-seeks-tr_20260618_0848.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: kane-double-fires-england-past-croatia-in-world-cu_20260617_2327.html
-Cleaned old post to keep top 30 limit: iran-confirms-that-mou-has-been-signed-electronica_20260617_2327.html
-Cleaned old post to keep top 30 limit: bbc-announces-550-job-cuts-as-first-part-of-500m-s_20260617_2327.html
+Cleaned old post to keep top 30 limit: seven-year-old-abdiqadir-was-hit-in-a-us-airstrike_20260618_0346.html
+Cleaned old post to keep top 30 limit: trump-and-irans-president-sign-initial-deal-aiming_20260618_0346.html
+Cleaned old post to keep top 30 limit: luigi-mangione-to-use-psychiatric-defence-in-healt_20260617_1817.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump and Iran's president sign initial deal aiming to end war
+   • This was an England we haven't seen for years - and it was fun
      Sources: bbc.com, cnn.com, reuters.com
-   • What's in the US-Iran agreement?
+   • Is the G7 hearing the Global South?
      Sources: bbc.com, cnn.com, reuters.com
-   • Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his abi...
+   • Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end war
      Sources: bbc.com, cnn.com, reuters.com
