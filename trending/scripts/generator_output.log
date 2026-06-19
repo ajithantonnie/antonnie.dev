@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
-  Added: US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
+  Added: Chris Mason: Emphatic win leaves Starmer with big decision on leadership
+  Added: Burnham says 'this is a final chance to change' in his victory speech
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-19
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A world on trial: How lawyers documenting Israeli abuse pay a price
+Added expanded search topic: A world on trial: How lawyers documenting Israeli abuse pay a price
+Saved 6 topics for 2026-06-19
 Returning 3 unique trending topics:
-  1. Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure (from BBC News)
-  2. US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation' (from BBC News)
-  3. CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda (from The Guardian)
+  1. Chris Mason: Emphatic win leaves Starmer with big decision on leadership (from BBC News)
+  2. Burnham says 'this is a final chance to change' in his victory speech (from BBC News)
+  3. A world on trial: How lawyers documenting Israeli abuse pay a price (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
-Searching Google for: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Barrested%252Bon%252Bsuspicion%252Bof%252Battempted%252Bmurder%252Bafter%252Bboy%252Binjured%252Bin%252Bcrocodile%252Benclosure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuZb0GN6a0tEGIjD4NpSvqZ502FwB3DIv1z8esXlqX0ZbP1SXc1023P0gfg5LSQkmFyZmwOTyqkRixDUyBmpjbmRyUloBQw
+Processing trending topic: Chris Mason: Emphatic win leaves Starmer with big decision on leadership
+Searching Google for: Chris Mason: Emphatic win leaves Starmer with big decision on leadership
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BEmphatic%252Bwin%252Bleaves%252BStarmer%252Bwith%252Bbig%252Bdecision%252Bon%252Bleadership%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA84yGKy_09EGIjAXehb9pG0EhQycqWVVohRBi9TerrC-Xx3OUgLyhlL64GfiVYt7aiEICUk7uecpESYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-arrested-on-suspicion-of-attempted-murder-afte_20260619_0029.html
-✓ Created comprehensive article: man-arrested-on-suspicion-of-attempted-murder-afte_20260619_0029.html
+Successfully created file: chris-mason-emphatic-win-leaves-starmer-with-big-d_20260619_0620.html
+✓ Created comprehensive article: chris-mason-emphatic-win-leaves-starmer-with-big-d_20260619_0620.html
 
-Processing trending topic: US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
-Searching Google for: US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blifts%252Bnaval%252Bblockade%252Bas%252BIran%2527s%252Bsupreme%252Bleader%252Bsays%252BTrump%252Bmade%252Bdeal%252B%2527out%252Bof%252Bdesperation%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuZb0GOWa0tEGIjCjFyfb2Zm9-_Jisvn4yOy4AN4Xflr1pQobKF3adHKCsvfrMqxZcvx--tgipYCbpb8yBmpjbmRyUloBQw
+Processing trending topic: Burnham says 'this is a final chance to change' in his victory speech
+Searching Google for: Burnham says 'this is a final chance to change' in his victory speech
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bsays%252B%2527this%252Bis%252Ba%252Bfinal%252Bchance%252Bto%252Bchange%2527%252Bin%252Bhis%252Bvictory%252Bspeech%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA84yGLO_09EGIjBF-pOiOgxqaKSvyQjLATnN0o4ZAZ_JfWZUZlKusVNhzqzD0CRXqmpZUFvN8jDnGLQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260619_0029.html
-✓ Created comprehensive article: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260619_0029.html
+Successfully created file: burnham-says-this-is-a-final-chance-to-change-in-h_20260619_0620.html
+✓ Created comprehensive article: burnham-says-this-is-a-final-chance-to-change-in-h_20260619_0620.html
 
-Processing trending topic: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
-Searching Google for: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCDC%252Bto%252Btap%252B%2524107m%252Bin%252Bemergency%252Bfunding%252Bfor%252BEbola%252Bresponse%252Bin%252BDRC%252Band%252BUganda%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuZb0GOua0tEGIjDuf9EfIoyd8A0I77zw6ztZ82r5DpUho4zVdwzPhwcYTMg634HugGu1pY4OcuwUpW8yBmpjbmRyUloBQw
+Processing trending topic: A world on trial: How lawyers documenting Israeli abuse pay a price
+Searching Google for: A world on trial: How lawyers documenting Israeli abuse pay a price
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bworld%252Bon%252Btrial%253A%252BHow%252Blawyers%252Bdocumenting%252BIsraeli%252Babuse%252Bpay%252Ba%252Bprice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA84yGLm_09EGIjAtcrXUJam-HRcP20rwoUt4Q9ddZDXLlOeHFSFUn9hIZnupooAbVquqsZjQQ5ABJQwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260619_0029.html
-✓ Created comprehensive article: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260619_0029.html
+Successfully created file: a-world-on-trial-how-lawyers-documenting-israeli-a_20260619_0620.html
+✓ Created comprehensive article: a-world-on-trial-how-lawyers-documenting-israeli-a_20260619_0620.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-launches-new-strikes-on-iran-after-trump-vows-t_20260610_2203.html
-Cleaned old post to keep top 30 limit: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260618_2209.html
-Cleaned old post to keep top 30 limit: are-prices-really-dropping-in-the-us-as-trump-clai_20260618_2209.html
+Cleaned old post to keep top 30 limit: world-cup-2026-key-takeaways-from-the-opening-grou_20260618_1227.html
+Cleaned old post to keep top 30 limit: world-cup-2026-south-africa-grab-1-1-draw-with-cze_20260618_1932.html
+Cleaned old post to keep top 30 limit: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260619_0029.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
+   • Chris Mason: Emphatic win leaves Starmer with big decision on leadership
      Sources: bbc.com, cnn.com, reuters.com
-   • US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
+   • Burnham says 'this is a final chance to change' in his victory speech
      Sources: bbc.com, cnn.com, reuters.com
-   • CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
+   • A world on trial: How lawyers documenting Israeli abuse pay a price
      Sources: bbc.com, cnn.com, reuters.com
