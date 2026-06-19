@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
@@ -9,63 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Are prices really dropping in the US, as Trump claims?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cuba’s Communist Party approves opening economy in unprecedented move
-Added expanded search topic: Are prices really dropping in the US, as Trump claims?
-Added expanded search topic: Cuba’s Communist Party approves opening economy in unprecedented move
-Saved 18 topics for 2026-06-18
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-06-19
 Returning 3 unique trending topics:
-  1. US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation' (from BBC News)
-  2. Are prices really dropping in the US, as Trump claims? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Cuba’s Communist Party approves opening economy in unprecedented move (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure (from BBC News)
+  2. US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation' (from BBC News)
+  3. CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda (from The Guardian)
+
+Processing trending topic: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
+Searching Google for: Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Barrested%252Bon%252Bsuspicion%252Bof%252Battempted%252Bmurder%252Bafter%252Bboy%252Binjured%252Bin%252Bcrocodile%252Benclosure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuZb0GN6a0tEGIjD4NpSvqZ502FwB3DIv1z8esXlqX0ZbP1SXc1023P0gfg5LSQkmFyZmwOTyqkRixDUyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: man-arrested-on-suspicion-of-attempted-murder-afte_20260619_0029.html
+✓ Created comprehensive article: man-arrested-on-suspicion-of-attempted-murder-afte_20260619_0029.html
 
 Processing trending topic: US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
 Searching Google for: US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blifts%252Bnaval%252Bblockade%252Bas%252BIran%2527s%252Bsupreme%252Bleader%252Bsays%252BTrump%252Bmade%252Bdeal%252B%2527out%252Bof%252Bdesperation%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JlhGI7Z0dEGIjACBCsmmNu5ahIrbl8wIrlponv1TC5gsVv6Dbj1WJo1mX4RUv6RWH-tobYJqihv8_UyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blifts%252Bnaval%252Bblockade%252Bas%252BIran%2527s%252Bsupreme%252Bleader%252Bsays%252BTrump%252Bmade%252Bdeal%252B%2527out%252Bof%252Bdesperation%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuZb0GOWa0tEGIjCjFyfb2Zm9-_Jisvn4yOy4AN4Xflr1pQobKF3adHKCsvfrMqxZcvx--tgipYCbpb8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260618_2209.html
-✓ Created comprehensive article: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260618_2209.html
+Successfully created file: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260619_0029.html
+✓ Created comprehensive article: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260619_0029.html
 
-Processing trending topic: Are prices really dropping in the US, as Trump claims?
-Searching Google for: Are prices really dropping in the US, as Trump claims?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAre%252Bprices%252Breally%252Bdropping%252Bin%252Bthe%252BUS%252C%252Bas%252BTrump%252Bclaims%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JlhGJXZ0dEGIjC37mHdn2sE2GgC7zGAg-oSVumBOK1xb4NsiYjZL1bf2EpM5mp0oCFLIaum0wBT-9kyBmpjbmRyUloBQw
+Processing trending topic: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
+Searching Google for: CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCDC%252Bto%252Btap%252B%2524107m%252Bin%252Bemergency%252Bfunding%252Bfor%252BEbola%252Bresponse%252Bin%252BDRC%252Band%252BUganda%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuZb0GOua0tEGIjDuf9EfIoyd8A0I77zw6ztZ82r5DpUho4zVdwzPhwcYTMg634HugGu1pY4OcuwUpW8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: are-prices-really-dropping-in-the-us-as-trump-clai_20260618_2209.html
-✓ Created comprehensive article: are-prices-really-dropping-in-the-us-as-trump-clai_20260618_2209.html
-
-Processing trending topic: Cuba’s Communist Party approves opening economy in unprecedented move
-Searching Google for: Cuba’s Communist Party approves opening economy in unprecedented move
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuba%25E2%2580%2599s%252BCommunist%252BParty%252Bapproves%252Bopening%252Beconomy%252Bin%252Bunprecedented%252Bmove%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JlhGJvZ0dEGIjAIKwbq2Imt8pk94hre-P_OllXjmN0X2tZ91C4PG_rcNcp_G4D1-jkzlwxatUnmj8AyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cubas-communist-party-approves-opening-economy-in-_20260618_2209.html
-✓ Created comprehensive article: cubas-communist-party-approves-opening-economy-in-_20260618_2209.html
+Successfully created file: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260619_0029.html
+✓ Created comprehensive article: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260619_0029.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-deal-to-end-iran-war-is-close-after-cal_20260612_0022.html
-Cleaned old post to keep top 30 limit: cdc-to-tap-107m-in-emergency-funding-for-ebola-res_20260618_1932.html
-Cleaned old post to keep top 30 limit: can-the-global-south-have-a-say-in-global-affairs_20260618_1932.html
+Cleaned old post to keep top 30 limit: us-launches-new-strikes-on-iran-after-trump-vows-t_20260610_2203.html
+Cleaned old post to keep top 30 limit: us-lifts-naval-blockade-as-irans-supreme-leader-sa_20260618_2209.html
+Cleaned old post to keep top 30 limit: are-prices-really-dropping-in-the-us-as-trump-clai_20260618_2209.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Man arrested on suspicion of attempted murder after boy injured in crocodile enclosure
+     Sources: bbc.com, cnn.com, reuters.com
    • US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation'
      Sources: bbc.com, cnn.com, reuters.com
-   • Are prices really dropping in the US, as Trump claims?
-     Sources: bbc.com, cnn.com, reuters.com
-   • Cuba’s Communist Party approves opening economy in unprecedented move
+   • CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda
      Sources: bbc.com, cnn.com, reuters.com
