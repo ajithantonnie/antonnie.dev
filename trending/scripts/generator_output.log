@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Video shows scene of Bedford train crash as passenger describes aftermath
+  Added: 'People flew from their seats': Passengers describe how crash unfolded
   Added: What we know so far about Bedford train crash
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazil vs Haiti LIVE: World Cup 2026
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The UK: No. 10 Revolving Door
-Added expanded search topic: Brazil vs Haiti LIVE: World Cup 2026
-Added expanded search topic: The UK: No. 10 Revolving Door
-Saved 21 topics for 2026-06-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: USA beat Australia 2–0 to book knockout spot at World Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
+Added expanded search topic: USA beat Australia 2–0 to book knockout spot at World Cup
+Added expanded search topic: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
+Saved 24 topics for 2026-06-19
 Returning 3 unique trending topics:
-  1. What we know so far about Bedford train crash (from BBC News)
-  2. Brazil vs Haiti LIVE: World Cup 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. The UK: No. 10 Revolving Door (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'People flew from their seats': Passengers describe how crash unfolded (from BBC News)
+  2. USA beat Australia 2–0 to book knockout spot at World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What we know so far about Bedford train crash
-Searching Google for: What we know so far about Bedford train crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bso%252Bfar%252Babout%252BBedford%252Btrain%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-TGOvg1tEGIjBeCOP_Kgeg5lfUEpjdUXOnOGIoksGC9j6jYCXkc3psxdIlaM9F4b4uUKR9Lyd33JwyBmpjbmRyUloBQw
+Processing trending topic: 'People flew from their seats': Passengers describe how crash unfolded
+Searching Google for: 'People flew from their seats': Passengers describe how crash unfolded
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-so-far-about-bedford-train-crash_20260619_2111.html
-✓ Created comprehensive article: what-we-know-so-far-about-bedford-train-crash_20260619_2111.html
+Successfully created file: people-flew-from-their-seats-passengers-describe-h_20260619_2257.html
+✓ Created comprehensive article: people-flew-from-their-seats-passengers-describe-h_20260619_2257.html
 
-Processing trending topic: Brazil vs Haiti LIVE: World Cup 2026
-Searching Google for: Brazil vs Haiti LIVE: World Cup 2026
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazil%252Bvs%252BHaiti%252BLIVE%253A%252BWorld%252BCup%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-TGPHg1tEGIjA0whQIkCCbAI8b9eL8Mp_iqsU1NN3BY6Twh8tY8kO6oMV7iAGBD5vDfc2BzOUatkgyBmpjbmRyUloBQw
+Processing trending topic: USA beat Australia 2–0 to book knockout spot at World Cup
+Searching Google for: USA beat Australia 2–0 to book knockout spot at World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUSA%252Bbeat%252BAustralia%252B2%25E2%2580%25930%252Bto%252Bbook%252Bknockout%252Bspot%252Bat%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGImT19EGIjBYJFZ4LIs54r-x_UplRyNkG3QyJoDor3866dmNHDq4lATXIg2zg-Ydm6ZXvbOY0-AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: brazil-vs-haiti-live-world-cup-2026_20260619_2111.html
-✓ Created comprehensive article: brazil-vs-haiti-live-world-cup-2026_20260619_2111.html
+Successfully created file: usa-beat-australia-20-to-book-knockout-spot-at-wor_20260619_2258.html
+✓ Created comprehensive article: usa-beat-australia-20-to-book-knockout-spot-at-wor_20260619_2258.html
 
-Processing trending topic: The UK: No. 10 Revolving Door
-Searching Google for: The UK: No. 10 Revolving Door
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BUK%253A%252BNo.%252B10%252BRevolving%252BDoor%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZt-TGPfg1tEGIjDbMsVz5dqyQBFg6B4Auaj7Wv1e3o6OwAr3SVcMLRLC4LnpMemmIxwEExMqxpwvh_YyBmpjbmRyUloBQw
+Processing trending topic: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
+Searching Google for: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%25E2%2580%2599s%252BYamal%252Bsays%252B%25E2%2580%2598very%252Bearly%252C%252Bunnecessary%25E2%2580%2599%252Bto%252Bplay%252Bfull%252BWorld%252BCup%252Bmatch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGJCT19EGIjCu1d_IVF1JZcVDGfLiHNRt5ZU6GdxsFUpi7_Soymt3lMStIWSRLsp6n2cvoPEWOZ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-uk-no-10-revolving-door_20260619_2111.html
-✓ Created comprehensive article: the-uk-no-10-revolving-door_20260619_2111.html
+Successfully created file: spains-yamal-says-very-early-unnecessary-to-play-f_20260619_2258.html
+✓ Created comprehensive article: spains-yamal-says-very-early-unnecessary-to-play-f_20260619_2258.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: video-shows-scene-of-bedford-train-crash-as-passen_20260619_1952.html
-Cleaned old post to keep top 30 limit: italys-top-diplomat-nixes-us-trip-after-meloni-say_20260619_1758.html
-Cleaned old post to keep top 30 limit: henry-zeffman-what-does-keir-starmer-do-next-after_20260619_1514.html
+Cleaned old post to keep top 30 limit: what-we-know-so-far-about-bedford-train-crash_20260619_2111.html
+Cleaned old post to keep top 30 limit: the-uk-no-10-revolving-door_20260619_2111.html
+Cleaned old post to keep top 30 limit: brazil-vs-haiti-live-world-cup-2026_20260619_2111.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What we know so far about Bedford train crash
+   • 'People flew from their seats': Passengers describe how crash unfolded
      Sources: bbc.com, cnn.com, reuters.com
-   • Brazil vs Haiti LIVE: World Cup 2026
+   • USA beat Australia 2–0 to book knockout spot at World Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • The UK: No. 10 Revolving Door
+   • Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
      Sources: bbc.com, cnn.com, reuters.com
