@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: What we know so far about the collision and emergency response
+  Added: Nine people in critical condition among 100 injured in fatal Bedford train crash
   Added: Talk of Starmer staying on to fight is fading - fast
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nine left in critical condition after UK train collision that killed driver
-Added expanded search topic: Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments
-Added expanded search topic: Nine left in critical condition after UK train collision that killed driver
-Saved 18 topics for 2026-06-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bolivia declares state of emergency amid blockade crisis
+Added expanded search topic: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
+Added expanded search topic: Bolivia declares state of emergency amid blockade crisis
+Saved 21 topics for 2026-06-20
 Returning 3 unique trending topics:
-  1. What we know so far about the collision and emergency response (from BBC News)
-  2. Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Nine left in critical condition after UK train collision that killed driver (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Nine people in critical condition among 100 injured in fatal Bedford train crash (from BBC News)
+  2. Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Bolivia declares state of emergency amid blockade crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What we know so far about the collision and emergency response
-Searching Google for: What we know so far about the collision and emergency response
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bso%252Bfar%252Babout%252Bthe%252Bcollision%252Band%252Bemergency%252Bresponse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUar9wGInt2tEGIjAIUej2d9inaxJ2y5tLD3SK3GMmGJPMm0fFm8V85m9aTfP4Elm4L6_TtF63XwUV2dcyBmpjbmRyUloBQw
+Processing trending topic: Nine people in critical condition among 100 injured in fatal Bedford train crash
+Searching Google for: Nine people in critical condition among 100 injured in fatal Bedford train crash
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-so-far-about-the-collision-and-emerge_20260620_1549.html
-✓ Created comprehensive article: what-we-know-so-far-about-the-collision-and-emerge_20260620_1549.html
+Successfully created file: nine-people-in-critical-condition-among-100-injure_20260620_1728.html
+✓ Created comprehensive article: nine-people-in-critical-condition-among-100-injure_20260620_1728.html
 
-Processing trending topic: Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments
-Searching Google for: Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwarns%252Bof%252B%25E2%2580%2598reciprocal%252Baction%25E2%2580%2599%252Bif%252BUS%252Bdoesn%25E2%2580%2599t%252Bhonour%252BMOU%252Bcommitments%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUar9wGJHt2tEGIjAv9gpzMWAVwFpty6pj38ayPwL4z0hAVZ9al6aGkPGHfXKMvOQQw9FEYbbPIwHj1dUyBmpjbmRyUloBQw
+Processing trending topic: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
+Searching Google for: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bshuts%252BStrait%252Bof%252BHormuz%252Bas%252BIsrael%252Btests%252BMOU%252Bwith%252BLebanon%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0ma_BGLyb29EGIjDMVe3Uy0pbsGoMcMRGfqEHBs1MdtfxYqzPVqVYK1OQ5kxDqiI0GRtipwrY2EdrBasyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-warns-of-reciprocal-action-if-us-doesnt-honou_20260620_1549.html
-✓ Created comprehensive article: iran-warns-of-reciprocal-action-if-us-doesnt-honou_20260620_1549.html
+Successfully created file: iran-shuts-strait-of-hormuz-as-israel-tests-mou-wi_20260620_1728.html
+✓ Created comprehensive article: iran-shuts-strait-of-hormuz-as-israel-tests-mou-wi_20260620_1728.html
 
-Processing trending topic: Nine left in critical condition after UK train collision that killed driver
-Searching Google for: Nine left in critical condition after UK train collision that killed driver
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNine%252Bleft%252Bin%252Bcritical%252Bcondition%252Bafter%252BUK%252Btrain%252Bcollision%252Bthat%252Bkilled%252Bdriver%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUar9wGJft2tEGIjDCpt4Eonr-NcwL4jSFRpNZm8Q0OaoPwFL5E2pnGezkWULozpwieB7PZwFDElUf1egyBmpjbmRyUloBQw
+Processing trending topic: Bolivia declares state of emergency amid blockade crisis
+Searching Google for: Bolivia declares state of emergency amid blockade crisis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBolivia%252Bdeclares%252Bstate%252Bof%252Bemergency%252Bamid%252Bblockade%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0ma_BGMKb29EGIjC5EE6Nlq-f8psf5RMvjzBid5EOehATQJQegEOTjLDS4m-OCn_GNNPqQwMbDtNgbRkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nine-left-in-critical-condition-after-uk-train-col_20260620_1549.html
-✓ Created comprehensive article: nine-left-in-critical-condition-after-uk-train-col_20260620_1549.html
+Successfully created file: bolivia-declares-state-of-emergency-amid-blockade-_20260620_1728.html
+✓ Created comprehensive article: bolivia-declares-state-of-emergency-amid-blockade-_20260620_1728.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pm-under-pressure-from-labour-mps-and-ministers-to_20260620_0515.html
-Cleaned old post to keep top 30 limit: talk-of-starmer-staying-on-to-fight-is-fading-fast_20260620_1401.html
-Cleaned old post to keep top 30 limit: morocco-fans-dream-of-world-cup-glory-after-scotla_20260620_1119.html
+Cleaned old post to keep top 30 limit: when-will-social-media-ban-start-and-what-platform_20260615_1056.html
+Cleaned old post to keep top 30 limit: what-we-know-so-far-about-the-collision-and-how-it_20260620_1401.html
+Cleaned old post to keep top 30 limit: iran-warns-of-reciprocal-action-if-us-doesnt-honou_20260620_1549.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What we know so far about the collision and emergency response
+   • Nine people in critical condition among 100 injured in fatal Bedford train crash
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments
+   • Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • Nine left in critical condition after UK train collision that killed driver
+   • Bolivia declares state of emergency amid blockade crisis
      Sources: bbc.com, cnn.com, reuters.com
