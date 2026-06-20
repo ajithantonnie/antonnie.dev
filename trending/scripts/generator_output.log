@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Driver dies and 33 people seriously injured as Bedford train crash declared major incident
+  Added: 'People flew from their seats': Passengers describe how collision unfolded
   Added: PM under pressure from Labour MPs and ministers to set timetable for exit
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Global framework for reparatory justice adopted at landmark conference in Ghana
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Inferno rips through Dominican Republic beach resort
-Added expanded search topic: Inferno rips through Dominican Republic beach resort
-Saved 6 topics for 2026-06-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Family, including two daughters, killed in Israeli strikes on Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights
+Added expanded search topic: Family, including two daughters, killed in Israeli strikes on Gaza
+Added expanded search topic: World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights
+Saved 9 topics for 2026-06-20
 Returning 3 unique trending topics:
-  1. Driver dies and 33 people seriously injured as Bedford train crash declared major incident (from BBC News)
-  2. PM under pressure from Labour MPs and ministers to set timetable for exit (from BBC News)
-  3. Inferno rips through Dominican Republic beach resort (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'People flew from their seats': Passengers describe how collision unfolded (from BBC News)
+  2. Family, including two daughters, killed in Israeli strikes on Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Driver dies and 33 people seriously injured as Bedford train crash declared major incident
-Searching Google for: Driver dies and 33 people seriously injured as Bedford train crash declared major incident
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: 'People flew from their seats': Passengers describe how collision unfolded
+Searching Google for: 'People flew from their seats': Passengers describe how collision unfolded
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527People%252Bflew%252Bfrom%252Btheir%252Bseats%2527%253A%252BPassengers%252Bdescribe%252Bhow%252Bcollision%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhJAGIqr2dEGIjCWKmBamJ9pFjTXYWAWjIBpokwX2wKVgnbhS_s-MWM-qbl9yx8wivJW5EicsZTff28yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: driver-dies-and-33-people-seriously-injured-as-bed_20260620_0514.html
-✓ Created comprehensive article: driver-dies-and-33-people-seriously-injured-as-bed_20260620_0514.html
+Successfully created file: people-flew-from-their-seats-passengers-describe-h_20260620_0855.html
+✓ Created comprehensive article: people-flew-from-their-seats-passengers-describe-h_20260620_0855.html
 
-Processing trending topic: PM under pressure from Labour MPs and ministers to set timetable for exit
-Searching Google for: PM under pressure from Labour MPs and ministers to set timetable for exit
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Bunder%252Bpressure%252Bfrom%252BLabour%252BMPs%252Band%252Bministers%252Bto%252Bset%252Btimetable%252Bfor%252Bexit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxhGPrD2NEGIjB2KIdyGBDgo_qTHCUqjsv1iBtxyO3Dv7eQ1G2OnjNzfZHq4CPdSrFDICLOU6RgaVQyBmpjbmRyUloBQw
+Processing trending topic: Family, including two daughters, killed in Israeli strikes on Gaza
+Searching Google for: Family, including two daughters, killed in Israeli strikes on Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamily%252C%252Bincluding%252Btwo%252Bdaughters%252C%252Bkilled%252Bin%252BIsraeli%252Bstrikes%252Bon%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhJAGJGr2dEGIjCkksaof9mF4Un27HihVVVAW4mds_Ho4Od6Jse4QvFonhDRFbXMmTsRLooDVjM7JjcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pm-under-pressure-from-labour-mps-and-ministers-to_20260620_0515.html
-✓ Created comprehensive article: pm-under-pressure-from-labour-mps-and-ministers-to_20260620_0515.html
+Successfully created file: family-including-two-daughters-killed-in-israeli-s_20260620_0855.html
+✓ Created comprehensive article: family-including-two-daughters-killed-in-israeli-s_20260620_0855.html
 
-Processing trending topic: Inferno rips through Dominican Republic beach resort
-Searching Google for: Inferno rips through Dominican Republic beach resort
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInferno%252Brips%252Bthrough%252BDominican%252BRepublic%252Bbeach%252Bresort%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0voxhGIDE2NEGIjCuOwpBcAQkr2I1_wc1q4rQv6l0YM3z-dtUQ93-raPn_38MoDIgASsVIpgZJ_19n0MyBmpjbmRyUloBQw
+Processing trending topic: World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights
+Searching Google for: World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252B2026%253A%252BNetherlands%252Bvs%252BSweden%252Bprediction%252C%252Bschedules%252C%252Bkey%252Bhighlights%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhJAGJer2dEGIjC3jlsxcX1dCLMdAZHMHXZOVUaKWdYB3UnvPGHZXM46-qQz90xiPxDeae_TuxUIB8EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: inferno-rips-through-dominican-republic-beach-reso_20260620_0515.html
-✓ Created comprehensive article: inferno-rips-through-dominican-republic-beach-reso_20260620_0515.html
+Successfully created file: world-cup-2026-netherlands-vs-sweden-prediction-sc_20260620_0855.html
+✓ Created comprehensive article: world-cup-2026-netherlands-vs-sweden-prediction-sc_20260620_0855.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: people-flew-from-their-seats-passengers-describe-h_20260620_0011.html
-Cleaned old post to keep top 30 limit: yemens-teachers-pushed-to-the-brink-as-salaries-co_20260408_0719.html
-Cleaned old post to keep top 30 limit: driver-dead-and-33-people-seriously-injured-as-bed_20260620_0011.html
+Cleaned old post to keep top 30 limit: global-framework-for-reparatory-justice-adopted-at_20260620_0011.html
+Cleaned old post to keep top 30 limit: inferno-rips-through-dominican-republic-beach-reso_20260620_0515.html
+Cleaned old post to keep top 30 limit: driver-dies-and-33-people-seriously-injured-as-bed_20260620_0514.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Driver dies and 33 people seriously injured as Bedford train crash declared major incident
+   • 'People flew from their seats': Passengers describe how collision unfolded
      Sources: bbc.com, cnn.com, reuters.com
-   • PM under pressure from Labour MPs and ministers to set timetable for exit
+   • Family, including two daughters, killed in Israeli strikes on Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Inferno rips through Dominican Republic beach resort
+   • World Cup 2026: Netherlands vs Sweden prediction, schedules, key highlights
      Sources: bbc.com, cnn.com, reuters.com
