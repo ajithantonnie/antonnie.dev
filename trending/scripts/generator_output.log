@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Nine people in critical condition among 100 injured in fatal Bedford train crash
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Global framework for reparatory justice adopted at landmark Ghana conference
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bolivia declares state of emergency amid blockade crisis
-Added expanded search topic: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
-Added expanded search topic: Bolivia declares state of emergency amid blockade crisis
-Saved 21 topics for 2026-06-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Are UK Prime Minister Keir Starmer’s political days numbered?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran talks to kick off Sunday in Switzerland, says Pakistan
+Added expanded search topic: Are UK Prime Minister Keir Starmer’s political days numbered?
+Added expanded search topic: Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza
+Added expanded search topic: US-Iran talks to kick off Sunday in Switzerland, says Pakistan
+Saved 24 topics for 2026-06-20
 Returning 3 unique trending topics:
-  1. Nine people in critical condition among 100 injured in fatal Bedford train crash (from BBC News)
-  2. Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Bolivia declares state of emergency amid blockade crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Are UK Prime Minister Keir Starmer’s political days numbered? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US-Iran talks to kick off Sunday in Switzerland, says Pakistan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Nine people in critical condition among 100 injured in fatal Bedford train crash
-Searching Google for: Nine people in critical condition among 100 injured in fatal Bedford train crash
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Are UK Prime Minister Keir Starmer’s political days numbered?
+Searching Google for: Are UK Prime Minister Keir Starmer’s political days numbered?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAre%252BUK%252BPrime%252BMinister%252BKeir%252BStarmer%25E2%2580%2599s%252Bpolitical%252Bdays%252Bnumbered%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DziGO_S29EGIjBad8gsmroEJxFX4BDtdZZheInksjUQS2gklnhB7eL-4AW4vNz10X3qcQXXT4iQ1IEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nine-people-in-critical-condition-among-100-injure_20260620_1728.html
-✓ Created comprehensive article: nine-people-in-critical-condition-among-100-injure_20260620_1728.html
+Successfully created file: are-uk-prime-minister-keir-starmers-political-days_20260620_1926.html
+✓ Created comprehensive article: are-uk-prime-minister-keir-starmers-political-days_20260620_1926.html
 
-Processing trending topic: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
-Searching Google for: Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bshuts%252BStrait%252Bof%252BHormuz%252Bas%252BIsrael%252Btests%252BMOU%252Bwith%252BLebanon%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0ma_BGLyb29EGIjDMVe3Uy0pbsGoMcMRGfqEHBs1MdtfxYqzPVqVYK1OQ5kxDqiI0GRtipwrY2EdrBasyBmpjbmRyUloBQw
+Processing trending topic: Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza
+Searching Google for: Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Bcameraman%252BAhmed%252BWishah%252Bkilled%252Bin%252BIsraeli%252Battack%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DziGPXS29EGIjAqFKt29diWzsIy_7rOVVdULdg0a7Ryu5ll1_EQhhPsa2EMyp9kOHFt8lJyFm7q9DEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-shuts-strait-of-hormuz-as-israel-tests-mou-wi_20260620_1728.html
-✓ Created comprehensive article: iran-shuts-strait-of-hormuz-as-israel-tests-mou-wi_20260620_1728.html
+Successfully created file: al-jazeera-cameraman-ahmed-wishah-killed-in-israel_20260620_1926.html
+✓ Created comprehensive article: al-jazeera-cameraman-ahmed-wishah-killed-in-israel_20260620_1926.html
 
-Processing trending topic: Bolivia declares state of emergency amid blockade crisis
-Searching Google for: Bolivia declares state of emergency amid blockade crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBolivia%252Bdeclares%252Bstate%252Bof%252Bemergency%252Bamid%252Bblockade%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0ma_BGMKb29EGIjC5EE6Nlq-f8psf5RMvjzBid5EOehATQJQegEOTjLDS4m-OCn_GNNPqQwMbDtNgbRkyBmpjbmRyUloBQw
+Processing trending topic: US-Iran talks to kick off Sunday in Switzerland, says Pakistan
+Searching Google for: US-Iran talks to kick off Sunday in Switzerland, says Pakistan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Btalks%252Bto%252Bkick%252Boff%252BSunday%252Bin%252BSwitzerland%252C%252Bsays%252BPakistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DziGPzS29EGIjAe3-guoU1nZrM3lfPyDeUx72An8YmCyMnlzQKcT5AIGwuPnBUhCFY3TY9AdRfuPo8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bolivia-declares-state-of-emergency-amid-blockade-_20260620_1728.html
-✓ Created comprehensive article: bolivia-declares-state-of-emergency-amid-blockade-_20260620_1728.html
+Successfully created file: us-iran-talks-to-kick-off-sunday-in-switzerland-sa_20260620_1926.html
+✓ Created comprehensive article: us-iran-talks-to-kick-off-sunday-in-switzerland-sa_20260620_1926.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: when-will-social-media-ban-start-and-what-platform_20260615_1056.html
-Cleaned old post to keep top 30 limit: what-we-know-so-far-about-the-collision-and-how-it_20260620_1401.html
-Cleaned old post to keep top 30 limit: iran-warns-of-reciprocal-action-if-us-doesnt-honou_20260620_1549.html
+Cleaned old post to keep top 30 limit: nine-people-in-critical-condition-among-100-injure_20260620_1728.html
+Cleaned old post to keep top 30 limit: iran-shuts-strait-of-hormuz-as-israel-tests-mou-wi_20260620_1728.html
+Cleaned old post to keep top 30 limit: bolivia-declares-state-of-emergency-amid-blockade-_20260620_1728.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Nine people in critical condition among 100 injured in fatal Bedford train crash
+   • Are UK Prime Minister Keir Starmer’s political days numbered?
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes
+   • Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Bolivia declares state of emergency amid blockade crisis
+   • US-Iran talks to kick off Sunday in Switzerland, says Pakistan
      Sources: bbc.com, cnn.com, reuters.com
