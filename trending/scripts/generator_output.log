@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Driver dead and 33 people seriously injured as Bedford train crash declared major incident
   Added: 'People flew from their seats': Passengers describe how crash unfolded
-  Added: What we know so far about Bedford train crash
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Global framework for reparatory justice adopted at landmark conference in Ghana
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: USA beat Australia 2–0 to book knockout spot at World Cup
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
-Added expanded search topic: USA beat Australia 2–0 to book knockout spot at World Cup
-Added expanded search topic: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
-Saved 24 topics for 2026-06-19
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-06-20
 Returning 3 unique trending topics:
-  1. 'People flew from their seats': Passengers describe how crash unfolded (from BBC News)
-  2. USA beat Australia 2–0 to book knockout spot at World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Driver dead and 33 people seriously injured as Bedford train crash declared major incident (from BBC News)
+  2. 'People flew from their seats': Passengers describe how crash unfolded (from BBC News)
+  3. Global framework for reparatory justice adopted at landmark conference in Ghana (from The Guardian)
+
+Processing trending topic: Driver dead and 33 people seriously injured as Bedford train crash declared major incident
+Searching Google for: Driver dead and 33 people seriously injured as Bedford train crash declared major incident
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDriver%252Bdead%252Band%252B33%252Bpeople%252Bseriously%252Binjured%252Bas%252BBedford%252Btrain%252Bcrash%252Bdeclared%252Bmajor%252Bincident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCUGLG119EGIjAqvR_p-MMfbHz5yJCVX3ZUnVWnJJgBgsO0NHOhJ0X-ccq8JMFg7AjEy-MM8J81twoyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: driver-dead-and-33-people-seriously-injured-as-bed_20260620_0011.html
+✓ Created comprehensive article: driver-dead-and-33-people-seriously-injured-as-bed_20260620_0011.html
 
 Processing trending topic: 'People flew from their seats': Passengers describe how crash unfolded
 Searching Google for: 'People flew from their seats': Passengers describe how crash unfolded
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527People%252Bflew%252Bfrom%252Btheir%252Bseats%2527%253A%252BPassengers%252Bdescribe%252Bhow%252Bcrash%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCUGLi119EGIjCSNLjRaBFQ_AYMsZ3Nk0LisgRyK9BtKUQkkPGBSTr8NlvV7mKX2APTE8GpZ5ryOXAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: people-flew-from-their-seats-passengers-describe-h_20260619_2257.html
-✓ Created comprehensive article: people-flew-from-their-seats-passengers-describe-h_20260619_2257.html
+Successfully created file: people-flew-from-their-seats-passengers-describe-h_20260620_0011.html
+✓ Created comprehensive article: people-flew-from-their-seats-passengers-describe-h_20260620_0011.html
 
-Processing trending topic: USA beat Australia 2–0 to book knockout spot at World Cup
-Searching Google for: USA beat Australia 2–0 to book knockout spot at World Cup
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUSA%252Bbeat%252BAustralia%252B2%25E2%2580%25930%252Bto%252Bbook%252Bknockout%252Bspot%252Bat%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGImT19EGIjBYJFZ4LIs54r-x_UplRyNkG3QyJoDor3866dmNHDq4lATXIg2zg-Ydm6ZXvbOY0-AyBmpjbmRyUloBQw
+Processing trending topic: Global framework for reparatory justice adopted at landmark conference in Ghana
+Searching Google for: Global framework for reparatory justice adopted at landmark conference in Ghana
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGlobal%252Bframework%252Bfor%252Breparatory%252Bjustice%252Badopted%252Bat%252Blandmark%252Bconference%252Bin%252BGhana%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCUGL6119EGIjCyJOoBDuFufynXBdFWrW6Ter-Cv29_tq8Qwmw-pY1xphOT4XB8Co42fi1y3cqCsScyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: usa-beat-australia-20-to-book-knockout-spot-at-wor_20260619_2258.html
-✓ Created comprehensive article: usa-beat-australia-20-to-book-knockout-spot-at-wor_20260619_2258.html
-
-Processing trending topic: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
-Searching Google for: Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%25E2%2580%2599s%252BYamal%252Bsays%252B%25E2%2580%2598very%252Bearly%252C%252Bunnecessary%25E2%2580%2599%252Bto%252Bplay%252Bfull%252BWorld%252BCup%252Bmatch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OhBGJCT19EGIjCu1d_IVF1JZcVDGfLiHNRt5ZU6GdxsFUpi7_Soymt3lMStIWSRLsp6n2cvoPEWOZ8yBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spains-yamal-says-very-early-unnecessary-to-play-f_20260619_2258.html
-✓ Created comprehensive article: spains-yamal-says-very-early-unnecessary-to-play-f_20260619_2258.html
+Successfully created file: global-framework-for-reparatory-justice-adopted-at_20260620_0011.html
+✓ Created comprehensive article: global-framework-for-reparatory-justice-adopted-at_20260620_0011.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-we-know-so-far-about-bedford-train-crash_20260619_2111.html
-Cleaned old post to keep top 30 limit: the-uk-no-10-revolving-door_20260619_2111.html
-Cleaned old post to keep top 30 limit: brazil-vs-haiti-live-world-cup-2026_20260619_2111.html
+Cleaned old post to keep top 30 limit: people-flew-from-their-seats-passengers-describe-h_20260619_2257.html
+Cleaned old post to keep top 30 limit: usa-beat-australia-20-to-book-knockout-spot-at-wor_20260619_2258.html
+Cleaned old post to keep top 30 limit: how-is-china-using-ai-in-the-classroom_20260619_1758.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Driver dead and 33 people seriously injured as Bedford train crash declared major incident
+     Sources: bbc.com, cnn.com, reuters.com
    • 'People flew from their seats': Passengers describe how crash unfolded
      Sources: bbc.com, cnn.com, reuters.com
-   • USA beat Australia 2–0 to book knockout spot at World Cup
-     Sources: bbc.com, cnn.com, reuters.com
-   • Spain’s Yamal says ‘very early, unnecessary’ to play full World Cup match
+   • Global framework for reparatory justice adopted at landmark conference in Ghana
      Sources: bbc.com, cnn.com, reuters.com
