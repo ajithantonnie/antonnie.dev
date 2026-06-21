@@ -1,71 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Signs grow that Starmer will resign as government mood shifts
-  Added: Family of driver killed in Bedford train crash 'devastated' by loss
+  Added: Starmer considers political future as pressure to quit mounts
+  Added: Signs grow that PM will resign with mood in government shifting
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syria frees activist Hassan Akkad days after he was detained
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mbappe, France play Iraq in World Cup match: prediction, team news, lineups
-Added expanded search topic: Syria frees activist Hassan Akkad days after he was detained
-Added expanded search topic: Mbappe, France play Iraq in World Cup match: prediction, team news, lineups
-Saved 15 topics for 2026-06-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s next in the Strait of Hormuz crisis?
+Added expanded search topic: What’s next in the Strait of Hormuz crisis?
+Saved 18 topics for 2026-06-21
 Returning 3 unique trending topics:
-  1. Family of driver killed in Bedford train crash 'devastated' by loss (from BBC News)
-  2. Syria frees activist Hassan Akkad days after he was detained (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Mbappe, France play Iraq in World Cup match: prediction, team news, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer considers political future as pressure to quit mounts (from BBC News)
+  2. Signs grow that PM will resign with mood in government shifting (from BBC News)
+  3. What’s next in the Strait of Hormuz crisis? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Family of driver killed in Bedford train crash 'devastated' by loss
-Searching Google for: Family of driver killed in Bedford train crash 'devastated' by loss
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamily%252Bof%252Bdriver%252Bkilled%252Bin%252BBedford%252Btrain%252Bcrash%252B%2527devastated%2527%252Bby%252Bloss%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHWQGJer4NEGIjDRaf39f5k1kSMrRce2s8aR4_44AJFXjIsoH8o7YZbqV5gsXZKABKnsWaHponGcfEEyBmpjbmRyUloBQw
+Processing trending topic: Starmer considers political future as pressure to quit mounts
+Searching Google for: Starmer considers political future as pressure to quit mounts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bconsiders%252Bpolitical%252Bfuture%252Bas%252Bpressure%252Bto%252Bquit%252Bmounts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U8xGJ_X4NEGIjBMP5rwSylhUzbE8qI7iiJTAh2v67Y8QnjCBkqcufhm89W3K0PlBgKfvnjYsTgnFrIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: family-of-driver-killed-in-bedford-train-crash-dev_20260621_1647.html
-✓ Created comprehensive article: family-of-driver-killed-in-bedford-train-crash-dev_20260621_1647.html
+Successfully created file: starmer-considers-political-future-as-pressure-to-_20260621_1821.html
+✓ Created comprehensive article: starmer-considers-political-future-as-pressure-to-_20260621_1821.html
 
-Processing trending topic: Syria frees activist Hassan Akkad days after he was detained
-Searching Google for: Syria frees activist Hassan Akkad days after he was detained
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyria%252Bfrees%252Bactivist%252BHassan%252BAkkad%252Bdays%252Bafter%252Bhe%252Bwas%252Bdetained%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHWQGJ-r4NEGIjCieCwwKUOw1wCTgIeqwxcYpAqqM-kE-Ge5096aT47itRBX9sggHQ2ui1M8T-FozzUyBmpjbmRyUloBQw
+Processing trending topic: Signs grow that PM will resign with mood in government shifting
+Searching Google for: Signs grow that PM will resign with mood in government shifting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSigns%252Bgrow%252Bthat%252BPM%252Bwill%252Bresign%252Bwith%252Bmood%252Bin%252Bgovernment%252Bshifting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U8xGKbX4NEGIjBAY6DkV0rI8vk-aQCmpqJYqnPyUGPsHgUE49rUnLKkWJv3OF6shy6aKMuzzZ4LVN8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: syria-frees-activist-hassan-akkad-days-after-he-wa_20260621_1647.html
-✓ Created comprehensive article: syria-frees-activist-hassan-akkad-days-after-he-wa_20260621_1647.html
+Successfully created file: signs-grow-that-pm-will-resign-with-mood-in-govern_20260621_1821.html
+✓ Created comprehensive article: signs-grow-that-pm-will-resign-with-mood-in-govern_20260621_1821.html
 
-Processing trending topic: Mbappe, France play Iraq in World Cup match: prediction, team news, lineups
-Searching Google for: Mbappe, France play Iraq in World Cup match: prediction, team news, lineups
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMbappe%252C%252BFrance%252Bplay%252BIraq%252Bin%252BWorld%252BCup%252Bmatch%253A%252Bprediction%252C%252Bteam%252Bnews%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHWQGKWr4NEGIjBGgCVeC8n-CA2kccmMEJEGtVHLDaxxxytmojVD2Y0Ep0a_Z4lH5BtcL03ymgsq-6UyBmpjbmRyUloBQw
+Processing trending topic: What’s next in the Strait of Hormuz crisis?
+Searching Google for: What’s next in the Strait of Hormuz crisis?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bnext%252Bin%252Bthe%252BStrait%252Bof%252BHormuz%252Bcrisis%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U8xGKzX4NEGIjBY4mvxgG9lJ923UBuzsISYchPBd68shcCFxGgNQ1gN6VpoX_ftP0s30bDKQupL0UkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mbappe-france-play-iraq-in-world-cup-match-predict_20260621_1647.html
-✓ Created comprehensive article: mbappe-france-play-iraq-in-world-cup-match-predict_20260621_1647.html
+Successfully created file: whats-next-in-the-strait-of-hormuz-crisis_20260621_1821.html
+✓ Created comprehensive article: whats-next-in-the-strait-of-hormuz-crisis_20260621_1821.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-charge-man-after-suspected-anti-muslim-atta_20260621_1409.html
-Cleaned old post to keep top 30 limit: signs-grow-that-starmer-will-resign-as-government-_20260621_1408.html
-Cleaned old post to keep top 30 limit: extreme-heat-warning-extended-to-four-days-as-temp_20260621_1409.html
+Cleaned old post to keep top 30 limit: syria-frees-activist-hassan-akkad-days-after-he-wa_20260621_1647.html
+Cleaned old post to keep top 30 limit: mbappe-france-play-iraq-in-world-cup-match-predict_20260621_1647.html
+Cleaned old post to keep top 30 limit: family-of-driver-killed-in-bedford-train-crash-dev_20260621_1647.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Family of driver killed in Bedford train crash 'devastated' by loss
+   • Starmer considers political future as pressure to quit mounts
      Sources: bbc.com, cnn.com, reuters.com
-   • Syria frees activist Hassan Akkad days after he was detained
+   • Signs grow that PM will resign with mood in government shifting
      Sources: bbc.com, cnn.com, reuters.com
-   • Mbappe, France play Iraq in World Cup match: prediction, team news, lineups
+   • What’s next in the Strait of Hormuz crisis?
      Sources: bbc.com, cnn.com, reuters.com
