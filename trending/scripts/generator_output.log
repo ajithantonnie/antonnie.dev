@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer considers political future as pressure to quit mounts
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s next in the Strait of Hormuz crisis?
-Added expanded search topic: What’s next in the Strait of Hormuz crisis?
-Saved 18 topics for 2026-06-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Europe heatwave scorches cities and wildlife
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia
+Added expanded search topic: Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94
+Added expanded search topic: Europe heatwave scorches cities and wildlife
+Added expanded search topic: Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia
+Saved 21 topics for 2026-06-21
 Returning 3 unique trending topics:
-  1. Starmer considers political future as pressure to quit mounts (from BBC News)
-  2. Signs grow that PM will resign with mood in government shifting (from BBC News)
-  3. What’s next in the Strait of Hormuz crisis? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Europe heatwave scorches cities and wildlife (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer considers political future as pressure to quit mounts
-Searching Google for: Starmer considers political future as pressure to quit mounts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bconsiders%252Bpolitical%252Bfuture%252Bas%252Bpressure%252Bto%252Bquit%252Bmounts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U8xGJ_X4NEGIjBMP5rwSylhUzbE8qI7iiJTAh2v67Y8QnjCBkqcufhm89W3K0PlBgKfvnjYsTgnFrIyBmpjbmRyUloBQw
+Processing trending topic: Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94
+Searching Google for: Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRamiro%252BValdes%252C%252Bone%252Bof%252BCuba%25E2%2580%2599s%252Blast%252Bliving%252Brevolutionary%252Bfigures%252C%252Bdies%252Bat%252B94%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhPhGKWS4dEGIjCWd52n4MEKtEkUg5Uzi4WAFm2ustXctZLPXK1KkW-1ecQgG66hjg9VZSH1ryl7F7IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-considers-political-future-as-pressure-to-_20260621_1821.html
-✓ Created comprehensive article: starmer-considers-political-future-as-pressure-to-_20260621_1821.html
+Successfully created file: ramiro-valdes-one-of-cubas-last-living-revolutiona_20260621_2027.html
+✓ Created comprehensive article: ramiro-valdes-one-of-cubas-last-living-revolutiona_20260621_2027.html
 
-Processing trending topic: Signs grow that PM will resign with mood in government shifting
-Searching Google for: Signs grow that PM will resign with mood in government shifting
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSigns%252Bgrow%252Bthat%252BPM%252Bwill%252Bresign%252Bwith%252Bmood%252Bin%252Bgovernment%252Bshifting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U8xGKbX4NEGIjBAY6DkV0rI8vk-aQCmpqJYqnPyUGPsHgUE49rUnLKkWJv3OF6shy6aKMuzzZ4LVN8yBmpjbmRyUloBQw
+Processing trending topic: Europe heatwave scorches cities and wildlife
+Searching Google for: Europe heatwave scorches cities and wildlife
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEurope%252Bheatwave%252Bscorches%252Bcities%252Band%252Bwildlife%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhPhGKyS4dEGIjCNdggCuv-ecJE-xUjPLMBVcEBQP890TUqRla4t7Mwkc6xssd2iaj6GdTI7xuSHtAEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: signs-grow-that-pm-will-resign-with-mood-in-govern_20260621_1821.html
-✓ Created comprehensive article: signs-grow-that-pm-will-resign-with-mood-in-govern_20260621_1821.html
+Successfully created file: europe-heatwave-scorches-cities-and-wildlife_20260621_2027.html
+✓ Created comprehensive article: europe-heatwave-scorches-cities-and-wildlife_20260621_2027.html
 
-Processing trending topic: What’s next in the Strait of Hormuz crisis?
-Searching Google for: What’s next in the Strait of Hormuz crisis?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bnext%252Bin%252Bthe%252BStrait%252Bof%252BHormuz%252Bcrisis%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK-U8xGKzX4NEGIjBY4mvxgG9lJ923UBuzsISYchPBd68shcCFxGgNQ1gN6VpoX_ftP0s30bDKQupL0UkyBmpjbmRyUloBQw
+Processing trending topic: Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia
+Searching Google for: Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLamine%252BYamal%252Bscores%252Bfirst%252BWorld%252BCup%252Bgoal%252Bas%252BSpain%252Bthrash%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mhPhGLKS4dEGIjCUZnlGqDsOEjXDtZoTCWUO4viGY6G1_MbocnS4v5Bm_TE2O8zARDwtAVunMeBg-7gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-next-in-the-strait-of-hormuz-crisis_20260621_1821.html
-✓ Created comprehensive article: whats-next-in-the-strait-of-hormuz-crisis_20260621_1821.html
+Successfully created file: lamine-yamal-scores-first-world-cup-goal-as-spain-_20260621_2027.html
+✓ Created comprehensive article: lamine-yamal-scores-first-world-cup-goal-as-spain-_20260621_2027.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: syria-frees-activist-hassan-akkad-days-after-he-wa_20260621_1647.html
-Cleaned old post to keep top 30 limit: mbappe-france-play-iraq-in-world-cup-match-predict_20260621_1647.html
-Cleaned old post to keep top 30 limit: family-of-driver-killed-in-bedford-train-crash-dev_20260621_1647.html
+Cleaned old post to keep top 30 limit: us-and-iran-face-make-or-break-talks-in-switzerlan_20260621_0842.html
+Cleaned old post to keep top 30 limit: signs-grow-that-pm-will-resign-with-mood-in-govern_20260621_1821.html
+Cleaned old post to keep top 30 limit: pm-under-pressure-from-labour-mps-and-ministers-to_20260619_1952.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer considers political future as pressure to quit mounts
+   • Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94
      Sources: bbc.com, cnn.com, reuters.com
-   • Signs grow that PM will resign with mood in government shifting
+   • Europe heatwave scorches cities and wildlife
      Sources: bbc.com, cnn.com, reuters.com
-   • What’s next in the Strait of Hormuz crisis?
+   • Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia
      Sources: bbc.com, cnn.com, reuters.com
