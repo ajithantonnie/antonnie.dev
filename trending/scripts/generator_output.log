@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Starmer considers political future as pressure to quit mounts
-  Added: Signs grow that PM will resign with mood in government shifting
+  Added: Chris Mason: All eyes on Downing Street - what does the PM say, and when?
+  Added: First round of US-Iran talks ends with 'encouraging progress', mediators say
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-22
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Encouraging progress’ made as first round US-Iran talks end
+Added expanded search topic: ‘Encouraging progress’ made as first round US-Iran talks end
+Saved 6 topics for 2026-06-22
 Returning 3 unique trending topics:
-  1. Starmer considers political future as pressure to quit mounts (from BBC News)
-  2. Signs grow that PM will resign with mood in government shifting (from BBC News)
-  3. Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon (from The Guardian)
+  1. Chris Mason: All eyes on Downing Street - what does the PM say, and when? (from BBC News)
+  2. First round of US-Iran talks ends with 'encouraging progress', mediators say (from BBC News)
+  3. ‘Encouraging progress’ made as first round US-Iran talks end (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer considers political future as pressure to quit mounts
-Searching Google for: Starmer considers political future as pressure to quit mounts
+Processing trending topic: Chris Mason: All eyes on Downing Street - what does the PM say, and when?
+Searching Google for: Chris Mason: All eyes on Downing Street - what does the PM say, and when?
 Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-considers-political-future-as-pressure-to-_20260622_0014.html
-✓ Created comprehensive article: starmer-considers-political-future-as-pressure-to-_20260622_0014.html
+Successfully created file: chris-mason-all-eyes-on-downing-street-what-does-t_20260622_0629.html
+✓ Created comprehensive article: chris-mason-all-eyes-on-downing-street-what-does-t_20260622_0629.html
 
-Processing trending topic: Signs grow that PM will resign with mood in government shifting
-Searching Google for: Signs grow that PM will resign with mood in government shifting
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: First round of US-Iran talks ends with 'encouraging progress', mediators say
+Searching Google for: First round of US-Iran talks ends with 'encouraging progress', mediators say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252Bround%252Bof%252BUS-Iran%252Btalks%252Bends%252Bwith%252B%2527encouraging%252Bprogress%2527%252C%252Bmediators%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FHGLat49EGIjD7iEQY_MNVmq3eJO0LsKMR4ofgWJkoM0JGYi8PqxX9PedIko9BficlD_Ann4Cuds4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: signs-grow-that-pm-will-resign-with-mood-in-govern_20260622_0014.html
-✓ Created comprehensive article: signs-grow-that-pm-will-resign-with-mood-in-govern_20260622_0014.html
+Successfully created file: first-round-of-us-iran-talks-ends-with-encouraging_20260622_0631.html
+✓ Created comprehensive article: first-round-of-us-iran-talks-ends-with-encouraging_20260622_0631.html
 
-Processing trending topic: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Searching Google for: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSweat%252C%252Btears%252Band%252Bcamaraderie%252Bas%252B20%252C000%252Brunners%252Btake%252Bon%252Bworld%25E2%2580%2599s%252Blargest%252Bultramarathon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lhGMj94dEGIjAMNfF1SCViqBF4AI5m7aNhGCf2z4zGyIUYynaUXqjbajoxBrfzxr1MS9dtoLUZqxAyBmpjbmRyUloBQw
+Processing trending topic: ‘Encouraging progress’ made as first round US-Iran talks end
+Searching Google for: ‘Encouraging progress’ made as first round US-Iran talks end
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Encouraging%252Bprogress%25E2%2580%2599%252Bmade%252Bas%252Bfirst%252Bround%252BUS-Iran%252Btalks%252Bend%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FHGL2t49EGIjDd4NanHH3HbLsS_8ULDaDtmblHNakeTrTf58jCFT6ZkzLCztKkVmY7q0-H1spj_-QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sweat-tears-and-camaraderie-as-20000-runners-take-_20260622_0016.html
-✓ Created comprehensive article: sweat-tears-and-camaraderie-as-20000-runners-take-_20260622_0016.html
+Successfully created file: encouraging-progress-made-as-first-round-us-iran-t_20260622_0631.html
+✓ Created comprehensive article: encouraging-progress-made-as-first-round-us-iran-t_20260622_0631.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-are-the-end-goals-of-iran-us-negotiations_20260621_2215.html
-Cleaned old post to keep top 30 limit: mourners-gather-to-remember-lebanese-conservationi_20260621_2216.html
-Cleaned old post to keep top 30 limit: belgium-see-red-in-goalless-world-cup-draw-with-ir_20260621_2215.html
+Cleaned old post to keep top 30 limit: signs-grow-that-pm-will-resign-with-mood-in-govern_20260622_0014.html
+Cleaned old post to keep top 30 limit: sweat-tears-and-camaraderie-as-20000-runners-take-_20260622_0016.html
+Cleaned old post to keep top 30 limit: ramiro-valdes-one-of-cubas-last-living-revolutiona_20260621_2027.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer considers political future as pressure to quit mounts
+   • Chris Mason: All eyes on Downing Street - what does the PM say, and when?
      Sources: bbc.com, cnn.com, reuters.com
-   • Signs grow that PM will resign with mood in government shifting
+   • First round of US-Iran talks ends with 'encouraging progress', mediators say
      Sources: bbc.com, cnn.com, reuters.com
-   • Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
+   • ‘Encouraging progress’ made as first round US-Iran talks end
      Sources: bbc.com, cnn.com, reuters.com
