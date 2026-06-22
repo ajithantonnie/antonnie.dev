@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Analysis: Everything points to Burnham becoming PM within weeks
   Added: Why did Starmer resign and what could happen next?
-  Added: Watch and read Starmer's resignation speech in full
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US strike on an alleged drug boat in eastern Pacific kills two
-Added expanded search topic: US strike on an alleged drug boat in eastern Pacific kills two
-Saved 9 topics for 2026-06-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kenyan court finds minister in contempt over US Ebola site
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will a US-Iran deal transform the Iranian economy?
+Added expanded search topic: Kenyan court finds minister in contempt over US Ebola site
+Added expanded search topic: Will a US-Iran deal transform the Iranian economy?
+Saved 12 topics for 2026-06-22
 Returning 3 unique trending topics:
-  1. Why did Starmer resign and what could happen next? (from BBC News)
-  2. Watch and read Starmer's resignation speech in full (from BBC News)
-  3. US strike on an alleged drug boat in eastern Pacific kills two (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Analysis: Everything points to Burnham becoming PM within weeks (from BBC News)
+  2. Kenyan court finds minister in contempt over US Ebola site (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Will a US-Iran deal transform the Iranian economy? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Why did Starmer resign and what could happen next?
-Searching Google for: Why did Starmer resign and what could happen next?
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Analysis: Everything points to Burnham becoming PM within weeks
+Searching Google for: Analysis: Everything points to Burnham becoming PM within weeks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%253A%252BEverything%252Bpoints%252Bto%252BBurnham%252Bbecoming%252BPM%252Bwithin%252Bweeks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I3GIXo5dEGIjB1aY2e39YYZBe0-1KltqrU87r3XRIRna8iQBgIaYEwt3nKk7F9uhsWpXhm9TO-yj4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-did-starmer-resign-and-what-could-happen-next_20260622_1251.html
-✓ Created comprehensive article: why-did-starmer-resign-and-what-could-happen-next_20260622_1251.html
+Successfully created file: analysis-everything-points-to-burnham-becoming-pm-_20260622_1742.html
+✓ Created comprehensive article: analysis-everything-points-to-burnham-becoming-pm-_20260622_1742.html
 
-Processing trending topic: Watch and read Starmer's resignation speech in full
-Searching Google for: Watch and read Starmer's resignation speech in full
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%252Band%252Bread%252BStarmer%2527s%252Bresignation%252Bspeech%252Bin%252Bfull%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodG2KGOXf5NEGIjBu1qulgTn5hXe8tYlMaeiy6fzsU7zPILFajKsfGMa4MxU0QR8q_amjtoSDDuepnEEyBmpjbmRyUloBQw
+Processing trending topic: Kenyan court finds minister in contempt over US Ebola site
+Searching Google for: Kenyan court finds minister in contempt over US Ebola site
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenyan%252Bcourt%252Bfinds%252Bminister%252Bin%252Bcontempt%252Bover%252BUS%252BEbola%252Bsite%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I3GIzo5dEGIjDTKxw3C58JS0mWPQxE_p6lnAQUwwkQXg-96WdOIhaxpYAo4Kugb2I9pdzkgdG3kEYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-and-read-starmers-resignation-speech-in-full_20260622_1251.html
-✓ Created comprehensive article: watch-and-read-starmers-resignation-speech-in-full_20260622_1251.html
+Successfully created file: kenyan-court-finds-minister-in-contempt-over-us-eb_20260622_1742.html
+✓ Created comprehensive article: kenyan-court-finds-minister-in-contempt-over-us-eb_20260622_1742.html
 
-Processing trending topic: US strike on an alleged drug boat in eastern Pacific kills two
-Searching Google for: US strike on an alleged drug boat in eastern Pacific kills two
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bstrike%252Bon%252Ban%252Balleged%252Bdrug%252Bboat%252Bin%252Beastern%252BPacific%252Bkills%252Btwo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQodG2KGOvf5NEGIjCT7AWGPvNulVZbhH7gyRMRvBnGnu7gzykq9MFOxgReiNwggBeBZ-R3IAQH7Ib0u1QyBmpjbmRyUloBQw
+Processing trending topic: Will a US-Iran deal transform the Iranian economy?
+Searching Google for: Will a US-Iran deal transform the Iranian economy?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Ba%252BUS-Iran%252Bdeal%252Btransform%252Bthe%252BIranian%252Beconomy%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19I3GJPo5dEGIjC35zZ_gc7YB-zbl8TojVK0wqRgAfvd0v8TH8a2YxvEvnSFxzdPwtc3cj0k08d0SLwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-strike-on-an-alleged-drug-boat-in-eastern-pacif_20260622_1251.html
-✓ Created comprehensive article: us-strike-on-an-alleged-drug-boat-in-eastern-pacif_20260622_1251.html
+Successfully created file: will-a-us-iran-deal-transform-the-iranian-economy_20260622_1742.html
+✓ Created comprehensive article: will-a-us-iran-deal-transform-the-iranian-economy_20260622_1742.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russia-was-behind-arson-attacks-targeting-pm-bbc-r_20260616_0358.html
-Cleaned old post to keep top 30 limit: first-round-of-us-iran-talks-ends-with-encouraging_20260622_0631.html
-Cleaned old post to keep top 30 limit: chris-mason-all-eyes-on-downing-street-what-does-t_20260622_0629.html
+Cleaned old post to keep top 30 limit: us-strike-on-an-alleged-drug-boat-in-eastern-pacif_20260622_1251.html
+Cleaned old post to keep top 30 limit: watch-and-read-starmers-resignation-speech-in-full_20260622_1251.html
+Cleaned old post to keep top 30 limit: encouraging-progress-made-as-first-round-us-iran-t_20260622_0631.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Why did Starmer resign and what could happen next?
+   • Analysis: Everything points to Burnham becoming PM within weeks
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch and read Starmer's resignation speech in full
+   • Kenyan court finds minister in contempt over US Ebola site
      Sources: bbc.com, cnn.com, reuters.com
-   • US strike on an alleged drug boat in eastern Pacific kills two
+   • Will a US-Iran deal transform the Iranian economy?
      Sources: bbc.com, cnn.com, reuters.com
