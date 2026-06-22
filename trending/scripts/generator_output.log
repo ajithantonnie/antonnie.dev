@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer considers political future as pressure to quit mounts
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Belgium see red in goalless World Cup draw with Iran in Los Angeles
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What are the end goals of Iran-US negotiations?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mourners gather to remember Lebanese conservationist killed by Israel
-Added expanded search topic: Belgium see red in goalless World Cup draw with Iran in Los Angeles
-Added expanded search topic: What are the end goals of Iran-US negotiations?
-Added expanded search topic: Mourners gather to remember Lebanese conservationist killed by Israel
-Saved 24 topics for 2026-06-21
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-06-22
 Returning 3 unique trending topics:
-  1. Belgium see red in goalless World Cup draw with Iran in Los Angeles (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. What are the end goals of Iran-US negotiations? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Mourners gather to remember Lebanese conservationist killed by Israel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer considers political future as pressure to quit mounts (from BBC News)
+  2. Signs grow that PM will resign with mood in government shifting (from BBC News)
+  3. Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon (from The Guardian)
 
-Processing trending topic: Belgium see red in goalless World Cup draw with Iran in Los Angeles
-Searching Google for: Belgium see red in goalless World Cup draw with Iran in Los Angeles
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBelgium%252Bsee%252Bred%252Bin%252Bgoalless%252BWorld%252BCup%252Bdraw%252Bwith%252BIran%252Bin%252BLos%252BAngeles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN37wGJTF4dEGIjCrjxu_jXUuJ3bNkD7pzypYYxRz6NZOsJLibiv5PUSoMGm88EMct7ZojvYkyJ8UgiQyBmpjbmRyUloBQw
+Processing trending topic: Starmer considers political future as pressure to quit mounts
+Searching Google for: Starmer considers political future as pressure to quit mounts
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: belgium-see-red-in-goalless-world-cup-draw-with-ir_20260621_2215.html
-✓ Created comprehensive article: belgium-see-red-in-goalless-world-cup-draw-with-ir_20260621_2215.html
+Successfully created file: starmer-considers-political-future-as-pressure-to-_20260622_0014.html
+✓ Created comprehensive article: starmer-considers-political-future-as-pressure-to-_20260622_0014.html
 
-Processing trending topic: What are the end goals of Iran-US negotiations?
-Searching Google for: What are the end goals of Iran-US negotiations?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bare%252Bthe%252Bend%252Bgoals%252Bof%252BIran-US%252Bnegotiations%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN37wGJvF4dEGIjBq-miqARXKhsVHEgGCypiarA58lHfeaFhdq6BF_6DmyQBaD9oxL-VtYo6rl--1yUIyBmpjbmRyUloBQw
+Processing trending topic: Signs grow that PM will resign with mood in government shifting
+Searching Google for: Signs grow that PM will resign with mood in government shifting
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-are-the-end-goals-of-iran-us-negotiations_20260621_2215.html
-✓ Created comprehensive article: what-are-the-end-goals-of-iran-us-negotiations_20260621_2215.html
+Successfully created file: signs-grow-that-pm-will-resign-with-mood-in-govern_20260622_0014.html
+✓ Created comprehensive article: signs-grow-that-pm-will-resign-with-mood-in-govern_20260622_0014.html
 
-Processing trending topic: Mourners gather to remember Lebanese conservationist killed by Israel
-Searching Google for: Mourners gather to remember Lebanese conservationist killed by Israel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMourners%252Bgather%252Bto%252Bremember%252BLebanese%252Bconservationist%252Bkilled%252Bby%252BIsrael%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN37wGKHF4dEGIjC5sDLF5M1NQYx9XWow8h40ijDf26dCeC4Ri7Zer9k402xyOJTtuBRjp9IZB-_fi60yBmpjbmRyUloBQw
+Processing trending topic: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
+Searching Google for: Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSweat%252C%252Btears%252Band%252Bcamaraderie%252Bas%252B20%252C000%252Brunners%252Btake%252Bon%252Bworld%25E2%2580%2599s%252Blargest%252Bultramarathon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19lhGMj94dEGIjAMNfF1SCViqBF4AI5m7aNhGCf2z4zGyIUYynaUXqjbajoxBrfzxr1MS9dtoLUZqxAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mourners-gather-to-remember-lebanese-conservationi_20260621_2216.html
-✓ Created comprehensive article: mourners-gather-to-remember-lebanese-conservationi_20260621_2216.html
+Successfully created file: sweat-tears-and-camaraderie-as-20000-runners-take-_20260622_0016.html
+✓ Created comprehensive article: sweat-tears-and-camaraderie-as-20000-runners-take-_20260622_0016.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-iran-delegations-arrive-as-talks-begin-in-switz_20260621_1148.html
-Cleaned old post to keep top 30 limit: lamine-yamal-scores-first-world-cup-goal-as-spain-_20260621_2027.html
-Cleaned old post to keep top 30 limit: europe-heatwave-scorches-cities-and-wildlife_20260621_2027.html
+Cleaned old post to keep top 30 limit: what-are-the-end-goals-of-iran-us-negotiations_20260621_2215.html
+Cleaned old post to keep top 30 limit: mourners-gather-to-remember-lebanese-conservationi_20260621_2216.html
+Cleaned old post to keep top 30 limit: belgium-see-red-in-goalless-world-cup-draw-with-ir_20260621_2215.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Belgium see red in goalless World Cup draw with Iran in Los Angeles
+   • Starmer considers political future as pressure to quit mounts
      Sources: bbc.com, cnn.com, reuters.com
-   • What are the end goals of Iran-US negotiations?
+   • Signs grow that PM will resign with mood in government shifting
      Sources: bbc.com, cnn.com, reuters.com
-   • Mourners gather to remember Lebanese conservationist killed by Israel
+   • Sweat, tears and camaraderie as 20,000 runners take on world’s largest ultramarathon
      Sources: bbc.com, cnn.com, reuters.com
