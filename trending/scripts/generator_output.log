@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Can you keep your kids off school or refuse to work during a heatwave?
-  Added: Is watching football bad for your health? I tested my body to find out
+  Added: From cool-down spots to chalk on windows - how Europeans are coping with the heat
+  Added: Peter Murrell jailed for more than five years for embezzling SNP funds
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan minister orders halt to construction of US Ebola facility
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-06-23
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South African police investigate murder amid rise in anti-migrant attacks
+Added expanded search topic: South African police investigate murder amid rise in anti-migrant attacks
+Saved 15 topics for 2026-06-23
 Returning 3 unique trending topics:
-  1. Can you keep your kids off school or refuse to work during a heatwave? (from BBC News)
-  2. Is watching football bad for your health? I tested my body to find out (from BBC News)
-  3. Kenyan minister orders halt to construction of US Ebola facility (from The Guardian)
+  1. From cool-down spots to chalk on windows - how Europeans are coping with the heat (from BBC News)
+  2. Peter Murrell jailed for more than five years for embezzling SNP funds (from BBC News)
+  3. South African police investigate murder amid rise in anti-migrant attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Can you keep your kids off school or refuse to work during a heatwave?
-Searching Google for: Can you keep your kids off school or refuse to work during a heatwave?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Byou%252Bkeep%252Byour%252Bkids%252Boff%252Bschool%252Bor%252Brefuse%252Bto%252Bwork%252Bduring%252Ba%252Bheatwave%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06QGLPu6dEGIjBbBNIGtlfoGdI_WobOMgBtIEbpZ1o79tMQ5zExbTaFAzEadXPowtllt4RAuZCHqZEyBmpjbmRyUloBQw
+Processing trending topic: From cool-down spots to chalk on windows - how Europeans are coping with the heat
+Searching Google for: From cool-down spots to chalk on windows - how Europeans are coping with the heat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrom%252Bcool-down%252Bspots%252Bto%252Bchalk%252Bon%252Bwindows%252B-%252Bhow%252BEuropeans%252Bare%252Bcoping%252Bwith%252Bthe%252Bheat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdu4dGIrW6tEGIjC3clfcP2ZyXx5Q1V7gy4Ak3Lfus9KqFbTX8ZjiUBobEgYhWn5RyIOPewBj7MD79N0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: can-you-keep-your-kids-off-school-or-refuse-to-wor_20260623_1208.html
-✓ Created comprehensive article: can-you-keep-your-kids-off-school-or-refuse-to-wor_20260623_1208.html
+Successfully created file: from-cool-down-spots-to-chalk-on-windows-how-europ_20260623_1549.html
+✓ Created comprehensive article: from-cool-down-spots-to-chalk-on-windows-how-europ_20260623_1549.html
 
-Processing trending topic: Is watching football bad for your health? I tested my body to find out
-Searching Google for: Is watching football bad for your health? I tested my body to find out
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bwatching%252Bfootball%252Bbad%252Bfor%252Byour%252Bhealth%253F%252BI%252Btested%252Bmy%252Bbody%252Bto%252Bfind%252Bout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06QGLnu6dEGIjBphc2dwqwHzPrQmEiIHmkNq4t98NZcojIJSeou8g4BSZT1pMps4yDXUXWQv0ejGjkyBmpjbmRyUloBQw
+Processing trending topic: Peter Murrell jailed for more than five years for embezzling SNP funds
+Searching Google for: Peter Murrell jailed for more than five years for embezzling SNP funds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeter%252BMurrell%252Bjailed%252Bfor%252Bmore%252Bthan%252Bfive%252Byears%252Bfor%252Bembezzling%252BSNP%252Bfunds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdu4dGJHW6tEGIjA04skNBv3cyzY-H7_5uN7dgWKse5F7ZZ_D9wH2ia6t2zJMq944ABAlwSF0sbT3u_syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: is-watching-football-bad-for-your-health-i-tested-_20260623_1208.html
-✓ Created comprehensive article: is-watching-football-bad-for-your-health-i-tested-_20260623_1208.html
+Successfully created file: peter-murrell-jailed-for-more-than-five-years-for-_20260623_1549.html
+✓ Created comprehensive article: peter-murrell-jailed-for-more-than-five-years-for-_20260623_1549.html
 
-Processing trending topic: Kenyan minister orders halt to construction of US Ebola facility
-Searching Google for: Kenyan minister orders halt to construction of US Ebola facility
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenyan%252Bminister%252Borders%252Bhalt%252Bto%252Bconstruction%252Bof%252BUS%252BEbola%252Bfacility%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06QGMDu6dEGIjD_gQQOt2juUQprJkm1Xb_rR2W5x-iuV1LyT7bW_90jv9mBr-5s1i3cErX1-njLXvcyBmpjbmRyUloBQw
+Processing trending topic: South African police investigate murder amid rise in anti-migrant attacks
+Searching Google for: South African police investigate murder amid rise in anti-migrant attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrican%252Bpolice%252Binvestigate%252Bmurder%252Bamid%252Brise%252Bin%252Banti-migrant%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdu4dGJfW6tEGIjCNg57ZoB9U-uP-n3UF1CtekO8VVqcY7oLGVwe63uudnv8RFOHonO2kCqSSlUs4ro8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kenyan-minister-orders-halt-to-construction-of-us-_20260623_1208.html
-✓ Created comprehensive article: kenyan-minister-orders-halt-to-construction-of-us-_20260623_1208.html
+Successfully created file: south-african-police-investigate-murder-amid-rise-_20260623_1549.html
+✓ Created comprehensive article: south-african-police-investigate-murder-amid-rise-_20260623_1549.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: starmer-quits-as-labour-leader-and-paves-way-for-c_20260623_0006.html
-Cleaned old post to keep top 30 limit: iran-war-day-116-us-eases-iran-sanctions-lebanon-c_20260623_0834.html
-Cleaned old post to keep top 30 limit: can-you-refuse-to-work-or-send-your-children-to-sc_20260623_0834.html
+Cleaned old post to keep top 30 limit: us-govt-investigates-new-york-coffee-chain-over-ba_20260623_0834.html
+Cleaned old post to keep top 30 limit: will-a-us-iran-deal-transform-the-iranian-economy_20260622_1742.html
+Cleaned old post to keep top 30 limit: can-you-keep-your-kids-off-school-or-refuse-to-wor_20260623_1208.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Can you keep your kids off school or refuse to work during a heatwave?
+   • From cool-down spots to chalk on windows - how Europeans are coping with the heat
      Sources: bbc.com, cnn.com, reuters.com
-   • Is watching football bad for your health? I tested my body to find out
+   • Peter Murrell jailed for more than five years for embezzling SNP funds
      Sources: bbc.com, cnn.com, reuters.com
-   • Kenyan minister orders halt to construction of US Ebola facility
+   • South African police investigate murder amid rise in anti-migrant attacks
      Sources: bbc.com, cnn.com, reuters.com
