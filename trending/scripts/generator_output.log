@@ -1,69 +1,73 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Who are the Ghana players England should look out for?
   Added: Hundreds of schools plan closures ahead of red heat alerts
+  Added: From cool-down spots to chalk on windows - how Europe is coping with the heat
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenyan minister orders halt to construction of US Ebola facility
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ronaldo scores twice as Portugal thrash Uzbekistan 5-0 at World Cup 2026
-Added expanded search topic: Ronaldo scores twice as Portugal thrash Uzbekistan 5-0 at World Cup 2026
-Saved 21 topics for 2026-06-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Paraguay’s Almiron suspended for one game after red card for covering mouth
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump allies reassure Israelis amid tensions on US-Iran deal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Massive fire rips through Indonesia sandal factory
+Added expanded search topic: Paraguay’s Almiron suspended for one game after red card for covering mouth
+Added expanded search topic: Trump allies reassure Israelis amid tensions on US-Iran deal
+Added expanded search topic: Massive fire rips through Indonesia sandal factory
+Saved 24 topics for 2026-06-23
 Returning 3 unique trending topics:
-  1. Who are the Ghana players England should look out for? (from BBC News)
-  2. Hundreds of schools plan closures ahead of red heat alerts (from BBC News)
-  3. Ronaldo scores twice as Portugal thrash Uzbekistan 5-0 at World Cup 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Paraguay’s Almiron suspended for one game after red card for covering mouth (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump allies reassure Israelis amid tensions on US-Iran deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Massive fire rips through Indonesia sandal factory (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Who are the Ghana players England should look out for?
-Searching Google for: Who are the Ghana players England should look out for?
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Paraguay’s Almiron suspended for one game after red card for covering mouth
+Searching Google for: Paraguay’s Almiron suspended for one game after red card for covering mouth
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DParaguay%25E2%2580%2599s%252BAlmiron%252Bsuspended%252Bfor%252Bone%252Bgame%252Bafter%252Bred%252Bcard%252Bfor%252Bcovering%252Bmouth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_OhGKaA7NEGIjB_REtPrz8FCXkVBHUTTav779ln0bJf0S28itemO21iTnYF_EDfLodwgIf4lv2UIHwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: who-are-the-ghana-players-england-should-look-out-_20260623_2003.html
-✓ Created comprehensive article: who-are-the-ghana-players-england-should-look-out-_20260623_2003.html
+Successfully created file: paraguays-almiron-suspended-for-one-game-after-red_20260623_2152.html
+✓ Created comprehensive article: paraguays-almiron-suspended-for-one-game-after-red_20260623_2152.html
 
-Processing trending topic: Hundreds of schools plan closures ahead of red heat alerts
-Searching Google for: Hundreds of schools plan closures ahead of red heat alerts
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Trump allies reassure Israelis amid tensions on US-Iran deal
+Searching Google for: Trump allies reassure Israelis amid tensions on US-Iran deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Ballies%252Breassure%252BIsraelis%252Bamid%252Btensions%252Bon%252BUS-Iran%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_OhGK2A7NEGIjAr7cqVcvhqfHZ4lgTHtJ-2hS3-1FbfkYo6QLtQMVYR3bn1kwHFabX_jYP9wvRL6hUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hundreds-of-schools-plan-closures-ahead-of-red-hea_20260623_2004.html
-✓ Created comprehensive article: hundreds-of-schools-plan-closures-ahead-of-red-hea_20260623_2004.html
+Successfully created file: trump-allies-reassure-israelis-amid-tensions-on-us_20260623_2152.html
+✓ Created comprehensive article: trump-allies-reassure-israelis-amid-tensions-on-us_20260623_2152.html
 
-Processing trending topic: Ronaldo scores twice as Portugal thrash Uzbekistan 5-0 at World Cup 2026
-Searching Google for: Ronaldo scores twice as Portugal thrash Uzbekistan 5-0 at World Cup 2026
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Massive fire rips through Indonesia sandal factory
+Searching Google for: Massive fire rips through Indonesia sandal factory
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMassive%252Bfire%252Brips%252Bthrough%252BIndonesia%252Bsandal%252Bfactory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_OhGLOA7NEGIjDMS9Yfaa0_m9Xk1LdX2RrnvyS656ILp9qNBoHYfLZ2AgFYWRJg-6-bogMWjmZI3HkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ronaldo-scores-twice-as-portugal-thrash-uzbekistan_20260623_2004.html
-✓ Created comprehensive article: ronaldo-scores-twice-as-portugal-thrash-uzbekistan_20260623_2004.html
+Successfully created file: massive-fire-rips-through-indonesia-sandal-factory_20260623_2152.html
+✓ Created comprehensive article: massive-fire-rips-through-indonesia-sandal-factory_20260623_2152.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: starmer-holds-talks-with-burnham-as-he-seeks-order_20260623_1755.html
-Cleaned old post to keep top 30 limit: from-cool-down-spots-to-chalk-on-windows-how-europ_20260623_1755.html
-Cleaned old post to keep top 30 limit: eu-hosts-taliban-officials-for-the-first-time-in-t_20260623_1755.html
+Cleaned old post to keep top 30 limit: starmer-quits-as-labour-leader-and-paves-way-for-c_20260622_2250.html
+Cleaned old post to keep top 30 limit: hundreds-of-schools-plan-closures-ahead-of-red-hea_20260623_2004.html
+Cleaned old post to keep top 30 limit: ronaldo-scores-twice-as-portugal-thrash-uzbekistan_20260623_2004.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Who are the Ghana players England should look out for?
+   • Paraguay’s Almiron suspended for one game after red card for covering mouth
      Sources: bbc.com, cnn.com, reuters.com
-   • Hundreds of schools plan closures ahead of red heat alerts
+   • Trump allies reassure Israelis amid tensions on US-Iran deal
      Sources: bbc.com, cnn.com, reuters.com
-   • Ronaldo scores twice as Portugal thrash Uzbekistan 5-0 at World Cup 2026
+   • Massive fire rips through Indonesia sandal factory
      Sources: bbc.com, cnn.com, reuters.com
