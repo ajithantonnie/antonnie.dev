@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Why this heatwave feels worse than the last one
-  Added: What the inquiry into failures at maternity units in Nottingham found
+  Added: Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,62 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli attacks on Gaza and occupied West Bank kill two, including child
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How Colombia’s traditional midwives serve as lifelines to rural communities
-Added expanded search topic: Israeli attacks on Gaza and occupied West Bank kill two, including child
-Added expanded search topic: How Colombia’s traditional midwives serve as lifelines to rural communities
-Saved 15 topics for 2026-06-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Our life stops’: West Bank childhood shattered by Israeli military raids
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
+Added expanded search topic: Our life stops’: West Bank childhood shattered by Israeli military raids
+Added expanded search topic: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
+Saved 18 topics for 2026-06-24
 Returning 3 unique trending topics:
-  1. What the inquiry into failures at maternity units in Nottingham found (from BBC News)
-  2. Israeli attacks on Gaza and occupied West Bank kill two, including child (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. How Colombia’s traditional midwives serve as lifelines to rural communities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds (from BBC News)
+  2. Our life stops’: West Bank childhood shattered by Israeli military raids (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What the inquiry into failures at maternity units in Nottingham found
-Searching Google for: What the inquiry into failures at maternity units in Nottingham found
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bthe%252Binquiry%252Binto%252Bfailures%252Bat%252Bmaternity%252Bunits%252Bin%252BNottingham%252Bfound%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8mGMSI8NEGIjAAuMIRklbe0QRebhS1cH4wZJKiCfzPGBhs8wRMzMDgjZQflaoUbNj-6vHAGU0zNOMyBmpjbmRyUloBQw
+Processing trending topic: Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
+Searching Google for: Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBabies%252Band%252Bmothers%252Bdied%252Bafter%252B%2527systemic%252Band%252Bsustained%2527%252Bfailings%252C%252Blargest%252BNHS%252Bmaternity%252Breview%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf_chGKfP8NEGIjDYuOvgM8KFiAFaRXwnI0CEvPy4YmaxJlLfJ4l-Gol1A-uyZUwrnbcMFyVSI831gMkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
-Request error for https://cnn.com/news: 404 Client Error: Not Found for url: https://www.cnn.com/news
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-the-inquiry-into-failures-at-maternity-units-_20260624_1622.html
-✓ Created comprehensive article: what-the-inquiry-into-failures-at-maternity-units-_20260624_1622.html
+Successfully created file: babies-and-mothers-died-after-systemic-and-sustain_20260624_1853.html
+✓ Created comprehensive article: babies-and-mothers-died-after-systemic-and-sustain_20260624_1853.html
 
-Processing trending topic: Israeli attacks on Gaza and occupied West Bank kill two, including child
-Searching Google for: Israeli attacks on Gaza and occupied West Bank kill two, including child
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Battacks%252Bon%252BGaza%252Band%252Boccupied%252BWest%252BBank%252Bkill%252Btwo%252C%252Bincluding%252Bchild%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8mGMuI8NEGIjBzELE6MmUvpCB5YMc2NYrYEC4xJVIrCKOBPbBh9rAaJa3htwHKcMhJfFb8R6dh_e0yBmpjbmRyUloBQw
+Processing trending topic: Our life stops’: West Bank childhood shattered by Israeli military raids
+Searching Google for: Our life stops’: West Bank childhood shattered by Israeli military raids
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOur%252Blife%252Bstops%25E2%2580%2599%253A%252BWest%252BBank%252Bchildhood%252Bshattered%252Bby%252BIsraeli%252Bmilitary%252Braids%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf_chGK7P8NEGIjCyiY5qnv-jEZdM83u8fFJx-FfeeErkdp5exCSvz5yMN-ZZV9S7BZmFxpKdKSLYiEIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
-Request error for https://cnn.com/news: 404 Client Error: Not Found for url: https://www.cnn.com/news
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-attacks-on-gaza-and-occupied-west-bank-kil_20260624_1622.html
-✓ Created comprehensive article: israeli-attacks-on-gaza-and-occupied-west-bank-kil_20260624_1622.html
+Successfully created file: our-life-stops-west-bank-childhood-shattered-by-is_20260624_1853.html
+✓ Created comprehensive article: our-life-stops-west-bank-childhood-shattered-by-is_20260624_1853.html
 
-Processing trending topic: How Colombia’s traditional midwives serve as lifelines to rural communities
-Searching Google for: How Colombia’s traditional midwives serve as lifelines to rural communities
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BColombia%25E2%2580%2599s%252Btraditional%252Bmidwives%252Bserve%252Bas%252Blifelines%252Bto%252Brural%252Bcommunities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUUZ8mGNKI8NEGIjCr-_6lCjth-Ffc_Qmg54ifIKAUwiaEobO43I_GlbMkDpQysUQ30LgSupYaa31sVRMyBmpjbmRyUloBQw
+Processing trending topic: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
+Searching Google for: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIvan%252BCepeda%252Bconcedes%252Bdefeat%252Bin%252BColombia%252Belection%252C%252Bsealing%252Bright-wing%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf_chGLTP8NEGIjA1hNGa2vUtH9YuiPV7TRL2UZ1tYKbOzKkQFcuWfs6FL7T2wrejk43pI80-kLR7aV4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
-Request error for https://cnn.com/news: 404 Client Error: Not Found for url: https://www.cnn.com/news
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-colombias-traditional-midwives-serve-as-lifeli_20260624_1622.html
-✓ Created comprehensive article: how-colombias-traditional-midwives-serve-as-lifeli_20260624_1622.html
+Successfully created file: ivan-cepeda-concedes-defeat-in-colombia-election-s_20260624_1853.html
+✓ Created comprehensive article: ivan-cepeda-concedes-defeat-in-colombia-election-s_20260624_1853.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: play-puts-spotlight-on-kenyas-crisis-of-gender-bas_20260624_0742.html
-Cleaned old post to keep top 30 limit: france-confirms-first-ebola-case-in-doctor-who-had_20260624_1323.html
-Cleaned old post to keep top 30 limit: a-letter-sent-by-worried-staff-shows-why-maternity_20260624_1323.html
+Cleaned old post to keep top 30 limit: peter-murrell-jailed-for-more-than-five-years-for-_20260623_1549.html
+Cleaned old post to keep top 30 limit: israeli-attacks-on-gaza-and-occupied-west-bank-kil_20260624_1622.html
+Cleaned old post to keep top 30 limit: how-colombias-traditional-midwives-serve-as-lifeli_20260624_1622.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What the inquiry into failures at maternity units in Nottingham found
+   • Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli attacks on Gaza and occupied West Bank kill two, including child
+   • Our life stops’: West Bank childhood shattered by Israeli military raids
      Sources: bbc.com, cnn.com, reuters.com
-   • How Colombia’s traditional midwives serve as lifelines to rural communities
+   • Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
      Sources: bbc.com, cnn.com, reuters.com
