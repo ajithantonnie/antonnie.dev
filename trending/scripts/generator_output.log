@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Why this heatwave feels worse than the last one
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: France confirms first Ebola case in doctor who had worked in DRC
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Our life stops’: West Bank childhood shattered by Israeli military raids
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
-Added expanded search topic: Our life stops’: West Bank childhood shattered by Israeli military raids
-Added expanded search topic: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
-Saved 18 topics for 2026-06-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US public health agency concludes hantavirus response as outbreak eases
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Top European leaders vow ‘strong’ support for Ukraine ahead of NATO summit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US judge blocks Trump subpoenas into transgender care at New York hospitals
+Added expanded search topic: US public health agency concludes hantavirus response as outbreak eases
+Added expanded search topic: Top European leaders vow ‘strong’ support for Ukraine ahead of NATO summit
+Added expanded search topic: US judge blocks Trump subpoenas into transgender care at New York hospitals
+Saved 21 topics for 2026-06-24
 Returning 3 unique trending topics:
-  1. Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds (from BBC News)
-  2. Our life stops’: West Bank childhood shattered by Israeli military raids (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US public health agency concludes hantavirus response as outbreak eases (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Top European leaders vow ‘strong’ support for Ukraine ahead of NATO summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US judge blocks Trump subpoenas into transgender care at New York hospitals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
-Searching Google for: Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBabies%252Band%252Bmothers%252Bdied%252Bafter%252B%2527systemic%252Band%252Bsustained%2527%252Bfailings%252C%252Blargest%252BNHS%252Bmaternity%252Breview%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf_chGKfP8NEGIjDYuOvgM8KFiAFaRXwnI0CEvPy4YmaxJlLfJ4l-Gol1A-uyZUwrnbcMFyVSI831gMkyBmpjbmRyUloBQw
+Processing trending topic: US public health agency concludes hantavirus response as outbreak eases
+Searching Google for: US public health agency concludes hantavirus response as outbreak eases
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bpublic%252Bhealth%252Bagency%252Bconcludes%252Bhantavirus%252Bresponse%252Bas%252Boutbreak%252Beases%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKFRGM-G8dEGIjCVF29u0cljItf2YhReIvChQ6JK_y2K370ezHud1DOiWT9uiB1tzYztg7-_168ianAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: babies-and-mothers-died-after-systemic-and-sustain_20260624_1853.html
-✓ Created comprehensive article: babies-and-mothers-died-after-systemic-and-sustain_20260624_1853.html
+Successfully created file: us-public-health-agency-concludes-hantavirus-respo_20260624_2051.html
+✓ Created comprehensive article: us-public-health-agency-concludes-hantavirus-respo_20260624_2051.html
 
-Processing trending topic: Our life stops’: West Bank childhood shattered by Israeli military raids
-Searching Google for: Our life stops’: West Bank childhood shattered by Israeli military raids
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOur%252Blife%252Bstops%25E2%2580%2599%253A%252BWest%252BBank%252Bchildhood%252Bshattered%252Bby%252BIsraeli%252Bmilitary%252Braids%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf_chGK7P8NEGIjCyiY5qnv-jEZdM83u8fFJx-FfeeErkdp5exCSvz5yMN-ZZV9S7BZmFxpKdKSLYiEIyBmpjbmRyUloBQw
+Processing trending topic: Top European leaders vow ‘strong’ support for Ukraine ahead of NATO summit
+Searching Google for: Top European leaders vow ‘strong’ support for Ukraine ahead of NATO summit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTop%252BEuropean%252Bleaders%252Bvow%252B%25E2%2580%2598strong%25E2%2580%2599%252Bsupport%252Bfor%252BUkraine%252Bahead%252Bof%252BNATO%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKFRGNaG8dEGIjCovCHv9FejyXO9QvPY2d_xDj9wIIpbLbLM-PikmPt3nXT3HkPpTJXIeu1fZ09hbwYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: our-life-stops-west-bank-childhood-shattered-by-is_20260624_1853.html
-✓ Created comprehensive article: our-life-stops-west-bank-childhood-shattered-by-is_20260624_1853.html
+Successfully created file: top-european-leaders-vow-strong-support-for-ukrain_20260624_2051.html
+✓ Created comprehensive article: top-european-leaders-vow-strong-support-for-ukrain_20260624_2051.html
 
-Processing trending topic: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
-Searching Google for: Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIvan%252BCepeda%252Bconcedes%252Bdefeat%252Bin%252BColombia%252Belection%252C%252Bsealing%252Bright-wing%252Bwin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf_chGLTP8NEGIjA1hNGa2vUtH9YuiPV7TRL2UZ1tYKbOzKkQFcuWfs6FL7T2wrejk43pI80-kLR7aV4yBmpjbmRyUloBQw
+Processing trending topic: US judge blocks Trump subpoenas into transgender care at New York hospitals
+Searching Google for: US judge blocks Trump subpoenas into transgender care at New York hospitals
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjudge%252Bblocks%252BTrump%252Bsubpoenas%252Binto%252Btransgender%252Bcare%252Bat%252BNew%252BYork%252Bhospitals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKFRGN2G8dEGIjDcACtUTiJHS6BVc3A2HTMCAziENiZyQYZn_sKTv9rJMz8hQX8C9jt-pE6azAOEekwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ivan-cepeda-concedes-defeat-in-colombia-election-s_20260624_1853.html
-✓ Created comprehensive article: ivan-cepeda-concedes-defeat-in-colombia-election-s_20260624_1853.html
+Successfully created file: us-judge-blocks-trump-subpoenas-into-transgender-c_20260624_2051.html
+✓ Created comprehensive article: us-judge-blocks-trump-subpoenas-into-transgender-c_20260624_2051.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: peter-murrell-jailed-for-more-than-five-years-for-_20260623_1549.html
-Cleaned old post to keep top 30 limit: israeli-attacks-on-gaza-and-occupied-west-bank-kil_20260624_1622.html
-Cleaned old post to keep top 30 limit: how-colombias-traditional-midwives-serve-as-lifeli_20260624_1622.html
+Cleaned old post to keep top 30 limit: ivan-cepeda-concedes-defeat-in-colombia-election-s_20260624_1853.html
+Cleaned old post to keep top 30 limit: our-life-stops-west-bank-childhood-shattered-by-is_20260624_1853.html
+Cleaned old post to keep top 30 limit: babies-and-mothers-died-after-systemic-and-sustain_20260624_1853.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Babies and mothers died after 'systemic and sustained' failings, largest NHS maternity review finds
+   • US public health agency concludes hantavirus response as outbreak eases
      Sources: bbc.com, cnn.com, reuters.com
-   • Our life stops’: West Bank childhood shattered by Israeli military raids
+   • Top European leaders vow ‘strong’ support for Ukraine ahead of NATO summit
      Sources: bbc.com, cnn.com, reuters.com
-   • Ivan Cepeda concedes defeat in Colombia election, sealing right-wing win
+   • US judge blocks Trump subpoenas into transgender care at New York hospitals
      Sources: bbc.com, cnn.com, reuters.com
