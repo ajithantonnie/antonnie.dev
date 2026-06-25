@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: King Charles reveals he paid £12.9m in tax for 2024-25
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Constitutional coup’ claims as Zimbabwe senate approves extending presidential term
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Economic losses mount as Venezuela earthquake death toll grows
-Added expanded search topic: Economic losses mount as Venezuela earthquake death toll grows
-Saved 24 topics for 2026-06-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India defeat Bangladesh to maintain Women’s T20 World Cup semifinal bid
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pepe’s brace sends Ivory Coast to first knockouts as Curacao exit World Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ecuador edge Germany 2-1 to squeeze into World Cup last 32
+Added expanded search topic: India defeat Bangladesh to maintain Women’s T20 World Cup semifinal bid
+Added expanded search topic: Pepe’s brace sends Ivory Coast to first knockouts as Curacao exit World Cup
+Added expanded search topic: Ecuador edge Germany 2-1 to squeeze into World Cup last 32
+Saved 27 topics for 2026-06-25
 Returning 3 unique trending topics:
-  1. King Charles reveals he paid £12.9m in tax for 2024-25 (from BBC News)
-  2. King and Queen will not live in Buckingham Palace after renovations (from BBC News)
-  3. Economic losses mount as Venezuela earthquake death toll grows (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. India defeat Bangladesh to maintain Women’s T20 World Cup semifinal bid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Pepe’s brace sends Ivory Coast to first knockouts as Curacao exit World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Ecuador edge Germany 2-1 to squeeze into World Cup last 32 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: King Charles reveals he paid £12.9m in tax for 2024-25
-Searching Google for: King Charles reveals he paid £12.9m in tax for 2024-25
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252BCharles%252Breveals%252Bhe%252Bpaid%252B%25C2%25A312.9m%252Bin%252Btax%252Bfor%252B2024-25%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNpGMrE9tEGIjCBpoeC7KSP5yW-8S9sS3nnTd1nB4nVUdvdluEWgxpcKRc2hhDxQfba9TXwnQUy3pkyBmpjbmRyUloBQw
+Processing trending topic: India defeat Bangladesh to maintain Women’s T20 World Cup semifinal bid
+Searching Google for: India defeat Bangladesh to maintain Women’s T20 World Cup semifinal bid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bdefeat%252BBangladesh%252Bto%252Bmaintain%252BWomen%25E2%2580%2599s%252BT20%252BWorld%252BCup%252Bsemifinal%252Bbid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ1SGOfw9tEGIjAmPrWqB0umiIwT4U63LEVCfppQ-8lDFwt6y1UoDaSxnuqmIhfKMURTRy7ws6fNrMQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: king-charles-reveals-he-paid-129m-in-tax-for-2024-_20260625_2149.html
-✓ Created comprehensive article: king-charles-reveals-he-paid-129m-in-tax-for-2024-_20260625_2149.html
+Successfully created file: india-defeat-bangladesh-to-maintain-womens-t20-wor_20260625_2323.html
+✓ Created comprehensive article: india-defeat-bangladesh-to-maintain-womens-t20-wor_20260625_2323.html
 
-Processing trending topic: King and Queen will not live in Buckingham Palace after renovations
-Searching Google for: King and Queen will not live in Buckingham Palace after renovations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKing%252Band%252BQueen%252Bwill%252Bnot%252Blive%252Bin%252BBuckingham%252BPalace%252Bafter%252Brenovations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNpGNHE9tEGIjDQ8NBAzZKeCS7eN5yXIJF7MF9NLs2auV6T7OaFX_zOfGmWyARCnlPBmyfD_i5WQPUyBmpjbmRyUloBQw
+Processing trending topic: Pepe’s brace sends Ivory Coast to first knockouts as Curacao exit World Cup
+Searching Google for: Pepe’s brace sends Ivory Coast to first knockouts as Curacao exit World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPepe%25E2%2580%2599s%252Bbrace%252Bsends%252BIvory%252BCoast%252Bto%252Bfirst%252Bknockouts%252Bas%252BCuracao%252Bexit%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ1SGO3w9tEGIjDUXVRminQivNH--ma1qHDZNvfoCPXZ5Zb1O6pVk1kyW6vO3f-Cc9fGY2MsLw5AjEEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: king-and-queen-will-not-live-in-buckingham-palace-_20260625_2149.html
-✓ Created comprehensive article: king-and-queen-will-not-live-in-buckingham-palace-_20260625_2149.html
+Successfully created file: pepes-brace-sends-ivory-coast-to-first-knockouts-a_20260625_2323.html
+✓ Created comprehensive article: pepes-brace-sends-ivory-coast-to-first-knockouts-a_20260625_2323.html
 
-Processing trending topic: Economic losses mount as Venezuela earthquake death toll grows
-Searching Google for: Economic losses mount as Venezuela earthquake death toll grows
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEconomic%252Blosses%252Bmount%252Bas%252BVenezuela%252Bearthquake%252Bdeath%252Btoll%252Bgrows%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGNpGNfE9tEGIjBROr8NDmBrCJASiMiHRcCntkGpoyiKGg-l13sapmuSyJX6fs5CwiZpa3gCcZCBcEgyBmpjbmRyUloBQw
+Processing trending topic: Ecuador edge Germany 2-1 to squeeze into World Cup last 32
+Searching Google for: Ecuador edge Germany 2-1 to squeeze into World Cup last 32
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEcuador%252Bedge%252BGermany%252B2-1%252Bto%252Bsqueeze%252Binto%252BWorld%252BCup%252Blast%252B32%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ1SGPPw9tEGIjANedrG_PgtdYoAajiQvgfLJaeNgZiNatihtQEOgnxBniIyOdijWm_JuKKs_oSaZmwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: economic-losses-mount-as-venezuela-earthquake-deat_20260625_2149.html
-✓ Created comprehensive article: economic-losses-mount-as-venezuela-earthquake-deat_20260625_2149.html
+Successfully created file: ecuador-edge-germany-2-1-to-squeeze-into-world-cup_20260625_2323.html
+✓ Created comprehensive article: ecuador-edge-germany-2-1-to-squeeze-into-world-cup_20260625_2323.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: starmer-considers-political-future-as-pressure-to-_20260621_1821.html
-Cleaned old post to keep top 30 limit: magnitude-69-earthquake-strikes-northern-japan_20260625_0901.html
-Cleaned old post to keep top 30 limit: france-warns-even-young-peoples-health-at-risk-as-_20260625_2000.html
+Cleaned old post to keep top 30 limit: venezuela-struggles-to-respond-to-devastating-twin_20260625_1714.html
+Cleaned old post to keep top 30 limit: king-and-queen-will-not-live-in-buckingham-palace-_20260625_2149.html
+Cleaned old post to keep top 30 limit: economic-losses-mount-as-venezuela-earthquake-deat_20260625_2149.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • King Charles reveals he paid £12.9m in tax for 2024-25
+   • India defeat Bangladesh to maintain Women’s T20 World Cup semifinal bid
      Sources: bbc.com, cnn.com, reuters.com
-   • King and Queen will not live in Buckingham Palace after renovations
+   • Pepe’s brace sends Ivory Coast to first knockouts as Curacao exit World Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • Economic losses mount as Venezuela earthquake death toll grows
+   • Ecuador edge Germany 2-1 to squeeze into World Cup last 32
      Sources: bbc.com, cnn.com, reuters.com
