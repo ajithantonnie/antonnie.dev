@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: Moment earthquakes hit airport and buildings in Caracas
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: France confirms first Ebola case in doctor who had worked in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Magnitude 6.9 earthquake strikes northern Japan
-Added expanded search topic: Magnitude 6.9 earthquake strikes northern Japan
-Saved 9 topics for 2026-06-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill Palestinian man during raid on his home
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How minesweeping in the Strait of Hormuz works: A visual guide
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rubio tells Gulf allies that Iran deal will ensure their security
+Added expanded search topic: Israeli forces kill Palestinian man during raid on his home
+Added expanded search topic: How minesweeping in the Strait of Hormuz works: A visual guide
+Added expanded search topic: Rubio tells Gulf allies that Iran deal will ensure their security
+Saved 12 topics for 2026-06-25
 Returning 3 unique trending topics:
-  1. Watch: Moment earthquakes hit airport and buildings in Caracas (from BBC News)
-  2. How to cope in a heatwave - according to you (from BBC News)
-  3. Magnitude 6.9 earthquake strikes northern Japan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israeli forces kill Palestinian man during raid on his home (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. How minesweeping in the Strait of Hormuz works: A visual guide (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Rubio tells Gulf allies that Iran deal will ensure their security (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: Moment earthquakes hit airport and buildings in Caracas
-Searching Google for: Watch: Moment earthquakes hit airport and buildings in Caracas
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMoment%252Bearthquakes%252Bhit%252Bairport%252Band%252Bbuildings%252Bin%252BCaracas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2bSFGNTc89EGIjCGOTGmWxIqrtz58fg7ZP4lndt9EwKLtT00lUpNm1PJe2JtiyZhvfmB_tuIAINVl6oyBmpjbmRyUloBQw
+Processing trending topic: Israeli forces kill Palestinian man during raid on his home
+Searching Google for: Israeli forces kill Palestinian man during raid on his home
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-moment-earthquakes-hit-airport-and-buildings_20260625_0901.html
-✓ Created comprehensive article: watch-moment-earthquakes-hit-airport-and-buildings_20260625_0901.html
+Successfully created file: israeli-forces-kill-palestinian-man-during-raid-on_20260625_1145.html
+✓ Created comprehensive article: israeli-forces-kill-palestinian-man-during-raid-on_20260625_1145.html
 
-Processing trending topic: How to cope in a heatwave - according to you
-Searching Google for: How to cope in a heatwave - according to you
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bto%252Bcope%252Bin%252Ba%252Bheatwave%252B-%252Baccording%252Bto%252Byou%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2bSFGNvc89EGIjARapdAKOgoRRKLjJh3rKzH8MQ6ybrNhyY-FoTPAEzf58omPcjUBu7WXnrLeguYnSIyBmpjbmRyUloBQw
+Processing trending topic: How minesweeping in the Strait of Hormuz works: A visual guide
+Searching Google for: How minesweeping in the Strait of Hormuz works: A visual guide
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bminesweeping%252Bin%252Bthe%252BStrait%252Bof%252BHormuz%252Bworks%253A%252BA%252Bvisual%252Bguide%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0GGPmp9NEGIjDre1z4qytJ-52_U6YOEGKaya64xniTf_rRFBNhOfdDcYxytn4whgOPkHlBh9wCq1UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-to-cope-in-a-heatwave-according-to-you_20260625_0901.html
-✓ Created comprehensive article: how-to-cope-in-a-heatwave-according-to-you_20260625_0901.html
+Successfully created file: how-minesweeping-in-the-strait-of-hormuz-works-a-v_20260625_1146.html
+✓ Created comprehensive article: how-minesweeping-in-the-strait-of-hormuz-works-a-v_20260625_1146.html
 
-Processing trending topic: Magnitude 6.9 earthquake strikes northern Japan
-Searching Google for: Magnitude 6.9 earthquake strikes northern Japan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMagnitude%252B6.9%252Bearthquake%252Bstrikes%252Bnorthern%252BJapan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2bSFGOHc89EGIjBlplsTI54-NqV4Nn_4P6Xgczx0lBj-yqZCINLK_kB8CwtPtxEM22DG05r6cxTGp6YyBmpjbmRyUloBQw
+Processing trending topic: Rubio tells Gulf allies that Iran deal will ensure their security
+Searching Google for: Rubio tells Gulf allies that Iran deal will ensure their security
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%252Btells%252BGulf%252Ballies%252Bthat%252BIran%252Bdeal%252Bwill%252Bensure%252Btheir%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0GGP-p9NEGIjBsdE3nnh2hWFTEu_H3fQsGTZ-s467biXJEu9IXGPx2jcFJUrqFOjwC4esA3HPXWCgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: magnitude-69-earthquake-strikes-northern-japan_20260625_0901.html
-✓ Created comprehensive article: magnitude-69-earthquake-strikes-northern-japan_20260625_0901.html
+Successfully created file: rubio-tells-gulf-allies-that-iran-deal-will-ensure_20260625_1146.html
+✓ Created comprehensive article: rubio-tells-gulf-allies-that-iran-deal-will-ensure_20260625_1146.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: moment-quakes-hit-venezuela-causing-people-to-rush_20260625_0506.html
-Cleaned old post to keep top 30 limit: us-judge-blocks-trump-subpoenas-into-transgender-c_20260624_2051.html
-Cleaned old post to keep top 30 limit: scotland-fans-face-anxious-world-cup-wait-after-br_20260625_0507.html
+Cleaned old post to keep top 30 limit: watch-moment-earthquakes-hit-airport-and-buildings_20260625_0901.html
+Cleaned old post to keep top 30 limit: why-this-heatwave-feels-worse-than-the-last-one_20260625_0014.html
+Cleaned old post to keep top 30 limit: how-to-cope-in-a-heatwave-according-to-you_20260625_0901.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: Moment earthquakes hit airport and buildings in Caracas
+   • Israeli forces kill Palestinian man during raid on his home
      Sources: bbc.com, cnn.com, reuters.com
-   • How to cope in a heatwave - according to you
+   • How minesweeping in the Strait of Hormuz works: A visual guide
      Sources: bbc.com, cnn.com, reuters.com
-   • Magnitude 6.9 earthquake strikes northern Japan
+   • Rubio tells Gulf allies that Iran deal will ensure their security
      Sources: bbc.com, cnn.com, reuters.com
