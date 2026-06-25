@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Europe's heatwave shifts east as France raises health alert to highest level
@@ -8,62 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: France confirms first Ebola case in doctor who had worked in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: ‘Constitutional coup’ claims as Zimbabwe senate approves extending presidential term
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deconfliction and disarmament: Can both be pursued in Lebanon?
-Added expanded search topic: Deconfliction and disarmament: Can both be pursued in Lebanon?
-Saved 15 topics for 2026-06-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela struggles to respond to devastating twin earthquakes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rubio: Gulf countries don’t support Strait of Hormuz tolls
+Added expanded search topic: Venezuela struggles to respond to devastating twin earthquakes
+Added expanded search topic: Rubio: Gulf countries don’t support Strait of Hormuz tolls
+Saved 18 topics for 2026-06-25
 Returning 3 unique trending topics:
-  1. Europe's heatwave shifts east as France raises health alert to highest level (from BBC News)
-  2. People flee as building collapses on Caracas outskirts (from BBC News)
-  3. Deconfliction and disarmament: Can both be pursued in Lebanon? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. ‘Constitutional coup’ claims as Zimbabwe senate approves extending presidential term (from The Guardian)
+  2. Venezuela struggles to respond to devastating twin earthquakes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Rubio: Gulf countries don’t support Strait of Hormuz tolls (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Europe's heatwave shifts east as France raises health alert to highest level
-Searching Google for: Europe's heatwave shifts east as France raises health alert to highest level
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: ‘Constitutional coup’ claims as Zimbabwe senate approves extending presidential term
+Searching Google for: ‘Constitutional coup’ claims as Zimbabwe senate approves extending presidential term
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Constitutional%252Bcoup%25E2%2580%2599%252Bclaims%252Bas%252BZimbabwe%252Bsenate%252Bapproves%252Bextending%252Bpresidential%252Bterm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZkyGPbD9dEGIjD_AHKDn8yXNJFWEwRb_Ttuwa629P1typoSfzY4GN3OlY9dy6cc7NXTgso-Nvx1ASIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: europes-heatwave-shifts-east-as-france-raises-heal_20260625_1431.html
-✓ Created comprehensive article: europes-heatwave-shifts-east-as-france-raises-heal_20260625_1431.html
+Successfully created file: constitutional-coup-claims-as-zimbabwe-senate-appr_20260625_1714.html
+✓ Created comprehensive article: constitutional-coup-claims-as-zimbabwe-senate-appr_20260625_1714.html
 
-Processing trending topic: People flee as building collapses on Caracas outskirts
-Searching Google for: People flee as building collapses on Caracas outskirts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bflee%252Bas%252Bbuilding%252Bcollapses%252Bon%252BCaracas%252Boutskirts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGJH49NEGIjBfvIBaKyig2zJ4YXAn8ifkk6003Rl4k8_dVq7ky08Mp_kvECSVIPIx6G2X7bVw5q0yBmpjbmRyUloBQw
+Processing trending topic: Venezuela struggles to respond to devastating twin earthquakes
+Searching Google for: Venezuela struggles to respond to devastating twin earthquakes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%252Bstruggles%252Bto%252Brespond%252Bto%252Bdevastating%252Btwin%252Bearthquakes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZkyGP3D9dEGIjDwwnwcKRSWCQ3cFcFRncuR4x7lHUbyoYVjpw7fPDloHLQUFFwNpe3vQ5ZN78rlCcAyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: people-flee-as-building-collapses-on-caracas-outsk_20260625_1432.html
-✓ Created comprehensive article: people-flee-as-building-collapses-on-caracas-outsk_20260625_1432.html
+Successfully created file: venezuela-struggles-to-respond-to-devastating-twin_20260625_1714.html
+✓ Created comprehensive article: venezuela-struggles-to-respond-to-devastating-twin_20260625_1714.html
 
-Processing trending topic: Deconfliction and disarmament: Can both be pursued in Lebanon?
-Searching Google for: Deconfliction and disarmament: Can both be pursued in Lebanon?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeconfliction%252Band%252Bdisarmament%253A%252BCan%252Bboth%252Bbe%252Bpursued%252Bin%252BLebanon%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGJj49NEGIjCGNHSspucKHpmrcdlN7mY5o2v1fP4WeQAeOd7iS5mX9qX2pLP3OGlu0b-eCbfrXlcyBmpjbmRyUloBQw
+Processing trending topic: Rubio: Gulf countries don’t support Strait of Hormuz tolls
+Searching Google for: Rubio: Gulf countries don’t support Strait of Hormuz tolls
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%253A%252BGulf%252Bcountries%252Bdon%25E2%2580%2599t%252Bsupport%252BStrait%252Bof%252BHormuz%252Btolls%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUGZkyGIPE9dEGIjBGdYjJm46KO6cTx_iXwX6fS71e78Qfqtl1PFvXUJ5BiG0dQURJl4rVAhWjjaaF80oyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: deconfliction-and-disarmament-can-both-be-pursued-_20260625_1433.html
-✓ Created comprehensive article: deconfliction-and-disarmament-can-both-be-pursued-_20260625_1433.html
+Successfully created file: rubio-gulf-countries-dont-support-strait-of-hormuz_20260625_1714.html
+✓ Created comprehensive article: rubio-gulf-countries-dont-support-strait-of-hormuz_20260625_1714.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israeli-forces-kill-palestinian-man-during-raid-on_20260625_1145.html
-Cleaned old post to keep top 30 limit: rubio-tells-gulf-allies-that-iran-deal-will-ensure_20260625_1146.html
-Cleaned old post to keep top 30 limit: how-minesweeping-in-the-strait-of-hormuz-works-a-v_20260625_1146.html
+Cleaned old post to keep top 30 limit: why-did-starmer-resign-and-what-could-happen-next_20260622_1251.html
+Cleaned old post to keep top 30 limit: people-flee-as-building-collapses-on-caracas-outsk_20260625_1432.html
+Cleaned old post to keep top 30 limit: deconfliction-and-disarmament-can-both-be-pursued-_20260625_1433.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Europe's heatwave shifts east as France raises health alert to highest level
+   • ‘Constitutional coup’ claims as Zimbabwe senate approves extending presidential term
      Sources: bbc.com, cnn.com, reuters.com
-   • People flee as building collapses on Caracas outskirts
+   • Venezuela struggles to respond to devastating twin earthquakes
      Sources: bbc.com, cnn.com, reuters.com
-   • Deconfliction and disarmament: Can both be pursued in Lebanon?
+   • Rubio: Gulf countries don’t support Strait of Hormuz tolls
      Sources: bbc.com, cnn.com, reuters.com
