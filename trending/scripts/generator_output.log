@@ -1,73 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Watch: Moment earthquakes hit airport and buildings in Caracas
-  Added: How to cope in a heatwave - according to you
+  Added: Europe's heatwave shifts east as France raises health alert to highest level
+  Added: People flee as building collapses on Caracas outskirts
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: France confirms first Ebola case in doctor who had worked in DRC
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces kill Palestinian man during raid on his home
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How minesweeping in the Strait of Hormuz works: A visual guide
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rubio tells Gulf allies that Iran deal will ensure their security
-Added expanded search topic: Israeli forces kill Palestinian man during raid on his home
-Added expanded search topic: How minesweeping in the Strait of Hormuz works: A visual guide
-Added expanded search topic: Rubio tells Gulf allies that Iran deal will ensure their security
-Saved 12 topics for 2026-06-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deconfliction and disarmament: Can both be pursued in Lebanon?
+Added expanded search topic: Deconfliction and disarmament: Can both be pursued in Lebanon?
+Saved 15 topics for 2026-06-25
 Returning 3 unique trending topics:
-  1. Israeli forces kill Palestinian man during raid on his home (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. How minesweeping in the Strait of Hormuz works: A visual guide (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Rubio tells Gulf allies that Iran deal will ensure their security (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Europe's heatwave shifts east as France raises health alert to highest level (from BBC News)
+  2. People flee as building collapses on Caracas outskirts (from BBC News)
+  3. Deconfliction and disarmament: Can both be pursued in Lebanon? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Israeli forces kill Palestinian man during raid on his home
-Searching Google for: Israeli forces kill Palestinian man during raid on his home
+Processing trending topic: Europe's heatwave shifts east as France raises health alert to highest level
+Searching Google for: Europe's heatwave shifts east as France raises health alert to highest level
 Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-forces-kill-palestinian-man-during-raid-on_20260625_1145.html
-✓ Created comprehensive article: israeli-forces-kill-palestinian-man-during-raid-on_20260625_1145.html
+Successfully created file: europes-heatwave-shifts-east-as-france-raises-heal_20260625_1431.html
+✓ Created comprehensive article: europes-heatwave-shifts-east-as-france-raises-heal_20260625_1431.html
 
-Processing trending topic: How minesweeping in the Strait of Hormuz works: A visual guide
-Searching Google for: How minesweeping in the Strait of Hormuz works: A visual guide
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bminesweeping%252Bin%252Bthe%252BStrait%252Bof%252BHormuz%252Bworks%253A%252BA%252Bvisual%252Bguide%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0GGPmp9NEGIjDre1z4qytJ-52_U6YOEGKaya64xniTf_rRFBNhOfdDcYxytn4whgOPkHlBh9wCq1UyBmpjbmRyUloBQw
+Processing trending topic: People flee as building collapses on Caracas outskirts
+Searching Google for: People flee as building collapses on Caracas outskirts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bflee%252Bas%252Bbuilding%252Bcollapses%252Bon%252BCaracas%252Boutskirts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGJH49NEGIjBfvIBaKyig2zJ4YXAn8ifkk6003Rl4k8_dVq7ky08Mp_kvECSVIPIx6G2X7bVw5q0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-minesweeping-in-the-strait-of-hormuz-works-a-v_20260625_1146.html
-✓ Created comprehensive article: how-minesweeping-in-the-strait-of-hormuz-works-a-v_20260625_1146.html
+Successfully created file: people-flee-as-building-collapses-on-caracas-outsk_20260625_1432.html
+✓ Created comprehensive article: people-flee-as-building-collapses-on-caracas-outsk_20260625_1432.html
 
-Processing trending topic: Rubio tells Gulf allies that Iran deal will ensure their security
-Searching Google for: Rubio tells Gulf allies that Iran deal will ensure their security
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRubio%252Btells%252BGulf%252Ballies%252Bthat%252BIran%252Bdeal%252Bwill%252Bensure%252Btheir%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0GGP-p9NEGIjBsdE3nnh2hWFTEu_H3fQsGTZ-s467biXJEu9IXGPx2jcFJUrqFOjwC4esA3HPXWCgyBmpjbmRyUloBQw
+Processing trending topic: Deconfliction and disarmament: Can both be pursued in Lebanon?
+Searching Google for: Deconfliction and disarmament: Can both be pursued in Lebanon?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeconfliction%252Band%252Bdisarmament%253A%252BCan%252Bboth%252Bbe%252Bpursued%252Bin%252BLebanon%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGJj49NEGIjCGNHSspucKHpmrcdlN7mY5o2v1fP4WeQAeOd7iS5mX9qX2pLP3OGlu0b-eCbfrXlcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rubio-tells-gulf-allies-that-iran-deal-will-ensure_20260625_1146.html
-✓ Created comprehensive article: rubio-tells-gulf-allies-that-iran-deal-will-ensure_20260625_1146.html
+Successfully created file: deconfliction-and-disarmament-can-both-be-pursued-_20260625_1433.html
+✓ Created comprehensive article: deconfliction-and-disarmament-can-both-be-pursued-_20260625_1433.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-moment-earthquakes-hit-airport-and-buildings_20260625_0901.html
-Cleaned old post to keep top 30 limit: why-this-heatwave-feels-worse-than-the-last-one_20260625_0014.html
-Cleaned old post to keep top 30 limit: how-to-cope-in-a-heatwave-according-to-you_20260625_0901.html
+Cleaned old post to keep top 30 limit: israeli-forces-kill-palestinian-man-during-raid-on_20260625_1145.html
+Cleaned old post to keep top 30 limit: rubio-tells-gulf-allies-that-iran-deal-will-ensure_20260625_1146.html
+Cleaned old post to keep top 30 limit: how-minesweeping-in-the-strait-of-hormuz-works-a-v_20260625_1146.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israeli forces kill Palestinian man during raid on his home
+   • Europe's heatwave shifts east as France raises health alert to highest level
      Sources: bbc.com, cnn.com, reuters.com
-   • How minesweeping in the Strait of Hormuz works: A visual guide
+   • People flee as building collapses on Caracas outskirts
      Sources: bbc.com, cnn.com, reuters.com
-   • Rubio tells Gulf allies that Iran deal will ensure their security
+   • Deconfliction and disarmament: Can both be pursued in Lebanon?
      Sources: bbc.com, cnn.com, reuters.com
