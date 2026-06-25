@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: UK sees hottest June day on record as 36.1C recorded in Hampshire
-  Added: Why this heatwave feels worse than the last one
+  Added: Moment quakes hit Venezuela, causing people to rush on to streets
+  Added: Scotland fans face anxious World Cup wait after bruising Brazil defeat
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: France confirms first Ebola case in doctor who had worked in DRC
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-25
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands feared dead as twin earthquakes cause devastation across Venezuel
+Added expanded search topic: Thousands feared dead as twin earthquakes cause devastation across Venezuel
+Saved 6 topics for 2026-06-25
 Returning 3 unique trending topics:
-  1. UK sees hottest June day on record as 36.1C recorded in Hampshire (from BBC News)
-  2. Why this heatwave feels worse than the last one (from BBC News)
-  3. France confirms first Ebola case in doctor who had worked in DRC (from The Guardian)
+  1. Moment quakes hit Venezuela, causing people to rush on to streets (from BBC News)
+  2. Scotland fans face anxious World Cup wait after bruising Brazil defeat (from BBC News)
+  3. Thousands feared dead as twin earthquakes cause devastation across Venezuel (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK sees hottest June day on record as 36.1C recorded in Hampshire
-Searching Google for: UK sees hottest June day on record as 36.1C recorded in Hampshire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bsees%252Bhottest%252BJune%252Bday%252Bon%252Brecord%252Bas%252B36.1C%252Brecorded%252Bin%252BHampshire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gJXGObl8dEGIjDj280o-04R_Sdlx3TnyQDJfqnxnZdlKfR1fSBCuF1L-0nyFa1Y04QmtQHP67tpHN4yBmpjbmRyUloBQw
+Processing trending topic: Moment quakes hit Venezuela, causing people to rush on to streets
+Searching Google for: Moment quakes hit Venezuela, causing people to rush on to streets
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoment%252Bquakes%252Bhit%252BVenezuela%252C%252Bcausing%252Bpeople%252Bto%252Brush%252Bon%252Bto%252Bstreets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MkpGOru8tEGIjBLHDbIlWRtoPKPwElPm0p4fAHHmBSmy2pzQ_Uhl1ckDNiQMZahIWBca7L-Jh-RsoEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-sees-hottest-june-day-on-record-as-361c-recorde_20260625_0014.html
-✓ Created comprehensive article: uk-sees-hottest-june-day-on-record-as-361c-recorde_20260625_0014.html
+Successfully created file: moment-quakes-hit-venezuela-causing-people-to-rush_20260625_0506.html
+✓ Created comprehensive article: moment-quakes-hit-venezuela-causing-people-to-rush_20260625_0506.html
 
-Processing trending topic: Why this heatwave feels worse than the last one
-Searching Google for: Why this heatwave feels worse than the last one
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bthis%252Bheatwave%252Bfeels%252Bworse%252Bthan%252Bthe%252Blast%252Bone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gJXGOzl8dEGIjCtxOXSScBJaUf-rqH_zWjulBs9zDB_Y1uVbnRC0bQzEpJvPyXGMqA_fkSzmhmcs3gyBmpjbmRyUloBQw
+Processing trending topic: Scotland fans face anxious World Cup wait after bruising Brazil defeat
+Searching Google for: Scotland fans face anxious World Cup wait after bruising Brazil defeat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DScotland%252Bfans%252Bface%252Banxious%252BWorld%252BCup%252Bwait%252Bafter%252Bbruising%252BBrazil%252Bdefeat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MkpGPHu8tEGIjB3LhRgC602IQ2t74uEc9r-OVxEhvh_pZp8rHrMk2Wr7dTbhX1MLeWL6iB67PkdTksyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-this-heatwave-feels-worse-than-the-last-one_20260625_0014.html
-✓ Created comprehensive article: why-this-heatwave-feels-worse-than-the-last-one_20260625_0014.html
+Successfully created file: scotland-fans-face-anxious-world-cup-wait-after-br_20260625_0507.html
+✓ Created comprehensive article: scotland-fans-face-anxious-world-cup-wait-after-br_20260625_0507.html
 
-Processing trending topic: France confirms first Ebola case in doctor who had worked in DRC
-Searching Google for: France confirms first Ebola case in doctor who had worked in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Bconfirms%252Bfirst%252BEbola%252Bcase%252Bin%252Bdoctor%252Bwho%252Bhad%252Bworked%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gJXGPLl8dEGIjBZ_FVXX40n9D31vEOITDlwjCk9JFBAsH0IAMAP2a2FdU4Z0jBrxz3EhYvSS3v02tUyBmpjbmRyUloBQw
+Processing trending topic: Thousands feared dead as twin earthquakes cause devastation across Venezuel
+Searching Google for: Thousands feared dead as twin earthquakes cause devastation across Venezuel
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bfeared%252Bdead%252Bas%252Btwin%252Bearthquakes%252Bcause%252Bdevastation%252Bacross%252BVenezuel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MkpGPfu8tEGIjAqQoUBKSU6rDXpdRRzuzhKMUrUQb0_260woJFUKUz8aSYPMv0RG6bbO_1SXKRkSCsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: france-confirms-first-ebola-case-in-doctor-who-had_20260625_0014.html
-✓ Created comprehensive article: france-confirms-first-ebola-case-in-doctor-who-had_20260625_0014.html
+Successfully created file: thousands-feared-dead-as-twin-earthquakes-cause-de_20260625_0507.html
+✓ Created comprehensive article: thousands-feared-dead-as-twin-earthquakes-cause-de_20260625_0507.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: top-european-leaders-vow-strong-support-for-ukrain_20260624_2051.html
-Cleaned old post to keep top 30 limit: qatars-madibo-banned-for-5-games-after-breaking-le_20260624_2219.html
-Cleaned old post to keep top 30 limit: bosnia-win-3-2-knock-out-qatar-to-keep-alive-hopes_20260624_2219.html
+Cleaned old post to keep top 30 limit: uk-sees-hottest-june-day-on-record-as-361c-recorde_20260624_2219.html
+Cleaned old post to keep top 30 limit: uk-sees-hottest-june-day-on-record-as-361c-recorde_20260625_0014.html
+Cleaned old post to keep top 30 limit: france-confirms-first-ebola-case-in-doctor-who-had_20260625_0014.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK sees hottest June day on record as 36.1C recorded in Hampshire
+   • Moment quakes hit Venezuela, causing people to rush on to streets
      Sources: bbc.com, cnn.com, reuters.com
-   • Why this heatwave feels worse than the last one
+   • Scotland fans face anxious World Cup wait after bruising Brazil defeat
      Sources: bbc.com, cnn.com, reuters.com
-   • France confirms first Ebola case in doctor who had worked in DRC
+   • Thousands feared dead as twin earthquakes cause devastation across Venezuel
      Sources: bbc.com, cnn.com, reuters.com
