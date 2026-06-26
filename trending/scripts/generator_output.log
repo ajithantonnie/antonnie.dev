@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Hottest June day record broken for third day in row as temperature hits 37.3C
-  Added: Court rules 13 men who allegedly helped rapist drug and abuse wife can be named
+  Added: US conducts strikes on Iran after attack on cargo ship
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Uruguay vs Spain LIVE: World Cup 2026
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US federal judge questions DOJ decision to drop Adani charges
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli attack on car in central Gaza kills three Palestinians
-Added expanded search topic: Uruguay vs Spain LIVE: World Cup 2026
-Added expanded search topic: US federal judge questions DOJ decision to drop Adani charges
-Added expanded search topic: Israeli attack on car in central Gaza kills three Palestinians
-Saved 21 topics for 2026-06-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands of migrants flee South Africa ahead of anti-immigrant protests
+Added expanded search topic: Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026
+Added expanded search topic: Thousands of migrants flee South Africa ahead of anti-immigrant protests
+Saved 24 topics for 2026-06-26
 Returning 3 unique trending topics:
-  1. Uruguay vs Spain LIVE: World Cup 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. US federal judge questions DOJ decision to drop Adani charges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli attack on car in central Gaza kills three Palestinians (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US conducts strikes on Iran after attack on cargo ship (from BBC News)
+  2. Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Thousands of migrants flee South Africa ahead of anti-immigrant protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Uruguay vs Spain LIVE: World Cup 2026
-Searching Google for: Uruguay vs Spain LIVE: World Cup 2026
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUruguay%252Bvs%252BSpain%252BLIVE%253A%252BWorld%252BCup%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeFRbGInL-9EGIjAwDeNCi6smgDH2zlBiyZzC4prk7HNn82tJw4XHhlGPmcp7evuy9r_hYhIFo222EsAyBmpjbmRyUloBQw
+Processing trending topic: US conducts strikes on Iran after attack on cargo ship
+Searching Google for: US conducts strikes on Iran after attack on cargo ship
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uruguay-vs-spain-live-world-cup-2026_20260626_2048.html
-✓ Created comprehensive article: uruguay-vs-spain-live-world-cup-2026_20260626_2048.html
+Successfully created file: us-conducts-strikes-on-iran-after-attack-on-cargo-_20260626_2214.html
+✓ Created comprehensive article: us-conducts-strikes-on-iran-after-attack-on-cargo-_20260626_2214.html
 
-Processing trending topic: US federal judge questions DOJ decision to drop Adani charges
-Searching Google for: US federal judge questions DOJ decision to drop Adani charges
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bfederal%252Bjudge%252Bquestions%252BDOJ%252Bdecision%252Bto%252Bdrop%252BAdani%252Bcharges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeFRbGJDL-9EGIjB3yvqgo_VP0g1wqfj0MIHzF1AAidhJt90yqu77V2WFXdMGV-JJizwM6B2aSwJPz4AyBmpjbmRyUloBQw
+Processing trending topic: Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026
+Searching Google for: Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDembele%252Bscores%252Bhat-trick%252Bas%252BFrance%252Bbeat%252BNorway%252B4-1%252Bat%252BWorld%252BCup%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzTGJX0-9EGIjCEYaMCZhxywxBKFpnYVR4zyRYQ6eFZrnw-dYXG_Wu6hhak1SN1IQc8c6uxsT_qoTsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-federal-judge-questions-doj-decision-to-drop-ad_20260626_2048.html
-✓ Created comprehensive article: us-federal-judge-questions-doj-decision-to-drop-ad_20260626_2048.html
+Successfully created file: dembele-scores-hat-trick-as-france-beat-norway-4-1_20260626_2215.html
+✓ Created comprehensive article: dembele-scores-hat-trick-as-france-beat-norway-4-1_20260626_2215.html
 
-Processing trending topic: Israeli attack on car in central Gaza kills three Palestinians
-Searching Google for: Israeli attack on car in central Gaza kills three Palestinians
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Battack%252Bon%252Bcar%252Bin%252Bcentral%252BGaza%252Bkills%252Bthree%252BPalestinians%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeFRbGJbL-9EGIjDtKv8F1i2FNtX4eCVpzGceCnKvFFGaB_IwHPBeu0Np0B2Wl3BY45rhEUB8QJduD8MyBmpjbmRyUloBQw
+Processing trending topic: Thousands of migrants flee South Africa ahead of anti-immigrant protests
+Searching Google for: Thousands of migrants flee South Africa ahead of anti-immigrant protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bof%252Bmigrants%252Bflee%252BSouth%252BAfrica%252Bahead%252Bof%252Banti-immigrant%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzTGJz0-9EGIjAmZDr6Pzf677-xJtMCP0PeavLvmyXkzqnliGo7vUsBteQdgj0ktOoZLRUf3my_h6IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-attack-on-car-in-central-gaza-kills-three-_20260626_2048.html
-✓ Created comprehensive article: israeli-attack-on-car-in-central-gaza-kills-three-_20260626_2048.html
+Successfully created file: thousands-of-migrants-flee-south-africa-ahead-of-a_20260626_2216.html
+✓ Created comprehensive article: thousands-of-migrants-flee-south-africa-ahead-of-a_20260626_2216.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: king-charles-becomes-first-monarch-to-reveal-tax-b_20260626_0753.html
-Cleaned old post to keep top 30 limit: rescuers-race-to-find-survivors-of-venezuelan-eart_20260626_1854.html
-Cleaned old post to keep top 30 limit: hottest-june-day-record-broken-for-third-day-in-ro_20260626_1854.html
+Cleaned old post to keep top 30 limit: uruguay-vs-spain-live-world-cup-2026_20260626_2048.html
+Cleaned old post to keep top 30 limit: us-federal-judge-questions-doj-decision-to-drop-ad_20260626_2048.html
+Cleaned old post to keep top 30 limit: israeli-attack-on-car-in-central-gaza-kills-three-_20260626_2048.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Uruguay vs Spain LIVE: World Cup 2026
+   • US conducts strikes on Iran after attack on cargo ship
      Sources: bbc.com, cnn.com, reuters.com
-   • US federal judge questions DOJ decision to drop Adani charges
+   • Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli attack on car in central Gaza kills three Palestinians
+   • Thousands of migrants flee South Africa ahead of anti-immigrant protests
      Sources: bbc.com, cnn.com, reuters.com
