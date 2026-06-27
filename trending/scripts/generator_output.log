@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: In Caracas, this feels like the hardest moment in Venezuela's modern history
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia to double fines on Big Tech as children bypass social media ban
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How is framework agreement with Lebanon viewed in Israel?
-Added expanded search topic: Australia to double fines on Big Tech as children bypass social media ban
-Added expanded search topic: How is framework agreement with Lebanon viewed in Israel?
-Saved 24 topics for 2026-06-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is Crimea critical to the Russia–Ukraine war?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel orders troops to prepare for ‘extended stay’ in Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Senate challenger, incumbent with same name to appear on Alaska ballot
+Added expanded search topic: Why is Crimea critical to the Russia–Ukraine war?
+Added expanded search topic: Israel orders troops to prepare for ‘extended stay’ in Lebanon
+Added expanded search topic: US Senate challenger, incumbent with same name to appear on Alaska ballot
+Saved 27 topics for 2026-06-27
 Returning 3 unique trending topics:
-  1. Thunderstorms delay hundreds of Heathrow and Gatwick flights (from BBC News)
-  2. Australia to double fines on Big Tech as children bypass social media ban (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. How is framework agreement with Lebanon viewed in Israel? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Why is Crimea critical to the Russia–Ukraine war? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israel orders troops to prepare for ‘extended stay’ in Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US Senate challenger, incumbent with same name to appear on Alaska ballot (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Thunderstorms delay hundreds of Heathrow and Gatwick flights
-Searching Google for: Thunderstorms delay hundreds of Heathrow and Gatwick flights
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThunderstorms%252Bdelay%252Bhundreds%252Bof%252BHeathrow%252Band%252BGatwick%252Bflights%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGLehgNIGIjD1f-iOtzfZkRhUfv07vQ6vrwRSA_c_LDj4rB6iqJlA3bY-ajhpAosPc1YFMvWuO4MyBmpjbmRyUloBQw
+Processing trending topic: Why is Crimea critical to the Russia–Ukraine war?
+Searching Google for: Why is Crimea critical to the Russia–Ukraine war?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BCrimea%252Bcritical%252Bto%252Bthe%252BRussia%25E2%2580%2593Ukraine%252Bwar%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUhGJfcgNIGIjDSJlfRMvZ5b84SBauD1lHih_h1pcb84vo3pXS96OpiixvokCkyrtPfF1Vqc-_Wp7gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thunderstorms-delay-hundreds-of-heathrow-and-gatwi_20260627_1804.html
-✓ Created comprehensive article: thunderstorms-delay-hundreds-of-heathrow-and-gatwi_20260627_1804.html
+Successfully created file: why-is-crimea-critical-to-the-russiaukraine-war_20260627_2010.html
+✓ Created comprehensive article: why-is-crimea-critical-to-the-russiaukraine-war_20260627_2010.html
 
-Processing trending topic: Australia to double fines on Big Tech as children bypass social media ban
-Searching Google for: Australia to double fines on Big Tech as children bypass social media ban
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bto%252Bdouble%252Bfines%252Bon%252BBig%252BTech%252Bas%252Bchildren%252Bbypass%252Bsocial%252Bmedia%252Bban%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGL2hgNIGIjDu7o3Bm_GZ0iEwE3ZoTxGFCZP-H0eSwJMcaEE4JBvmq0_QsJE7NvURtesWOLkh7pkyBmpjbmRyUloBQw
+Processing trending topic: Israel orders troops to prepare for ‘extended stay’ in Lebanon
+Searching Google for: Israel orders troops to prepare for ‘extended stay’ in Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Borders%252Btroops%252Bto%252Bprepare%252Bfor%252B%25E2%2580%2598extended%252Bstay%25E2%2580%2599%252Bin%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUhGJ_cgNIGIjBDTDskOOwOpwTWhNZit-3WpUzKVbbJsLrpvN7qqsnrk3mCQVZIlypffsWmANM2MgsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: australia-to-double-fines-on-big-tech-as-children-_20260627_1804.html
-✓ Created comprehensive article: australia-to-double-fines-on-big-tech-as-children-_20260627_1804.html
+Successfully created file: israel-orders-troops-to-prepare-for-extended-stay-_20260627_2010.html
+✓ Created comprehensive article: israel-orders-troops-to-prepare-for-extended-stay-_20260627_2010.html
 
-Processing trending topic: How is framework agreement with Lebanon viewed in Israel?
-Searching Google for: How is framework agreement with Lebanon viewed in Israel?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bis%252Bframework%252Bagreement%252Bwith%252BLebanon%252Bviewed%252Bin%252BIsrael%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGMShgNIGIjBxtzL8mJ6_yNC0PD7OkoBUvjuePIhHyGw1IW2dXTs9S1JamDHkORdKXmi9WMTRTg0yBmpjbmRyUloBQw
+Processing trending topic: US Senate challenger, incumbent with same name to appear on Alaska ballot
+Searching Google for: US Senate challenger, incumbent with same name to appear on Alaska ballot
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BSenate%252Bchallenger%252C%252Bincumbent%252Bwith%252Bsame%252Bname%252Bto%252Bappear%252Bon%252BAlaska%252Bballot%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmnUhGKXcgNIGIjBfaBwuaxYE0szjMAyEWUDz1rUEtK3FywMsZE10_7_FytPPuWhuUe3dN7CzCQa4sqAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-is-framework-agreement-with-lebanon-viewed-in-_20260627_1804.html
-✓ Created comprehensive article: how-is-framework-agreement-with-lebanon-viewed-in-_20260627_1804.html
+Successfully created file: us-senate-challenger-incumbent-with-same-name-to-a_20260627_2010.html
+✓ Created comprehensive article: us-senate-challenger-incumbent-with-same-name-to-a_20260627_2010.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: somali-intelligence-helps-us-arrest-alleged-ringle_20260627_0751.html
-Cleaned old post to keep top 30 limit: hezbollah-rejects-israel-lebanon-agreement-as-isra_20260627_1606.html
-Cleaned old post to keep top 30 limit: bosnia-the-lilies-and-dragons-of-the-world-cup_20260627_1606.html
+Cleaned old post to keep top 30 limit: thousands-feared-dead-as-twin-earthquakes-cause-de_20260625_0507.html
+Cleaned old post to keep top 30 limit: how-is-framework-agreement-with-lebanon-viewed-in-_20260627_1804.html
+Cleaned old post to keep top 30 limit: australia-to-double-fines-on-big-tech-as-children-_20260627_1804.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Thunderstorms delay hundreds of Heathrow and Gatwick flights
+   • Why is Crimea critical to the Russia–Ukraine war?
      Sources: bbc.com, cnn.com, reuters.com
-   • Australia to double fines on Big Tech as children bypass social media ban
+   • Israel orders troops to prepare for ‘extended stay’ in Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • How is framework agreement with Lebanon viewed in Israel?
+   • US Senate challenger, incumbent with same name to appear on Alaska ballot
      Sources: bbc.com, cnn.com, reuters.com
