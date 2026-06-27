@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: In Caracas, this feels like the hardest moment in Venezuela's modern history
-  Added: Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms
+  Added: Thunderstorms delay hundreds of Heathrow and Gatwick flights
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bosnia: The lilies and dragons of the World Cup
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: With water cuts looming in Arizona in US, locals fight data centres
-Added expanded search topic: Bosnia: The lilies and dragons of the World Cup
-Added expanded search topic: Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south
-Added expanded search topic: With water cuts looming in Arizona in US, locals fight data centres
-Saved 21 topics for 2026-06-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia to double fines on Big Tech as children bypass social media ban
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How is framework agreement with Lebanon viewed in Israel?
+Added expanded search topic: Australia to double fines on Big Tech as children bypass social media ban
+Added expanded search topic: How is framework agreement with Lebanon viewed in Israel?
+Saved 24 topics for 2026-06-27
 Returning 3 unique trending topics:
-  1. Bosnia: The lilies and dragons of the World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. With water cuts looming in Arizona in US, locals fight data centres (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Thunderstorms delay hundreds of Heathrow and Gatwick flights (from BBC News)
+  2. Australia to double fines on Big Tech as children bypass social media ban (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. How is framework agreement with Lebanon viewed in Israel? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Bosnia: The lilies and dragons of the World Cup
-Searching Google for: Bosnia: The lilies and dragons of the World Cup
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBosnia%253A%252BThe%252Blilies%252Band%252Bdragons%252Bof%252Bthe%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVBGIbq_9EGIjC_4GxQ_g7qv_cfcP2MnW6SD1jZr3NmN3LdjYQOvI76by2XWfyTmq7Bcf6TB7JM-lcyBmpjbmRyUloBQw
+Processing trending topic: Thunderstorms delay hundreds of Heathrow and Gatwick flights
+Searching Google for: Thunderstorms delay hundreds of Heathrow and Gatwick flights
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThunderstorms%252Bdelay%252Bhundreds%252Bof%252BHeathrow%252Band%252BGatwick%252Bflights%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGLehgNIGIjD1f-iOtzfZkRhUfv07vQ6vrwRSA_c_LDj4rB6iqJlA3bY-ajhpAosPc1YFMvWuO4MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bosnia-the-lilies-and-dragons-of-the-world-cup_20260627_1606.html
-✓ Created comprehensive article: bosnia-the-lilies-and-dragons-of-the-world-cup_20260627_1606.html
+Successfully created file: thunderstorms-delay-hundreds-of-heathrow-and-gatwi_20260627_1804.html
+✓ Created comprehensive article: thunderstorms-delay-hundreds-of-heathrow-and-gatwi_20260627_1804.html
 
-Processing trending topic: Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south
-Searching Google for: Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHezbollah%252Brejects%252BIsrael-Lebanon%252Bagreement%252Bas%252BIsraeli%252Battacks%252Bhit%252Bsouth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVBGI3q_9EGIjCNjydQugpYQuf5W3Txvve19Zh6vu1aclaBZthNGXd-idiNp-MTBC6rxa5C2pCzn8IyBmpjbmRyUloBQw
+Processing trending topic: Australia to double fines on Big Tech as children bypass social media ban
+Searching Google for: Australia to double fines on Big Tech as children bypass social media ban
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bto%252Bdouble%252Bfines%252Bon%252BBig%252BTech%252Bas%252Bchildren%252Bbypass%252Bsocial%252Bmedia%252Bban%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGL2hgNIGIjDu7o3Bm_GZ0iEwE3ZoTxGFCZP-H0eSwJMcaEE4JBvmq0_QsJE7NvURtesWOLkh7pkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hezbollah-rejects-israel-lebanon-agreement-as-isra_20260627_1606.html
-✓ Created comprehensive article: hezbollah-rejects-israel-lebanon-agreement-as-isra_20260627_1606.html
+Successfully created file: australia-to-double-fines-on-big-tech-as-children-_20260627_1804.html
+✓ Created comprehensive article: australia-to-double-fines-on-big-tech-as-children-_20260627_1804.html
 
-Processing trending topic: With water cuts looming in Arizona in US, locals fight data centres
-Searching Google for: With water cuts looming in Arizona in US, locals fight data centres
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWith%252Bwater%252Bcuts%252Blooming%252Bin%252BArizona%252Bin%252BUS%252C%252Blocals%252Bfight%252Bdata%252Bcentres%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVBGJPq_9EGIjBX44CdcIr6_-2z3ORQEf6C6Z87gvvhG0zVk5EgltDod5y_RNNRv9opswl_F4pBk9MyBmpjbmRyUloBQw
+Processing trending topic: How is framework agreement with Lebanon viewed in Israel?
+Searching Google for: How is framework agreement with Lebanon viewed in Israel?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bis%252Bframework%252Bagreement%252Bwith%252BLebanon%252Bviewed%252Bin%252BIsrael%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TSGMShgNIGIjBxtzL8mJ6_yNC0PD7OkoBUvjuePIhHyGw1IW2dXTs9S1JamDHkORdKXmi9WMTRTg0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: with-water-cuts-looming-in-arizona-in-us-locals-fi_20260627_1606.html
-✓ Created comprehensive article: with-water-cuts-looming-in-arizona-in-us-locals-fi_20260627_1606.html
+Successfully created file: how-is-framework-agreement-with-lebanon-viewed-in-_20260627_1804.html
+✓ Created comprehensive article: how-is-framework-agreement-with-lebanon-viewed-in-_20260627_1804.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: in-caracas-this-feels-like-the-hardest-moment-in-v_20260627_1430.html
-Cleaned old post to keep top 30 limit: israel-lebanon-deal-ties-ceasefire-to-hezbollah-di_20260627_1431.html
-Cleaned old post to keep top 30 limit: cape-verde-break-record-as-smallest-nation-to-reac_20260627_1431.html
+Cleaned old post to keep top 30 limit: somali-intelligence-helps-us-arrest-alleged-ringle_20260627_0751.html
+Cleaned old post to keep top 30 limit: hezbollah-rejects-israel-lebanon-agreement-as-isra_20260627_1606.html
+Cleaned old post to keep top 30 limit: bosnia-the-lilies-and-dragons-of-the-world-cup_20260627_1606.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bosnia: The lilies and dragons of the World Cup
+   • Thunderstorms delay hundreds of Heathrow and Gatwick flights
      Sources: bbc.com, cnn.com, reuters.com
-   • Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south
+   • Australia to double fines on Big Tech as children bypass social media ban
      Sources: bbc.com, cnn.com, reuters.com
-   • With water cuts looming in Arizona in US, locals fight data centres
+   • How is framework agreement with Lebanon viewed in Israel?
      Sources: bbc.com, cnn.com, reuters.com
