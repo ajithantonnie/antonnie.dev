@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US conducts strikes on Iran after attack on cargo ship
-  Added: Hottest June day record broken for third day in row as temperature hits 37.3C
+  Added: Home Office to introduce new asylum routes to UK
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-27
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US strikes on Iran test fragile ceasefire
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rescue efforts turn to recovery as aftershocks shake Venezuela
+Added expanded search topic: US strikes on Iran test fragile ceasefire
+Added expanded search topic: Rescue efforts turn to recovery as aftershocks shake Venezuela
+Saved 6 topics for 2026-06-27
 Returning 3 unique trending topics:
-  1. US conducts strikes on Iran after attack on cargo ship (from BBC News)
-  2. Hottest June day record broken for third day in row as temperature hits 37.3C (from BBC News)
-  3. ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK (from The Guardian)
+  1. Home Office to introduce new asylum routes to UK (from BBC News)
+  2. US strikes on Iran test fragile ceasefire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Rescue efforts turn to recovery as aftershocks shake Venezuela (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US conducts strikes on Iran after attack on cargo ship
-Searching Google for: US conducts strikes on Iran after attack on cargo ship
+Processing trending topic: Home Office to introduce new asylum routes to UK
+Searching Google for: Home Office to introduce new asylum routes to UK
 Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-conducts-strikes-on-iran-after-attack-on-cargo-_20260627_0008.html
-✓ Created comprehensive article: us-conducts-strikes-on-iran-after-attack-on-cargo-_20260627_0008.html
+Successfully created file: home-office-to-introduce-new-asylum-routes-to-uk_20260627_0455.html
+✓ Created comprehensive article: home-office-to-introduce-new-asylum-routes-to-uk_20260627_0455.html
 
-Processing trending topic: Hottest June day record broken for third day in row as temperature hits 37.3C
-Searching Google for: Hottest June day record broken for third day in row as temperature hits 37.3C
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHottest%252BJune%252Bday%252Brecord%252Bbroken%252Bfor%252Bthird%252Bday%252Bin%252Brow%252Bas%252Btemperature%252Bhits%252B37.3C%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DCGJqp_NEGIjAerwFKdvS1PE7KrNLqKl5udB0mCTTI3FJ2X7Dlldm3S7SYbHtw1UA1Kxs6DPosub0yBmpjbmRyUloBQw
+Processing trending topic: US strikes on Iran test fragile ceasefire
+Searching Google for: US strikes on Iran test fragile ceasefire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bstrikes%252Bon%252BIran%252Btest%252Bfragile%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTOZGN6v_dEGIjAB5j2e6FXO6ZbwMlzNWisZWM472N1on2nKJZgIdAEW792fY3SlSMikts-79BS8DvoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hottest-june-day-record-broken-for-third-day-in-ro_20260627_0009.html
-✓ Created comprehensive article: hottest-june-day-record-broken-for-third-day-in-ro_20260627_0009.html
+Successfully created file: us-strikes-on-iran-test-fragile-ceasefire_20260627_0456.html
+✓ Created comprehensive article: us-strikes-on-iran-test-fragile-ceasefire_20260627_0456.html
 
-Processing trending topic: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Searching Google for: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Everyone%252Bis%252Btalking%252Babout%252BCape%252BVerde%25E2%2580%2599%253A%252BWorld%252BCup%252Brun%252Bdelights%252Bdiaspora%252Bcommunity%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4DCGKGp_NEGIjDHb56EnZQBrktqT4boLElAkmBu4yz0xc9PqdkSjCWuAVbsyHZ7xy7kIjgv58Nw2nIyBmpjbmRyUloBQw
+Processing trending topic: Rescue efforts turn to recovery as aftershocks shake Venezuela
+Searching Google for: Rescue efforts turn to recovery as aftershocks shake Venezuela
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRescue%252Befforts%252Bturn%252Bto%252Brecovery%252Bas%252Baftershocks%252Bshake%252BVenezuela%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTOZGOWv_dEGIjCsOQLVrFnBBBndKiO2bKu261gU-gXTmd0entVbfax_AlxysD1Na8IbKsFwFerMs6wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: everyone-is-talking-about-cape-verde-world-cup-run_20260627_0009.html
-✓ Created comprehensive article: everyone-is-talking-about-cape-verde-world-cup-run_20260627_0009.html
+Successfully created file: rescue-efforts-turn-to-recovery-as-aftershocks-sha_20260627_0456.html
+✓ Created comprehensive article: rescue-efforts-turn-to-recovery-as-aftershocks-sha_20260627_0456.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-conducts-strikes-on-iran-after-attack-on-cargo-_20260626_2214.html
-Cleaned old post to keep top 30 limit: thousands-of-migrants-flee-south-africa-ahead-of-a_20260626_2216.html
-Cleaned old post to keep top 30 limit: dembele-scores-hat-trick-as-france-beat-norway-4-1_20260626_2215.html
+Cleaned old post to keep top 30 limit: israeli-prosecutors-charge-six-settlers-after-west_20260626_1854.html
+Cleaned old post to keep top 30 limit: us-conducts-strikes-on-iran-after-attack-on-cargo-_20260627_0008.html
+Cleaned old post to keep top 30 limit: everyone-is-talking-about-cape-verde-world-cup-run_20260627_0009.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US conducts strikes on Iran after attack on cargo ship
+   • Home Office to introduce new asylum routes to UK
      Sources: bbc.com, cnn.com, reuters.com
-   • Hottest June day record broken for third day in row as temperature hits 37.3C
+   • US strikes on Iran test fragile ceasefire
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
+   • Rescue efforts turn to recovery as aftershocks shake Venezuela
      Sources: bbc.com, cnn.com, reuters.com
