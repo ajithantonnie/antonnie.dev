@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Mahmood announces new refugee sponsorship route into UK
-  Added: Are we in for a summer of serial heatwaves?
+  Added: Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuelans dig for earthquake survivors as 72-hour rescue window nears end
-Added expanded search topic: FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions
-Added expanded search topic: Venezuelans dig for earthquake survivors as 72-hour rescue window nears end
-Saved 12 topics for 2026-06-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Three killed as Ukraine and Russia trade attacks overnight
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Childhood interrupted: Family awaits justice 8 years after baby was raped
+Added expanded search topic: Three killed as Ukraine and Russia trade attacks overnight
+Added expanded search topic: Childhood interrupted: Family awaits justice 8 years after baby was raped
+Saved 15 topics for 2026-06-27
 Returning 3 unique trending topics:
-  1. Are we in for a summer of serial heatwaves? (from BBC News)
-  2. FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Venezuelans dig for earthquake survivors as 72-hour rescue window nears end (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms (from BBC News)
+  2. Three killed as Ukraine and Russia trade attacks overnight (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Childhood interrupted: Family awaits justice 8 years after baby was raped (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Are we in for a summer of serial heatwaves?
-Searching Google for: Are we in for a summer of serial heatwaves?
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms
+Searching Google for: Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bof%252BHeathrow%252Band%252BGatwick%252Bflights%252Bdelayed%252Bdue%252Bto%252Bthunderstorms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfRGI_8_tEGIjDQptwNBPPwaOIIxOWRvxucMNeJLADH_n8hKpL9YppwZ_aBKdZCdo6vyXyKNChQqEEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: are-we-in-for-a-summer-of-serial-heatwaves_20260627_1009.html
-✓ Created comprehensive article: are-we-in-for-a-summer-of-serial-heatwaves_20260627_1009.html
+Successfully created file: hundreds-of-heathrow-and-gatwick-flights-delayed-d_20260627_1212.html
+✓ Created comprehensive article: hundreds-of-heathrow-and-gatwick-flights-delayed-d_20260627_1212.html
 
-Processing trending topic: FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions
-Searching Google for: FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252B2026%253A%252BSaturday%252Bschedule%252C%252BRound%252Bof%252B32%252Bstandings%252C%252Bpredictions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZyGOPC_tEGIjBsB3khpk51MpBOKlPFnmS-BAeZqIigO4mwzaSFFmsN1fvJXDnaP1JMbj4TADw43CsyBmpjbmRyUloBQw
+Processing trending topic: Three killed as Ukraine and Russia trade attacks overnight
+Searching Google for: Three killed as Ukraine and Russia trade attacks overnight
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bkilled%252Bas%252BUkraine%252Band%252BRussia%252Btrade%252Battacks%252Bovernight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfRGJX8_tEGIjD7phynV9xGK_938M-h6BAr8z3X4hfXvH3HrUe2Sy-YlKw13CdVashlWcgyZvAd05QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-world-cup-2026-saturday-schedule-round-of-32-_20260627_1009.html
-✓ Created comprehensive article: fifa-world-cup-2026-saturday-schedule-round-of-32-_20260627_1009.html
+Successfully created file: three-killed-as-ukraine-and-russia-trade-attacks-o_20260627_1212.html
+✓ Created comprehensive article: three-killed-as-ukraine-and-russia-trade-attacks-o_20260627_1212.html
 
-Processing trending topic: Venezuelans dig for earthquake survivors as 72-hour rescue window nears end
-Searching Google for: Venezuelans dig for earthquake survivors as 72-hour rescue window nears end
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuelans%252Bdig%252Bfor%252Bearthquake%252Bsurvivors%252Bas%252B72-hour%252Brescue%252Bwindow%252Bnears%252Bend%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrZyGOnC_tEGIjBfr72Y51vOkbRdJSsj8jtRDTfHeCOd7mxq_K1WgjMEFUQchxEWEDpYg_sxn8SLH6wyBmpjbmRyUloBQw
+Processing trending topic: Childhood interrupted: Family awaits justice 8 years after baby was raped
+Searching Google for: Childhood interrupted: Family awaits justice 8 years after baby was raped
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChildhood%252Binterrupted%253A%252BFamily%252Bawaits%252Bjustice%252B8%252Byears%252Bafter%252Bbaby%252Bwas%252Braped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QfRGJv8_tEGIjA3qh6-drQqmL42Tl4SxgGMeoUXuYsB3KMQ9rrMXE2fkjcs16LBWhNgbuzK5Nm_I30yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: venezuelans-dig-for-earthquake-survivors-as-72-hou_20260627_1009.html
-✓ Created comprehensive article: venezuelans-dig-for-earthquake-survivors-as-72-hou_20260627_1009.html
+Successfully created file: childhood-interrupted-family-awaits-justice-8-year_20260627_1212.html
+✓ Created comprehensive article: childhood-interrupted-family-awaits-justice-8-year_20260627_1212.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mahmood-announces-new-refugee-sponsorship-route-in_20260627_0751.html
-Cleaned old post to keep top 30 limit: us-strikes-iran-after-attack-on-cargo-ship_20260627_0751.html
-Cleaned old post to keep top 30 limit: hottest-june-day-record-broken-for-third-day-in-ro_20260627_0009.html
+Cleaned old post to keep top 30 limit: venezuelans-dig-for-earthquake-survivors-as-72-hou_20260627_1009.html
+Cleaned old post to keep top 30 limit: why-has-the-un-paused-plans-to-evacuate-sailors-fr_20260626_1618.html
+Cleaned old post to keep top 30 limit: are-we-in-for-a-summer-of-serial-heatwaves_20260627_1009.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Are we in for a summer of serial heatwaves?
+   • Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions
+   • Three killed as Ukraine and Russia trade attacks overnight
      Sources: bbc.com, cnn.com, reuters.com
-   • Venezuelans dig for earthquake survivors as 72-hour rescue window nears end
+   • Childhood interrupted: Family awaits justice 8 years after baby was raped
      Sources: bbc.com, cnn.com, reuters.com
