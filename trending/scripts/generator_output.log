@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: England top group - but they will not win World Cup unless they improve
+  Added: Knockouts are here - what is England's path to the final?
   Added: Families calling out to loved ones trapped in rubble by Venezuela quakes
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: DR Congo fans celebrate reaching World Cup knockout stage
-Added expanded search topic: DR Congo fans celebrate reaching World Cup knockout stage
-Saved 9 topics for 2026-06-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘US trying to find its way out of MoU with Iran’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iraq security forces arrest several officials in anticorruption crackdown
+Added expanded search topic: ‘US trying to find its way out of MoU with Iran’
+Added expanded search topic: Iraq security forces arrest several officials in anticorruption crackdown
+Saved 12 topics for 2026-06-28
 Returning 3 unique trending topics:
-  1. England top group - but they will not win World Cup unless they improve (from BBC News)
-  2. Families calling out to loved ones trapped in rubble by Venezuela quakes (from BBC News)
-  3. DR Congo fans celebrate reaching World Cup knockout stage (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Knockouts are here - what is England's path to the final? (from BBC News)
+  2. ‘US trying to find its way out of MoU with Iran’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iraq security forces arrest several officials in anticorruption crackdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: England top group - but they will not win World Cup unless they improve
-Searching Google for: England top group - but they will not win World Cup unless they improve
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Btop%252Bgroup%252B-%252Bbut%252Bthey%252Bwill%252Bnot%252Bwin%252BWorld%252BCup%252Bunless%252Bthey%252Bimprove%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzRGIC0g9IGIjCrid_a9LKE3Y12nZ8zI2gaQ95Ear0-xtPbYOPK4PCIvCXrASF8bmPVwoVzDKf1mtsyBmpjbmRyUloBQw
+Processing trending topic: Knockouts are here - what is England's path to the final?
+Searching Google for: Knockouts are here - what is England's path to the final?
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-top-group-but-they-will-not-win-world-cup-_20260628_0823.html
-✓ Created comprehensive article: england-top-group-but-they-will-not-win-world-cup-_20260628_0823.html
+Successfully created file: knockouts-are-here-what-is-englands-path-to-the-fi_20260628_1108.html
+✓ Created comprehensive article: knockouts-are-here-what-is-englands-path-to-the-fi_20260628_1108.html
 
-Processing trending topic: Families calling out to loved ones trapped in rubble by Venezuela quakes
-Searching Google for: Families calling out to loved ones trapped in rubble by Venezuela quakes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamilies%252Bcalling%252Bout%252Bto%252Bloved%252Bones%252Btrapped%252Bin%252Brubble%252Bby%252BVenezuela%252Bquakes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzRGIe0g9IGIjCZ_y8ikZQV6s5orQJ3L0jK6T3uxpjEBI4irPQ1mR6nxe8fEf9thPzW4DStHF5CvlYyBmpjbmRyUloBQw
+Processing trending topic: ‘US trying to find its way out of MoU with Iran’
+Searching Google for: ‘US trying to find its way out of MoU with Iran’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598US%252Btrying%252Bto%252Bfind%252Bits%252Bway%252Bout%252Bof%252BMoU%252Bwith%252BIran%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGMKBhNIGIjDDk3dss9gOFAKCBNnFPTRSEae673Hx_oklI8_b1b-sG5P23IJvPDg7NUIvL4pRt9EyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: families-calling-out-to-loved-ones-trapped-in-rubb_20260628_0823.html
-✓ Created comprehensive article: families-calling-out-to-loved-ones-trapped-in-rubb_20260628_0823.html
+Successfully created file: us-trying-to-find-its-way-out-of-mou-with-iran_20260628_1108.html
+✓ Created comprehensive article: us-trying-to-find-its-way-out-of-mou-with-iran_20260628_1108.html
 
-Processing trending topic: DR Congo fans celebrate reaching World Cup knockout stage
-Searching Google for: DR Congo fans celebrate reaching World Cup knockout stage
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDR%252BCongo%252Bfans%252Bcelebrate%252Breaching%252BWorld%252BCup%252Bknockout%252Bstage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzRGI60g9IGIjD29H6xilVMLiglGqt1MzKaNqyJJ6xrsgEHDUFCeyvFiYNao1NtGM7oCffaFMFOvckyBmpjbmRyUloBQw
+Processing trending topic: Iraq security forces arrest several officials in anticorruption crackdown
+Searching Google for: Iraq security forces arrest several officials in anticorruption crackdown
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIraq%252Bsecurity%252Bforces%252Barrest%252Bseveral%252Bofficials%252Bin%252Banticorruption%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGMiBhNIGIjCBSkkX2xhhG5dwiYW0UaTBykLm1Kmrsk5eA8KIMsi1_UDYOuRAkF8XyILjv03OeDsyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dr-congo-fans-celebrate-reaching-world-cup-knockou_20260628_0823.html
-✓ Created comprehensive article: dr-congo-fans-celebrate-reaching-world-cup-knockou_20260628_0823.html
+Successfully created file: iraq-security-forces-arrest-several-officials-in-a_20260628_1109.html
+✓ Created comprehensive article: iraq-security-forces-arrest-several-officials-in-a_20260628_1109.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: gulf-countries-attacked-after-us-launches-second-r_20260628_0447.html
-Cleaned old post to keep top 30 limit: colombia-top-world-cup-2026-group-after-breathless_20260628_0447.html
-Cleaned old post to keep top 30 limit: anger-grows-in-venezuela-as-citizens-blocked-from-_20260628_0447.html
+Cleaned old post to keep top 30 limit: why-is-crimea-critical-to-the-russiaukraine-war_20260627_2010.html
+Cleaned old post to keep top 30 limit: england-top-group-but-they-will-not-win-world-cup-_20260628_0823.html
+Cleaned old post to keep top 30 limit: dr-congo-fans-celebrate-reaching-world-cup-knockou_20260628_0823.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • England top group - but they will not win World Cup unless they improve
+   • Knockouts are here - what is England's path to the final?
      Sources: bbc.com, cnn.com, reuters.com
-   • Families calling out to loved ones trapped in rubble by Venezuela quakes
+   • ‘US trying to find its way out of MoU with Iran’
      Sources: bbc.com, cnn.com, reuters.com
-   • DR Congo fans celebrate reaching World Cup knockout stage
+   • Iraq security forces arrest several officials in anticorruption crackdown
      Sources: bbc.com, cnn.com, reuters.com
