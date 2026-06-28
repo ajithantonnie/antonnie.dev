@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Clarke steps down as Scotland boss after World Cup exit
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-06-28
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gulf countries attacked after US launches second round of strikes on Iran
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anger grows in Venezuela as citizens blocked from aiding earthquake rescue
+Added expanded search topic: Gulf countries attacked after US launches second round of strikes on Iran
+Added expanded search topic: Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal
+Added expanded search topic: Anger grows in Venezuela as citizens blocked from aiding earthquake rescue
+Saved 6 topics for 2026-06-28
 Returning 3 unique trending topics:
-  1. Clarke steps down as Scotland boss after World Cup exit (from BBC News)
-  2. 'Every person saved is a miracle': Families call to trapped loved ones in region devastated by Ve... (from BBC News)
-  3. ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK (from The Guardian)
+  1. Gulf countries attacked after US launches second round of strikes on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Anger grows in Venezuela as citizens blocked from aiding earthquake rescue (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Clarke steps down as Scotland boss after World Cup exit
-Searching Google for: Clarke steps down as Scotland boss after World Cup exit
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClarke%252Bsteps%252Bdown%252Bas%252BScotland%252Bboss%252Bafter%252BWorld%252BCup%252Bexit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHR03GNvJgdIGIjApZXXSMgE-JI2MMFNaThWyYagAxG92LNOivXteeQHZ-NqXIZCT9G_uCMMT6QHxKRUyBmpjbmRyUloBQw
+Processing trending topic: Gulf countries attacked after US launches second round of strikes on Iran
+Searching Google for: Gulf countries attacked after US launches second round of strikes on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGulf%252Bcountries%252Battacked%252Bafter%252BUS%252Blaunches%252Bsecond%252Bround%252Bof%252Bstrikes%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGNXOgtIGIjDB-cmWqk6b2ltjuBsa23rmRKZUrJsBeOFwl_5dbMJ3Gc_R1-8iqEtowJHDfMMyorMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: clarke-steps-down-as-scotland-boss-after-world-cup_20260628_0003.html
-✓ Created comprehensive article: clarke-steps-down-as-scotland-boss-after-world-cup_20260628_0003.html
+Successfully created file: gulf-countries-attacked-after-us-launches-second-r_20260628_0447.html
+✓ Created comprehensive article: gulf-countries-attacked-after-us-launches-second-r_20260628_0447.html
 
-Processing trending topic: 'Every person saved is a miracle': Families call to trapped loved ones in region devastated by Ve...
-Searching Google for: 'Every person saved is a miracle': Families call to trapped loved ones in region devastated by Ve...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Every%252Bperson%252Bsaved%252Bis%252Ba%252Bmiracle%2527%253A%252BFamilies%252Bcall%252Bto%252Btrapped%252Bloved%252Bones%252Bin%252Bregion%252Bdevastated%252Bby%252BVe...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHR03GOLJgdIGIjCIyW8t53YD_MNcN0rS8K-QCEcctzpeZGEXmrO33TWqUHuaLY7ZXTFlNGO16N1-oIMyBmpjbmRyUloBQw
+Processing trending topic: Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal
+Searching Google for: Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DColombia%252Btop%252BWorld%252BCup%252B2026%252Bgroup%252Bafter%252Bbreathless%252B0-0%252Bdraw%252Bwith%252BPortugal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGN3OgtIGIjBAq0QPxiWAV7yh-niWv9KiejXjaqvdGfd3Sc9xrKGuDpR1b_7YsvWs7dqZfw4S90EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: every-person-saved-is-a-miracle-families-call-to-t_20260628_0003.html
-✓ Created comprehensive article: every-person-saved-is-a-miracle-families-call-to-t_20260628_0003.html
+Successfully created file: colombia-top-world-cup-2026-group-after-breathless_20260628_0447.html
+✓ Created comprehensive article: colombia-top-world-cup-2026-group-after-breathless_20260628_0447.html
 
-Processing trending topic: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Searching Google for: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Everyone%252Bis%252Btalking%252Babout%252BCape%252BVerde%25E2%2580%2599%253A%252BWorld%252BCup%252Brun%252Bdelights%252Bdiaspora%252Bcommunity%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHR03GOnJgdIGIjD-B_EJfRRVQeSCo9zr0UZlZx572m-FdizgfuHcJtcg6DOzs9jSRpmwy-XFtwYYV1kyBmpjbmRyUloBQw
+Processing trending topic: Anger grows in Venezuela as citizens blocked from aiding earthquake rescue
+Searching Google for: Anger grows in Venezuela as citizens blocked from aiding earthquake rescue
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnger%252Bgrows%252Bin%252BVenezuela%252Bas%252Bcitizens%252Bblocked%252Bfrom%252Baiding%252Bearthquake%252Brescue%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jZiGOPOgtIGIjDjLFtz4Lp53Uw1wMVnU7J0fbu_ltoiXpeIahdTaXAJyDA3QHq7Oc23Fdxnh9zZ_bUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: everyone-is-talking-about-cape-verde-world-cup-run_20260628_0003.html
-✓ Created comprehensive article: everyone-is-talking-about-cape-verde-world-cup-run_20260628_0003.html
+Successfully created file: anger-grows-in-venezuela-as-citizens-blocked-from-_20260628_0447.html
+✓ Created comprehensive article: anger-grows-in-venezuela-as-citizens-blocked-from-_20260628_0447.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-this-heatwave-feels-worse-than-the-last-one_20260624_1323.html
-Cleaned old post to keep top 30 limit: with-water-cuts-looming-in-arizona-in-us-locals-fi_20260627_1606.html
-Cleaned old post to keep top 30 limit: donald-trump-nominates-ex-state-trooper-lance-schr_20260627_2204.html
+Cleaned old post to keep top 30 limit: every-person-saved-is-a-miracle-families-call-to-t_20260628_0003.html
+Cleaned old post to keep top 30 limit: everyone-is-talking-about-cape-verde-world-cup-run_20260628_0003.html
+Cleaned old post to keep top 30 limit: clarke-steps-down-as-scotland-boss-after-world-cup_20260628_0003.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Clarke steps down as Scotland boss after World Cup exit
+   • Gulf countries attacked after US launches second round of strikes on Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Every person saved is a miracle': Families call to trapped loved ones in region devastated by Ve...
+   • Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
+   • Anger grows in Venezuela as citizens blocked from aiding earthquake rescue
      Sources: bbc.com, cnn.com, reuters.com
