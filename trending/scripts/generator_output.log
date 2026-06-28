@@ -1,71 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Knockouts are here - what is England's path to the final?
-  Added: Families calling out to loved ones trapped in rubble by Venezuela quakes
+  Added: Two boys rescued from Venezuela earthquake rubble after days of being trapped
+  Added: I hear my son crying beneath the rubble, says Venezuela earthquake survivor
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘US trying to find its way out of MoU with Iran’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iraq security forces arrest several officials in anticorruption crackdown
-Added expanded search topic: ‘US trying to find its way out of MoU with Iran’
-Added expanded search topic: Iraq security forces arrest several officials in anticorruption crackdown
-Saved 12 topics for 2026-06-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine says it attacked two Russian oil refineries
+Added expanded search topic: Ukraine says it attacked two Russian oil refineries
+Saved 15 topics for 2026-06-28
 Returning 3 unique trending topics:
-  1. Knockouts are here - what is England's path to the final? (from BBC News)
-  2. ‘US trying to find its way out of MoU with Iran’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iraq security forces arrest several officials in anticorruption crackdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Two boys rescued from Venezuela earthquake rubble after days of being trapped (from BBC News)
+  2. I hear my son crying beneath the rubble, says Venezuela earthquake survivor (from BBC News)
+  3. Ukraine says it attacked two Russian oil refineries (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Knockouts are here - what is England's path to the final?
-Searching Google for: Knockouts are here - what is England's path to the final?
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Two boys rescued from Venezuela earthquake rubble after days of being trapped
+Searching Google for: Two boys rescued from Venezuela earthquake rubble after days of being trapped
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bboys%252Brescued%252Bfrom%252BVenezuela%252Bearthquake%252Brubble%252Bafter%252Bdays%252Bof%252Bbeing%252Btrapped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_RQGKHLhNIGIjDZyiGtKDdkVOoQ7VrU1VTBYK2jZE2RLH3dJTO9-aGvVe4zw-Bz7xKjy5f8a-WUtwkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: knockouts-are-here-what-is-englands-path-to-the-fi_20260628_1108.html
-✓ Created comprehensive article: knockouts-are-here-what-is-englands-path-to-the-fi_20260628_1108.html
+Successfully created file: two-boys-rescued-from-venezuela-earthquake-rubble-_20260628_1346.html
+✓ Created comprehensive article: two-boys-rescued-from-venezuela-earthquake-rubble-_20260628_1346.html
 
-Processing trending topic: ‘US trying to find its way out of MoU with Iran’
-Searching Google for: ‘US trying to find its way out of MoU with Iran’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598US%252Btrying%252Bto%252Bfind%252Bits%252Bway%252Bout%252Bof%252BMoU%252Bwith%252BIran%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGMKBhNIGIjDDk3dss9gOFAKCBNnFPTRSEae673Hx_oklI8_b1b-sG5P23IJvPDg7NUIvL4pRt9EyAnJSWgFD
+Processing trending topic: I hear my son crying beneath the rubble, says Venezuela earthquake survivor
+Searching Google for: I hear my son crying beneath the rubble, says Venezuela earthquake survivor
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%252Bhear%252Bmy%252Bson%252Bcrying%252Bbeneath%252Bthe%252Brubble%252C%252Bsays%252BVenezuela%252Bearthquake%252Bsurvivor%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_RQGKjLhNIGIjAQFYOmF8u7C_kAEn_bTtyNK-uikeuXDHz5YCblulP5UGuoafCRWoaqwyZWyXD2QnAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-trying-to-find-its-way-out-of-mou-with-iran_20260628_1108.html
-✓ Created comprehensive article: us-trying-to-find-its-way-out-of-mou-with-iran_20260628_1108.html
+Successfully created file: i-hear-my-son-crying-beneath-the-rubble-says-venez_20260628_1346.html
+✓ Created comprehensive article: i-hear-my-son-crying-beneath-the-rubble-says-venez_20260628_1346.html
 
-Processing trending topic: Iraq security forces arrest several officials in anticorruption crackdown
-Searching Google for: Iraq security forces arrest several officials in anticorruption crackdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIraq%252Bsecurity%252Bforces%252Barrest%252Bseveral%252Bofficials%252Bin%252Banticorruption%252Bcrackdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fhGMiBhNIGIjCBSkkX2xhhG5dwiYW0UaTBykLm1Kmrsk5eA8KIMsi1_UDYOuRAkF8XyILjv03OeDsyAnJSWgFD
+Processing trending topic: Ukraine says it attacked two Russian oil refineries
+Searching Google for: Ukraine says it attacked two Russian oil refineries
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bsays%252Bit%252Battacked%252Btwo%252BRussian%252Boil%252Brefineries%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_RQGK7LhNIGIjBKZFsE6hQpwIZJXIfefOjyz_2fQfSORV7m9rM6zefqiZ8tMuPCxslVI9t4J0sLsOcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iraq-security-forces-arrest-several-officials-in-a_20260628_1109.html
-✓ Created comprehensive article: iraq-security-forces-arrest-several-officials-in-a_20260628_1109.html
+Successfully created file: ukraine-says-it-attacked-two-russian-oil-refinerie_20260628_1346.html
+✓ Created comprehensive article: ukraine-says-it-attacked-two-russian-oil-refinerie_20260628_1346.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-is-crimea-critical-to-the-russiaukraine-war_20260627_2010.html
-Cleaned old post to keep top 30 limit: england-top-group-but-they-will-not-win-world-cup-_20260628_0823.html
-Cleaned old post to keep top 30 limit: dr-congo-fans-celebrate-reaching-world-cup-knockou_20260628_0823.html
+Cleaned old post to keep top 30 limit: iraq-security-forces-arrest-several-officials-in-a_20260628_1109.html
+Cleaned old post to keep top 30 limit: us-trying-to-find-its-way-out-of-mou-with-iran_20260628_1108.html
+Cleaned old post to keep top 30 limit: every-person-saved-is-a-miracle-families-call-to-t_20260627_2204.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Knockouts are here - what is England's path to the final?
+   • Two boys rescued from Venezuela earthquake rubble after days of being trapped
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘US trying to find its way out of MoU with Iran’
+   • I hear my son crying beneath the rubble, says Venezuela earthquake survivor
      Sources: bbc.com, cnn.com, reuters.com
-   • Iraq security forces arrest several officials in anticorruption crackdown
+   • Ukraine says it attacked two Russian oil refineries
      Sources: bbc.com, cnn.com, reuters.com
