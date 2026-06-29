@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: New 'No 10 North' plan will rebalance power in Britain, Burnham promises
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly heatwave grips Italy and Balkans as wildfire fears grow
-Added expanded search topic: Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16
-Added expanded search topic: Deadly heatwave grips Italy and Balkans as wildfire fears grow
-Saved 18 topics for 2026-06-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s behind the anti-corruption crackdown in Iraq?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16
+Added expanded search topic: Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip
+Added expanded search topic: What’s behind the anti-corruption crackdown in Iraq?
+Added expanded search topic: Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16
+Saved 21 topics for 2026-06-29
 Returning 3 unique trending topics:
-  1. Will Andy Burnham's devolution plan raise economic growth? (from BBC News)
-  2. Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Deadly heatwave grips Italy and Balkans as wildfire fears grow (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. What’s behind the anti-corruption crackdown in Iraq? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Will Andy Burnham's devolution plan raise economic growth?
-Searching Google for: Will Andy Burnham's devolution plan raise economic growth?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BAndy%252BBurnham%2527s%252Bdevolution%252Bplan%252Braise%252Beconomic%252Bgrowth%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNbQGNGci9IGIjBVjivwYv7ewo8V2WRJlQ_wgOPmbq3d0BHBgUtjpsaQsF01q6tZE5qnKbWt0BJFKuoyBmpjbmRyUloBQw
+Processing trending topic: Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip
+Searching Google for: Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-andy-burnhams-devolution-plan-raise-economic-_20260629_1958.html
-✓ Created comprehensive article: will-andy-burnhams-devolution-plan-raise-economic-_20260629_1958.html
+Successfully created file: israels-smotrich-calls-for-settlements-conquest-of_20260629_2127.html
+✓ Created comprehensive article: israels-smotrich-calls-for-settlements-conquest-of_20260629_2127.html
 
-Processing trending topic: Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16
-Searching Google for: Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMartinelli%252Bscores%252Blate%252Bas%252BBrazil%252Bbeat%252BJapan%252B2-1%252C%252Benter%252BWorld%252BCup%252Blast%252B16%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNbQGNeci9IGIjDhJS5AXfkTdH20skR2NuE3IVU3DHQLNnfEBXV466i9RA1VTQVSzIoLNAKD7zwHiTcyBmpjbmRyUloBQw
+Processing trending topic: What’s behind the anti-corruption crackdown in Iraq?
+Searching Google for: What’s behind the anti-corruption crackdown in Iraq?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bbehind%252Bthe%252Banti-corruption%252Bcrackdown%252Bin%252BIraq%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D75GJrHi9IGIjCLZm-i6xOO1HURAlpWkYN0yKIg8xJP9_hfJcK-NsGSMFV8MQFL-nOjqVmFR7gOxTAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: martinelli-scores-late-as-brazil-beat-japan-2-1-en_20260629_1958.html
-✓ Created comprehensive article: martinelli-scores-late-as-brazil-beat-japan-2-1-en_20260629_1958.html
+Successfully created file: whats-behind-the-anti-corruption-crackdown-in-iraq_20260629_2129.html
+✓ Created comprehensive article: whats-behind-the-anti-corruption-crackdown-in-iraq_20260629_2129.html
 
-Processing trending topic: Deadly heatwave grips Italy and Balkans as wildfire fears grow
-Searching Google for: Deadly heatwave grips Italy and Balkans as wildfire fears grow
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252Bheatwave%252Bgrips%252BItaly%252Band%252BBalkans%252Bas%252Bwildfire%252Bfears%252Bgrow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNbQGN6ci9IGIjC6XQqsfoNaXJfpz31ByLLTfhsXQedmJ81N1GNXFBX5y530Cy3e3oV-quzK0NgVJNMyBmpjbmRyUloBQw
+Processing trending topic: Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16
+Searching Google for: Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMartinelli%252Bscores%252Blate%252Bas%252BBrazil%252Bbeat%252BJapan%252B2-1%252C%252Binto%252BWorld%252BCup%252Blast%252B16%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D75GKDHi9IGIjBtTU91V0-L_SjrmXCwdTu355u4wqojqSwHlwjQPR3zma6DTTdyVYYfcvDh5Jnyw1wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: deadly-heatwave-grips-italy-and-balkans-as-wildfir_20260629_1958.html
-✓ Created comprehensive article: deadly-heatwave-grips-italy-and-balkans-as-wildfir_20260629_1958.html
+Successfully created file: martinelli-scores-late-as-brazil-beat-japan-2-1-in_20260629_2129.html
+✓ Created comprehensive article: martinelli-scores-late-as-brazil-beat-japan-2-1-in_20260629_2129.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mum-rescued-from-venezuela-rubble-with-newborn-bab_20260629_1057.html
-Cleaned old post to keep top 30 limit: new-no-10-north-plan-will-rebalance-power-in-brita_20260629_1739.html
-Cleaned old post to keep top 30 limit: aftershock-hits-caracas-during-critical-hours-for-_20260629_1739.html
+Cleaned old post to keep top 30 limit: why-the-arab-league-could-not-stop-israels-genocid_20260629_1452.html
+Cleaned old post to keep top 30 limit: will-andy-burnhams-devolution-plan-raise-economic-_20260629_1958.html
+Cleaned old post to keep top 30 limit: deadly-heatwave-grips-italy-and-balkans-as-wildfir_20260629_1958.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Will Andy Burnham's devolution plan raise economic growth?
+   • Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip
      Sources: bbc.com, cnn.com, reuters.com
-   • Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16
+   • What’s behind the anti-corruption crackdown in Iraq?
      Sources: bbc.com, cnn.com, reuters.com
-   • Deadly heatwave grips Italy and Balkans as wildfire fears grow
+   • Martinelli scores late as Brazil beat Japan 2-1, into World Cup last 16
      Sources: bbc.com, cnn.com, reuters.com
