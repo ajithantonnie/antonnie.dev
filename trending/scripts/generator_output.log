@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer trims budgets to fund extra £15bn for defence
@@ -9,57 +9,62 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘They will attack me if I stay’: immigrants in South Africa flee for safety amid violence and ant...
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 18 topics for 2026-06-30
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Healthcare situation in DR Congo improves amidst Ebola crisis
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What happened on South Africa’s anti-migrant ‘deadline day’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia’s fuel crisis deepens following Ukrainian drone strikes
+Added expanded search topic: Healthcare situation in DR Congo improves amidst Ebola crisis
+Added expanded search topic: What happened on South Africa’s anti-migrant ‘deadline day’
+Added expanded search topic: Russia’s fuel crisis deepens following Ukrainian drone strikes
+Saved 21 topics for 2026-06-30
 Returning 3 unique trending topics:
-  1. Starmer trims budgets to fund extra £15bn for defence (from BBC News)
-  2. Will Starmer's plan for defence help UK hit Nato's spending target? (from BBC News)
-  3. ‘They will attack me if I stay’: immigrants in South Africa flee for safety amid violence and ant... (from The Guardian)
+  1. Healthcare situation in DR Congo improves amidst Ebola crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. What happened on South Africa’s anti-migrant ‘deadline day’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Russia’s fuel crisis deepens following Ukrainian drone strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Starmer trims budgets to fund extra £15bn for defence
-Searching Google for: Starmer trims budgets to fund extra £15bn for defence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Btrims%252Bbudgets%252Bto%252Bfund%252Bextra%252B%25C2%25A315bn%252Bfor%252Bdefence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MhBGNaFkNIGIjCIv4Rkaa4ff1pwfgpsarSLahWfWpIhB1-XRNDmB_Ma0RK6Zvco--zG9XNPxmJrUrEyBmpjbmRyUloBQw
+Processing trending topic: Healthcare situation in DR Congo improves amidst Ebola crisis
+Searching Google for: Healthcare situation in DR Congo improves amidst Ebola crisis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealthcare%252Bsituation%252Bin%252BDR%252BCongo%252Bimproves%252Bamidst%252BEbola%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-vQGO6-kNIGIjDDyLs_IOgrNb0i7cWVkKI3iIZG9rEKy4MzwKbsKyi_7U02y4wrphAT59IP5LUDeWcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: starmer-trims-budgets-to-fund-extra-15bn-for-defen_20260630_1754.html
-✓ Created comprehensive article: starmer-trims-budgets-to-fund-extra-15bn-for-defen_20260630_1754.html
+Successfully created file: healthcare-situation-in-dr-congo-improves-amidst-e_20260630_1956.html
+✓ Created comprehensive article: healthcare-situation-in-dr-congo-improves-amidst-e_20260630_1956.html
 
-Processing trending topic: Will Starmer's plan for defence help UK hit Nato's spending target?
-Searching Google for: Will Starmer's plan for defence help UK hit Nato's spending target?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BStarmer%2527s%252Bplan%252Bfor%252Bdefence%252Bhelp%252BUK%252Bhit%252BNato%2527s%252Bspending%252Btarget%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MhBGN2FkNIGIjBCz3pE57gGq-XrC5LqqorSJ4zp5hYKg4WtqULTWwzR9k6x8HDuiT9kwDPBaXc5ZFYyBmpjbmRyUloBQw
+Processing trending topic: What happened on South Africa’s anti-migrant ‘deadline day’
+Searching Google for: What happened on South Africa’s anti-migrant ‘deadline day’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bhappened%252Bon%252BSouth%252BAfrica%25E2%2580%2599s%252Banti-migrant%252B%25E2%2580%2598deadline%252Bday%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-vQGPS-kNIGIjBJudY-4E-ulVBkyGQy6t8fBFN3fUDk3tOYN4aAuJSrJrzt-pM7Y8ISAifeE9bXtDsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-starmers-plan-for-defence-help-uk-hit-natos-s_20260630_1754.html
-✓ Created comprehensive article: will-starmers-plan-for-defence-help-uk-hit-natos-s_20260630_1754.html
+Successfully created file: what-happened-on-south-africas-anti-migrant-deadli_20260630_1956.html
+✓ Created comprehensive article: what-happened-on-south-africas-anti-migrant-deadli_20260630_1956.html
 
-Processing trending topic: ‘They will attack me if I stay’: immigrants in South Africa flee for safety amid violence and ant...
-Searching Google for: ‘They will attack me if I stay’: immigrants in South Africa flee for safety amid violence and ant...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598They%252Bwill%252Battack%252Bme%252Bif%252BI%252Bstay%25E2%2580%2599%253A%252Bimmigrants%252Bin%252BSouth%252BAfrica%252Bflee%252Bfor%252Bsafety%252Bamid%252Bviolence%252Band%252Bant...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MhBGOOFkNIGIjBKkozVSfFU3vbZ0uzxH5vK07F0X_sN4u61J3lYA92wnaFd9b-CnUH8geL1rY9-mCkyBmpjbmRyUloBQw
+Processing trending topic: Russia’s fuel crisis deepens following Ukrainian drone strikes
+Searching Google for: Russia’s fuel crisis deepens following Ukrainian drone strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%25E2%2580%2599s%252Bfuel%252Bcrisis%252Bdeepens%252Bfollowing%252BUkrainian%252Bdrone%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU-vQGPu-kNIGIjB291S5cucIzPVo_F6MeftVXMmux31fli7bfLSkNwv4Gfk-Dq1SJp16rI1MVkb9Si4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: they-will-attack-me-if-i-stay-immigrants-in-south-_20260630_1754.html
-✓ Created comprehensive article: they-will-attack-me-if-i-stay-immigrants-in-south-_20260630_1754.html
+Successfully created file: russias-fuel-crisis-deepens-following-ukrainian-dr_20260630_1956.html
+✓ Created comprehensive article: russias-fuel-crisis-deepens-following-ukrainian-dr_20260630_1956.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-allies-reassure-israelis-amid-tensions-on-us_20260623_2152.html
-Cleaned old post to keep top 30 limit: iran-to-hold-talks-with-qatar-on-mou-deal-with-us-_20260630_1530.html
-Cleaned old post to keep top 30 limit: government-promises-to-act-on-maternity-care-faili_20260630_1530.html
+Cleaned old post to keep top 30 limit: starmer-trims-budgets-to-fund-extra-15bn-for-defen_20260630_1754.html
+Cleaned old post to keep top 30 limit: they-will-attack-me-if-i-stay-immigrants-in-south-_20260630_1754.html
+Cleaned old post to keep top 30 limit: odonoghue-court-ruling-is-major-blow-to-president_20260630_1530.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Starmer trims budgets to fund extra £15bn for defence
+   • Healthcare situation in DR Congo improves amidst Ebola crisis
      Sources: bbc.com, cnn.com, reuters.com
-   • Will Starmer's plan for defence help UK hit Nato's spending target?
+   • What happened on South Africa’s anti-migrant ‘deadline day’
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘They will attack me if I stay’: immigrants in South Africa flee for safety amid violence and ant...
+   • Russia’s fuel crisis deepens following Ukrainian drone strikes
      Sources: bbc.com, cnn.com, reuters.com
