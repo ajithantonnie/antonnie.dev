@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: People smuggler convicted in France found by BBC living in UK and seeking asylum
@@ -8,62 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Sudan’s RSF committed crimes against humanity in El Fasher, Amnesty says
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than 900 arrested during South Africa’s antimigrant protests
-Added expanded search topic: More than 900 arrested during South Africa’s antimigrant protests
-Saved 6 topics for 2026-07-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: An extra 229,000 deaths: Is that the cost of US-UK drugs deal?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Eight Thai monks killed after child drives truck into procession
+Added expanded search topic: An extra 229,000 deaths: Is that the cost of US-UK drugs deal?
+Added expanded search topic: Eight Thai monks killed after child drives truck into procession
+Saved 9 topics for 2026-07-02
 Returning 3 unique trending topics:
-  1. People smuggler convicted in France found by BBC living in UK and seeking asylum (from BBC News)
-  2. Watch: People smuggler tracked down and confronted by BBC (from BBC News)
-  3. More than 900 arrested during South Africa’s antimigrant protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak (from The Guardian)
+  2. An extra 229,000 deaths: Is that the cost of US-UK drugs deal? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Eight Thai monks killed after child drives truck into procession (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: People smuggler convicted in France found by BBC living in UK and seeking asylum
-Searching Google for: People smuggler convicted in France found by BBC living in UK and seeking asylum
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bsmuggler%252Bconvicted%252Bin%252BFrance%252Bfound%252Bby%252BBBC%252Bliving%252Bin%252BUK%252Band%252Bseeking%252Basylum%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGIOomNIGIjAfnNhqV--MqdD9tByNq_IyYt7Axm28VEI1uPAfjc8cY_qzKoc2pn8BFmW5SztdUq4yBmpjbmRyUloBQw
+Processing trending topic: Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak
+Searching Google for: Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnderstanding%252BEbola%25E2%2580%2599s%252Bwildlife%252Borigins%252Bis%252Bcrucial%252Bto%252Bpreventing%252Bnext%252Bbig%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU2JUGPT_mNIGIjCTHjjMNixNDdLI7JczcKwQq-p79ng8bNUzfvy5Ry67j9IoPPA5w5kJLYeP0UCwuFYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: people-smuggler-convicted-in-france-found-by-bbc-l_20260702_0732.html
-✓ Created comprehensive article: people-smuggler-convicted-in-france-found-by-bbc-l_20260702_0732.html
+Successfully created file: understanding-ebolas-wildlife-origins-is-crucial-t_20260702_1039.html
+✓ Created comprehensive article: understanding-ebolas-wildlife-origins-is-crucial-t_20260702_1039.html
 
-Processing trending topic: Watch: People smuggler tracked down and confronted by BBC
-Searching Google for: Watch: People smuggler tracked down and confronted by BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BPeople%252Bsmuggler%252Btracked%252Bdown%252Band%252Bconfronted%252Bby%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGIqomNIGIjCmlnjN0S4FX072z2EwaaZOI7GFJrWOdEpkmM-WUuhbNcj9DwrlnetqY4pMxviygOgyBmpjbmRyUloBQw
+Processing trending topic: An extra 229,000 deaths: Is that the cost of US-UK drugs deal?
+Searching Google for: An extra 229,000 deaths: Is that the cost of US-UK drugs deal?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAn%252Bextra%252B229%252C000%252Bdeaths%253A%252BIs%252Bthat%252Bthe%252Bcost%252Bof%252BUS-UK%252Bdrugs%252Bdeal%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU2JUGPv_mNIGIjCG_NOWhiH2vdttkJV1erMA_RYBeBFel1yzWDD2TuVxRKMSIzL5DEhacYLhOotvFvMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-people-smuggler-tracked-down-and-confronted-_20260702_0732.html
-✓ Created comprehensive article: watch-people-smuggler-tracked-down-and-confronted-_20260702_0732.html
+Successfully created file: an-extra-229000-deaths-is-that-the-cost-of-us-uk-d_20260702_1039.html
+✓ Created comprehensive article: an-extra-229000-deaths-is-that-the-cost-of-us-uk-d_20260702_1039.html
 
-Processing trending topic: More than 900 arrested during South Africa’s antimigrant protests
-Searching Google for: More than 900 arrested during South Africa’s antimigrant protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B900%252Barrested%252Bduring%252BSouth%252BAfrica%25E2%2580%2599s%252Bantimigrant%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGJGomNIGIjDTRuNbgtWMyXBlFQ4PMr5wWrr_OKmDhvbg-ba8Exn3gYm6mFZt8GyzBSkmGZGuUacyBmpjbmRyUloBQw
+Processing trending topic: Eight Thai monks killed after child drives truck into procession
+Searching Google for: Eight Thai monks killed after child drives truck into procession
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEight%252BThai%252Bmonks%252Bkilled%252Bafter%252Bchild%252Bdrives%252Btruck%252Binto%252Bprocession%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU2JUGIGAmdIGIjCTuYIKbE76sMEDEgC78JYh92YvoBSXxXRmzm-1nSY3ZV9TwE_APValjlbFzH79u3kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-900-arrested-during-south-africas-antimi_20260702_0732.html
-✓ Created comprehensive article: more-than-900-arrested-during-south-africas-antimi_20260702_0732.html
+Successfully created file: eight-thai-monks-killed-after-child-drives-truck-i_20260702_1040.html
+✓ Created comprehensive article: eight-thai-monks-killed-after-child-drives-truck-i_20260702_1040.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-starmers-defence-plan-leaves-next-pm-with-47bn_20260701_0341.html
-Cleaned old post to keep top 30 limit: superstar-kane-produces-his-biggest-england-moment_20260702_0326.html
-Cleaned old post to keep top 30 limit: aunt-of-venezuelan-boy-pulled-from-rubble-tells-bb_20260702_0326.html
+Cleaned old post to keep top 30 limit: warmest-june-on-record-for-england-second-warmest-_20260701_1755.html
+Cleaned old post to keep top 30 limit: watch-people-smuggler-tracked-down-and-confronted-_20260702_0732.html
+Cleaned old post to keep top 30 limit: more-than-900-arrested-during-south-africas-antimi_20260702_0732.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • People smuggler convicted in France found by BBC living in UK and seeking asylum
+   • Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: People smuggler tracked down and confronted by BBC
+   • An extra 229,000 deaths: Is that the cost of US-UK drugs deal?
      Sources: bbc.com, cnn.com, reuters.com
-   • More than 900 arrested during South Africa’s antimigrant protests
+   • Eight Thai monks killed after child drives truck into procession
      Sources: bbc.com, cnn.com, reuters.com
