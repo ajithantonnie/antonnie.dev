@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Married at First Sight UK star arrested on suspicion of rape
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Côte d’Ivoire floods kill 59 as west Africa endures torrential rains
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly blast at Damascus cafe leaves 6 dead, 22 injured
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rally for Luxembourg teacher fired over pro-Gaza posts
-Added expanded search topic: Deadly blast at Damascus cafe leaves 6 dead, 22 injured
-Added expanded search topic: Rally for Luxembourg teacher fired over pro-Gaza posts
-Saved 18 topics for 2026-07-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The last time Iran held a funeral for the Supreme Leader
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fears of new massacre in Sudan’s el-Obeid: What do we know?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK’s likely next PM Andy Burnham faces defence funding gap
+Added expanded search topic: The last time Iran held a funeral for the Supreme Leader
+Added expanded search topic: Fears of new massacre in Sudan’s el-Obeid: What do we know?
+Added expanded search topic: UK’s likely next PM Andy Burnham faces defence funding gap
+Saved 21 topics for 2026-07-02
 Returning 3 unique trending topics:
-  1. Boys who raped teen girls given custodial sentences (from BBC News)
-  2. Deadly blast at Damascus cafe leaves 6 dead, 22 injured (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Rally for Luxembourg teacher fired over pro-Gaza posts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. The last time Iran held a funeral for the Supreme Leader (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Fears of new massacre in Sudan’s el-Obeid: What do we know? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UK’s likely next PM Andy Burnham faces defence funding gap (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Boys who raped teen girls given custodial sentences
-Searching Google for: Boys who raped teen girls given custodial sentences
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoys%252Bwho%252Braped%252Bteen%252Bgirls%252Bgiven%252Bcustodial%252Bsentences%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOcahGJTJmtIGIjC-7uRcCxc3EanR2bPAtSWo1lQzV36WwRe8gq4Df8j_tD_AztvVEnDcFr04OTuJL64yBmpjbmRyUloBQw
+Processing trending topic: The last time Iran held a funeral for the Supreme Leader
+Searching Google for: The last time Iran held a funeral for the Supreme Leader
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Blast%252Btime%252BIran%252Bheld%252Ba%252Bfuneral%252Bfor%252Bthe%252BSupreme%252BLeader%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUUhGOP1mtIGIjC-U5DRwXbRCq-pbshodcly4k5V9lYzf93fhuGEyAyYHGSLtHcnqGYQP_DuHbQXr-4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: boys-who-raped-teen-girls-given-custodial-sentence_20260702_1749.html
-✓ Created comprehensive article: boys-who-raped-teen-girls-given-custodial-sentence_20260702_1749.html
+Successfully created file: the-last-time-iran-held-a-funeral-for-the-supreme-_20260702_1924.html
+✓ Created comprehensive article: the-last-time-iran-held-a-funeral-for-the-supreme-_20260702_1924.html
 
-Processing trending topic: Deadly blast at Damascus cafe leaves 6 dead, 22 injured
-Searching Google for: Deadly blast at Damascus cafe leaves 6 dead, 22 injured
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252Bblast%252Bat%252BDamascus%252Bcafe%252Bleaves%252B6%252Bdead%252C%252B22%252Binjured%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOcahGJrJmtIGIjAGyyR3cjuaMg5cFp2jYHPeq1xynyrp57KGZ6I1hWaRDBYRiflNzFpA33026mDKJCcyBmpjbmRyUloBQw
+Processing trending topic: Fears of new massacre in Sudan’s el-Obeid: What do we know?
+Searching Google for: Fears of new massacre in Sudan’s el-Obeid: What do we know?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFears%252Bof%252Bnew%252Bmassacre%252Bin%252BSudan%25E2%2580%2599s%252Bel-Obeid%253A%252BWhat%252Bdo%252Bwe%252Bknow%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUUhGOr1mtIGIjDnCmEIeeVm4LhLt-9hoxEcMvvgK8nOJ7NQDE0-eKONCwicuRURoXQrisfbjj9wXTgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: deadly-blast-at-damascus-cafe-leaves-6-dead-22-inj_20260702_1749.html
-✓ Created comprehensive article: deadly-blast-at-damascus-cafe-leaves-6-dead-22-inj_20260702_1749.html
+Successfully created file: fears-of-new-massacre-in-sudans-el-obeid-what-do-w_20260702_1924.html
+✓ Created comprehensive article: fears-of-new-massacre-in-sudans-el-obeid-what-do-w_20260702_1924.html
 
-Processing trending topic: Rally for Luxembourg teacher fired over pro-Gaza posts
-Searching Google for: Rally for Luxembourg teacher fired over pro-Gaza posts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRally%252Bfor%252BLuxembourg%252Bteacher%252Bfired%252Bover%252Bpro-Gaza%252Bposts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOcahGKHJmtIGIjDlwjVpJ2nU7aFGFwaTYIKb_g7gMKRypHwI5S-PDJsH0w0j2bbkv3FTu-4Wr5vW_uwyBmpjbmRyUloBQw
+Processing trending topic: UK’s likely next PM Andy Burnham faces defence funding gap
+Searching Google for: UK’s likely next PM Andy Burnham faces defence funding gap
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%25E2%2580%2599s%252Blikely%252Bnext%252BPM%252BAndy%252BBurnham%252Bfaces%252Bdefence%252Bfunding%252Bgap%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUUhGPD1mtIGIjCYXHndWtgyBt4oed0dxPwOgwwILxwTFuHBjHmR6Iy7wnPkerUQsbxbaXDFiUbOb1QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: rally-for-luxembourg-teacher-fired-over-pro-gaza-p_20260702_1749.html
-✓ Created comprehensive article: rally-for-luxembourg-teacher-fired-over-pro-gaza-p_20260702_1749.html
+Successfully created file: uks-likely-next-pm-andy-burnham-faces-defence-fund_20260702_1924.html
+✓ Created comprehensive article: uks-likely-next-pm-andy-burnham-faces-defence-fund_20260702_1924.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-military-capabilities-does-iran-possess-as-it_20260701_1755.html
-Cleaned old post to keep top 30 limit: uks-starmer-apologises-for-the-states-role-in-deca_20260702_1516.html
-Cleaned old post to keep top 30 limit: married-at-first-sight-uk-star-arrested-on-suspici_20260702_1516.html
+Cleaned old post to keep top 30 limit: witch-hunt-in-niger-as-military-regime-rounds-up-l_20260701_0813.html
+Cleaned old post to keep top 30 limit: deadly-blast-at-damascus-cafe-leaves-6-dead-22-inj_20260702_1749.html
+Cleaned old post to keep top 30 limit: boys-who-raped-teen-girls-given-custodial-sentence_20260702_1749.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Boys who raped teen girls given custodial sentences
+   • The last time Iran held a funeral for the Supreme Leader
      Sources: bbc.com, cnn.com, reuters.com
-   • Deadly blast at Damascus cafe leaves 6 dead, 22 injured
+   • Fears of new massacre in Sudan’s el-Obeid: What do we know?
      Sources: bbc.com, cnn.com, reuters.com
-   • Rally for Luxembourg teacher fired over pro-Gaza posts
+   • UK’s likely next PM Andy Burnham faces defence funding gap
      Sources: bbc.com, cnn.com, reuters.com
