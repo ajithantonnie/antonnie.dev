@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Married at First Sight UK star arrested on suspicion of rape
@@ -8,66 +8,58 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Côte d’Ivoire floods kill 59 as west Africa endures torrential rains
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Senegal’s World Cup agony: Nation left rueing last-gasp collapse
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could water become a flashpoint between Islamabad and New Delhi?
-Added expanded search topic: Senegal’s World Cup agony: Nation left rueing last-gasp collapse
-Added expanded search topic: Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout
-Added expanded search topic: Could water become a flashpoint between Islamabad and New Delhi?
-Saved 27 topics for 2026-07-02
+  Added: ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-03
 Returning 3 unique trending topics:
-  1. Senegal’s World Cup agony: Nation left rueing last-gasp collapse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Could water become a flashpoint between Islamabad and New Delhi? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Married at First Sight UK star arrested on suspicion of rape (from BBC News)
+  2. Boys who raped teen girls given custodial sentences (from BBC News)
+  3. ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips (from The Guardian)
 
-Processing trending topic: Senegal’s World Cup agony: Nation left rueing last-gasp collapse
-Searching Google for: Senegal’s World Cup agony: Nation left rueing last-gasp collapse
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSenegal%25E2%2580%2599s%252BWorld%252BCup%252Bagony%253A%252BNation%252Bleft%252Brueing%252Blast-gasp%252Bcollapse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg0cSGLrem9IGIjAQ7RKcyk8ybpb6_XRdAJtSpULKcWi6cCWdI1p3nYde9HYsbqkIKhx0a4RoXqp9kgcyBmpjbmRyUloBQw
+Processing trending topic: Married at First Sight UK star arrested on suspicion of rape
+Searching Google for: Married at First Sight UK star arrested on suspicion of rape
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: senegals-world-cup-agony-nation-left-rueing-last-g_20260702_2307.html
-✓ Created comprehensive article: senegals-world-cup-agony-nation-left-rueing-last-g_20260702_2307.html
+Successfully created file: married-at-first-sight-uk-star-arrested-on-suspici_20260703_0248.html
+✓ Created comprehensive article: married-at-first-sight-uk-star-arrested-on-suspici_20260703_0248.html
 
-Processing trending topic: Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout
-Searching Google for: Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOyarzabal%252Bscores%252Btwo%252Bgoals%252Bas%252BSpain%252Bdominates%252BAustria%252Bin%252BWorld%252BCup%252Bknockout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg0cSGMHem9IGIjCIQtSPOTkFGI6db4CD-Tg5v9KBgc2FRIMYnYb5VBMAHGBHkKdho-tYgFBx4K3FKJwyBmpjbmRyUloBQw
+Processing trending topic: Boys who raped teen girls given custodial sentences
+Searching Google for: Boys who raped teen girls given custodial sentences
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoys%252Bwho%252Braped%252Bteen%252Bgirls%252Bgiven%252Bcustodial%252Bsentences%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGbwGK3GnNIGIjARpKEuc_BuSQTgbnrId78DpaxPK2gnlTUmt_P1_zWE6H1y1ZqAsx_y8RyLwDUmVikyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: oyarzabal-scores-two-goals-as-spain-dominates-aust_20260702_2307.html
-✓ Created comprehensive article: oyarzabal-scores-two-goals-as-spain-dominates-aust_20260702_2307.html
+Successfully created file: boys-who-raped-teen-girls-given-custodial-sentence_20260703_0249.html
+✓ Created comprehensive article: boys-who-raped-teen-girls-given-custodial-sentence_20260703_0249.html
 
-Processing trending topic: Could water become a flashpoint between Islamabad and New Delhi?
-Searching Google for: Could water become a flashpoint between Islamabad and New Delhi?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252Bwater%252Bbecome%252Ba%252Bflashpoint%252Bbetween%252BIslamabad%252Band%252BNew%252BDelhi%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg0cSGMfem9IGIjDXejUJ8EmnvAwYsi97J3By95daHpW8jp4j8s0UpDI9IY95WWH53936WJ8D66TCLS8yBmpjbmRyUloBQw
+Processing trending topic: ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips
+Searching Google for: ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Give%252Bhim%252Bany%252Baward%252C%252Band%252Bhe%25E2%2580%2599ll%252Bcome%252Brunning%25E2%2580%2599%253A%252BNarendra%252BModi%252Bracks%252Bup%252Bhonours%252Bon%252Boverseas%252Btrips%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGbwGLTGnNIGIjDV8JXXyMhC-WsVea3gxJ6DL8JhRwXGif8WPXRcjs1oFDhtEgoUY2HTedpk1hQTIZ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-water-become-a-flashpoint-between-islamabad-_20260702_2307.html
-✓ Created comprehensive article: could-water-become-a-flashpoint-between-islamabad-_20260702_2307.html
+Successfully created file: give-him-any-award-and-hell-come-running-narendra-_20260703_0249.html
+✓ Created comprehensive article: give-him-any-award-and-hell-come-running-narendra-_20260703_0249.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-administration-aims-to-cut-regulations-on-us_20260702_2107.html
-Cleaned old post to keep top 30 limit: uks-likely-next-leader-andy-burnham-vows-to-fully-_20260702_2107.html
-Cleaned old post to keep top 30 limit: one-week-on-from-venezuelas-deadly-earthquakes_20260701_1954.html
+Cleaned old post to keep top 30 limit: senegals-world-cup-agony-nation-left-rueing-last-g_20260702_2307.html
+Cleaned old post to keep top 30 limit: oyarzabal-scores-two-goals-as-spain-dominates-aust_20260702_2307.html
+Cleaned old post to keep top 30 limit: could-water-become-a-flashpoint-between-islamabad-_20260702_2307.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Senegal’s World Cup agony: Nation left rueing last-gasp collapse
+   • Married at First Sight UK star arrested on suspicion of rape
      Sources: bbc.com, cnn.com, reuters.com
-   • Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout
+   • Boys who raped teen girls given custodial sentences
      Sources: bbc.com, cnn.com, reuters.com
-   • Could water become a flashpoint between Islamabad and New Delhi?
+   • ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips
      Sources: bbc.com, cnn.com, reuters.com
