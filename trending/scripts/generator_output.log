@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Mother says new custodial sentences for daughter's rapists 'better' but still 'not enough'
+  Added: NHS to reward people who walk 30 minutes a day
   Added: On the Strait of Hormuz, BBC finds seized ships and shark fishermen as uneasy calm returns
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Are Europe’s extreme summers the new normal? What the science says
-Added expanded search topic: Are Europe’s extreme summers the new normal? What the science says
-Saved 6 topics for 2026-07-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Four killed in Ukraine a day after deadliest Russian attacks this year
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup 2026: Round of 16 bracket, Friday schedule, predictions
+Added expanded search topic: Four killed in Ukraine a day after deadliest Russian attacks this year
+Added expanded search topic: FIFA World Cup 2026: Round of 16 bracket, Friday schedule, predictions
+Saved 9 topics for 2026-07-03
 Returning 3 unique trending topics:
-  1. Mother says new custodial sentences for daughter's rapists 'better' but still 'not enough' (from BBC News)
-  2. On the Strait of Hormuz, BBC finds seized ships and shark fishermen as uneasy calm returns (from BBC News)
-  3. Are Europe’s extreme summers the new normal? What the science says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. NHS to reward people who walk 30 minutes a day (from BBC News)
+  2. Four killed in Ukraine a day after deadliest Russian attacks this year (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. FIFA World Cup 2026: Round of 16 bracket, Friday schedule, predictions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Mother says new custodial sentences for daughter's rapists 'better' but still 'not enough'
-Searching Google for: Mother says new custodial sentences for daughter's rapists 'better' but still 'not enough'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMother%252Bsays%252Bnew%252Bcustodial%252Bsentences%252Bfor%252Bdaughter%2527s%252Brapists%252B%2527better%2527%252Bbut%252Bstill%252B%2527not%252Benough%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqwGNavndIGIjA6egApM3jc7ipK-JJsFwtzp7msfVx3_CNlH_nrJEoW7RHMR9vg7Dt-FNWc64HHw4AyBmpjbmRyUloBQw
+Processing trending topic: NHS to reward people who walk 30 minutes a day
+Searching Google for: NHS to reward people who walk 30 minutes a day
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mother-says-new-custodial-sentences-for-daughters-_20260703_0634.html
-✓ Created comprehensive article: mother-says-new-custodial-sentences-for-daughters-_20260703_0634.html
+Successfully created file: nhs-to-reward-people-who-walk-30-minutes-a-day_20260703_0959.html
+✓ Created comprehensive article: nhs-to-reward-people-who-walk-30-minutes-a-day_20260703_0959.html
 
-Processing trending topic: On the Strait of Hormuz, BBC finds seized ships and shark fishermen as uneasy calm returns
-Searching Google for: On the Strait of Hormuz, BBC finds seized ships and shark fishermen as uneasy calm returns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOn%252Bthe%252BStrait%252Bof%252BHormuz%252C%252BBBC%252Bfinds%252Bseized%252Bships%252Band%252Bshark%252Bfishermen%252Bas%252Buneasy%252Bcalm%252Breturns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqwGN2vndIGIjDlNwXdrHPic5uae2HgjySCarcl0aghl3Aamg1D5bhEKTIWajOabQ_BwC3aAer3o6EyBmpjbmRyUloBQw
+Processing trending topic: Four killed in Ukraine a day after deadliest Russian attacks this year
+Searching Google for: Four killed in Ukraine a day after deadliest Russian attacks this year
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFour%252Bkilled%252Bin%252BUkraine%252Ba%252Bday%252Bafter%252Bdeadliest%252BRussian%252Battacks%252Bthis%252Byear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuacmGLGQntIGIjAxq1sDwd3gSLMoJXv--M-wFUxGojdtsZu_sCQklIf0bZ6N8vH-D7bSO1vfTSMMHNgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: on-the-strait-of-hormuz-bbc-finds-seized-ships-and_20260703_0634.html
-✓ Created comprehensive article: on-the-strait-of-hormuz-bbc-finds-seized-ships-and_20260703_0634.html
+Successfully created file: four-killed-in-ukraine-a-day-after-deadliest-russi_20260703_1000.html
+✓ Created comprehensive article: four-killed-in-ukraine-a-day-after-deadliest-russi_20260703_1000.html
 
-Processing trending topic: Are Europe’s extreme summers the new normal? What the science says
-Searching Google for: Are Europe’s extreme summers the new normal? What the science says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAre%252BEurope%25E2%2580%2599s%252Bextreme%252Bsummers%252Bthe%252Bnew%252Bnormal%253F%252BWhat%252Bthe%252Bscience%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqwGOOvndIGIjDsPexaOVJpyFpLvbCUtLTJg4XYVNo6-VgW-H00pKpPIaFg02IkExXyVxmxDAwUXzoyBmpjbmRyUloBQw
+Processing trending topic: FIFA World Cup 2026: Round of 16 bracket, Friday schedule, predictions
+Searching Google for: FIFA World Cup 2026: Round of 16 bracket, Friday schedule, predictions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252B2026%253A%252BRound%252Bof%252B16%252Bbracket%252C%252BFriday%252Bschedule%252C%252Bpredictions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuacmGLiQntIGIjBthJeCdFNlNABGI121zgxRjQ0RkQ_PdFlLqW086AIvKIgGmsbNoMGOH3YdXf7o7tUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: are-europes-extreme-summers-the-new-normal-what-th_20260703_0634.html
-✓ Created comprehensive article: are-europes-extreme-summers-the-new-normal-what-th_20260703_0634.html
+Successfully created file: fifa-world-cup-2026-round-of-16-bracket-friday-sch_20260703_1000.html
+✓ Created comprehensive article: fifa-world-cup-2026-round-of-16-bracket-friday-sch_20260703_1000.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: who-declares-cruise-linked-hantavirus-outbreak-off_20260702_2107.html
-Cleaned old post to keep top 30 limit: give-him-any-award-and-hell-come-running-narendra-_20260703_0249.html
-Cleaned old post to keep top 30 limit: boys-who-raped-teen-girls-given-custodial-sentence_20260703_0249.html
+Cleaned old post to keep top 30 limit: on-the-strait-of-hormuz-bbc-finds-seized-ships-and_20260703_0634.html
+Cleaned old post to keep top 30 limit: married-at-first-sight-uk-star-arrested-on-suspici_20260703_0248.html
+Cleaned old post to keep top 30 limit: are-europes-extreme-summers-the-new-normal-what-th_20260703_0634.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Mother says new custodial sentences for daughter's rapists 'better' but still 'not enough'
+   • NHS to reward people who walk 30 minutes a day
      Sources: bbc.com, cnn.com, reuters.com
-   • On the Strait of Hormuz, BBC finds seized ships and shark fishermen as uneasy calm returns
+   • Four killed in Ukraine a day after deadliest Russian attacks this year
      Sources: bbc.com, cnn.com, reuters.com
-   • Are Europe’s extreme summers the new normal? What the science says
+   • FIFA World Cup 2026: Round of 16 bracket, Friday schedule, predictions
      Sources: bbc.com, cnn.com, reuters.com
