@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Starmer warns Burnham will need to spend as much time on global affairs as he did, in first inter...
   Added: England v Mexico set to move to earlier kick-off time
-  Added: Three men found not guilty of journalist Lyra McKee's murder
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saudi deputy foreign minister pays respects at Khamenei funeral
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Argentina vs Cape Verde – FIFA World Cup 2026
-Added expanded search topic: Saudi deputy foreign minister pays respects at Khamenei funeral
-Added expanded search topic: LIVE: Argentina vs Cape Verde – FIFA World Cup 2026
-Saved 21 topics for 2026-07-03
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is China’s new ethnic unity law a step towards forced assimilation?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mamdani calls for unity on America’s 250th birthday
+Added expanded search topic: Is China’s new ethnic unity law a step towards forced assimilation?
+Added expanded search topic: Mamdani calls for unity on America’s 250th birthday
+Saved 24 topics for 2026-07-03
 Returning 3 unique trending topics:
-  1. England v Mexico set to move to earlier kick-off time (from BBC News)
-  2. Saudi deputy foreign minister pays respects at Khamenei funeral (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. LIVE: Argentina vs Cape Verde – FIFA World Cup 2026 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer warns Burnham will need to spend as much time on global affairs as he did, in first inter... (from BBC News)
+  2. Is China’s new ethnic unity law a step towards forced assimilation? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Mamdani calls for unity on America’s 250th birthday (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: England v Mexico set to move to earlier kick-off time
-Searching Google for: England v Mexico set to move to earlier kick-off time
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bv%252BMexico%252Bset%252Bto%252Bmove%252Bto%252Bearlier%252Bkick-off%252Btime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QciGOqXoNIGIjCNjb6Y9ZhaliTfOsJQPl1DPSqHMRELIxF7irgRU2ld_VpDUZOjs8xQlzYJPY3iFHcyBmpjbmRyUloBQw
+Processing trending topic: Starmer warns Burnham will need to spend as much time on global affairs as he did, in first inter...
+Searching Google for: Starmer warns Burnham will need to spend as much time on global affairs as he did, in first inter...
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bwarns%252BBurnham%252Bwill%252Bneed%252Bto%252Bspend%252Bas%252Bmuch%252Btime%252Bon%252Bglobal%252Baffairs%252Bas%252Bhe%252Bdid%252C%252Bin%252Bfirst%252Binter...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq6UGLbIoNIGIjDcWxWDVt8k8IYzhcKxG8_5odzVbldwdqUpjXUwN1ladLU0v-LNWg4pSySEcHVfZcMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-v-mexico-set-to-move-to-earlier-kick-off-t_20260703_1922.html
-✓ Created comprehensive article: england-v-mexico-set-to-move-to-earlier-kick-off-t_20260703_1922.html
+Successfully created file: starmer-warns-burnham-will-need-to-spend-as-much-t_20260703_2106.html
+✓ Created comprehensive article: starmer-warns-burnham-will-need-to-spend-as-much-t_20260703_2106.html
 
-Processing trending topic: Saudi deputy foreign minister pays respects at Khamenei funeral
-Searching Google for: Saudi deputy foreign minister pays respects at Khamenei funeral
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi%252Bdeputy%252Bforeign%252Bminister%252Bpays%252Brespects%252Bat%252BKhamenei%252Bfuneral%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QciGPCXoNIGIjDbSvHbnmYVQ_cNbXDka1LMMcZrt3oKOvjMKORIw_Om7_61RLm9jjobf_hMj0WydiAyBmpjbmRyUloBQw
+Processing trending topic: Is China’s new ethnic unity law a step towards forced assimilation?
+Searching Google for: Is China’s new ethnic unity law a step towards forced assimilation?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252BChina%25E2%2580%2599s%252Bnew%252Bethnic%252Bunity%252Blaw%252Ba%252Bstep%252Btowards%252Bforced%252Bassimilation%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq6UGL3IoNIGIjC9ibt4LUcMiYmXsrxAg7RCXiRNCMpuph23syWrkgLTqjmdzVfwbUzf3U7rAn1p8lcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: saudi-deputy-foreign-minister-pays-respects-at-kha_20260703_1922.html
-✓ Created comprehensive article: saudi-deputy-foreign-minister-pays-respects-at-kha_20260703_1922.html
+Successfully created file: is-chinas-new-ethnic-unity-law-a-step-towards-forc_20260703_2106.html
+✓ Created comprehensive article: is-chinas-new-ethnic-unity-law-a-step-towards-forc_20260703_2106.html
 
-Processing trending topic: LIVE: Argentina vs Cape Verde – FIFA World Cup 2026
-Searching Google for: LIVE: Argentina vs Cape Verde – FIFA World Cup 2026
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BArgentina%252Bvs%252BCape%252BVerde%252B%25E2%2580%2593%252BFIFA%252BWorld%252BCup%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRo0QciGPeXoNIGIjCjpr_jyWN2qUv1ez-BLQIiEtzbgUQMxP65iMd9ZXCS0wKPlefrMUg9rcUa4YBQTkQyBmpjbmRyUloBQw
+Processing trending topic: Mamdani calls for unity on America’s 250th birthday
+Searching Google for: Mamdani calls for unity on America’s 250th birthday
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMamdani%252Bcalls%252Bfor%252Bunity%252Bon%252BAmerica%25E2%2580%2599s%252B250th%252Bbirthday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq6UGMPIoNIGIjBKx9pMZeXyYaSV21gihkyOMoVL1wud9Nd_QTTIdq1z6fi-kjzuVZxPUYgBcSQK434yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-argentina-vs-cape-verde-fifa-world-cup-2026_20260703_1922.html
-✓ Created comprehensive article: live-argentina-vs-cape-verde-fifa-world-cup-2026_20260703_1922.html
+Successfully created file: mamdani-calls-for-unity-on-americas-250th-birthday_20260703_2106.html
+✓ Created comprehensive article: mamdani-calls-for-unity-on-americas-250th-birthday_20260703_2106.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: young-palestinian-women-learn-ai-to-tell-stories-o_20260617_1817.html
-Cleaned old post to keep top 30 limit: three-men-found-not-guilty-of-journalist-lyra-mcke_20260703_1726.html
-Cleaned old post to keep top 30 limit: germanys-merz-defends-nato-spending-after-trump-ca_20260703_1726.html
+Cleaned old post to keep top 30 limit: saudi-deputy-foreign-minister-pays-respects-at-kha_20260703_1922.html
+Cleaned old post to keep top 30 limit: live-argentina-vs-cape-verde-fifa-world-cup-2026_20260703_1922.html
+Cleaned old post to keep top 30 limit: england-v-mexico-set-to-move-to-earlier-kick-off-t_20260703_1922.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • England v Mexico set to move to earlier kick-off time
+   • Starmer warns Burnham will need to spend as much time on global affairs as he did, in first inter...
      Sources: bbc.com, cnn.com, reuters.com
-   • Saudi deputy foreign minister pays respects at Khamenei funeral
+   • Is China’s new ethnic unity law a step towards forced assimilation?
      Sources: bbc.com, cnn.com, reuters.com
-   • LIVE: Argentina vs Cape Verde – FIFA World Cup 2026
+   • Mamdani calls for unity on America’s 250th birthday
      Sources: bbc.com, cnn.com, reuters.com
