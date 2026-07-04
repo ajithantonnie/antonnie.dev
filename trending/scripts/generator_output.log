@@ -1,71 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer tells of 'intensely personal' decision to quit and warns Burnham in first interview since...
-  Added: Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler
+  Added: England-Mexico kick-off unchanged at 1am after Fifa u-turn
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: ‘Give him any award, and he’ll come running’: Narendra Modi racks up honours on overseas trips
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+  Added: Overseas education project for women and girls axed by UK after two years
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could Israel really build settlements in Gaza?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump calls communism a ‘mortal threat’ at US 250th birthday event
-Added expanded search topic: Could Israel really build settlements in Gaza?
-Added expanded search topic: Trump calls communism a ‘mortal threat’ at US 250th birthday event
-Saved 6 topics for 2026-07-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats
+Added expanded search topic: Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats
+Saved 9 topics for 2026-07-04
 Returning 3 unique trending topics:
-  1. Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler (from BBC News)
-  2. Could Israel really build settlements in Gaza? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump calls communism a ‘mortal threat’ at US 250th birthday event (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. England-Mexico kick-off unchanged at 1am after Fifa u-turn (from BBC News)
+  2. Overseas education project for women and girls axed by UK after two years (from The Guardian)
+  3. Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler
-Searching Google for: Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTaylor%252BSwift%252Bmarries%252BTravis%252BKelce%252Bin%252BNYC%252Bceremony%252Bofficiated%252Bby%252BAdam%252BSandler%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0A0zGI_MotIGIjAbMdrxdzv0UDMTSLFBvoZdK6N1UFoQrKf9M2FHx2AZrs-MuXfEvYAKDFQ3xxuAkMYyBmpjbmRyUloBQw
+Processing trending topic: England-Mexico kick-off unchanged at 1am after Fifa u-turn
+Searching Google for: England-Mexico kick-off unchanged at 1am after Fifa u-turn
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: taylor-swift-marries-travis-kelce-in-nyc-ceremony-_20260704_0620.html
-✓ Created comprehensive article: taylor-swift-marries-travis-kelce-in-nyc-ceremony-_20260704_0620.html
+Successfully created file: england-mexico-kick-off-unchanged-at-1am-after-fif_20260704_0924.html
+✓ Created comprehensive article: england-mexico-kick-off-unchanged-at-1am-after-fif_20260704_0924.html
 
-Processing trending topic: Could Israel really build settlements in Gaza?
-Searching Google for: Could Israel really build settlements in Gaza?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252BIsrael%252Breally%252Bbuild%252Bsettlements%252Bin%252BGaza%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0A0zGJbMotIGIjCJBtTDlgQdbyK4wdbv-b5U26yktoS-36kji2VbI_lMjSXwkvtdqr1XFH4DKOeOticyBmpjbmRyUloBQw
+Processing trending topic: Overseas education project for women and girls axed by UK after two years
+Searching Google for: Overseas education project for women and girls axed by UK after two years
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-israel-really-build-settlements-in-gaza_20260704_0620.html
-✓ Created comprehensive article: could-israel-really-build-settlements-in-gaza_20260704_0620.html
+Successfully created file: overseas-education-project-for-women-and-girls-axe_20260704_0924.html
+✓ Created comprehensive article: overseas-education-project-for-women-and-girls-axe_20260704_0924.html
 
-Processing trending topic: Trump calls communism a ‘mortal threat’ at US 250th birthday event
-Searching Google for: Trump calls communism a ‘mortal threat’ at US 250th birthday event
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcalls%252Bcommunism%252Ba%252B%25E2%2580%2598mortal%252Bthreat%25E2%2580%2599%252Bat%252BUS%252B250th%252Bbirthday%252Bevent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0A0zGJzMotIGIjDFfQ9dTjZrBMSTwSMU2dCjO-ktZPt4WUfh2yQgh9_emLzZFgtK6reJg4s21gReJVcyBmpjbmRyUloBQw
+Processing trending topic: Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats
+Searching Google for: Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi-led%252Bcoalition%252Bpledges%252B%25E2%2580%2598unprecedented%25E2%2580%2599%252Bforce%252Bagainst%252BHouthi%252Bthreats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-IEGOCio9IGIjBRE8ZBkhnzfC_6XXlSSbJNtIt0T41jb2cKNZq8B1JeAhFEbz5gmTNEUB0pX4lmjLYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-calls-communism-a-mortal-threat-at-us-250th-_20260704_0620.html
-✓ Created comprehensive article: trump-calls-communism-a-mortal-threat-at-us-250th-_20260704_0620.html
+Successfully created file: saudi-led-coalition-pledges-unprecedented-force-ag_20260704_0924.html
+✓ Created comprehensive article: saudi-led-coalition-pledges-unprecedented-force-ag_20260704_0924.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: give-him-any-award-and-hell-come-running-narendra-_20260704_0245.html
-Cleaned old post to keep top 30 limit: taylor-swift-and-travis-kelce-wed-in-nyc-in-ceremo_20260704_0245.html
-Cleaned old post to keep top 30 limit: england-mexico-fifa-locked-in-kick-off-time-talks_20260703_2304.html
+Cleaned old post to keep top 30 limit: taylor-swift-marries-travis-kelce-in-nyc-ceremony-_20260704_0620.html
+Cleaned old post to keep top 30 limit: starmer-tells-of-intensely-personal-decision-to-qu_20260704_0245.html
+Cleaned old post to keep top 30 limit: could-israel-really-build-settlements-in-gaza_20260704_0620.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Taylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler
+   • England-Mexico kick-off unchanged at 1am after Fifa u-turn
      Sources: bbc.com, cnn.com, reuters.com
-   • Could Israel really build settlements in Gaza?
+   • Overseas education project for women and girls axed by UK after two years
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump calls communism a ‘mortal threat’ at US 250th birthday event
+   • Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats
      Sources: bbc.com, cnn.com, reuters.com
