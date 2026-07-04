@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country
-Added expanded search topic: Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country
-Saved 27 topics for 2026-07-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A politically charged holiday: The US celebrates its 250th anniversary
+Added expanded search topic: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
+Added expanded search topic: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
+Added expanded search topic: A politically charged holiday: The US celebrates its 250th anniversary
+Saved 30 topics for 2026-07-04
 Returning 3 unique trending topics:
-  1. Police leadership needs 'ethical reset', Lord Blunkett tells BBC (from BBC News)
-  2. Archaeologists uncover ancient Byzantine city in Egypt’s western desert (from The Guardian)
-  3. Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Masses of Iranians defy heatwave on second day of Khamenei’s funeral (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. A politically charged holiday: The US celebrates its 250th anniversary (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
-Searching Google for: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bleadership%252Bneeds%252B%2527ethical%252Breset%2527%252C%252BLord%252BBlunkett%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTcjGJXppdIGIjCVHvNpfLTft7vDgL2SSXKkOLR0rue21vQBf70ihJChYS6r_0g0A1jjb-2m7afF78cyBmpjbmRyUloBQw
+Processing trending topic: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
+Searching Google for: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-leadership-needs-ethical-reset-lord-blunket_20260704_2101.html
-✓ Created comprehensive article: police-leadership-needs-ethical-reset-lord-blunket_20260704_2101.html
+Successfully created file: masses-of-iranians-defy-heatwave-on-second-day-of-_20260704_2159.html
+✓ Created comprehensive article: masses-of-iranians-defy-heatwave-on-second-day-of-_20260704_2159.html
 
-Processing trending topic: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Searching Google for: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArchaeologists%252Buncover%252Bancient%252BByzantine%252Bcity%252Bin%252BEgypt%25E2%2580%2599s%252Bwestern%252Bdesert%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTcjGJzppdIGIjDok1ipJi86AzjeCDDSz5zCIrr6NIl29VsfJhnwZ-2TVunR_dRzBfbDokrCRdlupfwyBmpjbmRyUloBQw
+Processing trending topic: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
+Searching Google for: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: archaeologists-uncover-ancient-byzantine-city-in-e_20260704_2101.html
-✓ Created comprehensive article: archaeologists-uncover-ancient-byzantine-city-in-e_20260704_2101.html
+Successfully created file: ounahi-fires-morocco-into-world-cup-quarterfinals-_20260704_2159.html
+✓ Created comprehensive article: ounahi-fires-morocco-into-world-cup-quarterfinals-_20260704_2159.html
 
-Processing trending topic: Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country
-Searching Google for: Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%25E2%2580%2599s%252BAoun%252Bcalls%252Bon%252BUS%252Bto%252Bkeep%252B%25E2%2580%2598always%252Bstanding%252Bbeside%25E2%2580%2599%252Bhis%252Bcountry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTcjGKLppdIGIjASYPcZfIDp-_ScpAJNYY_MwUpPcXkiQhfLacLAb4DXdKw4ATH8CXKIK9-6H0hqnsQyBmpjbmRyUloBQw
+Processing trending topic: A politically charged holiday: The US celebrates its 250th anniversary
+Searching Google for: A politically charged holiday: The US celebrates its 250th anniversary
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bpolitically%252Bcharged%252Bholiday%253A%252BThe%252BUS%252Bcelebrates%252Bits%252B250th%252Banniversary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4awGPuEptIGIjD6DwGsNXZwa3a3WpFBBaxTtSdMKFG4Bcret4uM1QfsWI6Lg4MSS5gnpdSQDkhF6aYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lebanons-aoun-calls-on-us-to-keep-always-standing-_20260704_2101.html
-✓ Created comprehensive article: lebanons-aoun-calls-on-us-to-keep-always-standing-_20260704_2101.html
+Successfully created file: a-politically-charged-holiday-the-us-celebrates-it_20260704_2200.html
+✓ Created comprehensive article: a-politically-charged-holiday-the-us-celebrates-it_20260704_2200.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russias-medvedev-says-strait-of-hormuz-is-irans-nu_20260704_1911.html
-Cleaned old post to keep top 30 limit: turkiyes-erdogan-says-israel-must-not-be-able-to-d_20260704_1911.html
-Cleaned old post to keep top 30 limit: trump-hints-israels-benjamin-netanyahu-may-visit-u_20260704_1911.html
+Cleaned old post to keep top 30 limit: police-leadership-needs-ethical-reset-lord-blunket_20260704_2101.html
+Cleaned old post to keep top 30 limit: lebanons-aoun-calls-on-us-to-keep-always-standing-_20260704_2101.html
+Cleaned old post to keep top 30 limit: archaeologists-uncover-ancient-byzantine-city-in-e_20260704_2101.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police leadership needs 'ethical reset', Lord Blunkett tells BBC
+   • Masses of Iranians defy heatwave on second day of Khamenei’s funeral
      Sources: bbc.com, cnn.com, reuters.com
-   • Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+   • Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
      Sources: bbc.com, cnn.com, reuters.com
-   • Lebanon’s Aoun calls on US to keep ‘always standing beside’ his country
+   • A politically charged holiday: The US celebrates its 250th anniversary
      Sources: bbc.com, cnn.com, reuters.com
