@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Pubs and police brace for England-Mexico 1am kick-off after Fifa U-turn
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nabatieh recovery begins amid ongoing southern Lebanon tensions
-Added expanded search topic: Nabatieh recovery begins amid ongoing southern Lebanon tensions
-Saved 15 topics for 2026-07-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada vs Morocco LIVE: FIFA World Cup 2026 last 16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brain drain leaves Yemen’s health sector in tatters and millions helpless
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why closure matters at the end of life
+Added expanded search topic: Canada vs Morocco LIVE: FIFA World Cup 2026 last 16
+Added expanded search topic: Brain drain leaves Yemen’s health sector in tatters and millions helpless
+Added expanded search topic: Why closure matters at the end of life
+Saved 18 topics for 2026-07-04
 Returning 3 unique trending topics:
-  1. Dior dress and a man of honour: What we know about Taylor Swift and Travis Kelce's wedding (from BBC News)
-  2. ‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes (from The Guardian)
-  3. Nabatieh recovery begins amid ongoing southern Lebanon tensions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Canada vs Morocco LIVE: FIFA World Cup 2026 last 16 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Brain drain leaves Yemen’s health sector in tatters and millions helpless (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why closure matters at the end of life (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dior dress and a man of honour: What we know about Taylor Swift and Travis Kelce's wedding
-Searching Google for: Dior dress and a man of honour: What we know about Taylor Swift and Travis Kelce's wedding
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDior%252Bdress%252Band%252Ba%252Bman%252Bof%252Bhonour%253A%252BWhat%252Bwe%252Bknow%252Babout%252BTaylor%252BSwift%252Band%252BTravis%252BKelce%2527s%252Bwedding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3qSGLKSpNIGIjCaijlGkGfl87hNKAAKWZXqDU8fKgp4LXI-PC4_-XGoxDvmj7lflOvlLr7vuK-iXKkyBmpjbmRyUloBQw
+Processing trending topic: Canada vs Morocco LIVE: FIFA World Cup 2026 last 16
+Searching Google for: Canada vs Morocco LIVE: FIFA World Cup 2026 last 16
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dior-dress-and-a-man-of-honour-what-we-know-about-_20260704_1323.html
-✓ Created comprehensive article: dior-dress-and-a-man-of-honour-what-we-know-about-_20260704_1323.html
+Successfully created file: canada-vs-morocco-live-fifa-world-cup-2026-last-16_20260704_1505.html
+✓ Created comprehensive article: canada-vs-morocco-live-fifa-world-cup-2026-last-16_20260704_1505.html
 
-Processing trending topic: ‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes
-Searching Google for: ‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598The%252Bsituation%252Bis%252Bterrible%25E2%2580%2599%253A%252Baid%252Bworkers%252Bon%252Blife%252Bin%252BSudanese%252Bcity%252Bpummelled%252Bby%252Bdrone%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3qSGLmSpNIGIjCD5ddZvtlr968sw3OVg0cMY7N1Pcf1pKbi6qMEcOHo1yN5i7A0B_LovI1f9lKxCV4yBmpjbmRyUloBQw
+Processing trending topic: Brain drain leaves Yemen’s health sector in tatters and millions helpless
+Searching Google for: Brain drain leaves Yemen’s health sector in tatters and millions helpless
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrain%252Bdrain%252Bleaves%252BYemen%25E2%2580%2599s%252Bhealth%252Bsector%252Bin%252Btatters%252Band%252Bmillions%252Bhelpless%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9odCGPXCpNIGIjAuxrAqcWOpw6PTzy9R-bezl5wsI1p-NLO4OTw2CmrFylNqX_X-9twdggXnp7H6WFgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-situation-is-terrible-aid-workers-on-life-in-s_20260704_1323.html
-✓ Created comprehensive article: the-situation-is-terrible-aid-workers-on-life-in-s_20260704_1323.html
+Successfully created file: brain-drain-leaves-yemens-health-sector-in-tatters_20260704_1506.html
+✓ Created comprehensive article: brain-drain-leaves-yemens-health-sector-in-tatters_20260704_1506.html
 
-Processing trending topic: Nabatieh recovery begins amid ongoing southern Lebanon tensions
-Searching Google for: Nabatieh recovery begins amid ongoing southern Lebanon tensions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNabatieh%252Brecovery%252Bbegins%252Bamid%252Bongoing%252Bsouthern%252BLebanon%252Btensions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l3qSGL-SpNIGIjC3oS6vACJN-GQSOgH_lDTkmlbimU1wt3maTAkjXSUG1SCIsjm5bZmsVAjm19U9CD0yBmpjbmRyUloBQw
+Processing trending topic: Why closure matters at the end of life
+Searching Google for: Why closure matters at the end of life
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bclosure%252Bmatters%252Bat%252Bthe%252Bend%252Bof%252Blife%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9odCGPzCpNIGIjAIOSV803Nhs8FNFB5G3QCkr8NN-s3ntmSRuB-z7eA-3uFsvxx_18LHeW7IG4tZR4kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nabatieh-recovery-begins-amid-ongoing-southern-leb_20260704_1323.html
-✓ Created comprehensive article: nabatieh-recovery-begins-amid-ongoing-southern-leb_20260704_1323.html
+Successfully created file: why-closure-matters-at-the-end-of-life_20260704_1506.html
+✓ Created comprehensive article: why-closure-matters-at-the-end-of-life_20260704_1506.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pubs-and-police-brace-for-england-mexico-1am-kick-_20260704_1128.html
-Cleaned old post to keep top 30 limit: thousands-protest-in-germany-as-far-right-afd-part_20260704_1128.html
-Cleaned old post to keep top 30 limit: america250-how-the-us-heatwave-will-affect-fourth-_20260704_1128.html
+Cleaned old post to keep top 30 limit: dior-dress-and-a-man-of-honour-what-we-know-about-_20260704_1323.html
+Cleaned old post to keep top 30 limit: the-situation-is-terrible-aid-workers-on-life-in-s_20260704_1323.html
+Cleaned old post to keep top 30 limit: nabatieh-recovery-begins-amid-ongoing-southern-leb_20260704_1323.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dior dress and a man of honour: What we know about Taylor Swift and Travis Kelce's wedding
+   • Canada vs Morocco LIVE: FIFA World Cup 2026 last 16
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes
+   • Brain drain leaves Yemen’s health sector in tatters and millions helpless
      Sources: bbc.com, cnn.com, reuters.com
-   • Nabatieh recovery begins amid ongoing southern Lebanon tensions
+   • Why closure matters at the end of life
      Sources: bbc.com, cnn.com, reuters.com
