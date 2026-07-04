@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A politically charged holiday: The US celebrates its 250th anniversary
-Added expanded search topic: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
-Added expanded search topic: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
-Added expanded search topic: A politically charged holiday: The US celebrates its 250th anniversary
-Saved 30 topics for 2026-07-04
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US influence challenged by changing global order: Paolo von Schirach
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: America’s Indigenous Legacy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Has the US reckoned with its own history?
+Added expanded search topic: US influence challenged by changing global order: Paolo von Schirach
+Added expanded search topic: America’s Indigenous Legacy
+Added expanded search topic: Has the US reckoned with its own history?
+Saved 33 topics for 2026-07-04
 Returning 3 unique trending topics:
-  1. Masses of Iranians defy heatwave on second day of Khamenei’s funeral (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. A politically charged holiday: The US celebrates its 250th anniversary (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US influence challenged by changing global order: Paolo von Schirach (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. America’s Indigenous Legacy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Has the US reckoned with its own history? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
-Searching Google for: Masses of Iranians defy heatwave on second day of Khamenei’s funeral
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: US influence challenged by changing global order: Paolo von Schirach
+Searching Google for: US influence challenged by changing global order: Paolo von Schirach
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Binfluence%252Bchallenged%252Bby%252Bchanging%252Bglobal%252Border%253A%252BPaolo%252Bvon%252BSchirach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgQGO-hptIGIjD52KEhzZLyz1hDvvauGe6PDvu3xOYHf-hpMnLsvFt0jVySASWhZuI1rpUGnlqKlbsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: masses-of-iranians-defy-heatwave-on-second-day-of-_20260704_2159.html
-✓ Created comprehensive article: masses-of-iranians-defy-heatwave-on-second-day-of-_20260704_2159.html
+Successfully created file: us-influence-challenged-by-changing-global-order-p_20260704_2302.html
+✓ Created comprehensive article: us-influence-challenged-by-changing-global-order-p_20260704_2302.html
 
-Processing trending topic: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
-Searching Google for: Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: America’s Indigenous Legacy
+Searching Google for: America’s Indigenous Legacy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmerica%25E2%2580%2599s%252BIndigenous%252BLegacy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgQGPahptIGIjAomvFpyM5mCbj6oR7BR40nJgOJmbQ7uz6WCZGoMvpebmWIoClbaMYQGLSzEqEHZAkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ounahi-fires-morocco-into-world-cup-quarterfinals-_20260704_2159.html
-✓ Created comprehensive article: ounahi-fires-morocco-into-world-cup-quarterfinals-_20260704_2159.html
+Successfully created file: americas-indigenous-legacy_20260704_2302.html
+✓ Created comprehensive article: americas-indigenous-legacy_20260704_2302.html
 
-Processing trending topic: A politically charged holiday: The US celebrates its 250th anniversary
-Searching Google for: A politically charged holiday: The US celebrates its 250th anniversary
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bpolitically%252Bcharged%252Bholiday%253A%252BThe%252BUS%252Bcelebrates%252Bits%252B250th%252Banniversary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4awGPuEptIGIjD6DwGsNXZwa3a3WpFBBaxTtSdMKFG4Bcret4uM1QfsWI6Lg4MSS5gnpdSQDkhF6aYyBmpjbmRyUloBQw
+Processing trending topic: Has the US reckoned with its own history?
+Searching Google for: Has the US reckoned with its own history?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHas%252Bthe%252BUS%252Breckoned%252Bwith%252Bits%252Bown%252Bhistory%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgQGPyhptIGIjBVuudl7zxioJb_MvFR3CnTZchf6e2g09N-iDsTe3PdRMKO3G0Fc7K96jRc1-3JE18yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-politically-charged-holiday-the-us-celebrates-it_20260704_2200.html
-✓ Created comprehensive article: a-politically-charged-holiday-the-us-celebrates-it_20260704_2200.html
+Successfully created file: has-the-us-reckoned-with-its-own-history_20260704_2302.html
+✓ Created comprehensive article: has-the-us-reckoned-with-its-own-history_20260704_2302.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-leadership-needs-ethical-reset-lord-blunket_20260704_2101.html
-Cleaned old post to keep top 30 limit: lebanons-aoun-calls-on-us-to-keep-always-standing-_20260704_2101.html
-Cleaned old post to keep top 30 limit: archaeologists-uncover-ancient-byzantine-city-in-e_20260704_2101.html
+Cleaned old post to keep top 30 limit: ounahi-fires-morocco-into-world-cup-quarterfinals-_20260704_2159.html
+Cleaned old post to keep top 30 limit: masses-of-iranians-defy-heatwave-on-second-day-of-_20260704_2159.html
+Cleaned old post to keep top 30 limit: a-politically-charged-holiday-the-us-celebrates-it_20260704_2200.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Masses of Iranians defy heatwave on second day of Khamenei’s funeral
+   • US influence challenged by changing global order: Paolo von Schirach
      Sources: bbc.com, cnn.com, reuters.com
-   • Ounahi fires Morocco into World Cup quarterfinals with 3-0 win over Canada
+   • America’s Indigenous Legacy
      Sources: bbc.com, cnn.com, reuters.com
-   • A politically charged holiday: The US celebrates its 250th anniversary
+   • Has the US reckoned with its own history?
      Sources: bbc.com, cnn.com, reuters.com
