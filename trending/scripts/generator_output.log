@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US marks 250th birthday with fireworks, flyovers and extreme weather
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt and Morocco fans celebrate World Cup wins by singing for Palestine
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction
-Added expanded search topic: Egypt and Morocco fans celebrate World Cup wins by singing for Palestine
-Added expanded search topic: Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction
-Saved 9 topics for 2026-07-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How xenophobia went viral in South Africa
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup round of 16: Bracket, schedule, predictions and latest news
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China releases underground church pastor after months in detention
+Added expanded search topic: How xenophobia went viral in South Africa
+Added expanded search topic: FIFA World Cup round of 16: Bracket, schedule, predictions and latest news
+Added expanded search topic: China releases underground church pastor after months in detention
+Saved 12 topics for 2026-07-05
 Returning 3 unique trending topics:
-  1. US marks 250th birthday with fireworks, flyovers and extreme weather (from BBC News)
-  2. Egypt and Morocco fans celebrate World Cup wins by singing for Palestine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. How xenophobia went viral in South Africa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. FIFA World Cup round of 16: Bracket, schedule, predictions and latest news (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. China releases underground church pastor after months in detention (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US marks 250th birthday with fireworks, flyovers and extreme weather
-Searching Google for: US marks 250th birthday with fireworks, flyovers and extreme weather
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: How xenophobia went viral in South Africa
+Searching Google for: How xenophobia went viral in South Africa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bxenophobia%252Bwent%252Bviral%252Bin%252BSouth%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK5zGOfcqNIGIjBOSMhYrj0o1X7hY9l2c3X_JQVa6YODPZvH_wuxjfoG04ET6oOcPcN3tb5PUI3vsUEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-marks-250th-birthday-with-fireworks-flyovers-an_20260705_0801.html
-✓ Created comprehensive article: us-marks-250th-birthday-with-fireworks-flyovers-an_20260705_0801.html
+Successfully created file: how-xenophobia-went-viral-in-south-africa_20260705_1014.html
+✓ Created comprehensive article: how-xenophobia-went-viral-in-south-africa_20260705_1014.html
 
-Processing trending topic: Egypt and Morocco fans celebrate World Cup wins by singing for Palestine
-Searching Google for: Egypt and Morocco fans celebrate World Cup wins by singing for Palestine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%252Band%252BMorocco%252Bfans%252Bcelebrate%252BWorld%252BCup%252Bwins%252Bby%252Bsinging%252Bfor%252BPalestine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08RjQGMaeqNIGIjCOKkKFBM5RD5CDCvxyDYJyHlg62-qL90icON1csQHA_674EZJDYCijFYb6Vkm08gkyBmpjbmRyUloBQw
+Processing trending topic: FIFA World Cup round of 16: Bracket, schedule, predictions and latest news
+Searching Google for: FIFA World Cup round of 16: Bracket, schedule, predictions and latest news
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252Bround%252Bof%252B16%253A%252BBracket%252C%252Bschedule%252C%252Bpredictions%252Band%252Blatest%252Bnews%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK5zGO7cqNIGIjDsibuh3_PtOjiNCQeD-Kf4nTL9mndmQDeGmHmwv7v-RSMRgO_4m3hs7NVe6L4oWGoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egypt-and-morocco-fans-celebrate-world-cup-wins-by_20260705_0801.html
-✓ Created comprehensive article: egypt-and-morocco-fans-celebrate-world-cup-wins-by_20260705_0801.html
+Successfully created file: fifa-world-cup-round-of-16-bracket-schedule-predic_20260705_1014.html
+✓ Created comprehensive article: fifa-world-cup-round-of-16-bracket-schedule-predic_20260705_1014.html
 
-Processing trending topic: Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction
-Searching Google for: Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazil%252Bvs%252BNorway%253A%252BFIFA%252BWorld%252BCup%252Blast%252B16%252B%25E2%2580%2593%252BVinicius%252C%252BHaaland%252Band%252Bprediction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08RjQGMyeqNIGIjChxmO39edzfg5w-6q518tRw8OC1MIFLYcI0IweQZeb1XjG2A-bo9FkzD4AGR4kcVwyBmpjbmRyUloBQw
+Processing trending topic: China releases underground church pastor after months in detention
+Searching Google for: China releases underground church pastor after months in detention
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Breleases%252Bunderground%252Bchurch%252Bpastor%252Bafter%252Bmonths%252Bin%252Bdetention%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuK5zGPTcqNIGIjB9AQuFpsK0SGbmdBeVSPoo6pipXvD50V4beqF-v9vY1Jt3rV9L6UMheHU1lWEGzI4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: brazil-vs-norway-fifa-world-cup-last-16-vinicius-h_20260705_0801.html
-✓ Created comprehensive article: brazil-vs-norway-fifa-world-cup-last-16-vinicius-h_20260705_0801.html
+Successfully created file: china-releases-underground-church-pastor-after-mon_20260705_1014.html
+✓ Created comprehensive article: china-releases-underground-church-pastor-after-mon_20260705_1014.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: a-name-a-document-a-future-cameroons-fight-to-regi_20260705_0458.html
-Cleaned old post to keep top 30 limit: tuchel-praises-respectful-mexico-fans-amid-increas_20260705_0458.html
-Cleaned old post to keep top 30 limit: us-marks-its-250th-birthday-with-fireworks-flyover_20260705_0458.html
+Cleaned old post to keep top 30 limit: sudans-rsf-committed-crimes-against-humanity-in-el_20260702_0326.html
+Cleaned old post to keep top 30 limit: egypt-and-morocco-fans-celebrate-world-cup-wins-by_20260705_0801.html
+Cleaned old post to keep top 30 limit: brazil-vs-norway-fifa-world-cup-last-16-vinicius-h_20260705_0801.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US marks 250th birthday with fireworks, flyovers and extreme weather
+   • How xenophobia went viral in South Africa
      Sources: bbc.com, cnn.com, reuters.com
-   • Egypt and Morocco fans celebrate World Cup wins by singing for Palestine
+   • FIFA World Cup round of 16: Bracket, schedule, predictions and latest news
      Sources: bbc.com, cnn.com, reuters.com
-   • Brazil vs Norway: FIFA World Cup last 16 – Vinicius, Haaland and prediction
+   • China releases underground church pastor after months in detention
      Sources: bbc.com, cnn.com, reuters.com
