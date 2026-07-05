@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
-  Added: Prince Harry will not be joined by Meghan and children on London trip
+  Added: Prince Harry and Meghan: Will they or won't they, and will we care?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US influence challenged by changing global order: Paolo von Schirach
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: America’s Indigenous Legacy
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Has the US reckoned with its own history?
-Added expanded search topic: US influence challenged by changing global order: Paolo von Schirach
-Added expanded search topic: America’s Indigenous Legacy
-Added expanded search topic: Has the US reckoned with its own history?
-Saved 33 topics for 2026-07-04
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-05
 Returning 3 unique trending topics:
-  1. US influence challenged by changing global order: Paolo von Schirach (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. America’s Indigenous Legacy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Has the US reckoned with its own history? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Police leadership needs 'ethical reset', Lord Blunkett tells BBC (from BBC News)
+  2. Prince Harry and Meghan: Will they or won't they, and will we care? (from BBC News)
+  3. Archaeologists uncover ancient Byzantine city in Egypt’s western desert (from The Guardian)
 
-Processing trending topic: US influence challenged by changing global order: Paolo von Schirach
-Searching Google for: US influence challenged by changing global order: Paolo von Schirach
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Binfluence%252Bchallenged%252Bby%252Bchanging%252Bglobal%252Border%253A%252BPaolo%252Bvon%252BSchirach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgQGO-hptIGIjD52KEhzZLyz1hDvvauGe6PDvu3xOYHf-hpMnLsvFt0jVySASWhZuI1rpUGnlqKlbsyBmpjbmRyUloBQw
+Processing trending topic: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
+Searching Google for: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-influence-challenged-by-changing-global-order-p_20260704_2302.html
-✓ Created comprehensive article: us-influence-challenged-by-changing-global-order-p_20260704_2302.html
+Successfully created file: police-leadership-needs-ethical-reset-lord-blunket_20260705_0011.html
+✓ Created comprehensive article: police-leadership-needs-ethical-reset-lord-blunket_20260705_0011.html
 
-Processing trending topic: America’s Indigenous Legacy
-Searching Google for: America’s Indigenous Legacy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmerica%25E2%2580%2599s%252BIndigenous%252BLegacy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgQGPahptIGIjAomvFpyM5mCbj6oR7BR40nJgOJmbQ7uz6WCZGoMvpebmWIoClbaMYQGLSzEqEHZAkyBmpjbmRyUloBQw
+Processing trending topic: Prince Harry and Meghan: Will they or won't they, and will we care?
+Searching Google for: Prince Harry and Meghan: Will they or won't they, and will we care?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Band%252BMeghan%253A%252BWill%252Bthey%252Bor%252Bwon%2527t%252Bthey%252C%252Band%252Bwill%252Bwe%252Bcare%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mg3zGLDCptIGIjDOZOANINeHp9hSAZ4yqe9DWqc0VVUMsjIAVQeOfbeHE49GxxymRAVQ6M6XylRWJuQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: americas-indigenous-legacy_20260704_2302.html
-✓ Created comprehensive article: americas-indigenous-legacy_20260704_2302.html
+Successfully created file: prince-harry-and-meghan-will-they-or-wont-they-and_20260705_0011.html
+✓ Created comprehensive article: prince-harry-and-meghan-will-they-or-wont-they-and_20260705_0011.html
 
-Processing trending topic: Has the US reckoned with its own history?
-Searching Google for: Has the US reckoned with its own history?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHas%252Bthe%252BUS%252Breckoned%252Bwith%252Bits%252Bown%252Bhistory%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgQGPyhptIGIjBVuudl7zxioJb_MvFR3CnTZchf6e2g09N-iDsTe3PdRMKO3G0Fc7K96jRc1-3JE18yBmpjbmRyUloBQw
+Processing trending topic: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+Searching Google for: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArchaeologists%252Buncover%252Bancient%252BByzantine%252Bcity%252Bin%252BEgypt%25E2%2580%2599s%252Bwestern%252Bdesert%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mg3zGLbCptIGIjD6bwaSObDhO_KGnPNIFi6rrC0Wj8l8X-JrjIstjrTbKCyTJ76mUoZY5xWkIyUPgYUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: has-the-us-reckoned-with-its-own-history_20260704_2302.html
-✓ Created comprehensive article: has-the-us-reckoned-with-its-own-history_20260704_2302.html
+Successfully created file: archaeologists-uncover-ancient-byzantine-city-in-e_20260705_0011.html
+✓ Created comprehensive article: archaeologists-uncover-ancient-byzantine-city-in-e_20260705_0011.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ounahi-fires-morocco-into-world-cup-quarterfinals-_20260704_2159.html
-Cleaned old post to keep top 30 limit: masses-of-iranians-defy-heatwave-on-second-day-of-_20260704_2159.html
-Cleaned old post to keep top 30 limit: a-politically-charged-holiday-the-us-celebrates-it_20260704_2200.html
+Cleaned old post to keep top 30 limit: police-criticise-timing-of-decision-on-pubs-stayin_20260703_1211.html
+Cleaned old post to keep top 30 limit: us-influence-challenged-by-changing-global-order-p_20260704_2302.html
+Cleaned old post to keep top 30 limit: americas-indigenous-legacy_20260704_2302.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US influence challenged by changing global order: Paolo von Schirach
+   • Police leadership needs 'ethical reset', Lord Blunkett tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • America’s Indigenous Legacy
+   • Prince Harry and Meghan: Will they or won't they, and will we care?
      Sources: bbc.com, cnn.com, reuters.com
-   • Has the US reckoned with its own history?
+   • Archaeologists uncover ancient Byzantine city in Egypt’s western desert
      Sources: bbc.com, cnn.com, reuters.com
