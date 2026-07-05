@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
-  Added: Prince Harry and Meghan: Will they or won't they, and will we care?
+  Added: US marks its 250th birthday with fireworks, flyovers and extreme weather
+  Added: Tuchel praises respectful Mexico fans amid increased security
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-05
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A name, a document, a future: Cameroon’s fight to register every child
+Added expanded search topic: A name, a document, a future: Cameroon’s fight to register every child
+Saved 6 topics for 2026-07-05
 Returning 3 unique trending topics:
-  1. Police leadership needs 'ethical reset', Lord Blunkett tells BBC (from BBC News)
-  2. Prince Harry and Meghan: Will they or won't they, and will we care? (from BBC News)
-  3. Archaeologists uncover ancient Byzantine city in Egypt’s western desert (from The Guardian)
+  1. US marks its 250th birthday with fireworks, flyovers and extreme weather (from BBC News)
+  2. Tuchel praises respectful Mexico fans amid increased security (from BBC News)
+  3. A name, a document, a future: Cameroon’s fight to register every child (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
-Searching Google for: Police leadership needs 'ethical reset', Lord Blunkett tells BBC
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: US marks its 250th birthday with fireworks, flyovers and extreme weather
+Searching Google for: US marks its 250th birthday with fireworks, flyovers and extreme weather
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmarks%252Bits%252B250th%252Bbirthday%252Bwith%252Bfireworks%252C%252Bflyovers%252Band%252Bextreme%252Bweather%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw9kGNbIp9IGIjCGv3j-BoeZhJoFGcwZSzc2GtR7jrpLOg_CJBmTWiYNy9A8TRzxHKJAvjloIvUOR4QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-leadership-needs-ethical-reset-lord-blunket_20260705_0011.html
-✓ Created comprehensive article: police-leadership-needs-ethical-reset-lord-blunket_20260705_0011.html
+Successfully created file: us-marks-its-250th-birthday-with-fireworks-flyover_20260705_0458.html
+✓ Created comprehensive article: us-marks-its-250th-birthday-with-fireworks-flyover_20260705_0458.html
 
-Processing trending topic: Prince Harry and Meghan: Will they or won't they, and will we care?
-Searching Google for: Prince Harry and Meghan: Will they or won't they, and will we care?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Band%252BMeghan%253A%252BWill%252Bthey%252Bor%252Bwon%2527t%252Bthey%252C%252Band%252Bwill%252Bwe%252Bcare%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mg3zGLDCptIGIjDOZOANINeHp9hSAZ4yqe9DWqc0VVUMsjIAVQeOfbeHE49GxxymRAVQ6M6XylRWJuQyBmpjbmRyUloBQw
+Processing trending topic: Tuchel praises respectful Mexico fans amid increased security
+Searching Google for: Tuchel praises respectful Mexico fans amid increased security
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTuchel%252Bpraises%252Brespectful%252BMexico%252Bfans%252Bamid%252Bincreased%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw9kGN3Ip9IGIjBwAVUA5u3mvPelQ6-ND1o0oXMwrAc0s8-unpwjzKenK76iRcop4vaUqFVyFOosCpUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-and-meghan-will-they-or-wont-they-and_20260705_0011.html
-✓ Created comprehensive article: prince-harry-and-meghan-will-they-or-wont-they-and_20260705_0011.html
+Successfully created file: tuchel-praises-respectful-mexico-fans-amid-increas_20260705_0458.html
+✓ Created comprehensive article: tuchel-praises-respectful-mexico-fans-amid-increas_20260705_0458.html
 
-Processing trending topic: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Searching Google for: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArchaeologists%252Buncover%252Bancient%252BByzantine%252Bcity%252Bin%252BEgypt%25E2%2580%2599s%252Bwestern%252Bdesert%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mg3zGLbCptIGIjD6bwaSObDhO_KGnPNIFi6rrC0Wj8l8X-JrjIstjrTbKCyTJ76mUoZY5xWkIyUPgYUyBmpjbmRyUloBQw
+Processing trending topic: A name, a document, a future: Cameroon’s fight to register every child
+Searching Google for: A name, a document, a future: Cameroon’s fight to register every child
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bname%252C%252Ba%252Bdocument%252C%252Ba%252Bfuture%253A%252BCameroon%25E2%2580%2599s%252Bfight%252Bto%252Bregister%252Bevery%252Bchild%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUNw9kGOPIp9IGIjAm3iZ78uzHNCvCIPYKsrlA2GbGBugWJdyuJJMoGCKVlGG8KFqJKLLkGRg-eJ8O2mQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: archaeologists-uncover-ancient-byzantine-city-in-e_20260705_0011.html
-✓ Created comprehensive article: archaeologists-uncover-ancient-byzantine-city-in-e_20260705_0011.html
+Successfully created file: a-name-a-document-a-future-cameroons-fight-to-regi_20260705_0458.html
+✓ Created comprehensive article: a-name-a-document-a-future-cameroons-fight-to-regi_20260705_0458.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-criticise-timing-of-decision-on-pubs-stayin_20260703_1211.html
-Cleaned old post to keep top 30 limit: us-influence-challenged-by-changing-global-order-p_20260704_2302.html
-Cleaned old post to keep top 30 limit: americas-indigenous-legacy_20260704_2302.html
+Cleaned old post to keep top 30 limit: prince-harry-will-not-be-joined-by-meghan-and-chil_20260704_1705.html
+Cleaned old post to keep top 30 limit: archaeologists-uncover-ancient-byzantine-city-in-e_20260705_0011.html
+Cleaned old post to keep top 30 limit: police-leadership-needs-ethical-reset-lord-blunket_20260705_0011.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police leadership needs 'ethical reset', Lord Blunkett tells BBC
+   • US marks its 250th birthday with fireworks, flyovers and extreme weather
      Sources: bbc.com, cnn.com, reuters.com
-   • Prince Harry and Meghan: Will they or won't they, and will we care?
+   • Tuchel praises respectful Mexico fans amid increased security
      Sources: bbc.com, cnn.com, reuters.com
-   • Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+   • A name, a document, a future: Cameroon’s fight to register every child
      Sources: bbc.com, cnn.com, reuters.com
