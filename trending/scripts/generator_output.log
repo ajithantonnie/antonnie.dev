@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Reform denies rules broken by Farage after benefits from ally not declared
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Photo of abused Palestinian detainee causes anguish for two Gaza mothers
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cape Verde celebrates team’s return after historic World Cup
-Added expanded search topic: Photo of abused Palestinian detainee causes anguish for two Gaza mothers
-Added expanded search topic: Cape Verde celebrates team’s return after historic World Cup
-Saved 21 topics for 2026-07-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congressman denies existence of Palestinians in interview
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 50 Houthi fighters killed in renewed clashes in Yemen
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
+Added expanded search topic: US Congressman denies existence of Palestinians in interview
+Added expanded search topic: 50 Houthi fighters killed in renewed clashes in Yemen
+Added expanded search topic: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
+Saved 24 topics for 2026-07-05
 Returning 3 unique trending topics:
-  1. 'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy? (from BBC News)
-  2. Photo of abused Palestinian detainee causes anguish for two Gaza mothers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Cape Verde celebrates team’s return after historic World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US Congressman denies existence of Palestinians in interview (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. 50 Houthi fighters killed in renewed clashes in Yemen (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Super Typhoon Bavi threatens Guam with catastrophic winds and flooding (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy?
-Searching Google for: 'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Posh%252BGeorge%2527%253A%252BWho%252Bis%252Baristocrat%252Band%252Bconvicted%252Bcriminal%252Bat%252Bheart%252Bof%252BFarage%252Bcontroversy%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUasahGLCDqtIGIjADv_ZP1RST4kU4qNlDbZ54pdiWmzrPAJrXK9hQwNMTfdDMaFcHd16M93cJLCpWqVkyBmpjbmRyUloBQw
+Processing trending topic: US Congressman denies existence of Palestinians in interview
+Searching Google for: US Congressman denies existence of Palestinians in interview
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: posh-george-who-is-aristocrat-and-convicted-crimin_20260705_1609.html
-✓ Created comprehensive article: posh-george-who-is-aristocrat-and-convicted-crimin_20260705_1609.html
+Successfully created file: us-congressman-denies-existence-of-palestinians-in_20260705_1803.html
+✓ Created comprehensive article: us-congressman-denies-existence-of-palestinians-in_20260705_1803.html
 
-Processing trending topic: Photo of abused Palestinian detainee causes anguish for two Gaza mothers
-Searching Google for: Photo of abused Palestinian detainee causes anguish for two Gaza mothers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPhoto%252Bof%252Babused%252BPalestinian%252Bdetainee%252Bcauses%252Banguish%252Bfor%252Btwo%252BGaza%252Bmothers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUasahGLiDqtIGIjCATd5tpo-q7o_4nHPFbMaAipGAFZwB1-aHdjo8QbLnEhtx6u6k6SyC7XQzVCD86x0yBmpjbmRyUloBQw
+Processing trending topic: 50 Houthi fighters killed in renewed clashes in Yemen
+Searching Google for: 50 Houthi fighters killed in renewed clashes in Yemen
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D50%252BHouthi%252Bfighters%252Bkilled%252Bin%252Brenewed%252Bclashes%252Bin%252BYemen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU5Nx0GIS5qtIGIjCY4pz2TlVqIpLdGcwX2iZKSZSUXH5INtxVRPeqBRVhLhXZ7c-imC7dEij2_oVAfWwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: photo-of-abused-palestinian-detainee-causes-anguis_20260705_1609.html
-✓ Created comprehensive article: photo-of-abused-palestinian-detainee-causes-anguis_20260705_1609.html
+Successfully created file: 50-houthi-fighters-killed-in-renewed-clashes-in-ye_20260705_1803.html
+✓ Created comprehensive article: 50-houthi-fighters-killed-in-renewed-clashes-in-ye_20260705_1803.html
 
-Processing trending topic: Cape Verde celebrates team’s return after historic World Cup
-Searching Google for: Cape Verde celebrates team’s return after historic World Cup
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCape%252BVerde%252Bcelebrates%252Bteam%25E2%2580%2599s%252Breturn%252Bafter%252Bhistoric%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUasahGL6DqtIGIjA5N_VXhy2ds-IDC0XtX6Yq30lejXQ2wWQa8C224zqchklMFRnNA625JDXIG71So4gyBmpjbmRyUloBQw
+Processing trending topic: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
+Searching Google for: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuper%252BTyphoon%252BBavi%252Bthreatens%252BGuam%252Bwith%252Bcatastrophic%252Bwinds%252Band%252Bflooding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU5Nx0GIq5qtIGIjBViUQ9-gc4TyiOp_uTl_ObqT782hYG1hnWmsqgaJMLXdgCocWppca6coMvNmE5wSoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cape-verde-celebrates-teams-return-after-historic-_20260705_1609.html
-✓ Created comprehensive article: cape-verde-celebrates-teams-return-after-historic-_20260705_1609.html
+Successfully created file: super-typhoon-bavi-threatens-guam-with-catastrophi_20260705_1803.html
+✓ Created comprehensive article: super-typhoon-bavi-threatens-guam-with-catastrophi_20260705_1803.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: reform-denies-rules-broken-by-farage-after-benefit_20260705_1444.html
-Cleaned old post to keep top 30 limit: extreme-weather-disrupts-uss-250th-anniversary-cel_20260705_1444.html
-Cleaned old post to keep top 30 limit: england-battling-history-as-well-as-mexican-nation_20260705_1444.html
+Cleaned old post to keep top 30 limit: jailed-gaza-hospital-chief-in-life-threatening-con_20260705_1217.html
+Cleaned old post to keep top 30 limit: posh-george-who-is-aristocrat-and-convicted-crimin_20260705_1609.html
+Cleaned old post to keep top 30 limit: cape-verde-celebrates-teams-return-after-historic-_20260705_1609.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy?
+   • US Congressman denies existence of Palestinians in interview
      Sources: bbc.com, cnn.com, reuters.com
-   • Photo of abused Palestinian detainee causes anguish for two Gaza mothers
+   • 50 Houthi fighters killed in renewed clashes in Yemen
      Sources: bbc.com, cnn.com, reuters.com
-   • Cape Verde celebrates team’s return after historic World Cup
+   • Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
      Sources: bbc.com, cnn.com, reuters.com
