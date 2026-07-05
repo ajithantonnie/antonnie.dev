@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Reform denies rules broken by Farage after benefits from ally not declared
-  Added: 'Posh George': Who is aristocrat and convicted criminal at heart of Farage controversy?
+  Added: EasyJet reaches 'agreement in principle' over potential takeover
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congressman denies existence of Palestinians in interview
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 50 Houthi fighters killed in renewed clashes in Yemen
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
-Added expanded search topic: US Congressman denies existence of Palestinians in interview
-Added expanded search topic: 50 Houthi fighters killed in renewed clashes in Yemen
-Added expanded search topic: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
-Saved 24 topics for 2026-07-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Australia thrash England to win record seventh Women’s T20 World Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 12-tonne whale removed from DR Congo beach
+Added expanded search topic: Australia thrash England to win record seventh Women’s T20 World Cup
+Added expanded search topic: 12-tonne whale removed from DR Congo beach
+Saved 27 topics for 2026-07-05
 Returning 3 unique trending topics:
-  1. US Congressman denies existence of Palestinians in interview (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. 50 Houthi fighters killed in renewed clashes in Yemen (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Super Typhoon Bavi threatens Guam with catastrophic winds and flooding (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. EasyJet reaches 'agreement in principle' over potential takeover (from BBC News)
+  2. Australia thrash England to win record seventh Women’s T20 World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. 12-tonne whale removed from DR Congo beach (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US Congressman denies existence of Palestinians in interview
-Searching Google for: US Congressman denies existence of Palestinians in interview
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: EasyJet reaches 'agreement in principle' over potential takeover
+Searching Google for: EasyJet reaches 'agreement in principle' over potential takeover
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEasyJet%252Breaches%252B%2527agreement%252Bin%252Bprinciple%2527%252Bover%252Bpotential%252Btakeover%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NzyGOr2qtIGIjB_DmiFoem_DFC6MnCdp-CcA4W4v-nBeV3A1gdmjrD3UyEd7VmCqXFb6cddZD7IhhkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-congressman-denies-existence-of-palestinians-in_20260705_1803.html
-✓ Created comprehensive article: us-congressman-denies-existence-of-palestinians-in_20260705_1803.html
+Successfully created file: easyjet-reaches-agreement-in-principle-over-potent_20260705_2015.html
+✓ Created comprehensive article: easyjet-reaches-agreement-in-principle-over-potent_20260705_2015.html
 
-Processing trending topic: 50 Houthi fighters killed in renewed clashes in Yemen
-Searching Google for: 50 Houthi fighters killed in renewed clashes in Yemen
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D50%252BHouthi%252Bfighters%252Bkilled%252Bin%252Brenewed%252Bclashes%252Bin%252BYemen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU5Nx0GIS5qtIGIjCY4pz2TlVqIpLdGcwX2iZKSZSUXH5INtxVRPeqBRVhLhXZ7c-imC7dEij2_oVAfWwyBmpjbmRyUloBQw
+Processing trending topic: Australia thrash England to win record seventh Women’s T20 World Cup
+Searching Google for: Australia thrash England to win record seventh Women’s T20 World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAustralia%252Bthrash%252BEngland%252Bto%252Bwin%252Brecord%252Bseventh%252BWomen%25E2%2580%2599s%252BT20%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NzyGPH2qtIGIjAGGfph1w1bBNYrtUvlajuNRTdURktDWAUU5-RY58dMGUQd6DPiw6-3BONLPMhb32oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 50-houthi-fighters-killed-in-renewed-clashes-in-ye_20260705_1803.html
-✓ Created comprehensive article: 50-houthi-fighters-killed-in-renewed-clashes-in-ye_20260705_1803.html
+Successfully created file: australia-thrash-england-to-win-record-seventh-wom_20260705_2015.html
+✓ Created comprehensive article: australia-thrash-england-to-win-record-seventh-wom_20260705_2015.html
 
-Processing trending topic: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
-Searching Google for: Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuper%252BTyphoon%252BBavi%252Bthreatens%252BGuam%252Bwith%252Bcatastrophic%252Bwinds%252Band%252Bflooding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU5Nx0GIq5qtIGIjBViUQ9-gc4TyiOp_uTl_ObqT782hYG1hnWmsqgaJMLXdgCocWppca6coMvNmE5wSoyBmpjbmRyUloBQw
+Processing trending topic: 12-tonne whale removed from DR Congo beach
+Searching Google for: 12-tonne whale removed from DR Congo beach
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D12-tonne%252Bwhale%252Bremoved%252Bfrom%252BDR%252BCongo%252Bbeach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6NzyGPf2qtIGIjBwyqJljnqkGsUK0a-2vEkWVkmc0u9Q4sqPsGsNqUp1ILqp66gcS3QUvoBioTLm-koyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: super-typhoon-bavi-threatens-guam-with-catastrophi_20260705_1803.html
-✓ Created comprehensive article: super-typhoon-bavi-threatens-guam-with-catastrophi_20260705_1803.html
+Successfully created file: 12-tonne-whale-removed-from-dr-congo-beach_20260705_2015.html
+✓ Created comprehensive article: 12-tonne-whale-removed-from-dr-congo-beach_20260705_2015.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: jailed-gaza-hospital-chief-in-life-threatening-con_20260705_1217.html
-Cleaned old post to keep top 30 limit: posh-george-who-is-aristocrat-and-convicted-crimin_20260705_1609.html
-Cleaned old post to keep top 30 limit: cape-verde-celebrates-teams-return-after-historic-_20260705_1609.html
+Cleaned old post to keep top 30 limit: super-typhoon-bavi-threatens-guam-with-catastrophi_20260705_1803.html
+Cleaned old post to keep top 30 limit: us-congressman-denies-existence-of-palestinians-in_20260705_1803.html
+Cleaned old post to keep top 30 limit: 50-houthi-fighters-killed-in-renewed-clashes-in-ye_20260705_1803.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US Congressman denies existence of Palestinians in interview
+   • EasyJet reaches 'agreement in principle' over potential takeover
      Sources: bbc.com, cnn.com, reuters.com
-   • 50 Houthi fighters killed in renewed clashes in Yemen
+   • Australia thrash England to win record seventh Women’s T20 World Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • Super Typhoon Bavi threatens Guam with catastrophic winds and flooding
+   • 12-tonne whale removed from DR Congo beach
      Sources: bbc.com, cnn.com, reuters.com
