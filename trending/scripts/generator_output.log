@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
-  Added: Wegovy weight loss pill now available in UK - here's what you need to know
+  Added: Watch key moments from England's 3-2 win at the Azteca
+  Added: Pizza Express held inquiry into Andrew's Woking claim
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-06
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Portugal vs Spain: World Cup last 16 – Ronaldo, Yamal, start and prediction
+Added expanded search topic: Portugal vs Spain: World Cup last 16 – Ronaldo, Yamal, start and prediction
+Saved 6 topics for 2026-07-06
 Returning 3 unique trending topics:
-  1. The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out (from BBC News)
-  2. Wegovy weight loss pill now available in UK - here's what you need to know (from BBC News)
-  3. Archaeologists uncover ancient Byzantine city in Egypt’s western desert (from The Guardian)
+  1. Watch key moments from England's 3-2 win at the Azteca (from BBC News)
+  2. Pizza Express held inquiry into Andrew's Woking claim (from BBC News)
+  3. Portugal vs Spain: World Cup last 16 – Ronaldo, Yamal, start and prediction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
-Searching Google for: The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bman%252Bno-one%252Bwants%252Bto%252Bface%252B-%252BHaaland%252Bfires%252BNorway%252Bto%252Bhistory%252Bas%252Bthey%252Bknock%252BBrazil%252Bout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGLu_rNIGIjBT7wsEBN2yZDE6cWRlk5Chy-HY4xF42kqwURIIBR8NqIzjuyf0tJxsFHPLAiOXEVkyBmpjbmRyUloBQw
+Processing trending topic: Watch key moments from England's 3-2 win at the Azteca
+Searching Google for: Watch key moments from England's 3-2 win at the Azteca
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-man-no-one-wants-to-face-haaland-fires-norway-_20260706_0323.html
-✓ Created comprehensive article: the-man-no-one-wants-to-face-haaland-fires-norway-_20260706_0323.html
+Successfully created file: watch-key-moments-from-englands-3-2-win-at-the-azt_20260706_0821.html
+✓ Created comprehensive article: watch-key-moments-from-englands-3-2-win-at-the-azt_20260706_0821.html
 
-Processing trending topic: Wegovy weight loss pill now available in UK - here's what you need to know
-Searching Google for: Wegovy weight loss pill now available in UK - here's what you need to know
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWegovy%252Bweight%252Bloss%252Bpill%252Bnow%252Bavailable%252Bin%252BUK%252B-%252Bhere%2527s%252Bwhat%252Byou%252Bneed%252Bto%252Bknow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGMK_rNIGIjChyrMBHgcttArw8uPDH4cQWxFDj_9c4v74WSTAlf-5b9jeZZ_HRyBkEKVUF-Z0FMAyBmpjbmRyUloBQw
+Processing trending topic: Pizza Express held inquiry into Andrew's Woking claim
+Searching Google for: Pizza Express held inquiry into Andrew's Woking claim
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPizza%252BExpress%252Bheld%252Binquiry%252Binto%252BAndrew%2527s%252BWoking%252Bclaim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKUwGInLrdIGIjBGJvZWO-vkrX2JFopYj5RxPouIB-jPoyQl7hL25tNSTjRcJCftBp5lZCmhMcqlqxEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: wegovy-weight-loss-pill-now-available-in-uk-heres-_20260706_0323.html
-✓ Created comprehensive article: wegovy-weight-loss-pill-now-available-in-uk-heres-_20260706_0323.html
+Successfully created file: pizza-express-held-inquiry-into-andrews-woking-cla_20260706_0821.html
+✓ Created comprehensive article: pizza-express-held-inquiry-into-andrews-woking-cla_20260706_0821.html
 
-Processing trending topic: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Searching Google for: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArchaeologists%252Buncover%252Bancient%252BByzantine%252Bcity%252Bin%252BEgypt%25E2%2580%2599s%252Bwestern%252Bdesert%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGMi_rNIGIjAptxl1BpcIGoC6LP3yqrHW3cmSjqnH48ZUzBlRWOFMR3RSioyFljQEUbH6wdLxXCgyBmpjbmRyUloBQw
+Processing trending topic: Portugal vs Spain: World Cup last 16 – Ronaldo, Yamal, start and prediction
+Searching Google for: Portugal vs Spain: World Cup last 16 – Ronaldo, Yamal, start and prediction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPortugal%252Bvs%252BSpain%253A%252BWorld%252BCup%252Blast%252B16%252B%25E2%2580%2593%252BRonaldo%252C%252BYamal%252C%252Bstart%252Band%252Bprediction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oKUwGI_LrdIGIjDOlRgrYfveH_T7cPjiN11ILHviyA86n_ZRHfV8qF3te_VqE6O05H7b1TBQjP8Td8IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: archaeologists-uncover-ancient-byzantine-city-in-e_20260706_0323.html
-✓ Created comprehensive article: archaeologists-uncover-ancient-byzantine-city-in-e_20260706_0323.html
+Successfully created file: portugal-vs-spain-world-cup-last-16-ronaldo-yamal-_20260706_0821.html
+✓ Created comprehensive article: portugal-vs-spain-world-cup-last-16-ronaldo-yamal-_20260706_0821.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: how-a-son-rescued-his-father-from-the-rubble-of-ve_20260705_2313.html
-Cleaned old post to keep top 30 limit: venezuelan-leader-marks-independence-day-with-mess_20260705_2313.html
-Cleaned old post to keep top 30 limit: haaland-scores-twice-as-norway-stun-brazil-2-1-in-_20260705_2313.html
+Cleaned old post to keep top 30 limit: photo-of-abused-palestinian-detainee-causes-anguis_20260705_1609.html
+Cleaned old post to keep top 30 limit: has-the-us-reckoned-with-its-own-history_20260704_2302.html
+Cleaned old post to keep top 30 limit: archaeologists-uncover-ancient-byzantine-city-in-e_20260706_0323.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
+   • Watch key moments from England's 3-2 win at the Azteca
      Sources: bbc.com, cnn.com, reuters.com
-   • Wegovy weight loss pill now available in UK - here's what you need to know
+   • Pizza Express held inquiry into Andrew's Woking claim
      Sources: bbc.com, cnn.com, reuters.com
-   • Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+   • Portugal vs Spain: World Cup last 16 – Ronaldo, Yamal, start and prediction
      Sources: bbc.com, cnn.com, reuters.com
