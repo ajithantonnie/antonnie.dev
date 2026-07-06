@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Shelter-in-place order at Azteca over severe weather before Mexico-England
-  Added: EasyJet reaches 'agreement in principle' over potential takeover
+  Added: The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
+  Added: Wegovy weight loss pill now available in UK - here's what you need to know
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuelan leader marks Independence Day with message of ‘no social unrest’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How a son rescued his father from the rubble of Venezuela’s earthquakes
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16
-Added expanded search topic: Venezuelan leader marks Independence Day with message of ‘no social unrest’
-Added expanded search topic: How a son rescued his father from the rubble of Venezuela’s earthquakes
-Added expanded search topic: Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16
-Saved 33 topics for 2026-07-05
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-06
 Returning 3 unique trending topics:
-  1. Venezuelan leader marks Independence Day with message of ‘no social unrest’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. How a son rescued his father from the rubble of Venezuela’s earthquakes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out (from BBC News)
+  2. Wegovy weight loss pill now available in UK - here's what you need to know (from BBC News)
+  3. Archaeologists uncover ancient Byzantine city in Egypt’s western desert (from The Guardian)
 
-Processing trending topic: Venezuelan leader marks Independence Day with message of ‘no social unrest’
-Searching Google for: Venezuelan leader marks Independence Day with message of ‘no social unrest’
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
+Searching Google for: The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bman%252Bno-one%252Bwants%252Bto%252Bface%252B-%252BHaaland%252Bfires%252BNorway%252Bto%252Bhistory%252Bas%252Bthey%252Bknock%252BBrazil%252Bout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGLu_rNIGIjBT7wsEBN2yZDE6cWRlk5Chy-HY4xF42kqwURIIBR8NqIzjuyf0tJxsFHPLAiOXEVkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: venezuelan-leader-marks-independence-day-with-mess_20260705_2313.html
-✓ Created comprehensive article: venezuelan-leader-marks-independence-day-with-mess_20260705_2313.html
+Successfully created file: the-man-no-one-wants-to-face-haaland-fires-norway-_20260706_0323.html
+✓ Created comprehensive article: the-man-no-one-wants-to-face-haaland-fires-norway-_20260706_0323.html
 
-Processing trending topic: How a son rescued his father from the rubble of Venezuela’s earthquakes
-Searching Google for: How a son rescued his father from the rubble of Venezuela’s earthquakes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Ba%252Bson%252Brescued%252Bhis%252Bfather%252Bfrom%252Bthe%252Brubble%252Bof%252BVenezuela%25E2%2580%2599s%252Bearthquakes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhJCGKHKq9IGIjDHsoQQhziTAPoX2cu6uTS81CEtuXj0jz91mAsIRi0k8eWcUYi9JhbnXn2wj4MxXNYyBmpjbmRyUloBQw
+Processing trending topic: Wegovy weight loss pill now available in UK - here's what you need to know
+Searching Google for: Wegovy weight loss pill now available in UK - here's what you need to know
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWegovy%252Bweight%252Bloss%252Bpill%252Bnow%252Bavailable%252Bin%252BUK%252B-%252Bhere%2527s%252Bwhat%252Byou%252Bneed%252Bto%252Bknow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGMK_rNIGIjChyrMBHgcttArw8uPDH4cQWxFDj_9c4v74WSTAlf-5b9jeZZ_HRyBkEKVUF-Z0FMAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-a-son-rescued-his-father-from-the-rubble-of-ve_20260705_2313.html
-✓ Created comprehensive article: how-a-son-rescued-his-father-from-the-rubble-of-ve_20260705_2313.html
+Successfully created file: wegovy-weight-loss-pill-now-available-in-uk-heres-_20260706_0323.html
+✓ Created comprehensive article: wegovy-weight-loss-pill-now-available-in-uk-heres-_20260706_0323.html
 
-Processing trending topic: Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16
-Searching Google for: Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHaaland%252Bscores%252Btwice%252Bas%252BNorway%252Bstun%252BBrazil%252B2-1%252Bin%252BWorld%252BCup%252B2026%252Blast%252B16%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYhJCGKfKq9IGIjCC4ThY-t7lUA5vlg9Un1qgojzzUmiHWE1ZFQZ4c-IcPeNCNiDIuS-SmylS7n-l7LgyBmpjbmRyUloBQw
+Processing trending topic: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+Searching Google for: Archaeologists uncover ancient Byzantine city in Egypt’s western desert
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArchaeologists%252Buncover%252Bancient%252BByzantine%252Bcity%252Bin%252BEgypt%25E2%2580%2599s%252Bwestern%252Bdesert%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oUrDGMi_rNIGIjAptxl1BpcIGoC6LP3yqrHW3cmSjqnH48ZUzBlRWOFMR3RSioyFljQEUbH6wdLxXCgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: haaland-scores-twice-as-norway-stun-brazil-2-1-in-_20260705_2313.html
-✓ Created comprehensive article: haaland-scores-twice-as-norway-stun-brazil-2-1-in-_20260705_2313.html
+Successfully created file: archaeologists-uncover-ancient-byzantine-city-in-e_20260706_0323.html
+✓ Created comprehensive article: archaeologists-uncover-ancient-byzantine-city-in-e_20260706_0323.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mexico-vs-england-live-fifa-world-cup-2026-last-16_20260705_2205.html
-Cleaned old post to keep top 30 limit: shelter-in-place-order-at-azteca-over-severe-weath_20260705_2204.html
-Cleaned old post to keep top 30 limit: albanian-court-frees-protesters-who-rallied-agains_20260705_2205.html
+Cleaned old post to keep top 30 limit: how-a-son-rescued-his-father-from-the-rubble-of-ve_20260705_2313.html
+Cleaned old post to keep top 30 limit: venezuelan-leader-marks-independence-day-with-mess_20260705_2313.html
+Cleaned old post to keep top 30 limit: haaland-scores-twice-as-norway-stun-brazil-2-1-in-_20260705_2313.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Venezuelan leader marks Independence Day with message of ‘no social unrest’
+   • The man no-one wants to face - Haaland fires Norway to history as they knock Brazil out
      Sources: bbc.com, cnn.com, reuters.com
-   • How a son rescued his father from the rubble of Venezuela’s earthquakes
+   • Wegovy weight loss pill now available in UK - here's what you need to know
      Sources: bbc.com, cnn.com, reuters.com
-   • Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16
+   • Archaeologists uncover ancient Byzantine city in Egypt’s western desert
      Sources: bbc.com, cnn.com, reuters.com
