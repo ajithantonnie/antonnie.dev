@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Farage resigns as MP and vows to fight by-election amid finances row
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nasdaq vs Dow: How are the key indices different as SpaceX joins one?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela buries earthquake victims as death toll reaches 3,535
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’
-Added expanded search topic: Nasdaq vs Dow: How are the key indices different as SpaceX joins one?
-Added expanded search topic: Venezuela buries earthquake victims as death toll reaches 3,535
-Added expanded search topic: Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’
-Saved 24 topics for 2026-07-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt buoyed by praise for World Cup heroics despite controversial exit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US says strikes launched as explosions heard in southern Iran
+Added expanded search topic: Egypt buoyed by praise for World Cup heroics despite controversial exit
+Added expanded search topic: Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says
+Added expanded search topic: US says strikes launched as explosions heard in southern Iran
+Saved 27 topics for 2026-07-07
 Returning 3 unique trending topics:
-  1. Nasdaq vs Dow: How are the key indices different as SpaceX joins one? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Venezuela buries earthquake victims as death toll reaches 3,535 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Egypt buoyed by praise for World Cup heroics despite controversial exit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US says strikes launched as explosions heard in southern Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Nasdaq vs Dow: How are the key indices different as SpaceX joins one?
-Searching Google for: Nasdaq vs Dow: How are the key indices different as SpaceX joins one?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNasdaq%252Bvs%252BDow%253A%252BHow%252Bare%252Bthe%252Bkey%252Bindices%252Bdifferent%252Bas%252BSpaceX%252Bjoins%252Bone%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuPcFGI3etdIGIjAuFMxYPYxvevXD6wqtZNd2_FFsEopYboboJQ_pLh5kpOiGSlJ1DixMzW1IchXxBzEyBmpjbmRyUloBQw
+Processing trending topic: Egypt buoyed by praise for World Cup heroics despite controversial exit
+Searching Google for: Egypt buoyed by praise for World Cup heroics despite controversial exit
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nasdaq-vs-dow-how-are-the-key-indices-different-as_20260707_2126.html
-✓ Created comprehensive article: nasdaq-vs-dow-how-are-the-key-indices-different-as_20260707_2126.html
+Successfully created file: egypt-buoyed-by-praise-for-world-cup-heroics-despi_20260707_2302.html
+✓ Created comprehensive article: egypt-buoyed-by-praise-for-world-cup-heroics-despi_20260707_2302.html
 
-Processing trending topic: Venezuela buries earthquake victims as death toll reaches 3,535
-Searching Google for: Venezuela buries earthquake victims as death toll reaches 3,535
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%252Bburies%252Bearthquake%252Bvictims%252Bas%252Bdeath%252Btoll%252Breaches%252B3%252C535%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuPcFGJTetdIGIjCeViTvx4SL7hMHhS1D4-JXqYXutvEUDZcm7S8zloTkd7yser6Orfg2hfs4Yy6QHd0yBmpjbmRyUloBQw
+Processing trending topic: Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says
+Searching Google for: Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%252Bwere%252B%25E2%2580%2598cheated%25E2%2580%2599%252Bin%252BWorld%252BCup%252Bloss%252Bto%252BArgentina%252C%252Bcoach%252BHassan%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzHGMCLttIGIjCtTZrAldxgT0cEB5V8vIuzrAK47AYIY1pMyvmaWVxvg2xhFU2LhnP0VviZzgXcbgoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: venezuela-buries-earthquake-victims-as-death-toll-_20260707_2126.html
-✓ Created comprehensive article: venezuela-buries-earthquake-victims-as-death-toll-_20260707_2126.html
+Successfully created file: egypt-were-cheated-in-world-cup-loss-to-argentina-_20260707_2303.html
+✓ Created comprehensive article: egypt-were-cheated-in-world-cup-loss-to-argentina-_20260707_2303.html
 
-Processing trending topic: Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’
-Searching Google for: Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPro-Palestine%252BMEP%252BRima%252BHassan%252Barrives%252Bat%252Btrial%252Bfor%252B%25E2%2580%2598glorifying%252Bterrorism%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuPcFGJretdIGIjCamIPrUldxPZlnbrKynVrA7CcRNTQcmvH7-zeeCBrNUl91LkYkSBs_78bVcPzwNPQyBmpjbmRyUloBQw
+Processing trending topic: US says strikes launched as explosions heard in southern Iran
+Searching Google for: US says strikes launched as explosions heard in southern Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsays%252Bstrikes%252Blaunched%252Bas%252Bexplosions%252Bheard%252Bin%252Bsouthern%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNzHGMaLttIGIjAQBsQK94lnUaDehpmBGTH5eKubiLJmko27cKZwkbZazhQu3OxUT_Bx3A3KHEEvjvQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pro-palestine-mep-rima-hassan-arrives-at-trial-for_20260707_2126.html
-✓ Created comprehensive article: pro-palestine-mep-rima-hassan-arrives-at-trial-for_20260707_2126.html
+Successfully created file: us-says-strikes-launched-as-explosions-heard-in-so_20260707_2303.html
+✓ Created comprehensive article: us-says-strikes-launched-as-explosions-heard-in-so_20260707_2303.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-criticises-nato-allies-over-iran-conflict-su_20260707_1955.html
-Cleaned old post to keep top 30 limit: farage-resigns-as-mp-and-vows-to-fight-by-election_20260707_1955.html
-Cleaned old post to keep top 30 limit: chris-mason-farage-attempts-to-seize-back-the-agen_20260707_1955.html
+Cleaned old post to keep top 30 limit: venezuela-buries-earthquake-victims-as-death-toll-_20260707_2126.html
+Cleaned old post to keep top 30 limit: pro-palestine-mep-rima-hassan-arrives-at-trial-for_20260707_2126.html
+Cleaned old post to keep top 30 limit: nasdaq-vs-dow-how-are-the-key-indices-different-as_20260707_2126.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Nasdaq vs Dow: How are the key indices different as SpaceX joins one?
+   • Egypt buoyed by praise for World Cup heroics despite controversial exit
      Sources: bbc.com, cnn.com, reuters.com
-   • Venezuela buries earthquake victims as death toll reaches 3,535
+   • Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says
      Sources: bbc.com, cnn.com, reuters.com
-   • Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’
+   • US says strikes launched as explosions heard in southern Iran
      Sources: bbc.com, cnn.com, reuters.com
