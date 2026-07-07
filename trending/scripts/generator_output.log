@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: One million more UK homeowners set  to face higher mortgages
   Added: 'Overturn this' - Belgium taunt US and say Trump move fired them up
-  Added: MI5 knew agent was misogynist 'obsessed' with violence, watchdog finds
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Five charged in Liberia after more than 200kg of cocaine seized in drug bust
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 9 topics for 2026-07-07
+  Added: What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What does Trump want from his NATO allies?
+Added expanded search topic: What does Trump want from his NATO allies?
+Saved 12 topics for 2026-07-07
 Returning 3 unique trending topics:
-  1. 'Overturn this' - Belgium taunt US and say Trump move fired them up (from BBC News)
-  2. MI5 knew agent was misogynist 'obsessed' with violence, watchdog finds (from BBC News)
-  3. Five charged in Liberia after more than 200kg of cocaine seized in drug bust (from The Guardian)
+  1. One million more UK homeowners set  to face higher mortgages (from BBC News)
+  2. What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs (from The Guardian)
+  3. What does Trump want from his NATO allies? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'Overturn this' - Belgium taunt US and say Trump move fired them up
-Searching Google for: 'Overturn this' - Belgium taunt US and say Trump move fired them up
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: One million more UK homeowners set  to face higher mortgages
+Searching Google for: One million more UK homeowners set  to face higher mortgages
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOne%252Bmillion%252Bmore%252BUK%252Bhomeowners%252Bset%252B%252Bto%252Bface%252Bhigher%252Bmortgages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGK3Qs9IGIjDzdlwTaPaO_kEo9ftKzQxNML-45sxy_VQgb9dh1gvF5plmvFSLsgBrfntddrZmpsYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: overturn-this-belgium-taunt-us-and-say-trump-move-_20260707_0825.html
-✓ Created comprehensive article: overturn-this-belgium-taunt-us-and-say-trump-move-_20260707_0825.html
+Successfully created file: one-million-more-uk-homeowners-set-to-face-higher-_20260707_1151.html
+✓ Created comprehensive article: one-million-more-uk-homeowners-set-to-face-higher-_20260707_1151.html
 
-Processing trending topic: MI5 knew agent was misogynist 'obsessed' with violence, watchdog finds
-Searching Google for: MI5 knew agent was misogynist 'obsessed' with violence, watchdog finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMI5%252Bknew%252Bagent%252Bwas%252Bmisogynist%252B%2527obsessed%2527%252Bwith%252Bviolence%252C%252Bwatchdog%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_S2GPjvstIGIjCmV85rO5h4sw3xz94LlcUlkVz9mkb-BDJZkOW7AwSzbdMrSqWH6xm5GFA1iL-gjGkyBmpjbmRyUloBQw
+Processing trending topic: What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs
+Searching Google for: What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwill%252Bdefine%252BElon%252BMusk%25E2%2580%2599s%252Blegacy%253F%252BDoge%252Bcuts%252Bto%252BUSAID%252BEbola%252Bprograms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGLTQs9IGIjBrThmzVp95mjsZMQvR1rLxem3kV0SE4Swvl38Web-dgu4_mNEge7Xwiu0xyq3HlFoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mi5-knew-agent-was-misogynist-obsessed-with-violen_20260707_0825.html
-✓ Created comprehensive article: mi5-knew-agent-was-misogynist-obsessed-with-violen_20260707_0825.html
+Successfully created file: what-will-define-elon-musks-legacy-doge-cuts-to-us_20260707_1151.html
+✓ Created comprehensive article: what-will-define-elon-musks-legacy-doge-cuts-to-us_20260707_1151.html
 
-Processing trending topic: Five charged in Liberia after more than 200kg of cocaine seized in drug bust
-Searching Google for: Five charged in Liberia after more than 200kg of cocaine seized in drug bust
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Bcharged%252Bin%252BLiberia%252Bafter%252Bmore%252Bthan%252B200kg%252Bof%252Bcocaine%252Bseized%252Bin%252Bdrug%252Bbust%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_S2GP7vstIGIjDxZL6K7f4Of0dCMYzdpRPIsgOUDYS-t5aumc8Cp5DdZMQl7rmiOfbphbcPCKJVk5oyBmpjbmRyUloBQw
+Processing trending topic: What does Trump want from his NATO allies?
+Searching Google for: What does Trump want from his NATO allies?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bdoes%252BTrump%252Bwant%252Bfrom%252Bhis%252BNATO%252Ballies%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moLYGLrQs9IGIjCaYiTc-gnZluNAGanT3Be1i6-vJ4sEYagn-8ymxi6v4G50iod_L5RnMgibq3d5CvIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: five-charged-in-liberia-after-more-than-200kg-of-c_20260707_0825.html
-✓ Created comprehensive article: five-charged-in-liberia-after-more-than-200kg-of-c_20260707_0825.html
+Successfully created file: what-does-trump-want-from-his-nato-allies_20260707_1151.html
+✓ Created comprehensive article: what-does-trump-want-from-his-nato-allies_20260707_1151.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: iran-reappoints-a-familiar-face-to-powerful-post-d_20260706_1857.html
-Cleaned old post to keep top 30 limit: jailers-and-officials-at-russias-torture-prisons-i_20260707_0453.html
-Cleaned old post to keep top 30 limit: at-least-16-people-buried-following-landslide-in-c_20260707_0453.html
+Cleaned old post to keep top 30 limit: mi5-knew-agent-was-misogynist-obsessed-with-violen_20260707_0825.html
+Cleaned old post to keep top 30 limit: overturn-this-belgium-taunt-us-and-say-trump-move-_20260707_0825.html
+Cleaned old post to keep top 30 limit: five-charged-in-liberia-after-more-than-200kg-of-c_20260707_0825.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'Overturn this' - Belgium taunt US and say Trump move fired them up
+   • One million more UK homeowners set  to face higher mortgages
      Sources: bbc.com, cnn.com, reuters.com
-   • MI5 knew agent was misogynist 'obsessed' with violence, watchdog finds
+   • What will define Elon Musk’s legacy? Doge cuts to USAID Ebola programs
      Sources: bbc.com, cnn.com, reuters.com
-   • Five charged in Liberia after more than 200kg of cocaine seized in drug bust
+   • What does Trump want from his NATO allies?
      Sources: bbc.com, cnn.com, reuters.com
