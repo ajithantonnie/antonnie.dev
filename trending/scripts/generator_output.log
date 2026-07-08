@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Farage's rivals rule out standing in Clacton by-election
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Catnip lotion as effective as Deet at repelling mosquitoes, study finds
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-08
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Experts warn Trump is playing politics with US intelligence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: VAR call, Argentina win over Egypt raise questions of legitimacy at World Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US immigration officer shoots and kills man in Texas
+Added expanded search topic: Experts warn Trump is playing politics with US intelligence
+Added expanded search topic: VAR call, Argentina win over Egypt raise questions of legitimacy at World Cup
+Added expanded search topic: US immigration officer shoots and kills man in Texas
+Saved 6 topics for 2026-07-08
 Returning 3 unique trending topics:
-  1. Farage's rivals rule out standing in Clacton by-election (from BBC News)
-  2. Chris Mason: Farage attempts to seize back the agenda (from BBC News)
-  3. Catnip lotion as effective as Deet at repelling mosquitoes, study finds (from The Guardian)
+  1. Experts warn Trump is playing politics with US intelligence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. VAR call, Argentina win over Egypt raise questions of legitimacy at World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US immigration officer shoots and kills man in Texas (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Farage's rivals rule out standing in Clacton by-election
-Searching Google for: Farage's rivals rule out standing in Clacton by-election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFarage%2527s%252Brivals%252Brule%252Bout%252Bstanding%252Bin%252BClacton%252Bby-election%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MCGK2qttIGIjBX-TC_vUKUdWM3imlaavPGECi2MXG0vd_wVDGLBqAs-sZOxwaNH8PLsUJt0IpnLfQyBmpjbmRyUloBQw
+Processing trending topic: Experts warn Trump is playing politics with US intelligence
+Searching Google for: Experts warn Trump is playing politics with US intelligence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DExperts%252Bwarn%252BTrump%252Bis%252Bplaying%252Bpolitics%252Bwith%252BUS%252Bintelligence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0EGLqet9IGIjDqqef0OPcFYUPBUMo7kg76_NS-IySbzSVB2T7ZM6DM7kxL7vvfAg6zOGiGqGV73-gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: farages-rivals-rule-out-standing-in-clacton-by-ele_20260708_0009.html
-✓ Created comprehensive article: farages-rivals-rule-out-standing-in-clacton-by-ele_20260708_0009.html
+Successfully created file: experts-warn-trump-is-playing-politics-with-us-int_20260708_0417.html
+✓ Created comprehensive article: experts-warn-trump-is-playing-politics-with-us-int_20260708_0417.html
 
-Processing trending topic: Chris Mason: Farage attempts to seize back the agenda
-Searching Google for: Chris Mason: Farage attempts to seize back the agenda
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChris%252BMason%253A%252BFarage%252Battempts%252Bto%252Bseize%252Bback%252Bthe%252Bagenda%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MCGLOqttIGIjCjofGibdeEua3psRNSpTBCj8duAM_K2gOow9fnlDh4JACBV0zwwEkcaNzN8c1FFPQyBmpjbmRyUloBQw
+Processing trending topic: VAR call, Argentina win over Egypt raise questions of legitimacy at World Cup
+Searching Google for: VAR call, Argentina win over Egypt raise questions of legitimacy at World Cup
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVAR%252Bcall%252C%252BArgentina%252Bwin%252Bover%252BEgypt%252Braise%252Bquestions%252Bof%252Blegitimacy%252Bat%252BWorld%252BCup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0EGMGet9IGIjAiAxXnGRaYNmhP3DJ-2Zk9n2OSCfNqAr66EsS9H2AbeMq3IlC_NBjNc6xRMjRv0FAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chris-mason-farage-attempts-to-seize-back-the-agen_20260708_0009.html
-✓ Created comprehensive article: chris-mason-farage-attempts-to-seize-back-the-agen_20260708_0009.html
+Successfully created file: var-call-argentina-win-over-egypt-raise-questions-_20260708_0417.html
+✓ Created comprehensive article: var-call-argentina-win-over-egypt-raise-questions-_20260708_0417.html
 
-Processing trending topic: Catnip lotion as effective as Deet at repelling mosquitoes, study finds
-Searching Google for: Catnip lotion as effective as Deet at repelling mosquitoes, study finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCatnip%252Blotion%252Bas%252Beffective%252Bas%252BDeet%252Bat%252Brepelling%252Bmosquitoes%252C%252Bstudy%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MCGLqqttIGIjBsqkB84WhM6XEtJamURI2ufmRolx4GxoeeRtJgpkQSru3MOsemHlfSBX8RH8kLxVwyBmpjbmRyUloBQw
+Processing trending topic: US immigration officer shoots and kills man in Texas
+Searching Google for: US immigration officer shoots and kills man in Texas
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bimmigration%252Bofficer%252Bshoots%252Band%252Bkills%252Bman%252Bin%252BTexas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04R0EGMeet9IGIjCCoParpLf8PqLAiniciqCxxKk6C-8UO_RIg9f4BlAt6gasvYPF9Txdmn7guc9a81AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: catnip-lotion-as-effective-as-deet-at-repelling-mo_20260708_0009.html
-✓ Created comprehensive article: catnip-lotion-as-effective-as-deet-at-repelling-mo_20260708_0009.html
+Successfully created file: us-immigration-officer-shoots-and-kills-man-in-tex_20260708_0417.html
+✓ Created comprehensive article: us-immigration-officer-shoots-and-kills-man-in-tex_20260708_0417.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: thousands-of-kurds-gather-in-turkiye-to-demand-rel_20260629_0551.html
-Cleaned old post to keep top 30 limit: egypt-were-cheated-in-world-cup-loss-to-argentina-_20260707_2303.html
-Cleaned old post to keep top 30 limit: egypt-buoyed-by-praise-for-world-cup-heroics-despi_20260707_2302.html
+Cleaned old post to keep top 30 limit: chris-mason-farage-attempts-to-seize-back-the-agen_20260708_0009.html
+Cleaned old post to keep top 30 limit: farages-rivals-rule-out-standing-in-clacton-by-ele_20260708_0009.html
+Cleaned old post to keep top 30 limit: catnip-lotion-as-effective-as-deet-at-repelling-mo_20260708_0009.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Farage's rivals rule out standing in Clacton by-election
+   • Experts warn Trump is playing politics with US intelligence
      Sources: bbc.com, cnn.com, reuters.com
-   • Chris Mason: Farage attempts to seize back the agenda
+   • VAR call, Argentina win over Egypt raise questions of legitimacy at World Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • Catnip lotion as effective as Deet at repelling mosquitoes, study finds
+   • US immigration officer shoots and kills man in Texas
      Sources: bbc.com, cnn.com, reuters.com
