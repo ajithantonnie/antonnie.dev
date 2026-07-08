@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Farage's rivals rule out standing in Clacton by-election
-  Added: Chris Mason: Farage attempts to seize back the agenda
+  Added: Amber heat health alerts in effect as UK set for one of longest-lasting heatwaves since 1976
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Catnip lotion as effective as Deet at repelling mosquitoes, study finds
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NATO summit live: Trump, world leaders meet in Turkiye’s Ankara
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s economy faces long road to recovery as fragile truce tested
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt fans react to emotional World Cup exit after unforgettable campaign
-Added expanded search topic: NATO summit live: Trump, world leaders meet in Turkiye’s Ankara
-Added expanded search topic: Iran’s economy faces long road to recovery as fragile truce tested
-Added expanded search topic: Egypt fans react to emotional World Cup exit after unforgettable campaign
-Saved 9 topics for 2026-07-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why have US-Iran strikes resumed and what does it mean for peace?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan searches for Boeing cargo plane missing over Arabian Sea
+Added expanded search topic: Why have US-Iran strikes resumed and what does it mean for peace?
+Added expanded search topic: Pakistan searches for Boeing cargo plane missing over Arabian Sea
+Saved 12 topics for 2026-07-08
 Returning 3 unique trending topics:
-  1. NATO summit live: Trump, world leaders meet in Turkiye’s Ankara (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Iran’s economy faces long road to recovery as fragile truce tested (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Egypt fans react to emotional World Cup exit after unforgettable campaign (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Amber heat health alerts in effect as UK set for one of longest-lasting heatwaves since 1976 (from BBC News)
+  2. Why have US-Iran strikes resumed and what does it mean for peace? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Pakistan searches for Boeing cargo plane missing over Arabian Sea (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: NATO summit live: Trump, world leaders meet in Turkiye’s Ankara
-Searching Google for: NATO summit live: Trump, world leaders meet in Turkiye’s Ankara
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Amber heat health alerts in effect as UK set for one of longest-lasting heatwaves since 1976
+Searching Google for: Amber heat health alerts in effect as UK set for one of longest-lasting heatwaves since 1976
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmber%252Bheat%252Bhealth%252Balerts%252Bin%252Beffect%252Bas%252BUK%252Bset%252Bfor%252Bone%252Bof%252Blongest-lasting%252Bheatwaves%252Bsince%252B1976%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzTGOHHuNIGIjCm-h7foJ_ZSftfI55UtF5snePZuwdmtZwrnBIeDtfZWG54YzIxavd0v1MlthL7oY4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nato-summit-live-trump-world-leaders-meet-in-turki_20260708_0729.html
-✓ Created comprehensive article: nato-summit-live-trump-world-leaders-meet-in-turki_20260708_0729.html
+Successfully created file: amber-heat-health-alerts-in-effect-as-uk-set-for-o_20260708_1018.html
+✓ Created comprehensive article: amber-heat-health-alerts-in-effect-as-uk-set-for-o_20260708_1018.html
 
-Processing trending topic: Iran’s economy faces long road to recovery as fragile truce tested
-Searching Google for: Iran’s economy faces long road to recovery as fragile truce tested
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Beconomy%252Bfaces%252Blong%252Broad%252Bto%252Brecovery%252Bas%252Bfragile%252Btruce%252Btested%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-U1GKj5t9IGIjDzlQ8XpNgV21UikzZF0l983Te5bB23427TSVPn8NfrFxf0An2kM95b0_ZPM4TFGKsyBmpjbmRyUloBQw
+Processing trending topic: Why have US-Iran strikes resumed and what does it mean for peace?
+Searching Google for: Why have US-Iran strikes resumed and what does it mean for peace?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhave%252BUS-Iran%252Bstrikes%252Bresumed%252Band%252Bwhat%252Bdoes%252Bit%252Bmean%252Bfor%252Bpeace%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzTGOjHuNIGIjBiALUrCth644NvCcZYR5SKigD7jrxirKmqN8EVEXJMXKmsildRQvpX8j4TbgaEiLsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-economy-faces-long-road-to-recovery-as-fragi_20260708_0730.html
-✓ Created comprehensive article: irans-economy-faces-long-road-to-recovery-as-fragi_20260708_0730.html
+Successfully created file: why-have-us-iran-strikes-resumed-and-what-does-it-_20260708_1018.html
+✓ Created comprehensive article: why-have-us-iran-strikes-resumed-and-what-does-it-_20260708_1018.html
 
-Processing trending topic: Egypt fans react to emotional World Cup exit after unforgettable campaign
-Searching Google for: Egypt fans react to emotional World Cup exit after unforgettable campaign
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%252Bfans%252Breact%252Bto%252Bemotional%252BWorld%252BCup%252Bexit%252Bafter%252Bunforgettable%252Bcampaign%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-U1GK_5t9IGIjDpNyF3LS54SU2tsBPiLEpebLwl0MRNcqustq9VwOdR_JSsHaPye_bH1WT_0U7EHEYyBmpjbmRyUloBQw
+Processing trending topic: Pakistan searches for Boeing cargo plane missing over Arabian Sea
+Searching Google for: Pakistan searches for Boeing cargo plane missing over Arabian Sea
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252Bsearches%252Bfor%252BBoeing%252Bcargo%252Bplane%252Bmissing%252Bover%252BArabian%252BSea%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUzTGO_HuNIGIjBFn7jKdgmUoYH_tC3rz4XndG9zEF0oW0A-aBJ881-YlyCJ7DCcBwn7vDxF0VjEQV8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egypt-fans-react-to-emotional-world-cup-exit-after_20260708_0730.html
-✓ Created comprehensive article: egypt-fans-react-to-emotional-world-cup-exit-after_20260708_0730.html
+Successfully created file: pakistan-searches-for-boeing-cargo-plane-missing-o_20260708_1018.html
+✓ Created comprehensive article: pakistan-searches-for-boeing-cargo-plane-missing-o_20260708_1018.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-immigration-officer-shoots-and-kills-man-in-tex_20260708_0417.html
-Cleaned old post to keep top 30 limit: var-call-argentina-win-over-egypt-raise-questions-_20260708_0417.html
-Cleaned old post to keep top 30 limit: experts-warn-trump-is-playing-politics-with-us-int_20260708_0417.html
+Cleaned old post to keep top 30 limit: irans-economy-faces-long-road-to-recovery-as-fragi_20260708_0730.html
+Cleaned old post to keep top 30 limit: nato-summit-live-trump-world-leaders-meet-in-turki_20260708_0729.html
+Cleaned old post to keep top 30 limit: egypt-fans-react-to-emotional-world-cup-exit-after_20260708_0730.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • NATO summit live: Trump, world leaders meet in Turkiye’s Ankara
+   • Amber heat health alerts in effect as UK set for one of longest-lasting heatwaves since 1976
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran’s economy faces long road to recovery as fragile truce tested
+   • Why have US-Iran strikes resumed and what does it mean for peace?
      Sources: bbc.com, cnn.com, reuters.com
-   • Egypt fans react to emotional World Cup exit after unforgettable campaign
+   • Pakistan searches for Boeing cargo plane missing over Arabian Sea
      Sources: bbc.com, cnn.com, reuters.com
