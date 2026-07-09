@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Furore in Nigeria over fake federal agency set up in government HQ
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 18 topics for 2026-07-09
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico seeks prosecutions over migrant deaths in the US
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK Labour’s Burnham apologises for response to Israel’s Gaza violence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships
+Added expanded search topic: Mexico seeks prosecutions over migrant deaths in the US
+Added expanded search topic: UK Labour’s Burnham apologises for response to Israel’s Gaza violence
+Added expanded search topic: Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships
+Saved 21 topics for 2026-07-09
 Returning 3 unique trending topics:
-  1. Burnham set to be next PM as 322 Labour MPs back him in first nomination tally (from BBC News)
-  2. Heat health alerts extended as record for most 34C days in a year broken (from BBC News)
-  3. Furore in Nigeria over fake federal agency set up in government HQ (from The Guardian)
+  1. Mexico seeks prosecutions over migrant deaths in the US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. UK Labour’s Burnham apologises for response to Israel’s Gaza violence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
-Searching Google for: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bset%252Bto%252Bbe%252Bnext%252BPM%252Bas%252B322%252BLabour%252BMPs%252Bback%252Bhim%252Bin%252Bfirst%252Bnomination%252Btally%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUodGJ_cv9IGIjBTsFRXn_WIaeV2nXEB7txTQP_ovKc_U3srvMIrHuE-iefzE_3C_2_cW0dLiemYO3QyBmpjbmRyUloBQw
+Processing trending topic: Mexico seeks prosecutions over migrant deaths in the US
+Searching Google for: Mexico seeks prosecutions over migrant deaths in the US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bseeks%252Bprosecutions%252Bover%252Bmigrant%252Bdeaths%252Bin%252Bthe%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GJySwNIGIjCIUXr04--8dQuYE6muFDRh28X8CuWaIdiIfI55hrDfxpkzK9-2Z2zjW02eGT96vHMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260709_1853.html
-✓ Created comprehensive article: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260709_1853.html
+Successfully created file: mexico-seeks-prosecutions-over-migrant-deaths-in-t_20260709_2048.html
+✓ Created comprehensive article: mexico-seeks-prosecutions-over-migrant-deaths-in-t_20260709_2048.html
 
-Processing trending topic: Heat health alerts extended as record for most 34C days in a year broken
-Searching Google for: Heat health alerts extended as record for most 34C days in a year broken
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHeat%252Bhealth%252Balerts%252Bextended%252Bas%252Brecord%252Bfor%252Bmost%252B34C%252Bdays%252Bin%252Ba%252Byear%252Bbroken%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUodGKbcv9IGIjDmcJCx8ufrEkURm3a0OOHU5nAg-NOkSqrwaFmwD6PLdQV-1xFcTrg5Zxs9JrFbX0oyBmpjbmRyUloBQw
+Processing trending topic: UK Labour’s Burnham apologises for response to Israel’s Gaza violence
+Searching Google for: UK Labour’s Burnham apologises for response to Israel’s Gaza violence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252BLabour%25E2%2580%2599s%252BBurnham%252Bapologises%252Bfor%252Bresponse%252Bto%252BIsrael%25E2%2580%2599s%252BGaza%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GKOSwNIGIjAMorD95mY8zuKytDO79JVEDV2pJDuYIXoJIDqX8LYqG_dIwJf4yLTS5eb0Dl1YLhEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: heat-health-alerts-extended-as-record-for-most-34c_20260709_1853.html
-✓ Created comprehensive article: heat-health-alerts-extended-as-record-for-most-34c_20260709_1853.html
+Successfully created file: uk-labours-burnham-apologises-for-response-to-isra_20260709_2048.html
+✓ Created comprehensive article: uk-labours-burnham-apologises-for-response-to-isra_20260709_2048.html
 
-Processing trending topic: Furore in Nigeria over fake federal agency set up in government HQ
-Searching Google for: Furore in Nigeria over fake federal agency set up in government HQ
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFurore%252Bin%252BNigeria%252Bover%252Bfake%252Bfederal%252Bagency%252Bset%252Bup%252Bin%252Bgovernment%252BHQ%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUodGKzcv9IGIjD-iumBOefNetk_Oyt2bdZ9garT7renel7rX-vGY60nuU0uuqOyX1jS-StcYm4yL5EyBmpjbmRyUloBQw
+Processing trending topic: Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships
+Searching Google for: Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanadian%252BPM%252Bvisits%252BSaudi%252BArabia%252Bto%252Bstrengthen%252Benergy%252C%252Bmining%252Bpartnerships%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTO63GKmSwNIGIjD5Q3YEU_fZW7VrsDeAyogp92nl-3pCPZ9qhrzs4mfIrzpPDvLVkDsIDoUQ1CxoBjgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: furore-in-nigeria-over-fake-federal-agency-set-up-_20260709_1853.html
-✓ Created comprehensive article: furore-in-nigeria-over-fake-federal-agency-set-up-_20260709_1853.html
+Successfully created file: canadian-pm-visits-saudi-arabia-to-strengthen-ener_20260709_2048.html
+✓ Created comprehensive article: canadian-pm-visits-saudi-arabia-to-strengthen-ener_20260709_2048.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: no-contact-from-uk-about-on-the-run-murder-suspect_20260709_1629.html
-Cleaned old post to keep top 30 limit: why-heatwaves-hit-women-harder_20260709_1031.html
-Cleaned old post to keep top 30 limit: big-fall-in-oil-gas-and-cargo-ships-taking-us-back_20260709_1629.html
+Cleaned old post to keep top 30 limit: heat-health-alerts-extended-as-record-for-most-34c_20260709_1853.html
+Cleaned old post to keep top 30 limit: furore-in-nigeria-over-fake-federal-agency-set-up-_20260709_1853.html
+Cleaned old post to keep top 30 limit: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260709_1853.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
+   • Mexico seeks prosecutions over migrant deaths in the US
      Sources: bbc.com, cnn.com, reuters.com
-   • Heat health alerts extended as record for most 34C days in a year broken
+   • UK Labour’s Burnham apologises for response to Israel’s Gaza violence
      Sources: bbc.com, cnn.com, reuters.com
-   • Furore in Nigeria over fake federal agency set up in government HQ
+   • Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships
      Sources: bbc.com, cnn.com, reuters.com
