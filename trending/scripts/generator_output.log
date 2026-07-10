@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Bayeux Tapestry arrives overnight at British Museum under police guard
-  Added: Former Tory minister Ann Widdecombe dies at 78
+  Added: Bayeux Tapestry arrives in UK for first time in 900 years under police guard
+  Added: Met police investigating Reform over election donations - reports
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Developing countries spend more repaying foreign debt than on education, UN reveals
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 9 topics for 2026-07-10
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran war: Will peace talks ever resume, and when?
+Added expanded search topic: US-Iran war: Will peace talks ever resume, and when?
+Saved 12 topics for 2026-07-10
 Returning 3 unique trending topics:
-  1. Bayeux Tapestry arrives overnight at British Museum under police guard (from BBC News)
-  2. Former Tory minister Ann Widdecombe dies at 78 (from BBC News)
-  3. Developing countries spend more repaying foreign debt than on education, UN reveals (from The Guardian)
+  1. Bayeux Tapestry arrives in UK for first time in 900 years under police guard (from BBC News)
+  2. Met police investigating Reform over election donations - reports (from BBC News)
+  3. US-Iran war: Will peace talks ever resume, and when? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Bayeux Tapestry arrives overnight at British Museum under police guard
-Searching Google for: Bayeux Tapestry arrives overnight at British Museum under police guard
+Processing trending topic: Bayeux Tapestry arrives in UK for first time in 900 years under police guard
+Searching Google for: Bayeux Tapestry arrives in UK for first time in 900 years under police guard
 Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bayeux-tapestry-arrives-overnight-at-british-museu_20260710_0822.html
-✓ Created comprehensive article: bayeux-tapestry-arrives-overnight-at-british-museu_20260710_0822.html
+Successfully created file: bayeux-tapestry-arrives-in-uk-for-first-time-in-90_20260710_1152.html
+✓ Created comprehensive article: bayeux-tapestry-arrives-in-uk-for-first-time-in-90_20260710_1152.html
 
-Processing trending topic: Former Tory minister Ann Widdecombe dies at 78
-Searching Google for: Former Tory minister Ann Widdecombe dies at 78
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFormer%252BTory%252Bminister%252BAnn%252BWiddecombe%252Bdies%252Bat%252B78%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I20GJXYwtIGIjBMBjY5YRCc3c66CQwJRPzoBXNVCTrsV37bLR93dJ3iyq_63tfLg-q3c9uK-j5NLh4yBmpjbmRyUloBQw
+Processing trending topic: Met police investigating Reform over election donations - reports
+Searching Google for: Met police investigating Reform over election donations - reports
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: former-tory-minister-ann-widdecombe-dies-at-78_20260710_0823.html
-✓ Created comprehensive article: former-tory-minister-ann-widdecombe-dies-at-78_20260710_0823.html
+Successfully created file: met-police-investigating-reform-over-election-dona_20260710_1153.html
+✓ Created comprehensive article: met-police-investigating-reform-over-election-dona_20260710_1153.html
 
-Processing trending topic: Developing countries spend more repaying foreign debt than on education, UN reveals
-Searching Google for: Developing countries spend more repaying foreign debt than on education, UN reveals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeveloping%252Bcountries%252Bspend%252Bmore%252Brepaying%252Bforeign%252Bdebt%252Bthan%252Bon%252Beducation%252C%252BUN%252Breveals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I20GJvYwtIGIjAKgQoPQfrpCUHEfovVQyeXXkNQX1LtL0qAkYrh7bNnwtFd8qUH11sPbkpn5tdfWm0yBmpjbmRyUloBQw
+Processing trending topic: US-Iran war: Will peace talks ever resume, and when?
+Searching Google for: US-Iran war: Will peace talks ever resume, and when?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Bwar%253A%252BWill%252Bpeace%252Btalks%252Bever%252Bresume%252C%252Band%252Bwhen%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQyGMi6w9IGIjA_t2uQ8tyRZAeW7ViTXVps8EDncQGmrTJV0yPJvs2wSnphJJKTe0VRdbhQ-7-ogl0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: developing-countries-spend-more-repaying-foreign-d_20260710_0824.html
-✓ Created comprehensive article: developing-countries-spend-more-repaying-foreign-d_20260710_0824.html
+Successfully created file: us-iran-war-will-peace-talks-ever-resume-and-when_20260710_1153.html
+✓ Created comprehensive article: us-iran-war-will-peace-talks-ever-resume-and-when_20260710_1153.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: which-records-has-frances-kylian-mbappe-broken-at-_20260710_0455.html
-Cleaned old post to keep top 30 limit: venezuelas-turn-to-israel-is-about-survival-not-co_20260710_0454.html
-Cleaned old post to keep top 30 limit: norway-change-world-cup-team-hotel-in-miami-days-b_20260710_0455.html
+Cleaned old post to keep top 30 limit: uk-bakes-in-35c-highs-as-heatwave-to-continue-next_20260710_0005.html
+Cleaned old post to keep top 30 limit: former-tory-minister-ann-widdecombe-dies-at-78_20260710_0823.html
+Cleaned old post to keep top 30 limit: bayeux-tapestry-arrives-overnight-at-british-museu_20260710_0822.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bayeux Tapestry arrives overnight at British Museum under police guard
+   • Bayeux Tapestry arrives in UK for first time in 900 years under police guard
      Sources: bbc.com, cnn.com, reuters.com
-   • Former Tory minister Ann Widdecombe dies at 78
+   • Met police investigating Reform over election donations - reports
      Sources: bbc.com, cnn.com, reuters.com
-   • Developing countries spend more repaying foreign debt than on education, UN reveals
+   • US-Iran war: Will peace talks ever resume, and when?
      Sources: bbc.com, cnn.com, reuters.com
