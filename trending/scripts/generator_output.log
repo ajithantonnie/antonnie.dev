@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
-  Added: UK bakes in 35C highs as heatwave to continue next week
+  Added: Bayeux Tapestry arrives overnight at British Museum under police guard
+  Added: Former Tory minister Ann Widdecombe dies at 78
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Furore in Nigeria over fake federal agency set up in government HQ
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela’s turn to Israel is about survival, not conviction
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Norway change World Cup team hotel in Miami days before England showdown
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
-Added expanded search topic: Venezuela’s turn to Israel is about survival, not conviction
-Added expanded search topic: Norway change World Cup team hotel in Miami days before England showdown
-Added expanded search topic: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
-Saved 6 topics for 2026-07-10
+  Added: Developing countries spend more repaying foreign debt than on education, UN reveals
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 9 topics for 2026-07-10
 Returning 3 unique trending topics:
-  1. Venezuela’s turn to Israel is about survival, not conviction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Norway change World Cup team hotel in Miami days before England showdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bayeux Tapestry arrives overnight at British Museum under police guard (from BBC News)
+  2. Former Tory minister Ann Widdecombe dies at 78 (from BBC News)
+  3. Developing countries spend more repaying foreign debt than on education, UN reveals (from The Guardian)
 
-Processing trending topic: Venezuela’s turn to Israel is about survival, not conviction
-Searching Google for: Venezuela’s turn to Israel is about survival, not conviction
+Processing trending topic: Bayeux Tapestry arrives overnight at British Museum under police guard
+Searching Google for: Bayeux Tapestry arrives overnight at British Museum under police guard
 Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: venezuelas-turn-to-israel-is-about-survival-not-co_20260710_0454.html
-✓ Created comprehensive article: venezuelas-turn-to-israel-is-about-survival-not-co_20260710_0454.html
+Successfully created file: bayeux-tapestry-arrives-overnight-at-british-museu_20260710_0822.html
+✓ Created comprehensive article: bayeux-tapestry-arrives-overnight-at-british-museu_20260710_0822.html
 
-Processing trending topic: Norway change World Cup team hotel in Miami days before England showdown
-Searching Google for: Norway change World Cup team hotel in Miami days before England showdown
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorway%252Bchange%252BWorld%252BCup%252Bteam%252Bhotel%252Bin%252BMiami%252Bdays%252Bbefore%252BEngland%252Bshowdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUZiGKP2wdIGIjD1RPfoD2s9N4_2iYzmOI2VBD6lsM31RN--6Gv6L6ziCzD9ZqLd6TWHYoIMdtT3aysyBmpjbmRyUloBQw
+Processing trending topic: Former Tory minister Ann Widdecombe dies at 78
+Searching Google for: Former Tory minister Ann Widdecombe dies at 78
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFormer%252BTory%252Bminister%252BAnn%252BWiddecombe%252Bdies%252Bat%252B78%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I20GJXYwtIGIjBMBjY5YRCc3c66CQwJRPzoBXNVCTrsV37bLR93dJ3iyq_63tfLg-q3c9uK-j5NLh4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: norway-change-world-cup-team-hotel-in-miami-days-b_20260710_0455.html
-✓ Created comprehensive article: norway-change-world-cup-team-hotel-in-miami-days-b_20260710_0455.html
+Successfully created file: former-tory-minister-ann-widdecombe-dies-at-78_20260710_0823.html
+✓ Created comprehensive article: former-tory-minister-ann-widdecombe-dies-at-78_20260710_0823.html
 
-Processing trending topic: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
-Searching Google for: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhich%252Brecords%252Bhas%252BFrance%25E2%2580%2599s%252BKylian%252BMbappe%252Bbroken%252Bat%252BFIFA%252BWorld%252BCup%252B2026%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUZiGKn2wdIGIjC_1ZrsxPEeiztHUdZbn_zeqZ5miznD0Xb90nUyTJ5KKTwf08HBJ2WCS5te8PGO7wAyBmpjbmRyUloBQw
+Processing trending topic: Developing countries spend more repaying foreign debt than on education, UN reveals
+Searching Google for: Developing countries spend more repaying foreign debt than on education, UN reveals
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeveloping%252Bcountries%252Bspend%252Bmore%252Brepaying%252Bforeign%252Bdebt%252Bthan%252Bon%252Beducation%252C%252BUN%252Breveals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I20GJvYwtIGIjAKgQoPQfrpCUHEfovVQyeXXkNQX1LtL0qAkYrh7bNnwtFd8qUH11sPbkpn5tdfWm0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: which-records-has-frances-kylian-mbappe-broken-at-_20260710_0455.html
-✓ Created comprehensive article: which-records-has-frances-kylian-mbappe-broken-at-_20260710_0455.html
+Successfully created file: developing-countries-spend-more-repaying-foreign-d_20260710_0824.html
+✓ Created comprehensive article: developing-countries-spend-more-repaying-foreign-d_20260710_0824.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: world-cup-fans-react-to-baloguns-one-game-ban-susp_20260707_0010.html
-Cleaned old post to keep top 30 limit: furore-in-nigeria-over-fake-federal-agency-set-up-_20260710_0005.html
-Cleaned old post to keep top 30 limit: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260710_0005.html
+Cleaned old post to keep top 30 limit: which-records-has-frances-kylian-mbappe-broken-at-_20260710_0455.html
+Cleaned old post to keep top 30 limit: venezuelas-turn-to-israel-is-about-survival-not-co_20260710_0454.html
+Cleaned old post to keep top 30 limit: norway-change-world-cup-team-hotel-in-miami-days-b_20260710_0455.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Venezuela’s turn to Israel is about survival, not conviction
+   • Bayeux Tapestry arrives overnight at British Museum under police guard
      Sources: bbc.com, cnn.com, reuters.com
-   • Norway change World Cup team hotel in Miami days before England showdown
+   • Former Tory minister Ann Widdecombe dies at 78
      Sources: bbc.com, cnn.com, reuters.com
-   • Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
+   • Developing countries spend more repaying foreign debt than on education, UN reveals
      Sources: bbc.com, cnn.com, reuters.com
