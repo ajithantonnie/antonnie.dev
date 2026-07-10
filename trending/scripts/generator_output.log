@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Furore in Nigeria over fake federal agency set up in government HQ
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-10
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela’s turn to Israel is about survival, not conviction
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Norway change World Cup team hotel in Miami days before England showdown
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
+Added expanded search topic: Venezuela’s turn to Israel is about survival, not conviction
+Added expanded search topic: Norway change World Cup team hotel in Miami days before England showdown
+Added expanded search topic: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
+Saved 6 topics for 2026-07-10
 Returning 3 unique trending topics:
-  1. Burnham set to be next PM as 322 Labour MPs back him in first nomination tally (from BBC News)
-  2. UK bakes in 35C highs as heatwave to continue next week (from BBC News)
-  3. Furore in Nigeria over fake federal agency set up in government HQ (from The Guardian)
+  1. Venezuela’s turn to Israel is about survival, not conviction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Norway change World Cup team hotel in Miami days before England showdown (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
-Searching Google for: Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bset%252Bto%252Bbe%252Bnext%252BPM%252Bas%252B322%252BLabour%252BMPs%252Bback%252Bhim%252Bin%252Bfirst%252Bnomination%252Btally%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1c1GMfuwNIGIjDC9PgNUfRFBMDiHzXdymsB0rsMaQTducm5qLHzkalPZQpUXu4No-b0P43x5Aits30yBmpjbmRyUloBQw
+Processing trending topic: Venezuela’s turn to Israel is about survival, not conviction
+Searching Google for: Venezuela’s turn to Israel is about survival, not conviction
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260710_0005.html
-✓ Created comprehensive article: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260710_0005.html
+Successfully created file: venezuelas-turn-to-israel-is-about-survival-not-co_20260710_0454.html
+✓ Created comprehensive article: venezuelas-turn-to-israel-is-about-survival-not-co_20260710_0454.html
 
-Processing trending topic: UK bakes in 35C highs as heatwave to continue next week
-Searching Google for: UK bakes in 35C highs as heatwave to continue next week
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bbakes%252Bin%252B35C%252Bhighs%252Bas%252Bheatwave%252Bto%252Bcontinue%252Bnext%252Bweek%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1c1GM7uwNIGIjDylPxjJjPsPUStPZK5dYVzPDvzeChUQjgad0_HEnYRCBazmaC03MzteLNTbbeXy00yBmpjbmRyUloBQw
+Processing trending topic: Norway change World Cup team hotel in Miami days before England showdown
+Searching Google for: Norway change World Cup team hotel in Miami days before England showdown
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorway%252Bchange%252BWorld%252BCup%252Bteam%252Bhotel%252Bin%252BMiami%252Bdays%252Bbefore%252BEngland%252Bshowdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUZiGKP2wdIGIjD1RPfoD2s9N4_2iYzmOI2VBD6lsM31RN--6Gv6L6ziCzD9ZqLd6TWHYoIMdtT3aysyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-bakes-in-35c-highs-as-heatwave-to-continue-next_20260710_0005.html
-✓ Created comprehensive article: uk-bakes-in-35c-highs-as-heatwave-to-continue-next_20260710_0005.html
+Successfully created file: norway-change-world-cup-team-hotel-in-miami-days-b_20260710_0455.html
+✓ Created comprehensive article: norway-change-world-cup-team-hotel-in-miami-days-b_20260710_0455.html
 
-Processing trending topic: Furore in Nigeria over fake federal agency set up in government HQ
-Searching Google for: Furore in Nigeria over fake federal agency set up in government HQ
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFurore%252Bin%252BNigeria%252Bover%252Bfake%252Bfederal%252Bagency%252Bset%252Bup%252Bin%252Bgovernment%252BHQ%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN1c1GNTuwNIGIjAL3qTPvtZK941gMMoBh85sx9gmeGeyhv8-_d7CzezIYk9p4jOhROVq54JIZqL1aPsyBmpjbmRyUloBQw
+Processing trending topic: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
+Searching Google for: Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhich%252Brecords%252Bhas%252BFrance%25E2%2580%2599s%252BKylian%252BMbappe%252Bbroken%252Bat%252BFIFA%252BWorld%252BCup%252B2026%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUZiGKn2wdIGIjC_1ZrsxPEeiztHUdZbn_zeqZ5miznD0Xb90nUyTJ5KKTwf08HBJ2WCS5te8PGO7wAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: furore-in-nigeria-over-fake-federal-agency-set-up-_20260710_0005.html
-✓ Created comprehensive article: furore-in-nigeria-over-fake-federal-agency-set-up-_20260710_0005.html
+Successfully created file: which-records-has-frances-kylian-mbappe-broken-at-_20260710_0455.html
+✓ Created comprehensive article: which-records-has-frances-kylian-mbappe-broken-at-_20260710_0455.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-threatens-more-strikes-on-iran-as-tehran-war_20260708_1924.html
-Cleaned old post to keep top 30 limit: tinubu-under-pressure-as-fake-nigerian-government-_20260709_1629.html
-Cleaned old post to keep top 30 limit: how-strait-of-hormuz-dispute-led-to-latest-us-iran_20260709_2224.html
+Cleaned old post to keep top 30 limit: world-cup-fans-react-to-baloguns-one-game-ban-susp_20260707_0010.html
+Cleaned old post to keep top 30 limit: furore-in-nigeria-over-fake-federal-agency-set-up-_20260710_0005.html
+Cleaned old post to keep top 30 limit: burnham-set-to-be-next-pm-as-322-labour-mps-back-h_20260710_0005.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham set to be next PM as 322 Labour MPs back him in first nomination tally
+   • Venezuela’s turn to Israel is about survival, not conviction
      Sources: bbc.com, cnn.com, reuters.com
-   • UK bakes in 35C highs as heatwave to continue next week
+   • Norway change World Cup team hotel in Miami days before England showdown
      Sources: bbc.com, cnn.com, reuters.com
-   • Furore in Nigeria over fake federal agency set up in government HQ
+   • Which records has France’s Kylian Mbappe broken at FIFA World Cup 2026?
      Sources: bbc.com, cnn.com, reuters.com
