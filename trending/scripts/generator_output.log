@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Bayeux Tapestry arrives in UK for first time in 900 years under police guard
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Developing countries spend more repaying foreign debt than on education, UN reveals
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Iran war: Will peace talks ever resume, and when?
-Added expanded search topic: US-Iran war: Will peace talks ever resume, and when?
-Saved 12 topics for 2026-07-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Super typhoon as wide as France heads to East Asia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukrainian court detains alleged killers of Monaco bomb attack suspect
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Death, silence, and survival inside New Jersey State Prison
+Added expanded search topic: Super typhoon as wide as France heads to East Asia
+Added expanded search topic: Ukrainian court detains alleged killers of Monaco bomb attack suspect
+Added expanded search topic: Death, silence, and survival inside New Jersey State Prison
+Saved 15 topics for 2026-07-10
 Returning 3 unique trending topics:
-  1. Bayeux Tapestry arrives in UK for first time in 900 years under police guard (from BBC News)
-  2. Met police investigating Reform over election donations - reports (from BBC News)
-  3. US-Iran war: Will peace talks ever resume, and when? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Super typhoon as wide as France heads to East Asia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ukrainian court detains alleged killers of Monaco bomb attack suspect (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Death, silence, and survival inside New Jersey State Prison (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Bayeux Tapestry arrives in UK for first time in 900 years under police guard
-Searching Google for: Bayeux Tapestry arrives in UK for first time in 900 years under police guard
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Super typhoon as wide as France heads to East Asia
+Searching Google for: Super typhoon as wide as France heads to East Asia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuper%252Btyphoon%252Bas%252Bwide%252Bas%252BFrance%252Bheads%252Bto%252BEast%252BAsia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM85XGICBxNIGIjDCJ8gzomOOoX6Ek-wlCmPWyieg_No3sw8NGkXhvVRKhAb4x5B_zIc5K2hTLgpYIzEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bayeux-tapestry-arrives-in-uk-for-first-time-in-90_20260710_1152.html
-✓ Created comprehensive article: bayeux-tapestry-arrives-in-uk-for-first-time-in-90_20260710_1152.html
+Successfully created file: super-typhoon-as-wide-as-france-heads-to-east-asia_20260710_1424.html
+✓ Created comprehensive article: super-typhoon-as-wide-as-france-heads-to-east-asia_20260710_1424.html
 
-Processing trending topic: Met police investigating Reform over election donations - reports
-Searching Google for: Met police investigating Reform over election donations - reports
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Ukrainian court detains alleged killers of Monaco bomb attack suspect
+Searching Google for: Ukrainian court detains alleged killers of Monaco bomb attack suspect
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkrainian%252Bcourt%252Bdetains%252Balleged%252Bkillers%252Bof%252BMonaco%252Bbomb%252Battack%252Bsuspect%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM85XGIeBxNIGIjAQDUqIGIGWC2ifoEJUL-9_tkxaMNCk6lrPZ4d_BrNStoRyD5G0zNcnOASmmgTOiygyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: met-police-investigating-reform-over-election-dona_20260710_1153.html
-✓ Created comprehensive article: met-police-investigating-reform-over-election-dona_20260710_1153.html
+Successfully created file: ukrainian-court-detains-alleged-killers-of-monaco-_20260710_1424.html
+✓ Created comprehensive article: ukrainian-court-detains-alleged-killers-of-monaco-_20260710_1424.html
 
-Processing trending topic: US-Iran war: Will peace talks ever resume, and when?
-Searching Google for: US-Iran war: Will peace talks ever resume, and when?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Iran%252Bwar%253A%252BWill%252Bpeace%252Btalks%252Bever%252Bresume%252C%252Band%252Bwhen%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQyGMi6w9IGIjA_t2uQ8tyRZAeW7ViTXVps8EDncQGmrTJV0yPJvs2wSnphJJKTe0VRdbhQ-7-ogl0yBmpjbmRyUloBQw
+Processing trending topic: Death, silence, and survival inside New Jersey State Prison
+Searching Google for: Death, silence, and survival inside New Jersey State Prison
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeath%252C%252Bsilence%252C%252Band%252Bsurvival%252Binside%252BNew%252BJersey%252BState%252BPrison%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM85XGI2BxNIGIjDIuvfQpQlxlSD3qYlhvXPKyeQkzbaR-jCC9GcdPO987uwjiBvegyAXIp0o1M92giEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-iran-war-will-peace-talks-ever-resume-and-when_20260710_1153.html
-✓ Created comprehensive article: us-iran-war-will-peace-talks-ever-resume-and-when_20260710_1153.html
+Successfully created file: death-silence-and-survival-inside-new-jersey-state_20260710_1424.html
+✓ Created comprehensive article: death-silence-and-survival-inside-new-jersey-state_20260710_1424.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-bakes-in-35c-highs-as-heatwave-to-continue-next_20260710_0005.html
-Cleaned old post to keep top 30 limit: former-tory-minister-ann-widdecombe-dies-at-78_20260710_0823.html
-Cleaned old post to keep top 30 limit: bayeux-tapestry-arrives-overnight-at-british-museu_20260710_0822.html
+Cleaned old post to keep top 30 limit: syria-says-cell-behind-terrorist-bombings-in-damas_20260709_2224.html
+Cleaned old post to keep top 30 limit: met-police-investigating-reform-over-election-dona_20260710_1153.html
+Cleaned old post to keep top 30 limit: bayeux-tapestry-arrives-in-uk-for-first-time-in-90_20260710_1152.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Bayeux Tapestry arrives in UK for first time in 900 years under police guard
+   • Super typhoon as wide as France heads to East Asia
      Sources: bbc.com, cnn.com, reuters.com
-   • Met police investigating Reform over election donations - reports
+   • Ukrainian court detains alleged killers of Monaco bomb attack suspect
      Sources: bbc.com, cnn.com, reuters.com
-   • US-Iran war: Will peace talks ever resume, and when?
+   • Death, silence, and survival inside New Jersey State Prison
      Sources: bbc.com, cnn.com, reuters.com
