@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Man arrested on suspicion of murder after death of Ann Widdecombe
   Added: Pugnacious, charismatic and she always answered the question - Chris Mason on Widdecombe
+  Added: US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Developing countries spend more repaying foreign debt than on education, UN reveals
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-11
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Are the US and Iran at war again?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We are the lost generation of Sudan’: Students in exile
+Added expanded search topic: Are the US and Iran at war again?
+Added expanded search topic: ‘We are the lost generation of Sudan’: Students in exile
+Saved 6 topics for 2026-07-11
 Returning 3 unique trending topics:
-  1. Man arrested on suspicion of murder after death of Ann Widdecombe (from BBC News)
-  2. Pugnacious, charismatic and she always answered the question - Chris Mason on Widdecombe (from BBC News)
-  3. Developing countries spend more repaying foreign debt than on education, UN reveals (from The Guardian)
+  1. US wants Iran to pledge to stop shooting at ships in Strait of Hormuz (from BBC News)
+  2. Are the US and Iran at war again? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘We are the lost generation of Sudan’: Students in exile (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Man arrested on suspicion of murder after death of Ann Widdecombe
-Searching Google for: Man arrested on suspicion of murder after death of Ann Widdecombe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Barrested%252Bon%252Bsuspicion%252Bof%252Bmurder%252Bafter%252Bdeath%252Bof%252BAnn%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncnGOLVxtIGIjCDteoYa-OK1ygiHu67yfjIFaDP2IxYk4HJir37ZZKIvekHQMZ_zGWwdaJcO6c_Up0yBmpjbmRyUloBQw
+Processing trending topic: US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
+Searching Google for: US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-arrested-on-suspicion-of-murder-after-death-of_20260711_0231.html
-✓ Created comprehensive article: man-arrested-on-suspicion-of-murder-after-death-of_20260711_0231.html
+Successfully created file: us-wants-iran-to-pledge-to-stop-shooting-at-ships-_20260711_0541.html
+✓ Created comprehensive article: us-wants-iran-to-pledge-to-stop-shooting-at-ships-_20260711_0541.html
 
-Processing trending topic: Pugnacious, charismatic and she always answered the question - Chris Mason on Widdecombe
-Searching Google for: Pugnacious, charismatic and she always answered the question - Chris Mason on Widdecombe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPugnacious%252C%252Bcharismatic%252Band%252Bshe%252Balways%252Banswered%252Bthe%252Bquestion%252B-%252BChris%252BMason%252Bon%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncnGOnVxtIGIjCtqka_wit18l3tTTREmg0V73wa2JaSb4rUJd6t8WdjTJ2iv6gqhVeLw4IXhDMUwV4yBmpjbmRyUloBQw
+Processing trending topic: Are the US and Iran at war again?
+Searching Google for: Are the US and Iran at war again?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAre%252Bthe%252BUS%252Band%252BIran%252Bat%252Bwar%252Bagain%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OETGLCvx9IGIjDGb5WwLK10bxyLGcGypTTA8nRFs94myZYgeg-WFgEMw4_-JfJw4M3IPxINlsXtX08yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pugnacious-charismatic-and-she-always-answered-the_20260711_0231.html
-✓ Created comprehensive article: pugnacious-charismatic-and-she-always-answered-the_20260711_0231.html
+Successfully created file: are-the-us-and-iran-at-war-again_20260711_0542.html
+✓ Created comprehensive article: are-the-us-and-iran-at-war-again_20260711_0542.html
 
-Processing trending topic: Developing countries spend more repaying foreign debt than on education, UN reveals
-Searching Google for: Developing countries spend more repaying foreign debt than on education, UN reveals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeveloping%252Bcountries%252Bspend%252Bmore%252Brepaying%252Bforeign%252Bdebt%252Bthan%252Bon%252Beducation%252C%252BUN%252Breveals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssncnGO_VxtIGIjB6NFXceZ-oxdn8TW83mUOxMMwdiueKAXyL5ro4HRrhhTVu8ehj5iupY1ri_u331KIyBmpjbmRyUloBQw
+Processing trending topic: ‘We are the lost generation of Sudan’: Students in exile
+Searching Google for: ‘We are the lost generation of Sudan’: Students in exile
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bare%252Bthe%252Blost%252Bgeneration%252Bof%252BSudan%25E2%2580%2599%253A%252BStudents%252Bin%252Bexile%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OETGLevx9IGIjDVAkE8t6ck0zCPJoPIllj0KmKCUj_2tbqzJcRqW9L74pCThp8b4LhXSDjI2FWzaY0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: developing-countries-spend-more-repaying-foreign-d_20260711_0231.html
-✓ Created comprehensive article: developing-countries-spend-more-repaying-foreign-d_20260711_0231.html
+Successfully created file: we-are-the-lost-generation-of-sudan-students-in-ex_20260711_0542.html
+✓ Created comprehensive article: we-are-the-lost-generation-of-sudan-students-in-ex_20260711_0542.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pugnacious-charismatic-and-she-always-answered-the_20260710_2202.html
-Cleaned old post to keep top 30 limit: under-lula-amazon-deforestation-falls-to-lowest-le_20260710_2310.html
-Cleaned old post to keep top 30 limit: canadas-bill-c-36-tackles-ai-privacy-is-it-enough_20260710_2310.html
+Cleaned old post to keep top 30 limit: colombias-jaminton-campaz-receives-death-threats-a_20260710_2310.html
+Cleaned old post to keep top 30 limit: developing-countries-spend-more-repaying-foreign-d_20260711_0231.html
+Cleaned old post to keep top 30 limit: pugnacious-charismatic-and-she-always-answered-the_20260711_0231.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man arrested on suspicion of murder after death of Ann Widdecombe
+   • US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Pugnacious, charismatic and she always answered the question - Chris Mason on Widdecombe
+   • Are the US and Iran at war again?
      Sources: bbc.com, cnn.com, reuters.com
-   • Developing countries spend more repaying foreign debt than on education, UN reveals
+   • ‘We are the lost generation of Sudan’: Students in exile
      Sources: bbc.com, cnn.com, reuters.com
