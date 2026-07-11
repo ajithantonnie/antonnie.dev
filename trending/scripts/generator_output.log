@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Nigeria says army has killed 300 bandits in north-western state of Zamfara
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal
-Added expanded search topic: England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal
-Saved 30 topics for 2026-07-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Evacuations as landslide threatens Indian village, construction firm blamed
+Added expanded search topic: South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup
+Added expanded search topic: US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal
+Added expanded search topic: Evacuations as landslide threatens Indian village, construction firm blamed
+Saved 33 topics for 2026-07-11
 Returning 3 unique trending topics:
-  1. Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe (from BBC News)
-  2. Village in shock as 'horrific' Ann Widdecombe murder case unfolds (from BBC News)
-  3. England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Evacuations as landslide threatens Indian village, construction firm blamed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe
-Searching Google for: Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnn%252BWiddecombe%252Battacked%252Bnearly%252B24%252Bhours%252Bbefore%252Bshe%252Bwas%252Bfound%252Bdead%252C%252Bpolice%252Bbelieve%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrr5zGP-HytIGIjCkC6AP4uoYhW9GBiVi9Zw_zoditwfC9U0ZTjuN3w4XmLvQOK8ugIPtU7Snm8fX4OUyBmpjbmRyUloBQw
+Processing trending topic: South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup
+Searching Google for: South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ann-widdecombe-attacked-nearly-24-hours-before-she_20260711_1757.html
-✓ Created comprehensive article: ann-widdecombe-attacked-nearly-24-hours-before-she_20260711_1757.html
+Successfully created file: south-africas-jayden-adams-25-dies-after-playing-i_20260711_1901.html
+✓ Created comprehensive article: south-africas-jayden-adams-25-dies-after-playing-i_20260711_1901.html
 
-Processing trending topic: Village in shock as 'horrific' Ann Widdecombe murder case unfolds
-Searching Google for: Village in shock as 'horrific' Ann Widdecombe murder case unfolds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVillage%252Bin%252Bshock%252Bas%252B%2527horrific%2527%252BAnn%252BWiddecombe%252Bmurder%252Bcase%252Bunfolds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrr5zGIaIytIGIjBLfAoX1aAW6Cgw77oSX3J7_zce1ipbGucsfgrhc1YM86cKsh8ANWkz5J9dtX3EiSEyBmpjbmRyUloBQw
+Processing trending topic: US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal
+Searching Google for: US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252C%252BLebanese%252Bdelegations%252Bmeet%252Bto%252Bdiscuss%252BIsraeli%252B%25E2%2580%2598pilot%252Bzones%25E2%2580%2599%252Bwithdrawal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KQTGICnytIGIjBTTvryL8HWZI-MkP50F82NXNvMnHCNJfUF7MjJyuppXobTva_fDlJCUjFfInznpKsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: village-in-shock-as-horrific-ann-widdecombe-murder_20260711_1757.html
-✓ Created comprehensive article: village-in-shock-as-horrific-ann-widdecombe-murder_20260711_1757.html
+Successfully created file: us-lebanese-delegations-meet-to-discuss-israeli-pi_20260711_1903.html
+✓ Created comprehensive article: us-lebanese-delegations-meet-to-discuss-israeli-pi_20260711_1903.html
 
-Processing trending topic: England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal
-Searching Google for: England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bvs%252BNorway%252BLIVE%253A%252BFIFA%252BWorld%252BCup%252B2026%252B%25E2%2580%2593%252Bquarterfinal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrr5zGIyIytIGIjB-zWsBnRY_iyGNNXUa922Yl-S5r_y3cquyYd1207OPRjs1-a4iON7uDz-DgINyJvwyBmpjbmRyUloBQw
+Processing trending topic: Evacuations as landslide threatens Indian village, construction firm blamed
+Searching Google for: Evacuations as landslide threatens Indian village, construction firm blamed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEvacuations%252Bas%252Blandslide%252Bthreatens%252BIndian%252Bvillage%252C%252Bconstruction%252Bfirm%252Bblamed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KQTGIanytIGIjA6aLQIm1thjL-ezIre2kCwtDAq5s4xSXSi2FNOwQlA_cveYKL2cjbOgkgbjxab8E0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-vs-norway-live-fifa-world-cup-2026-quarter_20260711_1757.html
-✓ Created comprehensive article: england-vs-norway-live-fifa-world-cup-2026-quarter_20260711_1757.html
+Successfully created file: evacuations-as-landslide-threatens-indian-village-_20260711_1903.html
+✓ Created comprehensive article: evacuations-as-landslide-threatens-indian-village-_20260711_1903.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: syrians-optimistic-but-cautious-as-sanctions-remov_20260711_1659.html
-Cleaned old post to keep top 30 limit: moldovas-president-nominates-businessman-vasile-to_20260711_1659.html
-Cleaned old post to keep top 30 limit: hormuz-shipping-in-focus-as-iran-us-rhetoric-heats_20260711_1659.html
+Cleaned old post to keep top 30 limit: village-in-shock-as-horrific-ann-widdecombe-murder_20260711_1757.html
+Cleaned old post to keep top 30 limit: england-vs-norway-live-fifa-world-cup-2026-quarter_20260711_1757.html
+Cleaned old post to keep top 30 limit: ann-widdecombe-attacked-nearly-24-hours-before-she_20260711_1757.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ann Widdecombe attacked nearly 24 hours before she was found dead, police believe
+   • South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • Village in shock as 'horrific' Ann Widdecombe murder case unfolds
+   • US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal
      Sources: bbc.com, cnn.com, reuters.com
-   • England vs Norway LIVE: FIFA World Cup 2026 – quarterfinal
+   • Evacuations as landslide threatens Indian village, construction firm blamed
      Sources: bbc.com, cnn.com, reuters.com
