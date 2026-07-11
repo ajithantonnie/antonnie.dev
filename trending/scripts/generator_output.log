@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Developing countries spend more repaying foreign debt than on education, UN reveals
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuelan doctors convert restaurant into a clinic after earthquake
-Added expanded search topic: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
-Added expanded search topic: Venezuelan doctors convert restaurant into a clinic after earthquake
-Saved 9 topics for 2026-07-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cuba suffers second nationwide blackout in five days
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian missile attacks wound 11 in Kyiv
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indonesia’s anti-graft prosecutor quits after police seize gold and cash
+Added expanded search topic: Cuba suffers second nationwide blackout in five days
+Added expanded search topic: Russian missile attacks wound 11 in Kyiv
+Added expanded search topic: Indonesia’s anti-graft prosecutor quits after police seize gold and cash
+Saved 12 topics for 2026-07-11
 Returning 3 unique trending topics:
-  1. Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe (from BBC News)
-  2. Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Venezuelan doctors convert restaurant into a clinic after earthquake (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Cuba suffers second nationwide blackout in five days (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russian missile attacks wound 11 in Kyiv (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Indonesia’s anti-graft prosecutor quits after police seize gold and cash (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
-Searching Google for: Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPugnacious%252C%252Bcharismatic%252Band%252Bshe%252Balways%252Banswered%252Bthe%252Bquestion%252B-%252BChris%252BMason%252Bon%252BAnn%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGPDtx9IGIjA4NNsRa6fJt3d4GKyI6zZ85rOhiJPqv0uiLJ-sejkLKPWgAIi_wU0xGE4KJsdWC0cyBmpjbmRyUloBQw
+Processing trending topic: Cuba suffers second nationwide blackout in five days
+Searching Google for: Cuba suffers second nationwide blackout in five days
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCuba%252Bsuffers%252Bsecond%252Bnationwide%252Bblackout%252Bin%252Bfive%252Bdays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vo0oGKqayNIGIjBI7Hy5dnvVuyTCrqcdnKk965eX35vm1qdxFed3ChIFQxVyLmlO3_zzTR7a1LjZumUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pugnacious-charismatic-and-she-always-answered-the_20260711_0755.html
-✓ Created comprehensive article: pugnacious-charismatic-and-she-always-answered-the_20260711_0755.html
+Successfully created file: cuba-suffers-second-nationwide-blackout-in-five-da_20260711_0930.html
+✓ Created comprehensive article: cuba-suffers-second-nationwide-blackout-in-five-da_20260711_0930.html
 
-Processing trending topic: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
-Searching Google for: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArgentina%252Bvs%252BSwitzerland%253A%252BWorld%252BCup%252Bquarterfinal%252B%25E2%2580%2593%252BMessi%252C%252Bprediction%252C%252Bnews%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGPftx9IGIjDYwV77h9B-6XxRLn2zCQK5PJ1Pm8qGGKFGPaQbIYKFdt8nb2usWmVqbKAfUQGo0MMyBmpjbmRyUloBQw
+Processing trending topic: Russian missile attacks wound 11 in Kyiv
+Searching Google for: Russian missile attacks wound 11 in Kyiv
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bmissile%252Battacks%252Bwound%252B11%252Bin%252BKyiv%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vo0oGLGayNIGIjDACMcihiK-APCfGiRFUgY7juQ3Qtu3C-MaOVdHkunfRKcqaR41Ze4kVQ9Sle26LZcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: argentina-vs-switzerland-world-cup-quarterfinal-me_20260711_0755.html
-✓ Created comprehensive article: argentina-vs-switzerland-world-cup-quarterfinal-me_20260711_0755.html
+Successfully created file: russian-missile-attacks-wound-11-in-kyiv_20260711_0930.html
+✓ Created comprehensive article: russian-missile-attacks-wound-11-in-kyiv_20260711_0930.html
 
-Processing trending topic: Venezuelan doctors convert restaurant into a clinic after earthquake
-Searching Google for: Venezuelan doctors convert restaurant into a clinic after earthquake
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuelan%252Bdoctors%252Bconvert%252Brestaurant%252Binto%252Ba%252Bclinic%252Bafter%252Bearthquake%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGP3tx9IGIjDFo3z9IuCPZIrW0wyllZRj9UnicKtNkh4BmVnijd43CNv-pWLQlKiu6AKEXzFoR0gyBmpjbmRyUloBQw
+Processing trending topic: Indonesia’s anti-graft prosecutor quits after police seize gold and cash
+Searching Google for: Indonesia’s anti-graft prosecutor quits after police seize gold and cash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndonesia%25E2%2580%2599s%252Banti-graft%252Bprosecutor%252Bquits%252Bafter%252Bpolice%252Bseize%252Bgold%252Band%252Bcash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vo0oGLeayNIGIjBr30VExlxBD598Ft8jXDGuRLc0EBFcksms0dBXwxQRxCzYYDImm9DzBjCqAq5IlMEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: venezuelan-doctors-convert-restaurant-into-a-clini_20260711_0755.html
-✓ Created comprehensive article: venezuelan-doctors-convert-restaurant-into-a-clini_20260711_0755.html
+Successfully created file: indonesias-anti-graft-prosecutor-quits-after-polic_20260711_0930.html
+✓ Created comprehensive article: indonesias-anti-graft-prosecutor-quits-after-polic_20260711_0930.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-wants-iran-to-pledge-to-stop-shooting-at-ships-_20260711_0541.html
-Cleaned old post to keep top 30 limit: we-are-the-lost-generation-of-sudan-students-in-ex_20260711_0542.html
-Cleaned old post to keep top 30 limit: are-the-us-and-iran-at-war-again_20260711_0542.html
+Cleaned old post to keep top 30 limit: pugnacious-charismatic-and-she-always-answered-the_20260711_0755.html
+Cleaned old post to keep top 30 limit: venezuelan-doctors-convert-restaurant-into-a-clini_20260711_0755.html
+Cleaned old post to keep top 30 limit: argentina-vs-switzerland-world-cup-quarterfinal-me_20260711_0755.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
+   • Cuba suffers second nationwide blackout in five days
      Sources: bbc.com, cnn.com, reuters.com
-   • Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
+   • Russian missile attacks wound 11 in Kyiv
      Sources: bbc.com, cnn.com, reuters.com
-   • Venezuelan doctors convert restaurant into a clinic after earthquake
+   • Indonesia’s anti-graft prosecutor quits after police seize gold and cash
      Sources: bbc.com, cnn.com, reuters.com
