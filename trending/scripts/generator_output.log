@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Pugnacious, charismatic and she always answered the question - Chris Mason on Widdecombe
+  Added: Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
   Added: US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Are the US and Iran at war again?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘We are the lost generation of Sudan’: Students in exile
-Added expanded search topic: Are the US and Iran at war again?
-Added expanded search topic: ‘We are the lost generation of Sudan’: Students in exile
-Saved 6 topics for 2026-07-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuelan doctors convert restaurant into a clinic after earthquake
+Added expanded search topic: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
+Added expanded search topic: Venezuelan doctors convert restaurant into a clinic after earthquake
+Saved 9 topics for 2026-07-11
 Returning 3 unique trending topics:
-  1. US wants Iran to pledge to stop shooting at ships in Strait of Hormuz (from BBC News)
-  2. Are the US and Iran at war again? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. ‘We are the lost generation of Sudan’: Students in exile (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe (from BBC News)
+  2. Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Venezuelan doctors convert restaurant into a clinic after earthquake (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
-Searching Google for: US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
+Searching Google for: Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPugnacious%252C%252Bcharismatic%252Band%252Bshe%252Balways%252Banswered%252Bthe%252Bquestion%252B-%252BChris%252BMason%252Bon%252BAnn%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGPDtx9IGIjA4NNsRa6fJt3d4GKyI6zZ85rOhiJPqv0uiLJ-sejkLKPWgAIi_wU0xGE4KJsdWC0cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-wants-iran-to-pledge-to-stop-shooting-at-ships-_20260711_0541.html
-✓ Created comprehensive article: us-wants-iran-to-pledge-to-stop-shooting-at-ships-_20260711_0541.html
+Successfully created file: pugnacious-charismatic-and-she-always-answered-the_20260711_0755.html
+✓ Created comprehensive article: pugnacious-charismatic-and-she-always-answered-the_20260711_0755.html
 
-Processing trending topic: Are the US and Iran at war again?
-Searching Google for: Are the US and Iran at war again?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAre%252Bthe%252BUS%252Band%252BIran%252Bat%252Bwar%252Bagain%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OETGLCvx9IGIjDGb5WwLK10bxyLGcGypTTA8nRFs94myZYgeg-WFgEMw4_-JfJw4M3IPxINlsXtX08yBmpjbmRyUloBQw
+Processing trending topic: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
+Searching Google for: Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArgentina%252Bvs%252BSwitzerland%253A%252BWorld%252BCup%252Bquarterfinal%252B%25E2%2580%2593%252BMessi%252C%252Bprediction%252C%252Bnews%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGPftx9IGIjDYwV77h9B-6XxRLn2zCQK5PJ1Pm8qGGKFGPaQbIYKFdt8nb2usWmVqbKAfUQGo0MMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: are-the-us-and-iran-at-war-again_20260711_0542.html
-✓ Created comprehensive article: are-the-us-and-iran-at-war-again_20260711_0542.html
+Successfully created file: argentina-vs-switzerland-world-cup-quarterfinal-me_20260711_0755.html
+✓ Created comprehensive article: argentina-vs-switzerland-world-cup-quarterfinal-me_20260711_0755.html
 
-Processing trending topic: ‘We are the lost generation of Sudan’: Students in exile
-Searching Google for: ‘We are the lost generation of Sudan’: Students in exile
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bare%252Bthe%252Blost%252Bgeneration%252Bof%252BSudan%25E2%2580%2599%253A%252BStudents%252Bin%252Bexile%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OETGLevx9IGIjDVAkE8t6ck0zCPJoPIllj0KmKCUj_2tbqzJcRqW9L74pCThp8b4LhXSDjI2FWzaY0yBmpjbmRyUloBQw
+Processing trending topic: Venezuelan doctors convert restaurant into a clinic after earthquake
+Searching Google for: Venezuelan doctors convert restaurant into a clinic after earthquake
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuelan%252Bdoctors%252Bconvert%252Brestaurant%252Binto%252Ba%252Bclinic%252Bafter%252Bearthquake%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06ilBGP3tx9IGIjDFo3z9IuCPZIrW0wyllZRj9UnicKtNkh4BmVnijd43CNv-pWLQlKiu6AKEXzFoR0gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-are-the-lost-generation-of-sudan-students-in-ex_20260711_0542.html
-✓ Created comprehensive article: we-are-the-lost-generation-of-sudan-students-in-ex_20260711_0542.html
+Successfully created file: venezuelan-doctors-convert-restaurant-into-a-clini_20260711_0755.html
+✓ Created comprehensive article: venezuelan-doctors-convert-restaurant-into-a-clini_20260711_0755.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: colombias-jaminton-campaz-receives-death-threats-a_20260710_2310.html
-Cleaned old post to keep top 30 limit: developing-countries-spend-more-repaying-foreign-d_20260711_0231.html
-Cleaned old post to keep top 30 limit: pugnacious-charismatic-and-she-always-answered-the_20260711_0231.html
+Cleaned old post to keep top 30 limit: us-wants-iran-to-pledge-to-stop-shooting-at-ships-_20260711_0541.html
+Cleaned old post to keep top 30 limit: we-are-the-lost-generation-of-sudan-students-in-ex_20260711_0542.html
+Cleaned old post to keep top 30 limit: are-the-us-and-iran-at-war-again_20260711_0542.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US wants Iran to pledge to stop shooting at ships in Strait of Hormuz
+   • Pugnacious, charismatic and she always answered the question - Chris Mason on Ann Widdecombe
      Sources: bbc.com, cnn.com, reuters.com
-   • Are the US and Iran at war again?
+   • Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘We are the lost generation of Sudan’: Students in exile
+   • Venezuelan doctors convert restaurant into a clinic after earthquake
      Sources: bbc.com, cnn.com, reuters.com
