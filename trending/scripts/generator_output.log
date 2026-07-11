@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: TV presenter Dermot Murnaghan dies aged 68
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Nigeria says army has killed 300 bandits in north-western state of Zamfara
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China prepares as Typhoon Bavi leaves Taiwan
-Added expanded search topic: China prepares as Typhoon Bavi leaves Taiwan
-Saved 18 topics for 2026-07-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK police free suspect in ex-MP Ann Widdecombe murder investigation
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Power cuts plunge Gaza hospitals into darkness as Israel’s attacks persist
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What is going on in Yemen?
+Added expanded search topic: UK police free suspect in ex-MP Ann Widdecombe murder investigation
+Added expanded search topic: Power cuts plunge Gaza hospitals into darkness as Israel’s attacks persist
+Added expanded search topic: What is going on in Yemen?
+Saved 21 topics for 2026-07-11
 Returning 3 unique trending topics:
-  1. Reeves tells BBC: Burnham needs worked-through plan to govern from the start (from BBC News)
-  2. Nigeria says army has killed 300 bandits in north-western state of Zamfara (from The Guardian)
-  3. China prepares as Typhoon Bavi leaves Taiwan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK police free suspect in ex-MP Ann Widdecombe murder investigation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Power cuts plunge Gaza hospitals into darkness as Israel’s attacks persist (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What is going on in Yemen? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Reeves tells BBC: Burnham needs worked-through plan to govern from the start
-Searching Google for: Reeves tells BBC: Burnham needs worked-through plan to govern from the start
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReeves%252Btells%252BBBC%253A%252BBurnham%252Bneeds%252Bworked-through%252Bplan%252Bto%252Bgovern%252Bfrom%252Bthe%252Bstart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_MWGIaFydIGIjA-TllBXXtCey9PhWR1uPMLmW80z2zjvg6bZ6SP6q1TST2twriZHw6OOJnbNX-XSUwyBmpjbmRyUloBQw
+Processing trending topic: UK police free suspect in ex-MP Ann Widdecombe murder investigation
+Searching Google for: UK police free suspect in ex-MP Ann Widdecombe murder investigation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bpolice%252Bfree%252Bsuspect%252Bin%252Bex-MP%252BAnn%252BWiddecombe%252Bmurder%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvn5yGJKyydIGIjAGVuu9Jq63Cq_IJfQcCRcyFtRKqruRgYSzmceGTey1zB_Q7SrCmAVuko2ImpBD_CcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: reeves-tells-bbc-burnham-needs-worked-through-plan_20260711_1318.html
-✓ Created comprehensive article: reeves-tells-bbc-burnham-needs-worked-through-plan_20260711_1318.html
+Successfully created file: uk-police-free-suspect-in-ex-mp-ann-widdecombe-mur_20260711_1454.html
+✓ Created comprehensive article: uk-police-free-suspect-in-ex-mp-ann-widdecombe-mur_20260711_1454.html
 
-Processing trending topic: Nigeria says army has killed 300 bandits in north-western state of Zamfara
-Searching Google for: Nigeria says army has killed 300 bandits in north-western state of Zamfara
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Bsays%252Barmy%252Bhas%252Bkilled%252B300%252Bbandits%252Bin%252Bnorth-western%252Bstate%252Bof%252BZamfara%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_MWGI2FydIGIjCDO5PcRp5mvbwS1tWO_wP6NuFBTCdPM8s7885TQnT9SEs3nFZpiGZJvePa6K5JZtcyBmpjbmRyUloBQw
+Processing trending topic: Power cuts plunge Gaza hospitals into darkness as Israel’s attacks persist
+Searching Google for: Power cuts plunge Gaza hospitals into darkness as Israel’s attacks persist
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPower%252Bcuts%252Bplunge%252BGaza%252Bhospitals%252Binto%252Bdarkness%252Bas%252BIsrael%25E2%2580%2599s%252Battacks%252Bpersist%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvn5yGJmyydIGIjBsy9UX-o0Td03uzGasL9bz6cW39uPBbbSjGbcdOL7O2XHGyME1f54d2APDh-SGhPAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nigeria-says-army-has-killed-300-bandits-in-north-_20260711_1318.html
-✓ Created comprehensive article: nigeria-says-army-has-killed-300-bandits-in-north-_20260711_1318.html
+Successfully created file: power-cuts-plunge-gaza-hospitals-into-darkness-as-_20260711_1454.html
+✓ Created comprehensive article: power-cuts-plunge-gaza-hospitals-into-darkness-as-_20260711_1454.html
 
-Processing trending topic: China prepares as Typhoon Bavi leaves Taiwan
-Searching Google for: China prepares as Typhoon Bavi leaves Taiwan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%252Bprepares%252Bas%252BTyphoon%252BBavi%252Bleaves%252BTaiwan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_MWGJOFydIGIjD1jW6HCKcnMq36h2j-pW3lKdUWoH3YRdpR3kkynMbMEB5DwOnbDLVfPuDGT9pN9NoyBmpjbmRyUloBQw
+Processing trending topic: What is going on in Yemen?
+Searching Google for: What is going on in Yemen?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bis%252Bgoing%252Bon%252Bin%252BYemen%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvn5yGJ-yydIGIjBGl-NVLAmBDsqzLPNnxalfkYWSQVd7d5aPYouk_Cic0KEyeQiF9OlaB3-dBflJeLAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: china-prepares-as-typhoon-bavi-leaves-taiwan_20260711_1318.html
-✓ Created comprehensive article: china-prepares-as-typhoon-bavi-leaves-taiwan_20260711_1318.html
+Successfully created file: what-is-going-on-in-yemen_20260711_1454.html
+✓ Created comprehensive article: what-is-going-on-in-yemen_20260711_1454.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: man-arrested-on-suspicion-of-murder-after-death-of_20260711_0231.html
-Cleaned old post to keep top 30 limit: land-sold-for-kushner-backed-albania-resort-suspec_20260711_1107.html
-Cleaned old post to keep top 30 limit: fifa-has-nearly-1200-tickets-still-on-sale-for-wor_20260710_1824.html
+Cleaned old post to keep top 30 limit: reeves-tells-bbc-burnham-needs-worked-through-plan_20260711_1318.html
+Cleaned old post to keep top 30 limit: nigeria-says-army-has-killed-300-bandits-in-north-_20260711_1318.html
+Cleaned old post to keep top 30 limit: china-prepares-as-typhoon-bavi-leaves-taiwan_20260711_1318.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Reeves tells BBC: Burnham needs worked-through plan to govern from the start
+   • UK police free suspect in ex-MP Ann Widdecombe murder investigation
      Sources: bbc.com, cnn.com, reuters.com
-   • Nigeria says army has killed 300 bandits in north-western state of Zamfara
+   • Power cuts plunge Gaza hospitals into darkness as Israel’s attacks persist
      Sources: bbc.com, cnn.com, reuters.com
-   • China prepares as Typhoon Bavi leaves Taiwan
+   • What is going on in Yemen?
      Sources: bbc.com, cnn.com, reuters.com
