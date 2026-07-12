@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police say no suggestion of political motive in Widdecombe killing after new arrest
-  Added: Badly burned British couple rescued from ravine during Spain wildfires, reports say
+  Added: Two men die trying to save children in sea
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Sheikh Hamad will be fondly remembered across the Gulf’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war: US strategic success or diplomatic failure?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup 2026: Day 31
-Added expanded search topic: ‘Sheikh Hamad will be fondly remembered across the Gulf’
-Added expanded search topic: Iran war: US strategic success or diplomatic failure?
-Added expanded search topic: FIFA World Cup 2026: Day 31
-Saved 27 topics for 2026-07-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who will replace Trump ally Lindsey Graham in the US Senate?
+Added expanded search topic: Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad
+Added expanded search topic: Who will replace Trump ally Lindsey Graham in the US Senate?
+Saved 30 topics for 2026-07-12
 Returning 3 unique trending topics:
-  1. ‘Sheikh Hamad will be fondly remembered across the Gulf’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Iran war: US strategic success or diplomatic failure? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. FIFA World Cup 2026: Day 31 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Two men die trying to save children in sea (from BBC News)
+  2. Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Who will replace Trump ally Lindsey Graham in the US Senate? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: ‘Sheikh Hamad will be fondly remembered across the Gulf’
-Searching Google for: ‘Sheikh Hamad will be fondly remembered across the Gulf’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Sheikh%252BHamad%252Bwill%252Bbe%252Bfondly%252Bremembered%252Bacross%252Bthe%252BGulf%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLTGMWSz9IGIjDNxJJDXYe7cZOpzMMMCEHMS3OZAJ6OUvSP0UKo84aQZE-3ofrKgCQJlN6N9ff_uyEyBmpjbmRyUloBQw
+Processing trending topic: Two men die trying to save children in sea
+Searching Google for: Two men die trying to save children in sea
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bmen%252Bdie%252Btrying%252Bto%252Bsave%252Bchildren%252Bin%252Bsea%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMaGJjLz9IGIjAyctTMUMA6WlHR5RFHbbVTVv5AdAhnaQzjeH_gFhHezwKx-Yvzk3SH9D-mlEKORswyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sheikh-hamad-will-be-fondly-remembered-across-the-_20260712_1705.html
-✓ Created comprehensive article: sheikh-hamad-will-be-fondly-remembered-across-the-_20260712_1705.html
+Successfully created file: two-men-die-trying-to-save-children-in-sea_20260712_1906.html
+✓ Created comprehensive article: two-men-die-trying-to-save-children-in-sea_20260712_1906.html
 
-Processing trending topic: Iran war: US strategic success or diplomatic failure?
-Searching Google for: Iran war: US strategic success or diplomatic failure?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%253A%252BUS%252Bstrategic%252Bsuccess%252Bor%252Bdiplomatic%252Bfailure%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLTGMySz9IGIjCCeTuzBnyqqJ-IFKnypsYBuVcvAnXoJvf8WRY5mMQ--I2cEJYZNO8xC72_LlXDIcoyBmpjbmRyUloBQw
+Processing trending topic: Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad
+Searching Google for: Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bgather%252Bto%252Bbid%252Bfarewell%252Bto%252BQatar%25E2%2580%2599s%252BFather%252BEmir%252BSheikh%252BHamad%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMaGJ_Lz9IGIjDcpbPteVh1gzJqAEJOSM8C-st9Fr-ckO4nga9rUb09aY5k1cuOQFcaaFYSWVrV65kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-war-us-strategic-success-or-diplomatic-failur_20260712_1705.html
-✓ Created comprehensive article: iran-war-us-strategic-success-or-diplomatic-failur_20260712_1705.html
+Successfully created file: thousands-gather-to-bid-farewell-to-qatars-father-_20260712_1906.html
+✓ Created comprehensive article: thousands-gather-to-bid-farewell-to-qatars-father-_20260712_1906.html
 
-Processing trending topic: FIFA World Cup 2026: Day 31
-Searching Google for: FIFA World Cup 2026: Day 31
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252B2026%253A%252BDay%252B31%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLTGNOSz9IGIjBpIhXV0sw3IGBCPt9WaMlVuZ6BlTSfTmFZU7R_CVCkZtv-Mz1GVAvqRnrOYKopKioyBmpjbmRyUloBQw
+Processing trending topic: Who will replace Trump ally Lindsey Graham in the US Senate?
+Searching Google for: Who will replace Trump ally Lindsey Graham in the US Senate?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bwill%252Breplace%252BTrump%252Bally%252BLindsey%252BGraham%252Bin%252Bthe%252BUS%252BSenate%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMaGKXLz9IGIjATjkBoqQatWuX0WeHK4tWHMm-VM35SmMPuXC-IuniqqkPC6JbXYk9WHqbonSoU4O4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-world-cup-2026-day-31_20260712_1705.html
-✓ Created comprehensive article: fifa-world-cup-2026-day-31_20260712_1705.html
+Successfully created file: who-will-replace-trump-ally-lindsey-graham-in-the-_20260712_1906.html
+✓ Created comprehensive article: who-will-replace-trump-ally-lindsey-graham-in-the-_20260712_1906.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: meet-the-cubans-stuck-in-mexico-under-donald-trump_20260712_1601.html
-Cleaned old post to keep top 30 limit: syrian-parliament-convenes-for-first-time-followin_20260712_1601.html
-Cleaned old post to keep top 30 limit: badly-burned-british-couple-rescued-from-ravine-du_20260712_1601.html
+Cleaned old post to keep top 30 limit: irgc-releases-video-of-retaliatory-missile-strikes_20260712_1200.html
+Cleaned old post to keep top 30 limit: iran-war-us-strategic-success-or-diplomatic-failur_20260712_1705.html
+Cleaned old post to keep top 30 limit: fifa-world-cup-2026-day-31_20260712_1705.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • ‘Sheikh Hamad will be fondly remembered across the Gulf’
+   • Two men die trying to save children in sea
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran war: US strategic success or diplomatic failure?
+   • Thousands gather to bid farewell to Qatar’s Father Emir Sheikh Hamad
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA World Cup 2026: Day 31
+   • Who will replace Trump ally Lindsey Graham in the US Senate?
      Sources: bbc.com, cnn.com, reuters.com
