@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police say no suggestion of political motive in Widdecombe killing after new arrest
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sinner beats Zverev to defend Wimbledon men’s singles tennis title
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Qatar’s former emir remembered as ‘a man of vision and courage’
-Added expanded search topic: Sinner beats Zverev to defend Wimbledon men’s singles tennis title
-Added expanded search topic: Qatar’s former emir remembered as ‘a man of vision and courage’
-Saved 33 topics for 2026-07-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The man who changed the Arab world
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fire engulfs popular Bangkok pub, killing 27 people and injuring 63
+Added expanded search topic: Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71
+Added expanded search topic: The man who changed the Arab world
+Added expanded search topic: Fire engulfs popular Bangkok pub, killing 27 people and injuring 63
+Saved 36 topics for 2026-07-12
 Returning 3 unique trending topics:
-  1. Sinner holds off Zverev to defend Wimbledon title (from BBC News)
-  2. Sinner beats Zverev to defend Wimbledon men’s singles tennis title (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Qatar’s former emir remembered as ‘a man of vision and courage’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. The man who changed the Arab world (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Fire engulfs popular Bangkok pub, killing 27 people and injuring 63 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Sinner holds off Zverev to defend Wimbledon title
-Searching Google for: Sinner holds off Zverev to defend Wimbledon title
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSinner%252Bholds%252Boff%252BZverev%252Bto%252Bdefend%252BWimbledon%252Btitle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D3QGLf6z9IGIjCegZxqHGTgyTor1fFuBl9Upriu2A4g4y8zrklBk7eawkiy3i90CesnXc9WWkmD82syBmpjbmRyUloBQw
+Processing trending topic: Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71
+Searching Google for: Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLindsey%252BGraham%252C%252Bhardline%252Bbacker%252Bof%252BUS-Israeli%252Bwars%252C%252Bdies%252Baged%252B71%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J5WGPuX0NIGIjBsCKBXeVYYNnNIqRTiCoxVRhSzZBkWW5QMC3VSRNp3x5vj9v_dIx4AbQ2_BBPU5bIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sinner-holds-off-zverev-to-defend-wimbledon-title_20260712_2046.html
-✓ Created comprehensive article: sinner-holds-off-zverev-to-defend-wimbledon-title_20260712_2046.html
+Successfully created file: lindsey-graham-hardline-backer-of-us-israeli-wars-_20260712_2149.html
+✓ Created comprehensive article: lindsey-graham-hardline-backer-of-us-israeli-wars-_20260712_2149.html
 
-Processing trending topic: Sinner beats Zverev to defend Wimbledon men’s singles tennis title
-Searching Google for: Sinner beats Zverev to defend Wimbledon men’s singles tennis title
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSinner%252Bbeats%252BZverev%252Bto%252Bdefend%252BWimbledon%252Bmen%25E2%2580%2599s%252Bsingles%252Btennis%252Btitle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D3QGL36z9IGIjCx254GfTmWSbsKP2ziFZuWM5cwq4oxtHSYCjZcdI4dc3IRXCbrrtVMqFHkJi_i8fkyBmpjbmRyUloBQw
+Processing trending topic: The man who changed the Arab world
+Searching Google for: The man who changed the Arab world
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bman%252Bwho%252Bchanged%252Bthe%252BArab%252Bworld%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J5WGIKY0NIGIjCxqMfmMVEY-Q-x9MkmorvUscHVLCrpIuhlPU0els3JjU8E8dvNT2_vReyYsqmyj84yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sinner-beats-zverev-to-defend-wimbledon-mens-singl_20260712_2046.html
-✓ Created comprehensive article: sinner-beats-zverev-to-defend-wimbledon-mens-singl_20260712_2046.html
+Successfully created file: the-man-who-changed-the-arab-world_20260712_2149.html
+✓ Created comprehensive article: the-man-who-changed-the-arab-world_20260712_2149.html
 
-Processing trending topic: Qatar’s former emir remembered as ‘a man of vision and courage’
-Searching Google for: Qatar’s former emir remembered as ‘a man of vision and courage’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DQatar%25E2%2580%2599s%252Bformer%252Bemir%252Bremembered%252Bas%252B%25E2%2580%2598a%252Bman%252Bof%252Bvision%252Band%252Bcourage%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D3QGMT6z9IGIjA5rvxyoS8nx_ntwGJUYh_IrejXvf_ZMoKn2-hCdDK-fbP7eMViHoHu-yYCVJngM8syBmpjbmRyUloBQw
+Processing trending topic: Fire engulfs popular Bangkok pub, killing 27 people and injuring 63
+Searching Google for: Fire engulfs popular Bangkok pub, killing 27 people and injuring 63
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFire%252Bengulfs%252Bpopular%252BBangkok%252Bpub%252C%252Bkilling%252B27%252Bpeople%252Band%252Binjuring%252B63%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7J5WGIiY0NIGIjBVAFLAX2nsEq3eHAvdTBZ3LnQkd_esbj75LxlaFCIAtjtFkaUmr73WtuSenAgMLwwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: qatars-former-emir-remembered-as-a-man-of-vision-a_20260712_2047.html
-✓ Created comprehensive article: qatars-former-emir-remembered-as-a-man-of-vision-a_20260712_2047.html
+Successfully created file: fire-engulfs-popular-bangkok-pub-killing-27-people_20260712_2150.html
+✓ Created comprehensive article: fire-engulfs-popular-bangkok-pub-killing-27-people_20260712_2150.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: thousands-gather-to-bid-farewell-to-qatars-father-_20260712_1906.html
-Cleaned old post to keep top 30 limit: two-men-die-trying-to-save-children-in-sea_20260712_1906.html
-Cleaned old post to keep top 30 limit: sheikh-hamad-will-be-fondly-remembered-across-the-_20260712_1705.html
+Cleaned old post to keep top 30 limit: sinner-holds-off-zverev-to-defend-wimbledon-title_20260712_2046.html
+Cleaned old post to keep top 30 limit: sinner-beats-zverev-to-defend-wimbledon-mens-singl_20260712_2046.html
+Cleaned old post to keep top 30 limit: qatars-former-emir-remembered-as-a-man-of-vision-a_20260712_2047.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Sinner holds off Zverev to defend Wimbledon title
+   • Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71
      Sources: bbc.com, cnn.com, reuters.com
-   • Sinner beats Zverev to defend Wimbledon men’s singles tennis title
+   • The man who changed the Arab world
      Sources: bbc.com, cnn.com, reuters.com
-   • Qatar’s former emir remembered as ‘a man of vision and courage’
+   • Fire engulfs popular Bangkok pub, killing 27 people and injuring 63
      Sources: bbc.com, cnn.com, reuters.com
