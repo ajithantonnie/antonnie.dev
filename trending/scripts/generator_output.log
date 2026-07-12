@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Man arrested on suspicion of murder of Ann Widdecombe, police say
-  Added: Iran says Strait of Hormuz closed 'until further notice'
+  Added: 'Man of all the moments' - Bellingham gives England the lead
+  Added: Man arrested on suspicion of murder of Ann Widdecombe
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Nigeria says army has killed 300 bandits in north-western state of Zamfara
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA to sell pieces of World Cup final stadium pitch, could earn millions
-Added expanded search topic: FIFA to sell pieces of World Cup final stadium pitch, could earn millions
-Saved 45 topics for 2026-07-11
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-12
 Returning 3 unique trending topics:
-  1. Man arrested on suspicion of murder of Ann Widdecombe, police say (from BBC News)
-  2. Iran says Strait of Hormuz closed 'until further notice' (from BBC News)
-  3. FIFA to sell pieces of World Cup final stadium pitch, could earn millions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. 'Man of all the moments' - Bellingham gives England the lead (from BBC News)
+  2. Man arrested on suspicion of murder of Ann Widdecombe (from BBC News)
+  3. Nigeria says army has killed 300 bandits in north-western state of Zamfara (from The Guardian)
 
-Processing trending topic: Man arrested on suspicion of murder of Ann Widdecombe, police say
-Searching Google for: Man arrested on suspicion of murder of Ann Widdecombe, police say
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: 'Man of all the moments' - Bellingham gives England the lead
+Searching Google for: 'Man of all the moments' - Bellingham gives England the lead
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Man%252Bof%252Ball%252Bthe%252Bmoments%2527%252B-%252BBellingham%252Bgives%252BEngland%252Bthe%252Blead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obZxGN37y9IGIjDWrt6cSmhUsnd_YiLSXFkBoxiH_VEWABIm94dlYkKQxwS4f4XImaySXvP1dZUNw3IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-arrested-on-suspicion-of-murder-of-ann-widdeco_20260711_2355.html
-✓ Created comprehensive article: man-arrested-on-suspicion-of-murder-of-ann-widdeco_20260711_2355.html
+Successfully created file: man-of-all-the-moments-bellingham-gives-england-th_20260712_0237.html
+✓ Created comprehensive article: man-of-all-the-moments-bellingham-gives-england-th_20260712_0237.html
 
-Processing trending topic: Iran says Strait of Hormuz closed 'until further notice'
-Searching Google for: Iran says Strait of Hormuz closed 'until further notice'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bsays%252BStrait%252Bof%252BHormuz%252Bclosed%252B%2527until%252Bfurther%252Bnotice%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lhwiGJmwy9IGIjAbkXK8sFx9MoWrB84j5tHqh0LqrBDARBRKII4xTKo8QoE9z_QT5Jcg600ekv1SirUyBmpjbmRyUloBQw
+Processing trending topic: Man arrested on suspicion of murder of Ann Widdecombe
+Searching Google for: Man arrested on suspicion of murder of Ann Widdecombe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Barrested%252Bon%252Bsuspicion%252Bof%252Bmurder%252Bof%252BAnn%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obZxGOX7y9IGIjAEL4ToxHYeOL3fdFPE_SMcDL--1wQKTrEcTG21CoeamtERjMRbJtelAEYX4sU8NXEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-says-strait-of-hormuz-closed-until-further-no_20260711_2356.html
-✓ Created comprehensive article: iran-says-strait-of-hormuz-closed-until-further-no_20260711_2356.html
+Successfully created file: man-arrested-on-suspicion-of-murder-of-ann-widdeco_20260712_0237.html
+✓ Created comprehensive article: man-arrested-on-suspicion-of-murder-of-ann-widdeco_20260712_0237.html
 
-Processing trending topic: FIFA to sell pieces of World Cup final stadium pitch, could earn millions
-Searching Google for: FIFA to sell pieces of World Cup final stadium pitch, could earn millions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252Bto%252Bsell%252Bpieces%252Bof%252BWorld%252BCup%252Bfinal%252Bstadium%252Bpitch%252C%252Bcould%252Bearn%252Bmillions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lhwiGKCwy9IGIjBzlzRs3xiTrsOFpU879ctHMwF8iiLJcEDxy7-nallTsrVyp_CU1aWquDvrYBmzbIEyBmpjbmRyUloBQw
+Processing trending topic: Nigeria says army has killed 300 bandits in north-western state of Zamfara
+Searching Google for: Nigeria says army has killed 300 bandits in north-western state of Zamfara
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNigeria%252Bsays%252Barmy%252Bhas%252Bkilled%252B300%252Bbandits%252Bin%252Bnorth-western%252Bstate%252Bof%252BZamfara%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obZxGOz7y9IGIjCdExIY-DXjWdZDRqVx1v6LMPqRlA_qB6D8uA0HTzZMwlTnbCS0GO1eLbdAGEPaAowyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-to-sell-pieces-of-world-cup-final-stadium-pit_20260711_2356.html
-✓ Created comprehensive article: fifa-to-sell-pieces-of-world-cup-final-stadium-pit_20260711_2356.html
+Successfully created file: nigeria-says-army-has-killed-300-bandits-in-north-_20260712_0237.html
+✓ Created comprehensive article: nigeria-says-army-has-killed-300-bandits-in-north-_20260712_0237.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-administration-subpoenas-new-york-times-repo_20260711_2247.html
-Cleaned old post to keep top 30 limit: us-judge-dismisses-january-6-case-against-proud-bo_20260711_2247.html
-Cleaned old post to keep top 30 limit: thousands-gather-in-srebrenica-to-mark-31-years-si_20260711_2011.html
+Cleaned old post to keep top 30 limit: man-arrested-on-suspicion-of-murder-of-ann-widdeco_20260711_2355.html
+Cleaned old post to keep top 30 limit: iran-says-strait-of-hormuz-closed-until-further-no_20260711_2356.html
+Cleaned old post to keep top 30 limit: fifa-to-sell-pieces-of-world-cup-final-stadium-pit_20260711_2356.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Man arrested on suspicion of murder of Ann Widdecombe, police say
+   • 'Man of all the moments' - Bellingham gives England the lead
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran says Strait of Hormuz closed 'until further notice'
+   • Man arrested on suspicion of murder of Ann Widdecombe
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA to sell pieces of World Cup final stadium pitch, could earn millions
+   • Nigeria says army has killed 300 bandits in north-western state of Zamfara
      Sources: bbc.com, cnn.com, reuters.com
