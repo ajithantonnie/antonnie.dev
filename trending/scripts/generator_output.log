@@ -1,70 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police say no suggestion of political motive in Widdecombe killing after new arrest
-  Added: Sinner holds off Zverev to defend Wimbledon title
+  Added: At least 27 killed in Bangkok bar fire
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel releases video of huge detonations in Lebanon
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly Israeli strikes pound Gaza
-Added expanded search topic: Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks
-Added expanded search topic: Israel releases video of huge detonations in Lebanon
-Added expanded search topic: Deadly Israeli strikes pound Gaza
-Saved 39 topics for 2026-07-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mitch McConnell releases health update, says he is ‘regaining’ strength
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
+Added expanded search topic: Mitch McConnell releases health update, says he is ‘regaining’ strength
+Added expanded search topic: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
+Saved 42 topics for 2026-07-12
 Returning 3 unique trending topics:
-  1. Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Israel releases video of huge detonations in Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Deadly Israeli strikes pound Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. At least 27 killed in Bangkok bar fire (from BBC News)
+  2. Mitch McConnell releases health update, says he is ‘regaining’ strength (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US launches new wave of strikes against Iran, aimed at ‘degrading’ military (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks
-Searching Google for: Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDetained%252Bby%252Bsettlers%252C%252BUS%252BDemocrat%252BRo%252BKhanna%252Bnow%252Bfaces%252Bpro-Israel%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ2TGO6z0NIGIjDW2QDKM-dcOA4eWTZuJrqEmv2UF6_sefrOhWc1FIsJ4PY6fap0LjV0IXpw4AjfeXEyBmpjbmRyUloBQw
+Processing trending topic: At least 27 killed in Bangkok bar fire
+Searching Google for: At least 27 killed in Bangkok bar fire
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Successfully created file: detained-by-settlers-us-democrat-ro-khanna-now-fac_20260712_2249.html
-✓ Created comprehensive article: detained-by-settlers-us-democrat-ro-khanna-now-fac_20260712_2249.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: at-least-27-killed-in-bangkok-bar-fire_20260712_2356.html
+✓ Created comprehensive article: at-least-27-killed-in-bangkok-bar-fire_20260712_2356.html
 
-Processing trending topic: Israel releases video of huge detonations in Lebanon
-Searching Google for: Israel releases video of huge detonations in Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Breleases%252Bvideo%252Bof%252Bhuge%252Bdetonations%252Bin%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ2TGPWz0NIGIjA1k6mHfFBxE21L-Ho00JIXUELYB9azwkNpbzAVJqzPCoL99fkROo_-rvnxHTGpP0wyBmpjbmRyUloBQw
+Processing trending topic: Mitch McConnell releases health update, says he is ‘regaining’ strength
+Searching Google for: Mitch McConnell releases health update, says he is ‘regaining’ strength
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMitch%252BMcConnell%252Breleases%252Bhealth%252Bupdate%252C%252Bsays%252Bhe%252Bis%252B%25E2%2580%2598regaining%25E2%2580%2599%252Bstrength%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08R5BGMnT0NIGIjCR10tTlWUMHOK3rQnF8l3pbNF-Q0W9G2hfZWX99QM0cnZNDLYfgRPTb-2TTj4s1kIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Successfully created file: israel-releases-video-of-huge-detonations-in-leban_20260712_2249.html
-✓ Created comprehensive article: israel-releases-video-of-huge-detonations-in-leban_20260712_2249.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: mitch-mcconnell-releases-health-update-says-he-is-_20260712_2357.html
+✓ Created comprehensive article: mitch-mcconnell-releases-health-update-says-he-is-_20260712_2357.html
 
-Processing trending topic: Deadly Israeli strikes pound Gaza
-Searching Google for: Deadly Israeli strikes pound Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252BIsraeli%252Bstrikes%252Bpound%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ2TGPuz0NIGIjCk7MMn4lg2AyqwmdxBupsnQBfz63ZhEk10gIh3k5daEVbpGeko3kSzeXhv4BTL8aQyBmpjbmRyUloBQw
+Processing trending topic: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
+Searching Google for: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blaunches%252Bnew%252Bwave%252Bof%252Bstrikes%252Bagainst%252BIran%252C%252Baimed%252Bat%252B%25E2%2580%2598degrading%25E2%2580%2599%252Bmilitary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08R5BGNDT0NIGIjCF0n8ls_wqsKPUg1shfjHHJFhLbUxlqlS0FKo4gOBtfTAGgVrRZp8c2FNXGOktSmAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Successfully created file: deadly-israeli-strikes-pound-gaza_20260712_2249.html
-✓ Created comprehensive article: deadly-israeli-strikes-pound-gaza_20260712_2249.html
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-launches-new-wave-of-strikes-against-iran-aimed_20260712_2357.html
+✓ Created comprehensive article: us-launches-new-wave-of-strikes-against-iran-aimed_20260712_2357.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: the-man-who-changed-the-arab-world_20260712_2149.html
-Cleaned old post to keep top 30 limit: lindsey-graham-hardline-backer-of-us-israeli-wars-_20260712_2149.html
-Cleaned old post to keep top 30 limit: fire-engulfs-popular-bangkok-pub-killing-27-people_20260712_2150.html
+Cleaned old post to keep top 30 limit: tributes-paid-to-tv-presenter-dermot-murnaghan_20260711_2247.html
+Cleaned old post to keep top 30 limit: detained-by-settlers-us-democrat-ro-khanna-now-fac_20260712_2249.html
+Cleaned old post to keep top 30 limit: deadly-israeli-strikes-pound-gaza_20260712_2249.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks
+   • At least 27 killed in Bangkok bar fire
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel releases video of huge detonations in Lebanon
+   • Mitch McConnell releases health update, says he is ‘regaining’ strength
      Sources: bbc.com, cnn.com, reuters.com
-   • Deadly Israeli strikes pound Gaza
+   • US launches new wave of strikes against Iran, aimed at ‘degrading’ military
      Sources: bbc.com, cnn.com, reuters.com
