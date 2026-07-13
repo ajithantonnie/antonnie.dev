@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
-  Added: Twelve arrested over alleged right-wing terror threat to UK Islamic event, police say
+  Added: Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Locked exits, burning decor: inside Bangkok’s deadly pub fire
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup: Five biggest controversies of the 2026 tournament
-Added expanded search topic: Locked exits, burning decor: inside Bangkok’s deadly pub fire
-Added expanded search topic: FIFA World Cup: Five biggest controversies of the 2026 tournament
-Saved 15 topics for 2026-07-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK arrests 12 over extreme right-wing ‘terror’ threat to Muslim event
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spanish PM visits site of deadly wildfire
+Added expanded search topic: UK arrests 12 over extreme right-wing ‘terror’ threat to Muslim event
+Added expanded search topic: Spanish PM visits site of deadly wildfire
+Saved 18 topics for 2026-07-13
 Returning 3 unique trending topics:
-  1. Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation (from BBC News)
-  2. Locked exits, burning decor: inside Bangkok’s deadly pub fire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. FIFA World Cup: Five biggest controversies of the 2026 tournament (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz (from BBC News)
+  2. UK arrests 12 over extreme right-wing ‘terror’ threat to Muslim event (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Spanish PM visits site of deadly wildfire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
-Searching Google for: Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnn%252BWiddecombe%252Bsuspect%252Bnot%252Bknown%252Bto%252BPrevent%252Bas%252Bcounter%252Bterrorism%252Bpolice%252Btake%252Bover%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdhzTGMzl1NIGIjCFNfuYcT4AQp3_duHtxNhro6Wi-WsF_W2k2pH5k5eP9nZwpMs9bY_7eYYYud7NVhsyBmpjbmRyUloBQw
+Processing trending topic: Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz
+Searching Google for: Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ann-widdecombe-suspect-not-known-to-prevent-as-cou_20260713_1847.html
-✓ Created comprehensive article: ann-widdecombe-suspect-not-known-to-prevent-as-cou_20260713_1847.html
+Successfully created file: trump-reinstates-iran-port-blockade-and-vows-20-ch_20260713_2015.html
+✓ Created comprehensive article: trump-reinstates-iran-port-blockade-and-vows-20-ch_20260713_2015.html
 
-Processing trending topic: Locked exits, burning decor: inside Bangkok’s deadly pub fire
-Searching Google for: Locked exits, burning decor: inside Bangkok’s deadly pub fire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLocked%252Bexits%252C%252Bburning%252Bdecor%253A%252Binside%252BBangkok%25E2%2580%2599s%252Bdeadly%252Bpub%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdhzTGNPl1NIGIjBCsBFZACrA8E-wtht4KQDH0wP83oWfiheZiNvw_fzYf5UTAV-IZvqGtKoRR5AKhbAyBmpjbmRyUloBQw
+Processing trending topic: UK arrests 12 over extreme right-wing ‘terror’ threat to Muslim event
+Searching Google for: UK arrests 12 over extreme right-wing ‘terror’ threat to Muslim event
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Barrests%252B12%252Bover%252Bextreme%252Bright-wing%252B%25E2%2580%2598terror%25E2%2580%2599%252Bthreat%252Bto%252BMuslim%252Bevent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4MVGJCP1dIGIjCuT4xrqwwIKmUjISQOfsv8ti1d24Z0uuHRzsMkSDC6gtGZIID0Uh2ouCfSDo2KZFoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: locked-exits-burning-decor-inside-bangkoks-deadly-_20260713_1847.html
-✓ Created comprehensive article: locked-exits-burning-decor-inside-bangkoks-deadly-_20260713_1847.html
+Successfully created file: uk-arrests-12-over-extreme-right-wing-terror-threa_20260713_2016.html
+✓ Created comprehensive article: uk-arrests-12-over-extreme-right-wing-terror-threa_20260713_2016.html
 
-Processing trending topic: FIFA World Cup: Five biggest controversies of the 2026 tournament
-Searching Google for: FIFA World Cup: Five biggest controversies of the 2026 tournament
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%253A%252BFive%252Bbiggest%252Bcontroversies%252Bof%252Bthe%252B2026%252Btournament%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdhzTGNnl1NIGIjDoEsoRyw0aYzZaoQTQXdto2fyxdVbmU631MyGDKKjY9csOk0rJM3nNNt0SI4ErqU0yBmpjbmRyUloBQw
+Processing trending topic: Spanish PM visits site of deadly wildfire
+Searching Google for: Spanish PM visits site of deadly wildfire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpanish%252BPM%252Bvisits%252Bsite%252Bof%252Bdeadly%252Bwildfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4MVGJaP1dIGIjBieVVsPKVvv2SwFWAbv6biptluHLMViDpuu6k21sTV_UoFc848PHGQAjfwR3lHq7MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-world-cup-five-biggest-controversies-of-the-2_20260713_1847.html
-✓ Created comprehensive article: fifa-world-cup-five-biggest-controversies-of-the-2_20260713_1847.html
+Successfully created file: spanish-pm-visits-site-of-deadly-wildfire_20260713_2016.html
+✓ Created comprehensive article: spanish-pm-visits-site-of-deadly-wildfire_20260713_2016.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: twelve-arrested-over-alleged-right-wing-terror-thr_20260713_1633.html
-Cleaned old post to keep top 30 limit: counter-terrorism-police-take-over-investigation-i_20260713_1633.html
-Cleaned old post to keep top 30 limit: killings-continue-on-del-monte-farm-in-kenya-famil_20260713_1633.html
+Cleaned old post to keep top 30 limit: fifa-world-cup-five-biggest-controversies-of-the-2_20260713_1847.html
+Cleaned old post to keep top 30 limit: locked-exits-burning-decor-inside-bangkoks-deadly-_20260713_1847.html
+Cleaned old post to keep top 30 limit: ann-widdecombe-suspect-not-known-to-prevent-as-cou_20260713_1847.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
+   • Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Locked exits, burning decor: inside Bangkok’s deadly pub fire
+   • UK arrests 12 over extreme right-wing ‘terror’ threat to Muslim event
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA World Cup: Five biggest controversies of the 2026 tournament
+   • Spanish PM visits site of deadly wildfire
      Sources: bbc.com, cnn.com, reuters.com
