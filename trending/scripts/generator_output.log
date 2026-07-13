@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Thousands may have died in UK's exceptional May and June heatwaves
-  Added: Mahmood to set out plan to deport grooming gang leader
+  Added: Suspect in Ann Widdecombe murder seen on CCTV getting into car with object
+  Added: More than 2,700 people may have died in exceptional May and June heatwaves in England and Wales
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
-Added expanded search topic: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
-Saved 6 topics for 2026-07-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff
+Added expanded search topic: France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff
+Saved 9 topics for 2026-07-13
 Returning 3 unique trending topics:
-  1. Thousands may have died in UK's exceptional May and June heatwaves (from BBC News)
-  2. Mahmood to set out plan to deport grooming gang leader (from BBC News)
-  3. Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Suspect in Ann Widdecombe murder seen on CCTV getting into car with object (from BBC News)
+  2. More than 2,700 people may have died in exceptional May and June heatwaves in England and Wales (from BBC News)
+  3. France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Thousands may have died in UK's exceptional May and June heatwaves
-Searching Google for: Thousands may have died in UK's exceptional May and June heatwaves
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Suspect in Ann Widdecombe murder seen on CCTV getting into car with object
+Searching Google for: Suspect in Ann Widdecombe murder seen on CCTV getting into car with object
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspect%252Bin%252BAnn%252BWiddecombe%252Bmurder%252Bseen%252Bon%252BCCTV%252Bgetting%252Binto%252Bcar%252Bwith%252Bobject%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUajGN_60tIGIjBBY_UczfMlOB7QBDPpZpfa4e4yLwb2_OX2xrSaPNTynoqUTgI_BfNwCpixtuQEyOYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-may-have-died-in-uks-exceptional-may-and_20260713_0617.html
-✓ Created comprehensive article: thousands-may-have-died-in-uks-exceptional-may-and_20260713_0617.html
+Successfully created file: suspect-in-ann-widdecombe-murder-seen-on-cctv-gett_20260713_1026.html
+✓ Created comprehensive article: suspect-in-ann-widdecombe-murder-seen-on-cctv-gett_20260713_1026.html
 
-Processing trending topic: Mahmood to set out plan to deport grooming gang leader
-Searching Google for: Mahmood to set out plan to deport grooming gang leader
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMahmood%252Bto%252Bset%252Bout%252Bplan%252Bto%252Bdeport%252Bgrooming%252Bgang%252Bleader%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOSGKqG0tIGIjAYz9kO_6-b6DjqDHd6vm0pGUcSQ6nQDqawydhfNvBsV51Pc0wV4Q2Pfe8oIfP-lusyBmpjbmRyUloBQw
+Processing trending topic: More than 2,700 people may have died in exceptional May and June heatwaves in England and Wales
+Searching Google for: More than 2,700 people may have died in exceptional May and June heatwaves in England and Wales
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B2%252C700%252Bpeople%252Bmay%252Bhave%252Bdied%252Bin%252Bexceptional%252BMay%252Band%252BJune%252Bheatwaves%252Bin%252BEngland%252Band%252BWales%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUajGOb60tIGIjBXvG1QgJI8q5lj4NL_YDyWl1s9_1WDLoNMFgSzg611sSHhAWa44ybiRFyEWs8_V0oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mahmood-to-set-out-plan-to-deport-grooming-gang-le_20260713_0618.html
-✓ Created comprehensive article: mahmood-to-set-out-plan-to-deport-grooming-gang-le_20260713_0618.html
+Successfully created file: more-than-2700-people-may-have-died-in-exceptional_20260713_1026.html
+✓ Created comprehensive article: more-than-2700-people-may-have-died-in-exceptional_20260713_1026.html
 
-Processing trending topic: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
-Searching Google for: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSheikh%252BHamad%253A%252BThe%252BArab%252Bleader%252Bwho%252Bbroke%252BIsrael%25E2%2580%2599s%252Bsiege%252Bon%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOSGLCG0tIGIjD6pQuUNo_e0zpWU3br8mMgguqqJSYBxHUiou1Sw5w_2mPqwdmi9JUsbNMt4BczCSAyBmpjbmRyUloBQw
+Processing trending topic: France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff
+Searching Google for: France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Bvs%252BSpain%253A%252BWorld%252BCup%252Bsemifinal%252B%25E2%2580%2593%252BMbappe%252C%252BYamal%252C%252Bpredictions%252C%252Bkickoff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUajGOz60tIGIjAjeYGXeqyBNo1vyyfoV8XaYY-xaSBpOv3rhbL5Ik9QCZqF7EzQpqaQhxRcEHQvEk0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sheikh-hamad-the-arab-leader-who-broke-israels-sie_20260713_0618.html
-✓ Created comprehensive article: sheikh-hamad-the-arab-leader-who-broke-israels-sie_20260713_0618.html
+Successfully created file: france-vs-spain-world-cup-semifinal-mbappe-yamal-p_20260713_1026.html
+✓ Created comprehensive article: france-vs-spain-world-cup-semifinal-mbappe-yamal-p_20260713_1026.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israel-releases-video-of-huge-detonations-in-leban_20260712_2249.html
-Cleaned old post to keep top 30 limit: first-patients-enrolled-in-record-breaking-ebola-t_20260713_0238.html
-Cleaned old post to keep top 30 limit: at-least-27-killed-eight-critically-injured-in-ban_20260713_0238.html
+Cleaned old post to keep top 30 limit: thousands-may-have-died-in-uks-exceptional-may-and_20260713_0617.html
+Cleaned old post to keep top 30 limit: sheikh-hamad-the-arab-leader-who-broke-israels-sie_20260713_0618.html
+Cleaned old post to keep top 30 limit: mahmood-to-set-out-plan-to-deport-grooming-gang-le_20260713_0618.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Thousands may have died in UK's exceptional May and June heatwaves
+   • Suspect in Ann Widdecombe murder seen on CCTV getting into car with object
      Sources: bbc.com, cnn.com, reuters.com
-   • Mahmood to set out plan to deport grooming gang leader
+   • More than 2,700 people may have died in exceptional May and June heatwaves in England and Wales
      Sources: bbc.com, cnn.com, reuters.com
-   • Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
+   • France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff
      Sources: bbc.com, cnn.com, reuters.com
