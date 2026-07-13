@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: At least 27 killed, eight critically injured in Bangkok bar fire
   Added: Police say no suggestion of political motive in Widdecombe killing after new arrest
-  Added: At least 27 killed in Bangkok bar fire
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mitch McConnell releases health update, says he is ‘regaining’ strength
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
-Added expanded search topic: Mitch McConnell releases health update, says he is ‘regaining’ strength
-Added expanded search topic: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
-Saved 42 topics for 2026-07-12
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-13
 Returning 3 unique trending topics:
-  1. At least 27 killed in Bangkok bar fire (from BBC News)
-  2. Mitch McConnell releases health update, says he is ‘regaining’ strength (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US launches new wave of strikes against Iran, aimed at ‘degrading’ military (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. At least 27 killed, eight critically injured in Bangkok bar fire (from BBC News)
+  2. Police say no suggestion of political motive in Widdecombe killing after new arrest (from BBC News)
+  3. First patients enrolled in record-breaking Ebola treatment trial in DRC (from The Guardian)
 
-Processing trending topic: At least 27 killed in Bangkok bar fire
-Searching Google for: At least 27 killed in Bangkok bar fire
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: At least 27 killed, eight critically injured in Bangkok bar fire
+Searching Google for: At least 27 killed, eight critically injured in Bangkok bar fire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B27%252Bkilled%252C%252Beight%252Bcritically%252Binjured%252Bin%252BBangkok%252Bbar%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbJGIef0dIGIjA7nWEYnVMlnmOYTxa_6s2ZpttfcPeQNnr-J9hZfHO1hRMjqEjAMz1HRjhkZjgLg1oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-27-killed-in-bangkok-bar-fire_20260712_2356.html
-✓ Created comprehensive article: at-least-27-killed-in-bangkok-bar-fire_20260712_2356.html
+Successfully created file: at-least-27-killed-eight-critically-injured-in-ban_20260713_0238.html
+✓ Created comprehensive article: at-least-27-killed-eight-critically-injured-in-ban_20260713_0238.html
 
-Processing trending topic: Mitch McConnell releases health update, says he is ‘regaining’ strength
-Searching Google for: Mitch McConnell releases health update, says he is ‘regaining’ strength
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMitch%252BMcConnell%252Breleases%252Bhealth%252Bupdate%252C%252Bsays%252Bhe%252Bis%252B%25E2%2580%2598regaining%25E2%2580%2599%252Bstrength%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08R5BGMnT0NIGIjCR10tTlWUMHOK3rQnF8l3pbNF-Q0W9G2hfZWX99QM0cnZNDLYfgRPTb-2TTj4s1kIyBmpjbmRyUloBQw
+Processing trending topic: Police say no suggestion of political motive in Widdecombe killing after new arrest
+Searching Google for: Police say no suggestion of political motive in Widdecombe killing after new arrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bsay%252Bno%252Bsuggestion%252Bof%252Bpolitical%252Bmotive%252Bin%252BWiddecombe%252Bkilling%252Bafter%252Bnew%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbJGI6f0dIGIjAiYstwH7YjS-xkU0yWTcx0tT3ASCYMN_Xjehy3HrLpJRdzRzkDxeEo6Dx8EvKciPwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mitch-mcconnell-releases-health-update-says-he-is-_20260712_2357.html
-✓ Created comprehensive article: mitch-mcconnell-releases-health-update-says-he-is-_20260712_2357.html
+Successfully created file: police-say-no-suggestion-of-political-motive-in-wi_20260713_0238.html
+✓ Created comprehensive article: police-say-no-suggestion-of-political-motive-in-wi_20260713_0238.html
 
-Processing trending topic: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
-Searching Google for: US launches new wave of strikes against Iran, aimed at ‘degrading’ military
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blaunches%252Bnew%252Bwave%252Bof%252Bstrikes%252Bagainst%252BIran%252C%252Baimed%252Bat%252B%25E2%2580%2598degrading%25E2%2580%2599%252Bmilitary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08R5BGNDT0NIGIjCF0n8ls_wqsKPUg1shfjHHJFhLbUxlqlS0FKo4gOBtfTAGgVrRZp8c2FNXGOktSmAyBmpjbmRyUloBQw
+Processing trending topic: First patients enrolled in record-breaking Ebola treatment trial in DRC
+Searching Google for: First patients enrolled in record-breaking Ebola treatment trial in DRC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252Bpatients%252Benrolled%252Bin%252Brecord-breaking%252BEbola%252Btreatment%252Btrial%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbJGJSf0dIGIjCZQoU_4xvWOVBJJKZKogNsLgdeTM5-zb7Lv218Fl-DC59MJIBB8_5wbXFqEJVF18syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-launches-new-wave-of-strikes-against-iran-aimed_20260712_2357.html
-✓ Created comprehensive article: us-launches-new-wave-of-strikes-against-iran-aimed_20260712_2357.html
+Successfully created file: first-patients-enrolled-in-record-breaking-ebola-t_20260713_0238.html
+✓ Created comprehensive article: first-patients-enrolled-in-record-breaking-ebola-t_20260713_0238.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tributes-paid-to-tv-presenter-dermot-murnaghan_20260711_2247.html
-Cleaned old post to keep top 30 limit: detained-by-settlers-us-democrat-ro-khanna-now-fac_20260712_2249.html
-Cleaned old post to keep top 30 limit: deadly-israeli-strikes-pound-gaza_20260712_2249.html
+Cleaned old post to keep top 30 limit: us-launches-new-wave-of-strikes-against-iran-aimed_20260712_2357.html
+Cleaned old post to keep top 30 limit: mitch-mcconnell-releases-health-update-says-he-is-_20260712_2357.html
+Cleaned old post to keep top 30 limit: at-least-27-killed-in-bangkok-bar-fire_20260712_2356.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • At least 27 killed in Bangkok bar fire
+   • At least 27 killed, eight critically injured in Bangkok bar fire
      Sources: bbc.com, cnn.com, reuters.com
-   • Mitch McConnell releases health update, says he is ‘regaining’ strength
+   • Police say no suggestion of political motive in Widdecombe killing after new arrest
      Sources: bbc.com, cnn.com, reuters.com
-   • US launches new wave of strikes against Iran, aimed at ‘degrading’ military
+   • First patients enrolled in record-breaking Ebola treatment trial in DRC
      Sources: bbc.com, cnn.com, reuters.com
