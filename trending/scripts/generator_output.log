@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: At least 27 killed, eight critically injured in Bangkok bar fire
-  Added: Police say no suggestion of political motive in Widdecombe killing after new arrest
+  Added: Thousands may have died in UK's exceptional May and June heatwaves
+  Added: Mahmood to set out plan to deport grooming gang leader
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-13
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
+Added expanded search topic: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
+Saved 6 topics for 2026-07-13
 Returning 3 unique trending topics:
-  1. At least 27 killed, eight critically injured in Bangkok bar fire (from BBC News)
-  2. Police say no suggestion of political motive in Widdecombe killing after new arrest (from BBC News)
-  3. First patients enrolled in record-breaking Ebola treatment trial in DRC (from The Guardian)
+  1. Thousands may have died in UK's exceptional May and June heatwaves (from BBC News)
+  2. Mahmood to set out plan to deport grooming gang leader (from BBC News)
+  3. Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: At least 27 killed, eight critically injured in Bangkok bar fire
-Searching Google for: At least 27 killed, eight critically injured in Bangkok bar fire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B27%252Bkilled%252C%252Beight%252Bcritically%252Binjured%252Bin%252BBangkok%252Bbar%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbJGIef0dIGIjA7nWEYnVMlnmOYTxa_6s2ZpttfcPeQNnr-J9hZfHO1hRMjqEjAMz1HRjhkZjgLg1oyBmpjbmRyUloBQw
+Processing trending topic: Thousands may have died in UK's exceptional May and June heatwaves
+Searching Google for: Thousands may have died in UK's exceptional May and June heatwaves
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-27-killed-eight-critically-injured-in-ban_20260713_0238.html
-✓ Created comprehensive article: at-least-27-killed-eight-critically-injured-in-ban_20260713_0238.html
+Successfully created file: thousands-may-have-died-in-uks-exceptional-may-and_20260713_0617.html
+✓ Created comprehensive article: thousands-may-have-died-in-uks-exceptional-may-and_20260713_0617.html
 
-Processing trending topic: Police say no suggestion of political motive in Widdecombe killing after new arrest
-Searching Google for: Police say no suggestion of political motive in Widdecombe killing after new arrest
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bsay%252Bno%252Bsuggestion%252Bof%252Bpolitical%252Bmotive%252Bin%252BWiddecombe%252Bkilling%252Bafter%252Bnew%252Barrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbJGI6f0dIGIjAiYstwH7YjS-xkU0yWTcx0tT3ASCYMN_Xjehy3HrLpJRdzRzkDxeEo6Dx8EvKciPwyBmpjbmRyUloBQw
+Processing trending topic: Mahmood to set out plan to deport grooming gang leader
+Searching Google for: Mahmood to set out plan to deport grooming gang leader
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMahmood%252Bto%252Bset%252Bout%252Bplan%252Bto%252Bdeport%252Bgrooming%252Bgang%252Bleader%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOSGKqG0tIGIjAYz9kO_6-b6DjqDHd6vm0pGUcSQ6nQDqawydhfNvBsV51Pc0wV4Q2Pfe8oIfP-lusyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-say-no-suggestion-of-political-motive-in-wi_20260713_0238.html
-✓ Created comprehensive article: police-say-no-suggestion-of-political-motive-in-wi_20260713_0238.html
+Successfully created file: mahmood-to-set-out-plan-to-deport-grooming-gang-le_20260713_0618.html
+✓ Created comprehensive article: mahmood-to-set-out-plan-to-deport-grooming-gang-le_20260713_0618.html
 
-Processing trending topic: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Searching Google for: First patients enrolled in record-breaking Ebola treatment trial in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirst%252Bpatients%252Benrolled%252Bin%252Brecord-breaking%252BEbola%252Btreatment%252Btrial%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqbJGJSf0dIGIjCZQoU_4xvWOVBJJKZKogNsLgdeTM5-zb7Lv218Fl-DC59MJIBB8_5wbXFqEJVF18syBmpjbmRyUloBQw
+Processing trending topic: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
+Searching Google for: Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSheikh%252BHamad%253A%252BThe%252BArab%252Bleader%252Bwho%252Bbroke%252BIsrael%25E2%2580%2599s%252Bsiege%252Bon%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6OOSGLCG0tIGIjD6pQuUNo_e0zpWU3br8mMgguqqJSYBxHUiou1Sw5w_2mPqwdmi9JUsbNMt4BczCSAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: first-patients-enrolled-in-record-breaking-ebola-t_20260713_0238.html
-✓ Created comprehensive article: first-patients-enrolled-in-record-breaking-ebola-t_20260713_0238.html
+Successfully created file: sheikh-hamad-the-arab-leader-who-broke-israels-sie_20260713_0618.html
+✓ Created comprehensive article: sheikh-hamad-the-arab-leader-who-broke-israels-sie_20260713_0618.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-launches-new-wave-of-strikes-against-iran-aimed_20260712_2357.html
-Cleaned old post to keep top 30 limit: mitch-mcconnell-releases-health-update-says-he-is-_20260712_2357.html
-Cleaned old post to keep top 30 limit: at-least-27-killed-in-bangkok-bar-fire_20260712_2356.html
+Cleaned old post to keep top 30 limit: israel-releases-video-of-huge-detonations-in-leban_20260712_2249.html
+Cleaned old post to keep top 30 limit: first-patients-enrolled-in-record-breaking-ebola-t_20260713_0238.html
+Cleaned old post to keep top 30 limit: at-least-27-killed-eight-critically-injured-in-ban_20260713_0238.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • At least 27 killed, eight critically injured in Bangkok bar fire
+   • Thousands may have died in UK's exceptional May and June heatwaves
      Sources: bbc.com, cnn.com, reuters.com
-   • Police say no suggestion of political motive in Widdecombe killing after new arrest
+   • Mahmood to set out plan to deport grooming gang leader
      Sources: bbc.com, cnn.com, reuters.com
-   • First patients enrolled in record-breaking Ebola treatment trial in DRC
+   • Sheikh Hamad: The Arab leader who broke Israel’s siege on Gaza
      Sources: bbc.com, cnn.com, reuters.com
