@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: New US Ebola patient arrives in Germany for treatment
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 18 topics for 2026-07-14
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France vs Spain LIVE: FIFA World Cup 2026 semifinal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jude Bellingham Station unveiled ahead of World Cup semi-final
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
+Added expanded search topic: France vs Spain LIVE: FIFA World Cup 2026 semifinal
+Added expanded search topic: Jude Bellingham Station unveiled ahead of World Cup semi-final
+Added expanded search topic: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
+Saved 21 topics for 2026-07-14
 Returning 3 unique trending topics:
-  1. UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds (from BBC News)
-  2. Scott Mills was highest-paid BBC star before sacking (from BBC News)
-  3. New US Ebola patient arrives in Germany for treatment (from The Guardian)
+  1. France vs Spain LIVE: FIFA World Cup 2026 semifinal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Jude Bellingham Station unveiled ahead of World Cup semi-final (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds
-Searching Google for: UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bwasted%252B%25C2%25A310bn%252Bon%252BPPE%252Bthat%252Bleft%252BNHS%252Bstaff%252Bpoorly%252Bprotected%252C%252BCovid%252Binquiry%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fiGPqZ2dIGIjA2y1oc_JiBTFGw0t_64k2Idhl6_ctbL3mO3AIF7FfPasYw_CuVZ36yCQ2dbGo6mzUyBmpjbmRyUloBQw
+Processing trending topic: France vs Spain LIVE: FIFA World Cup 2026 semifinal
+Searching Google for: France vs Spain LIVE: FIFA World Cup 2026 semifinal
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-wasted-10bn-on-ppe-that-left-nhs-staff-poorly-p_20260714_1451.html
-✓ Created comprehensive article: uk-wasted-10bn-on-ppe-that-left-nhs-staff-poorly-p_20260714_1451.html
+Successfully created file: france-vs-spain-live-fifa-world-cup-2026-semifinal_20260714_1615.html
+✓ Created comprehensive article: france-vs-spain-live-fifa-world-cup-2026-semifinal_20260714_1615.html
 
-Processing trending topic: Scott Mills was highest-paid BBC star before sacking
-Searching Google for: Scott Mills was highest-paid BBC star before sacking
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DScott%252BMills%252Bwas%252Bhighest-paid%252BBBC%252Bstar%252Bbefore%252Bsacking%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fiGIGa2dIGIjDPN5NnRTgK4ZTjWL0MBG_7KhI_iC4HfngWtpjI7_0AGSGUbYWcFLF-HgDYvzMwhmwyBmpjbmRyUloBQw
+Processing trending topic: Jude Bellingham Station unveiled ahead of World Cup semi-final
+Searching Google for: Jude Bellingham Station unveiled ahead of World Cup semi-final
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJude%252BBellingham%252BStation%252Bunveiled%252Bahead%252Bof%252BWorld%252BCup%252Bsemi-final%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgFGL7B2dIGIjDTRRnWBpyQPQa_QcQ4qnyRCrx39qywZHeuEj5sycmVE-1yQJEFg43bU89SWwBqeE4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: scott-mills-was-highest-paid-bbc-star-before-sacki_20260714_1451.html
-✓ Created comprehensive article: scott-mills-was-highest-paid-bbc-star-before-sacki_20260714_1451.html
+Successfully created file: jude-bellingham-station-unveiled-ahead-of-world-cu_20260714_1616.html
+✓ Created comprehensive article: jude-bellingham-station-unveiled-ahead-of-world-cu_20260714_1616.html
 
-Processing trending topic: New US Ebola patient arrives in Germany for treatment
-Searching Google for: New US Ebola patient arrives in Germany for treatment
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BUS%252BEbola%252Bpatient%252Barrives%252Bin%252BGermany%252Bfor%252Btreatment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fiGIea2dIGIjC6OEcbO4hLqWpInWLW8lOY6BeRKN1CJUyai8jhK8ehBcLYnj0ZnZ60kvThRRHMICsyBmpjbmRyUloBQw
+Processing trending topic: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
+Searching Google for: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLeading%252BHouthi%252Bthreatens%252B%25E2%2580%2598siege%25E2%2580%2599%252Bon%252BSaudi%252BArabia%252Bafter%252BYemen%252Bairport%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgFGMTB2dIGIjBuXP7_egIgEEzZaFR1DkrEkqXEmtuTW-M8ROuqcfqeGkynUndsaBH-dXZmlPka-6oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-us-ebola-patient-arrives-in-germany-for-treatm_20260714_1451.html
-✓ Created comprehensive article: new-us-ebola-patient-arrives-in-germany-for-treatm_20260714_1451.html
+Successfully created file: leading-houthi-threatens-siege-on-saudi-arabia-aft_20260714_1616.html
+✓ Created comprehensive article: leading-houthi-threatens-siege-on-saudi-arabia-aft_20260714_1616.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tv-presenter-dermot-murnaghan-dies-aged-68_20260711_1107.html
-Cleaned old post to keep top 30 limit: scott-mills-was-highest-paid-bbc-star-before-sacki_20260714_1212.html
-Cleaned old post to keep top 30 limit: ppe-failures-left-nhs-staff-poorly-protected-and-w_20260714_1212.html
+Cleaned old post to keep top 30 limit: scott-mills-was-highest-paid-bbc-star-before-sacki_20260714_1451.html
+Cleaned old post to keep top 30 limit: uk-wasted-10bn-on-ppe-that-left-nhs-staff-poorly-p_20260714_1451.html
+Cleaned old post to keep top 30 limit: new-us-ebola-patient-arrives-in-germany-for-treatm_20260714_1451.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds
+   • France vs Spain LIVE: FIFA World Cup 2026 semifinal
      Sources: bbc.com, cnn.com, reuters.com
-   • Scott Mills was highest-paid BBC star before sacking
+   • Jude Bellingham Station unveiled ahead of World Cup semi-final
      Sources: bbc.com, cnn.com, reuters.com
-   • New US Ebola patient arrives in Germany for treatment
+   • Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
      Sources: bbc.com, cnn.com, reuters.com
