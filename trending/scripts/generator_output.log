@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police say Ann Widdecombe killed in 'targeted attack' as motive investigated
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: New US Ebola patient arrives in Germany for treatment
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US-Russian crew launches on mission to space station
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What is Iran’s Pickaxe Mountain?
-Added expanded search topic: US-Russian crew launches on mission to space station
-Added expanded search topic: What is Iran’s Pickaxe Mountain?
-Saved 30 topics for 2026-07-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spain deliver masterclass to beat France 2-0 and reach World Cup final
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Are countries prepared to cope with extreme weather?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World Cup semifinal: Key players to watch in England vs Argentina clash
+Added expanded search topic: Spain deliver masterclass to beat France 2-0 and reach World Cup final
+Added expanded search topic: Are countries prepared to cope with extreme weather?
+Added expanded search topic: World Cup semifinal: Key players to watch in England vs Argentina clash
+Saved 33 topics for 2026-07-14
 Returning 3 unique trending topics:
-  1. Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports (from BBC News)
-  2. US-Russian crew launches on mission to space station (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What is Iran’s Pickaxe Mountain? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Spain deliver masterclass to beat France 2-0 and reach World Cup final (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Are countries prepared to cope with extreme weather? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. World Cup semifinal: Key players to watch in England vs Argentina clash (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports
-Searching Google for: Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bscraps%252Bthreat%252Bof%252B20%2525%252Bfee%252Bon%252BHormuz%252Bcargo%252Bas%252BUS%252Bresumes%252Bblockade%252Bof%252BIran%252Bports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf9aiGL7H2tIGIjCC5lzz1YpWLoGBXLKJrjK2Nj1eDJw9n0PuFb9WcWeP6LlnsqL9REx_U0O4-g-hxxQyBmpjbmRyUloBQw
+Processing trending topic: Spain deliver masterclass to beat France 2-0 and reach World Cup final
+Searching Google for: Spain deliver masterclass to beat France 2-0 and reach World Cup final
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-scraps-threat-of-20-fee-on-hormuz-cargo-as-u_20260714_2101.html
-✓ Created comprehensive article: trump-scraps-threat-of-20-fee-on-hormuz-cargo-as-u_20260714_2101.html
+Successfully created file: spain-deliver-masterclass-to-beat-france-2-0-and-r_20260714_2206.html
+✓ Created comprehensive article: spain-deliver-masterclass-to-beat-france-2-0-and-r_20260714_2206.html
 
-Processing trending topic: US-Russian crew launches on mission to space station
-Searching Google for: US-Russian crew launches on mission to space station
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS-Russian%252Bcrew%252Blaunches%252Bon%252Bmission%252Bto%252Bspace%252Bstation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf9aiGMXH2tIGIjBUCsHQ304zgAlZ-KE8M1qnVSHDawmFRD7pa1eTdCIHJMHOhgsyCYl-0Ku60oshQsIyBmpjbmRyUloBQw
+Processing trending topic: Are countries prepared to cope with extreme weather?
+Searching Google for: Are countries prepared to cope with extreme weather?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAre%252Bcountries%252Bprepared%252Bto%252Bcope%252Bwith%252Bextreme%252Bweather%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_exGKLm2tIGIjD-nEM_u3fn54g3K3W1hZRYynEYcv0WILuoBfFr77wwhcZzZqj9lEaZGxitnUKhN4IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-russian-crew-launches-on-mission-to-space-stati_20260714_2102.html
-✓ Created comprehensive article: us-russian-crew-launches-on-mission-to-space-stati_20260714_2102.html
+Successfully created file: are-countries-prepared-to-cope-with-extreme-weathe_20260714_2207.html
+✓ Created comprehensive article: are-countries-prepared-to-cope-with-extreme-weathe_20260714_2207.html
 
-Processing trending topic: What is Iran’s Pickaxe Mountain?
-Searching Google for: What is Iran’s Pickaxe Mountain?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bis%252BIran%25E2%2580%2599s%252BPickaxe%252BMountain%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf9aiGMvH2tIGIjANSysFjcufVjFgjrQBVcrhYS5f4uSWLr7QRReQZV-EVzIe1D5qT5sxXtG5MUfMExEyBmpjbmRyUloBQw
+Processing trending topic: World Cup semifinal: Key players to watch in England vs Argentina clash
+Searching Google for: World Cup semifinal: Key players to watch in England vs Argentina clash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252Bsemifinal%253A%252BKey%252Bplayers%252Bto%252Bwatch%252Bin%252BEngland%252Bvs%252BArgentina%252Bclash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_exGKjm2tIGIjDsSPYRYLGYj2bmhi4hiS1LtBjnGQm654uxPOW_2rj3QDtOnX_CQSBIXzskfkZcNbAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-is-irans-pickaxe-mountain_20260714_2102.html
-✓ Created comprehensive article: what-is-irans-pickaxe-mountain_20260714_2102.html
+Successfully created file: world-cup-semifinal-key-players-to-watch-in-englan_20260714_2207.html
+✓ Created comprehensive article: world-cup-semifinal-key-players-to-watch-in-englan_20260714_2207.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-we-know-about-uk-politician-ann-widdecombes-m_20260714_1212.html
-Cleaned old post to keep top 30 limit: us-risks-falling-into-escalation-trap-if-it-deploy_20260714_1943.html
-Cleaned old post to keep top 30 limit: families-claim-bodies-of-victims-of-deadly-bangkok_20260714_1943.html
+Cleaned old post to keep top 30 limit: us-russian-crew-launches-on-mission-to-space-stati_20260714_2102.html
+Cleaned old post to keep top 30 limit: trump-scraps-threat-of-20-fee-on-hormuz-cargo-as-u_20260714_2101.html
+Cleaned old post to keep top 30 limit: police-say-ann-widdecombe-killed-in-targeted-attac_20260714_1942.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports
+   • Spain deliver masterclass to beat France 2-0 and reach World Cup final
      Sources: bbc.com, cnn.com, reuters.com
-   • US-Russian crew launches on mission to space station
+   • Are countries prepared to cope with extreme weather?
      Sources: bbc.com, cnn.com, reuters.com
-   • What is Iran’s Pickaxe Mountain?
+   • World Cup semifinal: Key players to watch in England vs Argentina clash
      Sources: bbc.com, cnn.com, reuters.com
