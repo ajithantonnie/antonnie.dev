@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-14
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Birthday present for Spain’s Yamal? World Cup semifinal win over France
+Added expanded search topic: Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira
+Added expanded search topic: ‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks
+Added expanded search topic: Birthday present for Spain’s Yamal? World Cup semifinal win over France
+Saved 6 topics for 2026-07-14
 Returning 3 unique trending topics:
-  1. UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes (from BBC News)
-  2. Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation (from BBC News)
-  3. Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security (from The Guardian)
+  1. Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Birthday present for Spain’s Yamal? World Cup semifinal win over France (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes
-Searching Google for: UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUAE%252Bcondemns%252BIran%2527s%252B%2527brazen%2527%252Battack%252Bon%252Btankers%252Bas%252BUS%252Blaunches%252Bfresh%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrryzGIm41tIGIjBVKLdFIByLCgscOloNPVObvFX5pnKYYAECbCyf6kZWK0oBI-L1uxQ4-8uvHHVLAQQyBmpjbmRyUloBQw
+Processing trending topic: Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira
+Searching Google for: Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252Bto%252Battack%252B%25E2%2580%2598Pickaxe%252BMountain%25E2%2580%2599%252Ba%252Bnuclear%252Bfacility%252Binside%252BIra%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGSzGImT19IGIjD0WDGu5TvSofkY-U7nedtwPRvNKiLtOFuh8V2dSwyY8gBHOPAvDzeCsE3JWC2W4GIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uae-condemns-irans-brazen-attack-on-tankers-as-us-_20260714_0216.html
-✓ Created comprehensive article: uae-condemns-irans-brazen-attack-on-tankers-as-us-_20260714_0216.html
+Successfully created file: trump-threatens-to-attack-pickaxe-mountain-a-nucle_20260714_0530.html
+✓ Created comprehensive article: trump-threatens-to-attack-pickaxe-mountain-a-nucle_20260714_0530.html
 
-Processing trending topic: Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
-Searching Google for: Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnn%252BWiddecombe%252Bsuspect%252Bnot%252Bknown%252Bto%252BPrevent%252Bas%252Bcounter%252Bterrorism%252Bpolice%252Btake%252Bover%252Binvestigation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrryzGJC41tIGIjAWY8U6jc2NakbZezJyEsepiEB25XZNOcTFMJfs2BC8Qk4qzQcE2CrV931YMJS2Vv0yBmpjbmRyUloBQw
+Processing trending topic: ‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks
+Searching Google for: ‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Beijing%252Bis%252Blaughing%25E2%2580%2599%252Bat%252BUS-Mexico-Canada%252Bstalled%252Btrade%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGSzGJCT19IGIjAUMAsCGR_a-vSgDI1iOMjl-N1noo3pobllkQKFs2OJvLTOQZekIXvzFAKMCyXccOoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ann-widdecombe-suspect-not-known-to-prevent-as-cou_20260714_0216.html
-✓ Created comprehensive article: ann-widdecombe-suspect-not-known-to-prevent-as-cou_20260714_0216.html
+Successfully created file: beijing-is-laughing-at-us-mexico-canada-stalled-tr_20260714_0531.html
+✓ Created comprehensive article: beijing-is-laughing-at-us-mexico-canada-stalled-tr_20260714_0531.html
 
-Processing trending topic: Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security
-Searching Google for: Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKillings%252Bcontinue%252Bon%252BDel%252BMonte%252Bfarm%252Bin%252BKenya%252C%252Bfamilies%252Bsay%252C%252Bafter%252BG4S%252Bhired%252Bfor%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrryzGJa41tIGIjBvBa8GJNGkFNakJeb9bJ9eeOnS7d4HVV_Lq2R8TmXdx-WFHf9Tg9545aAR21abovcyBmpjbmRyUloBQw
+Processing trending topic: Birthday present for Spain’s Yamal? World Cup semifinal win over France
+Searching Google for: Birthday present for Spain’s Yamal? World Cup semifinal win over France
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBirthday%252Bpresent%252Bfor%252BSpain%25E2%2580%2599s%252BYamal%253F%252BWorld%252BCup%252Bsemifinal%252Bwin%252Bover%252BFrance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSRhGSzGJaT19IGIjDDu2A0I-hPd_NHNjAYThTvfAFeHpJdFD-3BuLTTxFJyFvtYIdLk0Xmv9EdciO-rEoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: killings-continue-on-del-monte-farm-in-kenya-famil_20260714_0216.html
-✓ Created comprehensive article: killings-continue-on-del-monte-farm-in-kenya-famil_20260714_0216.html
+Successfully created file: birthday-present-for-spains-yamal-world-cup-semifi_20260714_0531.html
+✓ Created comprehensive article: birthday-present-for-spains-yamal-world-cup-semifi_20260714_0531.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uae-condemns-irans-brazen-attack-on-tankers-as-us-_20260713_2355.html
-Cleaned old post to keep top 30 limit: norway-rows-at-the-royal-palace-to-welcome-back-wo_20260713_2355.html
-Cleaned old post to keep top 30 limit: how-is-the-us-tech-industry-regulated_20260713_2355.html
+Cleaned old post to keep top 30 limit: lindsey-grahams-legacy-israel-advocate-trump-ally-_20260713_2256.html
+Cleaned old post to keep top 30 limit: killings-continue-on-del-monte-farm-in-kenya-famil_20260714_0216.html
+Cleaned old post to keep top 30 limit: ann-widdecombe-suspect-not-known-to-prevent-as-cou_20260714_0216.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes
+   • Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira
      Sources: bbc.com, cnn.com, reuters.com
-   • Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation
+   • ‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks
      Sources: bbc.com, cnn.com, reuters.com
-   • Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security
+   • Birthday present for Spain’s Yamal? World Cup semifinal win over France
      Sources: bbc.com, cnn.com, reuters.com
