@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports
   Added: UK wasted £10bn on PPE that left NHS staff poorly protected, Covid inquiry finds
-  Added: Scott Mills was highest-paid BBC star before sacking
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: New US Ebola patient arrives in Germany for treatment
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France vs Spain LIVE: FIFA World Cup 2026 semifinal
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jude Bellingham Station unveiled ahead of World Cup semi-final
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
-Added expanded search topic: France vs Spain LIVE: FIFA World Cup 2026 semifinal
-Added expanded search topic: Jude Bellingham Station unveiled ahead of World Cup semi-final
-Added expanded search topic: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
-Saved 21 topics for 2026-07-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump meets with Iraq Prime Minister at White House, vows ‘a lot of deals’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan faces escalating hunger crisis due to war and Hormuz disruption – WFP
+Added expanded search topic: Trump meets with Iraq Prime Minister at White House, vows ‘a lot of deals’
+Added expanded search topic: Sudan faces escalating hunger crisis due to war and Hormuz disruption – WFP
+Saved 24 topics for 2026-07-14
 Returning 3 unique trending topics:
-  1. France vs Spain LIVE: FIFA World Cup 2026 semifinal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Jude Bellingham Station unveiled ahead of World Cup semi-final (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports (from BBC News)
+  2. Trump meets with Iraq Prime Minister at White House, vows ‘a lot of deals’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Sudan faces escalating hunger crisis due to war and Hormuz disruption – WFP (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: France vs Spain LIVE: FIFA World Cup 2026 semifinal
-Searching Google for: France vs Spain LIVE: FIFA World Cup 2026 semifinal
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports
+Searching Google for: Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bscraps%252Bthreat%252Bof%252B20%2525%252Bfee%252Bon%252BHormuz%252Bcargo%252Bas%252BUS%252Bprepares%252Bto%252Bresume%252Bblockade%252Bof%252BIran%252Bports%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MhJGPrz2dIGIjC53f2AEZNF6lyZTTMwzsw-nB41kDvmI76xLjHzlv2IXnhi6rGOxagZS64-JFV-YpYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: france-vs-spain-live-fifa-world-cup-2026-semifinal_20260714_1615.html
-✓ Created comprehensive article: france-vs-spain-live-fifa-world-cup-2026-semifinal_20260714_1615.html
+Successfully created file: trump-scraps-threat-of-20-fee-on-hormuz-cargo-as-u_20260714_1803.html
+✓ Created comprehensive article: trump-scraps-threat-of-20-fee-on-hormuz-cargo-as-u_20260714_1803.html
 
-Processing trending topic: Jude Bellingham Station unveiled ahead of World Cup semi-final
-Searching Google for: Jude Bellingham Station unveiled ahead of World Cup semi-final
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJude%252BBellingham%252BStation%252Bunveiled%252Bahead%252Bof%252BWorld%252BCup%252Bsemi-final%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgFGL7B2dIGIjDTRRnWBpyQPQa_QcQ4qnyRCrx39qywZHeuEj5sycmVE-1yQJEFg43bU89SWwBqeE4yBmpjbmRyUloBQw
+Processing trending topic: Trump meets with Iraq Prime Minister at White House, vows ‘a lot of deals’
+Searching Google for: Trump meets with Iraq Prime Minister at White House, vows ‘a lot of deals’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bmeets%252Bwith%252BIraq%252BPrime%252BMinister%252Bat%252BWhite%252BHouse%252C%252Bvows%252B%25E2%2580%2598a%252Blot%252Bof%252Bdeals%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MhJGIH02dIGIjBpSYFXr3Idtx7FJJFweY8b8583jzZdKb895FNN0Y1p_sS_8-vaqX8pVA8AV6sfBqAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jude-bellingham-station-unveiled-ahead-of-world-cu_20260714_1616.html
-✓ Created comprehensive article: jude-bellingham-station-unveiled-ahead-of-world-cu_20260714_1616.html
+Successfully created file: trump-meets-with-iraq-prime-minister-at-white-hous_20260714_1803.html
+✓ Created comprehensive article: trump-meets-with-iraq-prime-minister-at-white-hous_20260714_1803.html
 
-Processing trending topic: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
-Searching Google for: Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLeading%252BHouthi%252Bthreatens%252B%25E2%2580%2598siege%25E2%2580%2599%252Bon%252BSaudi%252BArabia%252Bafter%252BYemen%252Bairport%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MgFGMTB2dIGIjBuXP7_egIgEEzZaFR1DkrEkqXEmtuTW-M8ROuqcfqeGkynUndsaBH-dXZmlPka-6oyBmpjbmRyUloBQw
+Processing trending topic: Sudan faces escalating hunger crisis due to war and Hormuz disruption – WFP
+Searching Google for: Sudan faces escalating hunger crisis due to war and Hormuz disruption – WFP
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%252Bfaces%252Bescalating%252Bhunger%252Bcrisis%252Bdue%252Bto%252Bwar%252Band%252BHormuz%252Bdisruption%252B%25E2%2580%2593%252BWFP%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MhJGIj02dIGIjDPCIW3iOA7Mrh5L4_z-ImOvhAEp0GUzQebURLmFKuvI0BR0ZG4Y5kXBNjrOEpHbp0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: leading-houthi-threatens-siege-on-saudi-arabia-aft_20260714_1616.html
-✓ Created comprehensive article: leading-houthi-threatens-siege-on-saudi-arabia-aft_20260714_1616.html
+Successfully created file: sudan-faces-escalating-hunger-crisis-due-to-war-an_20260714_1803.html
+✓ Created comprehensive article: sudan-faces-escalating-hunger-crisis-due-to-war-an_20260714_1803.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: scott-mills-was-highest-paid-bbc-star-before-sacki_20260714_1451.html
-Cleaned old post to keep top 30 limit: uk-wasted-10bn-on-ppe-that-left-nhs-staff-poorly-p_20260714_1451.html
-Cleaned old post to keep top 30 limit: new-us-ebola-patient-arrives-in-germany-for-treatm_20260714_1451.html
+Cleaned old post to keep top 30 limit: jude-bellingham-station-unveiled-ahead-of-world-cu_20260714_1616.html
+Cleaned old post to keep top 30 limit: leading-houthi-threatens-siege-on-saudi-arabia-aft_20260714_1616.html
+Cleaned old post to keep top 30 limit: france-vs-spain-live-fifa-world-cup-2026-semifinal_20260714_1615.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • France vs Spain LIVE: FIFA World Cup 2026 semifinal
+   • Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports
      Sources: bbc.com, cnn.com, reuters.com
-   • Jude Bellingham Station unveiled ahead of World Cup semi-final
+   • Trump meets with Iraq Prime Minister at White House, vows ‘a lot of deals’
      Sources: bbc.com, cnn.com, reuters.com
-   • Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack
+   • Sudan faces escalating hunger crisis due to war and Hormuz disruption – WFP
      Sources: bbc.com, cnn.com, reuters.com
