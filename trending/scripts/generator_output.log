@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Iran threatens to block more trade routes as US launches fresh strikes
-  Added: England close in on immortality with biggest match since 1966
+  Added: Starmer says it's the 'end of my political journey' at his final Prime Minister's Questions
+  Added: Watch Starmer sign off final PMQs to standing ovation
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why has Lindsey Graham’s sister inherited his Senate seat after his death?
-Added expanded search topic: Why has Lindsey Graham’s sister inherited his Senate seat after his death?
-Saved 15 topics for 2026-07-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: My Twitter, not X
+Added expanded search topic: My Twitter, not X
+Saved 18 topics for 2026-07-15
 Returning 3 unique trending topics:
-  1. Iran threatens to block more trade routes as US launches fresh strikes (from BBC News)
-  2. England close in on immortality with biggest match since 1966 (from BBC News)
-  3. Why has Lindsey Graham’s sister inherited his Senate seat after his death? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Starmer says it's the 'end of my political journey' at his final Prime Minister's Questions (from BBC News)
+  2. Watch Starmer sign off final PMQs to standing ovation (from BBC News)
+  3. My Twitter, not X (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iran threatens to block more trade routes as US launches fresh strikes
-Searching Google for: Iran threatens to block more trade routes as US launches fresh strikes
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Starmer says it's the 'end of my political journey' at his final Prime Minister's Questions
+Searching Google for: Starmer says it's the 'end of my political journey' at his final Prime Minister's Questions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStarmer%252Bsays%252Bit%2527s%252Bthe%252B%2527end%252Bof%252Bmy%252Bpolitical%252Bjourney%2527%252Bat%252Bhis%252Bfinal%252BPrime%252BMinister%2527s%252BQuestions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfTChGJ-93tIGIjDxVbdCBawJcb7BMlPbYsKatmPJghxcdDBIdUuNVniLw-znvbMtgBLksF3LE3aoutQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-threatens-to-block-more-trade-routes-as-us-la_20260715_1217.html
-✓ Created comprehensive article: iran-threatens-to-block-more-trade-routes-as-us-la_20260715_1217.html
+Successfully created file: starmer-says-its-the-end-of-my-political-journey-a_20260715_1452.html
+✓ Created comprehensive article: starmer-says-its-the-end-of-my-political-journey-a_20260715_1452.html
 
-Processing trending topic: England close in on immortality with biggest match since 1966
-Searching Google for: England close in on immortality with biggest match since 1966
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bclose%252Bin%252Bon%252Bimmortality%252Bwith%252Bbiggest%252Bmatch%252Bsince%252B1966%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0J7BGOP03dIGIjCFHvleX35pZTmasbl9NYFzD0YoEAPgWF8fUfYzZDrXJRIEXkNZSwHlwjzxUn8wy68yBmpjbmRyUloBQw
+Processing trending topic: Watch Starmer sign off final PMQs to standing ovation
+Searching Google for: Watch Starmer sign off final PMQs to standing ovation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%252BStarmer%252Bsign%252Boff%252Bfinal%252BPMQs%252Bto%252Bstanding%252Bovation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfTChGKa93tIGIjCdk-00RaSeYW8_vE8AswNWeUpQM82RNuUSpI-kRBeeYzkVbeqPc4Dr2r9dkaZvwycyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: england-close-in-on-immortality-with-biggest-match_20260715_1217.html
-✓ Created comprehensive article: england-close-in-on-immortality-with-biggest-match_20260715_1217.html
+Successfully created file: watch-starmer-sign-off-final-pmqs-to-standing-ovat_20260715_1452.html
+✓ Created comprehensive article: watch-starmer-sign-off-final-pmqs-to-standing-ovat_20260715_1452.html
 
-Processing trending topic: Why has Lindsey Graham’s sister inherited his Senate seat after his death?
-Searching Google for: Why has Lindsey Graham’s sister inherited his Senate seat after his death?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhas%252BLindsey%252BGraham%25E2%2580%2599s%252Bsister%252Binherited%252Bhis%252BSenate%252Bseat%252Bafter%252Bhis%252Bdeath%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0J7BGOr03dIGIjAbsJPL3VF_lhcvdsjnz8AvMUF19Rq-ANflKnF9OgdGWWnGgn5ZfueBIUnhpxwegY0yBmpjbmRyUloBQw
+Processing trending topic: My Twitter, not X
+Searching Google for: My Twitter, not X
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMy%252BTwitter%252C%252Bnot%252BX%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUfTChGKy93tIGIjD1zfmIc3BPXaH0WtAaXRsAMvFJpPVwjANd8lWn1PCu1ZDfHJh-fNxIXhAJtark0YQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-has-lindsey-grahams-sister-inherited-his-senat_20260715_1217.html
-✓ Created comprehensive article: why-has-lindsey-grahams-sister-inherited-his-senat_20260715_1217.html
+Successfully created file: my-twitter-not-x_20260715_1452.html
+✓ Created comprehensive article: my-twitter-not-x_20260715_1452.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: a-role-model-djed-spence-first-muslim-england-play_20260715_1050.html
-Cleaned old post to keep top 30 limit: fifa-world-cup-brackets-teams-predictions-schedule_20260715_1050.html
-Cleaned old post to keep top 30 limit: crowds-cross-between-spain-and-gibraltar-following_20260715_1050.html
+Cleaned old post to keep top 30 limit: iran-threatens-to-block-more-trade-routes-as-us-la_20260715_1217.html
+Cleaned old post to keep top 30 limit: with-us-iran-trust-broken-again-can-pakistan-bring_20260714_0803.html
+Cleaned old post to keep top 30 limit: england-close-in-on-immortality-with-biggest-match_20260715_1217.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iran threatens to block more trade routes as US launches fresh strikes
+   • Starmer says it's the 'end of my political journey' at his final Prime Minister's Questions
      Sources: bbc.com, cnn.com, reuters.com
-   • England close in on immortality with biggest match since 1966
+   • Watch Starmer sign off final PMQs to standing ovation
      Sources: bbc.com, cnn.com, reuters.com
-   • Why has Lindsey Graham’s sister inherited his Senate seat after his death?
+   • My Twitter, not X
      Sources: bbc.com, cnn.com, reuters.com
