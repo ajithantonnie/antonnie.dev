@@ -1,73 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Midnight social media curfew proposed for older UK teens
-  Added: A special team beats brilliant individuals - how silky Spain flattened France
+  Added: Midnight social media curfew proposed for UK teens aged 16 and 17 - but they can opt out
+  Added: Trump threatens to bomb bridges and power plants unless Iran resumes talks
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: New US Ebola patient arrives in Germany for treatment
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: T.Rex skeleton sells for $50.1 million at New York auction
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saving shea: How a Ugandan woman is turning waste into clean energy
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nearly 75% of Americans think there’s too much money in politics
-Added expanded search topic: T.Rex skeleton sells for $50.1 million at New York auction
-Added expanded search topic: Saving shea: How a Ugandan woman is turning waste into clean energy
-Added expanded search topic: Nearly 75% of Americans think there’s too much money in politics
-Saved 6 topics for 2026-07-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US attacks Iran as IRGC claims strikes on US military sites in Gulf
+Added expanded search topic: US attacks Iran as IRGC claims strikes on US military sites in Gulf
+Saved 9 topics for 2026-07-15
 Returning 3 unique trending topics:
-  1. T.Rex skeleton sells for $50.1 million at New York auction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Saving shea: How a Ugandan woman is turning waste into clean energy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Nearly 75% of Americans think there’s too much money in politics (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Midnight social media curfew proposed for UK teens aged 16 and 17 - but they can opt out (from BBC News)
+  2. Trump threatens to bomb bridges and power plants unless Iran resumes talks (from BBC News)
+  3. US attacks Iran as IRGC claims strikes on US military sites in Gulf (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: T.Rex skeleton sells for $50.1 million at New York auction
-Searching Google for: T.Rex skeleton sells for $50.1 million at New York auction
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Midnight social media curfew proposed for UK teens aged 16 and 17 - but they can opt out
+Searching Google for: Midnight social media curfew proposed for UK teens aged 16 and 17 - but they can opt out
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMidnight%252Bsocial%252Bmedia%252Bcurfew%252Bproposed%252Bfor%252BUK%252Bteens%252Baged%252B16%252Band%252B17%252B-%252Bbut%252Bthey%252Bcan%252Bopt%252Bout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHR0VGIaA3dIGIjCkZf68THzG9vKbCn2wJuupjVni_oIRKV3M1Vmf3v6uX8T7lqsl2O_SPLQK948w0GQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trex-skeleton-sells-for-501-million-at-new-york-au_20260715_0531.html
-✓ Created comprehensive article: trex-skeleton-sells-for-501-million-at-new-york-au_20260715_0531.html
+Successfully created file: midnight-social-media-curfew-proposed-for-uk-teens_20260715_0808.html
+✓ Created comprehensive article: midnight-social-media-curfew-proposed-for-uk-teens_20260715_0808.html
 
-Processing trending topic: Saving shea: How a Ugandan woman is turning waste into clean energy
-Searching Google for: Saving shea: How a Ugandan woman is turning waste into clean energy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaving%252Bshea%253A%252BHow%252Ba%252BUgandan%252Bwoman%252Bis%252Bturning%252Bwaste%252Binto%252Bclean%252Benergy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rbLSGMW23NIGIjD2--_-oLhVvhA2WOQKn3wdThkC_3wMSPjBPuKLNXSkPS8hO8vgz0pXsjJewiCqX0QyAnJSWgFD
+Processing trending topic: Trump threatens to bomb bridges and power plants unless Iran resumes talks
+Searching Google for: Trump threatens to bomb bridges and power plants unless Iran resumes talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252Bto%252Bbomb%252Bbridges%252Band%252Bpower%252Bplants%252Bunless%252BIran%252Bresumes%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHR0VGI2A3dIGIjAY11pA4mWx3HaFy2csfxMWNDXefNJ3cMamecbC1HRzWxABIuHzPZSfVy8c2MrpdYwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: saving-shea-how-a-ugandan-woman-is-turning-waste-i_20260715_0531.html
-✓ Created comprehensive article: saving-shea-how-a-ugandan-woman-is-turning-waste-i_20260715_0531.html
+Successfully created file: trump-threatens-to-bomb-bridges-and-power-plants-u_20260715_0808.html
+✓ Created comprehensive article: trump-threatens-to-bomb-bridges-and-power-plants-u_20260715_0808.html
 
-Processing trending topic: Nearly 75% of Americans think there’s too much money in politics
-Searching Google for: Nearly 75% of Americans think there’s too much money in politics
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNearly%252B75%2525%252Bof%252BAmericans%252Bthink%252Bthere%25E2%2580%2599s%252Btoo%252Bmuch%252Bmoney%252Bin%252Bpolitics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rbLSGMy23NIGIjCZ_8fRW6OmkZMt8VGmgrXyIpwO747LvMirgvuFZhR1WURGS1Gc4YghOeLZPqBZKtQyAnJSWgFD
+Processing trending topic: US attacks Iran as IRGC claims strikes on US military sites in Gulf
+Searching Google for: US attacks Iran as IRGC claims strikes on US military sites in Gulf
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Battacks%252BIran%252Bas%252BIRGC%252Bclaims%252Bstrikes%252Bon%252BUS%252Bmilitary%252Bsites%252Bin%252BGulf%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHR0VGJSA3dIGIjCVwodE8RcMxaitBPvlS5GPxh6u3DQugZ0T0AyQm1cdTRMagoBfBzezn0nPMrwQaRcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nearly-75-of-americans-think-theres-too-much-money_20260715_0532.html
-✓ Created comprehensive article: nearly-75-of-americans-think-theres-too-much-money_20260715_0532.html
+Successfully created file: us-attacks-iran-as-irgc-claims-strikes-on-us-milit_20260715_0808.html
+✓ Created comprehensive article: us-attacks-iran-as-irgc-claims-strikes-on-us-milit_20260715_0808.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: new-us-ebola-patient-arrives-in-germany-for-treatm_20260715_0215.html
-Cleaned old post to keep top 30 limit: midnight-social-media-curfew-proposed-for-older-uk_20260715_0215.html
-Cleaned old post to keep top 30 limit: a-special-team-beats-brilliant-individuals-how-sil_20260715_0215.html
+Cleaned old post to keep top 30 limit: us-to-cut-air-and-naval-assets-deployed-for-nato-o_20260612_1740.html
+Cleaned old post to keep top 30 limit: saving-shea-how-a-ugandan-woman-is-turning-waste-i_20260715_0531.html
+Cleaned old post to keep top 30 limit: nearly-75-of-americans-think-theres-too-much-money_20260715_0532.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • T.Rex skeleton sells for $50.1 million at New York auction
+   • Midnight social media curfew proposed for UK teens aged 16 and 17 - but they can opt out
      Sources: bbc.com, cnn.com, reuters.com
-   • Saving shea: How a Ugandan woman is turning waste into clean energy
+   • Trump threatens to bomb bridges and power plants unless Iran resumes talks
      Sources: bbc.com, cnn.com, reuters.com
-   • Nearly 75% of Americans think there’s too much money in politics
+   • US attacks Iran as IRGC claims strikes on US military sites in Gulf
      Sources: bbc.com, cnn.com, reuters.com
