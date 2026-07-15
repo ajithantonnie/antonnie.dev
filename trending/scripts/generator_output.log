@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Starmer says it's the 'end of my political journey' at his final Prime Minister's Questions
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: New US Ebola patient arrives in Germany for treatment
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mapping the latest US strikes across Iran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Todd Blanche’s loyalty to Trump questioned in Senate confirmation hearing
-Added expanded search topic: Mapping the latest US strikes across Iran
-Added expanded search topic: Todd Blanche’s loyalty to Trump questioned in Senate confirmation hearing
-Saved 24 topics for 2026-07-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Protests in Paris, Gaza for release of Hussam Abu Safia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fourteen-year-old boy charged over alleged plot targeting London mosques
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Argentina fans flood Atlanta ahead of England World Cup match
+Added expanded search topic: Protests in Paris, Gaza for release of Hussam Abu Safia
+Added expanded search topic: Fourteen-year-old boy charged over alleged plot targeting London mosques
+Added expanded search topic: Argentina fans flood Atlanta ahead of England World Cup match
+Saved 27 topics for 2026-07-15
 Returning 3 unique trending topics:
-  1. Iain Watson: Burnham faces crucial choice for chancellor as battle for No 11 continues (from BBC News)
-  2. Mapping the latest US strikes across Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Todd Blanche’s loyalty to Trump questioned in Senate confirmation hearing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Protests in Paris, Gaza for release of Hussam Abu Safia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Fourteen-year-old boy charged over alleged plot targeting London mosques (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Argentina fans flood Atlanta ahead of England World Cup match (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Iain Watson: Burnham faces crucial choice for chancellor as battle for No 11 continues
-Searching Google for: Iain Watson: Burnham faces crucial choice for chancellor as battle for No 11 continues
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIain%252BWatson%253A%252BBurnham%252Bfaces%252Bcrucial%252Bchoice%252Bfor%252Bchancellor%252Bas%252Bbattle%252Bfor%252BNo%252B11%252Bcontinues%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUEGMWZ39IGIjDCB2exVCKiKp3hl5rjvWjye2GY0fKWwDF1MJxWew5rXe96su8_fIdQq3oXB5HNKRgyBmpjbmRyUloBQw
+Processing trending topic: Protests in Paris, Gaza for release of Hussam Abu Safia
+Searching Google for: Protests in Paris, Gaza for release of Hussam Abu Safia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DProtests%252Bin%252BParis%252C%252BGaza%252Bfor%252Brelease%252Bof%252BHussam%252BAbu%252BSafia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTtxGMjS39IGIjAH5IieDHaEOu1GqzrMvMuWpuCOV_5nYCsT0UnABgBs32DXBG6O_E7VYSIilJeqOfAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iain-watson-burnham-faces-crucial-choice-for-chanc_20260715_1809.html
-✓ Created comprehensive article: iain-watson-burnham-faces-crucial-choice-for-chanc_20260715_1809.html
+Successfully created file: protests-in-paris-gaza-for-release-of-hussam-abu-s_20260715_2010.html
+✓ Created comprehensive article: protests-in-paris-gaza-for-release-of-hussam-abu-s_20260715_2010.html
 
-Processing trending topic: Mapping the latest US strikes across Iran
-Searching Google for: Mapping the latest US strikes across Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMapping%252Bthe%252Blatest%252BUS%252Bstrikes%252Bacross%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUEGMyZ39IGIjDYls8X_ckGbNAGHnDlBwl97i7C2aT9Irum2g-RZ8ud-qjQmGGW8SiGsnFFKWy9ZbkyBmpjbmRyUloBQw
+Processing trending topic: Fourteen-year-old boy charged over alleged plot targeting London mosques
+Searching Google for: Fourteen-year-old boy charged over alleged plot targeting London mosques
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFourteen-year-old%252Bboy%252Bcharged%252Bover%252Balleged%252Bplot%252Btargeting%252BLondon%252Bmosques%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTtxGM7S39IGIjAUaFcEKbjs3b7QFNdghMm6TUABZQ5D_5Px1zMA9UYkQed_S2-sjoJqQtApeZkzS5EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mapping-the-latest-us-strikes-across-iran_20260715_1809.html
-✓ Created comprehensive article: mapping-the-latest-us-strikes-across-iran_20260715_1809.html
+Successfully created file: fourteen-year-old-boy-charged-over-alleged-plot-ta_20260715_2010.html
+✓ Created comprehensive article: fourteen-year-old-boy-charged-over-alleged-plot-ta_20260715_2010.html
 
-Processing trending topic: Todd Blanche’s loyalty to Trump questioned in Senate confirmation hearing
-Searching Google for: Todd Blanche’s loyalty to Trump questioned in Senate confirmation hearing
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTodd%252BBlanche%25E2%2580%2599s%252Bloyalty%252Bto%252BTrump%252Bquestioned%252Bin%252BSenate%252Bconfirmation%252Bhearing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUEGNOZ39IGIjCGvnuwa1KKj8BvcuSDy3gAR24ZkUnfx-_KbDQobxi5T1Y9vNHR1GYktqnciDcw1BcyBmpjbmRyUloBQw
+Processing trending topic: Argentina fans flood Atlanta ahead of England World Cup match
+Searching Google for: Argentina fans flood Atlanta ahead of England World Cup match
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArgentina%252Bfans%252Bflood%252BAtlanta%252Bahead%252Bof%252BEngland%252BWorld%252BCup%252Bmatch%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTtxGNTS39IGIjCHfejAN4HTYPehOlqf6m5vLC4csKnfodQLLQ4ATMeNQa3-taFag8bmCpHPi3xgr24yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: todd-blanches-loyalty-to-trump-questioned-in-senat_20260715_1809.html
-✓ Created comprehensive article: todd-blanches-loyalty-to-trump-questioned-in-senat_20260715_1809.html
+Successfully created file: argentina-fans-flood-atlanta-ahead-of-england-worl_20260715_2011.html
+✓ Created comprehensive article: argentina-fans-flood-atlanta-ahead-of-england-worl_20260715_2011.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-threatens-to-bomb-bridges-and-power-plants-u_20260715_0808.html
-Cleaned old post to keep top 30 limit: revamped-cricket-world-cup-format-could-see-an-add_20260715_1622.html
-Cleaned old post to keep top 30 limit: atlanta-police-gear-up-for-trouble-at-england-vs-a_20260715_1622.html
+Cleaned old post to keep top 30 limit: water-cannon-fired-in-latest-disorder-after-belfas_20260610_2347.html
+Cleaned old post to keep top 30 limit: mapping-the-latest-us-strikes-across-iran_20260715_1809.html
+Cleaned old post to keep top 30 limit: iain-watson-burnham-faces-crucial-choice-for-chanc_20260715_1809.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Iain Watson: Burnham faces crucial choice for chancellor as battle for No 11 continues
+   • Protests in Paris, Gaza for release of Hussam Abu Safia
      Sources: bbc.com, cnn.com, reuters.com
-   • Mapping the latest US strikes across Iran
+   • Fourteen-year-old boy charged over alleged plot targeting London mosques
      Sources: bbc.com, cnn.com, reuters.com
-   • Todd Blanche’s loyalty to Trump questioned in Senate confirmation hearing
+   • Argentina fans flood Atlanta ahead of England World Cup match
      Sources: bbc.com, cnn.com, reuters.com
