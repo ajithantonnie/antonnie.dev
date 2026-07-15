@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Midnight social media curfew proposed for older UK teens
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: New US Ebola patient arrives in Germany for treatment
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-15
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: T.Rex skeleton sells for $50.1 million at New York auction
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Saving shea: How a Ugandan woman is turning waste into clean energy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nearly 75% of Americans think there’s too much money in politics
+Added expanded search topic: T.Rex skeleton sells for $50.1 million at New York auction
+Added expanded search topic: Saving shea: How a Ugandan woman is turning waste into clean energy
+Added expanded search topic: Nearly 75% of Americans think there’s too much money in politics
+Saved 6 topics for 2026-07-15
 Returning 3 unique trending topics:
-  1. Midnight social media curfew proposed for older UK teens (from BBC News)
-  2. A special team beats brilliant individuals - how silky Spain flattened France (from BBC News)
-  3. New US Ebola patient arrives in Germany for treatment (from The Guardian)
+  1. T.Rex skeleton sells for $50.1 million at New York auction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Saving shea: How a Ugandan woman is turning waste into clean energy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Nearly 75% of Americans think there’s too much money in politics (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Midnight social media curfew proposed for older UK teens
-Searching Google for: Midnight social media curfew proposed for older UK teens
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMidnight%252Bsocial%252Bmedia%252Bcurfew%252Bproposed%252Bfor%252Bolder%252BUK%252Bteens%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc1-HGKba29IGIjDa7BO9l8LynBl3K4UFrvEoLDhIhWyM4JPClBN_U_nXH6wjUi9FfrMj80aeFzUeCXYyBmpjbmRyUloBQw
+Processing trending topic: T.Rex skeleton sells for $50.1 million at New York auction
+Searching Google for: T.Rex skeleton sells for $50.1 million at New York auction
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: midnight-social-media-curfew-proposed-for-older-uk_20260715_0215.html
-✓ Created comprehensive article: midnight-social-media-curfew-proposed-for-older-uk_20260715_0215.html
+Successfully created file: trex-skeleton-sells-for-501-million-at-new-york-au_20260715_0531.html
+✓ Created comprehensive article: trex-skeleton-sells-for-501-million-at-new-york-au_20260715_0531.html
 
-Processing trending topic: A special team beats brilliant individuals - how silky Spain flattened France
-Searching Google for: A special team beats brilliant individuals - how silky Spain flattened France
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bspecial%252Bteam%252Bbeats%252Bbrilliant%252Bindividuals%252B-%252Bhow%252Bsilky%252BSpain%252Bflattened%252BFrance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc1-HGK3a29IGIjAzomGB49UwYb3AG8PT4Mhp8n1_803LGGNQCtTQDtVbgkoJ3X6hds2gwBY5Oq_woRgyBmpjbmRyUloBQw
+Processing trending topic: Saving shea: How a Ugandan woman is turning waste into clean energy
+Searching Google for: Saving shea: How a Ugandan woman is turning waste into clean energy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaving%252Bshea%253A%252BHow%252Ba%252BUgandan%252Bwoman%252Bis%252Bturning%252Bwaste%252Binto%252Bclean%252Benergy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rbLSGMW23NIGIjD2--_-oLhVvhA2WOQKn3wdThkC_3wMSPjBPuKLNXSkPS8hO8vgz0pXsjJewiCqX0QyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-special-team-beats-brilliant-individuals-how-sil_20260715_0215.html
-✓ Created comprehensive article: a-special-team-beats-brilliant-individuals-how-sil_20260715_0215.html
+Successfully created file: saving-shea-how-a-ugandan-woman-is-turning-waste-i_20260715_0531.html
+✓ Created comprehensive article: saving-shea-how-a-ugandan-woman-is-turning-waste-i_20260715_0531.html
 
-Processing trending topic: New US Ebola patient arrives in Germany for treatment
-Searching Google for: New US Ebola patient arrives in Germany for treatment
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BUS%252BEbola%252Bpatient%252Barrives%252Bin%252BGermany%252Bfor%252Btreatment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc1-HGLPa29IGIjDBhqb9VP4k0lOyGJHi9tR_MNFpQ69hWnD6roPKPyRaziMPh5tZxPb3VxYehLHsRvoyBmpjbmRyUloBQw
+Processing trending topic: Nearly 75% of Americans think there’s too much money in politics
+Searching Google for: Nearly 75% of Americans think there’s too much money in politics
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNearly%252B75%2525%252Bof%252BAmericans%252Bthink%252Bthere%25E2%2580%2599s%252Btoo%252Bmuch%252Bmoney%252Bin%252Bpolitics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rbLSGMy23NIGIjCZ_8fRW6OmkZMt8VGmgrXyIpwO747LvMirgvuFZhR1WURGS1Gc4YghOeLZPqBZKtQyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-us-ebola-patient-arrives-in-germany-for-treatm_20260715_0215.html
-✓ Created comprehensive article: new-us-ebola-patient-arrives-in-germany-for-treatm_20260715_0215.html
+Successfully created file: nearly-75-of-americans-think-theres-too-much-money_20260715_0532.html
+✓ Created comprehensive article: nearly-75-of-americans-think-theres-too-much-money_20260715_0532.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: midnight-social-media-curfew-proposed-for-older-uk_20260714_2355.html
-Cleaned old post to keep top 30 limit: outspoken-moroccan-rapper-mehdi-el-youbi-arrested-_20260714_2356.html
-Cleaned old post to keep top 30 limit: colombian-father-identified-in-deadly-ice-shooting_20260714_2356.html
+Cleaned old post to keep top 30 limit: new-us-ebola-patient-arrives-in-germany-for-treatm_20260715_0215.html
+Cleaned old post to keep top 30 limit: midnight-social-media-curfew-proposed-for-older-uk_20260715_0215.html
+Cleaned old post to keep top 30 limit: a-special-team-beats-brilliant-individuals-how-sil_20260715_0215.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Midnight social media curfew proposed for older UK teens
+   • T.Rex skeleton sells for $50.1 million at New York auction
      Sources: bbc.com, cnn.com, reuters.com
-   • A special team beats brilliant individuals - how silky Spain flattened France
+   • Saving shea: How a Ugandan woman is turning waste into clean energy
      Sources: bbc.com, cnn.com, reuters.com
-   • New US Ebola patient arrives in Germany for treatment
+   • Nearly 75% of Americans think there’s too much money in politics
      Sources: bbc.com, cnn.com, reuters.com
