@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Teenagers from 15 should be given MenB vaccine, say UK experts after Kent outbreak
+  Added: Sadiq Khan among 26 new peers to enter the Lords
   Added: World Cup might not be ours but Falklands definitely are, says No 10
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: UK aid cuts ‘reduce bilateral support to some African countries by 90%’
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 21 topics for 2026-07-16
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US approves nearly $2bn in weapons sale to Saudi Arabia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rare protests in Kyiv over dismissal of defence minister
+Added expanded search topic: US approves nearly $2bn in weapons sale to Saudi Arabia
+Added expanded search topic: Rare protests in Kyiv over dismissal of defence minister
+Saved 24 topics for 2026-07-16
 Returning 3 unique trending topics:
-  1. Teenagers from 15 should be given MenB vaccine, say UK experts after Kent outbreak (from BBC News)
-  2. World Cup might not be ours but Falklands definitely are, says No 10 (from BBC News)
-  3. UK aid cuts ‘reduce bilateral support to some African countries by 90%’ (from The Guardian)
+  1. Sadiq Khan among 26 new peers to enter the Lords (from BBC News)
+  2. US approves nearly $2bn in weapons sale to Saudi Arabia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Rare protests in Kyiv over dismissal of defence minister (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Teenagers from 15 should be given MenB vaccine, say UK experts after Kent outbreak
-Searching Google for: Teenagers from 15 should be given MenB vaccine, say UK experts after Kent outbreak
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTeenagers%252Bfrom%252B15%252Bshould%252Bbe%252Bgiven%252BMenB%252Bvaccine%252C%252Bsay%252BUK%252Bexperts%252Bafter%252BKent%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JoTGK6N5NIGIjAHM8lJf2nfiRhby8VdQMKXEWyZRpp8GjWvJlg1V0UG9MLN2cSYR7JOTMSlf5qNGrcyBmpjbmRyUloBQw
+Processing trending topic: Sadiq Khan among 26 new peers to enter the Lords
+Searching Google for: Sadiq Khan among 26 new peers to enter the Lords
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSadiq%252BKhan%252Bamong%252B26%252Bnew%252Bpeers%252Bto%252Benter%252Bthe%252BLords%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmlWpGP675NIGIjCyp9yH1wR8Kh54gcp3E9dqruUrrkDmjNQ0CziqcaQTMG02TREjHpa18m-4Tl14hQ0yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: teenagers-from-15-should-be-given-menb-vaccine-say_20260716_1628.html
-✓ Created comprehensive article: teenagers-from-15-should-be-given-menb-vaccine-say_20260716_1628.html
+Successfully created file: sadiq-khan-among-26-new-peers-to-enter-the-lords_20260716_1808.html
+✓ Created comprehensive article: sadiq-khan-among-26-new-peers-to-enter-the-lords_20260716_1808.html
 
-Processing trending topic: World Cup might not be ours but Falklands definitely are, says No 10
-Searching Google for: World Cup might not be ours but Falklands definitely are, says No 10
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252Bmight%252Bnot%252Bbe%252Bours%252Bbut%252BFalklands%252Bdefinitely%252Bare%252C%252Bsays%252BNo%252B10%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JoTGLWN5NIGIjDBhT3X2BzygsZIYa50Zq6YxqU0aXWgQA_xtgOUI5biWW2amfZ3Ri0T8BzwOoPxZaUyBmpjbmRyUloBQw
+Processing trending topic: US approves nearly $2bn in weapons sale to Saudi Arabia
+Searching Google for: US approves nearly $2bn in weapons sale to Saudi Arabia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bapproves%252Bnearly%252B%25242bn%252Bin%252Bweapons%252Bsale%252Bto%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmlWpGIS85NIGIjBa1BUsGoyTvo6MaWtL9w025jxK7AzRB-g7bUp3NiaIlNlnYw71ti89zsktRazu9v4yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: world-cup-might-not-be-ours-but-falklands-definite_20260716_1628.html
-✓ Created comprehensive article: world-cup-might-not-be-ours-but-falklands-definite_20260716_1628.html
+Successfully created file: us-approves-nearly-2bn-in-weapons-sale-to-saudi-ar_20260716_1808.html
+✓ Created comprehensive article: us-approves-nearly-2bn-in-weapons-sale-to-saudi-ar_20260716_1808.html
 
-Processing trending topic: UK aid cuts ‘reduce bilateral support to some African countries by 90%’
-Searching Google for: UK aid cuts ‘reduce bilateral support to some African countries by 90%’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Baid%252Bcuts%252B%25E2%2580%2598reduce%252Bbilateral%252Bsupport%252Bto%252Bsome%252BAfrican%252Bcountries%252Bby%252B90%2525%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JoTGLyN5NIGIjBWhTBK06vKBhl2zlXP3N9PgtOSCfT5KlTQ_3vLkwrsulIWGBTIPxeByhbXkIr4lN4yBmpjbmRyUloBQw
+Processing trending topic: Rare protests in Kyiv over dismissal of defence minister
+Searching Google for: Rare protests in Kyiv over dismissal of defence minister
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRare%252Bprotests%252Bin%252BKyiv%252Bover%252Bdismissal%252Bof%252Bdefence%252Bminister%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmlWpGIu85NIGIjBUQAOg-IlKZc4sihDOt63MfeiavMW12MQnEKZTsIc8q9HQwvw-qWIu70QbX4lteLsyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-aid-cuts-reduce-bilateral-support-to-some-afric_20260716_1628.html
-✓ Created comprehensive article: uk-aid-cuts-reduce-bilateral-support-to-some-afric_20260716_1628.html
+Successfully created file: rare-protests-in-kyiv-over-dismissal-of-defence-mi_20260716_1808.html
+✓ Created comprehensive article: rare-protests-in-kyiv-over-dismissal-of-defence-mi_20260716_1808.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: who-is-iranian-oil-tycoon-shamkhani-whose-ship-is-_20260702_1516.html
-Cleaned old post to keep top 30 limit: how-coach-on-pitch-messi-undid-englands-tactics-on_20260716_1222.html
-Cleaned old post to keep top 30 limit: decades-of-denial-death-certificate-for-disappeare_20260716_1010.html
+Cleaned old post to keep top 30 limit: whats-behind-pakistans-mass-deportation-of-afghans_20260711_2150.html
+Cleaned old post to keep top 30 limit: teenagers-from-15-should-be-given-menb-vaccine-say_20260716_1628.html
+Cleaned old post to keep top 30 limit: free-meningitis-b-vaccine-should-be-offered-to-all_20260716_1502.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Teenagers from 15 should be given MenB vaccine, say UK experts after Kent outbreak
+   • Sadiq Khan among 26 new peers to enter the Lords
      Sources: bbc.com, cnn.com, reuters.com
-   • World Cup might not be ours but Falklands definitely are, says No 10
+   • US approves nearly $2bn in weapons sale to Saudi Arabia
      Sources: bbc.com, cnn.com, reuters.com
-   • UK aid cuts ‘reduce bilateral support to some African countries by 90%’
+   • Rare protests in Kyiv over dismissal of defence minister
      Sources: bbc.com, cnn.com, reuters.com
