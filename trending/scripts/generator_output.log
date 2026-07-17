@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Zeffman: Burnham promises huge change - now to find out how he will deliver it
-  Added: Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents
+  Added: Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it
+  Added: Mother of Henry Nowak killer jailed for removing knife from murder scene
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: UK aid cuts ‘reduce bilateral support to some African countries by 90%’
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Uganda school bus crash kills 20 children and 1 adult
-Added expanded search topic: Uganda school bus crash kills 20 children and 1 adult
-Saved 18 topics for 2026-07-17
+  Added: Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 21 topics for 2026-07-17
 Returning 3 unique trending topics:
-  1. Zeffman: Burnham promises huge change - now to find out how he will deliver it (from BBC News)
-  2. Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents (from BBC News)
-  3. Uganda school bus crash kills 20 children and 1 adult (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it (from BBC News)
+  2. Mother of Henry Nowak killer jailed for removing knife from murder scene (from BBC News)
+  3. Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group (from The Guardian)
 
-Processing trending topic: Zeffman: Burnham promises huge change - now to find out how he will deliver it
-Searching Google for: Zeffman: Burnham promises huge change - now to find out how he will deliver it
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it
+Searching Google for: Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZeffman%253A%252BBurnham%252Bpromises%252Bhuge%252Bchange%252B-%252Bbut%252Bleaves%252Bquestions%252Babout%252Bplan%252Bto%252Bdeliver%252Bit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN37zGMiq6dIGIjDnAFfPP2IZl-vUHWVuBFTyoEQeeTHRlDeu_b59vhNC55LOVhcsErgd-dx-fe-K8CIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zeffman-burnham-promises-huge-change-now-to-find-o_20260717_1445.html
-✓ Created comprehensive article: zeffman-burnham-promises-huge-change-now-to-find-o_20260717_1445.html
+Successfully created file: zeffman-burnham-promises-huge-change-but-leaves-qu_20260717_1616.html
+✓ Created comprehensive article: zeffman-burnham-promises-huge-change-but-leaves-qu_20260717_1616.html
 
-Processing trending topic: Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents
-Searching Google for: Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBoy%252Battacked%252Bby%252Bzoo%252Bcrocodile%252Bhas%252Bhad%252Bseven%252Boperations%252Band%252Bis%252Bsmiling%252Bagain%252C%252Bsay%252Bparents%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9k4GKeA6dIGIjAeRQq-NLHmadjriLauuOoCkQB4gPvIX1ZedopQhzFivZHlu3BYYV8ISHTme0C4G5QyBmpjbmRyUloBQw
+Processing trending topic: Mother of Henry Nowak killer jailed for removing knife from murder scene
+Searching Google for: Mother of Henry Nowak killer jailed for removing knife from murder scene
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMother%252Bof%252BHenry%252BNowak%252Bkiller%252Bjailed%252Bfor%252Bremoving%252Bknife%252Bfrom%252Bmurder%252Bscene%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN37zGM-q6dIGIjDOOSFpwTFheb_AcoioPmg_Qu49tIwI_FRbsAEa5oHSeirtR6H9xTtrw4y3rvC7Q94yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: boy-attacked-by-zoo-crocodile-has-had-seven-operat_20260717_1446.html
-✓ Created comprehensive article: boy-attacked-by-zoo-crocodile-has-had-seven-operat_20260717_1446.html
+Successfully created file: mother-of-henry-nowak-killer-jailed-for-removing-k_20260717_1616.html
+✓ Created comprehensive article: mother-of-henry-nowak-killer-jailed-for-removing-k_20260717_1616.html
 
-Processing trending topic: Uganda school bus crash kills 20 children and 1 adult
-Searching Google for: Uganda school bus crash kills 20 children and 1 adult
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Bschool%252Bbus%252Bcrash%252Bkills%252B20%252Bchildren%252Band%252B1%252Badult%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU9k4GK6A6dIGIjCvCjyDu1ldmRZj86iavhl0-QQ_QiOJdZdF86gDOKGIqcBV4m9bzP_HsPQh-ycdOL4yBmpjbmRyUloBQw
+Processing trending topic: Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group
+Searching Google for: Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeven%252BAmericans%252Bquarantining%252Bat%252BKenya%252BEbola%252Bfacility%252Bafter%252BUS%252Btravel%252Bban%252C%252Bsays%252Baid%252Bgroup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN37zGNWq6dIGIjDpaEJ7iBm4-p7rYUJ4C9VoV2TWg1LGy7zEloFKE6ioFmewBXIRGOihRONJOV1c2aEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uganda-school-bus-crash-kills-20-children-and-1-ad_20260717_1446.html
-✓ Created comprehensive article: uganda-school-bus-crash-kills-20-children-and-1-ad_20260717_1446.html
+Successfully created file: seven-americans-quarantining-at-kenya-ebola-facili_20260717_1616.html
+✓ Created comprehensive article: seven-americans-quarantining-at-kenya-ebola-facili_20260717_1616.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uganda-calls-for-travel-restrictions-to-be-lifted-_20260716_1222.html
-Cleaned old post to keep top 30 limit: the-church-of-england-has-taken-a-long-overdue-ste_20260717_1211.html
-Cleaned old post to keep top 30 limit: five-headaches-andy-burnham-will-have-to-deal-with_20260717_1211.html
+Cleaned old post to keep top 30 limit: sadiq-khan-joins-house-of-lords-as-outgoing-uk-pm-_20260717_0001.html
+Cleaned old post to keep top 30 limit: uganda-school-bus-crash-kills-20-children-and-1-ad_20260717_1446.html
+Cleaned old post to keep top 30 limit: boy-attacked-by-zoo-crocodile-has-had-seven-operat_20260717_1446.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Zeffman: Burnham promises huge change - now to find out how he will deliver it
+   • Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it
      Sources: bbc.com, cnn.com, reuters.com
-   • Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents
+   • Mother of Henry Nowak killer jailed for removing knife from murder scene
      Sources: bbc.com, cnn.com, reuters.com
-   • Uganda school bus crash kills 20 children and 1 adult
+   • Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group
      Sources: bbc.com, cnn.com, reuters.com
