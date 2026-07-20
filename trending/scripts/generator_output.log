@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Who's in the cabinet?
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: São Tomé and Príncipe heads to polls in tense presidential election
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How will Zelenskyy handle the growing political crisis at home?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ortega insists no more elections for Nicaragua
-Added expanded search topic: How will Zelenskyy handle the growing political crisis at home?
-Added expanded search topic: Ortega insists no more elections for Nicaragua
-Saved 24 topics for 2026-07-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: War on Iran: War resumes 30 days after MoU
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moroccan-born man dies while detained by police in Italy
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World Cup champions Spain return to royal welcome, parade through Madrid
+Added expanded search topic: War on Iran: War resumes 30 days after MoU
+Added expanded search topic: Moroccan-born man dies while detained by police in Italy
+Added expanded search topic: World Cup champions Spain return to royal welcome, parade through Madrid
+Saved 27 topics for 2026-07-20
 Returning 3 unique trending topics:
-  1. Watch: Starmer resigns, Burnham becomes PM... the day in 101 seconds (from BBC News)
-  2. How will Zelenskyy handle the growing political crisis at home? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Ortega insists no more elections for Nicaragua (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. War on Iran: War resumes 30 days after MoU (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Moroccan-born man dies while detained by police in Italy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. World Cup champions Spain return to royal welcome, parade through Madrid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: Starmer resigns, Burnham becomes PM... the day in 101 seconds
-Searching Google for: Watch: Starmer resigns, Burnham becomes PM... the day in 101 seconds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BStarmer%252Bresigns%252C%252BBurnham%252Bbecomes%252BPM...%252Bthe%252Bday%252Bin%252B101%252Bseconds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0BdDGOOe-tIGIjCXNSsKAgaP6ImACuyejWj5Gag4QNDMssabjz21vlSvH27FJ0Yn535ZYDhLfLiVoAgyBmpjbmRyUloBQw
+Processing trending topic: War on Iran: War resumes 30 days after MoU
+Searching Google for: War on Iran: War resumes 30 days after MoU
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWar%252Bon%252BIran%253A%252BWar%252Bresumes%252B30%252Bdays%252Bafter%252BMoU%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LECGMjR-tIGIjAuXKV17-tKZN5IdG1Tzfrym7a2k3qO-8AIvUUDA9RfX3LdNhX5y4wIDZHfnHfmE6kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-starmer-resigns-burnham-becomes-pm-the-day-i_20260720_2113.html
-✓ Created comprehensive article: watch-starmer-resigns-burnham-becomes-pm-the-day-i_20260720_2113.html
+Successfully created file: war-on-iran-war-resumes-30-days-after-mou_20260720_2301.html
+✓ Created comprehensive article: war-on-iran-war-resumes-30-days-after-mou_20260720_2301.html
 
-Processing trending topic: How will Zelenskyy handle the growing political crisis at home?
-Searching Google for: How will Zelenskyy handle the growing political crisis at home?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bwill%252BZelenskyy%252Bhandle%252Bthe%252Bgrowing%252Bpolitical%252Bcrisis%252Bat%252Bhome%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0BdDGOme-tIGIjBtqWaPRlzFaJ8XxDIy_V4879GoVDzJ3XwWXkSFOb0ofZrRAGg_6H3dzd_AvkiwfPcyBmpjbmRyUloBQw
+Processing trending topic: Moroccan-born man dies while detained by police in Italy
+Searching Google for: Moroccan-born man dies while detained by police in Italy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoroccan-born%252Bman%252Bdies%252Bwhile%252Bdetained%252Bby%252Bpolice%252Bin%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LECGM7R-tIGIjALV5CIDodK8U6ke8cOrsD-g8ruSvfyabcGFgYFer4tLh8ToQuUV75NjXiC1YTN8TgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-will-zelenskyy-handle-the-growing-political-cr_20260720_2113.html
-✓ Created comprehensive article: how-will-zelenskyy-handle-the-growing-political-cr_20260720_2113.html
+Successfully created file: moroccan-born-man-dies-while-detained-by-police-in_20260720_2301.html
+✓ Created comprehensive article: moroccan-born-man-dies-while-detained-by-police-in_20260720_2301.html
 
-Processing trending topic: Ortega insists no more elections for Nicaragua
-Searching Google for: Ortega insists no more elections for Nicaragua
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOrtega%252Binsists%252Bno%252Bmore%252Belections%252Bfor%252BNicaragua%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0BdDGPCe-tIGIjBZxVyNkXbWxyPCmK2kvtNLY6cIhWuuZcTUeEMuNVlSNyCwrB-6jWN5DBDoSiSCIzYyBmpjbmRyUloBQw
+Processing trending topic: World Cup champions Spain return to royal welcome, parade through Madrid
+Searching Google for: World Cup champions Spain return to royal welcome, parade through Madrid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252Bchampions%252BSpain%252Breturn%252Bto%252Broyal%252Bwelcome%252C%252Bparade%252Bthrough%252BMadrid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LECGNTR-tIGIjCVKKpq-hjxNVA2BaYEQNdP-t8q2ZOl-_coBn1NJDHtd9aaqOCdycgfNvb8Hh911b0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ortega-insists-no-more-elections-for-nicaragua_20260720_2113.html
-✓ Created comprehensive article: ortega-insists-no-more-elections-for-nicaragua_20260720_2113.html
+Successfully created file: world-cup-champions-spain-return-to-royal-welcome-_20260720_2301.html
+✓ Created comprehensive article: world-cup-champions-spain-return-to-royal-welcome-_20260720_2301.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: top-feel-good-moments-to-remember-now-that-the-202_20260720_1001.html
-Cleaned old post to keep top 30 limit: petrol-prices-climb-as-usiran-tensions-disrupt-mar_20260720_1804.html
-Cleaned old post to keep top 30 limit: eu-pauses-methane-penalties-amid-energy-crisis-us-_20260720_1956.html
+Cleaned old post to keep top 30 limit: protest-held-in-houston-over-ice-killing-of-lorenz_20260720_0620.html
+Cleaned old post to keep top 30 limit: ortega-insists-no-more-elections-for-nicaragua_20260720_2113.html
+Cleaned old post to keep top 30 limit: how-will-zelenskyy-handle-the-growing-political-cr_20260720_2113.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: Starmer resigns, Burnham becomes PM... the day in 101 seconds
+   • War on Iran: War resumes 30 days after MoU
      Sources: bbc.com, cnn.com, reuters.com
-   • How will Zelenskyy handle the growing political crisis at home?
+   • Moroccan-born man dies while detained by police in Italy
      Sources: bbc.com, cnn.com, reuters.com
-   • Ortega insists no more elections for Nicaragua
+   • World Cup champions Spain return to royal welcome, parade through Madrid
      Sources: bbc.com, cnn.com, reuters.com
