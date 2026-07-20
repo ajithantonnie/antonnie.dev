@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Who's in the cabinet?
   Added: Faisal Islam: The new PM has big ideas - but what will they cost?
-  Added: Burnham promises help with your money. How could it affect you?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Petrol prices climb as US–Iran tensions disrupt markets
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup: Five key takeaways from 2026 edition won by Spain
-Added expanded search topic: Petrol prices climb as US–Iran tensions disrupt markets
-Added expanded search topic: FIFA World Cup: Five key takeaways from 2026 edition won by Spain
-Saved 18 topics for 2026-07-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yemeni women support families through enterprise as economic crisis bites
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: EU pauses methane penalties amid energy crisis, US pressure
+Added expanded search topic: Yemeni women support families through enterprise as economic crisis bites
+Added expanded search topic: EU pauses methane penalties amid energy crisis, US pressure
+Saved 21 topics for 2026-07-20
 Returning 3 unique trending topics:
-  1. Faisal Islam: The new PM has big ideas - but what will they cost? (from BBC News)
-  2. Petrol prices climb as US–Iran tensions disrupt markets (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. FIFA World Cup: Five key takeaways from 2026 edition won by Spain (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Who's in the cabinet? (from BBC News)
+  2. Yemeni women support families through enterprise as economic crisis bites (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. EU pauses methane penalties amid energy crisis, US pressure (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Faisal Islam: The new PM has big ideas - but what will they cost?
-Searching Google for: Faisal Islam: The new PM has big ideas - but what will they cost?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFaisal%252BIslam%253A%252BThe%252Bnew%252BPM%252Bhas%252Bbig%252Bideas%252B-%252Bbut%252Bwhat%252Bwill%252Bthey%252Bcost%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08ZN4GKPG-dIGIjAfA0BlnZoM_amJFIrEk4EdpJwT2QTBRK83qYC6Gndq-tFkiOzWm1tqcyEWcvz7YRkyBmpjbmRyUloBQw
+Processing trending topic: Who's in the cabinet?
+Searching Google for: Who's in the cabinet?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%2527s%252Bin%252Bthe%252Bcabinet%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmlWiGO36-dIGIjANnoU3Vx2Vuk4d1p-F1RCdfHXD0pTJGpqqg7sodH_OWUkcj3Mgfp8VXl6HAeIE2hMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: faisal-islam-the-new-pm-has-big-ideas-but-what-wil_20260720_1804.html
-✓ Created comprehensive article: faisal-islam-the-new-pm-has-big-ideas-but-what-wil_20260720_1804.html
+Successfully created file: whos-in-the-cabinet_20260720_1956.html
+✓ Created comprehensive article: whos-in-the-cabinet_20260720_1956.html
 
-Processing trending topic: Petrol prices climb as US–Iran tensions disrupt markets
-Searching Google for: Petrol prices climb as US–Iran tensions disrupt markets
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPetrol%252Bprices%252Bclimb%252Bas%252BUS%25E2%2580%2593Iran%252Btensions%252Bdisrupt%252Bmarkets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08ZN4GKrG-dIGIjAhO6RjTjgUqu5tpOuZaf8KZArCwL5RPAxJku2GLpys-OTphwNHjri2SNiO1qQ2zTcyBmpjbmRyUloBQw
+Processing trending topic: Yemeni women support families through enterprise as economic crisis bites
+Searching Google for: Yemeni women support families through enterprise as economic crisis bites
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYemeni%252Bwomen%252Bsupport%252Bfamilies%252Bthrough%252Benterprise%252Bas%252Beconomic%252Bcrisis%252Bbites%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmlWiGPT6-dIGIjBp9RQnp63uWVv_1Ghko3gOKXNFIlYOv3FHsW9QjonzxKIumVQAh8pC3kE_32frB4gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: petrol-prices-climb-as-usiran-tensions-disrupt-mar_20260720_1804.html
-✓ Created comprehensive article: petrol-prices-climb-as-usiran-tensions-disrupt-mar_20260720_1804.html
+Successfully created file: yemeni-women-support-families-through-enterprise-a_20260720_1956.html
+✓ Created comprehensive article: yemeni-women-support-families-through-enterprise-a_20260720_1956.html
 
-Processing trending topic: FIFA World Cup: Five key takeaways from 2026 edition won by Spain
-Searching Google for: FIFA World Cup: Five key takeaways from 2026 edition won by Spain
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%253A%252BFive%252Bkey%252Btakeaways%252Bfrom%252B2026%252Bedition%252Bwon%252Bby%252BSpain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08ZN4GLDG-dIGIjDlluag1DZv-9J4EE1b0o10WbSBiyGLHmQtp6g3KnJF-o56puLCPXRy2-CS8z2ie7AyBmpjbmRyUloBQw
+Processing trending topic: EU pauses methane penalties amid energy crisis, US pressure
+Searching Google for: EU pauses methane penalties amid energy crisis, US pressure
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bpauses%252Bmethane%252Bpenalties%252Bamid%252Benergy%252Bcrisis%252C%252BUS%252Bpressure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmlWiGPr6-dIGIjC3B220KgujQUF8pq6wnfPvXHBosVulMdnhFFoaq0aLVTQy6qe6BCgXtrVLjyXFupkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-world-cup-five-key-takeaways-from-2026-editio_20260720_1804.html
-✓ Created comprehensive article: fifa-world-cup-five-key-takeaways-from-2026-editio_20260720_1804.html
+Successfully created file: eu-pauses-methane-penalties-amid-energy-crisis-us-_20260720_1956.html
+✓ Created comprehensive article: eu-pauses-methane-penalties-amid-energy-crisis-us-_20260720_1956.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: andy-burnham-pledges-end-to-political-instability-_20260720_1512.html
-Cleaned old post to keep top 30 limit: what-does-a-burnham-led-government-mean-for-your-m_20260720_1223.html
-Cleaned old post to keep top 30 limit: burnham-promises-help-with-your-money-how-could-it_20260720_1512.html
+Cleaned old post to keep top 30 limit: faisal-islam-the-new-pm-has-big-ideas-but-what-wil_20260720_1804.html
+Cleaned old post to keep top 30 limit: fifa-world-cup-five-key-takeaways-from-2026-editio_20260720_1804.html
+Cleaned old post to keep top 30 limit: burnhams-policy-choices-reveal-what-kind-of-pm-he-_20260720_1512.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Faisal Islam: The new PM has big ideas - but what will they cost?
+   • Who's in the cabinet?
      Sources: bbc.com, cnn.com, reuters.com
-   • Petrol prices climb as US–Iran tensions disrupt markets
+   • Yemeni women support families through enterprise as economic crisis bites
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA World Cup: Five key takeaways from 2026 edition won by Spain
+   • EU pauses methane penalties amid energy crisis, US pressure
      Sources: bbc.com, cnn.com, reuters.com
