@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Ann Widdecombe was hit on head 21 times with hammer, prosecutors say
@@ -8,66 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Healthy diet too expensive for one in three people globally, UN report finds
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+  Added: Health worker being monitored for Ebola in London hospital after working in DRC
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Daytime Russian strike kills three in Zaporizhzhia
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French parliament passes social media ban for under-15s
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US funding cuts deal blow to global HIV treatment: Report
-Added expanded search topic: Daytime Russian strike kills three in Zaporizhzhia
-Added expanded search topic: French parliament passes social media ban for under-15s
-Added expanded search topic: US funding cuts deal blow to global HIV treatment: Report
-Saved 30 topics for 2026-07-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zelenskyy replaces Ukraine military chief after protests
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Drone shows scorched landscape after Spain wildfire
+Added expanded search topic: Zelenskyy replaces Ukraine military chief after protests
+Added expanded search topic: Drone shows scorched landscape after Spain wildfire
+Saved 33 topics for 2026-07-21
 Returning 3 unique trending topics:
-  1. Daytime Russian strike kills three in Zaporizhzhia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. French parliament passes social media ban for under-15s (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US funding cuts deal blow to global HIV treatment: Report (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Health worker being monitored for Ebola in London hospital after working in DRC (from The Guardian)
+  2. Zelenskyy replaces Ukraine military chief after protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Drone shows scorched landscape after Spain wildfire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Daytime Russian strike kills three in Zaporizhzhia
-Searching Google for: Daytime Russian strike kills three in Zaporizhzhia
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Health worker being monitored for Ebola in London hospital after working in DRC
+Searching Google for: Health worker being monitored for Ebola in London hospital after working in DRC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealth%252Bworker%252Bbeing%252Bmonitored%252Bfor%252BEbola%252Bin%252BLondon%252Bhospital%252Bafter%252Bworking%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrdRGIvz_9IGIjD4aZ6uVtF6IwgoGo0tL4pCyzrndotXGwxTACpQqd_LEsus2BFu_gqqNCyQdHLVJDYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: daytime-russian-strike-kills-three-in-zaporizhzhia_20260721_2109.html
-✓ Created comprehensive article: daytime-russian-strike-kills-three-in-zaporizhzhia_20260721_2109.html
+Successfully created file: health-worker-being-monitored-for-ebola-in-london-_20260721_2258.html
+✓ Created comprehensive article: health-worker-being-monitored-for-ebola-in-london-_20260721_2258.html
 
-Processing trending topic: French parliament passes social media ban for under-15s
-Searching Google for: French parliament passes social media ban for under-15s
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bparliament%252Bpasses%252Bsocial%252Bmedia%252Bban%252Bfor%252Bunder-15s%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCA3GK_A_9IGIjCbF8b9yASAaEsMcOvGoL0VDj14DhKJ1rjwXLb2GUuM-q-fwsC727ROksFrgJ7xXPAyBmpjbmRyUloBQw
+Processing trending topic: Zelenskyy replaces Ukraine military chief after protests
+Searching Google for: Zelenskyy replaces Ukraine military chief after protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelenskyy%252Breplaces%252BUkraine%252Bmilitary%252Bchief%252Bafter%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrdRGJHz_9IGIjD_d6OPV9l9_YstbRBB8aLRIRagEnKklaQEkbvGdg9soseeO30vrPOlHZT1dC_01rUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: french-parliament-passes-social-media-ban-for-unde_20260721_2110.html
-✓ Created comprehensive article: french-parliament-passes-social-media-ban-for-unde_20260721_2110.html
+Successfully created file: zelenskyy-replaces-ukraine-military-chief-after-pr_20260721_2258.html
+✓ Created comprehensive article: zelenskyy-replaces-ukraine-military-chief-after-pr_20260721_2258.html
 
-Processing trending topic: US funding cuts deal blow to global HIV treatment: Report
-Searching Google for: US funding cuts deal blow to global HIV treatment: Report
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bfunding%252Bcuts%252Bdeal%252Bblow%252Bto%252Bglobal%252BHIV%252Btreatment%253A%252BReport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCA3GLXA_9IGIjD1a20o4h1_GlDXWQbGbuztgLSo3kXLKzdvASA9hkZk6uSmJ8ISg0ieI35OyRE7oWQyBmpjbmRyUloBQw
+Processing trending topic: Drone shows scorched landscape after Spain wildfire
+Searching Google for: Drone shows scorched landscape after Spain wildfire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrone%252Bshows%252Bscorched%252Blandscape%252Bafter%252BSpain%252Bwildfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0vrdRGJjz_9IGIjA0UsKML050VHv9gK4BFgLv-rxTjJVr0C3TNH3L1WiEGBr9Yncpf9ys26kgIDo5rJYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-funding-cuts-deal-blow-to-global-hiv-treatment-_20260721_2110.html
-✓ Created comprehensive article: us-funding-cuts-deal-blow-to-global-hiv-treatment-_20260721_2110.html
+Successfully created file: drone-shows-scorched-landscape-after-spain-wildfir_20260721_2258.html
+✓ Created comprehensive article: drone-shows-scorched-landscape-after-spain-wildfir_20260721_2258.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: the-houthis-may-soon-discover-the-limits-of-saudi-_20260721_1922.html
-Cleaned old post to keep top 30 limit: netherlands-to-sanction-trade-with-illegal-israeli_20260721_1922.html
-Cleaned old post to keep top 30 limit: liverpool-fc-in-talks-to-sell-minority-stake-to-mi_20260721_1922.html
+Cleaned old post to keep top 30 limit: french-parliament-passes-social-media-ban-for-unde_20260721_2110.html
+Cleaned old post to keep top 30 limit: us-funding-cuts-deal-blow-to-global-hiv-treatment-_20260721_2110.html
+Cleaned old post to keep top 30 limit: daytime-russian-strike-kills-three-in-zaporizhzhia_20260721_2109.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Daytime Russian strike kills three in Zaporizhzhia
+   • Health worker being monitored for Ebola in London hospital after working in DRC
      Sources: bbc.com, cnn.com, reuters.com
-   • French parliament passes social media ban for under-15s
+   • Zelenskyy replaces Ukraine military chief after protests
      Sources: bbc.com, cnn.com, reuters.com
-   • US funding cuts deal blow to global HIV treatment: Report
+   • Drone shows scorched landscape after Spain wildfire
      Sources: bbc.com, cnn.com, reuters.com
