@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Who's in the cabinet?
-  Added: Watch: Starmer resigns, Burnham becomes PM... the day in 101 seconds
+  Added: Burnham pledges to 'bring back hope' as he makes Healey chancellor
+  Added: Man, 28, charged with murder of Ann Widdecombe
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: São Tomé and Príncipe heads to polls in tense presidential election
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: War on Iran: War resumes 30 days after MoU
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moroccan-born man dies while detained by police in Italy
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: World Cup champions Spain return to royal welcome, parade through Madrid
-Added expanded search topic: War on Iran: War resumes 30 days after MoU
-Added expanded search topic: Moroccan-born man dies while detained by police in Italy
-Added expanded search topic: World Cup champions Spain return to royal welcome, parade through Madrid
-Saved 27 topics for 2026-07-20
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-21
 Returning 3 unique trending topics:
-  1. War on Iran: War resumes 30 days after MoU (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Moroccan-born man dies while detained by police in Italy (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. World Cup champions Spain return to royal welcome, parade through Madrid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Burnham pledges to 'bring back hope' as he makes Healey chancellor (from BBC News)
+  2. Man, 28, charged with murder of Ann Widdecombe (from BBC News)
+  3. São Tomé and Príncipe heads to polls in tense presidential election (from The Guardian)
 
-Processing trending topic: War on Iran: War resumes 30 days after MoU
-Searching Google for: War on Iran: War resumes 30 days after MoU
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWar%252Bon%252BIran%253A%252BWar%252Bresumes%252B30%252Bdays%252Bafter%252BMoU%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LECGMjR-tIGIjAuXKV17-tKZN5IdG1Tzfrym7a2k3qO-8AIvUUDA9RfX3LdNhX5y4wIDZHfnHfmE6kyBmpjbmRyUloBQw
+Processing trending topic: Burnham pledges to 'bring back hope' as he makes Healey chancellor
+Searching Google for: Burnham pledges to 'bring back hope' as he makes Healey chancellor
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: war-on-iran-war-resumes-30-days-after-mou_20260720_2301.html
-✓ Created comprehensive article: war-on-iran-war-resumes-30-days-after-mou_20260720_2301.html
+Successfully created file: burnham-pledges-to-bring-back-hope-as-he-makes-hea_20260721_0004.html
+✓ Created comprehensive article: burnham-pledges-to-bring-back-hope-as-he-makes-hea_20260721_0004.html
 
-Processing trending topic: Moroccan-born man dies while detained by police in Italy
-Searching Google for: Moroccan-born man dies while detained by police in Italy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoroccan-born%252Bman%252Bdies%252Bwhile%252Bdetained%252Bby%252Bpolice%252Bin%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LECGM7R-tIGIjALV5CIDodK8U6ke8cOrsD-g8ruSvfyabcGFgYFer4tLh8ToQuUV75NjXiC1YTN8TgyBmpjbmRyUloBQw
+Processing trending topic: Man, 28, charged with murder of Ann Widdecombe
+Searching Google for: Man, 28, charged with murder of Ann Widdecombe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252C%252B28%252C%252Bcharged%252Bwith%252Bmurder%252Bof%252BAnn%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUozGITv-tIGIjCxVupOjYalILkSu01g2WGS-vppb-YIiCuuh_DgGV5d91HL-zsxFPGmqvFAw0i1m3syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: moroccan-born-man-dies-while-detained-by-police-in_20260720_2301.html
-✓ Created comprehensive article: moroccan-born-man-dies-while-detained-by-police-in_20260720_2301.html
+Successfully created file: man-28-charged-with-murder-of-ann-widdecombe_20260721_0004.html
+✓ Created comprehensive article: man-28-charged-with-murder-of-ann-widdecombe_20260721_0004.html
 
-Processing trending topic: World Cup champions Spain return to royal welcome, parade through Madrid
-Searching Google for: World Cup champions Spain return to royal welcome, parade through Madrid
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%252BCup%252Bchampions%252BSpain%252Breturn%252Bto%252Broyal%252Bwelcome%252C%252Bparade%252Bthrough%252BMadrid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7LECGNTR-tIGIjCVKKpq-hjxNVA2BaYEQNdP-t8q2ZOl-_coBn1NJDHtd9aaqOCdycgfNvb8Hh911b0yBmpjbmRyUloBQw
+Processing trending topic: São Tomé and Príncipe heads to polls in tense presidential election
+Searching Google for: São Tomé and Príncipe heads to polls in tense presidential election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DS%25C3%25A3o%252BTom%25C3%25A9%252Band%252BPr%25C3%25ADncipe%252Bheads%252Bto%252Bpolls%252Bin%252Btense%252Bpresidential%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUozGIrv-tIGIjATMhhlUdwP5nPKcFfD20TzBDG-8Rd-mCgE6pqmkrmBi2rDDKorMIFEKUxNCxK1BO4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: world-cup-champions-spain-return-to-royal-welcome-_20260720_2301.html
-✓ Created comprehensive article: world-cup-champions-spain-return-to-royal-welcome-_20260720_2301.html
+Successfully created file: são-tomé-and-príncipe-heads-to-polls-in-tense-pres_20260721_0004.html
+✓ Created comprehensive article: são-tomé-and-príncipe-heads-to-polls-in-tense-pres_20260721_0004.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: protest-held-in-houston-over-ice-killing-of-lorenz_20260720_0620.html
-Cleaned old post to keep top 30 limit: ortega-insists-no-more-elections-for-nicaragua_20260720_2113.html
-Cleaned old post to keep top 30 limit: how-will-zelenskyy-handle-the-growing-political-cr_20260720_2113.html
+Cleaned old post to keep top 30 limit: war-on-iran-war-resumes-30-days-after-mou_20260720_2301.html
+Cleaned old post to keep top 30 limit: whos-in-the-cabinet_20260720_1956.html
+Cleaned old post to keep top 30 limit: moroccan-born-man-dies-while-detained-by-police-in_20260720_2301.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • War on Iran: War resumes 30 days after MoU
+   • Burnham pledges to 'bring back hope' as he makes Healey chancellor
      Sources: bbc.com, cnn.com, reuters.com
-   • Moroccan-born man dies while detained by police in Italy
+   • Man, 28, charged with murder of Ann Widdecombe
      Sources: bbc.com, cnn.com, reuters.com
-   • World Cup champions Spain return to royal welcome, parade through Madrid
+   • São Tomé and Príncipe heads to polls in tense presidential election
      Sources: bbc.com, cnn.com, reuters.com
