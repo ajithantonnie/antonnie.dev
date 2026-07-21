@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham pledges to 'bring back hope' as he makes Healey chancellor
-  Added: Man, 28, charged with murder of Ann Widdecombe
+  Added: Who's in Andy Burnham's cabinet?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: São Tomé and Príncipe heads to polls in tense presidential election
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-21
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spain’s World Cup heroes welcomed by millions in Madrid
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US military releases footage of tenth consecutive night of strikes on Iran
+Added expanded search topic: Spain’s World Cup heroes welcomed by millions in Madrid
+Added expanded search topic: US military releases footage of tenth consecutive night of strikes on Iran
+Saved 6 topics for 2026-07-21
 Returning 3 unique trending topics:
-  1. Burnham pledges to 'bring back hope' as he makes Healey chancellor (from BBC News)
-  2. Man, 28, charged with murder of Ann Widdecombe (from BBC News)
-  3. São Tomé and Príncipe heads to polls in tense presidential election (from The Guardian)
+  1. Who's in Andy Burnham's cabinet? (from BBC News)
+  2. Spain’s World Cup heroes welcomed by millions in Madrid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US military releases footage of tenth consecutive night of strikes on Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham pledges to 'bring back hope' as he makes Healey chancellor
-Searching Google for: Burnham pledges to 'bring back hope' as he makes Healey chancellor
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Who's in Andy Burnham's cabinet?
+Searching Google for: Who's in Andy Burnham's cabinet?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%2527s%252Bin%252BAndy%252BBurnham%2527s%252Bcabinet%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTq6FGILT-9IGIjBVCItu209xqtmG_JyF19IeQgust9GDMWeIfDx6NHvY4GUPrNYDIjMV-KnvJdPiDhgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-pledges-to-bring-back-hope-as-he-makes-hea_20260721_0004.html
-✓ Created comprehensive article: burnham-pledges-to-bring-back-hope-as-he-makes-hea_20260721_0004.html
+Successfully created file: whos-in-andy-burnhams-cabinet_20260721_0337.html
+✓ Created comprehensive article: whos-in-andy-burnhams-cabinet_20260721_0337.html
 
-Processing trending topic: Man, 28, charged with murder of Ann Widdecombe
-Searching Google for: Man, 28, charged with murder of Ann Widdecombe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252C%252B28%252C%252Bcharged%252Bwith%252Bmurder%252Bof%252BAnn%252BWiddecombe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUozGITv-tIGIjCxVupOjYalILkSu01g2WGS-vppb-YIiCuuh_DgGV5d91HL-zsxFPGmqvFAw0i1m3syBmpjbmRyUloBQw
+Processing trending topic: Spain’s World Cup heroes welcomed by millions in Madrid
+Searching Google for: Spain’s World Cup heroes welcomed by millions in Madrid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%25E2%2580%2599s%252BWorld%252BCup%252Bheroes%252Bwelcomed%252Bby%252Bmillions%252Bin%252BMadrid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTq6FGInT-9IGIjCWDsPlr1UhuPFXliXCLGBaesFCyu0NRRqPj0idP4Y87rl0uYjWXcq19hre_FX5SNwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-28-charged-with-murder-of-ann-widdecombe_20260721_0004.html
-✓ Created comprehensive article: man-28-charged-with-murder-of-ann-widdecombe_20260721_0004.html
+Successfully created file: spains-world-cup-heroes-welcomed-by-millions-in-ma_20260721_0337.html
+✓ Created comprehensive article: spains-world-cup-heroes-welcomed-by-millions-in-ma_20260721_0337.html
 
-Processing trending topic: São Tomé and Príncipe heads to polls in tense presidential election
-Searching Google for: São Tomé and Príncipe heads to polls in tense presidential election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DS%25C3%25A3o%252BTom%25C3%25A9%252Band%252BPr%25C3%25ADncipe%252Bheads%252Bto%252Bpolls%252Bin%252Btense%252Bpresidential%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUozGIrv-tIGIjATMhhlUdwP5nPKcFfD20TzBDG-8Rd-mCgE6pqmkrmBi2rDDKorMIFEKUxNCxK1BO4yBmpjbmRyUloBQw
+Processing trending topic: US military releases footage of tenth consecutive night of strikes on Iran
+Searching Google for: US military releases footage of tenth consecutive night of strikes on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmilitary%252Breleases%252Bfootage%252Bof%252Btenth%252Bconsecutive%252Bnight%252Bof%252Bstrikes%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTq6FGI_T-9IGIjDz6jmjfTc9vAZNEW2HXZjW3UymAT4XGTcKtLYyZDaA8z9iJRs1ODar52B32NIOSrgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: são-tomé-and-príncipe-heads-to-polls-in-tense-pres_20260721_0004.html
-✓ Created comprehensive article: são-tomé-and-príncipe-heads-to-polls-in-tense-pres_20260721_0004.html
+Successfully created file: us-military-releases-footage-of-tenth-consecutive-_20260721_0337.html
+✓ Created comprehensive article: us-military-releases-footage-of-tenth-consecutive-_20260721_0337.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: war-on-iran-war-resumes-30-days-after-mou_20260720_2301.html
-Cleaned old post to keep top 30 limit: whos-in-the-cabinet_20260720_1956.html
-Cleaned old post to keep top 30 limit: moroccan-born-man-dies-while-detained-by-police-in_20260720_2301.html
+Cleaned old post to keep top 30 limit: yemeni-women-support-families-through-enterprise-a_20260720_1956.html
+Cleaned old post to keep top 30 limit: são-tomé-and-príncipe-heads-to-polls-in-tense-pres_20260721_0004.html
+Cleaned old post to keep top 30 limit: burnham-pledges-to-bring-back-hope-as-he-makes-hea_20260721_0004.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham pledges to 'bring back hope' as he makes Healey chancellor
+   • Who's in Andy Burnham's cabinet?
      Sources: bbc.com, cnn.com, reuters.com
-   • Man, 28, charged with murder of Ann Widdecombe
+   • Spain’s World Cup heroes welcomed by millions in Madrid
      Sources: bbc.com, cnn.com, reuters.com
-   • São Tomé and Príncipe heads to polls in tense presidential election
+   • US military releases footage of tenth consecutive night of strikes on Iran
      Sources: bbc.com, cnn.com, reuters.com
