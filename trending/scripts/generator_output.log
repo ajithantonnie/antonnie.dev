@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham pulls back on suggestion to increase income tax allowance
-  Added: Zelensky sacks Ukraine's top army commander after days of protests
+  Added: US renews strikes on Iran as Trump threatens to attack underground nuclear site
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Health worker monitored for Ebola in London hospital after working in DRC
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-22
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Goats of football: Indian village holds tournament with an Indigenous twist
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US expands strikes on 11th straight night of attacks
+Added expanded search topic: Goats of football: Indian village holds tournament with an Indigenous twist
+Added expanded search topic: US expands strikes on 11th straight night of attacks
+Saved 6 topics for 2026-07-22
 Returning 3 unique trending topics:
-  1. Burnham pulls back on suggestion to increase income tax allowance (from BBC News)
-  2. Zelensky sacks Ukraine's top army commander after days of protests (from BBC News)
-  3. Health worker monitored for Ebola in London hospital after working in DRC (from The Guardian)
+  1. US renews strikes on Iran as Trump threatens to attack underground nuclear site (from BBC News)
+  2. Goats of football: Indian village holds tournament with an Indigenous twist (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US expands strikes on 11th straight night of attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham pulls back on suggestion to increase income tax allowance
-Searching Google for: Burnham pulls back on suggestion to increase income tax allowance
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bpulls%252Bback%252Bon%252Bsuggestion%252Bto%252Bincrease%252Bincome%252Btax%252Ballowance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4xGMTWgNMGIjC5A-aekrMFTM9zz6mi4NCFmTvdwMJfNfoPJof1WhlYyS676T2K752zIQWL3qBOdaMyBmpjbmRyUloBQw
+Processing trending topic: US renews strikes on Iran as Trump threatens to attack underground nuclear site
+Searching Google for: US renews strikes on Iran as Trump threatens to attack underground nuclear site
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Brenews%252Bstrikes%252Bon%252BIran%252Bas%252BTrump%252Bthreatens%252Bto%252Battack%252Bunderground%252Bnuclear%252Bsite%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsywcxGK60gdMGIjDHHdKC_7hO7_TWth0mu99Y7X6XJHAg38MOHcTrWwC_ICCGCQ5X1Qga9OzUNKtrBh0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-pulls-back-on-suggestion-to-increase-incom_20260722_0230.html
-✓ Created comprehensive article: burnham-pulls-back-on-suggestion-to-increase-incom_20260722_0230.html
+Successfully created file: us-renews-strikes-on-iran-as-trump-threatens-to-at_20260722_0550.html
+✓ Created comprehensive article: us-renews-strikes-on-iran-as-trump-threatens-to-at_20260722_0550.html
 
-Processing trending topic: Zelensky sacks Ukraine's top army commander after days of protests
-Searching Google for: Zelensky sacks Ukraine's top army commander after days of protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelensky%252Bsacks%252BUkraine%2527s%252Btop%252Barmy%252Bcommander%252Bafter%252Bdays%252Bof%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4xGMvWgNMGIjDxnu3-VTnay3LDxyMRJOgTO94xIyBNWFlricHx4WNyNdZfTjKzp3Ws46r2eTjjzOMyBmpjbmRyUloBQw
+Processing trending topic: Goats of football: Indian village holds tournament with an Indigenous twist
+Searching Google for: Goats of football: Indian village holds tournament with an Indigenous twist
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGoats%252Bof%252Bfootball%253A%252BIndian%252Bvillage%252Bholds%252Btournament%252Bwith%252Ban%252BIndigenous%252Btwist%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsywcxGLW0gdMGIjACSpQm4JxJ9-26t_IRV-5rYQWsD3YwQB-ycPwlI-UwzLJMOH4-jo7Hb5B4TQ8ZI_IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zelensky-sacks-ukraines-top-army-commander-after-d_20260722_0230.html
-✓ Created comprehensive article: zelensky-sacks-ukraines-top-army-commander-after-d_20260722_0230.html
+Successfully created file: goats-of-football-indian-village-holds-tournament-_20260722_0550.html
+✓ Created comprehensive article: goats-of-football-indian-village-holds-tournament-_20260722_0550.html
 
-Processing trending topic: Health worker monitored for Ebola in London hospital after working in DRC
-Searching Google for: Health worker monitored for Ebola in London hospital after working in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealth%252Bworker%252Bmonitored%252Bfor%252BEbola%252Bin%252BLondon%252Bhospital%252Bafter%252Bworking%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4xGNHWgNMGIjD313zNBTUM72jrrDPzvswoiSBZmzTnpNR-4s0abNTvRoDZVkEBe0838BW92fsBqZQyBmpjbmRyUloBQw
+Processing trending topic: US expands strikes on 11th straight night of attacks
+Searching Google for: US expands strikes on 11th straight night of attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bexpands%252Bstrikes%252Bon%252B11th%252Bstraight%252Bnight%252Bof%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsywcxGLu0gdMGIjDHMGI6nRON8UZVTqezVdR9auMeghLlPpoVccvJAMGYK8viQ1E7F5LIv_3GU6-bRfQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: health-worker-monitored-for-ebola-in-london-hospit_20260722_0230.html
-✓ Created comprehensive article: health-worker-monitored-for-ebola-in-london-hospit_20260722_0230.html
+Successfully created file: us-expands-strikes-on-11th-straight-night-of-attac_20260722_0550.html
+✓ Created comprehensive article: us-expands-strikes-on-11th-straight-night-of-attac_20260722_0550.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: world-cup-2026-final-closing-ceremony-and-half-tim_20260719_1029.html
-Cleaned old post to keep top 30 limit: world-cup-champions-spain-return-to-royal-welcome-_20260720_2301.html
-Cleaned old post to keep top 30 limit: explosions-in-iran-as-us-launches-new-strikes_20260721_2358.html
+Cleaned old post to keep top 30 limit: health-worker-monitored-for-ebola-in-london-hospit_20260722_0230.html
+Cleaned old post to keep top 30 limit: health-worker-monitored-for-ebola-in-london-hospit_20260721_2358.html
+Cleaned old post to keep top 30 limit: burnham-pulls-back-on-suggestion-to-increase-incom_20260722_0230.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham pulls back on suggestion to increase income tax allowance
+   • US renews strikes on Iran as Trump threatens to attack underground nuclear site
      Sources: bbc.com, cnn.com, reuters.com
-   • Zelensky sacks Ukraine's top army commander after days of protests
+   • Goats of football: Indian village holds tournament with an Indigenous twist
      Sources: bbc.com, cnn.com, reuters.com
-   • Health worker monitored for Ebola in London hospital after working in DRC
+   • US expands strikes on 11th straight night of attacks
      Sources: bbc.com, cnn.com, reuters.com
