@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Burnham pulls back on suggestion to increase income tax allowance
   Added: Zelensky sacks Ukraine's top army commander after days of protests
-  Added: Ann Widdecombe was hit on head 21 times with hammer, prosecutors say
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Health worker monitored for Ebola in London hospital after working in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Explosions in Iran as US launches new strikes
-Added expanded search topic: Explosions in Iran as US launches new strikes
-Saved 36 topics for 2026-07-21
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-22
 Returning 3 unique trending topics:
-  1. Zelensky sacks Ukraine's top army commander after days of protests (from BBC News)
-  2. Health worker monitored for Ebola in London hospital after working in DRC (from The Guardian)
-  3. Explosions in Iran as US launches new strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Burnham pulls back on suggestion to increase income tax allowance (from BBC News)
+  2. Zelensky sacks Ukraine's top army commander after days of protests (from BBC News)
+  3. Health worker monitored for Ebola in London hospital after working in DRC (from The Guardian)
+
+Processing trending topic: Burnham pulls back on suggestion to increase income tax allowance
+Searching Google for: Burnham pulls back on suggestion to increase income tax allowance
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bpulls%252Bback%252Bon%252Bsuggestion%252Bto%252Bincrease%252Bincome%252Btax%252Ballowance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4xGMTWgNMGIjC5A-aekrMFTM9zz6mi4NCFmTvdwMJfNfoPJof1WhlYyS676T2K752zIQWL3qBOdaMyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: burnham-pulls-back-on-suggestion-to-increase-incom_20260722_0230.html
+✓ Created comprehensive article: burnham-pulls-back-on-suggestion-to-increase-incom_20260722_0230.html
 
 Processing trending topic: Zelensky sacks Ukraine's top army commander after days of protests
 Searching Google for: Zelensky sacks Ukraine's top army commander after days of protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelensky%252Bsacks%252BUkraine%2527s%252Btop%252Barmy%252Bcommander%252Bafter%252Bdays%252Bof%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqwcFGKaPgNMGIjC1HcyvRE6W4U1bpCP6PtM63pUZa8XxBw-z-s-6Vs8HmzL5R4JbNLCex2qDBtho5rkyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelensky%252Bsacks%252BUkraine%2527s%252Btop%252Barmy%252Bcommander%252Bafter%252Bdays%252Bof%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4xGMvWgNMGIjDxnu3-VTnay3LDxyMRJOgTO94xIyBNWFlricHx4WNyNdZfTjKzp3Ws46r2eTjjzOMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zelensky-sacks-ukraines-top-army-commander-after-d_20260721_2358.html
-✓ Created comprehensive article: zelensky-sacks-ukraines-top-army-commander-after-d_20260721_2358.html
+Successfully created file: zelensky-sacks-ukraines-top-army-commander-after-d_20260722_0230.html
+✓ Created comprehensive article: zelensky-sacks-ukraines-top-army-commander-after-d_20260722_0230.html
 
 Processing trending topic: Health worker monitored for Ebola in London hospital after working in DRC
 Searching Google for: Health worker monitored for Ebola in London hospital after working in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealth%252Bworker%252Bmonitored%252Bfor%252BEbola%252Bin%252BLondon%252Bhospital%252Bafter%252Bworking%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqwcFGKyPgNMGIjB2pfXYahqz0YVq6ZacIpPTZD7pJ-mFH7Yn9id6mmSCRObzhcz4rMJiQi-J6gFDjPcyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealth%252Bworker%252Bmonitored%252Bfor%252BEbola%252Bin%252BLondon%252Bhospital%252Bafter%252Bworking%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR4xGNHWgNMGIjD313zNBTUM72jrrDPzvswoiSBZmzTnpNR-4s0abNTvRoDZVkEBe0838BW92fsBqZQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: health-worker-monitored-for-ebola-in-london-hospit_20260721_2358.html
-✓ Created comprehensive article: health-worker-monitored-for-ebola-in-london-hospit_20260721_2358.html
-
-Processing trending topic: Explosions in Iran as US launches new strikes
-Searching Google for: Explosions in Iran as US launches new strikes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DExplosions%252Bin%252BIran%252Bas%252BUS%252Blaunches%252Bnew%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqwcFGLOPgNMGIjAVHGc-Fgdp-z7YzcpktCZ3dxSJcWvqpN-Ng_OTYfpQLuF1zBnmxTznHLLaMCQNd4IyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: explosions-in-iran-as-us-launches-new-strikes_20260721_2358.html
-✓ Created comprehensive article: explosions-in-iran-as-us-launches-new-strikes_20260721_2358.html
+Successfully created file: health-worker-monitored-for-ebola-in-london-hospit_20260722_0230.html
+✓ Created comprehensive article: health-worker-monitored-for-ebola-in-london-hospit_20260722_0230.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: there-is-no-safe-place-israeli-attack-kills-family_20260721_1348.html
-Cleaned old post to keep top 30 limit: health-worker-being-monitored-for-ebola-in-london-_20260721_2258.html
-Cleaned old post to keep top 30 limit: drone-shows-scorched-landscape-after-spain-wildfir_20260721_2258.html
+Cleaned old post to keep top 30 limit: world-cup-2026-final-closing-ceremony-and-half-tim_20260719_1029.html
+Cleaned old post to keep top 30 limit: world-cup-champions-spain-return-to-royal-welcome-_20260720_2301.html
+Cleaned old post to keep top 30 limit: explosions-in-iran-as-us-launches-new-strikes_20260721_2358.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Burnham pulls back on suggestion to increase income tax allowance
+     Sources: bbc.com, cnn.com, reuters.com
    • Zelensky sacks Ukraine's top army commander after days of protests
      Sources: bbc.com, cnn.com, reuters.com
    • Health worker monitored for Ebola in London hospital after working in DRC
-     Sources: bbc.com, cnn.com, reuters.com
-   • Explosions in Iran as US launches new strikes
      Sources: bbc.com, cnn.com, reuters.com
