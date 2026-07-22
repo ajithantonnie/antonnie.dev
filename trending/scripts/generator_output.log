@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Health worker monitored for Ebola in London hospital after working in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French model recruiter with close ties to Jeffrey Epstein found dead
-Added expanded search topic: French model recruiter with close ties to Jeffrey Epstein found dead
-Saved 18 topics for 2026-07-22
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hamas’s new leader calls for permanent Gaza ceasefire
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s judiciary warns against ‘infiltrators’, announces new executions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Justice for Lorenzo’ protests disrupt Houston council meeting
+Added expanded search topic: Hamas’s new leader calls for permanent Gaza ceasefire
+Added expanded search topic: Iran’s judiciary warns against ‘infiltrators’, announces new executions
+Added expanded search topic: ‘Justice for Lorenzo’ protests disrupt Houston council meeting
+Saved 21 topics for 2026-07-22
 Returning 3 unique trending topics:
-  1. PC Harper's widow criticises early prisoner release plan as Burnham to review scheme (from BBC News)
-  2. Most bus fares in England to be capped at £2 from January (from BBC News)
-  3. French model recruiter with close ties to Jeffrey Epstein found dead (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hamas’s new leader calls for permanent Gaza ceasefire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran’s judiciary warns against ‘infiltrators’, announces new executions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘Justice for Lorenzo’ protests disrupt Houston council meeting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
-Searching Google for: PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPC%252BHarper%2527s%252Bwidow%252Bcriticises%252Bearly%252Bprisoner%252Brelease%252Bplan%252Bas%252BBurnham%252Bto%252Breview%252Bscheme%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IYkGPrJg9MGIjAB85S1zMJOwnQQBI6K29D-nen6ISXvui4MjQo0VbzGKc7YsMu3p4RzgRPKit7oi6syBmpjbmRyUloBQw
+Processing trending topic: Hamas’s new leader calls for permanent Gaza ceasefire
+Searching Google for: Hamas’s new leader calls for permanent Gaza ceasefire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHamas%25E2%2580%2599s%252Bnew%252Bleader%252Bcalls%252Bfor%252Bpermanent%252BGaza%252Bceasefire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoUQbxGN73g9MGIjCSs-g7hfwDw7NK9BRb583Iqhj7rmvYnDoiAxVcqgAkow5d4-q-zSeNfPL1KdydCXkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pc-harpers-widow-criticises-early-prisoner-release_20260722_1542.html
-✓ Created comprehensive article: pc-harpers-widow-criticises-early-prisoner-release_20260722_1542.html
+Successfully created file: hamass-new-leader-calls-for-permanent-gaza-ceasefi_20260722_1720.html
+✓ Created comprehensive article: hamass-new-leader-calls-for-permanent-gaza-ceasefi_20260722_1720.html
 
-Processing trending topic: Most bus fares in England to be capped at £2 from January
-Searching Google for: Most bus fares in England to be capped at £2 from January
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMost%252Bbus%252Bfares%252Bin%252BEngland%252Bto%252Bbe%252Bcapped%252Bat%252B%25C2%25A32%252Bfrom%252BJanuary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IYkGIDKg9MGIjCiHj8oVBdTg__6ocZoE1MI4g7MLsj_vJHqMVGOYy1O00P121Q1i3gfMMPYB_c-G_oyBmpjbmRyUloBQw
+Processing trending topic: Iran’s judiciary warns against ‘infiltrators’, announces new executions
+Searching Google for: Iran’s judiciary warns against ‘infiltrators’, announces new executions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Bjudiciary%252Bwarns%252Bagainst%252B%25E2%2580%2598infiltrators%25E2%2580%2599%252C%252Bannounces%252Bnew%252Bexecutions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoUQbxGOX3g9MGIjA00Uf1mtyj4vdENy1jGhLhCjx7bVsdCGwYw6R3cyQw73hsqq3wJaVg3vY9fpN1_uIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: most-bus-fares-in-england-to-be-capped-at-2-from-j_20260722_1543.html
-✓ Created comprehensive article: most-bus-fares-in-england-to-be-capped-at-2-from-j_20260722_1543.html
+Successfully created file: irans-judiciary-warns-against-infiltrators-announc_20260722_1720.html
+✓ Created comprehensive article: irans-judiciary-warns-against-infiltrators-announc_20260722_1720.html
 
-Processing trending topic: French model recruiter with close ties to Jeffrey Epstein found dead
-Searching Google for: French model recruiter with close ties to Jeffrey Epstein found dead
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bmodel%252Brecruiter%252Bwith%252Bclose%252Bties%252Bto%252BJeffrey%252BEpstein%252Bfound%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IYkGIbKg9MGIjDr1kzFk_c_yI6VZAoBglK0NA440ilywx_dOxvZ2MP6Dgxau1ZPGyhCR79yAmfJaD4yBmpjbmRyUloBQw
+Processing trending topic: ‘Justice for Lorenzo’ protests disrupt Houston council meeting
+Searching Google for: ‘Justice for Lorenzo’ protests disrupt Houston council meeting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Justice%252Bfor%252BLorenzo%25E2%2580%2599%252Bprotests%252Bdisrupt%252BHouston%252Bcouncil%252Bmeeting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoUQbxGOv3g9MGIjAGQpyn-c2Zo4g57Zses8O0DN4uWhWr_tlIV_JqViV9tfDbuyyuqVezj7a39r8IIQ0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: french-model-recruiter-with-close-ties-to-jeffrey-_20260722_1543.html
-✓ Created comprehensive article: french-model-recruiter-with-close-ties-to-jeffrey-_20260722_1543.html
+Successfully created file: justice-for-lorenzo-protests-disrupt-houston-counc_20260722_1720.html
+✓ Created comprehensive article: justice-for-lorenzo-protests-disrupt-houston-counc_20260722_1720.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-vows-to-help-lebanon-but-offers-no-timeline-_20260721_1719.html
-Cleaned old post to keep top 30 limit: israeli-strike-leaves-two-palestinians-burnt-beyon_20260722_1350.html
-Cleaned old post to keep top 30 limit: burnham-to-review-early-prisoner-release-scheme-af_20260722_1350.html
+Cleaned old post to keep top 30 limit: qatar-rejects-israeli-reports-of-military-action-a_20260717_0001.html
+Cleaned old post to keep top 30 limit: pc-harpers-widow-criticises-early-prisoner-release_20260722_1542.html
+Cleaned old post to keep top 30 limit: french-model-recruiter-with-close-ties-to-jeffrey-_20260722_1543.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
+   • Hamas’s new leader calls for permanent Gaza ceasefire
      Sources: bbc.com, cnn.com, reuters.com
-   • Most bus fares in England to be capped at £2 from January
+   • Iran’s judiciary warns against ‘infiltrators’, announces new executions
      Sources: bbc.com, cnn.com, reuters.com
-   • French model recruiter with close ties to Jeffrey Epstein found dead
+   • ‘Justice for Lorenzo’ protests disrupt Houston council meeting
      Sources: bbc.com, cnn.com, reuters.com
