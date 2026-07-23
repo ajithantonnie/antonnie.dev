@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police officer was violent rapist who attacked women over 14 years, BBC reveals
-  Added: 'What was their crime?': BBC visits Iran school where strike killed 120 children
+  Added: BBC visits Iran school where strike killed 120 children
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Health worker monitored for Ebola in London hospital after working in DRC
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabia
-Added expanded search topic: Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabia
-Saved 9 topics for 2026-07-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran, Houthis strike tankers as US bombing continues: What’s the latest?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Televising our revolution’: India’s Gen Z flips Modi’s social media game
+Added expanded search topic: Iran, Houthis strike tankers as US bombing continues: What’s the latest?
+Added expanded search topic: ‘Televising our revolution’: India’s Gen Z flips Modi’s social media game
+Saved 12 topics for 2026-07-23
 Returning 3 unique trending topics:
-  1. Police officer was violent rapist who attacked women over 14 years, BBC reveals (from BBC News)
-  2. 'What was their crime?': BBC visits Iran school where strike killed 120 children (from BBC News)
-  3. Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. BBC visits Iran school where strike killed 120 children (from BBC News)
+  2. Iran, Houthis strike tankers as US bombing continues: What’s the latest? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. ‘Televising our revolution’: India’s Gen Z flips Modi’s social media game (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police officer was violent rapist who attacked women over 14 years, BBC reveals
-Searching Google for: Police officer was violent rapist who attacked women over 14 years, BBC reveals
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bofficer%252Bwas%252Bviolent%252Brapist%252Bwho%252Battacked%252Bwomen%252Bover%252B14%252Byears%252C%252BBBC%252Breveals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUvbNbGLeIh9MGIjAll6zFPmXHbjbEp17nNNE0f160pC4S1SOSrrrFthYE4eu2fLmPt-zUrA2oq2kWx9UyBmpjbmRyUloBQw
+Processing trending topic: BBC visits Iran school where strike killed 120 children
+Searching Google for: BBC visits Iran school where strike killed 120 children
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBBC%252Bvisits%252BIran%252Bschool%252Bwhere%252Bstrike%252Bkilled%252B120%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gIxGMvXh9MGIjAr-8OF5hv4MUciouya9sTe8DDm3HkUjHCFxsWnAYFes5E-mD7X7YGs-6RLJ7J5g_IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-officer-was-violent-rapist-who-attacked-wom_20260723_0735.html
-✓ Created comprehensive article: police-officer-was-violent-rapist-who-attacked-wom_20260723_0735.html
+Successfully created file: bbc-visits-iran-school-where-strike-killed-120-chi_20260723_1024.html
+✓ Created comprehensive article: bbc-visits-iran-school-where-strike-killed-120-chi_20260723_1024.html
 
-Processing trending topic: 'What was their crime?': BBC visits Iran school where strike killed 120 children
-Searching Google for: 'What was their crime?': BBC visits Iran school where strike killed 120 children
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527What%252Bwas%252Btheir%252Bcrime%253F%2527%253A%252BBBC%252Bvisits%252BIran%252Bschool%252Bwhere%252Bstrike%252Bkilled%252B120%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUvbNbGL6Ih9MGIjCZn8BaIzBl5vvkL6rWd1Qbki8OPmY-1aO9rhneA0II4Ojnh434RuTstdiO5P65hmYyBmpjbmRyUloBQw
+Processing trending topic: Iran, Houthis strike tankers as US bombing continues: What’s the latest?
+Searching Google for: Iran, Houthis strike tankers as US bombing continues: What’s the latest?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252C%252BHouthis%252Bstrike%252Btankers%252Bas%252BUS%252Bbombing%252Bcontinues%253A%252BWhat%25E2%2580%2599s%252Bthe%252Blatest%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gIxGNHXh9MGIjDD3PSib5XbjIpcuximyhZOHnv3u2cNiAJUVVnslSpgSLlASVoFxjLPh4Xz3K3w53cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-was-their-crime-bbc-visits-iran-school-where-_20260723_0735.html
-✓ Created comprehensive article: what-was-their-crime-bbc-visits-iran-school-where-_20260723_0735.html
+Successfully created file: iran-houthis-strike-tankers-as-us-bombing-continue_20260723_1024.html
+✓ Created comprehensive article: iran-houthis-strike-tankers-as-us-bombing-continue_20260723_1024.html
 
-Processing trending topic: Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabia
-Searching Google for: Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBetween%252Bhope%252Band%252Bfear%253A%252BYemenis%252Breact%252Bto%252BHouthi%252Bblockade%252Bon%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUvbNbGMSIh9MGIjCjzRj2tNW94h1y4mYLtCheqoqnXpsbYKb0IXp1sUJZMZXHY7xoq09sLgtPPyEKlOcyBmpjbmRyUloBQw
+Processing trending topic: ‘Televising our revolution’: India’s Gen Z flips Modi’s social media game
+Searching Google for: ‘Televising our revolution’: India’s Gen Z flips Modi’s social media game
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Televising%252Bour%252Brevolution%25E2%2580%2599%253A%252BIndia%25E2%2580%2599s%252BGen%252BZ%252Bflips%252BModi%25E2%2580%2599s%252Bsocial%252Bmedia%252Bgame%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gIxGNjXh9MGIjBuAWYz8Sc6_i1AEMKT5CJLVOM6fkbZoE_WYGNLZagT1ODb-LcRYpzKYJs6i3u1X6QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: between-hope-and-fear-yemenis-react-to-houthi-bloc_20260723_0735.html
-✓ Created comprehensive article: between-hope-and-fear-yemenis-react-to-houthi-bloc_20260723_0735.html
+Successfully created file: televising-our-revolution-indias-gen-z-flips-modis_20260723_1024.html
+✓ Created comprehensive article: televising-our-revolution-indias-gen-z-flips-modis_20260723_1024.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-have-indias-gen-z-protesters-called-for-a-marc_20260719_1319.html
-Cleaned old post to keep top 30 limit: who-calls-for-community-cooperation-to-contain-ebo_20260601_0010.html
-Cleaned old post to keep top 30 limit: five-soldiers-killed-in-southern-thailand-checkpoi_20260723_0416.html
+Cleaned old post to keep top 30 limit: us-regulators-to-weigh-controversial-peptides-back_20260722_2107.html
+Cleaned old post to keep top 30 limit: police-officer-was-violent-rapist-who-attacked-wom_20260723_0735.html
+Cleaned old post to keep top 30 limit: between-hope-and-fear-yemenis-react-to-houthi-bloc_20260723_0735.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police officer was violent rapist who attacked women over 14 years, BBC reveals
+   • BBC visits Iran school where strike killed 120 children
      Sources: bbc.com, cnn.com, reuters.com
-   • 'What was their crime?': BBC visits Iran school where strike killed 120 children
+   • Iran, Houthis strike tankers as US bombing continues: What’s the latest?
      Sources: bbc.com, cnn.com, reuters.com
-   • Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabia
+   • ‘Televising our revolution’: India’s Gen Z flips Modi’s social media game
      Sources: bbc.com, cnn.com, reuters.com
