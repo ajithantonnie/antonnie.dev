@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham pauses plan to release some prisoners early from September
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Children wounded in Israeli strike on Khan Younis
-Added expanded search topic: Children wounded in Israeli strike on Khan Younis
-Saved 24 topics for 2026-07-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Minnesota man who killed Democratic lawmaker sentenced to life in US prison
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Journalist killed in Mexico after years of exposing corruption
+Added expanded search topic: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
+Added expanded search topic: Minnesota man who killed Democratic lawmaker sentenced to life in US prison
+Added expanded search topic: Journalist killed in Mexico after years of exposing corruption
+Saved 27 topics for 2026-07-23
 Returning 3 unique trending topics:
-  1. Burnham pauses plan to release some prisoners early from September (from BBC News)
-  2. Mum and daughter who died at beach were trying to save boy, 7 (from BBC News)
-  3. Children wounded in Israeli strike on Khan Younis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Minnesota man who killed Democratic lawmaker sentenced to life in US prison (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Journalist killed in Mexico after years of exposing corruption (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham pauses plan to release some prisoners early from September
-Searching Google for: Burnham pauses plan to release some prisoners early from September
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bpauses%252Bplan%252Bto%252Brelease%252Bsome%252Bprisoners%252Bearly%252Bfrom%252BSeptember%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsq2tRGJXRidMGIjCXTNnZLG4Y41qazmqPBY20nsKKLPML4jaJSS27WNfdReIPdCQOQcwhSuEvE670Ee0yBmpjbmRyUloBQw
+Processing trending topic: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
+Searching Google for: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndian%252Bactivist%252BWangchuk%252Bends%252B26-day%252Bhunger%252Bstrike%252Bover%252Bexam%252Bpaper%252Bleaks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVUGMiDitMGIjDdpv7q2_4KOabcUajuqeTvfBgL37qKtotPh312t9BkP8dajdjdaPx9XWTyo0m1d0EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-pauses-plan-to-release-some-prisoners-earl_20260723_1916.html
-✓ Created comprehensive article: burnham-pauses-plan-to-release-some-prisoners-earl_20260723_1916.html
+Successfully created file: indian-activist-wangchuk-ends-26-day-hunger-strike_20260723_2104.html
+✓ Created comprehensive article: indian-activist-wangchuk-ends-26-day-hunger-strike_20260723_2104.html
 
-Processing trending topic: Mum and daughter who died at beach were trying to save boy, 7
-Searching Google for: Mum and daughter who died at beach were trying to save boy, 7
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMum%252Band%252Bdaughter%252Bwho%252Bdied%252Bat%252Bbeach%252Bwere%252Btrying%252Bto%252Bsave%252Bboy%252C%252B7%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsq2tRGJzRidMGIjD4345956hIKLoBLAGR6cACW3vFLmYf6WhVM-2U8ySQAu4HX3IW9mTjz3BtmdBqcSEyBmpjbmRyUloBQw
+Processing trending topic: Minnesota man who killed Democratic lawmaker sentenced to life in US prison
+Searching Google for: Minnesota man who killed Democratic lawmaker sentenced to life in US prison
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMinnesota%252Bman%252Bwho%252Bkilled%252BDemocratic%252Blawmaker%252Bsentenced%252Bto%252Blife%252Bin%252BUS%252Bprison%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVUGM-DitMGIjDjlSX7ASy_kYv3WRRF9WC5zLYCgp3AQNPnhk8AuHk1n1GXfsm9WhiaWqdvVjRMifcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mum-and-daughter-who-died-at-beach-were-trying-to-_20260723_1916.html
-✓ Created comprehensive article: mum-and-daughter-who-died-at-beach-were-trying-to-_20260723_1916.html
+Successfully created file: minnesota-man-who-killed-democratic-lawmaker-sente_20260723_2104.html
+✓ Created comprehensive article: minnesota-man-who-killed-democratic-lawmaker-sente_20260723_2104.html
 
-Processing trending topic: Children wounded in Israeli strike on Khan Younis
-Searching Google for: Children wounded in Israeli strike on Khan Younis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChildren%252Bwounded%252Bin%252BIsraeli%252Bstrike%252Bon%252BKhan%252BYounis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsq2tRGKPRidMGIjDqT0oTtXSLGE-8Z-mFy5yqYTFkdgHcQq4p_jIz-srEtxdVGd4d1yyn3x1HUOIj75oyBmpjbmRyUloBQw
+Processing trending topic: Journalist killed in Mexico after years of exposing corruption
+Searching Google for: Journalist killed in Mexico after years of exposing corruption
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJournalist%252Bkilled%252Bin%252BMexico%252Bafter%252Byears%252Bof%252Bexposing%252Bcorruption%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVUGNWDitMGIjC8gm8x6JNxCnli4ImOzI1-gaGh-l4uFU3mZRUPnIi3xFZfNU0rniHwClfmdcqYZe0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: children-wounded-in-israeli-strike-on-khan-younis_20260723_1916.html
-✓ Created comprehensive article: children-wounded-in-israeli-strike-on-khan-younis_20260723_1916.html
+Successfully created file: journalist-killed-in-mexico-after-years-of-exposin_20260723_2104.html
+✓ Created comprehensive article: journalist-killed-in-mexico-after-years-of-exposin_20260723_2104.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-missed-chance-to-examine-manchester-synagog_20260723_1227.html
-Cleaned old post to keep top 30 limit: oil-surges-past-100-in-a-first-since-may-as-middle_20260723_1724.html
-Cleaned old post to keep top 30 limit: a-game-of-double-standards_20260723_1724.html
+Cleaned old post to keep top 30 limit: world-cup-might-not-be-ours-but-falklands-definite_20260716_1628.html
+Cleaned old post to keep top 30 limit: mum-and-daughter-who-died-at-beach-were-trying-to-_20260723_1916.html
+Cleaned old post to keep top 30 limit: burnham-pauses-plan-to-release-some-prisoners-earl_20260723_1916.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham pauses plan to release some prisoners early from September
+   • Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
      Sources: bbc.com, cnn.com, reuters.com
-   • Mum and daughter who died at beach were trying to save boy, 7
+   • Minnesota man who killed Democratic lawmaker sentenced to life in US prison
      Sources: bbc.com, cnn.com, reuters.com
-   • Children wounded in Israeli strike on Khan Younis
+   • Journalist killed in Mexico after years of exposing corruption
      Sources: bbc.com, cnn.com, reuters.com
