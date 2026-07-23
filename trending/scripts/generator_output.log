@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US signs landmark nuclear deal with Saudi Arabia
-  Added: PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
+  Added: Houthis claim attack on oil tankers as US launches more strikes on Iran
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Health worker monitored for Ebola in London hospital after working in DRC
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-23
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jailed opposition leader Ghannouchi faints in Tunisian prison due to heat
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Five soldiers killed in southern Thailand checkpoint attack
+Added expanded search topic: Jailed opposition leader Ghannouchi faints in Tunisian prison due to heat
+Added expanded search topic: Five soldiers killed in southern Thailand checkpoint attack
+Saved 6 topics for 2026-07-23
 Returning 3 unique trending topics:
-  1. US signs landmark nuclear deal with Saudi Arabia (from BBC News)
-  2. PC Harper's widow criticises early prisoner release plan as Burnham to review scheme (from BBC News)
-  3. Health worker monitored for Ebola in London hospital after working in DRC (from The Guardian)
+  1. Houthis claim attack on oil tankers as US launches more strikes on Iran (from BBC News)
+  2. Jailed opposition leader Ghannouchi faints in Tunisian prison due to heat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Five soldiers killed in southern Thailand checkpoint attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US signs landmark nuclear deal with Saudi Arabia
-Searching Google for: US signs landmark nuclear deal with Saudi Arabia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bsigns%252Blandmark%252Bnuclear%252Bdeal%252Bwith%252BSaudi%252BArabia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd02ZGJS5hdMGIjBUHaccNZvGZ_GWZKqHhFZqcy661JDsbE14xWbrc3V1m8I0Q6i5p3xaLfJ_llgL14UyBmpjbmRyUloBQw
+Processing trending topic: Houthis claim attack on oil tankers as US launches more strikes on Iran
+Searching Google for: Houthis claim attack on oil tankers as US launches more strikes on Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHouthis%252Bclaim%252Battack%252Bon%252Boil%252Btankers%252Bas%252BUS%252Blaunches%252Bmore%252Bstrikes%252Bon%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd2cwGKarhtMGIjC_VYCnC3uSvEI8KB0cSUXyQkKdnceAyQsucXP6HMLK8gPd1A7VSDQLh7xK9qBH4mkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-signs-landmark-nuclear-deal-with-saudi-arabia_20260723_0013.html
-✓ Created comprehensive article: us-signs-landmark-nuclear-deal-with-saudi-arabia_20260723_0013.html
+Successfully created file: houthis-claim-attack-on-oil-tankers-as-us-launches_20260723_0416.html
+✓ Created comprehensive article: houthis-claim-attack-on-oil-tankers-as-us-launches_20260723_0416.html
 
-Processing trending topic: PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
-Searching Google for: PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPC%252BHarper%2527s%252Bwidow%252Bcriticises%252Bearly%252Bprisoner%252Brelease%252Bplan%252Bas%252BBurnham%252Bto%252Breview%252Bscheme%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd02ZGJu5hdMGIjCQp3wkMDa0nAWN67T6S6mvd8orKvwxPXx7TEsfvcbxKDNHtpr86AVSVvSHTFA2Y7IyBmpjbmRyUloBQw
+Processing trending topic: Jailed opposition leader Ghannouchi faints in Tunisian prison due to heat
+Searching Google for: Jailed opposition leader Ghannouchi faints in Tunisian prison due to heat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJailed%252Bopposition%252Bleader%252BGhannouchi%252Bfaints%252Bin%252BTunisian%252Bprison%252Bdue%252Bto%252Bheat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd2cwGKyrhtMGIjDxNlCkU4o2OrcZnUMQGWeniTQtCuEATm-D0kkqchtektYWNtx9HARXEAcNLh191H8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pc-harpers-widow-criticises-early-prisoner-release_20260723_0013.html
-✓ Created comprehensive article: pc-harpers-widow-criticises-early-prisoner-release_20260723_0013.html
+Successfully created file: jailed-opposition-leader-ghannouchi-faints-in-tuni_20260723_0416.html
+✓ Created comprehensive article: jailed-opposition-leader-ghannouchi-faints-in-tuni_20260723_0416.html
 
-Processing trending topic: Health worker monitored for Ebola in London hospital after working in DRC
-Searching Google for: Health worker monitored for Ebola in London hospital after working in DRC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealth%252Bworker%252Bmonitored%252Bfor%252BEbola%252Bin%252BLondon%252Bhospital%252Bafter%252Bworking%252Bin%252BDRC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd02ZGKK5hdMGIjAHrFXTK3ofFqxWyCaZtmSWxZr_b2ai26pOaVQbL-DeRuwQca8DIMY8yIaIQPMtvTsyBmpjbmRyUloBQw
+Processing trending topic: Five soldiers killed in southern Thailand checkpoint attack
+Searching Google for: Five soldiers killed in southern Thailand checkpoint attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Bsoldiers%252Bkilled%252Bin%252Bsouthern%252BThailand%252Bcheckpoint%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd2cwGLOrhtMGIjBp014iIIZ1Nzx1dysae50hWM9gBNVHDZPji8KhCMtnXO0owc90pnqIRa-4avsLu1oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: health-worker-monitored-for-ebola-in-london-hospit_20260723_0013.html
-✓ Created comprehensive article: health-worker-monitored-for-ebola-in-london-hospit_20260723_0013.html
+Successfully created file: five-soldiers-killed-in-southern-thailand-checkpoi_20260723_0416.html
+✓ Created comprehensive article: five-soldiers-killed-in-southern-thailand-checkpoi_20260723_0416.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: rubio-says-us-china-must-work-through-big-differen_20260722_2304.html
-Cleaned old post to keep top 30 limit: rabat-demands-answers-after-moroccan-man-dies-duri_20260722_0828.html
-Cleaned old post to keep top 30 limit: austrian-home-where-hitler-was-born-reopened-as-po_20260722_2304.html
+Cleaned old post to keep top 30 limit: irans-judiciary-warns-against-infiltrators-announc_20260722_1720.html
+Cleaned old post to keep top 30 limit: pc-harpers-widow-criticises-early-prisoner-release_20260723_0013.html
+Cleaned old post to keep top 30 limit: health-worker-monitored-for-ebola-in-london-hospit_20260723_0013.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US signs landmark nuclear deal with Saudi Arabia
+   • Houthis claim attack on oil tankers as US launches more strikes on Iran
      Sources: bbc.com, cnn.com, reuters.com
-   • PC Harper's widow criticises early prisoner release plan as Burnham to review scheme
+   • Jailed opposition leader Ghannouchi faints in Tunisian prison due to heat
      Sources: bbc.com, cnn.com, reuters.com
-   • Health worker monitored for Ebola in London hospital after working in DRC
+   • Five soldiers killed in southern Thailand checkpoint attack
      Sources: bbc.com, cnn.com, reuters.com
