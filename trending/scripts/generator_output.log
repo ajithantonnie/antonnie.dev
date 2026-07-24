@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US imposes tariffs on dozens of trade partners, citing forced labour concerns
-  Added: PM to spend first day working from northern branch of No 10
+  Added: France orders evacuation of tourist spot as hundreds flee wildfires by boat
+  Added: US hits dozens of trading partners with new wave of tariffs
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine beheads its military as its performance begins to soar
-Added expanded search topic: Ukraine beheads its military as its performance begins to soar
-Saved 6 topics for 2026-07-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US attacks Iran as Houthis allow Chinese ships to pass: What’s the latest?
+Added expanded search topic: US attacks Iran as Houthis allow Chinese ships to pass: What’s the latest?
+Saved 9 topics for 2026-07-24
 Returning 3 unique trending topics:
-  1. US imposes tariffs on dozens of trade partners, citing forced labour concerns (from BBC News)
-  2. PM to spend first day working from northern branch of No 10 (from BBC News)
-  3. Ukraine beheads its military as its performance begins to soar (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. France orders evacuation of tourist spot as hundreds flee wildfires by boat (from BBC News)
+  2. US hits dozens of trading partners with new wave of tariffs (from BBC News)
+  3. US attacks Iran as Houthis allow Chinese ships to pass: What’s the latest? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US imposes tariffs on dozens of trade partners, citing forced labour concerns
-Searching Google for: US imposes tariffs on dozens of trade partners, citing forced labour concerns
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: France orders evacuation of tourist spot as hundreds flee wildfires by boat
+Searching Google for: France orders evacuation of tourist spot as hundreds flee wildfires by boat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Borders%252Bevacuation%252Bof%252Btourist%252Bspot%252Bas%252Bhundreds%252Bflee%252Bwildfires%252Bby%252Bboat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc-R2GJjEjNMGIjBcCHeaKalLfasTV_ZTBtPCNNisFl4UBHgR2xwtWEKWqB06HF8cICQiCCU4SncQvAQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-imposes-tariffs-on-dozens-of-trade-partners-cit_20260724_0555.html
-✓ Created comprehensive article: us-imposes-tariffs-on-dozens-of-trade-partners-cit_20260724_0555.html
+Successfully created file: france-orders-evacuation-of-tourist-spot-as-hundre_20260724_0828.html
+✓ Created comprehensive article: france-orders-evacuation-of-tourist-spot-as-hundre_20260724_0828.html
 
-Processing trending topic: PM to spend first day working from northern branch of No 10
-Searching Google for: PM to spend first day working from northern branch of No 10
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252Bto%252Bspend%252Bfirst%252Bday%252Bworking%252Bfrom%252Bnorthern%252Bbranch%252Bof%252BNo%252B10%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNV-diGPj8i9MGIjBDOxpIA15qyrPqs0_Ivo1oxLWUGvDhGcI9UaXXJ17A7DgzN0PHxsoM6U3upKBPu4MyBmpjbmRyUloBQw
+Processing trending topic: US hits dozens of trading partners with new wave of tariffs
+Searching Google for: US hits dozens of trading partners with new wave of tariffs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bhits%252Bdozens%252Bof%252Btrading%252Bpartners%252Bwith%252Bnew%252Bwave%252Bof%252Btariffs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc-R2GJ_EjNMGIjCshjb6O7WVAvjAHjYDwK0OxdD1AQdN1AMHxUleAfUAgEMoVAW1j-54YpQK-eFiEtUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pm-to-spend-first-day-working-from-northern-branch_20260724_0556.html
-✓ Created comprehensive article: pm-to-spend-first-day-working-from-northern-branch_20260724_0556.html
+Successfully created file: us-hits-dozens-of-trading-partners-with-new-wave-o_20260724_0828.html
+✓ Created comprehensive article: us-hits-dozens-of-trading-partners-with-new-wave-o_20260724_0828.html
 
-Processing trending topic: Ukraine beheads its military as its performance begins to soar
-Searching Google for: Ukraine beheads its military as its performance begins to soar
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bbeheads%252Bits%252Bmilitary%252Bas%252Bits%252Bperformance%252Bbegins%252Bto%252Bsoar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNV-diGP78i9MGIjAvc-7Mn_7XgIOkA_xGcf1mGIBeW2XFPM5w4luH1JnE4P4IM3HPMVgMHMW4P1ApHkkyBmpjbmRyUloBQw
+Processing trending topic: US attacks Iran as Houthis allow Chinese ships to pass: What’s the latest?
+Searching Google for: US attacks Iran as Houthis allow Chinese ships to pass: What’s the latest?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Battacks%252BIran%252Bas%252BHouthis%252Ballow%252BChinese%252Bships%252Bto%252Bpass%253A%252BWhat%25E2%2580%2599s%252Bthe%252Blatest%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc-R2GKXEjNMGIjAn2IVFC-rsDEqKhDfebqcEjlG6E6Y33y9S2iAkQAF7j4sXFpoVdDe-6PAaUrAPaOIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ukraine-beheads-its-military-as-its-performance-be_20260724_0556.html
-✓ Created comprehensive article: ukraine-beheads-its-military-as-its-performance-be_20260724_0556.html
+Successfully created file: us-attacks-iran-as-houthis-allow-chinese-ships-to-_20260724_0828.html
+✓ Created comprehensive article: us-attacks-iran-as-houthis-allow-chinese-ships-to-_20260724_0828.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: two-russian-men-jailed-in-angola-for-terrorism-and_20260724_0301.html
-Cleaned old post to keep top 30 limit: how-the-houthi-red-sea-blockade-will-impact-the-wo_20260724_0001.html
-Cleaned old post to keep top 30 limit: burnham-pauses-plan-to-release-some-prisoners-earl_20260724_0301.html
+Cleaned old post to keep top 30 limit: yemens-houthis-claim-attack-on-two-saudi-oil-tanke_20260722_2304.html
+Cleaned old post to keep top 30 limit: ukraine-beheads-its-military-as-its-performance-be_20260724_0556.html
+Cleaned old post to keep top 30 limit: pm-to-spend-first-day-working-from-northern-branch_20260724_0556.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US imposes tariffs on dozens of trade partners, citing forced labour concerns
+   • France orders evacuation of tourist spot as hundreds flee wildfires by boat
      Sources: bbc.com, cnn.com, reuters.com
-   • PM to spend first day working from northern branch of No 10
+   • US hits dozens of trading partners with new wave of tariffs
      Sources: bbc.com, cnn.com, reuters.com
-   • Ukraine beheads its military as its performance begins to soar
+   • US attacks Iran as Houthis allow Chinese ships to pass: What’s the latest?
      Sources: bbc.com, cnn.com, reuters.com
