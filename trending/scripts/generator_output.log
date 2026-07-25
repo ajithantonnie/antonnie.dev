@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Tourists tell BBC how their holiday turned into race to escape fires
   Added: Police investigate donations by Tice company to Reform UK
+  Added: More than 250,000 flee wildfires in France and Spain
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,60 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Battle Over Al-Aqsa
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
-Added expanded search topic: The Battle Over Al-Aqsa
-Added expanded search topic: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
-Saved 24 topics for 2026-07-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s government spars with state TV as mediators push talks with US
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Worker dies during reconstruction of Barcelona’s Camp Nou Stadium
+Added expanded search topic: Iran’s government spars with state TV as mediators push talks with US
+Added expanded search topic: Worker dies during reconstruction of Barcelona’s Camp Nou Stadium
+Saved 27 topics for 2026-07-25
 Returning 3 unique trending topics:
-  1. Police investigate donations by Tice company to Reform UK (from BBC News)
-  2. The Battle Over Al-Aqsa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran blames US for Hormuz dispute as both sides confirm ongoing talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. More than 250,000 flee wildfires in France and Spain (from BBC News)
+  2. Iran’s government spars with state TV as mediators push talks with US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Worker dies during reconstruction of Barcelona’s Camp Nou Stadium (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police investigate donations by Tice company to Reform UK
-Searching Google for: Police investigate donations by Tice company to Reform UK
-Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Request error for https://cnn.com/news: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-investigate-donations-by-tice-company-to-re_20260725_1612.html
-✓ Created comprehensive article: police-investigate-donations-by-tice-company-to-re_20260725_1612.html
-
-Processing trending topic: The Battle Over Al-Aqsa
-Searching Google for: The Battle Over Al-Aqsa
-Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Processing trending topic: More than 250,000 flee wildfires in France and Spain
+Searching Google for: More than 250,000 flee wildfires in France and Spain
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B250%252C000%252Bflee%252Bwildfires%252Bin%252BFrance%252Band%252BSpain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAZFGObzk9MGIjC_A6AAat9xxwj9Ncd7z01KEj4SdzzzKf0qQdD1BWuSRC0Xpd_UQwL3wocZgPN784syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-battle-over-al-aqsa_20260725_1613.html
-✓ Created comprehensive article: the-battle-over-al-aqsa_20260725_1613.html
+Successfully created file: more-than-250000-flee-wildfires-in-france-and-spai_20260725_1801.html
+✓ Created comprehensive article: more-than-250000-flee-wildfires-in-france-and-spai_20260725_1801.html
 
-Processing trending topic: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
-Searching Google for: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
-Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Processing trending topic: Iran’s government spars with state TV as mediators push talks with US
+Searching Google for: Iran’s government spars with state TV as mediators push talks with US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Bgovernment%252Bspars%252Bwith%252Bstate%252BTV%252Bas%252Bmediators%252Bpush%252Btalks%252Bwith%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAZFGO3zk9MGIjBKPoaYQunyLbtXJGnRtppS5ZHTROQdZkupQ9sm3TF6N3S3GpNBt0ss28gudDwi738yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-blames-us-for-hormuz-dispute-as-both-sides-co_20260725_1613.html
-✓ Created comprehensive article: iran-blames-us-for-hormuz-dispute-as-both-sides-co_20260725_1613.html
+Successfully created file: irans-government-spars-with-state-tv-as-mediators-_20260725_1801.html
+✓ Created comprehensive article: irans-government-spars-with-state-tv-as-mediators-_20260725_1801.html
+
+Processing trending topic: Worker dies during reconstruction of Barcelona’s Camp Nou Stadium
+Searching Google for: Worker dies during reconstruction of Barcelona’s Camp Nou Stadium
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorker%252Bdies%252Bduring%252Breconstruction%252Bof%252BBarcelona%25E2%2580%2599s%252BCamp%252BNou%252BStadium%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAZFGPTzk9MGIjDktZQA8J8pfk_xxpFdpG_dEG74AnbzNF0aOogo0m6XZh0qvNFOuyuOUJCJB6ATICgyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: worker-dies-during-reconstruction-of-barcelonas-ca_20260725_1801.html
+✓ Created comprehensive article: worker-dies-during-reconstruction-of-barcelonas-ca_20260725_1801.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: xai-sues-user-for-exploiting-ai-tool-to-sexualise-_20260715_2200.html
-Cleaned old post to keep top 30 limit: the-global-south-is-being-forced-to-choose-credito_20260725_1503.html
-Cleaned old post to keep top 30 limit: atletico-madrid-sign-south-korea-world-cup-star-le_20260725_1503.html
+Cleaned old post to keep top 30 limit: whats-behind-the-icc-investigation-into-karim-khan_20260725_1324.html
+Cleaned old post to keep top 30 limit: the-battle-over-al-aqsa_20260725_1613.html
+Cleaned old post to keep top 30 limit: iran-blames-us-for-hormuz-dispute-as-both-sides-co_20260725_1613.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police investigate donations by Tice company to Reform UK
+   • More than 250,000 flee wildfires in France and Spain
      Sources: bbc.com, cnn.com, reuters.com
-   • The Battle Over Al-Aqsa
+   • Iran’s government spars with state TV as mediators push talks with US
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran blames US for Hormuz dispute as both sides confirm ongoing talks
+   • Worker dies during reconstruction of Barcelona’s Camp Nou Stadium
      Sources: bbc.com, cnn.com, reuters.com
