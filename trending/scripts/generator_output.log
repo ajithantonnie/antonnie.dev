@@ -1,71 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: More than 220,000 evacuated in France and Spain due to wildfires
-  Added: Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
+  Added: How the mystery of dead animals dumped in villages led to a hidden world of illegal hunts
+  Added: Trump takes swipes at press during White House Correspondents' Dinner
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump: ‘I’m running for a fourth term as President of the United States’
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
-Added expanded search topic: Trump: ‘I’m running for a fourth term as President of the United States’
-Added expanded search topic: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
-Saved 9 topics for 2026-07-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel arrests dozens of Palestinians in West Bank amid settler attacks
+Added expanded search topic: Israel arrests dozens of Palestinians in West Bank amid settler attacks
+Saved 12 topics for 2026-07-25
 Returning 3 unique trending topics:
-  1. Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts (from BBC News)
-  2. Trump: ‘I’m running for a fourth term as President of the United States’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. How the mystery of dead animals dumped in villages led to a hidden world of illegal hunts (from BBC News)
+  2. Trump takes swipes at press during White House Correspondents' Dinner (from BBC News)
+  3. Israel arrests dozens of Palestinians in West Bank amid settler attacks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
-Searching Google for: Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGangs%252C%252Bviolence%252Band%252Bdumped%252Bdead%252Banimals%253A%252BThe%252Bhidden%252Bworld%252Bof%252Billegal%252Bhare%252Bhunts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcWGNbFkdMGIjC99tUVZmS6z2vj_9gVzYvFK1ITI24SjvKDFav0a_JiPfRqQxe_07PkmpxzZoD5kvUyBmpjbmRyUloBQw
+Processing trending topic: How the mystery of dead animals dumped in villages led to a hidden world of illegal hunts
+Searching Google for: How the mystery of dead animals dumped in villages led to a hidden world of illegal hunts
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gangs-violence-and-dumped-dead-animals-the-hidden-_20260725_0716.html
-✓ Created comprehensive article: gangs-violence-and-dumped-dead-animals-the-hidden-_20260725_0716.html
+Successfully created file: how-the-mystery-of-dead-animals-dumped-in-villages_20260725_0946.html
+✓ Created comprehensive article: how-the-mystery-of-dead-animals-dumped-in-villages_20260725_0946.html
 
-Processing trending topic: Trump: ‘I’m running for a fourth term as President of the United States’
-Searching Google for: Trump: ‘I’m running for a fourth term as President of the United States’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%253A%252B%25E2%2580%2598I%25E2%2580%2599m%252Brunning%252Bfor%252Ba%252Bfourth%252Bterm%252Bas%252BPresident%252Bof%252Bthe%252BUnited%252BStates%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcWGN3FkdMGIjCZZefHchrPSpGlvCIHaApkGDhjcRgG_i_VhW8Opsa0n48eZ2L7o5st17OYfAp2h1EyBmpjbmRyUloBQw
+Processing trending topic: Trump takes swipes at press during White House Correspondents' Dinner
+Searching Google for: Trump takes swipes at press during White House Correspondents' Dinner
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btakes%252Bswipes%252Bat%252Bpress%252Bduring%252BWhite%252BHouse%252BCorrespondents%2527%252BDinner%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNVoyUGNqMktMGIjBbgVa9IpPbz671Pt8Yo_LFKuaLiN3aR9VQYdenK7M-UA2a7RAI7fvWFYHDO6r5EOkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-im-running-for-a-fourth-term-as-president-of_20260725_0716.html
-✓ Created comprehensive article: trump-im-running-for-a-fourth-term-as-president-of_20260725_0716.html
+Successfully created file: trump-takes-swipes-at-press-during-white-house-cor_20260725_0948.html
+✓ Created comprehensive article: trump-takes-swipes-at-press-during-white-house-cor_20260725_0948.html
 
-Processing trending topic: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
-Searching Google for: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCommonwealth%252BGames%253A%252BGymnast%252BLangton%25E2%2580%2599s%252Bheadfirst%252Bcrash%252Bleads%252Bto%252Bconcussion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcWGOPFkdMGIjBk-ozWpw4-0NDCIiMvbbheIhsh1E03Jlp9Ro4orG1KUbmTx5LdHTOa1LWX002JYZcyBmpjbmRyUloBQw
+Processing trending topic: Israel arrests dozens of Palestinians in West Bank amid settler attacks
+Searching Google for: Israel arrests dozens of Palestinians in West Bank amid settler attacks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Barrests%252Bdozens%252Bof%252BPalestinians%252Bin%252BWest%252BBank%252Bamid%252Bsettler%252Battacks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNVoyUGOCMktMGIjA9l3sFnJro5Zwq-wa8uq1eXWPkUULgvRIgi6cd7S3RBbUCPyy9qsiMu5stHb77CuYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: commonwealth-games-gymnast-langtons-headfirst-cras_20260725_0716.html
-✓ Created comprehensive article: commonwealth-games-gymnast-langtons-headfirst-cras_20260725_0716.html
+Successfully created file: israel-arrests-dozens-of-palestinians-in-west-bank_20260725_0948.html
+✓ Created comprehensive article: israel-arrests-dozens-of-palestinians-in-west-bank_20260725_0948.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: world-cup-hero-rodri-to-undergo-back-surgery-befor_20260724_1526.html
-Cleaned old post to keep top 30 limit: police-declare-major-incident-as-wind-change-incre_20260725_0411.html
-Cleaned old post to keep top 30 limit: israeli-settlers-escalate-attacks-on-palestinians-_20260724_2104.html
+Cleaned old post to keep top 30 limit: the-show-must-go-on-trump-returns-to-rescheduled-w_20260725_0411.html
+Cleaned old post to keep top 30 limit: gangs-violence-and-dumped-dead-animals-the-hidden-_20260725_0716.html
+Cleaned old post to keep top 30 limit: commonwealth-games-gymnast-langtons-headfirst-cras_20260725_0716.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
+   • How the mystery of dead animals dumped in villages led to a hidden world of illegal hunts
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump: ‘I’m running for a fourth term as President of the United States’
+   • Trump takes swipes at press during White House Correspondents' Dinner
      Sources: bbc.com, cnn.com, reuters.com
-   • Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
+   • Israel arrests dozens of Palestinians in West Bank amid settler attacks
      Sources: bbc.com, cnn.com, reuters.com
