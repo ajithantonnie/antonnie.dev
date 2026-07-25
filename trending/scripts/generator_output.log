@@ -1,73 +1,72 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Tourists tell BBC how their holiday turned into race to escape fires
-  Added: Police declare 'major incident' over Cairngorms wildfire
+  Added: Police investigate donations by Tice company to Reform UK
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Global South is being forced to choose creditors over children
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: War on Iran: Phase II: Day 14
-Added expanded search topic: The Global South is being forced to choose creditors over children
-Added expanded search topic: Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG
-Added expanded search topic: War on Iran: Phase II: Day 14
-Saved 21 topics for 2026-07-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Battle Over Al-Aqsa
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
+Added expanded search topic: The Battle Over Al-Aqsa
+Added expanded search topic: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
+Saved 24 topics for 2026-07-25
 Returning 3 unique trending topics:
-  1. The Global South is being forced to choose creditors over children (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. War on Iran: Phase II: Day 14 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Police investigate donations by Tice company to Reform UK (from BBC News)
+  2. The Battle Over Al-Aqsa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran blames US for Hormuz dispute as both sides confirm ongoing talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: The Global South is being forced to choose creditors over children
-Searching Google for: The Global South is being forced to choose creditors over children
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BGlobal%252BSouth%252Bis%252Bbeing%252Bforced%252Bto%252Bchoose%252Bcreditors%252Bover%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63ViGLegk9MGIjBJrr-UZpei5P9HaIquV2Iw_GUn_t4rv8ItOMSJrSaL84DBtp8_gOFrgOjzYcGZB8EyBmpjbmRyUloBQw
+Processing trending topic: Police investigate donations by Tice company to Reform UK
+Searching Google for: Police investigate donations by Tice company to Reform UK
+Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Request error for https://cnn.com/news: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: police-investigate-donations-by-tice-company-to-re_20260725_1612.html
+✓ Created comprehensive article: police-investigate-donations-by-tice-company-to-re_20260725_1612.html
+
+Processing trending topic: The Battle Over Al-Aqsa
+Searching Google for: The Battle Over Al-Aqsa
+Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-global-south-is-being-forced-to-choose-credito_20260725_1503.html
-✓ Created comprehensive article: the-global-south-is-being-forced-to-choose-credito_20260725_1503.html
+Successfully created file: the-battle-over-al-aqsa_20260725_1613.html
+✓ Created comprehensive article: the-battle-over-al-aqsa_20260725_1613.html
 
-Processing trending topic: Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG
-Searching Google for: Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAtletico%252BMadrid%252Bsign%252BSouth%252BKorea%252BWorld%252BCup%252Bstar%252BLee%252BKang-In%252Bfrom%252BPSG%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63ViGL6gk9MGIjDjJrHliNGQgEDPfqWfjJRmIV_erbq4SLMLIII6eFgp8u6DOqXnSasU02p1F_UOul8yBmpjbmRyUloBQw
+Processing trending topic: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
+Searching Google for: Iran blames US for Hormuz dispute as both sides confirm ongoing talks
+Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: atletico-madrid-sign-south-korea-world-cup-star-le_20260725_1503.html
-✓ Created comprehensive article: atletico-madrid-sign-south-korea-world-cup-star-le_20260725_1503.html
-
-Processing trending topic: War on Iran: Phase II: Day 14
-Searching Google for: War on Iran: Phase II: Day 14
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWar%252Bon%252BIran%253A%252BPhase%252BII%253A%252BDay%252B14%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK63ViGMSgk9MGIjBlHD8hrJpyvSSshHQ6ypEG3YSbLGLOD9zNESP8TDe_Q8_NupBNqwi0sOQT8e0yEr4yBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: war-on-iran-phase-ii-day-14_20260725_1503.html
-✓ Created comprehensive article: war-on-iran-phase-ii-day-14_20260725_1503.html
+Successfully created file: iran-blames-us-for-hormuz-dispute-as-both-sides-co_20260725_1613.html
+✓ Created comprehensive article: iran-blames-us-for-hormuz-dispute-as-both-sides-co_20260725_1613.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: more-than-220000-evacuated-in-france-and-spain-due_20260725_0411.html
-Cleaned old post to keep top 30 limit: tourists-tell-bbc-how-their-holiday-turned-into-ra_20260725_1324.html
-Cleaned old post to keep top 30 limit: f1-needs-better-balance-between-business-and-sport_20260725_1324.html
+Cleaned old post to keep top 30 limit: xai-sues-user-for-exploiting-ai-tool-to-sexualise-_20260715_2200.html
+Cleaned old post to keep top 30 limit: the-global-south-is-being-forced-to-choose-credito_20260725_1503.html
+Cleaned old post to keep top 30 limit: atletico-madrid-sign-south-korea-world-cup-star-le_20260725_1503.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • The Global South is being forced to choose creditors over children
+   • Police investigate donations by Tice company to Reform UK
      Sources: bbc.com, cnn.com, reuters.com
-   • Atletico Madrid sign South Korea World Cup star Lee Kang-In from PSG
+   • The Battle Over Al-Aqsa
      Sources: bbc.com, cnn.com, reuters.com
-   • War on Iran: Phase II: Day 14
+   • Iran blames US for Hormuz dispute as both sides confirm ongoing talks
      Sources: bbc.com, cnn.com, reuters.com
