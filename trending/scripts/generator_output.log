@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Tourists tell BBC how their holiday turned into race to escape fires
   Added: How the mystery of dead animals dumped in villages led to a hidden world of illegal hunts
-  Added: Police declare 'major incident' over Cairngorms wildfire
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How Volker Turk won a new term as UN rights chief despite Israel opposition
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India’s education minister resigns after weeks of ‘Cockroach’ protests
-Added expanded search topic: How Volker Turk won a new term as UN rights chief despite Israel opposition
-Added expanded search topic: India’s education minister resigns after weeks of ‘Cockroach’ protests
-Saved 15 topics for 2026-07-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: F1 needs better balance between business and sport, says Norris
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s behind the ICC investigation into Karim Khan?
+Added expanded search topic: F1 needs better balance between business and sport, says Norris
+Added expanded search topic: What’s behind the ICC investigation into Karim Khan?
+Saved 18 topics for 2026-07-25
 Returning 3 unique trending topics:
-  1. Police declare 'major incident' over Cairngorms wildfire (from BBC News)
-  2. How Volker Turk won a new term as UN rights chief despite Israel opposition (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. India’s education minister resigns after weeks of ‘Cockroach’ protests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Tourists tell BBC how their holiday turned into race to escape fires (from BBC News)
+  2. F1 needs better balance between business and sport, says Norris (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What’s behind the ICC investigation into Karim Khan? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police declare 'major incident' over Cairngorms wildfire
-Searching Google for: Police declare 'major incident' over Cairngorms wildfire
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bdeclare%252B%2527major%252Bincident%2527%252Bover%252BCairngorms%252Bwildfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgiGOGzktMGIjCj1VpLPUMSVL10lMPqrYLHnSchWrDPBnquxLmabjJ1B2JAIV1-Q1OKrHSP8Ykez6IyBmpjbmRyUloBQw
+Processing trending topic: Tourists tell BBC how their holiday turned into race to escape fires
+Searching Google for: Tourists tell BBC how their holiday turned into race to escape fires
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTourists%252Btell%252BBBC%252Bhow%252Btheir%252Bholiday%252Bturned%252Binto%252Brace%252Bto%252Bescape%252Bfires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsMkGO_xktMGIjCM8DEWvxCOfR-CZlm8WRMLCB1qLCIUhzeXaPlfUy79kz_2Tz-7Nhd1r8V325-XdL4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-declare-major-incident-over-cairngorms-wild_20260725_1111.html
-✓ Created comprehensive article: police-declare-major-incident-over-cairngorms-wild_20260725_1111.html
+Successfully created file: tourists-tell-bbc-how-their-holiday-turned-into-ra_20260725_1324.html
+✓ Created comprehensive article: tourists-tell-bbc-how-their-holiday-turned-into-ra_20260725_1324.html
 
-Processing trending topic: How Volker Turk won a new term as UN rights chief despite Israel opposition
-Searching Google for: How Volker Turk won a new term as UN rights chief despite Israel opposition
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BVolker%252BTurk%252Bwon%252Ba%252Bnew%252Bterm%252Bas%252BUN%252Brights%252Bchief%252Bdespite%252BIsrael%252Bopposition%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgiGOizktMGIjD1meE3BnPGklAivd9yhtCPNvYl4qIbWs4vp30iz9PKRrj81339TkADAztTA6RPba8yBmpjbmRyUloBQw
+Processing trending topic: F1 needs better balance between business and sport, says Norris
+Searching Google for: F1 needs better balance between business and sport, says Norris
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DF1%252Bneeds%252Bbetter%252Bbalance%252Bbetween%252Bbusiness%252Band%252Bsport%252C%252Bsays%252BNorris%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsMkGPbxktMGIjBzNUiJY9njTzpLtClOcLhAknzcOU6VX210A2NXTQ_MNZiNreR07fTeBdIehIqEPnwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-volker-turk-won-a-new-term-as-un-rights-chief-_20260725_1111.html
-✓ Created comprehensive article: how-volker-turk-won-a-new-term-as-un-rights-chief-_20260725_1111.html
+Successfully created file: f1-needs-better-balance-between-business-and-sport_20260725_1324.html
+✓ Created comprehensive article: f1-needs-better-balance-between-business-and-sport_20260725_1324.html
 
-Processing trending topic: India’s education minister resigns after weeks of ‘Cockroach’ protests
-Searching Google for: India’s education minister resigns after weeks of ‘Cockroach’ protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%25E2%2580%2599s%252Beducation%252Bminister%252Bresigns%252Bafter%252Bweeks%252Bof%252B%25E2%2580%2598Cockroach%25E2%2580%2599%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ07hgiGO6zktMGIjCDZbGRul8CLjy550CUFVXfljtCt8bQJ8TEvPh5iA52QFwFvjBiu9EXfdXXGZn3qUcyBmpjbmRyUloBQw
+Processing trending topic: What’s behind the ICC investigation into Karim Khan?
+Searching Google for: What’s behind the ICC investigation into Karim Khan?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bbehind%252Bthe%252BICC%252Binvestigation%252Binto%252BKarim%252BKhan%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsMkGP3xktMGIjAJVKU9ko5YJlWkLe1QI4nVgH8WCBp0mrb44yse-NPnIhCujWWCexqhwd-iVk4f2DoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: indias-education-minister-resigns-after-weeks-of-c_20260725_1111.html
-✓ Created comprehensive article: indias-education-minister-resigns-after-weeks-of-c_20260725_1111.html
+Successfully created file: whats-behind-the-icc-investigation-into-karim-khan_20260725_1324.html
+✓ Created comprehensive article: whats-behind-the-icc-investigation-into-karim-khan_20260725_1324.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israel-arrests-dozens-of-palestinians-in-west-bank_20260725_0948.html
-Cleaned old post to keep top 30 limit: trump-takes-swipes-at-press-during-white-house-cor_20260725_0948.html
-Cleaned old post to keep top 30 limit: how-the-mystery-of-dead-animals-dumped-in-villages_20260725_0946.html
+Cleaned old post to keep top 30 limit: indias-education-minister-resigns-after-weeks-of-c_20260725_1111.html
+Cleaned old post to keep top 30 limit: police-declare-major-incident-over-cairngorms-wild_20260725_1111.html
+Cleaned old post to keep top 30 limit: how-volker-turk-won-a-new-term-as-un-rights-chief-_20260725_1111.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police declare 'major incident' over Cairngorms wildfire
+   • Tourists tell BBC how their holiday turned into race to escape fires
      Sources: bbc.com, cnn.com, reuters.com
-   • How Volker Turk won a new term as UN rights chief despite Israel opposition
+   • F1 needs better balance between business and sport, says Norris
      Sources: bbc.com, cnn.com, reuters.com
-   • India’s education minister resigns after weeks of ‘Cockroach’ protests
+   • What’s behind the ICC investigation into Karim Khan?
      Sources: bbc.com, cnn.com, reuters.com
