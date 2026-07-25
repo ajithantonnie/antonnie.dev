@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More than 220,000 evacuated in France and Spain due to wildfires
-  Added: Police declare 'major incident' as wind change increases Cairngorms wildfire risk
+  Added: Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘The show must go on’: Trump returns to rescheduled White House press gala
-Added expanded search topic: ‘The show must go on’: Trump returns to rescheduled White House press gala
-Saved 6 topics for 2026-07-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump: ‘I’m running for a fourth term as President of the United States’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
+Added expanded search topic: Trump: ‘I’m running for a fourth term as President of the United States’
+Added expanded search topic: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
+Saved 9 topics for 2026-07-25
 Returning 3 unique trending topics:
-  1. More than 220,000 evacuated in France and Spain due to wildfires (from BBC News)
-  2. Police declare 'major incident' as wind change increases Cairngorms wildfire risk (from BBC News)
-  3. ‘The show must go on’: Trump returns to rescheduled White House press gala (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts (from BBC News)
+  2. Trump: ‘I’m running for a fourth term as President of the United States’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: More than 220,000 evacuated in France and Spain due to wildfires
-Searching Google for: More than 220,000 evacuated in France and Spain due to wildfires
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B220%252C000%252Bevacuated%252Bin%252BFrance%252Band%252BSpain%252Bdue%252Bto%252Bwildfires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeObDGObukNMGIjDuh43exoPsPQBCbN5NkeLiRAQe365jpDbqQmiG_MELlT_8xv8w2lUE33FlsRcF_KwyBmpjbmRyUloBQw
+Processing trending topic: Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
+Searching Google for: Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGangs%252C%252Bviolence%252Band%252Bdumped%252Bdead%252Banimals%253A%252BThe%252Bhidden%252Bworld%252Bof%252Billegal%252Bhare%252Bhunts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcWGNbFkdMGIjC99tUVZmS6z2vj_9gVzYvFK1ITI24SjvKDFav0a_JiPfRqQxe_07PkmpxzZoD5kvUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-220000-evacuated-in-france-and-spain-due_20260725_0411.html
-✓ Created comprehensive article: more-than-220000-evacuated-in-france-and-spain-due_20260725_0411.html
+Successfully created file: gangs-violence-and-dumped-dead-animals-the-hidden-_20260725_0716.html
+✓ Created comprehensive article: gangs-violence-and-dumped-dead-animals-the-hidden-_20260725_0716.html
 
-Processing trending topic: Police declare 'major incident' as wind change increases Cairngorms wildfire risk
-Searching Google for: Police declare 'major incident' as wind change increases Cairngorms wildfire risk
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bdeclare%252B%2527major%252Bincident%2527%252Bas%252Bwind%252Bchange%252Bincreases%252BCairngorms%252Bwildfire%252Brisk%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeObDGO3ukNMGIjCtglB51hrR5FXkAjfDElDq0sOEyP1kbAdidzLahpUnWFKerHTyNE1TdqxaHjcjoQAyBmpjbmRyUloBQw
+Processing trending topic: Trump: ‘I’m running for a fourth term as President of the United States’
+Searching Google for: Trump: ‘I’m running for a fourth term as President of the United States’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%253A%252B%25E2%2580%2598I%25E2%2580%2599m%252Brunning%252Bfor%252Ba%252Bfourth%252Bterm%252Bas%252BPresident%252Bof%252Bthe%252BUnited%252BStates%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcWGN3FkdMGIjCZZefHchrPSpGlvCIHaApkGDhjcRgG_i_VhW8Opsa0n48eZ2L7o5st17OYfAp2h1EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-declare-major-incident-as-wind-change-incre_20260725_0411.html
-✓ Created comprehensive article: police-declare-major-incident-as-wind-change-incre_20260725_0411.html
+Successfully created file: trump-im-running-for-a-fourth-term-as-president-of_20260725_0716.html
+✓ Created comprehensive article: trump-im-running-for-a-fourth-term-as-president-of_20260725_0716.html
 
-Processing trending topic: ‘The show must go on’: Trump returns to rescheduled White House press gala
-Searching Google for: ‘The show must go on’: Trump returns to rescheduled White House press gala
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598The%252Bshow%252Bmust%252Bgo%252Bon%25E2%2580%2599%253A%252BTrump%252Breturns%252Bto%252Brescheduled%252BWhite%252BHouse%252Bpress%252Bgala%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeObDGPPukNMGIjBUWhJ7MBaGLp94zHD_n14JTjR-QrNpijHG-kPdOQ1XXa5Y1eTQiuEtLBYiMhlvc6oyBmpjbmRyUloBQw
+Processing trending topic: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
+Searching Google for: Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCommonwealth%252BGames%253A%252BGymnast%252BLangton%25E2%2580%2599s%252Bheadfirst%252Bcrash%252Bleads%252Bto%252Bconcussion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcWGOPFkdMGIjBk-ozWpw4-0NDCIiMvbbheIhsh1E03Jlp9Ro4orG1KUbmTx5LdHTOa1LWX002JYZcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-show-must-go-on-trump-returns-to-rescheduled-w_20260725_0411.html
-✓ Created comprehensive article: the-show-must-go-on-trump-returns-to-rescheduled-w_20260725_0411.html
+Successfully created file: commonwealth-games-gymnast-langtons-headfirst-cras_20260725_0716.html
+✓ Created comprehensive article: commonwealth-games-gymnast-langtons-headfirst-cras_20260725_0716.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: paramount-agrees-to-pause-warner-bros-deal-while-c_20260724_2217.html
-Cleaned old post to keep top 30 limit: firefighters-struggle-to-contain-madrid-wildfires-_20260725_0006.html
-Cleaned old post to keep top 30 limit: two-russian-men-jailed-in-angola-for-terrorism-and_20260725_0006.html
+Cleaned old post to keep top 30 limit: world-cup-hero-rodri-to-undergo-back-surgery-befor_20260724_1526.html
+Cleaned old post to keep top 30 limit: police-declare-major-incident-as-wind-change-incre_20260725_0411.html
+Cleaned old post to keep top 30 limit: israeli-settlers-escalate-attacks-on-palestinians-_20260724_2104.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • More than 220,000 evacuated in France and Spain due to wildfires
+   • Gangs, violence and dumped dead animals: The hidden world of illegal hare hunts
      Sources: bbc.com, cnn.com, reuters.com
-   • Police declare 'major incident' as wind change increases Cairngorms wildfire risk
+   • Trump: ‘I’m running for a fourth term as President of the United States’
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘The show must go on’: Trump returns to rescheduled White House press gala
+   • Commonwealth Games: Gymnast Langton’s headfirst crash leads to concussion
      Sources: bbc.com, cnn.com, reuters.com
