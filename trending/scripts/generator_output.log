@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Firefighters struggle to contain Madrid wildfires, as more than 140,000 evacuated in France and S...
-  Added: Law student is charged over intercepted bomb in car
+  Added: More than 220,000 evacuated in France and Spain due to wildfires
+  Added: Police declare 'major incident' as wind change increases Cairngorms wildfire risk
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-25
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘The show must go on’: Trump returns to rescheduled White House press gala
+Added expanded search topic: ‘The show must go on’: Trump returns to rescheduled White House press gala
+Saved 6 topics for 2026-07-25
 Returning 3 unique trending topics:
-  1. Firefighters struggle to contain Madrid wildfires, as more than 140,000 evacuated in France and S... (from BBC News)
-  2. Law student is charged over intercepted bomb in car (from BBC News)
-  3. Two Russian men jailed in Angola for terrorism and spying (from The Guardian)
+  1. More than 220,000 evacuated in France and Spain due to wildfires (from BBC News)
+  2. Police declare 'major incident' as wind change increases Cairngorms wildfire risk (from BBC News)
+  3. ‘The show must go on’: Trump returns to rescheduled White House press gala (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Firefighters struggle to contain Madrid wildfires, as more than 140,000 evacuated in France and S...
-Searching Google for: Firefighters struggle to contain Madrid wildfires, as more than 140,000 evacuated in France and S...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirefighters%252Bstruggle%252Bto%252Bcontain%252BMadrid%252Bwildfires%252C%252Bas%252Bmore%252Bthan%252B140%252C000%252Bevacuated%252Bin%252BFrance%252Band%252BS...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9j9gGIb8j9MGIjBvlTK8D80XD1e4rsVuf5h5j6i5e1bA_hXOZ93H2BmCTirC2gmJncWAa9G1STKgiLIyBmpjbmRyUloBQw
+Processing trending topic: More than 220,000 evacuated in France and Spain due to wildfires
+Searching Google for: More than 220,000 evacuated in France and Spain due to wildfires
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B220%252C000%252Bevacuated%252Bin%252BFrance%252Band%252BSpain%252Bdue%252Bto%252Bwildfires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeObDGObukNMGIjDuh43exoPsPQBCbN5NkeLiRAQe365jpDbqQmiG_MELlT_8xv8w2lUE33FlsRcF_KwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: firefighters-struggle-to-contain-madrid-wildfires-_20260725_0006.html
-✓ Created comprehensive article: firefighters-struggle-to-contain-madrid-wildfires-_20260725_0006.html
+Successfully created file: more-than-220000-evacuated-in-france-and-spain-due_20260725_0411.html
+✓ Created comprehensive article: more-than-220000-evacuated-in-france-and-spain-due_20260725_0411.html
 
-Processing trending topic: Law student is charged over intercepted bomb in car
-Searching Google for: Law student is charged over intercepted bomb in car
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLaw%252Bstudent%252Bis%252Bcharged%252Bover%252Bintercepted%252Bbomb%252Bin%252Bcar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9j9gGI38j9MGIjBjcIo_lQaomchhl7Zm4TAJQkbS2qg3Rin1nPM2ruthVFFcBd8L1VgSndsfpxkcnPQyBmpjbmRyUloBQw
+Processing trending topic: Police declare 'major incident' as wind change increases Cairngorms wildfire risk
+Searching Google for: Police declare 'major incident' as wind change increases Cairngorms wildfire risk
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bdeclare%252B%2527major%252Bincident%2527%252Bas%252Bwind%252Bchange%252Bincreases%252BCairngorms%252Bwildfire%252Brisk%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeObDGO3ukNMGIjCtglB51hrR5FXkAjfDElDq0sOEyP1kbAdidzLahpUnWFKerHTyNE1TdqxaHjcjoQAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: law-student-is-charged-over-intercepted-bomb-in-ca_20260725_0006.html
-✓ Created comprehensive article: law-student-is-charged-over-intercepted-bomb-in-ca_20260725_0006.html
+Successfully created file: police-declare-major-incident-as-wind-change-incre_20260725_0411.html
+✓ Created comprehensive article: police-declare-major-incident-as-wind-change-incre_20260725_0411.html
 
-Processing trending topic: Two Russian men jailed in Angola for terrorism and spying
-Searching Google for: Two Russian men jailed in Angola for terrorism and spying
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BRussian%252Bmen%252Bjailed%252Bin%252BAngola%252Bfor%252Bterrorism%252Band%252Bspying%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9j9gGJP8j9MGIjD-J6XPvDTT2KkTa-OBGeLSGdT2wMwhs-YDv3NNnd1M6m-5JOQIl1L_FtP-kirfaSYyBmpjbmRyUloBQw
+Processing trending topic: ‘The show must go on’: Trump returns to rescheduled White House press gala
+Searching Google for: ‘The show must go on’: Trump returns to rescheduled White House press gala
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598The%252Bshow%252Bmust%252Bgo%252Bon%25E2%2580%2599%253A%252BTrump%252Breturns%252Bto%252Brescheduled%252BWhite%252BHouse%252Bpress%252Bgala%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUeObDGPPukNMGIjBUWhJ7MBaGLp94zHD_n14JTjR-QrNpijHG-kPdOQ1XXa5Y1eTQiuEtLBYiMhlvc6oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-russian-men-jailed-in-angola-for-terrorism-and_20260725_0006.html
-✓ Created comprehensive article: two-russian-men-jailed-in-angola-for-terrorism-and_20260725_0006.html
+Successfully created file: the-show-must-go-on-trump-returns-to-rescheduled-w_20260725_0411.html
+✓ Created comprehensive article: the-show-must-go-on-trump-returns-to-rescheduled-w_20260725_0411.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-hits-dozens-of-trading-partners-with-new-wave-o_20260724_0828.html
-Cleaned old post to keep top 30 limit: firefighters-struggle-to-contain-madrid-wildfires-_20260724_2217.html
-Cleaned old post to keep top 30 limit: china-philippine-coastguard-vessels-clash-in-south_20260724_2217.html
+Cleaned old post to keep top 30 limit: paramount-agrees-to-pause-warner-bros-deal-while-c_20260724_2217.html
+Cleaned old post to keep top 30 limit: firefighters-struggle-to-contain-madrid-wildfires-_20260725_0006.html
+Cleaned old post to keep top 30 limit: two-russian-men-jailed-in-angola-for-terrorism-and_20260725_0006.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Firefighters struggle to contain Madrid wildfires, as more than 140,000 evacuated in France and S...
+   • More than 220,000 evacuated in France and Spain due to wildfires
      Sources: bbc.com, cnn.com, reuters.com
-   • Law student is charged over intercepted bomb in car
+   • Police declare 'major incident' as wind change increases Cairngorms wildfire risk
      Sources: bbc.com, cnn.com, reuters.com
-   • Two Russian men jailed in Angola for terrorism and spying
+   • ‘The show must go on’: Trump returns to rescheduled White House press gala
      Sources: bbc.com, cnn.com, reuters.com
