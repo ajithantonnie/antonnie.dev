@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s causing the unprecedented wildfires in Europe?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli government nods to international stabilisation force in Gaza
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinians hope international peace force can rebuild Gaza
-Added expanded search topic: What’s causing the unprecedented wildfires in Europe?
-Added expanded search topic: Israeli government nods to international stabilisation force in Gaza
-Added expanded search topic: Palestinians hope international peace force can rebuild Gaza
-Saved 33 topics for 2026-07-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s border czar probes possible vetting failures after ICE shooting
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US and Iran hit pause on strikes for second day
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Former President Hernandez returns to Honduras after Trump pardon
+Added expanded search topic: Trump’s border czar probes possible vetting failures after ICE shooting
+Added expanded search topic: US and Iran hit pause on strikes for second day
+Added expanded search topic: Former President Hernandez returns to Honduras after Trump pardon
+Saved 36 topics for 2026-07-26
 Returning 3 unique trending topics:
-  1. What’s causing the unprecedented wildfires in Europe? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Israeli government nods to international stabilisation force in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Palestinians hope international peace force can rebuild Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump’s border czar probes possible vetting failures after ICE shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US and Iran hit pause on strikes for second day (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Former President Hernandez returns to Honduras after Trump pardon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What’s causing the unprecedented wildfires in Europe?
-Searching Google for: What’s causing the unprecedented wildfires in Europe?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bcausing%252Bthe%252Bunprecedented%252Bwildfires%252Bin%252BEurope%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqxaqGMKHmtMGIjB6_GFx3W1O7NoNBpUAM5FAiLu2_3QdSHX0NSPyL1td1GZ7NFYjbWwd4IAgOuoo_hUyBmpjbmRyUloBQw
+Processing trending topic: Trump’s border czar probes possible vetting failures after ICE shooting
+Searching Google for: Trump’s border czar probes possible vetting failures after ICE shooting
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-causing-the-unprecedented-wildfires-in-europ_20260726_2201.html
-✓ Created comprehensive article: whats-causing-the-unprecedented-wildfires-in-europ_20260726_2201.html
+Successfully created file: trumps-border-czar-probes-possible-vetting-failure_20260726_2303.html
+✓ Created comprehensive article: trumps-border-czar-probes-possible-vetting-failure_20260726_2303.html
 
-Processing trending topic: Israeli government nods to international stabilisation force in Gaza
-Searching Google for: Israeli government nods to international stabilisation force in Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bgovernment%252Bnods%252Bto%252Binternational%252Bstabilisation%252Bforce%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqxaqGMmHmtMGIjCA-lw2G-_z3LiorpY-Qw2CfXWD3FUyJ82EeBy1Gla-X4ZPdXCICidQihJU59VLwqIyBmpjbmRyUloBQw
+Processing trending topic: US and Iran hit pause on strikes for second day
+Searching Google for: US and Iran hit pause on strikes for second day
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-government-nods-to-international-stabilisa_20260726_2201.html
-✓ Created comprehensive article: israeli-government-nods-to-international-stabilisa_20260726_2201.html
+Successfully created file: us-and-iran-hit-pause-on-strikes-for-second-day_20260726_2303.html
+✓ Created comprehensive article: us-and-iran-hit-pause-on-strikes-for-second-day_20260726_2303.html
 
-Processing trending topic: Palestinians hope international peace force can rebuild Gaza
-Searching Google for: Palestinians hope international peace force can rebuild Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinians%252Bhope%252Binternational%252Bpeace%252Bforce%252Bcan%252Brebuild%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqxaqGNCHmtMGIjDirffm1n5Zi4NBJa7KsJYNZpeXjRqDaGiz4-zA6WreFB1CDsRbbwzHYz-LpLi2gmgyBmpjbmRyUloBQw
+Processing trending topic: Former President Hernandez returns to Honduras after Trump pardon
+Searching Google for: Former President Hernandez returns to Honduras after Trump pardon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFormer%252BPresident%252BHernandez%252Breturns%252Bto%252BHonduras%252Bafter%252BTrump%252Bpardon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4f0GPGkmtMGIjA55lJ5aaYAsRZ1r2R-VEtmxIqgoMBGABlBYIwm9dz7_zO0O8jaBpSWRpotqcJk-ScyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestinians-hope-international-peace-force-can-re_20260726_2201.html
-✓ Created comprehensive article: palestinians-hope-international-peace-force-can-re_20260726_2201.html
+Successfully created file: former-president-hernandez-returns-to-honduras-aft_20260726_2304.html
+✓ Created comprehensive article: former-president-hernandez-returns-to-honduras-aft_20260726_2304.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israel-launches-military-incursion-into-syria-amid_20260726_1805.html
-Cleaned old post to keep top 30 limit: freeze-the-conflict-drones-slow-kazakh-oil-flow-am_20260726_1805.html
-Cleaned old post to keep top 30 limit: al-sharaa-outlines-syrias-approach-to-security-wit_20260726_2010.html
+Cleaned old post to keep top 30 limit: palestinians-hope-international-peace-force-can-re_20260726_2201.html
+Cleaned old post to keep top 30 limit: israeli-government-nods-to-international-stabilisa_20260726_2201.html
+Cleaned old post to keep top 30 limit: berlin-pride-attack-suspect-shot-and-killed-during_20260726_2010.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What’s causing the unprecedented wildfires in Europe?
+   • Trump’s border czar probes possible vetting failures after ICE shooting
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli government nods to international stabilisation force in Gaza
+   • US and Iran hit pause on strikes for second day
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestinians hope international peace force can rebuild Gaza
+   • Former President Hernandez returns to Honduras after Trump pardon
      Sources: bbc.com, cnn.com, reuters.com
