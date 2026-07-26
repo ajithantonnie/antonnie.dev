@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: What we know so far about the Berlin Pride ramming attack
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel carries out double tap strike in central Gaza
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tunisia grapples with five years of crisis since Saied’s power grab
-Added expanded search topic: Israel carries out double tap strike in central Gaza
-Added expanded search topic: Tunisia grapples with five years of crisis since Saied’s power grab
-Saved 21 topics for 2026-07-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Heatwave drives major wildfires across North Africa
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Darfur: Weaponising Identity
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Typhoon Noul batters Southeast China
+Added expanded search topic: Heatwave drives major wildfires across North Africa
+Added expanded search topic: Darfur: Weaponising Identity
+Added expanded search topic: Typhoon Noul batters Southeast China
+Saved 24 topics for 2026-07-26
 Returning 3 unique trending topics:
-  1. What we know so far about the Berlin Pride ramming attack (from BBC News)
-  2. Israel carries out double tap strike in central Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Tunisia grapples with five years of crisis since Saied’s power grab (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Heatwave drives major wildfires across North Africa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Darfur: Weaponising Identity (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Typhoon Noul batters Southeast China (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What we know so far about the Berlin Pride ramming attack
-Searching Google for: What we know so far about the Berlin Pride ramming attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Bso%252Bfar%252Babout%252Bthe%252BBerlin%252BPride%252Bramming%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_xGMzEmNMGIjCArBYQq5NGuzHSjuL4NQuP8FW-X-Odsm5ttD8wcngJC96fK3TeGzz3XIQdwb4581AyBmpjbmRyUloBQw
+Processing trending topic: Heatwave drives major wildfires across North Africa
+Searching Google for: Heatwave drives major wildfires across North Africa
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-so-far-about-the-berlin-pride-ramming_20260726_1505.html
-✓ Created comprehensive article: what-we-know-so-far-about-the-berlin-pride-ramming_20260726_1505.html
+Successfully created file: heatwave-drives-major-wildfires-across-north-afric_20260726_1700.html
+✓ Created comprehensive article: heatwave-drives-major-wildfires-across-north-afric_20260726_1700.html
 
-Processing trending topic: Israel carries out double tap strike in central Gaza
-Searching Google for: Israel carries out double tap strike in central Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bcarries%252Bout%252Bdouble%252Btap%252Bstrike%252Bin%252Bcentral%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_xGNPEmNMGIjC7PBZoySryc9jQugnROs3NEOrxhI_ctBPxxHHCv3KCah1fEF02nnnwH3apQ_nOhMMyBmpjbmRyUloBQw
+Processing trending topic: Darfur: Weaponising Identity
+Searching Google for: Darfur: Weaponising Identity
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDarfur%253A%252BWeaponising%252BIdentity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGXWGOn6mNMGIjB3N2biaR044sJ0J2ZVlt1-fdpzmEscCrnDVrQ82-SI6S9WLHy0uV8vKDCyJUvBbSoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-carries-out-double-tap-strike-in-central-ga_20260726_1505.html
-✓ Created comprehensive article: israel-carries-out-double-tap-strike-in-central-ga_20260726_1505.html
+Successfully created file: darfur-weaponising-identity_20260726_1701.html
+✓ Created comprehensive article: darfur-weaponising-identity_20260726_1701.html
 
-Processing trending topic: Tunisia grapples with five years of crisis since Saied’s power grab
-Searching Google for: Tunisia grapples with five years of crisis since Saied’s power grab
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTunisia%252Bgrapples%252Bwith%252Bfive%252Byears%252Bof%252Bcrisis%252Bsince%252BSaied%25E2%2580%2599s%252Bpower%252Bgrab%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H_xGNnEmNMGIjAEEt5rJEMv4ufOnxfqA9B03qAEzgeh-5VZm9bm2lI0b0NpphVK6kE2sPOmYJ3l6AYyBmpjbmRyUloBQw
+Processing trending topic: Typhoon Noul batters Southeast China
+Searching Google for: Typhoon Noul batters Southeast China
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTyphoon%252BNoul%252Bbatters%252BSoutheast%252BChina%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGXWGO_6mNMGIjAmFpMy9wCDaB-rxQypOvs3wf6ZaDKfASMLWouQLCiPDY7sUfkaKGBhkm8AlpDUWDQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tunisia-grapples-with-five-years-of-crisis-since-s_20260726_1506.html
-✓ Created comprehensive article: tunisia-grapples-with-five-years-of-crisis-since-s_20260726_1506.html
+Successfully created file: typhoon-noul-batters-southeast-china_20260726_1701.html
+✓ Created comprehensive article: typhoon-noul-batters-southeast-china_20260726_1701.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-the-uk-cancelled-a-military-exercise-in-kenya-_20260726_1120.html
-Cleaned old post to keep top 30 limit: why-epsteins-survivors-are-still-fighting_20260725_1911.html
-Cleaned old post to keep top 30 limit: eighteen-people-missing-in-south-china-sea-after-v_20260726_1319.html
+Cleaned old post to keep top 30 limit: israeli-crackdown-in-occupied-west-bank-intensifie_20260726_1319.html
+Cleaned old post to keep top 30 limit: president-ahmed-al-sharaa-syria-seeking-security-d_20260726_1319.html
+Cleaned old post to keep top 30 limit: israel-carries-out-double-tap-strike-in-central-ga_20260726_1505.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What we know so far about the Berlin Pride ramming attack
+   • Heatwave drives major wildfires across North Africa
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel carries out double tap strike in central Gaza
+   • Darfur: Weaponising Identity
      Sources: bbc.com, cnn.com, reuters.com
-   • Tunisia grapples with five years of crisis since Saied’s power grab
+   • Typhoon Noul batters Southeast China
      Sources: bbc.com, cnn.com, reuters.com
