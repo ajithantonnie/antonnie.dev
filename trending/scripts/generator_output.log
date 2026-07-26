@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: What we know so far about the Berlin Pride ramming attack
   Added: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
+  Added: Berlin Pride attack suspect shot and killed during police operation
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel launches military incursion into Syria amid UN condemnation
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war
-Added expanded search topic: Israel launches military incursion into Syria amid UN condemnation
-Added expanded search topic: ‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war
-Saved 27 topics for 2026-07-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon
+Added expanded search topic: What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?
+Added expanded search topic: Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon
+Saved 30 topics for 2026-07-26
 Returning 3 unique trending topics:
-  1. Firefighters battle wildfire as tens of thousands evacuated near Bordeaux (from BBC News)
-  2. Israel launches military incursion into Syria amid UN condemnation (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. ‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Berlin Pride attack suspect shot and killed during police operation (from BBC News)
+  2. What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
-Searching Google for: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirefighters%252Bbattle%252Bwildfire%252Bas%252Btens%252Bof%252Bthousands%252Bevacuated%252Bnear%252BBordeaux%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmlGMyYmdMGIjCk5kN4ygPK6_P5IZYv9w_hn_tSwvxSBtIuYfwg6NopmAWUoPvf6gy5LffTUbgpS8UyBmpjbmRyUloBQw
+Processing trending topic: Berlin Pride attack suspect shot and killed during police operation
+Searching Google for: Berlin Pride attack suspect shot and killed during police operation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBerlin%252BPride%252Battack%252Bsuspect%252Bshot%252Band%252Bkilled%252Bduring%252Bpolice%252Boperation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRpGLTTmdMGIjBmQdfdfCTY7_P4r9sSRWM857zciP8Ft60-IGGaaRdb0f67uqxTofbB7ztQexRZNXMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: firefighters-battle-wildfire-as-tens-of-thousands-_20260726_1805.html
-✓ Created comprehensive article: firefighters-battle-wildfire-as-tens-of-thousands-_20260726_1805.html
+Successfully created file: berlin-pride-attack-suspect-shot-and-killed-during_20260726_2010.html
+✓ Created comprehensive article: berlin-pride-attack-suspect-shot-and-killed-during_20260726_2010.html
 
-Processing trending topic: Israel launches military incursion into Syria amid UN condemnation
-Searching Google for: Israel launches military incursion into Syria amid UN condemnation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Blaunches%252Bmilitary%252Bincursion%252Binto%252BSyria%252Bamid%252BUN%252Bcondemnation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmlGNKYmdMGIjBCDg84PV0FtseFg8B3bbtl2p_V9Mg4I2_0OExyA3FWlDEHTbUzOdLfajEILKA2fPIyBmpjbmRyUloBQw
+Processing trending topic: What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?
+Searching Google for: What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Blies%252Bahead%252Bfor%252BIran%25E2%2580%2599s%252Beconomy%252Bas%252Bscope%252Bof%252BUS%252Bwar%252Bgrows%252Bbeyond%252BHormuz%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRpGLvTmdMGIjBjrL_Njb2qSPeWJvZg_iidgkkFrOm-HZfnRYxx9CBr6tYhxT1NO942VbIcJ1sEApMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-launches-military-incursion-into-syria-amid_20260726_1805.html
-✓ Created comprehensive article: israel-launches-military-incursion-into-syria-amid_20260726_1805.html
+Successfully created file: what-lies-ahead-for-irans-economy-as-scope-of-us-w_20260726_2010.html
+✓ Created comprehensive article: what-lies-ahead-for-irans-economy-as-scope-of-us-w_20260726_2010.html
 
-Processing trending topic: ‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war
-Searching Google for: ‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Freeze%252Bthe%252Bconflict%25E2%2580%2599%253A%252BDrones%252Bslow%252BKazakh%252Boil%252Bflow%252Bamid%252BRussia-Ukraine%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQzCHmlGNiYmdMGIjB6VXf9WVVg4_0NhQbevjijFqjNTvid4JcWR_imLDS08p0rjQTPCSMz7nFhR2sPBs8yBmpjbmRyUloBQw
+Processing trending topic: Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon
+Searching Google for: Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl-Sharaa%252Boutlines%252BSyria%25E2%2580%2599s%252Bapproach%252Bto%252Bsecurity%252Bwith%252BIsrael%252Band%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04PRpGMHTmdMGIjBb-6g2_UmB7LfwW6LxXI_sVECzw53Sgfd5Tmb5IcwJU_-dQbvHnntw1v8G_LR4bR0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: freeze-the-conflict-drones-slow-kazakh-oil-flow-am_20260726_1805.html
-✓ Created comprehensive article: freeze-the-conflict-drones-slow-kazakh-oil-flow-am_20260726_1805.html
+Successfully created file: al-sharaa-outlines-syrias-approach-to-security-wit_20260726_2010.html
+✓ Created comprehensive article: al-sharaa-outlines-syrias-approach-to-security-wit_20260726_2010.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tunisia-grapples-with-five-years-of-crisis-since-s_20260726_1506.html
-Cleaned old post to keep top 30 limit: heatwave-drives-major-wildfires-across-north-afric_20260726_1700.html
-Cleaned old post to keep top 30 limit: darfur-weaponising-identity_20260726_1701.html
+Cleaned old post to keep top 30 limit: worker-dies-during-reconstruction-of-barcelonas-ca_20260725_1801.html
+Cleaned old post to keep top 30 limit: what-we-know-so-far-about-the-berlin-pride-ramming_20260726_1505.html
+Cleaned old post to keep top 30 limit: firefighters-battle-wildfire-as-tens-of-thousands-_20260726_1805.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
+   • Berlin Pride attack suspect shot and killed during police operation
      Sources: bbc.com, cnn.com, reuters.com
-   • Israel launches military incursion into Syria amid UN condemnation
+   • What lies ahead for Iran’s economy as scope of US war grows beyond Hormuz?
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Freeze the conflict’: Drones slow Kazakh oil flow amid Russia-Ukraine war
+   • Al-Sharaa outlines Syria’s approach to security with Israel and Lebanon
      Sources: bbc.com, cnn.com, reuters.com
