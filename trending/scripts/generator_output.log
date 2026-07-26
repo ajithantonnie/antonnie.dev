@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police investigate donations by Tice company to Reform UK
-  Added: More than 250,000 flee wildfires in France and Spain
+  Added: More than 300,000 flee wildfires in France and Spain
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-26
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Flavio Bolsonaro launches Brazil presidential bid with Milei support
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel arrests nine at Tel Aviv protest against West Bank settler violence
+Added expanded search topic: Flavio Bolsonaro launches Brazil presidential bid with Milei support
+Added expanded search topic: Israel arrests nine at Tel Aviv protest against West Bank settler violence
+Saved 6 topics for 2026-07-26
 Returning 3 unique trending topics:
-  1. Police investigate donations by Tice company to Reform UK (from BBC News)
-  2. More than 250,000 flee wildfires in France and Spain (from BBC News)
-  3. Two Russian men jailed in Angola for terrorism and spying (from The Guardian)
+  1. More than 300,000 flee wildfires in France and Spain (from BBC News)
+  2. Flavio Bolsonaro launches Brazil presidential bid with Milei support (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israel arrests nine at Tel Aviv protest against West Bank settler violence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police investigate donations by Tice company to Reform UK
-Searching Google for: Police investigate donations by Tice company to Reform UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Binvestigate%252Bdonations%252Bby%252BTice%252Bcompany%252Bto%252BReform%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm_pAGJOdldMGIjCc6B_vSVArdW7YZ7RJsmNp8R6AB4axV8Y_FgImHZ38L3NnZ9m5B2K5VgWugFfpSlIyBmpjbmRyUloBQw
+Processing trending topic: More than 300,000 flee wildfires in France and Spain
+Searching Google for: More than 300,000 flee wildfires in France and Spain
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B300%252C000%252Bflee%252Bwildfires%252Bin%252BFrance%252Band%252BSpain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrMsmGNCBltMGIjBHCZCOMVcmJ_Vt69zYXb-0-PddUdto6BInd6uP2s-86fBvM58Oxm_AQilVTrnOJdQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-investigate-donations-by-tice-company-to-re_20260726_0002.html
-✓ Created comprehensive article: police-investigate-donations-by-tice-company-to-re_20260726_0002.html
+Successfully created file: more-than-300000-flee-wildfires-in-france-and-spai_20260726_0336.html
+✓ Created comprehensive article: more-than-300000-flee-wildfires-in-france-and-spai_20260726_0336.html
 
-Processing trending topic: More than 250,000 flee wildfires in France and Spain
-Searching Google for: More than 250,000 flee wildfires in France and Spain
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B250%252C000%252Bflee%252Bwildfires%252Bin%252BFrance%252Band%252BSpain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm_pAGJqdldMGIjBLS6vSqcRjjpaYQuIRNsTMEPCi1sgugTuE1hkkQPSjE7xTuclG8sEOA74jxZTic2wyBmpjbmRyUloBQw
+Processing trending topic: Flavio Bolsonaro launches Brazil presidential bid with Milei support
+Searching Google for: Flavio Bolsonaro launches Brazil presidential bid with Milei support
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlavio%252BBolsonaro%252Blaunches%252BBrazil%252Bpresidential%252Bbid%252Bwith%252BMilei%252Bsupport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrMsmGNeBltMGIjAGYI4Ggu7nSag1Iv1zB50ok_z8ZxRrEIpKCaF9yfwqgH2LmWK0vsaAQjMlrgOAgkUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-250000-flee-wildfires-in-france-and-spai_20260726_0002.html
-✓ Created comprehensive article: more-than-250000-flee-wildfires-in-france-and-spai_20260726_0002.html
+Successfully created file: flavio-bolsonaro-launches-brazil-presidential-bid-_20260726_0336.html
+✓ Created comprehensive article: flavio-bolsonaro-launches-brazil-presidential-bid-_20260726_0336.html
 
-Processing trending topic: Two Russian men jailed in Angola for terrorism and spying
-Searching Google for: Two Russian men jailed in Angola for terrorism and spying
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BRussian%252Bmen%252Bjailed%252Bin%252BAngola%252Bfor%252Bterrorism%252Band%252Bspying%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm_pAGKCdldMGIjCsxxd9pt1NX3-cH0iCFECDMCJeQSF7FdRusBsxYjNMjvJwXxv_2TCA4gN5h5WlxcEyBmpjbmRyUloBQw
+Processing trending topic: Israel arrests nine at Tel Aviv protest against West Bank settler violence
+Searching Google for: Israel arrests nine at Tel Aviv protest against West Bank settler violence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Barrests%252Bnine%252Bat%252BTel%252BAviv%252Bprotest%252Bagainst%252BWest%252BBank%252Bsettler%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrMsmGN2BltMGIjDd52t5wls-vItMLc7t07VgU9VYmAoyx8pnPmIChk8pab6NhAMtpwP54tN280oZ-7cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-russian-men-jailed-in-angola-for-terrorism-and_20260726_0002.html
-✓ Created comprehensive article: two-russian-men-jailed-in-angola-for-terrorism-and_20260726_0002.html
+Successfully created file: israel-arrests-nine-at-tel-aviv-protest-against-we_20260726_0337.html
+✓ Created comprehensive article: israel-arrests-nine-at-tel-aviv-protest-against-we_20260726_0337.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-military-releases-footage-of-tenth-consecutive-_20260721_0337.html
-Cleaned old post to keep top 30 limit: one-dead-14-injured-as-car-reportedly-strikes-crow_20260725_2256.html
-Cleaned old post to keep top 30 limit: israeli-forces-target-gazas-al-aqsa-hospital_20260725_2256.html
+Cleaned old post to keep top 30 limit: two-russian-men-jailed-in-angola-for-terrorism-and_20260726_0002.html
+Cleaned old post to keep top 30 limit: more-than-250000-flee-wildfires-in-france-and-spai_20260726_0002.html
+Cleaned old post to keep top 30 limit: law-student-is-charged-over-intercepted-bomb-in-ca_20260725_0006.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police investigate donations by Tice company to Reform UK
+   • More than 300,000 flee wildfires in France and Spain
      Sources: bbc.com, cnn.com, reuters.com
-   • More than 250,000 flee wildfires in France and Spain
+   • Flavio Bolsonaro launches Brazil presidential bid with Milei support
      Sources: bbc.com, cnn.com, reuters.com
-   • Two Russian men jailed in Angola for terrorism and spying
+   • Israel arrests nine at Tel Aviv protest against West Bank settler violence
      Sources: bbc.com, cnn.com, reuters.com
