@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
-  Added: Berlin Pride attack suspect shot and killed during police operation
+  Added: Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms
+  Added: Badenoch says PM must rule out tax rises to fund social care reform
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-27
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sudan’s army claims control of major highway linking Khartoum and el-Obeid
+Added expanded search topic: Sudan’s army claims control of major highway linking Khartoum and el-Obeid
+Saved 6 topics for 2026-07-27
 Returning 3 unique trending topics:
-  1. Firefighters battle wildfire as tens of thousands evacuated near Bordeaux (from BBC News)
-  2. Berlin Pride attack suspect shot and killed during police operation (from BBC News)
-  3. Two Russian men jailed in Angola for terrorism and spying (from The Guardian)
+  1. Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms (from BBC News)
+  2. Badenoch says PM must rule out tax rises to fund social care reform (from BBC News)
+  3. Sudan’s army claims control of major highway linking Khartoum and el-Obeid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
-Searching Google for: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirefighters%252Bbattle%252Bwildfire%252Bas%252Btens%252Bof%252Bthousands%252Bevacuated%252Bnear%252BBordeaux%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9FGP_DmtMGIjBDl12mgfShgx-XPJOkhWOGYN32fdnaT0gBvID39g5fcVkOG-9AiN3V95rJOVzui4QyBmpjbmRyUloBQw
+Processing trending topic: Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms
+Searching Google for: Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMacron%252Bcalls%252Bcrisis%252Bmeeting%252Bas%252Bwildfires%252Bthreaten%252BBordeaux%252Band%252Bheatwave%252Blooms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE44eRGLrBm9MGIjB5_wj5TdFeVyhCkmsLDB_chyCqIdKRMOrI0D11I8aVGjwpH8JSYaglVnhza9d5QqQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: firefighters-battle-wildfire-as-tens-of-thousands-_20260727_0010.html
-✓ Created comprehensive article: firefighters-battle-wildfire-as-tens-of-thousands-_20260727_0010.html
+Successfully created file: macron-calls-crisis-meeting-as-wildfires-threaten-_20260727_0438.html
+✓ Created comprehensive article: macron-calls-crisis-meeting-as-wildfires-threaten-_20260727_0438.html
 
-Processing trending topic: Berlin Pride attack suspect shot and killed during police operation
-Searching Google for: Berlin Pride attack suspect shot and killed during police operation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBerlin%252BPride%252Battack%252Bsuspect%252Bshot%252Band%252Bkilled%252Bduring%252Bpolice%252Boperation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9FGIbEmtMGIjD9ZcjBx20FuUuNSaOnx9_ywYEX2uLTruJumJz9T6X4d4X1UhApegGPrKV6doAQQA0yBmpjbmRyUloBQw
+Processing trending topic: Badenoch says PM must rule out tax rises to fund social care reform
+Searching Google for: Badenoch says PM must rule out tax rises to fund social care reform
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBadenoch%252Bsays%252BPM%252Bmust%252Brule%252Bout%252Btax%252Brises%252Bto%252Bfund%252Bsocial%252Bcare%252Breform%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE44eRGMHBm9MGIjD5q7vAlwVDrgsIWS9-eEUjY4GFTqHCvj92IRxVKz2PmSoW2Vq4BQRe5hxmts7HweAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: berlin-pride-attack-suspect-shot-and-killed-during_20260727_0010.html
-✓ Created comprehensive article: berlin-pride-attack-suspect-shot-and-killed-during_20260727_0010.html
+Successfully created file: badenoch-says-pm-must-rule-out-tax-rises-to-fund-s_20260727_0438.html
+✓ Created comprehensive article: badenoch-says-pm-must-rule-out-tax-rises-to-fund-s_20260727_0438.html
 
-Processing trending topic: Two Russian men jailed in Angola for terrorism and spying
-Searching Google for: Two Russian men jailed in Angola for terrorism and spying
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BRussian%252Bmen%252Bjailed%252Bin%252BAngola%252Bfor%252Bterrorism%252Band%252Bspying%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9FGIzEmtMGIjBbCz8qAn-bism09olJkC8PUIa7AwA1SYRKvhy3yskpDgSD82yCfz5TEP-u4HivMS8yBmpjbmRyUloBQw
+Processing trending topic: Sudan’s army claims control of major highway linking Khartoum and el-Obeid
+Searching Google for: Sudan’s army claims control of major highway linking Khartoum and el-Obeid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSudan%25E2%2580%2599s%252Barmy%252Bclaims%252Bcontrol%252Bof%252Bmajor%252Bhighway%252Blinking%252BKhartoum%252Band%252Bel-Obeid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE44eRGMfBm9MGIjDisEqK6P3XQK1ilOHxQqrPf6ezsQwabrSAIJRVGmWJsZEsF4I1E9hqd25aHu6GxsAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-russian-men-jailed-in-angola-for-terrorism-and_20260727_0010.html
-✓ Created comprehensive article: two-russian-men-jailed-in-angola-for-terrorism-and_20260727_0010.html
+Successfully created file: sudans-army-claims-control-of-major-highway-linkin_20260727_0438.html
+✓ Created comprehensive article: sudans-army-claims-control-of-major-highway-linkin_20260727_0438.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: who-is-indias-new-education-minister_20260726_1120.html
-Cleaned old post to keep top 30 limit: trumps-border-czar-probes-possible-vetting-failure_20260726_2303.html
-Cleaned old post to keep top 30 limit: former-president-hernandez-returns-to-honduras-aft_20260726_2304.html
+Cleaned old post to keep top 30 limit: two-russian-men-jailed-in-angola-for-terrorism-and_20260727_0010.html
+Cleaned old post to keep top 30 limit: us-and-iran-hit-pause-on-strikes-for-second-day_20260726_2303.html
+Cleaned old post to keep top 30 limit: berlin-pride-attack-suspect-shot-and-killed-during_20260727_0010.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
+   • Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms
      Sources: bbc.com, cnn.com, reuters.com
-   • Berlin Pride attack suspect shot and killed during police operation
+   • Badenoch says PM must rule out tax rises to fund social care reform
      Sources: bbc.com, cnn.com, reuters.com
-   • Two Russian men jailed in Angola for terrorism and spying
+   • Sudan’s army claims control of major highway linking Khartoum and el-Obeid
      Sources: bbc.com, cnn.com, reuters.com
