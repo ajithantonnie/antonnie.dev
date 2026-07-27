@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 33 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Two Russian men jailed in Angola for terrorism and spying
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump’s border czar probes possible vetting failures after ICE shooting
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US and Iran hit pause on strikes for second day
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Former President Hernandez returns to Honduras after Trump pardon
-Added expanded search topic: Trump’s border czar probes possible vetting failures after ICE shooting
-Added expanded search topic: US and Iran hit pause on strikes for second day
-Added expanded search topic: Former President Hernandez returns to Honduras after Trump pardon
-Saved 36 topics for 2026-07-26
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-27
 Returning 3 unique trending topics:
-  1. Trump’s border czar probes possible vetting failures after ICE shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. US and Iran hit pause on strikes for second day (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Former President Hernandez returns to Honduras after Trump pardon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Firefighters battle wildfire as tens of thousands evacuated near Bordeaux (from BBC News)
+  2. Berlin Pride attack suspect shot and killed during police operation (from BBC News)
+  3. Two Russian men jailed in Angola for terrorism and spying (from The Guardian)
 
-Processing trending topic: Trump’s border czar probes possible vetting failures after ICE shooting
-Searching Google for: Trump’s border czar probes possible vetting failures after ICE shooting
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
+Searching Google for: Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFirefighters%252Bbattle%252Bwildfire%252Bas%252Btens%252Bof%252Bthousands%252Bevacuated%252Bnear%252BBordeaux%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9FGP_DmtMGIjBDl12mgfShgx-XPJOkhWOGYN32fdnaT0gBvID39g5fcVkOG-9AiN3V95rJOVzui4QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trumps-border-czar-probes-possible-vetting-failure_20260726_2303.html
-✓ Created comprehensive article: trumps-border-czar-probes-possible-vetting-failure_20260726_2303.html
+Successfully created file: firefighters-battle-wildfire-as-tens-of-thousands-_20260727_0010.html
+✓ Created comprehensive article: firefighters-battle-wildfire-as-tens-of-thousands-_20260727_0010.html
 
-Processing trending topic: US and Iran hit pause on strikes for second day
-Searching Google for: US and Iran hit pause on strikes for second day
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Berlin Pride attack suspect shot and killed during police operation
+Searching Google for: Berlin Pride attack suspect shot and killed during police operation
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBerlin%252BPride%252Battack%252Bsuspect%252Bshot%252Band%252Bkilled%252Bduring%252Bpolice%252Boperation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9FGIbEmtMGIjD9ZcjBx20FuUuNSaOnx9_ywYEX2uLTruJumJz9T6X4d4X1UhApegGPrKV6doAQQA0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-and-iran-hit-pause-on-strikes-for-second-day_20260726_2303.html
-✓ Created comprehensive article: us-and-iran-hit-pause-on-strikes-for-second-day_20260726_2303.html
+Successfully created file: berlin-pride-attack-suspect-shot-and-killed-during_20260727_0010.html
+✓ Created comprehensive article: berlin-pride-attack-suspect-shot-and-killed-during_20260727_0010.html
 
-Processing trending topic: Former President Hernandez returns to Honduras after Trump pardon
-Searching Google for: Former President Hernandez returns to Honduras after Trump pardon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFormer%252BPresident%252BHernandez%252Breturns%252Bto%252BHonduras%252Bafter%252BTrump%252Bpardon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst4f0GPGkmtMGIjA55lJ5aaYAsRZ1r2R-VEtmxIqgoMBGABlBYIwm9dz7_zO0O8jaBpSWRpotqcJk-ScyBmpjbmRyUloBQw
+Processing trending topic: Two Russian men jailed in Angola for terrorism and spying
+Searching Google for: Two Russian men jailed in Angola for terrorism and spying
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252BRussian%252Bmen%252Bjailed%252Bin%252BAngola%252Bfor%252Bterrorism%252Band%252Bspying%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9FGIzEmtMGIjBbCz8qAn-bism09olJkC8PUIa7AwA1SYRKvhy3yskpDgSD82yCfz5TEP-u4HivMS8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: former-president-hernandez-returns-to-honduras-aft_20260726_2304.html
-✓ Created comprehensive article: former-president-hernandez-returns-to-honduras-aft_20260726_2304.html
+Successfully created file: two-russian-men-jailed-in-angola-for-terrorism-and_20260727_0010.html
+✓ Created comprehensive article: two-russian-men-jailed-in-angola-for-terrorism-and_20260727_0010.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: palestinians-hope-international-peace-force-can-re_20260726_2201.html
-Cleaned old post to keep top 30 limit: israeli-government-nods-to-international-stabilisa_20260726_2201.html
-Cleaned old post to keep top 30 limit: berlin-pride-attack-suspect-shot-and-killed-during_20260726_2010.html
+Cleaned old post to keep top 30 limit: who-is-indias-new-education-minister_20260726_1120.html
+Cleaned old post to keep top 30 limit: trumps-border-czar-probes-possible-vetting-failure_20260726_2303.html
+Cleaned old post to keep top 30 limit: former-president-hernandez-returns-to-honduras-aft_20260726_2304.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump’s border czar probes possible vetting failures after ICE shooting
+   • Firefighters battle wildfire as tens of thousands evacuated near Bordeaux
      Sources: bbc.com, cnn.com, reuters.com
-   • US and Iran hit pause on strikes for second day
+   • Berlin Pride attack suspect shot and killed during police operation
      Sources: bbc.com, cnn.com, reuters.com
-   • Former President Hernandez returns to Honduras after Trump pardon
+   • Two Russian men jailed in Angola for terrorism and spying
      Sources: bbc.com, cnn.com, reuters.com
