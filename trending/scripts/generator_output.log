@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Wildfire now nine miles from French city of Bordeaux, mayor warns
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda begins emergency food handouts after 19 die from hunger
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will Peru’s new leader Keiko Fujimori reject her father’s legacy?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: British court dismisses Bahrain’s bid to block activists’ spyware lawsuit
-Added expanded search topic: Will Peru’s new leader Keiko Fujimori reject her father’s legacy?
-Added expanded search topic: British court dismisses Bahrain’s bid to block activists’ spyware lawsuit
-Saved 24 topics for 2026-07-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Shot fired outside US consulate in Canada for second time this year
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Video shows man subdued after stabbing three women in Paris
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump asks US Supreme Court to allow mail-in voting restrictions
+Added expanded search topic: Shot fired outside US consulate in Canada for second time this year
+Added expanded search topic: Video shows man subdued after stabbing three women in Paris
+Added expanded search topic: Trump asks US Supreme Court to allow mail-in voting restrictions
+Saved 27 topics for 2026-07-27
 Returning 3 unique trending topics:
-  1. Wildfire now nine miles from French city of Bordeaux, mayor warns (from BBC News)
-  2. Will Peru’s new leader Keiko Fujimori reject her father’s legacy? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. British court dismisses Bahrain’s bid to block activists’ spyware lawsuit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Shot fired outside US consulate in Canada for second time this year (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Video shows man subdued after stabbing three women in Paris (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump asks US Supreme Court to allow mail-in voting restrictions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Wildfire now nine miles from French city of Bordeaux, mayor warns
-Searching Google for: Wildfire now nine miles from French city of Bordeaux, mayor warns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWildfire%252Bnow%252Bnine%252Bmiles%252Bfrom%252BFrench%252Bcity%252Bof%252BBordeaux%252C%252Bmayor%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA9ciGLyTn9MGIjAw3HC4EgOtAThRP3LbtqyJt2nIEdK0GUbqOymi2Wq2trm4_N_094OF6Sv8jXnLCRIyBmpjbmRyUloBQw
+Processing trending topic: Shot fired outside US consulate in Canada for second time this year
+Searching Google for: Shot fired outside US consulate in Canada for second time this year
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DShot%252Bfired%252Boutside%252BUS%252Bconsulate%252Bin%252BCanada%252Bfor%252Bsecond%252Btime%252Bthis%252Byear%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_gGPnGn9MGIjDR0Gpi6zhGHENXvv9MGIavC8jnEctxXNNM46fWp2UMHMUrn24psRN3ELav4aY5bgoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: wildfire-now-nine-miles-from-french-city-of-bordea_20260727_2112.html
-✓ Created comprehensive article: wildfire-now-nine-miles-from-french-city-of-bordea_20260727_2112.html
+Successfully created file: shot-fired-outside-us-consulate-in-canada-for-seco_20260727_2302.html
+✓ Created comprehensive article: shot-fired-outside-us-consulate-in-canada-for-seco_20260727_2302.html
 
-Processing trending topic: Will Peru’s new leader Keiko Fujimori reject her father’s legacy?
-Searching Google for: Will Peru’s new leader Keiko Fujimori reject her father’s legacy?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BPeru%25E2%2580%2599s%252Bnew%252Bleader%252BKeiko%252BFujimori%252Breject%252Bher%252Bfather%25E2%2580%2599s%252Blegacy%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA9ciGMKTn9MGIjC7U5FR0w9Rj2YbGtrpAf6KgIl-K_72paOxhjvVNB4bK5H8nuff5il5mzrdOse3xzMyBmpjbmRyUloBQw
+Processing trending topic: Video shows man subdued after stabbing three women in Paris
+Searching Google for: Video shows man subdued after stabbing three women in Paris
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bman%252Bsubdued%252Bafter%252Bstabbing%252Bthree%252Bwomen%252Bin%252BParis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_gGIDHn9MGIjAtnAAo3CuhqXk0eQRakqO3KuDhWkSiIe7FBBsQ0G2eR-57Voo0AVhp-cn5znfMTuoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-perus-new-leader-keiko-fujimori-reject-her-fa_20260727_2112.html
-✓ Created comprehensive article: will-perus-new-leader-keiko-fujimori-reject-her-fa_20260727_2112.html
+Successfully created file: video-shows-man-subdued-after-stabbing-three-women_20260727_2302.html
+✓ Created comprehensive article: video-shows-man-subdued-after-stabbing-three-women_20260727_2302.html
 
-Processing trending topic: British court dismisses Bahrain’s bid to block activists’ spyware lawsuit
-Searching Google for: British court dismisses Bahrain’s bid to block activists’ spyware lawsuit
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bcourt%252Bdismisses%252BBahrain%25E2%2580%2599s%252Bbid%252Bto%252Bblock%252Bactivists%25E2%2580%2599%252Bspyware%252Blawsuit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA9ciGMmTn9MGIjBaD_oRHwSk1kFwV-PxUrftZqRoYDTTQ3dAEBKVpfUb2MNQCXBEr1NTZ7_exeIY0yMyBmpjbmRyUloBQw
+Processing trending topic: Trump asks US Supreme Court to allow mail-in voting restrictions
+Searching Google for: Trump asks US Supreme Court to allow mail-in voting restrictions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Basks%252BUS%252BSupreme%252BCourt%252Bto%252Ballow%252Bmail-in%252Bvoting%252Brestrictions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_gGIbHn9MGIjBKcOX3rECR7J_0xsGW4kbFeLS8rXkid2rR1lWxmlCbOZK7xgngaSyiaEMKw6lULygyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: british-court-dismisses-bahrains-bid-to-block-acti_20260727_2112.html
-✓ Created comprehensive article: british-court-dismisses-bahrains-bid-to-block-acti_20260727_2112.html
+Successfully created file: trump-asks-us-supreme-court-to-allow-mail-in-votin_20260727_2302.html
+✓ Created comprehensive article: trump-asks-us-supreme-court-to-allow-mail-in-votin_20260727_2302.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: how-wildfires-in-france-and-spain-might-affect-you_20260727_1544.html
-Cleaned old post to keep top 30 limit: pakistan-administered-kashmir-opens-polls-in-viole_20260727_1927.html
-Cleaned old post to keep top 30 limit: are-the-us-and-iran-heading-towards-a-forever-war_20260727_1927.html
+Cleaned old post to keep top 30 limit: us-expands-strikes-on-11th-straight-night-of-attac_20260722_0550.html
+Cleaned old post to keep top 30 limit: what-to-know-about-the-white-house-correspondents-_20260724_1526.html
+Cleaned old post to keep top 30 limit: british-court-dismisses-bahrains-bid-to-block-acti_20260727_2112.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Wildfire now nine miles from French city of Bordeaux, mayor warns
+   • Shot fired outside US consulate in Canada for second time this year
      Sources: bbc.com, cnn.com, reuters.com
-   • Will Peru’s new leader Keiko Fujimori reject her father’s legacy?
+   • Video shows man subdued after stabbing three women in Paris
      Sources: bbc.com, cnn.com, reuters.com
-   • British court dismisses Bahrain’s bid to block activists’ spyware lawsuit
+   • Trump asks US Supreme Court to allow mail-in voting restrictions
      Sources: bbc.com, cnn.com, reuters.com
