@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: French patrol boat appears to fire gunshots in the Channel during BBC interview
   Added: Schools to offer technical subjects from age 14 in England, Burnham says
-  Added: Fourth heatwave grips parts of UK with 35C forecast
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda begins emergency food handouts after 19 die from hunger
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Future at stake’: India moves to demolish university Muslim leader founded
-Added expanded search topic: ‘Future at stake’: India moves to demolish university Muslim leader founded
-Saved 12 topics for 2026-07-28
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why London’s Hackney Council wants to repeal its ‘twin’ status with Haifa
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued
+Added expanded search topic: Why London’s Hackney Council wants to repeal its ‘twin’ status with Haifa
+Added expanded search topic: Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued
+Saved 15 topics for 2026-07-28
 Returning 3 unique trending topics:
-  1. Schools to offer technical subjects from age 14 in England, Burnham says (from BBC News)
-  2. Fourth heatwave grips parts of UK with 35C forecast (from BBC News)
-  3. ‘Future at stake’: India moves to demolish university Muslim leader founded (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. French patrol boat appears to fire gunshots in the Channel during BBC interview (from BBC News)
+  2. Why London’s Hackney Council wants to repeal its ‘twin’ status with Haifa (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Schools to offer technical subjects from age 14 in England, Burnham says
-Searching Google for: Schools to offer technical subjects from age 14 in England, Burnham says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSchools%252Bto%252Boffer%252Btechnical%252Bsubjects%252Bfrom%252Bage%252B14%252Bin%252BEngland%252C%252BBurnham%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-oGLPxodMGIjCdbcODvXZ0VmThIGVjaRBp9yg-jlcqtn6qPm2aE94kl7ElR28I4nPMRIQVLMuI0jEyBmpjbmRyUloBQw
+Processing trending topic: French patrol boat appears to fire gunshots in the Channel during BBC interview
+Searching Google for: French patrol boat appears to fire gunshots in the Channel during BBC interview
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bpatrol%252Bboat%252Bappears%252Bto%252Bfire%252Bgunshots%252Bin%252Bthe%252BChannel%252Bduring%252BBBC%252Binterview%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n4wzGOezotMGIjAOQOcV1PJmjl7AjJ-4PmBe165ykia4yoHUP7mkc2GU_SWQpedjzhcvOPZ2cwGh42QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: schools-to-offer-technical-subjects-from-age-14-in_20260728_0939.html
-✓ Created comprehensive article: schools-to-offer-technical-subjects-from-age-14-in_20260728_0939.html
+Successfully created file: french-patrol-boat-appears-to-fire-gunshots-in-the_20260728_1200.html
+✓ Created comprehensive article: french-patrol-boat-appears-to-fire-gunshots-in-the_20260728_1200.html
 
-Processing trending topic: Fourth heatwave grips parts of UK with 35C forecast
-Searching Google for: Fourth heatwave grips parts of UK with 35C forecast
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFourth%252Bheatwave%252Bgrips%252Bparts%252Bof%252BUK%252Bwith%252B35C%252Bforecast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-oGLrxodMGIjDt41OVd6ML1m_biz5oVZ1elqZCLkMsYUZrq61Yg3yCjRsUC3pVWDMympPl4qzZdRQyBmpjbmRyUloBQw
+Processing trending topic: Why London’s Hackney Council wants to repeal its ‘twin’ status with Haifa
+Searching Google for: Why London’s Hackney Council wants to repeal its ‘twin’ status with Haifa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BLondon%25E2%2580%2599s%252BHackney%252BCouncil%252Bwants%252Bto%252Brepeal%252Bits%252B%25E2%2580%2598twin%25E2%2580%2599%252Bstatus%252Bwith%252BHaifa%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n4wzGO6zotMGIjCsR5d9ah4EKMSySoLM-gld28P648P4iGffrdxjme7PXl1CGSDMI4QH7soEvm3U_OAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fourth-heatwave-grips-parts-of-uk-with-35c-forecas_20260728_0939.html
-✓ Created comprehensive article: fourth-heatwave-grips-parts-of-uk-with-35c-forecas_20260728_0939.html
+Successfully created file: why-londons-hackney-council-wants-to-repeal-its-tw_20260728_1200.html
+✓ Created comprehensive article: why-londons-hackney-council-wants-to-repeal-its-tw_20260728_1200.html
 
-Processing trending topic: ‘Future at stake’: India moves to demolish university Muslim leader founded
-Searching Google for: ‘Future at stake’: India moves to demolish university Muslim leader founded
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Future%252Bat%252Bstake%25E2%2580%2599%253A%252BIndia%252Bmoves%252Bto%252Bdemolish%252Buniversity%252BMuslim%252Bleader%252Bfounded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-oGMDxodMGIjDVkgkClPm7uHgVsmyYW-dwmTb_Yx3XSzb2a3D9cVI3zG88NedlnpDANd5g-7_toCsyBmpjbmRyUloBQw
+Processing trending topic: Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued
+Searching Google for: Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMagnitude%252B7.1%252Bearthquake%252Bshakes%252Bsouthern%252BJapan%252C%252Btsunami%252Bwarning%252Bissued%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n4wzGPSzotMGIjAo97dIyQu5lj_8jk2iQsfLVT-L_yCzsnAt8MwMRouEJNFinJm1Ed048l9Wkx6GpYIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: future-at-stake-india-moves-to-demolish-university_20260728_0939.html
-✓ Created comprehensive article: future-at-stake-india-moves-to-demolish-university_20260728_0939.html
+Successfully created file: magnitude-71-earthquake-shakes-southern-japan-tsun_20260728_1200.html
+✓ Created comprehensive article: magnitude-71-earthquake-shakes-southern-japan-tsun_20260728_1200.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: palestine-weekly-west-bank-in-flames-after-tal-kil_20260728_0640.html
-Cleaned old post to keep top 30 limit: us-warns-hundreds-of-boeing-jets-may-require-seat-_20260728_0403.html
-Cleaned old post to keep top 30 limit: schools-to-offer-technical-subjects-to-pupils-from_20260728_0640.html
+Cleaned old post to keep top 30 limit: wildfire-now-nine-miles-from-french-city-of-bordea_20260727_2112.html
+Cleaned old post to keep top 30 limit: wildfire-now-nine-miles-from-french-city-of-bordea_20260728_0010.html
+Cleaned old post to keep top 30 limit: fourth-heatwave-grips-parts-of-uk-with-35c-forecas_20260728_0939.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Schools to offer technical subjects from age 14 in England, Burnham says
+   • French patrol boat appears to fire gunshots in the Channel during BBC interview
      Sources: bbc.com, cnn.com, reuters.com
-   • Fourth heatwave grips parts of UK with 35C forecast
+   • Why London’s Hackney Council wants to repeal its ‘twin’ status with Haifa
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Future at stake’: India moves to demolish university Muslim leader founded
+   • Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued
      Sources: bbc.com, cnn.com, reuters.com
