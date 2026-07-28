@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Burnham says pupils in England need clearer pathway into work
   Added: Wildfire now nine miles from French city of Bordeaux, mayor warns
-  Added: Devastating European wildfires in maps - and how they're being tackled
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda begins emergency food handouts after 19 die from hunger
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-07-28
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US warns hundreds of Boeing jets may require seat safety inspections
+Added expanded search topic: Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge
+Added expanded search topic: US warns hundreds of Boeing jets may require seat safety inspections
+Saved 6 topics for 2026-07-28
 Returning 3 unique trending topics:
-  1. Wildfire now nine miles from French city of Bordeaux, mayor warns (from BBC News)
-  2. Devastating European wildfires in maps - and how they're being tackled (from BBC News)
-  3. Uganda begins emergency food handouts after 19 die from hunger (from The Guardian)
+  1. Burnham says pupils in England need clearer pathway into work (from BBC News)
+  2. Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US warns hundreds of Boeing jets may require seat safety inspections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Wildfire now nine miles from French city of Bordeaux, mayor warns
-Searching Google for: Wildfire now nine miles from French city of Bordeaux, mayor warns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWildfire%252Bnow%252Bnine%252Bmiles%252Bfrom%252BFrench%252Bcity%252Bof%252BBordeaux%252C%252Bmayor%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pW0GOrmn9MGIjDRRypNRnFAhGu-8ij3yNJmq29U3IvOMBtPeKD2Mvom8vTXo2m7C-BVIqHnuKTyFJoyBmpjbmRyUloBQw
+Processing trending topic: Burnham says pupils in England need clearer pathway into work
+Searching Google for: Burnham says pupils in England need clearer pathway into work
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bsays%252Bpupils%252Bin%252BEngland%252Bneed%252Bclearer%252Bpathway%252Binto%252Bwork%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy9TIGInUoNMGIjCxfTe5BgYjKMtP1mYyoCu1LB7RLz7saifJofrhSFmvW6kIikvXOUvET4YJJmkaJiAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: wildfire-now-nine-miles-from-french-city-of-bordea_20260728_0010.html
-✓ Created comprehensive article: wildfire-now-nine-miles-from-french-city-of-bordea_20260728_0010.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: burnham-says-pupils-in-england-need-clearer-pathwa_20260728_0403.html
+✓ Created comprehensive article: burnham-says-pupils-in-england-need-clearer-pathwa_20260728_0403.html
 
-Processing trending topic: Devastating European wildfires in maps - and how they're being tackled
-Searching Google for: Devastating European wildfires in maps - and how they're being tackled
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDevastating%252BEuropean%252Bwildfires%252Bin%252Bmaps%252B-%252Band%252Bhow%252Bthey%2527re%252Bbeing%252Btackled%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pW0GPHmn9MGIjA9wSdj3SwJ36MR4tsLT0jWiCn4Gfg7_shDZ9pR-HmvSdo3oQvAlm_ssIa7K8rrzqUyBmpjbmRyUloBQw
+Processing trending topic: Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge
+Searching Google for: Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%25E2%2580%2599s%252BZelenskyy%252Bset%252Bto%252Bmeet%252BTrump%252Bas%252BIran%252Band%252BUkraine%252Bwars%252Bconverge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy9TIGJDUoNMGIjDsNrzfkWlV6PuZTSv-s_85rimUDVqFc_94_r9XG8BTMYbMT5sRUxhybRoQ6h3KlMAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: devastating-european-wildfires-in-maps-and-how-the_20260728_0010.html
-✓ Created comprehensive article: devastating-european-wildfires-in-maps-and-how-the_20260728_0010.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: ukraines-zelenskyy-set-to-meet-trump-as-iran-and-u_20260728_0403.html
+✓ Created comprehensive article: ukraines-zelenskyy-set-to-meet-trump-as-iran-and-u_20260728_0403.html
 
-Processing trending topic: Uganda begins emergency food handouts after 19 die from hunger
-Searching Google for: Uganda begins emergency food handouts after 19 die from hunger
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Bbegins%252Bemergency%252Bfood%252Bhandouts%252Bafter%252B19%252Bdie%252Bfrom%252Bhunger%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQJ6pW0GPfmn9MGIjD0eR67lr05lYO_xn2gxdGKp48VfGhNIfTKqALMaEAORo3BTmyHKd4PPQBDptky_iIyBmpjbmRyUloBQw
+Processing trending topic: US warns hundreds of Boeing jets may require seat safety inspections
+Searching Google for: US warns hundreds of Boeing jets may require seat safety inspections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bwarns%252Bhundreds%252Bof%252BBoeing%252Bjets%252Bmay%252Brequire%252Bseat%252Bsafety%252Binspections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy9TIGJbUoNMGIjAVjqf1HK3OOQNHYqr92_CPPJ7EBuYx_nYqstffs_Ryudc09Dxc_wTzQIT67V6Evh0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uganda-begins-emergency-food-handouts-after-19-die_20260728_0010.html
-✓ Created comprehensive article: uganda-begins-emergency-food-handouts-after-19-die_20260728_0010.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-warns-hundreds-of-boeing-jets-may-require-seat-_20260728_0403.html
+✓ Created comprehensive article: us-warns-hundreds-of-boeing-jets-may-require-seat-_20260728_0403.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: macron-calls-crisis-meeting-as-wildfires-threaten-_20260727_0438.html
-Cleaned old post to keep top 30 limit: more-than-250000-flee-wildfires-in-france-and-spai_20260725_1801.html
-Cleaned old post to keep top 30 limit: funeral-director-who-left-people-unburied-breached_20260727_1744.html
+Cleaned old post to keep top 30 limit: shot-fired-outside-us-consulate-in-canada-for-seco_20260727_2302.html
+Cleaned old post to keep top 30 limit: trump-asks-us-supreme-court-to-allow-mail-in-votin_20260727_2302.html
+Cleaned old post to keep top 30 limit: devastating-european-wildfires-in-maps-and-how-the_20260728_0010.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Wildfire now nine miles from French city of Bordeaux, mayor warns
+   • Burnham says pupils in England need clearer pathway into work
      Sources: bbc.com, cnn.com, reuters.com
-   • Devastating European wildfires in maps - and how they're being tackled
+   • Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge
      Sources: bbc.com, cnn.com, reuters.com
-   • Uganda begins emergency food handouts after 19 die from hunger
+   • US warns hundreds of Boeing jets may require seat safety inspections
      Sources: bbc.com, cnn.com, reuters.com
