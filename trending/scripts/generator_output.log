@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More than half of England in drought, Environment Agency declares
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenya investigating unexpected deaths of 15 elephants in national park
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says US to deliver ‘beating’ to Iran after bases again targeted
-Added expanded search topic: Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors
-Added expanded search topic: Trump says US to deliver ‘beating’ to Iran after bases again targeted
-Saved 21 topics for 2026-07-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South Korea’s stock market plunges as AI-driven boom fades
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran pushes back against US as regional attacks heat up
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Democrat senators ask US SEC to probe Trump Media’s fast feed sale
+Added expanded search topic: South Korea’s stock market plunges as AI-driven boom fades
+Added expanded search topic: Iran pushes back against US as regional attacks heat up
+Added expanded search topic: Democrat senators ask US SEC to probe Trump Media’s fast feed sale
+Saved 24 topics for 2026-07-29
 Returning 3 unique trending topics:
-  1. More than half of England in drought, Environment Agency declares (from BBC News)
-  2. Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump says US to deliver ‘beating’ to Iran after bases again targeted (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. South Korea’s stock market plunges as AI-driven boom fades (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran pushes back against US as regional attacks heat up (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Democrat senators ask US SEC to probe Trump Media’s fast feed sale (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: More than half of England in drought, Environment Agency declares
-Searching Google for: More than half of England in drought, Environment Agency declares
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252Bhalf%252Bof%252BEngland%252Bin%252Bdrought%252C%252BEnvironment%252BAgency%252Bdeclares%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H3CGNHRqNMGIjBTW0hsir_veT5KrsnFIWztGC-qaskMgrP_k_jxrYVJKAMxN5jNmN2QsJd754nEh4IyBmpjbmRyUloBQw
+Processing trending topic: South Korea’s stock market plunges as AI-driven boom fades
+Searching Google for: South Korea’s stock market plunges as AI-driven boom fades
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BKorea%25E2%2580%2599s%252Bstock%252Bmarket%252Bplunges%252Bas%252BAI-driven%252Bboom%252Bfades%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvnblGIaDqdMGIjDegO0kTwnvGgVYihVVdwGUppdxbny-neCKtmgRILJfMI0Z2IZtefYMdlhkQq87ga0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-than-half-of-england-in-drought-environment-a_20260729_1622.html
-✓ Created comprehensive article: more-than-half-of-england-in-drought-environment-a_20260729_1622.html
+Successfully created file: south-koreas-stock-market-plunges-as-ai-driven-boo_20260729_1808.html
+✓ Created comprehensive article: south-koreas-stock-market-plunges-as-ai-driven-boo_20260729_1808.html
 
-Processing trending topic: Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors
-Searching Google for: Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEx-FIFA%252Bchief%252BBlatter%252Bblasts%252Bplan%252Bto%252Bsell%252Bstake%252Bin%252BWorld%252BCup%252Bto%252Binvestors%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H3CGNjRqNMGIjCNM6ccQkPYeP2orwpUC17W_TAMmohESj2QGXd54qc7knOElUgM6XJVyJAOxKHvhWIyBmpjbmRyUloBQw
+Processing trending topic: Iran pushes back against US as regional attacks heat up
+Searching Google for: Iran pushes back against US as regional attacks heat up
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bpushes%252Bback%252Bagainst%252BUS%252Bas%252Bregional%252Battacks%252Bheat%252Bup%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvnblGI2DqdMGIjCJL4hwRe-vh02hiV75fmSt2ieT0FgmD39qwIPs93TyIT1_ApXImlhE_c8CLmt_MGIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ex-fifa-chief-blatter-blasts-plan-to-sell-stake-in_20260729_1622.html
-✓ Created comprehensive article: ex-fifa-chief-blatter-blasts-plan-to-sell-stake-in_20260729_1622.html
+Successfully created file: iran-pushes-back-against-us-as-regional-attacks-he_20260729_1808.html
+✓ Created comprehensive article: iran-pushes-back-against-us-as-regional-attacks-he_20260729_1808.html
 
-Processing trending topic: Trump says US to deliver ‘beating’ to Iran after bases again targeted
-Searching Google for: Trump says US to deliver ‘beating’ to Iran after bases again targeted
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BUS%252Bto%252Bdeliver%252B%25E2%2580%2598beating%25E2%2580%2599%252Bto%252BIran%252Bafter%252Bbases%252Bagain%252Btargeted%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H3CGN7RqNMGIjAuzNPL1FunHR2Fj4O8x7dBfJVCqhAKYMLek9aio7nSHFxBgHo_Wwloiyg7SOEYw-QyBmpjbmRyUloBQw
+Processing trending topic: Democrat senators ask US SEC to probe Trump Media’s fast feed sale
+Searching Google for: Democrat senators ask US SEC to probe Trump Media’s fast feed sale
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDemocrat%252Bsenators%252Bask%252BUS%252BSEC%252Bto%252Bprobe%252BTrump%252BMedia%25E2%2580%2599s%252Bfast%252Bfeed%252Bsale%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsvnblGJODqdMGIjBufYmz30kdDY_su7AKehENS-FIYh2BVMd82rPa3cl5bwQV5wMS9SpFKcCZcwHtwZ4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-us-to-deliver-beating-to-iran-after-bas_20260729_1622.html
-✓ Created comprehensive article: trump-says-us-to-deliver-beating-to-iran-after-bas_20260729_1622.html
+Successfully created file: democrat-senators-ask-us-sec-to-probe-trump-medias_20260729_1808.html
+✓ Created comprehensive article: democrat-senators-ask-us-sec-to-probe-trump-medias_20260729_1808.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uganda-begins-emergency-food-handouts-after-19-die_20260728_0010.html
-Cleaned old post to keep top 30 limit: how-are-ai-models-able-to-autonomously-hack-others_20260729_1409.html
-Cleaned old post to keep top 30 limit: burnham-doesnt-rule-out-tax-rises-to-fix-social-ca_20260729_1408.html
+Cleaned old post to keep top 30 limit: schools-to-offer-technical-subjects-from-age-14-in_20260728_0939.html
+Cleaned old post to keep top 30 limit: seven-areas-of-england-officially-in-drought-envir_20260729_1128.html
+Cleaned old post to keep top 30 limit: ex-fifa-chief-blatter-blasts-plan-to-sell-stake-in_20260729_1622.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • More than half of England in drought, Environment Agency declares
+   • South Korea’s stock market plunges as AI-driven boom fades
      Sources: bbc.com, cnn.com, reuters.com
-   • Ex-FIFA chief Blatter blasts plan to sell stake in World Cup to investors
+   • Iran pushes back against US as regional attacks heat up
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says US to deliver ‘beating’ to Iran after bases again targeted
+   • Democrat senators ask US SEC to probe Trump Media’s fast feed sale
      Sources: bbc.com, cnn.com, reuters.com
