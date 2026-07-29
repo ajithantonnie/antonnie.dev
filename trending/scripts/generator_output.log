@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: The moment Tuesday's powerful earthquake hit Japan
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda begins emergency food handouts after 19 die from hunger
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli airstrike destroys Gaza City mosque near displacement camp
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Donald Trump and world leaders attend Lindsey Graham’s funeral
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran and Oman exchange proposals to manage Strait of Hormuz
-Added expanded search topic: Israeli airstrike destroys Gaza City mosque near displacement camp
-Added expanded search topic: Donald Trump and world leaders attend Lindsey Graham’s funeral
-Added expanded search topic: Iran and Oman exchange proposals to manage Strait of Hormuz
-Saved 30 topics for 2026-07-28
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-29
 Returning 3 unique trending topics:
-  1. Israeli airstrike destroys Gaza City mosque near displacement camp (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Donald Trump and world leaders attend Lindsey Graham’s funeral (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran and Oman exchange proposals to manage Strait of Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. The moment Tuesday's powerful earthquake hit Japan (from BBC News)
+  2. Some parents on benefits to get up to £4,500 for child starting apprenticeship (from BBC News)
+  3. Uganda begins emergency food handouts after 19 die from hunger (from The Guardian)
 
-Processing trending topic: Israeli airstrike destroys Gaza City mosque near displacement camp
-Searching Google for: Israeli airstrike destroys Gaza City mosque near displacement camp
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bairstrike%252Bdestroys%252BGaza%252BCity%252Bmosque%252Bnear%252Bdisplacement%252Bcamp%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8hGLDPpNMGIjAgHk7aBmlGHpjlT7d9E9ixrgMRT3cAA56Wg0scUUHSGNPrLxlk3VV9APf7ZLY7V18yBmpjbmRyUloBQw
+Processing trending topic: The moment Tuesday's powerful earthquake hit Japan
+Searching Google for: The moment Tuesday's powerful earthquake hit Japan
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-airstrike-destroys-gaza-city-mosque-near-d_20260728_2205.html
-✓ Created comprehensive article: israeli-airstrike-destroys-gaza-city-mosque-near-d_20260728_2205.html
+Successfully created file: the-moment-tuesdays-powerful-earthquake-hit-japan_20260729_0000.html
+✓ Created comprehensive article: the-moment-tuesdays-powerful-earthquake-hit-japan_20260729_0000.html
 
-Processing trending topic: Donald Trump and world leaders attend Lindsey Graham’s funeral
-Searching Google for: Donald Trump and world leaders attend Lindsey Graham’s funeral
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDonald%252BTrump%252Band%252Bworld%252Bleaders%252Battend%252BLindsey%252BGraham%25E2%2580%2599s%252Bfuneral%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8hGLfPpNMGIjB9ScCis8TEBsqt0_kkwc7PbKZagsVA_oy04TyG1IBMSNPBtRYX-9yiWBT49TSd3e0yBmpjbmRyUloBQw
+Processing trending topic: Some parents on benefits to get up to £4,500 for child starting apprenticeship
+Searching Google for: Some parents on benefits to get up to £4,500 for child starting apprenticeship
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSome%252Bparents%252Bon%252Bbenefits%252Bto%252Bget%252Bup%252Bto%252B%25C2%25A34%252C500%252Bfor%252Bchild%252Bstarting%252Bapprenticeship%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUcjGOGFpdMGIjBs-qmKjGFvxL9nrHZwyFA4XJSRxC1OiiBR2LOOovs_boZ4O9CHP2Rp3cuD1eSM7p0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: donald-trump-and-world-leaders-attend-lindsey-grah_20260728_2205.html
-✓ Created comprehensive article: donald-trump-and-world-leaders-attend-lindsey-grah_20260728_2205.html
+Successfully created file: some-parents-on-benefits-to-get-up-to-4500-for-chi_20260729_0001.html
+✓ Created comprehensive article: some-parents-on-benefits-to-get-up-to-4500-for-chi_20260729_0001.html
 
-Processing trending topic: Iran and Oman exchange proposals to manage Strait of Hormuz
-Searching Google for: Iran and Oman exchange proposals to manage Strait of Hormuz
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Band%252BOman%252Bexchange%252Bproposals%252Bto%252Bmanage%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8hGL3PpNMGIjBJkhAGnFEVYhmnNhzTL_kmlRUcE9hCZxYmTO6FVInNEVygIH_bkSqHmIo9YRBko2MyBmpjbmRyUloBQw
+Processing trending topic: Uganda begins emergency food handouts after 19 die from hunger
+Searching Google for: Uganda begins emergency food handouts after 19 die from hunger
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Bbegins%252Bemergency%252Bfood%252Bhandouts%252Bafter%252B19%252Bdie%252Bfrom%252Bhunger%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUcjGOiFpdMGIjBK_6fbPkeBB8OTLQbf6lQ7xe6x7hxmd3c-hc4mNMAOQ568YFln_YgZzRgHpDZqI8UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: iran-and-oman-exchange-proposals-to-manage-strait-_20260728_2205.html
-✓ Created comprehensive article: iran-and-oman-exchange-proposals-to-manage-strait-_20260728_2205.html
+Successfully created file: uganda-begins-emergency-food-handouts-after-19-die_20260729_0001.html
+✓ Created comprehensive article: uganda-begins-emergency-food-handouts-after-19-die_20260729_0001.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ukraines-zelenskyy-set-to-meet-trump-as-iran-and-u_20260728_0403.html
-Cleaned old post to keep top 30 limit: the-moment-tuesdays-powerful-earthquake-hit-japan_20260728_1642.html
-Cleaned old post to keep top 30 limit: new-poll-shows-confusion-over-democratic-socialist_20260728_2019.html
+Cleaned old post to keep top 30 limit: why-londons-hackney-council-wants-to-repeal-its-tw_20260728_1200.html
+Cleaned old post to keep top 30 limit: israeli-airstrike-destroys-gaza-city-mosque-near-d_20260728_2205.html
+Cleaned old post to keep top 30 limit: donald-trump-and-world-leaders-attend-lindsey-grah_20260728_2205.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israeli airstrike destroys Gaza City mosque near displacement camp
+   • The moment Tuesday's powerful earthquake hit Japan
      Sources: bbc.com, cnn.com, reuters.com
-   • Donald Trump and world leaders attend Lindsey Graham’s funeral
+   • Some parents on benefits to get up to £4,500 for child starting apprenticeship
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran and Oman exchange proposals to manage Strait of Hormuz
+   • Uganda begins emergency food handouts after 19 die from hunger
      Sources: bbc.com, cnn.com, reuters.com
