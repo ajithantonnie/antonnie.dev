@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: European nations to boycott World Cup if Fifa goes ahead with investment plan
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US government map of Africa mislabels every country at global conference
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN launches hunt for next chief amid rising challenges
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Security camera shows ‘Russian missile’ exploding in Poland
-Added expanded search topic: UN launches hunt for next chief amid rising challenges
-Added expanded search topic: Security camera shows ‘Russian missile’ exploding in Poland
-Saved 27 topics for 2026-07-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is US GDP growth slowing, and how can it be reversed?
+Added expanded search topic: Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza
+Added expanded search topic: Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis
+Added expanded search topic: Why is US GDP growth slowing, and how can it be reversed?
+Saved 30 topics for 2026-07-30
 Returning 3 unique trending topics:
-  1. Suffolk wildfire still growing and unpredictable, says fire service (from BBC News)
-  2. UN launches hunt for next chief amid rising challenges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Security camera shows ‘Russian missile’ exploding in Poland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why is US GDP growth slowing, and how can it be reversed? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Suffolk wildfire still growing and unpredictable, says fire service
-Searching Google for: Suffolk wildfire still growing and unpredictable, says fire service
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuffolk%252Bwildfire%252Bstill%252Bgrowing%252Band%252Bunpredictable%252C%252Bsays%252Bfire%252Bservice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JBmGKb7rtMGIjAdCWl_cEbis0ab36sbMyXTlb47mv_sLDQSEI5NKHpG3Y_WI_I9bXNvUFcvQ0y5u4UyBmpjbmRyUloBQw
+Processing trending topic: Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza
+Searching Google for: Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BBoard%252Bof%252BPeace%252Breaches%252Bagreement%252Bon%252Bdisarmament%252Bof%252BHamas%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrr5yGJKyr9MGIjDSuOKTXur4cEcWWb87TgYoY6vh6oUq4vrXfoLT2W2O9hHLvRA3Cm-3JxpZXE6NiTIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suffolk-wildfire-still-growing-and-unpredictable-s_20260730_2110.html
-✓ Created comprehensive article: suffolk-wildfire-still-growing-and-unpredictable-s_20260730_2110.html
+Successfully created file: trump-says-board-of-peace-reaches-agreement-on-dis_20260730_2307.html
+✓ Created comprehensive article: trump-says-board-of-peace-reaches-agreement-on-dis_20260730_2307.html
 
-Processing trending topic: UN launches hunt for next chief amid rising challenges
-Searching Google for: UN launches hunt for next chief amid rising challenges
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Blaunches%252Bhunt%252Bfor%252Bnext%252Bchief%252Bamid%252Brising%252Bchallenges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JBmGK37rtMGIjA5sey4eHvcPzai0vFA4rMxCf-9TAReyE_M0I1fBzddrUoE2o8PNvuQYqG6gNoaQLYyBmpjbmRyUloBQw
+Processing trending topic: Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis
+Searching Google for: Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmazon%25E2%2580%2599s%252BZoox%252Bsecures%252BUS%252Bfederal%252Bapproval%252Bfor%252Bsteering-wheel-free%252Brobotaxis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrr5yGJmyr9MGIjCwIGjY6jkx7rCSK2ndEvJtPvdFPJSnQgljl5YFk5ZqmkPoTzB7xbbKt8Zw9wpj-xEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: un-launches-hunt-for-next-chief-amid-rising-challe_20260730_2110.html
-✓ Created comprehensive article: un-launches-hunt-for-next-chief-amid-rising-challe_20260730_2110.html
+Successfully created file: amazons-zoox-secures-us-federal-approval-for-steer_20260730_2307.html
+✓ Created comprehensive article: amazons-zoox-secures-us-federal-approval-for-steer_20260730_2307.html
 
-Processing trending topic: Security camera shows ‘Russian missile’ exploding in Poland
-Searching Google for: Security camera shows ‘Russian missile’ exploding in Poland
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecurity%252Bcamera%252Bshows%252B%25E2%2580%2598Russian%252Bmissile%25E2%2580%2599%252Bexploding%252Bin%252BPoland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JBmGLP7rtMGIjC4yhb2ukBzM8zEw80cVG9hHwvI8nFqFSihuMR5K4AS058ThpseujhLkCS581f9NjoyBmpjbmRyUloBQw
+Processing trending topic: Why is US GDP growth slowing, and how can it be reversed?
+Searching Google for: Why is US GDP growth slowing, and how can it be reversed?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BUS%252BGDP%252Bgrowth%252Bslowing%252C%252Band%252Bhow%252Bcan%252Bit%252Bbe%252Breversed%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrr5yGJ-yr9MGIjDm1xUW4yTpNo8ZfxI_Pli7QFwpongCiIUUgTT-HeuO5JSY6mbg44yi9FjNTr_g8tUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: security-camera-shows-russian-missile-exploding-in_20260730_2110.html
-✓ Created comprehensive article: security-camera-shows-russian-missile-exploding-in_20260730_2110.html
+Successfully created file: why-is-us-gdp-growth-slowing-and-how-can-it-be-rev_20260730_2307.html
+✓ Created comprehensive article: why-is-us-gdp-growth-slowing-and-how-can-it-be-rev_20260730_2307.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: un-demands-end-of-ugandan-clampdown-on-dissent_20260730_1925.html
-Cleaned old post to keep top 30 limit: spains-ceuta-declares-emergency-over-surge-in-migr_20260730_1925.html
-Cleaned old post to keep top 30 limit: abc-news-says-fcc-is-carrying-out-intimidation-cam_20260730_1925.html
+Cleaned old post to keep top 30 limit: suffolk-wildfire-still-growing-and-unpredictable-s_20260730_2110.html
+Cleaned old post to keep top 30 limit: un-launches-hunt-for-next-chief-amid-rising-challe_20260730_2110.html
+Cleaned old post to keep top 30 limit: more-than-half-of-england-officially-in-drought-en_20260729_1408.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Suffolk wildfire still growing and unpredictable, says fire service
+   • Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • UN launches hunt for next chief amid rising challenges
+   • Amazon’s Zoox secures US federal approval for steering-wheel-free robotaxis
      Sources: bbc.com, cnn.com, reuters.com
-   • Security camera shows ‘Russian missile’ exploding in Poland
+   • Why is US GDP growth slowing, and how can it be reversed?
      Sources: bbc.com, cnn.com, reuters.com
