@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US launches 'heavy' strikes on Iran after attempted attack on American troops
-  Added: Burnham says nuclear sub investment will protect UK and boost jobs
+  Added: Cooler conditions on the way for parts of UK - but still no rain for drought-hit areas
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: A quarter of young Africans believe USAID cuts could be positive, survey finds
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-07-30
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US strikes cause extensive damage on Iran’s Qeshm Island
+Added expanded search topic: Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’
+Added expanded search topic: US strikes cause extensive damage on Iran’s Qeshm Island
+Saved 9 topics for 2026-07-30
 Returning 3 unique trending topics:
-  1. US launches 'heavy' strikes on Iran after attempted attack on American troops (from BBC News)
-  2. Burnham says nuclear sub investment will protect UK and boost jobs (from BBC News)
-  3. A quarter of young Africans believe USAID cuts could be positive, survey finds (from The Guardian)
+  1. Cooler conditions on the way for parts of UK - but still no rain for drought-hit areas (from BBC News)
+  2. Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US strikes cause extensive damage on Iran’s Qeshm Island (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US launches 'heavy' strikes on Iran after attempted attack on American troops
-Searching Google for: US launches 'heavy' strikes on Iran after attempted attack on American troops
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blaunches%252B%2527heavy%2527%252Bstrikes%252Bon%252BIran%252Bafter%252Battempted%252Battack%252Bon%252BAmerican%252Btroops%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYiGPTHq9MGIjBuuL8JlcKkGR6plRq81sbCzd11Mif8foFyxQvsMzPK0yPbCG7tcSBg9JflSErYVegyBmpjbmRyUloBQw
+Processing trending topic: Cooler conditions on the way for parts of UK - but still no rain for drought-hit areas
+Searching Google for: Cooler conditions on the way for parts of UK - but still no rain for drought-hit areas
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCooler%252Bconditions%252Bon%252Bthe%252Bway%252Bfor%252Bparts%252Bof%252BUK%252B-%252Bbut%252Bstill%252Bno%252Brain%252Bfor%252Bdrought-hit%252Bareas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbjGOiUrNMGIjAbE9U2wQ2B7FIwU1_RwQdYjvUrFOemH3tbUuKQSe5_uNcEIx6nFpYwx5tl15jxsaEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-launches-heavy-strikes-on-iran-after-attempted-_20260730_0541.html
-✓ Created comprehensive article: us-launches-heavy-strikes-on-iran-after-attempted-_20260730_0541.html
+Successfully created file: cooler-conditions-on-the-way-for-parts-of-uk-but-s_20260730_0825.html
+✓ Created comprehensive article: cooler-conditions-on-the-way-for-parts-of-uk-but-s_20260730_0825.html
 
-Processing trending topic: Burnham says nuclear sub investment will protect UK and boost jobs
-Searching Google for: Burnham says nuclear sub investment will protect UK and boost jobs
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bsays%252Bnuclear%252Bsub%252Binvestment%252Bwill%252Bprotect%252BUK%252Band%252Bboost%252Bjobs%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYiGPvHq9MGIjA3yKjfrTyiSNF_HdeXTkVXBvffAmktIeUOQ6Cp3qg2f2eU7u6w7wMQHYENlKYDzIMyBmpjbmRyUloBQw
+Processing trending topic: Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’
+Searching Google for: Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInfantino%252Binsists%252BFIFA%25E2%2580%2599s%252BWorld%252BCup%252Bplan%252Bis%252Bproposal%252Band%252Bnot%252B%25E2%2580%2598obligation%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbjGO-UrNMGIjDlMxTvbjcdQqdjuQxNUkntFzJ_us2p4-KhjiffiqhoR4NhMQet2DNgAhNgFholLfkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-says-nuclear-sub-investment-will-protect-u_20260730_0541.html
-✓ Created comprehensive article: burnham-says-nuclear-sub-investment-will-protect-u_20260730_0541.html
+Successfully created file: infantino-insists-fifas-world-cup-plan-is-proposal_20260730_0825.html
+✓ Created comprehensive article: infantino-insists-fifas-world-cup-plan-is-proposal_20260730_0825.html
 
-Processing trending topic: A quarter of young Africans believe USAID cuts could be positive, survey finds
-Searching Google for: A quarter of young Africans believe USAID cuts could be positive, survey finds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bquarter%252Bof%252Byoung%252BAfricans%252Bbelieve%252BUSAID%252Bcuts%252Bcould%252Bbe%252Bpositive%252C%252Bsurvey%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jYiGIHIq9MGIjAGNTrPg5QhCW55keBHNcduNdQo5ioW7hE2DiJzRe0iMgCxE2klEkE5_KMu6-40m2gyBmpjbmRyUloBQw
+Processing trending topic: US strikes cause extensive damage on Iran’s Qeshm Island
+Searching Google for: US strikes cause extensive damage on Iran’s Qeshm Island
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bstrikes%252Bcause%252Bextensive%252Bdamage%252Bon%252BIran%25E2%2580%2599s%252BQeshm%252BIsland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbjGPaUrNMGIjCbqTV2WPlQ60xUWDSPwSi3rZeBPfbBp8rSE8uA5Is-W-pp5GybQ2kG6jaR5Ql-53EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: a-quarter-of-young-africans-believe-usaid-cuts-cou_20260730_0541.html
-✓ Created comprehensive article: a-quarter-of-young-africans-believe-usaid-cuts-cou_20260730_0541.html
+Successfully created file: us-strikes-cause-extensive-damage-on-irans-qeshm-i_20260730_0825.html
+✓ Created comprehensive article: us-strikes-cause-extensive-damage-on-irans-qeshm-i_20260730_0825.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: some-parents-on-benefits-to-get-up-to-4500-for-chi_20260728_1816.html
-Cleaned old post to keep top 30 limit: saudi-arabias-dilemma-as-it-tries-to-stay-out-of-u_20260730_0212.html
-Cleaned old post to keep top 30 limit: kenya-investigating-unexpected-deaths-of-15-elepha_20260730_0212.html
+Cleaned old post to keep top 30 limit: burnham-says-nuclear-sub-investment-will-protect-u_20260730_0541.html
+Cleaned old post to keep top 30 limit: a-quarter-of-young-africans-believe-usaid-cuts-cou_20260730_0541.html
+Cleaned old post to keep top 30 limit: us-launches-powerful-strikes-on-iran-after-attempt_20260730_0212.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US launches 'heavy' strikes on Iran after attempted attack on American troops
+   • Cooler conditions on the way for parts of UK - but still no rain for drought-hit areas
      Sources: bbc.com, cnn.com, reuters.com
-   • Burnham says nuclear sub investment will protect UK and boost jobs
+   • Infantino insists FIFA’s World Cup plan is proposal and not ‘obligation’
      Sources: bbc.com, cnn.com, reuters.com
-   • A quarter of young Africans believe USAID cuts could be positive, survey finds
+   • US strikes cause extensive damage on Iran’s Qeshm Island
      Sources: bbc.com, cnn.com, reuters.com
