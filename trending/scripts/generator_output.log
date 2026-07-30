@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: More than half of England in drought, Environment Agency declares
-  Added: Moment police officers set foot in 'horror scene' funeral home
+  Added: US launches 'powerful' strikes on Iran after attempted attack on American troops
+  Added: Saudi Arabia's dilemma as it tries to stay out of US-Iran war
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenya investigating unexpected deaths of 15 elephants in national park
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sam Altman meets lawmakers on back of OpenAI agents hacking companies
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump threatens Iran strikes after attack on US base in Jordan
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Videos show aftermath of US-Saudi strikes on Iraq PMF bases
-Added expanded search topic: Sam Altman meets lawmakers on back of OpenAI agents hacking companies
-Added expanded search topic: Trump threatens Iran strikes after attack on US base in Jordan
-Added expanded search topic: Videos show aftermath of US-Saudi strikes on Iraq PMF bases
-Saved 33 topics for 2026-07-29
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-07-30
 Returning 3 unique trending topics:
-  1. Sam Altman meets lawmakers on back of OpenAI agents hacking companies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Trump threatens Iran strikes after attack on US base in Jordan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Videos show aftermath of US-Saudi strikes on Iraq PMF bases (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US launches 'powerful' strikes on Iran after attempted attack on American troops (from BBC News)
+  2. Saudi Arabia's dilemma as it tries to stay out of US-Iran war (from BBC News)
+  3. Kenya investigating unexpected deaths of 15 elephants in national park (from The Guardian)
 
-Processing trending topic: Sam Altman meets lawmakers on back of OpenAI agents hacking companies
-Searching Google for: Sam Altman meets lawmakers on back of OpenAI agents hacking companies
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSam%252BAltman%252Bmeets%252Blawmakers%252Bon%252Bback%252Bof%252BOpenAI%252Bagents%252Bhacking%252Bcompanies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU3UTBGLGPqtMGIjD40MzuKYtbl-yJytPH3NjEHD4PcolTIpa8-yDKWUyY0oNn05jISUW29FPGVjjX5ckyBmpjbmRyUloBQw
+Processing trending topic: US launches 'powerful' strikes on Iran after attempted attack on American troops
+Searching Google for: US launches 'powerful' strikes on Iran after attempted attack on American troops
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Blaunches%252B%2527powerful%2527%252Bstrikes%252Bon%252BIran%252Bafter%252Battempted%252Battack%252Bon%252BAmerican%252Btroops%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGRjGI7mqtMGIjAHS_kU5bjTc1kVIBLyvpBjZrVgFUcUBmZTEIrzwWbQL00UW9FcoBeYcPJYF_ETx70yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sam-altman-meets-lawmakers-on-back-of-openai-agent_20260729_2307.html
-✓ Created comprehensive article: sam-altman-meets-lawmakers-on-back-of-openai-agent_20260729_2307.html
+Successfully created file: us-launches-powerful-strikes-on-iran-after-attempt_20260730_0212.html
+✓ Created comprehensive article: us-launches-powerful-strikes-on-iran-after-attempt_20260730_0212.html
 
-Processing trending topic: Trump threatens Iran strikes after attack on US base in Jordan
-Searching Google for: Trump threatens Iran strikes after attack on US base in Jordan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252BIran%252Bstrikes%252Bafter%252Battack%252Bon%252BUS%252Bbase%252Bin%252BJordan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU3UTBGLmPqtMGIjAVaNHBbAi5BERbXXTexiLlbkwL7htIJYDdkR3243Dc3pI5FTuRmNqyHRV5h38ynDYyBmpjbmRyUloBQw
+Processing trending topic: Saudi Arabia's dilemma as it tries to stay out of US-Iran war
+Searching Google for: Saudi Arabia's dilemma as it tries to stay out of US-Iran war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSaudi%252BArabia%2527s%252Bdilemma%252Bas%252Bit%252Btries%252Bto%252Bstay%252Bout%252Bof%252BUS-Iran%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGRjGJXmqtMGIjBNhSHZkra_F-2aIeJVZnzGW-IFgypE_ue8g775eifWBf97aFQyeFyHwzNE6GKhFrgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-threatens-iran-strikes-after-attack-on-us-ba_20260729_2307.html
-✓ Created comprehensive article: trump-threatens-iran-strikes-after-attack-on-us-ba_20260729_2307.html
+Successfully created file: saudi-arabias-dilemma-as-it-tries-to-stay-out-of-u_20260730_0212.html
+✓ Created comprehensive article: saudi-arabias-dilemma-as-it-tries-to-stay-out-of-u_20260730_0212.html
 
-Processing trending topic: Videos show aftermath of US-Saudi strikes on Iraq PMF bases
-Searching Google for: Videos show aftermath of US-Saudi strikes on Iraq PMF bases
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideos%252Bshow%252Baftermath%252Bof%252BUS-Saudi%252Bstrikes%252Bon%252BIraq%252BPMF%252Bbases%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU3UTBGL-PqtMGIjDhrmOHQ2qlkyUETxeOU_ACTVZwXXFiq77V29YWn6I48ybQkocuDIe3g-8xaoF5FcMyBmpjbmRyUloBQw
+Processing trending topic: Kenya investigating unexpected deaths of 15 elephants in national park
+Searching Google for: Kenya investigating unexpected deaths of 15 elephants in national park
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenya%252Binvestigating%252Bunexpected%252Bdeaths%252Bof%252B15%252Belephants%252Bin%252Bnational%252Bpark%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGRjGJvmqtMGIjBtp6s0l_EbYgu1jkUnT6iR37FdyELScrn9SNpWJ1AcZYuHEBwBwPeuJ1U6YtVQzXwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: videos-show-aftermath-of-us-saudi-strikes-on-iraq-_20260729_2307.html
-✓ Created comprehensive article: videos-show-aftermath-of-us-saudi-strikes-on-iraq-_20260729_2307.html
+Successfully created file: kenya-investigating-unexpected-deaths-of-15-elepha_20260730_0212.html
+✓ Created comprehensive article: kenya-investigating-unexpected-deaths-of-15-elepha_20260730_0212.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-us-to-deliver-beating-to-iran-after-bas_20260729_1622.html
-Cleaned old post to keep top 30 limit: myanmar-court-sentences-activists-to-37-years-over_20260729_2203.html
-Cleaned old post to keep top 30 limit: fifa-charges-argentina-after-world-cup-final-brawl_20260729_2203.html
+Cleaned old post to keep top 30 limit: sam-altman-meets-lawmakers-on-back-of-openai-agent_20260729_2307.html
+Cleaned old post to keep top 30 limit: is-fifa-selling-parts-of-the-world-cup-to-private-_20260729_2203.html
+Cleaned old post to keep top 30 limit: trump-threatens-iran-strikes-after-attack-on-us-ba_20260729_2307.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Sam Altman meets lawmakers on back of OpenAI agents hacking companies
+   • US launches 'powerful' strikes on Iran after attempted attack on American troops
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump threatens Iran strikes after attack on US base in Jordan
+   • Saudi Arabia's dilemma as it tries to stay out of US-Iran war
      Sources: bbc.com, cnn.com, reuters.com
-   • Videos show aftermath of US-Saudi strikes on Iraq PMF bases
+   • Kenya investigating unexpected deaths of 15 elephants in national park
      Sources: bbc.com, cnn.com, reuters.com
