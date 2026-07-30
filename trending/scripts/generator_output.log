@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: European nations to boycott World Cup if Fifa goes ahead with investment plan
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US government map of Africa mislabels every country at global conference
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 18 topics for 2026-07-30
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘To play God’: Cuba’s healthcare system collapses under US pressure
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: In Their Own Hands: Ghana’s Drug Vigilantes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NATO jets scramble as Russian missile detonates in Poland
+Added expanded search topic: ‘To play God’: Cuba’s healthcare system collapses under US pressure
+Added expanded search topic: In Their Own Hands: Ghana’s Drug Vigilantes
+Added expanded search topic: NATO jets scramble as Russian missile detonates in Poland
+Saved 21 topics for 2026-07-30
 Returning 3 unique trending topics:
-  1. European nations to boycott World Cup if Fifa goes ahead with investment plan (from BBC News)
-  2. Thousands evacuated in Crete as wildfires threaten tourist resorts (from BBC News)
-  3. US government map of Africa mislabels every country at global conference (from The Guardian)
+  1. ‘To play God’: Cuba’s healthcare system collapses under US pressure (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. In Their Own Hands: Ghana’s Drug Vigilantes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. NATO jets scramble as Russian missile detonates in Poland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: European nations to boycott World Cup if Fifa goes ahead with investment plan
-Searching Google for: European nations to boycott World Cup if Fifa goes ahead with investment plan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEuropean%252Bnations%252Bto%252Bboycott%252BWorld%252BCup%252Bif%252BFifa%252Bgoes%252Bahead%252Bwith%252Binvestment%252Bplan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwWGKvnrdMGIjDDFtD6PR9lFGxTmABlXYnkPkDJSnNRd_jvWJEwOaQsbJmLJ3pKL_luYBYm-mjzmUMyBmpjbmRyUloBQw
+Processing trending topic: ‘To play God’: Cuba’s healthcare system collapses under US pressure
+Searching Google for: ‘To play God’: Cuba’s healthcare system collapses under US pressure
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598To%252Bplay%252BGod%25E2%2580%2599%253A%252BCuba%25E2%2580%2599s%252Bhealthcare%252Bsystem%252Bcollapses%252Bunder%252BUS%252Bpressure%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVGGOySrtMGIjCYF7Fjdf30VxtnhUdzJm5GkDCcCg9fDideo2mC5R2pZP6SuWDpNX34M6p3iTBT-UYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: european-nations-to-boycott-world-cup-if-fifa-goes_20260730_1554.html
-✓ Created comprehensive article: european-nations-to-boycott-world-cup-if-fifa-goes_20260730_1554.html
+Successfully created file: to-play-god-cubas-healthcare-system-collapses-unde_20260730_1727.html
+✓ Created comprehensive article: to-play-god-cubas-healthcare-system-collapses-unde_20260730_1727.html
 
-Processing trending topic: Thousands evacuated in Crete as wildfires threaten tourist resorts
-Searching Google for: Thousands evacuated in Crete as wildfires threaten tourist resorts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bevacuated%252Bin%252BCrete%252Bas%252Bwildfires%252Bthreaten%252Btourist%252Bresorts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwWGLLnrdMGIjCNMNxwuwdv3U48PPJM4YBfSUYCx-qUWnApuKoaoqL2Yd-NkzijCfETGuhs_utpknwyBmpjbmRyUloBQw
+Processing trending topic: In Their Own Hands: Ghana’s Drug Vigilantes
+Searching Google for: In Their Own Hands: Ghana’s Drug Vigilantes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIn%252BTheir%252BOwn%252BHands%253A%252BGhana%25E2%2580%2599s%252BDrug%252BVigilantes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVGGPOSrtMGIjBcMcpu3QBTv6wniEyVpHLOtgFt0AzzFbhbJo2_hO6mzquAz4Aa91w9C1kL1_jTAkMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-evacuated-in-crete-as-wildfires-threaten_20260730_1554.html
-✓ Created comprehensive article: thousands-evacuated-in-crete-as-wildfires-threaten_20260730_1554.html
+Successfully created file: in-their-own-hands-ghanas-drug-vigilantes_20260730_1727.html
+✓ Created comprehensive article: in-their-own-hands-ghanas-drug-vigilantes_20260730_1727.html
 
-Processing trending topic: US government map of Africa mislabels every country at global conference
-Searching Google for: US government map of Africa mislabels every country at global conference
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bgovernment%252Bmap%252Bof%252BAfrica%25C2%25A0mislabels%252Bevery%252Bcountry%252Bat%252Bglobal%252Bconference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rWwWGLnnrdMGIjDesvm0kFeWPFzavdOrKie1E7wRxrsJSWgYz1b0zdvFCBEP-grv46xNRHkC4AK6F0IyBmpjbmRyUloBQw
+Processing trending topic: NATO jets scramble as Russian missile detonates in Poland
+Searching Google for: NATO jets scramble as Russian missile detonates in Poland
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNATO%252Bjets%252Bscramble%252Bas%252BRussian%252Bmissile%252Bdetonates%252Bin%252BPoland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUVGGPmSrtMGIjAndqjfsL0XVF4DaFN9l6H6Q2U2wAFPGJ-fYI7sMbLiC2P7KjBGfRhdfzd5hwimtpYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-government-map-of-africa-mislabels-every-countr_20260730_1554.html
-✓ Created comprehensive article: us-government-map-of-africa-mislabels-every-countr_20260730_1554.html
+Successfully created file: nato-jets-scramble-as-russian-missile-detonates-in_20260730_1727.html
+✓ Created comprehensive article: nato-jets-scramble-as-russian-missile-detonates-in_20260730_1727.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-im-running-for-a-fourth-term-as-president-of_20260725_0716.html
-Cleaned old post to keep top 30 limit: islamabad-residents-rally-in-solidarity-with-kashm_20260730_1358.html
-Cleaned old post to keep top 30 limit: fifteen-elephant-deaths-at-kenya-park-may-be-due-t_20260730_1358.html
+Cleaned old post to keep top 30 limit: more-than-half-of-england-in-drought-environment-a_20260729_1622.html
+Cleaned old post to keep top 30 limit: sudans-army-claims-control-of-major-highway-linkin_20260727_0438.html
+Cleaned old post to keep top 30 limit: european-nations-to-boycott-world-cup-if-fifa-goes_20260730_1554.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • European nations to boycott World Cup if Fifa goes ahead with investment plan
+   • ‘To play God’: Cuba’s healthcare system collapses under US pressure
      Sources: bbc.com, cnn.com, reuters.com
-   • Thousands evacuated in Crete as wildfires threaten tourist resorts
+   • In Their Own Hands: Ghana’s Drug Vigilantes
      Sources: bbc.com, cnn.com, reuters.com
-   • US government map of Africa mislabels every country at global conference
+   • NATO jets scramble as Russian missile detonates in Poland
      Sources: bbc.com, cnn.com, reuters.com
