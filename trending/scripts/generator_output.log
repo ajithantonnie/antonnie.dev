@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Fifa scraps controversial World Cup investment plan
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-01
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Liberia’s kush crisis: The hidden trade behind a generation at risk
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian missile attack kills three in Ukraine’s Kyiv
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US military says F-35B jet fighter crashes in California, pilot safe
+Added expanded search topic: Liberia’s kush crisis: The hidden trade behind a generation at risk
+Added expanded search topic: Russian missile attack kills three in Ukraine’s Kyiv
+Added expanded search topic: US military says F-35B jet fighter crashes in California, pilot safe
+Saved 6 topics for 2026-08-01
 Returning 3 unique trending topics:
-  1. Fifa scraps controversial World Cup investment plan (from BBC News)
-  2. Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco (from BBC News)
-  3. At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco (from The Guardian)
+  1. Liberia’s kush crisis: The hidden trade behind a generation at risk (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russian missile attack kills three in Ukraine’s Kyiv (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US military says F-35B jet fighter crashes in California, pilot safe (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Fifa scraps controversial World Cup investment plan
-Searching Google for: Fifa scraps controversial World Cup investment plan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFifa%252Bscraps%252Bcontroversial%252BWorld%252BCup%252Binvestment%252Bplan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUFGNvvtNMGIjDIeh-1Lg1_DM3aqpNJ3n9fsIvEs95Vq4DyqmnnPdX0QMtY8HA6je24T5iHGL-907YyBmpjbmRyUloBQw
+Processing trending topic: Liberia’s kush crisis: The hidden trade behind a generation at risk
+Searching Google for: Liberia’s kush crisis: The hidden trade behind a generation at risk
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLiberia%25E2%2580%2599s%252Bkush%252Bcrisis%253A%252BThe%252Bhidden%252Btrade%252Bbehind%252Ba%252Bgeneration%252Bat%252Brisk%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUuu4EGKbXtdMGIjB0zfaIk2XP7UVA6SAeDZJvl0CPpQk7ew-SLK5Jx0PKT9688rJh_xmD4AZSq5GEqGAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-scraps-controversial-world-cup-investment-pla_20260801_0003.html
-✓ Created comprehensive article: fifa-scraps-controversial-world-cup-investment-pla_20260801_0003.html
+Successfully created file: liberias-kush-crisis-the-hidden-trade-behind-a-gen_20260801_0344.html
+✓ Created comprehensive article: liberias-kush-crisis-the-hidden-trade-behind-a-gen_20260801_0344.html
 
-Processing trending topic: Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco
-Searching Google for: Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%2527s%252BPM%252Bblames%252Btraffickers%252Bafter%252B60%252C000%252Bmigrants%252Breach%252BCeuta%252Bfrom%252BMorocco%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUFGOLvtNMGIjDNwXcQ1ehyQRcKwdmNrP54cYXNHxmu6N4qUwaKEQhRf_UeImC4Ibi2WooHjpOhPRgyBmpjbmRyUloBQw
+Processing trending topic: Russian missile attack kills three in Ukraine’s Kyiv
+Searching Google for: Russian missile attack kills three in Ukraine’s Kyiv
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bmissile%252Battack%252Bkills%252Bthree%252Bin%252BUkraine%25E2%2580%2599s%252BKyiv%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUuu4EGK3XtdMGIjAkkwPiDUTlwxwyUy-ua8FGe9SV0dy_JUo_MsuvoZUE_QPnrQGrsFCJqMru5DGQ43EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spains-pm-blames-traffickers-after-60000-migrants-_20260801_0003.html
-✓ Created comprehensive article: spains-pm-blames-traffickers-after-60000-migrants-_20260801_0003.html
+Successfully created file: russian-missile-attack-kills-three-in-ukraines-kyi_20260801_0344.html
+✓ Created comprehensive article: russian-missile-attack-kills-three-in-ukraines-kyi_20260801_0344.html
 
-Processing trending topic: At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco
-Searching Google for: At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B57%252Bpeople%252Bdie%252Bas%252Btens%252Bof%252Bthousands%252Bcross%252Bto%252BSpanish%252Benclave%252Bof%252BCeuta%252Bfrom%252BMorocco%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttUFGOjvtNMGIjCz9-5MDksa5b7X3iAwtlIfBF44VUDuEnQkr-LeHTq0vjfVc-G6i2EGEis7mXTcuPoyBmpjbmRyUloBQw
+Processing trending topic: US military says F-35B jet fighter crashes in California, pilot safe
+Searching Google for: US military says F-35B jet fighter crashes in California, pilot safe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bmilitary%252Bsays%252BF-35B%252Bjet%252Bfighter%252Bcrashes%252Bin%252BCalifornia%252C%252Bpilot%252Bsafe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUuu4EGLTXtdMGIjCYChZ6o571QnMxmWtfNb4NXXeHrmY5b0Q6mIVbAdp2u96kfszBWd-ogKZakO1vdPIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-57-people-die-as-tens-of-thousands-cross-_20260801_0003.html
-✓ Created comprehensive article: at-least-57-people-die-as-tens-of-thousands-cross-_20260801_0003.html
+Successfully created file: us-military-says-f-35b-jet-fighter-crashes-in-cali_20260801_0344.html
+✓ Created comprehensive article: us-military-says-f-35b-jet-fighter-crashes-in-cali_20260801_0344.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: three-year-roadmap-proposed-for-hamas-disarmament-_20260731_1646.html
-Cleaned old post to keep top 30 limit: pathirage-beats-chopra-and-nadeem-to-win-commonwea_20260731_2206.html
-Cleaned old post to keep top 30 limit: cambridge-students-on-why-they-protested-at-gradua_20260731_2206.html
+Cleaned old post to keep top 30 limit: children-face-higher-threat-of-us-deportation-as-l_20260731_2206.html
+Cleaned old post to keep top 30 limit: spains-pm-blames-traffickers-after-60000-migrants-_20260801_0003.html
+Cleaned old post to keep top 30 limit: at-least-57-people-die-as-tens-of-thousands-cross-_20260801_0003.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Fifa scraps controversial World Cup investment plan
+   • Liberia’s kush crisis: The hidden trade behind a generation at risk
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco
+   • Russian missile attack kills three in Ukraine’s Kyiv
      Sources: bbc.com, cnn.com, reuters.com
-   • At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco
+   • US military says F-35B jet fighter crashes in California, pilot safe
      Sources: bbc.com, cnn.com, reuters.com
