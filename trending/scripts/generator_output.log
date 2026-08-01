@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Uefa has 'lost confidence' in Infantino's Fifa leadership
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 15 topics for 2026-08-01
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran warns against ‘fire of war’ amid US strike threats on energy sites
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sde Teiman walkout lays bare an Israeli military running out of trust
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup crisis: Who could replace Infantino as president?
+Added expanded search topic: Iran warns against ‘fire of war’ amid US strike threats on energy sites
+Added expanded search topic: Sde Teiman walkout lays bare an Israeli military running out of trust
+Added expanded search topic: FIFA World Cup crisis: Who could replace Infantino as president?
+Saved 18 topics for 2026-08-01
 Returning 3 unique trending topics:
-  1. Uefa has 'lost confidence' in Infantino's Fifa leadership (from BBC News)
-  2. Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings (from BBC News)
-  3. Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis (from The Guardian)
+  1. Iran warns against ‘fire of war’ amid US strike threats on energy sites (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Sde Teiman walkout lays bare an Israeli military running out of trust (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. FIFA World Cup crisis: Who could replace Infantino as president? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Uefa has 'lost confidence' in Infantino's Fifa leadership
-Searching Google for: Uefa has 'lost confidence' in Infantino's Fifa leadership
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUefa%252Bhas%252B%2527lost%252Bconfidence%2527%252Bin%252BInfantino%2527s%252BFifa%252Bleadership%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0nSEmGI6st9MGIjAnz1Fs17boiV9l9ay-vKU8TRgau2qsutWz67qMBokFR-R3pnjlgDYGojQfgDDl9_syBmpjbmRyUloBQw
+Processing trending topic: Iran warns against ‘fire of war’ amid US strike threats on energy sites
+Searching Google for: Iran warns against ‘fire of war’ amid US strike threats on energy sites
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwarns%252Bagainst%252B%25E2%2580%2598fire%252Bof%252Bwar%25E2%2580%2599%252Bamid%252BUS%252Bstrike%252Bthreats%252Bon%252Benergy%252Bsites%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOdaQGMzkt9MGIjA1jv4H69YLkw9yhkvZjX6AnkfGk8NhiPJpP88wuMoAMYNT07hIvngRWGteinaTB1wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uefa-has-lost-confidence-in-infantinos-fifa-leader_20260801_1118.html
-✓ Created comprehensive article: uefa-has-lost-confidence-in-infantinos-fifa-leader_20260801_1118.html
+Successfully created file: iran-warns-against-fire-of-war-amid-us-strike-thre_20260801_1319.html
+✓ Created comprehensive article: iran-warns-against-fire-of-war-amid-us-strike-thre_20260801_1319.html
 
-Processing trending topic: Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings
-Searching Google for: Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Battacks%252B%2527selfish%2527%252Bresponse%252Bof%252Bsome%252BEU%252Bcountries%252Bto%252BCeuta%252Bmigrant%252Bcrossings%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0nSEmGJWst9MGIjANeJHKUjkdiG6b8fjuUQVBU7WdmFSV9qcxC-GGUjxkBRsqS1O6ylxGxRhgIF6DudoyBmpjbmRyUloBQw
+Processing trending topic: Sde Teiman walkout lays bare an Israeli military running out of trust
+Searching Google for: Sde Teiman walkout lays bare an Israeli military running out of trust
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSde%252BTeiman%252Bwalkout%252Blays%252Bbare%252Ban%252BIsraeli%252Bmilitary%252Brunning%252Bout%252Bof%252Btrust%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOdaQGNPkt9MGIjCeEI9gu1_2XWAafzhJuvYMTcri-pWu76bDSSMm5B6piREZGOhAHZJmbKNuwymdPx4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-attacks-selfish-response-of-some-eu-countrie_20260801_1118.html
-✓ Created comprehensive article: spain-attacks-selfish-response-of-some-eu-countrie_20260801_1118.html
+Successfully created file: sde-teiman-walkout-lays-bare-an-israeli-military-r_20260801_1319.html
+✓ Created comprehensive article: sde-teiman-walkout-lays-bare-an-israeli-military-r_20260801_1319.html
 
-Processing trending topic: Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis
-Searching Google for: Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpanish%252BPM%252Bcalls%252Bfor%252Burgent%252BEU%252Bmeeting%252Bafter%252B%25E2%2580%2598selfish%25E2%2580%2599%252Bresponses%252Bto%252BCeuta%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0nSEmGJust9MGIjB3YAMMTCRWtCbjmTBhNBjGlHg-52DYwjibBLJh8sOpv-8id0RtRIS51G_5lYadS1QyBmpjbmRyUloBQw
+Processing trending topic: FIFA World Cup crisis: Who could replace Infantino as president?
+Searching Google for: FIFA World Cup crisis: Who could replace Infantino as president?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252Bcrisis%253A%252BWho%252Bcould%252Breplace%252BInfantino%252Bas%252Bpresident%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOdaQGNnkt9MGIjDDy4OQx4zMz8mHdJW_Q5Y9HRh54TW4fo6-b6tydC1bwHBmRyqklWcnvrmBRB0-vWMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spanish-pm-calls-for-urgent-eu-meeting-after-selfi_20260801_1118.html
-✓ Created comprehensive article: spanish-pm-calls-for-urgent-eu-meeting-after-selfi_20260801_1118.html
+Successfully created file: fifa-world-cup-crisis-who-could-replace-infantino-_20260801_1319.html
+✓ Created comprehensive article: fifa-world-cup-crisis-who-could-replace-infantino-_20260801_1319.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: perus-ex-president-humala-released-after-convictio_20260801_0909.html
-Cleaned old post to keep top 30 limit: fifa-world-cup-plan-fallout-afc-reacts-as-infantin_20260801_0908.html
-Cleaned old post to keep top 30 limit: fifa-scraps-world-cup-investment-plan-after-outcry_20260801_0629.html
+Cleaned old post to keep top 30 limit: spain-attacks-selfish-response-of-some-eu-countrie_20260801_1118.html
+Cleaned old post to keep top 30 limit: zelensky-sacks-ukraines-top-army-commander-after-d_20260722_0230.html
+Cleaned old post to keep top 30 limit: police-investigate-donations-by-tice-company-to-re_20260725_1612.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Uefa has 'lost confidence' in Infantino's Fifa leadership
+   • Iran warns against ‘fire of war’ amid US strike threats on energy sites
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings
+   • Sde Teiman walkout lays bare an Israeli military running out of trust
      Sources: bbc.com, cnn.com, reuters.com
-   • Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis
+   • FIFA World Cup crisis: Who could replace Infantino as president?
      Sources: bbc.com, cnn.com, reuters.com
