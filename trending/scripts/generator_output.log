@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump cancels Iran strikes subject to deal being made 'rapidly'
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli soldiers jailed over Sde Teiman walkout
-Added expanded search topic: Israeli soldiers jailed over Sde Teiman walkout
-Saved 12 topics for 2026-08-02
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indigenous groups oppose Milei plan to open Argentina to foreign buyers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ben-Gvir mocks Palestinian detainee over prison conditions
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: From Sudan to Spain: Between war and home | Al Jazeera Originals
+Added expanded search topic: Indigenous groups oppose Milei plan to open Argentina to foreign buyers
+Added expanded search topic: Ben-Gvir mocks Palestinian detainee over prison conditions
+Added expanded search topic: From Sudan to Spain: Between war and home | Al Jazeera Originals
+Saved 15 topics for 2026-08-02
 Returning 3 unique trending topics:
-  1. Trump cancels Iran strikes subject to deal being made 'rapidly' (from BBC News)
-  2. The shadowy gang recruiting teenage hitmen to kill across Europe (from BBC News)
-  3. Israeli soldiers jailed over Sde Teiman walkout (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Indigenous groups oppose Milei plan to open Argentina to foreign buyers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ben-Gvir mocks Palestinian detainee over prison conditions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. From Sudan to Spain: Between war and home | Al Jazeera Originals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump cancels Iran strikes subject to deal being made 'rapidly'
-Searching Google for: Trump cancels Iran strikes subject to deal being made 'rapidly'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcancels%252BIran%252Bstrikes%252Bsubject%252Bto%252Bdeal%252Bbeing%252Bmade%252B%2527rapidly%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvQBGNC-vNMGIjDAbvkstDEIGPOcKgerW3isKef0xIJ7LkaK9WYnIQy4pwpad3Q05mJjKX1zI6UOnQAyBmpjbmRyUloBQw
+Processing trending topic: Indigenous groups oppose Milei plan to open Argentina to foreign buyers
+Searching Google for: Indigenous groups oppose Milei plan to open Argentina to foreign buyers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndigenous%252Bgroups%252Boppose%252BMilei%252Bplan%252Bto%252Bopen%252BArgentina%252Bto%252Bforeign%252Bbuyers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pWU3GNbkvNMGIjATOZP0s0IuupzdF1El56HYJzTcDVCIvwBDAbKi-08pEPJB148FGtt1Llm9E6htgN0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-cancels-iran-strikes-subject-to-deal-being-m_20260802_1043.html
-✓ Created comprehensive article: trump-cancels-iran-strikes-subject-to-deal-being-m_20260802_1043.html
+Successfully created file: indigenous-groups-oppose-milei-plan-to-open-argent_20260802_1204.html
+✓ Created comprehensive article: indigenous-groups-oppose-milei-plan-to-open-argent_20260802_1204.html
 
-Processing trending topic: The shadowy gang recruiting teenage hitmen to kill across Europe
-Searching Google for: The shadowy gang recruiting teenage hitmen to kill across Europe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bshadowy%252Bgang%252Brecruiting%252Bteenage%252Bhitmen%252Bto%252Bkill%252Bacross%252BEurope%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvQBGNe-vNMGIjAZLzYl8CzQTfYC7VHGN1rAWI3W5osSUyEQGGVYSf5JKiNQpMd2fBvyaWhJcclti98yBmpjbmRyUloBQw
+Processing trending topic: Ben-Gvir mocks Palestinian detainee over prison conditions
+Searching Google for: Ben-Gvir mocks Palestinian detainee over prison conditions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBen-Gvir%252Bmocks%252BPalestinian%252Bdetainee%252Bover%252Bprison%252Bconditions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pWU3GN3kvNMGIjAvoeZcosKA4y5COYHPHhbUH7tW1yZ5exD_sQHmOHd7ivTS13s_b1X5KzdFxMHsgl4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: the-shadowy-gang-recruiting-teenage-hitmen-to-kill_20260802_1043.html
-✓ Created comprehensive article: the-shadowy-gang-recruiting-teenage-hitmen-to-kill_20260802_1043.html
+Successfully created file: ben-gvir-mocks-palestinian-detainee-over-prison-co_20260802_1204.html
+✓ Created comprehensive article: ben-gvir-mocks-palestinian-detainee-over-prison-co_20260802_1204.html
 
-Processing trending topic: Israeli soldiers jailed over Sde Teiman walkout
-Searching Google for: Israeli soldiers jailed over Sde Teiman walkout
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsoldiers%252Bjailed%252Bover%252BSde%252BTeiman%252Bwalkout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvQBGN2-vNMGIjBD-RcE3tEzTeagxnX77j8yk0qMWKom0gTyzXaNa0Wkjh1U5q9mXOBRIf6vZpFnj7YyBmpjbmRyUloBQw
+Processing trending topic: From Sudan to Spain: Between war and home | Al Jazeera Originals
+Searching Google for: From Sudan to Spain: Between war and home | Al Jazeera Originals
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrom%252BSudan%252Bto%252BSpain%253A%252BBetween%252Bwar%252Band%252Bhome%252B%257C%252BAl%252BJazeera%252BOriginals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pWU3GOPkvNMGIjCyWGQga98RljKz9k_UEedKEhxkOqUnHtqAJS7zIuNQioy-SM0R6RHZZ8QCI4qqdssyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-soldiers-jailed-over-sde-teiman-walkout_20260802_1043.html
-✓ Created comprehensive article: israeli-soldiers-jailed-over-sde-teiman-walkout_20260802_1043.html
+Successfully created file: from-sudan-to-spain-between-war-and-home-al-jazeer_20260802_1204.html
+✓ Created comprehensive article: from-sudan-to-spain-between-war-and-home-al-jazeer_20260802_1204.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-did-ceuta-migrant-mayhem-chill-already-frosty-_20260801_2255.html
-Cleaned old post to keep top 30 limit: three-dead-including-female-bomber-in-moscow-resta_20260802_0824.html
-Cleaned old post to keep top 30 limit: gaza-students-overcome-israels-genocide-to-mark-ta_20260802_0824.html
+Cleaned old post to keep top 30 limit: the-shadowy-gang-recruiting-teenage-hitmen-to-kill_20260802_1043.html
+Cleaned old post to keep top 30 limit: israeli-soldiers-jailed-over-sde-teiman-walkout_20260802_1043.html
+Cleaned old post to keep top 30 limit: growing-like-gangbusters-can-taiwan-maintain-its-e_20260801_2358.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump cancels Iran strikes subject to deal being made 'rapidly'
+   • Indigenous groups oppose Milei plan to open Argentina to foreign buyers
      Sources: bbc.com, cnn.com, reuters.com
-   • The shadowy gang recruiting teenage hitmen to kill across Europe
+   • Ben-Gvir mocks Palestinian detainee over prison conditions
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli soldiers jailed over Sde Teiman walkout
+   • From Sudan to Spain: Between war and home | Al Jazeera Originals
      Sources: bbc.com, cnn.com, reuters.com
