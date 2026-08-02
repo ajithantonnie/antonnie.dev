@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: EU calls emergency meeting to discuss Ceuta migrant crossings
   Added: Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal
+  Added: Three killed after bomb detonated at Moscow restaurant, state media say
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-02
+  Added: Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: At least three dead in Idaho shopping mall mass shooting
+Added expanded search topic: At least three dead in Idaho shopping mall mass shooting
+Saved 6 topics for 2026-08-02
 Returning 3 unique trending topics:
-  1. EU calls emergency meeting to discuss Ceuta migrant crossings (from BBC News)
-  2. Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal (from BBC News)
-  3. EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis (from The Guardian)
+  1. Three killed after bomb detonated at Moscow restaurant, state media say (from BBC News)
+  2. Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn (from The Guardian)
+  3. At least three dead in Idaho shopping mall mass shooting (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: EU calls emergency meeting to discuss Ceuta migrant crossings
-Searching Google for: EU calls emergency meeting to discuss Ceuta migrant crossings
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bcalls%252Bemergency%252Bmeeting%252Bto%252Bdiscuss%252BCeuta%252Bmigrant%252Bcrossings%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUO_IAGMHautMGIjCQYW0Vff5RsWKXHXe8s5tjK8oe0qLaDKV_ZYs2XNVDuyUfpZpxSVU8cmmWw5O2TRUyBmpjbmRyUloBQw
+Processing trending topic: Three killed after bomb detonated at Moscow restaurant, state media say
+Searching Google for: Three killed after bomb detonated at Moscow restaurant, state media say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bkilled%252Bafter%252Bbomb%252Bdetonated%252Bat%252BMoscow%252Brestaurant%252C%252Bstate%252Bmedia%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNWXwSGKy5u9MGIjASBhI-lQTifg9AwszarCoQ5tntw3WURXe4cZaKkQk-7ihzpBEhiNtEsCkzy_3X0gYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eu-calls-emergency-meeting-to-discuss-ceuta-migran_20260802_0236.html
-✓ Created comprehensive article: eu-calls-emergency-meeting-to-discuss-ceuta-migran_20260802_0236.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: three-killed-after-bomb-detonated-at-moscow-restau_20260802_0559.html
+✓ Created comprehensive article: three-killed-after-bomb-detonated-at-moscow-restau_20260802_0559.html
 
-Processing trending topic: Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal
-Searching Google for: Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bis%252Bcancelling%252Bstrikes%252Bon%252BIran%252Bsubject%252Bto%252B%2527rapidly%2527%252Bmaking%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUO_IAGMjautMGIjDMtAS1WBYOnMSzVAvVWjodsaWyJ3FJUCyOX9AF4PbaVMvOWAyclAApijZKG2RI1iIyBmpjbmRyUloBQw
+Processing trending topic: Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn
+Searching Google for: Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnti-LGBTQ%252B%252Blaws%252Bare%252Bon%252Bthe%252Brise%252Bacross%252Bwest%252BAfrica%252C%252Bcampaigners%252Bwarn%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNWXwSGLO5u9MGIjDn03dXfD33OL7OQZ2KnxDFspOXB5rfERGJvdfoaAY0Q4Aw9WuyOS9pGhP8EYTDxewyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-he-is-cancelling-strikes-on-iran-subjec_20260802_0237.html
-✓ Created comprehensive article: trump-says-he-is-cancelling-strikes-on-iran-subjec_20260802_0237.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: anti-lgbtq-laws-are-on-the-rise-across-west-africa_20260802_0559.html
+✓ Created comprehensive article: anti-lgbtq-laws-are-on-the-rise-across-west-africa_20260802_0559.html
 
-Processing trending topic: EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis
-Searching Google for: EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bto%252Bhold%252Burgent%252Bmeeting%252Bof%252Binterior%252Bministers%252Bon%252BTuesday%252Bover%252BCeuta%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUO_IAGM7autMGIjCw1RPm0wQTCJn04Hh5xV81Crj9dyAOM7Pd0k6Qz6j_0iCnpH-zwguRmTcxU-hw2EcyBmpjbmRyUloBQw
+Processing trending topic: At least three dead in Idaho shopping mall mass shooting
+Searching Google for: At least three dead in Idaho shopping mall mass shooting
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252Bthree%252Bdead%252Bin%252BIdaho%252Bshopping%252Bmall%252Bmass%252Bshooting%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNWXwSGLm5u9MGIjBeS8gDo2QXM_86ZNCn_Z9mFbGD4EuLfWtvxvhOb4v9C_txvOHP46b5VoVpJ87Hs9cyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eu-to-hold-urgent-meeting-of-interior-ministers-on_20260802_0237.html
-✓ Created comprehensive article: eu-to-hold-urgent-meeting-of-interior-ministers-on_20260802_0237.html
+Request error for https://reuters.com/news: 403 Client Error: Forbidden for url: https://www.reuters.com/news
+Successfully created file: at-least-three-dead-in-idaho-shopping-mall-mass-sh_20260802_0559.html
+✓ Created comprehensive article: at-least-three-dead-in-idaho-shopping-mall-mass-sh_20260802_0559.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: michigan-joins-minnesota-in-reporting-cyberattacks_20260801_2358.html
-Cleaned old post to keep top 30 limit: new-york-times-reveals-trump-administration-subpoe_20260801_2358.html
-Cleaned old post to keep top 30 limit: greece-battles-raging-wildfires-as-flames-appear-t_20260801_2053.html
+Cleaned old post to keep top 30 limit: eu-to-hold-urgent-meeting-of-interior-ministers-on_20260802_0237.html
+Cleaned old post to keep top 30 limit: trump-says-he-is-cancelling-strikes-on-iran-subjec_20260802_0237.html
+Cleaned old post to keep top 30 limit: eu-calls-emergency-meeting-to-discuss-ceuta-migran_20260802_0236.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • EU calls emergency meeting to discuss Ceuta migrant crossings
+   • Three killed after bomb detonated at Moscow restaurant, state media say
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal
+   • Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn
      Sources: bbc.com, cnn.com, reuters.com
-   • EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis
+   • At least three dead in Idaho shopping mall mass shooting
      Sources: bbc.com, cnn.com, reuters.com
