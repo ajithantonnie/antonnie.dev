@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Stronger EU borders needed after Ceuta crisis, von der Leyen says
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 18 topics for 2026-08-03
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Survivors reach port after deadly Indonesia ferry fire
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Clergy members arrested while protesting at Senate office
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says talks with Iran are ‘last chance’ to forge a deal
+Added expanded search topic: Survivors reach port after deadly Indonesia ferry fire
+Added expanded search topic: Clergy members arrested while protesting at Senate office
+Added expanded search topic: Trump says talks with Iran are ‘last chance’ to forge a deal
+Saved 21 topics for 2026-08-03
 Returning 3 unique trending topics:
-  1. Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach (from BBC News)
-  2. Infantino opponents threaten 'non co-operation' with Fifa (from BBC News)
-  3. Stronger EU borders needed after Ceuta crisis, von der Leyen says (from The Guardian)
+  1. Survivors reach port after deadly Indonesia ferry fire (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Clergy members arrested while protesting at Senate office (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump says talks with Iran are ‘last chance’ to forge a deal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach
-Searching Google for: Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bsays%252Bseven%252Bkilled%252Band%252B40%252Binjured%252Bby%252BUkrainian%252Bdrone%252Bhitting%252Bbusy%252Bbeach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3XGJTHw9MGIjAk0X0sae0dudyNgp6JlR7Ztj1raRm9Yr2ZEXmn6ZtdIIEm4pgTgRuBSERa9JOIaHIyBmpjbmRyUloBQw
+Processing trending topic: Survivors reach port after deadly Indonesia ferry fire
+Searching Google for: Survivors reach port after deadly Indonesia ferry fire
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurvivors%252Breach%252Bport%252Bafter%252Bdeadly%252BIndonesia%252Bferry%252Bfire%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq6wGOTzw9MGIjAoU1Mq178v1hpgr78nfwi-dAUVGLCTW4d2Tm5dkrrg4FpA_3kbvutfY0RoZ4YOkd0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-says-seven-killed-and-40-injured-by-ukraini_20260803_1853.html
-✓ Created comprehensive article: russia-says-seven-killed-and-40-injured-by-ukraini_20260803_1853.html
+Successfully created file: survivors-reach-port-after-deadly-indonesia-ferry-_20260803_2028.html
+✓ Created comprehensive article: survivors-reach-port-after-deadly-indonesia-ferry-_20260803_2028.html
 
-Processing trending topic: Infantino opponents threaten 'non co-operation' with Fifa
-Searching Google for: Infantino opponents threaten 'non co-operation' with Fifa
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInfantino%252Bopponents%252Bthreaten%252B%2527non%252Bco-operation%2527%252Bwith%252BFifa%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3XGJzHw9MGIjAXh8RPzVqDgkLRTC6No6bpdH6tJdtmF1jamZCMFJs-iAroini6SGNOW5gu98053aIyBmpjbmRyUloBQw
+Processing trending topic: Clergy members arrested while protesting at Senate office
+Searching Google for: Clergy members arrested while protesting at Senate office
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClergy%252Bmembers%252Barrested%252Bwhile%252Bprotesting%252Bat%252BSenate%252Boffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq6wGOvzw9MGIjCu7qYn77zLsKuUStg1XYHCvSHIWYX0KdyinxH8Dg2XrXRYzU_DQMdRb0uRi59vXZ0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: infantino-opponents-threaten-non-co-operation-with_20260803_1853.html
-✓ Created comprehensive article: infantino-opponents-threaten-non-co-operation-with_20260803_1853.html
+Successfully created file: clergy-members-arrested-while-protesting-at-senate_20260803_2028.html
+✓ Created comprehensive article: clergy-members-arrested-while-protesting-at-senate_20260803_2028.html
 
-Processing trending topic: Stronger EU borders needed after Ceuta crisis, von der Leyen says
-Searching Google for: Stronger EU borders needed after Ceuta crisis, von der Leyen says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStronger%252BEU%252Bborders%252Bneeded%252Bafter%252BCeuta%252Bcrisis%252C%252Bvon%252Bder%252BLeyen%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0re3XGKLHw9MGIjBAjWK6YHf_sqOS6FQRlSH2FDukMI6b2h2cVmPIkwOp2wVF7BEC2J_eZ6vFsZG_IUwyBmpjbmRyUloBQw
+Processing trending topic: Trump says talks with Iran are ‘last chance’ to forge a deal
+Searching Google for: Trump says talks with Iran are ‘last chance’ to forge a deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Btalks%252Bwith%252BIran%252Bare%252B%25E2%2580%2598last%252Bchance%25E2%2580%2599%252Bto%252Bforge%252Ba%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0uq6wGPHzw9MGIjAnMqTIHa0pHnhCImCJ3YxXE3VwkBASGcUw2ItiNUXZ6w63815FHbYUxrUm-FojfdsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: stronger-eu-borders-needed-after-ceuta-crisis-von-_20260803_1853.html
-✓ Created comprehensive article: stronger-eu-borders-needed-after-ceuta-crisis-von-_20260803_1853.html
+Successfully created file: trump-says-talks-with-iran-are-last-chance-to-forg_20260803_2028.html
+✓ Created comprehensive article: trump-says-talks-with-iran-are-last-chance-to-forg_20260803_2028.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: iraqi-kurdish-regional-leader-meets-syrian-preside_20260803_1627.html
-Cleaned old post to keep top 30 limit: yemens-crumbling-roads-mean-an-arduous-quest-for-w_20260802_1350.html
-Cleaned old post to keep top 30 limit: how-ceuta-migrant-crisis-exposes-divisions-within-_20260803_1627.html
+Cleaned old post to keep top 30 limit: stronger-eu-borders-needed-after-ceuta-crisis-von-_20260803_1853.html
+Cleaned old post to keep top 30 limit: iran-says-it-is-in-talks-with-oman-but-not-the-us-_20260803_1627.html
+Cleaned old post to keep top 30 limit: infantino-opponents-threaten-non-co-operation-with_20260803_1853.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach
+   • Survivors reach port after deadly Indonesia ferry fire
      Sources: bbc.com, cnn.com, reuters.com
-   • Infantino opponents threaten 'non co-operation' with Fifa
+   • Clergy members arrested while protesting at Senate office
      Sources: bbc.com, cnn.com, reuters.com
-   • Stronger EU borders needed after Ceuta crisis, von der Leyen says
+   • Trump says talks with Iran are ‘last chance’ to forge a deal
      Sources: bbc.com, cnn.com, reuters.com
