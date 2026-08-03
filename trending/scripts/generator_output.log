@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump suggests new talks with Iran to begin on Monday
-  Added: Two crew killed after firefighting helicopters collide in Greece, as British pilot survives
+  Added: How parents and pupils took on 'cruel', 'authoritarian' schools - and won
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Chaos of border crossing gives way to limbo for Moroccans on Ceuta’s streets
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-03
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Tell us’: Gaza family trapped between hope and pain over missing brothers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Grid failure plunges Cuba into nationwide blackout
+Added expanded search topic: ‘Tell us’: Gaza family trapped between hope and pain over missing brothers
+Added expanded search topic: Grid failure plunges Cuba into nationwide blackout
+Saved 6 topics for 2026-08-03
 Returning 3 unique trending topics:
-  1. Trump suggests new talks with Iran to begin on Monday (from BBC News)
-  2. Two crew killed after firefighting helicopters collide in Greece, as British pilot survives (from BBC News)
-  3. Chaos of border crossing gives way to limbo for Moroccans on Ceuta’s streets (from The Guardian)
+  1. How parents and pupils took on 'cruel', 'authoritarian' schools - and won (from BBC News)
+  2. ‘Tell us’: Gaza family trapped between hope and pain over missing brothers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Grid failure plunges Cuba into nationwide blackout (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump suggests new talks with Iran to begin on Monday
-Searching Google for: Trump suggests new talks with Iran to begin on Monday
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsuggests%252Bnew%252Btalks%252Bwith%252BIran%252Bto%252Bbegin%252Bon%252BMonday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWxGK-EwNMGIjBPUmfVGVg5yJwtzpO8u2kywhasmRge2hiIcoDNipdKWIq1f7QXWybkS2_we6mMG-MyBmpjbmRyUloBQw
+Processing trending topic: How parents and pupils took on 'cruel', 'authoritarian' schools - and won
+Searching Google for: How parents and pupils took on 'cruel', 'authoritarian' schools - and won
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bparents%252Band%252Bpupils%252Btook%252Bon%252B%2527cruel%2527%252C%252B%2527authoritarian%2527%252Bschools%252B-%252Band%252Bwon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUowZQGNnowNMGIjA1f0NuGapSX6tg-HZYeRgV60AFRVKBT5l11R3ey5gqrU2mb227XGFDpYgoRxPQzRMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-suggests-new-talks-with-iran-to-begin-on-mon_20260803_0251.html
-✓ Created comprehensive article: trump-suggests-new-talks-with-iran-to-begin-on-mon_20260803_0251.html
+Successfully created file: how-parents-and-pupils-took-on-cruel-authoritarian_20260803_0625.html
+✓ Created comprehensive article: how-parents-and-pupils-took-on-cruel-authoritarian_20260803_0625.html
 
-Processing trending topic: Two crew killed after firefighting helicopters collide in Greece, as British pilot survives
-Searching Google for: Two crew killed after firefighting helicopters collide in Greece, as British pilot survives
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bcrew%252Bkilled%252Bafter%252Bfirefighting%252Bhelicopters%252Bcollide%252Bin%252BGreece%252C%252Bas%252BBritish%252Bpilot%252Bsurvives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWxGLaEwNMGIjC_DdmbXInhSaFqbulfM9ySfMS10YTdCHlULOOuEtLAOCBPwyXQTrY8YOiXCXMUmIQyBmpjbmRyUloBQw
+Processing trending topic: ‘Tell us’: Gaza family trapped between hope and pain over missing brothers
+Searching Google for: ‘Tell us’: Gaza family trapped between hope and pain over missing brothers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Tell%252Bus%25E2%2580%2599%253A%252BGaza%252Bfamily%252Btrapped%252Bbetween%252Bhope%252Band%252Bpain%252Bover%252Bmissing%252Bbrothers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUowZQGODowNMGIjCoX-bdhv0m-pEomt010y9X87716aFB92rvwwY8evdISCZRI56IAhe65iPKpfYk87MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-crew-killed-after-firefighting-helicopters-col_20260803_0251.html
-✓ Created comprehensive article: two-crew-killed-after-firefighting-helicopters-col_20260803_0251.html
+Successfully created file: tell-us-gaza-family-trapped-between-hope-and-pain-_20260803_0625.html
+✓ Created comprehensive article: tell-us-gaza-family-trapped-between-hope-and-pain-_20260803_0625.html
 
-Processing trending topic: Chaos of border crossing gives way to limbo for Moroccans on Ceuta’s streets
-Searching Google for: Chaos of border crossing gives way to limbo for Moroccans on Ceuta’s streets
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChaos%252Bof%252Bborder%252Bcrossing%252Bgives%252Bway%252Bto%252Blimbo%252Bfor%252BMoroccans%252Bon%252BCeuta%25E2%2580%2599s%252Bstreets%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IWxGL-EwNMGIjDM5AdXLz0EHkiuh2H9Y7uyhUafq4hSXftdrOONSjPideRiXmW5BoN_zNvzgjl7PAQyBmpjbmRyUloBQw
+Processing trending topic: Grid failure plunges Cuba into nationwide blackout
+Searching Google for: Grid failure plunges Cuba into nationwide blackout
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGrid%252Bfailure%252Bplunges%252BCuba%252Binto%252Bnationwide%252Bblackout%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUowZQGObowNMGIjCcL48_PLfGoWeXBbI14hDLwyzH96MgSzXVGdKy9oDmQNDrVEfUDhL4ppQXTAn98osyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chaos-of-border-crossing-gives-way-to-limbo-for-mo_20260803_0251.html
-✓ Created comprehensive article: chaos-of-border-crossing-gives-way-to-limbo-for-mo_20260803_0251.html
+Successfully created file: grid-failure-plunges-cuba-into-nationwide-blackout_20260803_0625.html
+✓ Created comprehensive article: grid-failure-plunges-cuba-into-nationwide-blackout_20260803_0625.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: deadly-suicide-bombing-targeting-anti-militant-ral_20260803_0001.html
-Cleaned old post to keep top 30 limit: sudan-army-drone-attack-on-darfur-kills-35-rights-_20260803_0001.html
-Cleaned old post to keep top 30 limit: brazils-lula-launches-fourth-term-bid-focuses-on-n_20260803_0001.html
+Cleaned old post to keep top 30 limit: trump-suggests-new-talks-with-iran-to-begin-on-mon_20260803_0251.html
+Cleaned old post to keep top 30 limit: two-crew-killed-after-firefighting-helicopters-col_20260803_0251.html
+Cleaned old post to keep top 30 limit: chaos-of-border-crossing-gives-way-to-limbo-for-mo_20260803_0251.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump suggests new talks with Iran to begin on Monday
+   • How parents and pupils took on 'cruel', 'authoritarian' schools - and won
      Sources: bbc.com, cnn.com, reuters.com
-   • Two crew killed after firefighting helicopters collide in Greece, as British pilot survives
+   • ‘Tell us’: Gaza family trapped between hope and pain over missing brothers
      Sources: bbc.com, cnn.com, reuters.com
-   • Chaos of border crossing gives way to limbo for Moroccans on Ceuta’s streets
+   • Grid failure plunges Cuba into nationwide blackout
      Sources: bbc.com, cnn.com, reuters.com
