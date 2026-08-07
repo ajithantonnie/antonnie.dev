@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Thai pupil describes harrowing moment teacher was shot in front of her
   Added: Officer who led PC Harper investigation 'appalled' killers could be released early
-  Added: Arrests in Norfolk town as disorder continues for third night
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola virus behind massive outbreak in DRC could be mutating, officials say
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Africa backs Infantino as CAF unanimously votes in FIFA president’s favour
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Earthquake strikes as doctors perform surgery
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turkiye’s Erdogan visits Saudi Arabia: What to expect
-Added expanded search topic: Africa backs Infantino as CAF unanimously votes in FIFA president’s favour
-Added expanded search topic: Earthquake strikes as doctors perform surgery
-Added expanded search topic: Turkiye’s Erdogan visits Saudi Arabia: What to expect
-Saved 15 topics for 2026-08-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Several killed after student opens fire inside Thailand school
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The other classroom: Returning to sacred knowledge
+Added expanded search topic: Several killed after student opens fire inside Thailand school
+Added expanded search topic: The other classroom: Returning to sacred knowledge
+Saved 18 topics for 2026-08-07
 Returning 3 unique trending topics:
-  1. Africa backs Infantino as CAF unanimously votes in FIFA president’s favour (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Earthquake strikes as doctors perform surgery (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Turkiye’s Erdogan visits Saudi Arabia: What to expect (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Thai pupil describes harrowing moment teacher was shot in front of her (from BBC News)
+  2. Several killed after student opens fire inside Thailand school (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. The other classroom: Returning to sacred knowledge (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Africa backs Infantino as CAF unanimously votes in FIFA president’s favour
-Searching Google for: Africa backs Infantino as CAF unanimously votes in FIFA president’s favour
+Processing trending topic: Thai pupil describes harrowing moment teacher was shot in front of her
+Searching Google for: Thai pupil describes harrowing moment teacher was shot in front of her
 Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: africa-backs-infantino-as-caf-unanimously-votes-in_20260807_0859.html
-✓ Created comprehensive article: africa-backs-infantino-as-caf-unanimously-votes-in_20260807_0859.html
+Successfully created file: thai-pupil-describes-harrowing-moment-teacher-was-_20260807_1004.html
+✓ Created comprehensive article: thai-pupil-describes-harrowing-moment-teacher-was-_20260807_1004.html
 
-Processing trending topic: Earthquake strikes as doctors perform surgery
-Searching Google for: Earthquake strikes as doctors perform surgery
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEarthquake%252Bstrikes%252Bas%252Bdoctors%252Bperform%252Bsurgery%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKG5GLa91tMGIjDGpx18dlx5ILRbom4iI7aomtcsvkWceAAT66p4yUzRP-O35IbbXSz_ZbZBuw7GxJUyBmpjbmRyUloBQw
+Processing trending topic: Several killed after student opens fire inside Thailand school
+Searching Google for: Several killed after student opens fire inside Thailand school
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: earthquake-strikes-as-doctors-perform-surgery_20260807_0900.html
-✓ Created comprehensive article: earthquake-strikes-as-doctors-perform-surgery_20260807_0900.html
+Successfully created file: several-killed-after-student-opens-fire-inside-tha_20260807_1005.html
+✓ Created comprehensive article: several-killed-after-student-opens-fire-inside-tha_20260807_1005.html
 
-Processing trending topic: Turkiye’s Erdogan visits Saudi Arabia: What to expect
-Searching Google for: Turkiye’s Erdogan visits Saudi Arabia: What to expect
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurkiye%25E2%2580%2599s%252BErdogan%252Bvisits%252BSaudi%252BArabia%253A%252BWhat%252Bto%252Bexpect%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKG5GL291tMGIjDiVkn0uEEXKnaAaI-8f8fXCW56BWjXKhawRpqM_yowKJgPN9pZHR3b05OTX2NzLG8yBmpjbmRyUloBQw
+Processing trending topic: The other classroom: Returning to sacred knowledge
+Searching Google for: The other classroom: Returning to sacred knowledge
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252Bother%252Bclassroom%253A%252BReturning%252Bto%252Bsacred%252Bknowledge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1-8yGPLb1tMGIjD9pCXdDH3HLOO2DRnarBcXoHygDgOAwfxfqbO_IsWsZwQvyOuu1i5D39sZ57872TEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: turkiyes-erdogan-visits-saudi-arabia-what-to-expec_20260807_0900.html
-✓ Created comprehensive article: turkiyes-erdogan-visits-saudi-arabia-what-to-expec_20260807_0900.html
+Successfully created file: the-other-classroom-returning-to-sacred-knowledge_20260807_1005.html
+✓ Created comprehensive article: the-other-classroom-returning-to-sacred-knowledge_20260807_1005.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mexico-deploys-troops-to-secure-avocado-region-aft_20260807_0715.html
-Cleaned old post to keep top 30 limit: record-high-heat-soars-through-south-korea_20260807_0542.html
-Cleaned old post to keep top 30 limit: bodies-of-climbers-killed-in-avalanche-retrieved-f_20260807_0715.html
+Cleaned old post to keep top 30 limit: morocco-feels-emboldened-trumps-influence-in-spotl_20260806_1125.html
+Cleaned old post to keep top 30 limit: earthquake-strikes-as-doctors-perform-surgery_20260807_0900.html
+Cleaned old post to keep top 30 limit: africa-backs-infantino-as-caf-unanimously-votes-in_20260807_0859.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Africa backs Infantino as CAF unanimously votes in FIFA president’s favour
+   • Thai pupil describes harrowing moment teacher was shot in front of her
      Sources: bbc.com, cnn.com, reuters.com
-   • Earthquake strikes as doctors perform surgery
+   • Several killed after student opens fire inside Thailand school
      Sources: bbc.com, cnn.com, reuters.com
-   • Turkiye’s Erdogan visits Saudi Arabia: What to expect
+   • The other classroom: Returning to sacred knowledge
      Sources: bbc.com, cnn.com, reuters.com
