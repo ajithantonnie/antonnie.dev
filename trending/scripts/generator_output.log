@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Meta fined $567m in largest child safety ruling against social media giant
   Added: Thousands of rail passengers hit by power failure disruption
-  Added: Uefa says boycott may still go ahead as FA withdraws Infantino support
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola virus behind massive outbreak in DRC could be mutating, officials say
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-07
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than one million affected by floods in India’s Assam state
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Exclusive report with the 308 people rescued by Nigerian forces
+Added expanded search topic: More than one million affected by floods in India’s Assam state
+Added expanded search topic: Exclusive report with the 308 people rescued by Nigerian forces
+Saved 6 topics for 2026-08-07
 Returning 3 unique trending topics:
-  1. Thousands of rail passengers hit by power failure disruption (from BBC News)
-  2. Uefa says boycott may still go ahead as FA withdraws Infantino support (from BBC News)
-  3. Ebola virus behind massive outbreak in DRC could be mutating, officials say (from The Guardian)
+  1. Meta fined $567m in largest child safety ruling against social media giant (from BBC News)
+  2. More than one million affected by floods in India’s Assam state (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Exclusive report with the 308 people rescued by Nigerian forces (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Thousands of rail passengers hit by power failure disruption
-Searching Google for: Thousands of rail passengers hit by power failure disruption
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Meta fined $567m in largest child safety ruling against social media giant
+Searching Google for: Meta fined $567m in largest child safety ruling against social media giant
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMeta%252Bfined%252B%2524567m%252Bin%252Blargest%252Bchild%252Bsafety%252Bruling%252Bagainst%252Bsocial%252Bmedia%252Bgiant%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-kGMCs1dMGIjCUJyMgj68w7hyr1LfDfYPGCidDBMxtF5vvVdhpP0mqoHMNHAvjSts8Gg0P9mNhie0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-of-rail-passengers-hit-by-power-failure-_20260807_0043.html
-✓ Created comprehensive article: thousands-of-rail-passengers-hit-by-power-failure-_20260807_0043.html
+Successfully created file: meta-fined-567m-in-largest-child-safety-ruling-aga_20260807_0351.html
+✓ Created comprehensive article: meta-fined-567m-in-largest-child-safety-ruling-aga_20260807_0351.html
 
-Processing trending topic: Uefa says boycott may still go ahead as FA withdraws Infantino support
-Searching Google for: Uefa says boycott may still go ahead as FA withdraws Infantino support
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUefa%252Bsays%252Bboycott%252Bmay%252Bstill%252Bgo%252Bahead%252Bas%252BFA%252Bwithdraws%252BInfantino%252Bsupport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGryGPfU1NMGIjBF8idQhehZ0rUzXCngS2wpysKejr1xssaSL96uAmfChEvgqjKDxB87-Oqpl8tNwosyBmpjbmRyUloBQw
+Processing trending topic: More than one million affected by floods in India’s Assam state
+Searching Google for: More than one million affected by floods in India’s Assam state
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252Bone%252Bmillion%252Baffected%252Bby%252Bfloods%252Bin%252BIndia%25E2%2580%2599s%252BAssam%252Bstate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-kGMes1dMGIjChyAowewCOLLD6wB0P3G_GQWKQbfI9XL_d_4Q1rbsURDm8enObBSFEfhTAFABH7x4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uefa-says-boycott-may-still-go-ahead-as-fa-withdra_20260807_0044.html
-✓ Created comprehensive article: uefa-says-boycott-may-still-go-ahead-as-fa-withdra_20260807_0044.html
+Successfully created file: more-than-one-million-affected-by-floods-in-indias_20260807_0351.html
+✓ Created comprehensive article: more-than-one-million-affected-by-floods-in-indias_20260807_0351.html
 
-Processing trending topic: Ebola virus behind massive outbreak in DRC could be mutating, officials say
-Searching Google for: Ebola virus behind massive outbreak in DRC could be mutating, officials say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Bvirus%252Bbehind%252Bmassive%252Boutbreak%252Bin%252BDRC%252Bcould%252Bbe%252Bmutating%252C%252Bofficials%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGryGP7U1NMGIjB02jVLfssmgvtDl196WroVCSuir_ZY1tNYM24wizSKTDCQVcDboZwYr1zAZQeP7_QyBmpjbmRyUloBQw
+Processing trending topic: Exclusive report with the 308 people rescued by Nigerian forces
+Searching Google for: Exclusive report with the 308 people rescued by Nigerian forces
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DExclusive%252Breport%252Bwith%252Bthe%252B308%252Bpeople%252Brescued%252Bby%252BNigerian%252Bforces%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-kGM2s1dMGIjDw8W_uPmXRYVE5ABR7rI7m41nyLS1tudztxgVM2tghuH8zYtaRJUprWThVRoKhDD0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ebola-virus-behind-massive-outbreak-in-drc-could-b_20260807_0044.html
-✓ Created comprehensive article: ebola-virus-behind-massive-outbreak-in-drc-could-b_20260807_0044.html
+Successfully created file: exclusive-report-with-the-308-people-rescued-by-ni_20260807_0351.html
+✓ Created comprehensive article: exclusive-report-with-the-308-people-rescued-by-ni_20260807_0351.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: nigerian-security-forces-free-more-than-300-hostag_20260806_1406.html
-Cleaned old post to keep top 30 limit: why-is-france-developing-a-new-nuclear-strategy_20260806_0836.html
-Cleaned old post to keep top 30 limit: calls-for-inquiry-into-army-training-college-for-t_20260806_1405.html
+Cleaned old post to keep top 30 limit: majority-of-englands-rivers-and-lakes-fail-new-env_20260806_1406.html
+Cleaned old post to keep top 30 limit: thousands-of-rail-passengers-hit-by-power-failure-_20260807_0043.html
+Cleaned old post to keep top 30 limit: ebola-virus-behind-massive-outbreak-in-drc-could-b_20260807_0044.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Thousands of rail passengers hit by power failure disruption
+   • Meta fined $567m in largest child safety ruling against social media giant
      Sources: bbc.com, cnn.com, reuters.com
-   • Uefa says boycott may still go ahead as FA withdraws Infantino support
+   • More than one million affected by floods in India’s Assam state
      Sources: bbc.com, cnn.com, reuters.com
-   • Ebola virus behind massive outbreak in DRC could be mutating, officials say
+   • Exclusive report with the 308 people rescued by Nigerian forces
      Sources: bbc.com, cnn.com, reuters.com
