@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Serial sex offender guilty of murdering two women and raping third
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola virus behind massive outbreak in DRC could be mutating, officials say
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Diego Maradona bloated, bedridden and resigned before death, says masseur
-Added expanded search topic: Diego Maradona bloated, bedridden and resigned before death, says masseur
-Saved 27 topics for 2026-08-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Sri Lanka prisoners riot leaving 3 dead, 23 injured in chaos
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two civilians killed in Houthi strike on Marib, says Yemen’s government
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it?
+Added expanded search topic: Sri Lanka prisoners riot leaving 3 dead, 23 injured in chaos
+Added expanded search topic: Two civilians killed in Houthi strike on Marib, says Yemen’s government
+Added expanded search topic: Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it?
+Saved 30 topics for 2026-08-07
 Returning 3 unique trending topics:
-  1. Serial sex offender guilty of murdering two women and raping third (from BBC News)
-  2. How police let a registered sex offender murder and attack women (from BBC News)
-  3. Diego Maradona bloated, bedridden and resigned before death, says masseur (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Sri Lanka prisoners riot leaving 3 dead, 23 injured in chaos (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Two civilians killed in Houthi strike on Marib, says Yemen’s government (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Serial sex offender guilty of murdering two women and raping third
-Searching Google for: Serial sex offender guilty of murdering two women and raping third
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Sri Lanka prisoners riot leaving 3 dead, 23 injured in chaos
+Searching Google for: Sri Lanka prisoners riot leaving 3 dead, 23 injured in chaos
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSri%252BLanka%252Bprisoners%252Briot%252Bleaving%252B3%252Bdead%252C%252B23%252Binjured%252Bin%252Bchaos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgOYGP2A2NMGIjDGS4_jEIRo1oBQ4OO2m2T2eV9M-qilllYMzzfOW5VidPWJOTmuqayCB0mBsp4b4YEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: serial-sex-offender-guilty-of-murdering-two-women-_20260807_1416.html
-✓ Created comprehensive article: serial-sex-offender-guilty-of-murdering-two-women-_20260807_1416.html
+Successfully created file: sri-lanka-prisoners-riot-leaving-3-dead-23-injured_20260807_1557.html
+✓ Created comprehensive article: sri-lanka-prisoners-riot-leaving-3-dead-23-injured_20260807_1557.html
 
-Processing trending topic: How police let a registered sex offender murder and attack women
-Searching Google for: How police let a registered sex offender murder and attack women
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bpolice%252Blet%252Ba%252Bregistered%252Bsex%252Boffender%252Bmurder%252Band%252Battack%252Bwomen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq3uIGO7R19MGIjCJDX8usEkj0V4yikx-QILbDtCfVqbgjyFeAzWRWBzrFHFFtddji4mPU7ey3VxvyekyAnJSWgFD
+Processing trending topic: Two civilians killed in Houthi strike on Marib, says Yemen’s government
+Searching Google for: Two civilians killed in Houthi strike on Marib, says Yemen’s government
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bcivilians%252Bkilled%252Bin%252BHouthi%252Bstrike%252Bon%252BMarib%252C%252Bsays%252BYemen%25E2%2580%2599s%252Bgovernment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgOYGISB2NMGIjDZ5sIIdHnUp2dUwcUNZNK4wnguQd97WqOeSroQaV2nX4xCFRdVMte9S5mcu4bPk6wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-police-let-a-registered-sex-offender-murder-an_20260807_1417.html
-✓ Created comprehensive article: how-police-let-a-registered-sex-offender-murder-an_20260807_1417.html
+Successfully created file: two-civilians-killed-in-houthi-strike-on-marib-say_20260807_1558.html
+✓ Created comprehensive article: two-civilians-killed-in-houthi-strike-on-marib-say_20260807_1558.html
 
-Processing trending topic: Diego Maradona bloated, bedridden and resigned before death, says masseur
-Searching Google for: Diego Maradona bloated, bedridden and resigned before death, says masseur
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDiego%252BMaradona%252Bbloated%252C%252Bbedridden%252Band%252Bresigned%252Bbefore%252Bdeath%252C%252Bsays%252Bmasseur%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq3uIGPXR19MGIjA-UJJikYZvkhskfAaiqbR_-ay0oVpkP46tvwnU3BH0ZJU5Msrlle7_gGIINr_nKxoyAnJSWgFD
+Processing trending topic: Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it?
+Searching Google for: Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurkiye%252C%252BSaudi%252BArabia%252C%252BPakistan%252Bsign%252Bjoint%252Bdefence%252Bagreement%253A%252BWhat%25E2%2580%2599s%252Bin%252Bit%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgOYGIqB2NMGIjDnje7EgkWtyXyQvrNnJ6pWqncxIQ5s93rbjl8uG413epiSrsQvmvDARME3XndoiU4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: diego-maradona-bloated-bedridden-and-resigned-befo_20260807_1417.html
-✓ Created comprehensive article: diego-maradona-bloated-bedridden-and-resigned-befo_20260807_1417.html
+Successfully created file: turkiye-saudi-arabia-pakistan-sign-joint-defence-a_20260807_1558.html
+✓ Created comprehensive article: turkiye-saudi-arabia-pakistan-sign-joint-defence-a_20260807_1558.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: thai-pupil-describes-harrowing-moment-teacher-was-_20260807_1004.html
-Cleaned old post to keep top 30 limit: the-other-classroom-returning-to-sacred-knowledge_20260807_1005.html
-Cleaned old post to keep top 30 limit: argentina-and-mexico-join-africa-in-backing-fifas-_20260807_1301.html
+Cleaned old post to keep top 30 limit: how-police-let-a-registered-sex-offender-murder-an_20260807_1417.html
+Cleaned old post to keep top 30 limit: un-chief-condemns-both-ukraine-and-russia-amid-esc_20260807_1301.html
+Cleaned old post to keep top 30 limit: diego-maradona-bloated-bedridden-and-resigned-befo_20260807_1417.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Serial sex offender guilty of murdering two women and raping third
+   • Sri Lanka prisoners riot leaving 3 dead, 23 injured in chaos
      Sources: bbc.com, cnn.com, reuters.com
-   • How police let a registered sex offender murder and attack women
+   • Two civilians killed in Houthi strike on Marib, says Yemen’s government
      Sources: bbc.com, cnn.com, reuters.com
-   • Diego Maradona bloated, bedridden and resigned before death, says masseur
+   • Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it?
      Sources: bbc.com, cnn.com, reuters.com
