@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police failings revealed as sex offender left free to murder and attack women
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Democrats gain momentum in pivotal US Senate and governor’s races in Texas
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks
-Added expanded search topic: Democrats gain momentum in pivotal US Senate and governor’s races in Texas
-Added expanded search topic: Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks
-Saved 51 topics for 2026-08-07
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can diplomacy end the conflict in Libya?
+  Found from World News - Breaking international news and headlines | Sky News: Spain announces new border controls with Italy in migration row
+Added expanded search topic: Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial
+Added expanded search topic: Can diplomacy end the conflict in Libya?
+Added expanded search topic: Spain announces new border controls with Italy in migration row
+Saved 54 topics for 2026-08-07
 Returning 3 unique trending topics:
-  1. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
-  2. Democrats gain momentum in pivotal US Senate and governor’s races in Texas (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Can diplomacy end the conflict in Libya? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Spain announces new border controls with Italy in migration row (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
-Searching Google for: Spain to introduce temporary border checks on visitors from Italy
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial
+Searching Google for: Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Bcases%252Btop%252B4%252C000%252Bin%252BDRC%252Bas%252BWHO%252Burges%252BErvebo%252Bvaccine%252Btrial%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCDGKPX2dMGIjAu9_Smn0DgkRKAYJXns_somURoGeaq0C5cdipIV3yBy9u5mTxfLR86svlwgJyQU2QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260807_2235.html
-✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260807_2235.html
+Successfully created file: ebola-cases-top-4000-in-drc-as-who-urges-ervebo-va_20260807_2335.html
+✓ Created comprehensive article: ebola-cases-top-4000-in-drc-as-who-urges-ervebo-va_20260807_2335.html
 
-Processing trending topic: Democrats gain momentum in pivotal US Senate and governor’s races in Texas
-Searching Google for: Democrats gain momentum in pivotal US Senate and governor’s races in Texas
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDemocrats%252Bgain%252Bmomentum%252Bin%252Bpivotal%252BUS%252BSenate%252Band%252Bgovernor%25E2%2580%2599s%252Braces%252Bin%252BTexas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6DGNC72dMGIjDeE03PzJFLdHf_aDN33PgBPVAkSRctDkAOOPkf3_6xeeqaQG-kAwLok6FrHQB_QG0yBmpjbmRyUloBQw
+Processing trending topic: Can diplomacy end the conflict in Libya?
+Searching Google for: Can diplomacy end the conflict in Libya?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Bdiplomacy%252Bend%252Bthe%252Bconflict%252Bin%252BLibya%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCDGKrX2dMGIjBZj7GdeuLa_zmaUKpx-NLKc3P97PcSPuv_dWHpyopUr1X_itSswVCdY0XCM_MfhVkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: democrats-gain-momentum-in-pivotal-us-senate-and-g_20260807_2236.html
-✓ Created comprehensive article: democrats-gain-momentum-in-pivotal-us-senate-and-g_20260807_2236.html
+Successfully created file: can-diplomacy-end-the-conflict-in-libya_20260807_2335.html
+✓ Created comprehensive article: can-diplomacy-end-the-conflict-in-libya_20260807_2335.html
 
-Processing trending topic: Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks
-Searching Google for: Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%252Bpoints%252Bto%252B%25E2%2580%2598positive%252Bprogress%25E2%2580%2599%252Bon%252Bborders%252C%252Bprisoners%252Bin%252BIsrael%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I6DGNa72dMGIjCqv-X9CRpas4WpoMQZBqxdi4k5SJe_5ODsHuMaAOaI4o8pjMOb3uQhztORtpLrV0IyBmpjbmRyUloBQw
+Processing trending topic: Spain announces new border controls with Italy in migration row
+Searching Google for: Spain announces new border controls with Italy in migration row
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bannounces%252Bnew%252Bborder%252Bcontrols%252Bwith%252BItaly%252Bin%252Bmigration%252Brow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFCDGLHX2dMGIjB53V3HL-OUSRliRORjVEAUrYStMKiWS7T4UzhVoA_3TZdaZknXPyxMtkFmHJ2e3IEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lebanon-points-to-positive-progress-on-borders-pri_20260807_2236.html
-✓ Created comprehensive article: lebanon-points-to-positive-progress-on-borders-pri_20260807_2236.html
+Successfully created file: spain-announces-new-border-controls-with-italy-in-_20260807_2335.html
+✓ Created comprehensive article: spain-announces-new-border-controls-with-italy-in-_20260807_2335.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: still-searching-for-truth-daughter-of-sikh-activis_20260807_0715.html
-Cleaned old post to keep top 30 limit: south-koreans-beat-the-heat-with-silent-disco-pool_20260807_2141.html
-Cleaned old post to keep top 30 limit: police-failings-revealed-as-sex-offender-left-free_20260807_2140.html
+Cleaned old post to keep top 30 limit: spain-to-introduce-temporary-border-checks-on-visi_20260807_2235.html
+Cleaned old post to keep top 30 limit: lebanon-points-to-positive-progress-on-borders-pri_20260807_2236.html
+Cleaned old post to keep top 30 limit: democrats-gain-momentum-in-pivotal-us-senate-and-g_20260807_2236.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Spain to introduce temporary border checks on visitors from Italy
+   • Ebola cases top 4,000 in DRC as WHO urges Ervebo vaccine trial
      Sources: bbc.com, cnn.com, reuters.com
-   • Democrats gain momentum in pivotal US Senate and governor’s races in Texas
+   • Can diplomacy end the conflict in Libya?
      Sources: bbc.com, cnn.com, reuters.com
-   • Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks
+   • Spain announces new border controls with Italy in migration row
      Sources: bbc.com, cnn.com, reuters.com
