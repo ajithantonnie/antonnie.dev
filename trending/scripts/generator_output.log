@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police officers investigated over handling of sex offender who murdered two women
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-08
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Submerged Indonesian village re-emerges as drought lowers water levels
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US courts clear way for deportations of South Sudan, Myanmar nationals
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What could the Mecca defence pact mean for the US role in the Middle East?
+Added expanded search topic: Submerged Indonesian village re-emerges as drought lowers water levels
+Added expanded search topic: US courts clear way for deportations of South Sudan, Myanmar nationals
+Added expanded search topic: What could the Mecca defence pact mean for the US role in the Middle East?
+Saved 6 topics for 2026-08-08
 Returning 3 unique trending topics:
-  1. Police officers investigated over handling of sex offender who murdered two women (from BBC News)
-  2. Counter-terror police reopen attempted burglary probe as part of Widdecombe inquiry (from BBC News)
-  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
+  1. Submerged Indonesian village re-emerges as drought lowers water levels (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US courts clear way for deportations of South Sudan, Myanmar nationals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What could the Mecca defence pact mean for the US role in the Middle East? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police officers investigated over handling of sex offender who murdered two women
-Searching Google for: Police officers investigated over handling of sex offender who murdered two women
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bofficers%252Binvestigated%252Bover%252Bhandling%252Bof%252Bsex%252Boffender%252Bwho%252Bmurdered%252Btwo%252Bwomen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqV6hGNuM2tMGIjBekImDPCQds_TOf81W1z4gYBSC7EUQZNk27b7_AQYzTXRa8d1wr3V6Pk1xX8V0RbYyBmpjbmRyUloBQw
+Processing trending topic: Submerged Indonesian village re-emerges as drought lowers water levels
+Searching Google for: Submerged Indonesian village re-emerges as drought lowers water levels
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSubmerged%252BIndonesian%252Bvillage%252Bre-emerges%252Bas%252Bdrought%252Blowers%252Bwater%252Blevels%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JmlGM_D2tMGIjDyDkGBh10GBl68Trhf3mf3162hjXii2taYVxsQe0vrbHeoiupfVtIWrKEPXtrnr4wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-officers-investigated-over-handling-of-sex-_20260808_0129.html
-✓ Created comprehensive article: police-officers-investigated-over-handling-of-sex-_20260808_0129.html
+Successfully created file: submerged-indonesian-village-re-emerges-as-drought_20260808_0326.html
+✓ Created comprehensive article: submerged-indonesian-village-re-emerges-as-drought_20260808_0326.html
 
-Processing trending topic: Counter-terror police reopen attempted burglary probe as part of Widdecombe inquiry
-Searching Google for: Counter-terror police reopen attempted burglary probe as part of Widdecombe inquiry
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCounter-terror%252Bpolice%252Breopen%252Battempted%252Bburglary%252Bprobe%252Bas%252Bpart%252Bof%252BWiddecombe%252Binquiry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqV6hGOKM2tMGIjCU94o91OU6VhdLGttH52PCp7uCj9VBDjv_8D6YFEN46fFL6-iVHZTS-Vtd50OT6T4yBmpjbmRyUloBQw
+Processing trending topic: US courts clear way for deportations of South Sudan, Myanmar nationals
+Searching Google for: US courts clear way for deportations of South Sudan, Myanmar nationals
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcourts%252Bclear%252Bway%252Bfor%252Bdeportations%252Bof%252BSouth%252BSudan%252C%252BMyanmar%252Bnationals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JmlGNbD2tMGIjBTEsPgQQWB9APocUn48X-HOjqrl9kBpR6wjOqOpPH2zAZDTqYL1NUTbIxMDNNwsKYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: counter-terror-police-reopen-attempted-burglary-pr_20260808_0129.html
-✓ Created comprehensive article: counter-terror-police-reopen-attempted-burglary-pr_20260808_0129.html
+Successfully created file: us-courts-clear-way-for-deportations-of-south-suda_20260808_0326.html
+✓ Created comprehensive article: us-courts-clear-way-for-deportations-of-south-suda_20260808_0326.html
 
-Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
-Searching Google for: Spain to introduce temporary border checks on visitors from Italy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqV6hGOmM2tMGIjBrtfCnt4z8lKY7lCAtPtW6ILw4Zr5XWQkb4J7YOmOj4sSiwCb3napvDCVnV7b2Q_cyBmpjbmRyUloBQw
+Processing trending topic: What could the Mecca defence pact mean for the US role in the Middle East?
+Searching Google for: What could the Mecca defence pact mean for the US role in the Middle East?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bcould%252Bthe%252BMecca%252Bdefence%252Bpact%252Bmean%252Bfor%252Bthe%252BUS%252Brole%252Bin%252Bthe%252BMiddle%252BEast%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7JmlGNzD2tMGIjD4eyoiiiaY8auL0ZC10Ca8Eaojipgk8f12MU6G7svAOMhiuW6xMbW36ojK_SJhPCUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260808_0129.html
-✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260808_0129.html
+Successfully created file: what-could-the-mecca-defence-pact-mean-for-the-us-_20260808_0326.html
+✓ Created comprehensive article: what-could-the-mecca-defence-pact-mean-for-the-us-_20260808_0326.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ebola-cases-top-4000-in-drc-as-who-urges-ervebo-va_20260807_2335.html
-Cleaned old post to keep top 30 limit: spain-announces-new-border-controls-with-italy-in-_20260807_2335.html
-Cleaned old post to keep top 30 limit: can-diplomacy-end-the-conflict-in-libya_20260807_2335.html
+Cleaned old post to keep top 30 limit: turkiye-saudi-arabia-pakistan-sign-joint-defence-a_20260807_1558.html
+Cleaned old post to keep top 30 limit: police-officers-investigated-over-handling-of-sex-_20260808_0129.html
+Cleaned old post to keep top 30 limit: counter-terror-police-reopen-attempted-burglary-pr_20260808_0129.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police officers investigated over handling of sex offender who murdered two women
+   • Submerged Indonesian village re-emerges as drought lowers water levels
      Sources: bbc.com, cnn.com, reuters.com
-   • Counter-terror police reopen attempted burglary probe as part of Widdecombe inquiry
+   • US courts clear way for deportations of South Sudan, Myanmar nationals
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain to introduce temporary border checks on visitors from Italy
+   • What could the Mecca defence pact mean for the US role in the Middle East?
      Sources: bbc.com, cnn.com, reuters.com
