@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Widdecombe police reopen investigation into incident at Farage's home, BBC understands
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules
-Added expanded search topic: NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules
-Saved 15 topics for 2026-08-08
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hundreds camp on sweltering Rome street amid tussle over squatted building
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh say Shakib will not play cricket again after Hasina event
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Violence is driving Palestinian Christians out of their Holy Land
+Added expanded search topic: Hundreds camp on sweltering Rome street amid tussle over squatted building
+Added expanded search topic: Bangladesh say Shakib will not play cricket again after Hasina event
+Added expanded search topic: Violence is driving Palestinian Christians out of their Holy Land
+Saved 18 topics for 2026-08-08
 Returning 3 unique trending topics:
-  1. Widdecombe police reopen investigation into incident at Farage's home, BBC understands (from BBC News)
-  2. Infantino denies claims Uefa paid off alleged 'lover' when he was general secretary (from BBC News)
-  3. NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hundreds camp on sweltering Rome street amid tussle over squatted building (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Bangladesh say Shakib will not play cricket again after Hasina event (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Violence is driving Palestinian Christians out of their Holy Land (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Widdecombe police reopen investigation into incident at Farage's home, BBC understands
-Searching Google for: Widdecombe police reopen investigation into incident at Farage's home, BBC understands
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWiddecombe%252Bpolice%252Breopen%252Binvestigation%252Binto%252Bincident%252Bat%252BFarage%2527s%252Bhome%252C%252BBBC%252Bunderstands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUD-TRGKWk29MGIjDfBqprlwfspXDszqYiUvPivJLmtXjCHx0GlPHjf_g6OwQOIvi4cyMDF4nFYvjmfEMyBmpjbmRyUloBQw
+Processing trending topic: Hundreds camp on sweltering Rome street amid tussle over squatted building
+Searching Google for: Hundreds camp on sweltering Rome street amid tussle over squatted building
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Bcamp%252Bon%252Bsweltering%252BRome%252Bstreet%252Bamid%252Btussle%252Bover%252Bsquatted%252Bbuilding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUQK2zGPa_29MGIjAhF-OiJzzXlJiNHsQRyZ-AZYhJ6m2X-pxN_k8N77V7h8R_t_CJwUCCpi7CqP9RXnsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: widdecombe-police-reopen-investigation-into-incide_20260808_0652.html
-✓ Created comprehensive article: widdecombe-police-reopen-investigation-into-incide_20260808_0652.html
+Successfully created file: hundreds-camp-on-sweltering-rome-street-amid-tussl_20260808_0751.html
+✓ Created comprehensive article: hundreds-camp-on-sweltering-rome-street-amid-tussl_20260808_0751.html
 
-Processing trending topic: Infantino denies claims Uefa paid off alleged 'lover' when he was general secretary
-Searching Google for: Infantino denies claims Uefa paid off alleged 'lover' when he was general secretary
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInfantino%252Bdenies%252Bclaims%252BUefa%252Bpaid%252Boff%252Balleged%252B%2527lover%2527%252Bwhen%252Bhe%252Bwas%252Bgeneral%252Bsecretary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUD-TRGK2k29MGIjDxPiTKxNPxoKLzT7FvUu1OAZRcqsN80dkz9oArsnpz3hEn98vZXlUjrL5WBIa24pAyBmpjbmRyUloBQw
+Processing trending topic: Bangladesh say Shakib will not play cricket again after Hasina event
+Searching Google for: Bangladesh say Shakib will not play cricket again after Hasina event
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladesh%252Bsay%252BShakib%252Bwill%252Bnot%252Bplay%252Bcricket%252Bagain%252Bafter%252BHasina%252Bevent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUQK2zGP6_29MGIjCM87nRUMnHMoRIxesnNg41w8aJQQ6PXCobsKOqWfv8xIuQIHtBKa0TyooHYXIVoLwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: infantino-denies-claims-uefa-paid-off-alleged-love_20260808_0652.html
-✓ Created comprehensive article: infantino-denies-claims-uefa-paid-off-alleged-love_20260808_0652.html
+Successfully created file: bangladesh-say-shakib-will-not-play-cricket-again-_20260808_0751.html
+✓ Created comprehensive article: bangladesh-say-shakib-will-not-play-cricket-again-_20260808_0751.html
 
-Processing trending topic: NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules
-Searching Google for: NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNBA%252Bstar%252BBrandon%252BClarke%252Bdied%252Bfrom%252Bheroin%252C%252Bcocaine%252Beffects%252C%252Bexaminer%252Brules%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUD-TRGLSk29MGIjAgEkrRbwVU1PoYKfN7UME4_KHU4yXlAKNwaD7l7-JE9DhwukMnxjbOip2JNSGiqdMyBmpjbmRyUloBQw
+Processing trending topic: Violence is driving Palestinian Christians out of their Holy Land
+Searching Google for: Violence is driving Palestinian Christians out of their Holy Land
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DViolence%252Bis%252Bdriving%252BPalestinian%252BChristians%252Bout%252Bof%252Btheir%252BHoly%252BLand%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUQK2zGITA29MGIjAl4QVGBOSD1K4_8M7PiH7HyIomxhqx3PzyhEEqnBYba6XEbtfPZZFwtKjAq_2HiOgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nba-star-brandon-clarke-died-from-heroin-cocaine-e_20260808_0652.html
-✓ Created comprehensive article: nba-star-brandon-clarke-died-from-heroin-cocaine-e_20260808_0652.html
+Successfully created file: violence-is-driving-palestinian-christians-out-of-_20260808_0751.html
+✓ Created comprehensive article: violence-is-driving-palestinian-christians-out-of-_20260808_0751.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-senate-passes-russia-sanctions-that-could-hurt-_20260808_0458.html
-Cleaned old post to keep top 30 limit: norway-football-federation-calls-for-fifa-presiden_20260808_0544.html
-Cleaned old post to keep top 30 limit: armenia-puts-church-leader-on-trial-for-allegedly-_20260808_0544.html
+Cleaned old post to keep top 30 limit: new-delhi-on-red-alert-as-heavy-rains-pound-the-ci_20260807_1750.html
+Cleaned old post to keep top 30 limit: nba-star-brandon-clarke-died-from-heroin-cocaine-e_20260808_0652.html
+Cleaned old post to keep top 30 limit: infantino-denies-claims-uefa-paid-off-alleged-love_20260808_0652.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Widdecombe police reopen investigation into incident at Farage's home, BBC understands
+   • Hundreds camp on sweltering Rome street amid tussle over squatted building
      Sources: bbc.com, cnn.com, reuters.com
-   • Infantino denies claims Uefa paid off alleged 'lover' when he was general secretary
+   • Bangladesh say Shakib will not play cricket again after Hasina event
      Sources: bbc.com, cnn.com, reuters.com
-   • NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules
+   • Violence is driving Palestinian Christians out of their Holy Land
      Sources: bbc.com, cnn.com, reuters.com
