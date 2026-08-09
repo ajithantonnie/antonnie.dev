@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Andy Burnham to embark on cost of living tour through the UK
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-09
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settler attacks rise as West Bank residents lose land
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hungary nominates former Supreme Court chief Andras Baka for presidency
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks
+Added expanded search topic: Israeli settler attacks rise as West Bank residents lose land
+Added expanded search topic: Hungary nominates former Supreme Court chief Andras Baka for presidency
+Added expanded search topic: Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks
+Saved 6 topics for 2026-08-09
 Returning 3 unique trending topics:
-  1. Andy Burnham to embark on cost of living tour through the UK (from BBC News)
-  2. Fifa criticises campaign to oust president Infantino (from BBC News)
-  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
+  1. Israeli settler attacks rise as West Bank residents lose land (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Hungary nominates former Supreme Court chief Andras Baka for presidency (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Andy Burnham to embark on cost of living tour through the UK
-Searching Google for: Andy Burnham to embark on cost of living tour through the UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAndy%252BBurnham%252Bto%252Bembark%252Bon%252Bcost%252Bof%252Bliving%252Btour%252Bthrough%252Bthe%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHbyUGPCw39MGIjCVpyMq-h4LuylBJM4WkZ_CpHjLJm5VoEUleUoXolnqxoA_1332K3GWmEdLd3pJWOQyBmpjbmRyUloBQw
+Processing trending topic: Israeli settler attacks rise as West Bank residents lose land
+Searching Google for: Israeli settler attacks rise as West Bank residents lose land
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettler%252Battacks%252Brise%252Bas%252BWest%252BBank%252Bresidents%252Blose%252Bland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNQGInw39MGIjA0s6szfpCz7SwJSXffXmsWqRkEYLffkCIXrBUD51Aa-DSQxxM65EzEldqAdzET-KwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: andy-burnham-to-embark-on-cost-of-living-tour-thro_20260809_0131.html
-✓ Created comprehensive article: andy-burnham-to-embark-on-cost-of-living-tour-thro_20260809_0131.html
+Successfully created file: israeli-settler-attacks-rise-as-west-bank-resident_20260809_0346.html
+✓ Created comprehensive article: israeli-settler-attacks-rise-as-west-bank-resident_20260809_0346.html
 
-Processing trending topic: Fifa criticises campaign to oust president Infantino
-Searching Google for: Fifa criticises campaign to oust president Infantino
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFifa%252Bcriticises%252Bcampaign%252Bto%252Boust%252Bpresident%252BInfantino%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHbyUGPew39MGIjCtWkl9Sw00KjbR9RZ6I9Y5KcT8omBWe4UEDB9MSeimTsOVdzCyvpqH73hg1QvNQZUyBmpjbmRyUloBQw
+Processing trending topic: Hungary nominates former Supreme Court chief Andras Baka for presidency
+Searching Google for: Hungary nominates former Supreme Court chief Andras Baka for presidency
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHungary%252Bnominates%252Bformer%252BSupreme%252BCourt%252Bchief%252BAndras%252BBaka%252Bfor%252Bpresidency%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNQGJHw39MGIjDuMRLxtn35mrNPzQLyvf5NxWJAxLACe9-1rINGkmMG-HuHBbJHfay9yLhRw4oBJ5QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-criticises-campaign-to-oust-president-infanti_20260809_0131.html
-✓ Created comprehensive article: fifa-criticises-campaign-to-oust-president-infanti_20260809_0131.html
+Successfully created file: hungary-nominates-former-supreme-court-chief-andra_20260809_0346.html
+✓ Created comprehensive article: hungary-nominates-former-supreme-court-chief-andra_20260809_0346.html
 
-Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
-Searching Google for: Spain to introduce temporary border checks on visitors from Italy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHbyUGP2w39MGIjCuCIciIKhE9c9KCrbOrXwwTFHY7wpQDWhuGtTJC0KPxV-EkXHLumTHN2Yu2G75EtkyBmpjbmRyUloBQw
+Processing trending topic: Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks
+Searching Google for: Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BPezeshkian%252Bseeks%252Bend%252Bto%252B%25E2%2580%2598no%252Bwar%252C%252Bno%252Bpeace%25E2%2580%2599%252Bamid%252BHormuz%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKNQGJjw39MGIjA5Au4qzSAmofGCwjPd0HEBmynhf9zMPVrdj-BEFPSaKWBlNN5T9k4i5zdw9STP8LIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260809_0131.html
-✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260809_0131.html
+Successfully created file: iran-war-live-pezeshkian-seeks-end-to-no-war-no-pe_20260809_0346.html
+✓ Created comprehensive article: iran-war-live-pezeshkian-seeks-end-to-no-war-no-pe_20260809_0346.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: fifa-criticises-campaign-to-oust-president-infanti_20260808_2331.html
-Cleaned old post to keep top 30 limit: crews-recover-19-bodies-from-rubble-of-destroyed-g_20260808_2331.html
-Cleaned old post to keep top 30 limit: andy-burnham-to-embark-on-cost-of-living-tour-thro_20260808_2331.html
+Cleaned old post to keep top 30 limit: spain-to-introduce-temporary-border-checks-on-visi_20260809_0131.html
+Cleaned old post to keep top 30 limit: fifa-criticises-campaign-to-oust-president-infanti_20260809_0131.html
+Cleaned old post to keep top 30 limit: andy-burnham-to-embark-on-cost-of-living-tour-thro_20260809_0131.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Andy Burnham to embark on cost of living tour through the UK
+   • Israeli settler attacks rise as West Bank residents lose land
      Sources: bbc.com, cnn.com, reuters.com
-   • Fifa criticises campaign to oust president Infantino
+   • Hungary nominates former Supreme Court chief Andras Baka for presidency
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain to introduce temporary border checks on visitors from Italy
+   • Iran war live: Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks
      Sources: bbc.com, cnn.com, reuters.com
