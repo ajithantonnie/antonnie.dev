@@ -1,8 +1,8 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 21 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Suspected crime boss Daniel Kinahan to be returned to Ireland in high-security operation
+  Added: Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation
   Added: Andy Burnham to embark on cost of living tour through the UK
 Fetching from CNN...
 Fetching from Reuters...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Women’s Day in South Africa turns 70 with equality still out of reach
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Flight cancellations, evacuations as China braces for Typhoon Dolphin
-Added expanded search topic: Women’s Day in South Africa turns 70 with equality still out of reach
-Added expanded search topic: Flight cancellations, evacuations as China braces for Typhoon Dolphin
-Saved 21 topics for 2026-08-09
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is Pezeshkian urging an end to Iran’s ‘no war, no peace’ status?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: It won’t be Trump who kills the ICC
+Added expanded search topic: Why is Pezeshkian urging an end to Iran’s ‘no war, no peace’ status?
+Added expanded search topic: It won’t be Trump who kills the ICC
+Saved 24 topics for 2026-08-09
 Returning 3 unique trending topics:
-  1. Suspected crime boss Daniel Kinahan to be returned to Ireland in high-security operation (from BBC News)
-  2. Women’s Day in South Africa turns 70 with equality still out of reach (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Flight cancellations, evacuations as China braces for Typhoon Dolphin (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation (from BBC News)
+  2. Why is Pezeshkian urging an end to Iran’s ‘no war, no peace’ status? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. It won’t be Trump who kills the ICC (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Suspected crime boss Daniel Kinahan to be returned to Ireland in high-security operation
-Searching Google for: Suspected crime boss Daniel Kinahan to be returned to Ireland in high-security operation
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSuspected%252Bcrime%252Bboss%252BDaniel%252BKinahan%252Bto%252Bbe%252Breturned%252Bto%252BIreland%252Bin%252Bhigh-security%252Boperation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K0ZGMiV4dMGIjCH8Qw_Lsfmj-EXZgi26ssTlUZ_hJgnTErKE-62J0vn7YGX7W-oyKfglPOvFaL3_JgyBmpjbmRyUloBQw
+Processing trending topic: Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation
+Searching Google for: Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspected-crime-boss-daniel-kinahan-to-be-returned_20260809_0939.html
-✓ Created comprehensive article: suspected-crime-boss-daniel-kinahan-to-be-returned_20260809_0939.html
+Successfully created file: suspected-crime-boss-daniel-kinahan-returning-to-i_20260809_1033.html
+✓ Created comprehensive article: suspected-crime-boss-daniel-kinahan-returning-to-i_20260809_1033.html
 
-Processing trending topic: Women’s Day in South Africa turns 70 with equality still out of reach
-Searching Google for: Women’s Day in South Africa turns 70 with equality still out of reach
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWomen%25E2%2580%2599s%252BDay%252Bin%252BSouth%252BAfrica%252Bturns%252B70%252Bwith%252Bequality%252Bstill%252Bout%252Bof%252Breach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K0ZGM6V4dMGIjAb0SyW4opAh30NP7WsK5mOf24cwXfNoAt3NWf0_S3IlAhIyEqkaQ6e73dDMMy1QGwyBmpjbmRyUloBQw
+Processing trending topic: Why is Pezeshkian urging an end to Iran’s ‘no war, no peace’ status?
+Searching Google for: Why is Pezeshkian urging an end to Iran’s ‘no war, no peace’ status?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BPezeshkian%252Burging%252Ban%252Bend%252Bto%252BIran%25E2%2580%2599s%252B%25E2%2580%2598no%252Bwar%252C%252Bno%252Bpeace%25E2%2580%2599%252Bstatus%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA84yGNuv4dMGIjC-mhw20lQf5fm__U7-Zw7UW5rCszJLTp_NPoT2XYaDbbdcGi1DRhQtfzl6bOG3-3oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: womens-day-in-south-africa-turns-70-with-equality-_20260809_0939.html
-✓ Created comprehensive article: womens-day-in-south-africa-turns-70-with-equality-_20260809_0939.html
+Successfully created file: why-is-pezeshkian-urging-an-end-to-irans-no-war-no_20260809_1035.html
+✓ Created comprehensive article: why-is-pezeshkian-urging-an-end-to-irans-no-war-no_20260809_1035.html
 
-Processing trending topic: Flight cancellations, evacuations as China braces for Typhoon Dolphin
-Searching Google for: Flight cancellations, evacuations as China braces for Typhoon Dolphin
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlight%252Bcancellations%252C%252Bevacuations%252Bas%252BChina%252Bbraces%252Bfor%252BTyphoon%252BDolphin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K0ZGNSV4dMGIjC_xzn3uOTIrmKsj6yDEO5XsGSLpIDS4gbmpx0Rwc4ZhFHtBrFTY-izX0xqANwyn1QyBmpjbmRyUloBQw
+Processing trending topic: It won’t be Trump who kills the ICC
+Searching Google for: It won’t be Trump who kills the ICC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIt%252Bwon%25E2%2580%2599t%252Bbe%252BTrump%252Bwho%252Bkills%252Bthe%252BICC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUA84yGOKv4dMGIjBfno0Wre5ezEQiqzL0RXYffJXb6O3QTWUX71Z5ZqSRkCZ32BqRfm7bLQ1GiAUe0k0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: flight-cancellations-evacuations-as-china-braces-f_20260809_0939.html
-✓ Created comprehensive article: flight-cancellations-evacuations-as-china-braces-f_20260809_0939.html
+Successfully created file: it-wont-be-trump-who-kills-the-icc_20260809_1035.html
+✓ Created comprehensive article: it-wont-be-trump-who-kills-the-icc_20260809_1035.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: saudi-arabia-says-fire-extinguished-at-aramco-faci_20260809_0842.html
-Cleaned old post to keep top 30 limit: wildfire-forces-thousands-of-evacuations-in-wester_20260809_0655.html
-Cleaned old post to keep top 30 limit: fifa-attacks-critics-trying-to-undermine-gianni-in_20260809_0842.html
+Cleaned old post to keep top 30 limit: lionel-messis-father-dies-aged-68-after-a-long-ill_20260808_1531.html
+Cleaned old post to keep top 30 limit: nagasaki-mayor-says-humanity-and-nuclear-weapons-c_20260809_0842.html
+Cleaned old post to keep top 30 limit: flight-cancellations-evacuations-as-china-braces-f_20260809_0939.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Suspected crime boss Daniel Kinahan to be returned to Ireland in high-security operation
+   • Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation
      Sources: bbc.com, cnn.com, reuters.com
-   • Women’s Day in South Africa turns 70 with equality still out of reach
+   • Why is Pezeshkian urging an end to Iran’s ‘no war, no peace’ status?
      Sources: bbc.com, cnn.com, reuters.com
-   • Flight cancellations, evacuations as China braces for Typhoon Dolphin
+   • It won’t be Trump who kills the ICC
      Sources: bbc.com, cnn.com, reuters.com
