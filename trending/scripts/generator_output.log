@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Suspected crime boss Daniel Kinahan appears in court after extradition
-  Added: How Kinahan's hearing unfolded inside the courtroom in Dublin
+  Added: Burnham brings forward ban on 'subscription traps' to ease cost of living
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-10
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Clashes in Iraq’s Kut city during protests over power shortages
+Added expanded search topic: Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz
+Added expanded search topic: Clashes in Iraq’s Kut city during protests over power shortages
+Saved 6 topics for 2026-08-10
 Returning 3 unique trending topics:
-  1. Suspected crime boss Daniel Kinahan appears in court after extradition (from BBC News)
-  2. How Kinahan's hearing unfolded inside the courtroom in Dublin (from BBC News)
-  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
+  1. Burnham brings forward ban on 'subscription traps' to ease cost of living (from BBC News)
+  2. Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Clashes in Iraq’s Kut city during protests over power shortages (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Suspected crime boss Daniel Kinahan appears in court after extradition
-Searching Google for: Suspected crime boss Daniel Kinahan appears in court after extradition
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Burnham brings forward ban on 'subscription traps' to ease cost of living
+Searching Google for: Burnham brings forward ban on 'subscription traps' to ease cost of living
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bbrings%252Bforward%252Bban%252Bon%252B%2527subscription%252Btraps%2527%252Bto%252Bease%252Bcost%252Bof%252Bliving%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK635DGP6W5dMGIjDiBX9e7ls2GPmINEzXaXCVtJnnRK8gBKHwAlGiWhWdw4fCZjXY24W3txCVd2QkTiEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: suspected-crime-boss-daniel-kinahan-appears-in-cou_20260810_0140.html
-✓ Created comprehensive article: suspected-crime-boss-daniel-kinahan-appears-in-cou_20260810_0140.html
+Successfully created file: burnham-brings-forward-ban-on-subscription-traps-t_20260810_0354.html
+✓ Created comprehensive article: burnham-brings-forward-ban-on-subscription-traps-t_20260810_0354.html
 
-Processing trending topic: How Kinahan's hearing unfolded inside the courtroom in Dublin
-Searching Google for: How Kinahan's hearing unfolded inside the courtroom in Dublin
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BKinahan%2527s%252Bhearing%252Bunfolded%252Binside%252Bthe%252Bcourtroom%252Bin%252BDublin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmZDGITY5NMGIjBAVTIkHooRDclGDIaZHEPT84BvwaJxyGueevE2VGQjsx9igoVvAQIIRd6MtNacD8QyBmpjbmRyUloBQw
+Processing trending topic: Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz
+Searching Google for: Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252Bprices%252Bclimb%252Bas%252BIranian%252Bdemands%252Bcloud%252Boutlook%252Bfor%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK635DGIaX5dMGIjBzR2N_T_17QWQLFE8Ru_baE65_MBYMCEfGdTppPYSp9nAeilBKfcVzqFLyIWqGes0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-kinahans-hearing-unfolded-inside-the-courtroom_20260810_0140.html
-✓ Created comprehensive article: how-kinahans-hearing-unfolded-inside-the-courtroom_20260810_0140.html
+Successfully created file: oil-prices-climb-as-iranian-demands-cloud-outlook-_20260810_0354.html
+✓ Created comprehensive article: oil-prices-climb-as-iranian-demands-cloud-outlook-_20260810_0354.html
 
-Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
-Searching Google for: Spain to introduce temporary border checks on visitors from Italy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmZDGIrY5NMGIjCcMQiZPtZD30ozMaxAofTHyGAtQAEDUrQlfX7jfNSWReR8w7Y-pCXaJGcpHWa3WMgyBmpjbmRyUloBQw
+Processing trending topic: Clashes in Iraq’s Kut city during protests over power shortages
+Searching Google for: Clashes in Iraq’s Kut city during protests over power shortages
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClashes%252Bin%252BIraq%25E2%2580%2599s%252BKut%252Bcity%252Bduring%252Bprotests%252Bover%252Bpower%252Bshortages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK635DGIyX5dMGIjCmoyt2EhPjB7zDqH-IgIPZ9DZYetK_3VHloARleKP5vJLhEAbAqoeH4_KBsdsinqEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260810_0140.html
-✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260810_0140.html
+Successfully created file: clashes-in-iraqs-kut-city-during-protests-over-pow_20260810_0354.html
+✓ Created comprehensive article: clashes-in-iraqs-kut-city-during-protests-over-pow_20260810_0354.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: how-kinahans-hearing-unfolded-inside-the-courtroom_20260809_2232.html
-Cleaned old post to keep top 30 limit: union-reports-108-attacks-on-palestinian-journalis_20260809_2331.html
-Cleaned old post to keep top 30 limit: facebook-owner-condemned-as-public-nuisance-and-or_20260809_2332.html
+Cleaned old post to keep top 30 limit: will-pakistan-saudi-turkiye-defence-pact-change-us_20260808_2229.html
+Cleaned old post to keep top 30 limit: whats-driving-unrest-in-pakistan-administered-kash_20260809_2331.html
+Cleaned old post to keep top 30 limit: how-kinahans-hearing-unfolded-inside-the-courtroom_20260810_0140.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Suspected crime boss Daniel Kinahan appears in court after extradition
+   • Burnham brings forward ban on 'subscription traps' to ease cost of living
      Sources: bbc.com, cnn.com, reuters.com
-   • How Kinahan's hearing unfolded inside the courtroom in Dublin
+   • Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain to introduce temporary border checks on visitors from Italy
+   • Clashes in Iraq’s Kut city during protests over power shortages
      Sources: bbc.com, cnn.com, reuters.com
