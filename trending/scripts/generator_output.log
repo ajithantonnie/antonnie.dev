@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 36 topics
+Already used today: 39 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More than two-thirds of England now in drought
-  Added: Record 230 people cross Channel in one small boat
+  Added: New Forest firefighting to continue overnight as cars abandoned
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Congresswoman Nancy Mace calls Muslim officials ‘threat’ to US
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Migrant children go days without food in Ceuta amid asylum crisis
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 111 dead after Colombia quakes leave trail of destruction
-Added expanded search topic: US Congresswoman Nancy Mace calls Muslim officials ‘threat’ to US
-Added expanded search topic: Migrant children go days without food in Ceuta amid asylum crisis
-Added expanded search topic: 111 dead after Colombia quakes leave trail of destruction
-Saved 39 topics for 2026-08-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia bars only party opposing war in Ukraine from parliamentary vote
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump administration has revoked over 175,000 visas: US State Department
+Added expanded search topic: Russia bars only party opposing war in Ukraine from parliamentary vote
+Added expanded search topic: Trump administration has revoked over 175,000 visas: US State Department
+Saved 42 topics for 2026-08-10
 Returning 3 unique trending topics:
-  1. US Congresswoman Nancy Mace calls Muslim officials ‘threat’ to US (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Migrant children go days without food in Ceuta amid asylum crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. 111 dead after Colombia quakes leave trail of destruction (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. New Forest firefighting to continue overnight as cars abandoned (from BBC News)
+  2. Russia bars only party opposing war in Ukraine from parliamentary vote (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump administration has revoked over 175,000 visas: US State Department (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US Congresswoman Nancy Mace calls Muslim officials ‘threat’ to US
-Searching Google for: US Congresswoman Nancy Mace calls Muslim officials ‘threat’ to US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BCongresswoman%252BNancy%252BMace%252Bcalls%252BMuslim%252Bofficials%252B%25E2%2580%2598threat%25E2%2580%2599%252Bto%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-iGILb6NMGIjD4C5TC3B9160ZpOq0csr1Q6418_WKb0LcrTHKetxpG7lCTfqYx8oZUxITMRvj0tFYyBmpjbmRyUloBQw
+Processing trending topic: New Forest firefighting to continue overnight as cars abandoned
+Searching Google for: New Forest firefighting to continue overnight as cars abandoned
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BForest%252Bfirefighting%252Bto%252Bcontinue%252Bovernight%252Bas%252Bcars%252Babandoned%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKUGIXw6NMGIjAHjRgMuJDCIpGefizLTMLo8sj6sAPuq6gjjduTkMHR7th_zQ2xRpfzWBWfPI6VKFUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-congresswoman-nancy-mace-calls-muslim-officials_20260810_1959.html
-✓ Created comprehensive article: us-congresswoman-nancy-mace-calls-muslim-officials_20260810_1959.html
+Successfully created file: new-forest-firefighting-to-continue-overnight-as-c_20260810_2043.html
+✓ Created comprehensive article: new-forest-firefighting-to-continue-overnight-as-c_20260810_2043.html
 
-Processing trending topic: Migrant children go days without food in Ceuta amid asylum crisis
-Searching Google for: Migrant children go days without food in Ceuta amid asylum crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMigrant%252Bchildren%252Bgo%252Bdays%252Bwithout%252Bfood%252Bin%252BCeuta%252Bamid%252Basylum%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-iGInb6NMGIjDc8F-zcU0JsJ-f1QZOqSmQRcXwC4xp-2sTBI7uvhqoD9GtiS9jcCnvIdZHBpk_PUMyBmpjbmRyUloBQw
+Processing trending topic: Russia bars only party opposing war in Ukraine from parliamentary vote
+Searching Google for: Russia bars only party opposing war in Ukraine from parliamentary vote
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bbars%252Bonly%252Bparty%252Bopposing%252Bwar%252Bin%252BUkraine%252Bfrom%252Bparliamentary%252Bvote%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKUGIzw6NMGIjBkXF0LriwMfVYi8Kf8fc6Nhf9RUd491rExjghrBUz1mFWCdeNyKOFfNfjJ3sht3z4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: migrant-children-go-days-without-food-in-ceuta-ami_20260810_1959.html
-✓ Created comprehensive article: migrant-children-go-days-without-food-in-ceuta-ami_20260810_1959.html
+Successfully created file: russia-bars-only-party-opposing-war-in-ukraine-fro_20260810_2044.html
+✓ Created comprehensive article: russia-bars-only-party-opposing-war-in-ukraine-fro_20260810_2044.html
 
-Processing trending topic: 111 dead after Colombia quakes leave trail of destruction
-Searching Google for: 111 dead after Colombia quakes leave trail of destruction
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D111%252Bdead%252Bafter%252BColombia%252Bquakes%252Bleave%252Btrail%252Bof%252Bdestruction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-iGI_b6NMGIjALm5UCcwj7dkdfD6wmTy94UTA82Bnbwdq9PjhTaS5gYBBXF15QWVJonHqpd_B9Z1IyBmpjbmRyUloBQw
+Processing trending topic: Trump administration has revoked over 175,000 visas: US State Department
+Searching Google for: Trump administration has revoked over 175,000 visas: US State Department
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bhas%252Brevoked%252Bover%252B175%252C000%252Bvisas%253A%252BUS%252BState%252BDepartment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKUGJLw6NMGIjDUYHnElZuXzdOF3tMfpI8YlU7lPVG1PM4fW_G9k4JATUgLVKeiejMY6GNQwiRA0EgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: 111-dead-after-colombia-quakes-leave-trail-of-dest_20260810_1959.html
-✓ Created comprehensive article: 111-dead-after-colombia-quakes-leave-trail-of-dest_20260810_1959.html
+Successfully created file: trump-administration-has-revoked-over-175000-visas_20260810_2044.html
+✓ Created comprehensive article: trump-administration-has-revoked-over-175000-visas_20260810_2044.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: netanyahus-veto-and-the-limits-of-american-power_20260810_1858.html
-Cleaned old post to keep top 30 limit: lebanon-files-new-lawsuit-against-ex-central-bank-_20260810_1858.html
-Cleaned old post to keep top 30 limit: 30-years-later-a-former-rival-will-stand-trial-for_20260810_1858.html
+Cleaned old post to keep top 30 limit: spain-to-introduce-temporary-border-checks-on-visi_20260810_0140.html
+Cleaned old post to keep top 30 limit: migrant-children-go-days-without-food-in-ceuta-ami_20260810_1959.html
+Cleaned old post to keep top 30 limit: 111-dead-after-colombia-quakes-leave-trail-of-dest_20260810_1959.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US Congresswoman Nancy Mace calls Muslim officials ‘threat’ to US
+   • New Forest firefighting to continue overnight as cars abandoned
      Sources: bbc.com, cnn.com, reuters.com
-   • Migrant children go days without food in Ceuta amid asylum crisis
+   • Russia bars only party opposing war in Ukraine from parliamentary vote
      Sources: bbc.com, cnn.com, reuters.com
-   • 111 dead after Colombia quakes leave trail of destruction
+   • Trump administration has revoked over 175,000 visas: US State Department
      Sources: bbc.com, cnn.com, reuters.com
