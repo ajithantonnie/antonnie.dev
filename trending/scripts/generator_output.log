@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More than two-thirds of England now in drought
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia bars only party opposing war in Ukraine from parliamentary vote
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump administration has revoked over 175,000 visas: US State Department
-Added expanded search topic: Russia bars only party opposing war in Ukraine from parliamentary vote
-Added expanded search topic: Trump administration has revoked over 175,000 visas: US State Department
-Saved 42 topics for 2026-08-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Europe braces for another heatwave after record-breaking temperatures
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Wildfires burn across Indonesia as officials cite El Nino as a cause
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turkiye approves pardon-like bill for thousands of PKK fighters
+Added expanded search topic: Europe braces for another heatwave after record-breaking temperatures
+Added expanded search topic: Wildfires burn across Indonesia as officials cite El Nino as a cause
+Added expanded search topic: Turkiye approves pardon-like bill for thousands of PKK fighters
+Saved 45 topics for 2026-08-10
 Returning 3 unique trending topics:
-  1. New Forest firefighting to continue overnight as cars abandoned (from BBC News)
-  2. Russia bars only party opposing war in Ukraine from parliamentary vote (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump administration has revoked over 175,000 visas: US State Department (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Europe braces for another heatwave after record-breaking temperatures (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Wildfires burn across Indonesia as officials cite El Nino as a cause (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Turkiye approves pardon-like bill for thousands of PKK fighters (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: New Forest firefighting to continue overnight as cars abandoned
-Searching Google for: New Forest firefighting to continue overnight as cars abandoned
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BForest%252Bfirefighting%252Bto%252Bcontinue%252Bovernight%252Bas%252Bcars%252Babandoned%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKUGIXw6NMGIjAHjRgMuJDCIpGefizLTMLo8sj6sAPuq6gjjduTkMHR7th_zQ2xRpfzWBWfPI6VKFUyBmpjbmRyUloBQw
+Processing trending topic: Europe braces for another heatwave after record-breaking temperatures
+Searching Google for: Europe braces for another heatwave after record-breaking temperatures
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEurope%252Bbraces%252Bfor%252Banother%252Bheatwave%252Bafter%252Brecord-breaking%252Btemperatures%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0-tJCGP-L6dMGIjCUSJQOgu4EG41zas4h4dz_EQqpIvomMLeuHtm9zSNe9npNry_jLCMzgM5x42pAI-QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: new-forest-firefighting-to-continue-overnight-as-c_20260810_2043.html
-✓ Created comprehensive article: new-forest-firefighting-to-continue-overnight-as-c_20260810_2043.html
+Successfully created file: europe-braces-for-another-heatwave-after-record-br_20260810_2143.html
+✓ Created comprehensive article: europe-braces-for-another-heatwave-after-record-br_20260810_2143.html
 
-Processing trending topic: Russia bars only party opposing war in Ukraine from parliamentary vote
-Searching Google for: Russia bars only party opposing war in Ukraine from parliamentary vote
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bbars%252Bonly%252Bparty%252Bopposing%252Bwar%252Bin%252BUkraine%252Bfrom%252Bparliamentary%252Bvote%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKUGIzw6NMGIjBkXF0LriwMfVYi8Kf8fc6Nhf9RUd491rExjghrBUz1mFWCdeNyKOFfNfjJ3sht3z4yBmpjbmRyUloBQw
+Processing trending topic: Wildfires burn across Indonesia as officials cite El Nino as a cause
+Searching Google for: Wildfires burn across Indonesia as officials cite El Nino as a cause
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWildfires%252Bburn%252Bacross%252BIndonesia%252Bas%252Bofficials%252Bcite%252BEl%252BNino%252Bas%252Ba%252Bcause%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0-tJCGIaM6dMGIjA96iQmYM8BtgFeyMtoV0slk2qRch3eCZ7TC54ubJQMWBqaXZ-h1YccS0HOjO9loPkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-bars-only-party-opposing-war-in-ukraine-fro_20260810_2044.html
-✓ Created comprehensive article: russia-bars-only-party-opposing-war-in-ukraine-fro_20260810_2044.html
+Successfully created file: wildfires-burn-across-indonesia-as-officials-cite-_20260810_2143.html
+✓ Created comprehensive article: wildfires-burn-across-indonesia-as-officials-cite-_20260810_2143.html
 
-Processing trending topic: Trump administration has revoked over 175,000 visas: US State Department
-Searching Google for: Trump administration has revoked over 175,000 visas: US State Department
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bhas%252Brevoked%252Bover%252B175%252C000%252Bvisas%253A%252BUS%252BState%252BDepartment%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH7YKUGJLw6NMGIjDUYHnElZuXzdOF3tMfpI8YlU7lPVG1PM4fW_G9k4JATUgLVKeiejMY6GNQwiRA0EgyBmpjbmRyUloBQw
+Processing trending topic: Turkiye approves pardon-like bill for thousands of PKK fighters
+Searching Google for: Turkiye approves pardon-like bill for thousands of PKK fighters
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurkiye%252Bapproves%252Bpardon-like%252Bbill%252Bfor%252Bthousands%252Bof%252BPKK%252Bfighters%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0-tJCGIyM6dMGIjB7DYVBwuW4vmARRYWgvLCZpAyPRTv4gj4WEABZtFDkZRPdGldaTrkkLNFGMkpdyN0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-administration-has-revoked-over-175000-visas_20260810_2044.html
-✓ Created comprehensive article: trump-administration-has-revoked-over-175000-visas_20260810_2044.html
+Successfully created file: turkiye-approves-pardon-like-bill-for-thousands-of_20260810_2143.html
+✓ Created comprehensive article: turkiye-approves-pardon-like-bill-for-thousands-of_20260810_2143.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: spain-to-introduce-temporary-border-checks-on-visi_20260810_0140.html
-Cleaned old post to keep top 30 limit: migrant-children-go-days-without-food-in-ceuta-ami_20260810_1959.html
-Cleaned old post to keep top 30 limit: 111-dead-after-colombia-quakes-leave-trail-of-dest_20260810_1959.html
+Cleaned old post to keep top 30 limit: trump-administration-has-revoked-over-175000-visas_20260810_2044.html
+Cleaned old post to keep top 30 limit: us-congresswoman-nancy-mace-calls-muslim-officials_20260810_1959.html
+Cleaned old post to keep top 30 limit: new-forest-firefighting-to-continue-overnight-as-c_20260810_2043.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • New Forest firefighting to continue overnight as cars abandoned
+   • Europe braces for another heatwave after record-breaking temperatures
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia bars only party opposing war in Ukraine from parliamentary vote
+   • Wildfires burn across Indonesia as officials cite El Nino as a cause
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump administration has revoked over 175,000 visas: US State Department
+   • Turkiye approves pardon-like bill for thousands of PKK fighters
      Sources: bbc.com, cnn.com, reuters.com
