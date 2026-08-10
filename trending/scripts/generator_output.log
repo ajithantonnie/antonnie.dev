@@ -1,71 +1,73 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Travelodge staff gave domestic abuser key to his victim's room
-  Added: Drought expected to be declared in more parts of England
+  Added: Burnham brings forward ban on 'subscription traps' to ease cost of living
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Solar eclipse tracker: What time will it hit your location on August 12?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s driving unrest in Pakistan-administered Kashmir?
-Added expanded search topic: Solar eclipse tracker: What time will it hit your location on August 12?
-Added expanded search topic: What’s driving unrest in Pakistan-administered Kashmir?
-Saved 12 topics for 2026-08-10
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China evacuates a million from homes as Typhoon Dolphin arrives
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan-administered Kashmir votes in reduced third phase amid unrest
+Added expanded search topic: China evacuates a million from homes as Typhoon Dolphin arrives
+Added expanded search topic: Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup
+Added expanded search topic: Pakistan-administered Kashmir votes in reduced third phase amid unrest
+Saved 15 topics for 2026-08-10
 Returning 3 unique trending topics:
-  1. Drought expected to be declared in more parts of England (from BBC News)
-  2. Solar eclipse tracker: What time will it hit your location on August 12? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What’s driving unrest in Pakistan-administered Kashmir? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. China evacuates a million from homes as Typhoon Dolphin arrives (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Pakistan-administered Kashmir votes in reduced third phase amid unrest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Drought expected to be declared in more parts of England
-Searching Google for: Drought expected to be declared in more parts of England
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrought%252Bexpected%252Bto%252Bbe%252Bdeclared%252Bin%252Bmore%252Bparts%252Bof%252BEngland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8kGJT85dMGIjAAIoUMQXRiUgmCmuglBD0-VTDnTGg5r6EwlVYSwYMGs9rpS56RVXC3fbRhwBr7vdoyBmpjbmRyUloBQw
+Processing trending topic: China evacuates a million from homes as Typhoon Dolphin arrives
+Searching Google for: China evacuates a million from homes as Typhoon Dolphin arrives
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: drought-expected-to-be-declared-in-more-parts-of-e_20260810_0730.html
-✓ Created comprehensive article: drought-expected-to-be-declared-in-more-parts-of-e_20260810_0730.html
+Successfully created file: china-evacuates-a-million-from-homes-as-typhoon-do_20260810_0920.html
+✓ Created comprehensive article: china-evacuates-a-million-from-homes-as-typhoon-do_20260810_0920.html
 
-Processing trending topic: Solar eclipse tracker: What time will it hit your location on August 12?
-Searching Google for: Solar eclipse tracker: What time will it hit your location on August 12?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSolar%252Beclipse%252Btracker%253A%252BWhat%252Btime%252Bwill%252Bit%252Bhit%252Byour%252Blocation%252Bon%252BAugust%252B12%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8kGJv85dMGIjB8153znAhD0X4h0XV-qREWkZEKWa5maXUgtpOaYNELzucMruRJgerCjRQx7Zjji9cyBmpjbmRyUloBQw
+Processing trending topic: Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup
+Searching Google for: Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: solar-eclipse-tracker-what-time-will-it-hit-your-l_20260810_0730.html
-✓ Created comprehensive article: solar-eclipse-tracker-what-time-will-it-hit-your-l_20260810_0730.html
+Successfully created file: nigeria-eliminated-as-cameroon-malawi-reach-wafcon_20260810_0920.html
+✓ Created comprehensive article: nigeria-eliminated-as-cameroon-malawi-reach-wafcon_20260810_0920.html
 
-Processing trending topic: What’s driving unrest in Pakistan-administered Kashmir?
-Searching Google for: What’s driving unrest in Pakistan-administered Kashmir?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bdriving%252Bunrest%252Bin%252BPakistan-administered%252BKashmir%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0H8kGKH85dMGIjD9A5eGcBWCuFcYwTFFfEsHS2Lab7n9atkt_I-Ki5EbrIvuUDuZm94cOgimO-A9IW0yBmpjbmRyUloBQw
+Processing trending topic: Pakistan-administered Kashmir votes in reduced third phase amid unrest
+Searching Google for: Pakistan-administered Kashmir votes in reduced third phase amid unrest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan-administered%252BKashmir%252Bvotes%252Bin%252Breduced%252Bthird%252Bphase%252Bamid%252Bunrest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-PBGKOw5tMGIjDTd4iylTPSvRUQbYO1PqWI91r6gyuyLoS-xvHg64K6X5rtD0BiQZzXDsQ00FWSNaEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-driving-unrest-in-pakistan-administered-kash_20260810_0730.html
-✓ Created comprehensive article: whats-driving-unrest-in-pakistan-administered-kash_20260810_0730.html
+Successfully created file: pakistan-administered-kashmir-votes-in-reduced-thi_20260810_0921.html
+✓ Created comprehensive article: pakistan-administered-kashmir-votes-in-reduced-thi_20260810_0921.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: oil-prices-climb-as-iranian-demands-cloud-outlook-_20260810_0354.html
-Cleaned old post to keep top 30 limit: travelodge-staff-gave-domestic-abuser-key-to-his-v_20260810_0526.html
-Cleaned old post to keep top 30 limit: trump-names-will-scharf-as-white-house-counsel-ahe_20260810_0527.html
+Cleaned old post to keep top 30 limit: trump-targets-birthright-citizenship-again_20260809_1435.html
+Cleaned old post to keep top 30 limit: suspected-crime-boss-daniel-kinahan-appears-in-cou_20260810_0140.html
+Cleaned old post to keep top 30 limit: drought-expected-to-be-declared-in-more-parts-of-e_20260810_0730.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Drought expected to be declared in more parts of England
+   • China evacuates a million from homes as Typhoon Dolphin arrives
      Sources: bbc.com, cnn.com, reuters.com
-   • Solar eclipse tracker: What time will it hit your location on August 12?
+   • Nigeria eliminated as Cameroon, Malawi reach WAFCON semis and World Cup
      Sources: bbc.com, cnn.com, reuters.com
-   • What’s driving unrest in Pakistan-administered Kashmir?
+   • Pakistan-administered Kashmir votes in reduced third phase amid unrest
      Sources: bbc.com, cnn.com, reuters.com
