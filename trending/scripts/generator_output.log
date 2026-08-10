@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Suspected crime boss Daniel Kinahan appears in court after extradition
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Union reports 108 attacks on Palestinian journalists in July
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s driving unrest in Pakistan-administered Kashmir?
-  Found from Tech News - Latest Technology and Gadget News | Sky News: Facebook owner condemned as 'public nuisance' and ordered to pay $942m over harm to children
-Added expanded search topic: Union reports 108 attacks on Palestinian journalists in July
-Added expanded search topic: What’s driving unrest in Pakistan-administered Kashmir?
-Added expanded search topic: Facebook owner condemned as 'public nuisance' and ordered to pay $942m over harm to children
-Saved 63 topics for 2026-08-09
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-10
 Returning 3 unique trending topics:
-  1. Union reports 108 attacks on Palestinian journalists in July (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. What’s driving unrest in Pakistan-administered Kashmir? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Facebook owner condemned as 'public nuisance' and ordered to pay $942m over harm to children (from Tech News - Latest Technology and Gadget News | Sky News)
+  1. Suspected crime boss Daniel Kinahan appears in court after extradition (from BBC News)
+  2. How Kinahan's hearing unfolded inside the courtroom in Dublin (from BBC News)
+  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
 
-Processing trending topic: Union reports 108 attacks on Palestinian journalists in July
-Searching Google for: Union reports 108 attacks on Palestinian journalists in July
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnion%252Breports%252B108%252Battacks%252Bon%252BPalestinian%252Bjournalists%252Bin%252BJuly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSY0GOSb5NMGIjBBsTow38scLXeDq5ZfB6nkAeAqm334jUjafNcIHrDvPdhkLKRnK9seBAOFxgm_88AyBmpjbmRyUloBQw
+Processing trending topic: Suspected crime boss Daniel Kinahan appears in court after extradition
+Searching Google for: Suspected crime boss Daniel Kinahan appears in court after extradition
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: union-reports-108-attacks-on-palestinian-journalis_20260809_2331.html
-✓ Created comprehensive article: union-reports-108-attacks-on-palestinian-journalis_20260809_2331.html
+Successfully created file: suspected-crime-boss-daniel-kinahan-appears-in-cou_20260810_0140.html
+✓ Created comprehensive article: suspected-crime-boss-daniel-kinahan-appears-in-cou_20260810_0140.html
 
-Processing trending topic: What’s driving unrest in Pakistan-administered Kashmir?
-Searching Google for: What’s driving unrest in Pakistan-administered Kashmir?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bdriving%252Bunrest%252Bin%252BPakistan-administered%252BKashmir%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSY0GOub5NMGIjDWlK_e3DEM5vzeQXCmysIJ4GRaA-oHDpZiJ4hGCliUQx5ppI1GfdLC49wdBjoPaMgyBmpjbmRyUloBQw
+Processing trending topic: How Kinahan's hearing unfolded inside the courtroom in Dublin
+Searching Google for: How Kinahan's hearing unfolded inside the courtroom in Dublin
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BKinahan%2527s%252Bhearing%252Bunfolded%252Binside%252Bthe%252Bcourtroom%252Bin%252BDublin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmZDGITY5NMGIjBAVTIkHooRDclGDIaZHEPT84BvwaJxyGueevE2VGQjsx9igoVvAQIIRd6MtNacD8QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-driving-unrest-in-pakistan-administered-kash_20260809_2331.html
-✓ Created comprehensive article: whats-driving-unrest-in-pakistan-administered-kash_20260809_2331.html
+Successfully created file: how-kinahans-hearing-unfolded-inside-the-courtroom_20260810_0140.html
+✓ Created comprehensive article: how-kinahans-hearing-unfolded-inside-the-courtroom_20260810_0140.html
 
-Processing trending topic: Facebook owner condemned as 'public nuisance' and ordered to pay $942m over harm to children
-Searching Google for: Facebook owner condemned as 'public nuisance' and ordered to pay $942m over harm to children
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFacebook%252Bowner%252Bcondemned%252Bas%252B%2527public%252Bnuisance%2527%252Band%252Bordered%252Bto%252Bpay%252B%2524942m%252Bover%252Bharm%252Bto%252Bchildren%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSY0GPGb5NMGIjDmG-BMM6hb_vlVN7Ge4PhWNetv6cUdE8LzzhDmr1_iwN1gliT2kl-FDSEeAvBwKc4yBmpjbmRyUloBQw
+Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
+Searching Google for: Spain to introduce temporary border checks on visitors from Italy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmZDGIrY5NMGIjCcMQiZPtZD30ozMaxAofTHyGAtQAEDUrQlfX7jfNSWReR8w7Y-pCXaJGcpHWa3WMgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: facebook-owner-condemned-as-public-nuisance-and-or_20260809_2332.html
-✓ Created comprehensive article: facebook-owner-condemned-as-public-nuisance-and-or_20260809_2332.html
+Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260810_0140.html
+✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260810_0140.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: omar-marmoush-scores-two-goals-as-man-city-defeat-_20260809_1840.html
-Cleaned old post to keep top 30 limit: mps-fear-one-key-issue-could-end-new-pms-honeymoon_20260809_2232.html
-Cleaned old post to keep top 30 limit: europes-first-total-solar-eclipse-in-almost-30-yea_20260809_2232.html
+Cleaned old post to keep top 30 limit: how-kinahans-hearing-unfolded-inside-the-courtroom_20260809_2232.html
+Cleaned old post to keep top 30 limit: union-reports-108-attacks-on-palestinian-journalis_20260809_2331.html
+Cleaned old post to keep top 30 limit: facebook-owner-condemned-as-public-nuisance-and-or_20260809_2332.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Union reports 108 attacks on Palestinian journalists in July
+   • Suspected crime boss Daniel Kinahan appears in court after extradition
      Sources: bbc.com, cnn.com, reuters.com
-   • What’s driving unrest in Pakistan-administered Kashmir?
+   • How Kinahan's hearing unfolded inside the courtroom in Dublin
      Sources: bbc.com, cnn.com, reuters.com
-   • Facebook owner condemned as 'public nuisance' and ordered to pay $942m over harm to children
+   • Spain to introduce temporary border checks on visitors from Italy
      Sources: bbc.com, cnn.com, reuters.com
