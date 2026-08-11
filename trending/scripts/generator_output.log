@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: More than two-thirds of England now in drought
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moment of terror as powerful earthquake shakes airport in Colombia
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ceuta mayor calls for migrant detention amid mass influx crisis
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reporter on the ground as Colombia quake death toll rises
-Added expanded search topic: Moment of terror as powerful earthquake shakes airport in Colombia
-Added expanded search topic: Ceuta mayor calls for migrant detention amid mass influx crisis
-Added expanded search topic: Al Jazeera reporter on the ground as Colombia quake death toll rises
-Saved 51 topics for 2026-08-10
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-11
 Returning 3 unique trending topics:
-  1. Moment of terror as powerful earthquake shakes airport in Colombia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Ceuta mayor calls for migrant detention amid mass influx crisis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Al Jazeera reporter on the ground as Colombia quake death toll rises (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. More than two-thirds of England now in drought (from BBC News)
+  2. New Forest firefighting to continue overnight as cars abandoned (from BBC News)
+  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
 
-Processing trending topic: Moment of terror as powerful earthquake shakes airport in Colombia
-Searching Google for: Moment of terror as powerful earthquake shakes airport in Colombia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoment%252Bof%252Bterror%252Bas%252Bpowerful%252Bearthquake%252Bshakes%252Bairport%252Bin%252BColombia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmjciGIfB6dMGIjAychJ8DesNNulghf6WUWAM4vmVVQiEsd0SvCVbK6oEAlvhgNVhO4BHGAAhZlvaCtEyBmpjbmRyUloBQw
+Processing trending topic: More than two-thirds of England now in drought
+Searching Google for: More than two-thirds of England now in drought
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252Btwo-thirds%252Bof%252BEngland%252Bnow%252Bin%252Bdrought%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-hGNP26dMGIjAD2C2r8iufEZlJ1cwIhu_g2675KdntsLCMeeqcdG6MfXvpVZmyBSV4KSyVKexnIysyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: moment-of-terror-as-powerful-earthquake-shakes-air_20260810_2336.html
-✓ Created comprehensive article: moment-of-terror-as-powerful-earthquake-shakes-air_20260810_2336.html
+Successfully created file: more-than-two-thirds-of-england-now-in-drought_20260811_0131.html
+✓ Created comprehensive article: more-than-two-thirds-of-england-now-in-drought_20260811_0131.html
 
-Processing trending topic: Ceuta mayor calls for migrant detention amid mass influx crisis
-Searching Google for: Ceuta mayor calls for migrant detention amid mass influx crisis
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCeuta%252Bmayor%252Bcalls%252Bfor%252Bmigrant%252Bdetention%252Bamid%252Bmass%252Binflux%252Bcrisis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmjciGI7B6dMGIjBU1mSxrsN5M2aVG6YJVkl4wtBrifNt6dt4x4SrGaucwAy6yBQOPI2tN1FzVVlJ-EsyBmpjbmRyUloBQw
+Processing trending topic: New Forest firefighting to continue overnight as cars abandoned
+Searching Google for: New Forest firefighting to continue overnight as cars abandoned
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252BForest%252Bfirefighting%252Bto%252Bcontinue%252Bovernight%252Bas%252Bcars%252Babandoned%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-hGNr26dMGIjBEjuD0F2yygMXtOD5-s0rIf-dipKzynG9WxCwLqANEwpH7JufDxpmtPoNgg65DtucyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ceuta-mayor-calls-for-migrant-detention-amid-mass-_20260810_2336.html
-✓ Created comprehensive article: ceuta-mayor-calls-for-migrant-detention-amid-mass-_20260810_2336.html
+Successfully created file: new-forest-firefighting-to-continue-overnight-as-c_20260811_0131.html
+✓ Created comprehensive article: new-forest-firefighting-to-continue-overnight-as-c_20260811_0131.html
 
-Processing trending topic: Al Jazeera reporter on the ground as Colombia quake death toll rises
-Searching Google for: Al Jazeera reporter on the ground as Colombia quake death toll rises
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breporter%252Bon%252Bthe%252Bground%252Bas%252BColombia%252Bquake%252Bdeath%252Btoll%252Brises%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmjciGJTB6dMGIjDfcEtLzfh7H_TvXQFH7Qn-5t7fZL97RHdmmF3KKbuEnnZbxJLLHUtq33sAvYa2RrAyBmpjbmRyUloBQw
+Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
+Searching Google for: Spain to introduce temporary border checks on visitors from Italy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOd-hGOD26dMGIjAuK9ljMoqBu7iG-_4yWsHFtjus06sIKad1AeXI7FAYsYeyrWW8whhYb7XJjMx_VNYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-jazeera-reporter-on-the-ground-as-colombia-quak_20260810_2336.html
-✓ Created comprehensive article: al-jazeera-reporter-on-the-ground-as-colombia-quak_20260810_2336.html
+Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260811_0131.html
+✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260811_0131.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-relationship-is-good-even-as-netanyahu-_20260810_2238.html
-Cleaned old post to keep top 30 limit: we-have-no-one-palestinians-react-to-israels-rejec_20260810_1702.html
-Cleaned old post to keep top 30 limit: colombias-espriella-to-lead-emergency-efforts-foll_20260810_2238.html
+Cleaned old post to keep top 30 limit: ceuta-mayor-calls-for-migrant-detention-amid-mass-_20260810_2336.html
+Cleaned old post to keep top 30 limit: moment-of-terror-as-powerful-earthquake-shakes-air_20260810_2336.html
+Cleaned old post to keep top 30 limit: al-jazeera-reporter-on-the-ground-as-colombia-quak_20260810_2336.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Moment of terror as powerful earthquake shakes airport in Colombia
+   • More than two-thirds of England now in drought
      Sources: bbc.com, cnn.com, reuters.com
-   • Ceuta mayor calls for migrant detention amid mass influx crisis
+   • New Forest firefighting to continue overnight as cars abandoned
      Sources: bbc.com, cnn.com, reuters.com
-   • Al Jazeera reporter on the ground as Colombia quake death toll rises
+   • Spain to introduce temporary border checks on visitors from Italy
      Sources: bbc.com, cnn.com, reuters.com
