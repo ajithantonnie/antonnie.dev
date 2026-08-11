@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump hid in catering truck in secret plane swap over Iran threat, reports say
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settler violence is ‘clear state terrorism’
-Added expanded search topic: Israeli settler violence is ‘clear state terrorism’
-Saved 18 topics for 2026-08-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: East Libya military intelligence chief killed in car bomb
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Who is Atef Najib, former Syrian official sentenced to death with al-Assad?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh and India battle to save cricket series after political turmoil
+Added expanded search topic: East Libya military intelligence chief killed in car bomb
+Added expanded search topic: Who is Atef Najib, former Syrian official sentenced to death with al-Assad?
+Added expanded search topic: Bangladesh and India battle to save cricket series after political turmoil
+Saved 21 topics for 2026-08-11
 Returning 3 unique trending topics:
-  1. Trump hid in catering truck in secret plane swap over Iran threat, reports say (from BBC News)
-  2. Amber Met Office extreme heat warning issued as temperatures could reach 38C (from BBC News)
-  3. Israeli settler violence is ‘clear state terrorism’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. East Libya military intelligence chief killed in car bomb (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Who is Atef Najib, former Syrian official sentenced to death with al-Assad? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Bangladesh and India battle to save cricket series after political turmoil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump hid in catering truck in secret plane swap over Iran threat, reports say
-Searching Google for: Trump hid in catering truck in secret plane swap over Iran threat, reports say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bhid%252Bin%252Bcatering%252Btruck%252Bin%252Bsecret%252Bplane%252Bswap%252Bover%252BIran%252Bthreat%252C%252Breports%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt9hGOjl69MGIjC8utQvvxyYlcexxKc7P_Rz81vCbjC4cmxP0WZjVZdeQKrdgbB0zgEZBNJTrwtjudAyBmpjbmRyUloBQw
+Processing trending topic: East Libya military intelligence chief killed in car bomb
+Searching Google for: East Libya military intelligence chief killed in car bomb
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEast%252BLibya%252Bmilitary%252Bintelligence%252Bchief%252Bkilled%252Bin%252Bcar%252Bbomb%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst7fUGNP_69MGIjA6w_bCkewQztKHlMO8K0KM7WZG2BYsw8B_1f4aiJxFv4oh1Hz7-2hkhFrvBfkn11MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-hid-in-catering-truck-in-secret-plane-swap-o_20260811_1001.html
-✓ Created comprehensive article: trump-hid-in-catering-truck-in-secret-plane-swap-o_20260811_1001.html
+Successfully created file: east-libya-military-intelligence-chief-killed-in-c_20260811_1056.html
+✓ Created comprehensive article: east-libya-military-intelligence-chief-killed-in-c_20260811_1056.html
 
-Processing trending topic: Amber Met Office extreme heat warning issued as temperatures could reach 38C
-Searching Google for: Amber Met Office extreme heat warning issued as temperatures could reach 38C
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmber%252BMet%252BOffice%252Bextreme%252Bheat%252Bwarning%252Bissued%252Bas%252Btemperatures%252Bcould%252Breach%252B38C%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt9hGPDl69MGIjABwZtBdc6m9oFX6ylHheQLdijvEX7VVZwnFZpx10EX6u6szX6byAqNnDaU539kNbgyBmpjbmRyUloBQw
+Processing trending topic: Who is Atef Najib, former Syrian official sentenced to death with al-Assad?
+Searching Google for: Who is Atef Najib, former Syrian official sentenced to death with al-Assad?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWho%252Bis%252BAtef%252BNajib%252C%252Bformer%252BSyrian%252Bofficial%252Bsentenced%252Bto%252Bdeath%252Bwith%252Bal-Assad%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst7fUGNr_69MGIjATCOMVZ4BeVzBb_LQqqTQK3P56k0Yfj5B0vDvFuo4uw0nIFkDsqL99C63MTh3zVp8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: amber-met-office-extreme-heat-warning-issued-as-te_20260811_1001.html
-✓ Created comprehensive article: amber-met-office-extreme-heat-warning-issued-as-te_20260811_1001.html
+Successfully created file: who-is-atef-najib-former-syrian-official-sentenced_20260811_1056.html
+✓ Created comprehensive article: who-is-atef-najib-former-syrian-official-sentenced_20260811_1056.html
 
-Processing trending topic: Israeli settler violence is ‘clear state terrorism’
-Searching Google for: Israeli settler violence is ‘clear state terrorism’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettler%252Bviolence%252Bis%252B%25E2%2580%2598clear%252Bstate%252Bterrorism%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt9hGPbl69MGIjA0EqZaaHULWZ_m_39uZcMxblRDNaM4c3cu-Me82O6XXSTXBMcvB6QmDQj2Cv1OhSEyBmpjbmRyUloBQw
+Processing trending topic: Bangladesh and India battle to save cricket series after political turmoil
+Searching Google for: Bangladesh and India battle to save cricket series after political turmoil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladesh%252Band%252BIndia%252Bbattle%252Bto%252Bsave%252Bcricket%252Bseries%252Bafter%252Bpolitical%252Bturmoil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSst7fUGOD_69MGIjDuyamTv0gKyd9ZXDeQZlRlf6hKGs97ucHy6u_KO_tJdpUJ8I-mJyLzdCjC5VQPzhYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-settler-violence-is-clear-state-terrorism_20260811_1001.html
-✓ Created comprehensive article: israeli-settler-violence-is-clear-state-terrorism_20260811_1001.html
+Successfully created file: bangladesh-and-india-battle-to-save-cricket-series_20260811_1056.html
+✓ Created comprehensive article: bangladesh-and-india-battle-to-save-cricket-series_20260811_1056.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: bashar-al-assad-atef-najib-sentenced-to-death-in-l_20260811_0858.html
-Cleaned old post to keep top 30 limit: my-father-is-in-rss-indias-gen-z-confronts-modi-lo_20260811_0858.html
-Cleaned old post to keep top 30 limit: amber-heat-health-alerts-in-place-for-almost-all-o_20260811_0858.html
+Cleaned old post to keep top 30 limit: yemens-houthis-launch-ballistic-missile-attacks-on_20260811_0707.html
+Cleaned old post to keep top 30 limit: trump-hid-in-catering-truck-in-secret-plane-swap-o_20260811_1001.html
+Cleaned old post to keep top 30 limit: amber-met-office-extreme-heat-warning-issued-as-te_20260811_1001.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump hid in catering truck in secret plane swap over Iran threat, reports say
+   • East Libya military intelligence chief killed in car bomb
      Sources: bbc.com, cnn.com, reuters.com
-   • Amber Met Office extreme heat warning issued as temperatures could reach 38C
+   • Who is Atef Najib, former Syrian official sentenced to death with al-Assad?
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli settler violence is ‘clear state terrorism’
+   • Bangladesh and India battle to save cricket series after political turmoil
      Sources: bbc.com, cnn.com, reuters.com
