@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
-  Added: Summer 2026 on course to be UK's hottest on record, says Met Office
+  Added: More weather records as UK heat set to spike again
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel demolishes home of Palestinian killed during settler attack
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: DR Congo Ebola death toll surpasses 2,000
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum
-Added expanded search topic: Israel demolishes home of Palestinian killed during settler attack
-Added expanded search topic: DR Congo Ebola death toll surpasses 2,000
-Added expanded search topic: Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum
-Saved 51 topics for 2026-08-11
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-12
 Returning 3 unique trending topics:
-  1. Israel demolishes home of Palestinian killed during settler attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. DR Congo Ebola death toll surpasses 2,000 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a... (from BBC News)
+  2. More weather records as UK heat set to spike again (from BBC News)
+  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
 
-Processing trending topic: Israel demolishes home of Palestinian killed during settler attack
-Searching Google for: Israel demolishes home of Palestinian killed during settler attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsrael%252Bdemolishes%252Bhome%252Bof%252BPalestinian%252Bkilled%252Bduring%252Bsettler%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9AGMzl7tMGIjAppOBSbob_Y1aVrfUYOKMyS5eN2SNq4jPeKfqoWS-0k-FO9A3qtxDU1hSKTXbN_WUyBmpjbmRyUloBQw
+Processing trending topic: Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
+Searching Google for: Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWoman%252Bassaulted%252Bby%252Bdouble%252Bmurderer%252Bsays%252Bnightmare%252Bbecame%252B%2527real%252Blife%2527%252Bwhen%252Bpolice%252Blet%252Bhim%252Battack%252Ba...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGCGOuh79MGIjAd0Fbc5DOzpgY9ttHT818vtq41btZ5gm9GZQI1LQh47AjvH7ktSj8BAwC2dk8WMw8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israel-demolishes-home-of-palestinian-killed-durin_20260811_2340.html
-✓ Created comprehensive article: israel-demolishes-home-of-palestinian-killed-durin_20260811_2340.html
+Successfully created file: woman-assaulted-by-double-murderer-says-nightmare-_20260812_0148.html
+✓ Created comprehensive article: woman-assaulted-by-double-murderer-says-nightmare-_20260812_0148.html
 
-Processing trending topic: DR Congo Ebola death toll surpasses 2,000
-Searching Google for: DR Congo Ebola death toll surpasses 2,000
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDR%252BCongo%252BEbola%252Bdeath%252Btoll%252Bsurpasses%252B2%252C000%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9AGNPl7tMGIjDrLDc_QP5qH7KQqB8vGI7kEGxV7NigeLSQmqkF8Ej-1jatxvPW5vSBCK0bINKhKk4yBmpjbmRyUloBQw
+Processing trending topic: More weather records as UK heat set to spike again
+Searching Google for: More weather records as UK heat set to spike again
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bweather%252Brecords%252Bas%252BUK%252Bheat%252Bset%252Bto%252Bspike%252Bagain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGCGPOh79MGIjBj1s5ftUakiKkjFEJrekaUvbktVk5DRO7zfkF0I6h4HF5ejQqZaJr4RZNcq-TRokMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dr-congo-ebola-death-toll-surpasses-2000_20260811_2340.html
-✓ Created comprehensive article: dr-congo-ebola-death-toll-surpasses-2000_20260811_2340.html
+Successfully created file: more-weather-records-as-uk-heat-set-to-spike-again_20260812_0148.html
+✓ Created comprehensive article: more-weather-records-as-uk-heat-set-to-spike-again_20260812_0148.html
 
-Processing trending topic: Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum
-Searching Google for: Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bwarns%252Bof%252B%25E2%2580%2598jihadists%25E2%2580%2599%252Bruling%252Bin%252BWashington%252Bas%252BDemocrats%252Bshow%252Bmomentum%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9AGNrl7tMGIjCJUQf6RwWbv9wK8LFxgmdmUpbAQejCIZDw43HSOmZtRwEhvuYRjB-yy0utzQFg7osyBmpjbmRyUloBQw
+Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
+Searching Google for: Spain to introduce temporary border checks on visitors from Italy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGCGPmh79MGIjD1-YFO7gVKihL5hqp867_XBajk8znFTjwdj0Omoslb_d7595wlPwxVttokNStbp2IyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-warns-of-jihadists-ruling-in-washington-as-d_20260811_2340.html
-✓ Created comprehensive article: trump-warns-of-jihadists-ruling-in-washington-as-d_20260811_2340.html
+Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260812_0148.html
+✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260812_0148.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-faces-lawsuit-over-push-to-limit-birthright-_20260811_1708.html
-Cleaned old post to keep top 30 limit: south-africa-mine-collapse-kills-14-suspected-ille_20260811_1902.html
-Cleaned old post to keep top 30 limit: fishermen-face-deadly-dangers-as-yemens-red-sea-be_20260811_2241.html
+Cleaned old post to keep top 30 limit: relatives-mourn-victims-of-pakistan-avalanche_20260811_2146.html
+Cleaned old post to keep top 30 limit: israel-demolishes-home-of-palestinian-killed-durin_20260811_2340.html
+Cleaned old post to keep top 30 limit: dr-congo-ebola-death-toll-surpasses-2000_20260811_2340.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israel demolishes home of Palestinian killed during settler attack
+   • Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
      Sources: bbc.com, cnn.com, reuters.com
-   • DR Congo Ebola death toll surpasses 2,000
+   • More weather records as UK heat set to spike again
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum
+   • Spain to introduce temporary border checks on visitors from Italy
      Sources: bbc.com, cnn.com, reuters.com
