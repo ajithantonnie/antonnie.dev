@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain to introduce temporary border checks on visitors from Italy
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-12
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dozens dead and missing after ferry capsizes in Zimbabwe
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran
+Added expanded search topic: Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says
+Added expanded search topic: Dozens dead and missing after ferry capsizes in Zimbabwe
+Added expanded search topic: Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran
+Saved 6 topics for 2026-08-12
 Returning 3 unique trending topics:
-  1. Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a... (from BBC News)
-  2. More weather records as UK heat set to spike again (from BBC News)
-  3. Spain to introduce temporary border checks on visitors from Italy (from The Guardian)
+  1. Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Dozens dead and missing after ferry capsizes in Zimbabwe (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
-Searching Google for: Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWoman%252Bassaulted%252Bby%252Bdouble%252Bmurderer%252Bsays%252Bnightmare%252Bbecame%252B%2527real%252Blife%2527%252Bwhen%252Bpolice%252Blet%252Bhim%252Battack%252Ba...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGCGOuh79MGIjAd0Fbc5DOzpgY9ttHT818vtq41btZ5gm9GZQI1LQh47AjvH7ktSj8BAwC2dk8WMw8yBmpjbmRyUloBQw
+Processing trending topic: Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says
+Searching Google for: Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSix%252Bkilled%252Bin%252BHouthi%252Battack%252Bon%252BBab%252Bal-Mandeb%252Bship%252C%252BYemen%25E2%2580%2599s%252Bgovernment%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwFGILk79MGIjA6mMUwOBZFkQ530wi_aSsd2Q8f1xtHs3p8PGM2wo1PYrzuQuMEH-4kyAWIvOaldBcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: woman-assaulted-by-double-murderer-says-nightmare-_20260812_0148.html
-✓ Created comprehensive article: woman-assaulted-by-double-murderer-says-nightmare-_20260812_0148.html
+Successfully created file: six-killed-in-houthi-attack-on-bab-al-mandeb-ship-_20260812_0409.html
+✓ Created comprehensive article: six-killed-in-houthi-attack-on-bab-al-mandeb-ship-_20260812_0409.html
 
-Processing trending topic: More weather records as UK heat set to spike again
-Searching Google for: More weather records as UK heat set to spike again
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bweather%252Brecords%252Bas%252BUK%252Bheat%252Bset%252Bto%252Bspike%252Bagain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGCGPOh79MGIjBj1s5ftUakiKkjFEJrekaUvbktVk5DRO7zfkF0I6h4HF5ejQqZaJr4RZNcq-TRokMyBmpjbmRyUloBQw
+Processing trending topic: Dozens dead and missing after ferry capsizes in Zimbabwe
+Searching Google for: Dozens dead and missing after ferry capsizes in Zimbabwe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Bdead%252Band%252Bmissing%252Bafter%252Bferry%252Bcapsizes%252Bin%252BZimbabwe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwFGIjk79MGIjB8F9nk23ObSL7NkI6k1ZvwePAYi32jzzLJSWfHSiUrBYOeOMy8loJxabI6hJ1tEXAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: more-weather-records-as-uk-heat-set-to-spike-again_20260812_0148.html
-✓ Created comprehensive article: more-weather-records-as-uk-heat-set-to-spike-again_20260812_0148.html
+Successfully created file: dozens-dead-and-missing-after-ferry-capsizes-in-zi_20260812_0409.html
+✓ Created comprehensive article: dozens-dead-and-missing-after-ferry-capsizes-in-zi_20260812_0409.html
 
-Processing trending topic: Spain to introduce temporary border checks on visitors from Italy
-Searching Google for: Spain to introduce temporary border checks on visitors from Italy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bto%252Bintroduce%252Btemporary%252Bborder%252Bchecks%252Bon%252Bvisitors%252Bfrom%252BItaly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsGCGPmh79MGIjD1-YFO7gVKihL5hqp867_XBajk8znFTjwdj0Omoslb_d7595wlPwxVttokNStbp2IyBmpjbmRyUloBQw
+Processing trending topic: Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran
+Searching Google for: Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bholds%252Bfirm%252Bon%252BHormuz%252Bconditions%252Bas%252BPakistan%25E2%2580%2599s%252BNaqvi%252Bvisits%252BTehran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DwFGI7k79MGIjArKTiLomeYP4fBf261NnUs8wfXcheERdiabOtv2TsiqyOcsT0TZc4DQ6YMrETD6eQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spain-to-introduce-temporary-border-checks-on-visi_20260812_0148.html
-✓ Created comprehensive article: spain-to-introduce-temporary-border-checks-on-visi_20260812_0148.html
+Successfully created file: iran-holds-firm-on-hormuz-conditions-as-pakistans-_20260812_0409.html
+✓ Created comprehensive article: iran-holds-firm-on-hormuz-conditions-as-pakistans-_20260812_0409.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: relatives-mourn-victims-of-pakistan-avalanche_20260811_2146.html
-Cleaned old post to keep top 30 limit: israel-demolishes-home-of-palestinian-killed-durin_20260811_2340.html
-Cleaned old post to keep top 30 limit: dr-congo-ebola-death-toll-surpasses-2000_20260811_2340.html
+Cleaned old post to keep top 30 limit: spain-to-introduce-temporary-border-checks-on-visi_20260812_0148.html
+Cleaned old post to keep top 30 limit: trump-warns-of-jihadists-ruling-in-washington-as-d_20260811_2340.html
+Cleaned old post to keep top 30 limit: in-gazas-tents-widows-face-wars-harshest-realities_20260811_2241.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Woman assaulted by double murderer says nightmare became 'real life' when police let him attack a...
+   • Six killed in Houthi attack on Bab al-Mandeb ship, Yemen’s government says
      Sources: bbc.com, cnn.com, reuters.com
-   • More weather records as UK heat set to spike again
+   • Dozens dead and missing after ferry capsizes in Zimbabwe
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain to introduce temporary border checks on visitors from Italy
+   • Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran
      Sources: bbc.com, cnn.com, reuters.com
