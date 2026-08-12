@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Three ways to watch the solar eclipse safely without glasses
@@ -8,62 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Halting the march of the armyworm: fungus discovery offers hope to African farmers
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+  Added: At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon ends executions: Where does the death penalty still exist in 2026?
-Added expanded search topic: Lebanon ends executions: Where does the death penalty still exist in 2026?
-Saved 18 topics for 2026-08-12
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egyptian student livestreams his kidnapping
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Top Iranian commander visited Iraq to discuss disarmament plan: Source
+Added expanded search topic: Egyptian student livestreams his kidnapping
+Added expanded search topic: Top Iranian commander visited Iraq to discuss disarmament plan: Source
+Saved 21 topics for 2026-08-12
 Returning 3 unique trending topics:
-  1. Burnham says disposable BBQ ban under consideration (from BBC News)
-  2. Halting the march of the armyworm: fungus discovery offers hope to African farmers (from The Guardian)
-  3. Lebanon ends executions: Where does the death penalty still exist in 2026? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe (from The Guardian)
+  2. Egyptian student livestreams his kidnapping (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Top Iranian commander visited Iraq to discuss disarmament plan: Source (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham says disposable BBQ ban under consideration
-Searching Google for: Burnham says disposable BBQ ban under consideration
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
+Searching Google for: At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B44%252Bdead%252Bafter%252Bovercrowded%252Bferry%252Bcapsizes%252Bon%252BLake%252BKariba%252Bin%252BZimbabwe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obSVGLHg8dMGIjDaykNCSW2ELuzaR5B8ZRd9pdo0OkkBM78xCmFHsPNgGCEl8ZcGFWLEKiBhj4ZVUI0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-says-disposable-bbq-ban-under-consideratio_20260812_1108.html
-✓ Created comprehensive article: burnham-says-disposable-bbq-ban-under-consideratio_20260812_1108.html
+Successfully created file: at-least-44-dead-after-overcrowded-ferry-capsizes-_20260812_1308.html
+✓ Created comprehensive article: at-least-44-dead-after-overcrowded-ferry-capsizes-_20260812_1308.html
 
-Processing trending topic: Halting the march of the armyworm: fungus discovery offers hope to African farmers
-Searching Google for: Halting the march of the armyworm: fungus discovery offers hope to African farmers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHalting%252Bthe%252Bmarch%252Bof%252Bthe%252Barmyworm%253A%252Bfungus%252Bdiscovery%252Boffers%252Bhope%252Bto%252BAfrican%252Bfarmers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jqGIep8dMGIjAZnXZIE5P-F4UiFISZN_d2-qoTcMYzCJb1NMUZmI1rrN_Cjti2iWYm3ZDqgZXbVRAyBmpjbmRyUloBQw
+Processing trending topic: Egyptian student livestreams his kidnapping
+Searching Google for: Egyptian student livestreams his kidnapping
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgyptian%252Bstudent%252Blivestreams%252Bhis%252Bkidnapping%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obSVGLjg8dMGIjAXKX2e45QCLRlCm-sCseuiof3yah-XONQg5oi_OC9tnLDBRvA-q3SYAj83r8KQcRoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: halting-the-march-of-the-armyworm-fungus-discovery_20260812_1110.html
-✓ Created comprehensive article: halting-the-march-of-the-armyworm-fungus-discovery_20260812_1110.html
+Successfully created file: egyptian-student-livestreams-his-kidnapping_20260812_1308.html
+✓ Created comprehensive article: egyptian-student-livestreams-his-kidnapping_20260812_1308.html
 
-Processing trending topic: Lebanon ends executions: Where does the death penalty still exist in 2026?
-Searching Google for: Lebanon ends executions: Where does the death penalty still exist in 2026?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%252Bends%252Bexecutions%253A%252BWhere%252Bdoes%252Bthe%252Bdeath%252Bpenalty%252Bstill%252Bexist%252Bin%252B2026%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jqGI6p8dMGIjByMPqPM4yWIyIcuZ2yYQmp3MSLT2s03KwAE8fXCtKmnb-diL4Fmdbq1VcQSeehdoEyBmpjbmRyUloBQw
+Processing trending topic: Top Iranian commander visited Iraq to discuss disarmament plan: Source
+Searching Google for: Top Iranian commander visited Iraq to discuss disarmament plan: Source
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTop%252BIranian%252Bcommander%252Bvisited%252BIraq%252Bto%252Bdiscuss%252Bdisarmament%252Bplan%253A%252BSource%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0obSVGL_g8dMGIjCG-zqIhgCvqle7mEojYZ9KR5uC2hcdT7GhgeARipW79o3IIMCdQRDKzAwDpKEKOLkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lebanon-ends-executions-where-does-the-death-penal_20260812_1110.html
-✓ Created comprehensive article: lebanon-ends-executions-where-does-the-death-penal_20260812_1110.html
+Successfully created file: top-iranian-commander-visited-iraq-to-discuss-disa_20260812_1308.html
+✓ Created comprehensive article: top-iranian-commander-visited-iraq-to-discuss-disa_20260812_1308.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: three-ways-to-watch-the-solar-eclipse-safely-witho_20260812_1004.html
-Cleaned old post to keep top 30 limit: trump-says-his-decoy-plane-faced-greater-risk-in-s_20260812_0819.html
-Cleaned old post to keep top 30 limit: israeli-government-accused-of-complicity-as-settle_20260812_0819.html
+Cleaned old post to keep top 30 limit: woman-attacked-by-simon-levy-feels-betrayed-he-was_20260812_1004.html
+Cleaned old post to keep top 30 limit: zambia-cancels-worlds-largest-human-rights-and-tec_20260502_1146.html
+Cleaned old post to keep top 30 limit: burnham-says-disposable-bbq-ban-under-consideratio_20260812_1108.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham says disposable BBQ ban under consideration
+   • At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
      Sources: bbc.com, cnn.com, reuters.com
-   • Halting the march of the armyworm: fungus discovery offers hope to African farmers
+   • Egyptian student livestreams his kidnapping
      Sources: bbc.com, cnn.com, reuters.com
-   • Lebanon ends executions: Where does the death penalty still exist in 2026?
+   • Top Iranian commander visited Iraq to discuss disarmament plan: Source
      Sources: bbc.com, cnn.com, reuters.com
