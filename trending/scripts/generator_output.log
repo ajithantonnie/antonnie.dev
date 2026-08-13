@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 39 topics
+Already used today: 42 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two seriously hurt as passenger train derails in East Sussex
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC’s fast-growing Ebola outbreak spreads to sixth province
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tate supporters rally for brothers ahead of bail hearing in Miami
-Added expanded search topic: Tate supporters rally for brothers ahead of bail hearing in Miami
-Saved 42 topics for 2026-08-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strikes in Gaza kill two, including police chief
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico says Colombia rejected its earthquake rescue team
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s at stake in Zambia’s elections?
+Added expanded search topic: Israeli strikes in Gaza kill two, including police chief
+Added expanded search topic: Mexico says Colombia rejected its earthquake rescue team
+Added expanded search topic: What’s at stake in Zambia’s elections?
+Saved 45 topics for 2026-08-13
 Returning 3 unique trending topics:
-  1. Two seriously hurt as passenger train derails in East Sussex (from BBC News)
-  2. Watch: Aerial footage shows homes engulfed in flames in Stourbridge (from BBC News)
-  3. Tate supporters rally for brothers ahead of bail hearing in Miami (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israeli strikes in Gaza kill two, including police chief (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Mexico says Colombia rejected its earthquake rescue team (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. What’s at stake in Zambia’s elections? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two seriously hurt as passenger train derails in East Sussex
-Searching Google for: Two seriously hurt as passenger train derails in East Sussex
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bseriously%252Bhurt%252Bas%252Bpassenger%252Btrain%252Bderails%252Bin%252BEast%252BSussex%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_3WGO_1-NMGIjCQWQ29yLpp2UmU1ZO-javoAKlbANNLvu0-y_shlFtIRmAgPlEkyV_2TgWDK6RrU7wyBmpjbmRyUloBQw
+Processing trending topic: Israeli strikes in Gaza kill two, including police chief
+Searching Google for: Israeli strikes in Gaza kill two, including police chief
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrikes%252Bin%252BGaza%252Bkill%252Btwo%252C%252Bincluding%252Bpolice%252Bchief%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcaGMCQ-dMGIjAJnyO2ejfNSm5mWg1AWa9EHZIOEBHeS2FMuwEwYtoHJ1IGPmh-OXPLZ1KCix0xaDgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-seriously-hurt-as-passenger-train-derails-in-e_20260813_2145.html
-✓ Created comprehensive article: two-seriously-hurt-as-passenger-train-derails-in-e_20260813_2145.html
+Successfully created file: israeli-strikes-in-gaza-kill-two-including-police-_20260813_2242.html
+✓ Created comprehensive article: israeli-strikes-in-gaza-kill-two-including-police-_20260813_2242.html
 
-Processing trending topic: Watch: Aerial footage shows homes engulfed in flames in Stourbridge
-Searching Google for: Watch: Aerial footage shows homes engulfed in flames in Stourbridge
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BAerial%252Bfootage%252Bshows%252Bhomes%252Bengulfed%252Bin%252Bflames%252Bin%252BStourbridge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_3WGPb1-NMGIjBPhAPpDOYjEDWBQTvmA1qoWB4LQfi-jP1jAlVV-e-8vAvgnDdJ9X31tMSA106wKkwyBmpjbmRyUloBQw
+Processing trending topic: Mexico says Colombia rejected its earthquake rescue team
+Searching Google for: Mexico says Colombia rejected its earthquake rescue team
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bsays%252BColombia%252Brejected%252Bits%252Bearthquake%252Brescue%252Bteam%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcaGMeQ-dMGIjApk27mJVUk2LUu2Y8Y7St6QDauEyO9wLQkgYcVtvu-MRRTgUWBmjBdPMS-NGghyIkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-aerial-footage-shows-homes-engulfed-in-flame_20260813_2145.html
-✓ Created comprehensive article: watch-aerial-footage-shows-homes-engulfed-in-flame_20260813_2145.html
+Successfully created file: mexico-says-colombia-rejected-its-earthquake-rescu_20260813_2242.html
+✓ Created comprehensive article: mexico-says-colombia-rejected-its-earthquake-rescu_20260813_2242.html
 
-Processing trending topic: Tate supporters rally for brothers ahead of bail hearing in Miami
-Searching Google for: Tate supporters rally for brothers ahead of bail hearing in Miami
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTate%252Bsupporters%252Brally%252Bfor%252Bbrothers%252Bahead%252Bof%252Bbail%252Bhearing%252Bin%252BMiami%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_3WGPz1-NMGIjAqJC7hOOqK5uDZspQsTQIPz1pZnqSqx62AzbpBnbv1m5D83dUT372HQHIzHQqQlb8yBmpjbmRyUloBQw
+Processing trending topic: What’s at stake in Zambia’s elections?
+Searching Google for: What’s at stake in Zambia’s elections?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bat%252Bstake%252Bin%252BZambia%25E2%2580%2599s%252Belections%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcaGM2Q-dMGIjADN6nf7K_GBW16e4B3CxcsHLKLrusMn56TjAV8coQBLyW-sOqpAUZ4QIy5TQlYafQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tate-supporters-rally-for-brothers-ahead-of-bail-h_20260813_2145.html
-✓ Created comprehensive article: tate-supporters-rally-for-brothers-ahead-of-bail-h_20260813_2145.html
+Successfully created file: whats-at-stake-in-zambias-elections_20260813_2242.html
+✓ Created comprehensive article: whats-at-stake-in-zambias-elections_20260813_2242.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: judge-nixes-trump-lawsuit-alleging-harvard-did-not_20260813_1911.html
-Cleaned old post to keep top 30 limit: europe-swelters-in-latest-wave-of-extreme-heat_20260813_1910.html
-Cleaned old post to keep top 30 limit: are-we-in-the-singularity_20260813_2042.html
+Cleaned old post to keep top 30 limit: tate-supporters-rally-for-brothers-ahead-of-bail-h_20260813_2145.html
+Cleaned old post to keep top 30 limit: sudan-army-says-rsf-advance-on-key-town-bordering-_20260813_2042.html
+Cleaned old post to keep top 30 limit: dr-congo-ebola-outbreak-spreads-to-a-sixth-provinc_20260813_1801.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two seriously hurt as passenger train derails in East Sussex
+   • Israeli strikes in Gaza kill two, including police chief
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Aerial footage shows homes engulfed in flames in Stourbridge
+   • Mexico says Colombia rejected its earthquake rescue team
      Sources: bbc.com, cnn.com, reuters.com
-   • Tate supporters rally for brothers ahead of bail hearing in Miami
+   • What’s at stake in Zambia’s elections?
      Sources: bbc.com, cnn.com, reuters.com
