@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Once-in-a-generation solar eclipse wows millions in UK and Europe
-  Added: Major Russian grain export terminals hit in Ukraine Black Sea port attack
+  Added: Temperatures to soar to 38C as amber extreme heat warning comes into force
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-13
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settlers besiege Palestinian families in West Bank’s Qusra
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Solar eclipse carves Eiffel Tower’s silhouette in Paris sky
+Added expanded search topic: Israeli settlers besiege Palestinian families in West Bank’s Qusra
+Added expanded search topic: Solar eclipse carves Eiffel Tower’s silhouette in Paris sky
+Saved 6 topics for 2026-08-13
 Returning 3 unique trending topics:
-  1. Once-in-a-generation solar eclipse wows millions in UK and Europe (from BBC News)
-  2. Major Russian grain export terminals hit in Ukraine Black Sea port attack (from BBC News)
-  3. At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe (from The Guardian)
+  1. Temperatures to soar to 38C as amber extreme heat warning comes into force (from BBC News)
+  2. Israeli settlers besiege Palestinian families in West Bank’s Qusra (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Solar eclipse carves Eiffel Tower’s silhouette in Paris sky (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Once-in-a-generation solar eclipse wows millions in UK and Europe
-Searching Google for: Once-in-a-generation solar eclipse wows millions in UK and Europe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOnce-in-a-generation%252Bsolar%252Beclipse%252Bwows%252Bmillions%252Bin%252BUK%252Band%252BEurope%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19JzGIXH9NMGIjCYi7MvbBxXNDRR9v30vgEPgLMyj6VjWdBbUyP7MzsJ1w-Pk4HRF3dE8bhAD7W2V5AyBmpjbmRyUloBQw
+Processing trending topic: Temperatures to soar to 38C as amber extreme heat warning comes into force
+Searching Google for: Temperatures to soar to 38C as amber extreme heat warning comes into force
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTemperatures%252Bto%252Bsoar%252Bto%252B38C%252Bas%252Bamber%252Bextreme%252Bheat%252Bwarning%252Bcomes%252Binto%252Bforce%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMTGJCJ9dMGIjDIdcDDAqw3dWIW6svnD0mVUeLPmj7rA91ZUjq3jT5rLNKdCKTnV2QH19kqVYK_YDwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: once-in-a-generation-solar-eclipse-wows-millions-i_20260813_0153.html
-✓ Created comprehensive article: once-in-a-generation-solar-eclipse-wows-millions-i_20260813_0153.html
+Successfully created file: temperatures-to-soar-to-38c-as-amber-extreme-heat-_20260813_0414.html
+✓ Created comprehensive article: temperatures-to-soar-to-38c-as-amber-extreme-heat-_20260813_0414.html
 
-Processing trending topic: Major Russian grain export terminals hit in Ukraine Black Sea port attack
-Searching Google for: Major Russian grain export terminals hit in Ukraine Black Sea port attack
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMajor%252BRussian%252Bgrain%252Bexport%252Bterminals%252Bhit%252Bin%252BUkraine%252BBlack%252BSea%252Bport%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19JzGIzH9NMGIjD05E25udyyyVwNzY_9-2DF8dB_6YQb3EqRs2cFiQdxoJb_VRTbzgO28MaU-KsMYSYyBmpjbmRyUloBQw
+Processing trending topic: Israeli settlers besiege Palestinian families in West Bank’s Qusra
+Searching Google for: Israeli settlers besiege Palestinian families in West Bank’s Qusra
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettlers%252Bbesiege%252BPalestinian%252Bfamilies%252Bin%252BWest%252BBank%25E2%2580%2599s%252BQusra%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMTGJeJ9dMGIjDF9jP7HFFqUibjUcrcqBOSrnBjsiVmdpe9465NzWf0CYurk_y07H09TE_ZwJSb1nIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: major-russian-grain-export-terminals-hit-in-ukrain_20260813_0153.html
-✓ Created comprehensive article: major-russian-grain-export-terminals-hit-in-ukrain_20260813_0153.html
+Successfully created file: israeli-settlers-besiege-palestinian-families-in-w_20260813_0414.html
+✓ Created comprehensive article: israeli-settlers-besiege-palestinian-families-in-w_20260813_0414.html
 
-Processing trending topic: At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
-Searching Google for: At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B44%252Bdead%252Bafter%252Bovercrowded%252Bferry%252Bcapsizes%252Bon%252BLake%252BKariba%252Bin%252BZimbabwe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19JzGJPH9NMGIjAA2rHvj2YpbgRQb1RFkNQIbJhM_yE3MyG0bB3mpLKvTjx9noHmKYJhaitZFP1yBtAyBmpjbmRyUloBQw
+Processing trending topic: Solar eclipse carves Eiffel Tower’s silhouette in Paris sky
+Searching Google for: Solar eclipse carves Eiffel Tower’s silhouette in Paris sky
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSolar%252Beclipse%252Bcarves%252BEiffel%252BTower%25E2%2580%2599s%252Bsilhouette%252Bin%252BParis%252Bsky%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNMTGJ2J9dMGIjAlnaI_V_vXYBI9NTgs6Yzw-imUSbHublPIBjxCAUC1dvuVU2qXHkjggCS_OyearxEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-44-dead-after-overcrowded-ferry-capsizes-_20260813_0153.html
-✓ Created comprehensive article: at-least-44-dead-after-overcrowded-ferry-capsizes-_20260813_0153.html
+Successfully created file: solar-eclipse-carves-eiffel-towers-silhouette-in-p_20260813_0414.html
+✓ Created comprehensive article: solar-eclipse-carves-eiffel-towers-silhouette-in-p_20260813_0414.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: millions-watch-surreal-solar-eclipse-in-uk-and-eur_20260812_2343.html
-Cleaned old post to keep top 30 limit: trump-administration-plans-to-give-ice-officers-el_20260812_2343.html
-Cleaned old post to keep top 30 limit: lebanon-passes-long-sought-amnesty-law-a-day-after_20260812_1458.html
+Cleaned old post to keep top 30 limit: major-russian-grain-export-terminals-hit-in-ukrain_20260813_0153.html
+Cleaned old post to keep top 30 limit: once-in-a-generation-solar-eclipse-wows-millions-i_20260812_2241.html
+Cleaned old post to keep top 30 limit: at-least-44-dead-after-overcrowded-ferry-capsizes-_20260813_0153.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Once-in-a-generation solar eclipse wows millions in UK and Europe
+   • Temperatures to soar to 38C as amber extreme heat warning comes into force
      Sources: bbc.com, cnn.com, reuters.com
-   • Major Russian grain export terminals hit in Ukraine Black Sea port attack
+   • Israeli settlers besiege Palestinian families in West Bank’s Qusra
      Sources: bbc.com, cnn.com, reuters.com
-   • At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe
+   • Solar eclipse carves Eiffel Tower’s silhouette in Paris sky
      Sources: bbc.com, cnn.com, reuters.com
