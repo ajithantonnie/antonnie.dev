@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Once-in-a-generation solar eclipse wows millions in UK and Europe
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zambia elections haunted by ghost of incumbent president’s arch-rival
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Three US states to hold executions on same day for first time since 2010
-Added expanded search topic: As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers
-Added expanded search topic: Three US states to hold executions on same day for first time since 2010
-Saved 12 topics for 2026-08-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Life and loss as a first responder in southern Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What postcolonialism looks like in Southeast Asia
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Japan protests as Russia’s Putin visits disputed Kuril Islands
+Added expanded search topic: Life and loss as a first responder in southern Lebanon
+Added expanded search topic: What postcolonialism looks like in Southeast Asia
+Added expanded search topic: Japan protests as Russia’s Putin visits disputed Kuril Islands
+Saved 15 topics for 2026-08-13
 Returning 3 unique trending topics:
-  1. Watch: Moment 'surreal' solar eclipse witnessed in UK and Europe (from BBC News)
-  2. As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Three US states to hold executions on same day for first time since 2010 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Life and loss as a first responder in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. What postcolonialism looks like in Southeast Asia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Japan protests as Russia’s Putin visits disputed Kuril Islands (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: Moment 'surreal' solar eclipse witnessed in UK and Europe
-Searching Google for: Watch: Moment 'surreal' solar eclipse witnessed in UK and Europe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMoment%252B%2527surreal%2527%252Bsolar%252Beclipse%252Bwitnessed%252Bin%252BUK%252Band%252BEurope%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_dDGOT99dMGIjBLe-zQNp1wj_ucFHDQMUU6bzoCbVqmbGNagI3S1Sq2Xt33sUFeVOyjEVZstTmyELgyBmpjbmRyUloBQw
+Processing trending topic: Life and loss as a first responder in southern Lebanon
+Searching Google for: Life and loss as a first responder in southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLife%252Band%252Bloss%252Bas%252Ba%252Bfirst%252Bresponder%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd02bGOuu9tMGIjA1vc_46tAdxMB45MVppfcKGnbImpt9llv_Y9USgq20W-Z1yjDNTID4qZAEsqX0zMcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-moment-surreal-solar-eclipse-witnessed-in-uk_20260813_0823.html
-✓ Created comprehensive article: watch-moment-surreal-solar-eclipse-witnessed-in-uk_20260813_0823.html
+Successfully created file: life-and-loss-as-a-first-responder-in-southern-leb_20260813_1007.html
+✓ Created comprehensive article: life-and-loss-as-a-first-responder-in-southern-leb_20260813_1007.html
 
-Processing trending topic: As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers
-Searching Google for: As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAs%252Btemperatures%252Bsoar%252C%252B%25E2%2580%2598exceptionally%252Bserious%25E2%2580%2599%252Bdrought%252Bimperils%252BUK%252Bfarmers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_dDGOr99dMGIjD8aP59iviKWgLKwkxNt0_uv9bzVnaRltkLhqn7O3t6liSbXI4_c3I0To00ck4EAp0yBmpjbmRyUloBQw
+Processing trending topic: What postcolonialism looks like in Southeast Asia
+Searching Google for: What postcolonialism looks like in Southeast Asia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bpostcolonialism%252Blooks%252Blike%252Bin%252BSoutheast%252BAsia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd02bGPKu9tMGIjBA2cE8Ri1OZS-sQrGVfXHn9gm1llJRjoTwo0_I9xAlMqv5OGzi2EacJfY80SlyJOUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: as-temperatures-soar-exceptionally-serious-drought_20260813_0823.html
-✓ Created comprehensive article: as-temperatures-soar-exceptionally-serious-drought_20260813_0823.html
+Successfully created file: what-postcolonialism-looks-like-in-southeast-asia_20260813_1007.html
+✓ Created comprehensive article: what-postcolonialism-looks-like-in-southeast-asia_20260813_1007.html
 
-Processing trending topic: Three US states to hold executions on same day for first time since 2010
-Searching Google for: Three US states to hold executions on same day for first time since 2010
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252BUS%252Bstates%252Bto%252Bhold%252Bexecutions%252Bon%252Bsame%252Bday%252Bfor%252Bfirst%252Btime%252Bsince%252B2010%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_dDGPH99dMGIjCMGp2EH7gFkm6-GvqsCmt3LVErWEx7dQz-767Wv91O_D-3ml705VKb_wwaKte-k_gyBmpjbmRyUloBQw
+Processing trending topic: Japan protests as Russia’s Putin visits disputed Kuril Islands
+Searching Google for: Japan protests as Russia’s Putin visits disputed Kuril Islands
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJapan%252Bprotests%252Bas%252BRussia%25E2%2580%2599s%252BPutin%252Bvisits%252Bdisputed%252BKuril%252BIslands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd02bGPiu9tMGIjAdv_xTHkSa3b2JnDMXh147ToxW4NjgEf2GJNCi6aOQD_EQ6p2X3wrpk2AAl5AehqgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: three-us-states-to-hold-executions-on-same-day-for_20260813_0823.html
-✓ Created comprehensive article: three-us-states-to-hold-executions-on-same-day-for_20260813_0823.html
+Successfully created file: japan-protests-as-russias-putin-visits-disputed-ku_20260813_1007.html
+✓ Created comprehensive article: japan-protests-as-russias-putin-visits-disputed-ku_20260813_1007.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: temperatures-to-soar-to-38c-as-amber-extreme-heat-_20260813_0414.html
-Cleaned old post to keep top 30 limit: us-strikes-in-yemen-killed-153-civilians-in-2025-s_20260812_2241.html
-Cleaned old post to keep top 30 limit: how-clinic-closures-left-37-million-afghan-childre_20260813_0617.html
+Cleaned old post to keep top 30 limit: watch-moment-surreal-solar-eclipse-witnessed-in-uk_20260813_0823.html
+Cleaned old post to keep top 30 limit: russian-strike-sparks-fire-at-ukraine-port-zelensk_20260813_0617.html
+Cleaned old post to keep top 30 limit: as-temperatures-soar-exceptionally-serious-drought_20260813_0823.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: Moment 'surreal' solar eclipse witnessed in UK and Europe
+   • Life and loss as a first responder in southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers
+   • What postcolonialism looks like in Southeast Asia
      Sources: bbc.com, cnn.com, reuters.com
-   • Three US states to hold executions on same day for first time since 2010
+   • Japan protests as Russia’s Putin visits disputed Kuril Islands
      Sources: bbc.com, cnn.com, reuters.com
