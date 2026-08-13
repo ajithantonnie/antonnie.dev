@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Two seriously hurt as passenger train derails in East Sussex
   Added: Watch: Aerial footage shows homes engulfed in flames in Stourbridge
+  Added: Two seriously hurt as passenger train derails in East Sussex
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,61 +13,61 @@ Found 0 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 3
 Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strikes in Gaza kill two, including police chief
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mexico says Colombia rejected its earthquake rescue team
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What’s at stake in Zambia’s elections?
-Added expanded search topic: Israeli strikes in Gaza kill two, including police chief
-Added expanded search topic: Mexico says Colombia rejected its earthquake rescue team
-Added expanded search topic: What’s at stake in Zambia’s elections?
-Saved 45 topics for 2026-08-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza City police chief killed as Israel pushes on with deadly strikes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kennedy Center votes to restore Trump’s name to venue, close for two years
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Multiple houses ablaze as wildfire sweeps into UK town
+Added expanded search topic: Gaza City police chief killed as Israel pushes on with deadly strikes
+Added expanded search topic: Kennedy Center votes to restore Trump’s name to venue, close for two years
+Added expanded search topic: Multiple houses ablaze as wildfire sweeps into UK town
+Saved 48 topics for 2026-08-13
 Returning 3 unique trending topics:
-  1. Israeli strikes in Gaza kill two, including police chief (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Mexico says Colombia rejected its earthquake rescue team (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. What’s at stake in Zambia’s elections? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Gaza City police chief killed as Israel pushes on with deadly strikes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Kennedy Center votes to restore Trump’s name to venue, close for two years (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Multiple houses ablaze as wildfire sweeps into UK town (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Israeli strikes in Gaza kill two, including police chief
-Searching Google for: Israeli strikes in Gaza kill two, including police chief
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrikes%252Bin%252BGaza%252Bkill%252Btwo%252C%252Bincluding%252Bpolice%252Bchief%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcaGMCQ-dMGIjAJnyO2ejfNSm5mWg1AWa9EHZIOEBHeS2FMuwEwYtoHJ1IGPmh-OXPLZ1KCix0xaDgyBmpjbmRyUloBQw
+Processing trending topic: Gaza City police chief killed as Israel pushes on with deadly strikes
+Searching Google for: Gaza City police chief killed as Israel pushes on with deadly strikes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252BCity%252Bpolice%252Bchief%252Bkilled%252Bas%252BIsrael%252Bpushes%252Bon%252Bwith%252Bdeadly%252Bstrikes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MnwGL2s-dMGIjBbZJ251HVQFIrT2HTeMkk1imb7U6IrbYbRl_-F5VxN4lCdOu3UC_FnZV0qGZM4YeoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-strikes-in-gaza-kill-two-including-police-_20260813_2242.html
-✓ Created comprehensive article: israeli-strikes-in-gaza-kill-two-including-police-_20260813_2242.html
+Successfully created file: gaza-city-police-chief-killed-as-israel-pushes-on-_20260813_2341.html
+✓ Created comprehensive article: gaza-city-police-chief-killed-as-israel-pushes-on-_20260813_2341.html
 
-Processing trending topic: Mexico says Colombia rejected its earthquake rescue team
-Searching Google for: Mexico says Colombia rejected its earthquake rescue team
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMexico%252Bsays%252BColombia%252Brejected%252Bits%252Bearthquake%252Brescue%252Bteam%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcaGMeQ-dMGIjApk27mJVUk2LUu2Y8Y7St6QDauEyO9wLQkgYcVtvu-MRRTgUWBmjBdPMS-NGghyIkyBmpjbmRyUloBQw
+Processing trending topic: Kennedy Center votes to restore Trump’s name to venue, close for two years
+Searching Google for: Kennedy Center votes to restore Trump’s name to venue, close for two years
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKennedy%252BCenter%252Bvotes%252Bto%252Brestore%252BTrump%25E2%2580%2599s%252Bname%252Bto%252Bvenue%252C%252Bclose%252Bfor%252Btwo%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MnwGMSs-dMGIjBaijDlKDvvDAhRV_sCJKRfyaJ_1aKd0D8fA-GUKKXJYvMOdsudrtTU-9ISWjw0kCoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mexico-says-colombia-rejected-its-earthquake-rescu_20260813_2242.html
-✓ Created comprehensive article: mexico-says-colombia-rejected-its-earthquake-rescu_20260813_2242.html
+Successfully created file: kennedy-center-votes-to-restore-trumps-name-to-ven_20260813_2342.html
+✓ Created comprehensive article: kennedy-center-votes-to-restore-trumps-name-to-ven_20260813_2342.html
 
-Processing trending topic: What’s at stake in Zambia’s elections?
-Searching Google for: What’s at stake in Zambia’s elections?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%25E2%2580%2599s%252Bat%252Bstake%252Bin%252BZambia%25E2%2580%2599s%252Belections%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmgcaGM2Q-dMGIjADN6nf7K_GBW16e4B3CxcsHLKLrusMn56TjAV8coQBLyW-sOqpAUZ4QIy5TQlYafQyBmpjbmRyUloBQw
+Processing trending topic: Multiple houses ablaze as wildfire sweeps into UK town
+Searching Google for: Multiple houses ablaze as wildfire sweeps into UK town
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMultiple%252Bhouses%252Bablaze%252Bas%252Bwildfire%252Bsweeps%252Binto%252BUK%252Btown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6MnwGMqs-dMGIjAU88G2rsn0xxTy2StLeDRpWDxq7Lq0qe4uhHWfptQUu9jK1HstJoZoqM8EejRBt9EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: whats-at-stake-in-zambias-elections_20260813_2242.html
-✓ Created comprehensive article: whats-at-stake-in-zambias-elections_20260813_2242.html
+Successfully created file: multiple-houses-ablaze-as-wildfire-sweeps-into-uk-_20260813_2342.html
+✓ Created comprehensive article: multiple-houses-ablaze-as-wildfire-sweeps-into-uk-_20260813_2342.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tate-supporters-rally-for-brothers-ahead-of-bail-h_20260813_2145.html
-Cleaned old post to keep top 30 limit: sudan-army-says-rsf-advance-on-key-town-bordering-_20260813_2042.html
-Cleaned old post to keep top 30 limit: dr-congo-ebola-outbreak-spreads-to-a-sixth-provinc_20260813_1801.html
+Cleaned old post to keep top 30 limit: once-in-a-generation-solar-eclipse-wows-millions-i_20260813_0153.html
+Cleaned old post to keep top 30 limit: mexico-says-colombia-rejected-its-earthquake-rescu_20260813_2242.html
+Cleaned old post to keep top 30 limit: israeli-strikes-in-gaza-kill-two-including-police-_20260813_2242.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Israeli strikes in Gaza kill two, including police chief
+   • Gaza City police chief killed as Israel pushes on with deadly strikes
      Sources: bbc.com, cnn.com, reuters.com
-   • Mexico says Colombia rejected its earthquake rescue team
+   • Kennedy Center votes to restore Trump’s name to venue, close for two years
      Sources: bbc.com, cnn.com, reuters.com
-   • What’s at stake in Zambia’s elections?
+   • Multiple houses ablaze as wildfire sweeps into UK town
      Sources: bbc.com, cnn.com, reuters.com
