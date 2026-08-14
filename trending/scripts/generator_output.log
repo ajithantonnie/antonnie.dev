@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Farage's by-election victory won't stop questions about finances
-  Added: NHS service admits data breach due to pager use
+  Added: Watch: Video shows scale of devastation in Stourbridge
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC’s fast-growing Ebola outbreak spreads to sixth province
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: North Korea fumes over upcoming US-South Korea military drills
-Added expanded search topic: North Korea fumes over upcoming US-South Korea military drills
-Saved 9 topics for 2026-08-14
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: The Gambian women turning grief into song
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Stolen Matisse art found in Brazil
+Added expanded search topic: The Gambian women turning grief into song
+Added expanded search topic: Stolen Matisse art found in Brazil
+Saved 12 topics for 2026-08-14
 Returning 3 unique trending topics:
-  1. Farage's by-election victory won't stop questions about finances (from BBC News)
-  2. NHS service admits data breach due to pager use (from BBC News)
-  3. North Korea fumes over upcoming US-South Korea military drills (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Watch: Video shows scale of devastation in Stourbridge (from BBC News)
+  2. The Gambian women turning grief into song (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Stolen Matisse art found in Brazil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Farage's by-election victory won't stop questions about finances
-Searching Google for: Farage's by-election victory won't stop questions about finances
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFarage%2527s%252Bby-election%252Bvictory%252Bwon%2527t%252Bstop%252Bquestions%252Babout%252Bfinances%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D22GJzl-tMGIjD7RpKJ1igO6Ik35NTINNPCH80yOOAZgS3wW1ZBV8MpjlMBy9ZTCEFGSEZ2697T5gsyBmpjbmRyUloBQw
+Processing trending topic: Watch: Video shows scale of devastation in Stourbridge
+Searching Google for: Watch: Video shows scale of devastation in Stourbridge
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: farages-by-election-victory-wont-stop-questions-ab_20260814_0616.html
-✓ Created comprehensive article: farages-by-election-victory-wont-stop-questions-ab_20260814_0616.html
+Successfully created file: watch-video-shows-scale-of-devastation-in-stourbri_20260814_0816.html
+✓ Created comprehensive article: watch-video-shows-scale-of-devastation-in-stourbri_20260814_0816.html
 
-Processing trending topic: NHS service admits data breach due to pager use
-Searching Google for: NHS service admits data breach due to pager use
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNHS%252Bservice%252Badmits%252Bdata%252Bbreach%252Bdue%252Bto%252Bpager%252Buse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D22GKPl-tMGIjCrnwuPdHEhZfR4F77WVDJW-v7yrIRt5tSttaedHd3Z3iSX0hg6eDruMCd2WRxk62UyBmpjbmRyUloBQw
+Processing trending topic: The Gambian women turning grief into song
+Searching Google for: The Gambian women turning grief into song
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%252BGambian%252Bwomen%252Bturning%252Bgrief%252Binto%252Bsong%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1pvpGIue-9MGIjB2lHFVKx--rLNc5jDVL91aAQGCSaKSRykhYhYzFKFv1buX4DtDi3itGSuaFIbQsXkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nhs-service-admits-data-breach-due-to-pager-use_20260814_0616.html
-✓ Created comprehensive article: nhs-service-admits-data-breach-due-to-pager-use_20260814_0616.html
+Successfully created file: the-gambian-women-turning-grief-into-song_20260814_0817.html
+✓ Created comprehensive article: the-gambian-women-turning-grief-into-song_20260814_0817.html
 
-Processing trending topic: North Korea fumes over upcoming US-South Korea military drills
-Searching Google for: North Korea fumes over upcoming US-South Korea military drills
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNorth%252BKorea%252Bfumes%252Bover%252Bupcoming%252BUS-South%252BKorea%252Bmilitary%252Bdrills%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D22GKnl-tMGIjCJCVMireyOl5BPElaDPIdVJsvJXqpl6P82WG-JTjbz7gqDoaVtw5aP8sW1NgB_c8EyBmpjbmRyUloBQw
+Processing trending topic: Stolen Matisse art found in Brazil
+Searching Google for: Stolen Matisse art found in Brazil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStolen%252BMatisse%252Bart%252Bfound%252Bin%252BBrazil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1pvpGJGe-9MGIjCsT9-1JK3IV1Wu8bkxV5R42Cm0AwMEYLYHZp2erTDor9V0eLAlJuIZX37aIYLowN4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: north-korea-fumes-over-upcoming-us-south-korea-mil_20260814_0616.html
-✓ Created comprehensive article: north-korea-fumes-over-upcoming-us-south-korea-mil_20260814_0616.html
+Successfully created file: stolen-matisse-art-found-in-brazil_20260814_0817.html
+✓ Created comprehensive article: stolen-matisse-art-found-in-brazil_20260814_0817.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-osuns-election-matters-for-nigerias-2027-vote_20260814_0409.html
-Cleaned old post to keep top 30 limit: oil-slick-from-tanker-carrying-sanctioned-russian-_20260814_0409.html
-Cleaned old post to keep top 30 limit: mali-says-82-soldiers-captured-by-armed-groups-hav_20260814_0409.html
+Cleaned old post to keep top 30 limit: watch-houses-engulfed-in-flames-across-stourbridge_20260813_2042.html
+Cleaned old post to keep top 30 limit: watch-aerial-footage-shows-homes-engulfed-in-flame_20260814_0148.html
+Cleaned old post to keep top 30 limit: farages-by-election-victory-wont-stop-questions-ab_20260814_0616.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Farage's by-election victory won't stop questions about finances
+   • Watch: Video shows scale of devastation in Stourbridge
      Sources: bbc.com, cnn.com, reuters.com
-   • NHS service admits data breach due to pager use
+   • The Gambian women turning grief into song
      Sources: bbc.com, cnn.com, reuters.com
-   • North Korea fumes over upcoming US-South Korea military drills
+   • Stolen Matisse art found in Brazil
      Sources: bbc.com, cnn.com, reuters.com
