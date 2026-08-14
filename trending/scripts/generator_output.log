@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Multiple fires destroy homes and cause devastation in West Midlands
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC’s fast-growing Ebola outbreak spreads to sixth province
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-14
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mali says 82 soldiers captured by armed groups have been freed
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Oil slick from tanker carrying sanctioned Russian crude reaches Oman
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why Osun’s election matters for Nigeria’s 2027 vote
+Added expanded search topic: Mali says 82 soldiers captured by armed groups have been freed
+Added expanded search topic: Oil slick from tanker carrying sanctioned Russian crude reaches Oman
+Added expanded search topic: Why Osun’s election matters for Nigeria’s 2027 vote
+Saved 6 topics for 2026-08-14
 Returning 3 unique trending topics:
-  1. Multiple fires destroy homes and cause devastation in West Midlands (from BBC News)
-  2. Watch: Aerial footage shows homes engulfed in flames in Stourbridge (from BBC News)
-  3. DRC’s fast-growing Ebola outbreak spreads to sixth province (from The Guardian)
+  1. Mali says 82 soldiers captured by armed groups have been freed (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Oil slick from tanker carrying sanctioned Russian crude reaches Oman (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why Osun’s election matters for Nigeria’s 2027 vote (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Multiple fires destroy homes and cause devastation in West Midlands
-Searching Google for: Multiple fires destroy homes and cause devastation in West Midlands
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMultiple%252Bfires%252Bdestroy%252Bhomes%252Band%252Bcause%252Bdevastation%252Bin%252BWest%252BMidlands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i5hGM_n-dMGIjBxOKfYLPdApytsm7903m9Jp-Xt7n1hCPj8Su4n1NWPslMeG2ZXM3I6u0lw0hN9v1EyBmpjbmRyUloBQw
+Processing trending topic: Mali says 82 soldiers captured by armed groups have been freed
+Searching Google for: Mali says 82 soldiers captured by armed groups have been freed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMali%252Bsays%252B82%252Bsoldiers%252Bcaptured%252Bby%252Barmed%252Bgroups%252Bhave%252Bbeen%252Bfreed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IbpGNup-tMGIjA7RCEKl7qxaT9Y3U7TXknITLCvIz6sJ4YdAIVeURxVO6p56a4S2D_CojeXB1wJA78yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: multiple-fires-destroy-homes-and-cause-devastation_20260814_0148.html
-✓ Created comprehensive article: multiple-fires-destroy-homes-and-cause-devastation_20260814_0148.html
+Successfully created file: mali-says-82-soldiers-captured-by-armed-groups-hav_20260814_0409.html
+✓ Created comprehensive article: mali-says-82-soldiers-captured-by-armed-groups-hav_20260814_0409.html
 
-Processing trending topic: Watch: Aerial footage shows homes engulfed in flames in Stourbridge
-Searching Google for: Watch: Aerial footage shows homes engulfed in flames in Stourbridge
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BAerial%252Bfootage%252Bshows%252Bhomes%252Bengulfed%252Bin%252Bflames%252Bin%252BStourbridge%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i5hGNbn-dMGIjCtnz7S4QARDDKVo2MxGmUsK7IK8bEzSt_Iw_wE44sChXkEqwjNfM-5zMJSE8hQMnQyBmpjbmRyUloBQw
+Processing trending topic: Oil slick from tanker carrying sanctioned Russian crude reaches Oman
+Searching Google for: Oil slick from tanker carrying sanctioned Russian crude reaches Oman
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252Bslick%252Bfrom%252Btanker%252Bcarrying%252Bsanctioned%252BRussian%252Bcrude%252Breaches%252BOman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IbpGOGp-tMGIjBievCzhterrfcJEX0j7gA59HzgHlwUHbPH_UGVZeEpvxH4UrjPjuDc8U-LRQz4shoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-aerial-footage-shows-homes-engulfed-in-flame_20260814_0148.html
-✓ Created comprehensive article: watch-aerial-footage-shows-homes-engulfed-in-flame_20260814_0148.html
+Successfully created file: oil-slick-from-tanker-carrying-sanctioned-russian-_20260814_0409.html
+✓ Created comprehensive article: oil-slick-from-tanker-carrying-sanctioned-russian-_20260814_0409.html
 
-Processing trending topic: DRC’s fast-growing Ebola outbreak spreads to sixth province
-Searching Google for: DRC’s fast-growing Ebola outbreak spreads to sixth province
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDRC%25E2%2580%2599s%252Bfast-growing%252BEbola%252Boutbreak%252Bspreads%252Bto%252Bsixth%252Bprovince%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i5hGNzn-dMGIjCjKmwVsgpH5cjQ-m3fZptAgwe4xmM38gFt43iRlNBWDR_AW6cNirUWcBAoG0PeHmsyBmpjbmRyUloBQw
+Processing trending topic: Why Osun’s election matters for Nigeria’s 2027 vote
+Searching Google for: Why Osun’s election matters for Nigeria’s 2027 vote
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252BOsun%25E2%2580%2599s%252Belection%252Bmatters%252Bfor%252BNigeria%25E2%2580%2599s%252B2027%252Bvote%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7IbpGOip-tMGIjD95O1dfWggFTJYupQxh03aK6EY0CPCyqa3xquep2BsT6WWRUABWOk_8khYWYaRFXUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: drcs-fast-growing-ebola-outbreak-spreads-to-sixth-_20260814_0148.html
-✓ Created comprehensive article: drcs-fast-growing-ebola-outbreak-spreads-to-sixth-_20260814_0148.html
+Successfully created file: why-osuns-election-matters-for-nigerias-2027-vote_20260814_0409.html
+✓ Created comprehensive article: why-osuns-election-matters-for-nigerias-2027-vote_20260814_0409.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: water-bills-set-to-rise-for-many-after-firms-permi_20260813_1307.html
-Cleaned old post to keep top 30 limit: kennedy-center-votes-to-restore-trumps-name-to-ven_20260813_2342.html
-Cleaned old post to keep top 30 limit: gaza-city-police-chief-killed-as-israel-pushes-on-_20260813_2341.html
+Cleaned old post to keep top 30 limit: watch-aerial-footage-shows-homes-engulfed-in-flame_20260813_2145.html
+Cleaned old post to keep top 30 limit: multiple-fires-destroy-homes-and-cause-devastation_20260814_0148.html
+Cleaned old post to keep top 30 limit: drcs-fast-growing-ebola-outbreak-spreads-to-sixth-_20260814_0148.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Multiple fires destroy homes and cause devastation in West Midlands
+   • Mali says 82 soldiers captured by armed groups have been freed
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Aerial footage shows homes engulfed in flames in Stourbridge
+   • Oil slick from tanker carrying sanctioned Russian crude reaches Oman
      Sources: bbc.com, cnn.com, reuters.com
-   • DRC’s fast-growing Ebola outbreak spreads to sixth province
+   • Why Osun’s election matters for Nigeria’s 2027 vote
      Sources: bbc.com, cnn.com, reuters.com
