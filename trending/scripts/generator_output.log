@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: American missionary kidnapped in Niger freed after nine months
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Yemen’s government says Houthi attack on al-Makha kills at least four
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump dismisses mental health concerns on USS Lincoln aircraft carrier
-  Found from World News - Breaking international news and headlines | Sky News: Five dead in Japan after record-breaking rainfall causes severe flooding
-Added expanded search topic: Yemen’s government says Houthi attack on al-Makha kills at least four
-Added expanded search topic: Trump dismisses mental health concerns on USS Lincoln aircraft carrier
-Added expanded search topic: Five dead in Japan after record-breaking rainfall causes severe flooding
-Saved 54 topics for 2026-08-14
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-15
 Returning 3 unique trending topics:
-  1. Yemen’s government says Houthi attack on al-Makha kills at least four (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Trump dismisses mental health concerns on USS Lincoln aircraft carrier (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Five dead in Japan after record-breaking rainfall causes severe flooding (from World News - Breaking international news and headlines | Sky News)
+  1. Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead (from BBC News)
+  2. Fires prompt national alert as 19 homes destroyed (from BBC News)
+  3. American missionary kidnapped in Niger freed after nine months (from The Guardian)
 
-Processing trending topic: Yemen’s government says Houthi attack on al-Makha kills at least four
-Searching Google for: Yemen’s government says Houthi attack on al-Makha kills at least four
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
+Searching Google for: Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJason%252BArday%252C%252Bex-Cambridge%252Bprofessor%252Bat%252Bcentre%252Bof%252Bplagiarism%252Brow%252C%252Bfound%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06aGIL4_tMGIjDW8QXdHuw_dQO7DOxGsVDE46hnRs3WGCh83IKfX46vPHfGlM7gO6CLPfhR5ia5qioyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: yemens-government-says-houthi-attack-on-al-makha-k_20260814_2322.html
-✓ Created comprehensive article: yemens-government-says-houthi-attack-on-al-makha-k_20260814_2322.html
+Successfully created file: jason-arday-ex-cambridge-professor-at-centre-of-pl_20260815_0108.html
+✓ Created comprehensive article: jason-arday-ex-cambridge-professor-at-centre-of-pl_20260815_0108.html
 
-Processing trending topic: Trump dismisses mental health concerns on USS Lincoln aircraft carrier
-Searching Google for: Trump dismisses mental health concerns on USS Lincoln aircraft carrier
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bdismisses%252Bmental%252Bhealth%252Bconcerns%252Bon%252BUSS%252BLincoln%252Baircraft%252Bcarrier%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIiGN7H_tMGIjBQjjWqnKGBujs1GcNnOHmxPmn7Pr7x0OnrNbh7MZ5rOlavHwjL490Cudf14fRCgqwyBmpjbmRyUloBQw
+Processing trending topic: Fires prompt national alert as 19 homes destroyed
+Searching Google for: Fires prompt national alert as 19 homes destroyed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFires%252Bprompt%252Bnational%252Balert%252Bas%252B19%252Bhomes%252Bdestroyed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06aGIn4_tMGIjCVcB38KQpI3lM8Gzyf_qsMd2AdYraelhcdmkDbrYvk8GpNE6GoOSROC-U-AX9fne8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-dismisses-mental-health-concerns-on-uss-linc_20260814_2325.html
-✓ Created comprehensive article: trump-dismisses-mental-health-concerns-on-uss-linc_20260814_2325.html
+Successfully created file: fires-prompt-national-alert-as-19-homes-destroyed_20260815_0108.html
+✓ Created comprehensive article: fires-prompt-national-alert-as-19-homes-destroyed_20260815_0108.html
 
-Processing trending topic: Five dead in Japan after record-breaking rainfall causes severe flooding
-Searching Google for: Five dead in Japan after record-breaking rainfall causes severe flooding
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Bdead%252Bin%252BJapan%252Bafter%252Brecord-breaking%252Brainfall%252Bcauses%252Bsevere%252Bflooding%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIiGOXH_tMGIjDGgNTfhK8OtPpAv-lQQCSWqis5cAUiGVjpFLq8S-btJ8662fXqtQDfktFWOeqVwSUyBmpjbmRyUloBQw
+Processing trending topic: American missionary kidnapped in Niger freed after nine months
+Searching Google for: American missionary kidnapped in Niger freed after nine months
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmerican%252Bmissionary%252Bkidnapped%252Bin%252BNiger%252Bfreed%252Bafter%252Bnine%252Bmonths%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06aGI74_tMGIjDZKJvmaw-TDbAIppEQccSLvEq7T3Cjs2SNMGTqEzPWQRFy4mmleX4CKvyJ8pZ065wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: five-dead-in-japan-after-record-breaking-rainfall-_20260814_2325.html
-✓ Created comprehensive article: five-dead-in-japan-after-record-breaking-rainfall-_20260814_2325.html
+Successfully created file: american-missionary-kidnapped-in-niger-freed-after_20260815_0108.html
+✓ Created comprehensive article: american-missionary-kidnapped-in-niger-freed-after_20260815_0108.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: zelensky-sacks-ukraines-top-army-commander-after-d_20260721_2358.html
-Cleaned old post to keep top 30 limit: wildfires-rage-across-europe-as-heatwaves-drive-re_20260814_2223.html
-Cleaned old post to keep top 30 limit: israeli-soldiers-accused-of-supporting-terrorist-s_20260814_2223.html
+Cleaned old post to keep top 30 limit: trump-says-he-will-declare-strait-of-hormuz-a-us-t_20260814_2223.html
+Cleaned old post to keep top 30 limit: trump-dismisses-mental-health-concerns-on-uss-linc_20260814_2325.html
+Cleaned old post to keep top 30 limit: five-dead-in-japan-after-record-breaking-rainfall-_20260814_2325.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Yemen’s government says Houthi attack on al-Makha kills at least four
+   • Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump dismisses mental health concerns on USS Lincoln aircraft carrier
+   • Fires prompt national alert as 19 homes destroyed
      Sources: bbc.com, cnn.com, reuters.com
-   • Five dead in Japan after record-breaking rainfall causes severe flooding
+   • American missionary kidnapped in Niger freed after nine months
      Sources: bbc.com, cnn.com, reuters.com
