@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: American missionary kidnapped in Niger freed after nine months
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-15
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US President Trump says he will declare Strait of Hormuz US territory
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venezuela says 131 political prisoners freed amid post-Maduro talks
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 7.7-magnitude earthquake strikes eastern Indonesia
+Added expanded search topic: US President Trump says he will declare Strait of Hormuz US territory
+Added expanded search topic: Venezuela says 131 political prisoners freed amid post-Maduro talks
+Added expanded search topic: 7.7-magnitude earthquake strikes eastern Indonesia
+Saved 6 topics for 2026-08-15
 Returning 3 unique trending topics:
-  1. Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead (from BBC News)
-  2. Fires prompt national alert as 19 homes destroyed (from BBC News)
-  3. American missionary kidnapped in Niger freed after nine months (from The Guardian)
+  1. US President Trump says he will declare Strait of Hormuz US territory (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Venezuela says 131 political prisoners freed amid post-Maduro talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. 7.7-magnitude earthquake strikes eastern Indonesia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
-Searching Google for: Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJason%252BArday%252C%252Bex-Cambridge%252Bprofessor%252Bat%252Bcentre%252Bof%252Bplagiarism%252Brow%252C%252Bfound%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06aGIL4_tMGIjDW8QXdHuw_dQO7DOxGsVDE46hnRs3WGCh83IKfX46vPHfGlM7gO6CLPfhR5ia5qioyBmpjbmRyUloBQw
+Processing trending topic: US President Trump says he will declare Strait of Hormuz US territory
+Searching Google for: US President Trump says he will declare Strait of Hormuz US territory
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BPresident%252BTrump%252Bsays%252Bhe%252Bwill%252Bdeclare%252BStrait%252Bof%252BHormuz%252BUS%252Bterritory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm8RnGLyp_9MGIjDWpjQikYpwMBasOfY3S6cSVjCsLfhf2NUFdk-OXlFnrMKvpxd6oxa88CmuzaFPSYkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jason-arday-ex-cambridge-professor-at-centre-of-pl_20260815_0108.html
-✓ Created comprehensive article: jason-arday-ex-cambridge-professor-at-centre-of-pl_20260815_0108.html
+Successfully created file: us-president-trump-says-he-will-declare-strait-of-_20260815_0253.html
+✓ Created comprehensive article: us-president-trump-says-he-will-declare-strait-of-_20260815_0253.html
 
-Processing trending topic: Fires prompt national alert as 19 homes destroyed
-Searching Google for: Fires prompt national alert as 19 homes destroyed
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFires%252Bprompt%252Bnational%252Balert%252Bas%252B19%252Bhomes%252Bdestroyed%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06aGIn4_tMGIjCVcB38KQpI3lM8Gzyf_qsMd2AdYraelhcdmkDbrYvk8GpNE6GoOSROC-U-AX9fne8yBmpjbmRyUloBQw
+Processing trending topic: Venezuela says 131 political prisoners freed amid post-Maduro talks
+Searching Google for: Venezuela says 131 political prisoners freed amid post-Maduro talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenezuela%252Bsays%252B131%252Bpolitical%252Bprisoners%252Bfreed%252Bamid%252Bpost-Maduro%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm8RnGMOp_9MGIjCZwmptRh11lUAhwMcMz3l9sHAvu4vQi3vSClq2txRt_AgxJsiYVsyHJtgCOSo4FqAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fires-prompt-national-alert-as-19-homes-destroyed_20260815_0108.html
-✓ Created comprehensive article: fires-prompt-national-alert-as-19-homes-destroyed_20260815_0108.html
+Successfully created file: venezuela-says-131-political-prisoners-freed-amid-_20260815_0254.html
+✓ Created comprehensive article: venezuela-says-131-political-prisoners-freed-amid-_20260815_0254.html
 
-Processing trending topic: American missionary kidnapped in Niger freed after nine months
-Searching Google for: American missionary kidnapped in Niger freed after nine months
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmerican%252Bmissionary%252Bkidnapped%252Bin%252BNiger%252Bfreed%252Bafter%252Bnine%252Bmonths%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUd06aGI74_tMGIjDZKJvmaw-TDbAIppEQccSLvEq7T3Cjs2SNMGTqEzPWQRFy4mmleX4CKvyJ8pZ065wyBmpjbmRyUloBQw
+Processing trending topic: 7.7-magnitude earthquake strikes eastern Indonesia
+Searching Google for: 7.7-magnitude earthquake strikes eastern Indonesia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D7.7-magnitude%252Bearthquake%252Bstrikes%252Beastern%252BIndonesia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm8RnGMqp_9MGIjARaJIGAzp_wQyJ49Ml86PK2adEu89VxeDE_klyHLjZVZ1h_9clEEgFK3uZWKIpjAkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: american-missionary-kidnapped-in-niger-freed-after_20260815_0108.html
-✓ Created comprehensive article: american-missionary-kidnapped-in-niger-freed-after_20260815_0108.html
+Successfully created file: 77-magnitude-earthquake-strikes-eastern-indonesia_20260815_0254.html
+✓ Created comprehensive article: 77-magnitude-earthquake-strikes-eastern-indonesia_20260815_0254.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-he-will-declare-strait-of-hormuz-a-us-t_20260814_2223.html
-Cleaned old post to keep top 30 limit: trump-dismisses-mental-health-concerns-on-uss-linc_20260814_2325.html
-Cleaned old post to keep top 30 limit: five-dead-in-japan-after-record-breaking-rainfall-_20260814_2325.html
+Cleaned old post to keep top 30 limit: fires-prompt-national-alert-as-19-homes-destroyed_20260815_0108.html
+Cleaned old post to keep top 30 limit: jason-arday-ex-cambridge-professor-at-centre-of-pl_20260815_0108.html
+Cleaned old post to keep top 30 limit: american-missionary-kidnapped-in-niger-freed-after_20260815_0108.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Jason Arday, ex-Cambridge professor at centre of plagiarism row, found dead
+   • US President Trump says he will declare Strait of Hormuz US territory
      Sources: bbc.com, cnn.com, reuters.com
-   • Fires prompt national alert as 19 homes destroyed
+   • Venezuela says 131 political prisoners freed amid post-Maduro talks
      Sources: bbc.com, cnn.com, reuters.com
-   • American missionary kidnapped in Niger freed after nine months
+   • 7.7-magnitude earthquake strikes eastern Indonesia
      Sources: bbc.com, cnn.com, reuters.com
