@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Tributes paid to Jason Arday after ex-Cambridge professor found dead
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: American missionary kidnapped in Niger freed after nine months
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arteta assures Arsenal fans over contract before Man City clash
-Added expanded search topic: Arteta assures Arsenal fans over contract before Man City clash
-Saved 24 topics for 2026-08-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh rock Australia as historic Test win in sight
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA World Cup and Olympics cited as Coe warns of politicians near sport
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Venus Williams hits 13-game tennis losing streak with Cincinnati Open exit
+Added expanded search topic: Bangladesh rock Australia as historic Test win in sight
+Added expanded search topic: FIFA World Cup and Olympics cited as Coe warns of politicians near sport
+Added expanded search topic: Venus Williams hits 13-game tennis losing streak with Cincinnati Open exit
+Saved 27 topics for 2026-08-15
 Returning 3 unique trending topics:
-  1. Tributes paid to Jason Arday after ex-Cambridge professor found dead (from BBC News)
-  2. Temporary ban on disposable BBQs as military deployed to help battle wildfires (from BBC News)
-  3. Arteta assures Arsenal fans over contract before Man City clash (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bangladesh rock Australia as historic Test win in sight (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. FIFA World Cup and Olympics cited as Coe warns of politicians near sport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Venus Williams hits 13-game tennis losing streak with Cincinnati Open exit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Tributes paid to Jason Arday after ex-Cambridge professor found dead
-Searching Google for: Tributes paid to Jason Arday after ex-Cambridge professor found dead
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTributes%252Bpaid%252Bto%252BJason%252BArday%252Bafter%252Bex-Cambridge%252Bprofessor%252Bfound%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ihGLbGgNQGIjBQe1WMtX52wT7BIQpN4-W65EeZr8ygghO9zj3tuuZ5gWpLoGv8D-gEhAguqHsxBLEyBmpjbmRyUloBQw
+Processing trending topic: Bangladesh rock Australia as historic Test win in sight
+Searching Google for: Bangladesh rock Australia as historic Test win in sight
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tributes-paid-to-jason-arday-after-ex-cambridge-pr_20260815_0828.html
-✓ Created comprehensive article: tributes-paid-to-jason-arday-after-ex-cambridge-pr_20260815_0828.html
+Successfully created file: bangladesh-rock-australia-as-historic-test-win-in-_20260815_0926.html
+✓ Created comprehensive article: bangladesh-rock-australia-as-historic-test-win-in-_20260815_0926.html
 
-Processing trending topic: Temporary ban on disposable BBQs as military deployed to help battle wildfires
-Searching Google for: Temporary ban on disposable BBQs as military deployed to help battle wildfires
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTemporary%252Bban%252Bon%252Bdisposable%252BBBQs%252Bas%252Bmilitary%252Bdeployed%252Bto%252Bhelp%252Bbattle%252Bwildfires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ihGL7GgNQGIjDTlzQg_ibFSftl5ckeJ7Lo7cbM35uH4-mA12AY3HD5kzoRPVdPCzS_lGlvxDtYtVEyBmpjbmRyUloBQw
+Processing trending topic: FIFA World Cup and Olympics cited as Coe warns of politicians near sport
+Searching Google for: FIFA World Cup and Olympics cited as Coe warns of politicians near sport
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252BWorld%252BCup%252Band%252BOlympics%252Bcited%252Bas%252BCoe%252Bwarns%252Bof%252Bpoliticians%252Bnear%252Bsport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mYJ2GOPhgNQGIjDuOj5tKIW33e9ZXf7WTVQ6j7-skkHxpbgwlPIbp7Ky2nmi9vLiNGrjB_pX_h4i9owyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: temporary-ban-on-disposable-bbqs-as-military-deplo_20260815_0828.html
-✓ Created comprehensive article: temporary-ban-on-disposable-bbqs-as-military-deplo_20260815_0828.html
+Successfully created file: fifa-world-cup-and-olympics-cited-as-coe-warns-of-_20260815_0927.html
+✓ Created comprehensive article: fifa-world-cup-and-olympics-cited-as-coe-warns-of-_20260815_0927.html
 
-Processing trending topic: Arteta assures Arsenal fans over contract before Man City clash
-Searching Google for: Arteta assures Arsenal fans over contract before Man City clash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArteta%252Bassures%252BArsenal%252Bfans%252Bover%252Bcontract%252Bbefore%252BMan%252BCity%252Bclash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ihGMTGgNQGIjCmSffe7mhHRxm8Nku7UULTdfJ9s78aYx9w3_QC-i1JFV5yZiHaCqD_hldZnz6jR_IyBmpjbmRyUloBQw
+Processing trending topic: Venus Williams hits 13-game tennis losing streak with Cincinnati Open exit
+Searching Google for: Venus Williams hits 13-game tennis losing streak with Cincinnati Open exit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVenus%252BWilliams%252Bhits%252B13-game%252Btennis%252Blosing%252Bstreak%252Bwith%252BCincinnati%252BOpen%252Bexit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0mYJ2GOnhgNQGIjBcAugQcKlZGXz9oS-LVNWDCQUq7jsHqb0wE0ZxQ9oMxcs2ikubZkB2je1508fqvYwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: arteta-assures-arsenal-fans-over-contract-before-m_20260815_0828.html
-✓ Created comprehensive article: arteta-assures-arsenal-fans-over-contract-before-m_20260815_0828.html
+Successfully created file: venus-williams-hits-13-game-tennis-losing-streak-w_20260815_0927.html
+✓ Created comprehensive article: venus-williams-hits-13-game-tennis-losing-streak-w_20260815_0927.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-he-is-cancelling-strikes-on-iran-subjec_20260802_0824.html
-Cleaned old post to keep top 30 limit: trump-dismisses-concerns-about-conditions-on-us-ai_20260815_0730.html
-Cleaned old post to keep top 30 limit: qatar-challenges-afc-over-open-letter-attacking-fi_20260814_1552.html
+Cleaned old post to keep top 30 limit: tributes-paid-to-jason-arday-after-ex-cambridge-pr_20260815_0828.html
+Cleaned old post to keep top 30 limit: temporary-ban-on-disposable-bbqs-as-military-deplo_20260815_0828.html
+Cleaned old post to keep top 30 limit: arteta-assures-arsenal-fans-over-contract-before-m_20260815_0828.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tributes paid to Jason Arday after ex-Cambridge professor found dead
+   • Bangladesh rock Australia as historic Test win in sight
      Sources: bbc.com, cnn.com, reuters.com
-   • Temporary ban on disposable BBQs as military deployed to help battle wildfires
+   • FIFA World Cup and Olympics cited as Coe warns of politicians near sport
      Sources: bbc.com, cnn.com, reuters.com
-   • Arteta assures Arsenal fans over contract before Man City clash
+   • Venus Williams hits 13-game tennis losing streak with Cincinnati Open exit
      Sources: bbc.com, cnn.com, reuters.com
