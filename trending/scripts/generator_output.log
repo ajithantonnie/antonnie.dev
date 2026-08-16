@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 45 topics
+Already used today: 48 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia says at least seven killed in largest Ukrainian attack of 2026
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moroccan migrants stage sit-in as thousands remain stranded in Ceuta
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down
-Added expanded search topic: Moroccan migrants stage sit-in as thousands remain stranded in Ceuta
-Added expanded search topic: Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down
-Saved 48 topics for 2026-08-16
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arsenal cruise to 3-0 win over Manchester City in Community Shield
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii
+  Found from World News - Breaking international news and headlines | Sky News: Twelve killed as tourist bus crashes in Hungary
+Added expanded search topic: Arsenal cruise to 3-0 win over Manchester City in Community Shield
+Added expanded search topic: Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii
+Added expanded search topic: Twelve killed as tourist bus crashes in Hungary
+Saved 51 topics for 2026-08-16
 Returning 3 unique trending topics:
-  1. Russia says at least seven killed in largest Ukrainian attack of 2026 (from BBC News)
-  2. Moroccan migrants stage sit-in as thousands remain stranded in Ceuta (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Arsenal cruise to 3-0 win over Manchester City in Community Shield (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Twelve killed as tourist bus crashes in Hungary (from World News - Breaking international news and headlines | Sky News)
 
-Processing trending topic: Russia says at least seven killed in largest Ukrainian attack of 2026
-Searching Google for: Russia says at least seven killed in largest Ukrainian attack of 2026
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bsays%252Bat%252Bleast%252Bseven%252Bkilled%252Bin%252Blargest%252BUkrainian%252Battack%252Bof%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy9TFGIvIh9QGIjB0NkM9NCH8QX3Ufp83y6T-0IPfSf-B37aZxyi0tPj4YribDTTA68AxI2gcMJVHJdIyBmpjbmRyUloBQw
+Processing trending topic: Arsenal cruise to 3-0 win over Manchester City in Community Shield
+Searching Google for: Arsenal cruise to 3-0 win over Manchester City in Community Shield
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-says-at-least-seven-killed-in-largest-ukrai_20260816_1623.html
-✓ Created comprehensive article: russia-says-at-least-seven-killed-in-largest-ukrai_20260816_1623.html
+Successfully created file: arsenal-cruise-to-3-0-win-over-manchester-city-in-_20260816_1720.html
+✓ Created comprehensive article: arsenal-cruise-to-3-0-win-over-manchester-city-in-_20260816_1720.html
 
-Processing trending topic: Moroccan migrants stage sit-in as thousands remain stranded in Ceuta
-Searching Google for: Moroccan migrants stage sit-in as thousands remain stranded in Ceuta
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoroccan%252Bmigrants%252Bstage%252Bsit-in%252Bas%252Bthousands%252Bremain%252Bstranded%252Bin%252BCeuta%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy9TFGJLIh9QGIjBoh6N2lqtJ6qxMN53vkVoe-oBj8au-9-VVOrweuj8uB6Vo29lpAC2aWUQzNZonEUoyBmpjbmRyUloBQw
+Processing trending topic: Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii
+Searching Google for: Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHurricane%252BLala%252Bweakens%252Bto%252Ba%252Btropical%252Bstorm%252C%252Bbut%252Bflooding%252Bpersists%252Bin%252BHawaii%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gY-GPLih9QGIjDhZyKd0dz9rBrRXXIzOdsFCY4DM1kRsRzru-9ARRVffLKgXblvXgxlEoFPDjoFyxsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: moroccan-migrants-stage-sit-in-as-thousands-remain_20260816_1623.html
-✓ Created comprehensive article: moroccan-migrants-stage-sit-in-as-thousands-remain_20260816_1623.html
+Successfully created file: hurricane-lala-weakens-to-a-tropical-storm-but-flo_20260816_1720.html
+✓ Created comprehensive article: hurricane-lala-weakens-to-a-tropical-storm-but-flo_20260816_1720.html
 
-Processing trending topic: Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down
-Searching Google for: Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLargest%252BUkrainian%252Bdrone%252Battack%252Bon%252BRussia%252C%252BMoscow%252Bsays%252B822%252Bdrones%252Bshot%252Bdown%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy9TFGJjIh9QGIjCZgDk61t0eiZBCvmjCsfj9hEUVV36n6anynxGvxfGslfyT0IKpwIU09qT238V69PAyBmpjbmRyUloBQw
+Processing trending topic: Twelve killed as tourist bus crashes in Hungary
+Searching Google for: Twelve killed as tourist bus crashes in Hungary
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwelve%252Bkilled%252Bas%252Btourist%252Bbus%252Bcrashes%252Bin%252BHungary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gY-GPjih9QGIjBxw1qm_2s-0r3MKNb1lesZobXvC5W9KSIhTd_T5jcqCyJmXiBYCtIqA4JPNxpsLmsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: largest-ukrainian-drone-attack-on-russia-moscow-sa_20260816_1623.html
-✓ Created comprehensive article: largest-ukrainian-drone-attack-on-russia-moscow-sa_20260816_1623.html
+Successfully created file: twelve-killed-as-tourist-bus-crashes-in-hungary_20260816_1721.html
+✓ Created comprehensive article: twelve-killed-as-tourist-bus-crashes-in-hungary_20260816_1721.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: vienna-woman-sues-city-for-discrimination-over-toi_20260815_1333.html
-Cleaned old post to keep top 30 limit: the-mediterranean-is-a-bridge-not-a-border_20260816_1522.html
-Cleaned old post to keep top 30 limit: ben-gvir-calls-for-nightly-killings-of-palestinian_20260816_1523.html
+Cleaned old post to keep top 30 limit: russia-says-at-least-seven-killed-in-largest-ukrai_20260816_1623.html
+Cleaned old post to keep top 30 limit: moroccan-migrants-stage-sit-in-as-thousands-remain_20260816_1623.html
+Cleaned old post to keep top 30 limit: largest-ukrainian-drone-attack-on-russia-moscow-sa_20260816_1623.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia says at least seven killed in largest Ukrainian attack of 2026
+   • Arsenal cruise to 3-0 win over Manchester City in Community Shield
      Sources: bbc.com, cnn.com, reuters.com
-   • Moroccan migrants stage sit-in as thousands remain stranded in Ceuta
+   • Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii
      Sources: bbc.com, cnn.com, reuters.com
-   • Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down
+   • Twelve killed as tourist bus crashes in Hungary
      Sources: bbc.com, cnn.com, reuters.com
