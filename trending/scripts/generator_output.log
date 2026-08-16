@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Major incidents across UK putting firefighters under 'incredible pressure', fire chief says
-  Added: Jason Arday death 'tragedy on so many levels' says PM
+  Added: Reform UK plan would overhaul welfare system with £50bn in savings
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-16
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera journalist opens beach cafe in the Gaza she loves
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: As petrol prices soar, electric bikes gain ground in Nigeria
+Added expanded search topic: Al Jazeera journalist opens beach cafe in the Gaza she loves
+Added expanded search topic: As petrol prices soar, electric bikes gain ground in Nigeria
+Saved 6 topics for 2026-08-16
 Returning 3 unique trending topics:
-  1. Major incidents across UK putting firefighters under 'incredible pressure', fire chief says (from BBC News)
-  2. Jason Arday death 'tragedy on so many levels' says PM (from BBC News)
-  3. Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered (from The Guardian)
+  1. Reform UK plan would overhaul welfare system with £50bn in savings (from BBC News)
+  2. Al Jazeera journalist opens beach cafe in the Gaza she loves (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. As petrol prices soar, electric bikes gain ground in Nigeria (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Major incidents across UK putting firefighters under 'incredible pressure', fire chief says
-Searching Google for: Major incidents across UK putting firefighters under 'incredible pressure', fire chief says
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Reform UK plan would overhaul welfare system with £50bn in savings
+Searching Google for: Reform UK plan would overhaul welfare system with £50bn in savings
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReform%252BUK%252Bplan%252Bwould%252Boverhaul%252Bwelfare%252Bsystem%252Bwith%252B%25C2%25A350bn%252Bin%252Bsavings%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo1PyGP_PhNQGIjCmTFJW1lq0gPs6Tx1ruEE5yxPq0D_o1lvf1RidV8qDhR7zjpE4ljfeoQyQDH3fwqoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: major-incidents-across-uk-putting-firefighters-und_20260816_0113.html
-✓ Created comprehensive article: major-incidents-across-uk-putting-firefighters-und_20260816_0113.html
+Successfully created file: reform-uk-plan-would-overhaul-welfare-system-with-_20260816_0301.html
+✓ Created comprehensive article: reform-uk-plan-would-overhaul-welfare-system-with-_20260816_0301.html
 
-Processing trending topic: Jason Arday death 'tragedy on so many levels' says PM
-Searching Google for: Jason Arday death 'tragedy on so many levels' says PM
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Al Jazeera journalist opens beach cafe in the Gaza she loves
+Searching Google for: Al Jazeera journalist opens beach cafe in the Gaza she loves
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Bjournalist%252Bopens%252Bbeach%252Bcafe%252Bin%252Bthe%252BGaza%252Bshe%252Bloves%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo1PyGIbQhNQGIjBy9jxXuYCuXUu6nNe-L2Lu3TeIVU_Zok4mj3v4JVzuI5-btjeyxkqRzC55QcAJo0syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jason-arday-death-tragedy-on-so-many-levels-says-p_20260816_0113.html
-✓ Created comprehensive article: jason-arday-death-tragedy-on-so-many-levels-says-p_20260816_0113.html
+Successfully created file: al-jazeera-journalist-opens-beach-cafe-in-the-gaza_20260816_0301.html
+✓ Created comprehensive article: al-jazeera-journalist-opens-beach-cafe-in-the-gaza_20260816_0301.html
 
-Processing trending topic: Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
-Searching Google for: Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZimbabwe%252Bboat%252Baccident%252Bdeath%252Btoll%252Bhits%252B68%252Bas%252B22%252Bmore%252Bbodies%252Brecovered%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUrkGNiehNQGIjA9Ps43dsdbN7KZoVTqTt7301GpdrlEPwKNzmASw_OiJ5sooDjqDFsZl9Cx5n101RwyBmpjbmRyUloBQw
+Processing trending topic: As petrol prices soar, electric bikes gain ground in Nigeria
+Searching Google for: As petrol prices soar, electric bikes gain ground in Nigeria
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAs%252Bpetrol%252Bprices%252Bsoar%252C%252Belectric%252Bbikes%252Bgain%252Bground%252Bin%252BNigeria%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo1PyGI3QhNQGIjATZap2UdrKSlAWBaMu3mO5eqoBJT3FnxIi0aAZ_GBTzQVAS6fbtX1HsHaZbToCGFAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zimbabwe-boat-accident-death-toll-hits-68-as-22-mo_20260816_0116.html
-✓ Created comprehensive article: zimbabwe-boat-accident-death-toll-hits-68-as-22-mo_20260816_0116.html
+Successfully created file: as-petrol-prices-soar-electric-bikes-gain-ground-i_20260816_0301.html
+✓ Created comprehensive article: as-petrol-prices-soar-electric-bikes-gain-ground-i_20260816_0301.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-democrats-finalise-major-shakeup-to-2028-presid_20260815_2323.html
-Cleaned old post to keep top 30 limit: more-than-100-arrested-in-morocco-after-call-for-a_20260815_2323.html
-Cleaned old post to keep top 30 limit: major-incidents-across-uk-putting-firefighters-und_20260815_2122.html
+Cleaned old post to keep top 30 limit: why-is-the-latest-ebola-outbreak-worsening_20260815_2221.html
+Cleaned old post to keep top 30 limit: major-incidents-across-uk-putting-firefighters-und_20260816_0113.html
+Cleaned old post to keep top 30 limit: jason-arday-death-tragedy-on-so-many-levels-says-p_20260816_0113.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Major incidents across UK putting firefighters under 'incredible pressure', fire chief says
+   • Reform UK plan would overhaul welfare system with £50bn in savings
      Sources: bbc.com, cnn.com, reuters.com
-   • Jason Arday death 'tragedy on so many levels' says PM
+   • Al Jazeera journalist opens beach cafe in the Gaza she loves
      Sources: bbc.com, cnn.com, reuters.com
-   • Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
+   • As petrol prices soar, electric bikes gain ground in Nigeria
      Sources: bbc.com, cnn.com, reuters.com
