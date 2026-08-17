@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Parents pushed to breaking point by Child Maintenance Service, BBC told
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands await aid after deadly Indonesia quake as rescue work conducted
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle
-Added expanded search topic: Thousands await aid after deadly Indonesia quake as rescue work conducted
-Added expanded search topic: Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle
-Saved 30 topics for 2026-08-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is the world experiencing more earthquakes now than before?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: USS Lincoln crisis: How it compares to past aircraft carrier deployments
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iraqi Kurdish PM Barzani’s office targeted in drone attack
+Added expanded search topic: Is the world experiencing more earthquakes now than before?
+Added expanded search topic: USS Lincoln crisis: How it compares to past aircraft carrier deployments
+Added expanded search topic: Iraqi Kurdish PM Barzani’s office targeted in drone attack
+Saved 33 topics for 2026-08-17
 Returning 3 unique trending topics:
-  1. Burnham exchanged messages with person posing as Trump's chief of staff (from BBC News)
-  2. Thousands await aid after deadly Indonesia quake as rescue work conducted (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Is the world experiencing more earthquakes now than before? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. USS Lincoln crisis: How it compares to past aircraft carrier deployments (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iraqi Kurdish PM Barzani’s office targeted in drone attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham exchanged messages with person posing as Trump's chief of staff
-Searching Google for: Burnham exchanged messages with person posing as Trump's chief of staff
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bexchanged%252Bmessages%252Bwith%252Bperson%252Bposing%252Bas%252BTrump%2527s%252Bchief%252Bof%252Bstaff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK61pXGKjGi9QGIjCzNgwF2F-NddkSUxL_96mc2wVlMj076Fg4AGl0kxY6HODc2FlLSR5ib5mAVY8BMEkyBmpjbmRyUloBQw
+Processing trending topic: Is the world experiencing more earthquakes now than before?
+Searching Google for: Is the world experiencing more earthquakes now than before?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252Bthe%252Bworld%252Bexperiencing%252Bmore%252Bearthquakes%252Bnow%252Bthan%252Bbefore%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7hGIHfi9QGIjAGIDciZB-8xsBp4ae7pqZfxiEhxaup6qJLysjxU-_DJwuWz_XgtKeHzqNSymvn21MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-exchanged-messages-with-person-posing-as-t_20260817_1032.html
-✓ Created comprehensive article: burnham-exchanged-messages-with-person-posing-as-t_20260817_1032.html
+Successfully created file: is-the-world-experiencing-more-earthquakes-now-tha_20260817_1124.html
+✓ Created comprehensive article: is-the-world-experiencing-more-earthquakes-now-tha_20260817_1124.html
 
-Processing trending topic: Thousands await aid after deadly Indonesia quake as rescue work conducted
-Searching Google for: Thousands await aid after deadly Indonesia quake as rescue work conducted
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bawait%252Baid%252Bafter%252Bdeadly%252BIndonesia%252Bquake%252Bas%252Brescue%252Bwork%252Bconducted%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK61pXGK_Gi9QGIjCpW0aTXOS8Hgk4xxvA4DnMkhCT-n7U8kv6W1qgYMM0qgdFdiwoZ8kJcYdsiOJUvIcyBmpjbmRyUloBQw
+Processing trending topic: USS Lincoln crisis: How it compares to past aircraft carrier deployments
+Searching Google for: USS Lincoln crisis: How it compares to past aircraft carrier deployments
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUSS%252BLincoln%252Bcrisis%253A%252BHow%252Bit%252Bcompares%252Bto%252Bpast%252Baircraft%252Bcarrier%252Bdeployments%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7hGIffi9QGIjC6RzTG9pLWMNitusFY4CeXeex4-WYQaTcF3l3WyV7eMaF4Hhh269aYxgdooxXTaQIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: thousands-await-aid-after-deadly-indonesia-quake-a_20260817_1032.html
-✓ Created comprehensive article: thousands-await-aid-after-deadly-indonesia-quake-a_20260817_1032.html
+Successfully created file: uss-lincoln-crisis-how-it-compares-to-past-aircraf_20260817_1125.html
+✓ Created comprehensive article: uss-lincoln-crisis-how-it-compares-to-past-aircraf_20260817_1125.html
 
-Processing trending topic: Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle
-Searching Google for: Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInside%252Bthe%252BUK%25E2%2580%2599s%252B%25E2%2580%2598stressful%25E2%2580%2599%252Bcost%252Bof%252Bliving%252Bcrisis%252BBurnham%252Bhopes%252Bto%252Btackle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRK61pXGLXGi9QGIjAxarnijItgYfRcQIZN0ZkDGOyrGJSqMEkdFVTWFG75SVO6ranCnsXzjXtOSTACAhAyBmpjbmRyUloBQw
+Processing trending topic: Iraqi Kurdish PM Barzani’s office targeted in drone attack
+Searching Google for: Iraqi Kurdish PM Barzani’s office targeted in drone attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIraqi%252BKurdish%252BPM%252BBarzani%25E2%2580%2599s%252Boffice%252Btargeted%252Bin%252Bdrone%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoR7hGI7fi9QGIjA08pvUbHoaq5OttrgvYbfSJHky5zukZgHS72KfKg-IvQ8INGEpDDlYTVQeQjUku0QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: inside-the-uks-stressful-cost-of-living-crisis-bur_20260817_1032.html
-✓ Created comprehensive article: inside-the-uks-stressful-cost-of-living-crisis-bur_20260817_1032.html
+Successfully created file: iraqi-kurdish-pm-barzanis-office-targeted-in-drone_20260817_1125.html
+✓ Created comprehensive article: iraqi-kurdish-pm-barzanis-office-targeted-in-drone_20260817_1125.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russia-says-at-least-seven-killed-in-largest-ukrai_20260817_0109.html
-Cleaned old post to keep top 30 limit: watch-carnage-in-stourbridge-as-houses-destroyed-b_20260814_1304.html
-Cleaned old post to keep top 30 limit: photos-rising-energy-prices-disrupt-education-on-c_20260817_0941.html
+Cleaned old post to keep top 30 limit: who-is-atef-najib-former-syrian-official-sentenced_20260811_1056.html
+Cleaned old post to keep top 30 limit: thousands-await-aid-after-deadly-indonesia-quake-a_20260817_1032.html
+Cleaned old post to keep top 30 limit: burnham-exchanged-messages-with-person-posing-as-t_20260817_1032.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham exchanged messages with person posing as Trump's chief of staff
+   • Is the world experiencing more earthquakes now than before?
      Sources: bbc.com, cnn.com, reuters.com
-   • Thousands await aid after deadly Indonesia quake as rescue work conducted
+   • USS Lincoln crisis: How it compares to past aircraft carrier deployments
      Sources: bbc.com, cnn.com, reuters.com
-   • Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle
+   • Iraqi Kurdish PM Barzani’s office targeted in drone attack
      Sources: bbc.com, cnn.com, reuters.com
