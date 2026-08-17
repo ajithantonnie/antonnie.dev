@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump envoy Kushner meets Hamas leader to push Gaza peace plan
-  Added: Russia says at least seven killed in largest Ukrainian attack of 2026
+  Added: UK to turn cooler with rain after exceptional heat and dry spell
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-17
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ebola outbreak in DR Congo becomes deadliest in country’s history
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
+Added expanded search topic: Ebola outbreak in DR Congo becomes deadliest in country’s history
+Added expanded search topic: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
+Saved 6 topics for 2026-08-17
 Returning 3 unique trending topics:
-  1. Trump envoy Kushner meets Hamas leader to push Gaza peace plan (from BBC News)
-  2. Russia says at least seven killed in largest Ukrainian attack of 2026 (from BBC News)
-  3. Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history (from The Guardian)
+  1. UK to turn cooler with rain after exceptional heat and dry spell (from BBC News)
+  2. Ebola outbreak in DR Congo becomes deadliest in country’s history (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli settlers pitch tents for new illegal outpost in occupied West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump envoy Kushner meets Hamas leader to push Gaza peace plan
-Searching Google for: Trump envoy Kushner meets Hamas leader to push Gaza peace plan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Benvoy%252BKushner%252Bmeets%252BHamas%252Bleader%252Bto%252Bpush%252BGaza%252Bpeace%252Bplan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmdxGNy-idQGIjApJm2TUIVZx2C4y8QlLoWg4mJ5AEJ-uHQRPY_1bFXzNDx3-v7s0t4rkA0zRwH1XDAyBmpjbmRyUloBQw
+Processing trending topic: UK to turn cooler with rain after exceptional heat and dry spell
+Searching Google for: UK to turn cooler with rain after exceptional heat and dry spell
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bto%252Bturn%252Bcooler%252Bwith%252Brain%252Bafter%252Bexceptional%252Bheat%252Band%252Bdry%252Bspell%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGMLyidQGIjCmUjn4LG7k5xxVuQjSLfc2VcGktrGfrqpeCLYzuyI0AijLpEb8dydJJCbbzQL-mtkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-envoy-kushner-meets-hamas-leader-to-push-gaz_20260817_0109.html
-✓ Created comprehensive article: trump-envoy-kushner-meets-hamas-leader-to-push-gaz_20260817_0109.html
+Successfully created file: uk-to-turn-cooler-with-rain-after-exceptional-heat_20260817_0300.html
+✓ Created comprehensive article: uk-to-turn-cooler-with-rain-after-exceptional-heat_20260817_0300.html
 
-Processing trending topic: Russia says at least seven killed in largest Ukrainian attack of 2026
-Searching Google for: Russia says at least seven killed in largest Ukrainian attack of 2026
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bsays%252Bat%252Bleast%252Bseven%252Bkilled%252Bin%252Blargest%252BUkrainian%252Battack%252Bof%252B2026%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmdxGOO-idQGIjCEKiW_Mkcd71Vc8SE9xt5OpTkTHyiyvuH-n3tHUcwjBGJfEy7GajrhVf_mo9tm7kcyBmpjbmRyUloBQw
+Processing trending topic: Ebola outbreak in DR Congo becomes deadliest in country’s history
+Searching Google for: Ebola outbreak in DR Congo becomes deadliest in country’s history
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%252Bin%252BDR%252BCongo%252Bbecomes%252Bdeadliest%252Bin%252Bcountry%25E2%2580%2599s%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGMnyidQGIjD3gNQQXIIALVz3e-7OJ0uMYAk52CJpFPjpUvH_euqLW77PAco8Q6_knodAB-IrbVgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-says-at-least-seven-killed-in-largest-ukrai_20260817_0109.html
-✓ Created comprehensive article: russia-says-at-least-seven-killed-in-largest-ukrai_20260817_0109.html
+Successfully created file: ebola-outbreak-in-dr-congo-becomes-deadliest-in-co_20260817_0300.html
+✓ Created comprehensive article: ebola-outbreak-in-dr-congo-becomes-deadliest-in-co_20260817_0300.html
 
-Processing trending topic: Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history
-Searching Google for: Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%252Bin%252BDemocratic%252BRepublic%252Bof%252BCongo%252Bnow%252Bdeadliest%252Bin%252Bcountry%25E2%2580%2599s%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZmdxGOm-idQGIjDyfIflbtWrX04MLdp0dxXQtv-Y_x6PuabTa8KJnz3w69h_EgJiSRFkJwqoYak_UW8yBmpjbmRyUloBQw
+Processing trending topic: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
+Searching Google for: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettlers%252Bpitch%252Btents%252Bfor%252Bnew%252Billegal%252Boutpost%252Bin%252Boccupied%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGNDyidQGIjCxFCeWIJCoKYOGkv_zRE_bsLcT9t9KFO-G5kDm2zfd8nClk-8AR0bmX6a-l2OlLwsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ebola-outbreak-in-democratic-republic-of-congo-now_20260817_0110.html
-✓ Created comprehensive article: ebola-outbreak-in-democratic-republic-of-congo-now_20260817_0110.html
+Successfully created file: israeli-settlers-pitch-tents-for-new-illegal-outpo_20260817_0300.html
+✓ Created comprehensive article: israeli-settlers-pitch-tents-for-new-illegal-outpo_20260817_0300.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-iran-mou-is-set-to-expire-what-to-know_20260816_2323.html
-Cleaned old post to keep top 30 limit: death-toll-rises-to-84-from-capsized-ferry-in-zimb_20260816_2323.html
-Cleaned old post to keep top 30 limit: brazil-lula-bolsonaro-return-to-strongholds-to-lau_20260816_2323.html
+Cleaned old post to keep top 30 limit: watch-bbc-visits-smouldering-market-in-ukraine-aft_20260816_1332.html
+Cleaned old post to keep top 30 limit: trump-envoy-kushner-meets-hamas-leader-to-push-gaz_20260817_0109.html
+Cleaned old post to keep top 30 limit: ebola-outbreak-in-democratic-republic-of-congo-now_20260817_0110.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump envoy Kushner meets Hamas leader to push Gaza peace plan
+   • UK to turn cooler with rain after exceptional heat and dry spell
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia says at least seven killed in largest Ukrainian attack of 2026
+   • Ebola outbreak in DR Congo becomes deadliest in country’s history
      Sources: bbc.com, cnn.com, reuters.com
-   • Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history
+   • Israeli settlers pitch tents for new illegal outpost in occupied West Bank
      Sources: bbc.com, cnn.com, reuters.com
