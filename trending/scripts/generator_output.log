@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump envoy Kushner meets Hamas leader to push Gaza peace plan
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ebola outbreak in DR Congo becomes deadliest in country’s history
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
-Added expanded search topic: Ebola outbreak in DR Congo becomes deadliest in country’s history
-Added expanded search topic: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
-Saved 6 topics for 2026-08-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Rare Pallas’s cat captured on camera in northern Iran mountains
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zambia incumbent takes early election lead as opposition alleges armed raid
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can the AU make its current Sudan mission count?
+Added expanded search topic: Rare Pallas’s cat captured on camera in northern Iran mountains
+Added expanded search topic: Zambia incumbent takes early election lead as opposition alleges armed raid
+Added expanded search topic: Can the AU make its current Sudan mission count?
+Saved 9 topics for 2026-08-17
 Returning 3 unique trending topics:
-  1. UK to turn cooler with rain after exceptional heat and dry spell (from BBC News)
-  2. Ebola outbreak in DR Congo becomes deadliest in country’s history (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli settlers pitch tents for new illegal outpost in occupied West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Rare Pallas’s cat captured on camera in northern Iran mountains (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Zambia incumbent takes early election lead as opposition alleges armed raid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Can the AU make its current Sudan mission count? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK to turn cooler with rain after exceptional heat and dry spell
-Searching Google for: UK to turn cooler with rain after exceptional heat and dry spell
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bto%252Bturn%252Bcooler%252Bwith%252Brain%252Bafter%252Bexceptional%252Bheat%252Band%252Bdry%252Bspell%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGMLyidQGIjCmUjn4LG7k5xxVuQjSLfc2VcGktrGfrqpeCLYzuyI0AijLpEb8dydJJCbbzQL-mtkyBmpjbmRyUloBQw
+Processing trending topic: Rare Pallas’s cat captured on camera in northern Iran mountains
+Searching Google for: Rare Pallas’s cat captured on camera in northern Iran mountains
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRare%252BPallas%25E2%2580%2599s%252Bcat%252Bcaptured%252Bon%252Bcamera%252Bin%252Bnorthern%252BIran%252Bmountains%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNUypBGJSNitQGIjAGMlYL_J4hLyvfTY5vSi5DjbcqGkM4k9BCcY0bozWCZSVDL6snsNDj3D3I5rB3-DcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-to-turn-cooler-with-rain-after-exceptional-heat_20260817_0300.html
-✓ Created comprehensive article: uk-to-turn-cooler-with-rain-after-exceptional-heat_20260817_0300.html
+Successfully created file: rare-pallass-cat-captured-on-camera-in-northern-ir_20260817_0357.html
+✓ Created comprehensive article: rare-pallass-cat-captured-on-camera-in-northern-ir_20260817_0357.html
 
-Processing trending topic: Ebola outbreak in DR Congo becomes deadliest in country’s history
-Searching Google for: Ebola outbreak in DR Congo becomes deadliest in country’s history
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%252Bin%252BDR%252BCongo%252Bbecomes%252Bdeadliest%252Bin%252Bcountry%25E2%2580%2599s%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGMnyidQGIjD3gNQQXIIALVz3e-7OJ0uMYAk52CJpFPjpUvH_euqLW77PAco8Q6_knodAB-IrbVgyBmpjbmRyUloBQw
+Processing trending topic: Zambia incumbent takes early election lead as opposition alleges armed raid
+Searching Google for: Zambia incumbent takes early election lead as opposition alleges armed raid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZambia%252Bincumbent%252Btakes%252Bearly%252Belection%252Blead%252Bas%252Bopposition%252Balleges%252Barmed%252Braid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNUypBGJ2NitQGIjDexeUIuif25cDbriyXke84Uo843fxL2kZlRKl9WXnCY6Z6P-q-XbRXLR7UhuNagU8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ebola-outbreak-in-dr-congo-becomes-deadliest-in-co_20260817_0300.html
-✓ Created comprehensive article: ebola-outbreak-in-dr-congo-becomes-deadliest-in-co_20260817_0300.html
+Successfully created file: zambia-incumbent-takes-early-election-lead-as-oppo_20260817_0357.html
+✓ Created comprehensive article: zambia-incumbent-takes-early-election-lead-as-oppo_20260817_0357.html
 
-Processing trending topic: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
-Searching Google for: Israeli settlers pitch tents for new illegal outpost in occupied West Bank
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bsettlers%252Bpitch%252Btents%252Bfor%252Bnew%252Billegal%252Boutpost%252Bin%252Boccupied%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--BGNDyidQGIjCxFCeWIJCoKYOGkv_zRE_bsLcT9t9KFO-G5kDm2zfd8nClk-8AR0bmX6a-l2OlLwsyBmpjbmRyUloBQw
+Processing trending topic: Can the AU make its current Sudan mission count?
+Searching Google for: Can the AU make its current Sudan mission count?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252Bthe%252BAU%252Bmake%252Bits%252Bcurrent%252BSudan%252Bmission%252Bcount%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNUypBGKONitQGIjC0qq77tr6K8uOftuXIaF1HVK3x_Cn58muWkvHFIbCv3R9uP0B0NR2SjrIO4xAcjUIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-settlers-pitch-tents-for-new-illegal-outpo_20260817_0300.html
-✓ Created comprehensive article: israeli-settlers-pitch-tents-for-new-illegal-outpo_20260817_0300.html
+Successfully created file: can-the-au-make-its-current-sudan-mission-count_20260817_0357.html
+✓ Created comprehensive article: can-the-au-make-its-current-sudan-mission-count_20260817_0357.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-bbc-visits-smouldering-market-in-ukraine-aft_20260816_1332.html
-Cleaned old post to keep top 30 limit: trump-envoy-kushner-meets-hamas-leader-to-push-gaz_20260817_0109.html
-Cleaned old post to keep top 30 limit: ebola-outbreak-in-democratic-republic-of-congo-now_20260817_0110.html
+Cleaned old post to keep top 30 limit: uk-to-turn-cooler-with-rain-after-exceptional-heat_20260817_0300.html
+Cleaned old post to keep top 30 limit: israeli-settlers-pitch-tents-for-new-illegal-outpo_20260817_0300.html
+Cleaned old post to keep top 30 limit: ebola-outbreak-in-dr-congo-becomes-deadliest-in-co_20260817_0300.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK to turn cooler with rain after exceptional heat and dry spell
+   • Rare Pallas’s cat captured on camera in northern Iran mountains
      Sources: bbc.com, cnn.com, reuters.com
-   • Ebola outbreak in DR Congo becomes deadliest in country’s history
+   • Zambia incumbent takes early election lead as opposition alleges armed raid
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli settlers pitch tents for new illegal outpost in occupied West Bank
+   • Can the AU make its current Sudan mission count?
      Sources: bbc.com, cnn.com, reuters.com
