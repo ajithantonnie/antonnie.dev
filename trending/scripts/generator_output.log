@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
-  Added: Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
+  Added: Russia warns UK over supplying drones to Ukraine
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-18
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says talking to North Korea’s Kim makes the south safer
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
+Added expanded search topic: Trump says talking to North Korea’s Kim makes the south safer
+Added expanded search topic: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
+Saved 6 topics for 2026-08-18
 Returning 3 unique trending topics:
-  1. Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal (from BBC News)
-  2. Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma' (from BBC News)
-  3. Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history (from The Guardian)
+  1. Russia warns UK over supplying drones to Ukraine (from BBC News)
+  2. Trump says talking to North Korea’s Kim makes the south safer (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
-Searching Google for: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252Bto%252Bbomb%252BUS%252Bally%252BOman%252Bif%252Bit%252B%2527gets%252Bin%252Bthe%252Bway%2527%252Bover%252BIran%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvRGN7hjtQGIjAiQHOvyyS3XDhslCj2PdnAQXrjRT0t-z3LB5iy2lUZZ66G4N16KTjaw4nitdeLWHUyBmpjbmRyUloBQw
+Processing trending topic: Russia warns UK over supplying drones to Ukraine
+Searching Google for: Russia warns UK over supplying drones to Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bwarns%252BUK%252Bover%252Bsupplying%252Bdrones%252Bto%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUCbc1GKOUj9QGIjBbGIuZx6W1FEaeJZKVOPVdQsHH5MVbZ8Sbog5vr92dM8mhWBhIx44joexsd_XFArQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-threatens-to-bomb-us-ally-oman-if-it-gets-in_20260818_0109.html
-✓ Created comprehensive article: trump-threatens-to-bomb-us-ally-oman-if-it-gets-in_20260818_0109.html
+Successfully created file: russia-warns-uk-over-supplying-drones-to-ukraine_20260818_0257.html
+✓ Created comprehensive article: russia-warns-uk-over-supplying-drones-to-ukraine_20260818_0257.html
 
-Processing trending topic: Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
-Searching Google for: Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTributes%252Bto%252Bactress%252BHayden%252BPanettiere%252Bas%252Bcoroner%252Bfinds%252B%2527no%252Bsigns%252Bof%252Btrauma%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvRGOXhjtQGIjBCvXU_J3AVxWZpgCa0FRzUqcHJ5rFs7HesDm6RVqLY2fUDA1aTND8raRvljA1T_OoyBmpjbmRyUloBQw
+Processing trending topic: Trump says talking to North Korea’s Kim makes the south safer
+Searching Google for: Trump says talking to North Korea’s Kim makes the south safer
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Btalking%252Bto%252BNorth%252BKorea%25E2%2580%2599s%252BKim%252Bmakes%252Bthe%252Bsouth%252Bsafer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUCbc1GKqUj9QGIjCEOKUQpKY7AHHyI8F8IkiybUUAfriGoNCoYB433NoJAQRk5pezgZ0WRYUJbSWvfsIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tributes-to-actress-hayden-panettiere-as-coroner-f_20260818_0110.html
-✓ Created comprehensive article: tributes-to-actress-hayden-panettiere-as-coroner-f_20260818_0110.html
+Successfully created file: trump-says-talking-to-north-koreas-kim-makes-the-s_20260818_0257.html
+✓ Created comprehensive article: trump-says-talking-to-north-koreas-kim-makes-the-s_20260818_0257.html
 
-Processing trending topic: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Searching Google for: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%252Bin%252BDemocratic%252BRepublic%252Bof%252Bthe%252BCongo%252Bnow%252Bdeadliest%252Bin%252Bcountry%25E2%2580%2599s%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvRGOvhjtQGIjDm_1lBVlp7aTMG7Q_H6GDDwi4OZcyPear5J3vlsDHzy1-etPfNUduiIqAa9lAFe1gyBmpjbmRyUloBQw
+Processing trending topic: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
+Searching Google for: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLarge%252Bfire%252Bbreaks%252Bout%252Bat%252Bfuel%252Bdepot%252Bnear%252BIraq%25E2%2580%2599s%252BSulaimaniyah%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUCbc1GLCUj9QGIjCX7TTOj3G6Xp-AO4OSCFkpBDdR2Kx55EBfPbIajbs46bGmMlGwRUXu0rEVBd9qtPkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ebola-outbreak-in-democratic-republic-of-the-congo_20260818_0110.html
-✓ Created comprehensive article: ebola-outbreak-in-democratic-republic-of-the-congo_20260818_0110.html
+Successfully created file: large-fire-breaks-out-at-fuel-depot-near-iraqs-sul_20260818_0257.html
+✓ Created comprehensive article: large-fire-breaks-out-at-fuel-depot-near-iraqs-sul_20260818_0257.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-loses-second-supreme-court-bid-over-e-jean-c_20260817_2324.html
-Cleaned old post to keep top 30 limit: trump-says-iran-will-not-make-the-deal-he-believes_20260817_2323.html
-Cleaned old post to keep top 30 limit: as-rubble-clears-colombia-begins-focusing-on-recov_20260817_2323.html
+Cleaned old post to keep top 30 limit: trump-threatens-to-bomb-us-ally-oman-if-it-gets-in_20260818_0109.html
+Cleaned old post to keep top 30 limit: tributes-to-actress-hayden-panettiere-as-coroner-f_20260818_0110.html
+Cleaned old post to keep top 30 limit: ebola-outbreak-in-democratic-republic-of-the-congo_20260818_0110.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
+   • Russia warns UK over supplying drones to Ukraine
      Sources: bbc.com, cnn.com, reuters.com
-   • Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
+   • Trump says talking to North Korea’s Kim makes the south safer
      Sources: bbc.com, cnn.com, reuters.com
-   • Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
+   • Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
      Sources: bbc.com, cnn.com, reuters.com
