@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia warns UK will pay for supplying drones to Ukraine
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump lashes out at CNN reporter over South Korea question
-Added expanded search topic: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
-Added expanded search topic: Trump lashes out at CNN reporter over South Korea question
-Saved 27 topics for 2026-08-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazil’s president says Amazon oil is ‘passport to the future’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Syrian man dies in custody after alleged abuse by security officers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Meta lawsuits: Is social media facing a global legal reckoning?
+Added expanded search topic: Brazil’s president says Amazon oil is ‘passport to the future’
+Added expanded search topic: Syrian man dies in custody after alleged abuse by security officers
+Added expanded search topic: Meta lawsuits: Is social media facing a global legal reckoning?
+Saved 30 topics for 2026-08-18
 Returning 3 unique trending topics:
-  1. Russia warns UK will pay for supplying drones to Ukraine (from BBC News)
-  2. Cincinnati Open: Williams sisters fall in doubles while Zverev advances (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump lashes out at CNN reporter over South Korea question (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Brazil’s president says Amazon oil is ‘passport to the future’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Syrian man dies in custody after alleged abuse by security officers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Meta lawsuits: Is social media facing a global legal reckoning? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia warns UK will pay for supplying drones to Ukraine
-Searching Google for: Russia warns UK will pay for supplying drones to Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bwarns%252BUK%252Bwill%252Bpay%252Bfor%252Bsupplying%252Bdrones%252Bto%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i4GP7NkNQGIjCNuqNJAmNpfYyTK9AHF0xakWf_CIFDI6IDZjiK_YalJJ-MUaVRAm_sZpJq2iOqWEcyBmpjbmRyUloBQw
+Processing trending topic: Brazil’s president says Amazon oil is ‘passport to the future’
+Searching Google for: Brazil’s president says Amazon oil is ‘passport to the future’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazil%25E2%2580%2599s%252Bpresident%252Bsays%252BAmazon%252Boil%252Bis%252B%25E2%2580%2598passport%252Bto%252Bthe%252Bfuture%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLWGPTnkNQGIjBMqAFFDSjMS67ZXdECb8_wy83Y3fBECttwstINAceq-whk0WH0ItkjjYts9WFYwiMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-warns-uk-will-pay-for-supplying-drones-to-u_20260818_0933.html
-✓ Created comprehensive article: russia-warns-uk-will-pay-for-supplying-drones-to-u_20260818_0933.html
+Successfully created file: brazils-president-says-amazon-oil-is-passport-to-t_20260818_1029.html
+✓ Created comprehensive article: brazils-president-says-amazon-oil-is-passport-to-t_20260818_1029.html
 
-Processing trending topic: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
-Searching Google for: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCincinnati%252BOpen%253A%252BWilliams%252Bsisters%252Bfall%252Bin%252Bdoubles%252Bwhile%252BZverev%252Badvances%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i4GIXOkNQGIjBgjTGL4gRkrIjncFFTO0cxdMcVzExjw8zCvVzBu1kgDuOOLT8Jy-4bcXYXG3wxU8wyBmpjbmRyUloBQw
+Processing trending topic: Syrian man dies in custody after alleged abuse by security officers
+Searching Google for: Syrian man dies in custody after alleged abuse by security officers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSyrian%252Bman%252Bdies%252Bin%252Bcustody%252Bafter%252Balleged%252Babuse%252Bby%252Bsecurity%252Bofficers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLWGPznkNQGIjAcXV6SwVeZGBrVTjWmg826Gdxq4h_cOl_b3RH1DpYxXcaghxGQpdRU5CCIIOUfyNEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cincinnati-open-williams-sisters-fall-in-doubles-w_20260818_0934.html
-✓ Created comprehensive article: cincinnati-open-williams-sisters-fall-in-doubles-w_20260818_0934.html
+Successfully created file: syrian-man-dies-in-custody-after-alleged-abuse-by-_20260818_1029.html
+✓ Created comprehensive article: syrian-man-dies-in-custody-after-alleged-abuse-by-_20260818_1029.html
 
-Processing trending topic: Trump lashes out at CNN reporter over South Korea question
-Searching Google for: Trump lashes out at CNN reporter over South Korea question
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Blashes%252Bout%252Bat%252BCNN%252Breporter%252Bover%252BSouth%252BKorea%252Bquestion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i4GIvOkNQGIjADRrJlgeB8A0mdz7Ou2-8TBz5T44GuEUVSaoY1qlDMwFY3ynDQ4pGioS6PuEQQSIAyBmpjbmRyUloBQw
+Processing trending topic: Meta lawsuits: Is social media facing a global legal reckoning?
+Searching Google for: Meta lawsuits: Is social media facing a global legal reckoning?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMeta%252Blawsuits%253A%252BIs%252Bsocial%252Bmedia%252Bfacing%252Ba%252Bglobal%252Blegal%252Breckoning%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsLWGILokNQGIjA6WECw2-j02DQI8-oK3eGBhjL8hRt7bGHZsJFIHuCywxXGkDcx7ljzk8I5PhAtCqUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-lashes-out-at-cnn-reporter-over-south-korea-_20260818_0934.html
-✓ Created comprehensive article: trump-lashes-out-at-cnn-reporter-over-south-korea-_20260818_0934.html
+Successfully created file: meta-lawsuits-is-social-media-facing-a-global-lega_20260818_1029.html
+✓ Created comprehensive article: meta-lawsuits-is-social-media-facing-a-global-lega_20260818_1029.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-iran-memorandum-of-understanding-expires-how-an_20260817_1241.html
-Cleaned old post to keep top 30 limit: top-russian-economist-ousted-after-warning-of-grow_20260818_0836.html
-Cleaned old post to keep top 30 limit: chinese-company-unveils-new-superman-humanoid-robo_20260818_0836.html
+Cleaned old post to keep top 30 limit: what-to-watch-in-tuesdays-florida-primary-election_20260818_0836.html
+Cleaned old post to keep top 30 limit: russia-warns-uk-will-pay-for-supplying-drones-to-u_20260818_0933.html
+Cleaned old post to keep top 30 limit: cincinnati-open-williams-sisters-fall-in-doubles-w_20260818_0934.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia warns UK will pay for supplying drones to Ukraine
+   • Brazil’s president says Amazon oil is ‘passport to the future’
      Sources: bbc.com, cnn.com, reuters.com
-   • Cincinnati Open: Williams sisters fall in doubles while Zverev advances
+   • Syrian man dies in custody after alleged abuse by security officers
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump lashes out at CNN reporter over South Korea question
+   • Meta lawsuits: Is social media facing a global legal reckoning?
      Sources: bbc.com, cnn.com, reuters.com
