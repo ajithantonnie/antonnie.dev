@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 24 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Russia warns UK will pay for supplying drones to Ukraine
   Added: IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus
-  Added: Russia says UK 'will pay' for supplying drones to Ukraine
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chinese company unveils new ‘Superman’ humanoid robot
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What to watch in Tuesday’s Florida primary elections
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Top Russian economist ousted after warning of growing costs of Ukraine war
-Added expanded search topic: Chinese company unveils new ‘Superman’ humanoid robot
-Added expanded search topic: What to watch in Tuesday’s Florida primary elections
-Added expanded search topic: Top Russian economist ousted after warning of growing costs of Ukraine war
-Saved 24 topics for 2026-08-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump lashes out at CNN reporter over South Korea question
+Added expanded search topic: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
+Added expanded search topic: Trump lashes out at CNN reporter over South Korea question
+Saved 27 topics for 2026-08-18
 Returning 3 unique trending topics:
-  1. Chinese company unveils new ‘Superman’ humanoid robot (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. What to watch in Tuesday’s Florida primary elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Top Russian economist ousted after warning of growing costs of Ukraine war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia warns UK will pay for supplying drones to Ukraine (from BBC News)
+  2. Cincinnati Open: Williams sisters fall in doubles while Zverev advances (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump lashes out at CNN reporter over South Korea question (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Chinese company unveils new ‘Superman’ humanoid robot
-Searching Google for: Chinese company unveils new ‘Superman’ humanoid robot
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChinese%252Bcompany%252Bunveils%252Bnew%252B%25E2%2580%2598Superman%25E2%2580%2599%252Bhumanoid%252Brobot%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHzGIyzkNQGIjBbi-eSb6erGZqsjL_3KoUqLCu-JG-1rTMjtokmUlQR6vSwGsXjocLCA6mE1t7mcjUyBmpjbmRyUloBQw
+Processing trending topic: Russia warns UK will pay for supplying drones to Ukraine
+Searching Google for: Russia warns UK will pay for supplying drones to Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bwarns%252BUK%252Bwill%252Bpay%252Bfor%252Bsupplying%252Bdrones%252Bto%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i4GP7NkNQGIjCNuqNJAmNpfYyTK9AHF0xakWf_CIFDI6IDZjiK_YalJJ-MUaVRAm_sZpJq2iOqWEcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chinese-company-unveils-new-superman-humanoid-robo_20260818_0836.html
-✓ Created comprehensive article: chinese-company-unveils-new-superman-humanoid-robo_20260818_0836.html
+Successfully created file: russia-warns-uk-will-pay-for-supplying-drones-to-u_20260818_0933.html
+✓ Created comprehensive article: russia-warns-uk-will-pay-for-supplying-drones-to-u_20260818_0933.html
 
-Processing trending topic: What to watch in Tuesday’s Florida primary elections
-Searching Google for: What to watch in Tuesday’s Florida primary elections
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bto%252Bwatch%252Bin%252BTuesday%25E2%2580%2599s%252BFlorida%252Bprimary%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHzGJOzkNQGIjCxqNOk65xpn5o-mKxxMFxebf32qKNNUB5dZgVbAGVUG4wu-qUEF9M6JmFqPoo-csQyBmpjbmRyUloBQw
+Processing trending topic: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
+Searching Google for: Cincinnati Open: Williams sisters fall in doubles while Zverev advances
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCincinnati%252BOpen%253A%252BWilliams%252Bsisters%252Bfall%252Bin%252Bdoubles%252Bwhile%252BZverev%252Badvances%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i4GIXOkNQGIjBgjTGL4gRkrIjncFFTO0cxdMcVzExjw8zCvVzBu1kgDuOOLT8Jy-4bcXYXG3wxU8wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-to-watch-in-tuesdays-florida-primary-election_20260818_0836.html
-✓ Created comprehensive article: what-to-watch-in-tuesdays-florida-primary-election_20260818_0836.html
+Successfully created file: cincinnati-open-williams-sisters-fall-in-doubles-w_20260818_0934.html
+✓ Created comprehensive article: cincinnati-open-williams-sisters-fall-in-doubles-w_20260818_0934.html
 
-Processing trending topic: Top Russian economist ousted after warning of growing costs of Ukraine war
-Searching Google for: Top Russian economist ousted after warning of growing costs of Ukraine war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTop%252BRussian%252Beconomist%252Bousted%252Bafter%252Bwarning%252Bof%252Bgrowing%252Bcosts%252Bof%252BUkraine%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHzGJmzkNQGIjAAGsN9mfbnbjiMqYgNdTJnsCHE2ITBC_QAP2ELlODIqVIsXpIoGo-6OcD08NkL2iQyBmpjbmRyUloBQw
+Processing trending topic: Trump lashes out at CNN reporter over South Korea question
+Searching Google for: Trump lashes out at CNN reporter over South Korea question
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Blashes%252Bout%252Bat%252BCNN%252Breporter%252Bover%252BSouth%252BKorea%252Bquestion%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4i4GIvOkNQGIjADRrJlgeB8A0mdz7Ou2-8TBz5T44GuEUVSaoY1qlDMwFY3ynDQ4pGioS6PuEQQSIAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: top-russian-economist-ousted-after-warning-of-grow_20260818_0836.html
-✓ Created comprehensive article: top-russian-economist-ousted-after-warning-of-grow_20260818_0836.html
+Successfully created file: trump-lashes-out-at-cnn-reporter-over-south-korea-_20260818_0934.html
+✓ Created comprehensive article: trump-lashes-out-at-cnn-reporter-over-south-korea-_20260818_0934.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-says-n-koreas-kim-has-responded-to-his-reque_20260818_0642.html
-Cleaned old post to keep top 30 limit: russia-says-more-than-600-drones-targeted-moscow-r_20260818_0739.html
-Cleaned old post to keep top 30 limit: israeli-settler-children-attack-ambulance-in-occup_20260818_0739.html
+Cleaned old post to keep top 30 limit: us-iran-memorandum-of-understanding-expires-how-an_20260817_1241.html
+Cleaned old post to keep top 30 limit: top-russian-economist-ousted-after-warning-of-grow_20260818_0836.html
+Cleaned old post to keep top 30 limit: chinese-company-unveils-new-superman-humanoid-robo_20260818_0836.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Chinese company unveils new ‘Superman’ humanoid robot
+   • Russia warns UK will pay for supplying drones to Ukraine
      Sources: bbc.com, cnn.com, reuters.com
-   • What to watch in Tuesday’s Florida primary elections
+   • Cincinnati Open: Williams sisters fall in doubles while Zverev advances
      Sources: bbc.com, cnn.com, reuters.com
-   • Top Russian economist ousted after warning of growing costs of Ukraine war
+   • Trump lashes out at CNN reporter over South Korea question
      Sources: bbc.com, cnn.com, reuters.com
