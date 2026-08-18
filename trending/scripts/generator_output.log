@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says talking to North Korea’s Kim makes the south safer
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
-Added expanded search topic: Trump says talking to North Korea’s Kim makes the south safer
-Added expanded search topic: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
-Saved 6 topics for 2026-08-18
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two killed as gunman opens fire at Philippines high school, official says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Vigil held in central London for late Cambridge professor Jason Arday
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Zambia’s Hichilema wins second term as president
+Added expanded search topic: Two killed as gunman opens fire at Philippines high school, official says
+Added expanded search topic: Vigil held in central London for late Cambridge professor Jason Arday
+Added expanded search topic: Zambia’s Hichilema wins second term as president
+Saved 9 topics for 2026-08-18
 Returning 3 unique trending topics:
-  1. Russia warns UK over supplying drones to Ukraine (from BBC News)
-  2. Trump says talking to North Korea’s Kim makes the south safer (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Two killed as gunman opens fire at Philippines high school, official says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Vigil held in central London for late Cambridge professor Jason Arday (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Zambia’s Hichilema wins second term as president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia warns UK over supplying drones to Ukraine
-Searching Google for: Russia warns UK over supplying drones to Ukraine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bwarns%252BUK%252Bover%252Bsupplying%252Bdrones%252Bto%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUCbc1GKOUj9QGIjBbGIuZx6W1FEaeJZKVOPVdQsHH5MVbZ8Sbog5vr92dM8mhWBhIx44joexsd_XFArQyBmpjbmRyUloBQw
+Processing trending topic: Two killed as gunman opens fire at Philippines high school, official says
+Searching Google for: Two killed as gunman opens fire at Philippines high school, official says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bkilled%252Bas%252Bgunman%252Bopens%252Bfire%252Bat%252BPhilippines%252Bhigh%252Bschool%252C%252Bofficial%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOdfyGMerj9QGIjAz0fcGn31jUgq_U-ISnZ-Q1PYSO2YtHrC9U7c4hDOKzqRuvCpnIc-jl0UjXDWTJ64yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-warns-uk-over-supplying-drones-to-ukraine_20260818_0257.html
-✓ Created comprehensive article: russia-warns-uk-over-supplying-drones-to-ukraine_20260818_0257.html
+Successfully created file: two-killed-as-gunman-opens-fire-at-philippines-hig_20260818_0347.html
+✓ Created comprehensive article: two-killed-as-gunman-opens-fire-at-philippines-hig_20260818_0347.html
 
-Processing trending topic: Trump says talking to North Korea’s Kim makes the south safer
-Searching Google for: Trump says talking to North Korea’s Kim makes the south safer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Btalking%252Bto%252BNorth%252BKorea%25E2%2580%2599s%252BKim%252Bmakes%252Bthe%252Bsouth%252Bsafer%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUCbc1GKqUj9QGIjCEOKUQpKY7AHHyI8F8IkiybUUAfriGoNCoYB433NoJAQRk5pezgZ0WRYUJbSWvfsIyBmpjbmRyUloBQw
+Processing trending topic: Vigil held in central London for late Cambridge professor Jason Arday
+Searching Google for: Vigil held in central London for late Cambridge professor Jason Arday
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVigil%252Bheld%252Bin%252Bcentral%252BLondon%252Bfor%252Blate%252BCambridge%252Bprofessor%252BJason%252BArday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOdfyGM2rj9QGIjDQCHp_RWkUOHX58nvAfsD9PoRRt6JPVnquIBi8XyK0io8vT9RCEMfE3A5yTiksYYkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-talking-to-north-koreas-kim-makes-the-s_20260818_0257.html
-✓ Created comprehensive article: trump-says-talking-to-north-koreas-kim-makes-the-s_20260818_0257.html
+Successfully created file: vigil-held-in-central-london-for-late-cambridge-pr_20260818_0347.html
+✓ Created comprehensive article: vigil-held-in-central-london-for-late-cambridge-pr_20260818_0347.html
 
-Processing trending topic: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
-Searching Google for: Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLarge%252Bfire%252Bbreaks%252Bout%252Bat%252Bfuel%252Bdepot%252Bnear%252BIraq%25E2%2580%2599s%252BSulaimaniyah%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUCbc1GLCUj9QGIjCX7TTOj3G6Xp-AO4OSCFkpBDdR2Kx55EBfPbIajbs46bGmMlGwRUXu0rEVBd9qtPkyBmpjbmRyUloBQw
+Processing trending topic: Zambia’s Hichilema wins second term as president
+Searching Google for: Zambia’s Hichilema wins second term as president
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZambia%25E2%2580%2599s%252BHichilema%252Bwins%252Bsecond%252Bterm%252Bas%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUOdfyGNSrj9QGIjAVmhNJukJeDk6CrfZ-pC-7us3Lnp5JgVyxux-2Ua1Ag5SlHkraPM50R3O6vAo9Z5QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: large-fire-breaks-out-at-fuel-depot-near-iraqs-sul_20260818_0257.html
-✓ Created comprehensive article: large-fire-breaks-out-at-fuel-depot-near-iraqs-sul_20260818_0257.html
+Successfully created file: zambias-hichilema-wins-second-term-as-president_20260818_0347.html
+✓ Created comprehensive article: zambias-hichilema-wins-second-term-as-president_20260818_0347.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-threatens-to-bomb-us-ally-oman-if-it-gets-in_20260818_0109.html
-Cleaned old post to keep top 30 limit: tributes-to-actress-hayden-panettiere-as-coroner-f_20260818_0110.html
-Cleaned old post to keep top 30 limit: ebola-outbreak-in-democratic-republic-of-the-congo_20260818_0110.html
+Cleaned old post to keep top 30 limit: truth-or-fiction-us-trial-of-tupac-shakurs-accused_20260817_2225.html
+Cleaned old post to keep top 30 limit: trump-says-talking-to-north-koreas-kim-makes-the-s_20260818_0257.html
+Cleaned old post to keep top 30 limit: large-fire-breaks-out-at-fuel-depot-near-iraqs-sul_20260818_0257.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia warns UK over supplying drones to Ukraine
+   • Two killed as gunman opens fire at Philippines high school, official says
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says talking to North Korea’s Kim makes the south safer
+   • Vigil held in central London for late Cambridge professor Jason Arday
      Sources: bbc.com, cnn.com, reuters.com
-   • Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah
+   • Zambia’s Hichilema wins second term as president
      Sources: bbc.com, cnn.com, reuters.com
