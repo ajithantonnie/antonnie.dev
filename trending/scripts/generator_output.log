@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 63 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: As rubble clears, Colombia begins focusing on recovery after the earthquake
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says Iran will not make the deal he believes is necessary
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump loses second Supreme Court bid over E Jean Carroll sex abuse case
-Added expanded search topic: As rubble clears, Colombia begins focusing on recovery after the earthquake
-Added expanded search topic: Trump says Iran will not make the deal he believes is necessary
-Added expanded search topic: Trump loses second Supreme Court bid over E Jean Carroll sex abuse case
-Saved 66 topics for 2026-08-17
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-18
 Returning 3 unique trending topics:
-  1. As rubble clears, Colombia begins focusing on recovery after the earthquake (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Trump says Iran will not make the deal he believes is necessary (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump loses second Supreme Court bid over E Jean Carroll sex abuse case (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal (from BBC News)
+  2. Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma' (from BBC News)
+  3. Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history (from The Guardian)
 
-Processing trending topic: As rubble clears, Colombia begins focusing on recovery after the earthquake
-Searching Google for: As rubble clears, Colombia begins focusing on recovery after the earthquake
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAs%252Brubble%252Bclears%252C%252BColombia%252Bbegins%252Bfocusing%252Bon%252Brecovery%252Bafter%252Bthe%252Bearthquake%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2ePwGISwjtQGIjDF8gExjZgvT6OqblI9o5fr2A231EK3r12b4_BC2TaqHUemLvpclmaO9wPtqeCB1JkyBmpjbmRyUloBQw
+Processing trending topic: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
+Searching Google for: Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bthreatens%252Bto%252Bbomb%252BUS%252Bally%252BOman%252Bif%252Bit%252B%2527gets%252Bin%252Bthe%252Bway%2527%252Bover%252BIran%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvRGN7hjtQGIjAiQHOvyyS3XDhslCj2PdnAQXrjRT0t-z3LB5iy2lUZZ66G4N16KTjaw4nitdeLWHUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: as-rubble-clears-colombia-begins-focusing-on-recov_20260817_2323.html
-✓ Created comprehensive article: as-rubble-clears-colombia-begins-focusing-on-recov_20260817_2323.html
+Successfully created file: trump-threatens-to-bomb-us-ally-oman-if-it-gets-in_20260818_0109.html
+✓ Created comprehensive article: trump-threatens-to-bomb-us-ally-oman-if-it-gets-in_20260818_0109.html
 
-Processing trending topic: Trump says Iran will not make the deal he believes is necessary
-Searching Google for: Trump says Iran will not make the deal he believes is necessary
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BIran%252Bwill%252Bnot%252Bmake%252Bthe%252Bdeal%252Bhe%252Bbelieves%252Bis%252Bnecessary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2ePwGIuwjtQGIjCTA5QxTafn2sHiJ-LV3iYIwQS_p-IIUgiK7pzON6Tv9uyLOGfRzKjh8xRdPnTiLiYyBmpjbmRyUloBQw
+Processing trending topic: Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
+Searching Google for: Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTributes%252Bto%252Bactress%252BHayden%252BPanettiere%252Bas%252Bcoroner%252Bfinds%252B%2527no%252Bsigns%252Bof%252Btrauma%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvRGOXhjtQGIjBCvXU_J3AVxWZpgCa0FRzUqcHJ5rFs7HesDm6RVqLY2fUDA1aTND8raRvljA1T_OoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-iran-will-not-make-the-deal-he-believes_20260817_2323.html
-✓ Created comprehensive article: trump-says-iran-will-not-make-the-deal-he-believes_20260817_2323.html
+Successfully created file: tributes-to-actress-hayden-panettiere-as-coroner-f_20260818_0110.html
+✓ Created comprehensive article: tributes-to-actress-hayden-panettiere-as-coroner-f_20260818_0110.html
 
-Processing trending topic: Trump loses second Supreme Court bid over E Jean Carroll sex abuse case
-Searching Google for: Trump loses second Supreme Court bid over E Jean Carroll sex abuse case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bloses%252Bsecond%252BSupreme%252BCourt%252Bbid%252Bover%252BE%252BJean%252BCarroll%252Bsex%252Babuse%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2ePwGJGwjtQGIjAm3yPQ7P995f24nRVPv1VTvuwCTT0lA6arpusw8UrtMyi93qHmQgGWcLi7dnGZRskyBmpjbmRyUloBQw
+Processing trending topic: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
+Searching Google for: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Boutbreak%252Bin%252BDemocratic%252BRepublic%252Bof%252Bthe%252BCongo%252Bnow%252Bdeadliest%252Bin%252Bcountry%25E2%2580%2599s%252Bhistory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNvRGOvhjtQGIjDm_1lBVlp7aTMG7Q_H6GDDwi4OZcyPear5J3vlsDHzy1-etPfNUduiIqAa9lAFe1gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-loses-second-supreme-court-bid-over-e-jean-c_20260817_2324.html
-✓ Created comprehensive article: trump-loses-second-supreme-court-bid-over-e-jean-c_20260817_2324.html
+Successfully created file: ebola-outbreak-in-democratic-republic-of-the-congo_20260818_0110.html
+✓ Created comprehensive article: ebola-outbreak-in-democratic-republic-of-the-congo_20260818_0110.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: palestinian-american-reunites-with-family-under-si_20260817_2225.html
-Cleaned old post to keep top 30 limit: why-did-trump-scale-back-war-games-with-south-kore_20260817_2030.html
-Cleaned old post to keep top 30 limit: civilians-paying-price-as-israeli-military-raises-_20260817_2225.html
+Cleaned old post to keep top 30 limit: trump-loses-second-supreme-court-bid-over-e-jean-c_20260817_2324.html
+Cleaned old post to keep top 30 limit: trump-says-iran-will-not-make-the-deal-he-believes_20260817_2323.html
+Cleaned old post to keep top 30 limit: as-rubble-clears-colombia-begins-focusing-on-recov_20260817_2323.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • As rubble clears, Colombia begins focusing on recovery after the earthquake
+   • Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says Iran will not make the deal he believes is necessary
+   • Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump loses second Supreme Court bid over E Jean Carroll sex abuse case
+   • Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
      Sources: bbc.com, cnn.com, reuters.com
