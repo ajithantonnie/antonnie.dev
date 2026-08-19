@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Track defect found on approach to site of Lewes derailment, initial report says
   Added: Thunderstorm warnings issued for parts of UK with flash flooding expected
-  Added: Israeli army orders criminal investigation into killing of Palestinian girl Hind Rajab in Gaza
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli forces mark Palestinians with numbers amid mass arrests
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why aid entering Gaza may not reach those who need it
-Added expanded search topic: Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri
-Added expanded search topic: Israeli forces mark Palestinians with numbers amid mass arrests
-Added expanded search topic: Why aid entering Gaza may not reach those who need it
-Saved 33 topics for 2026-08-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: War on Iran: Iran allegedly targets the UAE
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian factions explore broad alliance for November elections
+Added expanded search topic: War on Iran: Iran allegedly targets the UAE
+Added expanded search topic: Palestinian factions explore broad alliance for November elections
+Saved 36 topics for 2026-08-19
 Returning 3 unique trending topics:
-  1. Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Israeli forces mark Palestinians with numbers amid mass arrests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Why aid entering Gaza may not reach those who need it (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Track defect found on approach to site of Lewes derailment, initial report says (from BBC News)
+  2. War on Iran: Iran allegedly targets the UAE (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Palestinian factions explore broad alliance for November elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri
-Searching Google for: Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMourinho%252Bfires%252BReal%252BMadrid%252Bshot%252Bat%252BBarcelona%252Bsaying%252Bhe%252B%25E2%2580%2598didn%25E2%2580%2599t%252Bneed%25E2%2580%2599%252BRodri%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lAU4GKLnltQGIjBq09m3kigHcQnkapZiyIhcjAyg4oV75n3RkwSV5J4_UjAhuU5bM9wcB7KO0U_7XQkyBmpjbmRyUloBQw
+Processing trending topic: Track defect found on approach to site of Lewes derailment, initial report says
+Searching Google for: Track defect found on approach to site of Lewes derailment, initial report says
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mourinho-fires-real-madrid-shot-at-barcelona-sayin_20260819_1346.html
-✓ Created comprehensive article: mourinho-fires-real-madrid-shot-at-barcelona-sayin_20260819_1346.html
+Successfully created file: track-defect-found-on-approach-to-site-of-lewes-de_20260819_1434.html
+✓ Created comprehensive article: track-defect-found-on-approach-to-site-of-lewes-de_20260819_1434.html
 
-Processing trending topic: Israeli forces mark Palestinians with numbers amid mass arrests
-Searching Google for: Israeli forces mark Palestinians with numbers amid mass arrests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bforces%252Bmark%252BPalestinians%252Bwith%252Bnumbers%252Bamid%252Bmass%252Barrests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lAU4GKnnltQGIjA-BI_N5dndMjf87nB1r6Q3HIHfz8E7Uu3zBXSDuTlfud-bGxDMQN4Qq1kLeT34szsyBmpjbmRyUloBQw
+Processing trending topic: War on Iran: Iran allegedly targets the UAE
+Searching Google for: War on Iran: Iran allegedly targets the UAE
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-forces-mark-palestinians-with-numbers-amid_20260819_1346.html
-✓ Created comprehensive article: israeli-forces-mark-palestinians-with-numbers-amid_20260819_1346.html
+Successfully created file: war-on-iran-iran-allegedly-targets-the-uae_20260819_1435.html
+✓ Created comprehensive article: war-on-iran-iran-allegedly-targets-the-uae_20260819_1435.html
 
-Processing trending topic: Why aid entering Gaza may not reach those who need it
-Searching Google for: Why aid entering Gaza may not reach those who need it
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Baid%252Bentering%252BGaza%252Bmay%252Bnot%252Breach%252Bthose%252Bwho%252Bneed%252Bit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0lAU4GLDnltQGIjChJmMbNn-UWzNfAl-Z2tvBK2P57_agEa9eQr_wuj6Q44GkhaqpwhbPkhSN2moKjJUyBmpjbmRyUloBQw
+Processing trending topic: Palestinian factions explore broad alliance for November elections
+Searching Google for: Palestinian factions explore broad alliance for November elections
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-aid-entering-gaza-may-not-reach-those-who-need_20260819_1346.html
-✓ Created comprehensive article: why-aid-entering-gaza-may-not-reach-those-who-need_20260819_1346.html
+Successfully created file: palestinian-factions-explore-broad-alliance-for-no_20260819_1435.html
+✓ Created comprehensive article: palestinian-factions-explore-broad-alliance-for-no_20260819_1435.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: israeli-army-orders-criminal-investigation-into-ki_20260819_1244.html
-Cleaned old post to keep top 30 limit: why-white-house-envoys-cannot-sway-israels-war-lea_20260819_1125.html
-Cleaned old post to keep top 30 limit: in-ukraine-forcible-military-recruitment-efforts-e_20260819_1244.html
+Cleaned old post to keep top 30 limit: us-judge-says-government-can-revoke-deportation-pr_20260818_1931.html
+Cleaned old post to keep top 30 limit: mourinho-fires-real-madrid-shot-at-barcelona-sayin_20260819_1346.html
+Cleaned old post to keep top 30 limit: israeli-forces-mark-palestinians-with-numbers-amid_20260819_1346.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Mourinho fires Real Madrid shot at Barcelona saying he ‘didn’t need’ Rodri
+   • Track defect found on approach to site of Lewes derailment, initial report says
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli forces mark Palestinians with numbers amid mass arrests
+   • War on Iran: Iran allegedly targets the UAE
      Sources: bbc.com, cnn.com, reuters.com
-   • Why aid entering Gaza may not reach those who need it
+   • Palestinian factions explore broad alliance for November elections
      Sources: bbc.com, cnn.com, reuters.com
