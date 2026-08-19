@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 54 topics
+Already used today: 57 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Prince Harry and Meghan moving back to UK
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Five Americans among seven killed in safari helicopter crash in Kenya
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What the social media addiction lawsuit could cost Meta
-Added expanded search topic: What the social media addiction lawsuit could cost Meta
-Saved 57 topics for 2026-08-19
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: “I get along with him very well.”
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strike on Gaza City police headquarters kills women’s police chief
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar
+Added expanded search topic: “I get along with him very well.”
+Added expanded search topic: Israeli strike on Gaza City police headquarters kills women’s police chief
+Added expanded search topic: Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar
+Saved 60 topics for 2026-08-19
 Returning 3 unique trending topics:
-  1. Prince Harry and Meghan moving back to UK (from BBC News)
-  2. Five Americans among seven killed in safari helicopter crash in Kenya (from The Guardian)
-  3. What the social media addiction lawsuit could cost Meta (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. “I get along with him very well.” (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli strike on Gaza City police headquarters kills women’s police chief (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Prince Harry and Meghan moving back to UK
-Searching Google for: Prince Harry and Meghan moving back to UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Band%252BMeghan%252Bmoving%252Bback%252Bto%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jjGOTbmNQGIjDJk_DvUhIOEdCvGnjLhCx9gAr6D2nht8K0Y1Nk6Up_JIF3hE5XiLqTM0IBlYA5iBoyBmpjbmRyUloBQw
+Processing trending topic: “I get along with him very well.”
+Searching Google for: “I get along with him very well.”
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%259CI%252Bget%252Balong%252Bwith%252Bhim%252Bvery%252Bwell.%25E2%2580%259D%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTqJGI_2mNQGIjCkRboD9EBX9F0c1bsHZMubEMLz0Wx-QQe-15cPbwQo-NuEFH_YuJNb0xCed_9RQtkyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-and-meghan-moving-back-to-uk_20260819_2227.html
-✓ Created comprehensive article: prince-harry-and-meghan-moving-back-to-uk_20260819_2227.html
+Successfully created file: i-get-along-with-him-very-well_20260819_2324.html
+✓ Created comprehensive article: i-get-along-with-him-very-well_20260819_2324.html
 
-Processing trending topic: Five Americans among seven killed in safari helicopter crash in Kenya
-Searching Google for: Five Americans among seven killed in safari helicopter crash in Kenya
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252BAmericans%252Bamong%252Bseven%252Bkilled%252Bin%252Bsafari%252Bhelicopter%252Bcrash%252Bin%252BKenya%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jjGOvbmNQGIjBgsTTNDXLbv6fJy_UGr9izRgBc2WWl1XsnoRGDO-TLtO6qvm4HlfIfGBMX1WZKfCoyBmpjbmRyUloBQw
+Processing trending topic: Israeli strike on Gaza City police headquarters kills women’s police chief
+Searching Google for: Israeli strike on Gaza City police headquarters kills women’s police chief
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrike%252Bon%252BGaza%252BCity%252Bpolice%252Bheadquarters%252Bkills%252Bwomen%25E2%2580%2599s%252Bpolice%252Bchief%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTqJGJb2mNQGIjCIGJYoUdBxL_t8Gi42fjQzzQg45Pp_wfCO78Gv7eOB9eq_InKRMSHHUB6ZDIkLS14yAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: five-americans-among-seven-killed-in-safari-helico_20260819_2228.html
-✓ Created comprehensive article: five-americans-among-seven-killed-in-safari-helico_20260819_2228.html
+Successfully created file: israeli-strike-on-gaza-city-police-headquarters-ki_20260819_2324.html
+✓ Created comprehensive article: israeli-strike-on-gaza-city-police-headquarters-ki_20260819_2324.html
 
-Processing trending topic: What the social media addiction lawsuit could cost Meta
-Searching Google for: What the social media addiction lawsuit could cost Meta
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bthe%252Bsocial%252Bmedia%252Baddiction%252Blawsuit%252Bcould%252Bcost%252BMeta%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19jjGPLbmNQGIjCX4Cy_MEv11G2nL4IC_u3UxuCUOF3eFgP31TjLNPLEzeAkmIEBed7Ac0uU0vjLe3QyBmpjbmRyUloBQw
+Processing trending topic: Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar
+Searching Google for: Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDisplaced%252BLebanese%252Bwatch%252Bsouthern%252BLebanon%25E2%2580%2599s%252B%25E2%2580%2598pilot%252Bzones%25E2%2580%2599%252Bfrom%252Bafar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoQTqJGJz2mNQGIjCTB0TyrPq-IdZIYbss4uWGqYA_p0KA8xC858mSbPrAu-EXPzzrClHTQIoZb6uzTqIyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-the-social-media-addiction-lawsuit-could-cost_20260819_2228.html
-✓ Created comprehensive article: what-the-social-media-addiction-lawsuit-could-cost_20260819_2228.html
+Successfully created file: displaced-lebanese-watch-southern-lebanons-pilot-z_20260819_2324.html
+✓ Created comprehensive article: displaced-lebanese-watch-southern-lebanons-pilot-z_20260819_2324.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-extreme-heat-is-much-more-dangerous-for-the-el_20260819_1728.html
-Cleaned old post to keep top 30 limit: protests-in-kyiv-back-ex-defence-minister-fedorovs_20260819_2027.html
-Cleaned old post to keep top 30 limit: 582-skeletons-including-children-discovered-in-sri_20260819_2027.html
+Cleaned old post to keep top 30 limit: what-the-social-media-addiction-lawsuit-could-cost_20260819_2228.html
+Cleaned old post to keep top 30 limit: prince-harry-and-meghan-moving-back-to-uk_20260819_2227.html
+Cleaned old post to keep top 30 limit: five-americans-among-seven-killed-in-safari-helico_20260819_2228.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Prince Harry and Meghan moving back to UK
+   • “I get along with him very well.”
      Sources: bbc.com, cnn.com, reuters.com
-   • Five Americans among seven killed in safari helicopter crash in Kenya
+   • Israeli strike on Gaza City police headquarters kills women’s police chief
      Sources: bbc.com, cnn.com, reuters.com
-   • What the social media addiction lawsuit could cost Meta
+   • Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar
      Sources: bbc.com, cnn.com, reuters.com
