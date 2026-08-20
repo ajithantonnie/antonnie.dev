@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Harry and Meghan's return to UK reignites questions over security
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Carlos Alcaraz confirms US Open return after four-month injury layoff
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Bangladesh elects ruling party veteran Alamgir as president
-Added expanded search topic: Carlos Alcaraz confirms US Open return after four-month injury layoff
-Added expanded search topic: Bangladesh elects ruling party veteran Alamgir as president
-Saved 54 topics for 2026-08-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: University suspends US academic leading Jason Arday plagiarism accusations
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arsenal vs Coventry: Premier League – prediction, lineups, teams
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US Treasury secretary says new economic measures will ‘collapse’ Iran
+Added expanded search topic: University suspends US academic leading Jason Arday plagiarism accusations
+Added expanded search topic: Arsenal vs Coventry: Premier League – prediction, lineups, teams
+Added expanded search topic: US Treasury secretary says new economic measures will ‘collapse’ Iran
+Saved 57 topics for 2026-08-20
 Returning 3 unique trending topics:
-  1. Harry and Meghan's return to UK reignites questions over security (from BBC News)
-  2. Carlos Alcaraz confirms US Open return after four-month injury layoff (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Bangladesh elects ruling party veteran Alamgir as president (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. University suspends US academic leading Jason Arday plagiarism accusations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Arsenal vs Coventry: Premier League – prediction, lineups, teams (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US Treasury secretary says new economic measures will ‘collapse’ Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Harry and Meghan's return to UK reignites questions over security
-Searching Google for: Harry and Meghan's return to UK reignites questions over security
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHarry%252Band%252BMeghan%2527s%252Breturn%252Bto%252BUK%252Breignites%252Bquestions%252Bover%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrn32GKSTndQGIjBSeRL816obmLkRIcTHvFxvTerjWXt8y8-aRsHHyB5GtOJTKHKxELs3KrdGkBMUJtEyBmpjbmRyUloBQw
+Processing trending topic: University suspends US academic leading Jason Arday plagiarism accusations
+Searching Google for: University suspends US academic leading Jason Arday plagiarism accusations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUniversity%252Bsuspends%252BUS%252Bacademic%252Bleading%252BJason%252BArday%252Bplagiarism%252Baccusations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSbyGK6sndQGIjAIyBNAwdx3zhZrXQPr7iWin68IJrT9CwGF9OnfvZMDu5y01ZrwKTZMjnHfNAgC3HwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: harry-and-meghans-return-to-uk-reignites-questions_20260820_1838.html
-✓ Created comprehensive article: harry-and-meghans-return-to-uk-reignites-questions_20260820_1838.html
+Successfully created file: university-suspends-us-academic-leading-jason-arda_20260820_1932.html
+✓ Created comprehensive article: university-suspends-us-academic-leading-jason-arda_20260820_1932.html
 
-Processing trending topic: Carlos Alcaraz confirms US Open return after four-month injury layoff
-Searching Google for: Carlos Alcaraz confirms US Open return after four-month injury layoff
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCarlos%252BAlcaraz%252Bconfirms%252BUS%252BOpen%252Breturn%252Bafter%252Bfour-month%252Binjury%252Blayoff%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrn32GKqTndQGIjC0xdqDcwKEr1-1VRyOAo_CzjE646EyRm0UIC0Cm0zoa5OXqIDzrUv3jYXoIzsDWW0yBmpjbmRyUloBQw
+Processing trending topic: Arsenal vs Coventry: Premier League – prediction, lineups, teams
+Searching Google for: Arsenal vs Coventry: Premier League – prediction, lineups, teams
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArsenal%252Bvs%252BCoventry%253A%252BPremier%252BLeague%252B%25E2%2580%2593%252Bprediction%252C%252Blineups%252C%252Bteams%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSbyGLSsndQGIjDYyag9eNihwHOaA4bqXvwzHpFfOJPL5hC_YJYHsJaIY_vZ4SDavqoiBRzUAXJjAyMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: carlos-alcaraz-confirms-us-open-return-after-four-_20260820_1838.html
-✓ Created comprehensive article: carlos-alcaraz-confirms-us-open-return-after-four-_20260820_1838.html
+Successfully created file: arsenal-vs-coventry-premier-league-prediction-line_20260820_1932.html
+✓ Created comprehensive article: arsenal-vs-coventry-premier-league-prediction-line_20260820_1932.html
 
-Processing trending topic: Bangladesh elects ruling party veteran Alamgir as president
-Searching Google for: Bangladesh elects ruling party veteran Alamgir as president
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBangladesh%252Belects%252Bruling%252Bparty%252Bveteran%252BAlamgir%252Bas%252Bpresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrn32GLGTndQGIjA66AmiH1OwwgdXUXZkNsZ7cPwegAuOVuCKMbdh8dGdnp3aRuBGCdpPBDEO2SuapK8yBmpjbmRyUloBQw
+Processing trending topic: US Treasury secretary says new economic measures will ‘collapse’ Iran
+Searching Google for: US Treasury secretary says new economic measures will ‘collapse’ Iran
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BTreasury%252Bsecretary%252Bsays%252Bnew%252Beconomic%252Bmeasures%252Bwill%252B%25E2%2580%2598collapse%25E2%2580%2599%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSbyGLqsndQGIjDI-SqRUvI4b1pHPnamYUwidIO30usW6bpp1jcoMZWzmdQQdJJA1-PHRQ22cI0hrTQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bangladesh-elects-ruling-party-veteran-alamgir-as-_20260820_1838.html
-✓ Created comprehensive article: bangladesh-elects-ruling-party-veteran-alamgir-as-_20260820_1838.html
+Successfully created file: us-treasury-secretary-says-new-economic-measures-w_20260820_1932.html
+✓ Created comprehensive article: us-treasury-secretary-says-new-economic-measures-w_20260820_1932.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: swiss-tourist-jailed-for-insulting-balis-sacred-da_20260820_1731.html
-Cleaned old post to keep top 30 limit: one-geography-two-states-saudi-arabias-security-ap_20260820_1637.html
-Cleaned old post to keep top 30 limit: daily-struggle-for-clean-water-and-food-takes-a-ph_20260820_1731.html
+Cleaned old post to keep top 30 limit: man-utd-preview-five-key-talking-points-for-2026-2_20260820_1535.html
+Cleaned old post to keep top 30 limit: carlos-alcaraz-confirms-us-open-return-after-four-_20260820_1838.html
+Cleaned old post to keep top 30 limit: harry-and-meghans-return-to-uk-reignites-questions_20260820_1838.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Harry and Meghan's return to UK reignites questions over security
+   • University suspends US academic leading Jason Arday plagiarism accusations
      Sources: bbc.com, cnn.com, reuters.com
-   • Carlos Alcaraz confirms US Open return after four-month injury layoff
+   • Arsenal vs Coventry: Premier League – prediction, lineups, teams
      Sources: bbc.com, cnn.com, reuters.com
-   • Bangladesh elects ruling party veteran Alamgir as president
+   • US Treasury secretary says new economic measures will ‘collapse’ Iran
      Sources: bbc.com, cnn.com, reuters.com
