@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: El Niño weather system set to be 'strongest in living memory', warns Met Office
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After GERD, can Egypt shape Ethiopia’s next Nile dams?
-Added expanded search topic: After GERD, can Egypt shape Ethiopia’s next Nile dams?
-Saved 6 topics for 2026-08-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hong Kong Tiananmen activists found guilty of national security charges
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazil launches AI supercomputer push while balancing US and Chinese tech
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Panama Canal to limit shipping ahead of extreme weather during El Nino
+Added expanded search topic: Hong Kong Tiananmen activists found guilty of national security charges
+Added expanded search topic: Brazil launches AI supercomputer push while balancing US and Chinese tech
+Added expanded search topic: Panama Canal to limit shipping ahead of extreme weather during El Nino
+Saved 9 topics for 2026-08-21
 Returning 3 unique trending topics:
-  1. El Niño weather system set to be 'strongest in living memory', warns Met Office (from BBC News)
-  2. Meghan could return to acting once back in UK (from BBC News)
-  3. After GERD, can Egypt shape Ethiopia’s next Nile dams? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Hong Kong Tiananmen activists found guilty of national security charges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Brazil launches AI supercomputer push while balancing US and Chinese tech (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Panama Canal to limit shipping ahead of extreme weather during El Nino (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: El Niño weather system set to be 'strongest in living memory', warns Met Office
-Searching Google for: El Niño weather system set to be 'strongest in living memory', warns Met Office
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEl%252BNi%25C3%25B1o%252Bweather%252Bsystem%252Bset%252Bto%252Bbe%252B%2527strongest%252Bin%252Bliving%252Bmemory%2527%252C%252Bwarns%252BMet%252BOffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2jGLyAn9QGIjCwQsM3JmElmnEc4mxNpu6FXF28G_lpZCyvZynyMl64BD9d85-Zg2sFzU0zxMo5lZ8yBmpjbmRyUloBQw
+Processing trending topic: Hong Kong Tiananmen activists found guilty of national security charges
+Searching Google for: Hong Kong Tiananmen activists found guilty of national security charges
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHong%252BKong%252BTiananmen%252Bactivists%252Bfound%252Bguilty%252Bof%252Bnational%252Bsecurity%252Bcharges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkTGPiZn9QGIjA0HUHQLJT7_rHpRUi6MuK9yzuBYN2pRyZ7QGT2yHAM_PXWW1bNvLs8_uCkNnufhmEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: el-niño-weather-system-set-to-be-strongest-in-livi_20260821_0304.html
-✓ Created comprehensive article: el-niño-weather-system-set-to-be-strongest-in-livi_20260821_0304.html
+Successfully created file: hong-kong-tiananmen-activists-found-guilty-of-nati_20260821_0358.html
+✓ Created comprehensive article: hong-kong-tiananmen-activists-found-guilty-of-nati_20260821_0358.html
 
-Processing trending topic: Meghan could return to acting once back in UK
-Searching Google for: Meghan could return to acting once back in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMeghan%252Bcould%252Breturn%252Bto%252Bacting%252Bonce%252Bback%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2jGMOAn9QGIjBBFv-fxUh86UW6n9Sn-Ev7Q-mO1WDhLftNBIsieOSYjKFm6Wix_W7JjBJXOIRW6OUyBmpjbmRyUloBQw
+Processing trending topic: Brazil launches AI supercomputer push while balancing US and Chinese tech
+Searching Google for: Brazil launches AI supercomputer push while balancing US and Chinese tech
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazil%252Blaunches%252BAI%252Bsupercomputer%252Bpush%252Bwhile%252Bbalancing%252BUS%252Band%252BChinese%252Btech%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkTGP-Zn9QGIjB843cWk2xC4kvAunk0VVMAquExCt_yHFKNWcGgT54XwG4coBdaCLSeMFyKgWK5bakyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: meghan-could-return-to-acting-once-back-in-uk_20260821_0304.html
-✓ Created comprehensive article: meghan-could-return-to-acting-once-back-in-uk_20260821_0304.html
+Successfully created file: brazil-launches-ai-supercomputer-push-while-balanc_20260821_0358.html
+✓ Created comprehensive article: brazil-launches-ai-supercomputer-push-while-balanc_20260821_0358.html
 
-Processing trending topic: After GERD, can Egypt shape Ethiopia’s next Nile dams?
-Searching Google for: After GERD, can Egypt shape Ethiopia’s next Nile dams?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252BGERD%252C%252Bcan%252BEgypt%252Bshape%252BEthiopia%25E2%2580%2599s%252Bnext%252BNile%252Bdams%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2jGMqAn9QGIjAq6YpGLchnRnKdqA1MnVksRzSst9yuREvSOLcVvcqwD2AM0_1VJ7VaUdw4CX58TmUyBmpjbmRyUloBQw
+Processing trending topic: Panama Canal to limit shipping ahead of extreme weather during El Nino
+Searching Google for: Panama Canal to limit shipping ahead of extreme weather during El Nino
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPanama%252BCanal%252Bto%252Blimit%252Bshipping%252Bahead%252Bof%252Bextreme%252Bweather%252Bduring%252BEl%252BNino%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkTGIWan9QGIjAWm_oMUR9AFau7bjh6UERsb2T9wsd0kHpLvROtlAl3Ml6ONOR0rI93mnm4XDKfqE8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: after-gerd-can-egypt-shape-ethiopias-next-nile-dam_20260821_0304.html
-✓ Created comprehensive article: after-gerd-can-egypt-shape-ethiopias-next-nile-dam_20260821_0304.html
+Successfully created file: panama-canal-to-limit-shipping-ahead-of-extreme-we_20260821_0359.html
+✓ Created comprehensive article: panama-canal-to-limit-shipping-ahead-of-extreme-we_20260821_0359.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-what-does-harrys-return-mean-for-his-fractur_20260821_0112.html
-Cleaned old post to keep top 30 limit: us-deports-20-people-to-liberia-the-first-of-1200-_20260821_0112.html
-Cleaned old post to keep top 30 limit: harry-and-meghans-return-to-uk-reignites-questions_20260821_0112.html
+Cleaned old post to keep top 30 limit: el-niño-weather-system-set-to-be-strongest-in-livi_20260821_0304.html
+Cleaned old post to keep top 30 limit: meghan-could-return-to-acting-once-back-in-uk_20260821_0304.html
+Cleaned old post to keep top 30 limit: after-gerd-can-egypt-shape-ethiopias-next-nile-dam_20260821_0304.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • El Niño weather system set to be 'strongest in living memory', warns Met Office
+   • Hong Kong Tiananmen activists found guilty of national security charges
      Sources: bbc.com, cnn.com, reuters.com
-   • Meghan could return to acting once back in UK
+   • Brazil launches AI supercomputer push while balancing US and Chinese tech
      Sources: bbc.com, cnn.com, reuters.com
-   • After GERD, can Egypt shape Ethiopia’s next Nile dams?
+   • Panama Canal to limit shipping ahead of extreme weather during El Nino
      Sources: bbc.com, cnn.com, reuters.com
