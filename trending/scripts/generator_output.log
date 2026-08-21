@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Harry and Meghan's return to UK reignites questions over security
-  Added: Watch: What does Harry's return mean for his fractured relationship with William?
+  Added: El Niño weather system set to be 'strongest in living memory', warns Met Office
+  Added: Meghan could return to acting once back in UK
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-21
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: After GERD, can Egypt shape Ethiopia’s next Nile dams?
+Added expanded search topic: After GERD, can Egypt shape Ethiopia’s next Nile dams?
+Saved 6 topics for 2026-08-21
 Returning 3 unique trending topics:
-  1. Harry and Meghan's return to UK reignites questions over security (from BBC News)
-  2. Watch: What does Harry's return mean for his fractured relationship with William? (from BBC News)
-  3. US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal (from The Guardian)
+  1. El Niño weather system set to be 'strongest in living memory', warns Met Office (from BBC News)
+  2. Meghan could return to acting once back in UK (from BBC News)
+  3. After GERD, can Egypt shape Ethiopia’s next Nile dams? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Harry and Meghan's return to UK reignites questions over security
-Searching Google for: Harry and Meghan's return to UK reignites questions over security
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHarry%252Band%252BMeghan%2527s%252Breturn%252Bto%252BUK%252Breignites%252Bquestions%252Bover%252Bsecurity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUfzGP7LntQGIjCvk-gFa_N1ZszG4hQn8fxegbAlwj9egq7MM5sD6kEKl4ugAmsgFsk0P9HlhiYvEVAyBmpjbmRyUloBQw
+Processing trending topic: El Niño weather system set to be 'strongest in living memory', warns Met Office
+Searching Google for: El Niño weather system set to be 'strongest in living memory', warns Met Office
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEl%252BNi%25C3%25B1o%252Bweather%252Bsystem%252Bset%252Bto%252Bbe%252B%2527strongest%252Bin%252Bliving%252Bmemory%2527%252C%252Bwarns%252BMet%252BOffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2jGLyAn9QGIjCwQsM3JmElmnEc4mxNpu6FXF28G_lpZCyvZynyMl64BD9d85-Zg2sFzU0zxMo5lZ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: harry-and-meghans-return-to-uk-reignites-questions_20260821_0112.html
-✓ Created comprehensive article: harry-and-meghans-return-to-uk-reignites-questions_20260821_0112.html
+Successfully created file: el-niño-weather-system-set-to-be-strongest-in-livi_20260821_0304.html
+✓ Created comprehensive article: el-niño-weather-system-set-to-be-strongest-in-livi_20260821_0304.html
 
-Processing trending topic: Watch: What does Harry's return mean for his fractured relationship with William?
-Searching Google for: Watch: What does Harry's return mean for his fractured relationship with William?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BWhat%252Bdoes%252BHarry%2527s%252Breturn%252Bmean%252Bfor%252Bhis%252Bfractured%252Brelationship%252Bwith%252BWilliam%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUfzGITMntQGIjA0zMuEXtV5ChCiWkootJDC9QLHKdUDQXoXqlCYGCQ0MsfM0U_UppJh006BLVwy5TgyBmpjbmRyUloBQw
+Processing trending topic: Meghan could return to acting once back in UK
+Searching Google for: Meghan could return to acting once back in UK
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMeghan%252Bcould%252Breturn%252Bto%252Bacting%252Bonce%252Bback%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2jGMOAn9QGIjBBFv-fxUh86UW6n9Sn-Ev7Q-mO1WDhLftNBIsieOSYjKFm6Wix_W7JjBJXOIRW6OUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-what-does-harrys-return-mean-for-his-fractur_20260821_0112.html
-✓ Created comprehensive article: watch-what-does-harrys-return-mean-for-his-fractur_20260821_0112.html
+Successfully created file: meghan-could-return-to-acting-once-back-in-uk_20260821_0304.html
+✓ Created comprehensive article: meghan-could-return-to-acting-once-back-in-uk_20260821_0304.html
 
-Processing trending topic: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Searching Google for: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeports%252B20%252Bpeople%252Bto%252BLiberia%252C%252Bthe%252Bfirst%252Bof%252B1%252C200%252Bmigrants%252Bunder%252BTrump%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIUfzGIvMntQGIjBPfXVp5OUxTN6GFEVJsnrR6EOPL-nr7Q01g2lwSlq4-Hg1865ihiNaP7CoXBTPmTAyBmpjbmRyUloBQw
+Processing trending topic: After GERD, can Egypt shape Ethiopia’s next Nile dams?
+Searching Google for: After GERD, can Egypt shape Ethiopia’s next Nile dams?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfter%252BGERD%252C%252Bcan%252BEgypt%252Bshape%252BEthiopia%25E2%2580%2599s%252Bnext%252BNile%252Bdams%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3D2jGMqAn9QGIjAq6YpGLchnRnKdqA1MnVksRzSst9yuREvSOLcVvcqwD2AM0_1VJ7VaUdw4CX58TmUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-deports-20-people-to-liberia-the-first-of-1200-_20260821_0112.html
-✓ Created comprehensive article: us-deports-20-people-to-liberia-the-first-of-1200-_20260821_0112.html
+Successfully created file: after-gerd-can-egypt-shape-ethiopias-next-nile-dam_20260821_0304.html
+✓ Created comprehensive article: after-gerd-can-egypt-shape-ethiopias-next-nile-dam_20260821_0304.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: the-cost-of-rebuilding-family-homes-in-war-ravaged_20260820_2326.html
-Cleaned old post to keep top 30 limit: new-york-mayor-mamdani-sues-to-block-10000-teachin_20260820_2326.html
-Cleaned old post to keep top 30 limit: hundreds-of-tibetans-protest-chinas-ethnic-unity-l_20260820_2128.html
+Cleaned old post to keep top 30 limit: watch-what-does-harrys-return-mean-for-his-fractur_20260821_0112.html
+Cleaned old post to keep top 30 limit: us-deports-20-people-to-liberia-the-first-of-1200-_20260821_0112.html
+Cleaned old post to keep top 30 limit: harry-and-meghans-return-to-uk-reignites-questions_20260821_0112.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Harry and Meghan's return to UK reignites questions over security
+   • El Niño weather system set to be 'strongest in living memory', warns Met Office
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: What does Harry's return mean for his fractured relationship with William?
+   • Meghan could return to acting once back in UK
      Sources: bbc.com, cnn.com, reuters.com
-   • US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
+   • After GERD, can Egypt shape Ethiopia’s next Nile dams?
      Sources: bbc.com, cnn.com, reuters.com
