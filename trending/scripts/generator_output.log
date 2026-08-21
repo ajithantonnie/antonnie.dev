@@ -1,73 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: El Niño weather system set to be 'strongest in living memory', warns Met Office
-  Added: Will Harry's return heal rift with his brother? Don't hold your breath
+  Added: El Niño warming set to be 'strongest in living memory', warns Met Office
+  Added: Will Harry's return heal deep-rooted rift with William?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dozens of migrants land on Spanish coast surprising beachgoers
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan’s Imran Khan back to prison after evaluation at hospital
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
-Added expanded search topic: Dozens of migrants land on Spanish coast surprising beachgoers
-Added expanded search topic: Pakistan’s Imran Khan back to prison after evaluation at hospital
-Added expanded search topic: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
-Saved 15 topics for 2026-08-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: US vows toughest Iran sanctions, urges China support
+Added expanded search topic: Iran war live: US vows toughest Iran sanctions, urges China support
+Saved 18 topics for 2026-08-21
 Returning 3 unique trending topics:
-  1. Dozens of migrants land on Spanish coast surprising beachgoers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Pakistan’s Imran Khan back to prison after evaluation at hospital (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. El Niño warming set to be 'strongest in living memory', warns Met Office (from BBC News)
+  2. Will Harry's return heal deep-rooted rift with William? (from BBC News)
+  3. Iran war live: US vows toughest Iran sanctions, urges China support (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dozens of migrants land on Spanish coast surprising beachgoers
-Searching Google for: Dozens of migrants land on Spanish coast surprising beachgoers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Bof%252Bmigrants%252Bland%252Bon%252BSpanish%252Bcoast%252Bsurprising%252Bbeachgoers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqxGJ_Gn9QGIjBQv00ZXFa772pZlJ_NpyXkxw77oPCduQOzq5gQdmjAZbOhUQh0uxWTeXgicw4mA0syBmpjbmRyUloBQw
+Processing trending topic: El Niño warming set to be 'strongest in living memory', warns Met Office
+Searching Google for: El Niño warming set to be 'strongest in living memory', warns Met Office
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEl%252BNi%25C3%25B1o%252Bwarming%252Bset%252Bto%252Bbe%252B%2527strongest%252Bin%252Bliving%252Bmemory%2527%252C%252Bwarns%252BMet%252BOffice%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHc7jGJPon9QGIjBn0VdeaxkltPqfsvbWxFx4CmnyoZtmhq0sY8MmOeFT9Z2smFKiNwmV4rsH-hpNNOMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dozens-of-migrants-land-on-spanish-coast-surprisin_20260821_0533.html
-✓ Created comprehensive article: dozens-of-migrants-land-on-spanish-coast-surprisin_20260821_0533.html
+Successfully created file: el-niño-warming-set-to-be-strongest-in-living-memo_20260821_0645.html
+✓ Created comprehensive article: el-niño-warming-set-to-be-strongest-in-living-memo_20260821_0645.html
 
-Processing trending topic: Pakistan’s Imran Khan back to prison after evaluation at hospital
-Searching Google for: Pakistan’s Imran Khan back to prison after evaluation at hospital
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%25E2%2580%2599s%252BImran%252BKhan%252Bback%252Bto%252Bprison%252Bafter%252Bevaluation%252Bat%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqxGKbGn9QGIjDuIFtXbji7n4yGsQITK_6fEjW2dJX8Of9vUc4G5ac8FkSzDVDVbbzuzrbfdGXesvEyBmpjbmRyUloBQw
+Processing trending topic: Will Harry's return heal deep-rooted rift with William?
+Searching Google for: Will Harry's return heal deep-rooted rift with William?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BHarry%2527s%252Breturn%252Bheal%252Bdeep-rooted%252Brift%252Bwith%252BWilliam%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHc7jGJron9QGIjCZkiPDOfRx83UxkdFHVJTN5McHVHWqfh8k-cC3agEwAh3bjivWXK5_F6gduMcygjUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pakistans-imran-khan-back-to-prison-after-evaluati_20260821_0533.html
-✓ Created comprehensive article: pakistans-imran-khan-back-to-prison-after-evaluati_20260821_0533.html
+Successfully created file: will-harrys-return-heal-deep-rooted-rift-with-will_20260821_0645.html
+✓ Created comprehensive article: will-harrys-return-heal-deep-rooted-rift-with-will_20260821_0645.html
 
-Processing trending topic: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
-Searching Google for: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeports%252Bnearly%252B2%252C300%252BMexicans%252Bto%252BGuatemala%252Bover%252BMexico%25E2%2580%2599s%252Bobjections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqxGKzGn9QGIjAvgj-Nd2oz512C1A1-Ln220T4YiDjbveVU-zY4aIm9X_DAaAmppHhvQt_nR9A0OzoyBmpjbmRyUloBQw
+Processing trending topic: Iran war live: US vows toughest Iran sanctions, urges China support
+Searching Google for: Iran war live: US vows toughest Iran sanctions, urges China support
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BUS%252Bvows%252Btoughest%252BIran%252Bsanctions%252C%252Burges%252BChina%252Bsupport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHc7jGKHon9QGIjBWOXXqKM25mTrproXrbP0W1nRG7Sn3unXEhgyT_5jeD0S-uNpOLMJ9yNR91kwnW2UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-deports-nearly-2300-mexicans-to-guatemala-over-_20260821_0533.html
-✓ Created comprehensive article: us-deports-nearly-2300-mexicans-to-guatemala-over-_20260821_0533.html
+Successfully created file: iran-war-live-us-vows-toughest-iran-sanctions-urge_20260821_0645.html
+✓ Created comprehensive article: iran-war-live-us-vows-toughest-iran-sanctions-urge_20260821_0645.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-treasury-secretary-says-new-economic-measures-w_20260820_1932.html
-Cleaned old post to keep top 30 limit: taliban-release-two-detained-un-staff-members-in-a_20260821_0438.html
-Cleaned old post to keep top 30 limit: antigovernment-protesters-take-to-tunisias-streets_20260821_0438.html
+Cleaned old post to keep top 30 limit: seven-people-mostly-foreign-tourists-killed-in-hel_20260819_2027.html
+Cleaned old post to keep top 30 limit: pakistans-imran-khan-back-to-prison-after-evaluati_20260821_0533.html
+Cleaned old post to keep top 30 limit: dozens-of-migrants-land-on-spanish-coast-surprisin_20260821_0533.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dozens of migrants land on Spanish coast surprising beachgoers
+   • El Niño warming set to be 'strongest in living memory', warns Met Office
      Sources: bbc.com, cnn.com, reuters.com
-   • Pakistan’s Imran Khan back to prison after evaluation at hospital
+   • Will Harry's return heal deep-rooted rift with William?
      Sources: bbc.com, cnn.com, reuters.com
-   • US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
+   • Iran war live: US vows toughest Iran sanctions, urges China support
      Sources: bbc.com, cnn.com, reuters.com
