@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: El Niño weather system set to be 'strongest in living memory', warns Met Office
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Antigovernment protesters take to Tunisia’s streets for second month
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Taliban release two detained UN staff members in Afghanistan
-Added expanded search topic: Antigovernment protesters take to Tunisia’s streets for second month
-Added expanded search topic: Taliban release two detained UN staff members in Afghanistan
-Saved 12 topics for 2026-08-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dozens of migrants land on Spanish coast surprising beachgoers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan’s Imran Khan back to prison after evaluation at hospital
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
+Added expanded search topic: Dozens of migrants land on Spanish coast surprising beachgoers
+Added expanded search topic: Pakistan’s Imran Khan back to prison after evaluation at hospital
+Added expanded search topic: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
+Saved 15 topics for 2026-08-21
 Returning 3 unique trending topics:
-  1. Will Harry's return heal rift with his brother? Don't hold your breath (from BBC News)
-  2. Antigovernment protesters take to Tunisia’s streets for second month (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Taliban release two detained UN staff members in Afghanistan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Dozens of migrants land on Spanish coast surprising beachgoers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Pakistan’s Imran Khan back to prison after evaluation at hospital (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Will Harry's return heal rift with his brother? Don't hold your breath
-Searching Google for: Will Harry's return heal rift with his brother? Don't hold your breath
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BHarry%2527s%252Breturn%252Bheal%252Brift%252Bwith%252Bhis%252Bbrother%253F%252BDon%2527t%252Bhold%252Byour%252Bbreath%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LClGLqsn9QGIjBvVEykjW_wWA0vqE6qOHwf_j3iEkwux3OH-Ous4XNIdwnCA6Z97e1816mUtr78eSQyBmpjbmRyUloBQw
+Processing trending topic: Dozens of migrants land on Spanish coast surprising beachgoers
+Searching Google for: Dozens of migrants land on Spanish coast surprising beachgoers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Bof%252Bmigrants%252Bland%252Bon%252BSpanish%252Bcoast%252Bsurprising%252Bbeachgoers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqxGJ_Gn9QGIjBQv00ZXFa772pZlJ_NpyXkxw77oPCduQOzq5gQdmjAZbOhUQh0uxWTeXgicw4mA0syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-harrys-return-heal-rift-with-his-brother-dont_20260821_0438.html
-✓ Created comprehensive article: will-harrys-return-heal-rift-with-his-brother-dont_20260821_0438.html
+Successfully created file: dozens-of-migrants-land-on-spanish-coast-surprisin_20260821_0533.html
+✓ Created comprehensive article: dozens-of-migrants-land-on-spanish-coast-surprisin_20260821_0533.html
 
-Processing trending topic: Antigovernment protesters take to Tunisia’s streets for second month
-Searching Google for: Antigovernment protesters take to Tunisia’s streets for second month
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAntigovernment%252Bprotesters%252Btake%252Bto%252BTunisia%25E2%2580%2599s%252Bstreets%252Bfor%252Bsecond%252Bmonth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LClGMGsn9QGIjBQj_NORZBW9cNpB3SZfsZR7VuhPBFKJ1Sqk3XxhMA_YNZxC1ed-cIkllZIkHynxYcyBmpjbmRyUloBQw
+Processing trending topic: Pakistan’s Imran Khan back to prison after evaluation at hospital
+Searching Google for: Pakistan’s Imran Khan back to prison after evaluation at hospital
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%25E2%2580%2599s%252BImran%252BKhan%252Bback%252Bto%252Bprison%252Bafter%252Bevaluation%252Bat%252Bhospital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqxGKbGn9QGIjDuIFtXbji7n4yGsQITK_6fEjW2dJX8Of9vUc4G5ac8FkSzDVDVbbzuzrbfdGXesvEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: antigovernment-protesters-take-to-tunisias-streets_20260821_0438.html
-✓ Created comprehensive article: antigovernment-protesters-take-to-tunisias-streets_20260821_0438.html
+Successfully created file: pakistans-imran-khan-back-to-prison-after-evaluati_20260821_0533.html
+✓ Created comprehensive article: pakistans-imran-khan-back-to-prison-after-evaluati_20260821_0533.html
 
-Processing trending topic: Taliban release two detained UN staff members in Afghanistan
-Searching Google for: Taliban release two detained UN staff members in Afghanistan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTaliban%252Brelease%252Btwo%252Bdetained%252BUN%252Bstaff%252Bmembers%252Bin%252BAfghanistan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LClGMesn9QGIjCvbVxl2w5u3RQ0CbTYydQFNkpKj_K1RUOAVDGAzx3E5Ayl5n4d40aQwe9hc3U8TQ4yBmpjbmRyUloBQw
+Processing trending topic: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
+Searching Google for: US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeports%252Bnearly%252B2%252C300%252BMexicans%252Bto%252BGuatemala%252Bover%252BMexico%25E2%2580%2599s%252Bobjections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sIqxGKzGn9QGIjAvgj-Nd2oz512C1A1-Ln220T4YiDjbveVU-zY4aIm9X_DAaAmppHhvQt_nR9A0OzoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: taliban-release-two-detained-un-staff-members-in-a_20260821_0438.html
-✓ Created comprehensive article: taliban-release-two-detained-un-staff-members-in-a_20260821_0438.html
+Successfully created file: us-deports-nearly-2300-mexicans-to-guatemala-over-_20260821_0533.html
+✓ Created comprehensive article: us-deports-nearly-2300-mexicans-to-guatemala-over-_20260821_0533.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: panama-canal-to-limit-shipping-ahead-of-extreme-we_20260821_0359.html
-Cleaned old post to keep top 30 limit: hong-kong-tiananmen-activists-found-guilty-of-nati_20260821_0358.html
-Cleaned old post to keep top 30 limit: brazil-launches-ai-supercomputer-push-while-balanc_20260821_0358.html
+Cleaned old post to keep top 30 limit: us-treasury-secretary-says-new-economic-measures-w_20260820_1932.html
+Cleaned old post to keep top 30 limit: taliban-release-two-detained-un-staff-members-in-a_20260821_0438.html
+Cleaned old post to keep top 30 limit: antigovernment-protesters-take-to-tunisias-streets_20260821_0438.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Will Harry's return heal rift with his brother? Don't hold your breath
+   • Dozens of migrants land on Spanish coast surprising beachgoers
      Sources: bbc.com, cnn.com, reuters.com
-   • Antigovernment protesters take to Tunisia’s streets for second month
+   • Pakistan’s Imran Khan back to prison after evaluation at hospital
      Sources: bbc.com, cnn.com, reuters.com
-   • Taliban release two detained UN staff members in Afghanistan
+   • US deports nearly 2,300 Mexicans to Guatemala over Mexico’s objections
      Sources: bbc.com, cnn.com, reuters.com
