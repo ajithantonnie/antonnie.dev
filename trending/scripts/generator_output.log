@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Prince Harry and six others face privacy case legal bill of up to £34.5m
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How is drought hitting UK farming?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Arsenal sign Konsa from Villa as Premier League holders bolster defence
-Added expanded search topic: How is drought hitting UK farming?
-Added expanded search topic: Arsenal sign Konsa from Villa as Premier League holders bolster defence
-Saved 54 topics for 2026-08-21
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Secret tunnel becomes museum for Syria chemical attack and siege of Ghouta
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Espanyol vs Real Madrid: La Liga – prediction, lineups, teams
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Drone strike on Ukraine shopping centre kills 14, over 100 injured
+Added expanded search topic: Secret tunnel becomes museum for Syria chemical attack and siege of Ghouta
+Added expanded search topic: Espanyol vs Real Madrid: La Liga – prediction, lineups, teams
+Added expanded search topic: Drone strike on Ukraine shopping centre kills 14, over 100 injured
+Saved 57 topics for 2026-08-21
 Returning 3 unique trending topics:
-  1. Meghan in talks for role in Netflix series The Gentlemen, BBC understands (from BBC News)
-  2. How is drought hitting UK farming? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Arsenal sign Konsa from Villa as Premier League holders bolster defence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Secret tunnel becomes museum for Syria chemical attack and siege of Ghouta (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Espanyol vs Real Madrid: La Liga – prediction, lineups, teams (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Drone strike on Ukraine shopping centre kills 14, over 100 injured (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Meghan in talks for role in Netflix series The Gentlemen, BBC understands
-Searching Google for: Meghan in talks for role in Netflix series The Gentlemen, BBC understands
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMeghan%252Bin%252Btalks%252Bfor%252Brole%252Bin%252BNetflix%252Bseries%252BThe%252BGentlemen%252C%252BBBC%252Bunderstands%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ICGIa2otQGIjAkhbnObvHuWDsMk0AYDdSlQB_PoyLaqfWTxXZOUgGdVet4d5aKcizLWPj6JP_6bGoyBmpjbmRyUloBQw
+Processing trending topic: Secret tunnel becomes museum for Syria chemical attack and siege of Ghouta
+Searching Google for: Secret tunnel becomes museum for Syria chemical attack and siege of Ghouta
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecret%252Btunnel%252Bbecomes%252Bmuseum%252Bfor%252BSyria%252Bchemical%252Battack%252Band%252Bsiege%252Bof%252BGhouta%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm-0AGLXNotQGIjDkpJkWo_fGCUACzsvCVMcZ1XIVgufYZ1vbkhU432Ytfu4lwzH4oDc66FbLQZLOmIcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: meghan-in-talks-for-role-in-netflix-series-the-gen_20260821_1838.html
-✓ Created comprehensive article: meghan-in-talks-for-role-in-netflix-series-the-gen_20260821_1838.html
+Successfully created file: secret-tunnel-becomes-museum-for-syria-chemical-at_20260821_1927.html
+✓ Created comprehensive article: secret-tunnel-becomes-museum-for-syria-chemical-at_20260821_1927.html
 
-Processing trending topic: How is drought hitting UK farming?
-Searching Google for: How is drought hitting UK farming?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bis%252Bdrought%252Bhitting%252BUK%252Bfarming%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ICGI62otQGIjDw1sw2MplmIGJnxAcPctMTX9ZJkfHO7aDtEtP4ClDhmxuzTeOhJ7dFfKT2eVJaXOQyBmpjbmRyUloBQw
+Processing trending topic: Espanyol vs Real Madrid: La Liga – prediction, lineups, teams
+Searching Google for: Espanyol vs Real Madrid: La Liga – prediction, lineups, teams
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEspanyol%252Bvs%252BReal%252BMadrid%253A%252BLa%252BLiga%252B%25E2%2580%2593%252Bprediction%252C%252Blineups%252C%252Bteams%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm-0AGLzNotQGIjCyK8lpYvaGbA3zU8Ja3MMoH4mbRESxD4BhJnkj2fW-inaGKoV_RepuyDP9B99SgJwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-is-drought-hitting-uk-farming_20260821_1838.html
-✓ Created comprehensive article: how-is-drought-hitting-uk-farming_20260821_1838.html
+Successfully created file: espanyol-vs-real-madrid-la-liga-prediction-lineups_20260821_1928.html
+✓ Created comprehensive article: espanyol-vs-real-madrid-la-liga-prediction-lineups_20260821_1928.html
 
-Processing trending topic: Arsenal sign Konsa from Villa as Premier League holders bolster defence
-Searching Google for: Arsenal sign Konsa from Villa as Premier League holders bolster defence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DArsenal%252Bsign%252BKonsa%252Bfrom%252BVilla%252Bas%252BPremier%252BLeague%252Bholders%252Bbolster%252Bdefence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4ICGJS2otQGIjC-WgT2FRLSGdnFgVMMXty0Ca301A3Jg8NL_vcDmnuRe1r96OBEYR0Z2Tc9s-a1U9IyBmpjbmRyUloBQw
+Processing trending topic: Drone strike on Ukraine shopping centre kills 14, over 100 injured
+Searching Google for: Drone strike on Ukraine shopping centre kills 14, over 100 injured
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrone%252Bstrike%252Bon%252BUkraine%252Bshopping%252Bcentre%252Bkills%252B14%252C%252Bover%252B100%252Binjured%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm-0AGMLNotQGIjBzb0MXEUaG4oOrr_pEKJZvF8lmKCX7mptHU0SdBl4KJdW-Y7B73ot5Tw690EJ5rssyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: arsenal-sign-konsa-from-villa-as-premier-league-ho_20260821_1838.html
-✓ Created comprehensive article: arsenal-sign-konsa-from-villa-as-premier-league-ho_20260821_1838.html
+Successfully created file: drone-strike-on-ukraine-shopping-centre-kills-14-o_20260821_1928.html
+✓ Created comprehensive article: drone-strike-on-ukraine-shopping-centre-kills-14-o_20260821_1928.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: migrants-clash-with-french-police-as-they-attempt-_20260821_1731.html
-Cleaned old post to keep top 30 limit: ukraines-shakhtar-to-use-ex-russian-owned-chelsea-_20260821_1731.html
-Cleaned old post to keep top 30 limit: ukraine-sanctions-popular-russian-cartoon-masha-an_20260821_1731.html
+Cleaned old post to keep top 30 limit: how-is-drought-hitting-uk-farming_20260821_1838.html
+Cleaned old post to keep top 30 limit: watch-how-strongest-el-nino-could-affect-weather-a_20260821_1633.html
+Cleaned old post to keep top 30 limit: arsenal-sign-konsa-from-villa-as-premier-league-ho_20260821_1838.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Meghan in talks for role in Netflix series The Gentlemen, BBC understands
+   • Secret tunnel becomes museum for Syria chemical attack and siege of Ghouta
      Sources: bbc.com, cnn.com, reuters.com
-   • How is drought hitting UK farming?
+   • Espanyol vs Real Madrid: La Liga – prediction, lineups, teams
      Sources: bbc.com, cnn.com, reuters.com
-   • Arsenal sign Konsa from Villa as Premier League holders bolster defence
+   • Drone strike on Ukraine shopping centre kills 14, over 100 injured
      Sources: bbc.com, cnn.com, reuters.com
