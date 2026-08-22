@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Girl, 6, dies days after Shoreham sea tragedy killed three family members
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-22
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Peru rescues people trapped by landslides on highway for nearly a week
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestinian-British girl, 6, dies days after family drowned off UK coast
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iranian president says time to end war with US from ‘position of strength’
+Added expanded search topic: Peru rescues people trapped by landslides on highway for nearly a week
+Added expanded search topic: Palestinian-British girl, 6, dies days after family drowned off UK coast
+Added expanded search topic: Iranian president says time to end war with US from ‘position of strength’
+Saved 6 topics for 2026-08-22
 Returning 3 unique trending topics:
-  1. Girl, 6, dies days after Shoreham sea tragedy killed three family members (from BBC News)
-  2. Prince Harry and six others face privacy case legal bill of up to £34.5m (from BBC News)
-  3. US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal (from The Guardian)
+  1. Peru rescues people trapped by landslides on highway for nearly a week (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Palestinian-British girl, 6, dies days after family drowned off UK coast (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iranian president says time to end war with US from ‘position of strength’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Girl, 6, dies days after Shoreham sea tragedy killed three family members
-Searching Google for: Girl, 6, dies days after Shoreham sea tragedy killed three family members
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGirl%252C%252B6%252C%252Bdies%252Bdays%252Bafter%252BShoreham%252Bsea%252Btragedy%252Bkilled%252Bthree%252Bfamily%252Bmembers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9EGPnso9QGIjC-4l6y3gXwVEi_vsi4omyLjMU8boEpb7l4ZFeCeuiCGGOi8858lfCCcq7Ykh_PLxAyBmpjbmRyUloBQw
+Processing trending topic: Peru rescues people trapped by landslides on highway for nearly a week
+Searching Google for: Peru rescues people trapped by landslides on highway for nearly a week
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeru%252Brescues%252Bpeople%252Btrapped%252Bby%252Blandslides%252Bon%252Bhighway%252Bfor%252Bnearly%252Ba%252Bweek%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqWSiGL-fpNQGIjAWIomZh2pgI744KxkiRSBdLPGLGxBlX2e3eXOR1A3brbaMnAp88jSsoTQNkcmajDQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: girl-6-dies-days-after-shoreham-sea-tragedy-killed_20260822_0108.html
-✓ Created comprehensive article: girl-6-dies-days-after-shoreham-sea-tragedy-killed_20260822_0108.html
+Successfully created file: peru-rescues-people-trapped-by-landslides-on-highw_20260822_0256.html
+✓ Created comprehensive article: peru-rescues-people-trapped-by-landslides-on-highw_20260822_0256.html
 
-Processing trending topic: Prince Harry and six others face privacy case legal bill of up to £34.5m
-Searching Google for: Prince Harry and six others face privacy case legal bill of up to £34.5m
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Band%252Bsix%252Bothers%252Bface%252Bprivacy%252Bcase%252Blegal%252Bbill%252Bof%252Bup%252Bto%252B%25C2%25A334.5m%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9EGIDto9QGIjC_bEZhWhc3XR5pp-JOVsKr8Cg2Gv4FCrs3JhtvFHr46bmLAyNmv-RGwAmk5VDGhfcyBmpjbmRyUloBQw
+Processing trending topic: Palestinian-British girl, 6, dies days after family drowned off UK coast
+Searching Google for: Palestinian-British girl, 6, dies days after family drowned off UK coast
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestinian-British%252Bgirl%252C%252B6%252C%252Bdies%252Bdays%252Bafter%252Bfamily%252Bdrowned%252Boff%252BUK%252Bcoast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqWSiGMafpNQGIjB1N9CQ_FAw5bqK1Qcc9JLKQPzU1fdZg6a5XmmwTO6KvzXI_pulMY3wbwyzjvErtdsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-and-six-others-face-privacy-case-lega_20260822_0108.html
-✓ Created comprehensive article: prince-harry-and-six-others-face-privacy-case-lega_20260822_0108.html
+Successfully created file: palestinian-british-girl-6-dies-days-after-family-_20260822_0256.html
+✓ Created comprehensive article: palestinian-british-girl-6-dies-days-after-family-_20260822_0256.html
 
-Processing trending topic: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Searching Google for: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeports%252B20%252Bpeople%252Bto%252BLiberia%252C%252Bthe%252Bfirst%252Bof%252B1%252C200%252Bmigrants%252Bunder%252BTrump%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTH9EGIbto9QGIjCdzUtL9ZQq1AqjtLwCC1hlKalWnk7xnakIARbTXVj5VLMG2xWNcg2pCSh9cE8vcGkyBmpjbmRyUloBQw
+Processing trending topic: Iranian president says time to end war with US from ‘position of strength’
+Searching Google for: Iranian president says time to end war with US from ‘position of strength’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIranian%252Bpresident%252Bsays%252Btime%252Bto%252Bend%252Bwar%252Bwith%252BUS%252Bfrom%252B%25E2%2580%2598position%252Bof%252Bstrength%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqWSiGMyfpNQGIjCh50r0QwKivBG-ooQ2yC0xxbAkUGM0YzaQ7IihHres8CSn5yhgJhcWiSfo3pyhbicyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-deports-20-people-to-liberia-the-first-of-1200-_20260822_0108.html
-✓ Created comprehensive article: us-deports-20-people-to-liberia-the-first-of-1200-_20260822_0108.html
+Successfully created file: iranian-president-says-time-to-end-war-with-us-fro_20260822_0256.html
+✓ Created comprehensive article: iranian-president-says-time-to-end-war-with-us-fro_20260822_0256.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: one-killed-three-wounded-in-sword-attack-at-swedis_20260821_2225.html
-Cleaned old post to keep top 30 limit: global-sumud-flotilla-joins-albanias-anti-resort-p_20260821_2323.html
-Cleaned old post to keep top 30 limit: arsenal-rout-coventry-3-0-to-begin-premier-league-_20260821_2323.html
+Cleaned old post to keep top 30 limit: us-vice-president-jd-vance-holds-midterm-election-_20260821_2323.html
+Cleaned old post to keep top 30 limit: prince-harry-and-six-others-face-privacy-case-lega_20260822_0108.html
+Cleaned old post to keep top 30 limit: girl-6-dies-days-after-shoreham-sea-tragedy-killed_20260822_0108.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Girl, 6, dies days after Shoreham sea tragedy killed three family members
+   • Peru rescues people trapped by landslides on highway for nearly a week
      Sources: bbc.com, cnn.com, reuters.com
-   • Prince Harry and six others face privacy case legal bill of up to £34.5m
+   • Palestinian-British girl, 6, dies days after family drowned off UK coast
      Sources: bbc.com, cnn.com, reuters.com
-   • US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
+   • Iranian president says time to end war with US from ‘position of strength’
      Sources: bbc.com, cnn.com, reuters.com
