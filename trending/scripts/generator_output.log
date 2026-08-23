@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 66 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two police officers among seven killed in wrong-way car crash
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds
-  Found from World News - Breaking international news and headlines | Sky News: FIFA president Infantino asked to stay away from youth tournament
-  Found from World News - Breaking international news and headlines | Sky News: 'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse
-Added expanded search topic: Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds
-Added expanded search topic: FIFA president Infantino asked to stay away from youth tournament
-Added expanded search topic: 'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse
-Saved 69 topics for 2026-08-22
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. FIFA president Infantino asked to stay away from youth tournament (from World News - Breaking international news and headlines | Sky News)
-  3. 'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse (from World News - Breaking international news and headlines | Sky News)
+  1. Two police officers among seven killed in wrong-way car crash (from BBC News)
+  2. Video appears to show police chase minutes before fatal A66 crash (from BBC News)
+  3. US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal (from The Guardian)
 
-Processing trending topic: Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds
-Searching Google for: Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTropical%252BStorm%252BMoke%252Badvances%252Btowards%252BHawaii%252Bwith%252Bheavy%252Brain%252C%252Bstrong%252Bwinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgWBGKveqNQGIjAM8V9H-1gO3G0qhzQxEUZfsEqiXiPWHG3-9QkupuWYKFRs61eG5huVZfQ5zWaoEm8yBmpjbmRyUloBQw
+Processing trending topic: Two police officers among seven killed in wrong-way car crash
+Searching Google for: Two police officers among seven killed in wrong-way car crash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bpolice%252Bofficers%252Bamong%252Bseven%252Bkilled%252Bin%252Bwrong-way%252Bcar%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-RGMKSqdQGIjAUJdNG0u2DUQrX-CmDLceDgjngGkgkciLggMGmk04wH-9RYOwndVD6_f0-6SwlLg0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: tropical-storm-moke-advances-towards-hawaii-with-h_20260822_2322.html
-✓ Created comprehensive article: tropical-storm-moke-advances-towards-hawaii-with-h_20260822_2322.html
+Successfully created file: two-police-officers-among-seven-killed-in-wrong-wa_20260823_0113.html
+✓ Created comprehensive article: two-police-officers-among-seven-killed-in-wrong-wa_20260823_0113.html
 
-Processing trending topic: FIFA president Infantino asked to stay away from youth tournament
-Searching Google for: FIFA president Infantino asked to stay away from youth tournament
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%252Bpresident%252BInfantino%252Basked%252Bto%252Bstay%252Baway%252Bfrom%252Byouth%252Btournament%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgWBGLLeqNQGIjBno1Ozzlial3wgNI3GUKmM3X-DeKbojbLgDpkjxPaK-TrbMEacHTmQz3oumUZGKdgyBmpjbmRyUloBQw
+Processing trending topic: Video appears to show police chase minutes before fatal A66 crash
+Searching Google for: Video appears to show police chase minutes before fatal A66 crash
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bappears%252Bto%252Bshow%252Bpolice%252Bchase%252Bminutes%252Bbefore%252Bfatal%252BA66%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-RGMmSqdQGIjDLbttp1VDIOeNJHdWNh6ZGUfQKbyoEgnxTgx-Tzjmo-ozDTURWJblwTa55HR0kbakyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fifa-president-infantino-asked-to-stay-away-from-y_20260822_2322.html
-✓ Created comprehensive article: fifa-president-infantino-asked-to-stay-away-from-y_20260822_2322.html
+Successfully created file: video-appears-to-show-police-chase-minutes-before-_20260823_0113.html
+✓ Created comprehensive article: video-appears-to-show-police-chase-minutes-before-_20260823_0113.html
 
-Processing trending topic: 'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse
-Searching Google for: 'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527America%252Bhas%252Bchanged%2527%253A%252BCanada%252Bto%252Bmatch%252BTrump%2527s%252Btariffs%252B%2527dollar%252Bfor%252Bdollar%2527%252Bafter%252Btrade%252Btalks%252Bcollapse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgWBGLjeqNQGIjDkZ2v5FkC3aZNvnvwCV20RBCRJRJqmEwYSySHJe-Oywbcup_UKZhDovg6sEsapNXoyBmpjbmRyUloBQw
+Processing trending topic: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
+Searching Google for: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeports%252B20%252Bpeople%252Bto%252BLiberia%252C%252Bthe%252Bfirst%252Bof%252B1%252C200%252Bmigrants%252Bunder%252BTrump%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-RGM-SqdQGIjCUNXsXLAZ7kB_ruIPiQ3Qe-IYzDEkHidzhg_1tQ5G24q1gp8VHz2IuUNUloo5voC4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: america-has-changed-canada-to-match-trumps-tariffs_20260822_2322.html
-✓ Created comprehensive article: america-has-changed-canada-to-match-trumps-tariffs_20260822_2322.html
+Successfully created file: us-deports-20-people-to-liberia-the-first-of-1200-_20260823_0113.html
+✓ Created comprehensive article: us-deports-20-people-to-liberia-the-first-of-1200-_20260823_0113.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: real-madrid-beat-espanyol-2-1-in-jose-mourinhos-fi_20260822_2221.html
-Cleaned old post to keep top 30 limit: putin-warns-ukraine-has-opened-pandoras-box-reject_20260822_2221.html
-Cleaned old post to keep top 30 limit: open-air-cinema-brings-movie-nights-back-to-kharto_20260822_2221.html
+Cleaned old post to keep top 30 limit: tropical-storm-moke-advances-towards-hawaii-with-h_20260822_2322.html
+Cleaned old post to keep top 30 limit: why-is-israel-building-new-illegal-settlements_20260822_2023.html
+Cleaned old post to keep top 30 limit: america-has-changed-canada-to-match-trumps-tariffs_20260822_2322.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds
+   • Two police officers among seven killed in wrong-way car crash
      Sources: bbc.com, cnn.com, reuters.com
-   • FIFA president Infantino asked to stay away from youth tournament
+   • Video appears to show police chase minutes before fatal A66 crash
      Sources: bbc.com, cnn.com, reuters.com
-   • 'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse
+   • US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
      Sources: bbc.com, cnn.com, reuters.com
