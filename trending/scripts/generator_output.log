@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Mayors to get powers to overrule local councils on planning decisions
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: In rural Chad, solar kiosks bring healthcare closer
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Chinese robot beats Usain Bolt’s 100m world record at humanoid games
-Added expanded search topic: In rural Chad, solar kiosks bring healthcare closer
-Added expanded search topic: Chinese robot beats Usain Bolt’s 100m world record at humanoid games
-Saved 9 topics for 2026-08-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘You just can’t trust Trump’: Canadian premiers fire back in trade war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran threatens countries that join US ‘economic D-Day’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran warns nearby nations against joining US ‘economic war’ efforts
+Added expanded search topic: ‘You just can’t trust Trump’: Canadian premiers fire back in trade war
+Added expanded search topic: Iran threatens countries that join US ‘economic D-Day’
+Added expanded search topic: Iran warns nearby nations against joining US ‘economic war’ efforts
+Saved 12 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. Mayors to get powers to overrule local councils on planning decisions (from BBC News)
-  2. In rural Chad, solar kiosks bring healthcare closer (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Chinese robot beats Usain Bolt’s 100m world record at humanoid games (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. ‘You just can’t trust Trump’: Canadian premiers fire back in trade war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Iran threatens countries that join US ‘economic D-Day’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran warns nearby nations against joining US ‘economic war’ efforts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Mayors to get powers to overrule local councils on planning decisions
-Searching Google for: Mayors to get powers to overrule local councils on planning decisions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMayors%252Bto%252Bget%252Bpowers%252Bto%252Boverrule%252Blocal%252Bcouncils%252Bon%252Bplanning%252Bdecisions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSeF5NhGL7gqdQGIjAEATfZgLCvfr_AVrp3_yslZj-_LX6DR5Z4H15KkYUARMyFgHq7xU0Wdh05SbdosW4yAnJSWgFD
+Processing trending topic: ‘You just can’t trust Trump’: Canadian premiers fire back in trade war
+Searching Google for: ‘You just can’t trust Trump’: Canadian premiers fire back in trade war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598You%252Bjust%252Bcan%25E2%2580%2599t%252Btrust%252BTrump%25E2%2580%2599%253A%252BCanadian%252Bpremiers%252Bfire%252Bback%252Bin%252Btrade%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Lv4GMzyqdQGIjB3D4QGbPU2smiVmCUDQIzPltG4oQ_3CRp4N93FtdlKpSWMt6yk8zbfbuouD6g1_PoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mayors-to-get-powers-to-overrule-local-councils-on_20260823_0400.html
-✓ Created comprehensive article: mayors-to-get-powers-to-overrule-local-councils-on_20260823_0400.html
+Successfully created file: you-just-cant-trust-trump-canadian-premiers-fire-b_20260823_0438.html
+✓ Created comprehensive article: you-just-cant-trust-trump-canadian-premiers-fire-b_20260823_0438.html
 
-Processing trending topic: In rural Chad, solar kiosks bring healthcare closer
-Searching Google for: In rural Chad, solar kiosks bring healthcare closer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIn%252Brural%252BChad%252C%252Bsolar%252Bkiosks%252Bbring%252Bhealthcare%252Bcloser%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSeF5NhGMbgqdQGIjDOjx8k7AJBYLt7L5j7tRfRFrw-YDtyiNneXqzC2EdUN12lKdkNXDXPheEXLHSBj8EyAnJSWgFD
+Processing trending topic: Iran threatens countries that join US ‘economic D-Day’
+Searching Google for: Iran threatens countries that join US ‘economic D-Day’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bthreatens%252Bcountries%252Bthat%252Bjoin%252BUS%252B%25E2%2580%2598economic%252BD-Day%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Lv4GNPyqdQGIjCdjD7xViidQz31_ItCz4b5agaA7vUqQRiaMU9l9eWnzmhB4nCL-uk5v85Y3okHpZ4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: in-rural-chad-solar-kiosks-bring-healthcare-closer_20260823_0400.html
-✓ Created comprehensive article: in-rural-chad-solar-kiosks-bring-healthcare-closer_20260823_0400.html
+Successfully created file: iran-threatens-countries-that-join-us-economic-d-d_20260823_0438.html
+✓ Created comprehensive article: iran-threatens-countries-that-join-us-economic-d-d_20260823_0438.html
 
-Processing trending topic: Chinese robot beats Usain Bolt’s 100m world record at humanoid games
-Searching Google for: Chinese robot beats Usain Bolt’s 100m world record at humanoid games
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChinese%252Brobot%252Bbeats%252BUsain%252BBolt%25E2%2580%2599s%252B100m%252Bworld%252Brecord%252Bat%252Bhumanoid%252Bgames%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSeF5NhGM3gqdQGIjDO6LxB3XQ6ZW48vUYQF_YCAxoBc39FxTqmJY7ozQDisrX91VgsWnOsOMYVMsbLJHEyAnJSWgFD
+Processing trending topic: Iran warns nearby nations against joining US ‘economic war’ efforts
+Searching Google for: Iran warns nearby nations against joining US ‘economic war’ efforts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwarns%252Bnearby%252Bnations%252Bagainst%252Bjoining%252BUS%252B%25E2%2580%2598economic%252Bwar%25E2%2580%2599%252Befforts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Lv4GNnyqdQGIjAWsMfZqZwMetZnYYibSDO-rLG_di3bu6VGc0pGnqJrjrD9T83tDA_pu_wwhLISq1AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: chinese-robot-beats-usain-bolts-100m-world-record-_20260823_0400.html
-✓ Created comprehensive article: chinese-robot-beats-usain-bolts-100m-world-record-_20260823_0400.html
+Successfully created file: iran-warns-nearby-nations-against-joining-us-econo_20260823_0438.html
+✓ Created comprehensive article: iran-warns-nearby-nations-against-joining-us-econo_20260823_0438.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: thousands-flee-sudans-kordofan-fighting-for-relati_20260823_0303.html
-Cleaned old post to keep top 30 limit: two-police-officers-among-seven-killed-in-wrong-wa_20260823_0113.html
-Cleaned old post to keep top 30 limit: canada-to-hit-us-with-retaliatory-tariffs-as-trade_20260823_0303.html
+Cleaned old post to keep top 30 limit: mayors-to-get-powers-to-overrule-local-councils-on_20260823_0400.html
+Cleaned old post to keep top 30 limit: in-rural-chad-solar-kiosks-bring-healthcare-closer_20260823_0400.html
+Cleaned old post to keep top 30 limit: chinese-robot-beats-usain-bolts-100m-world-record-_20260823_0400.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Mayors to get powers to overrule local councils on planning decisions
+   • ‘You just can’t trust Trump’: Canadian premiers fire back in trade war
      Sources: bbc.com, cnn.com, reuters.com
-   • In rural Chad, solar kiosks bring healthcare closer
+   • Iran threatens countries that join US ‘economic D-Day’
      Sources: bbc.com, cnn.com, reuters.com
-   • Chinese robot beats Usain Bolt’s 100m world record at humanoid games
+   • Iran warns nearby nations against joining US ‘economic war’ efforts
      Sources: bbc.com, cnn.com, reuters.com
