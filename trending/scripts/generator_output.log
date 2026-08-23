@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 24 topics
+Already used today: 27 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump says Canada wants 'benefits' of being US state after trade talks collapse
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli wounded in occupied West Bank stabbing
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kazakhstan holds parliamentary election expected to cement president’s grip
-Added expanded search topic: Israeli wounded in occupied West Bank stabbing
-Added expanded search topic: Kazakhstan holds parliamentary election expected to cement president’s grip
-Saved 27 topics for 2026-08-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How the deadliest Bundibugyo Ebola outbreak can be stopped
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli air strike near Gaza refugee camp kills one person and injures two
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: 37 injured as magnitude 5.9 earthquake strikes eastern Japan
+Added expanded search topic: How the deadliest Bundibugyo Ebola outbreak can be stopped
+Added expanded search topic: Israeli air strike near Gaza refugee camp kills one person and injures two
+Added expanded search topic: 37 injured as magnitude 5.9 earthquake strikes eastern Japan
+Saved 30 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. Trump says Canada wants 'benefits' of being US state after trade talks collapse (from BBC News)
-  2. Israeli wounded in occupied West Bank stabbing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Kazakhstan holds parliamentary election expected to cement president’s grip (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. How the deadliest Bundibugyo Ebola outbreak can be stopped (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli air strike near Gaza refugee camp kills one person and injures two (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. 37 injured as magnitude 5.9 earthquake strikes eastern Japan (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump says Canada wants 'benefits' of being US state after trade talks collapse
-Searching Google for: Trump says Canada wants 'benefits' of being US state after trade talks collapse
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BCanada%252Bwants%252B%2527benefits%2527%252Bof%252Bbeing%252BUS%252Bstate%252Bafter%252Btrade%252Btalks%252Bcollapse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-gGL36qtQGIjC1rEB7oDcmUu12aH8OKVRpUXlCxJaW0Ued9jKz0oLY0jP5mqqDTmbCI9cza30ixboyBmpjbmRyUloBQw
+Processing trending topic: How the deadliest Bundibugyo Ebola outbreak can be stopped
+Searching Google for: How the deadliest Bundibugyo Ebola outbreak can be stopped
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bthe%252Bdeadliest%252BBundibugyo%252BEbola%252Boutbreak%252Bcan%252Bbe%252Bstopped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGOaUq9QGIjAYcxCH9fUPrrCJ8KWl1TwTgEP1TyBEchHZAidXdjq6uPuemv_B6EkGrQi6bPMF7J4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-canada-wants-benefits-of-being-us-state_20260823_0928.html
-✓ Created comprehensive article: trump-says-canada-wants-benefits-of-being-us-state_20260823_0928.html
+Successfully created file: how-the-deadliest-bundibugyo-ebola-outbreak-can-be_20260823_1024.html
+✓ Created comprehensive article: how-the-deadliest-bundibugyo-ebola-outbreak-can-be_20260823_1024.html
 
-Processing trending topic: Israeli wounded in occupied West Bank stabbing
-Searching Google for: Israeli wounded in occupied West Bank stabbing
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bwounded%252Bin%252Boccupied%252BWest%252BBank%252Bstabbing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-gGMT6qtQGIjCvkcRdx2Gp9WnkY-HcDfFHpF7xAOGG3V7guTym10bTEBAb54-K-IlQL41BWL0Ut9MyBmpjbmRyUloBQw
+Processing trending topic: Israeli air strike near Gaza refugee camp kills one person and injures two
+Searching Google for: Israeli air strike near Gaza refugee camp kills one person and injures two
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bair%252Bstrike%252Bnear%252BGaza%252Brefugee%252Bcamp%252Bkills%252Bone%252Bperson%252Band%252Binjures%252Btwo%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGOyUq9QGIjA0m0Hq-TCL4NrXHp0ZdsqDg_WnnkwPJQQG0VLd8Cu1LcUIJ6tv0uphwXvP8DCtGdMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-wounded-in-occupied-west-bank-stabbing_20260823_0928.html
-✓ Created comprehensive article: israeli-wounded-in-occupied-west-bank-stabbing_20260823_0928.html
+Successfully created file: israeli-air-strike-near-gaza-refugee-camp-kills-on_20260823_1024.html
+✓ Created comprehensive article: israeli-air-strike-near-gaza-refugee-camp-kills-on_20260823_1024.html
 
-Processing trending topic: Kazakhstan holds parliamentary election expected to cement president’s grip
-Searching Google for: Kazakhstan holds parliamentary election expected to cement president’s grip
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKazakhstan%252Bholds%252Bparliamentary%252Belection%252Bexpected%252Bto%252Bcement%252Bpresident%25E2%2580%2599s%252Bgrip%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqJ-gGMr6qtQGIjCvM6DX3oDrAMzd6UUZzYcKmftG0Lg_6udCjcEHguERLRZd2JMg5RjQ8ST7_SlKMsoyBmpjbmRyUloBQw
+Processing trending topic: 37 injured as magnitude 5.9 earthquake strikes eastern Japan
+Searching Google for: 37 injured as magnitude 5.9 earthquake strikes eastern Japan
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D37%252Binjured%252Bas%252Bmagnitude%252B5.9%252Bearthquake%252Bstrikes%252Beastern%252BJapan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNCGPKUq9QGIjDG65fM7eRLB0_vGsssf1-P2cRqNRUqrxxL3tyEzdesHTVxj8ALA6CqVs2RPFZplbcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kazakhstan-holds-parliamentary-election-expected-t_20260823_0928.html
-✓ Created comprehensive article: kazakhstan-holds-parliamentary-election-expected-t_20260823_0928.html
+Successfully created file: 37-injured-as-magnitude-59-earthquake-strikes-east_20260823_1024.html
+✓ Created comprehensive article: 37-injured-as-magnitude-59-earthquake-strikes-east_20260823_1024.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: photos-russia-celebrates-national-flag-day-amid-wa_20260823_0830.html
-Cleaned old post to keep top 30 limit: flooding-across-caracas-venezuela-after-heavy-rain_20260823_0829.html
-Cleaned old post to keep top 30 limit: dr-congo-m23-rebels-agree-on-roadmap-for-peace-tal_20260823_0830.html
+Cleaned old post to keep top 30 limit: kazakhstan-holds-parliamentary-election-expected-t_20260823_0928.html
+Cleaned old post to keep top 30 limit: trump-says-canada-wants-benefits-of-being-us-state_20260823_0928.html
+Cleaned old post to keep top 30 limit: israeli-wounded-in-occupied-west-bank-stabbing_20260823_0928.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump says Canada wants 'benefits' of being US state after trade talks collapse
+   • How the deadliest Bundibugyo Ebola outbreak can be stopped
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli wounded in occupied West Bank stabbing
+   • Israeli air strike near Gaza refugee camp kills one person and injures two
      Sources: bbc.com, cnn.com, reuters.com
-   • Kazakhstan holds parliamentary election expected to cement president’s grip
+   • 37 injured as magnitude 5.9 earthquake strikes eastern Japan
      Sources: bbc.com, cnn.com, reuters.com
