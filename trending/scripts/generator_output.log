@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 48 topics
+Already used today: 51 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police aborted pursuit about 10 seconds before fatal crash, watchdog says
-  Added: Trump says Canada wants 'benefits' of being US state after trade talks collapse
+  Added: CrossCountry cancels 'almost all' UK services after power cut
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: LIVE: Elche vs Barcelona – La Liga
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French President Macron to host Saudi Crown Prince MBS in Paris for talks
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran’s government signals fuel price hike on eve of new US sanctions
-Added expanded search topic: LIVE: Elche vs Barcelona – La Liga
-Added expanded search topic: French President Macron to host Saudi Crown Prince MBS in Paris for talks
-Added expanded search topic: Iran’s government signals fuel price hike on eve of new US sanctions
-Saved 51 topics for 2026-08-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Tunisia sees protests after migrant boat sinking kills eight
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands displaced as wildfire threatens homes in US state of Nevada
+Added expanded search topic: Tunisia sees protests after migrant boat sinking kills eight
+Added expanded search topic: Thousands displaced as wildfire threatens homes in US state of Nevada
+Saved 54 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. LIVE: Elche vs Barcelona – La Liga (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. French President Macron to host Saudi Crown Prince MBS in Paris for talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Iran’s government signals fuel price hike on eve of new US sanctions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. CrossCountry cancels 'almost all' UK services after power cut (from BBC News)
+  2. Tunisia sees protests after migrant boat sinking kills eight (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Thousands displaced as wildfire threatens homes in US state of Nevada (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: LIVE: Elche vs Barcelona – La Liga
-Searching Google for: LIVE: Elche vs Barcelona – La Liga
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLIVE%253A%252BElche%252Bvs%252BBarcelona%252B%25E2%2580%2593%252BLa%252BLiga%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEle0kGMPYrNQGIjATHHKLi1-b0Lsp4SHeKv52jQnHGf9v_gVE3iB7PRgqzTl13Yesg2dlmrBF5ED_hDwyBmpjbmRyUloBQw
+Processing trending topic: CrossCountry cancels 'almost all' UK services after power cut
+Searching Google for: CrossCountry cancels 'almost all' UK services after power cut
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCrossCountry%252Bcancels%252B%2527almost%252Ball%2527%252BUK%252Bservices%252Bafter%252Bpower%252Bcut%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUalGK_3rNQGIjBa3j8fiRfJ_AZ14RJxT_atZHmBeEbrfB8uhr45y5ezDxTlDYJTGxF5YMPBCucpcmgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: live-elche-vs-barcelona-la-liga_20260823_1722.html
-✓ Created comprehensive article: live-elche-vs-barcelona-la-liga_20260823_1722.html
+Successfully created file: crosscountry-cancels-almost-all-uk-services-after-_20260823_1828.html
+✓ Created comprehensive article: crosscountry-cancels-almost-all-uk-services-after-_20260823_1828.html
 
-Processing trending topic: French President Macron to host Saudi Crown Prince MBS in Paris for talks
-Searching Google for: French President Macron to host Saudi Crown Prince MBS in Paris for talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252BPresident%252BMacron%252Bto%252Bhost%252BSaudi%252BCrown%252BPrince%252BMBS%252Bin%252BParis%252Bfor%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEle0kGMrYrNQGIjBUBreITKPUHZcSpxZ8hGk1k5fIt3AcmLpBWI7q5IrShHJNaO6b3tX2eGbfRgcftu4yBmpjbmRyUloBQw
+Processing trending topic: Tunisia sees protests after migrant boat sinking kills eight
+Searching Google for: Tunisia sees protests after migrant boat sinking kills eight
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTunisia%252Bsees%252Bprotests%252Bafter%252Bmigrant%252Bboat%252Bsinking%252Bkills%252Beight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUalGLb3rNQGIjDakX0fPNr9FhonoZGa1RhBxDzZQK7VO8IMiUNYinSPLqOhaiR9joEFuRMeykFH0LcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: french-president-macron-to-host-saudi-crown-prince_20260823_1722.html
-✓ Created comprehensive article: french-president-macron-to-host-saudi-crown-prince_20260823_1722.html
+Successfully created file: tunisia-sees-protests-after-migrant-boat-sinking-k_20260823_1828.html
+✓ Created comprehensive article: tunisia-sees-protests-after-migrant-boat-sinking-k_20260823_1828.html
 
-Processing trending topic: Iran’s government signals fuel price hike on eve of new US sanctions
-Searching Google for: Iran’s government signals fuel price hike on eve of new US sanctions
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%25E2%2580%2599s%252Bgovernment%252Bsignals%252Bfuel%252Bprice%252Bhike%252Bon%252Beve%252Bof%252Bnew%252BUS%252Bsanctions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEle0kGNDYrNQGIjAjV-i8VK996uw9-588WtO99ocn3k50MpOAh_GKdsZ0hggOts7Q_XU9VwvxLMbIMUQyBmpjbmRyUloBQw
+Processing trending topic: Thousands displaced as wildfire threatens homes in US state of Nevada
+Searching Google for: Thousands displaced as wildfire threatens homes in US state of Nevada
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bdisplaced%252Bas%252Bwildfire%252Bthreatens%252Bhomes%252Bin%252BUS%252Bstate%252Bof%252BNevada%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoUalGLz3rNQGIjCL0HdhQLe3rG457s9Xf0EdnW-oWTLXKgxtw_WuNY6KmVAOqctaJMYWAYTDYfxlFQ0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: irans-government-signals-fuel-price-hike-on-eve-of_20260823_1722.html
-✓ Created comprehensive article: irans-government-signals-fuel-price-hike-on-eve-of_20260823_1722.html
+Successfully created file: thousands-displaced-as-wildfire-threatens-homes-in_20260823_1828.html
+✓ Created comprehensive article: thousands-displaced-as-wildfire-threatens-homes-in_20260823_1828.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: canada-us-and-tit-for-tat-tariffs-how-will-they-im_20260823_1625.html
-Cleaned old post to keep top 30 limit: zelenskyy-says-wartime-elections-could-destroy-ukr_20260823_1334.html
-Cleaned old post to keep top 30 limit: can-nigeria-cash-in-on-iran-war_20260823_1625.html
+Cleaned old post to keep top 30 limit: irans-government-signals-fuel-price-hike-on-eve-of_20260823_1722.html
+Cleaned old post to keep top 30 limit: live-elche-vs-barcelona-la-liga_20260823_1722.html
+Cleaned old post to keep top 30 limit: french-president-macron-to-host-saudi-crown-prince_20260823_1722.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • LIVE: Elche vs Barcelona – La Liga
+   • CrossCountry cancels 'almost all' UK services after power cut
      Sources: bbc.com, cnn.com, reuters.com
-   • French President Macron to host Saudi Crown Prince MBS in Paris for talks
+   • Tunisia sees protests after migrant boat sinking kills eight
      Sources: bbc.com, cnn.com, reuters.com
-   • Iran’s government signals fuel price hike on eve of new US sanctions
+   • Thousands displaced as wildfire threatens homes in US state of Nevada
      Sources: bbc.com, cnn.com, reuters.com
