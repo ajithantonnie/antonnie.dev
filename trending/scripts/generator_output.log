@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 60 topics
+Already used today: 63 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Families of two police officers killed in crash say they were heroes
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Landfill collapse kills 30 in Guinea’s capital after heavy rains
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is Israel about to split the occupied West Bank in half?
-Added expanded search topic: Landfill collapse kills 30 in Guinea’s capital after heavy rains
-Added expanded search topic: Is Israel about to split the occupied West Bank in half?
-Saved 63 topics for 2026-08-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Raphinha and Lopez score braces as Barcelona trounce Elche 5-0
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Will Donald Trump’s new sanctions against Iran work?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Serbia requests international assistance to battle wildfires
+Added expanded search topic: Raphinha and Lopez score braces as Barcelona trounce Elche 5-0
+Added expanded search topic: Will Donald Trump’s new sanctions against Iran work?
+Added expanded search topic: Serbia requests international assistance to battle wildfires
+Saved 66 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. Families of two police officers killed in crash say they were heroes (from BBC News)
-  2. Landfill collapse kills 30 in Guinea’s capital after heavy rains (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Is Israel about to split the occupied West Bank in half? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Raphinha and Lopez score braces as Barcelona trounce Elche 5-0 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Will Donald Trump’s new sanctions against Iran work? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Serbia requests international assistance to battle wildfires (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Families of two police officers killed in crash say they were heroes
-Searching Google for: Families of two police officers killed in crash say they were heroes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamilies%252Bof%252Btwo%252Bpolice%252Bofficers%252Bkilled%252Bin%252Bcrash%252Bsay%252Bthey%252Bwere%252Bheroes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCVCGKrJrdQGIjDS2q6tPMgpotcA3MCMF5DWAHAbU9jeak55W_tGEWFS_0uCqVsgfXUvbQ2FPvEj45oyBmpjbmRyUloBQw
+Processing trending topic: Raphinha and Lopez score braces as Barcelona trounce Elche 5-0
+Searching Google for: Raphinha and Lopez score braces as Barcelona trounce Elche 5-0
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRaphinha%252Band%252BLopez%252Bscore%252Bbraces%252Bas%252BBarcelona%252Btrounce%252BElche%252B5-0%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-VFGKflrdQGIjDPYw4eP9psmoD4PR9O_h7OGNu9HzuutRdt2FH0njQeql37DXvb42b5zS0EAeb9gi0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: families-of-two-police-officers-killed-in-crash-sa_20260823_2122.html
-✓ Created comprehensive article: families-of-two-police-officers-killed-in-crash-sa_20260823_2122.html
+Successfully created file: raphinha-and-lopez-score-braces-as-barcelona-troun_20260823_2222.html
+✓ Created comprehensive article: raphinha-and-lopez-score-braces-as-barcelona-troun_20260823_2222.html
 
-Processing trending topic: Landfill collapse kills 30 in Guinea’s capital after heavy rains
-Searching Google for: Landfill collapse kills 30 in Guinea’s capital after heavy rains
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLandfill%252Bcollapse%252Bkills%252B30%252Bin%252BGuinea%25E2%2580%2599s%252Bcapital%252Bafter%252Bheavy%252Brains%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCVCGLLJrdQGIjCInfqyViGygeq_xphZMxwh5rXz6xxduRqKVJFEJey0nR9fSw1ZIHwdl5cIQBezYDIyBmpjbmRyUloBQw
+Processing trending topic: Will Donald Trump’s new sanctions against Iran work?
+Searching Google for: Will Donald Trump’s new sanctions against Iran work?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BDonald%252BTrump%25E2%2580%2599s%252Bnew%252Bsanctions%252Bagainst%252BIran%252Bwork%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-VFGK7lrdQGIjDWCgrG6OPO_4HPFTsWi1KFKk7qSRPIHrcdXqjnwhf2XrtIhivZV3eJaJgV2oPs3jwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: landfill-collapse-kills-30-in-guineas-capital-afte_20260823_2123.html
-✓ Created comprehensive article: landfill-collapse-kills-30-in-guineas-capital-afte_20260823_2123.html
+Successfully created file: will-donald-trumps-new-sanctions-against-iran-work_20260823_2222.html
+✓ Created comprehensive article: will-donald-trumps-new-sanctions-against-iran-work_20260823_2222.html
 
-Processing trending topic: Is Israel about to split the occupied West Bank in half?
-Searching Google for: Is Israel about to split the occupied West Bank in half?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252BIsrael%252Babout%252Bto%252Bsplit%252Bthe%252Boccupied%252BWest%252BBank%252Bin%252Bhalf%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0sCVCGLjJrdQGIjAUbLS75rEcsq9djNklKC5lx64VMBpSom-3MzYI4GxDkMUPap8hwFBILCAgsz7qXu8yBmpjbmRyUloBQw
+Processing trending topic: Serbia requests international assistance to battle wildfires
+Searching Google for: Serbia requests international assistance to battle wildfires
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSerbia%252Brequests%252Binternational%252Bassistance%252Bto%252Bbattle%252Bwildfires%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-VFGLTlrdQGIjDC8ZAxaB53jnrESJ7Z0Ju1eSbw73u33opQSZlh_vviw3ejgFaGxRLetzmUx1w9DdgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: is-israel-about-to-split-the-occupied-west-bank-in_20260823_2123.html
-✓ Created comprehensive article: is-israel-about-to-split-the-occupied-west-bank-in_20260823_2123.html
+Successfully created file: serbia-requests-international-assistance-to-battle_20260823_2222.html
+✓ Created comprehensive article: serbia-requests-international-assistance-to-battle_20260823_2222.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: real-madrid-beat-espanyol-2-1-in-jose-mourinhos-fi_20260823_0530.html
-Cleaned old post to keep top 30 limit: photos-indycars-speed-past-washington-landmarks-as_20260823_2022.html
-Cleaned old post to keep top 30 limit: crosscountry-to-provide-full-service-on-monday-aft_20260823_2022.html
+Cleaned old post to keep top 30 limit: is-israel-about-to-split-the-occupied-west-bank-in_20260823_2123.html
+Cleaned old post to keep top 30 limit: landfill-collapse-kills-30-in-guineas-capital-afte_20260823_2123.html
+Cleaned old post to keep top 30 limit: families-of-two-police-officers-killed-in-crash-sa_20260823_2122.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Families of two police officers killed in crash say they were heroes
+   • Raphinha and Lopez score braces as Barcelona trounce Elche 5-0
      Sources: bbc.com, cnn.com, reuters.com
-   • Landfill collapse kills 30 in Guinea’s capital after heavy rains
+   • Will Donald Trump’s new sanctions against Iran work?
      Sources: bbc.com, cnn.com, reuters.com
-   • Is Israel about to split the occupied West Bank in half?
+   • Serbia requests international assistance to battle wildfires
      Sources: bbc.com, cnn.com, reuters.com
