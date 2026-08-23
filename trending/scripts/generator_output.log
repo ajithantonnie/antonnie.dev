@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 42 topics
+Already used today: 45 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police aborted pursuit about 10 seconds before fatal crash, watchdog says
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Heavy Israeli air strike hits warehouse in central Gaza
-Added expanded search topic: PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties
-Added expanded search topic: Heavy Israeli air strike hits warehouse in central Gaza
-Saved 45 topics for 2026-08-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can Nigeria cash in on Iran war?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada, US and tit-for-tat tariffs: How will they impact their economies?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza families search for children missing after years of war
+Added expanded search topic: Can Nigeria cash in on Iran war?
+Added expanded search topic: Canada, US and tit-for-tat tariffs: How will they impact their economies?
+Added expanded search topic: Gaza families search for children missing after years of war
+Saved 48 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. Police aborted pursuit about 10 seconds before fatal crash, watchdog says (from BBC News)
-  2. PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Heavy Israeli air strike hits warehouse in central Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Can Nigeria cash in on Iran war? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Canada, US and tit-for-tat tariffs: How will they impact their economies? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Gaza families search for children missing after years of war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police aborted pursuit about 10 seconds before fatal crash, watchdog says
-Searching Google for: Police aborted pursuit about 10 seconds before fatal crash, watchdog says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Baborted%252Bpursuit%252Babout%252B10%252Bseconds%252Bbefore%252Bfatal%252Bcrash%252C%252Bwatchdog%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdh0WGNagrNQGIjBnTBpw9VNCpCXHyZdCfkhqF57IH1iLkqU6ADhuh2y7kjSIFL6hF5Gu-ZPd4ukAtQkyBmpjbmRyUloBQw
+Processing trending topic: Can Nigeria cash in on Iran war?
+Searching Google for: Can Nigeria cash in on Iran war?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252BNigeria%252Bcash%252Bin%252Bon%252BIran%252Bwar%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrCXoGPG9rNQGIjC4v6ezMLqLymqLJ-KmJl2BP8oOhMgo1nWAYpRPKPYcpBuzwzOm-h6lt5N8LivSLBUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-aborted-pursuit-about-10-seconds-before-fat_20260823_1523.html
-✓ Created comprehensive article: police-aborted-pursuit-about-10-seconds-before-fat_20260823_1523.html
+Successfully created file: can-nigeria-cash-in-on-iran-war_20260823_1625.html
+✓ Created comprehensive article: can-nigeria-cash-in-on-iran-war_20260823_1625.html
 
-Processing trending topic: PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties
-Searching Google for: PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPM%252BTarique%252BRahman%25E2%2580%2599s%252Btrip%252Bstalled%253A%252BWhat%252Bit%252Bmeans%252Bfor%252BBangladesh-India%252Bties%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdh0WGN2grNQGIjB_yakqZ0ba2YQwoybhnu6WX62Wl1Si3N2c9JJjOSMlg6JbjMBH-2LrPgiJZbvmJm0yBmpjbmRyUloBQw
+Processing trending topic: Canada, US and tit-for-tat tariffs: How will they impact their economies?
+Searching Google for: Canada, US and tit-for-tat tariffs: How will they impact their economies?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%252C%252BUS%252Band%252Btit-for-tat%252Btariffs%253A%252BHow%252Bwill%252Bthey%252Bimpact%252Btheir%252Beconomies%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrCXoGPi9rNQGIjA3U0W9DvWzLwOR_8pasZCZ2UE_DK_OhroWTgkX9NW6wAdT4opvJqJ0KM0hDWaGqkgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pm-tarique-rahmans-trip-stalled-what-it-means-for-_20260823_1523.html
-✓ Created comprehensive article: pm-tarique-rahmans-trip-stalled-what-it-means-for-_20260823_1523.html
+Successfully created file: canada-us-and-tit-for-tat-tariffs-how-will-they-im_20260823_1625.html
+✓ Created comprehensive article: canada-us-and-tit-for-tat-tariffs-how-will-they-im_20260823_1625.html
 
-Processing trending topic: Heavy Israeli air strike hits warehouse in central Gaza
-Searching Google for: Heavy Israeli air strike hits warehouse in central Gaza
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHeavy%252BIsraeli%252Bair%252Bstrike%252Bhits%252Bwarehouse%252Bin%252Bcentral%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdh0WGOOgrNQGIjAqh_mNKuSJ5uD8Crx6f4_lLTKSX_nwcChphxY9oX194q5pMTgDoaMfQtoUMO_dO8cyBmpjbmRyUloBQw
+Processing trending topic: Gaza families search for children missing after years of war
+Searching Google for: Gaza families search for children missing after years of war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Bfamilies%252Bsearch%252Bfor%252Bchildren%252Bmissing%252Bafter%252Byears%252Bof%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrCXoGP69rNQGIjAx8-iZhCriS5D1Yyc8JkSZmyNdpJbdwkzMx1mPQ0Azyy3L0Ey2gnqY23fuReGdScQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: heavy-israeli-air-strike-hits-warehouse-in-central_20260823_1523.html
-✓ Created comprehensive article: heavy-israeli-air-strike-hits-warehouse-in-central_20260823_1523.html
+Successfully created file: gaza-families-search-for-children-missing-after-ye_20260823_1625.html
+✓ Created comprehensive article: gaza-families-search-for-children-missing-after-ye_20260823_1625.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: the-suez-crisis-stopped-the-british-empire-will-ho_20260823_1424.html
-Cleaned old post to keep top 30 limit: nordic-nations-have-lost-confidence-in-infantino-d_20260823_1424.html
-Cleaned old post to keep top 30 limit: chelsea-preview-five-key-talking-points-for-2026-2_20260823_1424.html
+Cleaned old post to keep top 30 limit: pm-tarique-rahmans-trip-stalled-what-it-means-for-_20260823_1523.html
+Cleaned old post to keep top 30 limit: heavy-israeli-air-strike-hits-warehouse-in-central_20260823_1523.html
+Cleaned old post to keep top 30 limit: explosion-injures-13-in-taiwan_20260823_1121.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police aborted pursuit about 10 seconds before fatal crash, watchdog says
+   • Can Nigeria cash in on Iran war?
      Sources: bbc.com, cnn.com, reuters.com
-   • PM Tarique Rahman’s trip stalled: What it means for Bangladesh-India ties
+   • Canada, US and tit-for-tat tariffs: How will they impact their economies?
      Sources: bbc.com, cnn.com, reuters.com
-   • Heavy Israeli air strike hits warehouse in central Gaza
+   • Gaza families search for children missing after years of war
      Sources: bbc.com, cnn.com, reuters.com
