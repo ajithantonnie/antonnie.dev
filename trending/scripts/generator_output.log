@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Two police officers among seven killed in wrong-way car crash
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-23
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Canada to hit US with retaliatory tariffs as trade war escalates
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran war live: Tehran warns neighbours against joining US economic war
+Added expanded search topic: Canada to hit US with retaliatory tariffs as trade war escalates
+Added expanded search topic: Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid
+Added expanded search topic: Iran war live: Tehran warns neighbours against joining US economic war
+Saved 6 topics for 2026-08-23
 Returning 3 unique trending topics:
-  1. Two police officers among seven killed in wrong-way car crash (from BBC News)
-  2. Video appears to show police chase minutes before fatal A66 crash (from BBC News)
-  3. US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal (from The Guardian)
+  1. Canada to hit US with retaliatory tariffs as trade war escalates (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Iran war live: Tehran warns neighbours against joining US economic war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Two police officers among seven killed in wrong-way car crash
-Searching Google for: Two police officers among seven killed in wrong-way car crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bpolice%252Bofficers%252Bamong%252Bseven%252Bkilled%252Bin%252Bwrong-way%252Bcar%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-RGMKSqdQGIjAUJdNG0u2DUQrX-CmDLceDgjngGkgkciLggMGmk04wH-9RYOwndVD6_f0-6SwlLg0yBmpjbmRyUloBQw
+Processing trending topic: Canada to hit US with retaliatory tariffs as trade war escalates
+Searching Google for: Canada to hit US with retaliatory tariffs as trade war escalates
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCanada%252Bto%252Bhit%252BUS%252Bwith%252Bretaliatory%252Btariffs%252Bas%252Btrade%252Bwar%252Bescalates%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQCGPbFqdQGIjCHntre0A8dg8vNVUVfQj2t5SBKAtJnoRiPV8tUcenoHFyN5AoVHtJyrtnHIgp0EAYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: two-police-officers-among-seven-killed-in-wrong-wa_20260823_0113.html
-✓ Created comprehensive article: two-police-officers-among-seven-killed-in-wrong-wa_20260823_0113.html
+Successfully created file: canada-to-hit-us-with-retaliatory-tariffs-as-trade_20260823_0303.html
+✓ Created comprehensive article: canada-to-hit-us-with-retaliatory-tariffs-as-trade_20260823_0303.html
 
-Processing trending topic: Video appears to show police chase minutes before fatal A66 crash
-Searching Google for: Video appears to show police chase minutes before fatal A66 crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bappears%252Bto%252Bshow%252Bpolice%252Bchase%252Bminutes%252Bbefore%252Bfatal%252BA66%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-RGMmSqdQGIjDLbttp1VDIOeNJHdWNh6ZGUfQKbyoEgnxTgx-Tzjmo-ozDTURWJblwTa55HR0kbakyBmpjbmRyUloBQw
+Processing trending topic: Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid
+Searching Google for: Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThousands%252Bflee%252BSudan%25E2%2580%2599s%252BKordofan%252Bfighting%252Bfor%252Brelative%252Bsafety%252Bof%252BEl%252BObeid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQCGP3FqdQGIjAzZndtrSx0ul2GZ9KUU0wOgpG8b0Tmki-PV_B3ga54FMK7UQWBmID3l0TQ-diSzbIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-appears-to-show-police-chase-minutes-before-_20260823_0113.html
-✓ Created comprehensive article: video-appears-to-show-police-chase-minutes-before-_20260823_0113.html
+Successfully created file: thousands-flee-sudans-kordofan-fighting-for-relati_20260823_0303.html
+✓ Created comprehensive article: thousands-flee-sudans-kordofan-fighting-for-relati_20260823_0303.html
 
-Processing trending topic: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Searching Google for: US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeports%252B20%252Bpeople%252Bto%252BLiberia%252C%252Bthe%252Bfirst%252Bof%252B1%252C200%252Bmigrants%252Bunder%252BTrump%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-RGM-SqdQGIjCUNXsXLAZ7kB_ruIPiQ3Qe-IYzDEkHidzhg_1tQ5G24q1gp8VHz2IuUNUloo5voC4yBmpjbmRyUloBQw
+Processing trending topic: Iran war live: Tehran warns neighbours against joining US economic war
+Searching Google for: Iran war live: Tehran warns neighbours against joining US economic war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252Bwar%252Blive%253A%252BTehran%252Bwarns%252Bneighbours%252Bagainst%252Bjoining%252BUS%252Beconomic%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsttQCGIPGqdQGIjBrVD15JedjccnbluBMTMccqNrquQ8Im13c_NSRk0gRKhCaTBP1Nr4BaxauYArscJUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-deports-20-people-to-liberia-the-first-of-1200-_20260823_0113.html
-✓ Created comprehensive article: us-deports-20-people-to-liberia-the-first-of-1200-_20260823_0113.html
+Successfully created file: iran-war-live-tehran-warns-neighbours-against-join_20260823_0303.html
+✓ Created comprehensive article: iran-war-live-tehran-warns-neighbours-against-join_20260823_0303.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tropical-storm-moke-advances-towards-hawaii-with-h_20260822_2322.html
-Cleaned old post to keep top 30 limit: why-is-israel-building-new-illegal-settlements_20260822_2023.html
-Cleaned old post to keep top 30 limit: america-has-changed-canada-to-match-trumps-tariffs_20260822_2322.html
+Cleaned old post to keep top 30 limit: us-deports-20-people-to-liberia-the-first-of-1200-_20260823_0113.html
+Cleaned old post to keep top 30 limit: video-appears-to-show-police-chase-minutes-before-_20260823_0113.html
+Cleaned old post to keep top 30 limit: fifa-president-infantino-asked-to-stay-away-from-y_20260822_2322.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Two police officers among seven killed in wrong-way car crash
+   • Canada to hit US with retaliatory tariffs as trade war escalates
      Sources: bbc.com, cnn.com, reuters.com
-   • Video appears to show police chase minutes before fatal A66 crash
+   • Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid
      Sources: bbc.com, cnn.com, reuters.com
-   • US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal
+   • Iran war live: Tehran warns neighbours against joining US economic war
      Sources: bbc.com, cnn.com, reuters.com
