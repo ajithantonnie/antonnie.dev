@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Families of two police officers killed in crash say they were heroes
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Landslide at waste mound in Guinea capital kills 30, government says
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-24
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can Kenya’s AI ambitions coexist with Naivasha’s water needs?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi
+Added expanded search topic: Can Kenya’s AI ambitions coexist with Naivasha’s water needs?
+Added expanded search topic: Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives
+Added expanded search topic: India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi
+Saved 6 topics for 2026-08-24
 Returning 3 unique trending topics:
-  1. Families of two police officers killed in crash say they were heroes (from BBC News)
-  2. How easy is it to find an NHS dentist? It depends where you live (from BBC News)
-  3. Landslide at waste mound in Guinea capital kills 30, government says (from The Guardian)
+  1. Can Kenya’s AI ambitions coexist with Naivasha’s water needs? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Families of two police officers killed in crash say they were heroes
-Searching Google for: Families of two police officers killed in crash say they were heroes
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamilies%252Bof%252Btwo%252Bpolice%252Bofficers%252Bkilled%252Bin%252Bcrash%252Bsay%252Bthey%252Bwere%252Bheroes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdE8xGIi1rtQGIjBgtfoS_XzOKp6XzrO7t9MtgXn7c7JQDQZx_unftux9ep7mp3TLle4Nn5awTVPsjywyBmpjbmRyUloBQw
+Processing trending topic: Can Kenya’s AI ambitions coexist with Naivasha’s water needs?
+Searching Google for: Can Kenya’s AI ambitions coexist with Naivasha’s water needs?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252BKenya%25E2%2580%2599s%252BAI%252Bambitions%252Bcoexist%252Bwith%252BNaivasha%25E2%2580%2599s%252Bwater%252Bneeds%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9-2GPfortQGIjCbS_-ADXEswvLwc2JgcamKfqYAeT7Wwns1lnZnIh8WSzz_I5pxHyklYSvODJV6zgQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: families-of-two-police-officers-killed-in-crash-sa_20260824_0112.html
-✓ Created comprehensive article: families-of-two-police-officers-killed-in-crash-sa_20260824_0112.html
+Successfully created file: can-kenyas-ai-ambitions-coexist-with-naivashas-wat_20260824_0303.html
+✓ Created comprehensive article: can-kenyas-ai-ambitions-coexist-with-naivashas-wat_20260824_0303.html
 
-Processing trending topic: How easy is it to find an NHS dentist? It depends where you live
-Searching Google for: How easy is it to find an NHS dentist? It depends where you live
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Beasy%252Bis%252Bit%252Bto%252Bfind%252Ban%252BNHS%252Bdentist%253F%252BIt%252Bdepends%252Bwhere%252Byou%252Blive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdE8xGJC1rtQGIjCXANwV9S4qhGfjOsk7yaY4yRJAPIz4nXdXENZphRGOVNpkM3oN-8_OOlVfnx1ggR8yBmpjbmRyUloBQw
+Processing trending topic: Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives
+Searching Google for: Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEbola%252Bcases%252Bin%252BDRC%252Bhit%252B5%252C515%252Bas%252BPope%252BLeo%252Burges%252Bglobal%252Baction%252Bto%252Bsave%252Blives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9-2GP7ortQGIjBDZim84_86vuVXUErYJ74qELHg_BQuaEp1PKAETEFuN2ULJmG7GigJ5EPOvrNaM0syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-easy-is-it-to-find-an-nhs-dentist-it-depends-w_20260824_0112.html
-✓ Created comprehensive article: how-easy-is-it-to-find-an-nhs-dentist-it-depends-w_20260824_0112.html
+Successfully created file: ebola-cases-in-drc-hit-5515-as-pope-leo-urges-glob_20260824_0303.html
+✓ Created comprehensive article: ebola-cases-in-drc-hit-5515-as-pope-leo-urges-glob_20260824_0303.html
 
-Processing trending topic: Landslide at waste mound in Guinea capital kills 30, government says
-Searching Google for: Landslide at waste mound in Guinea capital kills 30, government says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLandslide%252Bat%252Bwaste%252Bmound%252Bin%252BGuinea%252Bcapital%252Bkills%252B30%252C%252Bgovernment%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdE8xGJa1rtQGIjC0nIy3JxQl74HV9ArL5doe_OGdrKTD8EA_9JfTI2GGuysmiBj1qh2U9XG3qt1kUawyBmpjbmRyUloBQw
+Processing trending topic: India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi
+Searching Google for: India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bcrushes%252Bcockroach%252Bdissent%252Bas%252B%25E2%2580%2598Fix%252BSchools%25E2%2580%2599%252Bcampaign%252Briles%252BModi%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN9-2GITprtQGIjAGbUkxIvoyJR9uQZxcUuyazw1WJCt8OBK8IwYjYliodyWmWvWlJnv1HwfLm3Ry3I8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: landslide-at-waste-mound-in-guinea-capital-kills-3_20260824_0112.html
-✓ Created comprehensive article: landslide-at-waste-mound-in-guinea-capital-kills-3_20260824_0112.html
+Successfully created file: india-crushes-cockroach-dissent-as-fix-schools-cam_20260824_0303.html
+✓ Created comprehensive article: india-crushes-cockroach-dissent-as-fix-schools-cam_20260824_0303.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: severe-winds-toss-four-aircraft-across-italian-air_20260823_2022.html
-Cleaned old post to keep top 30 limit: landslide-at-waste-mound-in-guinea-capital-kills-3_20260823_2321.html
-Cleaned old post to keep top 30 limit: gazas-hospitals-are-running-out-of-oxygen-as-healt_20260823_2321.html
+Cleaned old post to keep top 30 limit: how-easy-is-it-to-find-an-nhs-dentist-it-depends-w_20260824_0112.html
+Cleaned old post to keep top 30 limit: landslide-at-waste-mound-in-guinea-capital-kills-3_20260824_0112.html
+Cleaned old post to keep top 30 limit: families-of-two-police-officers-killed-in-crash-sa_20260824_0112.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Families of two police officers killed in crash say they were heroes
+   • Can Kenya’s AI ambitions coexist with Naivasha’s water needs?
      Sources: bbc.com, cnn.com, reuters.com
-   • How easy is it to find an NHS dentist? It depends where you live
+   • Ebola cases in DRC hit 5,515 as Pope Leo urges global action to save lives
      Sources: bbc.com, cnn.com, reuters.com
-   • Landslide at waste mound in Guinea capital kills 30, government says
+   • India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi
      Sources: bbc.com, cnn.com, reuters.com
