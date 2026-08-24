@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 51 topics
+Already used today: 54 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Organised crime arrests as police investigate A66 crash that killed two officers
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kidnappers release video showing hundreds abducted from Nigerian mosque
-Added expanded search topic: Kidnappers release video showing hundreds abducted from Nigerian mosque
-Saved 54 topics for 2026-08-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israel threatens attacks in Gaza over children’s kites
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump administration seeks to formalise H-1B fee of more than $100,000
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Norway plans further development of Arctic drilling amid EU energy concerns
+Added expanded search topic: Israel threatens attacks in Gaza over children’s kites
+Added expanded search topic: Trump administration seeks to formalise H-1B fee of more than $100,000
+Added expanded search topic: Norway plans further development of Arctic drilling amid EU energy concerns
+Saved 57 topics for 2026-08-24
 Returning 3 unique trending topics:
-  1. Organised crime arrests as police investigate A66 crash that killed two officers (from BBC News)
-  2. Prince Harry quits board of wildlife charity after rangers’ human rights abuses (from The Guardian)
-  3. Kidnappers release video showing hundreds abducted from Nigerian mosque (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Israel threatens attacks in Gaza over children’s kites (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trump administration seeks to formalise H-1B fee of more than $100,000 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Norway plans further development of Arctic drilling amid EU energy concerns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Organised crime arrests as police investigate A66 crash that killed two officers
-Searching Google for: Organised crime arrests as police investigate A66 crash that killed two officers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOrganised%252Bcrime%252Barrests%252Bas%252Bpolice%252Binvestigate%252BA66%252Bcrash%252Bthat%252Bkilled%252Btwo%252Bofficers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdbGNyhstQGIjAMAmWIRyMrfeya8QwZYCynXhHV6KQ2TxNuSWp1G3w4dex--qLZH60Y4WjOJ-CkmhIyBmpjbmRyUloBQw
+Processing trending topic: Israel threatens attacks in Gaza over children’s kites
+Searching Google for: Israel threatens attacks in Gaza over children’s kites
+Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: organised-crime-arrests-as-police-investigate-a66-_20260824_1843.html
-✓ Created comprehensive article: organised-crime-arrests-as-police-investigate-a66-_20260824_1843.html
+Successfully created file: israel-threatens-attacks-in-gaza-over-childrens-ki_20260824_1932.html
+✓ Created comprehensive article: israel-threatens-attacks-in-gaza-over-childrens-ki_20260824_1932.html
 
-Processing trending topic: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Searching Google for: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Bquits%252Bboard%252Bof%252Bwildlife%252Bcharity%252Bafter%252Brangers%25E2%2580%2599%252Bhuman%252Brights%252Babuses%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdbGOOhstQGIjCFHlWjjMLEg7OtkPL8I38vsAchJbrJu2NYafl6inB7deAOnrB2cHIc6OWhCy9ho38yBmpjbmRyUloBQw
+Processing trending topic: Trump administration seeks to formalise H-1B fee of more than $100,000
+Searching Google for: Trump administration seeks to formalise H-1B fee of more than $100,000
+Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-quits-board-of-wildlife-charity-after_20260824_1843.html
-✓ Created comprehensive article: prince-harry-quits-board-of-wildlife-charity-after_20260824_1843.html
+Successfully created file: trump-administration-seeks-to-formalise-h-1b-fee-o_20260824_1932.html
+✓ Created comprehensive article: trump-administration-seeks-to-formalise-h-1b-fee-o_20260824_1932.html
 
-Processing trending topic: Kidnappers release video showing hundreds abducted from Nigerian mosque
-Searching Google for: Kidnappers release video showing hundreds abducted from Nigerian mosque
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKidnappers%252Brelease%252Bvideo%252Bshowing%252Bhundreds%252Babducted%252Bfrom%252BNigerian%252Bmosque%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1KdbGOqhstQGIjDQbPeqGmishXLA7CUfdFpnx_4TlPd2JkTgD9l7SXRoPNOM8JMyWdYoliuwJpON3IUyBmpjbmRyUloBQw
+Processing trending topic: Norway plans further development of Arctic drilling amid EU energy concerns
+Searching Google for: Norway plans further development of Arctic drilling amid EU energy concerns
+Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kidnappers-release-video-showing-hundreds-abducted_20260824_1843.html
-✓ Created comprehensive article: kidnappers-release-video-showing-hundreds-abducted_20260824_1843.html
+Successfully created file: norway-plans-further-development-of-arctic-drillin_20260824_1933.html
+✓ Created comprehensive article: norway-plans-further-development-of-arctic-drillin_20260824_1933.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: prince-harry-quits-board-of-wildlife-charity-after_20260824_1732.html
-Cleaned old post to keep top 30 limit: why-israeli-settler-attacks-on-palestinians-in-wes_20260824_1540.html
-Cleaned old post to keep top 30 limit: how-the-deadly-a66-crash-unfolded-leaving-seven-de_20260824_1732.html
+Cleaned old post to keep top 30 limit: prince-harry-quits-board-of-wildlife-charity-after_20260824_1843.html
+Cleaned old post to keep top 30 limit: kidnappers-release-video-showing-hundreds-abducted_20260824_1843.html
+Cleaned old post to keep top 30 limit: japanese-delegation-seeks-to-soothe-strained-ties-_20260824_1732.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Organised crime arrests as police investigate A66 crash that killed two officers
+   • Israel threatens attacks in Gaza over children’s kites
      Sources: bbc.com, cnn.com, reuters.com
-   • Prince Harry quits board of wildlife charity after rangers’ human rights abuses
+   • Trump administration seeks to formalise H-1B fee of more than $100,000
      Sources: bbc.com, cnn.com, reuters.com
-   • Kidnappers release video showing hundreds abducted from Nigerian mosque
+   • Norway plans further development of Arctic drilling amid EU energy concerns
      Sources: bbc.com, cnn.com, reuters.com
