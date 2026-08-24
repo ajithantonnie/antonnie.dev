@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 66 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Families of two police officers killed in crash say they were heroes
-  Added: Police aborted pursuit about 10 seconds before fatal crash, watchdog says
+  Added: How easy is it to find an NHS dentist? It depends where you live
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Landslide at waste mound in Guinea capital kills 30, government says
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US envoy Tom Barrack retracts comment that Syria’s Golan is occupied
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza’s hospitals are running out of oxygen as healthcare nears collapse
-Added expanded search topic: US envoy Tom Barrack retracts comment that Syria’s Golan is occupied
-Added expanded search topic: Gaza’s hospitals are running out of oxygen as healthcare nears collapse
-Saved 69 topics for 2026-08-23
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-08-24
 Returning 3 unique trending topics:
-  1. Landslide at waste mound in Guinea capital kills 30, government says (from The Guardian)
-  2. US envoy Tom Barrack retracts comment that Syria’s Golan is occupied (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Gaza’s hospitals are running out of oxygen as healthcare nears collapse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Families of two police officers killed in crash say they were heroes (from BBC News)
+  2. How easy is it to find an NHS dentist? It depends where you live (from BBC News)
+  3. Landslide at waste mound in Guinea capital kills 30, government says (from The Guardian)
+
+Processing trending topic: Families of two police officers killed in crash say they were heroes
+Searching Google for: Families of two police officers killed in crash say they were heroes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFamilies%252Bof%252Btwo%252Bpolice%252Bofficers%252Bkilled%252Bin%252Bcrash%252Bsay%252Bthey%252Bwere%252Bheroes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdE8xGIi1rtQGIjBgtfoS_XzOKp6XzrO7t9MtgXn7c7JQDQZx_unftux9ep7mp3TLle4Nn5awTVPsjywyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: families-of-two-police-officers-killed-in-crash-sa_20260824_0112.html
+✓ Created comprehensive article: families-of-two-police-officers-killed-in-crash-sa_20260824_0112.html
+
+Processing trending topic: How easy is it to find an NHS dentist? It depends where you live
+Searching Google for: How easy is it to find an NHS dentist? It depends where you live
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Beasy%252Bis%252Bit%252Bto%252Bfind%252Ban%252BNHS%252Bdentist%253F%252BIt%252Bdepends%252Bwhere%252Byou%252Blive%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdE8xGJC1rtQGIjCXANwV9S4qhGfjOsk7yaY4yRJAPIz4nXdXENZphRGOVNpkM3oN-8_OOlVfnx1ggR8yBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: how-easy-is-it-to-find-an-nhs-dentist-it-depends-w_20260824_0112.html
+✓ Created comprehensive article: how-easy-is-it-to-find-an-nhs-dentist-it-depends-w_20260824_0112.html
 
 Processing trending topic: Landslide at waste mound in Guinea capital kills 30, government says
 Searching Google for: Landslide at waste mound in Guinea capital kills 30, government says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLandslide%252Bat%252Bwaste%252Bmound%252Bin%252BGuinea%252Bcapital%252Bkills%252B30%252C%252Bgovernment%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt_yGOWArtQGIjDjow7yP-pOpMMb2sl8J7Nxxv-lAd_C3iiWyWrQlvahIffyQLe4GuVHGt5nJ95ogVAyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLandslide%252Bat%252Bwaste%252Bmound%252Bin%252BGuinea%252Bcapital%252Bkills%252B30%252C%252Bgovernment%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdE8xGJa1rtQGIjC0nIy3JxQl74HV9ArL5doe_OGdrKTD8EA_9JfTI2GGuysmiBj1qh2U9XG3qt1kUawyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: landslide-at-waste-mound-in-guinea-capital-kills-3_20260823_2321.html
-✓ Created comprehensive article: landslide-at-waste-mound-in-guinea-capital-kills-3_20260823_2321.html
-
-Processing trending topic: US envoy Tom Barrack retracts comment that Syria’s Golan is occupied
-Searching Google for: US envoy Tom Barrack retracts comment that Syria’s Golan is occupied
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoy%252BTom%252BBarrack%252Bretracts%252Bcomment%252Bthat%252BSyria%25E2%2580%2599s%252BGolan%252Bis%252Boccupied%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt_yGOyArtQGIjBENs29C9d4MYwcYGIAxsjqaH7uwjOoYsmSsD7uisvZBdan0iHpo53-O7WxjH6NqCoyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-envoy-tom-barrack-retracts-comment-that-syrias-_20260823_2321.html
-✓ Created comprehensive article: us-envoy-tom-barrack-retracts-comment-that-syrias-_20260823_2321.html
-
-Processing trending topic: Gaza’s hospitals are running out of oxygen as healthcare nears collapse
-Searching Google for: Gaza’s hospitals are running out of oxygen as healthcare nears collapse
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%25E2%2580%2599s%252Bhospitals%252Bare%252Brunning%252Bout%252Bof%252Boxygen%252Bas%252Bhealthcare%252Bnears%252Bcollapse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt_yGPKArtQGIjBdl8uID3c9oSJzOTqD5c6JPQf2F-rCLh5V2W8baoRccl8KyQqOqErCD7COGHG12P4yBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: gazas-hospitals-are-running-out-of-oxygen-as-healt_20260823_2321.html
-✓ Created comprehensive article: gazas-hospitals-are-running-out-of-oxygen-as-healt_20260823_2321.html
+Successfully created file: landslide-at-waste-mound-in-guinea-capital-kills-3_20260824_0112.html
+✓ Created comprehensive article: landslide-at-waste-mound-in-guinea-capital-kills-3_20260824_0112.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-is-tokyos-yasukuni-shrine-linked-to-japans-wa_20260816_1523.html
-Cleaned old post to keep top 30 limit: serbia-requests-international-assistance-to-battle_20260823_2222.html
-Cleaned old post to keep top 30 limit: police-officers-killed-in-wrong-way-crash-mourned-_20260823_0639.html
+Cleaned old post to keep top 30 limit: severe-winds-toss-four-aircraft-across-italian-air_20260823_2022.html
+Cleaned old post to keep top 30 limit: landslide-at-waste-mound-in-guinea-capital-kills-3_20260823_2321.html
+Cleaned old post to keep top 30 limit: gazas-hospitals-are-running-out-of-oxygen-as-healt_20260823_2321.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Families of two police officers killed in crash say they were heroes
+     Sources: bbc.com, cnn.com, reuters.com
+   • How easy is it to find an NHS dentist? It depends where you live
+     Sources: bbc.com, cnn.com, reuters.com
    • Landslide at waste mound in Guinea capital kills 30, government says
-     Sources: bbc.com, cnn.com, reuters.com
-   • US envoy Tom Barrack retracts comment that Syria’s Golan is occupied
-     Sources: bbc.com, cnn.com, reuters.com
-   • Gaza’s hospitals are running out of oxygen as healthcare nears collapse
      Sources: bbc.com, cnn.com, reuters.com
