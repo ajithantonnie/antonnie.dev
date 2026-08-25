@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 54 topics
+Already used today: 57 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Dolly Parton: The life of an iconic country singer
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India police clash with protesters a month after Gen Z demonstrations
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kurdish-led forces in Syria dissolve after merging with the army
-Added expanded search topic: India police clash with protesters a month after Gen Z demonstrations
-Added expanded search topic: Kurdish-led forces in Syria dissolve after merging with the army
-Saved 57 topics for 2026-08-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iran, Oman discuss temporary shipping lane through Strait of Hormuz
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: More than 1,300 people arrested by ICE in Virginia and Maryland
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two unvaccinated people die of measles in US state of Pennsylvania
+Added expanded search topic: Iran, Oman discuss temporary shipping lane through Strait of Hormuz
+Added expanded search topic: More than 1,300 people arrested by ICE in Virginia and Maryland
+Added expanded search topic: Two unvaccinated people die of measles in US state of Pennsylvania
+Saved 60 topics for 2026-08-25
 Returning 3 unique trending topics:
-  1. Dolly Parton: The life of an iconic country singer (from BBC News)
-  2. India police clash with protesters a month after Gen Z demonstrations (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Kurdish-led forces in Syria dissolve after merging with the army (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iran, Oman discuss temporary shipping lane through Strait of Hormuz (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. More than 1,300 people arrested by ICE in Virginia and Maryland (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Two unvaccinated people die of measles in US state of Pennsylvania (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dolly Parton: The life of an iconic country singer
-Searching Google for: Dolly Parton: The life of an iconic country singer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDolly%252BParton%253A%252BThe%252Blife%252Bof%252Ban%252Biconic%252Bcountry%252Bsinger%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq32FGPjct9QGIjBI7n5h25bNAX8R0VIgTiKTLVnE9iGzrFmElY15wh0871uf2MNFO8TeU6esjdnH6AgyBmpjbmRyUloBQw
+Processing trending topic: Iran, Oman discuss temporary shipping lane through Strait of Hormuz
+Searching Google for: Iran, Oman discuss temporary shipping lane through Strait of Hormuz
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIran%252C%252BOman%252Bdiscuss%252Btemporary%252Bshipping%252Blane%252Bthrough%252BStrait%252Bof%252BHormuz%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTLXWGPj1t9QGIjBKFO6CszOaf8M9Axt3E5YXbFy6VnMNZfQZiRGSrv3sBpNQCPvgT9tQUJQgu0fGSugyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dolly-parton-the-life-of-an-iconic-country-singer_20260825_1935.html
-✓ Created comprehensive article: dolly-parton-the-life-of-an-iconic-country-singer_20260825_1935.html
+Successfully created file: iran-oman-discuss-temporary-shipping-lane-through-_20260825_2028.html
+✓ Created comprehensive article: iran-oman-discuss-temporary-shipping-lane-through-_20260825_2028.html
 
-Processing trending topic: India police clash with protesters a month after Gen Z demonstrations
-Searching Google for: India police clash with protesters a month after Gen Z demonstrations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bpolice%252Bclash%252Bwith%252Bprotesters%252Ba%252Bmonth%252Bafter%252BGen%252BZ%252Bdemonstrations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq32FGP_ct9QGIjBG5OaAUw_HV0RJHXGLRaVshGOMWPZ6DgaEkP19mxwtMFYcB_DyhYT39r1xs5hTuG8yBmpjbmRyUloBQw
+Processing trending topic: More than 1,300 people arrested by ICE in Virginia and Maryland
+Searching Google for: More than 1,300 people arrested by ICE in Virginia and Maryland
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMore%252Bthan%252B1%252C300%252Bpeople%252Barrested%252Bby%252BICE%252Bin%252BVirginia%252Band%252BMaryland%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTLXWGP71t9QGIjDZPvpycCRinuJN5M-98etsgD7nYIxmQLeOoO3fk9Kw_ZX5l065wHR7k_-lC4B1IxAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: india-police-clash-with-protesters-a-month-after-g_20260825_1935.html
-✓ Created comprehensive article: india-police-clash-with-protesters-a-month-after-g_20260825_1935.html
+Successfully created file: more-than-1300-people-arrested-by-ice-in-virginia-_20260825_2028.html
+✓ Created comprehensive article: more-than-1300-people-arrested-by-ice-in-virginia-_20260825_2028.html
 
-Processing trending topic: Kurdish-led forces in Syria dissolve after merging with the army
-Searching Google for: Kurdish-led forces in Syria dissolve after merging with the army
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKurdish-led%252Bforces%252Bin%252BSyria%252Bdissolve%252Bafter%252Bmerging%252Bwith%252Bthe%252Barmy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq32FGIbdt9QGIjC2HSrX9Qkm6MpJQf_1W0_truGlRlmwJwYeYIZJ_SabiJ1Cs_fG6SisZ8x1fcKfC2oyBmpjbmRyUloBQw
+Processing trending topic: Two unvaccinated people die of measles in US state of Pennsylvania
+Searching Google for: Two unvaccinated people die of measles in US state of Pennsylvania
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Bunvaccinated%252Bpeople%252Bdie%252Bof%252Bmeasles%252Bin%252BUS%252Bstate%252Bof%252BPennsylvania%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTLXWGIX2t9QGIjAfFS2vkW9p-bbvnLfWDjs6N279drYDuplc6Sz99czUDjaTUpiJ8L37X-4vqYJpk8AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kurdish-led-forces-in-syria-dissolve-after-merging_20260825_1935.html
-✓ Created comprehensive article: kurdish-led-forces-in-syria-dissolve-after-merging_20260825_1935.html
+Successfully created file: two-unvaccinated-people-die-of-measles-in-us-state_20260825_2028.html
+✓ Created comprehensive article: two-unvaccinated-people-die-of-measles-in-us-state_20260825_2028.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-launches-economic-war-on-iran_20260825_1544.html
-Cleaned old post to keep top 30 limit: dolly-parton-the-country-legend-who-sang-from-the-_20260825_1840.html
-Cleaned old post to keep top 30 limit: cia-chief-travels-to-moscow-for-unannounced-talks-_20260825_1734.html
+Cleaned old post to keep top 30 limit: syria-shakes-off-past-with-removal-from-us-terror-_20260825_1840.html
+Cleaned old post to keep top 30 limit: kurdish-led-forces-in-syria-dissolve-after-merging_20260825_1935.html
+Cleaned old post to keep top 30 limit: dolly-parton-the-life-of-an-iconic-country-singer_20260825_1935.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dolly Parton: The life of an iconic country singer
+   • Iran, Oman discuss temporary shipping lane through Strait of Hormuz
      Sources: bbc.com, cnn.com, reuters.com
-   • India police clash with protesters a month after Gen Z demonstrations
+   • More than 1,300 people arrested by ICE in Virginia and Maryland
      Sources: bbc.com, cnn.com, reuters.com
-   • Kurdish-led forces in Syria dissolve after merging with the army
+   • Two unvaccinated people die of measles in US state of Pennsylvania
      Sources: bbc.com, cnn.com, reuters.com
