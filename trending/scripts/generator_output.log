@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Organised crime arrests as police investigate A66 crash that killed two officers
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-25
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Muslims celebrate Prophet Muhammad’s birthday
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man killed in world’s largest annual bullfighting event in Mexico
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brutal gang attack on strategic Haiti hillside leaves at least 30 dead
+Added expanded search topic: Muslims celebrate Prophet Muhammad’s birthday
+Added expanded search topic: Man killed in world’s largest annual bullfighting event in Mexico
+Added expanded search topic: Brutal gang attack on strategic Haiti hillside leaves at least 30 dead
+Saved 6 topics for 2026-08-25
 Returning 3 unique trending topics:
-  1. Organised crime arrests as police investigate A66 crash that killed two officers (from BBC News)
-  2. How the deadly A66 crash unfolded leaving seven dead (from BBC News)
-  3. Prince Harry quits board of wildlife charity after rangers’ human rights abuses (from The Guardian)
+  1. Muslims celebrate Prophet Muhammad’s birthday (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Man killed in world’s largest annual bullfighting event in Mexico (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Brutal gang attack on strategic Haiti hillside leaves at least 30 dead (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Organised crime arrests as police investigate A66 crash that killed two officers
-Searching Google for: Organised crime arrests as police investigate A66 crash that killed two officers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOrganised%252Bcrime%252Barrests%252Bas%252Bpolice%252Binvestigate%252BA66%252Bcrash%252Bthat%252Bkilled%252Btwo%252Bofficers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGXQGNnXs9QGIjCUP_wSGy9Tinin-KnKoeyF_odcyozGHzkKM6Z9ru0IeRn-8GWklT1MNfGC-9-N-CUyBmpjbmRyUloBQw
+Processing trending topic: Muslims celebrate Prophet Muhammad’s birthday
+Searching Google for: Muslims celebrate Prophet Muhammad’s birthday
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMuslims%252Bcelebrate%252BProphet%252BMuhammad%25E2%2580%2599s%252Bbirthday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNSGKWKtNQGIjD-l3IMsz1FQB7_D8xRR42W0RxYuiXQmXZboNrSONja63rgoFdgTku99-nAVS8ycu8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: organised-crime-arrests-as-police-investigate-a66-_20260825_0111.html
-✓ Created comprehensive article: organised-crime-arrests-as-police-investigate-a66-_20260825_0111.html
+Successfully created file: muslims-celebrate-prophet-muhammads-birthday_20260825_0259.html
+✓ Created comprehensive article: muslims-celebrate-prophet-muhammads-birthday_20260825_0259.html
 
-Processing trending topic: How the deadly A66 crash unfolded leaving seven dead
-Searching Google for: How the deadly A66 crash unfolded leaving seven dead
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bthe%252Bdeadly%252BA66%252Bcrash%252Bunfolded%252Bleaving%252Bseven%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGXQGODXs9QGIjAUHMNpTzh9P4kyblZqd_ARnUVfuXzvjLT7iQlctWnOdOW5YA2dLQSqJmTiURlnSSsyBmpjbmRyUloBQw
+Processing trending topic: Man killed in world’s largest annual bullfighting event in Mexico
+Searching Google for: Man killed in world’s largest annual bullfighting event in Mexico
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bkilled%252Bin%252Bworld%25E2%2580%2599s%252Blargest%252Bannual%252Bbullfighting%252Bevent%252Bin%252BMexico%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNSGKyKtNQGIjCKOfMsAYav3z5ySX8JBXgd_ayng4YJ4V2GxCavXZTMrHPIsGR56xjNXVBTZZAX6i4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-the-deadly-a66-crash-unfolded-leaving-seven-de_20260825_0112.html
-✓ Created comprehensive article: how-the-deadly-a66-crash-unfolded-leaving-seven-de_20260825_0112.html
+Successfully created file: man-killed-in-worlds-largest-annual-bullfighting-e_20260825_0300.html
+✓ Created comprehensive article: man-killed-in-worlds-largest-annual-bullfighting-e_20260825_0300.html
 
-Processing trending topic: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Searching Google for: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Bquits%252Bboard%252Bof%252Bwildlife%252Bcharity%252Bafter%252Brangers%25E2%2580%2599%252Bhuman%252Brights%252Babuses%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGXQGObXs9QGIjBYwTRiJGTIMn5qZHvEXjOXxkkDbhCnZegWjkpIf5P0Rp-6VESDChcn661eDIoVCeoyBmpjbmRyUloBQw
+Processing trending topic: Brutal gang attack on strategic Haiti hillside leaves at least 30 dead
+Searching Google for: Brutal gang attack on strategic Haiti hillside leaves at least 30 dead
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrutal%252Bgang%252Battack%252Bon%252Bstrategic%252BHaiti%252Bhillside%252Bleaves%252Bat%252Bleast%252B30%252Bdead%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNNSGLKKtNQGIjA3JcAntkzObM70Wr0lFNLuDKkB7vumvVKxf2OEn7FTxwwixzLsOent8XIGzQJxWCQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-quits-board-of-wildlife-charity-after_20260825_0112.html
-✓ Created comprehensive article: prince-harry-quits-board-of-wildlife-charity-after_20260825_0112.html
+Successfully created file: brutal-gang-attack-on-strategic-haiti-hillside-lea_20260825_0300.html
+✓ Created comprehensive article: brutal-gang-attack-on-strategic-haiti-hillside-lea_20260825_0300.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: video-iran-reacts-to-us-economic-d-day-sanctions_20260824_2131.html
-Cleaned old post to keep top 30 limit: us-supreme-court-sides-with-trump-administration-o_20260824_2323.html
-Cleaned old post to keep top 30 limit: how-us-sanctions-on-iran-ripple-through-global-mar_20260824_2323.html
+Cleaned old post to keep top 30 limit: prince-harry-quits-board-of-wildlife-charity-after_20260825_0112.html
+Cleaned old post to keep top 30 limit: organised-crime-arrests-as-police-investigate-a66-_20260825_0111.html
+Cleaned old post to keep top 30 limit: how-the-deadly-a66-crash-unfolded-leaving-seven-de_20260825_0112.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Organised crime arrests as police investigate A66 crash that killed two officers
+   • Muslims celebrate Prophet Muhammad’s birthday
      Sources: bbc.com, cnn.com, reuters.com
-   • How the deadly A66 crash unfolded leaving seven dead
+   • Man killed in world’s largest annual bullfighting event in Mexico
      Sources: bbc.com, cnn.com, reuters.com
-   • Prince Harry quits board of wildlife charity after rangers’ human rights abuses
+   • Brutal gang attack on strategic Haiti hillside leaves at least 30 dead
      Sources: bbc.com, cnn.com, reuters.com
