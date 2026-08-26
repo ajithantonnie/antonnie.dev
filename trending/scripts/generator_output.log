@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 27 topics
+Already used today: 30 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Video shows scale of flash flood hitting Nepal-Tibet border
   Added: Murder probe as two people dead in house fire in Middlesbrough
-  Added: Prince Harry and Meghan due to arrive in UK today
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Mpox is back – and in new countries. How this outbreak can be contained
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 30 topics for 2026-08-26
+  Added: Mpox is back – and in new countries. How can this outbreak be contained?
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly flash floods sweep through northern Nepal
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: CCTV captures terrifying mudslide engulfing Nepal-China border
+Added expanded search topic: Deadly flash floods sweep through northern Nepal
+Added expanded search topic: CCTV captures terrifying mudslide engulfing Nepal-China border
+Saved 33 topics for 2026-08-26
 Returning 3 unique trending topics:
-  1. Murder probe as two people dead in house fire in Middlesbrough (from BBC News)
-  2. Prince Harry and Meghan due to arrive in UK today (from BBC News)
-  3. Mpox is back – and in new countries. How this outbreak can be contained (from The Guardian)
+  1. Video shows scale of flash flood hitting Nepal-Tibet border (from BBC News)
+  2. Deadly flash floods sweep through northern Nepal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. CCTV captures terrifying mudslide engulfing Nepal-China border (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Murder probe as two people dead in house fire in Middlesbrough
-Searching Google for: Murder probe as two people dead in house fire in Middlesbrough
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMurder%252Bprobe%252Bas%252Btwo%252Bpeople%252Bdead%252Bin%252Bhouse%252Bfire%252Bin%252BMiddlesbrough%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVd0GKacu9QGIjCXa7X6i6u9k-Ibl0wkGA52sk6Q_FDZ50ycyU_xJ665nQcL32YlUcX-IMHN8qtZ3poyBmpjbmRyUloBQw
+Processing trending topic: Video shows scale of flash flood hitting Nepal-Tibet border
+Searching Google for: Video shows scale of flash flood hitting Nepal-Tibet border
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bscale%252Bof%252Bflash%252Bflood%252Bhitting%252BNepal-Tibet%252Bborder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2mGLHBu9QGIjDVwV6mdOIjPuDM9fK4FAF6O73SH0mDXyqeAMB5NBNOInHNxa-HlWcG60Hg1xfS2oQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: murder-probe-as-two-people-dead-in-house-fire-in-m_20260826_1129.html
-✓ Created comprehensive article: murder-probe-as-two-people-dead-in-house-fire-in-m_20260826_1129.html
+Successfully created file: video-shows-scale-of-flash-flood-hitting-nepal-tib_20260826_1248.html
+✓ Created comprehensive article: video-shows-scale-of-flash-flood-hitting-nepal-tib_20260826_1248.html
 
-Processing trending topic: Prince Harry and Meghan due to arrive in UK today
-Searching Google for: Prince Harry and Meghan due to arrive in UK today
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Band%252BMeghan%252Bdue%252Bto%252Barrive%252Bin%252BUK%252Btoday%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVd0GK2cu9QGIjD9FNdq7DKRwG4vI3CofiWDuCilMiifJh3Zv0e7UcNh0MfLpm8jshfQGU_8UteK5PgyBmpjbmRyUloBQw
+Processing trending topic: Deadly flash floods sweep through northern Nepal
+Searching Google for: Deadly flash floods sweep through northern Nepal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252Bflash%252Bfloods%252Bsweep%252Bthrough%252Bnorthern%252BNepal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2mGLjBu9QGIjCyZLC7jyrgzQrhz4H5ciFs-u6bzfSdmKnW8RD2-x2GOrkoepKf_co2PJk1tXH3e_UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-and-meghan-due-to-arrive-in-uk-today_20260826_1129.html
-✓ Created comprehensive article: prince-harry-and-meghan-due-to-arrive-in-uk-today_20260826_1129.html
+Successfully created file: deadly-flash-floods-sweep-through-northern-nepal_20260826_1249.html
+✓ Created comprehensive article: deadly-flash-floods-sweep-through-northern-nepal_20260826_1249.html
 
-Processing trending topic: Mpox is back – and in new countries. How this outbreak can be contained
-Searching Google for: Mpox is back – and in new countries. How this outbreak can be contained
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMpox%252Bis%252Bback%252B%25E2%2580%2593%252Band%252Bin%252Bnew%252Bcountries.%252BHow%252Bthis%252Boutbreak%252Bcan%252Bbe%252Bcontained%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbVd0GLScu9QGIjDneKqQNYdCfgjyJjy9ZqF4-Dl9MXtVVosFVr28YJNJ60XqsFPfzdEE_D-rqI_ADRcyBmpjbmRyUloBQw
+Processing trending topic: CCTV captures terrifying mudslide engulfing Nepal-China border
+Searching Google for: CCTV captures terrifying mudslide engulfing Nepal-China border
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCCTV%252Bcaptures%252Bterrifying%252Bmudslide%252Bengulfing%252BNepal-China%252Bborder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2mGL7Bu9QGIjBrgq_7dsQyl_ooDSK-oKqjWFX5YSSeUon5c-mEruPlDsjIT31hztr66Bl7_HPrvqAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mpox-is-back-and-in-new-countries-how-this-outbrea_20260826_1130.html
-✓ Created comprehensive article: mpox-is-back-and-in-new-countries-how-this-outbrea_20260826_1130.html
+Successfully created file: cctv-captures-terrifying-mudslide-engulfing-nepal-_20260826_1249.html
+✓ Created comprehensive article: cctv-captures-terrifying-mudslide-engulfing-nepal-_20260826_1249.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: from-dirt-poor-to-philanthropic-superstar-the-life_20260826_1036.html
-Cleaned old post to keep top 30 limit: one-us-dollar-now-costs-2-million-rials-in-iran-an_20260826_1036.html
-Cleaned old post to keep top 30 limit: at-least-eight-killed-as-nepal-flash-flood-damages_20260826_1036.html
+Cleaned old post to keep top 30 limit: us-army-black-hawk-helicopter-crashes-in-colorado_20260826_0844.html
+Cleaned old post to keep top 30 limit: murder-probe-as-two-people-dead-in-house-fire-in-m_20260826_1129.html
+Cleaned old post to keep top 30 limit: mpox-is-back-and-in-new-countries-how-this-outbrea_20260826_1130.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Murder probe as two people dead in house fire in Middlesbrough
+   • Video shows scale of flash flood hitting Nepal-Tibet border
      Sources: bbc.com, cnn.com, reuters.com
-   • Prince Harry and Meghan due to arrive in UK today
+   • Deadly flash floods sweep through northern Nepal
      Sources: bbc.com, cnn.com, reuters.com
-   • Mpox is back – and in new countries. How this outbreak can be contained
+   • CCTV captures terrifying mudslide engulfing Nepal-China border
      Sources: bbc.com, cnn.com, reuters.com
