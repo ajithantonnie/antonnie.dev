@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 30 topics
+Already used today: 33 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Video shows scale of flash flood hitting Nepal-Tibet border
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Mpox is back – and in new countries. How can this outbreak be contained?
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deadly flash floods sweep through northern Nepal
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: CCTV captures terrifying mudslide engulfing Nepal-China border
-Added expanded search topic: Deadly flash floods sweep through northern Nepal
-Added expanded search topic: CCTV captures terrifying mudslide engulfing Nepal-China border
-Saved 33 topics for 2026-08-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Callaway apologises after golf ad slammed for depicting domestic violence
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: A teacher’s slap, student’s death revive India’s corporal punishment debate
+Added expanded search topic: Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns
+Added expanded search topic: Callaway apologises after golf ad slammed for depicting domestic violence
+Added expanded search topic: A teacher’s slap, student’s death revive India’s corporal punishment debate
+Saved 36 topics for 2026-08-26
 Returning 3 unique trending topics:
-  1. Video shows scale of flash flood hitting Nepal-Tibet border (from BBC News)
-  2. Deadly flash floods sweep through northern Nepal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. CCTV captures terrifying mudslide engulfing Nepal-China border (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Callaway apologises after golf ad slammed for depicting domestic violence (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. A teacher’s slap, student’s death revive India’s corporal punishment debate (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Video shows scale of flash flood hitting Nepal-Tibet border
-Searching Google for: Video shows scale of flash flood hitting Nepal-Tibet border
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVideo%252Bshows%252Bscale%252Bof%252Bflash%252Bflood%252Bhitting%252BNepal-Tibet%252Bborder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2mGLHBu9QGIjDVwV6mdOIjPuDM9fK4FAF6O73SH0mDXyqeAMB5NBNOInHNxa-HlWcG60Hg1xfS2oQyBmpjbmRyUloBQw
+Processing trending topic: Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns
+Searching Google for: Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLocked%252Binside%253A%252BGrief%252Band%252Banger%252Bas%252BPakistan%252Bhospital%252Bfire%252Bkills%252B14%252Bnewborns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmhtFGJThu9QGIjDF6exXt0eLUwMxiJBxTtgO9VTFFcZ2rr6BPbUFlluHLt5Vk01L7jNXoIRWiqXqZEQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: video-shows-scale-of-flash-flood-hitting-nepal-tib_20260826_1248.html
-✓ Created comprehensive article: video-shows-scale-of-flash-flood-hitting-nepal-tib_20260826_1248.html
+Successfully created file: locked-inside-grief-and-anger-as-pakistan-hospital_20260826_1356.html
+✓ Created comprehensive article: locked-inside-grief-and-anger-as-pakistan-hospital_20260826_1356.html
 
-Processing trending topic: Deadly flash floods sweep through northern Nepal
-Searching Google for: Deadly flash floods sweep through northern Nepal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeadly%252Bflash%252Bfloods%252Bsweep%252Bthrough%252Bnorthern%252BNepal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2mGLjBu9QGIjCyZLC7jyrgzQrhz4H5ciFs-u6bzfSdmKnW8RD2-x2GOrkoepKf_co2PJk1tXH3e_UyBmpjbmRyUloBQw
+Processing trending topic: Callaway apologises after golf ad slammed for depicting domestic violence
+Searching Google for: Callaway apologises after golf ad slammed for depicting domestic violence
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCallaway%252Bapologises%252Bafter%252Bgolf%252Bad%252Bslammed%252Bfor%252Bdepicting%252Bdomestic%252Bviolence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmhtFGJvhu9QGIjDfp6qq8y22TFTtHnvtxNTDEXaizZUBtXkGcRzAaVhXu6x1ZidCwAiwI2JSZNhK6pcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: deadly-flash-floods-sweep-through-northern-nepal_20260826_1249.html
-✓ Created comprehensive article: deadly-flash-floods-sweep-through-northern-nepal_20260826_1249.html
+Successfully created file: callaway-apologises-after-golf-ad-slammed-for-depi_20260826_1356.html
+✓ Created comprehensive article: callaway-apologises-after-golf-ad-slammed-for-depi_20260826_1356.html
 
-Processing trending topic: CCTV captures terrifying mudslide engulfing Nepal-China border
-Searching Google for: CCTV captures terrifying mudslide engulfing Nepal-China border
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCCTV%252Bcaptures%252Bterrifying%252Bmudslide%252Bengulfing%252BNepal-China%252Bborder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE7K2mGL7Bu9QGIjBrgq_7dsQyl_ooDSK-oKqjWFX5YSSeUon5c-mEruPlDsjIT31hztr66Bl7_HPrvqAyBmpjbmRyUloBQw
+Processing trending topic: A teacher’s slap, student’s death revive India’s corporal punishment debate
+Searching Google for: A teacher’s slap, student’s death revive India’s corporal punishment debate
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DA%252Bteacher%25E2%2580%2599s%252Bslap%252C%252Bstudent%25E2%2580%2599s%252Bdeath%252Brevive%252BIndia%25E2%2580%2599s%252Bcorporal%252Bpunishment%252Bdebate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmhtFGKLhu9QGIjDErtqnq7ELlFIIYo4vny4vWjX0UAOTpJpH6-WNBpwEjieNEM525YUhKcao4i10kS4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: cctv-captures-terrifying-mudslide-engulfing-nepal-_20260826_1249.html
-✓ Created comprehensive article: cctv-captures-terrifying-mudslide-engulfing-nepal-_20260826_1249.html
+Successfully created file: a-teachers-slap-students-death-revive-indias-corpo_20260826_1356.html
+✓ Created comprehensive article: a-teachers-slap-students-death-revive-indias-corpo_20260826_1356.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-army-black-hawk-helicopter-crashes-in-colorado_20260826_0844.html
-Cleaned old post to keep top 30 limit: murder-probe-as-two-people-dead-in-house-fire-in-m_20260826_1129.html
-Cleaned old post to keep top 30 limit: mpox-is-back-and-in-new-countries-how-this-outbrea_20260826_1130.html
+Cleaned old post to keep top 30 limit: prince-harry-and-meghan-due-to-arrive-in-uk-today_20260826_1129.html
+Cleaned old post to keep top 30 limit: deadly-flash-floods-sweep-through-northern-nepal_20260826_1249.html
+Cleaned old post to keep top 30 limit: cctv-captures-terrifying-mudslide-engulfing-nepal-_20260826_1249.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Video shows scale of flash flood hitting Nepal-Tibet border
+   • Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns
      Sources: bbc.com, cnn.com, reuters.com
-   • Deadly flash floods sweep through northern Nepal
+   • Callaway apologises after golf ad slammed for depicting domestic violence
      Sources: bbc.com, cnn.com, reuters.com
-   • CCTV captures terrifying mudslide engulfing Nepal-China border
+   • A teacher’s slap, student’s death revive India’s corporal punishment debate
      Sources: bbc.com, cnn.com, reuters.com
