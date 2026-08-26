@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Dolly Parton: The life of an iconic country singer
-  Added: Father's house rammed before son died in A66 crash
+  Added: Winter energy prices expected to rise to three-year high
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-08-26
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mamdani opposes Hindu nationalist event in New York
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Water crisis makes life in Sudan’s El Obeid refugee camps even worse
+Added expanded search topic: Mamdani opposes Hindu nationalist event in New York
+Added expanded search topic: Water crisis makes life in Sudan’s El Obeid refugee camps even worse
+Saved 6 topics for 2026-08-26
 Returning 3 unique trending topics:
-  1. Dolly Parton: The life of an iconic country singer (from BBC News)
-  2. Father's house rammed before son died in A66 crash (from BBC News)
-  3. Prince Harry quits board of wildlife charity after rangers’ human rights abuses (from The Guardian)
+  1. Winter energy prices expected to rise to three-year high (from BBC News)
+  2. Mamdani opposes Hindu nationalist event in New York (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Water crisis makes life in Sudan’s El Obeid refugee camps even worse (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Dolly Parton: The life of an iconic country singer
-Searching Google for: Dolly Parton: The life of an iconic country singer
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDolly%252BParton%253A%252BThe%252Blife%252Bof%252Ban%252Biconic%252Bcountry%252Bsinger%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssndyGNT6uNQGIjC067AxBmr1DaHHEeQeJSwHOOo_I5xSvcIqf7YcWkOkZcGSe7bAFuQeeajWsf7Uu-EyBmpjbmRyUloBQw
+Processing trending topic: Winter energy prices expected to rise to three-year high
+Searching Google for: Winter energy prices expected to rise to three-year high
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWinter%252Benergy%252Bprices%252Bexpected%252Bto%252Brise%252Bto%252Bthree-year%252Bhigh%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_lGNGvudQGIjCLaaBPXd5iY8ObTB-clTDMtDhTE2Px5wNl3m4K_RqDzlwv1---DHZN_mZ8L_3YyfUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dolly-parton-the-life-of-an-iconic-country-singer_20260826_0111.html
-✓ Created comprehensive article: dolly-parton-the-life-of-an-iconic-country-singer_20260826_0111.html
+Successfully created file: winter-energy-prices-expected-to-rise-to-three-yea_20260826_0304.html
+✓ Created comprehensive article: winter-energy-prices-expected-to-rise-to-three-yea_20260826_0304.html
 
-Processing trending topic: Father's house rammed before son died in A66 crash
-Searching Google for: Father's house rammed before son died in A66 crash
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFather%2527s%252Bhouse%252Brammed%252Bbefore%252Bson%252Bdied%252Bin%252BA66%252Bcrash%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssndyGNv6uNQGIjBR7wxdDy3taaUQahsDpKQyKQXh6vHN4gsqv6ub_4UEnMpyAKcxZxGJcwI9L0ZeTAoyBmpjbmRyUloBQw
+Processing trending topic: Mamdani opposes Hindu nationalist event in New York
+Searching Google for: Mamdani opposes Hindu nationalist event in New York
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMamdani%252Bopposes%252BHindu%252Bnationalist%252Bevent%252Bin%252BNew%252BYork%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_lGNivudQGIjDwmrwfDax9SF2VdqhQvrZZM4hUwS3VM3g0NJSmylSrOVd7beYDrn92XjabACxLgbIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fathers-house-rammed-before-son-died-in-a66-crash_20260826_0111.html
-✓ Created comprehensive article: fathers-house-rammed-before-son-died-in-a66-crash_20260826_0111.html
+Successfully created file: mamdani-opposes-hindu-nationalist-event-in-new-yor_20260826_0305.html
+✓ Created comprehensive article: mamdani-opposes-hindu-nationalist-event-in-new-yor_20260826_0305.html
 
-Processing trending topic: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Searching Google for: Prince Harry quits board of wildlife charity after rangers’ human rights abuses
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrince%252BHarry%252Bquits%252Bboard%252Bof%252Bwildlife%252Bcharity%252Bafter%252Brangers%25E2%2580%2599%252Bhuman%252Brights%252Babuses%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSssndyGOH6uNQGIjALTsRyLYIip8xMBwfc-ztUYvuvk3-AW2ur-mwPRaB_GUisF_mUp-upGq1m7Sqdl5wyBmpjbmRyUloBQw
+Processing trending topic: Water crisis makes life in Sudan’s El Obeid refugee camps even worse
+Searching Google for: Water crisis makes life in Sudan’s El Obeid refugee camps even worse
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWater%252Bcrisis%252Bmakes%252Blife%252Bin%252BSudan%25E2%2580%2599s%252BEl%252BObeid%252Brefugee%252Bcamps%252Beven%252Bworse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUN3_lGN6vudQGIjDrdDjPtaC7_4JO_ip8EXg7rqiaiJrrVitmyP1axuuTEiVuPHTO9xOdNNeamQea6JIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prince-harry-quits-board-of-wildlife-charity-after_20260826_0112.html
-✓ Created comprehensive article: prince-harry-quits-board-of-wildlife-charity-after_20260826_0112.html
+Successfully created file: water-crisis-makes-life-in-sudans-el-obeid-refugee_20260826_0305.html
+✓ Created comprehensive article: water-crisis-makes-life-in-sudans-el-obeid-refugee_20260826_0305.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: real-madrid-vs-sociedad-la-liga-prediction-team-ne_20260825_2327.html
-Cleaned old post to keep top 30 limit: why-cant-america-agree-on-what-time-it-is_20260825_2327.html
-Cleaned old post to keep top 30 limit: brazil-fines-tiktok-30m-for-child-data-privacy-vio_20260825_2327.html
+Cleaned old post to keep top 30 limit: we-know-this-movie-iran-mocks-latest-us-sanctions_20260824_0458.html
+Cleaned old post to keep top 30 limit: fathers-house-rammed-before-son-died-in-a66-crash_20260826_0111.html
+Cleaned old post to keep top 30 limit: dolly-parton-the-life-of-an-iconic-country-singer_20260826_0111.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Dolly Parton: The life of an iconic country singer
+   • Winter energy prices expected to rise to three-year high
      Sources: bbc.com, cnn.com, reuters.com
-   • Father's house rammed before son died in A66 crash
+   • Mamdani opposes Hindu nationalist event in New York
      Sources: bbc.com, cnn.com, reuters.com
-   • Prince Harry quits board of wildlife charity after rangers’ human rights abuses
+   • Water crisis makes life in Sudan’s El Obeid refugee camps even worse
      Sources: bbc.com, cnn.com, reuters.com
