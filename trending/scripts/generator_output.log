@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: PC Harper's killers to stay in jail as PM announces changes to early release scheme
@@ -8,58 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-08-30
+  Added: People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dozens of soldiers arrested after apparent coup attempt in Niger’s capital
+Added expanded search topic: Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest
+Added expanded search topic: Dozens of soldiers arrested after apparent coup attempt in Niger’s capital
+Saved 9 topics for 2026-08-30
 Returning 3 unique trending topics:
-  1. PC Harper's killers to stay in jail as PM announces changes to early release scheme (from BBC News)
-  2. Burnham gets the early prison release changes he wanted - but at what cost? (from BBC News)
-  3. Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war (from The Guardian)
+  1. People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city (from The Guardian)
+  2. Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Dozens of soldiers arrested after apparent coup attempt in Niger’s capital (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: PC Harper's killers to stay in jail as PM announces changes to early release scheme
-Searching Google for: PC Harper's killers to stay in jail as PM announces changes to early release scheme
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPC%252BHarper%2527s%252Bkillers%252Bto%252Bstay%252Bin%252Bjail%252Bas%252BPM%252Bannounces%252Bchanges%252Bto%252Bearly%252Brelease%252Bscheme%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTkgGObDz9QGIjAl704LjgQGvo8xk3OcN7BmOi4IZLvSb2Qe4G1Jro751yK5VwP3go8SoLcJmTWNmRkyBmpjbmRyUloBQw
+Processing trending topic: People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city
+Searching Google for: People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPeople%252Bfleeing%252BSudan%252Bcivil%252Bwar%252Bface%252B%25E2%2580%2598dire%252Band%252Bdeteriorating%25E2%2580%2599%252Bconditions%252Bin%252Brefuge%252Bcity%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb0GI3j0NQGIjAStN6qxd6crCVLmdhRvUkhS8xxM-sQv0RgFYc-spno9X0eKrCv6-x4LFVk9Ud20RQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pc-harpers-killers-to-stay-in-jail-as-pm-announces_20260830_0755.html
-✓ Created comprehensive article: pc-harpers-killers-to-stay-in-jail-as-pm-announces_20260830_0755.html
+Successfully created file: people-fleeing-sudan-civil-war-face-dire-and-deter_20260830_1335.html
+✓ Created comprehensive article: people-fleeing-sudan-civil-war-face-dire-and-deter_20260830_1335.html
 
-Processing trending topic: Burnham gets the early prison release changes he wanted - but at what cost?
-Searching Google for: Burnham gets the early prison release changes he wanted - but at what cost?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bgets%252Bthe%252Bearly%252Bprison%252Brelease%252Bchanges%252Bhe%252Bwanted%252B-%252Bbut%252Bat%252Bwhat%252Bcost%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTkgGO7Dz9QGIjCjSpRiqGntGmahshbNqfYho3obIdzJP9kjo5Iaj7wBRhZJcxJbbm6EwAJSmKBpWNgyBmpjbmRyUloBQw
+Processing trending topic: Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest
+Searching Google for: Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVan%252BDijk%252Bwants%252BCody%252BGakpo%252Bto%252Bstay%252Bat%252BLiverpool%252Bdespite%252BMan%252BCity%252Binterest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb0GJTj0NQGIjBnJY9dBIsUygOcyvVTEGfOVQ-6Ht6JoQxEp3PiO1G-R1El02bACpvor7KwE03dfmoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-gets-the-early-prison-release-changes-he-w_20260830_0755.html
-✓ Created comprehensive article: burnham-gets-the-early-prison-release-changes-he-w_20260830_0755.html
+Successfully created file: van-dijk-wants-cody-gakpo-to-stay-at-liverpool-des_20260830_1335.html
+✓ Created comprehensive article: van-dijk-wants-cody-gakpo-to-stay-at-liverpool-des_20260830_1335.html
 
-Processing trending topic: Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war
-Searching Google for: Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHumanitarian%252Bcrisis%252Bworsening%252Bin%252Brefuge%252Bfor%252Bcivilians%252Bfleeing%252BSudan%25E2%2580%2599s%252Bcivil%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0oTkgGPTDz9QGIjD7W14gDLonztd6Z_5pXrNJ5jLHvgW0sn_dW_O5ZaIt7foiahSAl9Tie1lkF_aDwRcyBmpjbmRyUloBQw
+Processing trending topic: Dozens of soldiers arrested after apparent coup attempt in Niger’s capital
+Searching Google for: Dozens of soldiers arrested after apparent coup attempt in Niger’s capital
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDozens%252Bof%252Bsoldiers%252Barrested%252Bafter%252Bapparent%252Bcoup%252Battempt%252Bin%252BNiger%25E2%2580%2599s%252Bcapital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSb0GJvj0NQGIjDe_VK-d9WwB9of0WMTH7EOIYgz-F20J3j6Kev567_TX9mFIr6VO2M5Hq2QpelqosQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: humanitarian-crisis-worsening-in-refuge-for-civili_20260830_0755.html
-✓ Created comprehensive article: humanitarian-crisis-worsening-in-refuge-for-civili_20260830_0755.html
+Successfully created file: dozens-of-soldiers-arrested-after-apparent-coup-at_20260830_1335.html
+✓ Created comprehensive article: dozens-of-soldiers-arrested-after-apparent-coup-at_20260830_1335.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: cleverly-quits-shadow-cabinet-to-run-for-london-ma_20260830_0105.html
-Cleaned old post to keep top 30 limit: egyptian-queens-673-diamond-necklace-stolen-in-vie_20260830_0105.html
-Cleaned old post to keep top 30 limit: at-least-37-dead-and-hundreds-evacuated-after-stri_20260830_0105.html
+Cleaned old post to keep top 30 limit: pc-harpers-killers-to-stay-in-jail-as-pm-announces_20260830_0755.html
+Cleaned old post to keep top 30 limit: humanitarian-crisis-worsening-in-refuge-for-civili_20260830_0755.html
+Cleaned old post to keep top 30 limit: burnham-gets-the-early-prison-release-changes-he-w_20260830_0755.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • PC Harper's killers to stay in jail as PM announces changes to early release scheme
+   • People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city
      Sources: bbc.com, cnn.com, reuters.com
-   • Burnham gets the early prison release changes he wanted - but at what cost?
+   • Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest
      Sources: bbc.com, cnn.com, reuters.com
-   • Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war
+   • Dozens of soldiers arrested after apparent coup attempt in Niger’s capital
      Sources: bbc.com, cnn.com, reuters.com
