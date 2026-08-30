@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Prisoners freed early are returning to jail at rapid rate, governors tell BBC
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start
-Added expanded search topic: Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start
-Saved 15 topics for 2026-08-30
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli strike kills 3-year-old child in Gaza
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jose Andres renews call for investigation into WCK Gaza staff killings
+Added expanded search topic: Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says
+Added expanded search topic: Israeli strike kills 3-year-old child in Gaza
+Added expanded search topic: Jose Andres renews call for investigation into WCK Gaza staff killings
+Saved 18 topics for 2026-08-30
 Returning 3 unique trending topics:
-  1. Prisoners freed early are returning to jail at rapid rate, governors tell BBC (from BBC News)
-  2. Eight killed and others missing after ferry capsizes off northern Cyprus (from BBC News)
-  3. Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Israeli strike kills 3-year-old child in Gaza (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Jose Andres renews call for investigation into WCK Gaza staff killings (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Prisoners freed early are returning to jail at rapid rate, governors tell BBC
-Searching Google for: Prisoners freed early are returning to jail at rapid rate, governors tell BBC
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrisoners%252Bfreed%252Bearly%252Bare%252Breturning%252Bto%252Bjail%252Bat%252Brapid%252Brate%252C%252Bgovernors%252Btell%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TTGJOp0tQGIjAaF5Z6yxhEhj0V9TO9z29FclG6wXWHgxhx1ObtlAUvVQND1IwwMZHqTyizp97WkvEyBmpjbmRyUloBQw
+Processing trending topic: Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says
+Searching Google for: Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLamine%252BYamal%252Bgetting%252Bback%252Bto%252B%25E2%2580%2598top%252Blevel%25E2%2580%2599%252C%252BBarcelona%252Bcoach%252BFlick%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvMxGLXy0tQGIjAq0HsM9Ap23bwAgqdnBG24TujJEcu1xRkny_ZC9ugjhF3H53awHv4DTgYsAL3T2-wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prisoners-freed-early-are-returning-to-jail-at-rap_20260830_2037.html
-✓ Created comprehensive article: prisoners-freed-early-are-returning-to-jail-at-rap_20260830_2037.html
+Successfully created file: lamine-yamal-getting-back-to-top-level-barcelona-c_20260830_2314.html
+✓ Created comprehensive article: lamine-yamal-getting-back-to-top-level-barcelona-c_20260830_2314.html
 
-Processing trending topic: Eight killed and others missing after ferry capsizes off northern Cyprus
-Searching Google for: Eight killed and others missing after ferry capsizes off northern Cyprus
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEight%252Bkilled%252Band%252Bothers%252Bmissing%252Bafter%252Bferry%252Bcapsizes%252Boff%252Bnorthern%252BCyprus%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TTGJqp0tQGIjAiBRjw45zWNKC7knkttpVIS2tRUuGmS7ac6FhVFjE2t7CPJ7673Ru5MiUyc-wB70AyBmpjbmRyUloBQw
+Processing trending topic: Israeli strike kills 3-year-old child in Gaza
+Searching Google for: Israeli strike kills 3-year-old child in Gaza
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bstrike%252Bkills%252B3-year-old%252Bchild%252Bin%252BGaza%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvMxGLzy0tQGIjDy6-vF1Orrp_KCAdl0rs9ApoX146A-OudW_5x4KjcbDKQ3lVA5_MUlOeJRuKfTYSIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eight-killed-and-others-missing-after-ferry-capsiz_20260830_2037.html
-✓ Created comprehensive article: eight-killed-and-others-missing-after-ferry-capsiz_20260830_2037.html
+Successfully created file: israeli-strike-kills-3-year-old-child-in-gaza_20260830_2314.html
+✓ Created comprehensive article: israeli-strike-kills-3-year-old-child-in-gaza_20260830_2314.html
 
-Processing trending topic: Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start
-Searching Google for: Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bcruise%252Bpast%252BMalaga%252B4-0%252Bto%252Bmaintain%252BMourinho%25E2%2580%2599s%252Bperfect%252Bstart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-TTGKCp0tQGIjBhe_8QrWN8pRDK-R2hpFLx_-93bv-Xb1MWFhpnqjgGaXwrA_K5wDx4f-cYngYD_fUyBmpjbmRyUloBQw
+Processing trending topic: Jose Andres renews call for investigation into WCK Gaza staff killings
+Searching Google for: Jose Andres renews call for investigation into WCK Gaza staff killings
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJose%252BAndres%252Brenews%252Bcall%252Bfor%252Binvestigation%252Binto%252BWCK%252BGaza%252Bstaff%252Bkillings%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvMxGMLy0tQGIjBRQ4QQsC4zQvObFHoKD4G4_WanYeMhmp4sU13FqBjpmyYrCCiXknKvhladwHUOqacyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: real-madrid-cruise-past-malaga-4-0-to-maintain-mou_20260830_2037.html
-✓ Created comprehensive article: real-madrid-cruise-past-malaga-4-0-to-maintain-mou_20260830_2037.html
+Successfully created file: jose-andres-renews-call-for-investigation-into-wck_20260830_2314.html
+✓ Created comprehensive article: jose-andres-renews-call-for-investigation-into-wck_20260830_2314.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-threatens-to-report-journalist-kristen-welke_20260830_1758.html
-Cleaned old post to keep top 30 limit: man-united-vs-ipswich-town-premier-league-preview-_20260829_1531.html
-Cleaned old post to keep top 30 limit: head-teacher-evacuated-900-children-minutes-before_20260830_1758.html
+Cleaned old post to keep top 30 limit: prisoners-freed-early-are-returning-to-jail-at-rap_20260830_2037.html
+Cleaned old post to keep top 30 limit: real-madrid-cruise-past-malaga-4-0-to-maintain-mou_20260830_2037.html
+Cleaned old post to keep top 30 limit: eight-killed-and-others-missing-after-ferry-capsiz_20260830_2037.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Prisoners freed early are returning to jail at rapid rate, governors tell BBC
+   • Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says
      Sources: bbc.com, cnn.com, reuters.com
-   • Eight killed and others missing after ferry capsizes off northern Cyprus
+   • Israeli strike kills 3-year-old child in Gaza
      Sources: bbc.com, cnn.com, reuters.com
-   • Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start
+   • Jose Andres renews call for investigation into WCK Gaza staff killings
      Sources: bbc.com, cnn.com, reuters.com
