@@ -1,69 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: UK long-term borrowing costs highest since 1998 ahead of October Budget
   Added: Keir Starmer announces he is standing down as MP
-  Added: Summer 2026 was UK's hottest on record, Met Office says
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South African airline defends dramatic low-level flyby before rugby union clash
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: What to know about the US primary election in Massachusetts
-Added expanded search topic: What to know about the US primary election in Massachusetts
-Saved 9 topics for 2026-09-01
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: China’s Xi makes first visit to Egypt in a decade, amid regional turmoil
+Added expanded search topic: Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers
+Added expanded search topic: China’s Xi makes first visit to Egypt in a decade, amid regional turmoil
+Saved 12 topics for 2026-09-01
 Returning 3 unique trending topics:
-  1. Keir Starmer announces he is standing down as MP (from BBC News)
-  2. Summer 2026 was UK's hottest on record, Met Office says (from BBC News)
-  3. What to know about the US primary election in Massachusetts (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK long-term borrowing costs highest since 1998 ahead of October Budget (from BBC News)
+  2. Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. China’s Xi makes first visit to Egypt in a decade, amid regional turmoil (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Keir Starmer announces he is standing down as MP
-Searching Google for: Keir Starmer announces he is standing down as MP
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKeir%252BStarmer%252Bannounces%252Bhe%252Bis%252Bstanding%252Bdown%252Bas%252BMP%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjZoGJuc29QGIjCxSkfBsjKc4liPJ_v6uSaJnmfY27rc1Wgy_37bhLDJTxW1d9rMTHClTCUBbpPoapIyBmpjbmRyUloBQw
+Processing trending topic: UK long-term borrowing costs highest since 1998 ahead of October Budget
+Searching Google for: UK long-term borrowing costs highest since 1998 ahead of October Budget
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Blong-term%252Bborrowing%252Bcosts%252Bhighest%252Bsince%252B1998%252Bahead%252Bof%252BOctober%252BBudget%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1pxTGNKb3NQGIjDfrPwoxMCRrrGVdMeb2ceBmSG6nd7bxOPTwEo1TiYyCRwOUDrimYHP2LWgjzFJdyUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: keir-starmer-announces-he-is-standing-down-as-mp_20260901_1307.html
-✓ Created comprehensive article: keir-starmer-announces-he-is-standing-down-as-mp_20260901_1307.html
+Successfully created file: uk-long-term-borrowing-costs-highest-since-1998-ah_20260901_1739.html
+✓ Created comprehensive article: uk-long-term-borrowing-costs-highest-since-1998-ah_20260901_1739.html
 
-Processing trending topic: Summer 2026 was UK's hottest on record, Met Office says
-Searching Google for: Summer 2026 was UK's hottest on record, Met Office says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSummer%252B2026%252Bwas%252BUK%2527s%252Bhottest%252Bon%252Brecord%252C%252BMet%252BOffice%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjZoGKKc29QGIjCnwjGl_FjHD4spJX5rhrk3DEd-je642ITSn5gC_jeEY1BYQVWYkaTDf9JOpWcYI7cyBmpjbmRyUloBQw
+Processing trending topic: Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers
+Searching Google for: Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPitso%252BMosimane%252Bappointed%252Bby%252BSouth%252BAfrica%252Bahead%252Bof%252BAFCON%252Bqualifiers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1pxTGNib3NQGIjCAthuM0cbU_O20jRwNvrRBDrv2qdt0_IBnusy6pmuqkmTvSi4_xuh_EhDFbEALeX0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: summer-2026-was-uks-hottest-on-record-met-office-s_20260901_1307.html
-✓ Created comprehensive article: summer-2026-was-uks-hottest-on-record-met-office-s_20260901_1307.html
+Successfully created file: pitso-mosimane-appointed-by-south-africa-ahead-of-_20260901_1739.html
+✓ Created comprehensive article: pitso-mosimane-appointed-by-south-africa-ahead-of-_20260901_1739.html
 
-Processing trending topic: What to know about the US primary election in Massachusetts
-Searching Google for: What to know about the US primary election in Massachusetts
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bto%252Bknow%252Babout%252Bthe%252BUS%252Bprimary%252Belection%252Bin%252BMassachusetts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjZoGKmc29QGIjArXs5xphXWPApzCIelwR0IGZSaFosiG6ZGLWMoUWRowrcTVDlFQQplseL7ulo-kLAyBmpjbmRyUloBQw
+Processing trending topic: China’s Xi makes first visit to Egypt in a decade, amid regional turmoil
+Searching Google for: China’s Xi makes first visit to Egypt in a decade, amid regional turmoil
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChina%25E2%2580%2599s%252BXi%252Bmakes%252Bfirst%252Bvisit%252Bto%252BEgypt%252Bin%252Ba%252Bdecade%252C%252Bamid%252Bregional%252Bturmoil%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1pxTGN6b3NQGIjBQGYcdedBqlyqvkLjf1Ql-HfRfvm4nrQNhEmKhhN-GIJRZUcjfShkTTyDS1LVDhLkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-to-know-about-the-us-primary-election-in-mass_20260901_1307.html
-✓ Created comprehensive article: what-to-know-about-the-us-primary-election-in-mass_20260901_1307.html
+Successfully created file: chinas-xi-makes-first-visit-to-egypt-in-a-decade-a_20260901_1739.html
+✓ Created comprehensive article: chinas-xi-makes-first-visit-to-egypt-in-a-decade-a_20260901_1739.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: putin-and-xi-affirm-strategic-alliance-amid-unpred_20260831_2232.html
-Cleaned old post to keep top 30 limit: teen-faces-life-over-livestream-of-san-diego-mosqu_20260901_0719.html
-Cleaned old post to keep top 30 limit: ex-gang-boss-guilty-of-orchestrating-1996-murder-o_20260901_0719.html
+Cleaned old post to keep top 30 limit: what-to-know-about-the-us-primary-election-in-mass_20260901_1307.html
+Cleaned old post to keep top 30 limit: summer-2026-was-uks-hottest-on-record-met-office-s_20260901_1307.html
+Cleaned old post to keep top 30 limit: keir-starmer-announces-he-is-standing-down-as-mp_20260901_1307.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Keir Starmer announces he is standing down as MP
+   • UK long-term borrowing costs highest since 1998 ahead of October Budget
      Sources: bbc.com, cnn.com, reuters.com
-   • Summer 2026 was UK's hottest on record, Met Office says
+   • Pitso Mosimane appointed by South Africa ahead of AFCON qualifiers
      Sources: bbc.com, cnn.com, reuters.com
-   • What to know about the US primary election in Massachusetts
+   • China’s Xi makes first visit to Egypt in a decade, amid regional turmoil
      Sources: bbc.com, cnn.com, reuters.com
