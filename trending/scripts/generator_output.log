@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham promises more devolution and public control of essential services
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: South African airline defends dramatic low-level flyby before rugby union clash
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Guinea-Bissau referendum nods to expansion of presidential powers
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Munitions vehicle explodes killing five in Idlib
-Added expanded search topic: Guinea-Bissau referendum nods to expansion of presidential powers
-Added expanded search topic: Munitions vehicle explodes killing five in Idlib
-Saved 15 topics for 2026-09-01
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US urges G20 to cut trade imbalances, focus on China
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US energy secretary will travel to Venezuela to unveil oil arrangement
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Urgent need for access to Iranian sites, cautions UN nuclear watchdog
+Added expanded search topic: US urges G20 to cut trade imbalances, focus on China
+Added expanded search topic: US energy secretary will travel to Venezuela to unveil oil arrangement
+Added expanded search topic: Urgent need for access to Iranian sites, cautions UN nuclear watchdog
+Saved 18 topics for 2026-09-01
 Returning 3 unique trending topics:
-  1. Burnham promises more devolution and public control of essential services (from BBC News)
-  2. Guinea-Bissau referendum nods to expansion of presidential powers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Munitions vehicle explodes killing five in Idlib (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US urges G20 to cut trade imbalances, focus on China (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US energy secretary will travel to Venezuela to unveil oil arrangement (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Urgent need for access to Iranian sites, cautions UN nuclear watchdog (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham promises more devolution and public control of essential services
-Searching Google for: Burnham promises more devolution and public control of essential services
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bpromises%252Bmore%252Bdevolution%252Band%252Bpublic%252Bcontrol%252Bof%252Bessential%252Bservices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ1GNbu3NQGIjB2K-smiMM949GJw-NmR-LEnzWMqPERLPKDTW-dsQT0rZzdiXT-0E_c5an3sLhvYHMyBmpjbmRyUloBQw
+Processing trending topic: US urges G20 to cut trade imbalances, focus on China
+Searching Google for: US urges G20 to cut trade imbalances, focus on China
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Burges%252BG20%252Bto%252Bcut%252Btrade%252Bimbalances%252C%252Bfocus%252Bon%252BChina%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-aGN2z3dQGIjAOCJUSY4vIg2UFf4a-xjp9I3pG42oBX6DoyBfzL-dBTY2G23OkDeJEeYX6r1Ujz9gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-promises-more-devolution-and-public-contro_20260901_2036.html
-✓ Created comprehensive article: burnham-promises-more-devolution-and-public-contro_20260901_2036.html
+Successfully created file: us-urges-g20-to-cut-trade-imbalances-focus-on-chin_20260901_2304.html
+✓ Created comprehensive article: us-urges-g20-to-cut-trade-imbalances-focus-on-chin_20260901_2304.html
 
-Processing trending topic: Guinea-Bissau referendum nods to expansion of presidential powers
-Searching Google for: Guinea-Bissau referendum nods to expansion of presidential powers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGuinea-Bissau%252Breferendum%252Bnods%252Bto%252Bexpansion%252Bof%252Bpresidential%252Bpowers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ1GN3u3NQGIjC_xx_F801W_qMxSPv4Mh21qIYbm0ARc7W_taJZZyhIzVbTk-IYqgie-R5AKhxCEVUyBmpjbmRyUloBQw
+Processing trending topic: US energy secretary will travel to Venezuela to unveil oil arrangement
+Searching Google for: US energy secretary will travel to Venezuela to unveil oil arrangement
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benergy%252Bsecretary%252Bwill%252Btravel%252Bto%252BVenezuela%252Bto%252Bunveil%252Boil%252Barrangement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-aGOSz3dQGIjCPO6Ms_xYidFXtu1n8SixK4_WVqPTjJlZLxGGEtGYINQx6AjbhZwjpPVLvwk2Mf0YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: guinea-bissau-referendum-nods-to-expansion-of-pres_20260901_2036.html
-✓ Created comprehensive article: guinea-bissau-referendum-nods-to-expansion-of-pres_20260901_2036.html
+Successfully created file: us-energy-secretary-will-travel-to-venezuela-to-un_20260901_2304.html
+✓ Created comprehensive article: us-energy-secretary-will-travel-to-venezuela-to-un_20260901_2304.html
 
-Processing trending topic: Munitions vehicle explodes killing five in Idlib
-Searching Google for: Munitions vehicle explodes killing five in Idlib
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMunitions%252Bvehicle%252Bexplodes%252Bkilling%252Bfive%252Bin%252BIdlib%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUbSZ1GOTu3NQGIjDhIsZO4wy1P0oL7eovG2WiNEhWgu3n2pdluhSicZIYlll0S9RPOYuF91YjHp_CT5YyBmpjbmRyUloBQw
+Processing trending topic: Urgent need for access to Iranian sites, cautions UN nuclear watchdog
+Searching Google for: Urgent need for access to Iranian sites, cautions UN nuclear watchdog
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUrgent%252Bneed%252Bfor%252Baccess%252Bto%252BIranian%252Bsites%252C%252Bcautions%252BUN%252Bnuclear%252Bwatchdog%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUZl-aGOqz3dQGIjCnZNfR7VZZ6rzHPMQpranj5Tne4Bwy_-8BoB2N24z5dASn_-6w7d0glnDXwoRQTaoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: munitions-vehicle-explodes-killing-five-in-idlib_20260901_2036.html
-✓ Created comprehensive article: munitions-vehicle-explodes-killing-five-in-idlib_20260901_2036.html
+Successfully created file: urgent-need-for-access-to-iranian-sites-cautions-u_20260901_2304.html
+✓ Created comprehensive article: urgent-need-for-access-to-iranian-sites-cautions-u_20260901_2304.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: whats-behind-domestic-political-pressure-on-ukrain_20260824_2131.html
-Cleaned old post to keep top 30 limit: pitso-mosimane-appointed-by-south-africa-ahead-of-_20260901_1739.html
-Cleaned old post to keep top 30 limit: chinas-xi-makes-first-visit-to-egypt-in-a-decade-a_20260901_1739.html
+Cleaned old post to keep top 30 limit: guinea-bissau-referendum-nods-to-expansion-of-pres_20260901_2036.html
+Cleaned old post to keep top 30 limit: munitions-vehicle-explodes-killing-five-in-idlib_20260901_2036.html
+Cleaned old post to keep top 30 limit: burnham-promises-more-devolution-and-public-contro_20260901_2036.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham promises more devolution and public control of essential services
+   • US urges G20 to cut trade imbalances, focus on China
      Sources: bbc.com, cnn.com, reuters.com
-   • Guinea-Bissau referendum nods to expansion of presidential powers
+   • US energy secretary will travel to Venezuela to unveil oil arrangement
      Sources: bbc.com, cnn.com, reuters.com
-   • Munitions vehicle explodes killing five in Idlib
+   • Urgent need for access to Iranian sites, cautions UN nuclear watchdog
      Sources: bbc.com, cnn.com, reuters.com
