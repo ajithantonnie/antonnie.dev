@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Farage senior aide filmed suggesting way to avoid donations law
-  Added: Controversial Jackdaw gas field set to be approved in weeks, sources say
+  Added: Three crucial questions facing Farage at Reform conference
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-04
+  Added: UN to vote on adopting new world map that shows Africa’s true scale
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: No shelter or water, yet Lebanese return home, defying Israel.
+Added expanded search topic: No shelter or water, yet Lebanese return home, defying Israel.
+Saved 6 topics for 2026-09-04
 Returning 3 unique trending topics:
-  1. Farage senior aide filmed suggesting way to avoid donations law (from BBC News)
-  2. Controversial Jackdaw gas field set to be approved in weeks, sources say (from BBC News)
-  3. Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach (from The Guardian)
+  1. Three crucial questions facing Farage at Reform conference (from BBC News)
+  2. UN to vote on adopting new world map that shows Africa’s true scale (from The Guardian)
+  3. No shelter or water, yet Lebanese return home, defying Israel. (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Farage senior aide filmed suggesting way to avoid donations law
-Searching Google for: Farage senior aide filmed suggesting way to avoid donations law
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+Processing trending topic: Three crucial questions facing Farage at Reform conference
+Searching Google for: Three crucial questions facing Farage at Reform conference
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThree%252Bcrucial%252Bquestions%252Bfacing%252BFarage%252Bat%252BReform%252Bconference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdt3WGMew6dQGIjBjpMYtGS5xac8psEd_ASvz-WXoo2fxPwlYHtATd3mfcXXUoMLZ5Eq1pxFhSuKLiAEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260904_0050.html
-✓ Created comprehensive article: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260904_0050.html
+Successfully created file: three-crucial-questions-facing-farage-at-reform-co_20260904_0534.html
+✓ Created comprehensive article: three-crucial-questions-facing-farage-at-reform-co_20260904_0534.html
 
-Processing trending topic: Controversial Jackdaw gas field set to be approved in weeks, sources say
-Searching Google for: Controversial Jackdaw gas field set to be approved in weeks, sources say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DControversial%252BJackdaw%252Bgas%252Bfield%252Bset%252Bto%252Bbe%252Bapproved%252Bin%252Bweeks%252C%252Bsources%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGM2s6NQGIjAzj1rhzbNgtLw8HEjmpmFsi3mDP13ybOIT4fpDhrEdPc6E6u5B0aHSAKt5-7aGNzQyBmpjbmRyUloBQw
+Processing trending topic: UN to vote on adopting new world map that shows Africa’s true scale
+Searching Google for: UN to vote on adopting new world map that shows Africa’s true scale
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bto%252Bvote%252Bon%252Badopting%252Bnew%252Bworld%252Bmap%252Bthat%252Bshows%252BAfrica%25E2%2580%2599s%252Btrue%252Bscale%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdt3WGM6w6dQGIjAwnDFjUtmrLpJF1msE88cQ-WeaKw8dt3X_eManTJv0UP-aOT2wYEqc7IcVRTOfzn0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: controversial-jackdaw-gas-field-set-to-be-approved_20260904_0052.html
-✓ Created comprehensive article: controversial-jackdaw-gas-field-set-to-be-approved_20260904_0052.html
+Successfully created file: un-to-vote-on-adopting-new-world-map-that-shows-af_20260904_0534.html
+✓ Created comprehensive article: un-to-vote-on-adopting-new-world-map-that-shows-af_20260904_0534.html
 
-Processing trending topic: Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
-Searching Google for: Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%25E2%2580%2599s%252BPM%252Bsays%252Bno%252Bevidence%252B%25E2%2580%2598whatsoever%25E2%2580%2599%252BMorocco%252Bbehind%252BCeuta%252Bborder%252Bbreach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGNSs6NQGIjD1lsldaawt-0hR0xqY_cOCkcYKGrGQfTILamBZt-8HI1zg7bFBEdrvoI-OrhYCVAcyBmpjbmRyUloBQw
+Processing trending topic: No shelter or water, yet Lebanese return home, defying Israel.
+Searching Google for: No shelter or water, yet Lebanese return home, defying Israel.
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252Bshelter%252Bor%252Bwater%252C%252Byet%252BLebanese%252Breturn%252Bhome%252C%252Bdefying%252BIsrael.%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdt3WGNWw6dQGIjBFBTcWzstLLFXjpM83c6SOOk9QNyi1qztPL1Gf6lcEAtlV0puS1Gu8I9qwDYMenHMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: spains-pm-says-no-evidence-whatsoever-morocco-behi_20260904_0052.html
-✓ Created comprehensive article: spains-pm-says-no-evidence-whatsoever-morocco-behi_20260904_0052.html
+Successfully created file: no-shelter-or-water-yet-lebanese-return-home-defyi_20260904_0534.html
+✓ Created comprehensive article: no-shelter-or-water-yet-lebanese-return-home-defyi_20260904_0534.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: republican-senator-calls-on-trump-to-fire-secretar_20260902_2356.html
-Cleaned old post to keep top 30 limit: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260903_2223.html
-Cleaned old post to keep top 30 limit: burnham-macron-talk-border-security-and-stronger-e_20260903_2223.html
+Cleaned old post to keep top 30 limit: two-unvaccinated-people-die-of-measles-in-us-state_20260825_2028.html
+Cleaned old post to keep top 30 limit: spains-pm-says-no-evidence-whatsoever-morocco-behi_20260904_0052.html
+Cleaned old post to keep top 30 limit: controversial-jackdaw-gas-field-set-to-be-approved_20260904_0052.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Farage senior aide filmed suggesting way to avoid donations law
+   • Three crucial questions facing Farage at Reform conference
      Sources: bbc.com, cnn.com, reuters.com
-   • Controversial Jackdaw gas field set to be approved in weeks, sources say
+   • UN to vote on adopting new world map that shows Africa’s true scale
      Sources: bbc.com, cnn.com, reuters.com
-   • Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
+   • No shelter or water, yet Lebanese return home, defying Israel.
      Sources: bbc.com, cnn.com, reuters.com
