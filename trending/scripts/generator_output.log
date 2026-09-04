@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Farage senior aide filmed suggesting way to avoid donations law
-  Added: Schools to close early for A66 crash funeral amid safety concerns
+  Added: Controversial Jackdaw gas field set to be approved in weeks, sources say
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why are people calling Venezuela oil deal a new form of US colonialism?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Burnham, Macron talk border security and stronger Europe-UK ties
-Added expanded search topic: Why are people calling Venezuela oil deal a new form of US colonialism?
-Added expanded search topic: Burnham, Macron talk border security and stronger Europe-UK ties
-Saved 18 topics for 2026-09-03
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-04
 Returning 3 unique trending topics:
   1. Farage senior aide filmed suggesting way to avoid donations law (from BBC News)
-  2. Why are people calling Venezuela oil deal a new form of US colonialism? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Burnham, Macron talk border security and stronger Europe-UK ties (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Controversial Jackdaw gas field set to be approved in weeks, sources say (from BBC News)
+  3. Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach (from The Guardian)
 
 Processing trending topic: Farage senior aide filmed suggesting way to avoid donations law
 Searching Google for: Farage senior aide filmed suggesting way to avoid donations law
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFarage%252Bsenior%252Baide%252Bfilmed%252Bsuggesting%252Bway%252Bto%252Bavoid%252Bdonations%252Blaw%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgXyGNfm59QGIjCHoKtbavYIzMatL5c5OgJQyhls-UDvx0eKvVySgxk5Rn9tlqUHN7BeCprznuunIVYyBmpjbmRyUloBQw
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260903_2223.html
-✓ Created comprehensive article: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260903_2223.html
+Successfully created file: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260904_0050.html
+✓ Created comprehensive article: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260904_0050.html
 
-Processing trending topic: Why are people calling Venezuela oil deal a new form of US colonialism?
-Searching Google for: Why are people calling Venezuela oil deal a new form of US colonialism?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bare%252Bpeople%252Bcalling%252BVenezuela%252Boil%252Bdeal%252Ba%252Bnew%252Bform%252Bof%252BUS%252Bcolonialism%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgXyGODm59QGIjBWi85KIHCcyC_J0JLDbWQ_W9lPgOTY-kObhiLIj8YSGzlxX1Ve7qNu_kUdvQbACx8yBmpjbmRyUloBQw
+Processing trending topic: Controversial Jackdaw gas field set to be approved in weeks, sources say
+Searching Google for: Controversial Jackdaw gas field set to be approved in weeks, sources say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DControversial%252BJackdaw%252Bgas%252Bfield%252Bset%252Bto%252Bbe%252Bapproved%252Bin%252Bweeks%252C%252Bsources%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGM2s6NQGIjAzj1rhzbNgtLw8HEjmpmFsi3mDP13ybOIT4fpDhrEdPc6E6u5B0aHSAKt5-7aGNzQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: why-are-people-calling-venezuela-oil-deal-a-new-fo_20260903_2223.html
-✓ Created comprehensive article: why-are-people-calling-venezuela-oil-deal-a-new-fo_20260903_2223.html
+Successfully created file: controversial-jackdaw-gas-field-set-to-be-approved_20260904_0052.html
+✓ Created comprehensive article: controversial-jackdaw-gas-field-set-to-be-approved_20260904_0052.html
 
-Processing trending topic: Burnham, Macron talk border security and stronger Europe-UK ties
-Searching Google for: Burnham, Macron talk border security and stronger Europe-UK ties
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252C%252BMacron%252Btalk%252Bborder%252Bsecurity%252Band%252Bstronger%252BEurope-UK%252Bties%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgXyGOnm59QGIjCtHTjXzDbMJUC1Y2-laX4HFSYl1CuuR1nFmerv7-OzRu_iUcgl4xGvi2Zt3MKJY54yBmpjbmRyUloBQw
+Processing trending topic: Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
+Searching Google for: Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%25E2%2580%2599s%252BPM%252Bsays%252Bno%252Bevidence%252B%25E2%2580%2598whatsoever%25E2%2580%2599%252BMorocco%252Bbehind%252BCeuta%252Bborder%252Bbreach%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstuDAGNSs6NQGIjD1lsldaawt-0hR0xqY_cOCkcYKGrGQfTILamBZt-8HI1zg7bFBEdrvoI-OrhYCVAcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-macron-talk-border-security-and-stronger-e_20260903_2223.html
-✓ Created comprehensive article: burnham-macron-talk-border-security-and-stronger-e_20260903_2223.html
+Successfully created file: spains-pm-says-no-evidence-whatsoever-morocco-behi_20260904_0052.html
+✓ Created comprehensive article: spains-pm-says-no-evidence-whatsoever-morocco-behi_20260904_0052.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: schools-to-close-early-for-a66-crash-funeral-amid-_20260903_1943.html
-Cleaned old post to keep top 30 limit: zambia-opposition-leader-brian-mundubile-charged-w_20260830_1758.html
-Cleaned old post to keep top 30 limit: advocates-decry-us-house-vote-to-defund-universiti_20260903_1943.html
+Cleaned old post to keep top 30 limit: republican-senator-calls-on-trump-to-fire-secretar_20260902_2356.html
+Cleaned old post to keep top 30 limit: farage-senior-aide-filmed-suggesting-way-to-avoid-_20260903_2223.html
+Cleaned old post to keep top 30 limit: burnham-macron-talk-border-security-and-stronger-e_20260903_2223.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
    • Farage senior aide filmed suggesting way to avoid donations law
      Sources: bbc.com, cnn.com, reuters.com
-   • Why are people calling Venezuela oil deal a new form of US colonialism?
+   • Controversial Jackdaw gas field set to be approved in weeks, sources say
      Sources: bbc.com, cnn.com, reuters.com
-   • Burnham, Macron talk border security and stronger Europe-UK ties
+   • Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach
      Sources: bbc.com, cnn.com, reuters.com
