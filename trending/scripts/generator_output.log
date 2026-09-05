@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 18 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US envoys meet Putin in Moscow for Ukraine talks
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Egyptian TV presenter among 12 sentenced to death for drug crime
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’
-Added expanded search topic: France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’
-Saved 18 topics for 2026-09-05
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US envoys Witkoff, Kushner meet Putin for talks on Ukraine war
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Building collapses after heavy rain in northern India
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why is Argentina reigniting the Falklands dispute?
+Added expanded search topic: US envoys Witkoff, Kushner meet Putin for talks on Ukraine war
+Added expanded search topic: Building collapses after heavy rain in northern India
+Added expanded search topic: Why is Argentina reigniting the Falklands dispute?
+Saved 21 topics for 2026-09-05
 Returning 3 unique trending topics:
-  1. US envoys meet Putin in Moscow for Ukraine talks (from BBC News)
-  2. Egyptian TV presenter among 12 sentenced to death for drug crime (from The Guardian)
-  3. France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US envoys Witkoff, Kushner meet Putin for talks on Ukraine war (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Building collapses after heavy rain in northern India (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why is Argentina reigniting the Falklands dispute? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US envoys meet Putin in Moscow for Ukraine talks
-Searching Google for: US envoys meet Putin in Moscow for Ukraine talks
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoys%252Bmeet%252BPutin%252Bin%252BMoscow%252Bfor%252BUkraine%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ05qQxGN3p8dQGIjA_LRvPS9UhrutXFi_ue7zkwCZn-Ln_Ks_wl2Omsj8g0EA5tbYi6Rs-zpss7cSy_DEyBmpjbmRyUloBQw
+Processing trending topic: US envoys Witkoff, Kushner meet Putin for talks on Ukraine war
+Searching Google for: US envoys Witkoff, Kushner meet Putin for talks on Ukraine war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoys%252BWitkoff%252C%252BKushner%252Bmeet%252BPutin%252Bfor%252Btalks%252Bon%252BUkraine%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iyGN6h8tQGIjDPfbpKo4xFWwLKRTRNzt6VO1Nqbk8yDeBSCIJescOHJZjbT2tpQZAUGR9kmz498-EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-envoys-meet-putin-in-moscow-for-ukraine-talks_20260905_2000.html
-✓ Created comprehensive article: us-envoys-meet-putin-in-moscow-for-ukraine-talks_20260905_2000.html
+Successfully created file: us-envoys-witkoff-kushner-meet-putin-for-talks-on-_20260905_2200.html
+✓ Created comprehensive article: us-envoys-witkoff-kushner-meet-putin-for-talks-on-_20260905_2200.html
 
-Processing trending topic: Egyptian TV presenter among 12 sentenced to death for drug crime
-Searching Google for: Egyptian TV presenter among 12 sentenced to death for drug crime
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgyptian%252BTV%252Bpresenter%252Bamong%252B12%252Bsentenced%252Bto%252Bdeath%252Bfor%252Bdrug%252Bcrime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ05qQxGOTp8dQGIjBF9AVWQUqfqu9w9ACQATLKAv6yoBKdyxHu2LQRl3uK8id0INOtI1kKq2GwkJHQ0IoyBmpjbmRyUloBQw
+Processing trending topic: Building collapses after heavy rain in northern India
+Searching Google for: Building collapses after heavy rain in northern India
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBuilding%252Bcollapses%252Bafter%252Bheavy%252Brain%252Bin%252Bnorthern%252BIndia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iyGOWh8tQGIjATm8V-sirVrHqoqYdpay-kH4AGWotb5q-FrQyk7L_yhtqkCPZOllyNihf09hHOWy0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egyptian-tv-presenter-among-12-sentenced-to-death-_20260905_2000.html
-✓ Created comprehensive article: egyptian-tv-presenter-among-12-sentenced-to-death-_20260905_2000.html
+Successfully created file: building-collapses-after-heavy-rain-in-northern-in_20260905_2200.html
+✓ Created comprehensive article: building-collapses-after-heavy-rain-in-northern-in_20260905_2200.html
 
-Processing trending topic: France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’
-Searching Google for: France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Bdenies%252Binciting%252Bfailed%252BNiger%252Bmutiny%252C%252Bcalls%252Baccusation%252B%25E2%2580%2598pure%252Bfantasy%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ05qQxGOrp8dQGIjDJYyMpLOy2xQXAAq_iTs1LB6z5ZEHJHSkt8n9Yotzph_PpVei1CmP98nyWvg8frXwyBmpjbmRyUloBQw
+Processing trending topic: Why is Argentina reigniting the Falklands dispute?
+Searching Google for: Why is Argentina reigniting the Falklands dispute?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bis%252BArgentina%252Breigniting%252Bthe%252BFalklands%252Bdispute%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4iyGOyh8tQGIjBbUGGrBqIv9LBkY66c_WYV3IyamJe8wAtlEF1etwsuL1s4qvan0AzjgrmYGe0eAL8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: france-denies-inciting-failed-niger-mutiny-calls-a_20260905_2000.html
-✓ Created comprehensive article: france-denies-inciting-failed-niger-mutiny-calls-a_20260905_2000.html
+Successfully created file: why-is-argentina-reigniting-the-falklands-dispute_20260905_2200.html
+✓ Created comprehensive article: why-is-argentina-reigniting-the-falklands-dispute_20260905_2200.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: nepal-rescuers-blast-hillside-in-search-of-hydropo_20260831_1755.html
-Cleaned old post to keep top 30 limit: haaland-heads-man-city-to-the-top-of-premier-leagu_20260905_1713.html
-Cleaned old post to keep top 30 limit: nigel-farage-tells-bbc-he-wasnt-listening-during-f_20260905_1713.html
+Cleaned old post to keep top 30 limit: un-votes-to-adopt-new-world-map-that-shows-africas_20260905_0300.html
+Cleaned old post to keep top 30 limit: us-envoys-meet-putin-in-moscow-for-ukraine-talks_20260905_2000.html
+Cleaned old post to keep top 30 limit: coach-luis-enrique-unconcerned-by-psgs-poor-start-_20260905_1439.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US envoys meet Putin in Moscow for Ukraine talks
+   • US envoys Witkoff, Kushner meet Putin for talks on Ukraine war
      Sources: bbc.com, cnn.com, reuters.com
-   • Egyptian TV presenter among 12 sentenced to death for drug crime
+   • Building collapses after heavy rain in northern India
      Sources: bbc.com, cnn.com, reuters.com
-   • France denies inciting failed Niger mutiny, calls accusation ‘pure fantasy’
+   • Why is Argentina reigniting the Falklands dispute?
      Sources: bbc.com, cnn.com, reuters.com
