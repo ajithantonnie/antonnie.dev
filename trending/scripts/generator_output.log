@@ -1,73 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US envoys meet Putin in Moscow for Ukraine talks
+  Added: US envoys set for Ukraine talks after meeting Putin in Moscow
   Added: Disruption at Port of Dover as masked 'stop the boats' protesters block roads
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Egyptian TV presenter among 12 sentenced to death for drug crime
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Fuel tanker blast in western Iran kills at least 10
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump-backed group announces $10m ad spend for midterm Senate race in Texas
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Everton vs Manchester United: Premier League – prediction, teams, lineups
-Added expanded search topic: Fuel tanker blast in western Iran kills at least 10
-Added expanded search topic: Trump-backed group announces $10m ad spend for midterm Senate race in Texas
-Added expanded search topic: Everton vs Manchester United: Premier League – prediction, teams, lineups
-Saved 24 topics for 2026-09-05
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-06
 Returning 3 unique trending topics:
-  1. Fuel tanker blast in western Iran kills at least 10 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Trump-backed group announces $10m ad spend for midterm Senate race in Texas (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Everton vs Manchester United: Premier League – prediction, teams, lineups (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. US envoys set for Ukraine talks after meeting Putin in Moscow (from BBC News)
+  2. Disruption at Port of Dover as masked 'stop the boats' protesters block roads (from BBC News)
+  3. Egyptian TV presenter among 12 sentenced to death for drug crime (from The Guardian)
 
-Processing trending topic: Fuel tanker blast in western Iran kills at least 10
-Searching Google for: Fuel tanker blast in western Iran kills at least 10
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: US envoys set for Ukraine talks after meeting Putin in Moscow
+Searching Google for: US envoys set for Ukraine talks after meeting Putin in Moscow
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoys%252Bset%252Bfor%252BUkraine%252Btalks%252Bafter%252Bmeeting%252BPutin%252Bin%252BMoscow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjSGJqu89QGIjC7oabQwSBrUhpUA2T6ogsX23aDwTjRh7MaYM2C47gPHHV7fGJXOb08IoUb6Fb8vA8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: fuel-tanker-blast-in-western-iran-kills-at-least-1_20260905_2337.html
-✓ Created comprehensive article: fuel-tanker-blast-in-western-iran-kills-at-least-1_20260905_2337.html
+Successfully created file: us-envoys-set-for-ukraine-talks-after-meeting-puti_20260906_0259.html
+✓ Created comprehensive article: us-envoys-set-for-ukraine-talks-after-meeting-puti_20260906_0259.html
 
-Processing trending topic: Trump-backed group announces $10m ad spend for midterm Senate race in Texas
-Searching Google for: Trump-backed group announces $10m ad spend for midterm Senate race in Texas
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump-backed%252Bgroup%252Bannounces%252B%252410m%252Bad%252Bspend%252Bfor%252Bmidterm%252BSenate%252Brace%252Bin%252BTexas%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06i9yGMzP8tQGIjAUQbcX72SojqpGPH5zk3BUCeYiU9YUacmR_De_LGEkOnVidM2QWivRFxvPrDtpdsgyAnJSWgFD
+Processing trending topic: Disruption at Port of Dover as masked 'stop the boats' protesters block roads
+Searching Google for: Disruption at Port of Dover as masked 'stop the boats' protesters block roads
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDisruption%252Bat%252BPort%252Bof%252BDover%252Bas%252Bmasked%252B%2527stop%252Bthe%252Bboats%2527%252Bprotesters%252Bblock%252Broads%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjSGKGu89QGIjC-Iy7fuoojoOOCRsoccXCDnK6lX5thDIJ3eau1YYLHF5MeRZ9mjQzHQAALdnoyrVYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-backed-group-announces-10m-ad-spend-for-midt_20260905_2337.html
-✓ Created comprehensive article: trump-backed-group-announces-10m-ad-spend-for-midt_20260905_2337.html
+Successfully created file: disruption-at-port-of-dover-as-masked-stop-the-boa_20260906_0259.html
+✓ Created comprehensive article: disruption-at-port-of-dover-as-masked-stop-the-boa_20260906_0259.html
 
-Processing trending topic: Everton vs Manchester United: Premier League – prediction, teams, lineups
-Searching Google for: Everton vs Manchester United: Premier League – prediction, teams, lineups
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEverton%252Bvs%252BManchester%252BUnited%253A%252BPremier%252BLeague%252B%25E2%2580%2593%252Bprediction%252C%252Bteams%252C%252Blineups%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06i9yGNLP8tQGIjBQBWuH5WmntStcZe3JwgCpTRNU2lPwR573iNvqijeU0_0NoTfo_dVgVgWuVO6ON8syAnJSWgFD
+Processing trending topic: Egyptian TV presenter among 12 sentenced to death for drug crime
+Searching Google for: Egyptian TV presenter among 12 sentenced to death for drug crime
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgyptian%252BTV%252Bpresenter%252Bamong%252B12%252Bsentenced%252Bto%252Bdeath%252Bfor%252Bdrug%252Bcrime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjSGKiu89QGIjBW9yGmGMg1p4WlDNj-Y9p2gldZu8loK9TIcJmZJ8zsDAqjrqPiZY9lztPa2178u5oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: everton-vs-manchester-united-premier-league-predic_20260905_2337.html
-✓ Created comprehensive article: everton-vs-manchester-united-premier-league-predic_20260905_2337.html
+Successfully created file: egyptian-tv-presenter-among-12-sentenced-to-death-_20260906_0259.html
+✓ Created comprehensive article: egyptian-tv-presenter-among-12-sentenced-to-death-_20260906_0259.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: egyptian-tv-presenter-among-12-sentenced-to-death-_20260905_2000.html
-Cleaned old post to keep top 30 limit: disruption-at-port-of-dover-as-masked-stop-the-boa_20260905_1713.html
-Cleaned old post to keep top 30 limit: building-collapses-after-heavy-rain-in-northern-in_20260905_2200.html
+Cleaned old post to keep top 30 limit: france-denies-inciting-failed-niger-mutiny-calls-a_20260905_2000.html
+Cleaned old post to keep top 30 limit: fuel-tanker-blast-in-western-iran-kills-at-least-1_20260905_2337.html
+Cleaned old post to keep top 30 limit: everton-vs-manchester-united-premier-league-predic_20260905_2337.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Fuel tanker blast in western Iran kills at least 10
+   • US envoys set for Ukraine talks after meeting Putin in Moscow
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump-backed group announces $10m ad spend for midterm Senate race in Texas
+   • Disruption at Port of Dover as masked 'stop the boats' protesters block roads
      Sources: bbc.com, cnn.com, reuters.com
-   • Everton vs Manchester United: Premier League – prediction, teams, lineups
+   • Egyptian TV presenter among 12 sentenced to death for drug crime
      Sources: bbc.com, cnn.com, reuters.com
