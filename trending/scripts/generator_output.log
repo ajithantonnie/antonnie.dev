@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US envoys set for Ukraine talks after meeting Putin in Moscow
-  Added: Disruption at Port of Dover as masked 'stop the boats' protesters block roads
+  Added: US envoys set for Ukraine talks after meeting Putin in Russia
+  Added: TV presenter among 11 sentenced to death in Egypt drugs case
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Egyptian TV presenter among 12 sentenced to death for drug crime
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-06
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: FIFA’s Infantino avoids questions on his future amid growing uncertainty
+Added expanded search topic: FIFA’s Infantino avoids questions on his future amid growing uncertainty
+Saved 6 topics for 2026-09-06
 Returning 3 unique trending topics:
-  1. US envoys set for Ukraine talks after meeting Putin in Moscow (from BBC News)
-  2. Disruption at Port of Dover as masked 'stop the boats' protesters block roads (from BBC News)
-  3. Egyptian TV presenter among 12 sentenced to death for drug crime (from The Guardian)
+  1. US envoys set for Ukraine talks after meeting Putin in Russia (from BBC News)
+  2. TV presenter among 11 sentenced to death in Egypt drugs case (from BBC News)
+  3. FIFA’s Infantino avoids questions on his future amid growing uncertainty (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US envoys set for Ukraine talks after meeting Putin in Moscow
-Searching Google for: US envoys set for Ukraine talks after meeting Putin in Moscow
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoys%252Bset%252Bfor%252BUkraine%252Btalks%252Bafter%252Bmeeting%252BPutin%252Bin%252BMoscow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjSGJqu89QGIjC7oabQwSBrUhpUA2T6ogsX23aDwTjRh7MaYM2C47gPHHV7fGJXOb08IoUb6Fb8vA8yBmpjbmRyUloBQw
+Processing trending topic: US envoys set for Ukraine talks after meeting Putin in Russia
+Searching Google for: US envoys set for Ukraine talks after meeting Putin in Russia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoys%252Bset%252Bfor%252BUkraine%252Btalks%252Bafter%252Bmeeting%252BPutin%252Bin%252BRussia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUar9TGIqy9NQGIjBVvoZY_zB4UM1E72jB4HeQ4tsG5c44sku1UUez3S1c-d87iRQ-mA8W9atISMPWkGcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-envoys-set-for-ukraine-talks-after-meeting-puti_20260906_0259.html
-✓ Created comprehensive article: us-envoys-set-for-ukraine-talks-after-meeting-puti_20260906_0259.html
+Successfully created file: us-envoys-set-for-ukraine-talks-after-meeting-puti_20260906_0741.html
+✓ Created comprehensive article: us-envoys-set-for-ukraine-talks-after-meeting-puti_20260906_0741.html
 
-Processing trending topic: Disruption at Port of Dover as masked 'stop the boats' protesters block roads
-Searching Google for: Disruption at Port of Dover as masked 'stop the boats' protesters block roads
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDisruption%252Bat%252BPort%252Bof%252BDover%252Bas%252Bmasked%252B%2527stop%252Bthe%252Bboats%2527%252Bprotesters%252Bblock%252Broads%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjSGKGu89QGIjC-Iy7fuoojoOOCRsoccXCDnK6lX5thDIJ3eau1YYLHF5MeRZ9mjQzHQAALdnoyrVYyBmpjbmRyUloBQw
+Processing trending topic: TV presenter among 11 sentenced to death in Egypt drugs case
+Searching Google for: TV presenter among 11 sentenced to death in Egypt drugs case
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTV%252Bpresenter%252Bamong%252B11%252Bsentenced%252Bto%252Bdeath%252Bin%252BEgypt%252Bdrugs%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUar9TGJGy9NQGIjAAxkXZ60h1e6VPEKDm4ODv3wT5mDC1FHOJIFnIGwuhS5BlLXN9pdmAxnz3B9a_eMEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: disruption-at-port-of-dover-as-masked-stop-the-boa_20260906_0259.html
-✓ Created comprehensive article: disruption-at-port-of-dover-as-masked-stop-the-boa_20260906_0259.html
+Successfully created file: tv-presenter-among-11-sentenced-to-death-in-egypt-_20260906_0741.html
+✓ Created comprehensive article: tv-presenter-among-11-sentenced-to-death-in-egypt-_20260906_0741.html
 
-Processing trending topic: Egyptian TV presenter among 12 sentenced to death for drug crime
-Searching Google for: Egyptian TV presenter among 12 sentenced to death for drug crime
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgyptian%252BTV%252Bpresenter%252Bamong%252B12%252Bsentenced%252Bto%252Bdeath%252Bfor%252Bdrug%252Bcrime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjSGKiu89QGIjBW9yGmGMg1p4WlDNj-Y9p2gldZu8loK9TIcJmZJ8zsDAqjrqPiZY9lztPa2178u5oyBmpjbmRyUloBQw
+Processing trending topic: FIFA’s Infantino avoids questions on his future amid growing uncertainty
+Searching Google for: FIFA’s Infantino avoids questions on his future amid growing uncertainty
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFIFA%25E2%2580%2599s%252BInfantino%252Bavoids%252Bquestions%252Bon%252Bhis%252Bfuture%252Bamid%252Bgrowing%252Buncertainty%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUar9TGJey9NQGIjAGIAoYi9RD96xUbRkkUWSKrQDOzuqrIfr5j-Eqy58xpULzT2mqdzHcBdee8WM_qIoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egyptian-tv-presenter-among-12-sentenced-to-death-_20260906_0259.html
-✓ Created comprehensive article: egyptian-tv-presenter-among-12-sentenced-to-death-_20260906_0259.html
+Successfully created file: fifas-infantino-avoids-questions-on-his-future-ami_20260906_0741.html
+✓ Created comprehensive article: fifas-infantino-avoids-questions-on-his-future-ami_20260906_0741.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: france-denies-inciting-failed-niger-mutiny-calls-a_20260905_2000.html
-Cleaned old post to keep top 30 limit: fuel-tanker-blast-in-western-iran-kills-at-least-1_20260905_2337.html
-Cleaned old post to keep top 30 limit: everton-vs-manchester-united-premier-league-predic_20260905_2337.html
+Cleaned old post to keep top 30 limit: trump-backed-group-announces-10m-ad-spend-for-midt_20260905_2337.html
+Cleaned old post to keep top 30 limit: egyptian-tv-presenter-among-12-sentenced-to-death-_20260906_0259.html
+Cleaned old post to keep top 30 limit: disruption-at-port-of-dover-as-masked-stop-the-boa_20260906_0259.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US envoys set for Ukraine talks after meeting Putin in Moscow
+   • US envoys set for Ukraine talks after meeting Putin in Russia
      Sources: bbc.com, cnn.com, reuters.com
-   • Disruption at Port of Dover as masked 'stop the boats' protesters block roads
+   • TV presenter among 11 sentenced to death in Egypt drugs case
      Sources: bbc.com, cnn.com, reuters.com
-   • Egyptian TV presenter among 12 sentenced to death for drug crime
+   • FIFA’s Infantino avoids questions on his future amid growing uncertainty
      Sources: bbc.com, cnn.com, reuters.com
