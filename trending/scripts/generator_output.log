@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Germany's far-right AfD set for big win in eastern state, just short of majority
-  Added: Zelensky says he expects war to continue into winter after talks with US envoys
+  Added: Protesters block roads in Portsmouth after 140 migrants rescued
+  Added: New videos of man at centre of 9/11 lawsuit reveal links to extremists and Saudi state
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Egyptian TV presenter among 12 sentenced to death for drug crime
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-07
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ten killed and dozens injured in Mexico fireworks blast
+Added expanded search topic: Ten killed and dozens injured in Mexico fireworks blast
+Saved 6 topics for 2026-09-07
 Returning 3 unique trending topics:
-  1. Germany's far-right AfD set for big win in eastern state, just short of majority (from BBC News)
-  2. Zelensky says he expects war to continue into winter after talks with US envoys (from BBC News)
-  3. Egyptian TV presenter among 12 sentenced to death for drug crime (from The Guardian)
+  1. Protesters block roads in Portsmouth after 140 migrants rescued (from BBC News)
+  2. New videos of man at centre of 9/11 lawsuit reveal links to extremists and Saudi state (from BBC News)
+  3. Ten killed and dozens injured in Mexico fireworks blast (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Germany's far-right AfD set for big win in eastern state, just short of majority
-Searching Google for: Germany's far-right AfD set for big win in eastern state, just short of majority
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGermany%2527s%252Bfar-right%252BAfD%252Bset%252Bfor%252Bbig%252Bwin%252Bin%252Beastern%252Bstate%252C%252Bjust%252Bshort%252Bof%252Bmajority%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwaGOOR-NQGIjD1W9uKPiuJBcvQV_QXXvqre5Ozv_X96CXIxBBKQSyqdm8hJUwutP-0wBjW2H1ZokAyBmpjbmRyUloBQw
+Processing trending topic: Protesters block roads in Portsmouth after 140 migrants rescued
+Searching Google for: Protesters block roads in Portsmouth after 140 migrants rescued
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DProtesters%252Bblock%252Broads%252Bin%252BPortsmouth%252Bafter%252B140%252Bmigrants%252Brescued%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVAGO6e-dQGIjBOTpS6UtyPhwZRnUO2tcY6-xwhVkNVaJMHOYgNZV8tn7XAjBXtiKpkHBHLy7h9S14yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: germanys-far-right-afd-set-for-big-win-in-eastern-_20260907_0044.html
-✓ Created comprehensive article: germanys-far-right-afd-set-for-big-win-in-eastern-_20260907_0044.html
+Successfully created file: protesters-block-roads-in-portsmouth-after-140-mig_20260907_0545.html
+✓ Created comprehensive article: protesters-block-roads-in-portsmouth-after-140-mig_20260907_0545.html
 
-Processing trending topic: Zelensky says he expects war to continue into winter after talks with US envoys
-Searching Google for: Zelensky says he expects war to continue into winter after talks with US envoys
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZelensky%252Bsays%252Bhe%252Bexpects%252Bwar%252Bto%252Bcontinue%252Binto%252Bwinter%252Bafter%252Btalks%252Bwith%252BUS%252Benvoys%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwaGOqR-NQGIjAetlEMbrLaLgeOgi2Xn0hsr24BLOtyz1u_aJFeR11gCCHJv8NdYKeVrwMXMvRoUfAyBmpjbmRyUloBQw
+Processing trending topic: New videos of man at centre of 9/11 lawsuit reveal links to extremists and Saudi state
+Searching Google for: New videos of man at centre of 9/11 lawsuit reveal links to extremists and Saudi state
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252Bvideos%252Bof%252Bman%252Bat%252Bcentre%252Bof%252B9%252F11%252Blawsuit%252Breveal%252Blinks%252Bto%252Bextremists%252Band%252BSaudi%252Bstate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVAGPWe-dQGIjAYhZj6nFPY9JZczw_19VLWumEH_6K_7EIGkWdAz0Wc4B9j-rmfCUqAXERi_y0ZOpIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zelensky-says-he-expects-war-to-continue-into-wint_20260907_0044.html
-✓ Created comprehensive article: zelensky-says-he-expects-war-to-continue-into-wint_20260907_0044.html
+Successfully created file: new-videos-of-man-at-centre-of-911-lawsuit-reveal-_20260907_0545.html
+✓ Created comprehensive article: new-videos-of-man-at-centre-of-911-lawsuit-reveal-_20260907_0545.html
 
-Processing trending topic: Egyptian TV presenter among 12 sentenced to death for drug crime
-Searching Google for: Egyptian TV presenter among 12 sentenced to death for drug crime
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgyptian%252BTV%252Bpresenter%252Bamong%252B12%252Bsentenced%252Bto%252Bdeath%252Bfor%252Bdrug%252Bcrime%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04nwaGPCR-NQGIjB8RLynEd3byUeLDmgqT9JTLBO4sHsoOQByoKee57f_zDqIWLwwQzeAdgDiXRKKWCYyBmpjbmRyUloBQw
+Processing trending topic: Ten killed and dozens injured in Mexico fireworks blast
+Searching Google for: Ten killed and dozens injured in Mexico fireworks blast
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTen%252Bkilled%252Band%252Bdozens%252Binjured%252Bin%252BMexico%252Bfireworks%252Bblast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVAGPue-dQGIjDRbRWQThmrWlEuiCLKoVJlbDbGEhG6GX8Efw_ycm367YBuY6myrhpbz3y-_BteSJUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egyptian-tv-presenter-among-12-sentenced-to-death-_20260907_0044.html
-✓ Created comprehensive article: egyptian-tv-presenter-among-12-sentenced-to-death-_20260907_0044.html
+Successfully created file: ten-killed-and-dozens-injured-in-mexico-fireworks-_20260907_0545.html
+✓ Created comprehensive article: ten-killed-and-dozens-injured-in-mexico-fireworks-_20260907_0545.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: germanys-far-right-afd-set-for-big-win-in-eastern-_20260906_2247.html
-Cleaned old post to keep top 30 limit: amazon-cargo-plane-crashes-in-us-while-landing-at-_20260906_2247.html
-Cleaned old post to keep top 30 limit: alcaraz-breezes-into-last-eight-at-us-open_20260906_2247.html
+Cleaned old post to keep top 30 limit: live-india-vs-pakistan-womens-t20-asia-cup_20260905_1142.html
+Cleaned old post to keep top 30 limit: germanys-far-right-afd-set-for-big-win-in-eastern-_20260907_0044.html
+Cleaned old post to keep top 30 limit: egyptian-tv-presenter-among-12-sentenced-to-death-_20260907_0044.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Germany's far-right AfD set for big win in eastern state, just short of majority
+   • Protesters block roads in Portsmouth after 140 migrants rescued
      Sources: bbc.com, cnn.com, reuters.com
-   • Zelensky says he expects war to continue into winter after talks with US envoys
+   • New videos of man at centre of 9/11 lawsuit reveal links to extremists and Saudi state
      Sources: bbc.com, cnn.com, reuters.com
-   • Egyptian TV presenter among 12 sentenced to death for drug crime
+   • Ten killed and dozens injured in Mexico fireworks blast
      Sources: bbc.com, cnn.com, reuters.com
