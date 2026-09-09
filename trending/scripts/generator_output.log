@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Police launch criminal investigation into Reform UK donations
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-09-09
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gauff beats Andreeva to reach US Open semifinals in comeback win
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Everyone’s had their holidays ruined’: outrage after UK airport chaos
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US court denies Tate brothers’ bid to be released from Miami jail
+Added expanded search topic: Gauff beats Andreeva to reach US Open semifinals in comeback win
+Added expanded search topic: ‘Everyone’s had their holidays ruined’: outrage after UK airport chaos
+Added expanded search topic: US court denies Tate brothers’ bid to be released from Miami jail
+Saved 15 topics for 2026-09-09
 Returning 3 unique trending topics:
-  1. Police launch criminal investigation into Reform UK donations (from BBC News)
-  2. Air traffic failure was avoidable, says transport secretary (from BBC News)
-  3. Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief (from The Guardian)
+  1. Gauff beats Andreeva to reach US Open semifinals in comeback win (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ‘Everyone’s had their holidays ruined’: outrage after UK airport chaos (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US court denies Tate brothers’ bid to be released from Miami jail (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police launch criminal investigation into Reform UK donations
-Searching Google for: Police launch criminal investigation into Reform UK donations
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Blaunch%252Bcriminal%252Binvestigation%252Binto%252BReform%252BUK%252Bdonations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gYxGO6Dh9UGIjAiZNvq3HOre-gPJi2rb8kMxw0ZT1jc5LRRB77_BeFG4mrA9STafSRhyTKiszAZ_6cyBmpjbmRyUloBQw
+Processing trending topic: Gauff beats Andreeva to reach US Open semifinals in comeback win
+Searching Google for: Gauff beats Andreeva to reach US Open semifinals in comeback win
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-launch-criminal-investigation-into-reform-u_20260909_2030.html
-✓ Created comprehensive article: police-launch-criminal-investigation-into-reform-u_20260909_2030.html
+Successfully created file: gauff-beats-andreeva-to-reach-us-open-semifinals-i_20260909_2259.html
+✓ Created comprehensive article: gauff-beats-andreeva-to-reach-us-open-semifinals-i_20260909_2259.html
 
-Processing trending topic: Air traffic failure was avoidable, says transport secretary
-Searching Google for: Air traffic failure was avoidable, says transport secretary
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAir%252Btraffic%252Bfailure%252Bwas%252Bavoidable%252C%252Bsays%252Btransport%252Bsecretary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gYxGPWDh9UGIjANUH_ieFoNusTna0bAxAeRHdJf0XXF8UZ3uGOLzijMGSx_FqcwK_3vOyc6aASrYjcyBmpjbmRyUloBQw
+Processing trending topic: ‘Everyone’s had their holidays ruined’: outrage after UK airport chaos
+Searching Google for: ‘Everyone’s had their holidays ruined’: outrage after UK airport chaos
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Everyone%25E2%2580%2599s%252Bhad%252Btheir%252Bholidays%252Bruined%25E2%2580%2599%253A%252Boutrage%252Bafter%252BUK%252Bairport%252Bchaos%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdu4cGO7Jh9UGIjCOKrBiJVFviJJf-UEFcuxqpeqWgkvzLYWw0nGJ-_0du4U0l8iu9DT66cJOiOweyucyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: air-traffic-failure-was-avoidable-says-transport-s_20260909_2030.html
-✓ Created comprehensive article: air-traffic-failure-was-avoidable-says-transport-s_20260909_2030.html
+Successfully created file: everyones-had-their-holidays-ruined-outrage-after-_20260909_2300.html
+✓ Created comprehensive article: everyones-had-their-holidays-ruined-outrage-after-_20260909_2300.html
 
-Processing trending topic: Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief
-Searching Google for: Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUganda%252Bto%252Bwithdraw%252Bfrom%252BInvictus%252BGames%252B%25E2%2580%2598out%252Bof%252Brespect%252Bfor%252BKing%252BCharles%25E2%2580%2599%252C%252Bsays%252Bmilitary%252Bchief%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ06gYxGPuDh9UGIjDrKOQ_kvj2tBL3HIR59Gc0a5vlDuHD7lul9vt-MNUZeu0o9LVMd4Ism3rSvsoCsVkyBmpjbmRyUloBQw
+Processing trending topic: US court denies Tate brothers’ bid to be released from Miami jail
+Searching Google for: US court denies Tate brothers’ bid to be released from Miami jail
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bcourt%252Bdenies%252BTate%252Bbrothers%25E2%2580%2599%252Bbid%252Bto%252Bbe%252Breleased%252Bfrom%252BMiami%252Bjail%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdu4cGPTJh9UGIjA4bKwrdQKzxH69wr_sLL_qBQene-N17S2AUdjbD6GHNIMz5Q7l6B9KZ8eVUdMTJEMyAnJSWgFD
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uganda-to-withdraw-from-invictus-games-out-of-resp_20260909_2030.html
-✓ Created comprehensive article: uganda-to-withdraw-from-invictus-games-out-of-resp_20260909_2030.html
+Successfully created file: us-court-denies-tate-brothers-bid-to-be-released-f_20260909_2300.html
+✓ Created comprehensive article: us-court-denies-tate-brothers-bid-to-be-released-f_20260909_2300.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-is-argentina-reigniting-the-falklands-dispute_20260905_2200.html
-Cleaned old post to keep top 30 limit: what-we-know-about-anti-migrant-protests-and-organ_20260908_0002.html
-Cleaned old post to keep top 30 limit: actor-noel-clarke-charged-with-sexual-offences_20260909_1326.html
+Cleaned old post to keep top 30 limit: zelensky-says-he-expects-war-to-continue-into-wint_20260907_0044.html
+Cleaned old post to keep top 30 limit: police-launch-criminal-investigation-into-reform-u_20260909_2030.html
+Cleaned old post to keep top 30 limit: air-traffic-failure-was-avoidable-says-transport-s_20260909_2030.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police launch criminal investigation into Reform UK donations
+   • Gauff beats Andreeva to reach US Open semifinals in comeback win
      Sources: bbc.com, cnn.com, reuters.com
-   • Air traffic failure was avoidable, says transport secretary
+   • ‘Everyone’s had their holidays ruined’: outrage after UK airport chaos
      Sources: bbc.com, cnn.com, reuters.com
-   • Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief
+   • US court denies Tate brothers’ bid to be released from Miami jail
      Sources: bbc.com, cnn.com, reuters.com
