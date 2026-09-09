@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: UK announces sanctions on West Bank settlements prompting furious Israeli response
   Added: Paul Adams: British-Israeli relations at lowest ebb in decades
+  Added: Drug gangs exploited and raped us as teens, then police failed us, women tell BBC
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Hijacking pirates exploit regional chaos to return to seas off Somalia
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-09
+  Added: Babies born to anaemic mothers have smaller brains, study finds
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian drone attack kills two at Ukraine-Moldova border crossing
+Added expanded search topic: Russian drone attack kills two at Ukraine-Moldova border crossing
+Saved 6 topics for 2026-09-09
 Returning 3 unique trending topics:
-  1. UK announces sanctions on West Bank settlements prompting furious Israeli response (from BBC News)
-  2. Paul Adams: British-Israeli relations at lowest ebb in decades (from BBC News)
-  3. Hijacking pirates exploit regional chaos to return to seas off Somalia (from The Guardian)
+  1. Drug gangs exploited and raped us as teens, then police failed us, women tell BBC (from BBC News)
+  2. Babies born to anaemic mothers have smaller brains, study finds (from The Guardian)
+  3. Russian drone attack kills two at Ukraine-Moldova border crossing (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: UK announces sanctions on West Bank settlements prompting furious Israeli response
-Searching Google for: UK announces sanctions on West Bank settlements prompting furious Israeli response
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bannounces%252Bsanctions%252Bon%252BWest%252BBank%252Bsettlements%252Bprompting%252Bfurious%252BIsraeli%252Bresponse%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DsxGPybg9UGIjDKb8eZ_rzt8a4u6SS0p9UbL1X7_Mnjm5YN2BkGCucEnSez7W-4WQwrG8EkIX48kRMyBmpjbmRyUloBQw
+Processing trending topic: Drug gangs exploited and raped us as teens, then police failed us, women tell BBC
+Searching Google for: Drug gangs exploited and raped us as teens, then police failed us, women tell BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrug%252Bgangs%252Bexploited%252Band%252Braped%252Bus%252Bas%252Bteens%252C%252Bthen%252Bpolice%252Bfailed%252Bus%252C%252Bwomen%252Btell%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Mh1GP22hNUGIjCYdQ-Fw3gc6uHoD1xJ3d5VknI265j91FYhmNv2w02YS6revyZlSsC6nMhFnJwTZrEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-announces-sanctions-on-west-bank-settlements-pr_20260909_0309.html
-✓ Created comprehensive article: uk-announces-sanctions-on-west-bank-settlements-pr_20260909_0309.html
+Successfully created file: drug-gangs-exploited-and-raped-us-as-teens-then-po_20260909_0840.html
+✓ Created comprehensive article: drug-gangs-exploited-and-raped-us-as-teens-then-po_20260909_0840.html
 
-Processing trending topic: Paul Adams: British-Israeli relations at lowest ebb in decades
-Searching Google for: Paul Adams: British-Israeli relations at lowest ebb in decades
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPaul%252BAdams%253A%252BBritish-Israeli%252Brelations%252Bat%252Blowest%252Bebb%252Bin%252Bdecades%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DsxGIOcg9UGIjDKMRV-EhoZ2WaI63U9aU57KlzQ8_4kQdc3J9DZGeCu38NcRYDRKWfSyXxuhPw9dvYyBmpjbmRyUloBQw
+Processing trending topic: Babies born to anaemic mothers have smaller brains, study finds
+Searching Google for: Babies born to anaemic mothers have smaller brains, study finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBabies%252Bborn%252Bto%252Banaemic%252Bmothers%252Bhave%252Bsmaller%252Bbrains%252C%252Bstudy%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Mh1GIO3hNUGIjDXEIUr9UbrqKBybOZ7a0RPU2XV5YlOZeiSODgFu6UHVuW6pII2B3DjLt8cIzTFeQMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: paul-adams-british-israeli-relations-at-lowest-ebb_20260909_0309.html
-✓ Created comprehensive article: paul-adams-british-israeli-relations-at-lowest-ebb_20260909_0309.html
+Successfully created file: babies-born-to-anaemic-mothers-have-smaller-brains_20260909_0840.html
+✓ Created comprehensive article: babies-born-to-anaemic-mothers-have-smaller-brains_20260909_0840.html
 
-Processing trending topic: Hijacking pirates exploit regional chaos to return to seas off Somalia
-Searching Google for: Hijacking pirates exploit regional chaos to return to seas off Somalia
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHijacking%252Bpirates%252Bexploit%252Bregional%252Bchaos%252Bto%252Breturn%252Bto%252Bseas%252Boff%252BSomalia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRE3DsxGImcg9UGIjC3rxkb4_ZqgVL8J6zUd-SDuAkDA0m2-nPI_dnlNqYd1Cv_JHTC1NKsr4VCsCmWVo0yBmpjbmRyUloBQw
+Processing trending topic: Russian drone attack kills two at Ukraine-Moldova border crossing
+Searching Google for: Russian drone attack kills two at Ukraine-Moldova border crossing
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bdrone%252Battack%252Bkills%252Btwo%252Bat%252BUkraine-Moldova%252Bborder%252Bcrossing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7Mh1GIm3hNUGIjDAtu-JOJ3u2_y20D2hP6Nsq8xBVH-q_q6QT7VsOozPifM3pUpGc5lez_wgnyWrvLoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: hijacking-pirates-exploit-regional-chaos-to-return_20260909_0310.html
-✓ Created comprehensive article: hijacking-pirates-exploit-regional-chaos-to-return_20260909_0310.html
+Successfully created file: russian-drone-attack-kills-two-at-ukraine-moldova-_20260909_0840.html
+✓ Created comprehensive article: russian-drone-attack-kills-two-at-ukraine-moldova-_20260909_0840.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-warns-ford-over-ties-with-chinese-firms-amid-te_20260908_2141.html
-Cleaned old post to keep top 30 limit: the-map-was-lying-to-you-why-the-un-just-changed-h_20260908_2353.html
-Cleaned old post to keep top 30 limit: mamdani-releases-records-on-toxic-air-in-new-york-_20260908_2352.html
+Cleaned old post to keep top 30 limit: qatar-responds-to-netanyahus-hostile-state-remark_20260908_1822.html
+Cleaned old post to keep top 30 limit: uk-announces-sanctions-on-west-bank-settlements-pr_20260909_0309.html
+Cleaned old post to keep top 30 limit: hijacking-pirates-exploit-regional-chaos-to-return_20260909_0310.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • UK announces sanctions on West Bank settlements prompting furious Israeli response
+   • Drug gangs exploited and raped us as teens, then police failed us, women tell BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • Paul Adams: British-Israeli relations at lowest ebb in decades
+   • Babies born to anaemic mothers have smaller brains, study finds
      Sources: bbc.com, cnn.com, reuters.com
-   • Hijacking pirates exploit regional chaos to return to seas off Somalia
+   • Russian drone attack kills two at Ukraine-Moldova border crossing
      Sources: bbc.com, cnn.com, reuters.com
