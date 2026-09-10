@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Labour mayors in England vow to cap tourist tax at 5%
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Secret son revelation ignites bitter succession dispute in Ugandan kingdom
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 15 topics for 2026-09-10
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Gaza hospitals ration power as fuel shortages deepen
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russian strike hits shopping centre in central Ukraine
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Drones recreate Twin Towers in tribute ahead of 9/11 anniversary
+Added expanded search topic: Gaza hospitals ration power as fuel shortages deepen
+Added expanded search topic: Russian strike hits shopping centre in central Ukraine
+Added expanded search topic: Drones recreate Twin Towers in tribute ahead of 9/11 anniversary
+Saved 18 topics for 2026-09-10
 Returning 3 unique trending topics:
-  1. Labour mayors in England vow to cap tourist tax at 5% (from BBC News)
-  2. Oil, gas and borrowing costs surge as fears over Middle East escalate (from BBC News)
-  3. Secret son revelation ignites bitter succession dispute in Ugandan kingdom (from The Guardian)
+  1. Gaza hospitals ration power as fuel shortages deepen (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Russian strike hits shopping centre in central Ukraine (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Drones recreate Twin Towers in tribute ahead of 9/11 anniversary (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Labour mayors in England vow to cap tourist tax at 5%
-Searching Google for: Labour mayors in England vow to cap tourist tax at 5%
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLabour%252Bmayors%252Bin%252BEngland%252Bvow%252Bto%252Bcap%252Btourist%252Btax%252Bat%252B5%2525%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08vMIGNrki9UGIjCLuXjrS_TmRFDVEqBkcs4M6XL-2A3aqYpdEldq6rGNkCqB93vHcPB2EDl1IzdkCQkyBmpjbmRyUloBQw
+Processing trending topic: Gaza hospitals ration power as fuel shortages deepen
+Searching Google for: Gaza hospitals ration power as fuel shortages deepen
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGaza%252Bhospitals%252Bration%252Bpower%252Bas%252Bfuel%252Bshortages%252Bdeepen%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc1-FGMHBjNUGIjAQfa_WehnD8wnwspxtBnlEZXBcFv87WbSliYIgi7FDIB9gd7663su1irH-M2SfhL4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: labour-mayors-in-england-vow-to-cap-tourist-tax-at_20260910_1809.html
-✓ Created comprehensive article: labour-mayors-in-england-vow-to-cap-tourist-tax-at_20260910_1809.html
+Successfully created file: gaza-hospitals-ration-power-as-fuel-shortages-deep_20260910_2127.html
+✓ Created comprehensive article: gaza-hospitals-ration-power-as-fuel-shortages-deep_20260910_2127.html
 
-Processing trending topic: Oil, gas and borrowing costs surge as fears over Middle East escalate
-Searching Google for: Oil, gas and borrowing costs surge as fears over Middle East escalate
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOil%252C%252Bgas%252Band%252Bborrowing%252Bcosts%252Bsurge%252Bas%252Bfears%252Bover%252BMiddle%252BEast%252Bescalate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08vMIGOHki9UGIjB2Rsh5rF1_8gfeQVnpdoq_BRoT3COdq-b2zRYVi29o2GGvtgB4i5RYV8WIj9yKB6AyBmpjbmRyUloBQw
+Processing trending topic: Russian strike hits shopping centre in central Ukraine
+Searching Google for: Russian strike hits shopping centre in central Ukraine
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bstrike%252Bhits%252Bshopping%252Bcentre%252Bin%252Bcentral%252BUkraine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc1-FGMjBjNUGIjD77jLftl7NfkbOe_YdXeYWsGkuSqyeNRpvfTQA_Qjx5c6a78vjTlhCKlDnhR64xSIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: oil-gas-and-borrowing-costs-surge-as-fears-over-mi_20260910_1809.html
-✓ Created comprehensive article: oil-gas-and-borrowing-costs-surge-as-fears-over-mi_20260910_1809.html
+Successfully created file: russian-strike-hits-shopping-centre-in-central-ukr_20260910_2127.html
+✓ Created comprehensive article: russian-strike-hits-shopping-centre-in-central-ukr_20260910_2127.html
 
-Processing trending topic: Secret son revelation ignites bitter succession dispute in Ugandan kingdom
-Searching Google for: Secret son revelation ignites bitter succession dispute in Ugandan kingdom
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecret%252Bson%252Brevelation%252Bignites%252Bbitter%252Bsuccession%252Bdispute%252Bin%252BUgandan%252Bkingdom%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ08vMIGOjki9UGIjBKLfKDT7sTW0LLBMniYzzqxnhjbVYariixeummrDv4DFh_yHB1UunQmxAO6Kel3UwyBmpjbmRyUloBQw
+Processing trending topic: Drones recreate Twin Towers in tribute ahead of 9/11 anniversary
+Searching Google for: Drones recreate Twin Towers in tribute ahead of 9/11 anniversary
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDrones%252Brecreate%252BTwin%252BTowers%252Bin%252Btribute%252Bahead%252Bof%252B9%252F11%252Banniversary%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUc1-FGM7BjNUGIjBvwGRnDQJfBY0-MKVeZNO-4mKtGPn0lN80R_lqqTvBFExKYinFlPyZnv5ODsCz8CkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: secret-son-revelation-ignites-bitter-succession-di_20260910_1809.html
-✓ Created comprehensive article: secret-son-revelation-ignites-bitter-succession-di_20260910_1809.html
+Successfully created file: drones-recreate-twin-towers-in-tribute-ahead-of-91_20260910_2127.html
+✓ Created comprehensive article: drones-recreate-twin-towers-in-tribute-ahead-of-91_20260910_2127.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: qatar-beat-iran-in-mens-basketball-as-asian-games-_20260910_1039.html
-Cleaned old post to keep top 30 limit: roma-to-support-nepal-flood-victims-through-champi_20260910_1039.html
-Cleaned old post to keep top 30 limit: englands-mayors-to-get-power-to-impose-tourist-tax_20260910_1453.html
+Cleaned old post to keep top 30 limit: labour-mayors-in-england-vow-to-cap-tourist-tax-at_20260910_1809.html
+Cleaned old post to keep top 30 limit: secret-son-revelation-ignites-bitter-succession-di_20260910_1809.html
+Cleaned old post to keep top 30 limit: journalists-missing-after-indonesian-volcanic-erup_20260909_1326.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Labour mayors in England vow to cap tourist tax at 5%
+   • Gaza hospitals ration power as fuel shortages deepen
      Sources: bbc.com, cnn.com, reuters.com
-   • Oil, gas and borrowing costs surge as fears over Middle East escalate
+   • Russian strike hits shopping centre in central Ukraine
      Sources: bbc.com, cnn.com, reuters.com
-   • Secret son revelation ignites bitter succession dispute in Ugandan kingdom
+   • Drones recreate Twin Towers in tribute ahead of 9/11 anniversary
      Sources: bbc.com, cnn.com, reuters.com
