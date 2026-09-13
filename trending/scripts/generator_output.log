@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 21 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Anthropic boss Dario Amodei calls for AI development to slow down
+  Added: AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC
   Added: Will the Thirlwall report change the debate about Lucy Letby?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Alexander Zverev vs Ben Shelton: US Open men’s singles final – all to know
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Elena Rybakina defeats Aryna Sabalenka in US Open women’s singles final
-Added expanded search topic: Alexander Zverev vs Ben Shelton: US Open men’s singles final – all to know
-Added expanded search topic: Elena Rybakina defeats Aryna Sabalenka in US Open women’s singles final
-Saved 24 topics for 2026-09-12
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-13
 Returning 3 unique trending topics:
-  1. Will the Thirlwall report change the debate about Lucy Letby? (from BBC News)
-  2. Alexander Zverev vs Ben Shelton: US Open men’s singles final – all to know (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Elena Rybakina defeats Aryna Sabalenka in US Open women’s singles final (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC (from BBC News)
+  2. Will the Thirlwall report change the debate about Lucy Letby? (from BBC News)
+  3. Burial of King Oyo takes place in Uganda as news anchor prepares for throne (from The Guardian)
+
+Processing trending topic: AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC
+Searching Google for: AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAI%252Bstaff%252B%2527genuinely%252Bfrightened%2527%252Bfor%252Bhumanity%2527s%252Bfuture%252C%252Bex-Anthropic%252Bresearcher%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKDiGKepmNUGIjBdia3PPYoEa4gM08sw_zg52mYdZeTw9e94Kz4G17V_iPOhQMVevIzqSHGtG2Rq3NIyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: ai-staff-genuinely-frightened-for-humanitys-future_20260913_0312.html
+✓ Created comprehensive article: ai-staff-genuinely-frightened-for-humanitys-future_20260913_0312.html
 
 Processing trending topic: Will the Thirlwall report change the debate about Lucy Letby?
 Searching Google for: Will the Thirlwall report change the debate about Lucy Letby?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Bthe%252BThirlwall%252Breport%252Bchange%252Bthe%252Bdebate%252Babout%252BLucy%252BLetby%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4CAGMvJl9UGIjDlN7zKsL-6We6HD8C3thfQmQuxGTq8qOvmDfHF7602il8USWS-CMx32APdGQEqXW4yBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252Bthe%252BThirlwall%252Breport%252Bchange%252Bthe%252Bdebate%252Babout%252BLucy%252BLetby%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKDiGK6pmNUGIjCz51d6BeZLrMRrLF1cKAjtThrAhMnTNKSyCKBi-ulHWvXLAHZUXNPB28xgu0g1TRgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: will-the-thirlwall-report-change-the-debate-about-_20260912_2348.html
-✓ Created comprehensive article: will-the-thirlwall-report-change-the-debate-about-_20260912_2348.html
+Successfully created file: will-the-thirlwall-report-change-the-debate-about-_20260913_0312.html
+✓ Created comprehensive article: will-the-thirlwall-report-change-the-debate-about-_20260913_0312.html
 
-Processing trending topic: Alexander Zverev vs Ben Shelton: US Open men’s singles final – all to know
-Searching Google for: Alexander Zverev vs Ben Shelton: US Open men’s singles final – all to know
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAlexander%252BZverev%252Bvs%252BBen%252BShelton%253A%252BUS%252BOpen%252Bmen%25E2%2580%2599s%252Bsingles%252Bfinal%252B%25E2%2580%2593%252Ball%252Bto%252Bknow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4CAGNLJl9UGIjBHvbz5feEmhikdBe96hFuNsczI8uuHrIwwoc5IuIPZ6sOastNuIA_FZD6VP2vFw84yBmpjbmRyUloBQw
+Processing trending topic: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
+Searching Google for: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurial%252Bof%252BKing%252BOyo%252Btakes%252Bplace%252Bin%252BUganda%252Bas%252Bnews%252Banchor%252Bprepares%252Bfor%252Bthrone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAGKDiGLSpmNUGIjDFl67yTOuMXnbY0Eenhas7mO7ddMgq6QcFNrPLDz7XbFvpx2coaITI9xIUs0TpX3QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: alexander-zverev-vs-ben-shelton-us-open-mens-singl_20260912_2348.html
-✓ Created comprehensive article: alexander-zverev-vs-ben-shelton-us-open-mens-singl_20260912_2348.html
-
-Processing trending topic: Elena Rybakina defeats Aryna Sabalenka in US Open women’s singles final
-Searching Google for: Elena Rybakina defeats Aryna Sabalenka in US Open women’s singles final
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DElena%252BRybakina%252Bdefeats%252BAryna%252BSabalenka%252Bin%252BUS%252BOpen%252Bwomen%25E2%2580%2599s%252Bsingles%252Bfinal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4CAGNnJl9UGIjDgDKwYsSauHFHBsHoTeJShgkJzrvetD1jaYnjkjcx3MLayJSaExfM-e3nNrCsOQ0cyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: elena-rybakina-defeats-aryna-sabalenka-in-us-open-_20260912_2348.html
-✓ Created comprehensive article: elena-rybakina-defeats-aryna-sabalenka-in-us-open-_20260912_2348.html
+Successfully created file: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260913_0312.html
+✓ Created comprehensive article: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260913_0312.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ebola-spreads-to-seventh-drc-province-as-govt-insi_20260912_2120.html
-Cleaned old post to keep top 30 limit: dramatic-insider-warnings-over-ai-fall-flat-with-s_20260912_2120.html
-Cleaned old post to keep top 30 limit: anthropic-boss-dario-amodei-calls-for-ai-developme_20260912_2120.html
+Cleaned old post to keep top 30 limit: will-the-thirlwall-report-change-the-debate-about-_20260912_2348.html
+Cleaned old post to keep top 30 limit: elena-rybakina-defeats-aryna-sabalenka-in-us-open-_20260912_2348.html
+Cleaned old post to keep top 30 limit: alexander-zverev-vs-ben-shelton-us-open-mens-singl_20260912_2348.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC
+     Sources: bbc.com, cnn.com, reuters.com
    • Will the Thirlwall report change the debate about Lucy Letby?
      Sources: bbc.com, cnn.com, reuters.com
-   • Alexander Zverev vs Ben Shelton: US Open men’s singles final – all to know
-     Sources: bbc.com, cnn.com, reuters.com
-   • Elena Rybakina defeats Aryna Sabalenka in US Open women’s singles final
+   • Burial of King Oyo takes place in Uganda as news anchor prepares for throne
      Sources: bbc.com, cnn.com, reuters.com
