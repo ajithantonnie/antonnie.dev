@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: MPs and Lords call for new law to address AI threat to human rights
   Added: Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
-  Added: 'Culture shift' needed in how UK does business, PM urges
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-14
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Protests break out across Syria over fuel price increases
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Residents help battle forest fires threatening homes in Ecuadorian capital
+Added expanded search topic: Protests break out across Syria over fuel price increases
+Added expanded search topic: Residents help battle forest fires threatening homes in Ecuadorian capital
+Saved 6 topics for 2026-09-14
 Returning 3 unique trending topics:
-  1. Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station (from BBC News)
-  2. 'Culture shift' needed in how UK does business, PM urges (from BBC News)
-  3. Burial of King Oyo takes place in Uganda as news anchor prepares for throne (from The Guardian)
+  1. MPs and Lords call for new law to address AI threat to human rights (from BBC News)
+  2. Protests break out across Syria over fuel price increases (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Residents help battle forest fires threatening homes in Ecuadorian capital (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
-Searching Google for: Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: MPs and Lords call for new law to address AI threat to human rights
+Searching Google for: MPs and Lords call for new law to address AI threat to human rights
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMPs%252Band%252BLords%252Bcall%252Bfor%252Bnew%252Blaw%252Bto%252Baddress%252BAI%252Bthreat%252Bto%252Bhuman%252Brights%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIrGMGWntUGIjBgD5MfCzuYxA8dM8s5tXzS1ui9j8BKZt5GnFIY8q0kHgWnC62L06KJagew8i_pPrIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-hits-ukrainian-train-shortly-after-boris-jo_20260914_0047.html
-✓ Created comprehensive article: russia-hits-ukrainian-train-shortly-after-boris-jo_20260914_0047.html
+Successfully created file: mps-and-lords-call-for-new-law-to-address-ai-threa_20260914_0551.html
+✓ Created comprehensive article: mps-and-lords-call-for-new-law-to-address-ai-threa_20260914_0551.html
 
-Processing trending topic: 'Culture shift' needed in how UK does business, PM urges
-Searching Google for: 'Culture shift' needed in how UK does business, PM urges
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Culture%252Bshift%2527%252Bneeded%252Bin%252Bhow%252BUK%252Bdoes%252Bbusiness%252C%252BPM%252Burges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FjGO-IndUGIjChx1l4so1Cz2ryuIINU-_-Ue9e3kXnY1sGa2OGsEXBzAagMjja4yrt30xqO2BfN9oyBmpjbmRyUloBQw
+Processing trending topic: Protests break out across Syria over fuel price increases
+Searching Google for: Protests break out across Syria over fuel price increases
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DProtests%252Bbreak%252Bout%252Bacross%252BSyria%252Bover%252Bfuel%252Bprice%252Bincreases%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIrGMiWntUGIjB0s4KypkW24o0VeYpNrvXKSAYn3zb7e2FpgCoRSjIdP41HaPSjjjC0zAfx8D2VqFAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: culture-shift-needed-in-how-uk-does-business-pm-ur_20260914_0048.html
-✓ Created comprehensive article: culture-shift-needed-in-how-uk-does-business-pm-ur_20260914_0048.html
+Successfully created file: protests-break-out-across-syria-over-fuel-price-in_20260914_0551.html
+✓ Created comprehensive article: protests-break-out-across-syria-over-fuel-price-in_20260914_0551.html
 
-Processing trending topic: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
-Searching Google for: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurial%252Bof%252BKing%252BOyo%252Btakes%252Bplace%252Bin%252BUganda%252Bas%252Bnews%252Banchor%252Bprepares%252Bfor%252Bthrone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FjGPaIndUGIjC1-22bOnNQ_1ynkWYG6-yIbTyGPebb5arCFIGYY7NlN48jUo89TY6mDbu-ge_DX0wyBmpjbmRyUloBQw
+Processing trending topic: Residents help battle forest fires threatening homes in Ecuadorian capital
+Searching Google for: Residents help battle forest fires threatening homes in Ecuadorian capital
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DResidents%252Bhelp%252Bbattle%252Bforest%252Bfires%252Bthreatening%252Bhomes%252Bin%252BEcuadorian%252Bcapital%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIrGM6WntUGIjBa_CRv5jzFJhIIuCyJD1vQoC2JmSX8Yn7gO_HWQv5spF2dONIu6ibLMo6nDlDziP0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260914_0048.html
-✓ Created comprehensive article: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260914_0048.html
+Successfully created file: residents-help-battle-forest-fires-threatening-hom_20260914_0551.html
+✓ Created comprehensive article: residents-help-battle-forest-fires-threatening-hom_20260914_0551.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: could-ai-really-kill-us-within-a-decade_20260913_2255.html
-Cleaned old post to keep top 30 limit: culture-shift-needed-in-how-uk-does-business-pm-ur_20260913_2255.html
-Cleaned old post to keep top 30 limit: barcelona-beat-levante-as-yamal-scores-twice-to-ma_20260913_2255.html
+Cleaned old post to keep top 30 limit: swedes-vote-in-election-that-could-see-far-right-i_20260913_2023.html
+Cleaned old post to keep top 30 limit: russia-hits-ukrainian-train-shortly-after-boris-jo_20260913_1718.html
+Cleaned old post to keep top 30 limit: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260914_0048.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+   • MPs and Lords call for new law to address AI threat to human rights
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Culture shift' needed in how UK does business, PM urges
+   • Protests break out across Syria over fuel price increases
      Sources: bbc.com, cnn.com, reuters.com
-   • Burial of King Oyo takes place in Uganda as news anchor prepares for throne
+   • Residents help battle forest fires threatening homes in Ecuadorian capital
      Sources: bbc.com, cnn.com, reuters.com
