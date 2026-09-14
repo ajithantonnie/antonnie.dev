@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
@@ -9,63 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could AI really kill us within a decade?
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Barcelona beat Levante as Yamal scores twice to maintain perfect start
-Added expanded search topic: Could AI really kill us within a decade?
-Added expanded search topic: Barcelona beat Levante as Yamal scores twice to maintain perfect start
-Saved 15 topics for 2026-09-13
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-14
 Returning 3 unique trending topics:
-  1. 'Culture shift' needed in how UK does business, PM urges (from BBC News)
-  2. Could AI really kill us within a decade? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Barcelona beat Levante as Yamal scores twice to maintain perfect start (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station (from BBC News)
+  2. 'Culture shift' needed in how UK does business, PM urges (from BBC News)
+  3. Burial of King Oyo takes place in Uganda as news anchor prepares for throne (from The Guardian)
+
+Processing trending topic: Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+Searching Google for: Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: russia-hits-ukrainian-train-shortly-after-boris-jo_20260914_0047.html
+✓ Created comprehensive article: russia-hits-ukrainian-train-shortly-after-boris-jo_20260914_0047.html
 
 Processing trending topic: 'Culture shift' needed in how UK does business, PM urges
 Searching Google for: 'Culture shift' needed in how UK does business, PM urges
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Culture%252Bshift%2527%252Bneeded%252Bin%252Bhow%252BUK%252Bdoes%252Bbusiness%252C%252BPM%252Burges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt9nGMLTnNUGIjDLNDIX5wr0KoMniLfkG5iBchxrnOh4hJaFPZMC6OoOBBFPqRgHZUJXAfYub-YW9okyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Culture%252Bshift%2527%252Bneeded%252Bin%252Bhow%252BUK%252Bdoes%252Bbusiness%252C%252BPM%252Burges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FjGO-IndUGIjChx1l4so1Cz2ryuIINU-_-Ue9e3kXnY1sGa2OGsEXBzAagMjja4yrt30xqO2BfN9oyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: culture-shift-needed-in-how-uk-does-business-pm-ur_20260913_2255.html
-✓ Created comprehensive article: culture-shift-needed-in-how-uk-does-business-pm-ur_20260913_2255.html
+Successfully created file: culture-shift-needed-in-how-uk-does-business-pm-ur_20260914_0048.html
+✓ Created comprehensive article: culture-shift-needed-in-how-uk-does-business-pm-ur_20260914_0048.html
 
-Processing trending topic: Could AI really kill us within a decade?
-Searching Google for: Could AI really kill us within a decade?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252BAI%252Breally%252Bkill%252Bus%252Bwithin%252Ba%252Bdecade%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt9nGMnTnNUGIjBpprY2SGRqKyLrwZOdg9GfBdkbpibqFY6Yp86dK8-RN3YqIkeHe9tExPt8dRCsi-gyBmpjbmRyUloBQw
+Processing trending topic: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
+Searching Google for: Burial of King Oyo takes place in Uganda as news anchor prepares for throne
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurial%252Bof%252BKing%252BOyo%252Btakes%252Bplace%252Bin%252BUganda%252Bas%252Bnews%252Banchor%252Bprepares%252Bfor%252Bthrone%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19FjGPaIndUGIjC1-22bOnNQ_1ynkWYG6-yIbTyGPebb5arCFIGYY7NlN48jUo89TY6mDbu-ge_DX0wyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: could-ai-really-kill-us-within-a-decade_20260913_2255.html
-✓ Created comprehensive article: could-ai-really-kill-us-within-a-decade_20260913_2255.html
-
-Processing trending topic: Barcelona beat Levante as Yamal scores twice to maintain perfect start
-Searching Google for: Barcelona beat Levante as Yamal scores twice to maintain perfect start
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBarcelona%252Bbeat%252BLevante%252Bas%252BYamal%252Bscores%252Btwice%252Bto%252Bmaintain%252Bperfect%252Bstart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrt9nGM_TnNUGIjBCcTSgsiHzrZSRujuTQHPwG7qDhecEWWFRtCwZRWGbbUeighfte8jcy9rQ1DWHmaAyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: barcelona-beat-levante-as-yamal-scores-twice-to-ma_20260913_2255.html
-✓ Created comprehensive article: barcelona-beat-levante-as-yamal-scores-twice-to-ma_20260913_2255.html
+Successfully created file: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260914_0048.html
+✓ Created comprehensive article: burial-of-king-oyo-takes-place-in-uganda-as-news-a_20260914_0048.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: reforms-72m-donations-entirely-in-line-with-law-je_20260913_1342.html
-Cleaned old post to keep top 30 limit: trump-downplays-warnings-of-ai-risks-as-he-cites-r_20260913_2023.html
-Cleaned old post to keep top 30 limit: nhs-bosses-warn-of-chaos-in-adhd-and-autism-care_20260828_0935.html
+Cleaned old post to keep top 30 limit: could-ai-really-kill-us-within-a-decade_20260913_2255.html
+Cleaned old post to keep top 30 limit: culture-shift-needed-in-how-uk-does-business-pm-ur_20260913_2255.html
+Cleaned old post to keep top 30 limit: barcelona-beat-levante-as-yamal-scores-twice-to-ma_20260913_2255.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+     Sources: bbc.com, cnn.com, reuters.com
    • 'Culture shift' needed in how UK does business, PM urges
      Sources: bbc.com, cnn.com, reuters.com
-   • Could AI really kill us within a decade?
-     Sources: bbc.com, cnn.com, reuters.com
-   • Barcelona beat Levante as Yamal scores twice to maintain perfect start
+   • Burial of King Oyo takes place in Uganda as news anchor prepares for throne
      Sources: bbc.com, cnn.com, reuters.com
