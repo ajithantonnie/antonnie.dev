@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Key findings from Lucy Letby Thirlwall Inquiry
   Added: State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
-  Added: Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,59 +13,59 @@ Found 1 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 2
 Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nairobi to host World Athletics Championships in 2029
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN experts say Belarus justice system used to target Lukashenko opponents
-Added expanded search topic: Nairobi to host World Athletics Championships in 2029
-Added expanded search topic: UN experts say Belarus justice system used to target Lukashenko opponents
-Saved 9 topics for 2026-09-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lucy Letby inquiry blames hospital for ‘complete failure’ to protect babies
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US democratic decline threatens global rule of law, report warns
+Added expanded search topic: Lucy Letby inquiry blames hospital for ‘complete failure’ to protect babies
+Added expanded search topic: US democratic decline threatens global rule of law, report warns
+Saved 12 topics for 2026-09-15
 Returning 3 unique trending topics:
-  1. State pension likely to top £13,000 a year as UK wage growth slows to 3.9% (from BBC News)
-  2. Nairobi to host World Athletics Championships in 2029 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. UN experts say Belarus justice system used to target Lukashenko opponents (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Key findings from Lucy Letby Thirlwall Inquiry (from BBC News)
+  2. Lucy Letby inquiry blames hospital for ‘complete failure’ to protect babies (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US democratic decline threatens global rule of law, report warns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
-Searching Google for: State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DState%252Bpension%252Blikely%252Bto%252Btop%252B%25C2%25A313%252C000%252Ba%252Byear%252Bas%252BUK%252Bwage%252Bgrowth%252Bslows%252Bto%252B3.9%2525%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sUZGLjOpNUGIjCPMWHqwoad58ouW-GoNwZQp6_WEwdGA7m6AxfpZ0-aqS1KSYzE4IJXZAEDYqxzocQyBmpjbmRyUloBQw
+Processing trending topic: Key findings from Lucy Letby Thirlwall Inquiry
+Searching Google for: Key findings from Lucy Letby Thirlwall Inquiry
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKey%252Bfindings%252Bfrom%252BLucy%252BLetby%252BThirlwall%252BInquiry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHfUGKXfpdUGIjC3G7QhUwb14r3FwJ0C69Hqwl4eJVcGmdR7J7AhSIFS7J5Aob8nLIV17NkoqVMk_60yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: state-pension-likely-to-top-13000-a-year-as-uk-wag_20260915_1108.html
-✓ Created comprehensive article: state-pension-likely-to-top-13000-a-year-as-uk-wag_20260915_1108.html
+Successfully created file: key-findings-from-lucy-letby-thirlwall-inquiry_20260915_1617.html
+✓ Created comprehensive article: key-findings-from-lucy-letby-thirlwall-inquiry_20260915_1617.html
 
-Processing trending topic: Nairobi to host World Athletics Championships in 2029
-Searching Google for: Nairobi to host World Athletics Championships in 2029
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNairobi%252Bto%252Bhost%252BWorld%252BAthletics%252BChampionships%252Bin%252B2029%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sUZGL_OpNUGIjBwyHKCFVdbBSJKzR6MHGe_rMv2dfvrTBHtQ8pIGTVLp9PQyTCtpBEzstK5V1zJfHYyBmpjbmRyUloBQw
+Processing trending topic: Lucy Letby inquiry blames hospital for ‘complete failure’ to protect babies
+Searching Google for: Lucy Letby inquiry blames hospital for ‘complete failure’ to protect babies
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLucy%252BLetby%252Binquiry%252Bblames%252Bhospital%252Bfor%252B%25E2%2580%2598complete%252Bfailure%25E2%2580%2599%252Bto%252Bprotect%252Bbabies%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHfUGKzfpdUGIjAzZXFYl_ntcXWicdJ1tg8Sy3aRg4NhCSnM7kizr_KLdiO4uCBv5vymgM3ke_sm0U0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nairobi-to-host-world-athletics-championships-in-2_20260915_1108.html
-✓ Created comprehensive article: nairobi-to-host-world-athletics-championships-in-2_20260915_1108.html
+Successfully created file: lucy-letby-inquiry-blames-hospital-for-complete-fa_20260915_1617.html
+✓ Created comprehensive article: lucy-letby-inquiry-blames-hospital-for-complete-fa_20260915_1617.html
 
-Processing trending topic: UN experts say Belarus justice system used to target Lukashenko opponents
-Searching Google for: UN experts say Belarus justice system used to target Lukashenko opponents
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bexperts%252Bsay%252BBelarus%252Bjustice%252Bsystem%252Bused%252Bto%252Btarget%252BLukashenko%252Bopponents%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sUZGMbOpNUGIjC2IKikMhPd4y1AQChDOI5PRt6V7QFB5dgRJ4PbfePbdiGKLmgMRDXa64oOCvq4G6kyBmpjbmRyUloBQw
+Processing trending topic: US democratic decline threatens global rule of law, report warns
+Searching Google for: US democratic decline threatens global rule of law, report warns
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdemocratic%252Bdecline%252Bthreatens%252Bglobal%252Brule%252Bof%252Blaw%252C%252Breport%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTHfUGLLfpdUGIjDDmjy_PybbA8DNnKpOJtZKyK7yZD2iOG_lPh667WxOTGrOrWUkOh3eUT1Wfq4GTjoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: un-experts-say-belarus-justice-system-used-to-targ_20260915_1108.html
-✓ Created comprehensive article: un-experts-say-belarus-justice-system-used-to-targ_20260915_1108.html
+Successfully created file: us-democratic-decline-threatens-global-rule-of-law_20260915_1617.html
+✓ Created comprehensive article: us-democratic-decline-threatens-global-rule-of-law_20260915_1617.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: zimbabwe-boat-accident-death-toll-hits-68-as-22-mo_20260816_0116.html
-Cleaned old post to keep top 30 limit: zimbabweans-return-home-amid-xenophobic-violence-i_20260711_1558.html
-Cleaned old post to keep top 30 limit: i-believed-the-hype-the-white-south-africans-denie_20260915_0552.html
+Cleaned old post to keep top 30 limit: state-pension-likely-to-top-13000-a-year-as-uk-wag_20260915_1108.html
+Cleaned old post to keep top 30 limit: lucy-letby-public-inquiry-findings-set-to-be-publi_20260915_0552.html
+Cleaned old post to keep top 30 limit: nairobi-to-host-world-athletics-championships-in-2_20260915_1108.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
+   • Key findings from Lucy Letby Thirlwall Inquiry
      Sources: bbc.com, cnn.com, reuters.com
-   • Nairobi to host World Athletics Championships in 2029
+   • Lucy Letby inquiry blames hospital for ‘complete failure’ to protect babies
      Sources: bbc.com, cnn.com, reuters.com
-   • UN experts say Belarus justice system used to target Lukashenko opponents
+   • US democratic decline threatens global rule of law, report warns
      Sources: bbc.com, cnn.com, reuters.com
