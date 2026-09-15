@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Lucy Letby public inquiry findings set to be published
+  Added: State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
   Added: Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-09-15
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Nairobi to host World Athletics Championships in 2029
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN experts say Belarus justice system used to target Lukashenko opponents
+Added expanded search topic: Nairobi to host World Athletics Championships in 2029
+Added expanded search topic: UN experts say Belarus justice system used to target Lukashenko opponents
+Saved 9 topics for 2026-09-15
 Returning 3 unique trending topics:
-  1. Lucy Letby public inquiry findings set to be published (from BBC News)
-  2. Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards (from BBC News)
-  3. ‘I believed the hype’: the white South Africans denied refugee status in the US (from The Guardian)
+  1. State pension likely to top £13,000 a year as UK wage growth slows to 3.9% (from BBC News)
+  2. Nairobi to host World Athletics Championships in 2029 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UN experts say Belarus justice system used to target Lukashenko opponents (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Lucy Letby public inquiry findings set to be published
-Searching Google for: Lucy Letby public inquiry findings set to be published
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLucy%252BLetby%252Bpublic%252Binquiry%252Bfindings%252Bset%252Bto%252Bbe%252Bpublished%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04SN3GP65o9UGIjB1mkWmmto6m0TXeaaRZqImq_d9apcrS1yTXRZV7WMam0c4Htks2Q2WPbuQbCdruJ8yAnJSWgFD
+Processing trending topic: State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
+Searching Google for: State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DState%252Bpension%252Blikely%252Bto%252Btop%252B%25C2%25A313%252C000%252Ba%252Byear%252Bas%252BUK%252Bwage%252Bgrowth%252Bslows%252Bto%252B3.9%2525%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sUZGLjOpNUGIjCPMWHqwoad58ouW-GoNwZQp6_WEwdGA7m6AxfpZ0-aqS1KSYzE4IJXZAEDYqxzocQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lucy-letby-public-inquiry-findings-set-to-be-publi_20260915_0552.html
-✓ Created comprehensive article: lucy-letby-public-inquiry-findings-set-to-be-publi_20260915_0552.html
+Successfully created file: state-pension-likely-to-top-13000-a-year-as-uk-wag_20260915_1108.html
+✓ Created comprehensive article: state-pension-likely-to-top-13000-a-year-as-uk-wag_20260915_1108.html
 
-Processing trending topic: Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
-Searching Google for: Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BAI%252Bsafety%252Bfears%252Ba%252B%2527hoax%2527%252Bas%252Bhe%252Brejects%252Bcalls%252Bfor%252Bgreater%252Bsafeguards%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04SN3GIW6o9UGIjD1bc_bjgn48MHwQprBfnB-swyYWvCbLpgFlUc0JCr9E2eBa5kiXZj28RfZykQxDYwyAnJSWgFD
+Processing trending topic: Nairobi to host World Athletics Championships in 2029
+Searching Google for: Nairobi to host World Athletics Championships in 2029
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNairobi%252Bto%252Bhost%252BWorld%252BAthletics%252BChampionships%252Bin%252B2029%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sUZGL_OpNUGIjBwyHKCFVdbBSJKzR6MHGe_rMv2dfvrTBHtQ8pIGTVLp9PQyTCtpBEzstK5V1zJfHYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-says-ai-safety-fears-a-hoax-as-he-rejects-ca_20260915_0552.html
-✓ Created comprehensive article: trump-says-ai-safety-fears-a-hoax-as-he-rejects-ca_20260915_0552.html
+Successfully created file: nairobi-to-host-world-athletics-championships-in-2_20260915_1108.html
+✓ Created comprehensive article: nairobi-to-host-world-athletics-championships-in-2_20260915_1108.html
 
-Processing trending topic: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Searching Google for: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598I%252Bbelieved%252Bthe%252Bhype%25E2%2580%2599%253A%252Bthe%252Bwhite%252BSouth%252BAfricans%252Bdenied%252Brefugee%252Bstatus%252Bin%252Bthe%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ04SN3GIu6o9UGIjDDEPsr-9Bqg3HaxUMsz9-qf6iK2Tbt6NSvC9wT0ctSbTnx8TcMUs1Os2m00bjEenkyAnJSWgFD
+Processing trending topic: UN experts say Belarus justice system used to target Lukashenko opponents
+Searching Google for: UN experts say Belarus justice system used to target Lukashenko opponents
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bexperts%252Bsay%252BBelarus%252Bjustice%252Bsystem%252Bused%252Bto%252Btarget%252BLukashenko%252Bopponents%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sUZGMbOpNUGIjC2IKikMhPd4y1AQChDOI5PRt6V7QFB5dgRJ4PbfePbdiGKLmgMRDXa64oOCvq4G6kyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-believed-the-hype-the-white-south-africans-denie_20260915_0552.html
-✓ Created comprehensive article: i-believed-the-hype-the-white-south-africans-denie_20260915_0552.html
+Successfully created file: un-experts-say-belarus-justice-system-used-to-targ_20260915_1108.html
+✓ Created comprehensive article: un-experts-say-belarus-justice-system-used-to-targ_20260915_1108.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-says-its-clearing-hormuz-traffic-why-are-oil-fu_20260914_1151.html
-Cleaned old post to keep top 30 limit: watch-why-russian-strike-on-train-could-be-sign-of_20260914_1151.html
-Cleaned old post to keep top 30 limit: ai-kill-switch-may-need-to-be-mandatory-anthropic-_20260915_0020.html
+Cleaned old post to keep top 30 limit: zimbabwe-boat-accident-death-toll-hits-68-as-22-mo_20260816_0116.html
+Cleaned old post to keep top 30 limit: zimbabweans-return-home-amid-xenophobic-violence-i_20260711_1558.html
+Cleaned old post to keep top 30 limit: i-believed-the-hype-the-white-south-africans-denie_20260915_0552.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Lucy Letby public inquiry findings set to be published
+   • State pension likely to top £13,000 a year as UK wage growth slows to 3.9%
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards
+   • Nairobi to host World Athletics Championships in 2029
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘I believed the hype’: the white South Africans denied refugee status in the US
+   • UN experts say Belarus justice system used to target Lukashenko opponents
      Sources: bbc.com, cnn.com, reuters.com
