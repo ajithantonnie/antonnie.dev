@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: OpenAI boss says world 'right to be afraid' but should trust AI firms
-  Added: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
+  Added: Petrol and diesel price rises push UK inflation higher
+  Added: EU chief backs plan for Canada to become 'associate member'
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US House votes to end Iran war, 7 Republicans join in favour
-Added expanded search topic: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
-Added expanded search topic: US House votes to end Iran war, 7 Republicans join in favour
-Saved 6 topics for 2026-09-16
+  Added: US to bar some South Africans over claims of anti-white discrimination
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 9 topics for 2026-09-16
 Returning 3 unique trending topics:
-  1. ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa (from The Guardian)
-  2. Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. US House votes to end Iran war, 7 Republicans join in favour (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Petrol and diesel price rises push UK inflation higher (from BBC News)
+  2. EU chief backs plan for Canada to become 'associate member' (from BBC News)
+  3. US to bar some South Africans over claims of anti-white discrimination (from The Guardian)
 
-Processing trending topic: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
-Searching Google for: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bare%252Bprey%25E2%2580%2599%253A%252Bdiscovery%252Bof%252Bseven%252Bwomen%25E2%2580%2599s%252Bbodies%252Bfuels%252Banger%252Bover%252Bfemicide%252Bin%252BSouth%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsO4GOCEqdUGIjClk-Em9sbQsnBnVePchbjxfLX6KUFOphFw9x9i24sQ4LL_aKegln6bbo21SOJgB2UyBmpjbmRyUloBQw
+Processing trending topic: Petrol and diesel price rises push UK inflation higher
+Searching Google for: Petrol and diesel price rises push UK inflation higher
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPetrol%252Band%252Bdiesel%252Bprice%252Brises%252Bpush%252BUK%252Binflation%252Bhigher%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MIGJerqtUGIjBo-dU5j9wa-ppVKHMDZ-QX7-vx3RwG9h6tT4TuiXPXxTclkj8FMmCuH_IxxYKrPv4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-are-prey-discovery-of-seven-womens-bodies-fuels_20260916_0716.html
-✓ Created comprehensive article: we-are-prey-discovery-of-seven-womens-bodies-fuels_20260916_0716.html
+Successfully created file: petrol-and-diesel-price-rises-push-uk-inflation-hi_20260916_1311.html
+✓ Created comprehensive article: petrol-and-diesel-price-rises-push-uk-inflation-hi_20260916_1311.html
 
-Processing trending topic: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
-Searching Google for: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DManchester%252Bderby%252BVAR%252Berror%252Bcaused%252Bby%252B%25E2%2580%2598tunnel%252Bvision%25E2%2580%2599%253A%252BPro%252BRef%252Bchief%252BWebb%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsO4GOeEqdUGIjCDkplrST0W7m_GaWUB0oXTUfBCTd06r_nQNaz0NCfPDE6hVFDQcE1B6O62VqNTBY0yBmpjbmRyUloBQw
+Processing trending topic: EU chief backs plan for Canada to become 'associate member'
+Searching Google for: EU chief backs plan for Canada to become 'associate member'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bchief%252Bbacks%252Bplan%252Bfor%252BCanada%252Bto%252Bbecome%252B%2527associate%252Bmember%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MIGJ6rqtUGIjDh_G5PxIqrSZ5DCO8mGWRqa4J1-zhSDmdgwWmZuIF4qH1Kp8FdntnopYiHK3IP7uoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: manchester-derby-var-error-caused-by-tunnel-vision_20260916_0717.html
-✓ Created comprehensive article: manchester-derby-var-error-caused-by-tunnel-vision_20260916_0717.html
+Successfully created file: eu-chief-backs-plan-for-canada-to-become-associate_20260916_1312.html
+✓ Created comprehensive article: eu-chief-backs-plan-for-canada-to-become-associate_20260916_1312.html
 
-Processing trending topic: US House votes to end Iran war, 7 Republicans join in favour
-Searching Google for: US House votes to end Iran war, 7 Republicans join in favour
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BHouse%252Bvotes%252Bto%252Bend%252BIran%252Bwar%252C%252B7%252BRepublicans%252Bjoin%252Bin%252Bfavour%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsO4GO6EqdUGIjB7m8dQEeEi-zFo96ZxHHdGokIYNZv8QDR19HyEvDLsJ5TQA-glJ7zEKlbSiv4SzTAyBmpjbmRyUloBQw
+Processing trending topic: US to bar some South Africans over claims of anti-white discrimination
+Searching Google for: US to bar some South Africans over claims of anti-white discrimination
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bto%252Bbar%252Bsome%252BSouth%252BAfricans%252Bover%252Bclaims%252Bof%252Banti-white%252Bdiscrimination%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MIGKSrqtUGIjBzIUcQlsdm5JcwTJMUPSY6yrm3fpbiZu4347vBI_pG5LoFmSlID_xp17ITBkwfOGoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-house-votes-to-end-iran-war-7-republicans-join-_20260916_0717.html
-✓ Created comprehensive article: us-house-votes-to-end-iran-war-7-republicans-join-_20260916_0717.html
+Successfully created file: us-to-bar-some-south-africans-over-claims-of-anti-_20260916_1312.html
+✓ Created comprehensive article: us-to-bar-some-south-africans-over-claims-of-anti-_20260916_1312.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: i-believed-the-hype-the-white-south-africans-denie_20260916_0111.html
-Cleaned old post to keep top 30 limit: openai-boss-says-world-right-to-be-afraid-but-shou_20260916_0111.html
-Cleaned old post to keep top 30 limit: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260916_0111.html
+Cleaned old post to keep top 30 limit: ukrainian-drone-evades-russian-helicopter-fire-to-_20260913_1718.html
+Cleaned old post to keep top 30 limit: manchester-derby-var-error-caused-by-tunnel-vision_20260916_0717.html
+Cleaned old post to keep top 30 limit: dan-thomas-resigns-as-reform-wales-leader-after-ar_20260915_2002.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
+   • Petrol and diesel price rises push UK inflation higher
      Sources: bbc.com, cnn.com, reuters.com
-   • Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
+   • EU chief backs plan for Canada to become 'associate member'
      Sources: bbc.com, cnn.com, reuters.com
-   • US House votes to end Iran war, 7 Republicans join in favour
+   • US to bar some South Africans over claims of anti-white discrimination
      Sources: bbc.com, cnn.com, reuters.com
