@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 15 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Baby 'cot cams' plan after inquiry finds Lucy Letby crimes could have been prevented
+  Added: OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
   Added: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Republican congressman calls to impeach US Defence Secretary Pete Hegseth
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ed Sheeran blames US tour promoter for dropping Macklemore
-Added expanded search topic: Republican congressman calls to impeach US Defence Secretary Pete Hegseth
-Added expanded search topic: Ed Sheeran blames US tour promoter for dropping Macklemore
-Saved 18 topics for 2026-09-15
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-16
 Returning 3 unique trending topics:
-  1. All support acts on Ed Sheeran's US tour quit after Macklemore dropped (from BBC News)
-  2. Republican congressman calls to impeach US Defence Secretary Pete Hegseth (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Ed Sheeran blames US tour promoter for dropping Macklemore (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. OpenAI boss says world 'right to be afraid' but 'should trust' AI firms (from BBC News)
+  2. All support acts on Ed Sheeran's US tour quit after Macklemore dropped (from BBC News)
+  3. ‘I believed the hype’: the white South Africans denied refugee status in the US (from The Guardian)
+
+Processing trending topic: OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
+Searching Google for: OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%252Bboss%252Bsays%252Bworld%252B%2527right%252Bto%252Bbe%252Bafraid%2527%252Bbut%252B%2527should%252Btrust%2527%252BAI%252Bfirms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrG2cGKXZp9UGIjAf6VN7oaWvg_wvSrx02J-6Rd0eZyvZ6IXH3Wg6NbP4bP5TIYNeyKciHEbzaO2P-FkyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: openai-boss-says-world-right-to-be-afraid-but-shou_20260916_0111.html
+✓ Created comprehensive article: openai-boss-says-world-right-to-be-afraid-but-shou_20260916_0111.html
 
 Processing trending topic: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 Searching Google for: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAll%252Bsupport%252Bacts%252Bon%252BEd%252BSheeran%2527s%252BUS%252Btour%252Bquit%252Bafter%252BMacklemore%252Bdropped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIU3WGImap9UGIjAyoPRyj1ssbwtg0nQ5znK2Cys4DjbZmC7rCcMZ0hTQ_5CT82scFxZDZF_T1_oBzDMyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAll%252Bsupport%252Bacts%252Bon%252BEd%252BSheeran%2527s%252BUS%252Btour%252Bquit%252Bafter%252BMacklemore%252Bdropped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrG2cGKzZp9UGIjDYA7W2SS5xOioi3n0meiON3jqBr-gVnaGdQZh85kZ66MPP3_UjmyWzVy9Re1waQjsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260915_2256.html
-✓ Created comprehensive article: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260915_2256.html
+Successfully created file: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260916_0111.html
+✓ Created comprehensive article: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260916_0111.html
 
-Processing trending topic: Republican congressman calls to impeach US Defence Secretary Pete Hegseth
-Searching Google for: Republican congressman calls to impeach US Defence Secretary Pete Hegseth
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRepublican%252Bcongressman%252Bcalls%252Bto%252Bimpeach%252BUS%252BDefence%252BSecretary%252BPete%252BHegseth%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIU3WGJGap9UGIjAX7CrRzdG1RwJrOTrSbUolbm2dbMeE0fEZsH-kvqIqZmHqq17Zz66jCa9jhbIJy5AyBmpjbmRyUloBQw
+Processing trending topic: ‘I believed the hype’: the white South Africans denied refugee status in the US
+Searching Google for: ‘I believed the hype’: the white South Africans denied refugee status in the US
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598I%252Bbelieved%252Bthe%252Bhype%25E2%2580%2599%253A%252Bthe%252Bwhite%252BSouth%252BAfricans%252Bdenied%252Brefugee%252Bstatus%252Bin%252Bthe%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrG2cGLLZp9UGIjBNnB6eVvoT99daRY25eaYKa3YkKYgwInwCNEMOhjx4wgKgA2aJx_Q6acbCWMniE9YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: republican-congressman-calls-to-impeach-us-defence_20260915_2256.html
-✓ Created comprehensive article: republican-congressman-calls-to-impeach-us-defence_20260915_2256.html
-
-Processing trending topic: Ed Sheeran blames US tour promoter for dropping Macklemore
-Searching Google for: Ed Sheeran blames US tour promoter for dropping Macklemore
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEd%252BSheeran%252Bblames%252BUS%252Btour%252Bpromoter%252Bfor%252Bdropping%252BMacklemore%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSGIU3WGJeap9UGIjAHxHl0RYbcqbCf5sBZdGFZLJRMZNXZpl9cZdoUKcF1I7-5Ai6EVrzx0G3bCkcY0OcyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ed-sheeran-blames-us-tour-promoter-for-dropping-ma_20260915_2256.html
-✓ Created comprehensive article: ed-sheeran-blames-us-tour-promoter-for-dropping-ma_20260915_2256.html
+Successfully created file: i-believed-the-hype-the-white-south-africans-denie_20260916_0111.html
+✓ Created comprehensive article: i-believed-the-hype-the-white-south-africans-denie_20260916_0111.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: lucy-letby-inquiry-blames-hospital-for-complete-fa_20260915_1617.html
-Cleaned old post to keep top 30 limit: israel-lacking-respect-for-dead-buried-in-gaza-rub_20260915_2002.html
-Cleaned old post to keep top 30 limit: baby-cot-cams-plan-after-inquiry-finds-lucy-letby-_20260915_2002.html
+Cleaned old post to keep top 30 limit: un-experts-say-belarus-justice-system-used-to-targ_20260915_1108.html
+Cleaned old post to keep top 30 limit: republican-congressman-calls-to-impeach-us-defence_20260915_2256.html
+Cleaned old post to keep top 30 limit: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260915_2256.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
+     Sources: bbc.com, cnn.com, reuters.com
    • All support acts on Ed Sheeran's US tour quit after Macklemore dropped
      Sources: bbc.com, cnn.com, reuters.com
-   • Republican congressman calls to impeach US Defence Secretary Pete Hegseth
-     Sources: bbc.com, cnn.com, reuters.com
-   • Ed Sheeran blames US tour promoter for dropping Macklemore
+   • ‘I believed the hype’: the white South Africans denied refugee status in the US
      Sources: bbc.com, cnn.com, reuters.com
