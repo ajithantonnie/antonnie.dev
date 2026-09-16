@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
+  Added: OpenAI boss says world 'right to be afraid' but should trust AI firms
   Added: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-16
+  Added: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US House votes to end Iran war, 7 Republicans join in favour
+Added expanded search topic: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
+Added expanded search topic: US House votes to end Iran war, 7 Republicans join in favour
+Saved 6 topics for 2026-09-16
 Returning 3 unique trending topics:
-  1. OpenAI boss says world 'right to be afraid' but 'should trust' AI firms (from BBC News)
-  2. All support acts on Ed Sheeran's US tour quit after Macklemore dropped (from BBC News)
-  3. ‘I believed the hype’: the white South Africans denied refugee status in the US (from The Guardian)
+  1. ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa (from The Guardian)
+  2. Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US House votes to end Iran war, 7 Republicans join in favour (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
-Searching Google for: OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%252Bboss%252Bsays%252Bworld%252B%2527right%252Bto%252Bbe%252Bafraid%2527%252Bbut%252B%2527should%252Btrust%2527%252BAI%252Bfirms%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrG2cGKXZp9UGIjAf6VN7oaWvg_wvSrx02J-6Rd0eZyvZ6IXH3Wg6NbP4bP5TIYNeyKciHEbzaO2P-FkyBmpjbmRyUloBQw
+Processing trending topic: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
+Searching Google for: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598We%252Bare%252Bprey%25E2%2580%2599%253A%252Bdiscovery%252Bof%252Bseven%252Bwomen%25E2%2580%2599s%252Bbodies%252Bfuels%252Banger%252Bover%252Bfemicide%252Bin%252BSouth%252BAfrica%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsO4GOCEqdUGIjClk-Em9sbQsnBnVePchbjxfLX6KUFOphFw9x9i24sQ4LL_aKegln6bbo21SOJgB2UyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: openai-boss-says-world-right-to-be-afraid-but-shou_20260916_0111.html
-✓ Created comprehensive article: openai-boss-says-world-right-to-be-afraid-but-shou_20260916_0111.html
+Successfully created file: we-are-prey-discovery-of-seven-womens-bodies-fuels_20260916_0716.html
+✓ Created comprehensive article: we-are-prey-discovery-of-seven-womens-bodies-fuels_20260916_0716.html
 
-Processing trending topic: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
-Searching Google for: All support acts on Ed Sheeran's US tour quit after Macklemore dropped
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAll%252Bsupport%252Bacts%252Bon%252BEd%252BSheeran%2527s%252BUS%252Btour%252Bquit%252Bafter%252BMacklemore%252Bdropped%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrG2cGKzZp9UGIjDYA7W2SS5xOioi3n0meiON3jqBr-gVnaGdQZh85kZ66MPP3_UjmyWzVy9Re1waQjsyBmpjbmRyUloBQw
+Processing trending topic: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
+Searching Google for: Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DManchester%252Bderby%252BVAR%252Berror%252Bcaused%252Bby%252B%25E2%2580%2598tunnel%252Bvision%25E2%2580%2599%253A%252BPro%252BRef%252Bchief%252BWebb%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsO4GOeEqdUGIjCDkplrST0W7m_GaWUB0oXTUfBCTd06r_nQNaz0NCfPDE6hVFDQcE1B6O62VqNTBY0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260916_0111.html
-✓ Created comprehensive article: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260916_0111.html
+Successfully created file: manchester-derby-var-error-caused-by-tunnel-vision_20260916_0717.html
+✓ Created comprehensive article: manchester-derby-var-error-caused-by-tunnel-vision_20260916_0717.html
 
-Processing trending topic: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Searching Google for: ‘I believed the hype’: the white South Africans denied refugee status in the US
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598I%252Bbelieved%252Bthe%252Bhype%25E2%2580%2599%253A%252Bthe%252Bwhite%252BSouth%252BAfricans%252Bdenied%252Brefugee%252Bstatus%252Bin%252Bthe%252BUS%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUrG2cGLLZp9UGIjBNnB6eVvoT99daRY25eaYKa3YkKYgwInwCNEMOhjx4wgKgA2aJx_Q6acbCWMniE9YyBmpjbmRyUloBQw
+Processing trending topic: US House votes to end Iran war, 7 Republicans join in favour
+Searching Google for: US House votes to end Iran war, 7 Republicans join in favour
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BHouse%252Bvotes%252Bto%252Bend%252BIran%252Bwar%252C%252B7%252BRepublicans%252Bjoin%252Bin%252Bfavour%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstsO4GO6EqdUGIjB7m8dQEeEi-zFo96ZxHHdGokIYNZv8QDR19HyEvDLsJ5TQA-glJ7zEKlbSiv4SzTAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-believed-the-hype-the-white-south-africans-denie_20260916_0111.html
-✓ Created comprehensive article: i-believed-the-hype-the-white-south-africans-denie_20260916_0111.html
+Successfully created file: us-house-votes-to-end-iran-war-7-republicans-join-_20260916_0717.html
+✓ Created comprehensive article: us-house-votes-to-end-iran-war-7-republicans-join-_20260916_0717.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: un-experts-say-belarus-justice-system-used-to-targ_20260915_1108.html
-Cleaned old post to keep top 30 limit: republican-congressman-calls-to-impeach-us-defence_20260915_2256.html
-Cleaned old post to keep top 30 limit: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260915_2256.html
+Cleaned old post to keep top 30 limit: i-believed-the-hype-the-white-south-africans-denie_20260916_0111.html
+Cleaned old post to keep top 30 limit: openai-boss-says-world-right-to-be-afraid-but-shou_20260916_0111.html
+Cleaned old post to keep top 30 limit: all-support-acts-on-ed-sheerans-us-tour-quit-after_20260916_0111.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • OpenAI boss says world 'right to be afraid' but 'should trust' AI firms
+   • ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
      Sources: bbc.com, cnn.com, reuters.com
-   • All support acts on Ed Sheeran's US tour quit after Macklemore dropped
+   • Manchester derby VAR error caused by ‘tunnel vision’: Pro Ref chief Webb
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘I believed the hype’: the white South Africans denied refugee status in the US
+   • US House votes to end Iran war, 7 Republicans join in favour
      Sources: bbc.com, cnn.com, reuters.com
