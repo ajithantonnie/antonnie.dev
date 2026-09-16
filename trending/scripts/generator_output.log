@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Petrol and diesel price rises push UK inflation higher
   Added: EU chief backs plan for Canada to become 'associate member'
+  Added: 'Putney pusher' suspect found dead at home
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: US to bar some South Africans over claims of anti-white discrimination
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 9 topics for 2026-09-16
+  Added: ‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Kosovo’s former president guilty of war crimes
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Why has the response to Nepal’s floods been so muted?
+Added expanded search topic: Kosovo’s former president guilty of war crimes
+Added expanded search topic: Why has the response to Nepal’s floods been so muted?
+Saved 12 topics for 2026-09-16
 Returning 3 unique trending topics:
-  1. Petrol and diesel price rises push UK inflation higher (from BBC News)
-  2. EU chief backs plan for Canada to become 'associate member' (from BBC News)
-  3. US to bar some South Africans over claims of anti-white discrimination (from The Guardian)
+  1. 'Putney pusher' suspect found dead at home (from BBC News)
+  2. Kosovo’s former president guilty of war crimes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Why has the response to Nepal’s floods been so muted? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Petrol and diesel price rises push UK inflation higher
-Searching Google for: Petrol and diesel price rises push UK inflation higher
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPetrol%252Band%252Bdiesel%252Bprice%252Brises%252Bpush%252BUK%252Binflation%252Bhigher%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MIGJerqtUGIjBo-dU5j9wa-ppVKHMDZ-QX7-vx3RwG9h6tT4TuiXPXxTclkj8FMmCuH_IxxYKrPv4yBmpjbmRyUloBQw
+Processing trending topic: 'Putney pusher' suspect found dead at home
+Searching Google for: 'Putney pusher' suspect found dead at home
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Putney%252Bpusher%2527%252Bsuspect%252Bfound%252Bdead%252Bat%252Bhome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm8VVGIOzq9UGIjDtf2hh2t7a90fkOQDWzAGykORu8rzKQTJi7qRH2fie-Fr9OoF4hQD8--Vo56BKU28yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: petrol-and-diesel-price-rises-push-uk-inflation-hi_20260916_1311.html
-✓ Created comprehensive article: petrol-and-diesel-price-rises-push-uk-inflation-hi_20260916_1311.html
+Successfully created file: putney-pusher-suspect-found-dead-at-home_20260916_1801.html
+✓ Created comprehensive article: putney-pusher-suspect-found-dead-at-home_20260916_1801.html
 
-Processing trending topic: EU chief backs plan for Canada to become 'associate member'
-Searching Google for: EU chief backs plan for Canada to become 'associate member'
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEU%252Bchief%252Bbacks%252Bplan%252Bfor%252BCanada%252Bto%252Bbecome%252B%2527associate%252Bmember%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MIGJ6rqtUGIjDh_G5PxIqrSZ5DCO8mGWRqa4J1-zhSDmdgwWmZuIF4qH1Kp8FdntnopYiHK3IP7uoyBmpjbmRyUloBQw
+Processing trending topic: Kosovo’s former president guilty of war crimes
+Searching Google for: Kosovo’s former president guilty of war crimes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKosovo%25E2%2580%2599s%252Bformer%252Bpresident%252Bguilty%252Bof%252Bwar%252Bcrimes%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm8VVGIuzq9UGIjBq8W3VAh1aPuIZBC-NA9xgRoJcWp0S697wgEXxLVreM7x6uw5ONytI_n--7I9MauQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: eu-chief-backs-plan-for-canada-to-become-associate_20260916_1312.html
-✓ Created comprehensive article: eu-chief-backs-plan-for-canada-to-become-associate_20260916_1312.html
+Successfully created file: kosovos-former-president-guilty-of-war-crimes_20260916_1801.html
+✓ Created comprehensive article: kosovos-former-president-guilty-of-war-crimes_20260916_1801.html
 
-Processing trending topic: US to bar some South Africans over claims of anti-white discrimination
-Searching Google for: US to bar some South Africans over claims of anti-white discrimination
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bto%252Bbar%252Bsome%252BSouth%252BAfricans%252Bover%252Bclaims%252Bof%252Banti-white%252Bdiscrimination%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-MIGKSrqtUGIjBzIUcQlsdm5JcwTJMUPSY6yrm3fpbiZu4347vBI_pG5LoFmSlID_xp17ITBkwfOGoyBmpjbmRyUloBQw
+Processing trending topic: Why has the response to Nepal’s floods been so muted?
+Searching Google for: Why has the response to Nepal’s floods been so muted?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhy%252Bhas%252Bthe%252Bresponse%252Bto%252BNepal%25E2%2580%2599s%252Bfloods%252Bbeen%252Bso%252Bmuted%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEm8VVGJGzq9UGIjDgNRNV4ixAoipXS6fOEkk39aw_eH9_pSvgDJVSpcKwr2AOut6VrxVaILg1Q7JWR_MyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-to-bar-some-south-africans-over-claims-of-anti-_20260916_1312.html
-✓ Created comprehensive article: us-to-bar-some-south-africans-over-claims-of-anti-_20260916_1312.html
+Successfully created file: why-has-the-response-to-nepals-floods-been-so-mute_20260916_1801.html
+✓ Created comprehensive article: why-has-the-response-to-nepals-floods-been-so-mute_20260916_1801.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ukrainian-drone-evades-russian-helicopter-fire-to-_20260913_1718.html
-Cleaned old post to keep top 30 limit: manchester-derby-var-error-caused-by-tunnel-vision_20260916_0717.html
-Cleaned old post to keep top 30 limit: dan-thomas-resigns-as-reform-wales-leader-after-ar_20260915_2002.html
+Cleaned old post to keep top 30 limit: eu-chief-backs-plan-for-canada-to-become-associate_20260916_1312.html
+Cleaned old post to keep top 30 limit: petrol-and-diesel-price-rises-push-uk-inflation-hi_20260916_1311.html
+Cleaned old post to keep top 30 limit: ed-sheeran-blames-us-tour-promoter-for-dropping-ma_20260915_2256.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Petrol and diesel price rises push UK inflation higher
+   • 'Putney pusher' suspect found dead at home
      Sources: bbc.com, cnn.com, reuters.com
-   • EU chief backs plan for Canada to become 'associate member'
+   • Kosovo’s former president guilty of war crimes
      Sources: bbc.com, cnn.com, reuters.com
-   • US to bar some South Africans over claims of anti-white discrimination
+   • Why has the response to Nepal’s floods been so muted?
      Sources: bbc.com, cnn.com, reuters.com
