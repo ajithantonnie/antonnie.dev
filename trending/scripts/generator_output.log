@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Palace in war of words with Earl Spencer over claims in Diana book
-  Added: Bank of England expected to hold interest rates as it faces tough choices
+  Added: Uncontrolled AI could lead to 'silicon species' rivalling humans, Microsoft boss tells BBC
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-09-17
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanon security talks in Paris to focus on post-UNIFIL alternatives
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UK charities, protest groups condemn Israeli ban threat after sanctions
+Added expanded search topic: Lebanon security talks in Paris to focus on post-UNIFIL alternatives
+Added expanded search topic: UK charities, protest groups condemn Israeli ban threat after sanctions
+Saved 9 topics for 2026-09-17
 Returning 3 unique trending topics:
-  1. Palace in war of words with Earl Spencer over claims in Diana book (from BBC News)
-  2. Bank of England expected to hold interest rates as it faces tough choices (from BBC News)
-  3. ‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey (from The Guardian)
+  1. Uncontrolled AI could lead to 'silicon species' rivalling humans, Microsoft boss tells BBC (from BBC News)
+  2. Lebanon security talks in Paris to focus on post-UNIFIL alternatives (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UK charities, protest groups condemn Israeli ban threat after sanctions (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Palace in war of words with Earl Spencer over claims in Diana book
-Searching Google for: Palace in war of words with Earl Spencer over claims in Diana book
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalace%252Bin%252Bwar%252Bof%252Bwords%252Bwith%252BEarl%252BSpencer%252Bover%252Bclaims%252Bin%252BDiana%252Bbook%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNuhGPH9rdUGIjAyN3qf0nFehrjiBrzv6jgQXAEznxw07xb8zD59Ztw-yRfdEOyBuLQ2AMvysu5gsyUyBmpjbmRyUloBQw
+Processing trending topic: Uncontrolled AI could lead to 'silicon species' rivalling humans, Microsoft boss tells BBC
+Searching Google for: Uncontrolled AI could lead to 'silicon species' rivalling humans, Microsoft boss tells BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUncontrolled%252BAI%252Bcould%252Blead%252Bto%252B%2527silicon%252Bspecies%2527%252Brivalling%252Bhumans%252C%252BMicrosoft%252Bboss%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo4XpGM6Qr9UGIjCCnqYtpeaZ_mDk1oqIfRZTTTk7MC_12Q_JfeGvMa_n8AHP6_8mG8TZi-uP_VhMXGMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palace-in-war-of-words-with-earl-spencer-over-clai_20260917_0547.html
-✓ Created comprehensive article: palace-in-war-of-words-with-earl-spencer-over-clai_20260917_0547.html
+Successfully created file: uncontrolled-ai-could-lead-to-silicon-species-riva_20260917_1100.html
+✓ Created comprehensive article: uncontrolled-ai-could-lead-to-silicon-species-riva_20260917_1100.html
 
-Processing trending topic: Bank of England expected to hold interest rates as it faces tough choices
-Searching Google for: Bank of England expected to hold interest rates as it faces tough choices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBank%252Bof%252BEngland%252Bexpected%252Bto%252Bhold%252Binterest%252Brates%252Bas%252Bit%252Bfaces%252Btough%252Bchoices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNuhGPf9rdUGIjBsi-8N3MUiQCzaDvkHG1kLiqnkkQ0ioO3jS_FMex6ZiVlFJo4ZX8U9AhApMhSomkoyBmpjbmRyUloBQw
+Processing trending topic: Lebanon security talks in Paris to focus on post-UNIFIL alternatives
+Searching Google for: Lebanon security talks in Paris to focus on post-UNIFIL alternatives
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanon%252Bsecurity%252Btalks%252Bin%252BParis%252Bto%252Bfocus%252Bon%252Bpost-UNIFIL%252Balternatives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo4XpGNSQr9UGIjCtzdMlz7Kf_6ljrsLvBG4TF4zfKvN4pqY2KNgVbr6g5-tV-H6ShHoWMpN_T_ZXn0QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: bank-of-england-expected-to-hold-interest-rates-as_20260917_0547.html
-✓ Created comprehensive article: bank-of-england-expected-to-hold-interest-rates-as_20260917_0547.html
+Successfully created file: lebanon-security-talks-in-paris-to-focus-on-post-u_20260917_1100.html
+✓ Created comprehensive article: lebanon-security-talks-in-paris-to-focus-on-post-u_20260917_1100.html
 
-Processing trending topic: ‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey
-Searching Google for: ‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Like%252Ba%252BDisney%252Bmovie%25E2%2580%2599%253A%252BThree%252Bwild%252Bdog%252Bbrothers%252Bmake%252BAfrica%25E2%2580%2599s%252Blongest%252Bjourney%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuNuhGP39rdUGIjAfYH42lWwpbfs3fvokqajQUnBNT2XDGxq9SoBbDepcBJG8XratT9TPnLXcR-wHFt4yBmpjbmRyUloBQw
+Processing trending topic: UK charities, protest groups condemn Israeli ban threat after sanctions
+Searching Google for: UK charities, protest groups condemn Israeli ban threat after sanctions
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bcharities%252C%252Bprotest%252Bgroups%252Bcondemn%252BIsraeli%252Bban%252Bthreat%252Bafter%252Bsanctions%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUo4XpGNuQr9UGIjDq2UIX3Dy75eXnOJyyJdrhcgvXRKm6B_TORSzcdxdO84NYeXSrM9jh2DR54Il3vSoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: like-a-disney-movie-three-wild-dog-brothers-make-a_20260917_0547.html
-✓ Created comprehensive article: like-a-disney-movie-three-wild-dog-brothers-make-a_20260917_0547.html
+Successfully created file: uk-charities-protest-groups-condemn-israeli-ban-th_20260917_1100.html
+✓ Created comprehensive article: uk-charities-protest-groups-condemn-israeli-ban-th_20260917_1100.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-interest-rates-raised-for-first-time-in-three-y_20260917_0007.html
-Cleaned old post to keep top 30 limit: us-removes-venezuela-from-list-of-drug-transit-pro_20260916_2105.html
-Cleaned old post to keep top 30 limit: body-found-in-search-for-missing-three-year-old-no_20260917_0007.html
+Cleaned old post to keep top 30 limit: man-admits-drugging-and-raping-wife-over-20-years_20260915_0020.html
+Cleaned old post to keep top 30 limit: like-a-disney-movie-three-wild-dog-brothers-make-a_20260917_0547.html
+Cleaned old post to keep top 30 limit: bank-of-england-expected-to-hold-interest-rates-as_20260917_0547.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Palace in war of words with Earl Spencer over claims in Diana book
+   • Uncontrolled AI could lead to 'silicon species' rivalling humans, Microsoft boss tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • Bank of England expected to hold interest rates as it faces tough choices
+   • Lebanon security talks in Paris to focus on post-UNIFIL alternatives
      Sources: bbc.com, cnn.com, reuters.com
-   • ‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey
+   • UK charities, protest groups condemn Israeli ban threat after sanctions
      Sources: bbc.com, cnn.com, reuters.com
