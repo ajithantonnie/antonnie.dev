@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Remains found after wildfire identified as mother-of-three missing since 2019
@@ -9,63 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: ‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Third person dies from malaria in cluster near Germany’s Frankfurt Airport
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Serbia opens factory to assemble Israeli-made drones
-Added expanded search topic: Third person dies from malaria in cluster near Germany’s Frankfurt Airport
-Added expanded search topic: Serbia opens factory to assemble Israeli-made drones
-Saved 15 topics for 2026-09-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia election: Could other parties challenge United Russia?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trinidad and Tobago ends state of emergency amid pushback over mass arrests
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US judge orders 30-day notice prior to any Kennedy Center physical changes
+Added expanded search topic: Russia election: Could other parties challenge United Russia?
+Added expanded search topic: Trinidad and Tobago ends state of emergency amid pushback over mass arrests
+Added expanded search topic: US judge orders 30-day notice prior to any Kennedy Center physical changes
+Saved 18 topics for 2026-09-17
 Returning 3 unique trending topics:
-  1. Charles 'sounded giddily elated' after Diana died, Earl Spencer claims (from BBC News)
-  2. Third person dies from malaria in cluster near Germany’s Frankfurt Airport (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Serbia opens factory to assemble Israeli-made drones (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Russia election: Could other parties challenge United Russia? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Trinidad and Tobago ends state of emergency amid pushback over mass arrests (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US judge orders 30-day notice prior to any Kennedy Center physical changes (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Charles 'sounded giddily elated' after Diana died, Earl Spencer claims
-Searching Google for: Charles 'sounded giddily elated' after Diana died, Earl Spencer claims
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCharles%252B%2527sounded%252Bgiddily%252Belated%2527%252Bafter%252BDiana%252Bdied%252C%252BEarl%252BSpencer%252Bclaims%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkTGIGCsdUGIjANZtE_LsHDDEw_RpP4L0OySYxRxwjfPXDKXY-1LoTA2S6Ym4ZZdcex_N8F2vrpKfwyBmpjbmRyUloBQw
+Processing trending topic: Russia election: Could other parties challenge United Russia?
+Searching Google for: Russia election: Could other parties challenge United Russia?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Belection%253A%252BCould%252Bother%252Bparties%252Bchallenge%252BUnited%252BRussia%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--JGOjZsdUGIjCR7m0hFG9h6yJwKkBL8NMSs4ePJNv8B3vW99snNpVJLJE4U9-SySKPR7s2dcw8eA0yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: charles-sounded-giddily-elated-after-diana-died-ea_20260917_1935.html
-✓ Created comprehensive article: charles-sounded-giddily-elated-after-diana-died-ea_20260917_1935.html
+Successfully created file: russia-election-could-other-parties-challenge-unit_20260917_2242.html
+✓ Created comprehensive article: russia-election-could-other-parties-challenge-unit_20260917_2242.html
 
-Processing trending topic: Third person dies from malaria in cluster near Germany’s Frankfurt Airport
-Searching Google for: Third person dies from malaria in cluster near Germany’s Frankfurt Airport
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThird%252Bperson%252Bdies%252Bfrom%252Bmalaria%252Bin%252Bcluster%252Bnear%252BGermany%25E2%2580%2599s%252BFrankfurt%252BAirport%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkTGIiCsdUGIjDpMiAVvq7GXP4Vf687K58lVGncbhl-BAlFywlBk7k83KPv-JIYFgjKZE4MLGVQK3MyBmpjbmRyUloBQw
+Processing trending topic: Trinidad and Tobago ends state of emergency amid pushback over mass arrests
+Searching Google for: Trinidad and Tobago ends state of emergency amid pushback over mass arrests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrinidad%252Band%252BTobago%252Bends%252Bstate%252Bof%252Bemergency%252Bamid%252Bpushback%252Bover%252Bmass%252Barrests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--JGO_ZsdUGIjA2XP7q6VRPYYMfLdX2yDAk0MCS_RNIfLKZk3aItlPU-L0JRHGc-S4vG6sk7i5oTf4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: third-person-dies-from-malaria-in-cluster-near-ger_20260917_1935.html
-✓ Created comprehensive article: third-person-dies-from-malaria-in-cluster-near-ger_20260917_1935.html
+Successfully created file: trinidad-and-tobago-ends-state-of-emergency-amid-p_20260917_2242.html
+✓ Created comprehensive article: trinidad-and-tobago-ends-state-of-emergency-amid-p_20260917_2242.html
 
-Processing trending topic: Serbia opens factory to assemble Israeli-made drones
-Searching Google for: Serbia opens factory to assemble Israeli-made drones
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSerbia%252Bopens%252Bfactory%252Bto%252Bassemble%252BIsraeli-made%252Bdrones%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7MkTGI6CsdUGIjDa8e3QAq2p2oX4eC1vhaxVTdSXLq57PJI3BRdwlnDL-q9LA660Vq0otDSg_OJ4jZQyBmpjbmRyUloBQw
+Processing trending topic: US judge orders 30-day notice prior to any Kennedy Center physical changes
+Searching Google for: US judge orders 30-day notice prior to any Kennedy Center physical changes
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bjudge%252Borders%252B30-day%252Bnotice%252Bprior%252Bto%252Bany%252BKennedy%252BCenter%252Bphysical%252Bchanges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd--JGPXZsdUGIjCumXATdqddBXEVn0AugxYisVXL9NCs_44RoxC7FLSoZP9etZ17tyoWHX3E21cwraAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: serbia-opens-factory-to-assemble-israeli-made-dron_20260917_1935.html
-✓ Created comprehensive article: serbia-opens-factory-to-assemble-israeli-made-dron_20260917_1935.html
+Successfully created file: us-judge-orders-30-day-notice-prior-to-any-kennedy_20260917_2243.html
+✓ Created comprehensive article: us-judge-orders-30-day-notice-prior-to-any-kennedy_20260917_2243.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: kosovos-moves-towards-israel-are-the-price-of-alig_20260917_1531.html
-Cleaned old post to keep top 30 limit: remains-found-after-wildfire-identified-as-mother-_20260917_1531.html
-Cleaned old post to keep top 30 limit: king-charles-warns-of-existential-danger-of-ai-fal_20260917_1531.html
+Cleaned old post to keep top 30 limit: third-person-dies-from-malaria-in-cluster-near-ger_20260917_1935.html
+Cleaned old post to keep top 30 limit: uk-charities-protest-groups-condemn-israeli-ban-th_20260917_1100.html
+Cleaned old post to keep top 30 limit: charles-sounded-giddily-elated-after-diana-died-ea_20260917_1935.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Charles 'sounded giddily elated' after Diana died, Earl Spencer claims
+   • Russia election: Could other parties challenge United Russia?
      Sources: bbc.com, cnn.com, reuters.com
-   • Third person dies from malaria in cluster near Germany’s Frankfurt Airport
+   • Trinidad and Tobago ends state of emergency amid pushback over mass arrests
      Sources: bbc.com, cnn.com, reuters.com
-   • Serbia opens factory to assemble Israeli-made drones
+   • US judge orders 30-day notice prior to any Kennedy Center physical changes
      Sources: bbc.com, cnn.com, reuters.com
