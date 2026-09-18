@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: 'I'm telling the truth': Earl Spencer defends Diana book claims about Charles in BBC interview
@@ -8,58 +8,64 @@ Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: Survivor recounts panic and struggle to breathe in Nigerian prison cell where 37 died
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 12 topics for 2026-09-18
+  Added: Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Two injured by Israeli shelling as troops advance in southern Lebanon
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: England fast bowler Carse to face no charges over alleged nightclub assault
+Added expanded search topic: Two injured by Israeli shelling as troops advance in southern Lebanon
+Added expanded search topic: England fast bowler Carse to face no charges over alleged nightclub assault
+Saved 15 topics for 2026-09-18
 Returning 3 unique trending topics:
-  1. 'I'm telling the truth': Earl Spencer defends Diana book claims about Charles in BBC interview (from BBC News)
-  2. Watch: Diana's brother says Charles 'went ballistic' in phone call after her death (from BBC News)
-  3. Survivor recounts panic and struggle to breathe in Nigerian prison cell where 37 died (from The Guardian)
+  1. Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died (from The Guardian)
+  2. Two injured by Israeli shelling as troops advance in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. England fast bowler Carse to face no charges over alleged nightclub assault (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: 'I'm telling the truth': Earl Spencer defends Diana book claims about Charles in BBC interview
-Searching Google for: 'I'm telling the truth': Earl Spencer defends Diana book claims about Charles in BBC interview
-Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Processing trending topic: Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died
+Searching Google for: Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurvivors%252Brecount%252Bpanic%252Band%252Bstruggle%252Bto%252Bbreathe%252Bin%252BNigerian%252Bprison%252Bcell%252Bwhere%252B37%252Bdied%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqwwkGOiittUGIjB3OB2ZH5LEZw61GOcpuGNdjegW4b1atc3dVfV0xs9cVVYo0YGqvwUDfSttWcfphboyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: im-telling-the-truth-earl-spencer-defends-diana-bo_20260918_1659.html
-✓ Created comprehensive article: im-telling-the-truth-earl-spencer-defends-diana-bo_20260918_1659.html
+Successfully created file: survivors-recount-panic-and-struggle-to-breathe-in_20260918_1930.html
+✓ Created comprehensive article: survivors-recount-panic-and-struggle-to-breathe-in_20260918_1930.html
 
-Processing trending topic: Watch: Diana's brother says Charles 'went ballistic' in phone call after her death
-Searching Google for: Watch: Diana's brother says Charles 'went ballistic' in phone call after her death
-Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Processing trending topic: Two injured by Israeli shelling as troops advance in southern Lebanon
+Searching Google for: Two injured by Israeli shelling as troops advance in southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwo%252Binjured%252Bby%252BIsraeli%252Bshelling%252Bas%252Btroops%252Badvance%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqwwkGO-ittUGIjBZ66vfSOkZdAb_wHZU72WCVCZG1nkSOY8ufFs73r4ajxtg5WuvnJu9PIJYLFe8sPYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-dianas-brother-says-charles-went-ballistic-i_20260918_1700.html
-✓ Created comprehensive article: watch-dianas-brother-says-charles-went-ballistic-i_20260918_1700.html
+Successfully created file: two-injured-by-israeli-shelling-as-troops-advance-_20260918_1931.html
+✓ Created comprehensive article: two-injured-by-israeli-shelling-as-troops-advance-_20260918_1931.html
 
-Processing trending topic: Survivor recounts panic and struggle to breathe in Nigerian prison cell where 37 died
-Searching Google for: Survivor recounts panic and struggle to breathe in Nigerian prison cell where 37 died
-Google search failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Processing trending topic: England fast bowler Carse to face no charges over alleged nightclub assault
+Searching Google for: England fast bowler Carse to face no charges over alleged nightclub assault
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEngland%252Bfast%252Bbowler%252BCarse%252Bto%252Bface%252Bno%252Bcharges%252Bover%252Balleged%252Bnightclub%252Bassault%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqwwkGPaittUGIjDYlKM0jB0zNJ3_u6WRiDu7cZ1ZswRE3k9xDGEoOdCgzAhXcVgPRHx9XXfewQANDysyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: survivor-recounts-panic-and-struggle-to-breathe-in_20260918_1700.html
-✓ Created comprehensive article: survivor-recounts-panic-and-struggle-to-breathe-in_20260918_1700.html
+Successfully created file: england-fast-bowler-carse-to-face-no-charges-over-_20260918_1931.html
+✓ Created comprehensive article: england-fast-bowler-carse-to-face-no-charges-over-_20260918_1931.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mi5-accepts-it-gave-evidence-based-on-lies-in-neo-_20260918_1247.html
-Cleaned old post to keep top 30 limit: why-has-the-response-to-nepals-floods-been-so-mute_20260916_1801.html
-Cleaned old post to keep top 30 limit: british-woman-who-was-kidnapped-in-malawi-rescued-_20260918_1247.html
+Cleaned old post to keep top 30 limit: outrageous-lies-how-israeli-voters-are-shrugging-o_20260918_0707.html
+Cleaned old post to keep top 30 limit: survivor-recounts-panic-and-struggle-to-breathe-in_20260918_1700.html
+Cleaned old post to keep top 30 limit: im-telling-the-truth-earl-spencer-defends-diana-bo_20260918_1659.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • 'I'm telling the truth': Earl Spencer defends Diana book claims about Charles in BBC interview
+   • Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Diana's brother says Charles 'went ballistic' in phone call after her death
+   • Two injured by Israeli shelling as troops advance in southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
-   • Survivor recounts panic and struggle to breathe in Nigerian prison cell where 37 died
+   • England fast bowler Carse to face no charges over alleged nightclub assault
      Sources: bbc.com, cnn.com, reuters.com
