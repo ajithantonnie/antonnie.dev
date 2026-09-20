@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Houthis say they targeted Saudi capital with ballistic missiles
-  Added: Major seaside hotel fire that evacuated guests during night treated as suspicious
+  Added: Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
+  Added: Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-20
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jammertest: Arctic exercise to counter satellite jamming
+Added expanded search topic: Jammertest: Arctic exercise to counter satellite jamming
+Saved 6 topics for 2026-09-20
 Returning 3 unique trending topics:
-  1. Houthis say they targeted Saudi capital with ballistic missiles (from BBC News)
-  2. Major seaside hotel fire that evacuated guests during night treated as suspicious (from BBC News)
-  3. Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say (from The Guardian)
+  1. Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC (from BBC News)
+  2. Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives (from BBC News)
+  3. Jammertest: Arctic exercise to counter satellite jamming (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Houthis say they targeted Saudi capital with ballistic missiles
-Searching Google for: Houthis say they targeted Saudi capital with ballistic missiles
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHouthis%252Bsay%252Bthey%252Btargeted%252BSaudi%252Bcapital%252Bwith%252Bballistic%252Bmissiles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YxhGOHXvNUGIjCeaIQnZX8hPDA3UTCtxasbbMPN9zrQipLPNXp1rbAFMA6xXztGKvQzAMPl-4fd-h0yBmpjbmRyUloBQw
+Processing trending topic: Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
+Searching Google for: Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: houthis-say-they-targeted-saudi-capital-with-balli_20260920_0042.html
-✓ Created comprehensive article: houthis-say-they-targeted-saudi-capital-with-balli_20260920_0042.html
+Successfully created file: harry-and-meghans-media-treatment-echoes-what-happ_20260920_0545.html
+✓ Created comprehensive article: harry-and-meghans-media-treatment-echoes-what-happ_20260920_0545.html
 
-Processing trending topic: Major seaside hotel fire that evacuated guests during night treated as suspicious
-Searching Google for: Major seaside hotel fire that evacuated guests during night treated as suspicious
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMajor%252Bseaside%252Bhotel%252Bfire%252Bthat%252Bevacuated%252Bguests%252Bduring%252Bnight%252Btreated%252Bas%252Bsuspicious%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YxhGOjXvNUGIjAd8cQuQxdPsl-5yjEAqVBIb_JehjoUCwDNxxRX-FhQveigpWIhffOJDAJhGsW4mBMyBmpjbmRyUloBQw
+Processing trending topic: Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
+Searching Google for: Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BDiana%2527s%252Bbrother%252Bsays%252Bpress%252Bhas%252B%2527cancerous%252Binfluence%2527%252Bon%252BHarry%252Band%252BMeghan%2527s%252Blives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6czGL7mvdUGIjAhgKihVSrE15MahCjq6EqI0rZPxRH9yZtpaVaWE584ixEx6H7N6rMHfOmoNCXzX4gyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: major-seaside-hotel-fire-that-evacuated-guests-dur_20260920_0042.html
-✓ Created comprehensive article: major-seaside-hotel-fire-that-evacuated-guests-dur_20260920_0042.html
+Successfully created file: watch-dianas-brother-says-press-has-cancerous-infl_20260920_0546.html
+✓ Created comprehensive article: watch-dianas-brother-says-press-has-cancerous-infl_20260920_0546.html
 
-Processing trending topic: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
-Searching Google for: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMen%252Bdeported%252Bfrom%252BUS%252Bbound%252Band%252Bbeaten%252Bin%252BEquatorial%252BGuinea%252Bdetention%252Bhotel%252C%252Blawyers%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YxhGO7XvNUGIjC-TgShewcLubHeLocrwsg7-7tyP_tNHOiXJeEdPK3rX03J3Zi4U0TNyh-VlATt4vMyBmpjbmRyUloBQw
+Processing trending topic: Jammertest: Arctic exercise to counter satellite jamming
+Searching Google for: Jammertest: Arctic exercise to counter satellite jamming
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJammertest%253A%252BArctic%252Bexercise%252Bto%252Bcounter%252Bsatellite%252Bjamming%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6czGMTmvdUGIjC2EQa13UhX3UQVoGDl0jNB5clmoiH3sFwHWYmA-tA45ZhNcCK3RgAuY_yLadRZW94yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: men-deported-from-us-bound-and-beaten-in-equatoria_20260920_0042.html
-✓ Created comprehensive article: men-deported-from-us-bound-and-beaten-in-equatoria_20260920_0042.html
+Successfully created file: jammertest-arctic-exercise-to-counter-satellite-ja_20260920_0546.html
+✓ Created comprehensive article: jammertest-arctic-exercise-to-counter-satellite-ja_20260920_0546.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: saudi-led-coalition-says-defences-intercept-houthi_20260919_2244.html
-Cleaned old post to keep top 30 limit: houthis-say-they-targeted-saudi-capital-with-balli_20260919_2244.html
-Cleaned old post to keep top 30 limit: fulham-vs-manchester-united-premier-league-predict_20260919_2244.html
+Cleaned old post to keep top 30 limit: men-deported-from-us-bound-and-beaten-in-equatoria_20260920_0042.html
+Cleaned old post to keep top 30 limit: major-seaside-hotel-fire-that-evacuated-guests-dur_20260920_0042.html
+Cleaned old post to keep top 30 limit: houthis-say-they-targeted-saudi-capital-with-balli_20260920_0042.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Houthis say they targeted Saudi capital with ballistic missiles
+   • Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • Major seaside hotel fire that evacuated guests during night treated as suspicious
+   • Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
      Sources: bbc.com, cnn.com, reuters.com
-   • Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
+   • Jammertest: Arctic exercise to counter satellite jamming
      Sources: bbc.com, cnn.com, reuters.com
