@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump tariffs hit Canada’s dairy farmers as US sales stall
-Added expanded search topic: Trump tariffs hit Canada’s dairy farmers as US sales stall
-Saved 15 topics for 2026-09-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US, China open high-level talks ahead of Trump-Xi summit
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Qatar says it is working to revive Iran-US talks
+Added expanded search topic: Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
+Added expanded search topic: US, China open high-level talks ahead of Trump-Xi summit
+Added expanded search topic: Qatar says it is working to revive Iran-US talks
+Saved 18 topics for 2026-09-20
 Returning 3 unique trending topics:
-  1. German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on (from BBC News)
-  2. Key takeaways from BBC interview as Earl Spencer defends claims about King (from BBC News)
-  3. Trump tariffs hit Canada’s dairy farmers as US sales stall (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. US, China open high-level talks ahead of Trump-Xi summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Qatar says it is working to revive Iran-US talks (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
-Searching Google for: German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGerman%252BChancellor%252BMerz%252Bcalls%252Bstate%252Belection%252Ba%252B%2527disaster%2527%252Bfor%252Bhis%252Bparty%252Bbut%252Bvows%252Bto%252Bstay%252Bon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0s1h1GIG-wNUGIjCMHdsAG4R800jvzhPhWIIRWPezwyekZjkHJr097v2H7BdVlIvKUpqjHiFPIF7U-K0yBmpjbmRyUloBQw
+Processing trending topic: Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
+Searching Google for: Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DQatar%252BPM%252Bdescribes%252Bfallout%252Bof%252BUS-Israel%252Bwar%252Bon%252BIran%252Bas%252B%25E2%2580%2598earthquake%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqH1zGO-EwdUGIjAurZ_5SAOralt7C5Kl--JRTssuHYaLHQaQl-8XRtlYV8752zP_LXF5G2LfqGGzKeYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: german-chancellor-merz-calls-state-election-a-disa_20260920_1759.html
-✓ Created comprehensive article: german-chancellor-merz-calls-state-election-a-disa_20260920_1759.html
+Successfully created file: qatar-pm-describes-fallout-of-us-israel-war-on-ira_20260920_2030.html
+✓ Created comprehensive article: qatar-pm-describes-fallout-of-us-israel-war-on-ira_20260920_2030.html
 
-Processing trending topic: Key takeaways from BBC interview as Earl Spencer defends claims about King
-Searching Google for: Key takeaways from BBC interview as Earl Spencer defends claims about King
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKey%252Btakeaways%252Bfrom%252BBBC%252Binterview%252Bas%252BEarl%252BSpencer%252Bdefends%252Bclaims%252Babout%252BKing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0s1h1GIi-wNUGIjBlsM93deJkzblDMsa_csyeKt9GNFGS6ZvKI6Hrv5uXYBt7g5ap1Lft-Ol7v4h8IQMyBmpjbmRyUloBQw
+Processing trending topic: US, China open high-level talks ahead of Trump-Xi summit
+Searching Google for: US, China open high-level talks ahead of Trump-Xi summit
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252C%252BChina%252Bopen%252Bhigh-level%252Btalks%252Bahead%252Bof%252BTrump-Xi%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqH1zGPaEwdUGIjDq99VBtdJmZU2p0eyExgfZvknknJjuAYW8taHq8cS-4pO7SidhHGKt39n1gyP3bU8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: key-takeaways-from-bbc-interview-as-earl-spencer-d_20260920_1759.html
-✓ Created comprehensive article: key-takeaways-from-bbc-interview-as-earl-spencer-d_20260920_1759.html
+Successfully created file: us-china-open-high-level-talks-ahead-of-trump-xi-s_20260920_2030.html
+✓ Created comprehensive article: us-china-open-high-level-talks-ahead-of-trump-xi-s_20260920_2030.html
 
-Processing trending topic: Trump tariffs hit Canada’s dairy farmers as US sales stall
-Searching Google for: Trump tariffs hit Canada’s dairy farmers as US sales stall
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Btariffs%252Bhit%252BCanada%25E2%2580%2599s%252Bdairy%252Bfarmers%252Bas%252BUS%252Bsales%252Bstall%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0s1h1GI6-wNUGIjAkjedZZi-mFydiOpAZh1yRRkJgGqTqcIcFyPN9gcg6NfcP7iR15dpO3EjZYKPyy9YyBmpjbmRyUloBQw
+Processing trending topic: Qatar says it is working to revive Iran-US talks
+Searching Google for: Qatar says it is working to revive Iran-US talks
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DQatar%252Bsays%252Bit%252Bis%252Bworking%252Bto%252Brevive%252BIran-US%252Btalks%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqH1zGPyEwdUGIjC0t2wxL3TEy2mM1D1kIag3hblIdpvGL2mBY-nT4QsDeLfxyDsAlEk0m5FkiZ1zoqgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-tariffs-hit-canadas-dairy-farmers-as-us-sale_20260920_1759.html
-✓ Created comprehensive article: trump-tariffs-hit-canadas-dairy-farmers-as-us-sale_20260920_1759.html
+Successfully created file: qatar-says-it-is-working-to-revive-iran-us-talks_20260920_2030.html
+✓ Created comprehensive article: qatar-says-it-is-working-to-revive-iran-us-talks_20260920_2030.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: jews-and-muslims-lived-together-for-centuries-did-_20260920_1432.html
-Cleaned old post to keep top 30 limit: trump-says-he-will-create-ai-force-with-new-ai-cza_20260919_2005.html
-Cleaned old post to keep top 30 limit: humanoid-robots-fight-in-cage-match-in-shanghai_20260920_1432.html
+Cleaned old post to keep top 30 limit: trump-tariffs-hit-canadas-dairy-farmers-as-us-sale_20260920_1759.html
+Cleaned old post to keep top 30 limit: key-takeaways-from-bbc-interview-as-earl-spencer-d_20260920_1759.html
+Cleaned old post to keep top 30 limit: german-chancellor-merz-calls-state-election-a-disa_20260920_1759.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
+   • Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
      Sources: bbc.com, cnn.com, reuters.com
-   • Key takeaways from BBC interview as Earl Spencer defends claims about King
+   • US, China open high-level talks ahead of Trump-Xi summit
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump tariffs hit Canada’s dairy farmers as US sales stall
+   • Qatar says it is working to revive Iran-US talks
      Sources: bbc.com, cnn.com, reuters.com
