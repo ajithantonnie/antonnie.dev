@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jammertest: Arctic exercise to counter satellite jamming
-Added expanded search topic: Jammertest: Arctic exercise to counter satellite jamming
-Saved 6 topics for 2026-09-20
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Turkish FM says ready to meet Saudi defence needs – what does that mean?
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh
+Added expanded search topic: Turkish FM says ready to meet Saudi defence needs – what does that mean?
+Added expanded search topic: Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league
+Added expanded search topic: Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh
+Saved 9 topics for 2026-09-20
 Returning 3 unique trending topics:
-  1. Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC (from BBC News)
-  2. Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives (from BBC News)
-  3. Jammertest: Arctic exercise to counter satellite jamming (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Turkish FM says ready to meet Saudi defence needs – what does that mean? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
-Searching Google for: Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Turkish FM says ready to meet Saudi defence needs – what does that mean?
+Searching Google for: Turkish FM says ready to meet Saudi defence needs – what does that mean?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTurkish%252BFM%252Bsays%252Bready%252Bto%252Bmeet%252BSaudi%252Bdefence%252Bneeds%252B%25E2%2580%2593%252Bwhat%252Bdoes%252Bthat%252Bmean%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YxjGLPwvtUGIjCTcN0HfRFA6Irf57YhpfPHkjHJbz9VlOVKjBquk_jLjSAACs_NayA1jm90qAgL8EYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: harry-and-meghans-media-treatment-echoes-what-happ_20260920_0545.html
-✓ Created comprehensive article: harry-and-meghans-media-treatment-echoes-what-happ_20260920_0545.html
+Successfully created file: turkish-fm-says-ready-to-meet-saudi-defence-needs-_20260920_1040.html
+✓ Created comprehensive article: turkish-fm-says-ready-to-meet-saudi-defence-needs-_20260920_1040.html
 
-Processing trending topic: Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
-Searching Google for: Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BDiana%2527s%252Bbrother%252Bsays%252Bpress%252Bhas%252B%2527cancerous%252Binfluence%2527%252Bon%252BHarry%252Band%252BMeghan%2527s%252Blives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6czGL7mvdUGIjAhgKihVSrE15MahCjq6EqI0rZPxRH9yZtpaVaWE584ixEx6H7N6rMHfOmoNCXzX4gyBmpjbmRyUloBQw
+Processing trending topic: Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league
+Searching Google for: Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSalah%252Bscores%252Bhat-trick%252Bas%252BTrabzonspor%252Bbeat%252BGalatasaray%252Bin%252BTurkish%252Bleague%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YxjGLnwvtUGIjD3GIzkkiYEISaKRSCuxphPE-Nvq_FbZl9CqyWRbibfRYzKDZLrsdI6-Yi-KFut9BwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-dianas-brother-says-press-has-cancerous-infl_20260920_0546.html
-✓ Created comprehensive article: watch-dianas-brother-says-press-has-cancerous-infl_20260920_0546.html
+Successfully created file: salah-scores-hat-trick-as-trabzonspor-beat-galatas_20260920_1041.html
+✓ Created comprehensive article: salah-scores-hat-trick-as-trabzonspor-beat-galatas_20260920_1041.html
 
-Processing trending topic: Jammertest: Arctic exercise to counter satellite jamming
-Searching Google for: Jammertest: Arctic exercise to counter satellite jamming
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJammertest%253A%252BArctic%252Bexercise%252Bto%252Bcounter%252Bsatellite%252Bjamming%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNU6czGMTmvdUGIjC2EQa13UhX3UQVoGDl0jNB5clmoiH3sFwHWYmA-tA45ZhNcCK3RgAuY_yLadRZW94yBmpjbmRyUloBQw
+Processing trending topic: Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh
+Searching Google for: Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAsian%252BGames%253A%252BSmriti%252BMandhana%252Bbreaks%252BT20%252Brecord%252Bas%252BIndia%252Bbeat%252BBangladesh%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2YxjGMDwvtUGIjARpHOdiMDX8t_LCBlS8W0JK7ApMsp9KULrMT91-liIupRRWXX0twbPwkEh86QRtdgyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jammertest-arctic-exercise-to-counter-satellite-ja_20260920_0546.html
-✓ Created comprehensive article: jammertest-arctic-exercise-to-counter-satellite-ja_20260920_0546.html
+Successfully created file: asian-games-smriti-mandhana-breaks-t20-record-as-i_20260920_1041.html
+✓ Created comprehensive article: asian-games-smriti-mandhana-breaks-t20-record-as-i_20260920_1041.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: men-deported-from-us-bound-and-beaten-in-equatoria_20260920_0042.html
-Cleaned old post to keep top 30 limit: major-seaside-hotel-fire-that-evacuated-guests-dur_20260920_0042.html
-Cleaned old post to keep top 30 limit: houthis-say-they-targeted-saudi-capital-with-balli_20260920_0042.html
+Cleaned old post to keep top 30 limit: nato-welcomes-greenland-deal-as-trump-says-it-will_20260919_1749.html
+Cleaned old post to keep top 30 limit: jammertest-arctic-exercise-to-counter-satellite-ja_20260920_0546.html
+Cleaned old post to keep top 30 limit: harry-and-meghans-media-treatment-echoes-what-happ_20260920_0545.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Harry and Meghan's media treatment echoes what happened to Diana, Earl Spencer tells BBC
+   • Turkish FM says ready to meet Saudi defence needs – what does that mean?
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Diana's brother says press has 'cancerous influence' on Harry and Meghan's lives
+   • Salah scores hat-trick as Trabzonspor beat Galatasaray in Turkish league
      Sources: bbc.com, cnn.com, reuters.com
-   • Jammertest: Arctic exercise to counter satellite jamming
+   • Asian Games: Smriti Mandhana breaks T20 record as India beat Bangladesh
      Sources: bbc.com, cnn.com, reuters.com
