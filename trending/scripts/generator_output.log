@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 18 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
@@ -9,65 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Polls close in Russian wartime election with ruling party set to dominate
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: France to summon Iran envoy after language centre closure in Tehran
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Qatar PM urges Gulf security framework with Iran
-Added expanded search topic: Polls close in Russian wartime election with ruling party set to dominate
-Added expanded search topic: France to summon Iran envoy after language centre closure in Tehran
-Added expanded search topic: Qatar PM urges Gulf security framework with Iran
-Saved 21 topics for 2026-09-20
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-21
 Returning 3 unique trending topics:
-  1. Polls close in Russian wartime election with ruling party set to dominate (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. France to summon Iran envoy after language centre closure in Tehran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Qatar PM urges Gulf security framework with Iran (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on (from BBC News)
+  2. Key takeaways from BBC interview as Earl Spencer defends claims about King (from BBC News)
+  3. Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say (from The Guardian)
 
-Processing trending topic: Polls close in Russian wartime election with ruling party set to dominate
-Searching Google for: Polls close in Russian wartime election with ruling party set to dominate
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolls%252Bclose%252Bin%252BRussian%252Bwartime%252Belection%252Bwith%252Bruling%252Bparty%252Bset%252Bto%252Bdominate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIlGMHMwdUGIjABMFAxOe6THIl_pcLc-QefMGWIR27eqr34NsG2iHBhCRbYXWgP0FHpumSvkTu3azkyBmpjbmRyUloBQw
+Processing trending topic: German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
+Searching Google for: German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGerman%252BChancellor%252BMerz%252Bcalls%252Bstate%252Belection%252Ba%252B%2527disaster%2527%252Bfor%252Bhis%252Bparty%252Bbut%252Bvows%252Bto%252Bstay%252Bon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fAGJGEwtUGIjA_wwpHPVWH-5KgiD5T5K-UFvBDQ3aU8LsqIy64DfYiYEb4-c7BQOvl5UVw_ZgbMKkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: polls-close-in-russian-wartime-election-with-rulin_20260920_2303.html
-✓ Created comprehensive article: polls-close-in-russian-wartime-election-with-rulin_20260920_2303.html
+Successfully created file: german-chancellor-merz-calls-state-election-a-disa_20260921_0102.html
+✓ Created comprehensive article: german-chancellor-merz-calls-state-election-a-disa_20260921_0102.html
 
-Processing trending topic: France to summon Iran envoy after language centre closure in Tehran
-Searching Google for: France to summon Iran envoy after language centre closure in Tehran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrance%252Bto%252Bsummon%252BIran%252Benvoy%252Bafter%252Blanguage%252Bcentre%252Bclosure%252Bin%252BTehran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIlGMnMwdUGIjDjlrfizEwoYjtsyVfY-Wfs-mQ1udlB3KX9sM3fykS6XBJWo3gi0BUP7H8CF-zOJ3QyBmpjbmRyUloBQw
+Processing trending topic: Key takeaways from BBC interview as Earl Spencer defends claims about King
+Searching Google for: Key takeaways from BBC interview as Earl Spencer defends claims about King
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKey%252Btakeaways%252Bfrom%252BBBC%252Binterview%252Bas%252BEarl%252BSpencer%252Bdefends%252Bclaims%252Babout%252BKing%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fAGJiEwtUGIjCKNMhgwZLwoY51LRb1RrWFbWs_Ntcdd7YoI6RgmmZmPO-Wyq_zYpwu-kYD-guwKioyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: france-to-summon-iran-envoy-after-language-centre-_20260920_2303.html
-✓ Created comprehensive article: france-to-summon-iran-envoy-after-language-centre-_20260920_2303.html
+Successfully created file: key-takeaways-from-bbc-interview-as-earl-spencer-d_20260921_0102.html
+✓ Created comprehensive article: key-takeaways-from-bbc-interview-as-earl-spencer-d_20260921_0102.html
 
-Processing trending topic: Qatar PM urges Gulf security framework with Iran
-Searching Google for: Qatar PM urges Gulf security framework with Iran
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DQatar%252BPM%252Burges%252BGulf%252Bsecurity%252Bframework%252Bwith%252BIran%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqGIlGM_MwdUGIjA3sCqIGekMc77N-mPdD_WLr-rjdfF9w5EEAYEiWG81q6V-ykfBr8GjuWKSZXfZrxwyBmpjbmRyUloBQw
+Processing trending topic: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
+Searching Google for: Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMen%252Bdeported%252Bfrom%252BUS%252Bbound%252Band%252Bbeaten%252Bin%252BEquatorial%252BGuinea%252Bdetention%252Bhotel%252C%252Blawyers%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n_fAGJ6EwtUGIjAK_jsHX-4fKSwRzohkvyI5YRv0SJcygGvnC2LEf2YoLKPaNCe1xVLk8v49qTOiYAIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: qatar-pm-urges-gulf-security-framework-with-iran_20260920_2303.html
-✓ Created comprehensive article: qatar-pm-urges-gulf-security-framework-with-iran_20260920_2303.html
+Successfully created file: men-deported-from-us-bound-and-beaten-in-equatoria_20260921_0102.html
+✓ Created comprehensive article: men-deported-from-us-bound-and-beaten-in-equatoria_20260921_0102.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: zimbabwes-diaspora-reshapes-real-estate-and-farmin_20260516_1500.html
-Cleaned old post to keep top 30 limit: qatar-says-it-is-working-to-revive-iran-us-talks_20260920_2030.html
-Cleaned old post to keep top 30 limit: qatar-pm-describes-fallout-of-us-israel-war-on-ira_20260920_2030.html
+Cleaned old post to keep top 30 limit: the-pro-israel-censors-are-starting-to-lose_20260920_1432.html
+Cleaned old post to keep top 30 limit: qatar-pm-urges-gulf-security-framework-with-iran_20260920_2303.html
+Cleaned old post to keep top 30 limit: france-to-summon-iran-envoy-after-language-centre-_20260920_2303.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Polls close in Russian wartime election with ruling party set to dominate
+   • German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on
      Sources: bbc.com, cnn.com, reuters.com
-   • France to summon Iran envoy after language centre closure in Tehran
+   • Key takeaways from BBC interview as Earl Spencer defends claims about King
      Sources: bbc.com, cnn.com, reuters.com
-   • Qatar PM urges Gulf security framework with Iran
+   • Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say
      Sources: bbc.com, cnn.com, reuters.com
