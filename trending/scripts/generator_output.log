@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: UK to review Chagos Islands deal over lack of US support, Streeting tells BBC
-  Added: Police examine video of anti-migrant activist slashing dinghy with knife
+  Added: UK military jamming other nations' satellites to defend itself, BBC told
+  Added: Home secretary says undetected migrant landings 'unacceptable'
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,57 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Moroccans head to polls amid economic uncertainty to decide next parliament
-Added expanded search topic: Moroccans head to polls amid economic uncertainty to decide next parliament
-Saved 9 topics for 2026-09-23
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Wolfsburg terminate Christian Eriksen’s football contract by mutual consent
+Added expanded search topic: Wolfsburg terminate Christian Eriksen’s football contract by mutual consent
+Saved 12 topics for 2026-09-23
 Returning 3 unique trending topics:
-  1. Police examine video of anti-migrant activist slashing dinghy with knife (from BBC News)
-  2. Indian billionaire’s payments firm plots biggest London flotation in years (from The Guardian)
-  3. Moroccans head to polls amid economic uncertainty to decide next parliament (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK military jamming other nations' satellites to defend itself, BBC told (from BBC News)
+  2. Home secretary says undetected migrant landings 'unacceptable' (from BBC News)
+  3. Wolfsburg terminate Christian Eriksen’s football contract by mutual consent (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police examine video of anti-migrant activist slashing dinghy with knife
-Searching Google for: Police examine video of anti-migrant activist slashing dinghy with knife
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Bexamine%252Bvideo%252Bof%252Banti-migrant%252Bactivist%252Bslashing%252Bdinghy%252Bwith%252Bknife%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrn33GIjLz9UGIjBy0i-yCodcdX9MLT0hMCCypabHwoUrRf8q0Qp3TK5eRvz9iGyFDleIfhFJEyVq_l4yBmpjbmRyUloBQw
+Processing trending topic: UK military jamming other nations' satellites to defend itself, BBC told
+Searching Google for: UK military jamming other nations' satellites to defend itself, BBC told
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-examine-video-of-anti-migrant-activist-slas_20260923_1443.html
-✓ Created comprehensive article: police-examine-video-of-anti-migrant-activist-slas_20260923_1443.html
+Successfully created file: uk-military-jamming-other-nations-satellites-to-de_20260923_1853.html
+✓ Created comprehensive article: uk-military-jamming-other-nations-satellites-to-de_20260923_1853.html
 
-Processing trending topic: Indian billionaire’s payments firm plots biggest London flotation in years
-Searching Google for: Indian billionaire’s payments firm plots biggest London flotation in years
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndian%252Bbillionaire%25E2%2580%2599s%252Bpayments%252Bfirm%252Bplots%252Bbiggest%252BLondon%252Bflotation%252Bin%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrn33GI_Lz9UGIjBTsQ-V0PyhHopKwpLGV9tE44l5Cl3fq5i86QnL8djgt7ybvWWOQx6cz-hCkjDy1uMyBmpjbmRyUloBQw
+Processing trending topic: Home secretary says undetected migrant landings 'unacceptable'
+Searching Google for: Home secretary says undetected migrant landings 'unacceptable'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHome%252Bsecretary%252Bsays%252Bundetected%252Bmigrant%252Blandings%252B%2527unacceptable%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUclGIPB0NUGIjBDOtEDjz7FvOLJlAL0Wa8G-bCdDpQMixTicmO_fj2uLx_uELdyP8s8qLYBl8-U1OwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: indian-billionaires-payments-firm-plots-biggest-lo_20260923_1443.html
-✓ Created comprehensive article: indian-billionaires-payments-firm-plots-biggest-lo_20260923_1443.html
+Successfully created file: home-secretary-says-undetected-migrant-landings-un_20260923_1855.html
+✓ Created comprehensive article: home-secretary-says-undetected-migrant-landings-un_20260923_1855.html
 
-Processing trending topic: Moroccans head to polls amid economic uncertainty to decide next parliament
-Searching Google for: Moroccans head to polls amid economic uncertainty to decide next parliament
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMoroccans%252Bhead%252Bto%252Bpolls%252Bamid%252Beconomic%252Buncertainty%252Bto%252Bdecide%252Bnext%252Bparliament%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrn33GJXLz9UGIjDIHeR_mCbR6CTH7LPs5JUX91XgHT0JyYspSxF0XREgQ6gyC-nGUSVCPf1gyobIxw8yBmpjbmRyUloBQw
+Processing trending topic: Wolfsburg terminate Christian Eriksen’s football contract by mutual consent
+Searching Google for: Wolfsburg terminate Christian Eriksen’s football contract by mutual consent
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWolfsburg%252Bterminate%252BChristian%252BEriksen%25E2%2580%2599s%252Bfootball%252Bcontract%252Bby%252Bmutual%252Bconsent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqUclGInB0NUGIjALVMdwXwIQEb7uKp0ozuklGbUZ1wf4v13m6vAnapgGRJPLYIbKNEcu0cq-j0XaF8AyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: moroccans-head-to-polls-amid-economic-uncertainty-_20260923_1443.html
-✓ Created comprehensive article: moroccans-head-to-polls-amid-economic-uncertainty-_20260923_1443.html
+Successfully created file: wolfsburg-terminate-christian-eriksens-football-co_20260923_1855.html
+✓ Created comprehensive article: wolfsburg-terminate-christian-eriksens-football-co_20260923_1855.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-are-the-implications-of-afds-electoral-rise-f_20260907_2110.html
-Cleaned old post to keep top 30 limit: uk-to-provide-saudi-arabia-with-defensive-military_20260921_2230.html
-Cleaned old post to keep top 30 limit: new-eu-industry-rules-would-damage-uk-warns-burnha_20260922_1759.html
+Cleaned old post to keep top 30 limit: trump-says-he-can-do-business-with-burnham-but-cri_20260922_2332.html
+Cleaned old post to keep top 30 limit: uk-announces-sanctions-on-west-bank-settlements-pr_20260908_1822.html
+Cleaned old post to keep top 30 limit: indian-billionaires-payments-firm-plots-biggest-lo_20260923_1443.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police examine video of anti-migrant activist slashing dinghy with knife
+   • UK military jamming other nations' satellites to defend itself, BBC told
      Sources: bbc.com, cnn.com, reuters.com
-   • Indian billionaire’s payments firm plots biggest London flotation in years
+   • Home secretary says undetected migrant landings 'unacceptable'
      Sources: bbc.com, cnn.com, reuters.com
-   • Moroccans head to polls amid economic uncertainty to decide next parliament
+   • Wolfsburg terminate Christian Eriksen’s football contract by mutual consent
      Sources: bbc.com, cnn.com, reuters.com
