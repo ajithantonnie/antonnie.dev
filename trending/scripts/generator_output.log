@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: Why has Trump been so eager to welcome Xi?
@@ -9,63 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Rebel offensive against Ethiopian army stokes fears of return to civil war
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Croatian court approves extradition in Nord Stream bombing case
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump and Xi hold critical talks at White House summit
-Added expanded search topic: Croatian court approves extradition in Nord Stream bombing case
-Added expanded search topic: Trump and Xi hold critical talks at White House summit
-Saved 15 topics for 2026-09-24
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-09-25
 Returning 3 unique trending topics:
-  1. Anti-migrant activist charged after dinghy slashed in Channel (from BBC News)
-  2. Croatian court approves extradition in Nord Stream bombing case (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump and Xi hold critical talks at White House summit (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Watch: Why has Trump been so eager to welcome Xi? (from BBC News)
+  2. Anti-migrant activist charged after dinghy slashed in Channel (from BBC News)
+  3. Rebel offensive against Ethiopian army stokes fears of return to civil war (from The Guardian)
+
+Processing trending topic: Watch: Why has Trump been so eager to welcome Xi?
+Searching Google for: Watch: Why has Trump been so eager to welcome Xi?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BWhy%252Bhas%252BTrump%252Bbeen%252Bso%252Beager%252Bto%252Bwelcome%252BXi%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuIbRGKP_1tUGIjCnWQzIhA3x9nyCeBlMr261lVIWjyxqmKdiz6IWf7RUDbEfFYMkPHxBPXN-axGsnGYyBmpjbmRyUloBQw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: watch-why-has-trump-been-so-eager-to-welcome-xi_20260925_0026.html
+✓ Created comprehensive article: watch-why-has-trump-been-so-eager-to-welcome-xi_20260925_0026.html
 
 Processing trending topic: Anti-migrant activist charged after dinghy slashed in Channel
 Searching Google for: Anti-migrant activist charged after dinghy slashed in Channel
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnti-migrant%252Bactivist%252Bcharged%252Bafter%252Bdinghy%252Bslashed%252Bin%252BChannel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHDGPS71tUGIjAgR84B0apE4h5_kqvkBdbnB6wu4qrDWyu--7YHUlJQt8okE_ILmSS9PsyL6KEbY5UyBmpjbmRyUloBQw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnti-migrant%252Bactivist%252Bcharged%252Bafter%252Bdinghy%252Bslashed%252Bin%252BChannel%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuIbRGKz_1tUGIjCau1dFec7em_0LZvaAAw0bkAfFUP-4HplIunuAMawAYC3HLwgnYbyI7YbTZz08x6syBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: anti-migrant-activist-charged-after-dinghy-slashed_20260924_2202.html
-✓ Created comprehensive article: anti-migrant-activist-charged-after-dinghy-slashed_20260924_2202.html
+Successfully created file: anti-migrant-activist-charged-after-dinghy-slashed_20260925_0026.html
+✓ Created comprehensive article: anti-migrant-activist-charged-after-dinghy-slashed_20260925_0026.html
 
-Processing trending topic: Croatian court approves extradition in Nord Stream bombing case
-Searching Google for: Croatian court approves extradition in Nord Stream bombing case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCroatian%252Bcourt%252Bapproves%252Bextradition%252Bin%252BNord%252BStream%252Bbombing%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHDGPu71tUGIjAvk3IAu_3_Ibzwkpu6EYe2DjVtvRlNp1lEpg2r_4neAKuGHdNPhmPW0tlP2EPk0_oyBmpjbmRyUloBQw
+Processing trending topic: Rebel offensive against Ethiopian army stokes fears of return to civil war
+Searching Google for: Rebel offensive against Ethiopian army stokes fears of return to civil war
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRebel%252Boffensive%252Bagainst%252BEthiopian%252Barmy%252Bstokes%252Bfears%252Bof%252Breturn%252Bto%252Bcivil%252Bwar%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuIbRGLL_1tUGIjBrLzGl7sLhKRQNLtf4VHOO2F2OhtVx0Atbx1D0mXiRyRMCPaWY_83efCKz_Iz45FwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: croatian-court-approves-extradition-in-nord-stream_20260924_2202.html
-✓ Created comprehensive article: croatian-court-approves-extradition-in-nord-stream_20260924_2202.html
-
-Processing trending topic: Trump and Xi hold critical talks at White House summit
-Searching Google for: Trump and Xi hold critical talks at White House summit
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Band%252BXi%252Bhold%252Bcritical%252Btalks%252Bat%252BWhite%252BHouse%252Bsummit%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSH6LHDGIG81tUGIjDwh0L8BZyypDVc985ncZOiL0GzBcT9tIP5XOS9RxN5ma9fIbPUyzbbxdRkkU86OYwyBmpjbmRyUloBQw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-and-xi-hold-critical-talks-at-white-house-su_20260924_2202.html
-✓ Created comprehensive article: trump-and-xi-hold-critical-talks-at-white-house-su_20260924_2202.html
+Successfully created file: rebel-offensive-against-ethiopian-army-stokes-fear_20260925_0026.html
+✓ Created comprehensive article: rebel-offensive-against-ethiopian-army-stokes-fear_20260925_0026.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-military-jamming-other-nations-satellites-to-de_20260923_1853.html
-Cleaned old post to keep top 30 limit: rebel-offensive-against-ethiopian-army-stokes-fear_20260924_1814.html
-Cleaned old post to keep top 30 limit: moroccans-head-to-polls-amid-economic-uncertainty-_20260923_1443.html
+Cleaned old post to keep top 30 limit: us-court-denies-tate-brothers-bid-to-be-released-f_20260909_2300.html
+Cleaned old post to keep top 30 limit: video-saudirussia-press-conference-in-moscow-key-t_20260908_1412.html
+Cleaned old post to keep top 30 limit: anti-migrant-activist-charged-after-dinghy-slashed_20260924_2202.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Watch: Why has Trump been so eager to welcome Xi?
+     Sources: bbc.com, cnn.com, reuters.com
    • Anti-migrant activist charged after dinghy slashed in Channel
      Sources: bbc.com, cnn.com, reuters.com
-   • Croatian court approves extradition in Nord Stream bombing case
-     Sources: bbc.com, cnn.com, reuters.com
-   • Trump and Xi hold critical talks at White House summit
+   • Rebel offensive against Ethiopian army stokes fears of return to civil war
      Sources: bbc.com, cnn.com, reuters.com
