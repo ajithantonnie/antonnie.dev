@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 12 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Watch: What could the potential sanctions for Man City be?
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Rebel offensive against Ethiopian army stokes fears of return to civil war
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ethiopia’s new rebel alliance faces an old problem
-Added expanded search topic: Ethiopia’s new rebel alliance faces an old problem
-Saved 12 topics for 2026-09-25
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: UN expands list of firms involved in illegal Israeli settlement activities
+Added expanded search topic: Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’
+Added expanded search topic: How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank
+Added expanded search topic: UN expands list of firms involved in illegal Israeli settlement activities
+Saved 15 topics for 2026-09-25
 Returning 3 unique trending topics:
-  1. Watch: What could the potential sanctions for Man City be? (from BBC News)
-  2. I'm not tempted to call an early election, Burnham says (from BBC News)
-  3. Ethiopia’s new rebel alliance faces an old problem (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. UN expands list of firms involved in illegal Israeli settlement activities (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: What could the potential sanctions for Man City be?
-Searching Google for: Watch: What could the potential sanctions for Man City be?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BWhat%252Bcould%252Bthe%252Bpotential%252Bsanctions%252Bfor%252BMan%252BCity%252Bbe%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAesGI_G2tUGIjC2d5VVIyzstGB_rdUsrUjyJ3D92z1YiMyFr86odNGuVRnP0w0uiUf-kGFgH7bAjnAyBmpjbmRyUloBQw
+Processing trending topic: Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’
+Searching Google for: Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252BPM%252Bcalls%252BHouthi%252Bthreats%252Bto%252BSaudi%252Bholy%252Bsites%252Ba%252B%25E2%2580%2598red%252Bline%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd06KGMiu29UGIjB8ODGJUSWRa31Qwrmv0tikc2ipSAhtMmKvwJ_G9mcMtSlPkgZXOv2REIKecynDldIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-what-could-the-potential-sanctions-for-man-c_20260925_1636.html
-✓ Created comprehensive article: watch-what-could-the-potential-sanctions-for-man-c_20260925_1636.html
+Successfully created file: pakistan-pm-calls-houthi-threats-to-saudi-holy-sit_20260925_2019.html
+✓ Created comprehensive article: pakistan-pm-calls-houthi-threats-to-saudi-holy-sit_20260925_2019.html
 
-Processing trending topic: I'm not tempted to call an early election, Burnham says
-Searching Google for: I'm not tempted to call an early election, Burnham says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%2527m%252Bnot%252Btempted%252Bto%252Bcall%252Ban%252Bearly%252Belection%252C%252BBurnham%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAesGJbG2tUGIjBm50a9MgHcaKj1ywvkAe-35YV0ICFbDY67bCWY4W8I6g07wOgjUqeRj-u2zsDtyi4yBmpjbmRyUloBQw
+Processing trending topic: How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank
+Searching Google for: How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252BIsrael%25E2%2580%2599s%252B%25E2%2580%2598Blue%252BLine%25E2%2580%2599%252Bteam%252Bseizes%252BPalestinian%252Bland%252Bin%252Bthe%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd06KGM6u29UGIjBkaEgbUrJ_Dd85nV1Lyyp7LD47mtZmuBZ6aPfqEgTXZYDTr_NXUkAItdzVOW2l2NIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: im-not-tempted-to-call-an-early-election-burnham-s_20260925_1636.html
-✓ Created comprehensive article: im-not-tempted-to-call-an-early-election-burnham-s_20260925_1636.html
+Successfully created file: how-israels-blue-line-team-seizes-palestinian-land_20260925_2019.html
+✓ Created comprehensive article: how-israels-blue-line-team-seizes-palestinian-land_20260925_2019.html
 
-Processing trending topic: Ethiopia’s new rebel alliance faces an old problem
-Searching Google for: Ethiopia’s new rebel alliance faces an old problem
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEthiopia%25E2%2580%2599s%252Bnew%252Brebel%252Balliance%252Bfaces%252Ban%252Bold%252Bproblem%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAesGJ3G2tUGIjB-U_XW2y2wadw-SsQHHN3bp3yID2ut5MCD4Ev2CfKddFnatvfYP3aj-m1_EjXdWVoyBmpjbmRyUloBQw
+Processing trending topic: UN expands list of firms involved in illegal Israeli settlement activities
+Searching Google for: UN expands list of firms involved in illegal Israeli settlement activities
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUN%252Bexpands%252Blist%252Bof%252Bfirms%252Binvolved%252Bin%252Billegal%252BIsraeli%252Bsettlement%252Bactivities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd06KGNSu29UGIjB89-Kdbh8wxkQYBMiEwH8LaI5giLHkBQHG0LupCQZymlopJ70RoK3W0pjhjrBontQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ethiopias-new-rebel-alliance-faces-an-old-problem_20260925_1636.html
-✓ Created comprehensive article: ethiopias-new-rebel-alliance-faces-an-old-problem_20260925_1636.html
+Successfully created file: un-expands-list-of-firms-involved-in-illegal-israe_20260925_2019.html
+✓ Created comprehensive article: un-expands-list-of-firms-involved-in-illegal-israe_20260925_2019.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: un-general-assembly-live-leaders-from-lebanon-iraq_20260925_1112.html
-Cleaned old post to keep top 30 limit: white-house-restores-access-to-media-outlets-banne_20260924_1814.html
-Cleaned old post to keep top 30 limit: families-failed-by-decision-to-bail-sex-offender-t_20260925_1112.html
+Cleaned old post to keep top 30 limit: watch-what-could-the-potential-sanctions-for-man-c_20260925_1636.html
+Cleaned old post to keep top 30 limit: noah-woods-left-playground-through-gap-in-fence-in_20260925_1112.html
+Cleaned old post to keep top 30 limit: im-not-tempted-to-call-an-early-election-burnham-s_20260925_1636.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: What could the potential sanctions for Man City be?
+   • Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’
      Sources: bbc.com, cnn.com, reuters.com
-   • I'm not tempted to call an early election, Burnham says
+   • How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank
      Sources: bbc.com, cnn.com, reuters.com
-   • Ethiopia’s new rebel alliance faces an old problem
+   • UN expands list of firms involved in illegal Israeli settlement activities
      Sources: bbc.com, cnn.com, reuters.com
