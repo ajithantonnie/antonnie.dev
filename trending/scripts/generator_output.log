@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Heathrow Airport's third runway may be delayed to 2039
-  Added: No Premier League appetite to strip Man City of titles - but threat remains
+  Added: Burnham announces scheme to help first-time buyers onto housing ladder
+  Added: Heathrow Airport warns third runway could be delayed by four years
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -13,57 +13,60 @@ Found 2 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 1
 Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Egypt to rest Salah in South Sudan AFCON qualifier over pitch concerns
-Added expanded search topic: Egypt to rest Salah in South Sudan AFCON qualifier over pitch concerns
-Saved 9 topics for 2026-09-26
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: South African police discover body of 10th woman near Johannesburg
+Added expanded search topic: South African police discover body of 10th woman near Johannesburg
+Saved 12 topics for 2026-09-26
 Returning 3 unique trending topics:
-  1. Heathrow Airport's third runway may be delayed to 2039 (from BBC News)
-  2. No Premier League appetite to strip Man City of titles - but threat remains (from BBC News)
-  3. Egypt to rest Salah in South Sudan AFCON qualifier over pitch concerns (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Burnham announces scheme to help first-time buyers onto housing ladder (from BBC News)
+  2. Heathrow Airport warns third runway could be delayed by four years (from BBC News)
+  3. South African police discover body of 10th woman near Johannesburg (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Heathrow Airport's third runway may be delayed to 2039
-Searching Google for: Heathrow Airport's third runway may be delayed to 2039
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHeathrow%252BAirport%2527s%252Bthird%252Brunway%252Bmay%252Bbe%252Bdelayed%252Bto%252B2039%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVCGN6j39UGIjCbAXR2SOasZmVc2DSHdoqsWaP65lpPlpbcq-UG9CFIvKPcSfIvaNTgjYUdoQMJ-dMyBmpjbmRyUloBQw
+Processing trending topic: Burnham announces scheme to help first-time buyers onto housing ladder
+Searching Google for: Burnham announces scheme to help first-time buyers onto housing ladder
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bannounces%252Bscheme%252Bto%252Bhelp%252Bfirst-time%252Bbuyers%252Bonto%252Bhousing%252Bladder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-7HGPia4NUGIjAkvbqS36ohwxqIofhdjJCV1GHQHouAUMSiDYLpQh0LUtxrQ_FLNkAfabhCgNDhGM4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
+Timeout error for https://bbc.com/news
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: heathrow-airports-third-runway-may-be-delayed-to-2_20260926_1408.html
-✓ Created comprehensive article: heathrow-airports-third-runway-may-be-delayed-to-2_20260926_1408.html
+Successfully created file: burnham-announces-scheme-to-help-first-time-buyers_20260926_1823.html
+✓ Created comprehensive article: burnham-announces-scheme-to-help-first-time-buyers_20260926_1823.html
 
-Processing trending topic: No Premier League appetite to strip Man City of titles - but threat remains
-Searching Google for: No Premier League appetite to strip Man City of titles - but threat remains
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNo%252BPremier%252BLeague%252Bappetite%252Bto%252Bstrip%252BMan%252BCity%252Bof%252Btitles%252B-%252Bbut%252Bthreat%252Bremains%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVCGOWj39UGIjATc4IoHdGGA5awLNbzPV2wYlFKIFPqVgZaFhtlfeCK67YW7cAFkfALaUfdTuhlxKMyBmpjbmRyUloBQw
+Processing trending topic: Heathrow Airport warns third runway could be delayed by four years
+Searching Google for: Heathrow Airport warns third runway could be delayed by four years
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHeathrow%252BAirport%252Bwarns%252Bthird%252Brunway%252Bcould%252Bbe%252Bdelayed%252Bby%252Bfour%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-7HGI6b4NUGIjA_ZR2mCRzdG7LZ2P4669wXZuLbN54bcAU1omZ4wDLufb98oTbXKvjF_qK31ifl6oMyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
+Timeout error for https://bbc.com/news
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: no-premier-league-appetite-to-strip-man-city-of-ti_20260926_1408.html
-✓ Created comprehensive article: no-premier-league-appetite-to-strip-man-city-of-ti_20260926_1408.html
+Successfully created file: heathrow-airport-warns-third-runway-could-be-delay_20260926_1823.html
+✓ Created comprehensive article: heathrow-airport-warns-third-runway-could-be-delay_20260926_1823.html
 
-Processing trending topic: Egypt to rest Salah in South Sudan AFCON qualifier over pitch concerns
-Searching Google for: Egypt to rest Salah in South Sudan AFCON qualifier over pitch concerns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%252Bto%252Brest%252BSalah%252Bin%252BSouth%252BSudan%252BAFCON%252Bqualifier%252Bover%252Bpitch%252Bconcerns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmiVCGOuj39UGIjDUt2Wojx0zmUaJ78EeKqRVQcGQZGOyFGOiBoCtD77L-DxCog30-oHw0A66RkCfdAIyBmpjbmRyUloBQw
+Processing trending topic: South African police discover body of 10th woman near Johannesburg
+Searching Google for: South African police discover body of 10th woman near Johannesburg
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSouth%252BAfrican%252Bpolice%252Bdiscover%252Bbody%252Bof%252B10th%252Bwoman%252Bnear%252BJohannesburg%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSHd-7HGKSb4NUGIjDr8gRSwDss_MhrbE7moSmjQGt2aXFVYHBMPJBte-DBtsRedDRfXyr8FGh61MM9BqwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
+Timeout error for https://bbc.com/news
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egypt-to-rest-salah-in-south-sudan-afcon-qualifier_20260926_1408.html
-✓ Created comprehensive article: egypt-to-rest-salah-in-south-sudan-afcon-qualifier_20260926_1408.html
+Successfully created file: south-african-police-discover-body-of-10th-woman-n_20260926_1823.html
+✓ Created comprehensive article: south-african-police-discover-body-of-10th-woman-n_20260926_1823.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pro-palestine-action-group-to-rally-at-labour-conf_20260926_0910.html
-Cleaned old post to keep top 30 limit: the-computer-hacker-who-tried-to-take-down-man-cit_20260926_0910.html
-Cleaned old post to keep top 30 limit: clubs-seek-legal-advice-after-man-city-found-guilt_20260926_0910.html
+Cleaned old post to keep top 30 limit: watch-what-does-harrys-return-mean-for-his-fractur_20260820_1731.html
+Cleaned old post to keep top 30 limit: heathrow-airports-third-runway-may-be-delayed-to-2_20260926_1408.html
+Cleaned old post to keep top 30 limit: egypt-to-rest-salah-in-south-sudan-afcon-qualifier_20260926_1408.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Heathrow Airport's third runway may be delayed to 2039
+   • Burnham announces scheme to help first-time buyers onto housing ladder
      Sources: bbc.com, cnn.com, reuters.com
-   • No Premier League appetite to strip Man City of titles - but threat remains
+   • Heathrow Airport warns third runway could be delayed by four years
      Sources: bbc.com, cnn.com, reuters.com
-   • Egypt to rest Salah in South Sudan AFCON qualifier over pitch concerns
+   • South African police discover body of 10th woman near Johannesburg
      Sources: bbc.com, cnn.com, reuters.com
