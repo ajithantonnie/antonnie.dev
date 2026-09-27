@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Five arrested as counter-terror police investigate major incident near RAF Fairford
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: At least 27 dead after two mass shootings in South Africa, police say
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Five arrested near UK RAF base over suspected explosives ‘terror’ plot
-Added expanded search topic: Five arrested near UK RAF base over suspected explosives ‘terror’ plot
-Saved 15 topics for 2026-09-27
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pope pledges action on clergy child abuse in meeting with French survivors
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Man City’s 115 Charges — The Scandal, The Escape, and Pep’s Own Past
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Powerful storm floods US Northeast, causes power outages
+Added expanded search topic: Pope pledges action on clergy child abuse in meeting with French survivors
+Added expanded search topic: Man City’s 115 Charges — The Scandal, The Escape, and Pep’s Own Past
+Added expanded search topic: Powerful storm floods US Northeast, causes power outages
+Saved 18 topics for 2026-09-27
 Returning 3 unique trending topics:
-  1. Five arrested as counter-terror police investigate major incident near RAF Fairford (from BBC News)
-  2. What we know about RAF Fairford counter-terror probe (from BBC News)
-  3. Five arrested near UK RAF base over suspected explosives ‘terror’ plot (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Pope pledges action on clergy child abuse in meeting with French survivors (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Man City’s 115 Charges — The Scandal, The Escape, and Pep’s Own Past (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Powerful storm floods US Northeast, causes power outages (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Five arrested as counter-terror police investigate major incident near RAF Fairford
-Searching Google for: Five arrested as counter-terror police investigate major incident near RAF Fairford
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Barrested%252Bas%252Bcounter-terror%252Bpolice%252Binvestigate%252Bmajor%252Bincident%252Bnear%252BRAF%252BFairford%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19oQGPiH5tUGIjDfPs5ovVYkDj75YVFSmGGoiqtRO5xrb8pk3YNjeI-IWtg9ZS7-sSyv47-j8VJMNuIyBmpjbmRyUloBQw
+Processing trending topic: Pope pledges action on clergy child abuse in meeting with French survivors
+Searching Google for: Pope pledges action on clergy child abuse in meeting with French survivors
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPope%252Bpledges%252Baction%252Bon%252Bclergy%252Bchild%252Babuse%252Bin%252Bmeeting%252Bwith%252BFrench%252Bsurvivors%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbiGPnT5tUGIjB3FMTFFZdJvdPrXkBcckYTdOlLVqBhiiEisrBslNYbG8MYVmFhN4K_rZLXlithaaEyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: five-arrested-as-counter-terror-police-investigate_20260927_2100.html
-✓ Created comprehensive article: five-arrested-as-counter-terror-police-investigate_20260927_2100.html
+Successfully created file: pope-pledges-action-on-clergy-child-abuse-in-meeti_20260927_2342.html
+✓ Created comprehensive article: pope-pledges-action-on-clergy-child-abuse-in-meeti_20260927_2342.html
 
-Processing trending topic: What we know about RAF Fairford counter-terror probe
-Searching Google for: What we know about RAF Fairford counter-terror probe
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252BRAF%252BFairford%252Bcounter-terror%252Bprobe%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19oQGICI5tUGIjCPkFSX-zIaELH5WDuvA7ptYtOodw_50tSr1x1mx2IIl8skAo_5y_cV3fjQOFZX6ewyBmpjbmRyUloBQw
+Processing trending topic: Man City’s 115 Charges — The Scandal, The Escape, and Pep’s Own Past
+Searching Google for: Man City’s 115 Charges — The Scandal, The Escape, and Pep’s Own Past
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252BCity%25E2%2580%2599s%252B115%252BCharges%252B%25E2%2580%2594%252BThe%252BScandal%252C%252BThe%252BEscape%252C%252Band%252BPep%25E2%2580%2599s%252BOwn%252BPast%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbiGIDU5tUGIjA0wPgGYCTz77TlT6c8yu7OJCyhYZaozjUOJAbNMNaxRrv2UimxKPmIKpZbsETcliYyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-we-know-about-raf-fairford-counter-terror-pro_20260927_2100.html
-✓ Created comprehensive article: what-we-know-about-raf-fairford-counter-terror-pro_20260927_2100.html
+Successfully created file: man-citys-115-charges-the-scandal-the-escape-and-p_20260927_2343.html
+✓ Created comprehensive article: man-citys-115-charges-the-scandal-the-escape-and-p_20260927_2343.html
 
-Processing trending topic: Five arrested near UK RAF base over suspected explosives ‘terror’ plot
-Searching Google for: Five arrested near UK RAF base over suspected explosives ‘terror’ plot
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFive%252Barrested%252Bnear%252BUK%252BRAF%252Bbase%252Bover%252Bsuspected%252Bexplosives%252B%25E2%2580%2598terror%25E2%2580%2599%252Bplot%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs19oQGIeI5tUGIjAAiZpBp5bZEFnAu5KFIi7nfmSOOywz3bJk_zb-qHB1WBXiKVz7y3YUd0khcZKm-dwyBmpjbmRyUloBQw
+Processing trending topic: Powerful storm floods US Northeast, causes power outages
+Searching Google for: Powerful storm floods US Northeast, causes power outages
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPowerful%252Bstorm%252Bfloods%252BUS%252BNortheast%252C%252Bcauses%252Bpower%252Boutages%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbiGIbU5tUGIjAry91sIvnLpTLhrrHkfxGW2A5d2QXLS_yuZZo5Fui5NZkuLrQ0wLxn1EJx7SiyQYAyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: five-arrested-near-uk-raf-base-over-suspected-expl_20260927_2101.html
-✓ Created comprehensive article: five-arrested-near-uk-raf-base-over-suspected-expl_20260927_2101.html
+Successfully created file: powerful-storm-floods-us-northeast-causes-power-ou_20260927_2343.html
+✓ Created comprehensive article: powerful-storm-floods-us-northeast-causes-power-ou_20260927_2343.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: burnham-proposes-nhs-style-social-care-system-for-_20260927_1247.html
-Cleaned old post to keep top 30 limit: faisal-islam-the-two-big-calls-the-chancellor-has-_20260927_0020.html
-Cleaned old post to keep top 30 limit: at-least-27-dead-after-two-mass-shootings-in-south_20260927_1732.html
+Cleaned old post to keep top 30 limit: its-hard-to-sell-a-house-when-its-covered-in-baboo_20260927_1247.html
+Cleaned old post to keep top 30 limit: giant-pandas-arrive-in-atlanta-as-part-of-10-year-_20260927_1732.html
+Cleaned old post to keep top 30 limit: five-arrested-as-counter-terror-police-investigate_20260927_2100.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Five arrested as counter-terror police investigate major incident near RAF Fairford
+   • Pope pledges action on clergy child abuse in meeting with French survivors
      Sources: bbc.com, cnn.com, reuters.com
-   • What we know about RAF Fairford counter-terror probe
+   • Man City’s 115 Charges — The Scandal, The Escape, and Pep’s Own Past
      Sources: bbc.com, cnn.com, reuters.com
-   • Five arrested near UK RAF base over suspected explosives ‘terror’ plot
+   • Powerful storm floods US Northeast, causes power outages
      Sources: bbc.com, cnn.com, reuters.com
