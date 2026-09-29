@@ -1,71 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: OpenAI scraps rollout of new model over safety concerns
-  Added: Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
+  Added: Watch: How did Burnham's speech go down in the conference hall?
+  Added: Man City guilty of 'sham' contracts and misleading accounts
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC politician beaten to death after radio appearance about Ebola outbreak
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine weekly: Israeli politicians vie to look toughest before election
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanese are watching Israel’s upcoming election, but few expect change
-Added expanded search topic: Palestine weekly: Israeli politicians vie to look toughest before election
-Added expanded search topic: Lebanese are watching Israel’s upcoming election, but few expect change
-Saved 6 topics for 2026-09-29
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike
+Added expanded search topic: Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike
+Saved 9 topics for 2026-09-29
 Returning 3 unique trending topics:
-  1. Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him (from BBC News)
-  2. Palestine weekly: Israeli politicians vie to look toughest before election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Lebanese are watching Israel’s upcoming election, but few expect change (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Watch: How did Burnham's speech go down in the conference hall? (from BBC News)
+  2. Man City guilty of 'sham' contracts and misleading accounts (from BBC News)
+  3. Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
-Searching Google for: Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSir%252BRanulph%252BFiennes%2527%252Brelatives%252Btell%252BBBC%252Bit%2527s%252B%2527very%252Bpainful%2527%252Bnot%252Bbeing%252Bable%252Bto%252Bvisit%252Bhim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf-5QGKW47tUGIjB6DIJCdkQLnJwTl6eUbwtECH3tAKFy4IJd0_R11EWqmKS-cmkUfHbr_5lgbGkNX6QyBmpjbmRyUloBQw
+Processing trending topic: Watch: How did Burnham's speech go down in the conference hall?
+Searching Google for: Watch: How did Burnham's speech go down in the conference hall?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BHow%252Bdid%252BBurnham%2527s%252Bspeech%252Bgo%252Bdown%252Bin%252Bthe%252Bconference%252Bhall%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQElezqGNTw79UGIjCuWpll1nFBpzENx5w4urlluayygvKhmAUcliaRM_Njkh6yl5BhDFpCU2XytNRKahsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sir-ranulph-fiennes-relatives-tell-bbc-its-very-pa_20260929_1108.html
-✓ Created comprehensive article: sir-ranulph-fiennes-relatives-tell-bbc-its-very-pa_20260929_1108.html
+Successfully created file: watch-how-did-burnhams-speech-go-down-in-the-confe_20260929_1741.html
+✓ Created comprehensive article: watch-how-did-burnhams-speech-go-down-in-the-confe_20260929_1741.html
 
-Processing trending topic: Palestine weekly: Israeli politicians vie to look toughest before election
-Searching Google for: Palestine weekly: Israeli politicians vie to look toughest before election
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252Bweekly%253A%252BIsraeli%252Bpoliticians%252Bvie%252Bto%252Blook%252Btoughest%252Bbefore%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf-5QGKy47tUGIjCyvLqi1TVb2TvatCiRcdiVv7ncQTEfKw3f_d6prnKmkWY1ukc4dWJSP9qysuBCKQsyBmpjbmRyUloBQw
+Processing trending topic: Man City guilty of 'sham' contracts and misleading accounts
+Searching Google for: Man City guilty of 'sham' contracts and misleading accounts
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252BCity%252Bguilty%252Bof%252B%2527sham%2527%252Bcontracts%252Band%252Bmisleading%252Baccounts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQElezqGNvw79UGIjBhMWEaSA5XuqBgMagTsURfsQ2fe6lT9lB0wff1MV0UBKfxmO8VS3pmLL1V5p5ZAbkyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: palestine-weekly-israeli-politicians-vie-to-look-t_20260929_1108.html
-✓ Created comprehensive article: palestine-weekly-israeli-politicians-vie-to-look-t_20260929_1108.html
+Successfully created file: man-city-guilty-of-sham-contracts-and-misleading-a_20260929_1741.html
+✓ Created comprehensive article: man-city-guilty-of-sham-contracts-and-misleading-a_20260929_1741.html
 
-Processing trending topic: Lebanese are watching Israel’s upcoming election, but few expect change
-Searching Google for: Lebanese are watching Israel’s upcoming election, but few expect change
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanese%252Bare%252Bwatching%252BIsrael%25E2%2580%2599s%252Bupcoming%252Belection%252C%252Bbut%252Bfew%252Bexpect%252Bchange%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf-5QGLK47tUGIjCPLsn6TXPz3xY4bB3L15PfjED2D8O54xIk4d2XKQYx4LrPkcgNFXCgzoOnw_ew_PIyBmpjbmRyUloBQw
+Processing trending topic: Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike
+Searching Google for: Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMourners%252Bin%252BGaza%252Bbury%252Bremains%252Bof%252Bloved%252Bones%252Bkilled%252Bin%252B2023%252BIsraeli%252Bstrike%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQElezqGOLw79UGIjCJWS-g7XeywetAtN4ixXi1tRpA_rnT0D4SlBwf7lhbjUAwVX8CpA0kJVR7tOLRpjUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lebanese-are-watching-israels-upcoming-election-bu_20260929_1108.html
-✓ Created comprehensive article: lebanese-are-watching-israels-upcoming-election-bu_20260929_1108.html
+Successfully created file: mourners-in-gaza-bury-remains-of-loved-ones-killed_20260929_1741.html
+✓ Created comprehensive article: mourners-in-gaza-bury-remains-of-loved-ones-killed_20260929_1741.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-raf-fairford-suspects-are-bailed-what-happen_20260928_2349.html
-Cleaned old post to keep top 30 limit: drc-politician-beaten-to-death-after-radio-appeara_20260929_0418.html
-Cleaned old post to keep top 30 limit: burnham-to-unveil-public-body-to-invest-in-electri_20260929_0417.html
+Cleaned old post to keep top 30 limit: palestine-weekly-israeli-politicians-vie-to-look-t_20260929_1108.html
+Cleaned old post to keep top 30 limit: openai-scraps-rollout-of-new-model-over-safety-con_20260929_0418.html
+Cleaned old post to keep top 30 limit: lebanese-are-watching-israels-upcoming-election-bu_20260929_1108.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
+   • Watch: How did Burnham's speech go down in the conference hall?
      Sources: bbc.com, cnn.com, reuters.com
-   • Palestine weekly: Israeli politicians vie to look toughest before election
+   • Man City guilty of 'sham' contracts and misleading accounts
      Sources: bbc.com, cnn.com, reuters.com
-   • Lebanese are watching Israel’s upcoming election, but few expect change
+   • Mourners in Gaza bury remains of loved ones killed in 2023 Israeli strike
      Sources: bbc.com, cnn.com, reuters.com
