@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Burnham to unveil public body to invest in electricity grid
   Added: OpenAI scraps rollout of new model over safety concerns
+  Added: Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC politician beaten to death after radio appearance about Ebola outbreak
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-29
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Palestine weekly: Israeli politicians vie to look toughest before election
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Lebanese are watching Israel’s upcoming election, but few expect change
+Added expanded search topic: Palestine weekly: Israeli politicians vie to look toughest before election
+Added expanded search topic: Lebanese are watching Israel’s upcoming election, but few expect change
+Saved 6 topics for 2026-09-29
 Returning 3 unique trending topics:
-  1. Burnham to unveil public body to invest in electricity grid (from BBC News)
-  2. OpenAI scraps rollout of new model over safety concerns (from BBC News)
-  3. DRC politician beaten to death after radio appearance about Ebola outbreak (from The Guardian)
+  1. Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him (from BBC News)
+  2. Palestine weekly: Israeli politicians vie to look toughest before election (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lebanese are watching Israel’s upcoming election, but few expect change (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Burnham to unveil public body to invest in electricity grid
-Searching Google for: Burnham to unveil public body to invest in electricity grid
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bto%252Bunveil%252Bpublic%252Bbody%252Bto%252Binvest%252Bin%252Belectricity%252Bgrid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUU-RAGO737NUGIjCA6eiPPwjlPVgR9_9A4CBPr76_cyByCeOOIctBixhML7E_W7shvcrt0oE4lRVljg4yBmpjbmRyUloBQw
+Processing trending topic: Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
+Searching Google for: Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSir%252BRanulph%252BFiennes%2527%252Brelatives%252Btell%252BBBC%252Bit%2527s%252B%2527very%252Bpainful%2527%252Bnot%252Bbeing%252Bable%252Bto%252Bvisit%252Bhim%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf-5QGKW47tUGIjB6DIJCdkQLnJwTl6eUbwtECH3tAKFy4IJd0_R11EWqmKS-cmkUfHbr_5lgbGkNX6QyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: burnham-to-unveil-public-body-to-invest-in-electri_20260929_0417.html
-✓ Created comprehensive article: burnham-to-unveil-public-body-to-invest-in-electri_20260929_0417.html
+Successfully created file: sir-ranulph-fiennes-relatives-tell-bbc-its-very-pa_20260929_1108.html
+✓ Created comprehensive article: sir-ranulph-fiennes-relatives-tell-bbc-its-very-pa_20260929_1108.html
 
-Processing trending topic: OpenAI scraps rollout of new model over safety concerns
-Searching Google for: OpenAI scraps rollout of new model over safety concerns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DOpenAI%252Bscraps%252Brollout%252Bof%252Bnew%252Bmodel%252Bover%252Bsafety%252Bconcerns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUU-RAGPX37NUGIjBAsaWM5EcbGNDp0jKrXsmwhbsl9izWnCBTS9oHXXKrlBKO3z0pgjTEYdTK7Vv4GMAyBmpjbmRyUloBQw
+Processing trending topic: Palestine weekly: Israeli politicians vie to look toughest before election
+Searching Google for: Palestine weekly: Israeli politicians vie to look toughest before election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPalestine%252Bweekly%253A%252BIsraeli%252Bpoliticians%252Bvie%252Bto%252Blook%252Btoughest%252Bbefore%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf-5QGKy47tUGIjCyvLqi1TVb2TvatCiRcdiVv7ncQTEfKw3f_d6prnKmkWY1ukc4dWJSP9qysuBCKQsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: openai-scraps-rollout-of-new-model-over-safety-con_20260929_0418.html
-✓ Created comprehensive article: openai-scraps-rollout-of-new-model-over-safety-con_20260929_0418.html
+Successfully created file: palestine-weekly-israeli-politicians-vie-to-look-t_20260929_1108.html
+✓ Created comprehensive article: palestine-weekly-israeli-politicians-vie-to-look-t_20260929_1108.html
 
-Processing trending topic: DRC politician beaten to death after radio appearance about Ebola outbreak
-Searching Google for: DRC politician beaten to death after radio appearance about Ebola outbreak
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDRC%252Bpolitician%252Bbeaten%252Bto%252Bdeath%252Bafter%252Bradio%252Bappearance%252Babout%252BEbola%252Boutbreak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUU-RAGPv37NUGIjB73xktMgGzHcZjuVAwb7hHQHN9uAtThrKDnR30o4raEbj0BRJ1dRQHdc59FQDdYrkyBmpjbmRyUloBQw
+Processing trending topic: Lebanese are watching Israel’s upcoming election, but few expect change
+Searching Google for: Lebanese are watching Israel’s upcoming election, but few expect change
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLebanese%252Bare%252Bwatching%252BIsrael%25E2%2580%2599s%252Bupcoming%252Belection%252C%252Bbut%252Bfew%252Bexpect%252Bchange%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUf-5QGLK47tUGIjCPLsn6TXPz3xY4bB3L15PfjED2D8O54xIk4d2XKQYx4LrPkcgNFXCgzoOnw_ew_PIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: drc-politician-beaten-to-death-after-radio-appeara_20260929_0418.html
-✓ Created comprehensive article: drc-politician-beaten-to-death-after-radio-appeara_20260929_0418.html
+Successfully created file: lebanese-are-watching-israels-upcoming-election-bu_20260929_1108.html
+✓ Created comprehensive article: lebanese-are-watching-israels-upcoming-election-bu_20260929_1108.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: palestinians-denounce-israeli-minister-ben-gvirs-t_20260928_1037.html
-Cleaned old post to keep top 30 limit: five-men-arrested-in-raf-fairford-incident-release_20260928_2348.html
-Cleaned old post to keep top 30 limit: anti-south-asian-hate-speech-has-exploded-online-i_20260928_2349.html
+Cleaned old post to keep top 30 limit: watch-raf-fairford-suspects-are-bailed-what-happen_20260928_2349.html
+Cleaned old post to keep top 30 limit: drc-politician-beaten-to-death-after-radio-appeara_20260929_0418.html
+Cleaned old post to keep top 30 limit: burnham-to-unveil-public-body-to-invest-in-electri_20260929_0417.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Burnham to unveil public body to invest in electricity grid
+   • Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him
      Sources: bbc.com, cnn.com, reuters.com
-   • OpenAI scraps rollout of new model over safety concerns
+   • Palestine weekly: Israeli politicians vie to look toughest before election
      Sources: bbc.com, cnn.com, reuters.com
-   • DRC politician beaten to death after radio appearance about Ebola outbreak
+   • Lebanese are watching Israel’s upcoming election, but few expect change
      Sources: bbc.com, cnn.com, reuters.com
