@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: One of the five men arrested near RAF Fairford called 999 himself
-  Added: How did the RAF Fairford incident go from 'suspected bomb plot' to police bail?
+  Added: Household energy bills forecast to see biggest rise in four years
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: DRC politician beaten to death after radio appearance about Ebola outbreak
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-09-30
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ‘Dire situation’: Lebanese prisoners on hunger strike for 18 days
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan vows to defend Saudi Arabia against Houthis
+Added expanded search topic: ‘Dire situation’: Lebanese prisoners on hunger strike for 18 days
+Added expanded search topic: Pakistan vows to defend Saudi Arabia against Houthis
+Saved 6 topics for 2026-09-30
 Returning 3 unique trending topics:
-  1. One of the five men arrested near RAF Fairford called 999 himself (from BBC News)
-  2. How did the RAF Fairford incident go from 'suspected bomb plot' to police bail? (from BBC News)
-  3. DRC politician beaten to death after radio appearance about Ebola outbreak (from The Guardian)
+  1. Household energy bills forecast to see biggest rise in four years (from BBC News)
+  2. ‘Dire situation’: Lebanese prisoners on hunger strike for 18 days (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Pakistan vows to defend Saudi Arabia against Houthis (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: One of the five men arrested near RAF Fairford called 999 himself
-Searching Google for: One of the five men arrested near RAF Fairford called 999 himself
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Household energy bills forecast to see biggest rise in four years
+Searching Google for: Household energy bills forecast to see biggest rise in four years
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHousehold%252Benergy%252Bbills%252Bforecast%252Bto%252Bsee%252Bbiggest%252Brise%252Bin%252Bfour%252Byears%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqw09GISE89UGIjCogSCepb0tQhiEZR4wswh_wQQEmyYERX39ldirLkHSqoph7QKWC6Th2c2LQhNj85YyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: one-of-the-five-men-arrested-near-raf-fairford-cal_20260930_0106.html
-✓ Created comprehensive article: one-of-the-five-men-arrested-near-raf-fairford-cal_20260930_0106.html
+Successfully created file: household-energy-bills-forecast-to-see-biggest-ris_20260930_0802.html
+✓ Created comprehensive article: household-energy-bills-forecast-to-see-biggest-ris_20260930_0802.html
 
-Processing trending topic: How did the RAF Fairford incident go from 'suspected bomb plot' to police bail?
-Searching Google for: How did the RAF Fairford incident go from 'suspected bomb plot' to police bail?
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: ‘Dire situation’: Lebanese prisoners on hunger strike for 18 days
+Searching Google for: ‘Dire situation’: Lebanese prisoners on hunger strike for 18 days
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598Dire%252Bsituation%25E2%2580%2599%253A%252BLebanese%252Bprisoners%252Bon%252Bhunger%252Bstrike%252Bfor%252B18%252Bdays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqw09GIuE89UGIjC9_y03L0kLS7PDP2LLOh25hwAm5KAZNaW2wgzKmqp0HuY3yjWXeGj_ZTYXBT0_T58yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-did-the-raf-fairford-incident-go-from-suspecte_20260930_0107.html
-✓ Created comprehensive article: how-did-the-raf-fairford-incident-go-from-suspecte_20260930_0107.html
+Successfully created file: dire-situation-lebanese-prisoners-on-hunger-strike_20260930_0802.html
+✓ Created comprehensive article: dire-situation-lebanese-prisoners-on-hunger-strike_20260930_0802.html
 
-Processing trending topic: DRC politician beaten to death after radio appearance about Ebola outbreak
-Searching Google for: DRC politician beaten to death after radio appearance about Ebola outbreak
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Pakistan vows to defend Saudi Arabia against Houthis
+Searching Google for: Pakistan vows to defend Saudi Arabia against Houthis
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252Bvows%252Bto%252Bdefend%252BSaudi%252BArabia%252Bagainst%252BHouthis%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsqw09GJGE89UGIjBXvZIIY9ZXw9pjbSFxyqPu6YC8zdBt08hY8hpZ1R86h0uColL4X2fHe0Bj4h2mLjcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: drc-politician-beaten-to-death-after-radio-appeara_20260930_0107.html
-✓ Created comprehensive article: drc-politician-beaten-to-death-after-radio-appeara_20260930_0107.html
+Successfully created file: pakistan-vows-to-defend-saudi-arabia-against-houth_20260930_0802.html
+✓ Created comprehensive article: pakistan-vows-to-defend-saudi-arabia-against-houth_20260930_0802.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: police-examine-video-of-anti-migrant-activist-slas_20260923_1443.html
-Cleaned old post to keep top 30 limit: chris-mason-burnham-delivers-deeply-political-spee_20260929_2155.html
-Cleaned old post to keep top 30 limit: burnham-vows-to-end-existing-pension-triple-lock-i_20260929_2155.html
+Cleaned old post to keep top 30 limit: watch-how-did-burnhams-speech-go-down-in-the-confe_20260929_1741.html
+Cleaned old post to keep top 30 limit: one-of-the-five-men-arrested-near-raf-fairford-cal_20260930_0106.html
+Cleaned old post to keep top 30 limit: drc-politician-beaten-to-death-after-radio-appeara_20260930_0107.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • One of the five men arrested near RAF Fairford called 999 himself
+   • Household energy bills forecast to see biggest rise in four years
      Sources: bbc.com, cnn.com, reuters.com
-   • How did the RAF Fairford incident go from 'suspected bomb plot' to police bail?
+   • ‘Dire situation’: Lebanese prisoners on hunger strike for 18 days
      Sources: bbc.com, cnn.com, reuters.com
-   • DRC politician beaten to death after radio appearance about Ebola outbreak
+   • Pakistan vows to defend Saudi Arabia against Houthis
      Sources: bbc.com, cnn.com, reuters.com
