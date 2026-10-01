@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Veteran broadcaster Dame Esther Rantzen dies aged 86
-  Added: AI boom could trigger market shocks, Bank of England boss warns
+  Added: We fear for our lives after being told our abusive exes will be freed from jail early
+  Added: US death row inmate survives execution attempt after two lethal injections
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Trump administration diverts human rights funds to push far-right agenda abroad
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-01
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Christa Pike execution fails: What next when a lethal injection is botched?
+Added expanded search topic: Christa Pike execution fails: What next when a lethal injection is botched?
+Saved 6 topics for 2026-10-01
 Returning 3 unique trending topics:
-  1. Veteran broadcaster Dame Esther Rantzen dies aged 86 (from BBC News)
-  2. AI boom could trigger market shocks, Bank of England boss warns (from BBC News)
-  3. Trump administration diverts human rights funds to push far-right agenda abroad (from The Guardian)
+  1. We fear for our lives after being told our abusive exes will be freed from jail early (from BBC News)
+  2. US death row inmate survives execution attempt after two lethal injections (from BBC News)
+  3. Christa Pike execution fails: What next when a lethal injection is botched? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Veteran broadcaster Dame Esther Rantzen dies aged 86
-Searching Google for: Veteran broadcaster Dame Esther Rantzen dies aged 86
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DVeteran%252Bbroadcaster%252BDame%252BEsther%252BRantzen%252Bdies%252Baged%252B86%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UBGOK799UGIjDLjscCfE-UkAV4MHhLH1Xa9vVptyjNifHMNiMcwplB9n09s9gvFvbzI60NwVE0xLgyBmpjbmRyUloBQw
+Processing trending topic: We fear for our lives after being told our abusive exes will be freed from jail early
+Searching Google for: We fear for our lives after being told our abusive exes will be freed from jail early
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWe%252Bfear%252Bfor%252Bour%252Blives%252Bafter%252Bbeing%252Btold%252Bour%252Babusive%252Bexes%252Bwill%252Bbe%252Bfreed%252Bfrom%252Bjail%252Bearly%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqH9SGLSG-dUGIjBlVuwZj1zScxBvmdl1RmIVl_Z-uMY-sPaHIlYZcxS8y8JrZBzjbGPlnxpTaofv8EoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: veteran-broadcaster-dame-esther-rantzen-dies-aged-_20261001_0413.html
-✓ Created comprehensive article: veteran-broadcaster-dame-esther-rantzen-dies-aged-_20261001_0413.html
+Successfully created file: we-fear-for-our-lives-after-being-told-our-abusive_20261001_1125.html
+✓ Created comprehensive article: we-fear-for-our-lives-after-being-told-our-abusive_20261001_1125.html
 
-Processing trending topic: AI boom could trigger market shocks, Bank of England boss warns
-Searching Google for: AI boom could trigger market shocks, Bank of England boss warns
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAI%252Bboom%252Bcould%252Btrigger%252Bmarket%252Bshocks%252C%252BBank%252Bof%252BEngland%252Bboss%252Bwarns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UBGOm799UGIjBN2KKdh1pCvoBqZ_ijYWzSicm90VBFyl-y0cW6o2PTPxK3nzxCBXq3AzIxwyOLAsMyBmpjbmRyUloBQw
+Processing trending topic: US death row inmate survives execution attempt after two lethal injections
+Searching Google for: US death row inmate survives execution attempt after two lethal injections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bdeath%252Brow%252Binmate%252Bsurvives%252Bexecution%252Battempt%252Bafter%252Btwo%252Blethal%252Binjections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqH9SGLuG-dUGIjBMlJQVytnuQ6ZMjMePL5LnPc-fFT9KbRRVUZsMk19va58rJwO11Acx5LOIDr7A_sQyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: ai-boom-could-trigger-market-shocks-bank-of-englan_20261001_0413.html
-✓ Created comprehensive article: ai-boom-could-trigger-market-shocks-bank-of-englan_20261001_0413.html
+Successfully created file: us-death-row-inmate-survives-execution-attempt-aft_20261001_1125.html
+✓ Created comprehensive article: us-death-row-inmate-survives-execution-attempt-aft_20261001_1125.html
 
-Processing trending topic: Trump administration diverts human rights funds to push far-right agenda abroad
-Searching Google for: Trump administration diverts human rights funds to push far-right agenda abroad
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Badministration%252Bdiverts%252Bhuman%252Brights%252Bfunds%252Bto%252Bpush%252Bfar-right%252Bagenda%252Babroad%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0n-UBGO-799UGIjAfQs6QfetfAvbto8p0sPJjq1n5Sq-47_WH8KGpSoD0kL-gN4F4UdLevGdMvHBpauAyBmpjbmRyUloBQw
+Processing trending topic: Christa Pike execution fails: What next when a lethal injection is botched?
+Searching Google for: Christa Pike execution fails: What next when a lethal injection is botched?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChrista%252BPike%252Bexecution%252Bfails%253A%252BWhat%252Bnext%252Bwhen%252Ba%252Blethal%252Binjection%252Bis%252Bbotched%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqH9SGMKG-dUGIjCW8kjqyYRt0b9UKjcxQSKALUZOtBqp_wHdf34_HxjyY77h0ftsOLuFsXRVbXvsrYwyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-administration-diverts-human-rights-funds-to_20261001_0413.html
-✓ Created comprehensive article: trump-administration-diverts-human-rights-funds-to_20261001_0413.html
+Successfully created file: christa-pike-execution-fails-what-next-when-a-leth_20261001_1125.html
+✓ Created comprehensive article: christa-pike-execution-fails-what-next-when-a-leth_20261001_1125.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-why-has-trump-been-so-eager-to-welcome-xi_20260924_1814.html
-Cleaned old post to keep top 30 limit: us-judge-approves-settlement-allowing-paramount-to_20260930_2332.html
-Cleaned old post to keep top 30 limit: dame-esther-rantzen-a-presenter-who-campaigned-for_20260930_2332.html
+Cleaned old post to keep top 30 limit: women-told-breasts-removed-needlessly-as-nhs-trust_20260918_1247.html
+Cleaned old post to keep top 30 limit: veteran-broadcaster-dame-esther-rantzen-dies-aged-_20261001_0413.html
+Cleaned old post to keep top 30 limit: ai-boom-could-trigger-market-shocks-bank-of-englan_20261001_0413.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Veteran broadcaster Dame Esther Rantzen dies aged 86
+   • We fear for our lives after being told our abusive exes will be freed from jail early
      Sources: bbc.com, cnn.com, reuters.com
-   • AI boom could trigger market shocks, Bank of England boss warns
+   • US death row inmate survives execution attempt after two lethal injections
      Sources: bbc.com, cnn.com, reuters.com
-   • Trump administration diverts human rights funds to push far-right agenda abroad
+   • Christa Pike execution fails: What next when a lethal injection is botched?
      Sources: bbc.com, cnn.com, reuters.com
