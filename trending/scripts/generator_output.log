@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: School protests send shivers down French government's spine
-  Added: Watch: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by...
+  Added: Widdecombe suspect charged with planning terror act against Farage
+  Added: Watch: Why has UK diesel price hit an all time high?
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 9 topics for 2026-10-02
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Could conflict in Ethiopia expand across the region?
+Added expanded search topic: Could conflict in Ethiopia expand across the region?
+Saved 12 topics for 2026-10-02
 Returning 3 unique trending topics:
-  1. School protests send shivers down French government's spine (from BBC News)
-  2. Watch: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by... (from BBC News)
-  3. Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin (from The Guardian)
+  1. Widdecombe suspect charged with planning terror act against Farage (from BBC News)
+  2. Watch: Why has UK diesel price hit an all time high? (from BBC News)
+  3. Could conflict in Ethiopia expand across the region? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: School protests send shivers down French government's spine
-Searching Google for: School protests send shivers down French government's spine
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSchool%252Bprotests%252Bsend%252Bshivers%252Bdown%252BFrench%252Bgovernment%2527s%252Bspine%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mSGMaa_9UGIjDGFPBFV9VG5Q6MVuvHhrYEP8UBWbONrY0L07eOGgMMALtPLgSofNY0tw8nQcKasbgyBmpjbmRyUloBQw
+Processing trending topic: Widdecombe suspect charged with planning terror act against Farage
+Searching Google for: Widdecombe suspect charged with planning terror act against Farage
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWiddecombe%252Bsuspect%252Bcharged%252Bwith%252Bplanning%252Bterror%252Bact%252Bagainst%252BFarage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdtYTGKSmgNYGIjCb_pEKHAzvx449RhgOu98NMNNQ1YgZZG_cv6G59z7tdxVOv21pZIv-0OZ4G6pMcEcyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: school-protests-send-shivers-down-french-governmen_20261002_1527.html
-✓ Created comprehensive article: school-protests-send-shivers-down-french-governmen_20261002_1527.html
+Successfully created file: widdecombe-suspect-charged-with-planning-terror-ac_20261002_2025.html
+✓ Created comprehensive article: widdecombe-suspect-charged-with-planning-terror-ac_20261002_2025.html
 
-Processing trending topic: Watch: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by...
-Searching Google for: Watch: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by...
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252B%2527I%252Bwas%252Bnot%252Bgoing%252Bto%252Blet%252Bothers%252Bdie%2527%252B-%252Bpilot%252Bof%252BFlydubai%252Bflight%252Bdescribes%252Bcockpit%252Battack%252Bby...%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mSGM2a_9UGIjBK4oVq1ceODsnPACmGOCviDWm2q8gM50hKkt7UjEZ62Rb9inXHFOWXnrDQd9upo88yBmpjbmRyUloBQw
+Processing trending topic: Watch: Why has UK diesel price hit an all time high?
+Searching Google for: Watch: Why has UK diesel price hit an all time high?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BWhy%252Bhas%252BUK%252Bdiesel%252Bprice%252Bhit%252Ban%252Ball%252Btime%252Bhigh%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdtYTGKumgNYGIjD7p3OXFg7Y9m53XtTJF3vthYy9uFEL8PjicdQKmZb7jyhltt50ET017FO0c89rxMsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-i-was-not-going-to-let-others-die-pilot-of-f_20261002_1527.html
-✓ Created comprehensive article: watch-i-was-not-going-to-let-others-die-pilot-of-f_20261002_1527.html
+Successfully created file: watch-why-has-uk-diesel-price-hit-an-all-time-high_20261002_2025.html
+✓ Created comprehensive article: watch-why-has-uk-diesel-price-hit-an-all-time-high_20261002_2025.html
 
-Processing trending topic: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Searching Google for: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRow%252Berupts%252Bover%252BCairo%252Bmural%252Bdepicting%252BTutankhamun%252Band%252BNefertiti%252Bwith%252Bdark%252Bskin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5l4mSGNSa_9UGIjC1kjz8L86FG__SfbO_jZauEXJRW6M0wYp21JHH_eCUUOWzMi7hAljjktqk3w2YxcoyBmpjbmRyUloBQw
+Processing trending topic: Could conflict in Ethiopia expand across the region?
+Searching Google for: Could conflict in Ethiopia expand across the region?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCould%252Bconflict%252Bin%252BEthiopia%252Bexpand%252Bacross%252Bthe%252Bregion%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUdtYTGLGmgNYGIjAGnNR_WIV4epcMWw3uSaMVyhYsq7rQNwd85JPB_lta6HPjfpUhUxG_3cTIOMbr-64yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: row-erupts-over-cairo-mural-depicting-tutankhamun-_20261002_1527.html
-✓ Created comprehensive article: row-erupts-over-cairo-mural-depicting-tutankhamun-_20261002_1527.html
+Successfully created file: could-conflict-in-ethiopia-expand-across-the-regio_20261002_2025.html
+✓ Created comprehensive article: could-conflict-in-ethiopia-expand-across-the-regio_20261002_2025.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-iranian-dual-national-arrested-over-raf-fairfor_20261001_1804.html
-Cleaned old post to keep top 30 limit: they-are-crying-refugees-in-malaysia-in-fear-amid-_20261002_0826.html
-Cleaned old post to keep top 30 limit: i-was-not-going-to-let-others-die-pilot-of-flyduba_20261002_0826.html
+Cleaned old post to keep top 30 limit: school-protests-send-shivers-down-french-governmen_20261002_1527.html
+Cleaned old post to keep top 30 limit: watch-i-was-not-going-to-let-others-die-pilot-of-f_20261002_1527.html
+Cleaned old post to keep top 30 limit: india-vs-pakistan-scheduled-for-october-10-2027-at_20261001_2241.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • School protests send shivers down French government's spine
+   • Widdecombe suspect charged with planning terror act against Farage
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: 'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by...
+   • Watch: Why has UK diesel price hit an all time high?
      Sources: bbc.com, cnn.com, reuters.com
-   • Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
+   • Could conflict in Ethiopia expand across the region?
      Sources: bbc.com, cnn.com, reuters.com
