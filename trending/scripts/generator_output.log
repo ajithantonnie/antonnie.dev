@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Widdecombe suspect charged with planning terror act against Farage
-  Added: G7 to release 100 million barrels of oil and diesel after Trump export ban threat
+  Added: G7 to release millions of barrels of oil and diesel after Trump threat
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-03
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: India vs Pakistan live: Asian Games cricket final
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: New claims that Netanyahu rejected Hamas offer to release captives
+Added expanded search topic: India vs Pakistan live: Asian Games cricket final
+Added expanded search topic: New claims that Netanyahu rejected Hamas offer to release captives
+Saved 6 topics for 2026-10-03
 Returning 3 unique trending topics:
-  1. Widdecombe suspect charged with planning terror act against Farage (from BBC News)
-  2. G7 to release 100 million barrels of oil and diesel after Trump export ban threat (from BBC News)
-  3. Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin (from The Guardian)
+  1. G7 to release millions of barrels of oil and diesel after Trump threat (from BBC News)
+  2. India vs Pakistan live: Asian Games cricket final (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. New claims that Netanyahu rejected Hamas offer to release captives (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Widdecombe suspect charged with planning terror act against Farage
-Searching Google for: Widdecombe suspect charged with planning terror act against Farage
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWiddecombe%252Bsuspect%252Bcharged%252Bwith%252Bplanning%252Bterror%252Bact%252Bagainst%252BFarage%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHzRGLORgdYGIjBjutMoUO7_Nwoo3TlCpUfszl9dQBFXd88PUxbNXILDaZDRNRZb4uzffjEhjmRzPOgyBmpjbmRyUloBQw
+Processing trending topic: G7 to release millions of barrels of oil and diesel after Trump threat
+Searching Google for: G7 to release millions of barrels of oil and diesel after Trump threat
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DG7%252Bto%252Brelease%252Bmillions%252Bof%252Bbarrels%252Bof%252Boil%252Band%252Bdiesel%252Bafter%252BTrump%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFOgGMe2gtYGIjCZIHNeA5cGeIeqybaF593tZw7epwapoYGV_FB6aizNmQ3yXwMCTk4znVv4m1pBWQUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: widdecombe-suspect-charged-with-planning-terror-ac_20261003_0013.html
-✓ Created comprehensive article: widdecombe-suspect-charged-with-planning-terror-ac_20261003_0013.html
+Successfully created file: g7-to-release-millions-of-barrels-of-oil-and-diese_20261003_0606.html
+✓ Created comprehensive article: g7-to-release-millions-of-barrels-of-oil-and-diese_20261003_0606.html
 
-Processing trending topic: G7 to release 100 million barrels of oil and diesel after Trump export ban threat
-Searching Google for: G7 to release 100 million barrels of oil and diesel after Trump export ban threat
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DG7%252Bto%252Brelease%252B100%252Bmillion%252Bbarrels%252Bof%252Boil%252Band%252Bdiesel%252Bafter%252BTrump%252Bexport%252Bban%252Bthreat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHzRGLuRgdYGIjB2j4ukbiNsAApRdpZX1FOtyrH7pTCdMo52uAev8u8mzl_qtu6umrVvEw5jfAwxsrMyBmpjbmRyUloBQw
+Processing trending topic: India vs Pakistan live: Asian Games cricket final
+Searching Google for: India vs Pakistan live: Asian Games cricket final
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndia%252Bvs%252BPakistan%252Blive%253A%252BAsian%252BGames%252Bcricket%252Bfinal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFOgGM22gtYGIjCQ_e3X9yYx3fNW7x8_CYVK27j-JwNhi-SgzTFezwed3ZdoV-GdSujaESyBN2S4qckyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: g7-to-release-100-million-barrels-of-oil-and-diese_20261003_0013.html
-✓ Created comprehensive article: g7-to-release-100-million-barrels-of-oil-and-diese_20261003_0013.html
+Successfully created file: india-vs-pakistan-live-asian-games-cricket-final_20261003_0606.html
+✓ Created comprehensive article: india-vs-pakistan-live-asian-games-cricket-final_20261003_0606.html
 
-Processing trending topic: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Searching Google for: Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRow%252Berupts%252Bover%252BCairo%252Bmural%252Bdepicting%252BTutankhamun%252Band%252BNefertiti%252Bwith%252Bdark%252Bskin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqHzRGMGRgdYGIjA_tIudmI0HDGCNqVZ9ItaugDYTRuTy8cENi89EchiWQBvbIerUU4K9H0mVacnQZeEyBmpjbmRyUloBQw
+Processing trending topic: New claims that Netanyahu rejected Hamas offer to release captives
+Searching Google for: New claims that Netanyahu rejected Hamas offer to release captives
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNew%252Bclaims%252Bthat%252BNetanyahu%252Brejected%252BHamas%252Boffer%252Bto%252Brelease%252Bcaptives%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExFOgGNS2gtYGIjCDpED0JTbtyY3WnL2mXLlPGACkPrN0z_g-cYpmb4pMlizjAm7rE-Id-F4fBemECV4yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: row-erupts-over-cairo-mural-depicting-tutankhamun-_20261003_0013.html
-✓ Created comprehensive article: row-erupts-over-cairo-mural-depicting-tutankhamun-_20261003_0013.html
+Successfully created file: new-claims-that-netanyahu-rejected-hamas-offer-to-_20261003_0606.html
+✓ Created comprehensive article: new-claims-that-netanyahu-rejected-hamas-offer-to-_20261003_0606.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: what-we-know-about-raf-fairford-counter-terror-pro_20260928_0341.html
-Cleaned old post to keep top 30 limit: we-fear-for-our-lives-after-being-told-our-abusive_20261001_1125.html
-Cleaned old post to keep top 30 limit: could-conflict-in-ethiopia-expand-across-the-regio_20261002_2025.html
+Cleaned old post to keep top 30 limit: row-erupts-over-cairo-mural-depicting-tutankhamun-_20261002_1527.html
+Cleaned old post to keep top 30 limit: us-pressures-europe-to-release-diesel-reserves-as-_20261002_0826.html
+Cleaned old post to keep top 30 limit: g7-to-release-100-million-barrels-of-oil-and-diese_20261003_0013.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Widdecombe suspect charged with planning terror act against Farage
+   • G7 to release millions of barrels of oil and diesel after Trump threat
      Sources: bbc.com, cnn.com, reuters.com
-   • G7 to release 100 million barrels of oil and diesel after Trump export ban threat
+   • India vs Pakistan live: Asian Games cricket final
      Sources: bbc.com, cnn.com, reuters.com
-   • Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin
+   • New claims that Netanyahu rejected Hamas offer to release captives
      Sources: bbc.com, cnn.com, reuters.com
