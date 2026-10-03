@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Flydubai co-pilot attacked captain with axe, UAE official says
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 9 topics for 2026-10-03
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Somalia won’t accept Israeli presence ‘under any circumstances’: President
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference
+Added expanded search topic: Somalia won’t accept Israeli presence ‘under any circumstances’: President
+Added expanded search topic: Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack
+Added expanded search topic: Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference
+Saved 12 topics for 2026-10-03
 Returning 3 unique trending topics:
-  1. Flydubai co-pilot attacked captain with axe, UAE official says (from BBC News)
-  2. UK-Iranian dual national arrested over RAF Fairford released on bail (from BBC News)
-  3. Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities (from The Guardian)
+  1. Somalia won’t accept Israeli presence ‘under any circumstances’: President (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Flydubai co-pilot attacked captain with axe, UAE official says
-Searching Google for: Flydubai co-pilot attacked captain with axe, UAE official says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlydubai%252Bco-pilot%252Battacked%252Bcaptain%252Bwith%252Baxe%252C%252BUAE%252Bofficial%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS9wGKjkg9YGIjCpaZZAbUIc_zZ5joAmIvRCIOUnnaO0xC7H6ACFFzRbNN4HTytpSiZyFZUPFOgJ1AsyBmpjbmRyUloBQw
+Processing trending topic: Somalia won’t accept Israeli presence ‘under any circumstances’: President
+Searching Google for: Somalia won’t accept Israeli presence ‘under any circumstances’: President
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSomalia%252Bwon%25E2%2580%2599t%252Baccept%252BIsraeli%252Bpresence%252B%25E2%2580%2598under%252Bany%252Bcircumstances%25E2%2580%2599%253A%252BPresident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pT5UGK_qhNYGIjB0T9b4VlkGuU3LwkropmmO09UDAa0HH15-9R9vhMQIollk-qOhJcj_Y_DH7r8U7VUyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: flydubai-co-pilot-attacked-captain-with-axe-uae-of_20261003_1216.html
-✓ Created comprehensive article: flydubai-co-pilot-attacked-captain-with-axe-uae-of_20261003_1216.html
+Successfully created file: somalia-wont-accept-israeli-presence-under-any-cir_20261003_1702.html
+✓ Created comprehensive article: somalia-wont-accept-israeli-presence-under-any-cir_20261003_1702.html
 
-Processing trending topic: UK-Iranian dual national arrested over RAF Fairford released on bail
-Searching Google for: UK-Iranian dual national arrested over RAF Fairford released on bail
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK-Iranian%252Bdual%252Bnational%252Barrested%252Bover%252BRAF%252BFairford%252Breleased%252Bon%252Bbail%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS9wGK_kg9YGIjDvIrHcYzeQ8TcXJUBOlfZ0fSnBHRDjhBbB53v-WdhK6sGdbXNa75Ts66WFywP4_2oyBmpjbmRyUloBQw
+Processing trending topic: Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack
+Searching Google for: Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJerusalem%252BDaily%253A%252BUAE%252Bsays%252BFlydubai%252Bco-pilot%252Battempted%252B%25E2%2580%2598terrorist%25E2%2580%2599%252Battack%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pT5UGLfqhNYGIjC2nkYZZYqSydjw5_vOUC0VYBKD87OWZin8qAjPmK2CT1iUTzUIGGtflxEc07qqYZ8yBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-iranian-dual-national-arrested-over-raf-fairfor_20261003_1216.html
-✓ Created comprehensive article: uk-iranian-dual-national-arrested-over-raf-fairfor_20261003_1216.html
+Successfully created file: jerusalem-daily-uae-says-flydubai-co-pilot-attempt_20261003_1702.html
+✓ Created comprehensive article: jerusalem-daily-uae-says-flydubai-co-pilot-attempt_20261003_1702.html
 
-Processing trending topic: Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities
-Searching Google for: Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLibyan%252Bunity%252Btalks%252Bupended%252Bas%252Bwarlord%25E2%2580%2599s%252Bson%252Blinked%252Bto%252Bdrone%252Battacks%252Bon%252Bfuel%252Bfacilities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUoS9wGLXkg9YGIjAlOET8DhTrcvChrdJ6ivszaVIodYZbjTSPjb0UrBrrChO0uMaa3iUecxmyUWXnLLEyBmpjbmRyUloBQw
+Processing trending topic: Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference
+Searching Google for: Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Breporters%25E2%2580%2599%252B%25E2%2580%2598verbal%252Battack%25E2%2580%2599%252Bcuts%252Bshort%252BIreland%252Bpress%252Bconference%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0pT5UGL3qhNYGIjD68ctPmVLJE4WKlbfrpYStL38PHk3_M6VZmvJKqNZvjcAFKlaScIj4D4fplyYsbwsyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: libyan-unity-talks-upended-as-warlords-son-linked-_20261003_1216.html
-✓ Created comprehensive article: libyan-unity-talks-upended-as-warlords-son-linked-_20261003_1216.html
+Successfully created file: israeli-reporters-verbal-attack-cuts-short-ireland_20261003_1702.html
+✓ Created comprehensive article: israeli-reporters-verbal-attack-cuts-short-ireland_20261003_1702.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: veteran-broadcaster-dame-esther-rantzen-dies-aged-_20260930_2332.html
-Cleaned old post to keep top 30 limit: new-claims-that-netanyahu-rejected-hamas-offer-to-_20261003_0606.html
-Cleaned old post to keep top 30 limit: g7-to-release-millions-of-barrels-of-oil-and-diese_20261003_0606.html
+Cleaned old post to keep top 30 limit: trump-administration-diverts-human-rights-funds-to_20261001_0413.html
+Cleaned old post to keep top 30 limit: uk-iranian-dual-national-arrested-over-raf-fairfor_20261003_1216.html
+Cleaned old post to keep top 30 limit: flydubai-co-pilot-attacked-captain-with-axe-uae-of_20261003_1216.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Flydubai co-pilot attacked captain with axe, UAE official says
+   • Somalia won’t accept Israeli presence ‘under any circumstances’: President
      Sources: bbc.com, cnn.com, reuters.com
-   • UK-Iranian dual national arrested over RAF Fairford released on bail
+   • Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack
      Sources: bbc.com, cnn.com, reuters.com
-   • Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities
+   • Israeli reporters’ ‘verbal attack’ cuts short Ireland press conference
      Sources: bbc.com, cnn.com, reuters.com
