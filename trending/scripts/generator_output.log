@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Watch: At the scene of student protests on the streets of Lille
-  Added: Former German spy chief arrested for espionage and treason
+  Added: Watch: At the scene of student protests in Lille
+  Added: British national arrested in connection with RAF Fairford incident
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-10-06
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Indian opposition leaders detained during voter lists protest
+Added expanded search topic: Indian opposition leaders detained during voter lists protest
+Saved 9 topics for 2026-10-06
 Returning 3 unique trending topics:
-  1. Watch: At the scene of student protests on the streets of Lille (from BBC News)
-  2. Former German spy chief arrested for espionage and treason (from BBC News)
-  3. Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province (from The Guardian)
+  1. Watch: At the scene of student protests in Lille (from BBC News)
+  2. British national arrested in connection with RAF Fairford incident (from BBC News)
+  3. Indian opposition leaders detained during voter lists protest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Watch: At the scene of student protests on the streets of Lille
-Searching Google for: Watch: At the scene of student protests on the streets of Lille
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BAt%252Bthe%252Bscene%252Bof%252Bstudent%252Bprotests%252Bon%252Bthe%252Bstreets%252Bof%252BLille%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjYhGIfBk9YGIjALmuJjEf69wxxNcLXxMcl0gkn6bzpQitSKBzkWXvn0Ihkhv6Th7kIVc-_wIrFJrY8yBmpjbmRyUloBQw
+Processing trending topic: Watch: At the scene of student protests in Lille
+Searching Google for: Watch: At the scene of student protests in Lille
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BAt%252Bthe%252Bscene%252Bof%252Bstudent%252Bprotests%252Bin%252BLille%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuP5DGKrulNYGIjCNYzylIDCh3A5_JgWwdJu4F1OkB8XnyI9v13La3bamNCk2M0dVFZkbwtRQPMIpCdoyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-at-the-scene-of-student-protests-on-the-stre_20261006_1150.html
-✓ Created comprehensive article: watch-at-the-scene-of-student-protests-on-the-stre_20261006_1150.html
+Successfully created file: watch-at-the-scene-of-student-protests-in-lille_20261006_1800.html
+✓ Created comprehensive article: watch-at-the-scene-of-student-protests-in-lille_20261006_1800.html
 
-Processing trending topic: Former German spy chief arrested for espionage and treason
-Searching Google for: Former German spy chief arrested for espionage and treason
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFormer%252BGerman%252Bspy%252Bchief%252Barrested%252Bfor%252Bespionage%252Band%252Btreason%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjYhGI7Bk9YGIjAj_GwDzzhG3CxruHiI398NUhiKIaVJfna6ZAF6FwWTji2j8rlrEQGo6KVwowZFX-IyBmpjbmRyUloBQw
+Processing trending topic: British national arrested in connection with RAF Fairford incident
+Searching Google for: British national arrested in connection with RAF Fairford incident
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBritish%252Bnational%252Barrested%252Bin%252Bconnection%252Bwith%252BRAF%252BFairford%252Bincident%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuP5DGLDulNYGIjAALM7__ZYdQGbfT4Ueo4aNwpuy78oFNvEyVe5y2lXtHWoziSjMA5rZ3_ep_Y3X00EyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: former-german-spy-chief-arrested-for-espionage-and_20261006_1150.html
-✓ Created comprehensive article: former-german-spy-chief-arrested-for-espionage-and_20261006_1150.html
+Successfully created file: british-national-arrested-in-connection-with-raf-f_20261006_1800.html
+✓ Created comprehensive article: british-national-arrested-in-connection-with-raf-f_20261006_1800.html
 
-Processing trending topic: Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province
-Searching Google for: Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKenya%252Bconfirms%252Bfirst%252BEbola%252Bcase%252Bas%252Bvirus%252B%25E2%2580%2598surges%25E2%2580%2599%252Bin%252BDR%252BCongo%252Bprovince%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgREmjYhGJTBk9YGIjCAYMnqsbVIVBZkbSe9dIIqQiTvsaqYgpMiYOsK9coKEVlVICscAqN8sAa0J5TZA4kyBmpjbmRyUloBQw
+Processing trending topic: Indian opposition leaders detained during voter lists protest
+Searching Google for: Indian opposition leaders detained during voter lists protest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIndian%252Bopposition%252Bleaders%252Bdetained%252Bduring%252Bvoter%252Blists%252Bprotest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsuP5DGLfulNYGIjBhzSXhsj6T3PLIUdL82IXSdfN9mNUawJVfCdf2Ls1bJF8wx8V7JhgeYZfLL3wLHcIyBmpjbmRyUloBQw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: kenya-confirms-first-ebola-case-as-virus-surges-in_20261006_1150.html
-✓ Created comprehensive article: kenya-confirms-first-ebola-case-as-virus-surges-in_20261006_1150.html
+Successfully created file: indian-opposition-leaders-detained-during-voter-li_20261006_1800.html
+✓ Created comprehensive article: indian-opposition-leaders-detained-during-voter-li_20261006_1800.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: spanish-prime-minister-pedro-sanchez-announces-sna_20261005_0824.html
-Cleaned old post to keep top 30 limit: what-prompted-the-us-bombers-to-leave-raf-fairford_20261006_0455.html
-Cleaned old post to keep top 30 limit: guardian-readers-fund-life-changing-surgery-for-so_20261006_0455.html
+Cleaned old post to keep top 30 limit: whistleblower-warns-that-humans-dont-control-ai_20261005_2347.html
+Cleaned old post to keep top 30 limit: watch-at-the-scene-of-student-protests-on-the-stre_20261006_1150.html
+Cleaned old post to keep top 30 limit: former-german-spy-chief-arrested-for-espionage-and_20261006_1150.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: At the scene of student protests on the streets of Lille
+   • Watch: At the scene of student protests in Lille
      Sources: bbc.com, cnn.com, reuters.com
-   • Former German spy chief arrested for espionage and treason
+   • British national arrested in connection with RAF Fairford incident
      Sources: bbc.com, cnn.com, reuters.com
-   • Kenya confirms first Ebola case as virus ‘surges’ in DR Congo province
+   • Indian opposition leaders detained during voter lists protest
      Sources: bbc.com, cnn.com, reuters.com
