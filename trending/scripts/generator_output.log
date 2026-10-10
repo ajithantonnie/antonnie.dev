@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-10
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Brazil police rescue 13 children taken hostage at kindergarten
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Isaias weakens after making landfall in US Gulf Coast as hurricane
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: West Indies beat India as Hope’s hundred secures record T20 chase
+Added expanded search topic: Brazil police rescue 13 children taken hostage at kindergarten
+Added expanded search topic: Isaias weakens after making landfall in US Gulf Coast as hurricane
+Added expanded search topic: West Indies beat India as Hope’s hundred secures record T20 chase
+Saved 6 topics for 2026-10-10
 Returning 3 unique trending topics:
-  1. Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin (from BBC News)
-  2. Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices (from BBC News)
-  3. Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau (from The Guardian)
+  1. Brazil police rescue 13 children taken hostage at kindergarten (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Isaias weakens after making landfall in US Gulf Coast as hurricane (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. West Indies beat India as Hope’s hundred secures record T20 chase (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
-Searching Google for: Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bannounces%252Bdeal%252Bfor%252BRussian%252Bdiesel%252Bas%252BZelensky%252Bcalls%252Bit%252Ba%252Bgift%252Bto%252BPutin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8cXGIu9ptYGIjCu4hdUKr5JdU6Lv44Xl06MBHRo8SxeONmb6cI6jWbw2GapomHvSK35_JamHg4Z8mYyBmpjbmRyUloBQ2C459Xbx9nQ0Qo
+Processing trending topic: Brazil police rescue 13 children taken hostage at kindergarten
+Searching Google for: Brazil police rescue 13 children taken hostage at kindergarten
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBrazil%252Bpolice%252Brescue%252B13%252Bchildren%252Btaken%252Bhostage%252Bat%252Bkindergarten%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bAGMWJqNYGIjB59QcqPNrPeiBbCCRaRJ7a9-x9qKPheZneuxRgDgS9aXgy-HjEPsD14xd837PE29YyBmpjbmRyUloBQ2DVpcHprPCT3JsB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-announces-deal-for-russian-diesel-as-zelensk_20261010_0210.html
-✓ Created comprehensive article: trump-announces-deal-for-russian-diesel-as-zelensk_20261010_0210.html
+Successfully created file: brazil-police-rescue-13-children-taken-hostage-at-_20261010_0926.html
+✓ Created comprehensive article: brazil-police-rescue-13-children-taken-hostage-at-_20261010_0926.html
 
-Processing trending topic: Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
-Searching Google for: Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnalysis%253A%252BTrump%2527s%252Bshock%252BRussia%252Bdeal%252Bhighlights%252Bmounting%252Bpressure%252Bto%252Bcurb%252Bfuel%252Bprices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8cXGJG9ptYGIjDMWEywtghsKMteh4bU09XwEBCC_fSKZ7SS_2byh-LEBXtBD_dIILeiNoMLGPpo-QEyBmpjbmRyUloBQ2CxysX1_pTGhIwB
+Processing trending topic: Isaias weakens after making landfall in US Gulf Coast as hurricane
+Searching Google for: Isaias weakens after making landfall in US Gulf Coast as hurricane
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsaias%252Bweakens%252Bafter%252Bmaking%252Blandfall%252Bin%252BUS%252BGulf%252BCoast%252Bas%252Bhurricane%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bAGMyJqNYGIjAfO1CIzRI6dFm9gNtfvQuc53yasjdR0XIGPPqwQ-dsmaF-9gVKwZn4nTbIKIw0GLQyBmpjbmRyUloBQ2DhlaqI-oGXx3A
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: analysis-trumps-shock-russia-deal-highlights-mount_20261010_0210.html
-✓ Created comprehensive article: analysis-trumps-shock-russia-deal-highlights-mount_20261010_0210.html
+Successfully created file: isaias-weakens-after-making-landfall-in-us-gulf-co_20261010_0926.html
+✓ Created comprehensive article: isaias-weakens-after-making-landfall-in-us-gulf-co_20261010_0926.html
 
-Processing trending topic: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Searching Google for: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DControversial%252Bvaccine%252Btrial%252Btouted%252Bby%252BRFK%252BJr%252Bgets%252Bgo-ahead%252Bin%252BGuinea-Bissau%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8cXGJi9ptYGIjBN-4xNun07rKY2kNLR2eBl64uFZUyZhed8pteqMSst6w2ks-g9b0nytPrMHmPKEmcyBmpjbmRyUloBQ2CQ0Lq54_XO2lA
+Processing trending topic: West Indies beat India as Hope’s hundred secures record T20 chase
+Searching Google for: West Indies beat India as Hope’s hundred secures record T20 chase
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWest%252BIndies%252Bbeat%252BIndia%252Bas%252BHope%25E2%2580%2599s%252Bhundred%252Bsecures%252Brecord%252BT20%252Bchase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUM8bAGNKJqNYGIjClUYdCAuKfNerQpcjuzz7HGeFhYCV5JNpCIcH0yQe4Xb_UvDU_KnMOQsehgHWvGbUyBmpjbmRyUloBQ2D3kP-2uLagzfcB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261010_0210.html
-✓ Created comprehensive article: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261010_0210.html
+Successfully created file: west-indies-beat-india-as-hopes-hundred-secures-re_20261010_0926.html
+✓ Created comprehensive article: west-indies-beat-india-as-hopes-hundred-secures-re_20261010_0926.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: ni-secretary-to-ban-the-drumcree-parade_20261009_2221.html
-Cleaned old post to keep top 30 limit: trump-announces-deal-for-russian-diesel-as-zelensk_20261009_2221.html
-Cleaned old post to keep top 30 limit: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261009_2221.html
+Cleaned old post to keep top 30 limit: icj-judge-navi-pillay-wins-nobel-peace-prize-for-p_20261009_1722.html
+Cleaned old post to keep top 30 limit: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261010_0210.html
+Cleaned old post to keep top 30 limit: analysis-trumps-shock-russia-deal-highlights-mount_20261010_0210.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin
+   • Brazil police rescue 13 children taken hostage at kindergarten
      Sources: bbc.com, cnn.com, reuters.com
-   • Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices
+   • Isaias weakens after making landfall in US Gulf Coast as hurricane
      Sources: bbc.com, cnn.com, reuters.com
-   • Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
+   • West Indies beat India as Hope’s hundred secures record T20 chase
      Sources: bbc.com, cnn.com, reuters.com
