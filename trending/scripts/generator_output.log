@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Twelve killed in attack on airport in Saudi capital Riyadh
   Added: 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal
+  Added: Man dies after tiger attack at wildlife park
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-11
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Anti-ICE protests in New York after man shot in car with child
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Photos: Thousands detained in police crackdown on India’s youth protest
+Added expanded search topic: Anti-ICE protests in New York after man shot in car with child
+Added expanded search topic: Photos: Thousands detained in police crackdown on India’s youth protest
+Saved 6 topics for 2026-10-11
 Returning 3 unique trending topics:
-  1. Twelve killed in attack on airport in Saudi capital Riyadh (from BBC News)
-  2. 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal (from BBC News)
-  3. Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau (from The Guardian)
+  1. Man dies after tiger attack at wildlife park (from BBC News)
+  2. Anti-ICE protests in New York after man shot in car with child (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Photos: Thousands detained in police crackdown on India’s youth protest (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Twelve killed in attack on airport in Saudi capital Riyadh
-Searching Google for: Twelve killed in attack on airport in Saudi capital Riyadh
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTwelve%252Bkilled%252Bin%252Battack%252Bon%252Bairport%252Bin%252BSaudi%252Bcapital%252BRiyadh%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHSYSGIiVrNYGIjAwp1gOHem15hcc-0EK3yt0dvaW33wRb231xQU6nlq8Dq2LTFYqPNwpUlhhhkWcLPkyBmpjbmRyUloBQ2DFu47B596zoBA
+Processing trending topic: Man dies after tiger attack at wildlife park
+Searching Google for: Man dies after tiger attack at wildlife park
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bdies%252Bafter%252Btiger%252Battack%252Bat%252Bwildlife%252Bpark%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moxRGIbTrdYGIjDEXQfM-Q6hIw2Ie7pbrL8Wq5wlSIlj8MQDDeKwErwQyL1oiQVHuqxs6rNHeqxiTnsyBmpjbmRyUloBQ2CjqZH0s9TV2K8B
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: twelve-killed-in-attack-on-airport-in-saudi-capita_20261011_0403.html
-✓ Created comprehensive article: twelve-killed-in-attack-on-airport-in-saudi-capita_20261011_0403.html
+Successfully created file: man-dies-after-tiger-attack-at-wildlife-park_20261011_1048.html
+✓ Created comprehensive article: man-dies-after-tiger-attack-at-wildlife-park_20261011_1048.html
 
-Processing trending topic: 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal
-Searching Google for: 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Time%252Bfor%252BUkraine%252Bto%252Bget%252Bnew%252Bpresident%252C%2527%252Bsays%252BTrump%252Bafter%252BZelensky%252Bcondemns%252Bdiesel%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHSYSGI-VrNYGIjC6OzCFgJpJvGblxbfYoHV1bqU9k7UEsjqWQZmHUV50NMVjnQMOIMdQ2FtLYnoUEvIyBmpjbmRyUloBQ2D327mLrM7mm3c
+Processing trending topic: Anti-ICE protests in New York after man shot in car with child
+Searching Google for: Anti-ICE protests in New York after man shot in car with child
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAnti-ICE%252Bprotests%252Bin%252BNew%252BYork%252Bafter%252Bman%252Bshot%252Bin%252Bcar%252Bwith%252Bchild%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moxRGI3TrdYGIjDXqLVXRBzpFp7jT2S1IEOq849-zw1sxcfwhJ9ZGjj-JA2tQgXaesnAxuZeNlzCc4MyBmpjbmRyUloBQ2CKvdKa4PHF9gY
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: time-for-ukraine-to-get-new-president-says-trump-a_20261011_0403.html
-✓ Created comprehensive article: time-for-ukraine-to-get-new-president-says-trump-a_20261011_0403.html
+Successfully created file: anti-ice-protests-in-new-york-after-man-shot-in-ca_20261011_1048.html
+✓ Created comprehensive article: anti-ice-protests-in-new-york-after-man-shot-in-ca_20261011_1048.html
 
-Processing trending topic: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Searching Google for: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DControversial%252Bvaccine%252Btrial%252Btouted%252Bby%252BRFK%252BJr%252Bgets%252Bgo-ahead%252Bin%252BGuinea-Bissau%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUHSYSGJWVrNYGIjAzQmHqrCV2q0rLktpFXQTUrX8DZr_U8YzjNKm6FR6pCUeXZLMSQvpudbLAU2fPIEUyBmpjbmRyUloBQ2CKoKKs-dbL7zg
+Processing trending topic: Photos: Thousands detained in police crackdown on India’s youth protest
+Searching Google for: Photos: Thousands detained in police crackdown on India’s youth protest
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPhotos%253A%252BThousands%252Bdetained%252Bin%252Bpolice%252Bcrackdown%252Bon%252BIndia%25E2%2580%2599s%252Byouth%252Bprotest%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0moxRGJPTrdYGIjDDZf3oIJEwkimjYoaxed2vCLABBbzwpxCDyTAksE3zvNUOPH2NhSoi6T_C0nBQpbAyBmpjbmRyUloBQ2Civ-Se6vvnsWE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261011_0403.html
-✓ Created comprehensive article: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261011_0403.html
+Successfully created file: photos-thousands-detained-in-police-crackdown-on-i_20261011_1048.html
+✓ Created comprehensive article: photos-thousands-detained-in-police-crackdown-on-i_20261011_1048.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: time-for-ukraine-to-get-new-president-says-trump-a_20261010_1947.html
-Cleaned old post to keep top 30 limit: twelve-killed-in-attack-on-airport-in-saudi-capita_20261010_2316.html
-Cleaned old post to keep top 30 limit: liverpool-vs-man-city-the-top-five-clashes-between_20261010_2317.html
+Cleaned old post to keep top 30 limit: time-for-ukraine-to-get-new-president-says-trump-a_20261011_0403.html
+Cleaned old post to keep top 30 limit: who-says-no-plague-case-registered-after-russian-l_20261010_2317.html
+Cleaned old post to keep top 30 limit: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261011_0403.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Twelve killed in attack on airport in Saudi capital Riyadh
+   • Man dies after tiger attack at wildlife park
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal
+   • Anti-ICE protests in New York after man shot in car with child
      Sources: bbc.com, cnn.com, reuters.com
-   • Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
+   • Photos: Thousands detained in police crackdown on India’s youth protest
      Sources: bbc.com, cnn.com, reuters.com
