@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: MI5 chief warns of threats to UK from Russia, Iran and AI
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: French fridge fright: Why supermarkets have become target for hackers
-Added expanded search topic: French fridge fright: Why supermarkets have become target for hackers
-Saved 6 topics for 2026-10-13
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Iconic Iguazu Falls walkway dismantled amid record water levels
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says Houthis trying to increase oil prices before US elections
+Added expanded search topic: Iconic Iguazu Falls walkway dismantled amid record water levels
+Added expanded search topic: DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter
+Added expanded search topic: Trump says Houthis trying to increase oil prices before US elections
+Saved 9 topics for 2026-10-13
 Returning 3 unique trending topics:
-  1. MI5 chief warns of threats to UK from Russia, Iran and AI (from BBC News)
-  2. Man killed in tiger attack identified as William Chapman (from BBC News)
-  3. French fridge fright: Why supermarkets have become target for hackers (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Iconic Iguazu Falls walkway dismantled amid record water levels (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Trump says Houthis trying to increase oil prices before US elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: MI5 chief warns of threats to UK from Russia, Iran and AI
-Searching Google for: MI5 chief warns of threats to UK from Russia, Iran and AI
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMI5%252Bchief%252Bwarns%252Bof%252Bthreats%252Bto%252BUK%252Bfrom%252BRussia%252C%252BIran%252Band%252BAI%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAesGOrouNYGIjD0Dm2a7BtbDG784LYYAtBzY01LAVNm5cZ5yvsi6ziZXy51tRpQbw6gWIvDqEdsvksyBmpjbmRyUloBQ2DH9fLxvPqYxJ4B
+Processing trending topic: Iconic Iguazu Falls walkway dismantled amid record water levels
+Searching Google for: Iconic Iguazu Falls walkway dismantled amid record water levels
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIconic%252BIguazu%252BFalls%252Bwalkway%252Bdismantled%252Bamid%252Brecord%252Bwater%252Blevels%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvL2GISgutYGIjBOCAQcUT4iAMQZrXmN4UAN8UwrSIrD6g318lh1BfXeJSFjhYfyCpniIaDgXxOiXoYyBmpjbmRyUloBQ2C44eKv_eKmm1M
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mi5-chief-warns-of-threats-to-uk-from-russia-iran-_20261013_1338.html
-✓ Created comprehensive article: mi5-chief-warns-of-threats-to-uk-from-russia-iran-_20261013_1338.html
+Successfully created file: iconic-iguazu-falls-walkway-dismantled-amid-record_20261013_2009.html
+✓ Created comprehensive article: iconic-iguazu-falls-walkway-dismantled-amid-record_20261013_2009.html
 
-Processing trending topic: Man killed in tiger attack identified as William Chapman
-Searching Google for: Man killed in tiger attack identified as William Chapman
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Bkilled%252Bin%252Btiger%252Battack%252Bidentified%252Bas%252BWilliam%252BChapman%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAesGPDouNYGIjBwcvu2wwWYUuJIqTrQ8G3KAm8DEjsQT7w8AyAebpZCtmMrcw5ixYmgT-sC2lHbBW0yBmpjbmRyUloBQ2Di0M2Hz8GGqaAB
+Processing trending topic: DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter
+Searching Google for: DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDR%252BCongo%252BEbola%252Bcases%252Bpass%252B9%252C000%252Bas%252Befforts%252Bto%252Bcurb%252Btransmission%252Bfalter%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvL2GIugutYGIjCIrZ64jQnMNKNgAIPzCBwYtuL5OKAAkC8PahShf9inQAj2t_QkrOaOEazDRqzAYCgyBmpjbmRyUloBQ2CVwbiZ1_7J4W4
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-killed-in-tiger-attack-identified-as-william-c_20261013_1339.html
-✓ Created comprehensive article: man-killed-in-tiger-attack-identified-as-william-c_20261013_1339.html
+Successfully created file: dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-_20261013_2009.html
+✓ Created comprehensive article: dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-_20261013_2009.html
 
-Processing trending topic: French fridge fright: Why supermarkets have become target for hackers
-Searching Google for: French fridge fright: Why supermarkets have become target for hackers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFrench%252Bfridge%252Bfright%253A%252BWhy%252Bsupermarkets%252Bhave%252Bbecome%252Btarget%252Bfor%252Bhackers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExAesGPfouNYGIjDr7imOMz13opvZwutGIU06slZ_F5GLvtLRWnYIsMG9YLqtoMWmzZKYgEtG7iAnSQUyBmpjbmRyUloBQ2D7mva2pKXN3EA
+Processing trending topic: Trump says Houthis trying to increase oil prices before US elections
+Searching Google for: Trump says Houthis trying to increase oil prices before US elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252BHouthis%252Btrying%252Bto%252Bincrease%252Boil%252Bprices%252Bbefore%252BUS%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSstvL2GJKgutYGIjDJMtFdngz1FZx3IWCNnjAOZrfidZpn1vF69iwx40lKg0lDwoWM5lENW86Aq1U62WgyBmpjbmRyUloBQ2Da-dylq6O79YAB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: french-fridge-fright-why-supermarkets-have-become-_20261013_1339.html
-✓ Created comprehensive article: french-fridge-fright-why-supermarkets-have-become-_20261013_1339.html
+Successfully created file: trump-says-houthis-trying-to-increase-oil-prices-b_20261013_2009.html
+✓ Created comprehensive article: trump-says-houthis-trying-to-increase-oil-prices-b_20261013_2009.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: why-the-prime-minister-wants-to-talk-about-brexit-_20261013_0532.html
-Cleaned old post to keep top 30 limit: hundreds-more-prisoners-to-be-freed-in-second-phas_20261013_0532.html
-Cleaned old post to keep top 30 limit: controversial-vaccine-trial-touted-by-rfk-jr-gets-_20261013_0533.html
+Cleaned old post to keep top 30 limit: man-killed-in-tiger-attack-identified-as-william-c_20261013_1339.html
+Cleaned old post to keep top 30 limit: mi5-chief-warns-of-threats-to-uk-from-russia-iran-_20261013_1338.html
+Cleaned old post to keep top 30 limit: french-fridge-fright-why-supermarkets-have-become-_20261013_1339.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • MI5 chief warns of threats to UK from Russia, Iran and AI
+   • Iconic Iguazu Falls walkway dismantled amid record water levels
      Sources: bbc.com, cnn.com, reuters.com
-   • Man killed in tiger attack identified as William Chapman
+   • DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter
      Sources: bbc.com, cnn.com, reuters.com
-   • French fridge fright: Why supermarkets have become target for hackers
+   • Trump says Houthis trying to increase oil prices before US elections
      Sources: bbc.com, cnn.com, reuters.com
