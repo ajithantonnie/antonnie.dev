@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Musk says any limits on Ukraine's Starlink access down to US, not his firm
@@ -9,57 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 15 topics for 2026-10-14
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Denmark pushes back as Trump touts Greenland oil and mineral deals
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ICE pushes back on report suggesting body cameras that automatically record
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid come from 3-1 down to beat Roma on Champions League travels
+Added expanded search topic: Denmark pushes back as Trump touts Greenland oil and mineral deals
+Added expanded search topic: ICE pushes back on report suggesting body cameras that automatically record
+Added expanded search topic: Real Madrid come from 3-1 down to beat Roma on Champions League travels
+Saved 18 topics for 2026-10-14
 Returning 3 unique trending topics:
-  1. Musk says any limits on Ukraine's Starlink access down to US, not his firm (from BBC News)
-  2. We are behind you and that will not change, PM tells Zelensky (from BBC News)
-  3. Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story (from The Guardian)
+  1. Denmark pushes back as Trump touts Greenland oil and mineral deals (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. ICE pushes back on report suggesting body cameras that automatically record (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Real Madrid come from 3-1 down to beat Roma on Champions League travels (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Musk says any limits on Ukraine's Starlink access down to US, not his firm
-Searching Google for: Musk says any limits on Ukraine's Starlink access down to US, not his firm
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMusk%252Bsays%252Bany%252Blimits%252Bon%252BUkraine%2527s%252BStarlink%252Baccess%252Bdown%252Bto%252BUS%252C%252Bnot%252Bhis%252Bfirm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sPEGJbNv9YGIjD9ZCJYJDjScrNZz1T_-LeICTxaJn6cRkw_H3dW67iBEV8CCr7D_kOlrr8chCfrlaMyBmpjbmRyUloBQ2CYse307eH2izs
+Processing trending topic: Denmark pushes back as Trump touts Greenland oil and mineral deals
+Searching Google for: Denmark pushes back as Trump touts Greenland oil and mineral deals
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDenmark%252Bpushes%252Bback%252Bas%252BTrump%252Btouts%252BGreenland%252Boil%252Band%252Bmineral%252Bdeals%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_7UGM6qwNYGIjCSHq85EEeCiRytHna2sVq6c-ItHXiXbdX5zk-dd1ZO2uiycYdwCOwcS_8GqaIm7BcyBmpjbmRyUloBQ2CO_Jv_w9O0jaQB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: musk-says-any-limits-on-ukraines-starlink-access-d_20261014_2031.html
-✓ Created comprehensive article: musk-says-any-limits-on-ukraines-starlink-access-d_20261014_2031.html
+Successfully created file: denmark-pushes-back-as-trump-touts-greenland-oil-a_20261014_2350.html
+✓ Created comprehensive article: denmark-pushes-back-as-trump-touts-greenland-oil-a_20261014_2350.html
 
-Processing trending topic: We are behind you and that will not change, PM tells Zelensky
-Searching Google for: We are behind you and that will not change, PM tells Zelensky
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWe%252Bare%252Bbehind%252Byou%252Band%252Bthat%252Bwill%252Bnot%252Bchange%252C%252BPM%252Btells%252BZelensky%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sPEGJ7Nv9YGIjBlqmFYvy6QaZTNXd67uqGTHTuUVMjwhSSbOSLdRSyN0jnSDzxqat2x8rsviycpDL8yBmpjbmRyUloBQ2DL7e2pqbfh0kQ
+Processing trending topic: ICE pushes back on report suggesting body cameras that automatically record
+Searching Google for: ICE pushes back on report suggesting body cameras that automatically record
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DICE%252Bpushes%252Bback%252Bon%252Breport%252Bsuggesting%252Bbody%252Bcameras%252Bthat%252Bautomatically%252Brecord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_7UGNaqwNYGIjBw2vAQrbXpefQUfR4c5-3oOJlGBARFaNk-bpo_-hm0OWQG8a0SuGP7XdpSipTjZ8AyBmpjbmRyUloBQ2DopuH74teDuWQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: we-are-behind-you-and-that-will-not-change-pm-tell_20261014_2031.html
-✓ Created comprehensive article: we-are-behind-you-and-that-will-not-change-pm-tell_20261014_2031.html
+Successfully created file: ice-pushes-back-on-report-suggesting-body-cameras-_20261014_2350.html
+✓ Created comprehensive article: ice-pushes-back-on-report-suggesting-body-cameras-_20261014_2350.html
 
-Processing trending topic: Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story
-Searching Google for: Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZimbabwean%252Bauthor%252BSimbarashe%252BKundizeza%252Bdenies%252Busing%252BAI%252Bto%252Bwrite%252Bprize-winning%252Bstory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sPEGKTNv9YGIjBH9PayHTCAhfc8KeXSWQbNA5072INqt5dBhelcPLznHhHfsOR3Wk429NFP-PnUEXgyBmpjbmRyUloBQ2C3suvbj5yp-Aw
+Processing trending topic: Real Madrid come from 3-1 down to beat Roma on Champions League travels
+Searching Google for: Real Madrid come from 3-1 down to beat Roma on Champions League travels
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Bcome%252Bfrom%252B3-1%252Bdown%252Bto%252Bbeat%252BRoma%252Bon%252BChampions%252BLeague%252Btravels%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsy_7UGNyqwNYGIjDlkWU7NQVa4r3c3xeVr1BuxR9vCVikRJn_jAxpXkkVDPCGjVbJ0yzl0EykB55t4voyBmpjbmRyUloBQ2C8q7LW9KPB13g
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zimbabwean-author-simbarashe-kundizeza-denies-usin_20261014_2031.html
-✓ Created comprehensive article: zimbabwean-author-simbarashe-kundizeza-denies-usin_20261014_2031.html
+Successfully created file: real-madrid-come-from-3-1-down-to-beat-roma-on-cha_20261014_2350.html
+✓ Created comprehensive article: real-madrid-come-from-3-1-down-to-beat-roma-on-cha_20261014_2350.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russell-brand-was-a-sexual-predator-prosecution-al_20261014_1635.html
-Cleaned old post to keep top 30 limit: starlink-restrictions-in-ukraine-war-linked-to-pol_20261014_1635.html
-Cleaned old post to keep top 30 limit: guinea-bissau-denies-it-has-approved-controversial_20261014_1635.html
+Cleaned old post to keep top 30 limit: watch-why-has-uk-diesel-price-hit-an-all-time-high_20261002_2025.html
+Cleaned old post to keep top 30 limit: we-are-behind-you-and-that-will-not-change-pm-tell_20261014_2031.html
+Cleaned old post to keep top 30 limit: musk-says-any-limits-on-ukraines-starlink-access-d_20261014_2031.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Musk says any limits on Ukraine's Starlink access down to US, not his firm
+   • Denmark pushes back as Trump touts Greenland oil and mineral deals
      Sources: bbc.com, cnn.com, reuters.com
-   • We are behind you and that will not change, PM tells Zelensky
+   • ICE pushes back on report suggesting body cameras that automatically record
      Sources: bbc.com, cnn.com, reuters.com
-   • Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story
+   • Real Madrid come from 3-1 down to beat Roma on Champions League travels
      Sources: bbc.com, cnn.com, reuters.com
