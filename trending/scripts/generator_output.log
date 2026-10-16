@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Bus hits train stopped on French side of Channel Tunnel, with 19 injured
   Added: Trump calls off livestream of Fort Hood attacker's execution by firing squad
-  Added: Trans people should use hospital spaces according to biological sex, NHS England says
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Several people dead or missing after Istanbul floods
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices
-Added expanded search topic: Several people dead or missing after Istanbul floods
-Added expanded search topic: Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices
-Saved 15 topics for 2026-10-15
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-10-16
 Returning 3 unique trending topics:
-  1. Trans people should use hospital spaces according to biological sex, NHS England says (from BBC News)
-  2. Several people dead or missing after Istanbul floods (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Bus hits train stopped on French side of Channel Tunnel, with 19 injured (from BBC News)
+  2. Trump calls off livestream of Fort Hood attacker's execution by firing squad (from BBC News)
+  3. LGBTQ+ people go into hiding in Senegal as hundreds are arrested (from The Guardian)
 
-Processing trending topic: Trans people should use hospital spaces according to biological sex, NHS England says
-Searching Google for: Trans people should use hospital spaces according to biological sex, NHS England says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrans%252Bpeople%252Bshould%252Buse%252Bhospital%252Bspaces%252Baccording%252Bto%252Bbiological%252Bsex%252C%252BNHS%252BEngland%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgX0GJ2HxdYGIjDVIXaCViM-wgwt05Z6Cxg4mN2eXX9_2EEf7iUfZJ4AFLgl7lCdyckkAuZzKxi8IbgyBmpjbmRyUloBQ2Ch0devpYeG0_sB
+Processing trending topic: Bus hits train stopped on French side of Channel Tunnel, with 19 injured
+Searching Google for: Bus hits train stopped on French side of Channel Tunnel, with 19 injured
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBus%252Bhits%252Btrain%252Bstopped%252Bon%252BFrench%252Bside%252Bof%252BChannel%252BTunnel%252C%252Bwith%252B19%252Binjured%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-kGN_VxdYGIjC2OXg_jHi_fWiJ6nZiAkB_HlLtW9-mIX7fLp1b8QeGZu-ubalYLh-PmAbEI4Jsk_YyBmpjbmRyUloBQ2Du6Jn_m-SqtGM
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trans-people-should-use-hospital-spaces-according-_20261015_2120.html
-✓ Created comprehensive article: trans-people-should-use-hospital-spaces-according-_20261015_2120.html
+Successfully created file: bus-hits-train-stopped-on-french-side-of-channel-t_20261016_0008.html
+✓ Created comprehensive article: bus-hits-train-stopped-on-french-side-of-channel-t_20261016_0008.html
 
-Processing trending topic: Several people dead or missing after Istanbul floods
-Searching Google for: Several people dead or missing after Istanbul floods
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSeveral%252Bpeople%252Bdead%252Bor%252Bmissing%252Bafter%252BIstanbul%252Bfloods%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgX0GKSHxdYGIjCkKz8G1J2BTchs5j3QlHhqhTjuP3mEnTMzRXZL0ZMbMf6gGJdUYQcik6hbxGcuRwcyBmpjbmRyUloBQ2D1yry4-c7cuhc
+Processing trending topic: Trump calls off livestream of Fort Hood attacker's execution by firing squad
+Searching Google for: Trump calls off livestream of Fort Hood attacker's execution by firing squad
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bcalls%252Boff%252Blivestream%252Bof%252BFort%252BHood%252Battacker%2527s%252Bexecution%252Bby%252Bfiring%252Bsquad%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-kGObVxdYGIjBkAE4YRDb4cq4FoBUPadWIzuyeoZPJnqN_rqmZBss85x9FPO-85mAAsIz_9OpbGmgyBmpjbmRyUloBQ2C20obP4KjP3BI
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: several-people-dead-or-missing-after-istanbul-floo_20261015_2120.html
-✓ Created comprehensive article: several-people-dead-or-missing-after-istanbul-floo_20261015_2120.html
+Successfully created file: trump-calls-off-livestream-of-fort-hood-attackers-_20261016_0008.html
+✓ Created comprehensive article: trump-calls-off-livestream-of-fort-hood-attackers-_20261016_0008.html
 
-Processing trending topic: Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices
-Searching Google for: Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252B%25E2%2580%2598ad%25E2%2580%2599%252Bfirm%252Bhelped%252Binfect%252Bspyware%252Binto%252BAl%252BJazeera%252Bdevices%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ5mgX0GKuHxdYGIjBKJpI09pMek-WwrUmpujr_labzKkKqm2bFyLcPpNwoVi9FKpFyoeaQC2R8WTLNbm4yBmpjbmRyUloBQ2Cg1eSclurc0xs
+Processing trending topic: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
+Searching Google for: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLGBTQ%252B%252Bpeople%252Bgo%252Binto%252Bhiding%252Bin%252BSenegal%252Bas%252Bhundreds%252Bare%252Barrested%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoTL-kGOzVxdYGIjCMvutQ8GYgyfM3Co19RBSdX9Ti6CDdtOx9D4jjgaCOXlogHNp8Jzxk4n9E7EsoWz0yBmpjbmRyUloBQ2CVtcD93Zfb2tgB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: israeli-ad-firm-helped-infect-spyware-into-al-jaze_20261015_2120.html
-✓ Created comprehensive article: israeli-ad-firm-helped-infect-spyware-into-al-jaze_20261015_2120.html
+Successfully created file: lgbtq-people-go-into-hiding-in-senegal-as-hundreds_20261016_0008.html
+✓ Created comprehensive article: lgbtq-people-go-into-hiding-in-senegal-as-hundreds_20261016_0008.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pope-leo-resumes-work-in-hospital-while-recovering_20261015_1805.html
-Cleaned old post to keep top 30 limit: trump-calls-off-livestream-of-fort-hood-attackers-_20261015_1804.html
-Cleaned old post to keep top 30 limit: dr-congo-protests-formula-1s-indefensible-decision_20261015_1805.html
+Cleaned old post to keep top 30 limit: several-people-dead-or-missing-after-istanbul-floo_20261015_2120.html
+Cleaned old post to keep top 30 limit: trans-people-should-use-hospital-spaces-according-_20261015_2120.html
+Cleaned old post to keep top 30 limit: israeli-ad-firm-helped-infect-spyware-into-al-jaze_20261015_2120.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trans people should use hospital spaces according to biological sex, NHS England says
+   • Bus hits train stopped on French side of Channel Tunnel, with 19 injured
      Sources: bbc.com, cnn.com, reuters.com
-   • Several people dead or missing after Istanbul floods
+   • Trump calls off livestream of Fort Hood attacker's execution by firing squad
      Sources: bbc.com, cnn.com, reuters.com
-   • Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices
+   • LGBTQ+ people go into hiding in Senegal as hundreds are arrested
      Sources: bbc.com, cnn.com, reuters.com
