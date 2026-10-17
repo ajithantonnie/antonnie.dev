@@ -1,73 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 15 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Watch: 'Mood has really shifted' as Paris protesters clash with police
   Added: More NHS staff sacked over attacks victims' records
+  Added: European diplomats attacked by Israeli settlers in West Bank
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
-Found 0 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 3
-Need 3 more unique topics, expanding search...
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump faces bipartisan backlash over Russia sanctions waiver
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jerusalem Daily: Israeli settlers attack farmers and journalists
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera reports from Paris as protests turns violent
-Added expanded search topic: Trump faces bipartisan backlash over Russia sanctions waiver
-Added expanded search topic: Jerusalem Daily: Israeli settlers attack farmers and journalists
-Added expanded search topic: Al Jazeera reports from Paris as protests turns violent
-Saved 15 topics for 2026-10-17
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Albanian police fire rubber bullets as protests against Rama escalate
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko
+Added expanded search topic: Albanian police fire rubber bullets as protests against Rama escalate
+Added expanded search topic: Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko
+Saved 18 topics for 2026-10-17
 Returning 3 unique trending topics:
-  1. Trump faces bipartisan backlash over Russia sanctions waiver (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  2. Jerusalem Daily: Israeli settlers attack farmers and journalists (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Al Jazeera reports from Paris as protests turns violent (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. European diplomats attacked by Israeli settlers in West Bank (from BBC News)
+  2. Albanian police fire rubber bullets as protests against Rama escalate (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Trump faces bipartisan backlash over Russia sanctions waiver
-Searching Google for: Trump faces bipartisan backlash over Russia sanctions waiver
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bfaces%252Bbipartisan%252Bbacklash%252Bover%252BRussia%252Bsanctions%252Bwaiver%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyBdHGNrqztYGIjCZt51jrZ3sXK_IcRckmxdC6pFQg4ehghGUlnEL8XDUdmQyaK7SHYQbwMCDCYmLluUyBmpjbmRyUloBQ2D8ibLllNTZqrEB
+Processing trending topic: European diplomats attacked by Israeli settlers in West Bank
+Searching Google for: European diplomats attacked by Israeli settlers in West Bank
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEuropean%252Bdiplomats%252Battacked%252Bby%252BIsraeli%252Bsettlers%252Bin%252BWest%252BBank%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rQowGOasz9YGIjAe8T2jxEG8BXXZ4OQQb4Q2N7wPmpGBwbwI8sW8E-b5P7MazS23PuAdEWd43EkI4GcyBmpjbmRyUloBQ2DltoPTwoOA8vgB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-faces-bipartisan-backlash-over-russia-sancti_20261017_1750.html
-✓ Created comprehensive article: trump-faces-bipartisan-backlash-over-russia-sancti_20261017_1750.html
+Successfully created file: european-diplomats-attacked-by-israeli-settlers-in_20261017_2011.html
+✓ Created comprehensive article: european-diplomats-attacked-by-israeli-settlers-in_20261017_2011.html
 
-Processing trending topic: Jerusalem Daily: Israeli settlers attack farmers and journalists
-Searching Google for: Jerusalem Daily: Israeli settlers attack farmers and journalists
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJerusalem%252BDaily%253A%252BIsraeli%252Bsettlers%252Battack%252Bfarmers%252Band%252Bjournalists%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyBdHGOHqztYGIjDzf5OF2tN05vU-ksqzNuzwcin1p5j3KKSxM1Ou6Gu4KtiYfWaonGKlyCg1G4OZF_8yBmpjbmRyUloBQ2DT6NOCkK6P-Ak
+Processing trending topic: Albanian police fire rubber bullets as protests against Rama escalate
+Searching Google for: Albanian police fire rubber bullets as protests against Rama escalate
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAlbanian%252Bpolice%252Bfire%252Brubber%252Bbullets%252Bas%252Bprotests%252Bagainst%252BRama%252Bescalate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rQowGO2sz9YGIjAH8Gkm3UWzPaDIUV6_n0h75kgFZgjTgLkPOVm7VX9dlYA_zRRMpcpDIebQsD3Z4jAyBmpjbmRyUloBQ2Ckrafdv67xyzs
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jerusalem-daily-israeli-settlers-attack-farmers-an_20261017_1750.html
-✓ Created comprehensive article: jerusalem-daily-israeli-settlers-attack-farmers-an_20261017_1750.html
+Successfully created file: albanian-police-fire-rubber-bullets-as-protests-ag_20261017_2011.html
+✓ Created comprehensive article: albanian-police-fire-rubber-bullets-as-protests-ag_20261017_2011.html
 
-Processing trending topic: Al Jazeera reports from Paris as protests turns violent
-Searching Google for: Al Jazeera reports from Paris as protests turns violent
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Breports%252Bfrom%252BParis%252Bas%252Bprotests%252Bturns%252Bviolent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsyBdHGOjqztYGIjCdIV7t10C-rPJfRqr4gFFR9iahUJW0DT5md8WiprLUJB0CwK8ulgaeC0KpWzWOSycyBmpjbmRyUloBQ2CgkfqX1on50f0B
+Processing trending topic: Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko
+Searching Google for: Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHundreds%252Brally%252Bin%252BKyiv%252Bto%252Bdemand%252Bthe%252Bresignation%252Bof%252BMayor%252BVitali%252BKlitschko%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0rQowGPOsz9YGIjBKosFUVn07raPXaFYPgaIGmJ0dbMYV84oJHkRYKBy1VsEWc5lbGwbnKfqJdQsEpVQyBmpjbmRyUloBQ2Cq3429jIO2rLEB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-jazeera-reports-from-paris-as-protests-turns-vi_20261017_1750.html
-✓ Created comprehensive article: al-jazeera-reports-from-paris-as-protests-turns-vi_20261017_1750.html
+Successfully created file: hundreds-rally-in-kyiv-to-demand-the-resignation-o_20261017_2011.html
+✓ Created comprehensive article: hundreds-rally-in-kyiv-to-demand-the-resignation-o_20261017_2011.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: trump-waives-several-russia-sanctions-as-new-us-la_20261017_0637.html
-Cleaned old post to keep top 30 limit: trump-waives-several-russia-sanctions-as-row-with-_20261017_1126.html
-Cleaned old post to keep top 30 limit: more-nhs-staff-sacked-over-attacks-victims-records_20261017_1501.html
+Cleaned old post to keep top 30 limit: jerusalem-daily-israeli-settlers-attack-farmers-an_20261017_1750.html
+Cleaned old post to keep top 30 limit: trump-faces-bipartisan-backlash-over-russia-sancti_20261017_1750.html
+Cleaned old post to keep top 30 limit: al-jazeera-reports-from-paris-as-protests-turns-vi_20261017_1750.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Trump faces bipartisan backlash over Russia sanctions waiver
+   • European diplomats attacked by Israeli settlers in West Bank
      Sources: bbc.com, cnn.com, reuters.com
-   • Jerusalem Daily: Israeli settlers attack farmers and journalists
+   • Albanian police fire rubber bullets as protests against Rama escalate
      Sources: bbc.com, cnn.com, reuters.com
-   • Al Jazeera reports from Paris as protests turns violent
+   • Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko
      Sources: bbc.com, cnn.com, reuters.com
