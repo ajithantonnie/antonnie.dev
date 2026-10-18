@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests
-  Added: How day of protests unfolded as disorder breaks out across France
+  Added: Watch: Moment historic French town hall spire collapses in flames amid protests
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-18
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Deaths, injuries after fire at Alberta military base: Canada minister
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: St Petersburg under attack from Ukrainian drone swarm
+Added expanded search topic: Deaths, injuries after fire at Alberta military base: Canada minister
+Added expanded search topic: St Petersburg under attack from Ukrainian drone swarm
+Saved 6 topics for 2026-10-18
 Returning 3 unique trending topics:
-  1. Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests (from BBC News)
-  2. How day of protests unfolded as disorder breaks out across France (from BBC News)
-  3. LGBTQ+ people go into hiding in Senegal as hundreds are arrested (from The Guardian)
+  1. Watch: Moment historic French town hall spire collapses in flames amid protests (from BBC News)
+  2. Deaths, injuries after fire at Alberta military base: Canada minister (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. St Petersburg under attack from Ukrainian drone swarm (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests
-Searching Google for: Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DViolent%252Bclashes%252C%252Blooting%252Band%252Bbuildings%252Bablaze%252Bin%252BFrance%252Bas%252Bover%252B1%252C000%252Barrested%252Bafter%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mgyGKSr0NYGIjAzaLliEwsujUrN_xAoiqRY8i65LyhQgGvY1m1acgZ0RzL1vDt2nN73IqrZs_xJf10yBmpjbmRyUloBQ2Crqea_2bnb8nM
+Processing trending topic: Watch: Moment historic French town hall spire collapses in flames amid protests
+Searching Google for: Watch: Moment historic French town hall spire collapses in flames amid protests
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMoment%252Bhistoric%252BFrench%252Btown%252Bhall%252Bspire%252Bcollapses%252Bin%252Bflames%252Bamid%252Bprotests%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrM4jGKay0dYGIjC3zdlri_M9mT7vN9u8Aymi_m_R5Yl8-m6BCrxog2Q6WCKNmQ1VI0sgQYEerDSrdp0yBmpjbmRyUloBQ2D3_rbV-JKg4Fg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: violent-clashes-looting-and-buildings-ablaze-in-fr_20261018_0041.html
-✓ Created comprehensive article: violent-clashes-looting-and-buildings-ablaze-in-fr_20261018_0041.html
+Successfully created file: watch-moment-historic-french-town-hall-spire-colla_20261018_0529.html
+✓ Created comprehensive article: watch-moment-historic-french-town-hall-spire-colla_20261018_0529.html
 
-Processing trending topic: How day of protests unfolded as disorder breaks out across France
-Searching Google for: How day of protests unfolded as disorder breaks out across France
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bday%252Bof%252Bprotests%252Bunfolded%252Bas%252Bdisorder%252Bbreaks%252Bout%252Bacross%252BFrance%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mgyGKur0NYGIjB097k_T5Kc9l3anLBtGnm7IGAjq3T9Q11cG6AgHKhJnxPbhTYJK5OEuaoBKISj0YoyBmpjbmRyUloBQ2Cru-vGgLGB0wk
+Processing trending topic: Deaths, injuries after fire at Alberta military base: Canada minister
+Searching Google for: Deaths, injuries after fire at Alberta military base: Canada minister
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeaths%252C%252Binjuries%252Bafter%252Bfire%252Bat%252BAlberta%252Bmilitary%252Bbase%253A%252BCanada%252Bminister%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrM4jGK2y0dYGIjCOrJaeQQWUsz3W7lPCsx8Px-EK4a--THx1GzerG5WK_LBre2ICGE16tL-Jg7YT1csyBmpjbmRyUloBQ2D23IORvIXCtHw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: how-day-of-protests-unfolded-as-disorder-breaks-ou_20261018_0041.html
-✓ Created comprehensive article: how-day-of-protests-unfolded-as-disorder-breaks-ou_20261018_0041.html
+Successfully created file: deaths-injuries-after-fire-at-alberta-military-bas_20261018_0529.html
+✓ Created comprehensive article: deaths-injuries-after-fire-at-alberta-military-bas_20261018_0529.html
 
-Processing trending topic: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
-Searching Google for: LGBTQ+ people go into hiding in Senegal as hundreds are arrested
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLGBTQ%252B%252Bpeople%252Bgo%252Binto%252Bhiding%252Bin%252BSenegal%252Bas%252Bhundreds%252Bare%252Barrested%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1mgyGLGr0NYGIjBLBsV_PJDBO9imLr7XLNdchnZobSjl3HuuEz3PjeUrKMCdoCSla_YdqivTe-JDK3MyBmpjbmRyUloBQ2CEgbyYuOyBgOEB
+Processing trending topic: St Petersburg under attack from Ukrainian drone swarm
+Searching Google for: St Petersburg under attack from Ukrainian drone swarm
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSt%252BPetersburg%252Bunder%252Battack%252Bfrom%252BUkrainian%252Bdrone%252Bswarm%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrM4jGLOy0dYGIjDLS_QNf9AjeBcDpaR7zjxKBw34bpMo7RzeWyTvryUMl6_R9sXVPztSm2aw_u7nTwcyBmpjbmRyUloBQ2Ddyt6R-uPrvlA
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lgbtq-people-go-into-hiding-in-senegal-as-hundreds_20261018_0041.html
-✓ Created comprehensive article: lgbtq-people-go-into-hiding-in-senegal-as-hundreds_20261018_0041.html
+Successfully created file: st-petersburg-under-attack-from-ukrainian-drone-sw_20261018_0529.html
+✓ Created comprehensive article: st-petersburg-under-attack-from-ukrainian-drone-sw_20261018_0529.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: violent-clashes-looting-and-buildings-ablaze-in-fr_20261017_2256.html
-Cleaned old post to keep top 30 limit: photos-no-kings-rallies-in-us-urge-midterm-voters-_20261017_2256.html
-Cleaned old post to keep top 30 limit: how-day-of-protests-unfolded-as-disorder-breaks-ou_20261017_2256.html
+Cleaned old post to keep top 30 limit: the-chatbot-murder-guide-ais-struggle-between-priv_20261017_0637.html
+Cleaned old post to keep top 30 limit: lgbtq-people-go-into-hiding-in-senegal-as-hundreds_20261018_0041.html
+Cleaned old post to keep top 30 limit: how-day-of-protests-unfolded-as-disorder-breaks-ou_20261018_0041.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests
+   • Watch: Moment historic French town hall spire collapses in flames amid protests
      Sources: bbc.com, cnn.com, reuters.com
-   • How day of protests unfolded as disorder breaks out across France
+   • Deaths, injuries after fire at Alberta military base: Canada minister
      Sources: bbc.com, cnn.com, reuters.com
-   • LGBTQ+ people go into hiding in Senegal as hundreds are arrested
+   • St Petersburg under attack from Ukrainian drone swarm
      Sources: bbc.com, cnn.com, reuters.com
