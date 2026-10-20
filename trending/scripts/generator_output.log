@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Curfew imposed in parts of central Paris and other cities after rioting across France
-  Added: Watch: Clean up begins after French riots but police remain
+  Added: Chancellor rejects calls to raise Capital Gains Tax in Budget
+  Added: We asked teens what schools should teach them about work. This is what they said
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: US grants deportation reprieve to migrants from Ukraine and Sudan
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-20
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Morocco’s not-so-new government faces new challenges
+Added expanded search topic: Morocco’s not-so-new government faces new challenges
+Saved 6 topics for 2026-10-20
 Returning 3 unique trending topics:
-  1. Curfew imposed in parts of central Paris and other cities after rioting across France (from BBC News)
-  2. Watch: Clean up begins after French riots but police remain (from BBC News)
-  3. US grants deportation reprieve to migrants from Ukraine and Sudan (from The Guardian)
+  1. Chancellor rejects calls to raise Capital Gains Tax in Budget (from BBC News)
+  2. We asked teens what schools should teach them about work. This is what they said (from BBC News)
+  3. Morocco’s not-so-new government faces new challenges (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Curfew imposed in parts of central Paris and other cities after rioting across France
-Searching Google for: Curfew imposed in parts of central Paris and other cities after rioting across France
-Google search failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Processing trending topic: Chancellor rejects calls to raise Capital Gains Tax in Budget
+Searching Google for: Chancellor rejects calls to raise Capital Gains Tax in Budget
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DChancellor%252Brejects%252Bcalls%252Bto%252Braise%252BCapital%252BGains%252BTax%252Bin%252BBudget%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0F23GNyo3NYGIjB-PrTPjAHzkbbYcelk7jaaKkch29K0Wl7Kj8yes4t1NsDLSurd0LSvfViYt5eVxLkyBmpjbmRyUloBQ2Ccg_anqOa31LAB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: curfew-imposed-in-parts-of-central-paris-and-other_20261020_0137.html
-✓ Created comprehensive article: curfew-imposed-in-parts-of-central-paris-and-other_20261020_0137.html
+Successfully created file: chancellor-rejects-calls-to-raise-capital-gains-ta_20261020_0712.html
+✓ Created comprehensive article: chancellor-rejects-calls-to-raise-capital-gains-ta_20261020_0712.html
 
-Processing trending topic: Watch: Clean up begins after French riots but police remain
-Searching Google for: Watch: Clean up begins after French riots but police remain
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BClean%252Bup%252Bbegins%252Bafter%252BFrench%252Briots%252Bbut%252Bpolice%252Bremain%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYo6AGKmM29YGIjBsfsG3qFqew9AVFIcX-MEs-dN8FxmxYoq75DfkJojFN9UXvd8IlezjiAkQ_x-XLhoyBmpjbmRyUloBQ2Ddo-i994OtqNwB
+Processing trending topic: We asked teens what schools should teach them about work. This is what they said
+Searching Google for: We asked teens what schools should teach them about work. This is what they said
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWe%252Basked%252Bteens%252Bwhat%252Bschools%252Bshould%252Bteach%252Bthem%252Babout%252Bwork.%252BThis%252Bis%252Bwhat%252Bthey%252Bsaid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0F23GOOo3NYGIjAEKaTib8SqbTXhbfDD7EFyDkbELdzQa090Q0wKlChze_twTdxVgIqb1UYCeVAKcusyBmpjbmRyUloBQ2CAnaqzvoXGqcEB
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-clean-up-begins-after-french-riots-but-polic_20261020_0138.html
-✓ Created comprehensive article: watch-clean-up-begins-after-french-riots-but-polic_20261020_0138.html
+Successfully created file: we-asked-teens-what-schools-should-teach-them-abou_20261020_0712.html
+✓ Created comprehensive article: we-asked-teens-what-schools-should-teach-them-abou_20261020_0712.html
 
-Processing trending topic: US grants deportation reprieve to migrants from Ukraine and Sudan
-Searching Google for: US grants deportation reprieve to migrants from Ukraine and Sudan
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bgrants%252Bdeportation%252Breprieve%252Bto%252Bmigrants%252Bfrom%252BUkraine%252Band%252BSudan%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYo6AGLCM29YGIjBh6c4Vkgxkl4hNBhotPpJxa6Hdr-BE89fIEMD-xiyGebyAcO3SFRyysmSCeiguTrgyBmpjbmRyUloBQ2DwiMO_m_ati1o
+Processing trending topic: Morocco’s not-so-new government faces new challenges
+Searching Google for: Morocco’s not-so-new government faces new challenges
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMorocco%25E2%2580%2599s%252Bnot-so-new%252Bgovernment%252Bfaces%252Bnew%252Bchallenges%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0F23GOmo3NYGIjBd97UooWWzrdO4aMwR3nK7yK5UX2z2yNOhidlG3ynJr2aDG1GFTOHgTHX0kYMeDfQyBmpjbmRyUloBQ2DGvdGBqbW_8WI
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-grants-deportation-reprieve-to-migrants-from-uk_20261020_0139.html
-✓ Created comprehensive article: us-grants-deportation-reprieve-to-migrants-from-uk_20261020_0139.html
+Successfully created file: moroccos-not-so-new-government-faces-new-challenge_20261020_0712.html
+✓ Created comprehensive article: moroccos-not-so-new-government-faces-new-challenge_20261020_0712.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-mood-has-really-shifted-as-paris-protesters-_20261017_1501.html
-Cleaned old post to keep top 30 limit: watch-moment-historic-french-town-hall-spire-colla_20261018_0529.html
-Cleaned old post to keep top 30 limit: curfew-imposed-in-parts-of-central-paris-and-other_20261019_2256.html
+Cleaned old post to keep top 30 limit: watch-are-the-french-riots-a-warning-of-an-intense_20261019_1904.html
+Cleaned old post to keep top 30 limit: watch-clean-up-begins-after-french-riots-but-polic_20261019_2256.html
+Cleaned old post to keep top 30 limit: curfew-imposed-in-parts-of-central-paris-and-other_20261020_0137.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Curfew imposed in parts of central Paris and other cities after rioting across France
+   • Chancellor rejects calls to raise Capital Gains Tax in Budget
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: Clean up begins after French riots but police remain
+   • We asked teens what schools should teach them about work. This is what they said
      Sources: bbc.com, cnn.com, reuters.com
-   • US grants deportation reprieve to migrants from Ukraine and Sudan
+   • Morocco’s not-so-new government faces new challenges
      Sources: bbc.com, cnn.com, reuters.com
