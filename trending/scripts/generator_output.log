@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
@@ -9,63 +9,57 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Controversial US-backed vaccine trial in African newborns halted
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Declan Rice grabs Arsenal draw at Bayern Munich in Champions League
-Added expanded search topic: Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start
-Added expanded search topic: Declan Rice grabs Arsenal draw at Bayern Munich in Champions League
-Saved 15 topics for 2026-10-21
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-10-22
 Returning 3 unique trending topics:
-  1. Websites taken down worldwide as critical cyber-security update issued (from BBC News)
-  2. Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Declan Rice grabs Arsenal draw at Bayern Munich in Champions League (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences (from BBC News)
+  2. Websites taken down worldwide as critical cyber-security update issued (from BBC News)
+  3. Controversial US-backed vaccine trial in African newborns halted (from The Guardian)
+
+Processing trending topic: Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
+Searching Google for: Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252Bdefends%252BJackdaw%252Bdecision%252Bas%252BBadenoch%252Burges%252BPM%252Bto%252Boverturn%252Bban%252Bon%252Bnew%252Boil%252Band%252Bgas%252Blicences%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1m3oGNnH5dYGIjDyVT4an1pQG8LFW8zzzYZfPZdB7wMZHej1-ysozGC89thaUhqpI7Dw6OKjgcBEv8EyCGpDUmNkZW5yWgFDYID6q9WMgf6Ocg
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: burnham-defends-jackdaw-decision-as-badenoch-urges_20261022_0116.html
+✓ Created comprehensive article: burnham-defends-jackdaw-decision-as-badenoch-urges_20261022_0116.html
 
 Processing trending topic: Websites taken down worldwide as critical cyber-security update issued
 Searching Google for: Websites taken down worldwide as critical cyber-security update issued
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWebsites%252Btaken%252Bdown%252Bworldwide%252Bas%252Bcritical%252Bcyber-security%252Bupdate%252Bissued%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9lbCGKPw5NYGIjCAxhhwSOA69DBcDvP7hwLvYljubAUPibY_EK51sz7ChNXIUqEl7yFAcxp6ujdriyUyCGpDUmNkZW5yWgFDYKaCnLzEkcGa8AE
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWebsites%252Btaken%252Bdown%252Bworldwide%252Bas%252Bcritical%252Bcyber-security%252Bupdate%252Bissued%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1m3oGODH5dYGIjCd15JEF8MvfCWVRg2gSLTEgdlbf0HAJ68LrnnwuEo8HGuqYKO2nQXBLSvoFw7Bn7QyCGpDUmNkZW5yWgFDYNm0oMaB386SVQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: websites-taken-down-worldwide-as-critical-cyber-se_20261021_2209.html
-✓ Created comprehensive article: websites-taken-down-worldwide-as-critical-cyber-se_20261021_2209.html
+Successfully created file: websites-taken-down-worldwide-as-critical-cyber-se_20261022_0116.html
+✓ Created comprehensive article: websites-taken-down-worldwide-as-critical-cyber-se_20261022_0116.html
 
-Processing trending topic: Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start
-Searching Google for: Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DReal%252BMadrid%252Brout%252BRB%252BLeipzig%252B4-1%252Bto%252Bcontinue%252Bperfect%252BChampions%252BLeague%252Bstart%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9lbCGKrw5NYGIjDCV0H21VuAfmxguILKg4mO9Nb3b9AREzZEhPAZWH0QWZTogvHAysUvtWpIxG6RnMEyCGpDUmNkZW5yWgFDYIipto_OwZu8ZA
+Processing trending topic: Controversial US-backed vaccine trial in African newborns halted
+Searching Google for: Controversial US-backed vaccine trial in African newborns halted
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DControversial%252BUS-backed%252Bvaccine%252Btrial%252Bin%252BAfrican%252Bnewborns%252Bhalted%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1m3oGObH5dYGIjCXt-j04TWFwFPTK16uh-ehvLS5CzcYiN496be-ulkgIe-cUy3jFlu27JzvYzHZPd0yCGpDUmNkZW5yWgFDYLPvy9DysbrlUg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: real-madrid-rout-rb-leipzig-4-1-to-continue-perfec_20261021_2209.html
-✓ Created comprehensive article: real-madrid-rout-rb-leipzig-4-1-to-continue-perfec_20261021_2209.html
-
-Processing trending topic: Declan Rice grabs Arsenal draw at Bayern Munich in Champions League
-Searching Google for: Declan Rice grabs Arsenal draw at Bayern Munich in Champions League
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDeclan%252BRice%252Bgrabs%252BArsenal%252Bdraw%252Bat%252BBayern%252BMunich%252Bin%252BChampions%252BLeague%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE9lbCGLDw5NYGIjDf7oHjrEClknx3ijCwA5BGmK-FDwUwYT-M-YypsJv87ei2ZIBfjfazo4Ms551U_nAyCGpDUmNkZW5yWgFDYOzK1OOwr62ciwE
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: declan-rice-grabs-arsenal-draw-at-bayern-munich-in_20261021_2209.html
-✓ Created comprehensive article: declan-rice-grabs-arsenal-draw-at-bayern-munich-in_20261021_2209.html
+Successfully created file: controversial-us-backed-vaccine-trial-in-african-n_20261022_0116.html
+✓ Created comprehensive article: controversial-us-backed-vaccine-trial-in-african-n_20261022_0116.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pakistani-authorities-arrest-man-accused-in-126m-u_20261021_1329.html
-Cleaned old post to keep top 30 limit: google-staff-resign-in-backlash-over-its-ai-contra_20261021_1826.html
-Cleaned old post to keep top 30 limit: burnham-defends-jackdaw-decision-as-badenoch-urges_20261021_1826.html
+Cleaned old post to keep top 30 limit: real-madrid-rout-rb-leipzig-4-1-to-continue-perfec_20261021_2209.html
+Cleaned old post to keep top 30 limit: declan-rice-grabs-arsenal-draw-at-bayern-munich-in_20261021_2209.html
+Cleaned old post to keep top 30 limit: controversial-us-backed-vaccine-trial-in-african-n_20261021_1827.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences
+     Sources: bbc.com, cnn.com, reuters.com
    • Websites taken down worldwide as critical cyber-security update issued
      Sources: bbc.com, cnn.com, reuters.com
-   • Real Madrid rout RB Leipzig 4-1 to continue perfect Champions League start
-     Sources: bbc.com, cnn.com, reuters.com
-   • Declan Rice grabs Arsenal draw at Bayern Munich in Champions League
+   • Controversial US-backed vaccine trial in African newborns halted
      Sources: bbc.com, cnn.com, reuters.com
