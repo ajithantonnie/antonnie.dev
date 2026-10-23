@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns public
-  Added: Race to update services' computer systems after cyber-security flaw found
+  Added: Detective raped by colleague says Met handling of case 'like being raped again'
+  Added: Watch: Met chief Rowley not fit for job, says detective raped by colleague
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-23
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: How the midterms could change Trump’s presidency
+Added expanded search topic: How the midterms could change Trump’s presidency
+Saved 6 topics for 2026-10-23
 Returning 3 unique trending topics:
-  1. Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns public (from BBC News)
-  2. Race to update services' computer systems after cyber-security flaw found (from BBC News)
-  3. Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix (from The Guardian)
+  1. Detective raped by colleague says Met handling of case 'like being raped again' (from BBC News)
+  2. Watch: Met chief Rowley not fit for job, says detective raped by colleague (from BBC News)
+  3. How the midterms could change Trump’s presidency (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns public
-Searching Google for: Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns public
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPrepare%252Bfor%252Bsupply%252Bchain%252Bdisruption%252Bfrom%252Bcyber%252Bor%252Bclimate%252Bemergencies%252C%252BStreeting%252Bwarns%252Bpublic%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCNDGMfq6tYGIjB4ILPx3TuCn9mX8HXL4U0oSgzCDHHOjCny2IqkOVtSjUzf1XlvyHURsBEQpZKhPa4yCGpDUmNkZW5yWgFDYNH8sv2xwqCWSg
+Processing trending topic: Detective raped by colleague says Met handling of case 'like being raped again'
+Searching Google for: Detective raped by colleague says Met handling of case 'like being raped again'
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDetective%252Braped%252Bby%252Bcolleague%252Bsays%252BMet%252Bhandling%252Bof%252Bcase%252B%2527like%252Bbeing%252Braped%252Bagain%2527%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNWX5EGOCO7NYGIjDJhc5uqajNCxSTbPF63gRPg8nwmRKx008UyYWwJfEC_Gv0BeD6GuLAeZvEJcPK9lAyCGpDUmNkZW5yWgFDYMTc7uqn8qLVdA
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: prepare-for-supply-chain-disruption-from-cyber-or-_20261023_0115.html
-✓ Created comprehensive article: prepare-for-supply-chain-disruption-from-cyber-or-_20261023_0115.html
+Successfully created file: detective-raped-by-colleague-says-met-handling-of-_20261023_0706.html
+✓ Created comprehensive article: detective-raped-by-colleague-says-met-handling-of-_20261023_0706.html
 
-Processing trending topic: Race to update services' computer systems after cyber-security flaw found
-Searching Google for: Race to update services' computer systems after cyber-security flaw found
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRace%252Bto%252Bupdate%252Bservices%2527%252Bcomputer%252Bsystems%252Bafter%252Bcyber-security%252Bflaw%252Bfound%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCNDGM7q6tYGIjB7oK1SwgsLSnGf7SEFw0XZCP9OLlPfBO4tjoxpRqKd2yW4frnCcPRoJVMYmLQc2DkyCGpDUmNkZW5yWgFDYLrJwZDqvKCmeA
+Processing trending topic: Watch: Met chief Rowley not fit for job, says detective raped by colleague
+Searching Google for: Watch: Met chief Rowley not fit for job, says detective raped by colleague
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BMet%252Bchief%252BRowley%252Bnot%252Bfit%252Bfor%252Bjob%252C%252Bsays%252Bdetective%252Braped%252Bby%252Bcolleague%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNWX5EGOiO7NYGIjBDhzpPxU0kJvCFYzFVp53YDd7043mhggnYZwZQkIN49g5A3eQ0kJkqFtDDZ2SLbuwyCGpDUmNkZW5yWgFDYKO4mYCN-4yznwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: race-to-update-services-computer-systems-after-cyb_20261023_0116.html
-✓ Created comprehensive article: race-to-update-services-computer-systems-after-cyb_20261023_0116.html
+Successfully created file: watch-met-chief-rowley-not-fit-for-job-says-detect_20261023_0706.html
+✓ Created comprehensive article: watch-met-chief-rowley-not-fit-for-job-says-detect_20261023_0706.html
 
-Processing trending topic: Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix
-Searching Google for: Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLewis%252BHamilton%252Baims%252Bto%252Bextend%252Bcareer%252Btill%252Bearly%252B2030s%252Bso%252Bhe%252Bcan%252Brace%252Bin%252BAfrican%252BGrand%252BPrix%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSExCNDGNTq6tYGIjAH0HWEAfmqD-LUBfy_V3P5-vG9pKcKKEae0NeauQoJsBi0SkrjBsjRigl0W7djg4oyCGpDUmNkZW5yWgFDYO-ltbG8lr7A2wE
+Processing trending topic: How the midterms could change Trump’s presidency
+Searching Google for: How the midterms could change Trump’s presidency
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHow%252Bthe%252Bmidterms%252Bcould%252Bchange%252BTrump%25E2%2580%2599s%252Bpresidency%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQNWX5EGO6O7NYGIjCUndpU1kO7fSWWeiHg710qAWu-JgdzZ4eLDZQKElFSgGCIZVsFgU7X-NwmB8nq4foyCGpDUmNkZW5yWgFDYP-0u5_civjbAg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lewis-hamilton-aims-to-extend-career-till-early-20_20261023_0116.html
-✓ Created comprehensive article: lewis-hamilton-aims-to-extend-career-till-early-20_20261023_0116.html
+Successfully created file: how-the-midterms-could-change-trumps-presidency_20261023_0706.html
+✓ Created comprehensive article: how-the-midterms-could-change-trumps-presidency_20261023_0706.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: maradona-doctor-was-made-scapegoat-for-his-death-a_20261022_1330.html
-Cleaned old post to keep top 30 limit: michigan-voters-closely-divided-between-rogers-and_20261022_2209.html
-Cleaned old post to keep top 30 limit: lewis-hamilton-aims-to-extend-career-till-early-20_20261022_2209.html
+Cleaned old post to keep top 30 limit: prepare-for-supply-chain-disruption-from-cyber-or-_20261022_1820.html
+Cleaned old post to keep top 30 limit: race-to-update-services-computer-systems-after-cyb_20261023_0116.html
+Cleaned old post to keep top 30 limit: lewis-hamilton-aims-to-extend-career-till-early-20_20261023_0116.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns public
+   • Detective raped by colleague says Met handling of case 'like being raped again'
      Sources: bbc.com, cnn.com, reuters.com
-   • Race to update services' computer systems after cyber-security flaw found
+   • Watch: Met chief Rowley not fit for job, says detective raped by colleague
      Sources: bbc.com, cnn.com, reuters.com
-   • Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix
+   • How the midterms could change Trump’s presidency
      Sources: bbc.com, cnn.com, reuters.com
