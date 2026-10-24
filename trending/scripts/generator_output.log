@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Met Police says letter with claims about Meghan's father not shared with other law enforcement
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Mystery over source of Ebola infection in Nigeria fuels concern about spread of virus
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Is Iran planning attacks on Americans; why is the US on alert?
-Added expanded search topic: Is Iran planning attacks on Americans; why is the US on alert?
-Saved 9 topics for 2026-10-24
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump says he may move White House press corps to new location
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: About 25,000 rally in Madrid in support of Spain’s state pension scheme
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Serbian elections: A country where students may actually take power
+Added expanded search topic: Trump says he may move White House press corps to new location
+Added expanded search topic: About 25,000 rally in Madrid in support of Spain’s state pension scheme
+Added expanded search topic: Serbian elections: A country where students may actually take power
+Saved 12 topics for 2026-10-24
 Returning 3 unique trending topics:
-  1. Met Police says letter with claims about Meghan's father not shared with other law enforcement (from BBC News)
-  2. Plan for Northern Olympics to get £7m in Healey's Budget (from BBC News)
-  3. Is Iran planning attacks on Americans; why is the US on alert? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Trump says he may move White House press corps to new location (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. About 25,000 rally in Madrid in support of Spain’s state pension scheme (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Serbian elections: A country where students may actually take power (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Met Police says letter with claims about Meghan's father not shared with other law enforcement
-Searching Google for: Met Police says letter with claims about Meghan's father not shared with other law enforcement
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMet%252BPolice%252Bsays%252Bletter%252Bwith%252Bclaims%252Babout%252BMeghan%2527s%252Bfather%252Bnot%252Bshared%252Bwith%252Bother%252Blaw%252Benforcement%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbiGOvb8tYGIjDLzvY8NIXKkNY1FIWGrrjIGuZY2WydzjvQe462l6jUdJuT47REMhTv_C-y0ff-tgUyCGpDUmNkZW5yWgFDYMfIgP_Z39vvCw
+Processing trending topic: Trump says he may move White House press corps to new location
+Searching Google for: Trump says he may move White House press corps to new location
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bsays%252Bhe%252Bmay%252Bmove%252BWhite%252BHouse%252Bpress%252Bcorps%252Bto%252Bnew%252Blocation%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I3QGNnP89YGIjC27eG5lkPku_Zb1zJMuxS8nWA7B1XmkfZN4IA3s85Zsiny1AYnMlbnGQ6NNIRzG6YyCGpDUmNkZW5yWgFDYNmJ09KgmsLFlgE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: met-police-says-letter-with-claims-about-meghans-f_20261024_1309.html
-✓ Created comprehensive article: met-police-says-letter-with-claims-about-meghans-f_20261024_1309.html
+Successfully created file: trump-says-he-may-move-white-house-press-corps-to-_20261024_1716.html
+✓ Created comprehensive article: trump-says-he-may-move-white-house-press-corps-to-_20261024_1716.html
 
-Processing trending topic: Plan for Northern Olympics to get £7m in Healey's Budget
-Searching Google for: Plan for Northern Olympics to get £7m in Healey's Budget
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPlan%252Bfor%252BNorthern%252BOlympics%252Bto%252Bget%252B%25C2%25A37m%252Bin%252BHealey%2527s%252BBudget%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbiGPLb8tYGIjDAM0_BgFSmeAX8tfvnJIu3JekAHgZ94Gk8YQ2sGqXn3pqGweyo05LFFr5_MM5XIXwyCGpDUmNkZW5yWgFDYMX57eLS_7mk1gE
+Processing trending topic: About 25,000 rally in Madrid in support of Spain’s state pension scheme
+Searching Google for: About 25,000 rally in Madrid in support of Spain’s state pension scheme
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAbout%252B25%252C000%252Brally%252Bin%252BMadrid%252Bin%252Bsupport%252Bof%252BSpain%25E2%2580%2599s%252Bstate%252Bpension%252Bscheme%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I3QGODP89YGIjCa7Rg4rWRUcRRHJvPCZ6QmuuPoroPkH3sD6eMOF-5HCpQ-OP23nGRdAJRBNIhT7z4yCGpDUmNkZW5yWgFDYNLMv5XFouSQAg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: plan-for-northern-olympics-to-get-7m-in-healeys-bu_20261024_1309.html
-✓ Created comprehensive article: plan-for-northern-olympics-to-get-7m-in-healeys-bu_20261024_1309.html
+Successfully created file: about-25000-rally-in-madrid-in-support-of-spains-s_20261024_1716.html
+✓ Created comprehensive article: about-25000-rally-in-madrid-in-support-of-spains-s_20261024_1716.html
 
-Processing trending topic: Is Iran planning attacks on Americans; why is the US on alert?
-Searching Google for: Is Iran planning attacks on Americans; why is the US on alert?
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIs%252BIran%252Bplanning%252Battacks%252Bon%252BAmericans%253B%252Bwhy%252Bis%252Bthe%252BUS%252Bon%252Balert%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrFbiGPjb8tYGIjCkmpIN39_OL6NUH11z57q_5_X6Y6oZxLNyi1gsPZWgkRj4JlkWtP9erJsCO6mA44QyCGpDUmNkZW5yWgFDYOWKupupvu-Rbw
+Processing trending topic: Serbian elections: A country where students may actually take power
+Searching Google for: Serbian elections: A country where students may actually take power
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSerbian%252Belections%253A%252BA%252Bcountry%252Bwhere%252Bstudents%252Bmay%252Bactually%252Btake%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRA7I3QGOfP89YGIjDfL06azKrIZox-JpycxgPeOgD7cik1vwBkElMFIdQvz02F-sLPb7fYNYAOtTSGMn8yCGpDUmNkZW5yWgFDYLH47qSRqazb3gE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: is-iran-planning-attacks-on-americans-why-is-the-u_20261024_1309.html
-✓ Created comprehensive article: is-iran-planning-attacks-on-americans-why-is-the-u_20261024_1309.html
+Successfully created file: serbian-elections-a-country-where-students-may-act_20261024_1716.html
+✓ Created comprehensive article: serbian-elections-a-country-where-students-may-act_20261024_1716.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: two-re-arrested-on-suspicion-of-assisting-iran-int_20261020_1824.html
-Cleaned old post to keep top 30 limit: met-investigates-reports-of-letter-detailing-claim_20261024_0847.html
-Cleaned old post to keep top 30 limit: france-prepares-for-day-of-protest-a-week-after-na_20261024_0847.html
+Cleaned old post to keep top 30 limit: us-consumer-sentiment-hits-a-near-record-low-befor_20261023_1750.html
+Cleaned old post to keep top 30 limit: plan-for-northern-olympics-to-get-7m-in-healeys-bu_20261024_1309.html
+Cleaned old post to keep top 30 limit: is-iran-planning-attacks-on-americans-why-is-the-u_20261024_1309.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Met Police says letter with claims about Meghan's father not shared with other law enforcement
+   • Trump says he may move White House press corps to new location
      Sources: bbc.com, cnn.com, reuters.com
-   • Plan for Northern Olympics to get £7m in Healey's Budget
+   • About 25,000 rally in Madrid in support of Spain’s state pension scheme
      Sources: bbc.com, cnn.com, reuters.com
-   • Is Iran planning attacks on Americans; why is the US on alert?
+   • Serbian elections: A country where students may actually take power
      Sources: bbc.com, cnn.com, reuters.com
