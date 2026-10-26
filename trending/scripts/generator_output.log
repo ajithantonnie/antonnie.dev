@@ -1,65 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Watch: How Lula turned it around to beat former president's son
-  Added: Clean-up under way as Storm Boelo leaves 90,000 without power
+  Added: Independent review announced into murder of student Henry Nowak
+  Added: Chris Brown given suspended eight-month prison sentence over nightclub attack
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
-  Added: UK poised to miss reduced aid spending target of 0.3% of national income
+  Added: UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’
 Found 3 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-10-26
+Saved 9 topics for 2026-10-26
 Returning 3 unique trending topics:
-  1. Watch: How Lula turned it around to beat former president's son (from BBC News)
-  2. Clean-up under way as Storm Boelo leaves 90,000 without power (from BBC News)
-  3. UK poised to miss reduced aid spending target of 0.3% of national income (from The Guardian)
+  1. Independent review announced into murder of student Henry Nowak (from BBC News)
+  2. Chris Brown given suspended eight-month prison sentence over nightclub attack (from BBC News)
+  3. UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’ (from The Guardian)
 
-Processing trending topic: Watch: How Lula turned it around to beat former president's son
-Searching Google for: Watch: How Lula turned it around to beat former president's son
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BHow%252BLula%252Bturned%252Bit%252Baround%252Bto%252Bbeat%252Bformer%252Bpresident%2527s%252Bson%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i5iGIjC_NYGIjDVw-OsKgdF3rm064YviyG5cmBPK7jBrzyWRbsqsu8RMKv0t4M069FKaqAqur_AGhcyCGpDUmNkZW5yWgFDYOnbofm5y923vwE
+Processing trending topic: Independent review announced into murder of student Henry Nowak
+Searching Google for: Independent review announced into murder of student Henry Nowak
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-how-lula-turned-it-around-to-beat-former-pre_20261026_0944.html
-✓ Created comprehensive article: watch-how-lula-turned-it-around-to-beat-former-pre_20261026_0944.html
+Successfully created file: independent-review-announced-into-murder-of-studen_20261026_1633.html
+✓ Created comprehensive article: independent-review-announced-into-murder-of-studen_20261026_1633.html
 
-Processing trending topic: Clean-up under way as Storm Boelo leaves 90,000 without power
-Searching Google for: Clean-up under way as Storm Boelo leaves 90,000 without power
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DClean-up%252Bunder%252Bway%252Bas%252BStorm%252BBoelo%252Bleaves%252B90%252C000%252Bwithout%252Bpower%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i5iGI7C_NYGIjCONd14i40dTjaQEKZLdOr81H9C9nSnf4vHW5bkzo7JMan69Egb1wyUKFV1PnB9D2oyCGpDUmNkZW5yWgFDYKu6yobX-MjsQQ
+Processing trending topic: Chris Brown given suspended eight-month prison sentence over nightclub attack
+Searching Google for: Chris Brown given suspended eight-month prison sentence over nightclub attack
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: clean-up-under-way-as-storm-boelo-leaves-90000-wit_20261026_0944.html
-✓ Created comprehensive article: clean-up-under-way-as-storm-boelo-leaves-90000-wit_20261026_0944.html
+Successfully created file: chris-brown-given-suspended-eight-month-prison-sen_20261026_1633.html
+✓ Created comprehensive article: chris-brown-given-suspended-eight-month-prison-sen_20261026_1633.html
 
-Processing trending topic: UK poised to miss reduced aid spending target of 0.3% of national income
-Searching Google for: UK poised to miss reduced aid spending target of 0.3% of national income
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bpoised%252Bto%252Bmiss%252Breduced%252Baid%252Bspending%252Btarget%252Bof%252B0.3%2525%252Bof%252Bnational%252Bincome%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs1i5iGJXC_NYGIjCwXIFYlZADJGT2up_6WUPmkG32GUfpsAvX5fM0_wVv6wEug8ZQJY5_n83YJMH2GasyCGpDUmNkZW5yWgFDYODIhLqo8JG0gAE
+Processing trending topic: UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’
+Searching Google for: UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’
+Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: uk-poised-to-miss-reduced-aid-spending-target-of-0_20261026_0944.html
-✓ Created comprehensive article: uk-poised-to-miss-reduced-aid-spending-target-of-0_20261026_0944.html
+Successfully created file: uk-sanctions-sudanese-military-leaders-implicated-_20261026_1634.html
+✓ Created comprehensive article: uk-sanctions-sudanese-military-leaders-implicated-_20261026_1634.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: mystery-over-source-of-ebola-infection-in-nigeria-_20261024_0321.html
-Cleaned old post to keep top 30 limit: two-men-killed-by-falling-trees-as-storm-boelo-lea_20261026_0316.html
-Cleaned old post to keep top 30 limit: lula-wins-but-faces-hostile-congress-and-divided-c_20261026_0316.html
+Cleaned old post to keep top 30 limit: watch-bbc-presenter-battles-strong-winds-as-storm-_20261023_1231.html
+Cleaned old post to keep top 30 limit: mystery-over-source-of-ebola-infection-in-nigeria-_20261026_0316.html
+Cleaned old post to keep top 30 limit: clean-up-under-way-as-storm-boelo-leaves-90000-wit_20261026_0944.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Watch: How Lula turned it around to beat former president's son
+   • Independent review announced into murder of student Henry Nowak
      Sources: bbc.com, cnn.com, reuters.com
-   • Clean-up under way as Storm Boelo leaves 90,000 without power
+   • Chris Brown given suspended eight-month prison sentence over nightclub attack
      Sources: bbc.com, cnn.com, reuters.com
-   • UK poised to miss reduced aid spending target of 0.3% of national income
+   • UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’
      Sources: bbc.com, cnn.com, reuters.com
