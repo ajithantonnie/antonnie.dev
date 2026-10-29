@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Healey unveils £100 for energy bills and bank tax in first Budget
+  Added: Healey promises reduction in welfare bill before next election
   Added: I earn £30,000. I'm angry there was no fuel duty cut in the Budget
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-29
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: El Salvador pledges more than 2,000 soldiers as Haiti delays elections
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle
+Added expanded search topic: El Salvador pledges more than 2,000 soldiers as Haiti delays elections
+Added expanded search topic: Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle
+Saved 6 topics for 2026-10-29
 Returning 3 unique trending topics:
-  1. Healey unveils £100 for energy bills and bank tax in first Budget (from BBC News)
-  2. I earn £30,000. I'm angry there was no fuel duty cut in the Budget (from BBC News)
-  3. Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr (from The Guardian)
+  1. Healey promises reduction in welfare bill before next election (from BBC News)
+  2. El Salvador pledges more than 2,000 soldiers as Haiti delays elections (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Healey unveils £100 for energy bills and bank tax in first Budget
-Searching Google for: Healey unveils £100 for energy bills and bank tax in first Budget
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealey%252Bunveils%252B%25C2%25A3100%252Bfor%252Benergy%252Bbills%252Band%252Bbank%252Btax%252Bin%252Bfirst%252BBudget%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqXiGLfIitcGIjCbJABOPlh-EnCh1Q5NZWc4wypCNduQoI7VnTQLfIfuFHl3L2SYnvL99_0MNZk6fRUyCGpDUmNkZW5yWgFDYOaQ2pjFt4rBxwE
+Processing trending topic: Healey promises reduction in welfare bill before next election
+Searching Google for: Healey promises reduction in welfare bill before next election
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHealey%252Bpromises%252Breduction%252Bin%252Bwelfare%252Bbill%252Bbefore%252Bnext%252Belection%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU3UW4GKz8i9cGIjDfhe9oCW6DAiTgQVlYzQKnTllDfICecVmzCF1EUCxi0lZWXmWz625MI5hLBcE7-ckyCGpDUmNkZW5yWgFDYMq-7O2_xKeL2QE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: healey-unveils-100-for-energy-bills-and-bank-tax-i_20261029_0141.html
-✓ Created comprehensive article: healey-unveils-100-for-energy-bills-and-bank-tax-i_20261029_0141.html
+Successfully created file: healey-promises-reduction-in-welfare-bill-before-n_20261029_0805.html
+✓ Created comprehensive article: healey-promises-reduction-in-welfare-bill-before-n_20261029_0805.html
 
-Processing trending topic: I earn £30,000. I'm angry there was no fuel duty cut in the Budget
-Searching Google for: I earn £30,000. I'm angry there was no fuel duty cut in the Budget
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DI%252Bearn%252B%25C2%25A330%252C000.%252BI%2527m%252Bangry%252Bthere%252Bwas%252Bno%252Bfuel%252Bduty%252Bcut%252Bin%252Bthe%252BBudget%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqXiGL_IitcGIjDcmvyAJ407ezJRTeDlneYz6djMC4Zz3owR5SygKljBnLbGNil6gHHr5VplR2yZejAyCGpDUmNkZW5yWgFDYLKKrtLLhJPBKQ
+Processing trending topic: El Salvador pledges more than 2,000 soldiers as Haiti delays elections
+Searching Google for: El Salvador pledges more than 2,000 soldiers as Haiti delays elections
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEl%252BSalvador%252Bpledges%252Bmore%252Bthan%252B2%252C000%252Bsoldiers%252Bas%252BHaiti%252Bdelays%252Belections%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU3UW4GLP8i9cGIjBVJVsNyZNV46zXbK0vhpsPwaUqxSmMbctLZlEFqofBOG-V6HN4z21jOFhZLFVENoYyCGpDUmNkZW5yWgFDYNThjLbWkPuokwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-earn-30000-im-angry-there-was-no-fuel-duty-cut-i_20261029_0141.html
-✓ Created comprehensive article: i-earn-30000-im-angry-there-was-no-fuel-duty-cut-i_20261029_0141.html
+Successfully created file: el-salvador-pledges-more-than-2000-soldiers-as-hai_20261029_0805.html
+✓ Created comprehensive article: el-salvador-pledges-more-than-2000-soldiers-as-hai_20261029_0805.html
 
-Processing trending topic: Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr
-Searching Google for: Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEgypt%252Bfines%252Bprominent%252Beditor%252BLina%252BAttalah%252Band%252Bshuts%252Bindependent%252Bnews%252Boutlet%252BMada%252BMasr%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsrqXiGMXIitcGIjDFhpmOtWI9iQULYXF5Mth1MI8Uji09mFpmM9h0JFiNFcAjbgluKCLz-wqJmbmTXSYyCGpDUmNkZW5yWgFDYKfMs4zu1pqRUA
+Processing trending topic: Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle
+Searching Google for: Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStephen%252BCurry%252C%252BWarriors%252Bhold%252Bnerve%252Bto%252Bbeat%252BTimberwolves%252Bin%252Btight%252BNBA%252Bbattle%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQU3UW4GLn8i9cGIjB8Kn_gIRmWQWz4fUOEWJdEw4eHBTEPSZu-QZ1MRr2vqjY3CduPpELbSQQUyXo_6kcyCGpDUmNkZW5yWgFDYNOdmPGR5LTaAw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: egypt-fines-prominent-editor-lina-attalah-and-shut_20261029_0141.html
-✓ Created comprehensive article: egypt-fines-prominent-editor-lina-attalah-and-shut_20261029_0141.html
+Successfully created file: stephen-curry-warriors-hold-nerve-to-beat-timberwo_20261029_0805.html
+✓ Created comprehensive article: stephen-curry-warriors-hold-nerve-to-beat-timberwo_20261029_0805.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: uk-sanctions-sudanese-military-leaders-implicated-_20261028_0402.html
-Cleaned old post to keep top 30 limit: us-universities-are-failing-to-protect-victims-of-_20261022_0709.html
-Cleaned old post to keep top 30 limit: egypt-fines-prominent-editor-lina-attalah-and-shut_20261028_1704.html
+Cleaned old post to keep top 30 limit: what-we-know-about-raf-fairford-counter-terror-pro_20260928_1037.html
+Cleaned old post to keep top 30 limit: what-we-know-about-raf-fairford-counter-terror-pro_20260927_2100.html
+Cleaned old post to keep top 30 limit: egypt-fines-prominent-editor-lina-attalah-and-shut_20261029_0141.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Healey unveils £100 for energy bills and bank tax in first Budget
+   • Healey promises reduction in welfare bill before next election
      Sources: bbc.com, cnn.com, reuters.com
-   • I earn £30,000. I'm angry there was no fuel duty cut in the Budget
+   • El Salvador pledges more than 2,000 soldiers as Haiti delays elections
      Sources: bbc.com, cnn.com, reuters.com
-   • Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr
+   • Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle
      Sources: bbc.com, cnn.com, reuters.com
