@@ -1,65 +1,71 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US approves sale of 500 Patriot missiles to Ukraine
-  Added: Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
+  Added: Burnham 'open' to calls for slavery apology but not reparations
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-10-31
+Found 1 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 2
+Need 2 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Hakimi’s hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea
+Added expanded search topic: Hakimi’s hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1
+Added expanded search topic: US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea
+Saved 6 topics for 2026-10-31
 Returning 3 unique trending topics:
-  1. US approves sale of 500 Patriot missiles to Ukraine (from BBC News)
-  2. Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea (from BBC News)
-  3. Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg (from The Guardian)
+  1. Burnham 'open' to calls for slavery apology but not reparations (from BBC News)
+  2. Hakimi’s hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US approves sale of 500 Patriot missiles to Ukraine
-Searching Google for: US approves sale of 500 Patriot missiles to Ukraine
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Burnham 'open' to calls for slavery apology but not reparations
+Searching Google for: Burnham 'open' to calls for slavery apology but not reparations
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DBurnham%252B%2527open%2527%252Bto%252Bcalls%252Bfor%252Bslavery%252Bapology%252Bbut%252Bnot%252Breparations%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSeFxNhGLzLltcGIjAVB52YNGc6OsNEqjNXfkGDFWj2sAGnO4WYd1jGKha2iydBXxRPNScMQHakj3p5pNEyCGpDUmNkZW5yWgFDYMPtsNaN8sijYw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-approves-sale-of-500-patriot-missiles-to-ukrain_20261031_0203.html
-✓ Created comprehensive article: us-approves-sale-of-500-patriot-missiles-to-ukrain_20261031_0203.html
+Successfully created file: burnham-open-to-calls-for-slavery-apology-but-not-_20261031_0824.html
+✓ Created comprehensive article: burnham-open-to-calls-for-slavery-apology-but-not-_20261031_0824.html
 
-Processing trending topic: Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
-Searching Google for: Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: Hakimi’s hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1
+Searching Google for: Hakimi’s hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHakimi%25E2%2580%2599s%252Bhat-trick%252Bguides%252BPSG%252Bto%252Bstunning%252B5-1%252Bwin%252Bat%252BLe%252BHavre%252Bin%252BLigue%252B1%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSeFxNhGMXLltcGIjAmbFH1Jc-XC7KwYyRreFEvCiDJv59fwLvr3X0ElZk3UMjUBOzmdCLr1kZey2-L6DEyCGpDUmNkZW5yWgFDYJCu1b3Rrs_cNQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: crypto-giant-binance-attempting-to-recover-63bn-st_20261031_0203.html
-✓ Created comprehensive article: crypto-giant-binance-attempting-to-recover-63bn-st_20261031_0203.html
+Successfully created file: hakimis-hat-trick-guides-psg-to-stunning-5-1-win-a_20261031_0824.html
+✓ Created comprehensive article: hakimis-hat-trick-guides-psg-to-stunning-5-1-win-a_20261031_0824.html
 
-Processing trending topic: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
-Searching Google for: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
-Google search failed: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Processing trending topic: US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea
+Searching Google for: US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252C%252BSouth%252BKorea%252C%252BJapan%252Bcall%252Bfor%252B%25E2%2580%2598complete%252Bdenuclearisation%25E2%2580%2599%252Bof%252BNorth%252BKorea%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSeFxNhGMzLltcGIjB_xgjFrDwm2RRVN-so7wZtzq7LPgjF9iXD_2rcX8tSbh1Kc5YgaLRKGXtD03RZM7cyCGpDUmNkZW5yWgFDYO3v44Tb6OD8mAE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: sinkholes-scarred-land-and-scapegoats-the-scourge-_20261031_0204.html
-✓ Created comprehensive article: sinkholes-scarred-land-and-scapegoats-the-scourge-_20261031_0204.html
+Successfully created file: us-south-korea-japan-call-for-complete-denuclearis_20261031_0824.html
+✓ Created comprehensive article: us-south-korea-japan-call-for-complete-denuclearis_20261031_0824.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russia-jails-it-worker-for-13-years-for-donating-m_20261027_1920.html
-Cleaned old post to keep top 30 limit: healey-unveils-100-for-energy-bills-and-bank-tax-i_20261029_0141.html
-Cleaned old post to keep top 30 limit: swiss-supreme-court-upholds-liberian-ex-rebel-comm_20261030_2259.html
+Cleaned old post to keep top 30 limit: palestinians-injured-arrested-in-israeli-raids-acr_20261029_2056.html
+Cleaned old post to keep top 30 limit: melania-or-the-pope-who-brokered-russia-ukraine-ce_20261027_1402.html
+Cleaned old post to keep top 30 limit: crypto-giant-binance-attempting-to-recover-63bn-st_20261031_0203.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US approves sale of 500 Patriot missiles to Ukraine
+   • Burnham 'open' to calls for slavery apology but not reparations
      Sources: bbc.com, cnn.com, reuters.com
-   • Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
+   • Hakimi’s hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1
      Sources: bbc.com, cnn.com, reuters.com
-   • Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
+   • US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea
      Sources: bbc.com, cnn.com, reuters.com
