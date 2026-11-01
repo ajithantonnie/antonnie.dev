@@ -1,71 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 12 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: 'We came back from hell', say Ukrainians after years in Russia-occupied front-line city
+  Added: Shops looted as German cost of living protests turn violent
   Added: Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
-Found 1 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 2
-Need 2 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Dutch authorities rescue 38 people adrift in rubber boat
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Trump loses legal battle over Epstein-linked Wall Street Journal case
-Added expanded search topic: Dutch authorities rescue 38 people adrift in rubber boat
-Added expanded search topic: Trump loses legal battle over Epstein-linked Wall Street Journal case
-Saved 15 topics for 2026-10-31
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-11-01
 Returning 3 unique trending topics:
-  1. Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers (from BBC News)
-  2. Dutch authorities rescue 38 people adrift in rubber boat (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
-  3. Trump loses legal battle over Epstein-linked Wall Street Journal case (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Shops looted as German cost of living protests turn violent (from BBC News)
+  2. Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers (from BBC News)
+  3. Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg (from The Guardian)
+
+Processing trending topic: Shops looted as German cost of living protests turn violent
+Searching Google for: Shops looted as German cost of living protests turn violent
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DShops%252Blooted%252Bas%252BGerman%252Bcost%252Bof%252Bliving%252Bprotests%252Bturn%252Bviolent%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sHgGM7_mtcGIjAzFwiXp2FIsJPHiAgzZtzJyVMcNXaLb57H9jjIiKPrT7FJlmtLkSPDXbhDk22_NDAyCGpDUmNkZW5yWgFDYM7EhLWW9aTU6wE
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: shops-looted-as-german-cost-of-living-protests-tur_20261101_0428.html
+✓ Created comprehensive article: shops-looted-as-german-cost-of-living-protests-tur_20261101_0428.html
 
 Processing trending topic: Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
 Searching Google for: Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLaura%252BKuenssberg%253A%252BHealey%252Brisks%252Bbreaking%252Bminimum%252Bwage%252Bpromise%252Bfor%252Byounger%252Bworkers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmz-zGM7pmdcGIjBXqfvmYQDL9tJ551e-LXaWQRI11XGMID5q19J4rteFVdkduUjar7CP5NK63goPyH4yCGpDUmNkZW5yWgFDYIKQ67_hlM2yag
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLaura%252BKuenssberg%253A%252BHealey%252Brisks%252Bbreaking%252Bminimum%252Bwage%252Bpromise%252Bfor%252Byounger%252Bworkers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sHgGNX_mtcGIjBk49Gz6prKbvUPvQuYRQgiL9GXerKsQKFL_7h4dq9C9BcJdzt8l8yCXicsCBiAN7MyCGpDUmNkZW5yWgFDYPqKlNqRi6G7kwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: laura-kuenssberg-healey-risks-breaking-minimum-wag_20261031_2308.html
-✓ Created comprehensive article: laura-kuenssberg-healey-risks-breaking-minimum-wag_20261031_2308.html
+Successfully created file: laura-kuenssberg-healey-risks-breaking-minimum-wag_20261101_0428.html
+✓ Created comprehensive article: laura-kuenssberg-healey-risks-breaking-minimum-wag_20261101_0428.html
 
-Processing trending topic: Dutch authorities rescue 38 people adrift in rubber boat
-Searching Google for: Dutch authorities rescue 38 people adrift in rubber boat
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDutch%252Bauthorities%252Brescue%252B38%252Bpeople%252Badrift%252Bin%252Brubber%252Bboat%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmz-zGNXpmdcGIjDDPGapsIb5YVS9OIh28Nv1apDx2Gm4m1kEy29p1A3KcyyC5CLhYBCZDL_qcByHMUEyCGpDUmNkZW5yWgFDYLurttbqpayawAE
+Processing trending topic: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
+Searching Google for: Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSinkholes%252C%252Bscarred%252Bland%252Band%252Bscapegoats%253A%252Bthe%252Bscourge%252Bof%252Billegal%252Bgold%252Bmining%252Bin%252BJohannesburg%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQE8sHgGNv_mtcGIjCvYxhoAcLhXhyDMzsw6y_BEiewesltnUSq-KsCxS0wtkXEA8xnRyd7cd5L8tvOV_cyCGpDUmNkZW5yWgFDYPj4n_vTuoHKPw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: dutch-authorities-rescue-38-people-adrift-in-rubbe_20261031_2308.html
-✓ Created comprehensive article: dutch-authorities-rescue-38-people-adrift-in-rubbe_20261031_2308.html
-
-Processing trending topic: Trump loses legal battle over Epstein-linked Wall Street Journal case
-Searching Google for: Trump loses legal battle over Epstein-linked Wall Street Journal case
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DTrump%252Bloses%252Blegal%252Bbattle%252Bover%252BEpstein-linked%252BWall%252BStreet%252BJournal%252Bcase%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQEmz-zGNvpmdcGIjDjesa_40Eo9yFAJCoHjUfNtrrLpWo6FopuaV47mhpa6m6PhPTXqSlP7w7lp31kZ68yCGpDUmNkZW5yWgFDYOLIsLfnt4ucfw
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: trump-loses-legal-battle-over-epstein-linked-wall-_20261031_2308.html
-✓ Created comprehensive article: trump-loses-legal-battle-over-epstein-linked-wall-_20261031_2308.html
+Successfully created file: sinkholes-scarred-land-and-scapegoats-the-scourge-_20261101_0428.html
+✓ Created comprehensive article: sinkholes-scarred-land-and-scapegoats-the-scourge-_20261101_0428.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: how-vulnerable-are-cryptocurrency-platforms_20261031_1947.html
-Cleaned old post to keep top 30 limit: syria-considering-entry-into-mecca-defence-pact-sa_20261031_1505.html
-Cleaned old post to keep top 30 limit: emotional-reunions-with-loved-ones-for-oleshky-eva_20261031_1947.html
+Cleaned old post to keep top 30 limit: us-removes-all-bombers-from-raf-fairford-base_20261004_2249.html
+Cleaned old post to keep top 30 limit: we-came-back-from-hell-say-ukrainians-after-years-_20261031_1947.html
+Cleaned old post to keep top 30 limit: dutch-authorities-rescue-38-people-adrift-in-rubbe_20261031_2308.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Shops looted as German cost of living protests turn violent
+     Sources: bbc.com, cnn.com, reuters.com
    • Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers
      Sources: bbc.com, cnn.com, reuters.com
-   • Dutch authorities rescue 38 people adrift in rubber boat
-     Sources: bbc.com, cnn.com, reuters.com
-   • Trump loses legal battle over Epstein-linked Wall Street Journal case
+   • Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg
      Sources: bbc.com, cnn.com, reuters.com
