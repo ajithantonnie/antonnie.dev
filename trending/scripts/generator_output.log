@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: Nvidia launches investigation into CEO's affair with suspected Chinese spy
   Added: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
-  Added: King leads solemn Remembrance Sunday service at Cenotaph
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Collision of two trains in Egypt kills at least seven
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Al Jazeera tries Baseball5 at Youth Olympics
-Added expanded search topic: Al Jazeera tries Baseball5 at Youth Olympics
-Saved 12 topics for 2026-11-08
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-11-09
 Returning 3 unique trending topics:
-  1. Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says (from BBC News)
-  2. Collision of two trains in Egypt kills at least seven (from The Guardian)
-  3. Al Jazeera tries Baseball5 at Youth Olympics (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Nvidia launches investigation into CEO's affair with suspected Chinese spy (from BBC News)
+  2. Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says (from BBC News)
+  3. Collision of two trains in Egypt kills at least seven (from The Guardian)
+
+Processing trending topic: Nvidia launches investigation into CEO's affair with suspected Chinese spy
+Searching Google for: Nvidia launches investigation into CEO's affair with suspected Chinese spy
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNvidia%252Blaunches%252Binvestigation%252Binto%252BCEO%2527s%252Baffair%252Bwith%252Bsuspected%252BChinese%252Bspy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoVNhRGPmqxNcGIjCIDWrK_0L84k5viasxz0gJeI9fANLDlnnZxIv_8mdgXUVRNGW6St3Jzo6KCDtIOoQyCGpDUmNkZW5yWgFDYOirt7Kk5pK3xQE
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: nvidia-launches-investigation-into-ceos-affair-wit_20261109_0036.html
+✓ Created comprehensive article: nvidia-launches-investigation-into-ceos-affair-wit_20261109_0036.html
 
 Processing trending topic: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
 Searching Google for: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurgeon%252Bhaving%252Blunch%252Bnear%252BKrakow%252Bshooting%252Bundoubtedly%252Bsaved%252Bofficer%2527s%252Blife%252C%252Bcolleague%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRKsz_2GNaww9cGIjAY7mJZarubEQZ2l6qxKCfUTKPT8ytQNZ3dhtgoAahLJPNgA_MKtdYu_IpzUGCZdkoyCGpDUmNkZW5yWgFDYMPuqPij4c3YZw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurgeon%252Bhaving%252Blunch%252Bnear%252BKrakow%252Bshooting%252Bundoubtedly%252Bsaved%252Bofficer%2527s%252Blife%252C%252Bcolleague%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoVNhRGICrxNcGIjCeKi4SF-Bh5C_ZlazTR2gn_yv4xO7vMwSV7bKOY9Hmhflly1RHfVemEB27RvC9oP8yCGpDUmNkZW5yWgFDYL2W8Lf--6C0MQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: surgeon-having-lunch-near-krakow-shooting-undoubte_20261108_2015.html
-✓ Created comprehensive article: surgeon-having-lunch-near-krakow-shooting-undoubte_20261108_2015.html
+Successfully created file: surgeon-having-lunch-near-krakow-shooting-undoubte_20261109_0036.html
+✓ Created comprehensive article: surgeon-having-lunch-near-krakow-shooting-undoubte_20261109_0036.html
 
 Processing trending topic: Collision of two trains in Egypt kills at least seven
 Searching Google for: Collision of two trains in Egypt kills at least seven
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCollision%252Bof%252Btwo%252Btrains%252Bin%252BEgypt%252Bkills%252Bat%252Bleast%252Bseven%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRKsz_2GN2ww9cGIjDFOkKggaZ8BSYmu2mYjUnxyjFEtCCV5x_MQhDk7hs4ndMdCwMmje8_1psWQsRZtu4yCGpDUmNkZW5yWgFDYO_0xeeM_LKQwwE
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCollision%252Bof%252Btwo%252Btrains%252Bin%252BEgypt%252Bkills%252Bat%252Bleast%252Bseven%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoVNhRGIerxNcGIjD4CjpHOxd2SR7y1RwKJmF_k1liDFV9BI-lS7YD4F7buVWIppgD0HeOsF56Y4AgEG0yCGpDUmNkZW5yWgFDYKrukNuMqabJJg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: collision-of-two-trains-in-egypt-kills-at-least-se_20261108_2015.html
-✓ Created comprehensive article: collision-of-two-trains-in-egypt-kills-at-least-se_20261108_2015.html
-
-Processing trending topic: Al Jazeera tries Baseball5 at Youth Olympics
-Searching Google for: Al Jazeera tries Baseball5 at Youth Olympics
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAl%252BJazeera%252Btries%252BBaseball5%252Bat%252BYouth%252BOlympics%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgRKsz_2GOSww9cGIjBogboOK38FKJE9FAy-gLJ8-0RdXIciES_7rnxRHJyZG5EGsvBOqWiB_vPWWs7d_RAyCGpDUmNkZW5yWgFDYM7n99PH_P3HwwE
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: al-jazeera-tries-baseball5-at-youth-olympics_20261108_2015.html
-✓ Created comprehensive article: al-jazeera-tries-baseball5-at-youth-olympics_20261108_2015.html
+Successfully created file: collision-of-two-trains-in-egypt-kills-at-least-se_20261109_0036.html
+✓ Created comprehensive article: collision-of-two-trains-in-egypt-kills-at-least-se_20261109_0036.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: painful-years-ahead-think-tanks-warn-as-living-sta_20261029_2056.html
-Cleaned old post to keep top 30 limit: king-leads-solemn-remembrance-sunday-service-at-ce_20261108_1551.html
-Cleaned old post to keep top 30 limit: how-african-philosophies-inspired-a-new-approach-t_20261108_1551.html
+Cleaned old post to keep top 30 limit: surgeon-having-lunch-near-krakow-shooting-undoubte_20261108_2015.html
+Cleaned old post to keep top 30 limit: collision-of-two-trains-in-egypt-kills-at-least-se_20261108_2015.html
+Cleaned old post to keep top 30 limit: al-jazeera-tries-baseball5-at-youth-olympics_20261108_2015.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • Nvidia launches investigation into CEO's affair with suspected Chinese spy
+     Sources: bbc.com, cnn.com, reuters.com
    • Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
      Sources: bbc.com, cnn.com, reuters.com
    • Collision of two trains in Egypt kills at least seven
-     Sources: bbc.com, cnn.com, reuters.com
-   • Al Jazeera tries Baseball5 at Youth Olympics
      Sources: bbc.com, cnn.com, reuters.com
