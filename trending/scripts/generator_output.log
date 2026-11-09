@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Nvidia launches investigation into CEO's affair with suspected Chinese spy
-  Added: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
+  Added: Will Jensen Huang’s rockstar reputation survive after scandal?
+  Added: Inside the French drug gangs recruiting children to kill
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Collision of two trains in Egypt kills at least seven
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-11-09
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Which countries and industries emit the most greenhouse gases?
+Added expanded search topic: Which countries and industries emit the most greenhouse gases?
+Saved 6 topics for 2026-11-09
 Returning 3 unique trending topics:
-  1. Nvidia launches investigation into CEO's affair with suspected Chinese spy (from BBC News)
-  2. Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says (from BBC News)
-  3. Collision of two trains in Egypt kills at least seven (from The Guardian)
+  1. Will Jensen Huang’s rockstar reputation survive after scandal? (from BBC News)
+  2. Inside the French drug gangs recruiting children to kill (from BBC News)
+  3. Which countries and industries emit the most greenhouse gases? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Nvidia launches investigation into CEO's affair with suspected Chinese spy
-Searching Google for: Nvidia launches investigation into CEO's affair with suspected Chinese spy
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNvidia%252Blaunches%252Binvestigation%252Binto%252BCEO%2527s%252Baffair%252Bwith%252Bsuspected%252BChinese%252Bspy%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoVNhRGPmqxNcGIjCIDWrK_0L84k5viasxz0gJeI9fANLDlnnZxIv_8mdgXUVRNGW6St3Jzo6KCDtIOoQyCGpDUmNkZW5yWgFDYOirt7Kk5pK3xQE
+Processing trending topic: Will Jensen Huang’s rockstar reputation survive after scandal?
+Searching Google for: Will Jensen Huang’s rockstar reputation survive after scandal?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWill%252BJensen%252BHuang%25E2%2580%2599s%252Brockstar%252Breputation%252Bsurvive%252Bafter%252Bscandal%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg0cfGO_yxdcGIjAS8_p7xsP29-ZSUuz5dAN7Q6GTrqQyQeFy__q53VTjecGo50c16KE1F-qj7sz5DzwyCGpDUmNkZW5yWgFDYN2T-MSojvGe2QE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: nvidia-launches-investigation-into-ceos-affair-wit_20261109_0036.html
-✓ Created comprehensive article: nvidia-launches-investigation-into-ceos-affair-wit_20261109_0036.html
+Successfully created file: will-jensen-huangs-rockstar-reputation-survive-aft_20261109_0742.html
+✓ Created comprehensive article: will-jensen-huangs-rockstar-reputation-survive-aft_20261109_0742.html
 
-Processing trending topic: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
-Searching Google for: Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSurgeon%252Bhaving%252Blunch%252Bnear%252BKrakow%252Bshooting%252Bundoubtedly%252Bsaved%252Bofficer%2527s%252Blife%252C%252Bcolleague%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoVNhRGICrxNcGIjCeKi4SF-Bh5C_ZlazTR2gn_yv4xO7vMwSV7bKOY9Hmhflly1RHfVemEB27RvC9oP8yCGpDUmNkZW5yWgFDYL2W8Lf--6C0MQ
+Processing trending topic: Inside the French drug gangs recruiting children to kill
+Searching Google for: Inside the French drug gangs recruiting children to kill
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DInside%252Bthe%252BFrench%252Bdrug%252Bgangs%252Brecruiting%252Bchildren%252Bto%252Bkill%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg0cfGPXyxdcGIjBXLSpe7ovS_AYCsS8gXC4XyTgAqHHe5tCw5DPl1Ji6quVcwLksRnRUbnGxUdof-_wyCGpDUmNkZW5yWgFDYNefxZi6oquoUg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: surgeon-having-lunch-near-krakow-shooting-undoubte_20261109_0036.html
-✓ Created comprehensive article: surgeon-having-lunch-near-krakow-shooting-undoubte_20261109_0036.html
+Successfully created file: inside-the-french-drug-gangs-recruiting-children-t_20261109_0742.html
+✓ Created comprehensive article: inside-the-french-drug-gangs-recruiting-children-t_20261109_0742.html
 
-Processing trending topic: Collision of two trains in Egypt kills at least seven
-Searching Google for: Collision of two trains in Egypt kills at least seven
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCollision%252Bof%252Btwo%252Btrains%252Bin%252BEgypt%252Bkills%252Bat%252Bleast%252Bseven%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQoVNhRGIerxNcGIjD4CjpHOxd2SR7y1RwKJmF_k1liDFV9BI-lS7YD4F7buVWIppgD0HeOsF56Y4AgEG0yCGpDUmNkZW5yWgFDYKrukNuMqabJJg
+Processing trending topic: Which countries and industries emit the most greenhouse gases?
+Searching Google for: Which countries and industries emit the most greenhouse gases?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhich%252Bcountries%252Band%252Bindustries%252Bemit%252Bthe%252Bmost%252Bgreenhouse%252Bgases%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSCg0cfGPvyxdcGIjDuAStpnMZaDvUHIJ1BBOQ2Rqt9Q71TFZgC3-us_7WKf5DetTQ6whZ9gBEi4sOcm2wyCGpDUmNkZW5yWgFDYIuM2qeY9cOJfQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: collision-of-two-trains-in-egypt-kills-at-least-se_20261109_0036.html
-✓ Created comprehensive article: collision-of-two-trains-in-egypt-kills-at-least-se_20261109_0036.html
+Successfully created file: which-countries-and-industries-emit-the-most-green_20261109_0742.html
+✓ Created comprehensive article: which-countries-and-industries-emit-the-most-green_20261109_0742.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: surgeon-having-lunch-near-krakow-shooting-undoubte_20261108_2015.html
-Cleaned old post to keep top 30 limit: collision-of-two-trains-in-egypt-kills-at-least-se_20261108_2015.html
-Cleaned old post to keep top 30 limit: al-jazeera-tries-baseball5-at-youth-olympics_20261108_2015.html
+Cleaned old post to keep top 30 limit: watch-royals-and-veterans-reflect-at-remembrance-c_20261108_1551.html
+Cleaned old post to keep top 30 limit: surgeon-having-lunch-near-krakow-shooting-undoubte_20261109_0036.html
+Cleaned old post to keep top 30 limit: collision-of-two-trains-in-egypt-kills-at-least-se_20261109_0036.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Nvidia launches investigation into CEO's affair with suspected Chinese spy
+   • Will Jensen Huang’s rockstar reputation survive after scandal?
      Sources: bbc.com, cnn.com, reuters.com
-   • Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says
+   • Inside the French drug gangs recruiting children to kill
      Sources: bbc.com, cnn.com, reuters.com
-   • Collision of two trains in Egypt kills at least seven
+   • Which countries and industries emit the most greenhouse gases?
      Sources: bbc.com, cnn.com, reuters.com
