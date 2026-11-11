@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
-Added expanded search topic: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
-Saved 6 topics for 2026-11-11
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Spain faces nationwide protests over soaring housing costs
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Portugal cancels more than 300 flights, shuts schools due to Storm Charles
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Can Democrats shed some new light on the Epstein files when they take over?
+Added expanded search topic: Spain faces nationwide protests over soaring housing costs
+Added expanded search topic: Portugal cancels more than 300 flights, shuts schools due to Storm Charles
+Added expanded search topic: Can Democrats shed some new light on the Epstein files when they take over?
+Saved 9 topics for 2026-11-11
 Returning 3 unique trending topics:
-  1. Jonathan Ross 'horrified' by Walliams allegations and Brand conviction (from BBC News)
-  2. 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager (from BBC News)
-  3. Pakistan women’s captain Fatima Sana calls for gender equality in cricket (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Spain faces nationwide protests over soaring housing costs (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Portugal cancels more than 300 flights, shuts schools due to Storm Charles (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Can Democrats shed some new light on the Epstein files when they take over? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
-Searching Google for: Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJonathan%252BRoss%252B%2527horrified%2527%252Bby%252BWalliams%252Ballegations%252Band%252BBrand%252Bconviction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjbGJOE0dcGIjC2Q-nFFKTmpoLcsWbw8iV-RWYkNCt4gjfUxm8F1Y9M53avibOyF9D-69Eh7N5nTzEyCGpDUmNkZW5yWgFDYMGRqq-dy73Lcw
+Processing trending topic: Spain faces nationwide protests over soaring housing costs
+Searching Google for: Spain faces nationwide protests over soaring housing costs
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSpain%252Bfaces%252Bnationwide%252Bprotests%252Bover%252Bsoaring%252Bhousing%252Bcosts%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqxahGOnm0tcGIjD6w_Y8FPnw4qNI-J5fOV-DR3hD6nhFpjtEgs3KTl5HhJltzc_0QVkNsPsIpkTjE00yCGpDUmNkZW5yWgFDYNTzxI2kya6sqAE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: jonathan-ross-horrified-by-walliams-allegations-an_20261111_1023.html
-✓ Created comprehensive article: jonathan-ross-horrified-by-walliams-allegations-an_20261111_1023.html
+Successfully created file: spain-faces-nationwide-protests-over-soaring-housi_20261111_1826.html
+✓ Created comprehensive article: spain-faces-nationwide-protests-over-soaring-housi_20261111_1826.html
 
-Processing trending topic: 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
-Searching Google for: 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527I%252Bfelt%252Blike%252BI%252Bwas%252Bbeing%252Bmanipulated%2527%253A%252BWoman%252Balleges%252BWalliams%252Bgroomed%252Bher%252Bas%252Ba%252Bteenager%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjbGJqE0dcGIjA7nkdcEApjoDDK7ujMmyoc0WBcq-0GQrNZSVtRzyhFuuKhvgOYuSYcNZIGxOM1M3YyCGpDUmNkZW5yWgFDYMWW5qmQprXE-wE
+Processing trending topic: Portugal cancels more than 300 flights, shuts schools due to Storm Charles
+Searching Google for: Portugal cancels more than 300 flights, shuts schools due to Storm Charles
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPortugal%252Bcancels%252Bmore%252Bthan%252B300%252Bflights%252C%252Bshuts%252Bschools%252Bdue%252Bto%252BStorm%252BCharles%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqxahGPDm0tcGIjAfqHab3IUNqDad7SG2KJfKi6sNxEA1DAmsxt7VwWySouEBcwwEbggkt5sOwBTk_pgyCGpDUmNkZW5yWgFDYLP21fjiwZn--gE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: i-felt-like-i-was-being-manipulated-woman-alleges-_20261111_1023.html
-✓ Created comprehensive article: i-felt-like-i-was-being-manipulated-woman-alleges-_20261111_1023.html
+Successfully created file: portugal-cancels-more-than-300-flights-shuts-schoo_20261111_1827.html
+✓ Created comprehensive article: portugal-cancels-more-than-300-flights-shuts-schoo_20261111_1827.html
 
-Processing trending topic: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
-Searching Google for: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252Bwomen%25E2%2580%2599s%252Bcaptain%252BFatima%252BSana%252Bcalls%252Bfor%252Bgender%252Bequality%252Bin%252Bcricket%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjbGKGE0dcGIjBISQoo0nk_RhiJN5aJLG2yoDtAdmRtyM45URYCReMDjOM2GdAlsSZr8FYaF7lF1H8yCGpDUmNkZW5yWgFDYOGrmN6owNj4-AE
+Processing trending topic: Can Democrats shed some new light on the Epstein files when they take over?
+Searching Google for: Can Democrats shed some new light on the Epstein files when they take over?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCan%252BDemocrats%252Bshed%252Bsome%252Bnew%252Blight%252Bon%252Bthe%252BEpstein%252Bfiles%252Bwhen%252Bthey%252Btake%252Bover%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqxahGPfm0tcGIjBKoXVdSikPQJiDIkjRM701_xMXPQIaw3QTA6C7SgQJRTiCUA5AjaP06vA4tVVnMu0yCGpDUmNkZW5yWgFDYIKD34bQ57KmjwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: pakistan-womens-captain-fatima-sana-calls-for-gend_20261111_1023.html
-✓ Created comprehensive article: pakistan-womens-captain-fatima-sana-calls-for-gend_20261111_1023.html
+Successfully created file: can-democrats-shed-some-new-light-on-the-epstein-f_20261111_1827.html
+✓ Created comprehensive article: can-democrats-shed-some-new-light-on-the-epstein-f_20261111_1827.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: thousands-rally-in-new-delhi-to-demand-indias-elec_20261101_1143.html
-Cleaned old post to keep top 30 limit: russia-expels-moldovan-diplomat-in-tit-for-tat-mov_20261110_2254.html
-Cleaned old post to keep top 30 limit: david-walliams-accused-of-sexual-misconduct-after-_20261111_0235.html
+Cleaned old post to keep top 30 limit: watch-the-worlds-two-most-powerful-men-just-met-ho_20260925_0557.html
+Cleaned old post to keep top 30 limit: who-is-behind-europes-suspected-hybrid-attacks_20261107_2130.html
+Cleaned old post to keep top 30 limit: i-felt-like-i-was-being-manipulated-woman-alleges-_20261111_1023.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
+   • Spain faces nationwide protests over soaring housing costs
      Sources: bbc.com, cnn.com, reuters.com
-   • 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
+   • Portugal cancels more than 300 flights, shuts schools due to Storm Charles
      Sources: bbc.com, cnn.com, reuters.com
-   • Pakistan women’s captain Fatima Sana calls for gender equality in cricket
+   • Can Democrats shed some new light on the Epstein files when they take over?
      Sources: bbc.com, cnn.com, reuters.com
