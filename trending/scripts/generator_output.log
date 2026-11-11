@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US Army soldier suspected of spying for Russia arrested in UK
-  Added: David Walliams accused of sexual misconduct after losing injunction bid
+  Added: Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
+  Added: 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-11-11
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
+Added expanded search topic: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
+Saved 6 topics for 2026-11-11
 Returning 3 unique trending topics:
-  1. US Army soldier suspected of spying for Russia arrested in UK (from BBC News)
-  2. David Walliams accused of sexual misconduct after losing injunction bid (from BBC News)
-  3. Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities (from The Guardian)
+  1. Jonathan Ross 'horrified' by Walliams allegations and Brand conviction (from BBC News)
+  2. 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager (from BBC News)
+  3. Pakistan women’s captain Fatima Sana calls for gender equality in cricket (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US Army soldier suspected of spying for Russia arrested in UK
-Searching Google for: US Army soldier suspected of spying for Russia arrested in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BArmy%252Bsoldier%252Bsuspected%252Bof%252Bspying%252Bfor%252BRussia%252Barrested%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5TGOaoz9cGIjAx8PQIDvYTs_fyD3altnXZj_3ZQZ41K-KY07ExVelMadOIj7ENRfNHhvWMFS6BxLAyCGpDUmNkZW5yWgFDYILbntTZh4fPKw
+Processing trending topic: Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
+Searching Google for: Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJonathan%252BRoss%252B%2527horrified%2527%252Bby%252BWalliams%252Ballegations%252Band%252BBrand%252Bconviction%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjbGJOE0dcGIjC2Q-nFFKTmpoLcsWbw8iV-RWYkNCt4gjfUxm8F1Y9M53avibOyF9D-69Eh7N5nTzEyCGpDUmNkZW5yWgFDYMGRqq-dy73Lcw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-army-soldier-suspected-of-spying-for-russia-arr_20261111_0235.html
-✓ Created comprehensive article: us-army-soldier-suspected-of-spying-for-russia-arr_20261111_0235.html
+Successfully created file: jonathan-ross-horrified-by-walliams-allegations-an_20261111_1023.html
+✓ Created comprehensive article: jonathan-ross-horrified-by-walliams-allegations-an_20261111_1023.html
 
-Processing trending topic: David Walliams accused of sexual misconduct after losing injunction bid
-Searching Google for: David Walliams accused of sexual misconduct after losing injunction bid
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDavid%252BWalliams%252Baccused%252Bof%252Bsexual%252Bmisconduct%252Bafter%252Blosing%252Binjunction%252Bbid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5TGO6oz9cGIjB88wQC_dV-QE2ufh9KX9kyJfZaoTVRIp-nU7l57QSAXvpuCDLgVPulBG_DstgOCA4yCGpDUmNkZW5yWgFDYOOIqcGDp5mWKQ
+Processing trending topic: 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
+Searching Google for: 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527I%252Bfelt%252Blike%252BI%252Bwas%252Bbeing%252Bmanipulated%2527%253A%252BWoman%252Balleges%252BWalliams%252Bgroomed%252Bher%252Bas%252Ba%252Bteenager%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjbGJqE0dcGIjA7nkdcEApjoDDK7ujMmyoc0WBcq-0GQrNZSVtRzyhFuuKhvgOYuSYcNZIGxOM1M3YyCGpDUmNkZW5yWgFDYMWW5qmQprXE-wE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: david-walliams-accused-of-sexual-misconduct-after-_20261111_0235.html
-✓ Created comprehensive article: david-walliams-accused-of-sexual-misconduct-after-_20261111_0235.html
+Successfully created file: i-felt-like-i-was-being-manipulated-woman-alleges-_20261111_1023.html
+✓ Created comprehensive article: i-felt-like-i-was-being-manipulated-woman-alleges-_20261111_1023.html
 
-Processing trending topic: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Searching Google for: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLewis%252BHamilton%252Bvisits%252BEgypt%25E2%2580%2599s%252BRafah%252Bcrossing%252Band%252BGaza%252Baid%252Bfacilities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5TGPSoz9cGIjCTi0Pc4qQdF5RehB5ah-o_GXzKpE3JAyoOrN_nIHoCCZoB7M3vqj42E4Ds_ExGGscyCGpDUmNkZW5yWgFDYO3818q79ozvUQ
+Processing trending topic: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
+Searching Google for: Pakistan women’s captain Fatima Sana calls for gender equality in cricket
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPakistan%252Bwomen%25E2%2580%2599s%252Bcaptain%252BFatima%252BSana%252Bcalls%252Bfor%252Bgender%252Bequality%252Bin%252Bcricket%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSs0JjbGKGE0dcGIjBISQoo0nk_RhiJN5aJLG2yoDtAdmRtyM45URYCReMDjOM2GdAlsSZr8FYaF7lF1H8yCGpDUmNkZW5yWgFDYOGrmN6owNj4-AE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261111_0235.html
-✓ Created comprehensive article: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261111_0235.html
+Successfully created file: pakistan-womens-captain-fatima-sana-calls-for-gend_20261111_1023.html
+✓ Created comprehensive article: pakistan-womens-captain-fatima-sana-calls-for-gend_20261111_1023.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-how-rapist-brand-was-never-far-from-controve_20261105_1611.html
-Cleaned old post to keep top 30 limit: ufc-ceo-dana-white-takes-the-white-house-podium-du_20261110_0919.html
-Cleaned old post to keep top 30 limit: david-walliams-accused-of-sexual-misconduct-after-_20261110_2254.html
+Cleaned old post to keep top 30 limit: thousands-rally-in-new-delhi-to-demand-indias-elec_20261101_1143.html
+Cleaned old post to keep top 30 limit: russia-expels-moldovan-diplomat-in-tit-for-tat-mov_20261110_2254.html
+Cleaned old post to keep top 30 limit: david-walliams-accused-of-sexual-misconduct-after-_20261111_0235.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US Army soldier suspected of spying for Russia arrested in UK
+   • Jonathan Ross 'horrified' by Walliams allegations and Brand conviction
      Sources: bbc.com, cnn.com, reuters.com
-   • David Walliams accused of sexual misconduct after losing injunction bid
+   • 'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager
      Sources: bbc.com, cnn.com, reuters.com
-   • Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
+   • Pakistan women’s captain Fatima Sana calls for gender equality in cricket
      Sources: bbc.com, cnn.com, reuters.com
