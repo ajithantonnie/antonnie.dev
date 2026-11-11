@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 9 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: US Army soldier suspected of spying for Russia arrested in UK
@@ -9,54 +9,50 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Russia expels Moldovan diplomat in tit-for-tat move
-Added expanded search topic: Russia expels Moldovan diplomat in tit-for-tat move
-Saved 12 topics for 2026-11-10
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-11-11
 Returning 3 unique trending topics:
   1. US Army soldier suspected of spying for Russia arrested in UK (from BBC News)
   2. David Walliams accused of sexual misconduct after losing injunction bid (from BBC News)
-  3. Russia expels Moldovan diplomat in tit-for-tat move (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities (from The Guardian)
 
 Processing trending topic: US Army soldier suspected of spying for Russia arrested in UK
 Searching Google for: US Army soldier suspected of spying for Russia arrested in UK
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BArmy%252Bsoldier%252Bsuspected%252Bof%252Bspying%252Bfor%252BRussia%252Barrested%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0tJdXGK_BztcGIjDbyHHA0jS6FHV9YLYA29y_RgeAHlO1FYwcVjRhLb3WxO5mdIM6Ternfj2eoRTFXowyCGpDUmNkZW5yWgFDYLueu6LTndK1TQ
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252BArmy%252Bsoldier%252Bsuspected%252Bof%252Bspying%252Bfor%252BRussia%252Barrested%252Bin%252BUK%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5TGOaoz9cGIjAx8PQIDvYTs_fyD3altnXZj_3ZQZ41K-KY07ExVelMadOIj7ENRfNHhvWMFS6BxLAyCGpDUmNkZW5yWgFDYILbntTZh4fPKw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-army-soldier-suspected-of-spying-for-russia-arr_20261110_2254.html
-✓ Created comprehensive article: us-army-soldier-suspected-of-spying-for-russia-arr_20261110_2254.html
+Successfully created file: us-army-soldier-suspected-of-spying-for-russia-arr_20261111_0235.html
+✓ Created comprehensive article: us-army-soldier-suspected-of-spying-for-russia-arr_20261111_0235.html
 
 Processing trending topic: David Walliams accused of sexual misconduct after losing injunction bid
 Searching Google for: David Walliams accused of sexual misconduct after losing injunction bid
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDavid%252BWalliams%252Baccused%252Bof%252Bsexual%252Bmisconduct%252Bafter%252Blosing%252Binjunction%252Bbid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0tJdXGLbBztcGIjCDahax5j-GznZ2skAbpUKOAmevncLei5iOBvI7OIXrnGel0XoGYHbxFuP6p7YLLCQyCGpDUmNkZW5yWgFDYIeG49SPoMbjXA
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DDavid%252BWalliams%252Baccused%252Bof%252Bsexual%252Bmisconduct%252Bafter%252Blosing%252Binjunction%252Bbid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5TGO6oz9cGIjB88wQC_dV-QE2ufh9KX9kyJfZaoTVRIp-nU7l57QSAXvpuCDLgVPulBG_DstgOCA4yCGpDUmNkZW5yWgFDYOOIqcGDp5mWKQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: david-walliams-accused-of-sexual-misconduct-after-_20261110_2254.html
-✓ Created comprehensive article: david-walliams-accused-of-sexual-misconduct-after-_20261110_2254.html
+Successfully created file: david-walliams-accused-of-sexual-misconduct-after-_20261111_0235.html
+✓ Created comprehensive article: david-walliams-accused-of-sexual-misconduct-after-_20261111_0235.html
 
-Processing trending topic: Russia expels Moldovan diplomat in tit-for-tat move
-Searching Google for: Russia expels Moldovan diplomat in tit-for-tat move
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussia%252Bexpels%252BMoldovan%252Bdiplomat%252Bin%252Btit-for-tat%252Bmove%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQ0tJdXGLzBztcGIjAgO51YFnkJ0xC07c81pJyFgG7g4td3N7IqnxNG_CPOEoTMFW_PHnoF6AjWc0rrmCAyCGpDUmNkZW5yWgFDYLW35snGn5618AE
+Processing trending topic: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
+Searching Google for: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLewis%252BHamilton%252Bvisits%252BEgypt%25E2%2580%2599s%252BRafah%252Bcrossing%252Band%252BGaza%252Baid%252Bfacilities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5TGPSoz9cGIjCTi0Pc4qQdF5RehB5ah-o_GXzKpE3JAyoOrN_nIHoCCZoB7M3vqj42E4Ds_ExGGscyCGpDUmNkZW5yWgFDYO3818q79ozvUQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russia-expels-moldovan-diplomat-in-tit-for-tat-mov_20261110_2254.html
-✓ Created comprehensive article: russia-expels-moldovan-diplomat-in-tit-for-tat-mov_20261110_2254.html
+Successfully created file: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261111_0235.html
+✓ Created comprehensive article: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261111_0235.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: watch-moment-judge-sentences-brand-in-court_20261109_1822.html
-Cleaned old post to keep top 30 limit: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261110_1734.html
-Cleaned old post to keep top 30 limit: arrests-made-in-mohamed-al-fayed-probe-in-france-p_20261110_1734.html
+Cleaned old post to keep top 30 limit: watch-how-rapist-brand-was-never-far-from-controve_20261105_1611.html
+Cleaned old post to keep top 30 limit: ufc-ceo-dana-white-takes-the-white-house-podium-du_20261110_0919.html
+Cleaned old post to keep top 30 limit: david-walliams-accused-of-sexual-misconduct-after-_20261110_2254.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
@@ -65,5 +61,5 @@ Cleaned old post to keep top 30 limit: arrests-made-in-mohamed-al-fayed-probe-in
      Sources: bbc.com, cnn.com, reuters.com
    • David Walliams accused of sexual misconduct after losing injunction bid
      Sources: bbc.com, cnn.com, reuters.com
-   • Russia expels Moldovan diplomat in tit-for-tat move
+   • Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
      Sources: bbc.com, cnn.com, reuters.com
