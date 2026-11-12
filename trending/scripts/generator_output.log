@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Author says there were 'real concerns' about David Walliams within publishing industry
-  Added: Some under-25s should get less benefits, Milburn review to say
+  Added: Some under-25s should get fewer benefits, Milburn review to say
+  Added: 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-11-12
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: US envoys arrive in Moscow for Russia-Ukraine talks with Putin
+Added expanded search topic: US envoys arrive in Moscow for Russia-Ukraine talks with Putin
+Saved 6 topics for 2026-11-12
 Returning 3 unique trending topics:
-  1. Author says there were 'real concerns' about David Walliams within publishing industry (from BBC News)
-  2. Some under-25s should get less benefits, Milburn review to say (from BBC News)
-  3. Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities (from The Guardian)
+  1. Some under-25s should get fewer benefits, Milburn review to say (from BBC News)
+  2. 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid (from BBC News)
+  3. US envoys arrive in Moscow for Russia-Ukraine talks with Putin (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Author says there were 'real concerns' about David Walliams within publishing industry
-Searching Google for: Author says there were 'real concerns' about David Walliams within publishing industry
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAuthor%252Bsays%252Bthere%252Bwere%252B%2527real%252Bconcerns%2527%252Babout%252BDavid%252BWalliams%252Bwithin%252Bpublishing%252Bindustry%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAVZjIGMGp1NcGIjA3NREQlc4-iXGXhJyJbcssMhTZYM0Ij4WbCFgbsdzOMA3EOZIfbZD082eyLWq8l0cyCGpDUmNkZW5yWgFDYMPJmYqNzPib2QE
+Processing trending topic: Some under-25s should get fewer benefits, Milburn review to say
+Searching Google for: Some under-25s should get fewer benefits, Milburn review to say
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSome%252Bunder-25s%252Bshould%252Bget%252Bfewer%252Bbenefits%252C%252BMilburn%252Breview%252Bto%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQElreHGLqK1tcGIjDnapNnCETNZODJALbNvZOoHMke6a5t8b-bh4NhB5sXJIUhzmBppfdNB3XIp_mm5JcyCGpDUmNkZW5yWgFDYLuUsNHdsf-t7AE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: author-says-there-were-real-concerns-about-david-w_20261112_0122.html
-✓ Created comprehensive article: author-says-there-were-real-concerns-about-david-w_20261112_0122.html
+Successfully created file: some-under-25s-should-get-fewer-benefits-milburn-r_20261112_0922.html
+✓ Created comprehensive article: some-under-25s-should-get-fewer-benefits-milburn-r_20261112_0922.html
 
-Processing trending topic: Some under-25s should get less benefits, Milburn review to say
-Searching Google for: Some under-25s should get less benefits, Milburn review to say
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSome%252Bunder-25s%252Bshould%252Bget%252Bless%252Bbenefits%252C%252BMilburn%252Breview%252Bto%252Bsay%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAVZjIGMip1NcGIjAEGJelnu0B-aOioHrVL3gQahQeeSNX46toliT7VWhw-9QzGxp1Z1CVUUvEz9NQYCwyCGpDUmNkZW5yWgFDYN-bhfnd8emsZw
+Processing trending topic: 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid
+Searching Google for: 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527No%252Blight%252C%252Bno%252Bwater%252C%252Bno%252Bheat%2527%253A%252BUkrainians%252Bstruggle%252Bwith%252Bblackouts%252Bas%252BRussia%252Bhits%252Bpower%252Bgrid%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQElreHGMCK1tcGIjAQ7j6tbT1z94aK5QlWAj3cUgSwFrTNdWKCzWXZywTGKb-explMkrmdYNi2Jv5w4i4yCGpDUmNkZW5yWgFDYNyNr83Gh-WKRQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: some-under-25s-should-get-less-benefits-milburn-re_20261112_0122.html
-✓ Created comprehensive article: some-under-25s-should-get-less-benefits-milburn-re_20261112_0122.html
+Successfully created file: no-light-no-water-no-heat-ukrainians-struggle-with_20261112_0922.html
+✓ Created comprehensive article: no-light-no-water-no-heat-ukrainians-struggle-with_20261112_0922.html
 
-Processing trending topic: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Searching Google for: Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DLewis%252BHamilton%252Bvisits%252BEgypt%25E2%2580%2599s%252BRafah%252Bcrossing%252Band%252BGaza%252Baid%252Bfacilities%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSAVZjIGM6p1NcGIjAD3SMiO1mzSRKDQhSnP6MpR3-zLKjEomm_aUTbTaRXng5yBse_xyMLRXQtEGRezt4yCGpDUmNkZW5yWgFDYLHp86iMxqTyGA
+Processing trending topic: US envoys arrive in Moscow for Russia-Ukraine talks with Putin
+Searching Google for: US envoys arrive in Moscow for Russia-Ukraine talks with Putin
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Benvoys%252Barrive%252Bin%252BMoscow%252Bfor%252BRussia-Ukraine%252Btalks%252Bwith%252BPutin%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQElreHGMeK1tcGIjDGqmZT0scIHScoItrRY0ikxHtYrP9StoDoeuMNyCSVqZ705LJcBvb4B8uIFxmW3c8yCGpDUmNkZW5yWgFDYOLNuO_v4uPKwgE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261112_0122.html
-✓ Created comprehensive article: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261112_0122.html
+Successfully created file: us-envoys-arrive-in-moscow-for-russia-ukraine-talk_20261112_0922.html
+✓ Created comprehensive article: us-envoys-arrive-in-moscow-for-russia-ukraine-talk_20261112_0922.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: jonathan-ross-horrified-by-walliams-allegations-an_20261111_1023.html
-Cleaned old post to keep top 30 limit: portugal-cancels-more-than-300-flights-shuts-schoo_20261111_1827.html
-Cleaned old post to keep top 30 limit: can-democrats-shed-some-new-light-on-the-epstein-f_20261111_1827.html
+Cleaned old post to keep top 30 limit: lewis-hamilton-visits-egypts-rafah-crossing-and-ga_20261112_0122.html
+Cleaned old post to keep top 30 limit: some-under-25s-should-get-less-benefits-milburn-re_20261112_0122.html
+Cleaned old post to keep top 30 limit: author-says-there-were-real-concerns-about-david-w_20261112_0122.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Author says there were 'real concerns' about David Walliams within publishing industry
+   • Some under-25s should get fewer benefits, Milburn review to say
      Sources: bbc.com, cnn.com, reuters.com
-   • Some under-25s should get less benefits, Milburn review to say
+   • 'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid
      Sources: bbc.com, cnn.com, reuters.com
-   • Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities
+   • US envoys arrive in Moscow for Russia-Ukraine talks with Putin
      Sources: bbc.com, cnn.com, reuters.com
