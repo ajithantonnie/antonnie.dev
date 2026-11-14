@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Police investigating David Walliams over reports alleging serious sexual offences
-  Added: 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision
+  Added: What we know about the US ground stop and what to do if you're affected
+  Added: Young people should have legal guarantee to job or training, review author tells BBC
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-11-14
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Warner accuses Cricket Australia of ‘cover-up’ in ball-tampering scandal
+Added expanded search topic: Warner accuses Cricket Australia of ‘cover-up’ in ball-tampering scandal
+Saved 6 topics for 2026-11-14
 Returning 3 unique trending topics:
-  1. Police investigating David Walliams over reports alleging serious sexual offences (from BBC News)
-  2. 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision (from BBC News)
-  3. Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story (from The Guardian)
+  1. What we know about the US ground stop and what to do if you're affected (from BBC News)
+  2. Young people should have legal guarantee to job or training, review author tells BBC (from BBC News)
+  3. Warner accuses Cricket Australia of ‘cover-up’ in ball-tampering scandal (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Police investigating David Walliams over reports alleging serious sexual offences
-Searching Google for: Police investigating David Walliams over reports alleging serious sexual offences
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DPolice%252Binvestigating%252BDavid%252BWalliams%252Bover%252Breports%252Balleging%252Bserious%252Bsexual%252Boffences%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUQZwWGI_v3tcGIjD8Uzc_HUhPRTUvCUDwPCh0BH9eYWDgm1ogL-oXkoz5iLdmx-qMrA0-czic5ON6m30yCGpDUmNkZW5yWgFDYPfp7PLNv9DXngE
+Processing trending topic: What we know about the US ground stop and what to do if you're affected
+Searching Google for: What we know about the US ground stop and what to do if you're affected
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bwe%252Bknow%252Babout%252Bthe%252BUS%252Bground%252Bstop%252Band%252Bwhat%252Bto%252Bdo%252Bif%252Byou%2527re%252Baffected%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMTxUGL-84NcGIjAEdqYig6m1n7aSCwJ3eXQyOGp7O_49MLPszv7SUOk5vG8yyB0GsVCWVMgGzB_wu5UyCGpDUmNkZW5yWgFDYKvDu63C2tHuPw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: police-investigating-david-walliams-over-reports-a_20261114_0121.html
-✓ Created comprehensive article: police-investigating-david-walliams-over-reports-a_20261114_0121.html
+Successfully created file: what-we-know-about-the-us-ground-stop-and-what-to-_20261114_0839.html
+✓ Created comprehensive article: what-we-know-about-the-us-ground-stop-and-what-to-_20261114_0839.html
 
-Processing trending topic: 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision
-Searching Google for: 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2527Miracle%252Bon%252BMississippi%2527%252B-%252BAll%252Bpassengers%252Brescued%252Bafter%252BNew%252BOrleans%252Bcruise%252Bship%252Bcollision%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUQZwWGJbv3tcGIjCGF94XwKJsP09bIGdjcld-JmLiEXktHtgiYgzW0RCML6_MXO-Cx5Ogn9mV9FH2kKUyCGpDUmNkZW5yWgFDYPPX0-z45oW9Pw
+Processing trending topic: Young people should have legal guarantee to job or training, review author tells BBC
+Searching Google for: Young people should have legal guarantee to job or training, review author tells BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DYoung%252Bpeople%252Bshould%252Bhave%252Blegal%252Bguarantee%252Bto%252Bjob%252Bor%252Btraining%252C%252Breview%252Bauthor%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMTxUGMa84NcGIjBPz1FmkLMasAMvCowMZkrmMbaFMcxbZzf0RpZbGq_LloUgi1gMQTOiSHAj0pLvIbUyCGpDUmNkZW5yWgFDYPCiyf6zyIzQFA
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: miracle-on-mississippi-all-passengers-rescued-afte_20261114_0121.html
-✓ Created comprehensive article: miracle-on-mississippi-all-passengers-rescued-afte_20261114_0121.html
+Successfully created file: young-people-should-have-legal-guarantee-to-job-or_20261114_0839.html
+✓ Created comprehensive article: young-people-should-have-legal-guarantee-to-job-or_20261114_0839.html
 
-Processing trending topic: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Searching Google for: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZimbabwean%252Bauthor%252BSimbarashe%252BKundizeza%252Bcleared%252Bof%252Busing%252BAI%252Bto%252Bwrite%252Bprize-winning%252Bstory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUQZwWGJzv3tcGIjDfSYShWA1osneTtjmnmREGOdCsMKLONiM8eb949U6IzJ2P8PTtKglbbyBPTaeNvXEyCGpDUmNkZW5yWgFDYMy35I_q0vOvIw
+Processing trending topic: Warner accuses Cricket Australia of ‘cover-up’ in ball-tampering scandal
+Searching Google for: Warner accuses Cricket Australia of ‘cover-up’ in ball-tampering scandal
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarner%252Baccuses%252BCricket%252BAustralia%252Bof%252B%25E2%2580%2598cover-up%25E2%2580%2599%252Bin%252Bball-tampering%252Bscandal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUMTxUGMy84NcGIjCEUg3fnUUv6qUVPrbt94diK1Dux1rNwT9v_BPrCsDRAhrWmJymryZPCwMgAiQzMqAyCGpDUmNkZW5yWgFDYLamkOXhsNiKmwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zimbabwean-author-simbarashe-kundizeza-cleared-of-_20261114_0121.html
-✓ Created comprehensive article: zimbabwean-author-simbarashe-kundizeza-cleared-of-_20261114_0121.html
+Successfully created file: warner-accuses-cricket-australia-of-cover-up-in-ba_20261114_0839.html
+✓ Created comprehensive article: warner-accuses-cricket-australia-of-cover-up-in-ba_20261114_0839.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: pakistan-womens-captain-fatima-sana-calls-for-gend_20261111_1023.html
-Cleaned old post to keep top 30 limit: police-investigating-david-walliams-over-reports-a_20261113_2049.html
-Cleaned old post to keep top 30 limit: microsoft-outage-stark-reminder-of-how-much-we-rel_20261113_2049.html
+Cleaned old post to keep top 30 limit: police-investigating-david-walliams-over-reports-a_20261114_0121.html
+Cleaned old post to keep top 30 limit: no-light-no-water-no-heat-ukrainians-struggle-with_20261112_0922.html
+Cleaned old post to keep top 30 limit: miracle-on-mississippi-all-passengers-rescued-afte_20261114_0121.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Police investigating David Walliams over reports alleging serious sexual offences
+   • What we know about the US ground stop and what to do if you're affected
      Sources: bbc.com, cnn.com, reuters.com
-   • 'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision
+   • Young people should have legal guarantee to job or training, review author tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
+   • Warner accuses Cricket Australia of ‘cover-up’ in ball-tampering scandal
      Sources: bbc.com, cnn.com, reuters.com
