@@ -1,5 +1,5 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 9 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
   Added: Staggered age of consent to be discussed after Brand case, minister says
@@ -9,61 +9,65 @@ Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
+Found 0 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 3
+Need 3 more unique topics, expanding search...
 Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Flames engulf Syrian refugee camp in eastern Lebanon
-Added expanded search topic: Flames engulf Syrian refugee camp in eastern Lebanon
-Saved 9 topics for 2026-11-15
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Jordan sentences three men to death over deadly church attack in Karak
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Africa CDC says Ebola outbreak in DR Congo ‘still not under control’
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Israeli drone filmed flying low outside homes in southern Lebanon
+Added expanded search topic: Jordan sentences three men to death over deadly church attack in Karak
+Added expanded search topic: Africa CDC says Ebola outbreak in DR Congo ‘still not under control’
+Added expanded search topic: Israeli drone filmed flying low outside homes in southern Lebanon
+Saved 12 topics for 2026-11-15
 Returning 3 unique trending topics:
-  1. Staggered age of consent to be discussed after Brand case, minister says (from BBC News)
-  2. Man and woman die and four arrested after police pursuit crash in Leeds (from BBC News)
-  3. Flames engulf Syrian refugee camp in eastern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. Jordan sentences three men to death over deadly church attack in Karak (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  2. Africa CDC says Ebola outbreak in DR Congo ‘still not under control’ (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  3. Israeli drone filmed flying low outside homes in southern Lebanon (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Staggered age of consent to be discussed after Brand case, minister says
-Searching Google for: Staggered age of consent to be discussed after Brand case, minister says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStaggered%252Bage%252Bof%252Bconsent%252Bto%252Bbe%252Bdiscussed%252Bafter%252BBrand%252Bcase%252C%252Bminister%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQwyGpgGPqc59cGIjDgjsSbzW64K8mns94t6s8kNcvj-LyVpJqnKOXRFoXCam4agH21MzMramW-XNgXHt8yCGpDUmNkZW5yWgFDYI7f1OK_q5HCMQ
+Processing trending topic: Jordan sentences three men to death over deadly church attack in Karak
+Searching Google for: Jordan sentences three men to death over deadly church attack in Karak
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DJordan%252Bsentences%252Bthree%252Bmen%252Bto%252Bdeath%252Bover%252Bdeadly%252Bchurch%252Battack%252Bin%252BKarak%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUePziGKK36NcGIjCLEhenBWzWIJc6X5BroP1n59AE7jMhLzzeCkBDLQMRGDuAOqjKDcXecY9HFf-o3w0yAnJSWgFDYJKAvfHjmN_DSA
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: staggered-age-of-consent-to-be-discussed-after-bra_20261115_1523.html
-✓ Created comprehensive article: staggered-age-of-consent-to-be-discussed-after-bra_20261115_1523.html
+Successfully created file: jordan-sentences-three-men-to-death-over-deadly-ch_20261115_2052.html
+✓ Created comprehensive article: jordan-sentences-three-men-to-death-over-deadly-ch_20261115_2052.html
 
-Processing trending topic: Man and woman die and four arrested after police pursuit crash in Leeds
-Searching Google for: Man and woman die and four arrested after police pursuit crash in Leeds
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMan%252Band%252Bwoman%252Bdie%252Band%252Bfour%252Barrested%252Bafter%252Bpolice%252Bpursuit%252Bcrash%252Bin%252BLeeds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQwyGpgGIGd59cGIjA79gi_HNPiZyH5MbVRvtAWuLILGYXIof-2qxpwh68XNCUSI3-TF7L7UX8pkYxNx_gyCGpDUmNkZW5yWgFDYLLgns3W-f7iWw
+Processing trending topic: Africa CDC says Ebola outbreak in DR Congo ‘still not under control’
+Searching Google for: Africa CDC says Ebola outbreak in DR Congo ‘still not under control’
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAfrica%252BCDC%252Bsays%252BEbola%252Boutbreak%252Bin%252BDR%252BCongo%252B%25E2%2580%2598still%252Bnot%252Bunder%252Bcontrol%25E2%2580%2599%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUePziGKm36NcGIjBrNL-VqyhepFUE2OKw7KLZOrmLJ4XxngIgO5d71ypuJ1RX6RrLTST4gkn5Ceo93xYyAnJSWgFDYJmQm-_y1YmqCg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: man-and-woman-die-and-four-arrested-after-police-p_20261115_1523.html
-✓ Created comprehensive article: man-and-woman-die-and-four-arrested-after-police-p_20261115_1523.html
+Successfully created file: africa-cdc-says-ebola-outbreak-in-dr-congo-still-n_20261115_2053.html
+✓ Created comprehensive article: africa-cdc-says-ebola-outbreak-in-dr-congo-still-n_20261115_2053.html
 
-Processing trending topic: Flames engulf Syrian refugee camp in eastern Lebanon
-Searching Google for: Flames engulf Syrian refugee camp in eastern Lebanon
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFlames%252Bengulf%252BSyrian%252Brefugee%252Bcamp%252Bin%252Beastern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQwyGpgGIed59cGIjD4XVKf2VG579Xo_U7VACVezT8Pl9z5rc3A7Qlsf7FaLCCLJvNvJRz6nqBdGk8Eif4yCGpDUmNkZW5yWgFDYN6slNSC4IvdyQE
+Processing trending topic: Israeli drone filmed flying low outside homes in southern Lebanon
+Searching Google for: Israeli drone filmed flying low outside homes in southern Lebanon
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DIsraeli%252Bdrone%252Bfilmed%252Bflying%252Blow%252Boutside%252Bhomes%252Bin%252Bsouthern%252BLebanon%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUePziGK-36NcGIjDfBGFy2OciofGkoaLcgEEUt6n_KSlxkL3aCC4zhd1oypQb8UMEpvQS36XqOMu1aiUyAnJSWgFDYILSl9jO5PC71wE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: flames-engulf-syrian-refugee-camp-in-eastern-leban_20261115_1523.html
-✓ Created comprehensive article: flames-engulf-syrian-refugee-camp-in-eastern-leban_20261115_1523.html
+Successfully created file: israeli-drone-filmed-flying-low-outside-homes-in-s_20261115_2053.html
+✓ Created comprehensive article: israeli-drone-filmed-flying-low-outside-homes-in-s_20261115_2053.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: us-has-floated-ukraine-ceding-donbas-for-nato-memb_20261114_2028.html
-Cleaned old post to keep top 30 limit: asean-summit-whos-attending-and-whats-at-stake_20261115_0736.html
-Cleaned old post to keep top 30 limit: alleged-russell-brand-rape-victim-wants-age-of-con_20261115_0736.html
+Cleaned old post to keep top 30 limit: us-midterm-election-results-live-polls-to-start-cl_20261103_2258.html
+Cleaned old post to keep top 30 limit: flames-engulf-syrian-refugee-camp-in-eastern-leban_20261115_1523.html
+Cleaned old post to keep top 30 limit: ex-met-police-inspector-lied-about-wifes-death-in-_20261115_0736.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Staggered age of consent to be discussed after Brand case, minister says
+   • Jordan sentences three men to death over deadly church attack in Karak
      Sources: bbc.com, cnn.com, reuters.com
-   • Man and woman die and four arrested after police pursuit crash in Leeds
+   • Africa CDC says Ebola outbreak in DR Congo ‘still not under control’
      Sources: bbc.com, cnn.com, reuters.com
-   • Flames engulf Syrian refugee camp in eastern Lebanon
+   • Israeli drone filmed flying low outside homes in southern Lebanon
      Sources: bbc.com, cnn.com, reuters.com
