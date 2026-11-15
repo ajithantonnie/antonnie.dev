@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: US has floated Ukraine ceding Donbas for Nato membership, Zelensky says
-  Added: Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight
+  Added: Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns
+  Added: Alleged Russell Brand rape victim wants age of consent law changed
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-11-15
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: ASEAN summit: Who’s attending and what’s at stake?
+Added expanded search topic: ASEAN summit: Who’s attending and what’s at stake?
+Saved 6 topics for 2026-11-15
 Returning 3 unique trending topics:
-  1. US has floated Ukraine ceding Donbas for Nato membership, Zelensky says (from BBC News)
-  2. Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight (from BBC News)
-  3. Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story (from The Guardian)
+  1. Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns (from BBC News)
+  2. Alleged Russell Brand rape victim wants age of consent law changed (from BBC News)
+  3. ASEAN summit: Who’s attending and what’s at stake? (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: US has floated Ukraine ceding Donbas for Nato membership, Zelensky says
-Searching Google for: US has floated Ukraine ceding Donbas for Nato membership, Zelensky says
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bhas%252Bfloated%252BUkraine%252Bceding%252BDonbas%252Bfor%252BNato%252Bmembership%252C%252BZelensky%252Bsays%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSswQwWGI6D5NcGIjDc5aEuJX-ynKWxhu9ZXCYk_71f9a98pzWFdvsueC1-Sj0F58WU-gmhVvZlgPeJ3NoyCGpDUmNkZW5yWgFDYJSIvLKdiomvFQ
+Processing trending topic: Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns
+Searching Google for: Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DEx-Met%252BPolice%252Binspector%252Blied%252Babout%252Bwife%2527s%252Bdeath%252Bin%252BBarbados%252Bhotel%252Broom%252C%252BBBC%252Blearns%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUVJbIGPLB5dcGIjCdggIFtHeplCqsOfFRnCvKN3HyORhg0zbdUSM0hkgvYJSroSjuJ_5ICvN73nzX1soyCGpDUmNkZW5yWgFDYKSvuN6g5Ijz6AE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-has-floated-ukraine-ceding-donbas-for-nato-memb_20261115_0049.html
-✓ Created comprehensive article: us-has-floated-ukraine-ceding-donbas-for-nato-memb_20261115_0049.html
+Successfully created file: ex-met-police-inspector-lied-about-wifes-death-in-_20261115_0736.html
+✓ Created comprehensive article: ex-met-police-inspector-lied-about-wifes-death-in-_20261115_0736.html
 
-Processing trending topic: Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight
-Searching Google for: Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DNeets%252Breview%252Bwon%2527t%252Bbe%252Bfor%252Bthe%252Bfaint-hearted%252B-%252Band%252Bwill%252Btest%252BBurnham%2527s%252Bappetite%252Bfor%252Ba%252Bwelfare%252Bfight%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSswQwWGJWD5NcGIjDS4SvnJX9ueCTZ7bOIaajTBzqZUf-E70X6ks7viRTwiS14utLYSAmIhf02X-4ug8cyCGpDUmNkZW5yWgFDYN6E9YKj9vXTCA
+Processing trending topic: Alleged Russell Brand rape victim wants age of consent law changed
+Searching Google for: Alleged Russell Brand rape victim wants age of consent law changed
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAlleged%252BRussell%252BBrand%252Brape%252Bvictim%252Bwants%252Bage%252Bof%252Bconsent%252Blaw%252Bchanged%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUVJbIGPnB5dcGIjAlaqA4xxJ2pKW6sYkBHkqAt-XRBxe7oHcWfsF66ppYFLWkB3XOkOKVvt4s-9truHkyCGpDUmNkZW5yWgFDYP6XnOfd2batfQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: neets-review-wont-be-for-the-faint-hearted-and-wil_20261115_0049.html
-✓ Created comprehensive article: neets-review-wont-be-for-the-faint-hearted-and-wil_20261115_0049.html
+Successfully created file: alleged-russell-brand-rape-victim-wants-age-of-con_20261115_0736.html
+✓ Created comprehensive article: alleged-russell-brand-rape-victim-wants-age-of-con_20261115_0736.html
 
-Processing trending topic: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Searching Google for: Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DZimbabwean%252Bauthor%252BSimbarashe%252BKundizeza%252Bcleared%252Bof%252Busing%252BAI%252Bto%252Bwrite%252Bprize-winning%252Bstory%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSswQwWGJuD5NcGIjCwxIXRXdJkNcvMMFCV_FMkGZZD_nuhM5JmyaLHpNCNeAtFec2puC2IWFAjp2GR88syCGpDUmNkZW5yWgFDYNC2ioq8l9f_9AE
+Processing trending topic: ASEAN summit: Who’s attending and what’s at stake?
+Searching Google for: ASEAN summit: Who’s attending and what’s at stake?
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DASEAN%252Bsummit%253A%252BWho%25E2%2580%2599s%252Battending%252Band%252Bwhat%25E2%2580%2599s%252Bat%252Bstake%253F%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUVJbIGP_B5dcGIjCo-e8TJdeGywBmtgmfDxo5-jeCWDYRwcD0xc36Bhs9jKWHuQl15w1qIYRQ4LrIEDgyCGpDUmNkZW5yWgFDYMeW0I6riO_s8gE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: zimbabwean-author-simbarashe-kundizeza-cleared-of-_20261115_0049.html
-✓ Created comprehensive article: zimbabwean-author-simbarashe-kundizeza-cleared-of-_20261115_0049.html
+Successfully created file: asean-summit-whos-attending-and-whats-at-stake_20261115_0736.html
+✓ Created comprehensive article: asean-summit-whos-attending-and-whats-at-stake_20261115_0736.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: russell-brand-sentenced-to-10-and-a-half-years-in-_20261109_1822.html
-Cleaned old post to keep top 30 limit: deadly-car-bomb-blast-kills-two-near-syrias-capita_20261114_2028.html
-Cleaned old post to keep top 30 limit: can-being-non-western-cost-you-your-home-in-denmar_20261114_2028.html
+Cleaned old post to keep top 30 limit: young-people-should-have-legal-guarantee-of-job-or_20261114_1536.html
+Cleaned old post to keep top 30 limit: us-has-floated-ukraine-ceding-donbas-for-nato-memb_20261115_0049.html
+Cleaned old post to keep top 30 limit: neets-review-wont-be-for-the-faint-hearted-and-wil_20261115_0049.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • US has floated Ukraine ceding Donbas for Nato membership, Zelensky says
+   • Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns
      Sources: bbc.com, cnn.com, reuters.com
-   • Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight
+   • Alleged Russell Brand rape victim wants age of consent law changed
      Sources: bbc.com, cnn.com, reuters.com
-   • Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story
+   • ASEAN summit: Who’s attending and what’s at stake?
      Sources: bbc.com, cnn.com, reuters.com
