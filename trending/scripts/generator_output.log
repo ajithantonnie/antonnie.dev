@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 3 topics
+Already used today: 6 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: What the Brussels summit could mean for the Brexit deal
-  Added: Secret UK cyber operation shielded tens of thousands of fridges from hackers
+  Added: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
+  Added: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: California’s coastal communities on alert as biggest waves in years hit state
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 6 topics for 2026-11-20
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mamdani unveils plan to close New York’s Rikers Island by 2032
+Added expanded search topic: Mamdani unveils plan to close New York’s Rikers Island by 2032
+Saved 9 topics for 2026-11-20
 Returning 3 unique trending topics:
-  1. What the Brussels summit could mean for the Brexit deal (from BBC News)
-  2. Secret UK cyber operation shielded tens of thousands of fridges from hackers (from BBC News)
-  3. California’s coastal communities on alert as biggest waves in years hit state (from The Guardian)
+  1. Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow (from BBC News)
+  2. Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk (from BBC News)
+  3. Mamdani unveils plan to close New York’s Rikers Island by 2032 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: What the Brussels summit could mean for the Brexit deal
-Searching Google for: What the Brussels summit could mean for the Brexit deal
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%252Bthe%252BBrussels%252Bsummit%252Bcould%252Bmean%252Bfor%252Bthe%252BBrexit%252Bdeal%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQDKp2JGJGtgNgGIjDPVC43VeWOyaToULoNvQ4kA9me9Gzg_ZbiW8GLu9ltxpfr-hB5lQfTqOYothkEvpcyCGpDUmNkZW5yWgFDYNzg-oywmf245QE
+Processing trending topic: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
+Searching Google for: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFaisal%252BIslam%253A%252BThis%252Bcost-cutting%252BUK-EU%252Bdeal%252Bdoesn%2527t%252Bmean%252Blower%252Bprices%252Bwill%252Bfollow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WanGIyfgtgGIjAq0aRk4_Ua0qyIixGVaNKT_RUj_DiqJxTgsjzzAm8437klUtRsYWXKglVeJrRkIO8yCGpDUmNkZW5yWgFDYPWt6cvT5IXjOg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: what-the-brussels-summit-could-mean-for-the-brexit_20261120_0944.html
-✓ Created comprehensive article: what-the-brussels-summit-could-mean-for-the-brexit_20261120_0944.html
+Successfully created file: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261120_1821.html
+✓ Created comprehensive article: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261120_1821.html
 
-Processing trending topic: Secret UK cyber operation shielded tens of thousands of fridges from hackers
-Searching Google for: Secret UK cyber operation shielded tens of thousands of fridges from hackers
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSecret%252BUK%252Bcyber%252Boperation%252Bshielded%252Btens%252Bof%252Bthousands%252Bof%252Bfridges%252Bfrom%252Bhackers%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQDKp2JGJitgNgGIjCDR458c8QC8138rpQdNH5xoXTlmmirTxD3swht02xHl-1lyPnJ3m1c-PtAmacfU3EyCGpDUmNkZW5yWgFDYLqs-9v_hI2AMA
+Processing trending topic: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
+Searching Google for: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bmissile%252Bhits%252BPoland%252Bas%252BKyiv%2527s%252Ballies%252Bhold%252Bmilitary%252Bexercise%252C%252Bsays%252BTusk%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WanGJOfgtgGIjDHIAYKtX6AUf4h5J46Co2cl4_3gyATJvEmWD1eECnqnFR_H4OeCZo2CnEY9cGXfPIyCGpDUmNkZW5yWgFDYPK62JbFm-zqrQE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: secret-uk-cyber-operation-shielded-tens-of-thousan_20261120_0945.html
-✓ Created comprehensive article: secret-uk-cyber-operation-shielded-tens-of-thousan_20261120_0945.html
+Successfully created file: russian-missile-hits-poland-as-kyivs-allies-hold-m_20261120_1821.html
+✓ Created comprehensive article: russian-missile-hits-poland-as-kyivs-allies-hold-m_20261120_1821.html
 
-Processing trending topic: California’s coastal communities on alert as biggest waves in years hit state
-Searching Google for: California’s coastal communities on alert as biggest waves in years hit state
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCalifornia%25E2%2580%2599s%252Bcoastal%252Bcommunities%252Bon%252Balert%252Bas%252Bbiggest%252Bwaves%252Bin%252Byears%252Bhit%252Bstate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQDKp2JGJ6tgNgGIjBlbco2xEmb7RCj6yN0zROauqruYsDtDVMASGwVDOVXAIe2ptDISyPWL1rYB__2MzMyCGpDUmNkZW5yWgFDYM7V-4Cb2dLHeA
+Processing trending topic: Mamdani unveils plan to close New York’s Rikers Island by 2032
+Searching Google for: Mamdani unveils plan to close New York’s Rikers Island by 2032
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMamdani%252Bunveils%252Bplan%252Bto%252Bclose%252BNew%252BYork%25E2%2580%2599s%252BRikers%252BIsland%252Bby%252B2032%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WanGJmfgtgGIjC55sisNGvxwjNPIzR8WsVDlvSeCb5aBL3HH7pWHgdDCmn9EE9JrNOSQ93G-c8HcNYyCGpDUmNkZW5yWgFDYM6ograrqtPFjwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: californias-coastal-communities-on-alert-as-bigges_20261120_0945.html
-✓ Created comprehensive article: californias-coastal-communities-on-alert-as-bigges_20261120_0945.html
+Successfully created file: mamdani-unveils-plan-to-close-new-yorks-rikers-isl_20261120_1821.html
+✓ Created comprehensive article: mamdani-unveils-plan-to-close-new-yorks-rikers-isl_20261120_1821.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: sinkholes-scarred-land-and-scapegoats-the-scourge-_20261031_0204.html
-Cleaned old post to keep top 30 limit: men-guilty-of-abusing-woman-drugged-and-advertised_20261119_1854.html
-Cleaned old post to keep top 30 limit: mcdonalds-sex-abuse-they-were-waiting-for-the-youn_20261119_0151.html
+Cleaned old post to keep top 30 limit: tens-of-thousands-of-uk-fridges-secured-from-hacke_20261120_0106.html
+Cleaned old post to keep top 30 limit: race-to-replant-five-south-african-baobabs-after-e_20261120_0106.html
+Cleaned old post to keep top 30 limit: californias-coastal-communities-on-alert-as-bigges_20261120_0945.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • What the Brussels summit could mean for the Brexit deal
+   • Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
      Sources: bbc.com, cnn.com, reuters.com
-   • Secret UK cyber operation shielded tens of thousands of fridges from hackers
+   • Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
      Sources: bbc.com, cnn.com, reuters.com
-   • California’s coastal communities on alert as biggest waves in years hit state
+   • Mamdani unveils plan to close New York’s Rikers Island by 2032
      Sources: bbc.com, cnn.com, reuters.com
