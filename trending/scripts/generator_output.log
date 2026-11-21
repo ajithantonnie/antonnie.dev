@@ -1,69 +1,65 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: UK to explore even closer ties with EU after agreeing deal, says Burnham
   Added: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
-  Added: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: California’s coastal communities on alert as biggest waves in years hit state
-Found 2 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 1
-Need 1 more unique topics, expanding search...
-Searching additional news sources...
-  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Mamdani unveils plan to close New York’s Rikers Island by 2032
-Added expanded search topic: Mamdani unveils plan to close New York’s Rikers Island by 2032
-Saved 9 topics for 2026-11-20
+Found 3 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 0
+Saved 3 topics for 2026-11-21
 Returning 3 unique trending topics:
-  1. Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow (from BBC News)
-  2. Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk (from BBC News)
-  3. Mamdani unveils plan to close New York’s Rikers Island by 2032 (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
+  1. UK to explore even closer ties with EU after agreeing deal, says Burnham (from BBC News)
+  2. Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow (from BBC News)
+  3. California’s coastal communities on alert as biggest waves in years hit state (from The Guardian)
+
+Processing trending topic: UK to explore even closer ties with EU after agreeing deal, says Burnham
+Searching Google for: UK to explore even closer ties with EU after agreeing deal, says Burnham
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUK%252Bto%252Bexplore%252Beven%252Bcloser%252Bties%252Bwith%252BEU%252Bafter%252Bagreeing%252Bdeal%252C%252Bsays%252BBurnham%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5GGN3Qg9gGIjDnYg1R7GAj9WekuWwRQPVLuCJmPjsr5mlC8tszNohwbVFnyik9l34uostIlKL4bgcyCGpDUmNkZW5yWgFDYMm2qcuZ7daoAw
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: uk-to-explore-even-closer-ties-with-eu-after-agree_20261121_0040.html
+✓ Created comprehensive article: uk-to-explore-even-closer-ties-with-eu-after-agree_20261121_0040.html
 
 Processing trending topic: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
 Searching Google for: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFaisal%252BIslam%253A%252BThis%252Bcost-cutting%252BUK-EU%252Bdeal%252Bdoesn%2527t%252Bmean%252Blower%252Bprices%252Bwill%252Bfollow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WanGIyfgtgGIjAq0aRk4_Ua0qyIixGVaNKT_RUj_DiqJxTgsjzzAm8437klUtRsYWXKglVeJrRkIO8yCGpDUmNkZW5yWgFDYPWt6cvT5IXjOg
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DFaisal%252BIslam%253A%252BThis%252Bcost-cutting%252BUK-EU%252Bdeal%252Bdoesn%2527t%252Bmean%252Blower%252Bprices%252Bwill%252Bfollow%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5GGOTQg9gGIjCJAmeioljghxNDo5GdfwiLNVE8fdyiqxiMX5oWvAaitVMdidZrxS1IytQgwGoVEmgyCGpDUmNkZW5yWgFDYPCB18vY6Nj57QE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261120_1821.html
-✓ Created comprehensive article: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261120_1821.html
+Successfully created file: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261121_0040.html
+✓ Created comprehensive article: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261121_0040.html
 
-Processing trending topic: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
-Searching Google for: Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DRussian%252Bmissile%252Bhits%252BPoland%252Bas%252BKyiv%2527s%252Ballies%252Bhold%252Bmilitary%252Bexercise%252C%252Bsays%252BTusk%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WanGJOfgtgGIjDHIAYKtX6AUf4h5J46Co2cl4_3gyATJvEmWD1eECnqnFR_H4OeCZo2CnEY9cGXfPIyCGpDUmNkZW5yWgFDYPK62JbFm-zqrQE
+Processing trending topic: California’s coastal communities on alert as biggest waves in years hit state
+Searching Google for: California’s coastal communities on alert as biggest waves in years hit state
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DCalifornia%25E2%2580%2599s%252Bcoastal%252Bcommunities%252Bon%252Balert%252Bas%252Bbiggest%252Bwaves%252Bin%252Byears%252Bhit%252Bstate%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUqF5GGOrQg9gGIjB9WUObE3yZAOoJXCGEZsbrJPahzNYlZnY5xJjFOm746xnertC58TOMULfumyKdbckyCGpDUmNkZW5yWgFDYOCdr5mzy-7oeg
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: russian-missile-hits-poland-as-kyivs-allies-hold-m_20261120_1821.html
-✓ Created comprehensive article: russian-missile-hits-poland-as-kyivs-allies-hold-m_20261120_1821.html
-
-Processing trending topic: Mamdani unveils plan to close New York’s Rikers Island by 2032
-Searching Google for: Mamdani unveils plan to close New York’s Rikers Island by 2032
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DMamdani%252Bunveils%252Bplan%252Bto%252Bclose%252BNew%252BYork%25E2%2580%2599s%252BRikers%252BIsland%252Bby%252B2032%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw2WanGJmfgtgGIjC55sisNGvxwjNPIzR8WsVDlvSeCb5aBL3HH7pWHgdDCmn9EE9JrNOSQ93G-c8HcNYyCGpDUmNkZW5yWgFDYM6ograrqtPFjwE
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: mamdani-unveils-plan-to-close-new-yorks-rikers-isl_20261120_1821.html
-✓ Created comprehensive article: mamdani-unveils-plan-to-close-new-yorks-rikers-isl_20261120_1821.html
+Successfully created file: californias-coastal-communities-on-alert-as-bigges_20261121_0040.html
+✓ Created comprehensive article: californias-coastal-communities-on-alert-as-bigges_20261121_0040.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: tens-of-thousands-of-uk-fridges-secured-from-hacke_20261120_0106.html
-Cleaned old post to keep top 30 limit: race-to-replant-five-south-african-baobabs-after-e_20261120_0106.html
-Cleaned old post to keep top 30 limit: californias-coastal-communities-on-alert-as-bigges_20261120_0945.html
+Cleaned old post to keep top 30 limit: watch-trump-greets-my-friend-putin-as-pair-shake-h_20261119_0955.html
+Cleaned old post to keep top 30 limit: russian-missile-hits-poland-as-kyivs-allies-hold-m_20261120_1821.html
+Cleaned old post to keep top 30 limit: faisal-islam-this-cost-cutting-uk-eu-deal-doesnt-m_20261120_1821.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
+   • UK to explore even closer ties with EU after agreeing deal, says Burnham
+     Sources: bbc.com, cnn.com, reuters.com
    • Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow
      Sources: bbc.com, cnn.com, reuters.com
-   • Russian missile hits Poland as Kyiv's allies hold military exercise, says Tusk
-     Sources: bbc.com, cnn.com, reuters.com
-   • Mamdani unveils plan to close New York’s Rikers Island by 2032
+   • California’s coastal communities on alert as biggest waves in years hit state
      Sources: bbc.com, cnn.com, reuters.com
