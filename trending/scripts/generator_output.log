@@ -1,65 +1,69 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 0 topics
+Already used today: 3 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
-  Added: Stalking law simplified to become one offence
-  Added: US approves SpaceX plan to send a million data satellites to space
+  Added: German boat dealer suspected of supplying Channel smuggling gangs, BBC finds
+  Added: Watch: BBC confronts German man suspected of supplying migrant gangs with small boats
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
 Fetching from The Guardian...
   Added: At least 31 killed as fuel tanker crash ignites large fire on Cairo highway
-Found 3 unique trending topics out of 3 total topics
-Topics filtered out due to daily duplicates: 0
-Saved 3 topics for 2026-11-26
+Found 2 unique trending topics out of 3 total topics
+Topics filtered out due to daily duplicates: 1
+Need 1 more unique topics, expanding search...
+Searching additional news sources...
+  Found from Al Jazeera – Breaking News, World News and Video from Al Jazeera: Ukraine drone attack kills five in Russian-occupied Zaporizhia
+Added expanded search topic: Ukraine drone attack kills five in Russian-occupied Zaporizhia
+Saved 6 topics for 2026-11-26
 Returning 3 unique trending topics:
-  1. Stalking law simplified to become one offence (from BBC News)
-  2. US approves SpaceX plan to send a million data satellites to space (from BBC News)
-  3. At least 31 killed as fuel tanker crash ignites large fire on Cairo highway (from The Guardian)
+  1. German boat dealer suspected of supplying Channel smuggling gangs, BBC finds (from BBC News)
+  2. Watch: BBC confronts German man suspected of supplying migrant gangs with small boats (from BBC News)
+  3. Ukraine drone attack kills five in Russian-occupied Zaporizhia (from Al Jazeera – Breaking News, World News and Video from Al Jazeera)
 
-Processing trending topic: Stalking law simplified to become one offence
-Searching Google for: Stalking law simplified to become one offence
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DStalking%252Blaw%252Bsimplified%252Bto%252Bbecome%252Bone%252Boffence%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq8KRGMWantgGIjAufR64bHXWgFrcxZcorUNWbAWlqpvbwK1V4aM9ZV8Hmm55pNSwJUKd70yLSYNS_RkyCGpDUmNkZW5yWgFDYImxlJSu66XQlAE
+Processing trending topic: German boat dealer suspected of supplying Channel smuggling gangs, BBC finds
+Searching Google for: German boat dealer suspected of supplying Channel smuggling gangs, BBC finds
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DGerman%252Bboat%252Bdealer%252Bsuspected%252Bof%252Bsupplying%252BChannel%252Bsmuggling%252Bgangs%252C%252BBBC%252Bfinds%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVHGNCUoNgGIjDVzTEOTeonXAlXk8IUYNe9sy_zHmt4HEP0o2nuxCFzMVMUAQKkq8S-fFjygA3L4wQyCGpDUmNkZW5yWgFDYMKe0c296vCqIw
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: stalking-law-simplified-to-become-one-offence_20261126_0137.html
-✓ Created comprehensive article: stalking-law-simplified-to-become-one-offence_20261126_0137.html
+Successfully created file: german-boat-dealer-suspected-of-supplying-channel-_20261126_1030.html
+✓ Created comprehensive article: german-boat-dealer-suspected-of-supplying-channel-_20261126_1030.html
 
-Processing trending topic: US approves SpaceX plan to send a million data satellites to space
-Searching Google for: US approves SpaceX plan to send a million data satellites to space
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Bapproves%252BSpaceX%252Bplan%252Bto%252Bsend%252Ba%252Bmillion%252Bdata%252Bsatellites%252Bto%252Bspace%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq8KRGMyantgGIjCPtIff2SFz8Wj7EEHC51sYG8sBcGmys3_gRdqqMvNDJsoqBkcENxISAaTrcHWg65cyCGpDUmNkZW5yWgFDYPmuqI7Zss77Jw
+Processing trending topic: Watch: BBC confronts German man suspected of supplying migrant gangs with small boats
+Searching Google for: Watch: BBC confronts German man suspected of supplying migrant gangs with small boats
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BBBC%252Bconfronts%252BGerman%252Bman%252Bsuspected%252Bof%252Bsupplying%252Bmigrant%252Bgangs%252Bwith%252Bsmall%252Bboats%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVHGNeUoNgGIjCzAzn739ZezOuaVPYJFFDsRZr7ays1YHsms5nyH3ctg3l15y5Uhtr8H8GPdW2y5UgyCGpDUmNkZW5yWgFDYNyHmZ2KppHeygE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: us-approves-spacex-plan-to-send-a-million-data-sat_20261126_0137.html
-✓ Created comprehensive article: us-approves-spacex-plan-to-send-a-million-data-sat_20261126_0137.html
+Successfully created file: watch-bbc-confronts-german-man-suspected-of-supply_20261126_1030.html
+✓ Created comprehensive article: watch-bbc-confronts-german-man-suspected-of-supply_20261126_1030.html
 
-Processing trending topic: At least 31 killed as fuel tanker crash ignites large fire on Cairo highway
-Searching Google for: At least 31 killed as fuel tanker crash ignites large fire on Cairo highway
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAt%252Bleast%252B31%252Bkilled%252Bas%252Bfuel%252Btanker%252Bcrash%252Bignites%252Blarge%252Bfire%252Bon%252BCairo%252Bhighway%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUq8KRGNKantgGIjCTxjKz4I8U6V-KMiMiYPfKpIFA6AXUrwGnZEX8O9OqcM9vGYS-Aov-DUb-eGBwMzEyCGpDUmNkZW5yWgFDYMXK3uXFnZ-SkgE
+Processing trending topic: Ukraine drone attack kills five in Russian-occupied Zaporizhia
+Searching Google for: Ukraine drone attack kills five in Russian-occupied Zaporizhia
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUkraine%252Bdrone%252Battack%252Bkills%252Bfive%252Bin%252BRussian-occupied%252BZaporizhia%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQw1jVHGN2UoNgGIjDIFVjZrnqPkC_0YA3EDXCkXdyqLZLUpYW0OpBgVT98Ib3xvzwzIt_ypeN0_YlaCBMyCGpDUmNkZW5yWgFDYIjf3vb57aONzwE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: at-least-31-killed-as-fuel-tanker-crash-ignites-la_20261126_0137.html
-✓ Created comprehensive article: at-least-31-killed-as-fuel-tanker-crash-ignites-la_20261126_0137.html
+Successfully created file: ukraine-drone-attack-kills-five-in-russian-occupie_20261126_1030.html
+✓ Created comprehensive article: ukraine-drone-attack-kills-five-in-russian-occupie_20261126_1030.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: whats-next-after-no-deal-at-cop31-climate-talks_20261123_0548.html
-Cleaned old post to keep top 30 limit: poundland-collapses-putting-11000-jobs-at-risk_20261125_1757.html
-Cleaned old post to keep top 30 limit: more-than-300-russians-killed-as-moscow-props-up-m_20261124_2349.html
+Cleaned old post to keep top 30 limit: staggered-age-of-consent-to-be-discussed-after-bra_20261115_1523.html
+Cleaned old post to keep top 30 limit: nuclear-test-veterans-speak-to-bbc-about-search-fo_20261125_0703.html
+Cleaned old post to keep top 30 limit: at-least-31-killed-as-fuel-tanker-crash-ignites-la_20261126_0137.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Stalking law simplified to become one offence
+   • German boat dealer suspected of supplying Channel smuggling gangs, BBC finds
      Sources: bbc.com, cnn.com, reuters.com
-   • US approves SpaceX plan to send a million data satellites to space
+   • Watch: BBC confronts German man suspected of supplying migrant gangs with small boats
      Sources: bbc.com, cnn.com, reuters.com
-   • At least 31 killed as fuel tanker crash ignites large fire on Cairo highway
+   • Ukraine drone attack kills five in Russian-occupied Zaporizhia
      Sources: bbc.com, cnn.com, reuters.com
