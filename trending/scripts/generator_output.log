@@ -1,9 +1,9 @@
 Starting enhanced trending news generation for 1 hour(s)...
-Already used today: 6 topics
+Already used today: 0 topics
 Attempting to fetch trending topics from multiple sources...
 Fetching from BBC News...
+  Added: US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC
   Added: Huntingdon train attacker found guilty of all 14 counts of attempted murder
-  Added: Watch: How knife attack on train unfolded
 Fetching from CNN...
 Fetching from Reuters...
 Fetching from Associated Press...
@@ -11,55 +11,55 @@ Fetching from The Guardian...
   Added: ‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record
 Found 3 unique trending topics out of 3 total topics
 Topics filtered out due to daily duplicates: 0
-Saved 9 topics for 2026-11-26
+Saved 3 topics for 2026-11-27
 Returning 3 unique trending topics:
-  1. Huntingdon train attacker found guilty of all 14 counts of attempted murder (from BBC News)
-  2. Watch: How knife attack on train unfolded (from BBC News)
+  1. US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC (from BBC News)
+  2. Huntingdon train attacker found guilty of all 14 counts of attempted murder (from BBC News)
   3. ‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record (from The Guardian)
+
+Processing trending topic: US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC
+Searching Google for: US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUS%252Btoo%252Bfocused%252Bon%252BMiddle%252BEast%252Band%252Bnot%252Bpushing%252BRussia%252Bhard%252Benough%252C%252BZelensky%252Btells%252BBBC%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsswYUGLTeo9gGIjA5OJH4FI7vYGuOtNbKX6RkM8jCsi2_HuUr4EMri5wFn-BLkIY7gapQ6AYhSi6AmucyCGpDUmNkZW5yWgFDYP_z9uCX2rPMMA
+Using fallback results instead
+Extracting content from: bbc.com
+Extracting content from: cnn.com
+Extracting content from: reuters.com
+Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
+Successfully created file: us-too-focused-on-middle-east-and-not-pushing-russ_20261127_0247.html
+✓ Created comprehensive article: us-too-focused-on-middle-east-and-not-pushing-russ_20261127_0247.html
 
 Processing trending topic: Huntingdon train attacker found guilty of all 14 counts of attempted murder
 Searching Google for: Huntingdon train attacker found guilty of all 14 counts of attempted murder
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHuntingdon%252Btrain%252Battacker%252Bfound%252Bguilty%252Bof%252Ball%252B14%252Bcounts%252Bof%252Battempted%252Bmurder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYo7iGNSgotgGIjAlErOcJIh2y1fsAT_w43CMTdK7Nz3CHCE5tCRWQI9dPm1-Q8JwkyLu006k3TGjwG0yCGpDUmNkZW5yWgFDYKCxhvHL6ZWWfw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DHuntingdon%252Btrain%252Battacker%252Bfound%252Bguilty%252Bof%252Ball%252B14%252Bcounts%252Bof%252Battempted%252Bmurder%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsswYUGLveo9gGIjApdslwcz1dnP41Tohj2Q5cVJb1IsMOMpq0tUbcLaoekXNTyfvoK6i9xlsGOqubRYgyCGpDUmNkZW5yWgFDYO7PhOa1--HssQE
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: huntingdon-train-attacker-found-guilty-of-all-14-c_20261126_2002.html
-✓ Created comprehensive article: huntingdon-train-attacker-found-guilty-of-all-14-c_20261126_2002.html
-
-Processing trending topic: Watch: How knife attack on train unfolded
-Searching Google for: Watch: How knife attack on train unfolded
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWatch%253A%252BHow%252Bknife%252Battack%252Bon%252Btrain%252Bunfolded%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYo7iGNugotgGIjDJ_8BXygDbAqINBlr1lHV1dJI2d0Hz-Chjx4ACmuRztliUIwvYYQ_p8bOm_bMwZLsyCGpDUmNkZW5yWgFDYOnRhoLLzubqcA
-Using fallback results instead
-Extracting content from: bbc.com
-Extracting content from: cnn.com
-Extracting content from: reuters.com
-Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: watch-how-knife-attack-on-train-unfolded_20261126_2002.html
-✓ Created comprehensive article: watch-how-knife-attack-on-train-unfolded_20261126_2002.html
+Successfully created file: huntingdon-train-attacker-found-guilty-of-all-14-c_20261127_0247.html
+✓ Created comprehensive article: huntingdon-train-attacker-found-guilty-of-all-14-c_20261127_0247.html
 
 Processing trending topic: ‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record
 Searching Google for: ‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record
-Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598I%25E2%2580%2599m%252Bno%252Blonger%252Ba%252BUAE%252Bofficial%25E2%2580%2599%253A%252BUN%252Bhopeful%252BLana%252BNusseibeh%252Btries%252Bto%252Bshake%252Boff%252BSudan%252Brecord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgQUYo7iGOGgotgGIjCwegiqoBH3FAjQt59q4ugPUie-JiDZjTKipmUP3J9nv3aNY-OZ9p2Y_HbC6JME7eMyCGpDUmNkZW5yWgFDYJrgw9_j_Kv3Lw
+Google search failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E2%2580%2598I%25E2%2580%2599m%252Bno%252Blonger%252Ba%252BUAE%252Bofficial%25E2%2580%2599%253A%252BUN%252Bhopeful%252BLana%252BNusseibeh%252Btries%252Bto%252Bshake%252Boff%252BSudan%252Brecord%26num%3D5%26hl%3Den%26start%3D0&hl=en&q=EgSsswYUGMLeo9gGIjB1RXl-xME31h6lcHRQqIw_Lg7VJDfPbiabEHAP0giLaP7p_2ANsFWWef9gdMx6eOAyCGpDUmNkZW5yWgFDYInB_7_3o8_BXQ
 Using fallback results instead
 Extracting content from: bbc.com
 Extracting content from: cnn.com
 Extracting content from: reuters.com
 Request error for https://reuters.com/news: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/news
-Successfully created file: im-no-longer-a-uae-official-un-hopeful-lana-nussei_20261126_2002.html
-✓ Created comprehensive article: im-no-longer-a-uae-official-un-hopeful-lana-nussei_20261126_2002.html
+Successfully created file: im-no-longer-a-uae-official-un-hopeful-lana-nussei_20261127_0247.html
+✓ Created comprehensive article: im-no-longer-a-uae-official-un-hopeful-lana-nussei_20261127_0247.html
 ✓ Updated index.html with 10 total headlines (newest first)
-Cleaned old post to keep top 30 limit: swiss-tourist-killed-and-british-and-americans-inj_20261125_1757.html
-Cleaned old post to keep top 30 limit: zelensky-says-crimean-bridge-strikes-fair-response_20261121_2138.html
-Cleaned old post to keep top 30 limit: german-boat-dealer-suspected-of-supplying-channel-_20261126_1030.html
+Cleaned old post to keep top 30 limit: ukraine-confirms-it-used-naval-drones-to-strike-tw_20261123_1727.html
+Cleaned old post to keep top 30 limit: im-no-longer-a-uae-official-un-hopeful-lana-nussei_20261126_2002.html
+Cleaned old post to keep top 30 limit: huntingdon-train-attacker-found-guilty-of-all-14-c_20261126_2002.html
 
 🎉 Generation complete! Created 3 new comprehensive articles
 
 📊 Summary: Generated 3 articles with:
-   • Huntingdon train attacker found guilty of all 14 counts of attempted murder
+   • US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC
      Sources: bbc.com, cnn.com, reuters.com
-   • Watch: How knife attack on train unfolded
+   • Huntingdon train attacker found guilty of all 14 counts of attempted murder
      Sources: bbc.com, cnn.com, reuters.com
    • ‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record
      Sources: bbc.com, cnn.com, reuters.com
